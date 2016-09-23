@@ -71,3 +71,7 @@ foreach (dynamic d in docs)
 }
 session.SaveChanges();
 ```
+
+##### IDataSource
+1. If a filter is to be applied, all entries must be retrieved before any filtering.
+2. If no filtering is required, real paging can be accomplished using ObjectDataSource, but not SqlDataSource.
