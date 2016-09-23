@@ -1,3 +1,10 @@
+### To increase testability (C#)
+- No object instantiation in business logics
+- Constructor - nothing more than simple assignments
+- Avoid global state - no `DateTime.Now`,  no `Math.Random()`, ... etc
+- Avoid public `init()`-kind of methods
+- Avoid the use of service locator as it hides dependencies. (However, it is still better than singleton which is a share state)
+
 ##### Parallel for-loop
 ```csharp
 public class Job
