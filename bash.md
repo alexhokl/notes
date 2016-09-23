@@ -1,3 +1,5 @@
+see [GOTO 2013 • Power Use of UNIX • Dan North](https://www.youtube.com/watch?v=7uwW20odwEk)
+
 to show the current process ID
 ```sh
 echo $$
