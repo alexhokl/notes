@@ -1,0 +1,7 @@
+- Run unit tests before pushing any commit to source control
+- Run unit-tests on each merge and push
+- Even a commit is meant to be deployed immediately, it is better to make the commit onto a branch before merging it into master branch
+- Requirements should be documented either in product or sprint (or both) backlog
+- To name something (e.g. a variable) in code, avoid copy and paste without generalising and thinking of naming convention
+- Check if any files should not be committed before creating a git commit
+- Don't put un-related changes in to the same commit
