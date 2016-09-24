@@ -98,3 +98,18 @@ To edit user git config
 ```sh
 git config --global --edit
 ```
+
+To connect to the original repository of a forked repository,
+check if the original repository is already stated in remotes.
+If not, use `git remote add` to add "upstream".
+```sh
+git remote -v
+git remote add upstream https://github.com/original/original.git
+```
+
+To update a forked repository from the original repository (`upstream` is just a name of a remote, see `git remote -v`)
+```sh
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
