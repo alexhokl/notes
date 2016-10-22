@@ -19,6 +19,11 @@ to remove all docker volumes
 docker volume rm $(docker volume ls -q)
 ```
 
+to copy directory from container to host
+```sh
+docker cp proxy:/etc/letsencrypt ~/Desktop/letsencrypt
+```
+
 to make sure all containers stated in docker-compose.yml are up and running in daemon mode
 ```sh
 docker-compose up -d
