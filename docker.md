@@ -24,6 +24,11 @@ to copy directory from container to host
 docker cp proxy:/etc/letsencrypt ~/Desktop/letsencrypt
 ```
 
+To inspect the health of a container (assuming it has `HEALTHCHECK CMD` in the image and the container named `proxy`)
+```sh
+docker inspect --format='{{json .State.Health}}' proxy
+```
+
 to make sure all containers stated in docker-compose.yml are up and running in daemon mode
 ```sh
 docker-compose up -d
