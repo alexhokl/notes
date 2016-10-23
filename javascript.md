@@ -1,3 +1,13 @@
+##### array
+
+to find unique items in an array
+```js
+var uniquePredicate = function (value, index, self) {
+  return self.indexOf(value) === index;
+}
+var uniqueDocuments = allDocuments.filter(uniquePredicate);
+```
+
 ##### double and triple equality
 ```js
 null == undefined   // true
