@@ -13,3 +13,8 @@ To format the code
 ```sh
 go fmt -d main.go
 ```
+
+To test a project
+```sh
+go test ./...
+```
