@@ -114,7 +114,7 @@ git checkout master
 git merge upstream/master
 ```
 
-To configure git user information for single repository
+To configure git user information for single repository (stored in `.git/config`)
 ```sh
 git config user.email alex@some.other.org
 git config user.name alex.some.other.org
