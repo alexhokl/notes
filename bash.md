@@ -101,3 +101,11 @@ To kill a process running on a particular port
 ```sh
 kill $(lsof -ti tcp:3000)
 ```
+
+To umount an USB drive and dump ISO image to it (on Mac)
+```sh
+diskutil list
+diskutil unmountDisk /dev/disk2
+sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
+diskutil eject /dev/disk2
+```
