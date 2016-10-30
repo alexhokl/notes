@@ -81,6 +81,11 @@ To list clusters
 gcloud container clusters list
 ```
 
+To list disks created
+```sh
+gcloud compute disks
+```
+
 To list available machine types
 ```sh
 gcloud compute machine-types list
