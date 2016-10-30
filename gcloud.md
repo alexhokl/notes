@@ -51,6 +51,11 @@ To check status of pods
 kubectl get pods
 ```
 
+To check logs of a pod
+```sh
+kubectl logs pod-name
+```
+
 To delete a service
 ```sh
 kubectl delete services any-service-name
