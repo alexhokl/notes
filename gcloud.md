@@ -36,6 +36,11 @@ gcloud container clusters create any-project-name-cluster \
   --machine-type f1-micro
 ```
 
+To create a persistent volume
+```sh
+gcloud compute disks create --size 1GB any-disk-name
+```
+
 To create pods from configuration files (`.json` or `.yaml`)
 ```sh
 kubectl create -f directory-to-files/
@@ -49,6 +54,11 @@ kubectl delete -f directory-to-files/
 To check status of pods
 ```sh
 kubectl get pods
+```
+
+To check if there is a problem in creating a pod
+```sh
+kubectl describe pod any-pod-name
 ```
 
 To check logs of a pod
