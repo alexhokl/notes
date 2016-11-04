@@ -3,7 +3,12 @@
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319>InstallUtil.exe D:\Alex.Scheduler.exe
 ```
 
-#### To loop through files [documentation](https://technet.microsoft.com/zh-tw/library/cc753551(v=ws.10).aspx)
+##### To check version of Windows
+```bat
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+```
+
+#### To loop through files [documentation](https://technet.microsoft.com/zh-tw/library/cc753551.aspx)
 
 ##### To delete log files more than 30 days old
 ```cmd
