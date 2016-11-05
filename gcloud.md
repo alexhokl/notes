@@ -1,3 +1,9 @@
+To login
+```sh
+gcloud auth login
+```
+
+
 To list current configuration
 ```sh
 gcloud config list
