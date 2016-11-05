@@ -29,6 +29,10 @@ $rootScope.$on('$stateNotFound',function(event, unfoundState, fromState, fromPar
 });
 ```
 
+#### Links
+
+- [Refactoring of AngularJS 1.x application](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html)
+
 ##### Tips
 - In order to avoid collisions with some future standard, it is best to prefix your own directive names.
 - Attribute versus element. Use an element when you are creating a component that is in control of the template. The common case for this is when you are creating a Domain-Specific Language for parts of a template. Use an attribute when decorating an existing element with new functionality.
