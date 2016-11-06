@@ -9,6 +9,11 @@ git remote add origin https://github.com/alexhokl/example.git
 git push -u origin master
 ```
 
+To add git bash completion
+1. Get the completion file from `https://github.com/git/git/blob/master/contrib/completion/git-completion.bash`.
+2. Copy the file to `/etc/bash_completion.d/` on Linux (on Mac, this requires a bit more work).
+3. On Mac, source the file from the path in step 2 in `~/.bash_profile`.
+
 In case of rolling-back a particular file (abc.txt, for example) from the last commit (before it is pushed onto GitHub).
 ```sh
 git reset --soft HEAD~
