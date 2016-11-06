@@ -24,6 +24,11 @@ To install kubernetes
 gcloud components install kubectl
 ```
 
+To create an instance
+```sh
+gcloud compute instances create instance-1 --machine-type f1-micro
+```
+
 To set credentials for containers (especially for `kubectl`) [not sure if `GOOGLE_APPLICATION_CREDENTIALS` is required]
 ```sh
 gcloud container clusters get-credentials any-project-name-cluster
