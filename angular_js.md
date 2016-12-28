@@ -48,6 +48,17 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 - There is a big template, with no `ng-controller`s or `ng-include`s inside it.
 - If there is some part inside the extracted HTML that you would rather leave in place, you can use transclusion.
 
+##### 4. [Replace External Reference with Bound Input](https://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-external-reference-with-bound-input)
+
+- In the template, find any functions or variables which bind to a foreign controller and introduce a binding for this external reference, and put it in the `bindToController` section of the  directive. Lastly, replace the external reference with a reference to the new controller binding.
+- For `$watch`, `$watchCollection`, or `$watchGroup` referencing expressions in a foreign controller, ntroduce a binding for this external reference, and put it in the `bindToController` section of the  directive. Lastly, replace the external reference with a reference to the new controller binding. In order words, the watch statements can be kept but we make sure it is not referencing a foreign controller.
+
+##### 5. [Replace External Effect with Bound Output](https://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-external-effect-with-bound-output)
+
+- Effectively same mechanics as in previous step. The key words to searach for like `ng-change` or `ng-click`. Instead of using `=` in `bindToController`, we use `&` to allow the expression to be evaluated in the context of the original scope, at a specific time.
+
+
+
 ##### Tips
 - In order to avoid collisions with some future standard, it is best to prefix your own directive names.
 - Attribute versus element. Use an element when you are creating a component that is in control of the template. The common case for this is when you are creating a Domain-Specific Language for parts of a template. Use an attribute when decorating an existing element with new functionality.
