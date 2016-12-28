@@ -29,9 +29,24 @@ $rootScope.$on('$stateNotFound',function(event, unfoundState, fromState, fromPar
 });
 ```
 
-#### Links
+#### Refactoring on version 1.4
 
-- [Refactoring of AngularJS 1.x application](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html)
+The refactoring is done to make sure the codebase can be ported to Angular2 and beyond (See [Refactoring Angular Apps to Component Style](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html)). Here are the steps involved.
+
+##### 1. [Replace `ng-include` with directive](https://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-ng-include-with-component-directive)
+
+- `ng-include` is a relatively low-level feature that pollutes your view with information about template file locations.
+- Create a directive, named after the template. Make it use a new inherited scope (`scope`: `true`).
+
+##### 2. [Replace `ng-controller` with directive](https://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-ng-controller-with-component-directive)
+
+- `ng-controller` often demarcates an area of the template that is somehow independent, or separate from its parents and siblings. If it is, it should be a component.
+- Create a directive, named after the controller. Make it use an inherited scope (`scope`: `true`).
+
+##### 3. [Wrap Markup in directive](https://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#wrap-markup-in-component-directive)
+
+- There is a big template, with no `ng-controller`s or `ng-include`s inside it.
+- If there is some part inside the extracted HTML that you would rather leave in place, you can use transclusion.
 
 ##### Tips
 - In order to avoid collisions with some future standard, it is best to prefix your own directive names.
