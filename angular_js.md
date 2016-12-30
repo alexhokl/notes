@@ -57,6 +57,14 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 
 - Effectively same mechanics as in previous step. The key words to searach for like `ng-change` or `ng-click`. Instead of using `=` in `bindToController`, we use `&` to allow the expression to be evaluated in the context of the original scope, at a specific time.
 
+##### 6. [Isolate Component](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#isolate-component)
+
+- Replace `scope: true` with isolated scope `scope: {}`
+
+##### 7. [Replace State Mutation with Bound Output](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-state-mutation-with-bound-output)
+
+- The idea is to avoid mutating inputs and, instead, make calls to outside method (via an `&` binding) to tell outside to make the actual change.
+- An example of mutating inputs is an array passed into a directive and the directive try to remove one (or more) items from that array. 
 
 
 ##### Tips
