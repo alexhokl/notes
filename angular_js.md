@@ -3,31 +3,6 @@
 var s = angular.element($0).scope();
 ```
 
-##### ui.router
-to debug state transitions
-```js
-$rootScope.$on('$stateChangeStart',function(event, toState, toParams, fromState, fromParams){
-  console.log('$stateChangeStart to '+toState.to+'- fired when the transition begins. toState,toParams : \n',toState, toParams);
-});
-$rootScope.$on('$stateChangeError',function(event, toState, toParams, fromState, fromParams, error){
-  console.log('$stateChangeError - fired when an error occurs during transition.');
-  console.log(arguments);
-});
-$rootScope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){
-  console.log('$stateChangeSuccess to '+toState.name+'- fired once the state transition is complete.');
-});
-$rootScope.$on('$viewContentLoading',function(event, viewConfig){
-   console.log('$viewContentLoading - view begins loading - dom not rendered',viewConfig);
-});
-$rootScope.$on('$viewContentLoaded',function(event){
-  // runs on individual scopes, so putting it in "run" doesn't work.
-  console.log('$viewContentLoaded - fired after dom rendered',event);
-});
-$rootScope.$on('$stateNotFound',function(event, unfoundState, fromState, fromParams){
-  console.log('$stateNotFound '+unfoundState.to+'  - fired when a state cannot be found by its name.');
-  console.log(unfoundState, fromState, fromParams);
-});
-```
 
 #### Refactoring on version 1.4
 
@@ -64,12 +39,51 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 ##### 7. [Replace State Mutation with Bound Output](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-state-mutation-with-bound-output)
 
 - The idea is to avoid mutating inputs and, instead, make calls to outside method (via an `&` binding) to tell outside to make the actual change.
-- An example of mutating inputs is an array passed into a directive and the directive try to remove one (or more) items from that array. 
+- An example of mutating inputs is an array passed into a directive and the directive try to remove one (or more) items from that array.
+
+##### 8. [Replace Two-way Binding with One-way Binding](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#replace-two-way-binding-with-one-way-binding)
+
+- If a component indeed does reassign the value on purpose, an explicit output binding should be used instead of piggybacking on the two-way input.
+- Replace a two-way `=` binding on the directive configuration with an expression binding `&`.
+- Change all accesses (not just assignments) to the binding inside the component to function calls.
+- This refactoring has the same spirit as the previous refactoring.
+
+##### 9. [Toward Smart And Dumb Components](http://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html#toward-smart-and-dumb-components)
+
+- Smart components are connected to services. Though they may have inputs and outputs, they mostly know how to load their own data, and how to persist changes when they occur.
+- Dumb components are fully defined by their bindings: All data they use is given to them as inputs, and every change they introduce comes out as an output.
+-  Try coming up with a component structure with few smart components at the root, and many dumb components downward from there.
 
 
-##### Tips
+#### ui.router
+to debug state transitions
+```js
+$rootScope.$on('$stateChangeStart',function(event, toState, toParams, fromState, fromParams){
+  console.log('$stateChangeStart to '+toState.to+'- fired when the transition begins. toState,toParams : \n',toState, toParams);
+});
+$rootScope.$on('$stateChangeError',function(event, toState, toParams, fromState, fromParams, error){
+  console.log('$stateChangeError - fired when an error occurs during transition.');
+  console.log(arguments);
+});
+$rootScope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){
+  console.log('$stateChangeSuccess to '+toState.name+'- fired once the state transition is complete.');
+});
+$rootScope.$on('$viewContentLoading',function(event, viewConfig){
+   console.log('$viewContentLoading - view begins loading - dom not rendered',viewConfig);
+});
+$rootScope.$on('$viewContentLoaded',function(event){
+  // runs on individual scopes, so putting it in "run" doesn't work.
+  console.log('$viewContentLoaded - fired after dom rendered',event);
+});
+$rootScope.$on('$stateNotFound',function(event, unfoundState, fromState, fromParams){
+  console.log('$stateNotFound '+unfoundState.to+'  - fired when a state cannot be found by its name.');
+  console.log(unfoundState, fromState, fromParams);
+});
+```
+
+
+#### General Tips
 - In order to avoid collisions with some future standard, it is best to prefix your own directive names.
 - Attribute versus element. Use an element when you are creating a component that is in control of the template. The common case for this is when you are creating a Domain-Specific Language for parts of a template. Use an attribute when decorating an existing element with new functionality.
 - Directives should clean up after themselves. You can use `element.on('$destroy', ...)` or `scope.$on('$destroy', ...)` to run a clean-up function when the directive is removed.
-- Use `$broadcast` and `$emit` in directive to communicate to "outside" world.
 - Avoid using jQuery validators and use AngularJS ones as jQuery ones not quite testable due to DOM manipulation
