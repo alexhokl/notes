@@ -55,6 +55,257 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 -  Try coming up with a component structure with few smart components at the root, and many dumb components downward from there.
 
 
+#### Migrating Angular 1.5 application in ES6 to Angular 2.0
+
+This documents the steps involved in such a migration (see [Migrating Angular 1 Applications to Angular2 in 5 Simple Steps](https://vsavkin.com/migrating-angular-1-applications-to-angular-2-in-5-simple-steps-40621800a25b)).
+
+##### 1. Bootstrap with UpgradeModule
+
+Create an Angular2 module with a simple root component rendering an element with the `ng-view` class. This component bootstraps the application and plugs the upgrade module as well.
+
+```js
+// ng2_app.js
+
+import {NgModule, Component} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {UpgradeModule} from '@angular/upgrade/static';
+
+@Component({
+  selector: 'root-cmp',
+  template: `
+    <div class="ng-view"></div>
+  `,
+})
+export class RootCmp {}
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    UpgradeModule,
+  ],
+  bootstrap: [RootCmp],
+  declarations: [RootCmp]
+})
+export class Ng2AppModule {
+  constructor(public upgrade: UpgradeModule){}
+}
+```
+
+Assuming the Angular 1.5 application looks like the following.
+```js
+// ng1_app.js
+
+import * as angular from 'angular'
+import 'angular-route'
+
+import {MessagesModule} from './messages';
+import {MenuModule} from './menu';
+import {SettingsModule} from './menu';
+
+export const Ng1AppModule = angular.module('Ng1AppModule', ['ngRoute', SettingsModule.name, MessagesModule.name, MenuModule.name]);
+```
+
+Write the "main" javascript file to bootstrap Angular2 first. We then bootstrap Angular1 using `NgUpgrade.bootstrap`. Note that the Angular1 router uses the `ng-view` created by `RootCmp` for instantiating its templates.
+```js
+// main.js
+
+// import polyfills
+import 'core-js/es7/reflect'
+import 'zone.js/dist/zone'
+
+// import angular2 dpes
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+
+import {Ng1AppModule} from './ng1_app';
+import {Ng2AppModule} from './ng2_app';
+
+/**
+ * We bootstrap the Angular2 module first, and then, once it's done,
+ * bootstrap the Angular 1 module.
+ */
+platformBrowserDynamic().bootstrapModule(Ng2AppModule).then(ref => {
+  // bootstrap angular1
+  (<any>ref.instance).upgrade.bootstrap(document.body, [Ng1AppModule.name]);
+});
+```
+
+##### 2. Make all modules export an NgModule
+
+- Update all the modules to export an `NgModule`
+- Add line `import {NgModule} from '@angular/core';`
+- At the bottom of the module export the module as `NgModule` by adding the following lines.
+```js
+// This is the Angular2 part of the module
+@NgModule({})
+export class AbcNgModule {}
+```
+- At this moment `AbcNgModule` is empty. Eventually, we will move all the components, services, and routes from `AbcModule` to `AbcNgModule`.
+- Import `AbcNgModule` to `ng2_app.js` (right under `UpgradeModule`).
+
+##### 3. Migrate individual components and services to Angular2, one module at a time
+
+- While migrating services is usually straightforward, migrating components can require more work, depending on how the components are implemented.
+- Assuming the migration of the component is done, and the required steps are to register it and to downgrade it.
+```js
+// messages/index.ts
+
+import * as angular from 'angular';
+import {NgModule} from '@angular/core';
+import {UpgradeModule, downgradeComponent} from '@angular/upgrade/static';
+
+import {Repository} from './repository';
+import {MessageTextCmp} from './message_text_cmp';
+import {MessagesCmp} from './messages_cmp';
+import {MessageCmp} from './message_cmp';
+
+export const MessagesModule = angular.module('MessagesModule', ['ngRoute']);
+
+MessagesModule.component('messages', MessagesCmp);
+MessagesModule.component('message', MessageCmp);
+MessagesModule.service('repository', Repository);
+MessagesModule.config(($routeProvider) => {
+  $routeProvider
+    .when('/messages/:folder',     {template : '<messages></messages>'})
+    .when('/messages/:folder/:id', {template : '<message></message>'});
+});
+
+@NgModule({
+  // components migrated to Angular2 should be registered here
+  declarations: [MessageTextCmp],
+  entryComponents: [MessageTextCmp],
+})
+export class MessagesNgModule {}
+
+// components migrated to Angular2 should be downgraded here
+MessagesModule.directive('messageText', <any>downgradeComponent({
+  component: MessageTextCmp,
+  inputs: ['text']
+}));
+```
+- Make the Repository service available for Angular2 components.
+```js
+// messages/index.ts
+
+//...
+
+export function exportRepository(m: UpgradeModule): Repository {
+  return m.$injector.get('repository');
+}
+
+@NgModule({
+  // components migrated to Angular2 should be registered here
+  declarations: [MessageTextCmp],
+  entryComponents: [MessageTextCmp],
+
+  providers: [
+    {provide: Repository, useFactory: exportRepository, deps: [UpgradeModule]}
+  ]
+})
+export class MessagesNgModule {}
+
+//...
+```
+- At the end of this step we have all the components and services of a module migrated to Angular2. Now we can start migrating its routes.
+
+##### 4. Divide the routes between the Angular 1 and the Angular2 routers
+
+- An example of a module having its routes migrated
+```js
+// settings/index.ts
+
+// This module was fully migrated to Angular2
+import * as angular from 'angular';
+
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {RouterModule} from '@angular/router';
+import {FormsModule} from '@angular/forms';
+import {SettingsCmp} from './settings_cmp';
+import {PageSizeCmp} from './page_size_cmp';
+
+// Since the whole module has been migrated to Angular2,
+// there is nothing you need to do here anymore.
+export const SettingsModule = angular.module('SettingsModule', []);
+
+@NgModule({
+  imports: [
+    CommonModule,
+    FormsModule,
+
+    // migrated routes
+    RouterModule.forChild([
+      { path: 'settings', children: [
+        { path: '', component: SettingsCmp },
+        { path: 'pagesize', component: PageSizeCmp }
+      ] },
+    ])
+  ],
+  declarations: [SettingsCmp, PageSizeCmp]
+})
+export class SettingsNgModule {}
+```
+
+ng2_app.js
+```js
+// ng2_app.ts
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    UpgradeModule,
+
+    // import all modules
+    MenuNgModule,
+    MessagesNgModule,
+    SettingsNgModule,
+
+    // You don't need to provide any routes.
+    // The router will collect all routes from all the registered modules.
+    RouterModule.forRoot([], {useHash: true, initialNavigation: false})
+  ],
+  providers: [
+    // Providing a custom url handling strategy to tell the Angular2 router
+    // which routes it is responsible for.
+    { provide: UrlHandlingStrategy, useClass: Ng1Ng2UrlHandlingStrategy }
+  ],
+
+  bootstrap: [RootCmp],
+  declarations: [RootCmp]
+})
+export class Ng2AppModule {
+  constructor(public upgrade: UpgradeModule){}
+}
+```
+
+```js
+// Ng1Ng2UrlHandlingStrategy.js
+class Ng1Ng2UrlHandlingStrategy implements UrlHandlingStrategy {
+  shouldProcessUrl(url) { return url.toString().startsWith("/settings"); }
+  extract(url) { return url; }
+  merge(url, whole) { return url; }
+}
+```
+- Update the root component to include an Angular2 router outlet.
+```js
+@Component({
+  selector: 'root-cmp',
+  template: `
+    <router-outlet></router-outlet>
+    <div class="ng-view"></div>
+  `,
+})
+export class RootCmp {}
+```
+- In this setup the Angular2 router and the Angular1 router coexist on the same page. Every URL is handled by only one router, that is, the routers handle subsets of the URLs supported by the application.
+- If an application module has been migrated to Angular2, all its routes are handled by the Angular2 router. So when navigating from an Angular1 module to an Angular2 module, the Angular 1 router will remove its template from the `ng-view` element, and the Angular2 router will place its component into the router outlet.
+- The Angular2 Router uses the provided `UrlHandlingStrategy` to distinguish the URLs it should handle from those it should ignore.
+- Only when the user navigates from an Angular2 module back to an Angular1 module, the Angular2 router will reset its state to “empty” and will update the URL. This will destroy all the Angular2 components created by the router emptying the router outlet. The Angular1 router will pick up the URL change and will instantiate corresponding Angular1 components.
+
+##### 5. Remove Angular 1 when every module has been migrated
+
+- Remove all the usages of `UpgradeModule`.
+
+
 #### ui.router
 to debug state transitions
 ```js
