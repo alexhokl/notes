@@ -146,8 +146,9 @@ export class AbcNgModule {}
 
 - While migrating services is usually straightforward, migrating components can require more work, depending on how the components are implemented.
 - Assuming the migration of the component is done, and the required steps are to register it and to downgrade it.
+
 ```js
-// messages/index.ts
+// messages/index.js
 
 import * as angular from 'angular';
 import {NgModule} from '@angular/core';
@@ -183,8 +184,9 @@ MessagesModule.directive('messageText', <any>downgradeComponent({
 }));
 ```
 - Make the Repository service available for Angular2 components.
+
 ```js
-// messages/index.ts
+// messages/index.js
 
 //...
 
@@ -205,13 +207,15 @@ export class MessagesNgModule {}
 
 //...
 ```
+
 - At the end of this step we have all the components and services of a module migrated to Angular2. Now we can start migrating its routes.
 
 ##### 4. Divide the routes between the Angular 1 and the Angular2 routers
 
 - An example of a module having its routes migrated
+
 ```js
-// settings/index.ts
+// settings/index.js
 
 // This module was fully migrated to Angular2
 import * as angular from 'angular';
@@ -245,9 +249,8 @@ export const SettingsModule = angular.module('SettingsModule', []);
 export class SettingsNgModule {}
 ```
 
-ng2_app.js
 ```js
-// ng2_app.ts
+// ng2_app.js
 
 @NgModule({
   imports: [
