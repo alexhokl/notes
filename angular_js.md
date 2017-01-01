@@ -64,6 +64,28 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 - Put all initialisation code in a controller (be it directive, component or just a controller) in `this.$onInit`.
 - Convert all the component directive to component. That is, converting all directives where it does not involve DOM manipulation to components.
 
+```js
+// before
+.directive('counter', function counter() {
+  return {
+    scope: {},
+    bindToController: {
+      count: '='
+    },
+    controller: 'AbcController',
+    controllerAs: 'ctrl'
+  };
+});
+
+// after
+.component('counter', {
+  bindings: {
+    count: '='
+  },
+  controller: 'AbcController as ctrl'
+});
+```
+
 
 #### Migrating Angular 1.5 application in ES6 to Angular 2.0
 
