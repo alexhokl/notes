@@ -1,4 +1,4 @@
-##### Checking AngularJS scope variables with inspector of a browser
+#### Checking AngularJS scope variables with inspector of a browser
 ``` js
 var s = angular.element($0).scope();
 ```
@@ -61,7 +61,7 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 
 - Replace `$http.success(function (data))` with `$http.then(function (response))`.
 - Replace `$http.error(function (err))` with `$http.then(function (response), function (err))`.
-- Put all initialisation code in a controller (be it directive, component or just a controller) in `this.$onInit`.
+- Put all initialisation code in a controller (be it directive, component or just a controller) in `this.$onInit`. `$OnInit` is called right after the directive’s data-bound properties have been checked for the first time, and before any of its children have been checked. It is invoked only once when the directive is instantiated.
 - Convert all the component directive to component. That is, converting all directives where it does not involve DOM manipulation to components.
 
 ```js
@@ -84,6 +84,41 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
   },
   controller: 'AbcController as ctrl'
 });
+```
+
+- Use one-way binding `<` as much as possible and to avoid two-way binding `=`.
+- Use `$onChanges` to make data flow within a component more explicit. `$onChanges` is called in the local component controller from changes that occurred in the parent controller. Changes that occur from the parent which are inputted into a component using `bindings: {}`.
+
+```js
+var childComponent = {
+  bindings: {
+    user: '<',
+    onUpdateUser: '&'
+  },
+  controller: function () {
+    this.$onChanges = function (changes) {
+      if (!!changes.user) {
+        if (changes.user.isFirstChange()) {
+          return;
+        }
+        this.user = angular.copy(changes.user.currentValue);  // as oppose to previousValue
+      } else {
+        this.user = null;
+      }
+    };
+    this.updateUser = function () {
+      this.onUpdateUser({
+        $event: {
+          user: this.user,
+        },
+      });
+    };
+  }
+};
+
+angular
+  .module('app')
+  .component('childComponent', childComponent);
 ```
 
 
