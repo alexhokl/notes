@@ -55,6 +55,16 @@ The refactoring is done to make sure the codebase can be ported to Angular2 and 
 -  Try coming up with a component structure with few smart components at the root, and many dumb components downward from there.
 
 
+#### Refactoring on version 1.5
+
+The refactoring is done to make sure the codebase can be ported to Angular2 and beyond. Here are the steps involved.
+
+- Replace `$http.success(function (data))` with `$http.then(function (response))`.
+- Replace `$http.error(function (err))` with `$http.then(function (response), function (err))`.
+- Put all initialisation code in a controller (be it directive, component or just a controller) in `this.$onInit`.
+- Convert all the component directive to component. That is, converting all directives where it does not involve DOM manipulation to components.
+
+
 #### Migrating Angular 1.5 application in ES6 to Angular 2.0
 
 This documents the steps involved in such a migration (see [Migrating Angular 1 Applications to Angular2 in 5 Simple Steps](https://vsavkin.com/migrating-angular-1-applications-to-angular-2-in-5-simple-steps-40621800a25b)).
