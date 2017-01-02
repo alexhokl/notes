@@ -4,7 +4,7 @@
 
 - no labels on items of product backlog (e.g. must-have, nice-to-have)
 - each item must be complete in a sprint (it won't span more than one sprint)
-- it is meant to be replacing PRD (product requirement document, or functional specification)
+- it is meant to be replacing PRD (product requirement document), or functional specification
   - probably requirements in PRD is too big to be implemented
 - each item can be implemented and tested separately
 - must be non-technical (like create a database table)
