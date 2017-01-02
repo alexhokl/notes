@@ -132,3 +132,110 @@
 - project lifetime is very short
 - not even a project
 - team smaller than 5 or no stable teams
+
+
+### Agile Manifesto and Scrum
+
+- individuals and interactions over processes and tools
+  - scrum relies directly on trust in teams, the individuals in the teams and the way they interact
+  - teams figure out what is to be done, teams figure out how to do it, and teams do it.
+  - internal problems
+    - team take the responsibility and to resolve all the difficulties
+  - concerns outside the team
+    - team works with other parts of the organisation
+- working software over comprehensive documentation
+  - product increment as the major result of every sprint
+    - documentation can be done but it is not the primary result
+- customer collaboration over contract negotiation
+  - product owner is the prime point of contact with the eventual users
+- responding to change over following a plan
+  - everyone has the information they need to make good decisions about the project
+  - the backlog of things to be done is available for all to see
+  - problems and concerns are discussed openly and dealt with immediately
+
+### Scrum Values
+
+- focus
+- courage
+- openness
+- commitment
+- respect
+
+### Scrum
+
+- a framework for building a product
+- a team process
+- requires transparency within the team and with the stakeholders
+  - produces visible displays of plans and progress
+    - any extra artefacts could be created to increase transparency
+      - example: burn charts, task boards
+
+### Scrum Team
+
+- product owner
+  - responsible for deciding what work will be done
+  - must be a single person
+  - the person who is expected to do the best possible job of satisfying all the stakeholders
+  - manage product backlog
+- members of the development team
+  - builds the product incrementally
+  - expected to be available to the project full time
+  - determine how much they can do in one sprint
+- scrum master
+  - servant leader
+  - helping the team and the organisation make the best use of Scrum
+  - works with
+    - product owner
+      - to help product owner understand how to create and maintain the product backlog
+    - development team
+      - to find and implement the technical practices that will allow them to get to done at the end of each sprint
+    - whole scrum team
+      - to evolve the definition of done
+  - remove team’s impediments
+  - protects the team from both internal and external distractions
+  - facilitate meetings
+  - helps keep the team on track, productive and growing in ability
+
+### Scrum Artefacts
+- product backlog
+  - the ordered list of ideas for the product, kept in the order we expect to build them
+  - the single source from which all requirements flow
+  - each item contains a description and estimate
+  - items may originate from the product owner, team members or other stakeholders
+- sprint backlog
+  - the detailed plan for development in the next sprint
+- product increment
+  - a required result of every sprint
+  - an integrated version of the product, kept at high enough quality to be - shippable if the product owner chooses to ship it
+
+### Scrum Activities
+
+- product backlog refinement
+  - an ongoing activity throughout the project
+  - includes estimating items
+  - an activity for all the team members
+- sprint planning
+  - at the beginning of each sprint
+  - the team collaborates to select and understand the work to be done in the upcoming sprint
+  - involves entire team
+  - reaches a common understanding of definition of done for each item
+  - parts
+    - determine what work will be completed
+      - product owner presents the items in backlog
+      - development team to decide how many items to take
+    - determine how the work will be accomplished
+      - development team do sufficient design and planning to be confident of completing work during the sprint
+      - mostly a development team process
+  - results a sprint backlog
+- daily scrum
+  - not a report to anyone but a communication meeting within the team
+  - people outside the scrum team are welcome to listen but should not speak
+- sprint review
+  - an informal meeting
+  - everyone can have input during the meeting
+  - demo is common but not a must
+  - updates product backlog
+- sprint retrospective
+  - the process
+  - the relationships among people
+  - the tools
