@@ -5,7 +5,7 @@
 - no labels on items of product backlog (e.g. must-have, nice-to-have)
 - each item must be complete in a sprint (it won't span more than one sprint)
 - it is meant to be replacing PRD (product requirement document, or functional specification)
-- probably requirements in PRD is too big to be implemented
+  - probably requirements in PRD is too big to be implemented
 - each item can be implemented and tested separately
 - must be non-technical (like create a database table)
 - an item should not include component work, things which are invisible to users, prototypes, hacks, ongoing or repeated work
@@ -14,7 +14,7 @@
 
 - describe it from someone's perspective
 - acceptance criteria can be added as the detailed requirement or scope of the implementation. it can also include performance requirements
-- technical specification can be attached if required but not a must
+- technical specification can be attached if required but it is not a must
 - scrum does not use functional specification
 
 ### Backlog refinement
