@@ -212,6 +212,32 @@
   - Maximise impact
   - Actionable (can be explained by team’s effort)
   - Responsive (one can be quickly reflected)
-- Measuring everything to understand that’s going on
+- Measuring everything to understand what is going on
   - To keep the team on-track with short-term goals
-- Page 95
+- measure every metrics and present them onto a dashboard
+- getting to know what the normal metrics are helps understanding abnormalities when there are exceptions
+- adopting a mindset of instrumentation means ensuring the team have a set of dashboards that surface key health metrics and that enable a team member to drill down the relevant data
+- tools
+  - Graphite
+  - StatsD
+  - InfluxDB
+  - Ganglia
+  - Nagios
+  - munin
+  - New Relic
+  - AppDynamics
+- successful technology companies build the equivalent of a pilot's flight instruments, making it easy for engineers to measure, monitor, and visualise system behaviour
+- strategies on metric gathering
+  - log data liberally, in case it turns out to be useful later on
+  - build tools to iterate on data accuracy sooner (for example, tools to analyse logs)
+  - write end-to-end integration tests to validate your entire analytics pipeline
+  - examine collected data sooner
+  - cross-validate data. accuracy by computing the same metric in multiple ways
+  - when a number does look off, dig in to it early
+
+### Chapter 6 Validate Your Ideas Early and Often
+
+- failing example of Cuil (a search engine)
+  - Cuil had wanted to make a big splash at launch and feared leaking details to the press, they had not hired any alpha testers to play around with the product.
+  - prior to launch, there was no external feedback to point out that the search quality was not there, that the search engine was not returning enough results, and that users did not care about the size of index if it did not actually lead to higher quality results
+
