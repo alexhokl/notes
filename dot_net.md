@@ -1,3 +1,14 @@
+# .NET Core
+
+### Mac Installation
+
+The SDK installations are located at
+```console
+/usr/local/share/dotnet/sdk/
+```
+
+# .NET (Classic)
+
 ### To increase testability (C#)
 - No object instantiation in business logics
 - Constructor - nothing more than simple assignments
