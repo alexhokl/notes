@@ -1,6 +1,6 @@
 Notes on various topics on software development.
 
-#### Command line
+### Command line
 
 Item | Description
 --- | ---
@@ -12,14 +12,14 @@ Item | Description
 [SSH](https://github.com/alexhokl/notes/blob/master/ssh.md) | ssh commands
 [TFS](https://github.com/alexhokl/notes/blob/master/tfs.md) | TFS commands
 
-#### Editor
+### Editor
 
 Item | Description
 --- | ---
 [Atom](https://github.com/notes/blob/master/atom.md) | apm commmands
 [vim](https://github.com/notes/blob/master/vim.md) | Commands and configurations on vim and neovim
 
-#### Language
+### Language
 
 Item | Description
 --- | ---
@@ -31,14 +31,14 @@ Item | Description
 [Swift](https://github.com/alexhokl/notes/blob/master/swift.md) | Basic Swift 2 and NS-libraries examples
 [T-SQL](https://github.com/alexhokl/notes/blob/master/t-sql.md) | Various T-SQL tricks
 
-#### Framework
+### Framework
 
 Item | Description
 --- | ---
 [MongoDB](https://github.com/alexhokl/notes/blob/master/mongodb.md) | Management scripts on MongoDB
 [Quartz.NET](https://github.com/alexhokl/notes/blob/master/quartz_net.md) | Configurations required to get Quartz.NET up and running
 
-#### Operating System
+### Operating System
 
 Item | Description
 --- | ---
@@ -46,7 +46,7 @@ Item | Description
 [Raspberry Pi (Raspbian)](https://github.com/alexhokl/notes/blob/master/raspberry_pi.md) | Configuration commands of Pi on Raspbian
 [Windows](https://github.com/alexhokl/notes/blob/master/windows.md) | Windows-specific commands
 
-#### General
+### General
 
 Item | Description
 --- | ---
