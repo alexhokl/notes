@@ -1,3 +1,6 @@
+List of all `GOOS` and `GOARCH` can be found in [`syslist.go`](https://github.com/golang/go/blob/master/src/go/build/syslist.go)
+
+
 To build Windows executable on Mac
 
 ``` sh
@@ -17,4 +20,4 @@ go fmt -d main.go
 To test a project
 ```sh
 go test ./...
-```
+`
