@@ -16,8 +16,8 @@ Item | Description
 
 Item | Description
 --- | ---
-[Atom](https://github.com/notes/blob/master/atom.md) | apm commmands
-[vim](https://github.com/notes/blob/master/vim.md) | Commands and configurations on vim and neovim
+[Atom](https://github.com/alexhokl/notes/blob/master/atom.md) | apm commmands
+[vim](https://github.com/alexhokl/notes/blob/master/vim.md) | Commands and configurations on vim and neovim
 
 ### Language
 
