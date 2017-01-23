@@ -19,3 +19,11 @@ forfiles /p D:\Logs\IISLogs /s /m *.log /d –30 /c "cmd /c delete @path"
 ```bat
 forfiles /p D:\ParentPath /s /c "cmd /c echo @relpath"
 ```
+
+### Chocolatey
+
+To list installed packages
+
+```console
+choco list --localonly
+```
