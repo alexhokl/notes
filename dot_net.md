@@ -86,3 +86,28 @@ session.SaveChanges();
 ##### IDataSource
 1. If a filter is to be applied, all entries must be retrieved before any filtering.
 2. If no filtering is required, real paging can be accomplished using ObjectDataSource, but not SqlDataSource.
+
+### Log4Net
+
+##### Creating SQL table for log storage
+
+```sql
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Log]') AND type in (N'U'))
+  DROP TABLE [dbo].[Log]
+GO
+
+CREATE TABLE [dbo].[Log](
+  [Id] [int] IDENTITY(1,1) NOT NULL,
+	[Date] [datetime] NOT NULL,
+	[Thread] [varchar](255) NOT NULL,
+	[Level] [varchar](50) NOT NULL,
+	[Logger] [varchar](255) NOT NULL,
+	[Message] [nvarchar](max) NOT NULL,
+	[Exception] [nvarchar](max) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+```
