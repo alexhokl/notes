@@ -115,7 +115,7 @@ To uninstall homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 ```
 
-to generate cert/keys for TLS access
+To generate cert/keys for TLS access
 ```sh
 openssl genrsa -out key.pem
 openssl req -new -config gen.conf -key key.pem -out csr.pem
@@ -126,3 +126,8 @@ cat key.pem >> https_cert.pem
 rm cert.pem key.pem
 ```
 
+To update installed APT packages
+```sh
+sudo apt-get update
+sudo apt-get -u upgrade
+```
