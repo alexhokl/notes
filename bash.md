@@ -131,3 +131,21 @@ To update installed APT packages
 sudo apt-get update
 sudo apt-get -u upgrade
 ```
+
+To list all GPG keys
+
+```sh
+gpg2 -K
+```
+
+To export all GPG keys to a file
+
+```sh
+gpg2 --export-secret-keys -a > filename.asc
+```
+
+To import GPG key(s) from a file
+
+```sh
+gpg2 --import filename.asc
+```
