@@ -1,5 +1,20 @@
 # .NET Core
 
+### .NET CLI
+
+To create a new solution file
+
+```console
+dotnet new sln -n Name.Space
+```
+
+To create a new class library project from a solution
+
+```console
+dotnet new classlib -n Name.Space.Library
+dotnet sln add Name.Space.Library/Name.Space.Library.csproj
+```
+
 ### Mac Installation
 
 The SDK installations are located at
