@@ -43,3 +43,6 @@ to clean up docker logs
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ```
+
+Keys of images of docker content trust is stored in `~/.docker/trust/private`
+and it should be shared among machines. (See [Manage keys for content trust](https://docs.docker.com/engine/security/trust/trust_key_mng/))
