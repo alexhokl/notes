@@ -13,6 +13,14 @@
 To make a backup of MSSQL database, connect to the database via Management
 Studio (or Visual Studio Code) and execute the following stored procedure.
 
+To make sure backup is compressed,
+
+```sql
+exec rdsadmin..rds_set_configuration 'S3 backup compression', 'true';
+```
+
+To make a backup,
+
 ```sql
 exec msdb.dbo.rds_backup_database
 	@source_db_name='MyDatabaseName',
