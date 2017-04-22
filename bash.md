@@ -149,3 +149,11 @@ To import GPG key(s) from a file
 ```sh
 gpg2 --import filename.asc
 ```
+
+To import GPG key(s) from another machine via SSH
+
+```sh
+ssh user_name@server_name gpg2 --export-secret-key KEY_ID | gpg2 --import
+```
+
+
