@@ -1,11 +1,14 @@
-# to dump installed packages
+#### Links
+
+- Shortcuts - https://shortcutworld.com/en/Atom-(text-editor)/1.0/linux/all
+
+### to dump installed packages
 
 ```
 apm list --installed --bare
 ```
 
-# to update apm package without prompt
+### to update apm package without prompt
 ```
 apm update --no-confirm
 ```
-
