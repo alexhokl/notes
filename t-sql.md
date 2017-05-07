@@ -32,6 +32,33 @@ SELECT * FROM TableA CROSS JOIN TableB
 SELECT * FROM TableA, TableB
 ```
 
+##### Cross Apply
+
+```sql
+SELECT *
+FROM table1
+CROSS APPLY
+  (
+    SELECT TOP (table1.rowcount) *
+    FROM table2name
+    ORDER BY id
+  ) t2
+```
+
+is equivalent to
+
+```sql
+SELECT *
+FROM
+  table1 t1 INNER JOIN
+  (
+    SELECT
+      t2o.*,
+      (SELECT COUNT(1) FROM table2 t2i WHERE t2i.id <= t22o.id) AS rn
+    FROM table2 t2o
+  ) t2 ON t2.rn <= t1.rowcount
+```
+
 ##### To use cursor
 ```sql
 DECLARE @PhoneID int
