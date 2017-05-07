@@ -21,6 +21,17 @@ ALTER TABLE Examples ADD PRIMARY KEY([ExampleId], [UserId])
 ALTER TABLE Examples ADD [Title] NVARCHAR(50) NULL
 ```
 
+##### Cross Join
+
+Effectively a simple cartesian product, or a `LEFT OUTER JOIN` and `RIGHT
+OUTER JOIN` applied at the same time.
+The following are equivalent syntax.
+
+```sql
+SELECT * FROM TableA CROSS JOIN TableB
+SELECT * FROM TableA, TableB
+```
+
 ##### To use cursor
 ```sql
 DECLARE @PhoneID int
@@ -35,15 +46,15 @@ CREATE TABLE #PhoneHits
   Hits int
 )
 
-DECLARE phone_cursor CURSOR FOR  
+DECLARE phone_cursor CURSOR FOR
   SELECT [PhoneID], COUNT([PhoneID])
   FROM Visit
   group by [PhoneID]
   order by COUNT([PhoneID]) desc
-OPEN phone_cursor  
+OPEN phone_cursor
 FETCH NEXT FROM phone_cursor INTO @PhoneID, @Count
 
-WHILE @@FETCH_STATUS = 0   
+WHILE @@FETCH_STATUS = 0
 BEGIN
   INSERT INTO #PhoneHits
   SELECT ID, Model, @Count
@@ -51,7 +62,7 @@ BEGIN
   WHERE ID = @PhoneID
 
   FETCH NEXT FROM phone_cursor INTO @PhoneID, @Count
-END   
+END
 
 CLOSE phone_cursor
 DEALLOCATE phone_cursor
