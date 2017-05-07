@@ -24,6 +24,20 @@ The SDK installations are located at
 
 # .NET (Classic)
 
+### To check which .NET framework versions are installed
+
+##### For framework version 1 - 4
+
+1. Open `regedit.exe`.
+2. Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP`
+
+##### For framework version 4.5 and later
+
+1. Open `regedit.exe`.
+2. Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full`.
+3. See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn.microsoft.com/en-us/library/hh925568.aspx#net_d) for possible DWORD values.
+
+
 ### To increase testability (C#)
 - No object instantiation in business logics
 - Constructor - nothing more than simple assignments
