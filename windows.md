@@ -35,6 +35,14 @@ choco list --localonly
 
 ### Powershell
 
+To check state of a web site
+
 ```console
 Get-Website -Name "My Web Site Name"
+```
+
+To Download a file
+
+```console
+Invoke-WebRequest "https://example.com/file.txt" -OutFile "output.txt -UseBasicParsing
 ```
