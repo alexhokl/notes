@@ -32,3 +32,9 @@ To list installed packages
 ```console
 choco list --localonly
 ```
+
+### Powershell
+
+```console
+Get-Website -Name "My Web Site Name"
+```
