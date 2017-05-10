@@ -1,3 +1,12 @@
+### Database Operations
+
+##### Restore a database from File
+
+```sql
+RESTORE DATABASE [MyDatabaseName] FROM DISK='C:\backup\MyDatabaseName.bak' WITH RECOVERY, MOVE 'MyDatabaseName' TO 'C:\backup\MyDatabaseName.mdf', MOVE 'MyDatabaseName_log' TO 'C:\backup\MyDatabaseName_log.ldf'
+GO
+```
+
 ##### Shrink database
 ```sql
 ALTER DATABASE ExampleDatabaseName SET RECOVERY SIMPLE WITH NO_WAIT
@@ -5,6 +14,8 @@ DBCC SHRINKFILE(ExampleDatabaseName_log, 1)
 ALTER DATABASE ExampleDatabaseName SET RECOVERY FULL WITH NO_WAIT
 GO
 ```
+
+### Database table manipulations
 
 ##### To modify column definition
 ``` sql
@@ -20,6 +31,8 @@ ALTER TABLE Examples ADD PRIMARY KEY([ExampleId], [UserId])
 ```sql
 ALTER TABLE Examples ADD [Title] NVARCHAR(50) NULL
 ```
+
+### Query
 
 ##### Cross Join
 
@@ -60,6 +73,7 @@ FROM
 ```
 
 ##### To use cursor
+
 ```sql
 DECLARE @PhoneID int
 DECLARE @Count int
@@ -99,6 +113,7 @@ DROP TABLE #PhoneHits
 ```
 
 ##### Dynamic query
+
 ```sql
 CREATE PROCEDURE [dbo].[GetList]
   @UserId int = -1,
@@ -128,6 +143,7 @@ GO
 ```
 
 ##### To generate ID
+
 ```sql
 ALTER PROCEDURE [dbo].[AddExample]
   @ExampleText nvarchar(max),
@@ -142,6 +158,7 @@ END
 ```
 
 ##### Delete trigger
+
 ```sql
 CREATE TRIGGER [dbo].[TRI_Examples_Delete]
 ON [dbo].[Examples] AFTER DELETE
@@ -157,6 +174,7 @@ GO
 ```
 
 ##### Insert trigger
+
 ```sql
 CREATE TRIGGER [dbo].[TRI_Example_Insert]
 ON [dbo].[Examples] AFTER INSERT
@@ -175,6 +193,7 @@ GO
 ```
 
 ##### Update trigger
+
 ```sql
 CREATE TRIGGER [dbo].[TRI_Examples_Update]
 ON [dbo].[Examples] AFTER UPDATE
@@ -202,6 +221,7 @@ GO
 ```
 
 ##### User-defined function
+
 ```sql
 IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[IsTextExist]') AND type in (N'FN', N'IF', N'TF', N'FS', N'FT'))
   DROP FUNCTION [dbo].[IsTextExist]
@@ -222,10 +242,13 @@ END
 GO
 ```
 ##### Geolocation query
+
 ```sql
 SELECT location.Lat, location.Long FROM BlogGeoTags
 ```
+
 ##### Example on LastUpdatedDate
+
 ```sql
 CREATE TABLE [dbo].[ContentFiles](
   [Id] [int] IDENTITY(1,1) NOT NULL,
@@ -261,6 +284,7 @@ GO
 ```
 
 ##### Example on adding primary key
+
 ```sql
 ALTER TABLE UserPermission ADD [Id] [int] IDENTITY(1,1) NOT NULL
 GO
@@ -274,6 +298,7 @@ GO
 ```
 
 ##### Compare table schema
+
 ```sql
 DECLARE @table1name VARCHAR(50)
 DECLARE @table2name VARCHAR(50)
