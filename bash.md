@@ -46,6 +46,15 @@ find BOM characters in files
 grep -rl $'\xEF\xBB\xBF' .
 ```
 
+remove BOM characters in files
+
+```sh
+for f in $(grep $'\xEF\xBB\xBF' --include=\*.cs --include=\*.config --include=\*.js -rl .); do
+	sed 's/\xEF\xBB\xBF//' "$f" > "$f".updated
+	mv "$f".updated "$f"
+done
+```
+
 replace words in a file
 ```sh
 sed 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
