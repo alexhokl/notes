@@ -40,6 +40,12 @@ count the number of lines in a file
 wc -l ./package.json
 ```
 
+find BOM characters in files
+
+```sh
+grep -rl $'\xEF\xBB\xBF' .
+```
+
 replace words in a file
 ```sh
 sed 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
