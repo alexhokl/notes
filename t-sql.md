@@ -15,6 +15,42 @@ ALTER DATABASE ExampleDatabaseName SET RECOVERY FULL WITH NO_WAIT
 GO
 ```
 
+##### User modes
+
+To change to single-user mode (usually done at the beginning of a set of operations)
+
+```sql
+ALTER DATABASE MyCustomDatabaseName SET SINGLE_USER
+```
+
+To change to multi-user mode (usually done at the end of a set of operations)
+
+```sql
+ALTER DATABASE MyCustomDatabaseName SET MULTI_USER
+```
+
+### Database performance
+
+##### To clean up SQL server cache
+
+```sql
+DBCC FREEPROCCACHE
+DBCC DROPCLEANBUFFERS
+```
+
+##### To check query warnings via execution plan
+
+1. Make a query via Management Studio with execution plan enabled
+2. Right click on any blank space on the execution plan
+3. Select "Show Execution Plan XML..."
+4. Search for `warnings`
+
+##### To update broken (or no) statistics of a table
+
+```sql
+UPDATE STATISTICS MyCustomTableName WITH FULLSCAN
+```
+
 ### Database table manipulations
 
 ##### To modify column definition
@@ -328,4 +364,16 @@ FROM
   t2.ColumnName = t1.ColumnName AND
   t2.system_type_id = t1.system_type_id AND
   t2.is_nullable = t1.is_nullable
+```
+
+##### To search columns in tables
+
+```sql
+SELECT t.name, c.name
+FROM
+  sys.columns c INNER JOIN
+  sys.tables t ON
+    t.object_id = c.object_id
+WHERE c.name = 'ColumnToBeSearched'
+ORDER BY t.name, c.name
 ```
