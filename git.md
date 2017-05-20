@@ -126,6 +126,16 @@ git config user.email alex@some.other.org
 git config user.name alex.some.other.org
 ```
 
+##### git rerere (reuse recorded resolution) [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
+
+If you want to make sure a long lived topic branch will merge cleanly but don't want to have a bunch of intermediate merge commits. With rerere turned on you can merge occasionally, resolve the conflicts, then back out the merge. If you do this continuously, then the final merge should be easy because rerere can just do everything for you automatically.
+
+This same tactic can be used if you want to keep a branch rebased so you don't have to deal with the same rebasing conflicts each time you do it. Or if you want to take a branch that you merged and fixed a bunch of conflicts and then decide to rebase it instead - you likely won't have to do all the same conflicts again.
+
+To enable, `git config --global rerere.enabled true`.
+
+When there is a merge conflict, `git rerere status` shows the files to have resolution to be recorded. `git rerere diff` shows the current status of the resoltion. Resolve the conflict as usual and the resolution will be recorded automatically. The resolution will be applied in the subsequent conflicts.
+
 ### GitHub
 
 ##### Closing an issue
