@@ -28,7 +28,7 @@ exec msdb.dbo.rds_backup_database
 	@overwrite_S3_backup_file=1;
 ```
 
-To check the progress of backups,
+To check the progress of backups or restores,
 
 ```sql
 exec msdb.dbo.rds_task_status @db_name='MyDatabaseName'
