@@ -10,6 +10,8 @@
 
 #### RDS
 
+[Documentation](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Procedural.Importing.html)
+
 To make a backup of MSSQL database, connect to the database via Management
 Studio (or Visual Studio Code) and execute the following stored procedure.
 
