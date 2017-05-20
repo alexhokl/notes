@@ -125,3 +125,14 @@ To configure git user information for single repository (stored in `.git/config`
 git config user.email alex@some.other.org
 git config user.name alex.some.other.org
 ```
+
+### GitHub
+
+##### Closing an issue
+
+A comment with any of the following keywords:
+`close`, `closes`, `closed`, `fixes` or `fixed`
+
+##### Line endings
+
+- [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
