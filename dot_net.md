@@ -1,5 +1,12 @@
 # .NET Core
 
+### Porting
+
+- [GitHub issues: port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
+- [Porting to .NET Core from .NET Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
+- [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`)
+- [Can I port my application to .NET Core?](https://icanhasdot.net/)
+
 ### .NET CLI
 
 To create a new solution file
@@ -14,6 +21,11 @@ To create a new class library project from a solution
 dotnet new classlib -n Name.Space.Library
 dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 ```
+
+### ASP.NET Core
+
+- [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
+- [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
 
 ### Mac Installation
 
@@ -45,6 +57,39 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 2. Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full`.
 3. See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn.microsoft.com/en-us/library/hh925568.aspx#net_d) for possible DWORD values.
 
+# ASP.NET
+
+### Lifecycle
+
+- [Understanding MVC Application Execution](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
+- [Execution Order for the ApiController](http://stackoverflow.com/questions/12277293/execution-order-for-the-apicontroller)
+
+### Web API
+
+- [A WebAPI Basic Authentication Authorization Filter](https://weblog.west-wind.com/posts/2013/Apr/18/A-WebAPI-Basic-Authentication-Authorization-Filter)
+- [Accepting Raw Request Body Content with ASP.NET Web API](https://weblog.west-wind.com/posts/2013/Dec/13/Accepting-Raw-Request-Body-Content-with-ASPNET-Web-API)
+- [HTTP Message Handlers in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-message-handlers)
+- HTTP Status 428 Precondition required [Optimistic concurrency support in HTTP and WebAPI – part 2](https://tudorturcu.wordpress.com/2012/05/17/optimistic-concurrency-support-in-http-and-webapi-part-2/)
+
+### CORS
+
+- [CORS, IIS and WebDAV](https://brockallen.com/2012/10/18/cors-iis-and-webdav/)
+
+### Troubleshooting
+
+##### 404.17
+
+- [Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 404.17 - Not Found"](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
+
+# Azure
+
+### SQL
+
+- [Unable to create table](https://social.msdn.microsoft.com/forums/azure/en-US/259af3d5-4016-43e2-9a84-7a17d4f52673/im-unable-to-create-a-new-table-on-sql-azure)
+- [Keyword not supported: “data source” initializing Entity Framework Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
+- [Windows Azure, Entity Framework. Keyword not supported: 'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
+
+# General Practices
 
 ### To increase testability (C#)
 - No object instantiation in business logics
