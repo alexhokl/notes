@@ -1,3 +1,9 @@
+# Database and T-SQL
+
+### Tools
+
+- [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
+
 ### Database Operations
 
 ##### Restore a database from File
@@ -66,6 +72,21 @@ ALTER TABLE Examples ADD PRIMARY KEY([ExampleId], [UserId])
 ##### Example on column insertion
 ```sql
 ALTER TABLE Examples ADD [Title] NVARCHAR(50) NULL
+```
+
+##### Rename a table
+
+```sql
+EXEC sp_rename 'OldTableName', 'NewTableName'
+```
+
+##### Rename a column
+
+```sql
+EXEC sp_rename
+    @objname = 'TableName.OldColumnName',
+    @newname = 'NewColumnName',
+    @objtype = 'COLUMN'
 ```
 
 ### Query
@@ -376,4 +397,27 @@ FROM
     t.object_id = c.object_id
 WHERE c.name = 'ColumnToBeSearched'
 ORDER BY t.name, c.name
+```
+
+##### Geo-locations
+
+Type `GEOGRAPHY` is available since MSSQL Server 2008.
+
+To update data to a column of type `GEOGRAPHY`,
+
+```sql
+UPDATE MyTable SET MyLocation = GEOGRAPHY::Point(22, 116, 4326)
+```
+
+where 4326 is a commonly used GPS system.
+
+Function `.STAsText()` shows coordinates as string in a single field whereas
+`.STDistance()` shows distance between two points in metres.
+
+##### Collation
+
+To change the collation of a column,
+
+```sql
+ALTER TABLE MyTable ALTER COLUMN MyColumn VARCHAR(10) COLLATE Latin1_General_CI_AS NOT NULL;
 ```
