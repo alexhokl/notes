@@ -126,6 +126,10 @@ git config user.email alex@some.other.org
 git config user.name alex.some.other.org
 ```
 
+##### git revert
+
+This command can be used to revert a normal commit as well as a merge commit.
+
 ##### git rerere (reuse recorded resolution) [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
 
 If you want to make sure a long lived topic branch will merge cleanly but don't want to have a bunch of intermediate merge commits. With rerere turned on you can merge occasionally, resolve the conflicts, then back out the merge. If you do this continuously, then the final merge should be easy because rerere can just do everything for you automatically.
