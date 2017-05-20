@@ -40,3 +40,17 @@ To download a backup from S3 via aws-cli,
 aws s3 cp s3://my_bucket_name/my_backup_name.bak my_backup_name.bak
 ```
 
+To upload a backup onto S3 via aws-cli,
+
+```console
+aws s3 cp my_backup_name.bak s3://my_bucket_name/my_backup_name.bak
+```
+
+To restore a backup,
+
+```sql
+exec msdb.dbo.rds_restore_database
+	@restore_db_name='MyDatabaseName',
+	@s3_arn_to_restore_from='arn:aws:s3:::my_bucket_name/my_backup_name.bak';
+```
+
