@@ -150,3 +150,8 @@ A comment with any of the following keywords:
 ##### Line endings
 
 - [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
+
+##### Pull request
+
+- [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
+- [Issue and Pull Request templates](https://github.com/blog/2111-issue-and-pull-request-templates)
