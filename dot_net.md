@@ -24,6 +24,14 @@ The SDK installations are located at
 
 # .NET (Classic)
 
+### [dotnet/codeformatter](https://github.com/dotnet/codeformatter)
+
+To run the formatter, download the zip from release page and run
+
+```console
+codeformatter.exe /nocopyright C:\work\solution.sln
+```
+
 ### To check which .NET framework versions are installed
 
 ##### For framework version 1 - 4
