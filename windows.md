@@ -1,6 +1,11 @@
 ##### Shortcuts
 
 - [Windows 10 Shortcuts](http://www.hanselman.com/blog/CollectingWindows10AnniversaryEditionKeyboardShortcuts.aspx)
+- [Keyboard shortcuts for Windows](https://support.microsoft.com/en-gb/help/126449/keyboard-shortcuts-for-windows)
+
+##### Commands
+
+- [Windows CMD Commands](https://ss64.com/nt/)
 
 ##### To install a service on Windows Server
 
