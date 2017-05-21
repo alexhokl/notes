@@ -81,6 +81,12 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 
 - [Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 404.17 - Not Found"](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
 
+# IIS
+
+- Customer error page [HTTP Errors](https://www.iis.net/configreference/system.webserver/httperrors)
+- [App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
+- [Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
+
 # Azure
 
 ### SQL
