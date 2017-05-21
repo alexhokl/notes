@@ -2,6 +2,10 @@
 
 - [On/Off Project - Switch a light on/off using your smart phone](http://projects.privateeyepi.com/home/on-off-project)
 
+### Libraries
+
+- [EMBD](http://embd.kidoman.io/)
+
 ### Initial setup (see [detail](http://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/))
 
 to edit boot config and add line the following line to lower GPU usage (assuming headless)
