@@ -98,7 +98,12 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 - Avoid public `init()`-kind of methods
 - Avoid the use of service locator as it hides dependencies. (However, it is still better than singleton which is a share state)
 
+### Multi-threading
+
+- [Threading in C#](http://www.albahari.com/threading/part4.aspx)
+
 ##### Parallel for-loop
+
 ```csharp
 public class Job
 {
