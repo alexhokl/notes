@@ -6,6 +6,7 @@
 - [Porting to .NET Core from .NET Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
 - [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`)
 - [Can I port my application to .NET Core?](https://icanhasdot.net/)
+- [PackageSeach](http://packagesearch.azurewebsites.net/)
 
 ### .NET CLI
 
