@@ -376,6 +376,31 @@ export class RootCmp {}
 - Remove all the usages of `UpgradeModule`.
 
 
+#### Directives and components
+
+##### `&` binding syntax
+
+Suppose there is a binding `onClick: '&'` and three parameters should be passed.
+
+Within the controller of a directive, the parameters should be put in an object.
+
+```js
+if (!!ctrl.onClick) {
+  ctrl.onClick({
+    param1: value1,
+    param2: value2,
+    param3: value3,
+  });
+}
+```
+
+In the template using the directive,
+
+```html
+<my-directive on-click="ctrl.onButtonClick(param1, param2, param3)">
+</my-directive>
+```
+
 #### ui.router
 to debug state transitions
 ```js
