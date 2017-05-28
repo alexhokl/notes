@@ -14,3 +14,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
 - `:sp` to split buffer horizontally
+
+##### ctrlp
+
+To refresh cached file list in fuzzy file search, hit `ctrl-p` and `F5` or use
+command `:CtrlPClearCache`.
