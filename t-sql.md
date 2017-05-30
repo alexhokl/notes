@@ -298,6 +298,7 @@ END
 
 GO
 ```
+
 ##### Geolocation query
 
 ```sql
@@ -352,6 +353,19 @@ ALTER TABLE UserPermission ADD
     [Id] ASC
   )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
 GO
+```
+
+##### Passing an array to stored procedures
+
+```sql
+CREATE TYPE [dbo].[TypeIds] AS TABLE(
+	[Id] [INT] NULL
+)
+GO
+
+CREATE PROC [dbo].[sp_AnImportantProcedure] @Ids TypeIds READONLY
+AS
+...
 ```
 
 ##### Compare table schema
