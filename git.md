@@ -1,33 +1,57 @@
-To upload a local git repository onto GitHub, first create a repository on GitHub.
-If the repository is dumped from another git remote,
-```sh
-git remote remove origin
-```
-To associate the repository with GitHub one,
-```sh
-git remote add origin https://github.com/alexhokl/example.git
-git push -u origin master
-```
+### Setup
 
-To add git bash completion
+##### BASH completion
 
 1. Get the completion file from `https://github.com/git/git/blob/master/contrib/completion/git-completion.bash`.
 2. Copy the file to `/etc/bash_completion.d/` on Linux (on Mac, this requires a bit more work).
 3. On Mac, source the file from the path in step 2 in `~/.bash_profile`.
 
-In case of rolling-back a particular file (abc.txt, for example) from the last commit (before it is pushed onto GitHub).
+### Concepts
+
+- Git does not have a notion of "this commit was made on this branch".
+
+### Operations
+
+##### Uploading new repository
+
+To upload a local git repository onto GitHub, first create a repository on GitHub.
+
+If the repository is dumped from another git remote,
+
 ```sh
-git reset --soft HEAD~
-git reset HEAD abc.txt
-git commit -m 'A new commit message.'
+git remote remove origin
 ```
 
-To remove staged and un-staged files. (Clean working directory)
+To associate the repository with GitHub one
+
 ```sh
-git reset HEAD
+git remote add origin https://github.com/alexhokl/example.git
+git push -u origin master
 ```
 
-To rebase a feature granch before merging into master (it involves re-writing the commits in the feature branch)
+##### Forking
+
+To connect to the original repository of a forked repository,
+check if the original repository is already stated in remotes.
+If not, use `git remote add` to add "upstream".
+
+```sh
+git remote -v
+git remote add upstream https://github.com/original/original.git
+```
+
+To update a forked repository from the original repository (`upstream` is just a name of a remote, see `git remote -v`)
+
+```sh
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+##### Rebase for merge
+
+To rebase a feature branch before merging into master (it involves re-writing the commits in the feature branch)
+
 ```sh
 git checkout feature_branch
 git rebase master
@@ -35,102 +59,140 @@ git checkout master
 git merge feature_branch
 ```
 
+##### Rebase for cleaning history of a branch
+
 To combine the last 10 commits into one
+
 ```sh
-git rebase -i HEAD~10
+git rebase HEAD~10 -i
 ```
 
-To check what commits were in a branch
+##### Rollback
+
+To rollback a particular file (abc.txt, for example) from the last commit (before it is pushed onto GitHub)
+
 ```sh
-git reflog
+git reset --soft HEAD~
+git reset HEAD abc.txt
+git commit -m 'A new commit message.'
 ```
 
-To remove a branch locally and its connection to remote.
-```sh
-git branch --unset-upstream UserStory1
-git branch -D UserStory1
-```
-
-To check connection remote repositories
-```sh
-git remote -v
-```
-
-To check branches and its last commit
-```sh
-git branch -v
-```
-
-To get branch information from remote
-```sh
-git fetch origin
-```
+##### Branching
 
 To create a branch from a particular commit
+
 ```sh
 git branch feature_branch 7654321
 ```
 
-To rename a branch
+##### Renaming a branch
+
 ```sh
 git branch -m old_branch_name new_branch_name
 ```
 
-To create a stash with un-tracked files
+##### Describing a branch
+
+This is useful as the description will be made into merge commit message.
+
 ```sh
-git stash -u
+git branch --edit-description feature1
 ```
 
-Cleanup unnecessary files and optimize the local repository and prune loose objects
+##### Cleanup working directory
+
+To remove staged and un-staged files. (Clean working directory)
+
+```sh
+git reset HEAD
+```
+
+##### Cleanup
+
+Cleanup unnecessary files and optimise the local repository and prune loose objects
+
 ```sh
 git gc --prune=now
 ```
 
 To prune a remote (dry-run)
+
 ```sh
 git remote prune --dry-run origin
 ```
+
 To prune a remote (for real)
+
 ```sh
 git remote prune origin
 ```
 
-To edit system git config
+##### Remove a branch
+
 ```sh
-git config --system --edit
+git branch --unset-upstream UserStory1
+git branch -D UserStory1
 ```
 
-To edit user git config
+##### Stash
+
+To stash unstaged and staged files
+
 ```sh
-git config --global --edit
+git stash
 ```
 
-To connect to the original repository of a forked repository,
-check if the original repository is already stated in remotes.
-If not, use `git remote add` to add "upstream".
+To stash unstaged, staged and untracked files
+
 ```sh
-git remote -v
-git remote add upstream https://github.com/original/original.git
+git stash -u
 ```
 
-To update a forked repository from the original repository (`upstream` is just a name of a remote, see `git remote -v`)
+To stash unstaged, staged, untracked and ignored files
+
 ```sh
-git fetch upstream
-git checkout master
-git merge upstream/master
+git stash -a
 ```
 
-To configure git user information for single repository (stored in `.git/config`)
+To stash unstaged files
+
 ```sh
-git config user.email alex@some.other.org
-git config user.name alex.some.other.org
+git stash -k
 ```
 
-##### git revert
+##### Submodule
 
-This command can be used to revert a normal commit as well as a merge commit.
+To add a submodule with an alias
 
-##### git rerere (reuse recorded resolution) [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
+```sh
+git submodule add https://github.com/alexhokl/library lib
+```
+
+To retrieve submodules from a new clone
+
+```sh
+git submodule init
+```
+
+To update submodules
+
+```sh
+git submodule update
+```
+
+To push changes from submodule, create a commit in the directory of submodule
+
+```sh
+git push --recurse-submodules=on-demand
+```
+
+##### Revert
+
+`git revert` can be used to revert a normal commit as well as a merge commit.
+
+##### Rerere (reuse recorded resolution) [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
+
+`git rerere`
 
 If you want to make sure a long lived topic branch will merge cleanly but don't want to have a bunch of intermediate merge commits. With rerere turned on you can merge occasionally, resolve the conflicts, then back out the merge. If you do this continuously, then the final merge should be easy because rerere can just do everything for you automatically.
 
@@ -139,6 +201,107 @@ This same tactic can be used if you want to keep a branch rebased so you don't h
 To enable, `git config --global rerere.enabled true`.
 
 When there is a merge conflict, `git rerere status` shows the files to have resolution to be recorded. `git rerere diff` shows the current status of the resoltion. Resolve the conflict as usual and the resolution will be recorded automatically. The resolution will be applied in the subsequent conflicts.
+
+##### Moving history of a directory of one repository to another
+
+```sh
+cd repo1
+git subtree split --branch split-feature --prefix directory-to-split
+cd ../repo2
+git checkout -b split-feature
+git remote add -f upstream https://github.com/alexhokl/repo1
+git merge --allow-unrelated-histories upstream/split-feature
+```
+
+##### Remove old history
+
+Assuming HEAD is at the commit where "history" begins
+
+```sh
+git checkout --orphan new_branch_name
+```
+
+##### Moving large files to LFS
+
+[bfg](https://rtyley.github.io/bfg-repo-cleaner/)
+
+```sh
+git clone --mirror https://github.com/alexhokl/big-problem.git
+bfg --convert-to-git-lfs '*.dll' --no-blob-protection big-problem.git
+cd big-problem.git
+git lfs install
+git lfs ls-files
+git push
+```
+
+##### Configuration
+
+To edit system git config
+
+```sh
+git config --system --edit
+```
+
+To edit user git config
+
+```sh
+git config --global --edit
+```
+
+##### User setup
+
+```sh
+git config user.email alex@some.other.org
+git config user.name alex.some.other.org
+```
+
+### Queries
+
+##### Comparing branches
+
+To check difference in commits between two branches (or points in commit history)
+
+```sh
+git log --oneline master..feature
+```
+
+and this is equivalent to
+
+```sh
+git log --oneline feature ^master
+```
+
+##### Commits from a user from certain time
+
+```sh
+git log --all --author=alexhokl --since='9am yesterday' --format=%s
+```
+
+##### Remotes
+
+```sh
+git remote -v
+```
+
+##### Branches
+
+```sh
+git branch -v
+```
+
+##### Retrieving git objects
+
+```sh
+git fetch origin
+```
+
+##### Ignore
+
+To check file `abc.txt` would be ignored
+
+```sh
+git check-ignore abc.txt
+```
 
 ### GitHub
 
