@@ -227,7 +227,7 @@ git checkout --orphan new_branch_name
 
 ```sh
 git clone --mirror https://github.com/alexhokl/big-problem.git
-bfg --convert-to-git-lfs '*.dll' --no-blob-protection big-problem.git
+java -jar bfg.jar --convert-to-git-lfs '*.dll' --no-blob-protection big-problem.git
 cd big-problem.git
 git lfs install
 git lfs ls-files
