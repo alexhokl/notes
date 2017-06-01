@@ -51,3 +51,13 @@ To Download a file
 ```console
 Invoke-WebRequest "https://example.com/file.txt" -OutFile "output.txt -UseBasicParsing
 ```
+
+##### Adding features
+
+Examples
+
+```sh
+Add-WindowsFeature Web-Server
+Add-WindowsFeature NET-Framework-45-ASPNET
+Add-WindowsFeature Web-Asp-Net45
+```
