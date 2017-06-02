@@ -1,8 +1,9 @@
+# AngularJS
+
 #### Checking AngularJS scope variables with inspector of a browser
 ``` js
 var s = angular.element($0).scope();
 ```
-
 
 #### Refactoring on version 1.4
 
@@ -121,10 +122,14 @@ angular
   .component('childComponent', childComponent);
 ```
 
+# Angular
 
 #### Migrating Angular 1.5 application in ES6 to Angular 2.0
 
 This documents the steps involved in such a migration (see [Migrating Angular 1 Applications to Angular2 in 5 Simple Steps](https://vsavkin.com/migrating-angular-1-applications-to-angular-2-in-5-simple-steps-40621800a25b)).
+
+See [Addicted to AngularJS?](https://www.youtube.com/watch?v=RyY8Brjs-Hg) for
+a brief introduction on mixing AngularJS and Angular
 
 ##### 1. Bootstrap with UpgradeModule
 
@@ -375,6 +380,10 @@ export class RootCmp {}
 
 - Remove all the usages of `UpgradeModule`.
 
+#### Links
+
+- [Animations in Angular 4.0.0](https://www.youtube.com/watch?v=Oh9wj-1p2BM)
+- [Automatic Progressive Web Apps using the Angular Mobile Toolkit](https://www.youtube.com/watch?v=ecu1vAO23ZM)
 
 #### Directives and components
 
