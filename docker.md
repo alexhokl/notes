@@ -46,3 +46,35 @@ truncate -s 0 /var/lib/docker/containers/*/*-json.log
 
 Keys of images of docker content trust is stored in `~/.docker/trust/private`
 and it should be shared among machines. (See [Manage keys for content trust](https://docs.docker.com/engine/security/trust/trust_key_mng/))
+
+##### Secret
+
+To create a secret
+
+```sh
+echo "SuperSecret" | docker secret create super_secret -
+```
+
+To use a secret via commands
+
+```sh
+docker service create --name="redis" --secret="super_secret" redis:alpine
+```
+
+To use a secret via compose
+
+```yml
+version: "3.1"
+services:
+redis:
+  image: redis:latest
+  deploy:
+    replicas: 1
+  secrets:
+    - super_secret
+secrets:
+super_secret:
+  external: true
+```
+
+and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it usually involves adding or modifying `entrypoint.sh` to read the secret.
