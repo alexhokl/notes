@@ -72,6 +72,10 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 - [HTTP Message Handlers in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-message-handlers)
 - HTTP Status 428 Precondition required [Optimistic concurrency support in HTTP and WebAPI – part 2](https://tudorturcu.wordpress.com/2012/05/17/optimistic-concurrency-support-in-http-and-webapi-part-2/)
 
+### Error handling
+
+- [Bypassing IIS Error Messages in ASP.NET](https://weblog.west-wind.com/posts/2017/Jun/01/Bypassing-IIS-Error-Messages-in-ASPNET)
+
 ### CORS
 
 - [CORS, IIS and WebDAV](https://brockallen.com/2012/10/18/cors-iis-and-webdav/)
