@@ -40,6 +40,35 @@ choco list --localonly
 
 ### Powershell
 
+##### IIS Administration
+
+Make sure the helper module is install (this enables more useful commands)
+
+```console
+Import-Module WebAdministration
+```
+
+To create an application pool
+
+```console
+New-WebAppPool -name "NewWebSiteAppPool" -force
+$appPool = Get-Item -name "NewWebSiteAppPool"
+$appPool.processModel.identityType = "NetworkService"
+$appPool.enable32BitAppOnWin64 = 0
+$appPool | Set-Item
+```
+
+To create a web site (assuming an application pool is created)
+
+```console
+mkdir "c:\Web Sites\NewWebSite"
+$site = $site = new-WebSite -name "NewWebSite"
+                            -PhysicalPath "c:\Web Sites\NewWebSite"
+                            -HostHeader "app.example.com"
+                            -ApplicationPool "NewWebSiteAppPool"
+                            -force
+```
+
 To check state of a web site
 
 ```console
@@ -56,8 +85,40 @@ Invoke-WebRequest "https://example.com/file.txt" -OutFile "output.txt -UseBasicP
 
 Examples
 
-```sh
+```console
 Add-WindowsFeature Web-Server
 Add-WindowsFeature NET-Framework-45-ASPNET
 Add-WindowsFeature Web-Asp-Net45
+```
+
+###### Windows 10
+
+To list available features
+
+```console
+Get-WindowsOptionalFeature -Online
+```
+
+To check if a feature is installed
+
+```console
+Get-WindowsOptionalFeature -Online | where {$_.state -eq "Enabled"} | ft -Property A-Feature-Name
+```
+
+To check if a feature is not installed
+
+```console
+Get-WindowsOptionalFeature -Online | where {$_.state -eq "Disabled"} | ft -Property A-Feature-Name
+```
+
+To enable a Windows feature
+
+```console
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
+```
+
+To disable a Windows feature
+
+```console
+Disable-WindowsOptionalFeature -Online -FeatureName IIS-DirectoryBrowsing
 ```
