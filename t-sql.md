@@ -13,6 +13,15 @@ RESTORE DATABASE [MyDatabaseName] FROM DISK='C:\backup\MyDatabaseName.bak' WITH 
 GO
 ```
 
+##### Attach a database
+
+```sql
+CREATE DATABASE AssetsDB ON
+(FILENAME = N'c:\database\AssetsDB_Primary.mdf'),
+(FILENAME = N'c:\database\AssetsDB_Primary.ldf')
+FOR ATTACH;
+```
+
 ##### Shrink database
 ```sql
 ALTER DATABASE ExampleDatabaseName SET RECOVERY SIMPLE WITH NO_WAIT

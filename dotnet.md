@@ -92,6 +92,41 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 - [App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
 - [Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
 
+# MSSQL
+
+##### Building SQL deployment package
+
+To build SQL projects
+
+```console
+Install-PackageProvider -Name chocolatey -Force;
+Install-Package -Name microsoft-build-tools -RequiredVersion 14.0.25420.1 -Force;
+Install-Package dotnet4.6-targetpack -Force;
+Install-Package nuget.commandline -Force;
+C:\Chocolatey\bin\nuget install Microsoft.Data.Tools.Msbuild
+cd 'C:\Program Files (x86)\MSBuild\14.0\Bin'; `
+    .\msbuild C:\src\Assets.Database\Assets.Database.sqlproj `
+    /p:SQLDBExtensionsRefPath="C:\Microsoft.Data.Tools.Msbuild.10.0.61026\lib\net40" `
+    /p:SqlServerRedistPath="C:\Microsoft.Data.Tools.Msbuild.10.0.61026\lib\net40"; `
+    cp 'C:\src\Assets.Database\bin\Debug\Assets.Database.dacpac' 'c:\bin'
+```
+
+##### Generate SQL scripts from deployment package
+
+```console
+SqlPackage.exe `
+    /sf:Assets.Database.dacpac `
+    /a:Script /op:create.sql /p:CommentOutSetVarDeclarations=true `
+    /tsn:.\SQLEXPRESS /tdn:AssetsDB /tu:sa /tp:$sa_password
+```
+
+##### Running SQL deployment scripts
+
+```console
+$SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"  
+Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
+```
+
 # Azure
 
 ### SQL

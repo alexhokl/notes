@@ -90,3 +90,17 @@ and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it 
 - If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.
 - If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
 - `ENTRYPOINT` and `CMD` can be overridden via command line flags
+
+### Windows
+
+##### Examples
+
+- [SQL Server Lab](https://github.com/docker/labs/blob/master/windows/sql-server/part-1.md)
+
+##### Commands
+
+To get IP of a container
+
+```console
+$ip = docker inspect --format '{{ .NetworkSettings.Networks.nat.IPAddress }}' a-windows-container-name
+```
