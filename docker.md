@@ -78,3 +78,15 @@ super_secret:
 ```
 
 and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it usually involves adding or modifying `entrypoint.sh` to read the secret.
+
+##### `ENTRYPOINT` vs `CMD`
+
+- At least one of them exists
+- `ENTRYPOINT` and `CMD` behaves the same if only of them exist
+- For both `CMD` and `ENTRYPOINT`, there are "shell" and "exec" versions
+  - both shell versions would be prefixed with `/bin/sh -c`
+- "exec" version run its process with PID = 1 and "shell" version run its process in a sub-process of a container. Thus, pressing `ctrl-c` would be able to terminate "exec" version but not "shell" version. Note that "exec" version is the recommended way.
+- "exec" version does not have environment variables (like `$PATH`). Thus, to use `java -jar spring.jar`, `["/usr/bin/java", "-jar", "spring.jar"]` is required.
+- If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.
+- If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
+- `ENTRYPOINT` and `CMD` can be overridden via command line flags
