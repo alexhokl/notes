@@ -36,3 +36,32 @@
 - To name something (e.g. a variable) in code, avoid copy and paste without generalising and thinking of naming convention
 - Check if any files should not be committed before creating a git commit
 - Don't put un-related changes in to the same commit
+
+### Web App
+
+#### [12-Factor App](https://12factor.net/)
+
+##### [Codebase](https://12factor.net/codebase)
+
+##### [Dependencies](https://12factor.net/dependencies)
+
+##### [Config](https://12factor.net/config)
+
+##### [Backing Services](https://12factor.net/backing-services)
+
+##### [Build, release, run](https://12factor.net/build-release-run)
+
+##### [Processes](https://12factor.net/processes)
+
+##### [Port binding](https://12factor.net/port-binding)
+
+##### [Concurrency](https://12factor.net/concurrency)
+
+##### [Disposability](https://12factor.net/disposability)
+
+##### [Dev/prod parity](https://12factor.net/dev-prod-parity)
+
+##### [Logs](https://12factor.net/logs)
+
+##### [Admin processes](https://12factor.net/admin-processes)
+
