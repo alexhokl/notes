@@ -41,6 +41,9 @@
 
 #### [12-Factor App](https://12factor.net/)
 
+- If there are multiple codebases, it’s not an app – it’s a distributed system. Each component in a distributed system is an app, and each can individually comply with twelve-factor.
+- Multiple apps sharing the same code is a violation of twelve-factor. The solution here is to factor shared code into libraries which can be included through the dependency manager.
+
 ##### [Codebase](https://12factor.net/codebase)
 
 ##### [Dependencies](https://12factor.net/dependencies)

@@ -1,1 +1,0 @@
-- To implement an accounting system, always think of potential data export.
