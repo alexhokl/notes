@@ -52,11 +52,20 @@
   - for instance
     - no GAC dependency for a .NET application, or
     - no global packages for a node.js application
--
+- An app uses a dependency isolation tool during execution to ensure that no implicit dependencies “leak in” from the surrounding system.
+  - for instance
+    - `virtualenv` in python
+- An app does not rely on the implicit existence of any system tools.
+  - for example
+    - shelling out to ImageMagick or curl
+  - if the app needs to shell out to a system tool, that tool should be vendored into the app.
 
 ##### [Config](https://12factor.net/config)
 
-
+- Configuration of an app is everything that is likely to vary between deploys (staging, production, developer environments, etc).
+- An app should not store config as constants in the code. Config varies substantially across deploys, code does not.
+- A litmus test for whether an app has all config correctly factored out of the code is whether the codebase could be made open source at any moment, without compromising any credentials.
+- An app stores config in environment variables.Env vars are easy to change between deploys without changing any code; unlike config files, there is little chance of them being checked into the code repo accidentally; and, they are a language- and OS-agnostic standard.
 
 ##### [Backing Services](https://12factor.net/backing-services)
 
