@@ -15,12 +15,18 @@ GO
 
 ##### Attach a database
 
+Make sure that the folders containing the database files are granted with write permissions for the MSSQL server process
+(Check "Logon" tab in `services.msc`).
+
 ```sql
 CREATE DATABASE AssetsDB ON
 (FILENAME = N'c:\database\AssetsDB_Primary.mdf'),
 (FILENAME = N'c:\database\AssetsDB_Primary.ldf')
 FOR ATTACH;
 ```
+
+If the attached database is running as read-only mode due to the file permissions,
+fix the file permissions and run `ALTER DATABASE [DatabaseName] SET READ_WRITE` to make it running in non-read-only mode again.
 
 ##### Shrink database logs
 
