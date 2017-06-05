@@ -36,3 +36,43 @@
 - To name something (e.g. a variable) in code, avoid copy and paste without generalising and thinking of naming convention
 - Check if any files should not be committed before creating a git commit
 - Don't put un-related changes in to the same commit
+
+### Web App
+
+#### [12-Factor App](https://12factor.net/)
+
+##### [Codebase](https://12factor.net/codebase)
+
+- If there are multiple codebases, it’s not an app – it’s a distributed system. Each component in a distributed system is an app, and each can individually comply with twelve-factor.
+- Multiple apps sharing the same code is a violation of twelve-factor. The solution here is to factor shared code into libraries which can be included through the dependency manager.
+
+##### [Dependencies](https://12factor.net/dependencies)
+
+- An app never relies on implicit existence of system-wide packages.
+  - for instance
+    - no GAC dependency for a .NET application, or
+    - no global packages for a node.js application
+-
+
+##### [Config](https://12factor.net/config)
+
+
+
+##### [Backing Services](https://12factor.net/backing-services)
+
+##### [Build, release, run](https://12factor.net/build-release-run)
+
+##### [Processes](https://12factor.net/processes)
+
+##### [Port binding](https://12factor.net/port-binding)
+
+##### [Concurrency](https://12factor.net/concurrency)
+
+##### [Disposability](https://12factor.net/disposability)
+
+##### [Dev/prod parity](https://12factor.net/dev-prod-parity)
+
+##### [Logs](https://12factor.net/logs)
+
+##### [Admin processes](https://12factor.net/admin-processes)
+

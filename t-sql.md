@@ -22,7 +22,18 @@ CREATE DATABASE AssetsDB ON
 FOR ATTACH;
 ```
 
-##### Shrink database
+##### Shrink database logs
+
+To find the logical name of log file
+
+```sql
+SELECT name
+FROM sys.master_files
+WHERE database_id = db_id() AND type = 1
+```
+
+To shrink the logs
+
 ```sql
 ALTER DATABASE ExampleDatabaseName SET RECOVERY SIMPLE WITH NO_WAIT
 DBCC SHRINKFILE(ExampleDatabaseName_log, 1)
