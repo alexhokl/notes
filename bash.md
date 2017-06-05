@@ -40,6 +40,12 @@ count the number of lines in a file
 wc -l ./package.json
 ```
 
+To find files with a wording and a particular extension
+
+```sh
+grep search-term -r --include \*.{html,js} app/directory
+```
+
 find BOM characters in files
 
 ```sh
@@ -170,5 +176,3 @@ To import GPG key(s) from another machine via SSH
 ```sh
 ssh user_name@server_name gpg2 --export-secret-key KEY_ID | gpg2 --import
 ```
-
-
