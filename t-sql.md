@@ -47,6 +47,46 @@ ALTER DATABASE ExampleDatabaseName SET RECOVERY FULL WITH NO_WAIT
 GO
 ```
 
+##### Rebuild indicies and statistics
+
+```sql
+DECLARE @TableName varchar(255)
+DECLARE TableCursor CURSOR FOR
+
+SELECT table_name FROM information_schema.tables
+WHERE table_type = 'base table' AND table_catalog='CustomDatabaseName' AND TABLE_SCHEMA='dbo'
+
+DECLARE @Statement NVARCHAR(300)
+
+OPEN TableCursor
+FETCH NEXT FROM TableCursor INTO @TableName
+WHILE @@FETCH_STATUS = 0
+
+BEGIN
+	BEGIN TRY
+		-- Reindex
+		DBCC DBREINDEX(@TableName ,'', 70);
+	END TRY
+	BEGIN CATCH
+		 PRINT @TableName + ' Failed to reindex';
+	END CATCH
+
+	BEGIN TRY
+		-- Update Statistic
+		SET @Statement = 'UPDATE STATISTICS ' + @TableName + ' WITH FULLSCAN;'
+		EXEC sp_executesql @Statement
+	END TRY
+	BEGIN CATCH
+		 PRINT @TableName + ' Failed to build statistic';
+	END CATCH
+
+	FETCH NEXT FROM TableCursor INTO @TableName
+END
+
+CLOSE TableCursor
+DEALLOCATE TableCursor
+```
+
 ##### User modes
 
 To change to single-user mode (usually done at the beginning of a set of operations)
