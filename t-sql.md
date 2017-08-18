@@ -117,6 +117,48 @@ DBCC DROPCLEANBUFFERS
 3. Select "Show Execution Plan XML..."
 4. Search for `warnings`
 
+##### To check cached query plans
+
+```sql
+-- Querying the plan cache for plans that have warnings
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+
+;WITH XMLNAMESPACES (DEFAULT 'http://schemas.microsoft.com/sqlserver/2004/07/showplan'),
+    WarningSearch AS (
+            SELECT
+                  qp.query_plan
+                , cp.usecounts
+                , cp.objtype
+                , wn.query('.') AS StmtSimple
+            FROM   sys.dm_exec_cached_plans cp
+              CROSS APPLY sys.dm_exec_query_plan(cp.plan_handle) qp
+              CROSS APPLY qp.query_plan.nodes('//StmtSimple') AS p(wn)
+            WHERE wn.exist('//Warnings') = 1
+            AND  wn.exist('//ColumnsWithNoStatistics') =1
+                        AND wn.exist('@QueryHash') = 1
+                        )
+SELECT
+      ws.query_plan
+    , ws.query_plan.query('//Warnings') as Warning
+    , ws.query_plan.query('//ColumnsWithNoStatistics')
+              as WarningColumnsWithNoStatistics
+    , StmtSimple.value('StmtSimple[1]/@StatementText', 'VARCHAR(4000)')
+             AS sqlText
+    , StmtSimple.value('StmtSimple[1]/@StatementId', 'int') AS StatementId
+    , c1.value('@NodeId','int') AS node_id
+    , c1.value('@PhysicalOp','sysname') AS physical_op
+    , c1.value('@LogicalOp','sysname') AS logical_op
+        , ws.objtype
+    , c3.value('@Database', 'sysname') as [DatabaseName]
+    , c3.value('@Schema', 'sysname') as [Schema]
+    , c3.value('@Table', 'sysname') as  [TableName]
+    , c3.value('@Column', 'sysname') as [Column]
+FROM WarningSearch ws
+      CROSS APPLY StmtSimple.nodes('//RelOp') AS q1(c1)
+      CROSS APPLY c1.nodes('./Warnings') AS q2(c2)
+      CROSS APPLY c2.nodes('./ColumnsWithNoStatistics/ColumnReference') AS q3(c3)
+```
+
 ##### To update broken (or no) statistics of a table
 
 ```sql
