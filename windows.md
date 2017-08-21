@@ -122,3 +122,14 @@ To disable a Windows feature
 ```console
 Disable-WindowsOptionalFeature -Online -FeatureName IIS-DirectoryBrowsing
 ```
+
+To enable administrator account, in a command prompt with administrative
+privileges.
+
+```console
+net user Administrator /active:yes
+net user Administrator [Password] /active:yes
+```
+
+and replace `[Password]` with a secure password.
+
