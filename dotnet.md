@@ -27,6 +27,7 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 
 - [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
 - [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
+- Porting of `HttpContext` and `HttpRequest` is almost impossible.
 
 ### Mac Installation
 
@@ -123,7 +124,7 @@ SqlPackage.exe `
 ##### Running SQL deployment scripts
 
 ```console
-$SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"  
+$SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"
 Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 ```
 
