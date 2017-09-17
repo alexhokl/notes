@@ -7,6 +7,7 @@
 - [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`)
 - [Can I port my application to .NET Core?](https://icanhasdot.net/)
 - [PackageSeach](http://packagesearch.azurewebsites.net/)
+- [Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
 
 ### .NET CLI
 
@@ -27,6 +28,7 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 
 - [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
 - [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
+- [Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
 
 ### Mac Installation
 
@@ -123,7 +125,7 @@ SqlPackage.exe `
 ##### Running SQL deployment scripts
 
 ```console
-$SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"  
+$SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"
 Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 ```
 
