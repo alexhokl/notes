@@ -8,6 +8,7 @@
 - [Can I port my application to .NET Core?](https://icanhasdot.net/)
 - [PackageSeach](http://packagesearch.azurewebsites.net/)
 - [Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
+- [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on Cross-Platform Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
 
 ### .NET CLI
 
