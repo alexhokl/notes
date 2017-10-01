@@ -97,6 +97,33 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 
 # MSSQL
 
+##### Entity Framework
+
+To log SQL queries executed
+
+```csharp
+public class LogInterceptor : DbCommandInterceptor
+{
+    public override void ReaderExecuting(DbCommand command,
+        DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        s_logger.Debug($"About to execute SQL command [{command.CommandText}]");
+    }
+
+    public override void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        if (interceptionContext.Exception == null)
+            return;
+
+        s_logger.Error(
+            $"Unable to complete a SQL query [{command.CommandText}]",
+            interceptionContext.Exception);
+    }
+
+    private static readonly ILog s_logger = LogManager.GetLogger(typeof(LogInterceptor));
+}
+```
+
 ##### Building SQL deployment package
 
 To build SQL projects
