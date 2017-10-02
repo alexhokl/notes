@@ -131,6 +131,19 @@ sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
 diskutil eject /dev/disk2
 ```
 
+To mount a USB drive on linux
+
+```sh
+lsblk
+sudo mount /dev/sdc1 /home/current-user/Desktop/usb
+```
+
+To umount a USB drive on linux
+
+```sh
+sudo umount /home/current-user/Desktop/usb
+```
+
 To uninstall homebrew
 ```sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
