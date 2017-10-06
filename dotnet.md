@@ -7,6 +7,8 @@
 - [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`)
 - [Can I port my application to .NET Core?](https://icanhasdot.net/)
 - [PackageSeach](http://packagesearch.azurewebsites.net/)
+- [Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
+- [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on Cross-Platform Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
 
 ### .NET CLI
 
@@ -27,6 +29,7 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 
 - [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
 - [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
+- [Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
 - Porting of `HttpContext` and `HttpRequest` is almost impossible.
 
 ### Mac Installation
@@ -94,6 +97,33 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 - [Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
 
 # MSSQL
+
+##### Entity Framework
+
+To log SQL queries executed
+
+```csharp
+public class LogInterceptor : DbCommandInterceptor
+{
+    public override void ReaderExecuting(DbCommand command,
+        DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        s_logger.Debug($"About to execute SQL command [{command.CommandText}]");
+    }
+
+    public override void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        if (interceptionContext.Exception == null)
+            return;
+
+        s_logger.Error(
+            $"Unable to complete a SQL query [{command.CommandText}]",
+            interceptionContext.Exception);
+    }
+
+    private static readonly ILog s_logger = LogManager.GetLogger(typeof(LogInterceptor));
+}
+```
 
 ##### Building SQL deployment package
 
