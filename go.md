@@ -10,6 +10,10 @@
 
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
 
+### Tricks
+
+- Use `.Equals` instead of `==` to compare Time objects.
+
 ### Commands
 
 List of all `GOOS` and `GOARCH` can be found in [`syslist.go`](https://github.com/golang/go/blob/master/src/go/build/syslist.go)
@@ -35,3 +39,9 @@ To test a project
 ```sh
 go test ./...
 `
+
+To list all the tests in a project
+
+```sh
+go test -test.list .
+```
