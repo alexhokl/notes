@@ -55,4 +55,7 @@ exec msdb.dbo.rds_restore_database
 	@restore_db_name='MyDatabaseName',
 	@s3_arn_to_restore_from='arn:aws:s3:::my_bucket_name/my_backup_name.bak';
 ```
+# General
+
+- Always create a IAM role with an EC2 instance.
 
