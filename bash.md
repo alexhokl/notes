@@ -189,3 +189,19 @@ To import GPG key(s) from another machine via SSH
 ```sh
 ssh user_name@server_name gpg2 --export-secret-key KEY_ID | gpg2 --import
 ```
+
+To upgrade Debian from `jessie` to `stretch`
+
+```sh
+sudo apt update
+sudo apt upgrade
+sudo apt-get autoremove
+sudo cp /etc/apt/source.list /etc/apt/source.list-jessie
+(replace jessie with stretch in /etc/apt/source.list)
+sudo apt update
+sudo apt upgrade
+sudo dist-upgrade
+sudo apt-get autoremove
+reboot
+```
+
