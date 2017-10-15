@@ -5,6 +5,7 @@
 - [Dave Cheney](https://dave.cheney.net/)
 - [Testing GO HTTP API](http://dennissuratna.com/testing-in-go/)
 - [A Recap of Request Handling in Go](http://www.alexedwards.net/blog/a-recap-of-request-handling)
+- [Important interfaces that every Go developer should know](https://www.rzaluska.com/blog/important-go-interfaces/)
 
 ### Libraries
 
