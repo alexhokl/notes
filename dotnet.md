@@ -31,6 +31,7 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 - [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
 - [Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
 - Porting of `HttpContext` and `HttpRequest` is almost impossible.
+- [A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
 
 ### Mac Installation
 
