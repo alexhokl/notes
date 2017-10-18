@@ -97,6 +97,30 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 - [App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
 - [Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
 
+# IIS Express
+
+### Making ASP.NET site running on a Windows VM on Mac (and accessing it via a web client on Mac (the host))
+
+- To make IIS Express to serve multiple bindings, edit
+ `$(SolutionDir)\.vs\config\applicationhost.config`
+  (look for configuration/system.applicationHost/sites/site/bindings) and add
+  a binding with the Windows machine name. For instance, `<binding protocol="http" bindingInformation="*:3048:alex-windows" />`.
+- Configure `HTTP.SYS` at the kernel by makingan "URL Reservation" `netsh http add urlacl url=http://alex-windows:3048/ user=everyone`.
+- Add a firewall rule `netsh firewall add portopening TCP 3048 IISExpressWeb enable ALL`.
+- On Mac, edit `/etc/hosts` to add `172.16.120.128 alex-windows` (or any IP of the guest VM).
+
+##### To show existing URL reservations
+
+```sh
+netsh http show urlacl
+```
+
+##### To delete an existing URL reservation
+
+```sh
+netsh http delete urlacl url=http://alex-windows:3048/
+```
+
 # MSSQL
 
 ##### Entity Framework
