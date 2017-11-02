@@ -205,3 +205,16 @@ sudo apt-get autoremove
 reboot
 ```
 
+To change CRLF (Windows) line-endings to LF (Unix)
+
+On Mac,
+
+```sh
+find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;
+```
+
+Or on linux,
+
+```sh
+find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
+```
