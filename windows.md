@@ -133,3 +133,12 @@ net user Administrator [Password] /active:yes
 
 and replace `[Password]` with a secure password.
 
+
+To dump a list of applications installed,
+
+```sh
+wmic product get name,version
+```
+
+Note that use of option `output` is not recommended as it does not handle
+spaces and many of the special characters correctly.
