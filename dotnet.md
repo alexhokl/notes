@@ -183,6 +183,10 @@ $SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDat
 Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 ```
 
+##### Links
+
+- [Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
+
 # Azure
 
 ### SQL
