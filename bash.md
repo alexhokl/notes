@@ -218,3 +218,9 @@ Or on linux,
 ```sh
 find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
 ```
+
+To convert a PNG file to an ICO file
+
+```sh
+convert -background transparent image.png -define icon:auto-resize=16,32,48,64,256 favicon.ico
+```
