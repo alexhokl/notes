@@ -118,6 +118,11 @@ To download a file from web and rename it
 curl https://xyz.com/instructions.pdf -o guide.pdf
 ```
 
+To download a file from web with a forward URL and rename it
+```sh
+curl -L https://xyz.com/install -o installer.deb
+```
+
 To kill a process running on a particular port
 ```sh
 kill $(lsof -ti tcp:3000)
