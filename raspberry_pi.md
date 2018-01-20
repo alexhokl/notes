@@ -6,6 +6,16 @@
 
 - [EMBD](http://embd.kidoman.io/)
 
+### Prepare Respbian
+
+```sh
+curl -f https://downloads.raspberrypi.org/raspbian_lite_latest -o raspbian.img.zip
+unzip raspbian.img.zip
+lsblk
+sudo umount /dev/sdX1
+sudo umount /dev/sdX2
+```
+
 ### Initial setup (see [detail](http://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/))
 
 to edit boot config and add line the following line to lower GPU usage (assuming headless)
