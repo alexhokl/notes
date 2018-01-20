@@ -6,61 +6,62 @@
 
 - [EMBD](http://embd.kidoman.io/)
 
-### Prepare Respbian
+### Prepare Respbian on a SD card
+
+#### On Linux
 
 ```sh
-curl -f https://downloads.raspberrypi.org/raspbian_lite_latest -o raspbian.img.zip
-unzip raspbian.img.zip
+curl -f https://downloads.raspberrypi.org/raspbian_lite_latest -o raspbian.zip
+unzip raspbian.zip
 lsblk
 sudo umount /dev/sdX1
 sudo umount /dev/sdX2
+sudo dd bs=4M if=2017-11-29-raspbian-stretch-lite.img of=/dev/sdX conv=fsync
 ```
 
-### Initial setup (see [detail](http://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/))
+#### On Mac
 
-to edit boot config and add line the following line to lower GPU usage (assuming headless)
-```
-gpu_mem=16
-```
 ```sh
-sudo nano /boot/config.txt
+curl -L https://downloads.raspberrypi.org/raspbian_lite_latest -o raspbian.zip
+unzip raspbian.zip
+diskutil list
+diskutil unmount /dev/diskX
+sudo dd bs=1m if=2017-11-29-raspbian-stretch-lite.img of=/dev/rdiskX conv=sync
 ```
 
-to install docker
+#### Initial setup
+
+Change to the directory with Raspbian SD card mounted.
+
+Create file `wpa_supplicant.conf` with the following content.
+
 ```sh
-curl -sSL get.docker.com | sh
-```
+country=GB
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
 
-to add user pi to user-group docker
-```sh
-sudo usermod -aG docker pi
-```
-
-to install docker-compose
-```sh
-sudo pip install docker-compose
-```
-
-to check available WiFi connections
-```sh
-sudo iwlist wlan0 scan
-```
-
-to edit config to add WiFi connection
-```sh
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-```
-
-to add a connection to wpa_supplicant.conf
-```
 network={
-    ssid="The_SSID"
-    psk="The_wifi_password"
+  ssid="my-ssid"
+  psk="my-password"
 }
 ```
 
-to restart WiFi connection after editing wpa_supplicant.conf
+Edit file `config.txt` and add the following lines.
+
 ```sh
-sudo ifdown wlan0
-sudo ifup wlan0
+# To lower GPU usage (assuming headless)
+gpu_mem=16
+```
+
+Create file `ssh` to allow SSH access.
+
+```sh
+touch ssh
+```
+
+### Installing Docker (see [detail](http://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/))
+
+```sh
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker pi
 ```
