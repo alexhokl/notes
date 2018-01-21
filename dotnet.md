@@ -123,7 +123,7 @@ netsh http delete urlacl url=http://alex-windows:3048/
 
 # MSSQL
 
-##### Entity Framework
+### Entity Framework
 
 To log SQL queries executed
 
@@ -150,11 +150,74 @@ public class LogInterceptor : DbCommandInterceptor
 }
 ```
 
+##### Improving performance
+
+See [Entity Framework Performance and What You Can Do About It](https://www.red-gate.com/simple-talk/dotnet/net-tools/entity-framework-performance-and-what-you-can-do-about-it/)
+
+- Avoid being too greedy with Rows
+- The ‘N+1 Select’ problem: Minimising the trips to the database
+  - Use of `.Include()`
+- Avoid being too greedy with columns
+  - use less network bandwidth
+  - a good indexing strategy involves considering what columns you frequently match against and what columns are returned when searching against them, along with judgements about disk space requirements and the additional performance penalty indexes incur on writing
+- Avoid mismatched data types
+  - for instance, database definition of `VARCHAR` in database where EF consider the value as `NVARCHAR` and this results a `CONVERT`. To solve this, either change database definition to `NVARCHAR` or applying attribute `[Column(TypeName =  "varchar")]`.
+- Add missing indexes
+  - `CREATE NONCLUSTERED INDEX [NonClusteredIndex_City] ON [dbo].[Pupils] ([City]) INCLUDE ([FirstName], [LastName]) ON [PRIMARY]` creates a non-clustered index for queries filtering against city and serves first and last names
+- Avoid overly-generic queries
+
+```csharp
+public class QueryPlanRecompileInterceptor : DbCommandInterceptor
+{
+    public override void ReaderExecuting(
+        DbCommand command,
+        DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        if (!command.CommandText.StartsWith("EXEC ") &&
+            !command.CommandText.EndsWith(" option(recompile)"))
+        {
+            command.CommandText += " option(recompile)";
+        }
+    }
+}
+```
+
+```csharp
+var interceptor = new QueryPlanRecompileInterceptor();
+DbInterception.Add(interceptor);
+var pupils = db.Pupils.Where(p => p.City = city).ToList();
+DbInterception.Remove(interceptor);
+```
+
+- Avoid bloating the plan cache
+  - in order for a plan to be reused, the statement text must be identical which is the case for parameterised queries
+    - but there is a case when this doesn’t happen – when we use `.Skip()` or `.Take()`
+    - use lambda function in `IQueryable.Skip()` and `IQueryable.Take()`
+  - enable a SQL Server setting called 'optimise for ad-hoc workloads'
+    - this makes SQL Server less aggressive at caching plans, and is generally a good thing to enable, but it doesn’t address the underlying issue
+- Using bulk insert
+  - `EF.BulkInsert()`
+    - this will be supported out of the box in EF 7.0
+- Disable tracking in read-only queries
+
+```csharp
+string city =  "New York";
+var schools =
+  db.Schools
+    .AsNoTracking()
+    .Where(s => s.City == city)
+    .Take(100)
+    .ToList();
+```
+
+- Allowing EF to make and receive multiple requests to SQL Server over a single connection, reducing the number of roundtrips
+  - `MultipleActiveResultSets=True;`
+
 ##### Building SQL deployment package
 
 To build SQL projects
 
-```console
+```powershell
 Install-PackageProvider -Name chocolatey -Force;
 Install-Package -Name microsoft-build-tools -RequiredVersion 14.0.25420.1 -Force;
 Install-Package dotnet4.6-targetpack -Force;
@@ -178,7 +241,7 @@ SqlPackage.exe `
 
 ##### Running SQL deployment scripts
 
-```console
+```powershell
 $SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"
 Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 ```
