@@ -31,11 +31,10 @@ sudo dd bs=1m if=2017-11-29-raspbian-stretch-lite.img of=/dev/rdiskX conv=sync
 
 #### Initial setup
 
-Change to the directory with Raspbian SD card mounted.
-
-Create file `wpa_supplicant.conf` with the following content.
+Change to the directory with Raspbian SD card mounted and execute the following script.
 
 ```sh
+cat > wpa_supplicant.conf << 'EOT'
 country=GB
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -44,18 +43,11 @@ network={
   ssid="my-ssid"
   psk="my-password"
 }
-```
-
-Edit file `config.txt` and add the following lines.
-
-```sh
+EOT
+cat >> config.txt << 'EOT'
 # To lower GPU usage (assuming headless)
 gpu_mem=16
-```
-
-Create file `ssh` to allow SSH access.
-
-```sh
+EOT
 touch ssh
 ```
 
