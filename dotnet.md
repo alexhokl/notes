@@ -125,7 +125,7 @@ netsh http delete urlacl url=http://alex-windows:3048/
 
 ### Entity Framework
 
-To log SQL queries executed
+###### To log SQL queries executed
 
 ```csharp
 public class LogInterceptor : DbCommandInterceptor
@@ -149,6 +149,59 @@ public class LogInterceptor : DbCommandInterceptor
     private static readonly ILog s_logger = LogManager.GetLogger(typeof(LogInterceptor));
 }
 ```
+
+###### To log the duration of SQL queries
+
+```csharp
+public class QueryTimingInterceptor : DbCommandInterceptor
+{
+    public override void ReaderExecuting(DbCommand command,
+        DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        interceptionContext.UserState = GetStartedStopWatch();
+    }
+
+    public override void ScalarExecuting(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
+    {
+        interceptionContext.UserState = GetStartedStopWatch();
+    }
+
+    public override void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+    {
+        OnCompletion(command, interceptionContext.UserState as Stopwatch);
+    }
+
+    public override void ScalarExecuted(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
+    {
+        OnCompletion(command, interceptionContext.UserState as Stopwatch);
+    }
+
+    private void OnCompletion(DbCommand command, Stopwatch stopwatch)
+    {
+        if (stopwatch == null)
+        {
+            s_logger.Error("Unable to retrieve stop watch from interceptionContext");
+            return;
+        }
+
+        stopwatch.Stop();
+        var duration = stopwatch.Elapsed.TotalSeconds;
+        var logLine =
+            $"It took {duration:F} seconds to complete the following query: {command.CommandText}";
+        s_logger.Info(logLine);
+    }
+
+    private static Stopwatch GetStartedStopWatch()
+    {
+        var stopWatch = new Stopwatch();
+        stopWatch.Start();
+        return stopWatch;
+    }
+
+    private static readonly ILog s_logger = LogManager.GetLogger(typeof(QueryTimingInterceptor));
+}
+```
+
 
 ##### Improving performance
 
