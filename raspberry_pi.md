@@ -2,11 +2,16 @@
 
 - [On/Off Project - Switch a light on/off using your smart phone](http://projects.privateeyepi.com/home/on-off-project)
 
-### Libraries
+### Languages
+
+##### Go
 
 - [EMBD](http://embd.kidoman.io/)
-
-### Languages
+- [brian-armstrong/gpio](https://github.com/brian-armstrong/gpio)
+- [stianeikeland/go-rpio](https://github.com/stianeikeland/go-rpio)
+- [technomancers/piCamera](https://github.com/technomancers/piCamera)
+- [brentpabst/wxcam](https://github.com/brentpabst/wxcam)
+- [paypal/gatt](https://github.com/paypal/gatt)
 
 ##### .NET core
 
@@ -47,6 +52,11 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Live stream to YouTube with your Raspberry Pi and Docker](https://blog.alexellis.io/live-stream-with-docker/)
 - [Serverless by use-case: Alexa skill for Dockercon](https://blog.alexellis.io/serverless-alexa-skill-mobymingle/)
 - [Extending the Google Assistant with Google Actions](https://developers.google.com/actions/extending-the-assistant)
+- [Google Action API](https://developers.google.com/actions/reference/rest/Shared.Types/AppRequest)
+- [Google Assistant Design Checklist](https://developers.google.com/actions/design/checklist)
+- [Google Action samples](https://developers.google.com/actions/samples/)
+- [Google Action - Distribute your Actions](https://developers.google.com/actions/distribute/)
+- [Google Assistant - Locales](https://developers.google.com/actions/support/)
 
 ### Prepare Respbian on a SD card
 
