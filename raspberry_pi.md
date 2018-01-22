@@ -27,7 +27,7 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 ### Links
 
 - [Specifications](https://en.wikipedia.org/wiki/Raspberry_Pi#Specifications)
-- [Docker ARMv7 images](https://hub.docker.com/u/armhf/)
+- [Docker ARMv7 images](https://hub.docker.com/u/arm32v7/)
 - [Docker ARMv6 images](https://hub.docker.com/u/arm32v6/)
 - [resin.io Docker images](https://hub.docker.com/u/resin/)
 - [Changing the Raspberry Pi Keyboard Layout](https://thepihut.com/blogs/raspberry-pi-tutorials/25556740-changing-the-raspberry-pi-keyboard-layout)
@@ -44,7 +44,9 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Dialogflow Basics](https://dialogflow.com/docs/getting-started/basics)
 - [Dialogflow - Supported Languages](https://dialogflow.com/docs/reference/language)
 - [Comparison of kits other than Raspberry Pi](https://developer.android.com/things/hardware/index.html)
-
+- [Live stream to YouTube with your Raspberry Pi and Docker](https://blog.alexellis.io/live-stream-with-docker/)
+- [Serverless by use-case: Alexa skill for Dockercon](https://blog.alexellis.io/serverless-alexa-skill-mobymingle/)
+- [Extending the Google Assistant with Google Actions](https://developers.google.com/actions/extending-the-assistant)
 
 ### Prepare Respbian on a SD card
 
