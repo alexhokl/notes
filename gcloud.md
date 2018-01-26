@@ -159,6 +159,19 @@ docker tag image-name:latest asia.gcr.io/project-name/image-name
 gcloud docker push asia.gcr.io/project-name/image-name
 ```
 
+###### Minikube
+
+```sh
+# to start
+minikube start
+
+# to stop
+minikube stop
+
+# to get IP and port of the running service
+minikube service your-service-name --url
+```
+
 ###### Links
 
 - [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
