@@ -1,3 +1,9 @@
+##### Links
+
+- [Sign an image](https://docs.docker.com/datacenter/dtr/2.4/guides/user/manage-images/sign-images/)
+
+##### Commands
+
 to stop all containers
 ```sh
 docker stop $(docker ps -a -q)
