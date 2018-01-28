@@ -57,6 +57,7 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Google Action samples](https://developers.google.com/actions/samples/)
 - [Google Action - Distribute your Actions](https://developers.google.com/actions/distribute/)
 - [Google Assistant - Locales](https://developers.google.com/actions/support/)
+- [Pimoroni Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat)
 
 ### Prepare Respbian on a SD card
 
