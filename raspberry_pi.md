@@ -58,6 +58,9 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Google Action - Distribute your Actions](https://developers.google.com/actions/distribute/)
 - [Google Assistant - Locales](https://developers.google.com/actions/support/)
 - [Pimoroni Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat)
+- [RaspBee](https://www.dresden-elektronik.de/raspbee/)
+- [RaspBee - User Manual](https://www.dresden-elektronik.de/fileadmin/Downloads/Dokumente/Produkte/ZLL/RaspBee-BHB-en.pdf)
+- [ConBee](https://www.dresden-elektronik.de/conbee/)
 
 ### Prepare Respbian on a SD card
 
