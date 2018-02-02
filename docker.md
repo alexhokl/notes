@@ -2,6 +2,17 @@
 
 - [Sign an image](https://docs.docker.com/datacenter/dtr/2.4/guides/user/manage-images/sign-images/)
 
+##### Troubleshoot
+
+For prompt of
+
+```console
+Step 7/7 : COPY ./src .
+COPY failed: stat /var/lib/docker/tmp/docker-builder752307336/src: no such file or directory
+```
+
+check `.dockerignore` to see if it is a directory being ignored.
+
 ##### Commands
 
 to stop all containers
