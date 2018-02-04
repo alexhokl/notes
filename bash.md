@@ -63,7 +63,7 @@ done
 
 replace words in a file
 ```sh
-sed 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
+sed -i -e 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
 ```
 
 find unique file prefixes (if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...)
