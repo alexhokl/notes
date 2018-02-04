@@ -32,15 +32,24 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 ### Links
 
 - [Specifications](https://en.wikipedia.org/wiki/Raspberry_Pi#Specifications)
-- [Docker ARMv7 images](https://hub.docker.com/u/arm32v7/)
-- [Docker ARMv6 images](https://hub.docker.com/u/arm32v6/)
-- [resin.io Docker images](https://hub.docker.com/u/resin/)
 - [Changing the Raspberry Pi Keyboard Layout](https://thepihut.com/blogs/raspberry-pi-tutorials/25556740-changing-the-raspberry-pi-keyboard-layout)
 - [Camera Configuration](https://www.raspberrypi.org/documentation/configuration/camera.md)
 - [Library python3-picamera](https://www.raspberrypi.org/documentation/usage/camera/python/README.md)
 - [Technical Spec - Camera module](https://www.raspberrypi.org/documentation/hardware/camera/README.md)
 - [Raspicam commands](https://www.raspberrypi.org/documentation/usage/camera/raspicam/README.md)
 - [Getting started with camera - official guide](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+- [Pimoroni Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat)
+
+##### Docker
+
+- [Docker ARMv7 images](https://hub.docker.com/u/arm32v7/)
+- [Docker ARMv6 images](https://hub.docker.com/u/arm32v6/)
+- [resin.io Docker images](https://hub.docker.com/u/resin/)
+- [Serverless by use-case: Alexa skill for Dockercon](https://blog.alexellis.io/serverless-alexa-skill-mobymingle/)
+- [Live stream to YouTube with your Raspberry Pi and Docker](https://blog.alexellis.io/live-stream-with-docker/)
+
+##### Google Assistant and Dialogflow
+
 - [Introduction to the Google Assistant Library](https://developers.google.com/assistant/sdk/guides/library/python/)
 - [Introduction to the Google Assistant Service](https://developers.google.com/assistant/sdk/guides/service/python/)
 - [Comparing Google Assistant Library and Service](https://developers.google.com/assistant/sdk/overview#features)
@@ -49,18 +58,22 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Dialogflow Basics](https://dialogflow.com/docs/getting-started/basics)
 - [Dialogflow - Supported Languages](https://dialogflow.com/docs/reference/language)
 - [Comparison of kits other than Raspberry Pi](https://developer.android.com/things/hardware/index.html)
-- [Live stream to YouTube with your Raspberry Pi and Docker](https://blog.alexellis.io/live-stream-with-docker/)
-- [Serverless by use-case: Alexa skill for Dockercon](https://blog.alexellis.io/serverless-alexa-skill-mobymingle/)
 - [Extending the Google Assistant with Google Actions](https://developers.google.com/actions/extending-the-assistant)
 - [Google Action API](https://developers.google.com/actions/reference/rest/Shared.Types/AppRequest)
 - [Google Assistant Design Checklist](https://developers.google.com/actions/design/checklist)
 - [Google Action samples](https://developers.google.com/actions/samples/)
 - [Google Action - Distribute your Actions](https://developers.google.com/actions/distribute/)
 - [Google Assistant - Locales](https://developers.google.com/actions/support/)
-- [Pimoroni Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat)
+
+##### Zigbee
+
 - [RaspBee](https://www.dresden-elektronik.de/raspbee/)
 - [RaspBee - User Manual](https://www.dresden-elektronik.de/fileadmin/Downloads/Dokumente/Produkte/ZLL/RaspBee-BHB-en.pdf)
 - [ConBee](https://www.dresden-elektronik.de/conbee/)
+- [deCONZ REST API - documentation](http://dresden-elektronik.github.io/deconz-rest-doc/) (for Raspbee and ConBee)
+- [deCONZ REST API - code](https://github.com/dresden-elektronik/deconz-rest-plugin) (for Raspbee and ConBee)
+- [Phoscon App Beta](https://github.com/dresden-elektronik/phoscon-app-beta) (a web app based on deCONZ REST API)
+- [Connecting XBee to Raspberry Pi](https://dzone.com/articles/connecting-xbee-raspberry-pi)
 
 ### Prepare Respbian on a SD card
 
