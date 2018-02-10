@@ -64,6 +64,7 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Google Action samples](https://developers.google.com/actions/samples/)
 - [Google Action - Distribute your Actions](https://developers.google.com/actions/distribute/)
 - [Google Assistant - Locales](https://developers.google.com/actions/support/)
+- [Integrating Smart Home Devices with the Google Assistant](https://www.youtube.com/watch?v=XdZXpFBvTP8)
 
 ##### Zigbee
 
