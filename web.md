@@ -29,6 +29,18 @@
 - [IcoMoon](https://icomoon.io://icomoon.io/)
 - [veryicon](http://www.veryicon.com/)
 
+### WebP
+
+To use WebP and make JPEG as backup
+
+```html
+<picture>
+  <source srcset="img/image.webp" type="image/webp">
+  <source srcset="img/image.jpg" type="image/jpeg">
+  <img src="img/image.jpg" alt="Alt Text!">
+</picture>
+```
+
 ### CSS
 
 #### Layout
