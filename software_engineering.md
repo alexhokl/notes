@@ -115,3 +115,47 @@
 ##### [Admin processes](https://12factor.net/admin-processes)
 
 - Run admin/management tasks as one-off processes
+
+
+### 10 ways to accelerate software development from Dave Thomas
+
+- See [slides](http://yowconference.com.au/slides/yownights/SLIDES_YN201705DaveThomas_TenWays.pdf)
+- development velocity is constrained by testing velocity
+- a healthy software development environment contains
+  - small high performance teams
+  - alignment on practice and tools
+  - automated everything
+- activity-based estimation
+  - collect statistics of time spent of an activity
+  - activities includes
+    - class creation
+    - method creation
+    - API endpoint creation
+    - product/data definition
+    - business rule creation and documentation
+    - storyboard creation
+  - come up with a grid of common scenarios and its estimates so that a risk window could be constructed
+    - the window will have a dimension story-based estimation
+- use PowerPoint for fast prototyping
+- express architecture in terms of APIs
+- Document NoSQL stuff
+- try to keep data immutable
+- use batching whenever possible (like what salesforce does with their APIs)
+- data conversion between clients are expensive
+- use decision tables
+  - ends up with lookup tables which are easy to check and understand
+- provide generic query API modelled on SQL
+- make read-only relational replicas of important data for fast reporting
+- modify interface to control units using TCP/IP
+- implement HTTP and ATOM interfaces to automation system
+- testing should comprise of 30%-50% of development time
+- use property based testing
+  - [example in c#](https://www.codit.eu/blog/2017/09/28/property-based-testing-with-c/)
+  - [FsCheck](https://github.com/fscheck/FsCheck) in C#
+  - [GOPTER](https://github.com/leanovate/gopter) in Go
+  - [JSVerify](http://jsverify.github.io/) in Javascript
+  - [John Hughes - Testing the Hard Stuff and Staying Sane](https://www.youtube.com/watch?v=zi0rHwfiX1Q)
+- in case of significant UI changes
+  - freeze the code changes
+  - ask other developers to test the UI and find stupid bugs
+  - once it is stable, code selenium tests (e2e tests)
