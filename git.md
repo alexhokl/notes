@@ -223,15 +223,13 @@ git checkout --orphan new_branch_name
 
 ##### Moving large files to LFS
 
-[bfg](https://rtyley.github.io/bfg-repo-cleaner/)
+- install git lfs
+- initialise with `git lfs install`
+
+- within a repository, apply `git lfs track` to add files to `.gitattribute`
 
 ```sh
-git clone --mirror https://github.com/alexhokl/big-problem.git
-java -jar bfg.jar --convert-to-git-lfs '*.dll' --no-blob-protection big-problem.git
-cd big-problem.git
-git lfs install
-git lfs ls-files
-git push
+git lfs track "*.webp
 ```
 
 ##### Configuration
