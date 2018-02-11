@@ -13,6 +13,8 @@
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
 - [uber-go/zap](https://github.com/uber-go/zap)
 - [go-chi/chi](https://github.com/go-chi/chi)
+- [spf13/viper](https://github.com/spf13/viper) for application configurations
+- [urfave/cli](https://github.com/urfave/cli) for building command line applications
 
 ### Tricks
 
