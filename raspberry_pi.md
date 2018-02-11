@@ -77,6 +77,10 @@ sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 - [Phoscon App Beta](https://github.com/dresden-elektronik/phoscon-app-beta) (a web app based on deCONZ REST API)
 - [Connecting XBee to Raspberry Pi](https://dzone.com/articles/connecting-xbee-raspberry-pi)
 
+##### Bluetooth
+
+- [Scan For BLE iBeacon Devices With Golang On A Raspberry Pi Zero W](https://www.thepolyglotdeveloper.com/2018/02/scan-ble-ibeacon-devices-golang-raspberry-pi-zero-w/)
+
 ### Prepare Respbian on a SD card
 
 ##### On Linux
