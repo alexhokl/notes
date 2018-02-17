@@ -116,6 +116,17 @@
 
 - Run admin/management tasks as one-off processes
 
+### One Bite At A Time: Partitioning Complexity
+
+- See [post](https://www.facebook.com/notes/kent-beck/one-bite-at-a-time-partitioning-complexity/1716882961677894/)
+- make sure the code is correct, then make it clean, then make it fast
+- separate refactoring and logic change
+- in case of changing an interface, change the code that this using that
+  interface first before changing the implementation of the interface
+- use TDD
+- use the pattern of composed method; a method which composes of many method calls; this avoids a method contains too much logic
+- use constants to replace complex computations to code other logics and make
+  unit tests pass before getting back to replace that constant
 
 ### 10 ways to accelerate software development from Dave Thomas
 
