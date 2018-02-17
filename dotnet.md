@@ -53,6 +53,8 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 ### Libraries
 
 - [StackExchange/NetGain](https://github.com/StackExchange/NetGain) A high performance websocket server library powering Stack Overflow
+- [Dapper](https://github.com/StackExchange/Dapper)
+- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional)
 
 ### To check which .NET framework versions are installed
 
