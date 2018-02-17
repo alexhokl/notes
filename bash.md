@@ -96,6 +96,18 @@ current running processes memory usage
 top
 ```
 
+To list IP addresses
+
+```sh
+ip addr show
+```
+
+To list most of the current network ports (or sockets)
+
+```sh
+sudo netstat -tupln
+```
+
 to modify PATH
 ```sh
 echo ${PATH} > t1
