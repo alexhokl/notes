@@ -50,6 +50,10 @@ To run the formatter, download the zip from release page and run
 codeformatter.exe /nocopyright C:\work\solution.sln
 ```
 
+### Libraries
+
+- [StackExchange/NetGain](https://github.com/StackExchange/NetGain) A high performance websocket server library powering Stack Overflow
+
 ### To check which .NET framework versions are installed
 
 ##### For framework version 1 - 4
