@@ -14,3 +14,4 @@
 - [saumitras/kafka-twitter-docker](https://github.com/saumitras/kafka-twitter-docker/blob/master/docker-compose.yml) An example on using Zookeeper and Kafka in Docker containers
 - [Understanding Kafka with Legos](https://www.youtube.com/watch?v=Q5wOegcVa8E)
 - [Introduction to Apache Kafka by James Ward](https://www.youtube.com/watch?v=UEg40Te8pnE)
+- [Protocol Buffer](https://developers.google.com/protocol-buffers/docs/gotutorial)
