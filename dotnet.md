@@ -252,8 +252,32 @@ DbInterception.Remove(interceptor);
   - in order for a plan to be reused, the statement text must be identical which is the case for parameterised queries
     - but there is a case when this doesn’t happen – when we use `.Skip()` or `.Take()`
     - use lambda function in `IQueryable.Skip()` and `IQueryable.Take()`
-  - enable a SQL Server setting called 'optimise for ad-hoc workloads'
-    - this makes SQL Server less aggressive at caching plans, and is generally a good thing to enable, but it doesn’t address the underlying issue
+  - enable a SQL Server setting called 'optimise for ad-hoc workloads' (see
+    also [optimize for ad hoc workloads Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/optimize-for-ad-hoc-workloads-server-configuration-option))
+    - this makes SQL Server less aggressive at caching plans, and is generally a good thing to enable
+    - to find the one-off ad-hoc plans (see query below)
+    - To enable "optimise for ad-hoc workloads" (see stored procedure below)
+    - on AWS, change of the setting can be done in parameter groups. A new
+      parameter group will be required if no prior custom parameter group is
+      setup. After changing the value of the option in the parameter group, the
+      group should be applied to the RDS instance.
+
+```sql
+SELECT objtype, cacheobjtype,
+  AVG(usecounts) AS Avg_UseCount,
+  SUM(refcounts) AS AllRefObjects,
+  SUM(CAST(size_in_bytes AS bigint))/1024/1024 AS Size_MB
+FROM sys.dm_exec_cached_plans
+WHERE objtype = 'Adhoc' AND usecounts = 1
+GROUP BY objtype, cacheobjtype;
+```
+
+```sql
+EXEC sys.sp_configure N'optimize for ad hoc workloads', N'1'
+RECONFIGURE WITH OVERRIDE
+GO
+```
+
 - Using bulk insert
   - `EF.BulkInsert()`
     - this will be supported out of the box in EF 7.0
