@@ -121,3 +121,9 @@ To get IP of a container
 ```console
 $ip = docker inspect --format '{{ .NetworkSettings.Networks.nat.IPAddress }}' a-windows-container-name
 ```
+
+To run linux containers in Docker Windows container engine
+
+```console
+docker run --platform linux busybox echo hello
+```
