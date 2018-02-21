@@ -117,6 +117,12 @@ To delete a container cluster
 gcloud container clusters delete any-project-name-cluster
 ```
 
+To force delete a pod
+
+```sh
+kubectl delete pod --grace-period=0 --force my-pod-name
+```
+
 To change the number of nodes in a cluster
 
 ```sh
