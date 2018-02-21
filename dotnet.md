@@ -296,6 +296,20 @@ var schools =
 - Allowing EF to make and receive multiple requests to SQL Server over a single connection, reducing the number of roundtrips
   - `MultipleActiveResultSets=True;`
 
+##### Anti-patterns
+
+- `.Where().First()`
+- `.SingleOrDefault()` instead of `.FirstOrDefault()`
+  - effectively `SELECT TOP 2` instead of `SELECT TOP 1`
+- `.Count()` instead of `.All()` or `.Any()`
+- `.Where().Where()`
+- `.OrderBy().OrderBy()` instead of `.OrderBy().ThenBy()`
+  - the logic of double `.OrderBy()` is simply incorrect
+- `.Select(x => x)` instead of `AsEnumerable()`
+  - If remote execution is not desired, for example because the predicate invokes a local method, the `AsEnumerable` method can be used to hide the custom methods and instead make the standard query operators available
+- `.Count()` instead of `.Count` or `.Length`
+  - the alternatives can prevent `O(n)` operations
+
 ##### Building SQL deployment package
 
 To build SQL projects
