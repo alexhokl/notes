@@ -16,6 +16,7 @@
 - [spf13/viper](https://github.com/spf13/viper) for application configurations
 - [urfave/cli](https://github.com/urfave/cli) for building command line applications
 - [gorilla/websocket](https://github.com/gorilla/websocket)
+- [leanovate/gopter](https://github.com/leanovate/gopter) property testing
 
 ### Tricks
 
