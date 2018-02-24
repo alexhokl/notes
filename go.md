@@ -11,10 +11,11 @@
 ### Libraries
 
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
-- [uber-go/zap](https://github.com/uber-go/zap)
-- [go-chi/chi](https://github.com/go-chi/chi)
+- [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured, leveled logging in Go
+- [go-chi/chi](https://github.com/go-chi/chi) lightweight, idiomatic and composable router for building Go HTTP services
 - [spf13/viper](https://github.com/spf13/viper) for application configurations
 - [urfave/cli](https://github.com/urfave/cli) for building command line applications
+- [gorilla/websocket](https://github.com/gorilla/websocket)
 
 ### Tricks
 
