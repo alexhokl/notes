@@ -17,6 +17,7 @@
 - [urfave/cli](https://github.com/urfave/cli) for building command line applications
 - [gorilla/websocket](https://github.com/gorilla/websocket)
 - [leanovate/gopter](https://github.com/leanovate/gopter) property testing
+- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache Kafka 0.8, and up
 
 ### Tricks
 
