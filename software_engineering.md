@@ -170,3 +170,7 @@
   - freeze the code changes
   - ask other developers to test the UI and find stupid bugs
   - once it is stable, code selenium tests (e2e tests)
+
+### Others
+
+- Keep variables immutable especially those in a loop
