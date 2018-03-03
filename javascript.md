@@ -1,3 +1,7 @@
+### Links
+
+-	[ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
+
 ##### To inject jQuery into Chrome deugging console
 
 ```js
@@ -11,6 +15,7 @@ jQuery.noConflict();
 ##### array
 
 to find unique items in an array
+
 ```js
 var uniquePredicate = function (value, index, self) {
   return self.indexOf(value) === index;
@@ -19,6 +24,7 @@ var uniqueDocuments = allDocuments.filter(uniquePredicate);
 ```
 
 ##### double and triple equality
+
 ```js
 null == undefined   // true
 null === undefined  // false
@@ -34,6 +40,7 @@ null == undefined  // true
 ```
 
 ##### Examples on triple-equal-sign in Javascript. Note that all the code return 3.
+
 ```js
 var f1 = function() {
   var abc;
@@ -66,6 +73,7 @@ var f3 = function() {
 ```
 
 ##### Example on automatic semi-colon insertion in Javascript
+
 ```js
 var h1 = function() {
   return {
