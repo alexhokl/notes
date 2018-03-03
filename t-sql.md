@@ -1,8 +1,17 @@
-# Database and T-SQL
+Database and T-SQL
+==================
+
+Contents
+
+-	[Tools](#tools)
+-	[Database Operations](#database-operations)
+-	[Database performance](#database-performance)
+-	[Database table manipulations](#database-table-manipulations)
+-	[Query](#query)
 
 ### Tools
 
-- [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
+-	[Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
 
 ### Database Operations
 
@@ -15,8 +24,7 @@ GO
 
 ##### Attach a database
 
-Make sure that the folders containing the database files are granted with write permissions for the MSSQL server process
-(Check "Logon" tab in `services.msc`).
+Make sure that the folders containing the database files are granted with write permissions for the MSSQL server process (Check "Logon" tab in `services.msc`).
 
 ```sql
 CREATE DATABASE AssetsDB ON
@@ -25,8 +33,7 @@ CREATE DATABASE AssetsDB ON
 FOR ATTACH;
 ```
 
-If the attached database is running as read-only mode due to the file permissions,
-fix the file permissions and run `ALTER DATABASE [DatabaseName] SET READ_WRITE` to make it running in non-read-only mode again.
+If the attached database is running as read-only mode due to the file permissions, fix the file permissions and run `ALTER DATABASE [DatabaseName] SET READ_WRITE` to make it running in non-read-only mode again.
 
 ##### Shrink database logs
 
@@ -112,10 +119,10 @@ DBCC DROPCLEANBUFFERS
 
 ##### To check query warnings via execution plan
 
-1. Make a query via Management Studio with execution plan enabled
-2. Right click on any blank space on the execution plan
-3. Select "Show Execution Plan XML..."
-4. Search for `warnings`
+1.	Make a query via Management Studio with execution plan enabled
+2.	Right click on any blank space on the execution plan
+3.	Select "Show Execution Plan XML..."
+4.	Search for `warnings`
 
 ##### To check cached query plans
 
@@ -165,19 +172,52 @@ FROM WarningSearch ws
 UPDATE STATISTICS MyCustomTableName WITH FULLSCAN
 ```
 
+##### To query disk space consumed by table sizes
+
+```sql
+SELECT
+    t.NAME AS TableName,
+    s.Name AS SchemaName,
+    p.rows AS RowCounts,
+    SUM(a.total_pages) * 8/ 1024.00 AS TotalSpaceMB,
+    SUM(a.used_pages) * 8 /1024.00AS UsedSpaceMB,
+    (SUM(a.total_pages) - SUM(a.used_pages)) * 8/1024.00 AS UnusedSpaceMB
+FROM
+    sys.tables t
+INNER JOIN
+    sys.indexes i ON t.OBJECT_ID = i.object_id
+INNER JOIN
+    sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.index_id
+INNER JOIN
+    sys.allocation_units a ON p.partition_id = a.container_id
+LEFT OUTER JOIN
+    sys.schemas s ON t.schema_id = s.schema_id
+WHERE
+    t.NAME NOT LIKE 'dt%'
+    AND t.is_ms_shipped = 0
+    AND i.OBJECT_ID > 255
+GROUP BY
+    t.Name, s.Name, p.Rows
+ORDER BY
+    t.Name
+```
+
 ### Database table manipulations
 
 ##### To modify column definition
-``` sql
+
+```sql
 ALTER TABLE Examples ALTER COLUMN ExampleId VARCHAR(20) NOT NULL
 ```
 
 ##### Altering primary key
+
 ```sql
 ALTER TABLE Examples ADD PRIMARY KEY([ExampleId], [UserId])
 ```
 
 ##### Example on column insertion
+
 ```sql
 ALTER TABLE Examples ADD [Title] NVARCHAR(50) NULL
 ```
@@ -199,11 +239,22 @@ EXEC sp_rename
 
 ### Query
 
+##### To search columns in tables
+
+```sql
+SELECT t.name, c.name
+FROM
+  sys.columns c INNER JOIN
+  sys.tables t ON
+    t.object_id = c.object_id
+WHERE c.name = 'ColumnToBeSearched'
+ORDER BY t.name, c.name
+```
+
 ##### Cross Join
 
 Effectively a simple cartesian product, or a `LEFT OUTER JOIN` and `RIGHT
-OUTER JOIN` applied at the same time.
-The following are equivalent syntax.
+OUTER JOIN` applied at the same time. The following are equivalent syntax.
 
 ```sql
 SELECT * FROM TableA CROSS JOIN TableB
@@ -509,48 +560,6 @@ FROM
   t2.is_nullable = t1.is_nullable
 ```
 
-##### To search columns in tables
-
-```sql
-SELECT t.name, c.name
-FROM
-  sys.columns c INNER JOIN
-  sys.tables t ON
-    t.object_id = c.object_id
-WHERE c.name = 'ColumnToBeSearched'
-ORDER BY t.name, c.name
-```
-
-##### To query disk space consumed by table sizes
-
-```sql
-SELECT
-    t.NAME AS TableName,
-    s.Name AS SchemaName,
-    p.rows AS RowCounts,
-    SUM(a.total_pages) * 8/ 1024.00 AS TotalSpaceMB,
-    SUM(a.used_pages) * 8 /1024.00AS UsedSpaceMB,
-    (SUM(a.total_pages) - SUM(a.used_pages)) * 8/1024.00 AS UnusedSpaceMB
-FROM
-    sys.tables t
-INNER JOIN
-    sys.indexes i ON t.OBJECT_ID = i.object_id
-INNER JOIN
-    sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.index_id
-INNER JOIN
-    sys.allocation_units a ON p.partition_id = a.container_id
-LEFT OUTER JOIN
-    sys.schemas s ON t.schema_id = s.schema_id
-WHERE
-    t.NAME NOT LIKE 'dt%'
-    AND t.is_ms_shipped = 0
-    AND i.OBJECT_ID > 255
-GROUP BY
-    t.Name, s.Name, p.Rows
-ORDER BY
-    t.Name
-```
-
 ##### Geo-locations
 
 Type `GEOGRAPHY` is available since MSSQL Server 2008.
@@ -561,10 +570,9 @@ To update data to a column of type `GEOGRAPHY`,
 UPDATE MyTable SET MyLocation = GEOGRAPHY::Point(22, 116, 4326)
 ```
 
-where 4326 is a commonly used GPS system.
+where `4326` is a commonly used GPS system.
 
-Function `.STAsText()` shows coordinates as string in a single field whereas
-`.STDistance()` shows distance between two points in metres.
+Function `.STAsText()` shows coordinates as string in a single field whereas`.STDistance()` shows distance between two points in metres.
 
 ##### Collation
 
