@@ -9,6 +9,7 @@
 -	[Backup Docker Content Trust Keys](https://docs.docker.com/engine/security/trust/trust_key_mng/#choosing-a-passphrase)
 -	[First look: Jenkins CI with Windows Containers and Docker](https://blog.alexellis.io/continuous-integration-docker-windows-containers/)
 -	[3 Steps to MSBuild with Docker](https://blog.alexellis.io/3-steps-to-msbuild-with-docker/)
+-	[Google Cloud Platform - Storage Options](https://cloud.google.com/images/storage-options/flowchart.svg)
 
 ##### Troubleshoot
 
