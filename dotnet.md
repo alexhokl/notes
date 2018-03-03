@@ -1,14 +1,15 @@
-# .NET Core
+.NET Core
+=========
 
 ### Porting
 
-- [GitHub issues: port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
-- [Porting to .NET Core from .NET Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
-- [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`)
-- [Can I port my application to .NET Core?](https://icanhasdot.net/)
-- [PackageSeach](http://packagesearch.azurewebsites.net/)
-- [Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
-- [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on Cross-Platform Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
+-	[GitHub issues: port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
+-	[Porting to .NET Core from .NET Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
+-	[Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`\)
+-	[Can I port my application to .NET Core?](https://icanhasdot.net/)
+-	[PackageSeach](http://packagesearch.azurewebsites.net/)
+-	[Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
+-	[Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on Cross-Platform Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
 
 ### .NET CLI
 
@@ -27,20 +28,22 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 
 ### ASP.NET Core
 
-- [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
-- [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
-- [Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
-- Porting of `HttpContext` and `HttpRequest` is almost impossible.
-- [A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
+-	[Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
+-	[ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
+-	[Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
+-	Porting of `HttpContext` and `HttpRequest` is almost impossible.
+-	[A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
 
 ### Mac Installation
 
 The SDK installations are located at
+
 ```console
 /usr/local/share/dotnet/sdk/
 ```
 
-# .NET (Classic)
+.NET (Classic)
+==============
 
 ### [dotnet/codeformatter](https://github.com/dotnet/codeformatter)
 
@@ -52,68 +55,74 @@ codeformatter.exe /nocopyright C:\work\solution.sln
 
 ### Libraries
 
-- [StackExchange/NetGain](https://github.com/StackExchange/NetGain) A high performance websocket server library powering Stack Overflow
-- [Dapper](https://github.com/StackExchange/Dapper)
-- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional)
+-	[StackExchange/NetGain](https://github.com/StackExchange/NetGain) A high performance websocket server library powering Stack Overflow
+-	[Dapper](https://github.com/StackExchange/Dapper)
+-	[StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional)
+-	[Audit.NET](https://github.com/thepirat000/Audit.NET) An extensible framework to audit executing operations in .NET and .NET Core
+-	[bilal-fazlani/tracker-enabled-dbcontext](https://github.com/bilal-fazlani/tracker-enabled-dbcontext) Tracker-enabled DbContext offers you to implement full auditing in your database
+
+### Software
+
+-	[NCrunch](http://www.ncrunch.net/) an automated concurrent testing tool for Visual Studio
 
 ### To check which .NET framework versions are installed
 
 ##### For framework version 1 - 4
 
-1. Open `regedit.exe`.
-2. Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP`
+1.	Open `regedit.exe`.
+2.	Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP`
 
 ##### For framework version 4.5 and later
 
-1. Open `regedit.exe`.
-2. Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full`.
-3. See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn.microsoft.com/en-us/library/hh925568.aspx#net_d) for possible DWORD values.
+1.	Open `regedit.exe`.
+2.	Look for key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full`.
+3.	See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn.microsoft.com/en-us/library/hh925568.aspx#net_d) for possible DWORD values.
 
-# ASP.NET
+ASP.NET
+=======
 
 ### Lifecycle
 
-- [Understanding MVC Application Execution](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
-- [Execution Order for the ApiController](http://stackoverflow.com/questions/12277293/execution-order-for-the-apicontroller)
+-	[Understanding MVC Application Execution](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
+-	[Execution Order for the ApiController](http://stackoverflow.com/questions/12277293/execution-order-for-the-apicontroller)
 
 ### Web API
 
-- [A WebAPI Basic Authentication Authorization Filter](https://weblog.west-wind.com/posts/2013/Apr/18/A-WebAPI-Basic-Authentication-Authorization-Filter)
-- [Accepting Raw Request Body Content with ASP.NET Web API](https://weblog.west-wind.com/posts/2013/Dec/13/Accepting-Raw-Request-Body-Content-with-ASPNET-Web-API)
-- [HTTP Message Handlers in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-message-handlers)
-- HTTP Status 428 Precondition required [Optimistic concurrency support in HTTP and WebAPI – part 2](https://tudorturcu.wordpress.com/2012/05/17/optimistic-concurrency-support-in-http-and-webapi-part-2/)
+-	[A WebAPI Basic Authentication Authorization Filter](https://weblog.west-wind.com/posts/2013/Apr/18/A-WebAPI-Basic-Authentication-Authorization-Filter)
+-	[Accepting Raw Request Body Content with ASP.NET Web API](https://weblog.west-wind.com/posts/2013/Dec/13/Accepting-Raw-Request-Body-Content-with-ASPNET-Web-API)
+-	[HTTP Message Handlers in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/http-message-handlers)
+-	HTTP Status 428 Precondition required [Optimistic concurrency support in HTTP and WebAPI – part 2](https://tudorturcu.wordpress.com/2012/05/17/optimistic-concurrency-support-in-http-and-webapi-part-2/)
 
 ### Error handling
 
-- [Bypassing IIS Error Messages in ASP.NET](https://weblog.west-wind.com/posts/2017/Jun/01/Bypassing-IIS-Error-Messages-in-ASPNET)
+-	[Bypassing IIS Error Messages in ASP.NET](https://weblog.west-wind.com/posts/2017/Jun/01/Bypassing-IIS-Error-Messages-in-ASPNET)
 
 ### CORS
 
-- [CORS, IIS and WebDAV](https://brockallen.com/2012/10/18/cors-iis-and-webdav/)
+-	[CORS, IIS and WebDAV](https://brockallen.com/2012/10/18/cors-iis-and-webdav/)
 
 ### Troubleshooting
 
 ##### 404.17
 
-- [Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 404.17 - Not Found"](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
+-	[Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 404.17 - Not Found"](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
 
-# IIS
+IIS
+===
 
-- Customer error page [HTTP Errors](https://www.iis.net/configreference/system.webserver/httperrors)
-- [App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
-- [Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
+-	Customer error page [HTTP Errors](https://www.iis.net/configreference/system.webserver/httperrors)
+-	[App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
+-	[Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
 
-# IIS Express
+IIS Express
+===========
 
 ### Making ASP.NET site running on a Windows VM on Mac (and accessing it via a web client on Mac (the host))
 
-- To make IIS Express to serve multiple bindings, edit
- `$(SolutionDir)\.vs\config\applicationhost.config`
-  (look for configuration/system.applicationHost/sites/site/bindings) and add
-  a binding with the Windows machine name. For instance, `<binding protocol="http" bindingInformation="*:3048:alex-windows" />`.
-- Configure `HTTP.SYS` at the kernel by makingan "URL Reservation" `netsh http add urlacl url=http://alex-windows:3048/ user=everyone`.
-- Add a firewall rule `netsh firewall add portopening TCP 3048 IISExpressWeb enable ALL`.
-- On Mac, edit `/etc/hosts` to add `172.16.120.128 alex-windows` (or any IP of the guest VM).
+-	To make IIS Express to serve multiple bindings, edit`$(SolutionDir)\.vs\config\applicationhost.config` (look for configuration/system.applicationHost/sites/site/bindings) and add a binding with the Windows machine name. For instance, `<binding protocol="http" bindingInformation="*:3048:alex-windows" />`.
+-	Configure `HTTP.SYS` at the kernel by makingan "URL Reservation" `netsh http add urlacl url=http://alex-windows:3048/ user=everyone`.
+-	Add a firewall rule `netsh firewall add portopening TCP 3048 IISExpressWeb enable ALL`.
+-	On Mac, edit `/etc/hosts` to add `172.16.120.128 alex-windows` (or any IP of the guest VM).
 
 ##### To show existing URL reservations
 
@@ -127,7 +136,8 @@ netsh http show urlacl
 netsh http delete urlacl url=http://alex-windows:3048/
 ```
 
-# MSSQL
+MSSQL
+=====
 
 ### Entity Framework
 
@@ -208,22 +218,21 @@ public class QueryTimingInterceptor : DbCommandInterceptor
 }
 ```
 
-
 ##### Improving performance
 
 See [Entity Framework Performance and What You Can Do About It](https://www.red-gate.com/simple-talk/dotnet/net-tools/entity-framework-performance-and-what-you-can-do-about-it/)
 
-- Avoid being too greedy with Rows
-- The ‘N+1 Select’ problem: Minimising the trips to the database
-  - Use of `.Include()`
-- Avoid being too greedy with columns
-  - use less network bandwidth
-  - a good indexing strategy involves considering what columns you frequently match against and what columns are returned when searching against them, along with judgements about disk space requirements and the additional performance penalty indexes incur on writing
-- Avoid mismatched data types
-  - for instance, database definition of `VARCHAR` in database where EF consider the value as `NVARCHAR` and this results a `CONVERT`. To solve this, either change database definition to `NVARCHAR` or applying attribute `[Column(TypeName =  "varchar")]`.
-- Add missing indexes
-  - `CREATE NONCLUSTERED INDEX [NonClusteredIndex_City] ON [dbo].[Pupils] ([City]) INCLUDE ([FirstName], [LastName]) ON [PRIMARY]` creates a non-clustered index for queries filtering against city and serves first and last names
-- Avoid overly-generic queries
+-	Avoid being too greedy with Rows
+-	The ‘N+1 Select’ problem: Minimising the trips to the database
+	-	Use of `.Include()`
+-	Avoid being too greedy with columns
+	-	use less network bandwidth
+	-	a good indexing strategy involves considering what columns you frequently match against and what columns are returned when searching against them, along with judgements about disk space requirements and the additional performance penalty indexes incur on writing
+-	Avoid mismatched data types
+	-	for instance, database definition of `VARCHAR` in database where EF consider the value as `NVARCHAR` and this results a `CONVERT`. To solve this, either change database definition to `NVARCHAR` or applying attribute `[Column(TypeName =  "varchar")]`.
+-	Add missing indexes
+	-	`CREATE NONCLUSTERED INDEX [NonClusteredIndex_City] ON [dbo].[Pupils] ([City]) INCLUDE ([FirstName], [LastName]) ON [PRIMARY]` creates a non-clustered index for queries filtering against city and serves first and last names
+-	Avoid overly-generic queries
 
 ```csharp
 public class QueryPlanRecompileInterceptor : DbCommandInterceptor
@@ -248,19 +257,15 @@ var pupils = db.Pupils.Where(p => p.City = city).ToList();
 DbInterception.Remove(interceptor);
 ```
 
-- Avoid bloating the plan cache
-  - in order for a plan to be reused, the statement text must be identical which is the case for parameterised queries
-    - but there is a case when this doesn’t happen – when we use `.Skip()` or `.Take()`
-    - use lambda function in `IQueryable.Skip()` and `IQueryable.Take()`
-  - enable a SQL Server setting called 'optimise for ad-hoc workloads' (see
-    also [optimize for ad hoc workloads Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/optimize-for-ad-hoc-workloads-server-configuration-option))
-    - this makes SQL Server less aggressive at caching plans, and is generally a good thing to enable
-    - to find the one-off ad-hoc plans (see query below)
-    - To enable "optimise for ad-hoc workloads" (see stored procedure below)
-    - on AWS, change of the setting can be done in parameter groups. A new
-      parameter group will be required if no prior custom parameter group is
-      setup. After changing the value of the option in the parameter group, the
-      group should be applied to the RDS instance.
+-	Avoid bloating the plan cache
+	-	in order for a plan to be reused, the statement text must be identical which is the case for parameterised queries
+	-	but there is a case when this doesn’t happen – when we use `.Skip()` or `.Take()`
+	-	use lambda function in `IQueryable.Skip()` and `IQueryable.Take()`
+	-	enable a SQL Server setting called 'optimise for ad-hoc workloads' (see also [optimize for ad hoc workloads Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/optimize-for-ad-hoc-workloads-server-configuration-option)\)
+	-	this makes SQL Server less aggressive at caching plans, and is generally a good thing to enable
+	-	to find the one-off ad-hoc plans (see query below)
+	-	To enable "optimise for ad-hoc workloads" (see stored procedure below)
+	-	on AWS, change of the setting can be done in parameter groups. A new parameter group will be required if no prior custom parameter group is setup. After changing the value of the option in the parameter group, the group should be applied to the RDS instance.
 
 ```sql
 SELECT objtype, cacheobjtype,
@@ -278,10 +283,10 @@ RECONFIGURE WITH OVERRIDE
 GO
 ```
 
-- Using bulk insert
-  - `EF.BulkInsert()`
-    - this will be supported out of the box in EF 7.0
-- Disable tracking in read-only queries
+-	Using bulk insert
+	-	`EF.BulkInsert()`
+	-	this will be supported out of the box in EF 7.0
+-	Disable tracking in read-only queries
 
 ```csharp
 string city =  "New York";
@@ -293,22 +298,22 @@ var schools =
     .ToList();
 ```
 
-- Allowing EF to make and receive multiple requests to SQL Server over a single connection, reducing the number of roundtrips
-  - `MultipleActiveResultSets=True;`
+-	Allowing EF to make and receive multiple requests to SQL Server over a single connection, reducing the number of roundtrips
+	-	`MultipleActiveResultSets=True;`
 
 ##### Anti-patterns
 
-- `.Where().First()`
-- `.SingleOrDefault()` instead of `.FirstOrDefault()`
-  - effectively `SELECT TOP 2` instead of `SELECT TOP 1`
-- `.Count()` instead of `.All()` or `.Any()`
-- `.Where().Where()`
-- `.OrderBy().OrderBy()` instead of `.OrderBy().ThenBy()`
-  - the logic of double `.OrderBy()` is simply incorrect
-- `.Select(x => x)` instead of `AsEnumerable()`
-  - If remote execution is not desired, for example because the predicate invokes a local method, the `AsEnumerable` method can be used to hide the custom methods and instead make the standard query operators available
-- `.Count()` instead of `.Count` or `.Length`
-  - the alternatives can prevent `O(n)` operations
+-	`.Where().First()`
+-	`.SingleOrDefault()` instead of `.FirstOrDefault()`
+	-	effectively `SELECT TOP 2` instead of `SELECT TOP 1`
+-	`.Count()` instead of `.All()` or `.Any()`
+-	`.Where().Where()`
+-	`.OrderBy().OrderBy()` instead of `.OrderBy().ThenBy()`
+	-	the logic of double `.OrderBy()` is simply incorrect
+-	`.Select(x => x)` instead of `AsEnumerable()`
+	-	If remote execution is not desired, for example because the predicate invokes a local method, the `AsEnumerable` method can be used to hide the custom methods and instead make the standard query operators available
+-	`.Count()` instead of `.Count` or `.Length`
+	-	the alternatives can prevent `O(n)` operations
 
 ##### Building SQL deployment package
 
@@ -345,28 +350,31 @@ Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 
 ##### Links
 
-- [Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
+-	[Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
 
-# Azure
+Azure
+=====
 
 ### SQL
 
-- [Unable to create table](https://social.msdn.microsoft.com/forums/azure/en-US/259af3d5-4016-43e2-9a84-7a17d4f52673/im-unable-to-create-a-new-table-on-sql-azure)
-- [Keyword not supported: “data source” initializing Entity Framework Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
-- [Windows Azure, Entity Framework. Keyword not supported: 'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
+-	[Unable to create table](https://social.msdn.microsoft.com/forums/azure/en-US/259af3d5-4016-43e2-9a84-7a17d4f52673/im-unable-to-create-a-new-table-on-sql-azure)
+-	[Keyword not supported: “data source” initializing Entity Framework Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
+-	[Windows Azure, Entity Framework. Keyword not supported: 'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
 
-# General Practices
+General Practices
+=================
 
 ### To increase testability (C#)
-- No object instantiation in business logics
-- Constructor - nothing more than simple assignments
-- Avoid global state - no `DateTime.Now`,  no `Math.Random()`, ... etc
-- Avoid public `init()`-kind of methods
-- Avoid the use of service locator as it hides dependencies. (However, it is still better than singleton which is a share state)
+
+-	No object instantiation in business logics
+-	Constructor - nothing more than simple assignments
+-	Avoid global state - no `DateTime.Now`, no `Math.Random()`, ... etc
+-	Avoid public `init()`-kind of methods
+-	Avoid the use of service locator as it hides dependencies. (However, it is still better than singleton which is a share state)
 
 ### Multi-threading
 
-- [Threading in C#](http://www.albahari.com/threading/part4.aspx)
+-	[Threading in C#](http://www.albahari.com/threading/part4.aspx)
 
 ##### Parallel for-loop
 
@@ -401,6 +409,7 @@ public class Job
 ```
 
 ##### Converting a number to Enum
+
 ```csharp
 public static StatusCode GetStatusCode(int statusCodeInNum)
 {
@@ -409,6 +418,7 @@ public static StatusCode GetStatusCode(int statusCodeInNum)
 ```
 
 ##### Updating an entity with Entity Framework
+
 ```csharp
 public Blog Update(Blog blog)
 {
@@ -423,6 +433,7 @@ public Blog Update(Blog blog)
 ```
 
 ##### Updating RavenDB dynamically (that is, without entity definition) with only index specified
+
 ```csharp
 var docs =
   session.Advanced.DocumentQuery<ExpandoObject>("ProductSearch")
@@ -437,8 +448,9 @@ session.SaveChanges();
 ```
 
 ##### IDataSource
-1. If a filter is to be applied, all entries must be retrieved before any filtering.
-2. If no filtering is required, real paging can be accomplished using ObjectDataSource, but not SqlDataSource.
+
+1.	If a filter is to be applied, all entries must be retrieved before any filtering.
+2.	If no filtering is required, real paging can be accomplished using ObjectDataSource, but not SqlDataSource.
 
 ### Log4Net
 
