@@ -55,6 +55,37 @@ exec msdb.dbo.rds_restore_database
 dotnet new -i Amazon.Lambda.Templates::*
 ```
 
+#### CLI (Reference)[https://docs.aws.amazon.com/cli/latest/reference/lambda/]
+
+###### To list all functions
+
+```sh
+aws lambda list-functions | jq '.[][]'
+```
+
+###### To list all function names and runtimes
+
+```sh
+aws lambda list-functions | jq '.[][] | { name: .FunctionName, runtime: .Runtime }'
+```
+###### To get the link to download lambda function
+
+```sh
+aws lambda get-function --function-name test1 | jq '.Code.Location'
+```
+
+###### To create a function
+
+```sh
+aws lambda create-function \
+	--function-name my-function-name \
+	--runtime dotnetcore2.0 \
+	--role arn:aws:iam::000000000::role/my-worker \
+	--description "A test lambda function created from command line" \
+	--code S3Bucket=my_bucket_name,S3Key=my_key,S3ObjectVersion=my_version \
+	--handler MyAssembleName::MyClassNameWithNameSpace::MyMethodName
+```
+
 ### SNS
 
 #### Message size and format
@@ -63,12 +94,31 @@ dotnet new -i Amazon.Lambda.Templates::*
 - message sizes between 64KB and 256KB must use AWS Signature Version 4 (SigV4) signing (see [ref](https://docs.aws.amazon.com/sns/latest/dg/large-payload-raw-message.html))
 - message delivers to SQS or HTTP/S endpoints could be in raw instead of JSON (see [ref](https://docs.aws.amazon.com/sns/latest/dg/large-payload-raw-message.html))
 
+#### CLI (Reference)[https://docs.aws.amazon.com/cli/latest/reference/sns/]
+
+###### To list all topics
+
+```sh
+aws sns list-topics | jq '.[][] | .TopicArn'
+```
+
 ### SQS
 
 #### Message size and format
 
 - message size limit is 256KB (unless Java library is used)
 - message can be in JSON, XML and unformatted text
+- a queue name can have up to 80 characters
+
+### IAM
+
+#### CLI (Reference)[https://docs.aws.amazon.com/cli/latest/reference/iam/]
+
+###### To list all roles
+
+```sh
+aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
+```
 
 ### EC2
 
