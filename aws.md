@@ -45,6 +45,31 @@ exec msdb.dbo.rds_restore_database
 	@s3_arn_to_restore_from='arn:aws:s3:::my_bucket_name/my_backup_name.bak';
 ```
 
+### Lambda
+
+#### .NET Core
+
+###### Installing .NET Lambda Templates
+
+```sh
+dotnet new -i Amazon.Lambda.Templates::*
+```
+
+### SNS
+
+#### Message size and format
+
+- message size limit is 256KB
+- message sizes between 64KB and 256KB must use AWS Signature Version 4 (SigV4) signing (see [ref](https://docs.aws.amazon.com/sns/latest/dg/large-payload-raw-message.html))
+- message delivers to SQS or HTTP/S endpoints could be in raw instead of JSON (see [ref](https://docs.aws.amazon.com/sns/latest/dg/large-payload-raw-message.html))
+
+### SQS
+
+#### Message size and format
+
+- message size limit is 256KB (unless Java library is used)
+- message can be in JSON, XML and unformatted text
+
 ### EC2
 
 -	Always create a IAM role with an EC2 instance.
