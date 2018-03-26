@@ -55,6 +55,12 @@ exec msdb.dbo.rds_restore_database
 dotnet new -i Amazon.Lambda.Templates::*
 ```
 
+###### To look for existing templates
+
+```sh
+dotnet new
+```
+
 #### CLI (Reference)[https://docs.aws.amazon.com/cli/latest/reference/lambda/]
 
 ###### To list all functions
