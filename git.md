@@ -186,6 +186,21 @@ To push changes from submodule, create a commit in the directory of submodule
 git push --recurse-submodules=on-demand
 ```
 
+##### Tag
+
+###### To add and push a tag
+
+```sh
+git tag my-tag-name && git push --tags
+```
+
+###### To remove a pushed tag
+
+```sh
+git push --delete origin my-tag-name
+git tag --delete my-tag-name
+```
+
 ##### Revert
 
 `git revert` can be used to revert a normal commit as well as a merge commit.
