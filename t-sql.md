@@ -237,6 +237,12 @@ EXEC sp_rename
     @objtype = 'COLUMN'
 ```
 
+##### Drop a constraint
+
+```sql
+ALTER TABLE MyTable DROP CONSTRAINT MyTable_Contraint
+```
+
 ### Query
 
 ##### To search columns in tables
@@ -249,6 +255,22 @@ FROM
     t.object_id = c.object_id
 WHERE c.name = 'ColumnToBeSearched'
 ORDER BY t.name, c.name
+```
+
+##### To search table constraints
+
+```sql
+select *
+from information_schema.table_constraints
+where constraint_schema = 'dbo'
+```
+
+##### To search table constraints
+
+```sql
+select *
+from information_schema.referential_constraints
+where constraint_schema = 'dbo'
 ```
 
 ##### Cross Join
