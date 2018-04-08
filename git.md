@@ -186,6 +186,14 @@ To push changes from submodule, create a commit in the directory of submodule
 git push --recurse-submodules=on-demand
 ```
 
+###### To remove a submodule
+
+1. Remove submodule section from `.git/config`
+2. Remove submodule section from `.gitmodules`
+3. `git rm --cached path-to-submodule`
+4. `rm -rf path-to-submodule`
+
+
 ##### Tag
 
 ###### To add and push a tag
