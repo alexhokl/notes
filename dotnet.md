@@ -42,6 +42,15 @@ The SDK installations are located at
 /usr/local/share/dotnet/sdk/
 ```
 
+### Workarounds
+
+In mixing .NET full framework with .NET Core stuff (via .NET Standard), the
+following steps may be needed to get the stuff compile.
+
+1. Set environment variable `MSBuildSDKsPath=C:\Program Files\dotnet\sdk\2.1.004771\Sdks`
+2. Run `dotnet restore` on .NET Standard projects
+3. Apply `<Reference include="netstandard" />`
+
 .NET (Classic)
 ==============
 
