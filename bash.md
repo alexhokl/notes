@@ -174,13 +174,20 @@ diskutil eject /dev/disk2
 
 ```sh
 lsblk
-sudo mount /dev/sdc1 /home/current-user/Desktop/usb
+sudo mount /dev/sdc1 /home/current-user/usb
 ```
 
 ###### To umount a USB drive on linux
 
 ```sh
-sudo umount /home/current-user/Desktop/usb
+sudo umount /home/current-user/usb
+```
+
+###### To mount a NTFS Windows drive on linux
+
+```sh
+lsblk
+sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
 ```
 
 ###### To uninstall homebrew
