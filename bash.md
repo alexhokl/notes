@@ -54,6 +54,12 @@ wc -l ./package.json
 grep search-term -r --include \*.{html,js} app/directory
 ```
 
+###### To search for hidden files
+
+```sh
+grep search-term --exclude-dir=.. -r .*
+```
+
 ###### find BOM characters in files
 
 ```sh
