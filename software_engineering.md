@@ -1,5 +1,11 @@
 # Software Engineering
 
+- [Technical Debts](#technical-debts)
+- [Web App](#web-app)
+- [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
+- [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
+- [Others](#others-1)
+
 ### Technical debts
 
 ##### Causes
@@ -173,4 +179,6 @@
 
 ### Others
 
+- Always instrumenting the app; for instances, time taken of API calls or time
+  taken for SQL queries
 - Keep variables immutable especially those in a loop
