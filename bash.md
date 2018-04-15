@@ -299,3 +299,9 @@ find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} 
 ```sh
 convert -background transparent image.png -define icon:auto-resize=16,32,48,64,256 favicon.ico
 ```
+
+###### To convert a AVI file to MPEG-4 file
+
+```sh
+ffmpeg -i video.avi -b 100k video.mp4
+```
