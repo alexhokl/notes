@@ -187,37 +187,58 @@ minikube service your-service-name --url
 
 #### Compute
 
-To create an instance
+###### To create an instance
 
 ```sh
-gcloud compute instances create instance-1 --machine-type f1-micro
+gcloud compute instances create my-instance-name --machine-type f1-micro
 ```
 
-To configure firewall for HTTP and HTTPS traffic
+###### To configure firewall for HTTP and HTTPS traffic
 
 ```sh
 gcloud compute firewall-rules create instance-rule --allow tcp:80,tcp:443
 ```
 
-To create a persistent volume
+###### To create a persistent volume
 
 ```sh
-gcloud compute disks create --size 1GB any-disk-name
+gcloud compute disks create --size 1GB my-disk-name
 ```
 
-To list instances
+###### To attach a persistent disk to an instance ([reference](https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting))
+
+```sh
+gcloud compute instances attach-disk my-instance-name --disk my-disk-name
+```
+
+On the instance,
+
+```sh
+sudo mkfs.ext4 -m 0 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
+mkdir my-mount
+sudo mount -o discard,defaults /dev/sdb ./my-mount
+sudo chmod a+w ./my-mount
+```
+
+###### To list instances
 
 ```sh
 gcloud compute instances list
 ```
 
-To list disks created
+###### To list disks created
 
 ```sh
 gcloud compute disks list
 ```
 
-To list available machine types (see also [Machine Types](https://cloud.google.com/compute/docs/machine-types))
+###### To upload a directory onto an instance
+
+```sh
+gcloud compute scp ./my-source my-instance-name:/home/user/my-source --recurse
+```
+
+###### To list available machine types (see also [Machine Types](https://cloud.google.com/compute/docs/machine-types))
 
 ```sh
 gcloud compute machine-types list
