@@ -305,3 +305,9 @@ convert -background transparent image.png -define icon:auto-resize=16,32,48,64,2
 ```sh
 ffmpeg -i video.avi -b 100k video.mp4
 ```
+###### To set timezone
+
+```sh
+sudo unlink /etc/localtime
+sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
+```
