@@ -311,3 +311,9 @@ ffmpeg -i video.avi -b 100k video.mp4
 sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 ```
+
+###### To find the differences between two directories
+
+```sh
+diff --brief -r dir1/ dir2/
+```
