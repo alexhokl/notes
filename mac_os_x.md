@@ -1,7 +1,11 @@
 ##### Creating installation media
+
 ```sh
-sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia –volume /Volumes/Name –applicationpath /Applications/Install\ OS\ X\ Mavericks.app –nointeraction
+sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Name --applicationpath /Applications/Install\ macOS\ High\ Sierra.app
 ```
+
+To boot up from an external drive, press `options` key upon starting a machine. See also [How to create a bootable installer for macOS](https://support.apple.com/en-hk/HT201372).
+
 In case the machine shows `No bootable device`, try to clean the BIOS (NVRAM) by holding keys `cmd` + `alt` + `P` + `R`. See [How to Reset NVRAM on your Mac](https://support.apple.com/en-hk/HT204063) for more information.
 
 ##### iTerm2
