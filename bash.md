@@ -81,6 +81,12 @@ done
 sed -i -e 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
 ```
 
+###### replace words in a bash variable
+
+```sh
+${f/\.txt/\.pdf}
+```
+
 ###### find unique file prefixes (if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...)
 
 ```sh
