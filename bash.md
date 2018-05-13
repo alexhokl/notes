@@ -117,6 +117,12 @@ du -sh
 du --max-depth=1 -h
 ```
 
+###### To check available memory
+
+```sh
+free -h
+```
+
 ###### current running processes memory usage
 
 ```sh
@@ -198,6 +204,18 @@ git status | pbcopy
 
 ```sh
 pbpaste | grep git
+```
+
+###### To show the first few lines of an output
+
+```sh
+cat file.txt | head -n 10
+```
+
+###### To show the last few lines of an output
+
+```sh
+cat file.txt | tail -n 10
 ```
 
 ###### To download a file from web and rename it
@@ -389,4 +407,20 @@ ssh -i app-test.pem app@app-test.aws.com
 scp -i cert-to-server.pem app@app-test.aws.com:/server/path/file.txt local.txt
 ```
 
+###### To check the distribution of linux
 
+```sh
+cat /etc/*release
+```
+
+###### To check linux kernel version
+
+```sh
+uname -a
+```
+
+###### To check kernel debug messages
+
+```sh
+sudo dmesg -H
+```
