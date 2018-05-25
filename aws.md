@@ -129,3 +129,9 @@ aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 ### EC2
 
 -	Always create a IAM role with an EC2 instance.
+
+###### Add an inbound rule
+
+```sh
+aws ec2 authorize-security-group-ingress --group-id sg-11111111 --protocol tcp --port 1433 --cidr 123.123.123.123/24
+```
