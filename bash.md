@@ -290,6 +290,12 @@ sudo apt-get update
 sudo apt-get -u upgrade
 ```
 
+###### To list installed packages
+
+```sh
+apt list --installed 
+```
+
 ###### To list all GPG keys
 
 ```sh
