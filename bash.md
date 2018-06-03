@@ -265,6 +265,18 @@ lsblk
 sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
 ```
 
+###### To change partitions of a disk
+
+```sh
+sudo fdisk /dev/sdX
+```
+
+###### To format a partition in Linux ext4 format
+
+```sh
+sudo mkfs.ext4 /dev/sdXx
+```
+
 ###### To uninstall homebrew
 
 ```sh

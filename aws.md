@@ -118,7 +118,8 @@ aws sns list-topics | jq '.[][] | .TopicArn'
 
 ### IAM
 
-#### CLI (Reference)[https://docs.aws.amazon.com/cli/latest/reference/iam/]
+- [CLI (Reference)](https://docs.aws.amazon.com/cli/latest/reference/iam/)
+- [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
 
 ###### To list all roles
 
@@ -128,6 +129,7 @@ aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 
 ### EC2
 
+- [CPU Credits and Baseline Performance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-credits-baseline-concepts.html)
 -	Always create a IAM role with an EC2 instance.
 
 ###### Add an inbound rule
