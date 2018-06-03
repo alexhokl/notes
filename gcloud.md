@@ -243,3 +243,12 @@ gcloud compute scp ./my-source my-instance-name:/home/user/my-source --recurse
 ```sh
 gcloud compute machine-types list
 ```
+
+###### To authenticate to Container Registry on GCP
+
+Execute on the instance,
+
+```sh
+gcloud auth configure-docker
+```
+

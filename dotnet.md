@@ -90,6 +90,16 @@ Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
 
 See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn.microsoft.com/en-us/library/hh925568.aspx#net_d) for possible DWORD values.
 
+### Generics
+
+##### Convariance and Contravariance
+
+- [Covariance and Contravariance (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/index)
+- `IEnumerable<out T>` enables `IEnumerable<string> strings = new List<string>(); IEnumerable<object> objects = strings;`
+- However, `IList<string> strings = new List<string>(); IList<object> objects = strings;` would be a compilation error as IList<T> is defined without the `out` keyword
+- Covariance (`out`) for arrays enables implicit conversion of an array of a more derived type to an array of a less derived type. But this operation is not type safe
+- 
+
 ASP.NET
 =======
 

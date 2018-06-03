@@ -130,6 +130,7 @@ and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it 
 ##### Examples
 
 -	[SQL Server Lab](https://github.com/docker/labs/blob/master/windows/sql-server/part-1.md)
+- [Manually enable Docker for Windows prerequisites](https://success.docker.com/article/manually-enable-docker-for-windows-prerequisites)
 
 ##### Commands
 
