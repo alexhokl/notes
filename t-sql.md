@@ -72,7 +72,7 @@ WHILE @@FETCH_STATUS = 0
 BEGIN
 	BEGIN TRY
 		-- Reindex
-		DBCC DBREINDEX(@TableName ,'', 70);
+		DBCC DBREINDEX(@TableName ,'', 100);
 	END TRY
 	BEGIN CATCH
 		 PRINT @TableName + ' Failed to reindex';
