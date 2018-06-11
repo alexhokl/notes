@@ -219,7 +219,9 @@ git revert <sha-1 of the commit>
 
 ###### To revert a merge commit (or a merge)
 
+```sh
 git revert -m 1 <sha-1 of the merge commit>
+```
 
 ##### Rerere (reuse recorded resolution) [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
 

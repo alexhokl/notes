@@ -442,3 +442,28 @@ uname -a
 ```sh
 sudo dmesg -H
 ```
+
+### VPN
+
+###### Start VPN (IPsec)
+
+```sh
+sudo ipsec up office
+echo "c office" | sudo tee /var/run/xl2tpd/l2tp-control
+sudo route add office.example.com gw 192.168.1.1
+sudo route add default dev ppp0
+```
+
+###### Stop VPN (IPsec)
+
+```sh
+sudo route del default dev ppp0
+sudo route del office.example.com gw 192.168.1.1
+echo "d office" | sudo tee /var/run/xl2tpd/l2tp-control
+sudo ipsec down office
+```
+
+
+#### PPTP
+
+
