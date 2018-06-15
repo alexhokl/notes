@@ -81,8 +81,8 @@ Combination of the following 3 components
 ##### JWS JSON Serialization
 
 - combination of the following components
-  - protected` - with the value BASE64URL(UTF8(JWS Protected Header))
-  - header` - with the value JWS Unprotected Header
-  - payload` - with the value BASE64URL(JWS Payload)
-  - signature` - with the value BASE64URL(JWS Signature)
+  - `protected` - with the value BASE64URL(UTF8(JWS Protected Header))
+  - `header` - with the value JWS Unprotected Header
+  - `payload` - with the value BASE64URL(JWS Payload)
+  - `signature` - with the value BASE64URL(JWS Signature)
 
