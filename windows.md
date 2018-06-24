@@ -91,40 +91,51 @@ Add-WindowsFeature NET-Framework-45-ASPNET
 Add-WindowsFeature Web-Asp-Net45
 ```
 
-###### Windows 10
+##### Windows 10
 
-To list available features
+###### To list available features
 
 ```console
 Get-WindowsOptionalFeature -Online
 ```
 
-To check if a feature is installed
+###### To check if a feature is installed
 
 ```console
 Get-WindowsOptionalFeature -Online | where {$_.state -eq "Enabled"} | ft -Property A-Feature-Name
 ```
 
-To check if a feature is not installed
+###### To check if a feature is not installed
 
 ```console
 Get-WindowsOptionalFeature -Online | where {$_.state -eq "Disabled"} | ft -Property A-Feature-Name
 ```
 
-To enable a Windows feature
+###### To enable a Windows feature
 
 ```console
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
 ```
 
-To disable a Windows feature
+###### To disable a Windows feature
 
 ```console
 Disable-WindowsOptionalFeature -Online -FeatureName IIS-DirectoryBrowsing
 ```
 
-To enable administrator account, in a command prompt with administrative
-privileges.
+###### To list installed applications
+
+```console
+Get-AppxPackage | Select Name, PackageFullName
+```
+
+###### To remove an application
+
+```console
+Get-AppxPackage Microsoft.Print3D | Remove-AppxPackage
+```
+
+###### To enable administrator account, in a command prompt with administrative privileges
 
 ```console
 net user Administrator /active:yes
@@ -134,13 +145,13 @@ net user Administrator [Password] /active:yes
 and replace `[Password]` with a secure password.
 
 
-To dump a list of applications installed,
+###### To dump a list of applications installed,
 
 ```sh
 Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, Publisher, InstallDate | Format-Table –AutoSize
 ```
 
-To compare two list dumped by Powershell
+###### To compare two list dumped by Powershell
 
 ```sh
 Compare-Object -ReferenceObject (Get-Content listA.txt) -DifferenceObject (Get-Content listB.txt)
