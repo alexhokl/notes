@@ -28,28 +28,40 @@
 List of all `GOOS` and `GOARCH` can be found in [`syslist.go`](https://github.com/golang/go/blob/master/src/go/build/syslist.go)
 
 
-To build Windows executable on Mac
+###### To build Windows executable on Mac
 
 ``` sh
 GOOS=windows GOARCH=amd64 go build -o list.exe list.go
 ```
 
-To check if any errors that is not handled
+###### To build with ldflags
+
+Assuming there is string global variable `version`defined in package `cmd`
+
+```sh
+go build -ldflags "-X github.com/alexhokl/rds-backup/cmd.version=$(git
+rev-parse --short HEAD)"
+```
+
+###### To check if any errors that is not handled
+
 ```sh
 errcheck
 ```
 
-To format the code
+###### To format the code
+
 ```sh
 go fmt -d main.go
 ```
 
-To test a project
+###### To test a project
+
 ```sh
 go test ./...
-`
+```
 
-To list all the tests in a project
+###### To list all the tests in a project
 
 ```sh
 go test -test.list .

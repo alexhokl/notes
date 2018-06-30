@@ -209,6 +209,12 @@ git push --delete origin my-tag-name
 git tag --delete my-tag-name
 ```
 
+##### To get the latest tag
+
+```sh
+git describe --abbrev=0 --tags
+```
+
 ##### Revert
 
 ###### To revert a normal commit
