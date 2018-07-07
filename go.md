@@ -22,6 +22,10 @@
 ### Tricks
 
 - Use `.Equals` instead of `==` to compare Time objects.
+- Function parameters of interface type should not be a pointer as a normal
+  interface parameter can accept both pointer and value. Function receiver (the
+  parameter before function name) is the only exception. (see [Go interfaces
+  and pointers](https://medium.com/@saiyerram/go-interfaces-pointers-4d1d98d5c9c6))
 
 ### Commands
 
@@ -61,10 +65,16 @@ go fmt -d main.go
 go test ./...
 ```
 
-###### To test a project and retrieve its test coverage
+###### To test a project and view its test coverage
 
 ```sh
 go test -cover ./...
+```
+
+###### To test a project and show its test coverage profile
+
+```sh
+go test -coverprofile=cover.out ./... && go tool cover -html=cover.out
 ```
 
 ###### To list all the tests in a project
