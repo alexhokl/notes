@@ -61,6 +61,12 @@ go fmt -d main.go
 go test ./...
 ```
 
+###### To test a project and retrieve its test coverage
+
+```sh
+go test -cover ./...
+```
+
 ###### To list all the tests in a project
 
 ```sh
