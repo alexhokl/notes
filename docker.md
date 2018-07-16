@@ -132,6 +132,11 @@ and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it 
 -	[SQL Server Lab](https://github.com/docker/labs/blob/master/windows/sql-server/part-1.md)
 - [Manually enable Docker for Windows prerequisites](https://success.docker.com/article/manually-enable-docker-for-windows-prerequisites)
 
+##### Tricks
+
+- Path `/` actually means `C:\\` and `C:/Users/app` means `C:\\Users\\app`
+- Avoid using MSI as the uninstallating is not clean
+
 ##### Commands
 
 To get IP of a container
