@@ -1,5 +1,4 @@
-Database and T-SQL
-==================
+# Database and T-SQL
 
 Contents
 

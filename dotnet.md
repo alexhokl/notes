@@ -1,5 +1,4 @@
-.NET Core
-=========
+# .NET Core
 
 ### Porting
 
@@ -59,8 +58,7 @@ following steps may be needed to get the stuff compile.
 2. Run `dotnet restore` on .NET Standard projects
 3. Apply `<Reference include="netstandard" />`
 
-.NET (Classic)
-==============
+# .NET (Classic)
 
 ### [dotnet/codeformatter](https://github.com/dotnet/codeformatter)
 
@@ -108,8 +106,7 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 - Covariance (`out`) for arrays enables implicit conversion of an array of a more derived type to an array of a less derived type. But this operation is not type safe
 - 
 
-ASP.NET
-=======
+# ASP.NET
 
 ### Lifecycle
 
@@ -147,15 +144,13 @@ Update-Package -Reinstall
 ```
 
 
-IIS
-===
+# IIS
 
 -	Customer error page [HTTP Errors](https://www.iis.net/configreference/system.webserver/httperrors)
 -	[App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
 -	[Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
 
-IIS Express
-===========
+# IIS Express
 
 ### Making ASP.NET site available on port 8080 to other machines 
 
@@ -183,8 +178,7 @@ netsh http show urlacl
 netsh http delete urlacl url=http://alex-windows:3048/
 ```
 
-MSSQL
-=====
+# MSSQL
 
 ### Entity Framework
 
@@ -400,8 +394,7 @@ Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 
 -	[Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
 
-Azure
-=====
+# Azure
 
 ### SQL
 
@@ -409,8 +402,7 @@ Azure
 -	[Keyword not supported: “data source” initializing Entity Framework Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
 -	[Windows Azure, Entity Framework. Keyword not supported: 'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
 
-General Practices
-=================
+# General Practices
 
 ### To increase testability (C#)
 

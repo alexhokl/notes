@@ -141,8 +141,7 @@ angular
   .component('childComponent', childComponent);
 ```
 
-Angular
-=======
+# Angular
 
 #### Migrating Angular 1.5 application in ES6 to Angular 2.0
 
