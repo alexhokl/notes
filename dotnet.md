@@ -15,13 +15,13 @@
 
 To create a new solution file
 
-```console
+```ps1
 dotnet new sln -n Name.Space
 ```
 
 To create a new class library project from a solution
 
-```console
+```ps1
 dotnet new classlib -n Name.Space.Library
 dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 ```
@@ -38,7 +38,7 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 
 The SDK installations are located at
 
-```console
+```ps1
 /usr/local/share/dotnet/sdk/
 ```
 
@@ -58,7 +58,7 @@ following steps may be needed to get the stuff compile.
 
 To run the formatter, download the zip from release page and run
 
-```console
+```ps1
 codeformatter.exe /nocopyright C:\work\solution.sln
 ```
 
@@ -341,7 +341,7 @@ var schools =
 
 To build SQL projects
 
-```powershell
+```ps1
 Install-PackageProvider -Name chocolatey -Force;
 Install-Package -Name microsoft-build-tools -RequiredVersion 14.0.25420.1 -Force;
 Install-Package dotnet4.6-targetpack -Force;
@@ -356,7 +356,7 @@ cd 'C:\Program Files (x86)\MSBuild\14.0\Bin'; `
 
 ##### Generate SQL scripts from deployment package
 
-```console
+```ps1
 SqlPackage.exe `
     /sf:Assets.Database.dacpac `
     /a:Script /op:create.sql /p:CommentOutSetVarDeclarations=true `
@@ -365,7 +365,7 @@ SqlPackage.exe `
 
 ##### Running SQL deployment scripts
 
-```powershell
+```ps1
 $SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"
 Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 ```
