@@ -361,6 +361,7 @@ var schools =
 	-	If remote execution is not desired, for example because the predicate invokes a local method, the `AsEnumerable` method can be used to hide the custom methods and instead make the standard query operators available
 -	`.Count()` instead of `.Count` or `.Length`
 	-	the alternatives can prevent `O(n)` operations
+- Inheritance of entities should be based on `abstract` class instead of concrete class to avoid un-necessary joins
 
 ##### Building SQL deployment package
 
