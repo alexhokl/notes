@@ -139,6 +139,13 @@ IIS
 IIS Express
 ===========
 
+### Making ASP.NET site available on port 8080 to other machines 
+
+```ps1
+npm i -g iisexpress-proxy
+iisexpress-proxy 51123 to 8080
+```
+
 ### Making ASP.NET site running on a Windows VM on Mac (and accessing it via a web client on Mac (the host))
 
 -	To make IIS Express to serve multiple bindings, edit`$(SolutionDir)\.vs\config\applicationhost.config` (look for configuration/system.applicationHost/sites/site/bindings) and add a binding with the Windows machine name. For instance, `<binding protocol="http" bindingInformation="*:3048:alex-windows" />`.
