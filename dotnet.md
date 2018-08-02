@@ -13,15 +13,15 @@
 
 ### .NET CLI
 
-To create a new solution file
+##### To create a new solution file
 
-```ps1
+```sh
 dotnet new sln -n Name.Space
 ```
 
-To create a new class library project from a solution
+##### To create a new class library project from a solution
 
-```ps1
+```sh
 dotnet new classlib -n Name.Space.Library
 dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 ```
@@ -34,11 +34,19 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 -	Porting of `HttpContext` and `HttpRequest` is almost impossible.
 -	[A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
 
+### Entity Framework (EF)
+
+##### Update database to a specified migration
+
+```sh
+dotnet ef database update
+```
+
 ### Mac Installation
 
 The SDK installations are located at
 
-```ps1
+```console
 /usr/local/share/dotnet/sdk/
 ```
 
@@ -128,6 +136,16 @@ ASP.NET
 ##### 404.17
 
 -	[Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 404.17 - Not Found"](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
+
+
+# Nuget
+
+##### Re-targeting Nuget packages to another framework
+
+```ps1
+Update-Package -Reinstall
+```
+
 
 IIS
 ===
