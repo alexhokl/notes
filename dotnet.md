@@ -53,6 +53,12 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 dotnet ef database update
 ```
 
+##### To generate SQL scripts from migration
+
+```ps1
+Script-Migration
+```
+
 ### Mac Installation
 
 The SDK installations are located at
