@@ -39,6 +39,12 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 - `IServiceCollection.AddScoped` one per HTTP request
 - `IServiceCollection.AddTransient` always create a new instance upon injection
 
+##### Environment variables
+
+- Environment variables are available in `IConfiguration` objects
+- Setting environment variable `Logging:LogLevel:Default` to `INFO` can change
+  log level of an application
+
 ### Entity Framework (EF)
 
 ##### Update database to a specified migration
