@@ -27,13 +27,13 @@ exec msdb.dbo.rds_task_status @db_name='MyDatabaseName'
 
 ###### Backup download from S3
 
-```console
+```sh
 aws s3 cp s3://my_bucket_name/my_backup_name.bak my_backup_name.bak
 ```
 
 ###### Backup upload to S3
 
-```console
+```sh
 aws s3 cp my_backup_name.bak s3://my_bucket_name/my_backup_name.bak
 ```
 

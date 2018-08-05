@@ -141,12 +141,12 @@ and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it 
 
 To get IP of a container
 
-```console
+```ps1
 $ip = docker inspect --format '{{ .NetworkSettings.Networks.nat.IPAddress }}' a-windows-container-name
 ```
 
 To run linux containers in Docker Windows container engine (see also [mainfest list](https://docs.docker.com/registry/spec/manifest-v2-2/#manifest-list)\)
 
-```console
+```ps1
 docker run --platform linux busybox echo hello
 ```

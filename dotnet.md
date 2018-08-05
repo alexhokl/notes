@@ -1,5 +1,4 @@
-.NET Core
-=========
+# .NET Core
 
 ### Porting
 
@@ -13,15 +12,15 @@
 
 ### .NET CLI
 
-To create a new solution file
+##### To create a new solution file
 
-```console
+```sh
 dotnet new sln -n Name.Space
 ```
 
-To create a new class library project from a solution
+##### To create a new class library project from a solution
 
-```console
+```sh
 dotnet new classlib -n Name.Space.Library
 dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 ```
@@ -33,6 +32,14 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 -	[Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
 -	Porting of `HttpContext` and `HttpRequest` is almost impossible.
 -	[A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
+
+### Entity Framework (EF)
+
+##### Update database to a specified migration
+
+```sh
+dotnet ef database update
+```
 
 ### Mac Installation
 
@@ -51,14 +58,13 @@ following steps may be needed to get the stuff compile.
 2. Run `dotnet restore` on .NET Standard projects
 3. Apply `<Reference include="netstandard" />`
 
-.NET (Classic)
-==============
+# .NET (Classic)
 
 ### [dotnet/codeformatter](https://github.com/dotnet/codeformatter)
 
 To run the formatter, download the zip from release page and run
 
-```console
+```ps1
 codeformatter.exe /nocopyright C:\work\solution.sln
 ```
 
@@ -100,8 +106,7 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 - Covariance (`out`) for arrays enables implicit conversion of an array of a more derived type to an array of a less derived type. But this operation is not type safe
 - 
 
-ASP.NET
-=======
+# ASP.NET
 
 ### Lifecycle
 
@@ -129,15 +134,30 @@ ASP.NET
 
 -	[Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 404.17 - Not Found"](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
 
-IIS
-===
+
+# Nuget
+
+##### Re-targeting Nuget packages to another framework
+
+```ps1
+Update-Package -Reinstall
+```
+
+
+# IIS
 
 -	Customer error page [HTTP Errors](https://www.iis.net/configreference/system.webserver/httperrors)
 -	[App Offline with Http Errors](http://www.richrout.com/Blog/Post/6/app-offline-with-http-errors)
 -	[Using Let's Encrypt with IIS on Windows - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Feb/22/Using-Lets-Encrypt-with-IIS-on-Windows)
 
-IIS Express
-===========
+# IIS Express
+
+### Making ASP.NET site available on port 8080 to other machines 
+
+```ps1
+npm i -g iisexpress-proxy
+iisexpress-proxy 51123 to 8080
+```
 
 ### Making ASP.NET site running on a Windows VM on Mac (and accessing it via a web client on Mac (the host))
 
@@ -158,8 +178,7 @@ netsh http show urlacl
 netsh http delete urlacl url=http://alex-windows:3048/
 ```
 
-MSSQL
-=====
+# MSSQL
 
 ### Entity Framework
 
@@ -336,12 +355,13 @@ var schools =
 	-	If remote execution is not desired, for example because the predicate invokes a local method, the `AsEnumerable` method can be used to hide the custom methods and instead make the standard query operators available
 -	`.Count()` instead of `.Count` or `.Length`
 	-	the alternatives can prevent `O(n)` operations
+- Inheritance of entities should be based on `abstract` class instead of concrete class to avoid un-necessary joins
 
 ##### Building SQL deployment package
 
 To build SQL projects
 
-```powershell
+```ps1
 Install-PackageProvider -Name chocolatey -Force;
 Install-Package -Name microsoft-build-tools -RequiredVersion 14.0.25420.1 -Force;
 Install-Package dotnet4.6-targetpack -Force;
@@ -356,7 +376,7 @@ cd 'C:\Program Files (x86)\MSBuild\14.0\Bin'; `
 
 ##### Generate SQL scripts from deployment package
 
-```console
+```ps1
 SqlPackage.exe `
     /sf:Assets.Database.dacpac `
     /a:Script /op:create.sql /p:CommentOutSetVarDeclarations=true `
@@ -365,7 +385,7 @@ SqlPackage.exe `
 
 ##### Running SQL deployment scripts
 
-```powershell
+```ps1
 $SqlCmdVars = "DatabaseName=AssetsDB", "DefaultFilePrefix=AssetsDB", "DefaultDataPath=c:\database\", "DefaultLogPath=c:\database\"
 Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 ```
@@ -374,8 +394,7 @@ Invoke-Sqlcmd -InputFile create.sql -Variable $SqlCmdVars -Verbose
 
 -	[Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
 
-Azure
-=====
+# Azure
 
 ### SQL
 
@@ -383,8 +402,7 @@ Azure
 -	[Keyword not supported: “data source” initializing Entity Framework Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
 -	[Windows Azure, Entity Framework. Keyword not supported: 'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
 
-General Practices
-=================
+# General Practices
 
 ### To increase testability (C#)
 
