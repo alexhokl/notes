@@ -33,6 +33,12 @@ dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 -	Porting of `HttpContext` and `HttpRequest` is almost impossible.
 -	[A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
 
+##### Object lifecycle management
+
+- `IServiceCollection.AddSingleton` one per application
+- `IServiceCollection.AddScoped` one per HTTP request
+- `IServiceCollection.AddTransient` always create a new instance upon injection
+
 ### Entity Framework (EF)
 
 ##### Update database to a specified migration
