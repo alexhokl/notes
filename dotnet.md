@@ -24,6 +24,18 @@ dotnet new sln -n Name.Space
 dotnet new classlib -n Name.Space.Library
 dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 ```
+### Nuget
+
+##### To install Nuget on macOS/Linux [link](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#macoslinux)
+
+```sh
+sudo curl -o /usr/local/bin/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+```
+
+Add alias `alias nuget="mono /usr/local/bin/nuget.exe"`
+
+Note that Mono 4.4.2 or later is required.
+
 
 ### ASP.NET Core
 
