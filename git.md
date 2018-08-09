@@ -340,6 +340,22 @@ To check file `abc.txt` would be ignored
 git check-ignore abc.txt
 ```
 
+##### Lines count
+
+
+###### On Linux
+
+```sh
+git log --author="_Your_Name_Here_" --pretty=tformat: --numstat \
+| gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+```
+
+###### On Mac
+
+```sh
+git log --author="_Your_Name_Here_" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+```
+
 ### GitHub
 
 ##### Closing an issue
