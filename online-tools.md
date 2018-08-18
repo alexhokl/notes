@@ -6,7 +6,7 @@
 - [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
 - [Website Test behind the Great Firewall of China](https://www.websitepulse.com/tools/china-firewall-test)
 - [myregextester](https://myregextester.com/index.php) A regular expression tester
-- 
+- [cmd.io](https://cmd.io) 
 
 ### APIs
 
