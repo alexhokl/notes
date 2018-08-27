@@ -137,3 +137,11 @@ aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 ```sh
 aws ec2 authorize-security-group-ingress --group-id sg-11111111 --protocol tcp --port 1433 --cidr 123.123.123.123/24
 ```
+
+### S3
+
+###### To create a bucket
+
+```sh
+aws s3 mb s3://your-bucket-name
+```
