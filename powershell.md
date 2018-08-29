@@ -29,3 +29,9 @@ Get-Member -Input-Object(Get-Date)
 ```ps1
 ls main -Recurse -Include bin | rmdir -Recurse -Force
 ```
+
+##### To dump all file paths in specified directory
+
+```ps1
+Get-ChildItem -Path C:\ -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName
+```
