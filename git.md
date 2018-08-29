@@ -314,6 +314,12 @@ git log --oneline feature ^master
 git log --all --author=alexhokl --since='9am yesterday' --format=%s
 ```
 
+##### Comparing files with certain extensions
+
+```sh
+git diff -- '*.c' '*.h'
+```
+
 ##### Remotes
 
 ```sh
