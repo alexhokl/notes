@@ -59,6 +59,12 @@ Note that Mono 4.4.2 or later is required.
 
 ### Entity Framework (EF)
 
+##### Useful Libraries
+
+- [borisdj/EFCore.BulkExtensions](https://github.com/borisdj/EFCore.BulkExtensions)
+- [Arch/AutoHistory](https://github.com/Arch/AutoHistory/)
+- [Arch/UnitOfWork](https://github.com/Arch/UnitOfWork)
+
 ##### Update database to a specified migration
 
 ```sh
@@ -157,6 +163,14 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 ### CORS
 
 -	[CORS, IIS and WebDAV](https://brockallen.com/2012/10/18/cors-iis-and-webdav/)
+
+
+### Directory
+
+```csharp
+System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory(), "bin");
+System.IO.Path.Combine(System.Web.Hosting.HostingEnvironment.ApplicationPhysicalPath, "bin");
+```
 
 ### Troubleshooting
 
