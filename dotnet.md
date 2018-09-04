@@ -44,6 +44,8 @@ Note that Mono 4.4.2 or later is required.
 -	[Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
 -	Porting of `HttpContext` and `HttpRequest` is almost impossible.
 -	[A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
+- [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
+- [Create instance from ASP.NET Core dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#call-services-from-main)
 
 ##### Object lifecycle management
 
