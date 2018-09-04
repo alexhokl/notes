@@ -52,6 +52,12 @@ Note that Mono 4.4.2 or later is required.
 - `IServiceCollection.AddSingleton` one per application
 - `IServiceCollection.AddScoped` one per HTTP request
 - `IServiceCollection.AddTransient` always create a new instance upon injection
+- Not supported features of built-in container
+  - Property injection
+  - Injection based on name
+  - Child containers
+  - Custom lifetime management
+  - Func<T> support for lazy initialization
 
 ##### Environment variables
 
