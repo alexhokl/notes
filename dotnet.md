@@ -176,7 +176,7 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 ### Directory
 
 ```csharp
-System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory(), "bin");
+System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "bin");
 System.IO.Path.Combine(System.Web.Hosting.HostingEnvironment.ApplicationPhysicalPath, "bin");
 ```
 
