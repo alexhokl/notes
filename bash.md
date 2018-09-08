@@ -314,6 +314,10 @@ apt list --installed
 gpg2 -K
 ```
 
+```sh
+gpg2 --list-secret-keys --keyid-format LONG
+```
+
 ###### To export all GPG keys to a file
 
 ```sh
