@@ -148,7 +148,11 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 - `IEnumerable<out T>` enables `IEnumerable<string> strings = new List<string>(); IEnumerable<object> objects = strings;`
 - However, `IList<string> strings = new List<string>(); IList<object> objects = strings;` would be a compilation error as IList<T> is defined without the `out` keyword
 - Covariance (`out`) for arrays enables implicit conversion of an array of a more derived type to an array of a less derived type. But this operation is not type safe
-- 
+
+### Language
+
+- Objects in parameters are passed by reference by default. Thus, `ref` should
+  be only used on primitive types.
 
 # ASP.NET
 
