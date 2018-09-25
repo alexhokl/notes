@@ -69,9 +69,6 @@
 - Do you do hallway usability (UX) testing?
 - Do you do code review?
 
-#### HTP test
+#### House-Tree-Person (HTP) test
 
-- After the House: Who lives here? What goes on inside the house? What's it like at night? Do people visit the house?
-- After the Tree: What kind of tree is this? How old is the tree? What season is it? What else grows nearby? Who waters this tree? Trees need sunshine to live so does it get enough sunshine?
-- After the Person is drawn: who is the person? How old is the person? What do they like and dislike doing?
-- [basic interpretations](http://www.ehow.com/how_8631546_interpret-housetreeperson-test.html)
+- [basic interpretations](https://alexhokl.com/htp)
