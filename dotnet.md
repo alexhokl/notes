@@ -236,6 +236,11 @@ netsh http delete urlacl url=http://alex-windows:3048/
 
 # MSSQL
 
+### Libraries
+
+- [Dapper](https://github.com/StackExchange/Dapper)
+- [SqlKata](https://sqlkata.com/)
+
 ### Entity Framework
 
 ###### To log SQL queries executed
