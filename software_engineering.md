@@ -177,6 +177,14 @@
   - ask other developers to test the UI and find stupid bugs
   - once it is stable, code selenium tests (e2e tests)
 
+### Product / Project Management
+
+- [Engineering Productivity](https://medium.com/@skamille/engineering-productivity-b1ea12db02e4)
+  - Breaking down the scope of projects to help your team ship frequently. An eye for the MVP, for sequencing work and for predicting likely risks and bottlenecks for project completion are the skills here. Project management is an important part of engineering leadership development. If the project does not cross teams or organisations, it is not neccessary to have a professional project manager.
+  - Balancing that product delivery with sustaining engineering so that you
+    don’t end up with code that can’t be maintained in the future. The amount you will invest here depends on the future certainty (like the stage of a startup)
+  - Prioritizing, prioritizing, prioritizing. Implicit in the first two skills is the ability to figure out what is important, and prioritize it. If you overprioritize shipping, you might get a lot done for a while, and then slow down as the debt you’ve accumulated comes due. Overprioritize sustaining engineering and you don’t ship product. You may not start out with these instincts, but they can be developed, so don’t be afraid to start making judgment calls now and learning from the results.
+
 ### Others
 
 - Always instrumenting the app; for instances, time taken of API calls or time
