@@ -4,3 +4,13 @@
 - [Stack Overflow: The Hardware - 2016 Edition](https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/)
 - [Stack Overflow: How We Do Deployment - 2016 Edition](https://nickcraver.com/blog/2016/05/03/stack-overflow-how-we-do-deployment-2016-edition/)
 - [HTTPS on Stack Overflow: The End of a Long Road](https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/)
+
+### Libraries
+
+- [Terraform](https://www.terraform.io/)
+  - in Hashicorp Configuration Language (HCL)
+  - storing infrastructure state by local files
+- [Pulumi](https://pulumi.io/)
+  - in most of the popular languages
+  - storing infrastructure state on the cloud https://app.pulumi.com
+
