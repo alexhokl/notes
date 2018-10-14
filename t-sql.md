@@ -107,6 +107,14 @@ To change to multi-user mode (usually done at the end of a set of operations)
 ALTER DATABASE MyCustomDatabaseName SET MULTI_USER
 ```
 
+##### Re-enable SQL login and change its password
+
+```sql
+ALTER LOGIN YourSqlLoginName ENABLE
+ALTER Login YourSqlLoginName WITH PASSWORD = 'SomeStrongPassword'
+```
+
+
 ### Database performance
 
 ##### To clean up SQL server cache
@@ -200,6 +208,38 @@ GROUP BY
 ORDER BY
     t.Name
 ```
+
+##### Check current connections
+
+```sql
+SELECT * FROM sys.dm_exec_connections
+```
+
+##### Check current locks on a table
+
+```sql
+SELECT * FROM sys.dm_tran_locks
+WHERE
+    resource_database_id = DB_ID() AND
+    resource_associated_entity_id = OBJECT_ID(N'dbo.YourTableName');
+```
+
+##### Check index of a table
+
+```sql
+SELECT
+    a.index_id,
+    name,
+    avg_fragmentation_in_percent,
+    fragment_count,
+    avg_fragment_size_in_pages
+FROM
+    sys.dm_db_index_physical_stats (DB_ID(), OBJECT_ID(N'[dbo].[YourTableName]'), NULL, NULL, NULL) AS a JOIN
+    sys.indexes AS b ON
+        a.object_id = b.object_id AND
+        a.index_id = b.index_id;
+```
+
 
 ### Database table manipulations
 
