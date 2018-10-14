@@ -481,6 +481,23 @@ ssh -i app-test.pem app@app-test.aws.com
 scp -i cert-to-server.pem app@app-test.aws.com:/server/path/file.txt local.txt
 ```
 
+###### To disable password loging
+
+Edit `/etc/ssh/sshd_config` and create or change the following entries with `no` va lues 
+
+```
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+```
+
+and reload sshd
+
+```sh
+sudo systemctl reload ssh
+```
+
+##### Versions
+
 ###### To check the distribution of linux
 
 ```sh
