@@ -105,6 +105,40 @@ mkdir $(ls | cut -d. -f1 | uniq)
 for f in *(.); do d=${f%%.*}; mv $f $d/.; done
 ```
 
+###### To loop through some of the files in current folder (where it is harder to use `find`)
+
+```sh
+ for f in ./production.*; do echo $f; done
+```
+
+###### To loop through a bash array
+
+```sh
+colours=(red green blue)
+for c in ${colours[*]}; do echo $c; done
+```
+
+###### To indirect reference an array in a loop
+
+```sh
+fruits_red=(grapefruit)
+fruits_green=(kiwi)
+fruits_blue=(blueberries)
+colours=(red green blue)
+for c in ${colours[*]}; do
+    eval fruits=('"${fruits_'${c}'[@]}"')
+    for f in ${fruits[*]}; do
+        echo $c - $f
+    done
+done
+```
+
+###### To make indirect reference to another variable
+
+```sh
+sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
+```
+
 ###### to check disk usage in the current directory
 
 ```sh
@@ -133,6 +167,12 @@ top
 
 ```sh
 ip addr show
+```
+
+###### To get IP from a host name
+
+```sh
+getent hosts alexhokl.com
 ```
 
 ###### To add an IP address to an interface
@@ -293,6 +333,18 @@ rm csr.pem
 cp cert.pem https_cert.pem
 cat key.pem >> https_cert.pem
 rm cert.pem key.pem
+```
+
+###### To generate SSL certs for Nginx
+
+```sh
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt
+```
+
+###### To reload Nginx in a container
+
+```sh
+nginx -s reload
 ```
 
 ###### To update installed APT packages
