@@ -82,3 +82,29 @@ go test -coverprofile=cover.out ./... && go tool cover -html=cover.out
 ```sh
 go test -test.list .
 ```
+
+###### To test all files with a short test results
+
+```
+go test --short all
+```
+
+### Modules
+
+###### To list all module dependencies
+
+```sh
+go list -m all
+```
+
+###### To retrieve a specific version of library
+
+```sh
+go get library@version
+```
+
+###### To create a module
+
+```sh
+go mod init
+```
