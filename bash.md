@@ -448,6 +448,13 @@ convert -background transparent image.png -define icon:auto-resize=16,32,48,64,2
 ```sh
 ffmpeg -i video.avi -b 100k video.mp4
 ```
+
+###### To convert an image to webp format
+
+```sh
+cwebp -q 80 source.image.png -o destination.webp
+```
+
 ###### To set timezone
 
 ```sh
