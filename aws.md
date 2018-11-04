@@ -145,3 +145,32 @@ aws ec2 authorize-security-group-ingress --group-id sg-11111111 --protocol tcp -
 ```sh
 aws s3 mb s3://your-bucket-name
 ```
+
+### Lightsail
+
+##### To install Let's Encrypt (Lego) on the Ubuntu box ([reference](https://docs.bitnami.com/aws/how-to/generate-install-lets-encrypt-ssl/))
+
+```sh
+cd /tmp
+curl -s https://api.github.com/repos/xenolf/lego/releases/latest | grep browser_download_url | grep linux_amd64 | cut -d '"' -f 4 | wget -i - -O lego.tar.gz
+tar xf lego.tar.gz
+sudo mv lego /usr/local/bin/lego
+sudo /opt/bitnami/ctlscript.sh stop
+sudo lego --email="alex@test.com" --domains="test.com" --domains="www.test.com" --path="/etc/lego" run
+sudo mv /opt/bitnami/apache2/conf/server.crt /opt/bitnami/apache2/conf/server.crt.old
+sudo mv /opt/bitnami/apache2/conf/server.key /opt/bitnami/apache2/conf/server.key.old
+sudo mv /opt/bitnami/apache2/conf/server.csr /opt/bitnami/apache2/conf/server.csr.old
+sudo ln -s /etc/lego/certificates/test.com.key /opt/bitnami/apache2/conf/server.key
+sudo ln -s /etc/lego/certificates/test.com.crt /opt/bitnami/apache2/conf/server.crt
+sudo chmod 600 /opt/bitnami/apache2/conf/server*
+sudo /opt/bitnami/ctlscript.sh start
+```
+
+##### To renew Let's Encrypt (Lego) on the Ubuntu box ([reference](https://docs.bitnami.com/aws/how-to/generate-install-lets-encrypt-ssl/))
+
+```sh
+sudo /opt/bitnami/ctlscript.sh stop
+sudo lego --email="alex@test.com" --domains="test.com" --domains="www.test.com" --path="/etc/lego" renew
+sudo /opt/bitnami/ctlscript.sh start
+```
+
