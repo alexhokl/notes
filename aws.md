@@ -174,3 +174,13 @@ sudo lego --email="alex@test.com" --domains="test.com" --domains="www.test.com" 
 sudo /opt/bitnami/ctlscript.sh start
 ```
 
+##### To redirect http to https
+
+Edit file `/opt/bitnami/apache2/conf/bitnami/bitnami-apps-prefix.conf` and add the following (to the top if not working properly)
+
+```
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
+```
+
