@@ -282,6 +282,88 @@ EXEC sp_rename
 ALTER TABLE MyTable DROP CONSTRAINT MyTable_Contraint
 ```
 
+##### To check if there a different collation and generate statements to fix it
+
+```sql
+SELECT
+	'ALTER TABLE [dbo].[' + t.name + '] ALTER COLUMN [' + c.name + '] ' +
+	ty.name + '(' +
+	CASE WHEN c.max_length < 0 THEN 'MAX'
+	     WHEN ty.name = 'nvarchar' THEN CONVERT(VARCHAR(5), c.max_length/2)
+		 ELSE CONVERT(VARCHAR(5), c.max_length) END +
+	 ') COLLATE database_default ' +
+	CASE WHEN c.is_nullable = 1 THEN 'NULL' ELSE 'NOT NULL' END
+FROM
+	sys.columns c JOIN 
+	sys.tables t ON
+		t.object_id = c.object_id JOIN
+	sys.types ty ON
+		ty.system_type_id = c.system_type_id
+WHERE
+	--c.name <> 'Code' AND
+	c.collation_name <> (SELECT CONVERT (varchar, SERVERPROPERTY('collation'))) AND
+	ty.name <> 'sysname'
+ORDER BY t.name
+
+
+SELECT 'DROP VIEW dbo.[' + name + ']'
+FROM (
+SELECT
+	DISTINCT t.name
+FROM
+	sys.columns c JOIN 
+	sys.views t ON
+		t.object_id = c.object_id JOIN
+	sys.types ty ON
+		ty.system_type_id = c.system_type_id
+WHERE
+	--c.name <> 'Code' AND
+	c.collation_name <> (SELECT CONVERT (varchar, SERVERPROPERTY('collation'))) AND
+	ty.name <> 'sysname'
+	) temp
+ORDER BY name
+```
+
+##### To generate drop constraint statements
+
+```sql
+select
+	'DROP INDEX ' + i.name + ' ON dbo.[' + t.name + ']'
+from sys.indexes i JOIN
+	sys.tables t ON
+		t.object_id = i.object_id
+WHERE i.name LIKE 'IX_%_Name'
+ORDER BY t.name, i.name
+
+select
+	'DROP INDEX ' + i.name + ' ON dbo.[' + t.name + ']'
+from sys.indexes i JOIN
+	sys.tables t ON
+		t.object_id = i.object_id
+WHERE i.name LIKE 'UQ_%'
+ORDER BY t.name, i.name
+
+
+select
+	'ALTER TABLE dbo.[' + t.name + '] DROP CONSTRAINT ' + i.name
+from sys.indexes i JOIN
+	sys.tables t ON
+		t.object_id = i.object_id
+WHERE i.name LIKE 'UQ_%'
+ORDER BY t.name, i.name
+
+
+SELECT
+	'ALTER TABLE [' + t.name + '] DROP CONSTRAINT ' + c.name
+FROM sys.check_constraints c JOIN
+	sys.tables t ON
+		t.object_id = c.parent_object_id
+
+SELECT t.name, c.name FROM sys.check_constraints c JOIN
+	sys.tables t ON
+		t.object_id = c.parent_object_id
+```
+
 ### Query
 
 ##### To search columns in tables
