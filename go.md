@@ -7,17 +7,26 @@
 - [A Recap of Request Handling in Go](http://www.alexedwards.net/blog/a-recap-of-request-handling)
 - [Important interfaces that every Go developer should know](https://www.rzaluska.com/blog/important-go-interfaces/)
 - [Grumpy: Go running Python!](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html)
+- [Gopherize.me](https://gopherize.me/) 
 
 ### Libraries
 
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
-- [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured, leveled logging in Go
+- [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured, leveled logging in Go [example](https://github.com/uber-go/zap/blob/master/example_test.go), [FAQ](https://github.com/uber-go/zap/blob/master/FAQ.md)
 - [go-chi/chi](https://github.com/go-chi/chi) lightweight, idiomatic and composable router for building Go HTTP services
 - [spf13/viper](https://github.com/spf13/viper) for application configurations
 - [urfave/cli](https://github.com/urfave/cli) for building command line applications
 - [gorilla/websocket](https://github.com/gorilla/websocket)
 - [leanovate/gopter](https://github.com/leanovate/gopter) property testing
-- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache Kafka 0.8, and up
+- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache Kafka 0.8, and up [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
+- [sdcoffey/techan](https://github.com/sdcoffey/techan/) a Technical (Financial) Analysis Library for Golang
+- [piquette/finance-go](https://github.com/piquette/finance-go) a Financial markets data library implemented in go
+- [mattevans/pwned-passwords](https://github.com/mattevans/pwned-passwords) Go client library for checking values against compromised HIBP Pwned Passwords
+- [twitchtv/twirp](https://github.com/twitchtv/twirp) A simple RPC framework with protobuf service definitions
+- [src-d/enry](https://github.com/src-d/enry) A faster file programming language detector
+- [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal encrypted backups outside the app
+- [schachmat/wego](https://github.com/schachmat/wego) weather app for the terminal
+- [bryanl/manifest-summary](https://github.com/bryanl/manifest-summary) print summary of a kubernetes manifest
 
 ### Tricks
 
