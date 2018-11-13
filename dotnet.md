@@ -156,6 +156,10 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 
 # ASP.NET
 
+### Links
+
+- [ASP.NET Community Standup](https://live.asp.net/)
+
 ### Lifecycle
 
 -	[Understanding MVC Application Execution](https://support.microsoft.com/en-gb/help/2019689/error-message-when-you-visit-a-web-site-that-is-hosted-on-iis-7.0-http-error-404.17---not-found)
