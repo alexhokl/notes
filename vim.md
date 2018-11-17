@@ -1,16 +1,18 @@
 The following notes is based on [this configuration](https://github.com/alexhokl/.vim/blob/master/vimrc).
 
-- `shift-v` to select a line
-- `shift-g` to go to the last line of a file
-- `esc` to command mode
+- `esc` to normal mode
 - `:wq` to save and exit
 - `ctrl-n` to toggle NERDtree
 - `,gs` to view git status
 - `ctrl-p` to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
+- `shift-v` to select a line
 
 ##### Editing
 
-- `a` to insert
+- `a` to append
+- `i` to insert
+- `A` to append to the end of the current line
+- `I` to insert to the beginning of the current line
 - `d` to delete
 - `c2w` to change 2 words
 - `o` to open a new line in the next line and insert
@@ -30,6 +32,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 ##### Navigation
 
+- `gg` to go to the first line of a file
+- `shift-g` to go to the last line of a file
 - `}` to move cursor to the next empty line
 - `{` to move cursor to the previous empty line
 - `ctrl-F` to move cursor to the next page
