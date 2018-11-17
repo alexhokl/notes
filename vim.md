@@ -15,6 +15,10 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `c2w` to change 2 words
 - `o` to open a new line in the next line and insert
 - `O` to open a new line in the previous line and insert
+- `:g/ASearchWord/d` to delete all lines containing `ASearchWord` (regex can be
+    used here)
+- `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord` (regex can
+    be used here
 
 ##### Buffers
 
