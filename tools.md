@@ -1,3 +1,13 @@
+## Offline Tools
+
+- [mitmproxy](https://mitmproxy.org/) - a free and open source interactive HTTPS proxy
+- [Scoop](https://scoop.sh/) - a command-line installer for Windows
+- [asciinema](https://asciinema.org/) - a lightweight, purely text-based approach to terminal recording
+- [smallstep](https://smallstep.com/) - a command line tool to work with zero
+    trust technologies
+    ([intro](https://smallstep.com/blog/zero-trust-swiss-army-knife.html))
+- 
+
 ## Online Tools
 
 - [Carbon](https://carbon.now.sh) for sharing code to show on web pages
@@ -8,6 +18,8 @@
 - [myregextester](https://myregextester.com/index.php) A regular expression tester
 - [cmd.io](https://cmd.io) 
 - [Pwned Passwords](https://haveibeenpwned.com/Passwords)
+- [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
+    without code
 
 ### APIs
 
