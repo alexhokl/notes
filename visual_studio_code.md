@@ -1,4 +1,8 @@
-### Visual Studio Code
+### Links
+
+- [VS Code can do that?!](https://vscodecandothat.com/)
+
+### Settings
 
 ###### Configuration file location
 
@@ -23,17 +27,3 @@
 ```
 
 [Available languages](https://code.visualstudio.com/docs/languages/identifiers)
-
-### Neovim
-
-###### To update plugins
-
-```
-:UpdateRemotePlugins
-```
-
-###### To install binaries
-
-```
-:GoInstallBinaries
-```
