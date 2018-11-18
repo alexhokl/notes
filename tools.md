@@ -6,7 +6,8 @@
 - [smallstep](https://smallstep.com/) - a command line tool to work with zero
     trust technologies
     ([intro](https://smallstep.com/blog/zero-trust-swiss-army-knife.html))
-- 
+- [peek](https://github.com/phw/peek) - an animated GIF recorder
+- [google/git-appraise](https://github.com/google/git-appraise) - a command line tool for performing code reviews on git repositories
 
 ## Online Tools
 
@@ -36,7 +37,10 @@
 - [cypress](https://www.cypress.io) - Javascript end-to-end testing
 - [bigpanda](https://www.bigpanda.io/) - Infrastructure and application monitoring
 
+### Data
+
+- [g0vhk.io](https://g0vhk.io)
+
 ### Hardware
 
 - [Apple Support - Check support coverage](https://checkcoverage.apple.com/ie/en/)
-- 
