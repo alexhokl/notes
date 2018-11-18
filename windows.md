@@ -38,5 +38,3 @@ To list installed packages
 choco list --localonly
 ```
 
-### Powershell
-
