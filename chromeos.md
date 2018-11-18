@@ -22,3 +22,8 @@
 ```
 
 and background colour in `#002b36`
+
+##### crostini
+
+- [crostini 101](https://www.reddit.com/r/Crostini/comments/89q1cu/crostini_101/)
+- [Running Custom Containers Under Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md)
