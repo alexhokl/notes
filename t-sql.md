@@ -394,6 +394,54 @@ from information_schema.referential_constraints
 where constraint_schema = 'dbo'
 ```
 
+#### JOIN
+
+- factors affecting query optimiser in determining which physical join to be used
+  - It depends upon the table size
+  - It depends upon the index on the join column
+  - It depends upon the Sorted order on the join column
+
+##### MERGE JOIN
+
+- match rows from two suitably sorted input tables exploiting their sort order
+- very low I/O cost
+- lower CPU cost
+- possible for the tables have an index on the join column
+
+###### Assuming unique clustered indexes are used
+
+| Table size | With index (both) | Without index (both) | Either table has index |
+| --- | --- | --- | --- |
+| Big(Both) | MERGE | HASH | HASH |
+| Medium(Both) | MERGE | HASH | HASH |
+| Small(Both) | NESTED LOOP | HASH | NESTED LOOP |
+| Big Vs Small | NESTED LOOP | HASH | NESTED LOOP |
+
+###### Assuming clustered indexes are used
+
+| Table size | With index (both) | Without index (both) | Either table has index |
+| --- | --- | --- | --- |
+| Big(Both) | HASH | HASH | HASH |
+| Medium(Both) | HASH | HASH | HASH |
+| Small(Both) | NESTED LOOP | NESTED LOOP | HASH |
+| Big Vs Small | HASH | HASH | HASH |
+
+
+##### HASH JOIN
+
+- use each row from the top input to build a hash table, and each row from the bottom input to probe into the hash table, outputting all matching rows
+- higher I/O cost and CPU cost
+- possible for the tables with no index or either of the big tables has indexed
+
+##### NESTED LOOP JOIN
+
+- can only be used in INNER JOIN and LEFT JOIN
+- possible for small tables with index or either of the big tables have indexed
+
+##### REMOTE JOIN
+
+- should be used only when the left table has fewer rows the right table
+
 ##### Cross Join
 
 Effectively a simple cartesian product, or a `LEFT OUTER JOIN` and `RIGHT
