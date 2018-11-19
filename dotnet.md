@@ -4,7 +4,7 @@
 
 -	[GitHub issues: port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
 -	[Porting to .NET Core from .NET Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
--	[Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\`\)
+-	[Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\ `)
 -	[Can I port my application to .NET Core?](https://icanhasdot.net/)
 -	[PackageSeach](http://packagesearch.azurewebsites.net/)
 -	[Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
@@ -36,16 +36,19 @@ Add alias `alias nuget="mono /usr/local/bin/nuget.exe"`
 
 Note that Mono 4.4.2 or later is required.
 
+See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#feature-availability)
+
 
 ### ASP.NET Core
 
--	[Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
--	[ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
--	[Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
--	Porting of `HttpContext` and `HttpRequest` is almost impossible.
--	[A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
+- [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
+- [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
+- [Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
+- [A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
 - [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 - [Create instance from ASP.NET Core dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#call-services-from-main)
+- [Services available in `ConfigureServices`](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#framework-provided-services)
+
 
 ##### Object lifecycle management
 
@@ -57,13 +60,48 @@ Note that Mono 4.4.2 or later is required.
   - Injection based on name
   - Child containers
   - Custom lifetime management
-  - Func<T> support for lazy initialization
+  - `Func<T>` support for lazy initialization
+- The root service provider is created when `BuildServiceProvider` is called. 
+  The root service provider's lifetime corresponds to the app/server's lifetime
+  when the provider starts with the app and is disposed when the app shuts down.
+  Scoped services are disposed by the container that created them. If a scoped 
+  service is created in the root container, the service's lifetime is effectively
+  promoted to singleton because it's only disposed by the root container when
+  app/server is shut down. Validating service scopes catches these situations 
+  when `BuildServiceProvider` is called.
+- The services available within an ASP.NET Core request from `HttpContext` are 
+  exposed through the `HttpContext.RequestServices` collection
+  - Generally, an app shouldn't use these properties directly. Instead, request
+    the types that classes require via class constructors and allow the framework
+    inject the dependencies. This yields classes that are easier to test.
+- [recommendations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#recommendations)
+  - `async`/`await` and `Task` based service resolution is not supported. C# does
+    not support asynchronous constructors, therefore the recommended pattern is 
+    to use asynchronous methods after synchronously resolving the service
+  - Avoid storing data and configuration directly in the service container.
+    For example, a user's shopping cart shouldn't typically be added to the service
+    container. Configuration should use the options pattern. Similarly, avoid
+    "data holder" objects that only exist to allow access to some other object.
+    It's better to request the actual item via DI.
+  - Avoid static access to services (for example, statically-typing 
+    `IApplicationBuilder.ApplicationServices` for use elsewhere).
+  - Avoid using the service locator pattern. For example, don't invoke `GetService`
+    to obtain a service instance when you can use DI instead. Another service locator
+    variation to avoid is injecting a factory that resolves dependencies at runtime.
+    Both of these practices mix Inversion of Control strategies.
+  - Avoid static access to `HttpContext` (for example, `IHttpContextAccessor.HttpContext`).
 
 ##### Environment variables
 
 - Environment variables are available in `IConfiguration` objects
 - Setting environment variable `Logging:LogLevel:Default` to `INFO` can change
   log level of an application
+
+##### Authentication
+
+- CSRF (Cross-site Request Forgery) applies only in cookie-based authentication
+    and it is not a concern in token-based authentication even the token could
+    be saved in local storage
 
 ### Entity Framework (EF)
 
@@ -202,7 +240,6 @@ System.IO.Path.Combine(System.Web.Hosting.HostingEnvironment.ApplicationPhysical
 ```ps1
 Update-Package -Reinstall
 ```
-
 
 # IIS
 
