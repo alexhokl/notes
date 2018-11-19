@@ -135,6 +135,7 @@ section.
     - execution is generally faster as no score calculation is required
 - data type `keyword` will not have its field put into a Lucene analyser
   - that is the whole field is treated as a single token
+- default stop words filter is not enabled
 
 #### API
 
@@ -146,6 +147,55 @@ section.
 {
  "analyzer": "simple",
  "text": "My favorite movie is Star Wars!"
+}
+```
+
+`GET _analyze`
+
+```json
+{
+  "tokenizer": "standard",
+  "filter": ["lowercase","snowball"],
+  "text": "This release includes mainly bug fixes."
+}
+```
+
+`PUT analysis_test`
+
+```json
+{
+  "settings": {
+    "analysis": {
+      "char_filter": {
+        "cpp_it": {
+          "type": "mapping",
+          "mappings": ["c++ => cpp", "C++ => cpp", "IT => _IT_"]
+        }
+      },
+      "filter": {
+        "my_stop": {
+          "type": "stop",
+          "stopwords": ["can", "we", "our", "you", "your", "all"]
+        }
+      }, 
+      "analyzer": {
+        "my_analyzer": {
+          "tokenizer": "standard",
+          "char_filter": ["cpp_it"],
+          "filter": ["lowercase", "stop", "my_stop"]
+        }
+      }
+    }
+  }
+}
+```
+
+`POST _reindex`
+
+```json
+{
+  "source": {"index": "blogs"},
+  "dest":   {"index": "blogs_analyzed"}
 }
 ```
 
