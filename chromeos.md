@@ -23,6 +23,11 @@
 
 and background colour in `#002b36`
 
+##### crouton
+
+- shared directories are defined in `/etc/crouton/shares`
+  - Syntax is as `HOSTDIR CHROOTDIR [OPTIONS]`
+
 ##### crostini
 
 - [crostini 101](https://www.reddit.com/r/Crostini/comments/89q1cu/crostini_101/)
