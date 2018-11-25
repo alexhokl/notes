@@ -27,7 +27,6 @@ services:
       - discovery.type=single-node
     ports:
       - "9200:9200"
-      - "9300:9300"
   kibana:
     image: docker.elastic.co/kibana/kibana:6.5.0
     environment:
@@ -139,9 +138,32 @@ section.
 
 #### API
 
-`GET my_custom_index/_mapping` to check the mappings
+###### `GET my_index/_search`
 
-`GET _analyze`
+To get all documents
+
+```json
+{
+  "query": {
+    "match_all": {}
+  }
+}
+```
+
+###### `GET my_index`
+
+To get mappings, aliases and setting of an index
+
+###### `GET /`
+
+To get cluster information
+
+
+###### `GET /_cat/indices?v`
+
+To get statistics of indices
+
+###### `GET _analyze`
 
 ```json
 {
