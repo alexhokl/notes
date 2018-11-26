@@ -1,3 +1,14 @@
+### Shortcut keys
+
+##### To take a full screenshot
+
+`Shift` + multiscreen key
+
+##### To take a partial screenshot
+
+`Shift` + `Ctrl` + multiscreen key
+
+
 ##### crosh Colour scheme
 
 ```
