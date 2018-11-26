@@ -97,7 +97,8 @@ section.
 
 ### Elasticsearch
 
-- default JVM heap size is 1GB (`jvm.options`)
+- default JVM heap size is 1GB (configured via file `jvm.options` or
+    environment variable)
 - cluster is a concept rather than a physical thing
 - discovery module is available on most public cloud to go through the
     seecurity groups to fill `discovery.zen.unicast.hosts`.
@@ -162,6 +163,12 @@ To get cluster information
 ###### `GET /_cat/indices?v`
 
 To get statistics of indices
+
+Parameter `v` to add column titles to output
+
+###### `GET /_cat`
+
+To check statistics endpoints available
 
 ###### `GET _analyze`
 
