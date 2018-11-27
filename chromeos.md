@@ -8,6 +8,18 @@
 
 `Shift` + `Ctrl` + multiscreen key
 
+### Networking
+
+##### To configure PPTP VPN
+
+1. Open "Settings"
+2. Search for "Google Play Store"
+3. Click on "Manage Android Preferences"
+4. Click on "PPTP VPN" and enter the required information to setup
+
+See "PPTP VPN support" in [Set up virtual private networks (VPNs)](https://support.google.com/chromebook/answer/1282338?hl=en)
+
+### Linux-related topics
 
 ##### crosh Colour scheme
 
@@ -43,3 +55,8 @@ and background colour in `#002b36`
 
 - [crostini 101](https://www.reddit.com/r/Crostini/comments/89q1cu/crostini_101/)
 - [Running Custom Containers Under Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md)
+- To have Linux OS on, change to use Dev Channel. To do this, head to "About
+    Chrome OS" page and select "Detailed build information", then click on
+    "Change Channel" and select Dev Channel.
+  - Note that switching on flag `Experimental Crostini` in `chrome://flags` may
+      be required
