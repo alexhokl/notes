@@ -71,3 +71,8 @@ and background colour in `#002b36`
 - Right click on the script file that you want to blackbox (hide) and click on
     "Blackbox script"
   - Blackboxing can also be applied in call stack
+
+##### Live expression
+
+- Open "Console" tab in develop console
+- Click on the eye-like icon and enter the expression
