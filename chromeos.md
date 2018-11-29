@@ -60,3 +60,14 @@ and background colour in `#002b36`
     "Change Channel" and select Dev Channel.
   - Note that switching on flag `Experimental Crostini` in `chrome://flags` may
       be required
+
+### Chrome Browser
+
+##### To Enable blackboxing
+
+- Open "Network" tab in developer console
+- Ensure column `Initiator` is visible
+- Hover over the initiator of the request in question
+- Right click on the script file that you want to blackbox (hide) and click on
+    "Blackbox script"
+  - Blackboxing can also be applied in call stack
