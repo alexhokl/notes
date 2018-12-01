@@ -76,3 +76,10 @@ and background colour in `#002b36`
 
 - Open "Console" tab in develop console
 - Click on the eye-like icon and enter the expression
+
+##### Monitoring events on an element
+
+```js
+monitorEvents($0);
+```
+
