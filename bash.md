@@ -546,4 +546,8 @@ sudo ipsec down office
 
 #### PPTP
 
+### Tar
 
+###### To extract to a directory
+
+tar xf compressed.xz -C some-directory/
