@@ -77,9 +77,17 @@ and background colour in `#002b36`
 - Open "Console" tab in develop console
 - Click on the eye-like icon and enter the expression
 
+
+##### Storing DOM element as a variable
+
+Since Chrome 71, right click on the element tag (after clicking on "Inspect")
+and select "Store as global variable. Take note of the temporary variable name
+and that variable is available in the console.
+
 ##### Monitoring events on an element
 
 ```js
 monitorEvents($0);
 ```
+
 
