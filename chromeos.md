@@ -61,6 +61,28 @@ and background colour in `#002b36`
   - Note that switching on flag `Experimental Crostini` in `chrome://flags` may
       be required
 
+###### Docker
+
+In `crosh` shell,
+
+```sh
+vmc stop termina
+vmc start termina
+lxc profile unset default security.syscalls.blacklist
+lxc profile apply penguin default
+lxc restart penguin
+```
+
+Open a `Terminal` window and execute,
+
+```sh
+sudo dockerd
+```
+
+Open another `Terminal` window to use Docker as normal.
+
+Reference: [Reddit: 70.0.3524.2 rolling out to Dev](https://www.reddit.com/r/Crostini/comments/99jdeh/70035242_rolling_out_to_dev/e4revli/)
+
 ### Chrome Browser
 
 ##### To Enable blackboxing
