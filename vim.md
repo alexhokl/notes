@@ -2,8 +2,6 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 - `esc` to normal mode
 - `:wq` to save and exit
-- `ctrl-n` to toggle NERDtree
-- `,gs` to view git status
 - `ctrl-p` to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
 - `shift-v` to select a line
 
@@ -25,10 +23,11 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 ##### Buffers
 
 - `ctrl-x` or `ctrl-z` to switch between file tabs (buffers)
-- `ctrl-W` to change buffer
+- `ctrl-w` to change buffer
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
 - `:sp` to split buffer horizontally
+- `,q` to close a buffer
 
 ##### Navigation
 
@@ -43,9 +42,25 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `g,` to move the next position in the change list
 - `/` to search forward
 - `?` to search backward
+- `space` put current cursor in center of the screen
+- `ctrl-n` to toggle NERDtree
 
+##### Errors
+
+- `:clist` to list all errors
+- `:cn` to advance to the next error
+- `:cp` to go to the previous error
 
 ##### ctrlp
 
 To refresh cached file list in fuzzy file search, hit `ctrl-p` and `F5` or use
 command `:CtrlPClearCache`.
+
+
+##### Git
+
+- `,gs` or `:Gstatus` to show un-commited files and use `-` to toggle unstage and staged
+    files
+- `,ga` to add the current file as staged file
+- `,gb` to show blame lines (and toggle)
+- `,gm` to commit all current staged files and put a message
