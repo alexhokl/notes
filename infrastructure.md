@@ -14,3 +14,28 @@
   - in most of the popular languages
   - storing infrastructure state on the cloud https://app.pulumi.com
 
+### Monitoring
+
+Notes from talk *Monitoring and Debugging Containerized Systems at Scale* by
+Jaana Dogan
+
+- discovering critical paths of application
+- making it reliable then fast
+- making it debuggable
+- `docekr run --add-host=somehost:192.168.1.2 -d container-name`
+- Use timeline or trace list from OpenCensus
+- OpenCensus is not a replacement of existing instrumentation frameworks or
+    systems
+- OpenCensus is trying to provide a more standardised way of logging data
+
+##### Docker Swarm
+
+- One of the possible combinations of tools is 
+  - Fluentd
+    - as a collector
+    - converts strings into JSON objects
+  - influxdb
+    - as a storage
+  - Grafrana
+    - as presentation
+
