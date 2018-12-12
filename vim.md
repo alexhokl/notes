@@ -64,3 +64,14 @@ command `:CtrlPClearCache`.
 - `,ga` to add the current file as staged file
 - `,gb` to show blame lines (and toggle)
 - `,gm` to commit all current staged files and put a message
+
+##### Omnisharp
+
+- `,fm` to list the members (methods or properties) in the current buffer
+- `,fu` to find usages
+- `,fi` to find implementations
+- `,fs` to gind symbols (pretty much like ctrl-t in ReSharper)
+- `,dc` show documentation
+- `,nm` to rename
+- `,fx` to fix `using` statements
+- `,cf` to format code
