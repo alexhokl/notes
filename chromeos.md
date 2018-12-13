@@ -50,6 +50,15 @@ and background colour in `#002b36`
 
 - shared directories are defined in `/etc/crouton/shares`
   - Syntax is as `HOSTDIR CHROOTDIR [OPTIONS]`
+- the virtual machine is `crosvm` which implements `kvm` and it is in Rust
+- VM managers `concierge` and `cicerone`
+- `concierge` kickstarts a VM and setup its network and peripherals. It is running in privileged mode
+- `cicerone` takes over the communication to VM and it is very stripped down version of `concierge` and it is not running in privileged mode. A started VM is not considered as trusted anymore by ChromeOS
+- `termina` is the VM root image and it is used to boot a container via `lxd`
+- `maitred` is the PID 1 process which behaves like `systemd`
+- `lxd` is a container type and has advantages over docker in terms of a bigger container
+- gtk and QT drivers are modified to fit `virtio-wayland` on ChromeOS
+- `sommelier` is a Wayland composer
 
 ##### crostini
 
