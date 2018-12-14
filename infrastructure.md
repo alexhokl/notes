@@ -39,3 +39,4 @@ Jaana Dogan
   - Grafrana
     - as presentation
 
+- Fluentd can also help converting string logs into JSON objects
