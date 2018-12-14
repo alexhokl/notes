@@ -1,3 +1,8 @@
+### Links
+
+- [Auto Update Policy](https://support.google.com/chrome/a/answer/6220366?hl=en)
+- [Chrome Releases](https://chromereleases.googleblog.com/)
+
 ### Shortcut keys
 
 ##### To take a full screenshot
