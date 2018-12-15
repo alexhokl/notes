@@ -184,3 +184,8 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
 ```
 
+##### To set domain name of WordPress
+
+Edit file `/opt/bitnami/apps/wordpress/htdocs/wp-config.php` and look for `WP_SITEURL`
+    and `WP_HOME`
+
