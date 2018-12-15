@@ -294,6 +294,16 @@ git config user.name alex.some.other.org
 
 ### Queries
 
+##### History of a line(s)
+
+```sh
+git log -L 1001,1001:SomeFolder/SomeFile.go
+```
+
+```sh
+git log -L 1001,+10:SomeFolder/SomeFile.go
+```
+
 ##### Comparing branches
 
 To check difference in commits between two branches (or points in commit history)
