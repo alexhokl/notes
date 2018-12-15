@@ -210,3 +210,25 @@ To run linux containers in Docker Windows container engine (see also [mainfest l
 ```ps1
 docker run --platform linux busybox echo hello
 ```
+
+### Specific images
+
+##### microsoft/mssql-server-linux
+
+Environment variable `attach_dbs` can be used to attached `.mdf` and `.ldf`
+files directly.
+
+```json
+[
+  {
+    'dbName': 'MaxDb',
+    'dbFiles': ['C:\\temp\\maxtest.mdf',
+    'C:\\temp\\maxtest_log.ldf']
+  },
+  {
+    'dbName': 'PerryDb',
+    'dbFiles': ['C:\\temp\\perrytest.mdf',
+    'C:\\temp\\perrytest_log.ldf']
+  }
+]
+```
