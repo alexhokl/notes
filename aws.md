@@ -61,7 +61,7 @@ dotnet new -i Amazon.Lambda.Templates::*
 dotnet new
 ```
 
-#### CLI (Reference)[https://docs.aws.amazon.com/cli/latest/reference/lambda/]
+#### CLI [Reference](https://docs.aws.amazon.com/cli/latest/reference/lambda/)
 
 ###### To list all functions
 
