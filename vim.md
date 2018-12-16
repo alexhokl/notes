@@ -19,6 +19,16 @@ The following notes is based on [this configuration](https://github.com/alexhokl
     used here)
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord` (regex can
     be used here
+- `gcc` to toggle comment of the current line
+- visual selection + `gc` to toggle comment of multiple lines
+
+##### Multicursors
+
+- `ctrl-i` to select the current pattern or advance to the next instance of the
+    current pattern
+- `ctrl-y` to select the previous instance of the current pattern
+- `ctrl-b` to skip to the next instance of the current pattern
+- `Esc` to remove multi-cursors
 
 ##### Buffers
 
@@ -28,6 +38,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:vs index.html` to split buffer vertically and open `index.html`
 - `:sp` to split buffer horizontally
 - `,q` to close a buffer
+- `,w` to write current buffer to disk
+- `,W` to trim all whitespace without writing to disk
 
 ##### Navigation
 
@@ -65,13 +77,34 @@ command `:CtrlPClearCache`.
 - `,gb` to show blame lines (and toggle)
 - `,gm` to commit all current staged files and put a message
 
-##### Omnisharp
+##### C#
 
 - `,fm` to list the members (methods or properties) in the current buffer
 - `,fu` to find usages
 - `,fi` to find implementations
-- `,fs` to gind symbols (pretty much like ctrl-t in ReSharper)
+- `,fs` to find symbols (pretty much like ctrl-t in ReSharper)
 - `,dc` show documentation
 - `,nm` to rename
 - `,fx` to fix `using` statements
 - `,cf` to format code
+
+##### Go
+
+- `,s` to show definition at bottom
+- `,v` to show definition on the side
+- `,b` to build
+- `,rv` to run and show on the side
+- `,t` to test
+- `,dt` to test compile
+- `,d` to show documentation
+- `,e` to rename
+
+##### Snippets
+
+- [C#](https://github.com/honza/vim-snippets/blob/master/snippets/cs.snippets)
+- [Go](https://github.com/honza/vim-snippets/blob/master/snippets/go.snippets)
+- [Javascript](https://github.com/honza/vim-snippets/blob/master/snippets/javascript-es6-react.snippets)
+- [HTML](https://github.com/honza/vim-snippets/blob/master/snippets/html.snippets)
+- [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
+
+
