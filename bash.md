@@ -483,6 +483,30 @@ sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 diff --brief -r dir1/ dir2/
 ```
 
+##### cut
+
+###### To have some parts of a line delimited) by a character
+
+to have part 2 and 4 from a line delimited by a space
+
+```sh
+cat file.txt | cut -d ' ' -f 2,4
+```
+
+to have all parts except part 2 and 4 from a line delimited by a space
+
+```sh
+cat file.txt | cut --complement -d ' ' -f 2,4
+```
+
+###### To have all parts of a line after a number of characters
+
+to have all parts of a line except the first 4 characters
+
+```sh
+cat file.txt | cut --complement -b 1-4
+```
+
 ##### SSH
 
 ###### To generate a cert for accessing a remote server via SSH
