@@ -92,14 +92,13 @@ See also [NYLUG Presents: David Reveman/Zach Reizner -on- Crostini: Linux applic
 
 ###### Docker
 
-In `crosh` shell,
+Before a `crosvm` is started, in `crosh` shell,
 
 ```sh
-vmc stop termina
 vmc start termina
 lxc profile unset default security.syscalls.blacklist
 lxc profile apply penguin default
-lxc restart penguin
+exit
 ```
 
 Open a `Terminal` window and execute,
