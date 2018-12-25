@@ -1,9 +1,11 @@
-### Links
+# Links
 
 - [Auto Update Policy](https://support.google.com/chrome/a/answer/6220366?hl=en)
 - [Chrome Releases](https://chromereleases.googleblog.com/)
+- [Pixelbook keyboard shortcuts](https://support.google.com/pixelbook/answer/7503852?hl=en)
+- [ChromeOS Containers do not respect "ARC VPN integration"](https://bugs.chromium.org/p/chromium/issues/detail?id=834585)
 
-### Shortcut keys
+# Shortcut keys
 
 ##### To take a full screenshot
 
@@ -13,7 +15,7 @@
 
 `Shift` + `Ctrl` + multiscreen key
 
-### Networking
+# Networking
 
 ##### To configure PPTP VPN
 
@@ -24,9 +26,9 @@
 
 See "PPTP VPN support" in [Set up virtual private networks (VPNs)](https://support.google.com/chromebook/answer/1282338?hl=en)
 
-### Linux-related topics
+# Linux-related topics
 
-##### crosh Colour scheme
+## crosh Colour scheme
 
 ```
 [
@@ -51,12 +53,12 @@ See "PPTP VPN support" in [Set up virtual private networks (VPNs)](https://suppo
 
 and background colour in `#002b36`
 
-##### crouton
+## crouton
 
 - shared directories are defined in `/etc/crouton/shares`
   - Syntax is as `HOSTDIR CHROOTDIR [OPTIONS]`
 
-##### crostini
+## crostini
 
 - [crostini 101](https://www.reddit.com/r/Crostini/comments/89q1cu/crostini_101/)
 - [Running Custom Containers Under Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md)
@@ -66,7 +68,39 @@ and background colour in `#002b36`
   - Note that switching on flag `Experimental Crostini` in `chrome://flags` may
       be required
 
-###### Components
+### Timezone
+
+##### To set timezone
+
+```sh
+sudo dpkg-reconfigure tzdata
+```
+
+Unfortunately, the trick of `lxc profile set default environment.TZ Asia/Hong_Kong`
+    does not work yet.
+
+### Docker
+
+Before a `crosvm` is started, in `crosh` shell,
+
+```sh
+vmc start termina
+lxc profile unset default security.syscalls.blacklist
+lxc profile apply penguin default
+exit
+```
+
+Open a `Terminal` window and execute,
+
+```sh
+sudo dockerd
+```
+
+Open another `Terminal` window to use Docker as normal.
+
+Reference: [Reddit: 70.0.3524.2 rolling out to Dev](https://www.reddit.com/r/Crostini/comments/99jdeh/70035242_rolling_out_to_dev/e4revli/)
+
+### Components
 
 - the virtual machine is `crosvm` which implements `kvm` and it is in Rust
 - VM managers `concierge` and `cicerone`
@@ -90,28 +124,7 @@ and background colour in `#002b36`
 
 See also [NYLUG Presents: David Reveman/Zach Reizner -on- Crostini: Linux applications on Chrome OS](https://www.youtube.com/watch?v=WwrXqDERFm8)
 
-###### Docker
-
-Before a `crosvm` is started, in `crosh` shell,
-
-```sh
-vmc start termina
-lxc profile unset default security.syscalls.blacklist
-lxc profile apply penguin default
-exit
-```
-
-Open a `Terminal` window and execute,
-
-```sh
-sudo dockerd
-```
-
-Open another `Terminal` window to use Docker as normal.
-
-Reference: [Reddit: 70.0.3524.2 rolling out to Dev](https://www.reddit.com/r/Crostini/comments/99jdeh/70035242_rolling_out_to_dev/e4revli/)
-
-### Chrome Browser
+# Chrome Browser
 
 ##### To Enable blackboxing
 
