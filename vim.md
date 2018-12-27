@@ -21,6 +21,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
     be used here
 - `gcc` to toggle comment of the current line
 - visual selection + `gc` to toggle comment of multiple lines
+- `,/` toggle comment
 
 ##### Multicursors
 
@@ -40,6 +41,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `,q` to close a buffer
 - `,w` to write current buffer to disk
 - `,W` to trim all whitespace without writing to disk
+- `:only` to close all other buffers except the current one
+- `:ls` to list all buffers
 
 ##### Navigation
 
@@ -71,11 +74,20 @@ command `:CtrlPClearCache`.
 
 ##### Git
 
-- `,gs` or `:Gstatus` to show un-commited files and use `-` to toggle unstage and staged
+- `,gs` to show un-commited files and use `-` to toggle unstage and staged
     files
 - `,ga` to add the current file as staged file
 - `,gb` to show blame lines (and toggle)
+  - and `o` on the line in question to check the changes of that last commit
 - `,gm` to commit all current staged files and put a message
+- `,gco` to checkout the current file (effectively discarding current changes)
+- `,gd` to show diff of the current file
+  - `]c` to jump to the next diff
+  - `[c` to jump back to the previous diff
+- `:Gdiff origin/master` to show diff between `master` and the current branch
+- `,gl` show logs of the current file in a quick-fix list
+  - `]q` to jump to the next commit
+  - `[q` to jump to the previous commit
 
 ##### C#
 
