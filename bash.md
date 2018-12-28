@@ -1,9 +1,41 @@
 see [GOTO 2013 • Power Use of UNIX • Dan North](https://www.youtube.com/watch?v=7uwW20odwEk)
 
+### Shell
+
+| Combination | Functionality |
+| --- | --- |
+| ctrl+a | to jump to the beginning of a line |
+| ctrl+e | to jump to the end of a line |
+| ctrl+w | to remove a word before the cursor |
+| ctrl+k | to cut to the end of a line |
+| ctrl+u | to cut to the beginning of a line |
+| ctrl+y | to paste already cut text |
+| alt+b  | to skip one word backward |
+| alt+f  | to skip one work forward |
+| alt+d  | to delete until the end of the current word include the current character |
+| ctrl+x+e | to edit the current command in default editor |
+| alt+.  | to paste the last argument of the last command |
+| `reset` | to reset the current shell |
+| `fc` | to edit the last command in the default editor |
+
+### Commands
+
 ###### to show the current process ID
 
 ```sh
 echo $$
+```
+
+###### to repeat the last command
+
+```sh
+!!
+```
+
+###### to repeat the last command with sudo
+
+```sh
+sudo !!
 ```
 
 ###### to list directories with tailing slash
@@ -131,6 +163,16 @@ for c in ${colours[*]}; do
         echo $c - $f
     done
 done
+```
+
+###### To make multiple directories
+
+```sh
+mkdir -p folder/{sub1,sub2}/temp
+```
+
+```sh
+mkdir -p folder/{1..100}/temp
 ```
 
 ###### To make indirect reference to another variable
@@ -274,6 +316,12 @@ curl -L https://xyz.com/install -o installer.deb
 
 ```sh
 kill $(lsof -ti tcp:3000)
+```
+
+###### To keep all processes running after exiting the current terminal
+
+```sh
+disown -a && exit
 ```
 
 ###### To umount an USB drive and dump ISO image to it (on Mac)
@@ -540,6 +588,20 @@ and reload sshd
 
 ```sh
 sudo systemctl reload ssh
+```
+
+###### Tunneling
+
+to map port 5601 from a remote machine to port 8080 of a local machine
+
+```sh
+ssh -L 8080:127.0.0.1:5601 username@remote-machine
+```
+
+to map port 5601 from a local machine to port 8080 of a remote machine
+
+```sh
+ssh -R 8080:127.0.0.1:5601 username@remote-machine
 ```
 
 ##### Versions
