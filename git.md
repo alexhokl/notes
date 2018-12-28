@@ -67,6 +67,14 @@ To combine the last 10 commits into one
 git rebase HEAD~10 -i
 ```
 
+##### Checking a diffs after a rebase
+
+Suppose `feature_branch` was branched out from `origin/master~10`,
+
+```sh
+git range-diff origin/master~10 origin/feature_branch origin/master feature_branch
+```
+
 ##### Rollback
 
 To rollback a particular file (abc.txt, for example) from the last commit (before it is pushed onto GitHub)
