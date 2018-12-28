@@ -92,6 +92,12 @@ grep search-term -r --include \*.{html,js} app/directory
 grep search-term --exclude-dir=.. -r .*
 ```
 
+###### To search and ignore binary files
+
+```sh
+grep search-term -I *
+```
+
 ###### find BOM characters in files
 
 ```sh
