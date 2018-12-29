@@ -67,6 +67,7 @@ and background colour in `#002b36`
     "Change Channel" and select Dev Channel.
   - Note that switching on flag `Experimental Crostini` in `chrome://flags` may
       be required
+- `penguin.linux.test` is the DNS name of the container
 
 ### Timezone
 
