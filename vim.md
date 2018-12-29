@@ -3,7 +3,33 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `esc` to normal mode
 - `:wq` to save and exit
 - `ctrl-p` to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
-- `shift-v` to select a line
+- `V` to select a line visually
+
+##### Navigation
+
+- `gg` to go to the first line of a file
+- `G` to go to the last line of a file
+- `0` to jump to the beginning of the current line
+- `$` to jump to the end of the current line
+- `w` to jump to the beginning of the next word
+- `b` to jump to the beginning of the previous word
+- `}` to move cursor to the next empty line
+- `{` to move cursor to the previous empty line
+- `ctrl-e` to scroll down
+- `ctrl-y` to scroll up
+- `ctrl-f` to scroll down one page
+- `ctrl-b` to scroll up one page
+- double backticks to move cursor to previous position
+- `gi` to move cursor to previous insert position
+- `g;` to move the previous position in the change list
+- `g,` to move the next position in the change list
+- `/` to search forward
+- `?` to search backward
+- `,<space>` to remove highlights from search
+- `<space>` put current cursor in center of the screen
+- `ctrl-n` to toggle NERDtree
+- `m1` to mark the current cursor position to register `1`
+- `'1` to jump to location stored in register `1`
 
 ##### Editing
 
@@ -13,15 +39,18 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `I` to insert to the beginning of the current line
 - `d` to delete
 - `c2w` to change 2 words
+- `ysw'` to surround a word with single quote
 - `o` to open a new line in the next line and insert
 - `O` to open a new line in the previous line and insert
 - `:g/ASearchWord/d` to delete all lines containing `ASearchWord` (regex can be
-    used here)
+used here)
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord` (regex can
-    be used here
+be used here
 - `gcc` to toggle comment of the current line
 - visual selection + `gc` to toggle comment of multiple lines
 - `,/` toggle comment
+- `u` to undo
+- `ctrl-r` to redo
 
 ##### Multicursors
 
@@ -44,21 +73,13 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:only` to close all other buffers except the current one
 - `:ls` to list all buffers
 
-##### Navigation
+##### Macro
 
-- `gg` to go to the first line of a file
-- `shift-g` to go to the last line of a file
-- `}` to move cursor to the next empty line
-- `{` to move cursor to the previous empty line
-- `ctrl-F` to move cursor to the next page
-- double backticks to move cursor to previous position
-- `gi` to move cursor to previous insert position
-- `g;` to move the previous position in the change list
-- `g,` to move the next position in the change list
-- `/` to search forward
-- `?` to search backward
-- `space` put current cursor in center of the screen
-- `ctrl-n` to toggle NERDtree
+- `q1` to start recording at register `1`
+- `q` in normal mode to stop recording
+- `@1` to replay the recording at register `1`
+- `5@1` to replay the recording at register `1` 5 times
+- `:reg` to list the current registers
 
 ##### Errors
 
@@ -99,6 +120,7 @@ command `:CtrlPClearCache`.
 - `,nm` to rename
 - `,fx` to fix `using` statements
 - `,cf` to format code
+- `,ca` to invoke code actions
 
 ##### Go
 
