@@ -6,7 +6,7 @@ see [GOTO 2013 • Power Use of UNIX • Dan North](https://www.youtube.com/watc
 | --- | --- |
 | ctrl+a | to jump to the beginning of a line |
 | ctrl+e | to jump to the end of a line |
-| ctrl+w | to remove a word before the cursor |
+| ctrl+w | to cut a word before the cursor |
 | ctrl+k | to cut to the end of a line |
 | ctrl+u | to cut to the beginning of a line |
 | ctrl+y | to paste already cut text |
@@ -15,6 +15,8 @@ see [GOTO 2013 • Power Use of UNIX • Dan North](https://www.youtube.com/watc
 | alt+d  | to delete until the end of the current word include the current character |
 | ctrl+x+e | to edit the current command in default editor |
 | alt+.  | to paste the last argument of the last command |
+| alt+2  | to copy the 2nd argument of the last command |
+| ctrl+_ | to redo |
 | `reset` | to reset the current shell |
 | `fc` | to edit the last command in the default editor |
 
