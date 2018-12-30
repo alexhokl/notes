@@ -9,6 +9,9 @@
     + [grep](#grep)
     + [sed and replacements](#sed-and-replacements)
     + [uniq](#uniq)
+    + [sort](#sort)
+    + [xargs](#xargs)
+    + [awk](#awk)
     + [for and list](#for-and-list)
     + [head & tail](#head--tail)
     + [curl](#curl)
@@ -180,6 +183,91 @@ if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...
 
 ```sh
 mkdir $(ls | cut -d. -f1 | uniq)
+```
+
+###### to get only duplicate lines
+
+```sh
+cat some.txt | uniq -d
+```
+
+###### to get only unique lines
+
+```sh
+cat some.txt | uniq -u
+```
+
+###### to ignore case
+
+```sh
+cat some.txt | uniq -i
+```
+
+###### to get count as well
+
+```sh
+cat some.txt | uniq -c
+```
+
+##### sort
+
+###### to sort files
+
+```sh
+ls | sort
+```
+
+###### to sort files and ignore cases
+
+```sh
+ls | sort -f
+```
+
+###### to sort files in reverse order
+
+```sh
+ls | sort -r
+```
+
+##### xargs
+
+```sh
+find /path -type f -print | xargs rm
+```
+
+and it is equivalent to `rm $(find /path -type f)`
+
+
+###### command substitution
+
+```sh
+find /path -type f -name '*~' -print0 | xargs -0 -I % cp -a % ~/backups
+```
+
+##### awk
+
+###### to extract delimited text
+
+```sh
+awk -F':' '{ print $1 }' /etc/passwd
+```
+
+###### to extract certain lines in a file
+
+```sh
+awk '$9 == 500 {print $0} ' /var/log/httpd/access.log
+```
+
+###### to find multiple words in a file
+
+```sh
+awk '/tom|jerry|vivek/' /etc/passwd
+```
+
+###### to do arithmetic
+
+```sh
+awk '{total += $1} END {print total}' earnings.txt
 ```
 
 ##### for and list
