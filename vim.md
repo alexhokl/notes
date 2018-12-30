@@ -140,5 +140,6 @@ command `:CtrlPClearCache`.
 - [Javascript](https://github.com/honza/vim-snippets/blob/master/snippets/javascript-es6-react.snippets)
 - [HTML](https://github.com/honza/vim-snippets/blob/master/snippets/html.snippets)
 - [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
+- [markdown](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets)
 
 
