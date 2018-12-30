@@ -1,4 +1,21 @@
+### Topics
+
+- [Basics](#basics)
+- [Navigation](#navigation)
+- [Editing](#editing)
+- [Multicursors](#multicursors)
+- [Buffers](#buffers)
+- [Macro](#macro)
+- [Errors](#errors)
+- [ctrlp](#ctrlp)
+- [Git](#git)
+- [C#](#c%23)
+- [Go](#go)
+- [Snippets](#snippets)
+
 The following notes is based on [this configuration](https://github.com/alexhokl/.vim/blob/master/vimrc).
+
+##### Basics
 
 - `esc` to normal mode
 - `:wq` to save and exit
