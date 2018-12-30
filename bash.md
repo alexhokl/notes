@@ -1,4 +1,29 @@
-see [GOTO 2013 • Power Use of UNIX • Dan North](https://www.youtube.com/watch?v=7uwW20odwEk)
+### Topics
+
+- [Shell](#shell)
+- [Non-commands](#non-commands)
+- [Commands](#commands)
+    + [ls](#ls)
+    + [wc](#wc)
+    + [find](#find)
+    + [grep](#grep)
+    + [sed and replacements](#sed-and-replacements)
+    + [uniq](#uniq)
+    + [for and list](#for-and-list)
+    + [head & tail](#head--tail)
+    + [curl](#curl)
+    + [openssl](#openssl)
+    + [APT](#apt)
+    + [GPG](#gpg)
+    + [cut](#cut)
+    + [SSH](#ssh)
+    + [Versions](#versions)
+    + [VPN](#vpn)
+    + [ip](#ip)
+    + [diff](#diff)
+    + [Tar](#tar)
+    + [Encrypted drive](#encrypted-drive)
+    + [Recipes](#recipes)
 
 ### Shell
 
@@ -20,7 +45,7 @@ see [GOTO 2013 • Power Use of UNIX • Dan North](https://www.youtube.com/watc
 | `reset` | to reset the current shell |
 | `fc` | to edit the last command in the default editor |
 
-### Commands
+### Non-commands
 
 ###### to show the current process ID
 
@@ -40,6 +65,10 @@ echo $$
 sudo !!
 ```
 
+### Commands
+
+##### ls
+
 ###### to list directories with tailing slash
 
 ```sh
@@ -51,6 +80,16 @@ ls -F
 ```sh
 ls -tl
 ```
+
+##### wc
+
+###### count the number of lines in a file
+
+```sh
+wc -l ./package.json
+```
+
+##### find
 
 ###### to find files and directories with name
 
@@ -76,11 +115,7 @@ find . -name .git -type l
 find . -name '*.sass'
 ```
 
-###### count the number of lines in a file
-
-```sh
-wc -l ./package.json
-```
+##### grep
 
 ###### To find files with a wording and a particular extension
 
@@ -106,6 +141,8 @@ grep search-term -I *
 grep -rl $'\xEF\xBB\xBF' .
 ```
 
+##### sed and replacements
+
 ###### remove BOM characters in files
 
 ```sh
@@ -127,17 +164,25 @@ sed -i -e 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
 ${f/\.txt/\.pdf}
 ```
 
-###### find unique file prefixes (if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...)
+##### uniq
+
+###### find unique file prefixes
+
+if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...
 
 ```sh
 ls | cut -d. -f1 | uniq
 ```
 
-###### create directories with unique file prefixes (if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...)
+###### create directories with unique file prefixes
+
+if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...
 
 ```sh
 mkdir $(ls | cut -d. -f1 | uniq)
 ```
+
+##### for and list
 
 ###### move prefixed files into its prefixed directories
 
@@ -148,7 +193,7 @@ for f in *(.); do d=${f%%.*}; mv $f $d/.; done
 ###### To loop through some of the files in current folder (where it is harder to use `find`)
 
 ```sh
- for f in ./production.*; do echo $f; done
+for f in ./production.*; do echo $f; done
 ```
 
 ###### To loop through a bash array
@@ -183,118 +228,7 @@ mkdir -p folder/{sub1,sub2}/temp
 mkdir -p folder/{1..100}/temp
 ```
 
-###### To make indirect reference to another variable
-
-```sh
-sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
-```
-
-###### to check disk usage in the current directory
-
-```sh
-du -sh
-```
-
-###### to check disk usage of directories of the current path
-
-```sh
-du --max-depth=1 -h
-```
-
-###### To check available memory
-
-```sh
-free -h
-```
-
-###### current running processes memory usage
-
-```sh
-top
-```
-
-###### To list IP addresses
-
-```sh
-ip addr show
-```
-
-###### To get IP from a host name
-
-```sh
-getent hosts alexhokl.com
-```
-
-###### To add an IP address to an interface
-
-```sh
-sudo ip addr add 192.168.123.123 dev eth1
-```
-
-Note that this does not override DHCP server and the IP might be lost once
-after the interface is turned off.
-
-###### To remove an IP address from an interface
-
-```sh
-sudo ip addr del 192.168.123.123/24 dev eth1
-```
-
-###### To enable a network interface
-
-```sh
-sudo ip link set eth1 up
-```
-
-###### To disable a network interface
-
-```sh
-sudo ip link set eth1 down
-```
-
-###### To check route table
-
-```sh
-ip route show
-```
-
-###### To add a temporary static route
-
-```sh
-sudo ip route add 10.10.20.0/24 via 192.168.123.123 dev eth1
-```
-
-###### To remove a static route temporarily
-
-```sh
-sudo ip route del 10.10.20.0/24
-```
-
-###### To list most of the current network ports (or sockets)
-
-```sh
-sudo netstat -tupln
-```
-
-###### to modify PATH
-
-```sh
-echo ${PATH} > t1
-vi t1
-export PATH=$(cat t1)
-```
-
-###### to copy output to clipboard
-
-```sh
-git status | pbcopy
-```
-
-###### to find text in clipboard
-
-```sh
-pbpaste | grep git
-```
+##### head & tail
 
 ###### To show the first few lines of an output
 
@@ -308,6 +242,8 @@ cat file.txt | head -n 10
 cat file.txt | tail -n 10
 ```
 
+##### curl
+
 ###### To download a file from web and rename it
 
 ```sh
@@ -320,64 +256,7 @@ curl https://xyz.com/instructions.pdf -o guide.pdf
 curl -L https://xyz.com/install -o installer.deb
 ```
 
-###### To kill a process running on a particular port
-
-```sh
-kill $(lsof -ti tcp:3000)
-```
-
-###### To keep all processes running after exiting the current terminal
-
-```sh
-disown -a && exit
-```
-
-###### To umount an USB drive and dump ISO image to it (on Mac)
-
-```sh
-diskutil list
-diskutil unmountDisk /dev/disk2
-sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
-diskutil eject /dev/disk2
-```
-
-###### To mount a USB drive on linux
-
-```sh
-lsblk
-sudo mount /dev/sdc1 /home/current-user/usb
-```
-
-###### To umount a USB drive on linux
-
-```sh
-sudo umount /home/current-user/usb
-```
-
-###### To mount a NTFS Windows drive on linux
-
-```sh
-lsblk
-sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
-```
-
-###### To change partitions of a disk
-
-```sh
-sudo fdisk /dev/sdX
-```
-
-###### To format a partition in Linux ext4 format
-
-```sh
-sudo mkfs.ext4 /dev/sdXx
-```
-
-###### To uninstall homebrew
-
-```sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
-```
+##### openssl 
 
 ###### To generate cert/keys for TLS access
 
@@ -397,11 +276,7 @@ rm cert.pem key.pem
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt
 ```
 
-###### To reload Nginx in a container
-
-```sh
-nginx -s reload
-```
+##### APT
 
 ###### To update installed APT packages
 
@@ -415,6 +290,8 @@ sudo apt-get -u upgrade
 ```sh
 apt list --installed 
 ```
+
+##### GPG
 
 ###### To list all GPG keys
 
@@ -458,86 +335,6 @@ gpg --gen-key
 
 and select "RSA and RSA", select 4096 as keysize, select "key does not expire",
     and enter email address for this key
-
-###### To upgrade Debian from `jessie` to `stretch`
-
-```sh
-sudo apt update
-sudo apt upgrade
-sudo apt-get autoremove
-sudo cp /etc/apt/source.list /etc/apt/source.list-jessie
-(replace jessie with stretch in /etc/apt/source.list)
-sudo apt update
-sudo apt upgrade
-sudo dist-upgrade
-sudo apt-get autoremove
-reboot
-```
-
-###### To mount an encrypted drive
-
-```sh
-lsblk
-sudo cryptsetup luksOpen /dev/sda3 old_hdd
-sudo vgdisplay --short
-sudo lvs -o lv_name,lv_size -S vg_name=debian-iMac-vg
-sudo lvchange -ay debian-iMac-vg/root
-mkdir old-hdd
-sudo mount /dev/debian-iMac-vg/root ~/old-hdd
-```
-
-###### To unmount an encrypted drive
-
-```sh
-sudo umount /dev/debian-iMac-vg/root
-sudo lvchange -an debian-iMac-vg/root
-sudo cryptsetup luksClose encrypted_device
-```
-
-###### To change CRLF (Windows) line-endings to LF (Unix)
-
-On Mac,
-
-```sh
-find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;
-```
-
-Or on linux,
-
-```sh
-find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
-```
-
-###### To convert a PNG file to an ICO file
-
-```sh
-convert -background transparent image.png -define icon:auto-resize=16,32,48,64,256 favicon.ico
-```
-
-###### To convert a AVI file to MPEG-4 file
-
-```sh
-ffmpeg -i video.avi -b 100k video.mp4
-```
-
-###### To convert an image to webp format
-
-```sh
-cwebp -q 80 source.image.png -o destination.webp
-```
-
-###### To set timezone
-
-```sh
-sudo unlink /etc/localtime
-sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
-```
-
-###### To find the differences between two directories
-
-```sh
-diff --brief -r dir1/ dir2/
-```
 
 ##### cut
 
@@ -626,13 +423,7 @@ cat /etc/*release
 uname -a
 ```
 
-###### To check kernel debug messages
-
-```sh
-sudo dmesg -H
-```
-
-### VPN
+##### VPN
 
 ###### Start VPN (IPsec)
 
@@ -652,11 +443,269 @@ echo "d office" | sudo tee /var/run/xl2tpd/l2tp-control
 sudo ipsec down office
 ```
 
+##### ip
 
-#### PPTP
+###### To list IP addresses
 
-### Tar
+```sh
+ip addr show
+```
+
+###### To get IP from a host name
+
+```sh
+getent hosts alexhokl.com
+```
+
+###### To add an IP address to an interface
+
+```sh
+sudo ip addr add 192.168.123.123 dev eth1
+```
+
+Note that this does not override DHCP server and the IP might be lost once
+after the interface is turned off.
+
+###### To remove an IP address from an interface
+
+```sh
+sudo ip addr del 192.168.123.123/24 dev eth1
+```
+
+###### To enable a network interface
+
+```sh
+sudo ip link set eth1 up
+```
+
+###### To disable a network interface
+
+```sh
+sudo ip link set eth1 down
+```
+
+###### To check route table
+
+```sh
+ip route show
+```
+
+###### To add a temporary static route
+
+```sh
+sudo ip route add 10.10.20.0/24 via 192.168.123.123 dev eth1
+```
+
+###### To remove a static route temporarily
+
+```sh
+sudo ip route del 10.10.20.0/24
+```
+
+##### diff
+
+###### To find the differences between two directories
+
+```sh
+diff --brief -r dir1/ dir2/
+```
+
+##### Tar
 
 ###### To extract to a directory
 
 tar xf compressed.xz -C some-directory/
+
+##### Encrypted drive
+
+###### To mount an encrypted drive
+
+```sh
+lsblk
+sudo cryptsetup luksOpen /dev/sda3 old_hdd
+sudo vgdisplay --short
+sudo lvs -o lv_name,lv_size -S vg_name=debian-iMac-vg
+sudo lvchange -ay debian-iMac-vg/root
+mkdir old-hdd
+sudo mount /dev/debian-iMac-vg/root ~/old-hdd
+```
+
+###### To unmount an encrypted drive
+
+```sh
+sudo umount /dev/debian-iMac-vg/root
+sudo lvchange -an debian-iMac-vg/root
+sudo cryptsetup luksClose encrypted_device
+```
+
+##### Recipes 
+
+###### To upgrade Debian from `jessie` to `stretch`
+
+```sh
+sudo apt update
+sudo apt upgrade
+sudo apt-get autoremove
+sudo cp /etc/apt/source.list /etc/apt/source.list-jessie
+(replace jessie with stretch in /etc/apt/source.list)
+sudo apt update
+sudo apt upgrade
+sudo dist-upgrade
+sudo apt-get autoremove
+reboot
+```
+
+###### To change CRLF (Windows) line-endings to LF (Unix)
+
+On Mac,
+
+```sh
+find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;
+```
+
+Or on linux,
+
+```sh
+find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
+```
+
+###### To convert a PNG file to an ICO file
+
+```sh
+convert -background transparent image.png -define icon:auto-resize=16,32,48,64,256 favicon.ico
+```
+
+###### To convert a AVI file to MPEG-4 file
+
+```sh
+ffmpeg -i video.avi -b 100k video.mp4
+```
+
+###### To convert an image to webp format
+
+```sh
+cwebp -q 80 source.image.png -o destination.webp
+```
+
+###### To set timezone
+
+```sh
+sudo unlink /etc/localtime
+sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
+```
+
+###### To check kernel debug messages
+
+```sh
+sudo dmesg -H
+```
+
+###### To reload Nginx in a container
+
+```sh
+nginx -s reload
+```
+
+###### To uninstall homebrew
+
+```sh
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+```
+
+###### To kill a process running on a particular port
+
+```sh
+kill $(lsof -ti tcp:3000)
+```
+
+###### To keep all processes running after exiting the current terminal
+
+```sh
+disown -a && exit
+```
+
+###### To umount an USB drive and dump ISO image to it (on Mac)
+
+```sh
+diskutil list
+diskutil unmountDisk /dev/disk2
+sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
+diskutil eject /dev/disk2
+```
+
+###### To mount a USB drive on linux
+
+```sh
+lsblk
+sudo mount /dev/sdc1 /home/current-user/usb
+```
+
+###### To umount a USB drive on linux
+
+```sh
+sudo umount /home/current-user/usb
+```
+
+###### To mount a NTFS Windows drive on linux
+
+```sh
+lsblk
+sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
+```
+
+###### To change partitions of a disk
+
+```sh
+sudo fdisk /dev/sdX
+```
+
+###### To format a partition in ext4 format
+
+```sh
+sudo mkfs.ext4 /dev/sdXx
+```
+
+###### To make indirect reference to another variable
+
+```sh
+sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
+```
+
+###### to check disk usage in the current directory
+
+```sh
+du -sh
+```
+
+###### to check disk usage of directories of the current path
+
+```sh
+du --max-depth=1 -h
+```
+
+###### To check available memory
+
+```sh
+free -h
+```
+
+###### current running processes memory usage
+
+```sh
+top
+```
+
+###### To list most of the current network ports (or sockets)
+
+```sh
+sudo netstat -tupln
+```
+
+###### to modify PATH
+
+```sh
+echo ${PATH} > t1
+vi t1
+export PATH=$(cat t1)
+```
+
