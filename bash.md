@@ -47,6 +47,7 @@
 | ctrl+_ | to redo |
 | `reset` | to reset the current shell |
 | `fc` | to edit the last command in the default editor |
+| ctrl+r | to search commands in history
 
 ### Non-commands
 
