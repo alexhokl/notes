@@ -56,16 +56,26 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `I` to insert to the beginning of the current line
 - `d` to delete
 - `c2w` to change 2 words
-- `ysw'` to surround a word with single quote
+- `ysw'` to surround the current word with single quote
+- `yssB` to surround the current line with curly brackets
+- `yss"` to surround the current line with `"`
+- `ySSB` to surround the current line with curly brackets but in different
+    lines
+- `ds"` to delete the surrounding `"`
+- `dst` to delete the surrounding tag (XML or HMTL tags)
+- `cs"'` to change the surround `"` to `'`
 - `o` to open a new line in the next line and insert
 - `O` to open a new line in the previous line and insert
+- `[<space>` to insert a line above
+- `]<space>` to insert a line below
+- `[e` to move the current line up
+- `]e` to move the current line down
 - `:g/ASearchWord/d` to delete all lines containing `ASearchWord` (regex can be
 used here)
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord` (regex can
 be used here
-- `gcc` to toggle comment of the current line
+- `,/` or `gcc` to toggle comment
 - visual selection + `gc` to toggle comment of multiple lines
-- `,/` toggle comment
 - `u` to undo
 - `ctrl-r` to redo
 
@@ -159,4 +169,9 @@ command `:CtrlPClearCache`.
 - [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
 - [markdown](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets)
 
+##### Help pages
 
+- `:h vimtutor` - vim tutor
+- `:h unimpaired` - vim-unimpaired
+- `:h surround` - vim-surround
+- `:h fugitive` - vim-fugitive
