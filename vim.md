@@ -47,6 +47,9 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `ctrl-n` to toggle NERDtree
 - `m1` to mark the current cursor position to register `1`
 - `'1` to jump to location stored in register `1`
+- `[s` to jump to the previous spelling error
+- `]s` to jump to the next spelling error
+- `z=` on a spelling error to show a list of spelling suggestions
 
 ##### Editing
 
@@ -78,6 +81,7 @@ be used here
 - visual selection + `gc` to toggle comment of multiple lines
 - `u` to undo
 - `ctrl-r` to redo
+- `yy` to copy the current line
 
 ##### Multicursors
 
