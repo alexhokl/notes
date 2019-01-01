@@ -627,6 +627,34 @@ sudo lvchange -an debian-iMac-vg/root
 sudo cryptsetup luksClose encrypted_device
 ```
 
+##### tr
+
+- `echo "Production" | tr '[:upper:] [:lower:]'` to transform `Production` to
+    lowercase
+
+##### Scripting
+
+###### if
+
+- `[ <condition> ]` is an old test where it works on all *-nix environment
+- `[[ <condition> ]]` is a new test where it works only on modern Linux
+    environment
+- `==` EQUAL operator (in new test only)
+- `&&` AND operator
+- `||` OR operator
+- `[ $# -lt 2 ]` checks if number of arguments is less than 2
+- `[ "$str1" = "$str2" ]` checks if `str1` equals `str2`
+- `[ "$str1" != "$str2" ]` checks if `str1` not equals `str2`
+- `[ -n "$str" ]` checks if `str` is not empty
+- `[ -z "$str" ]` checks if `str` is empty
+- `[ $int1 -eq $int2 ]` checks if `int1` equals `int2`
+- `elif` else-if
+
+###### function
+
+- `$2` refers to second argument of a function
+- `for arg in "$@"; do echo "$arg"; done` echo out all arguments
+
 ##### Recipes 
 
 ###### To upgrade Debian from `jessie` to `stretch`
