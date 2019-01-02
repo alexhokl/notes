@@ -21,6 +21,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:wq` to save and exit
 - `ctrl-p` to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
 - `V` to select a line visually
+- `:map` to show all the mappings
+- `:map r` to show mappings started with `r`
 
 ##### Navigation
 
@@ -36,12 +38,17 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `ctrl-y` to scroll up
 - `ctrl-f` to scroll down one page
 - `ctrl-b` to scroll up one page
+- `zt` to scroll the current line to the top of window
 - double backticks to move cursor to previous position
 - `gi` to move cursor to previous insert position
 - `g;` to move the previous position in the change list
 - `g,` to move the next position in the change list
 - `/` to search forward
 - `?` to search backward
+- `*` to search the current word forward
+- `#` to search the current word backward
+- `w` to jump to the next word
+- `b` to jump back to the last word
 - `,<space>` to remove highlights from search
 - `<space>` put current cursor in center of the screen
 - `ctrl-n` to toggle NERDtree
@@ -152,6 +159,8 @@ command `:CtrlPClearCache`.
 - `,fx` to fix `using` statements
 - `,cf` to format code
 - `,ca` to invoke code actions
+- `]m` to jump to the next method/property
+- `[m` to jump to the previous method/property
 
 ##### Go
 
