@@ -7,13 +7,13 @@
 
 # Shortcut keys
 
-##### To take a full screenshot
-
-`Shift` + multiscreen key
-
-##### To take a partial screenshot
-
-`Shift` + `Ctrl` + multiscreen key
+| keys | function |
+| --- | --- |
+| `ctrl+alt+shift+?` | to show all shortcut keys |
+| `shift` + multiscreen key | to take a full screenshot |
+| `ctrl+shift` + multiscreen key | to take a partial screenshot |
+| `search+l` | lock screen |
+| `alt+=` | maximise window |
 
 # Networking
 
@@ -60,13 +60,7 @@ and background colour in `#002b36`
 
 ## crostini
 
-- [crostini 101](https://www.reddit.com/r/Crostini/comments/89q1cu/crostini_101/)
 - [Running Custom Containers Under Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md)
-- To have Linux OS on, change to use Dev Channel. To do this, head to "About
-    Chrome OS" page and select "Detailed build information", then click on
-    "Change Channel" and select Dev Channel.
-  - Note that switching on flag `Experimental Crostini` in `chrome://flags` may
-      be required
 - `penguin.linux.test` is the DNS name of the container
 
 ### Timezone
@@ -105,11 +99,15 @@ Reference: [Reddit: 70.0.3524.2 rolling out to Dev](https://www.reddit.com/r/Cro
 
 - the virtual machine is `crosvm` which implements `kvm` and it is in Rust
 - VM managers `concierge` and `cicerone`
-- `concierge` kickstarts a VM and setup its network and peripherals. It is running in privileged mode
-- `cicerone` takes over the communication to VM and it is very stripped down version of `concierge` and it is not running in privileged mode. A started VM is not considered as trusted anymore by ChromeOS
+- `concierge` kickstarts a VM and setup its network and peripherals. It is
+    running in privileged mode
+- `cicerone` takes over the communication to VM and it is very stripped down
+    version of `concierge` and it is not running in privileged mode. A started
+    VM is not considered as trusted anymore by Chrome OS
 - `termina` is the VM root image and it is used to boot a container via `lxd`
 - `maitred` is the PID 1 process which behaves like `systemd`
-- `lxd` is a container type and has advantages over docker in terms of a bigger container
+- `lxd` is a container type and has advantages over docker in terms of a bigger
+    container
 - gtk and QT drivers are modified to fit `virtio-wayland` on ChromeOS
 - `sommelier` is a Wayland composer running inside guest container
   - each container would have its own instance of `sommelier` and, thus, the
