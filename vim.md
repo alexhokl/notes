@@ -57,6 +57,12 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `[s` to jump to the previous spelling error
 - `]s` to jump to the next spelling error
 - `z=` on a spelling error to show a list of spelling suggestions
+- `6+` to jump 6 lines below and to the head of the line
+- `4-` to jump 4 lines above and to the head of the line
+- `5$` to jump 5 lines below and to the end of the line
+- `%` to jump to parentheses of the current line
+- `ctrl-O` to jump back the to the previous position
+- `ctrl-I` to jump forward to the next position (after a jump back)
 
 ##### Editing
 
@@ -89,6 +95,12 @@ be used here
 - `u` to undo
 - `ctrl-r` to redo
 - `yy` to copy the current line
+- `~` to toggle between upper case and lower case of the current character
+- `gUaw` to change the current word to upper case
+- `guaw` to change the current word to lower case
+- `>` to add indentation to the current line
+- `<` to remove indentation to the current line
+- `=` to fix indentation of the current line
 
 ##### Multicursors
 
@@ -100,7 +112,8 @@ be used here
 
 ##### Buffers
 
-- `ctrl-x` or `ctrl-z` to switch between file tabs (buffers)
+- `ctrl-x` or `ctrl-z` to switch between file buffers in a direction
+- `ctrl-^` to switch to a different buffer
 - `ctrl-w` to change buffer
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
