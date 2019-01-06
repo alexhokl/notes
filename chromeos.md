@@ -13,7 +13,7 @@
 | `shift` + multiscreen key | to take a full screenshot |
 | `ctrl+shift` + multiscreen key | to take a partial screenshot |
 | `search+l` | lock screen |
-| `alt+=` | maximise window |
+| `alt+=` | toggle between maximised window and normal size window |
 
 # Networking
 
