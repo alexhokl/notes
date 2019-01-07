@@ -603,7 +603,9 @@ diff --brief -r dir1/ dir2/
 
 ###### To extract to a directory
 
+```sh
 tar xf compressed.xz -C some-directory/
+```
 
 ##### Encrypted drive
 
