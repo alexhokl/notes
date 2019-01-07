@@ -1,3 +1,15 @@
+- [Links](#links)
+- [Shortcut keys](#shortcut-keys)
+- [Networking](#networking)
+- [Linux-related topics](#linux-related-topics)
+  * [crosh Colour scheme](#crosh-colour-scheme)
+  * [crouton](#crouton)
+  * [crostini](#crostini)
+    + [Timezone](#timezone)
+    + [Docker](#docker)
+    + [Components](#components)
+- [Chrome Browser](#chrome-browser)
+
 # Links
 
 - [Auto Update Policy](https://support.google.com/chrome/a/answer/6220366?hl=en)
@@ -76,10 +88,15 @@ Unfortunately, the trick of `lxc profile set default environment.TZ Asia/Hong_Ko
 
 ### Docker
 
-Before a `crosvm` is started, in `crosh` shell,
+Before a `crosvm` is started, in `crosh` shell, start `termina`
 
 ```sh
 vmc start termina
+```
+
+In `termina`,
+
+```sh
 lxc profile unset default security.syscalls.blacklist
 lxc profile apply penguin default
 exit
