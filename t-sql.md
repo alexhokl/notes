@@ -34,6 +34,24 @@ FOR ATTACH;
 
 If the attached database is running as read-only mode due to the file permissions, fix the file permissions and run `ALTER DATABASE [DatabaseName] SET READ_WRITE` to make it running in non-read-only mode again.
 
+##### Export a database
+
+```sh
+sqlpackage.exe /a:Export /ssn:database.example.com /sdn:MyDatabase /su:sa /sp:AStrongPassword /tf:MyDatabase.bacpac
+```
+
+Note: [Installing sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage-download?view=sql-server-2017)
+
+##### Import a database
+
+```sh
+sqlpackage.exe /a:Import /tsn:database.example.com /tdn:MyDatabase /tu:sa /tp:AStrongPassword /sf:MyDatabase.bacpac
+```
+
+Note that if the target database already exists and contains objects such as
+tables or views, then the import will fail. The database must either not exist,
+or be completely empty.
+
 ##### Shrink database logs
 
 To find the logical name of log file
