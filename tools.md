@@ -8,6 +8,7 @@
     ([intro](https://smallstep.com/blog/zero-trust-swiss-army-knife.html))
 - [peek](https://github.com/phw/peek) - an animated GIF recorder
 - [google/git-appraise](https://github.com/google/git-appraise) - a command line tool for performing code reviews on git repositories
+- [HTTP Prompt](http://http-prompt.com/)
 
 ## Online Tools
 
