@@ -5,7 +5,7 @@ ____
 
 ##### Intent
 
-- Seaparate the constrcution of a complex object from its representation so that the same construction process can create different representations.
+- Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
 ##### Example
 
@@ -18,9 +18,9 @@ ____
 
 ##### Characteristics
 
-- the concrete builder maintains a represetation of the product.
+- the concrete builder maintains a representation of the product.
 - in the end, the client will have to retrieve the final product from builder directly.
-- there is usally no common interface for the final product as it could be very different for each builder.
+- there is usually no common interface for the final product as it could be very different for each builder.
 - it allows step-by-step construction of a product.
 
 ```cs
