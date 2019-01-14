@@ -103,6 +103,15 @@ See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-n
     and it is not a concern in token-based authentication even the token could
     be saved in local storage
 
+##### Paths
+
+- `IHostingEnvironment.ContentRootPath` points to the directory of the web
+    deployment
+  - `${IHostingEnvironment.ContentRootPath}/bin` points to the directory of
+      containing DLLs
+- `IHostingEnvironment.WebRootPath` generally points to `wwwroot` directory and
+    may not available in every application
+
 ### Entity Framework (EF)
 
 ##### Useful Libraries
