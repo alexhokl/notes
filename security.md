@@ -2,11 +2,13 @@
 
 ### Links
 
+- [RFC-6749 - OAuth 2.0 spec](https://tools.ietf.org/html/rfc6749)
 - [How To Control User Identity Within Microservices](http://nordicapis.com/how-to-control-user-identity-within-microservices/)
 - [A Guide To OAuth 2.0 Grants](https://alexbilbie.com/guide-to-oauth-2-grants/)
 - [Libraries](https://oauth.net/code/)
 - [GOTO 2018 • Introduction to OAuth 2.0 and OpenID Connect • Philippe De
     Ryck](https://www.youtube.com/watch?v=GyCL8AJUhww)
+- [Why the Resource Owner Password Credentials Grant Type is not Authentication nor Suitable for Modern Applications](https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications)
 
 # JWT
 
