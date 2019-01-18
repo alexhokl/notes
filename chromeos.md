@@ -86,7 +86,7 @@ sudo dpkg-reconfigure tzdata
 Unfortunately, the trick of `lxc profile set default environment.TZ Asia/Hong_Kong`
     does not work yet.
 
-### Docker
+### Docker (deprecated, not needed on Chrome OS 73 and after)
 
 Before a `crosvm` is started, in `crosh` shell, start `termina`
 
