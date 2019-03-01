@@ -41,7 +41,7 @@
 - Make sure candidates explain things in layman terms.
 - Look for candidates who have passion on their work
 - Ask if the decision made by the interviewer were seemingly wrong, what would he/she do?
-- 3 very easy programming questions to filter out stupid candidates. (note their timing as that is a good indicator for solving header questions)
+- 3 very easy programming questions to filter out stupid candidates. (note their timing as that is a good indicator for solving harder questions)
   - examples
     - Write a function that determines if a string starts with an upper-case letter A-Z
     - Write a function that determines the area of a circle given the radius
