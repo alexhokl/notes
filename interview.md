@@ -70,6 +70,14 @@
 - Do you do hallway usability (UX) testing?
 - Do you do code review?
 
+#### Interview questions
+
+- Ask the candidate about his/her hobbies and follow up with a question on
+    asking them to design and implement a thing related to the hobby
+  - look for safety and security concerns
+  - look for quality control
+- Ask the candidate about a simple binary search
+
 #### House-Tree-Person (HTP) test
 
 - [basic interpretations](https://alexhokl.com/htp)
