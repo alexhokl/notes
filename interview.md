@@ -2,6 +2,7 @@
 
 - [The Guerrilla Guide to Interviewing (version 3.0)](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/)
 - [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+- [The Phone Screen](https://www.joelonsoftware.com/2006/10/24/the-phone-screen-2/)
 
 ### Interview
 
