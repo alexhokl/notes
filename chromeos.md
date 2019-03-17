@@ -65,6 +65,20 @@ See "PPTP VPN support" in [Set up virtual private networks (VPNs)](https://suppo
 
 and background colour in `#002b36`
 
+## crosh
+
+#### Current battery status
+
+```sh
+battery_test 0
+```
+
+#### Batter info
+
+```sh
+battery_firmware info
+```
+
 ## crouton
 
 - shared directories are defined in `/etc/crouton/shares`
