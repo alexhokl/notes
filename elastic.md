@@ -1182,3 +1182,25 @@ See also [Integrating Elasticsearch with MS SQL, Logstash, and Kibana](https://s
 - It is better to deploy an Elastic stack in each data centre or cluster
 - one licence per node
 - Elastic cloud Enterprise is for deployment on clusters
+
+# Temp notes on Engineer2
+
+- The higher number of shards, the more the memory consumed. Thus, the number
+    of primary shards has to be controlled.
+- buffer size is 10% of the node heap
+  - buffer sits between input and segment
+  - the maximum refresh rate of the buffer is every second or when it is full
+  - Lucene flush is committing data to memory
+  - Elasticsearch flush commits data to disk and it happens after Lucene flush
+  - the number of segments created corresponds to number of disk I/Os
+    - thus, we would want to lower the refresh rate to create less segment
+    - we can the setting specifically for running some data intensive import
+        jobs and revert it after
+- the smaller the number of segments, the faster the search
+  - thus, segment merge is required
+  - each segment is represented as a file
+- transaction logs copy whatever in buffer to prevent data loss in case of
+    suddent power outages, etc.
+- Elasticsearch flush usually happens automatically after segment merge
+
+- 
