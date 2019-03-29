@@ -101,6 +101,7 @@ be used here
 - `>` to add indentation to the current line
 - `<` to remove indentation to the current line
 - `=` to fix indentation of the current line
+- ':retab' to replace all tabs with spaces
 
 ##### Multicursors
 
