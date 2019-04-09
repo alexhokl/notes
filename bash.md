@@ -162,6 +162,12 @@ done
 sed -i -e 's/IncorrectSpelling/CorrectSpelling/g' ./package.json
 ```
 
+###### add multiple lines from a file after a specific pattern
+
+```sh
+sed -i -e "/some-pattern/r file.txt" working.txt
+```
+
 ###### replace words in a bash variable
 
 ```sh
