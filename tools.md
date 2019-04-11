@@ -23,6 +23,8 @@
 - [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
     without code
 - [domain check from zeit](https://zeit.co/domains)
+- [Git History](https://github.com/pomber/git-history) - browse to a file on
+    GitHub and replace `https://github.com` with `https://github.githistory.xyz`
 
 ### APIs
 
