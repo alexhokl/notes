@@ -16,6 +16,7 @@
 - [Chrome Releases](https://chromereleases.googleblog.com/)
 - [Pixelbook keyboard shortcuts](https://support.google.com/pixelbook/answer/7503852?hl=en)
 - [ChromeOS Containers do not respect "ARC VPN integration"](https://bugs.chromium.org/p/chromium/issues/detail?id=834585)
+- [Blog on ChromeOS by Keith I Myers](https://kmyers.me/knowledge/chromeos/)
 
 # Shortcut keys
 
