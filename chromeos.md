@@ -88,6 +88,7 @@ battery_firmware info
 ## crostini
 
 - [Running Custom Containers Under Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md)
+- [Crostini: A Linux Desktop on ChromeOS](https://www.youtube.com/watch?v=_k6zdvM9rUA)
 - `penguin.linux.test` is the DNS name of the container
 
 ### Timezone
