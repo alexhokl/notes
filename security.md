@@ -10,6 +10,11 @@
     Ryck](https://www.youtube.com/watch?v=GyCL8AJUhww)
 - [Why the Resource Owner Password Credentials Grant Type is not Authentication nor Suitable for Modern Applications](https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications)
 
+# OpenID
+
+- the ID tokens issued are supposed to be used by client and should not be
+  consumed by APIs
+
 # JWT
 
 ##### Abstract
