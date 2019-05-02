@@ -139,6 +139,10 @@ grep search-term --exclude-dir=.. -r .*
 grep search-term -I *
 ```
 
+###### To get all lines except lines with the specified word
+
+grep -v search-term text.txt
+
 ###### find BOM characters in files
 
 ```sh
