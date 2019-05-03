@@ -53,10 +53,15 @@ git merge upstream/master
 To rebase a feature branch before merging into master (it involves re-writing the commits in the feature branch)
 
 ```sh
+git fetch
 git checkout feature_branch
-git rebase master
-git checkout master
-git merge feature_branch
+git rebase -i origin/master
+
+(git shows a list of commits involved in an editor and quit the editor if the list looks good)
+
+eit mergetool (upon any conflicts)
+git rebase --continue (upon all conflicts has been resolved)
+(repeat this process until all commits are rebased)
 ```
 
 ##### Rebase for cleaning history of a branch
