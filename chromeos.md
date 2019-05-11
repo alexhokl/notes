@@ -80,6 +80,67 @@ battery_test 0
 battery_firmware info
 ```
 
+#### listing virtual machines
+
+```sh
+vmc list
+```
+
+#### log onto container inside a VM (termina)
+
+```sh
+vmc container termina penguin
+```
+
+
+#### starting a VM (termina) and log onto it (not container)
+
+```sh
+vmc start termina
+```
+
+#### listing containers in VM
+
+```sh
+lxc list
+```
+
+#### create a container snapshot in VM
+
+```sh
+lxc snapshot penguin backup1
+```
+
+#### show information of a container in VM
+
+```sh
+lxc info penguin
+```
+
+#### restore a container snapshot in VM
+
+```sh
+lxc restore penguin backup1
+```
+
+#### create a new container from an existing one in VM
+
+```sh
+lxc copy penguin penguin_new
+```
+
+#### log onto another container in a VM
+
+```sh
+lxc exec penguin_new -- /bin/bash
+```
+
+#### create a new container from image in a VM
+
+```sh
+lxc launch images:archlinux archtest
+```
+
 ## crouton
 
 - shared directories are defined in `/etc/crouton/shares`
