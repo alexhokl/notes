@@ -82,3 +82,9 @@
 #### House-Tree-Person (HTP) test
 
 - [basic interpretations](https://alexhokl.com/htp)
+
+#### Other items
+
+- Travis CI doesn't do whiteboarding as the interviewers has already done their
+  due diligence. Thus, the interview session is more about finding out how the
+  candidate resolving conflicts and could be fitted into the team.
