@@ -175,6 +175,10 @@ command `:CtrlPClearCache`.
 - `,ca` to invoke code actions
 - `]m` to jump to the next method/property
 - `[m` to jump to the previous method/property
+- `:copen` to open a quickfix window
+- `:cc 2` to select the second option in a quickfix window
+- `ccl` to close the quickfix window
+
 
 ##### Go
 
