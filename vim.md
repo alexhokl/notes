@@ -9,7 +9,7 @@
 - [Errors](#errors)
 - [ctrlp](#ctrlp)
 - [Git](#git)
-- [C#](#c%23)
+- [C#](#c)
 - [Go](#go)
 - [Snippets](#snippets)
 
