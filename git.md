@@ -72,6 +72,12 @@ To combine the last 10 commits into one
 git rebase HEAD~10 -i
 ```
 
+##### Checking the current commit during a rebase process
+
+```sh
+git rebase --show-current-patch
+```
+
 ##### Checking a diffs after a rebase
 
 Suppose `feature_branch` was branched out from `origin/master~10`,
