@@ -1,5 +1,16 @@
 ### Kafka
 
+#### Tips
+
+- Number of `zookeeper` instances mus be in odd number usually 5 instances can
+    already serve a large cluster and, thus, 3 instances is likely enough for
+    most scenarios.
+- SSD hard disk may not be required as Kafka mostly doing sequential reads.
+- Schema registry helps the consumers to figure out which schema to use for
+    de-serialization. 
+  - There is a good chance `protobuf` support in schema registry will be available
+      by the end of 2019. (as of mid-2019, it only supports `arvo`)
+
 #### Links
 
 - [Documentation](https://kafka.apache.org/documentation/)
