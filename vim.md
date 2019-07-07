@@ -72,14 +72,6 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `I` to insert to the beginning of the current line
 - `d` to delete
 - `c2w` to change 2 words
-- `ysw'` to surround the current word with single quote
-- `yssB` to surround the current line with curly brackets
-- `yss"` to surround the current line with `"`
-- `ySSB` to surround the current line with curly brackets but in different
-    lines
-- `ds"` to delete the surrounding `"`
-- `dst` to delete the surrounding tag (XML or HMTL tags)
-- `cs"'` to change the surround `"` to `'`
 - `o` to open a new line in the next line and insert
 - `O` to open a new line in the previous line and insert
 - `[<space>` to insert a line above
@@ -90,8 +82,6 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 used here)
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord` (regex can
 be used here
-- `,/` or `gcc` to toggle comment
-- visual selection + `gc` to toggle comment of multiple lines
 - `u` to undo
 - `ctrl-r` to redo
 - `yy` to copy the current line
@@ -102,6 +92,22 @@ be used here
 - `<` to remove indentation to the current line
 - `=` to fix indentation of the current line
 - ':retab' to replace all tabs with spaces
+
+###### Surround
+
+- `ysw'` to surround the current word with single quote
+- `yssB` to surround the current line with curly brackets
+- `yss"` to surround the current line with `"`
+- `ySSB` to surround the current line with curly brackets but in different
+    lines
+- `ds"` to delete the surrounding `"`
+- `dst` to delete the surrounding tag (XML or HMTL tags)
+- `cs"'` to change the surround `"` to `'`
+
+###### Commenting
+
+- `gcc` to toggle comment
+- visual selection + `gc` to toggle comment of multiple lines
 
 ##### Multicursors
 
@@ -124,6 +130,8 @@ be used here
 - `,W` to trim all whitespace without writing to disk
 - `:only` to close all other buffers except the current one
 - `:ls` to list all buffers
+- `:b 2` to change to second buffer
+- `:b doc<tab>` to change to a buffer with file prefixed with `doc`
 
 ##### Macro
 
