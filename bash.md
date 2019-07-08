@@ -372,7 +372,14 @@ rm cert.pem key.pem
 ###### To generate SSL certs for Nginx
 
 ```sh
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt
+```
+
+###### To convert CRT TO PEM
+
+
+```sh
+openssl x509 -in public-key.crt -out public-key.pem -outform PEM
 ```
 
 ##### APT
