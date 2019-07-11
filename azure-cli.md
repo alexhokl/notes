@@ -16,11 +16,38 @@ az account set -s YourSubscriptionId
 
 ### Resource Groups
 
-##### TO list resource groups
+##### To list resource groups
 
 ```sh
 az group list | jq '.[] .name'
 ```
+
+or in a table
+
+```sh
+az group list -o table
+```
+
+### Networking
+
+##### To list network interfaces in a resource group
+
+```sh
+az network nic list -g your-resource-group-name -o table
+```
+
+##### To create a public IP in a resource group
+
+```sh
+az network public-ip create -g your-resource-group-name -n your-name-to-this-ip
+```
+
+##### To attach an IP to a network interface
+
+```sh
+az network nic ip-config update -g your-resource-group-name --nic-name your-network-interface-name --name your-name-of-this-config --public-ip-address your-name-of-the-ip
+```
+
 
 ### AKS
 
