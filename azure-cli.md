@@ -94,3 +94,11 @@ az acr repository show-tags --name YourRegistryName --repository YourRepoName | 
 ```sh
 az acr repository untag -n YourRegistryName --image YourRepoName:YourTagName
 ```
+
+##### To create credentials for registry access
+
+```sh
+az ad sp create-for-rbac --scopes /subscriptions/{your-subscription-id}/resourcegroups/{your-resource-group-name}/providers/Microsoft.ContainerRegistry/registries/{your-registry-name} --role Contributor --name your-name-to-this-credential
+```
+
+
