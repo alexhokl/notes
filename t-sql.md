@@ -14,6 +14,13 @@ Contents
 
 ### Database Operations
 
+##### Create a database backup
+
+```sql
+BACKUP DATABASE [MyDatabaseName] TO DISK='C:\backup\MyDatabaseName.bak' WITH COMPRESSION
+GO
+```
+
 ##### Restore a database from File
 
 ```sql
