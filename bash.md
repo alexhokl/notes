@@ -355,6 +355,13 @@ curl https://xyz.com/instructions.pdf -o guide.pdf
 curl -L https://xyz.com/install -o installer.deb
 ```
 
+###### Basic Authentication
+
+```sh
+curl --user your-username:your-password http://localhost/testing
+```
+
+
 ##### openssl 
 
 ###### To generate cert/keys for TLS access
