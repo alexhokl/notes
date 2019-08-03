@@ -12,3 +12,6 @@ apm list --installed --bare
 ```
 apm update --no-confirm
 ```
+### to open the specified file in the current editor
+
+atom -a your-file.txt

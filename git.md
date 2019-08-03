@@ -1,18 +1,20 @@
-### Setup
+## Setup
 
-##### BASH completion
+### BASH completion
 
 1. Get the completion file from `https://github.com/git/git/blob/master/contrib/completion/git-completion.bash`.
 2. Copy the file to `/etc/bash_completion.d/` on Linux (on Mac, this requires a bit more work).
 3. On Mac, source the file from the path in step 2 in `~/.bash_profile`.
 
-### Concepts
+## Concepts
 
 - Git does not have a notion of "this commit was made on this branch".
 
-### Operations
+## Operations
 
-##### Uploading new repository
+Note that aliases used can be found in [.gitconfig](https://github.com/alexhokl/dotfiles/blob/master/.gitconfig).
+
+### New repository
 
 To upload a local git repository onto GitHub, first create a repository on GitHub.
 
@@ -29,7 +31,7 @@ git remote add origin https://github.com/alexhokl/example.git
 git push -u origin master
 ```
 
-##### Forking
+### Forking
 
 To connect to the original repository of a forked repository,
 check if the original repository is already stated in remotes.
@@ -47,6 +49,8 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 ```
+
+### Rebase
 
 ##### Rebase for merge
 
@@ -86,7 +90,27 @@ Suppose `feature_branch` was branched out from `origin/master~10`,
 git range-diff origin/master~10 origin/feature_branch origin/master feature_branch
 ```
 
-##### Rollback
+### Commit
+
+##### Amending the HEAD commit with current staged changes
+
+```sh
+git commit --amend
+```
+
+or without changing the commit message of the HEAD commit
+
+```sh
+git commit --amend --no-edit
+```
+
+##### Completing a merge with default commit message
+
+```sh
+git commit --no-edit
+```
+
+### Rollback
 
 To rollback a particular file (abc.txt, for example) from the last commit (before it is pushed onto GitHub)
 
@@ -313,6 +337,14 @@ git config user.name alex.some.other.org
 
 ### Queries
 
+##### Last commits from the current HEAD
+
+To show the last 10 commits
+
+```sh
+git logs -10
+```
+
 ##### History of a line(s)
 
 ```sh
@@ -325,16 +357,47 @@ git log -L 1001,+10:SomeFolder/SomeFile.go
 
 ##### Comparing branches
 
-To check difference in commits between two branches (or points in commit history)
+Assuming one is on branch `feature`, to show the commits only exist on the
+branch comparing to `master`,
 
 ```sh
 git log --oneline master..feature
 ```
 
-and this is equivalent to
+or 
+
+```sh
+git log --oneline master..
+```
+
+or
 
 ```sh
 git log --oneline feature ^master
+```
+
+To show the commits exist on `master` but not on feature branch,
+
+```sh
+git log --oneline ..master
+```
+
+##### Showing commits excluding merge commits
+
+```sh
+git log --oneline --no-merges
+```
+
+##### Showing the first line of commit message only
+
+```sh
+git log --pretty=format:'%s'
+```
+
+##### Showing the detail of commit message (third line and after) only
+
+```sh
+git log --pretty=format:'%b'
 ```
 
 ##### Commits from a user from certain time
@@ -376,16 +439,6 @@ git check-ignore abc.txt
 ```
 
 ##### Lines count
-
-
-###### On Linux
-
-```sh
-git log --author="_Your_Name_Here_" --pretty=tformat: --numstat \
-| gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
-```
-
-###### On Mac
 
 ```sh
 git log --author="_Your_Name_Here_" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -

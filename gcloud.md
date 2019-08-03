@@ -35,9 +35,7 @@ gcloud components install kubectl
 ###### To create a kubernetes cluster
 
 ```sh
-gcloud container clusters create your-cluster-name \
-  -m f1-micro \
-  --num-nodes=1
+gcloud container clusters create your-cluster-name -m n1-standard-2 --num-nodes=3
 ```
 
 ###### To set credentials on local machine to access kubernetes clusters
@@ -86,6 +84,26 @@ A kubernetes service can be exposed externally by assigning it as type `LoadBala
 ```sh
 docker tag image-name:latest asia.gcr.io/project-name/image-name
 gcloud docker push asia.gcr.io/project-name/image-name
+```
+
+###### To allow pulling docker images from another project
+
+Suppose the image in docker registry of `your-project-a` is used in cluster of
+`your-project-b`,
+
+```sh
+gcloud config set core/project your-project-b
+SVC_EMAIL=$(gcloud iam service-accounts list --filter="Compute Engine default service account" --format=json | jq -r '.[] | .email')
+gcloud projects add-iam-policy-binding your-project-a --member=serviceAccount:${SVC_EMAIL} --role roles/storage.objectViewer
+```
+
+###### To create roles for Helm
+
+```sh
+kubectl --user=admin/your-cluster-name create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gc config get-value account)
+kubectl create serviceaccount --namespace=kube-system tiller
+kubectl create clusterrolebinding tiller-clusterrolebinding --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+helm init --service-account tiller --wait
 ```
 
 #### Compute

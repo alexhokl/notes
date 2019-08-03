@@ -138,10 +138,40 @@ kubectl get deployments
 kubectl config get-contexts
 ```
 
+###### To list all pods and nodes
+
+```sh
+kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
+```
+
+###### To list all major resources
+
+```sh
+kubectl get all -o wide --all-namespaces
+```
+
 ###### To change to access another cluster
 
 ```sh
 kubectl config use-context a-context-name
+```
+
+##### To forward a port from a pod
+
+```sh
+kubectl port-forward your-pod-name 8080:80
+```
+
+or a using a label
+
+```sh
+kubectl port-forward $(kubectl get pod --selector="app=web" --output jsonpath='{.items[0].metadata.name}') 8080:80
+```
+
+##### To install Kubernetes Dashboard
+
+```sh
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta1/aio/deploy/recommended.yaml
 ```
 
 ### Minikube
