@@ -176,15 +176,46 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-b
 
 ### Minikube
 
+##### To start with VirtualBox (default)
+
 ```sh
-# to start
 minikube start
+```
 
-# to stop
+##### To stop
+
+```sh
 minikube stop
+```
 
-# to get IP and port of the running service
-minikube service your-service-name --url
+##### To check the status
+
+```sh
+minikube status
+```
+
+##### To delete the default cluster
+
+```sh
+minikube delete -p minikube
+```
+
+##### To show Kubernetes Dashboard
+
+```sh
+minikube dashboard
+```
+
+##### To enable access to local docker registry
+
+```sh
+eval $(minikube docker-env)
+```
+
+##### to get IP and port of the running service
+
+```sh
+minikube service your-service-name --url --namespace default
 ```
 
 ### Links
