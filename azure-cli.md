@@ -95,10 +95,19 @@ az acr repository show-tags --name YourRegistryName --repository YourRepoName | 
 az acr repository untag -n YourRegistryName --image YourRepoName:YourTagName
 ```
 
-##### To create credentials for registry access
+##### To perform a Docker login
 
 ```sh
-az ad sp create-for-rbac --scopes /subscriptions/{your-subscription-id}/resourcegroups/{your-resource-group-name}/providers/Microsoft.ContainerRegistry/registries/{your-registry-name} --role Contributor --name your-name-to-this-credential
+az acr login --name short-name-of-acr
 ```
 
+##### To create a Docker login (by creating a role)
 
+```sh
+az ad sp create-for-rbac --scopes /subscriptions/{SubID}/resourceGroups/{ResourceGroup1}/providers/Microsoft.ContainerRegistry/registries/{acrName} --role Contributor --name your-credential-name
+```
+
+where
+    `SubID` is the subscription ID,
+    `ResourceGroup1` is the name of resource group,
+    `acrName` is the short name of the ACR
