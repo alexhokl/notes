@@ -76,6 +76,12 @@ To combine the last 10 commits into one
 git rebase HEAD~10 -i
 ```
 
+##### Rebase from the first commit
+
+```sh
+git rebase -i --root
+```
+
 ##### Checking the current commit during a rebase process
 
 ```sh
