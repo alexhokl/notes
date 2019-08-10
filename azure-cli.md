@@ -30,16 +30,22 @@ az group list -o table
 
 ### Networking
 
-##### To list network interfaces in a resource group
+##### To list all public IPs
 
 ```sh
-az network nic list -g your-resource-group-name -o table
+az network public-ip list -o table
 ```
 
 ##### To create a public IP in a resource group
 
 ```sh
 az network public-ip create -g your-resource-group-name -n your-name-to-this-ip
+```
+
+##### To list network interfaces in a resource group
+
+```sh
+az network nic list -g your-resource-group-name -o table
 ```
 
 ##### To attach an IP to a network interface
@@ -51,22 +57,28 @@ az network nic ip-config update -g your-resource-group-name --nic-name your-netw
 
 ### AKS
 
-##### To list all
+##### To list all clusters
 
 ```sh
-az aks list | jq '.[] .name'
+az aks list | jq '.[] | .name'
+```
+
+with its FQDN
+
+```sh
+az aks list | jq '.[] | .fqdn'
 ```
 
 ##### To set `kubectl` credentials
 
 ```sh
-az aks get-credentials --resource-group YourResourceGroupName --name YourAksName
+az aks get-credentials --resource-group YourResourceGroupName --name your-aks-name
 ```
 
-##### To browse Kubernetes console
+##### To browse Kubernetes dashboard
 
 ```sh
-az aks browse --resource-group Staging --name staging-aks-gsc
+az aks browse --resource-group your-resource-group-name --name your-aks-name
 ```
 
 ### ACR
@@ -81,6 +93,18 @@ az acr list | jq '.[] .name'
 
 ```sh
 az acr repository list --name YourRegistryName | jq
+```
+
+##### To remove a repository
+
+```sh
+az acr repository delete -n your-acr-short-name --repository your-repo-name
+```
+
+##### To remove an image from a repository
+
+```sh
+az acr repository delete -n MyRegistry --image hello-world:latest
 ```
 
 ##### To list all tags in repository
@@ -98,7 +122,7 @@ az acr repository untag -n YourRegistryName --image YourRepoName:YourTagName
 ##### To perform a Docker login
 
 ```sh
-az acr login --name short-name-of-acr
+az acr login -n short-name-of-acr
 ```
 
 ##### To create a Docker login (by creating a role)
@@ -111,3 +135,168 @@ where
     `SubID` is the subscription ID,
     `ResourceGroup1` is the name of resource group,
     `acrName` is the short name of the ACR
+
+### Active Directory
+
+##### To list all security principals
+
+and show display name and service type
+
+```sh
+az ad sp list --all | jq '.[] | { name: .displayName, type: .servicePrincipalType }'
+```
+
+### Roles
+
+##### To list all roles available
+
+```sh
+az role definition list -o table
+```
+
+##### To list all roles assignments
+
+```sh
+az role assignment list --all -o table
+```
+
+##### To list all roles assignments in a resource group
+
+```sh
+az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-group-name")'
+```
+
+### SQL Database
+
+##### To kickstart an export
+
+```sh
+az sql db export -s your-server-name -n your-database-name -g your-resource-group-name --admin-user your-sql-username --admin-password your-sql-password --storage-key your-azure-storage-key --storage-key-type StorageAccessKey --storage-uri your-full-uri-on-blob-storage
+```
+
+Note that `your-full-uri-on-blob-storage` must include the file name as well.
+
+##### To list all database servers
+
+```sh
+az sql server list -o table
+```
+
+##### To show information of a database server
+
+```sh
+az sql server show -g your-resource-group-name -n your-database-name
+```
+
+##### To list all databases in a database server
+
+```sh
+az sql db list -g your-resource-group-name -s your-server-name -o table
+```
+
+##### To create a database in a database server
+
+```sh
+az sql db create -g your-resource-group-name -s your-server-name -n name-of-new-database -e GeneralPurpose -f Gen4 -c 4 --max-size 200GB
+```
+
+##### To delete a database in a database server
+
+```sh
+az sql db delete -g your-resource-group-name -s your-server-name -n name-of-database-to-be-deleted -y
+```
+
+##### To list operations performed on a database
+
+```sh
+az sql db op list -g your-resource-group-name -s your-database-server-name -d your-database-name
+```
+
+### Azure Storage
+
+#### Storage Account
+
+##### To list all storage accounts
+
+```sh
+az storage account list -o table
+```
+
+##### To list keys of a storage account
+
+```sh
+az storage account keys list -n your-storage-account-name
+```
+
+##### To get connection string of a storage account
+
+```sh
+az storage account show-connection-string -n your-storage-account-name | jq -r '.connectionString'
+```
+
+#### Azure Blob Storage
+
+##### To list all buckets/containers
+
+```sh
+az storage container list --connection-string your-connection-string-to-storage-account -o table
+```
+
+##### To list all object names in a bucket/container
+
+```sh
+az storage blob list --connection-string your-connection-string-to-storage-account -c your-bucket-name | jq '.[] | .name'
+```
+
+##### To download a file from a bucket/container
+
+```sh
+az storage blob download --connection-string your-connection-string-to-storage-account -c your-bucket-name --name your-filename-in-bucket -f your-local-destination-path
+```
+
+##### To upload a file onto a bucket/container
+
+```sh
+az storage blob upload --connection-string your-connection-string-to-storage-account -c your-bucket-name --name your-filename-in-bucket -f your-local-source-path
+```
+
+##### To upload multiple files onto a bucket/container
+
+```sh
+az storage blob upload-batch --connection-string your-connection-string-to-storage-account -d your-bucket-name -s your-local-directory --pattern *.txt
+```
+
+#### Azure Files
+
+##### To list all shares in a storage account
+
+```sh
+az storage share list --connection-string your-connection-string-to-storage-account -o table
+```
+
+##### To list all files in a share
+
+```sh
+az storage file list --connection-string your-connection-string-to-storage-account -s your-share-name -o table
+```
+
+##### To list all files in a share in a path
+
+```sh
+az storage file list --connection-string your-connection-string-to-storage-account -s your-share-name -o table --path your/path/to/directory
+```
+
+### Azure Disk
+
+##### To list all disks
+
+```sh
+az disk list | jq '.[] | { name: .name, os: .osType, sku: .sku.name, size: .diskSizeGb, diskIopsReadWrite: .diskIopsReadWrite, provisioningState: .provisioningState, diskState: .diskState}'
+```
+
+or in a table
+
+```sh
+az disk list -o table
+```
+
