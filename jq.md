@@ -28,3 +28,8 @@ jq '.[] | { name: .some-property, display: .some-other-property }'
 jq '.[6]'
 ```
 
+##### To show a value without double quotes
+
+```sh
+jq -r '.[] | .property-name'
+```
