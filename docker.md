@@ -112,6 +112,7 @@ FROM image-name:$FLAVOUR AS some-label
 
 ### Networking
 
+- use `host.docker.internal` to connect to the host
 - mappings seen are actually mapping between a port of one end of a bridge to another port of the other side
 - overlay network does not really care the subnets under it
 - a container in Swarm can be attached to multiple networks whereas a container
