@@ -54,6 +54,13 @@ az network nic list -g your-resource-group-name -o table
 az network nic ip-config update -g your-resource-group-name --nic-name your-network-interface-name --name your-name-of-this-config --public-ip-address your-name-of-the-ip
 ```
 
+##### To set DNS name to an IP
+
+```sh
+IP=123.123.123.123
+RESOURCE_ID=$(az network public-ip list -o json | jq -r --arg IP "$IP" '.[] | select(.ipAddress==$IP) | .id')
+az network public-ip update --ids $RESOURCE_ID --dns-name your-dns-name
+```
 
 ### AKS
 
