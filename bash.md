@@ -742,6 +742,20 @@ tar xf compressed.xz -C some-directory/
 tar cvzf compressed.tar.gz some-directory/
 ```
 
+##### Zip
+
+###### To zip a directory
+
+```sh
+zip compressed.zip some-directory/
+```
+
+###### To unzip to a directory
+
+```sh
+unzip compressed.zip -d some-directory
+```
+
 ##### Encrypted drive
 
 ###### To mount an encrypted drive
