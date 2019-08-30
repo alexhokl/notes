@@ -162,10 +162,16 @@ kubectl config use-context a-context-name
 kubectl port-forward your-pod-name 8080:80
 ```
 
-or a using a label
+or, using a label
 
 ```sh
 kubectl port-forward $(kubectl get pod --selector="app=web" --output jsonpath='{.items[0].metadata.name}') 8080:80
+```
+
+or, using a service name
+
+```sh
+kubectl port-forward service/your-service 8080:80
 ```
 
 ##### To install Kubernetes Dashboard
