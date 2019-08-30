@@ -173,6 +173,14 @@ az role assignment list --all -o table
 az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-group-name")'
 ```
 
+### Virtual Machine
+
+##### To list all the machines
+
+```sh
+az vm list -g your-resource-group -o table
+```
+
 ### SQL Database
 
 ##### To kickstart an export
