@@ -29,6 +29,26 @@ kubectl create -f directory-to-files/
 kubectl delete -f directory-to-files/
 ```
 
+##### To apply a configuration from a file
+
+```sh
+kubectl apply -f some-config.yml
+```
+
+##### To show current cluster information
+
+```sh
+kubectl cluster-info
+```
+
+##### To show kubectl config
+
+Effectively showing `.kube/config`.
+
+```sh
+kubectl config view
+```
+
 ###### To check status of pods
 
 ```sh
@@ -86,11 +106,14 @@ kubectl delete pod --grace-period=0 --force my-pod-name
 ###### To create a secret with files to be mounted
 
 ```sh
-kubectl create secret generic any-secret-name --from-file=path-to-the-filename --from-file=path-to-the-filename2
+kubectl create secret generic any-secret-name --from-file=mounted-name1=/local/path/filename --from-file=mounted-name2=/local/path/filename2
 ```
 
-Note that both `path-to-the-filename` and `path-to-the-filename2` will be used
-as actual filenames on a mount
+###### To create a secret with plain text
+
+```sh
+kubectl create secret generic any-secret-name --from-literal=username=alice --from-literal=password=bob-does-not-know
+```
 
 ###### To create a secret to be used as environment variable
 
@@ -132,10 +155,28 @@ kubectl get ingress
 kubectl get deployments
 ```
 
+##### To list all replica set
+
+```sh
+kubectl get rs
+```
+
+##### To list all config maps
+
+```sh
+kubectl get cm
+```
+
 ###### To list accessible clusters
 
 ```sh
 kubectl config get-contexts
+```
+
+###### To list names of pods in the current namespace
+
+```sh
+kubectl get pod -o=name
 ```
 
 ###### To list all pods and nodes
@@ -174,10 +215,54 @@ or, using a service name
 kubectl port-forward service/your-service 8080:80
 ```
 
+##### To delete all evicted pods
+
+```sh
+kubectl get pods --all-namespaces | grep Evicted | awk '{print $2 " --namespace=" $1}' | xargs kubectl delete pod
+```
+
 ##### To install Kubernetes Dashboard
 
 ```sh
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta1/aio/deploy/recommended.yaml
+```
+
+##### To port forward Kubernetes Dashboard
+
+```sh
+kubectl port-forward $(kubectl get pods --selector=k8s-app=kubernetes-dashboard -o jsonpath='{.items[0].metadata.name}') 5000:8443
+```
+
+##### To copy a file into a pod
+
+```sh
+kubectl cp some-file your-pod-name:/some/path/
+```
+
+##### To execute a command in a pod
+
+```sh
+kubectl exec -it your-pod-name -- ls -l
+```
+
+##### To drain pods in a node
+
+```sh
+kubectl drain your-node-name --ignore-daemonsets
+```
+
+##### To check current performance
+
+of nodes
+
+```sh
+kubectl top node
+```
+
+or, of pods
+
+```sh
+kubectl top pod
 ```
 
 ### Minikube

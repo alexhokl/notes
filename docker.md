@@ -29,7 +29,36 @@ check `.dockerignore` to see if it is a directory being ignored.
 In case a port could not be exposed, use command `iptables -t nat -nL` to check
 if the port in question has been published properly.
 
+###### Problem 3
+
+In case of Docker daemon could be be started, try 
+`sudo usermod -aG docker $USER`
+
 ##### Commands
+
+###### To logout of a Docker registry
+
+```sh
+docker logout docker.io
+```
+
+###### To show running containers
+
+```sh
+docker ps
+```
+
+###### To show all containers
+
+```sh
+docker ps -a
+```
+
+or, with container size
+
+```sh
+docker ps -a -s
+```
 
 ###### To stop all containers
 
@@ -67,7 +96,13 @@ docker cp container-name:/etc/letsencrypt ~/Desktop/letsencrypt
 Assuming it has `HEALTHCHECK CMD` in the image and the container named `proxy`\)
 
 ```sh
-docker inspect --format='{{json .State.Health}}' proxy
+docker inspect --format='{{json .State.Health}}' your-container-name
+```
+
+###### To inspect the port bindings of a container
+
+```sh
+docker inspect -f "{{.HostConfig.PortBindings}}" your-container-name
 ```
 
 ###### To check the network plugins installed on a host
@@ -76,10 +111,46 @@ docker inspect --format='{{json .State.Health}}' proxy
 docker info
 ```
 
-###### TO check the containers a network is attached to
+###### To check the containers a network is attached to
 
 ```sh
 docker network inspect your-network-name
+```
+
+##### To create a new tag from an existing image
+
+```sh
+docker tag old-image:old-tag new-image:new-tag
+```
+
+##### To create an image from a container
+
+```sh
+docker commit your-container-name your-image:your-tag
+```
+
+##### To check resource consumption of a container
+
+```sh
+docker top your-pod-name
+```
+
+##### To build with arguments
+
+```sh
+docker build --build-arg SOME_VARIABLE=some-value -t your-image:your-tag .
+```
+
+##### To remove intermediate container after a successful build
+
+```sh
+docker build --rm -t your-image:your-tag .
+```
+
+##### To always remove intermediate container after a build
+
+```sh
+docker build --force-rm -t your-image:your-tag .
 ```
 
 ###### To clean up docker logs (could be deprecated)
@@ -122,6 +193,8 @@ FROM image-name:$FLAVOUR AS some-label
     to pods
   - separation of containers is done via network policy
   - usually a network policy is applied via labels
+- mounting to `/var/run/docker.sock` enabling a container to connect to Docker
+    server API via socket
 
 ### Docker Compose
 
@@ -179,7 +252,7 @@ and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it 
 - At least one of them exists
 - `ENTRYPOINT` and `CMD` behaves the same if only of them exist
 - For both `CMD` and `ENTRYPOINT`, there are "shell" and "exec" versions
-    both shell versions would be prefixed with `/bin/sh -c`
+  - both shell versions would be prefixed with `/bin/sh -c`
 - "exec" version run its process with PID = 1 and "shell" version run its process in a sub-process of a container. Thus, pressing `ctrl-c` would be able to terminate "exec" version but not "shell" version. Note that "exec" version is the recommended way.
 -	"exec" version does not have environment variables (like `$PATH`). Thus, to use `java -jar spring.jar`, `["/usr/bin/java", "-jar", "spring.jar"]` is required.
 -	If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.

@@ -33,3 +33,11 @@ jq '.[6]'
 ```sh
 jq -r '.[] | .property-name'
 ```
+
+##### To show keys (property names) of an object
+
+```sh
+jq 'keys'
+```
+
+Note that the result is a json array

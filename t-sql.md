@@ -44,7 +44,7 @@ If the attached database is running as read-only mode due to the file permission
 ##### Export a database
 
 ```sh
-sqlpackage.exe /a:Export /ssn:database.example.com /sdn:MyDatabase /su:sa /sp:AStrongPassword /tf:MyDatabase.bacpac
+sqlpackage /a:Export /ssn:database.example.com /sdn:MyDatabase /su:sa /sp:AStrongPassword /tf:MyDatabase.bacpac
 ```
 
 Note: [Installing sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage-download?view=sql-server-2017)
@@ -52,7 +52,7 @@ Note: [Installing sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpack
 ##### Import a database
 
 ```sh
-sqlpackage.exe /a:Import /tsn:database.example.com /tdn:MyDatabase /tu:sa /tp:AStrongPassword /sf:MyDatabase.bacpac
+sqlpackage /a:Import /tsn:database.example.com /tdn:MyDatabase /tu:sa /tp:AStrongPassword /sf:MyDatabase.bacpac
 ```
 
 Note that if the target database already exists and contains objects such as

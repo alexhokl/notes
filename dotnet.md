@@ -12,6 +12,12 @@
 
 ### .NET CLI
 
+##### To check the installed SDKs and runtimes
+
+```sh
+dotnet --info
+```
+
 ##### To create a new solution file
 
 ```sh
@@ -24,6 +30,117 @@ dotnet new sln -n Name.Space
 dotnet new classlib -n Name.Space.Library
 dotnet sln add Name.Space.Library/Name.Space.Library.csproj
 ```
+
+##### To add a Nuget package to a project
+
+```sh
+dotnet add Your.Project.Name package Your.Package.Name --version 1.0.0
+```
+
+##### To remove a Nuget package from a project
+
+```sh
+dotnet remove Your.Project.Name package Your.Package.Name
+```
+
+##### To do a full rebuild
+
+```sh
+dotnet build --no-incremental
+```
+
+##### To test the current solution or project
+
+```sh
+dotnet test
+```
+
+##### To test a project
+
+```sh
+dotnet test Your.Project.Name
+```
+
+##### To kickstart testing without a build
+
+```sh
+dotnet test --no-build
+```
+
+##### To kickstart a slient test
+
+```sh
+dotnet test -v q 
+```
+
+##### To add unit test coverage
+
+```sh
+dotnet tool install --global altcover.global
+dotnet tool install --global dotnet-reportgenerator-globaltool
+```
+
+and to run tests
+
+```sh
+dotnet test /p:CollectCoverage=true
+dotnet test /p:AltCover=true
+```
+
+##### To run a project
+
+```sh
+dotnet run --project Your.Project.Name/
+```
+
+##### To run multiple projects
+
+```sh
+dotnet run --project Your.Project.Name/ --project Your.Project2.Name/
+```
+
+##### To run a DLL
+
+```sh
+dotnet run  Your.Project.Name.dll
+```
+
+##### To publish for a runtime
+
+```sh
+dotnet publish -r alpine.3.7-x64 -o ./output
+```
+
+or, without restore
+
+```sh
+dotnet publish --no-restore -r alpine.3.7-x64 -o ./output
+```
+
+##### To add a migration for a data context
+
+```sh
+dotnet ef migrations add YourMigrationName -c YourDataContext -o Path/To/Migration/Output
+```
+
+##### To add a migration for a data context in another project
+
+```sh
+dotnet ef migrations add YourMigrationName -c YourDataContext -o Path/To/Migration/Output --startup-project ../Your.Parent.Project
+```
+
+##### To execute migration
+
+```sh
+dotnet ef database update -c YourDataContext --project Your.Project.Name --startup-project Your.Parent.Project
+```
+
+##### To remove a migration
+
+```sh
+dotnet ef migrations remove YourMigrationName --project Your.Project.Name
+```
+
 ### Nuget
 
 ##### To install Nuget on macOS/Linux [link](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#macoslinux)

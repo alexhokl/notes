@@ -154,6 +154,7 @@ To remove staged and un-staged files. (Clean working directory)
 
 ```sh
 git reset HEAD
+git clean -f
 ```
 
 ##### Cleanup
@@ -183,6 +184,18 @@ git branch --unset-upstream UserStory1
 git branch -D UserStory1
 ```
 
+##### Remove unstaged files
+
+```sh
+git clean -f
+```
+
+##### To reset one file to the previous commit
+
+```sh
+git reset --hard HEAD~ path/to/file
+```
+
 ##### Stash
 
 To stash unstaged and staged files
@@ -203,30 +216,69 @@ To stash unstaged, staged, untracked and ignored files
 git stash -a
 ```
 
-To stash unstaged files
+To stash only unstaged files
 
 ```sh
 git stash -k
 ```
 
-##### Submodule
-
-To add a submodule with an alias
+To drop the second stash
 
 ```sh
-git submodule add https://github.com/alexhokl/library lib
+git stash drop stash@{1}
 ```
 
-To retrieve submodules from a new clone
+To show stats of the second stash
+
+```sh
+git stash show stash@{1}
+```
+
+To show code changes of the second stash
+
+```sh
+git stash show -p stash@{1}
+```
+
+To stage the current stash
+
+```sh
+git stash apply
+```
+
+##### Submodule
+
+###### To add a submodule with an alias
+
+```sh
+git submodule add https://github.com/alexhokl/library path/to/library
+```
+
+###### To retrieve submodules from a new clone
 
 ```sh
 git submodule init
 ```
 
-To update submodules
+This adds the submodules defined in `.gitmodules` to `.git/config` without
+actually pulling the code yet.
+
+###### To clone a repository and its submodules
+
+```sh
+git clone --recursive https://github.com/author/repo
+```
+
+###### To update submodules
 
 ```sh
 git submodule update
+```
+
+To update submodules and its submodules
+
+```sh
+git submodule update --recursive
 ```
 
 To push changes from submodule, create a commit in the directory of submodule
@@ -235,13 +287,46 @@ To push changes from submodule, create a commit in the directory of submodule
 git push --recurse-submodules=on-demand
 ```
 
+###### To check status of all submodules
+
+```sh
+git submodule status
+```
+
+###### To execute for each submodule
+
+```sh
+git submodule forach git pull origin master
+```
+
+###### To deinit a submodule
+
+```sh
+git submodule deinit path/to/module
+```
+
+Use this command if the user does not want to have a local checkout of the
+submodule in your working tree anymore.
+
+It removes the whole `submodule` section from `.git/config` together with
+their work tree (files).
+
+To remove local modifications as well
+
+```sh
+git submodule deinit -f path/to/module
+```
+
+To remove all submodules
+
+```sh
+git submodule deinit -f --
+```
+
 ###### To remove a submodule
 
-1. Remove submodule section from `.git/config`
-2. Remove submodule section from `.gitmodules`
-3. `git rm --cached path-to-submodule`
-4. `rm -rf path-to-submodule`
-
+1. `git submodule deinit path/to/module`
+2. Remove the submodule section from `.gitmodules`
 
 ##### Tag
 
@@ -262,6 +347,20 @@ git tag --delete my-tag-name
 
 ```sh
 git describe --abbrev=0 --tags
+```
+
+##### GPG signature
+
+###### To show the signature
+
+```sh
+git verify-commit -v HEAD 
+```
+
+###### To show the raw signature
+
+```sh
+git verify-commit --raw HEAD
 ```
 
 ##### Revert
@@ -328,10 +427,22 @@ To edit system git config
 git config --system --edit
 ```
 
-To edit user git config
+To edit user git config (`$HOME/.gitconfig`)
 
 ```sh
 git config --global --edit
+```
+
+To edit repository git config (`repo/.git/config`)
+
+```sh
+git config --global --edit
+```
+
+To list all configurations (including system, global and local)
+
+```sh
+git config --list
 ```
 
 ##### User setup
@@ -406,10 +517,36 @@ git log --pretty=format:'%s'
 git log --pretty=format:'%b'
 ```
 
+##### Showing the SHA1 hash of commit only
+
+```sh
+git log --pretty=format:'%h'
+```
+
+##### Showing commits in chronological order
+
+```sh
+git log -n 20 --reverse
+```
+
+Note that commits are shown in reverse chronological order by default.
+
 ##### Commits from a user from certain time
 
 ```sh
 git log --all --author=alexhokl --since='9am yesterday' --format=%s
+```
+
+##### To show the SHA1 hash of a commit
+
+```sh
+git rev-parse origin/a-branch-name
+```
+
+To show the shorten version
+
+```sh
+git rev-parse --short origin/a-branch-name
 ```
 
 ##### Comparing files with certain extensions
@@ -418,16 +555,89 @@ git log --all --author=alexhokl --since='9am yesterday' --format=%s
 git diff -- '*.c' '*.h'
 ```
 
+##### To show diff with more lines of context
+
+```sh
+git diff --unified=10
+```
+
+This show 10 lines instead of 3 (default) of context.
+
+##### To show the closest tag to a commit
+
+```sh
+git describe 0432432432
+```
+
+Note that this either shows the tag itself or the closest tag plus a suffix
+with number commits on top of the tag.
+
+##### Grep
+
+To find a term in files with a specific extension
+
+```sh
+git grep search-term *.cs
+```
+
+To find a term in a commit (not just the changes involved)
+
+```sh
+git grep search-term 04312432432
+```
+
+To find a term in a range of commits
+
+```sh
+git grep search-term $(git rev-list origin/master..origin/feature-branch)
+```
+
+To find a term in staged files
+
+```sh
+git grep --cached search-term
+```
+
+To show files involved the search term
+
+```sh
+git grep -l search-term
+```
+
 ##### Remotes
 
 ```sh
 git remote -v
 ```
 
+To get the url of a remote
+
+```sh
+git remote get-url origin
+```
+
+To set the url of a remote
+
+```sh
+git remote set-url origin https://github.com/auther/repo
+```
+
 ##### Branches
 
 ```sh
 git branch -v
+```
+
+##### To show commits of the two diverging branches
+
+```sh
+git range-diff origin/master origin/branch-a origin/branch-b
+```
+
+##### To show the local reference changes
+
+```sh
+git reflog
 ```
 
 ##### Retrieving git objects

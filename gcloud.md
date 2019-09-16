@@ -1,9 +1,21 @@
 #### Basics
 
+###### To check command installation
+
+```sh
+gcloud info
+```
+
 ###### To login
 
 ```sh
 gcloud auth login
+```
+
+###### To list existing logins
+
+```sh
+gcloud auth list
 ```
 
 ###### To list current configuration
@@ -26,10 +38,10 @@ gcloud config set core/project google-cloud-platform-project-name
 
 #### Kubernetes
 
-###### To install kubernetes
+###### To add credentials to $HOME/.kube/config
 
 ```sh
-gcloud components install kubectl
+gcloud container clusters get-credentials your-cluster-name
 ```
 
 ###### To create a kubernetes cluster
@@ -44,10 +56,30 @@ gcloud container clusters create your-cluster-name -m n1-standard-2 --num-nodes=
 gcloud container clusters get-credentials your-cluster-name
 ```
 
+###### To authenticate to Container Registry on GCP
+
+```sh
+gcloud auth configure-docker
+```
+
+Note that it can be executed on a GCP compute instance as well
+
+###### To show cluster information
+
+```sh
+gcloud container clusters describe your-cluster-name
+```
+
 ###### To list clusters
 
 ```sh
 gcloud container clusters list
+```
+
+or, to restrict to a zone
+
+```sh
+gcloud container clusters list --zone asia-east1-b
 ```
 
 ###### To delete a container cluster
@@ -114,16 +146,64 @@ helm init --service-account tiller --wait
 gcloud compute instances create my-instance-name --machine-type f1-micro
 ```
 
+or, with a specific VM image
+
+```sh
+gcloud compute instances create your-instance-name --image-family debian-8 --machine-type f1-micro
+```
+
 ###### To configure firewall for HTTP and HTTPS traffic
 
 ```sh
 gcloud compute firewall-rules create instance-rule --allow tcp:80,tcp:443
 ```
 
+###### To list firewall rules
+
+```sh
+gcloud compute firewall-rules list
+```
+
+###### SSH
+
+```sh
+gcloud compute ssh your-username@your-instance-name
+```
+
+###### SCP
+
+```sh
+gcloud compute scp some.txt your-instance-name:/path/to/the/file
+```
+
+or, to copy recursively
+
+```sh
+gcloud compute scp some-directory video2:/path/to/a/directory/ --recurse
+```
+
 ###### To create a persistent volume
 
 ```sh
 gcloud compute disks create --size 1GB my-disk-name
+```
+
+###### To list disk provisioned
+
+```sh
+gcloud compute disks list
+```
+
+###### To delete a disk
+
+```sh
+gcloud compute disks delete your-disk-name
+```
+
+###### To describe a disk
+
+```sh
+gcloud compute disks describe your-disk-name
 ```
 
 ###### To attach a persistent disk to an instance ([reference](https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting))
@@ -147,10 +227,22 @@ sudo chmod a+w ./my-mount
 gcloud compute instances list
 ```
 
-###### To list disks created
+###### To describe an instance
 
 ```sh
-gcloud compute disks list
+gcloud compute instances describe your-instance-name
+```
+
+or, to list service accounts and scopes
+
+```sh
+gcloud compute instances describe your-instance-name --format='yaml(serviceAccounts[].scopes[])'
+```
+
+###### To delete an instance
+
+```sh
+gcloud compute instances delete your-instance-name
 ```
 
 ###### To upload a directory onto an instance
@@ -165,11 +257,22 @@ gcloud compute scp ./my-source my-instance-name:/home/user/my-source --recurse
 gcloud compute machine-types list
 ```
 
-###### To authenticate to Container Registry on GCP
-
-Execute on the instance,
+###### To list available VM images
 
 ```sh
-gcloud auth configure-docker
+gcloud compute images list
 ```
 
+#### DNS
+
+##### To list managed zones
+
+```sh
+gcloud dns managed-zones list
+```
+
+##### To describe a zone
+
+```sh
+gcloud dns managed-zones describe your-zone-name
+```
