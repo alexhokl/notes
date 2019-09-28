@@ -142,6 +142,26 @@ cat /etc/*release
 uname -a
 ```
 
+### Disks
+
+##### To check free space and file system types
+
+```sh
+df -Th
+```
+
+##### To change file system of a partition
+
+```sh
+sudo mkfs.ext4 /dev/sda2
+```
+
+##### To label a partition
+
+```sh
+sudo e2label /dev/sda2 A_LABEL
+```
+
 ### VPN
 
 ##### Start VPN (IPsec)
