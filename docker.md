@@ -153,6 +153,12 @@ docker build --rm -t your-image:your-tag .
 docker build --force-rm -t your-image:your-tag .
 ```
 
+###### To stream logs of a container
+
+```sh
+docker logs -f your-container-name
+```
+
 ###### To clean up docker logs (could be deprecated)
 
 ```sh
@@ -204,10 +210,22 @@ FROM image-name:$FLAVOUR AS some-label
 docker-compose up -d
 ```
 
+###### To compose with specified configuration files
+
+```sh
+docker-compose -f docker-compose.yml -f docker-compose.extra.yml up -d
+```
+
 ###### To make sure all continers stated in docker-compose.yml are stopped, removed and have its network and volumes removed
 
 ```sh
 docker-compose down -v
+```
+
+###### To show logs of a service
+
+```sh
+docker-compose logs your-service-name
 ```
 
 ### Docker Content Trust
@@ -259,11 +277,134 @@ and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it 
 -	If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
 -	`ENTRYPOINT` and `CMD` can be overridden via command line flags
 
+### Docker Swarm
+
+#### Links
+
+- [Setting up your swarm](https://docs.docker.com/get-started/part4/#set-up-your-swarm)
+
+##### To create a swarm manager
+
+Before creating a swarm manager, one should setup a discovery backend
+(discovery token should only be used in development only). See [discovery
+backend](https://docs.docker.com/swarm/reference/manage/#discovery--discovery-backend)
+for more options.
+
+```sh
+docker run -p 4000:4000 -H :4000 --replication --advertise 172.30.0.161:4000 consul://172.30.0.165:8500 -d swarm maanage 
+```
+
+To
+
+```sh
+docker run -p 3376:3376 -v /home/ubuntu/.certs:/certs:ro swarm manage --tlsverify --tlscacert=/certs/ca.pem --tlscert=/certs/cert.pem --tlskey=/certs/key.pem --host=0.0.0.0:3376 token://$TOKEN -d swarm manage
+```
+
+##### To check the version
+
+```sh
+docker run swarm --version
+```
+
+##### To start a swarm
+
+```sh
+docker swarm init --advertise-addr 192.168.300.300
+```
+
+Note that the services will be exposed with IP `192.168.300.300`
+
+##### To show join tokens
+
+for worker,
+
+```sh
+docker swarm join-token worker
+```
+
+for manager,
+
+```sh
+docker swarm join-token manager
+```
+
+##### To leave swarm
+
+```sh
+docker swarm leave
+```
+
+to leave as a manager
+
+```sh
+docker swarm leave --force
+```
+
+##### To deploy a stack to current swarm
+
+```sh
+docker stack deploy -c docker-compose.yml your-stack
+```
+
+##### To list running stacks
+
+```sh
+docker stack ls
+```
+
+##### To list all running services
+
+```sh
+docker service ls
+```
+
+##### To list running services of a stack
+
+```sh
+docker stack services your-stack
+```
+
+##### To list containers of a stack
+
+```sh
+docker stack ps your-stack
+```
+
+##### To show logs of a service
+
+```sh
+docker service logs your-stack-service
+```
+
+##### To add exposing port to a service
+
+```sh
+docker service update --publish-add 30001:80 your-stack-service
+```
+
+##### To remove exposing port from a service
+
+```sh
+docker service update --publish-rm 30001
+```
+
+##### To scale a service
+
+```sh
+docker service scale your-stack-service=3
+```
+
+##### To remove a stack
+
+```sh
+docker stack rm your-stack
+```
+
 ### Windows
 
 ##### Examples
 
--	[SQL Server Lab](https://github.com/docker/labs/blob/master/windows/sql-server/part-1.md)
+- [SQL Server Lab](https://github.com/docker/labs/blob/master/windows/sql-server/part-1.md)
 - [Manually enable Docker for Windows prerequisites](https://success.docker.com/article/manually-enable-docker-for-windows-prerequisites)
 
 ##### Tricks
