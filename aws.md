@@ -53,6 +53,30 @@ exec msdb.dbo.rds_restore_database
 aws s3api put-object-acl --bucket your-bucket-name --key filename.txt --acl public-read
 ```
 
+##### To show ACL of a bucket
+
+```sh
+aws s3api get-bucket-acl --bucket your-bucket-name | jq '.Grants[]'
+```
+
+##### To show CORS setting of a bucket
+
+```sh
+aws s3api get-bucket-cors --bucket your-bucket-name
+```
+
+##### To create a bucket
+
+```sh
+aws s3 mb s3://your-bucket-name
+```
+
+##### To copy recursively
+
+```sh
+aws s3 cp --recursive s3://your-bucket/ ./
+```
+
 ### Lambda
 
 #### .NET Core
@@ -74,18 +98,19 @@ dotnet new
 ###### To list all functions
 
 ```sh
-aws lambda list-functions | jq '.[][]'
+aws lambda list-functions | jq '.Functions[] | { name:.FunctionName, handler:.Handler, runtime:.Runtime}'
 ```
 
-###### To list all function names and runtimes
-
-```sh
-aws lambda list-functions | jq '.[][] | { name: .FunctionName, runtime: .Runtime }'
-```
 ###### To get the link to download lambda function
 
 ```sh
 aws lambda get-function --function-name test1 | jq '.Code.Location'
+```
+
+##### To create a lambda function
+
+```sh
+aws lambda create-function --function-name your-function --runtime dotnetcore2.0 --role arn:aws:iam::123345567:role/your-worker-role --description "A Description" --code S3Bucket=string,S3Key=string,S3ObjectVersion=string --handler Name.Space::Name.Space.ClassName::MethodName
 ```
 
 ###### To create a function
@@ -113,7 +138,25 @@ aws lambda create-function \
 ###### To list all topics
 
 ```sh
-aws sns list-topics | jq '.[][] | .TopicArn'
+aws sns list-topics | jq -r '.[][] | .TopicArn'
+```
+
+##### To list subscription by topic
+
+```sh
+aws sns list-subscriptions --topic-arn arn:aws:sns:ap-east-1:123345567:your-topic-name
+```
+
+##### To create a topic
+
+```sh
+aws sns create-topic --name your-topic-name
+```
+
+##### To delete a topic
+
+```sh
+aws sns delete-topic --topic-arn arn:aws:sns:ap-east-1:1233345567:your-topic-name
 ```
 
 ### SQS
@@ -135,6 +178,18 @@ aws sns list-topics | jq '.[][] | .TopicArn'
 aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 ```
 
+##### To list custom policies
+
+```sh
+aws iam list-policies --scope Local | jq -r '.Policies[] | .Arn'
+```
+
+##### To create a policy
+
+```sh
+aws iam create-policy --policy-name your-policy --policy-document file://policy.json --description "A description"
+```
+
 ### EC2
 
 - [CPU Credits and Baseline Performance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-credits-baseline-concepts.html)
@@ -144,6 +199,18 @@ aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 
 ```sh
 aws ec2 authorize-security-group-ingress --group-id sg-11111111 --protocol tcp --port 1433 --cidr 123.123.123.123/24
+```
+
+##### To show security groups
+
+```sh
+aws ec2 describe-security-groups | jq '.[][] | { groupName:.GroupName, description:.Description }'
+```
+
+##### To list instances
+
+```sh
+aws ec2 describe-instances | jq '.Reservations[] | .Instances[] | {id:.InstanceId, keyName:.KeyName, ip:.NetworkInterfaces[0].Association.PublicIp}'
 ```
 
 ### S3
