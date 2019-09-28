@@ -45,6 +45,14 @@ exec msdb.dbo.rds_restore_database
 	@s3_arn_to_restore_from='arn:aws:s3:::my_bucket_name/my_backup_name.bak';
 ```
 
+### S3
+
+##### To apply public access
+
+```sh
+aws s3api put-object-acl --bucket your-bucket-name --key filename.txt --acl public-read
+```
+
 ### Lambda
 
 #### .NET Core
