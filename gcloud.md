@@ -276,3 +276,23 @@ gcloud dns managed-zones list
 ```sh
 gcloud dns managed-zones describe your-zone-name
 ```
+
+#### Bucket
+
+##### To copy files recursively
+
+```sh
+gsutil cp -R path/to/a/directory gs://your-bucket-name
+```
+
+or, with multithreads,
+
+```sh
+gsutil -m cp -R path/to/a/directory gs://your-bucket-name
+```
+
+##### To create a bucket
+
+```sh
+gsutil mb -l asia-east2 -c coldline gs://your-bucket-name
+```
