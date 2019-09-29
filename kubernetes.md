@@ -245,6 +245,12 @@ kubectl cp some-file your-pod-name:/some/path/
 kubectl exec -it your-pod-name -- ls -l
 ```
 
+##### To cordon a node
+
+```sh
+kubectl cordon your-node-name
+```
+
 ##### To drain pods in a node
 
 ```sh
