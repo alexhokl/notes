@@ -11,3 +11,12 @@ In case the machine shows `No bootable device`, try to clean the BIOS (NVRAM) by
 ##### iTerm2
 
 [Cheatsheet](https://gist.github.com/helger/3070258)
+
+##### To umount an USB drive and dump ISO image to it (on Mac)
+
+```sh
+diskutil list
+diskutil unmountDisk /dev/disk2
+sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
+diskutil eject /dev/disk2
+```
