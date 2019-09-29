@@ -150,7 +150,7 @@ uname -a
 df -Th
 ```
 
-##### To change file system of a partition
+##### To change file system of a partition (and format it)
 
 ```sh
 sudo mkfs.ext4 /dev/sda2
@@ -160,6 +160,50 @@ sudo mkfs.ext4 /dev/sda2
 
 ```sh
 sudo e2label /dev/sda2 A_LABEL
+```
+
+##### To mount a USB drive on linux
+
+```sh
+lsblk
+sudo mount /dev/sdc1 /home/current-user/usb
+```
+
+##### To umount a USB drive on linux
+
+```sh
+sudo umount /home/current-user/usb
+```
+
+##### To mount a NTFS Windows drive on linux
+
+```sh
+lsblk
+sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
+```
+
+##### To change partitions of a disk
+
+```sh
+sudo fdisk /dev/sdX
+```
+
+##### to check disk usage in the current directory
+
+```sh
+du -sh
+```
+
+##### to check disk usage of directories of the current path
+
+```sh
+du --max-depth=1 -h
+```
+
+or,
+
+```sh
+du -d 1 -h
 ```
 
 ### VPN
@@ -273,63 +317,10 @@ kill $(lsof -ti tcp:3000)
 disown -a && exit
 ```
 
-##### To umount an USB drive and dump ISO image to it (on Mac)
-
-```sh
-diskutil list
-diskutil unmountDisk /dev/disk2
-sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
-diskutil eject /dev/disk2
-```
-
-##### To mount a USB drive on linux
-
-```sh
-lsblk
-sudo mount /dev/sdc1 /home/current-user/usb
-```
-
-##### To umount a USB drive on linux
-
-```sh
-sudo umount /home/current-user/usb
-```
-
-##### To mount a NTFS Windows drive on linux
-
-```sh
-lsblk
-sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
-```
-
-##### To change partitions of a disk
-
-```sh
-sudo fdisk /dev/sdX
-```
-
-##### To format a partition in ext4 format
-
-```sh
-sudo mkfs.ext4 /dev/sdXx
-```
-
 ##### To make indirect reference to another variable
 
 ```sh
 sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
-```
-
-##### to check disk usage in the current directory
-
-```sh
-du -sh
-```
-
-##### to check disk usage of directories of the current path
-
-```sh
-du --max-depth=1 -h
 ```
 
 ##### To check available memory
