@@ -287,12 +287,6 @@ sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 ```
 
-##### To check kernel debug messages
-
-```sh
-sudo dmesg -H
-```
-
 ##### To reload Nginx in a container
 
 ```sh
