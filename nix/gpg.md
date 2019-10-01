@@ -75,6 +75,12 @@ gpg --full-generate-key
 gpg --edit-key your-key-id
 ```
 
+##### To upload a (public) key to key server
+
+```sh
+gpg --keyserver pgp.mit.edu --send-key your-key-id
+```
+
 ##### To sign a file
 
 ```sh
