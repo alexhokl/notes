@@ -142,6 +142,14 @@ cat /etc/*release
 uname -a
 ```
 
+### Users
+
+##### To show the user groups the current user belongs to
+
+```sh
+groups
+```
+
 ### Disks
 
 ##### To check free space and file system types
@@ -180,6 +188,12 @@ sudo umount /home/current-user/usb
 ```sh
 lsblk
 sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
+```
+
+##### To mount a NFS drive
+
+```sh
+sudo mount -t nfs 192.168.300.300:/home/current-user/directory $HOME/remote-directory
 ```
 
 ##### To change partitions of a disk
@@ -262,6 +276,36 @@ Or on linux,
 find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
 ```
 
+##### To reload Nginx in a container
+
+```sh
+nginx -s reload
+```
+
+### Locales
+
+##### To show all installed locales and its metadata
+
+```sh
+locale
+```
+
+##### To show just locale
+
+```sh
+locale -a
+```
+
+### Printing
+
+##### To show CUPS status information
+
+```sh
+lpstat -a
+```
+
+### Images
+
 ##### To convert a PNG file to an ICO file
 
 ```sh
@@ -280,6 +324,8 @@ ffmpeg -i video.avi -b 100k video.mp4
 cwebp -q 80 source.image.png -o destination.webp
 ```
 
+### Timezones
+
 ##### To set timezone
 
 ```sh
@@ -287,22 +333,18 @@ sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 ```
 
-##### To reload Nginx in a container
-
-```sh
-nginx -s reload
-```
-
-##### To uninstall homebrew
-
-```sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
-```
+### Processes
 
 ##### To kill a process running on a particular port
 
 ```sh
 kill $(lsof -ti tcp:3000)
+```
+
+##### To kill all processes by name
+
+```sh
+killall your-program-name
 ```
 
 ##### To keep all processes running after exiting the current terminal

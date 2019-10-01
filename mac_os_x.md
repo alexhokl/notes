@@ -20,3 +20,10 @@ diskutil unmountDisk /dev/disk2
 sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
 diskutil eject /dev/disk2
 ```
+
+##### To uninstall homebrew
+
+```sh
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+```
+

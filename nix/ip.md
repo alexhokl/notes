@@ -4,6 +4,8 @@
 ip addr show
 ```
 
+or, `ip a` or `ip addr`.
+
 ###### To get IP from a host name
 
 ```sh
