@@ -125,7 +125,7 @@ gpg -o something.txt --decrypt something.txt.gpg
 
 ### Links
 
-- [drduh/Yubike-Guide](https://github.com/drduh/YubiKey-Guide)
+- [drduh/Yubikey-Guide](https://github.com/drduh/YubiKey-Guide)
 
 ### Master key
 
