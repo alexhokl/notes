@@ -42,6 +42,12 @@ gpg --import filename.asc
 ssh user_name@server_name gpg --export-secret-key your-key-id | gpg --import
 ```
 
+##### To import a public key from key server
+
+```sh
+gpg --keyserver hkps://pgp.mis.edu --recv-keys your-key-id
+```
+
 ##### To generate a key
 
 ```sh
