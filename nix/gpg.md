@@ -108,3 +108,16 @@ gpg -r user@test.com -e something.txt
 ```sh
 gpg -o something.txt --decrypt something.txt.gpg
 ```
+
+# Concepts
+
+### Links
+
+- [drduh/Yubike-Guide](https://github.com/drduh/YubiKey-Guide)
+
+### Master key
+
+Master key should be kept offline at all times and only accessed to revoke or
+issue new sub-keys.
+
+Note that, once GPG keys are moved to a YubiKey, it cannot be moved again.
