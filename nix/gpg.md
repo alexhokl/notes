@@ -48,6 +48,12 @@ ssh user_name@server_name gpg --export-secret-key your-key-id | gpg --import
 gpg --keyserver hkps://pgp.mis.edu --recv-keys your-key-id
 ```
 
+or, from default set of servers
+
+```sh
+gpg --recv your-key-id
+```
+
 ##### To generate a key
 
 ```sh
