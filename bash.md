@@ -164,6 +164,12 @@ df -Th
 sudo mkfs.ext4 /dev/sda2
 ```
 
+or to change to fat32 system,
+
+```sh
+sudo mkfs.vfat /dev/sda2
+```
+
 ##### To label a partition
 
 ```sh
@@ -218,6 +224,20 @@ or,
 
 ```sh
 du -d 1 -h
+```
+
+### Directories
+
+##### To create a temporary directory
+
+```sh
+mktemp
+```
+
+or to save the directory path to a variable as well,
+
+```sh
+TEMP_DIR=$(mktemp)
 ```
 
 ### VPN
