@@ -1,9 +1,13 @@
-yes to all questions
+### Initialising a module
+
+##### to say yes to all questions
+
 ```sh
 npm init --yes
 ```
 
-init with a config (asumming ~/.npm-init.js is setup)
+##### To init with a config (asumming `$HOME/.npm-init.js` is setup)
+
 ```sh
 npm init
 ```
@@ -14,7 +18,43 @@ npm i -S express
 npm i -D ava
 ```
 
-lock down version of depenedencies
+##### To lock down version of dependencies
+
 ```sh
 npm shrinkwrap
+```
+
+##### To remove cache
+
+```sh
+npm cache clean
+```
+
+##### To list local installed modules
+
+```sh
+npm list
+```
+
+or to list the packages but not its dependencies,
+
+```sh
+npm list --depth=0
+```
+##### To list global installed modules
+
+```sh
+npm list -g
+```
+
+or to list the packages but not its dependencies,
+
+```sh
+npm list --depth=0 -g
+```
+
+#### To list outdated packages
+
+```sh
+npm outdated
 ```
