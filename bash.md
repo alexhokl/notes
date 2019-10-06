@@ -202,6 +202,12 @@ sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
 sudo mount -t nfs 192.168.300.300:/home/current-user/directory $HOME/remote-directory
 ```
 
+##### To list all partitions
+
+```sh
+sudo fdisk -l
+```
+
 ##### To change partitions of a disk
 
 ```sh
