@@ -350,6 +350,26 @@ ffmpeg -i video.avi -b 100k video.mp4
 cwebp -q 80 source.image.png -o destination.webp
 ```
 
+### Videos
+
+##### To record screen in a GIF
+
+```sh
+byzanz-record -d 20 -x 0 -y 0 -w 1920 -h 2160 ~/Pictures/screencast.gif
+```
+
+##### To record screen with mouse cursor in a GIF
+
+```sh
+byzanz-record -d 20 -x 0 -y 0 -w 1920 -h 2160 -c ~/Pictures/screencast.gif
+```
+
+##### To record screen with mouse cursor in a WebM
+
+```sh
+byzanz-record -d 20 -x 0 -y 0 -w 1920 -h 2160 ~/Pictures/screencast.webm
+```
+
 ### Timezones
 
 ##### To set timezone
@@ -358,6 +378,16 @@ cwebp -q 80 source.image.png -o destination.webp
 sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 ```
+
+### Packages
+
+##### To reconfigure an installed package
+
+```sh
+sudo dpkg-reconfigure locale
+```
+
+to configure locale.
 
 ### Processes
 
