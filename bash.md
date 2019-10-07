@@ -232,6 +232,14 @@ or,
 du -d 1 -h
 ```
 
+### Hardware
+
+##### To list all PCI devices
+
+```sh
+lspci -vnn
+```
+
 ### Directories
 
 ##### To create a temporary directory
