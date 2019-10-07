@@ -9,6 +9,9 @@
 - [peek](https://github.com/phw/peek) - an animated GIF recorder
 - [google/git-appraise](https://github.com/google/git-appraise) - a command line tool for performing code reviews on git repositories
 - [HTTP Prompt](http://http-prompt.com/)
+- [httpstat](https://github.com/davecheney/httpstat) - visualizes `curl` statistics in a way of beauty and clarity
+- [bed](https://github.com/itchyny/bed) - a binary editor written in Go
+- [hexyl](https://github.com/sharkdp/hexyl) - a command-line hex viewer
 
 ## Online Tools
 
