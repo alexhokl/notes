@@ -45,6 +45,12 @@ sudo ip link set eth1 down
 ip route show
 ```
 
+or,
+
+```sh
+route
+```
+
 ###### To add a temporary static route
 
 ```sh
@@ -57,3 +63,14 @@ sudo ip route add 10.10.20.0/24 via 192.168.123.123 dev eth1
 sudo ip route del 10.10.20.0/24
 ```
 
+##### To direct all traffic to an interface
+
+```sh
+route add default dev ppp0
+```
+
+and, to remove such a rule
+
+```sh
+route del default dev ppp0
+```
