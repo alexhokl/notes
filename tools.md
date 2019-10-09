@@ -12,6 +12,7 @@
 - [httpstat](https://github.com/davecheney/httpstat) - visualizes `curl` statistics in a way of beauty and clarity
 - [bed](https://github.com/itchyny/bed) - a binary editor written in Go
 - [hexyl](https://github.com/sharkdp/hexyl) - a command-line hex viewer
+- [markdown-toc](https://github.com/jonschlinkert/markdown-toc) - Generate a markdown TOC
 
 ## Online Tools
 

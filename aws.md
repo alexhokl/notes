@@ -1,3 +1,14 @@
+- [RDS](#rds)
+- [S3](#s3)
+- [Lambda](#lambda)
+- [SNS](#sns)
+- [SQS](#sqs)
+- [IAM](#iam)
+- [EC2](#ec2)
+- [Lightsail](#lightsail)
+
+---
+
 ### RDS
 
 ##### References
@@ -211,14 +222,6 @@ aws ec2 describe-security-groups | jq '.[][] | { groupName:.GroupName, descripti
 
 ```sh
 aws ec2 describe-instances | jq '.Reservations[] | .Instances[] | {id:.InstanceId, keyName:.KeyName, ip:.NetworkInterfaces[0].Association.PublicIp}'
-```
-
-### S3
-
-###### To create a bucket
-
-```sh
-aws s3 mb s3://your-bucket-name
 ```
 
 ### Lightsail
