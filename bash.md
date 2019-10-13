@@ -167,6 +167,12 @@ uname -a
 groups
 ```
 
+##### To add user to a group
+
+```sh
+usermod -a -G your-group your-username
+```
+
 ### Disks
 
 ##### To check free space and file system types
@@ -279,6 +285,16 @@ To check the IP addresses of a domain
 
 ```sh
 nslookup github.com
+```
+
+### Wifi
+
+##### wpa_passphrase
+
+To generate configuration for login
+
+```sh
+wpa_passphrase your-ssid your-strong-password
 ```
 
 ### VPN
