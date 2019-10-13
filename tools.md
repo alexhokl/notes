@@ -13,6 +13,7 @@
 - [bed](https://github.com/itchyny/bed) - a binary editor written in Go
 - [hexyl](https://github.com/sharkdp/hexyl) - a command-line hex viewer
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc) - Generate a markdown TOC
+- [staticcheck](https://github.com/dominikh/go-tools) - Go static analysis, detecting bugs, performance issues, and much more
 
 ## Online Tools
 
