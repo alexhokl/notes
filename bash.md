@@ -1,13 +1,30 @@
 ## Topics
 
+- [Topics](#topics)
 - [Terminal](#terminal)
 - [Shortcuts](#shortcuts)
 - [Scripting](#scripting)
-    + [string](#string)
-    + [list and range](#list-and-range)
-    + [for](#for)
-    + [if](#if)
+  * [string](#string)
+  * [list and range](#list-and-range)
+  * [for](#for)
+  * [if](#if)
+  * [function](#function)
 - [Recipes](#recipes)
+  * [Versions](#versions)
+  * [Users](#users)
+  * [Disks](#disks)
+  * [Hardware](#hardware)
+  * [Directories](#directories)
+  * [Network](#network)
+  * [VPN](#vpn)
+  * [Encrypted drive](#encrypted-drive)
+  * [Locales](#locales)
+  * [Printing](#printing)
+  * [Images](#images)
+  * [Videos](#videos)
+  * [Timezones](#timezones)
+  * [Packages](#packages)
+  * [Processes](#processes)
 
 ## Terminal
 
@@ -252,6 +269,16 @@ or to save the directory path to a variable as well,
 
 ```sh
 TEMP_DIR=$(mktemp)
+```
+
+### Network
+
+##### nslookup
+
+To check the IP addresses of a domain
+
+```sh
+nslookup github.com
 ```
 
 ### VPN
