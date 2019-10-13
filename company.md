@@ -16,4 +16,5 @@
 
 - Submit accounting annual report
 - Pay business registration fee
+  [Major Fees under the Companies Ordinance](https://www.cr.gov.hk/en/public/fees.htm)
 - Submit audit report (only after revenue)
