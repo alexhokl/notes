@@ -88,6 +88,22 @@ az aks get-credentials --resource-group YourResourceGroupName --name your-aks-na
 az aks browse --resource-group your-resource-group-name --name your-aks-name
 ```
 
+##### Unable to provision a service with load balancer
+
+The scenario is that the service is kept in `pending` state due to its
+inability to provision/associate with an external fixed IP. By describing the
+service, it may give an error message similar to `Error creating load balancer
+(will retry): failed to ensure load balancer for service some-serivce-name:
+timed out waiting for the condition`. It is likely that the IP was not clean up
+properly during the last service deletion. To do the clean-up manually,
+
+1. Log onto [Azure Portal](https://portal.azure.com/).
+2. Navigate to page `Public IP addresses` and click on the IP involved.
+3. Click on the link next to `Associated to`.
+4. Select section `Frontend IP configuration`.
+5. Try to delete the IP address involved.
+6. Re-provision the service again.
+
 ### ACR
 
 ##### To list all registries
@@ -172,6 +188,22 @@ az role assignment list --all -o table
 ```sh
 az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-group-name")'
 ```
+
+##### To update service principal after expiration
+
+```sh
+SP_ID=$(az aks show --resource-group your-resource-group --name your-cluster-name --query servicePrincipalProfile.clientId -o tsv)
+SP_SECRET=$(az ad sp credential reset --name $SP_ID --query password -o tsv)
+az aks update-credentials --resource-group your-resource-group --name your-cluster-name --reset-service-principal --service-principal $SP_ID --client-secret $SP_SECRET
+```
+
+Note that, by default, the service principal expires in a year (as a security
+practice).
+
+Also note that, all the nodes must be in state `running` otherwise it would
+result in exceptions.
+
+See also [Update or rotate the credentials for a service principal in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/update-credentials).
 
 ### Virtual Machine
 
