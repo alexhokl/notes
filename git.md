@@ -9,6 +9,7 @@
 ## Concepts
 
 - Git does not have a notion of "this commit was made on this branch".
+- [GOTO 2019 • Knowledge is Power: Getting out of Trouble by Understanding Git • Steve Smith](https://www.youtube.com/watch?v=fHLcZGi3yMQ) - on `.git` directory
 
 ## Operations
 
@@ -87,6 +88,14 @@ git rebase -i --root
 ```sh
 git rebase --show-current-patch
 ```
+
+##### To rebase and test
+
+```sh
+git rebase -i origin/master --exec "make test"
+```
+
+Note that the rebase stops when the unit tests failed.
 
 ##### Checking a diffs after a rebase
 
@@ -194,6 +203,16 @@ git clean -f
 
 ```sh
 git reset --hard HEAD~ path/to/file
+```
+
+##### Bisect
+
+To find out the commit where unit tests are broken 
+
+```sh
+git bisect start
+git bisect good your-parent-commit
+git bisect run make test
 ```
 
 ##### Stash
@@ -639,6 +658,8 @@ git range-diff origin/master origin/branch-a origin/branch-b
 ```sh
 git reflog
 ```
+
+Note that the log is only available on a local machine.
 
 ##### Retrieving git objects
 
