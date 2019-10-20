@@ -296,3 +296,38 @@ gsutil -m cp -R path/to/a/directory gs://your-bucket-name
 ```sh
 gsutil mb -l asia-east2 -c coldline gs://your-bucket-name
 ```
+
+#### IAM
+
+##### To list all service accounts
+
+```sh
+gcloud iam service-accounts list
+```
+
+##### To create service account
+
+```sh
+gcloud beta iam service-accounts create --display-name=your-service-account-name your-service-account-name
+```
+
+##### To list keys of a service account
+
+```sh
+gcloud iam service-accounts keys list --iam-account=your-service-account-name@your-project.iam.gserviceaccount.com
+```
+
+##### To create key of service account
+
+To get key in form of `json`
+
+```sh
+gcloud iam service-accounts keys create --iam-account=your-service-account-name@your-project.iam.gserviceaccount.com key.json
+```
+
+To get key in form of `p12`
+
+```sh
+gcloud iam service-accounts keys create --key-file-type=p12 --iam-account=your-service-account-name@your-project.iam.gserviceaccount.com key.p12
+```
+
