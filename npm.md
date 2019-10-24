@@ -1,3 +1,6 @@
+- [Initialising a module](#initialising-a-module)
+____
+
 ### Initialising a module
 
 ##### to say yes to all questions

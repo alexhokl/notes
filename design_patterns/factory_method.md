@@ -1,3 +1,6 @@
+- [Factory method](#factory-method)
+____
+
 ### Factory method
 
 ```cs

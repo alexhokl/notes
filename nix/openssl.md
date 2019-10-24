@@ -1,3 +1,7 @@
+- [Commands](#commands)
+- [Recipes](#recipes)
+____
+
 ### Commands
 
 ```sh

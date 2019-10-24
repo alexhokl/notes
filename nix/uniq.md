@@ -1,3 +1,6 @@
+
+____
+
 ###### find unique file prefixes
 
 if the files are named like Day1.00202.jpg, Day2.02311.jpg, ...

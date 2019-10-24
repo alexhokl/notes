@@ -1,3 +1,8 @@
+- [Nick Craver](#nick-craver)
+- [Libraries](#libraries)
+- [Monitoring](#monitoring)
+____
+
 ### Nick Craver
 
 - [Stack Overflow: The Architecture - 2016 Edition](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)

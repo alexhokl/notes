@@ -1,3 +1,11 @@
+- [Go](#go)
+    + [Links](#links)
+    + [Libraries](#libraries)
+    + [Tricks](#tricks)
+    + [Commands](#commands)
+    + [Modules](#modules)
+____
+
 # Go
 
 ### Links

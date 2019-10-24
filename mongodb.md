@@ -1,3 +1,6 @@
+
+____
+
 to remove a field from a collection
 ```js
 db.examples.update({}, { $unset: {'tags.words':1} }, { multi: true });

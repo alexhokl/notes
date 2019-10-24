@@ -1,3 +1,12 @@
+- [Software Engineering](#software-engineering)
+    + [Technical debts](#technical-debts)
+    + [Web App](#web-app)
+    + [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
+    + [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
+    + [Product / Project Management](#product--project-management)
+    + [Others](#others-1)
+____
+
 # Software Engineering
 
 - [Technical Debts](#technical-debts)

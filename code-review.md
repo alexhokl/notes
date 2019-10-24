@@ -1,3 +1,6 @@
+- [Making comments](#making-comments)
+____
+
 ### Making comments
 
 - it should not have comments that hurt others feelings

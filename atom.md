@@ -1,3 +1,8 @@
+- [to dump installed packages](#to-dump-installed-packages)
+- [to update apm package without prompt](#to-update-apm-package-without-prompt)
+- [to open the specified file in the current editor](#to-open-the-specified-file-in-the-current-editor)
+____
+
 #### Links
 
 - Shortcuts - https://shortcutworld.com/en/Atom-(text-editor)/1.0/linux/all

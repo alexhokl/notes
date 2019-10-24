@@ -1,3 +1,6 @@
+- [Commands](#commands)
+____
+
 ### Commands
 
 ##### To upgrade flutter installation

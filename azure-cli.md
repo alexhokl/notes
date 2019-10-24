@@ -1,4 +1,15 @@
-# azure-cli
+- [Account/Subscription](#accountsubscription)
+- [Resource Groups](#resource-groups)
+- [Networking](#networking)
+- [AKS](#aks)
+- [ACR](#acr)
+- [Active Directory](#active-directory)
+- [Roles](#roles)
+- [Virtual Machine](#virtual-machine)
+- [SQL Database](#sql-database)
+- [Azure Storage](#azure-storage)
+- [Azure Disk](#azure-disk)
+____
 
 ### Account/Subscription
 

@@ -1,3 +1,6 @@
+
+____
+
 This document could be tailored towards the use of RabbitMQ using .NET client.
 
 #### Queue Characteristics

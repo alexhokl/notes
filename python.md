@@ -1,3 +1,6 @@
+
+____
+
 ##### Getting class name
 ```py
 variable_name.__class__.__name__

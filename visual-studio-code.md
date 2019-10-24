@@ -1,3 +1,6 @@
+- [Links](#links)
+____
+
 ### Links
 
 - [VS Code can do that?!](https://vscodecandothat.com/)

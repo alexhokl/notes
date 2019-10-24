@@ -1,3 +1,8 @@
+- [Links](#links)
+- [Modular Multiplicative Inverse](#modular-multiplicative-inverse)
+- [Public Key Cryptography](#public-key-cryptography)
+____
+
 ### Links
 
 - [End-to-end encryption: Behind the scenes](https://www.youtube.com/watch?v=oRZoeDRACrY)

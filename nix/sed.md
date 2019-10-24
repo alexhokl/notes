@@ -1,3 +1,6 @@
+
+____
+
 ##### remove BOM characters in files
 
 ```sh

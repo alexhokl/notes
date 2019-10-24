@@ -1,3 +1,6 @@
+- [Singleton](#singleton)
+____
+
 ### Singleton
 
 Note that a pure static class cannot be used as a singleton as it is not thread

@@ -1,3 +1,6 @@
+
+____
+
 ##### To have some parts of a line delimited) by a character
 
 to have part 2 and 4 from a line delimited by a space

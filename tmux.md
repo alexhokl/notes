@@ -1,3 +1,7 @@
+- [Prefixes](#prefixes)
+- [CLI](#cli)
+____
+
 ### Prefixes
 
 | Key | Functionality |

@@ -1,3 +1,6 @@
+
+____
+
 - use lower case in `from` clause of `import` statements
 - use `className` in `jsx` in place of `class` in HTML markup
 - in `return` clause of function `render()`, it is best to enclose it with

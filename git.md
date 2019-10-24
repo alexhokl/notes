@@ -1,3 +1,16 @@
+- [Setup](#setup)
+  * [BASH completion](#bash-completion)
+- [Concepts](#concepts)
+- [Operations](#operations)
+  * [New repository](#new-repository)
+  * [Forking](#forking)
+  * [Rebase](#rebase)
+  * [Commit](#commit)
+  * [Rollback](#rollback)
+  * [Queries](#queries)
+  * [GitHub](#github)
+____
+
 ## Setup
 
 ### BASH completion

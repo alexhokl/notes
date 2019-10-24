@@ -1,3 +1,6 @@
+
+____
+
 ##### To find the differences between two directories
 
 ```sh

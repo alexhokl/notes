@@ -1,3 +1,9 @@
+- [Commands](#commands)
+- [Resource Definitions](#resource-definitions)
+- [Minikube](#minikube)
+- [Links](#links)
+____
+
 ### Commands
 
 ###### To add docker login to the current kubernetes cluster

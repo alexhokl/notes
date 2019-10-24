@@ -1,3 +1,6 @@
+- [Abstract Factory](#abstract-factory)
+____
+
 ### Abstract Factory
 
 ##### Intent

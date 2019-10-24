@@ -3,12 +3,14 @@
 - [Networking](#networking)
 - [Linux-related topics](#linux-related-topics)
   * [crosh Colour scheme](#crosh-colour-scheme)
+  * [crosh](#crosh)
   * [crouton](#crouton)
   * [crostini](#crostini)
     + [Timezone](#timezone)
-    + [Docker](#docker)
+    + [Docker (deprecated, not needed on Chrome OS 73 and after)](#docker-deprecated-not-needed-on-chrome-os-73-and-after)
     + [Components](#components)
 - [Chrome Browser](#chrome-browser)
+____
 
 # Links
 

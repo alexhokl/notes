@@ -1,3 +1,6 @@
+
+____
+
 To avoid issues with root directory, enclose search term with quotes.
 
 ##### to find files and directories with name

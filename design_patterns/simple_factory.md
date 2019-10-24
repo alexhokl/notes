@@ -1,3 +1,6 @@
+- [Simple Factory](#simple-factory)
+____
+
 ### Simple Factory
 
 ```cs
