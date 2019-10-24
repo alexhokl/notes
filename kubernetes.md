@@ -271,6 +271,40 @@ or, of pods
 kubectl top pod
 ```
 
+### Resource Definitions
+
+##### To add a sidecar container to pump logs to pump logs to stdout
+
+Add an empty directory to `volumes` of a `deployment` definition.
+
+```yaml
+volumes:
+- name: log
+    emptyDir: {}
+```
+
+Mount the directory to the target container
+
+```yaml
+volumeMounts:
+- name: log
+  mountPath: /var/log
+```
+
+Finally, add the sidecar container to `deployment` definition.
+
+```yaml
+- name: logger
+  image: docker.io/bash:latest
+  volumeMounts:
+    - name: log
+      mountPath: /tmp/log
+  command:
+    - "/bin/sh"
+    - "-c"
+    - "tail -f /tmp/log/vsftpd.log"
+```
+
 ### Minikube
 
 ##### To start with VirtualBox (default)
