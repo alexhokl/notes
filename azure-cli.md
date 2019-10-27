@@ -115,6 +115,51 @@ properly during the last service deletion. To do the clean-up manually,
 5. Try to delete the IP address involved.
 6. Re-provision the service again.
 
+##### To SSH into one of the nodes
+
+Assuming there is a SSH private and public key pair ready as `azure.pub` and
+`azure.pem`.
+
+To list the nodes
+
+```sh
+CLUSTER_RESOURCE_GROUP=$(az aks show --resource-group your-resource-group-name --name your-cluster-name --query nodeResourceGroup -o tsv)
+az vm list --resource-group $CLUSTER_RESOURCE_GROUP -o table
+```
+
+Choose the node involved and upload the SSH public key onto it
+
+```sh
+az vm user update --resource-group $CLUSTER_RESOURCE_GROUP --name your-node-name --username azureuser --ssh-key-value azure.pem
+```
+
+Create a pod running Debian on the same cluster
+
+```sh
+kubectl run -it --rm aks-ssh --image=debian
+```
+
+Install SSH client in that pod
+
+```sh
+apt-get update && apt-get install openssh-client -y
+```
+
+In a new terminal, copy the SSH private key into that pod
+
+```sh
+kubectl cp azure.pem aks-ssh-554b746bcf-kbwvf:/azure.pem
+```
+
+In the terminal of the Debian pod
+
+```sh
+chmod 0600 azure.pem
+ssh -i azure.pem azureuser@10.240.0.4
+```
+
+
+
 ### ACR
 
 ##### To list all registries
