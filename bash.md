@@ -26,34 +26,6 @@
   * [Processes](#processes)
 ____
 
-## Topics
-
-- [Topics](#topics)
-- [Terminal](#terminal)
-- [Shortcuts](#shortcuts)
-- [Scripting](#scripting)
-  * [string](#string)
-  * [list and range](#list-and-range)
-  * [for](#for)
-  * [if](#if)
-  * [function](#function)
-- [Recipes](#recipes)
-  * [Versions](#versions)
-  * [Users](#users)
-  * [Disks](#disks)
-  * [Hardware](#hardware)
-  * [Directories](#directories)
-  * [Network](#network)
-  * [VPN](#vpn)
-  * [Encrypted drive](#encrypted-drive)
-  * [Locales](#locales)
-  * [Printing](#printing)
-  * [Images](#images)
-  * [Videos](#videos)
-  * [Timezones](#timezones)
-  * [Packages](#packages)
-  * [Processes](#processes)
-
 ## Terminal
 
 | Combination | Functionality |
@@ -303,6 +275,20 @@ or to save the directory path to a variable as well,
 
 ```sh
 TEMP_DIR=$(mktemp)
+```
+
+### Power
+
+##### To disable suspend and hibernation
+
+```sh
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```
+
+To enable suspend and hibernation
+
+```sh
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
 
 ### Network
