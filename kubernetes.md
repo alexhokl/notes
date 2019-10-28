@@ -355,6 +355,15 @@ eval $(minikube docker-env)
 minikube service your-service-name --url --namespace default
 ```
 
+### Secret Management
+
+##### KMS Plugins
+
+- [googlecloudplatform/k8s-cloudkms-plugin](https://github.com/googlecloudplatform/k8s-cloudkms-plugin)
+- [azure/kubernetes-kms](https://github.com/azure/kubernetes-kms)
+- [kubernetes-sigs/aws-encryption-provider](https://github.com/kubernetes-sigs/aws-encryption-provider)
+- [oracle/kubernetes-vault-kms-plugin](https://github.com/oracle/kubernetes-vault-kms-plugin)
+
 ### Links
 
 - [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
