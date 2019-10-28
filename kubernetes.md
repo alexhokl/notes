@@ -311,6 +311,24 @@ Finally, add the sidecar container to `deployment` definition.
     - "tail -f /tmp/log/vsftpd.log"
 ```
 
+##### To add resource quota to a namespace
+
+```yaml
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: your-quota-name
+  namespace: your-namespace
+spec:
+  hard:
+    services: "1"
+    pods: "3"
+    request.cpu: "2"
+    request.memory: 1Gi
+    limits.cpu: "4"
+    limits.memory: 2Gi
+```
+
 ### Minikube
 
 ##### To start with VirtualBox (default)
