@@ -1,4 +1,3 @@
-- [Topics](#topics)
 - [Terminal](#terminal)
 - [Shortcuts](#shortcuts)
 - [Scripting](#scripting)
@@ -13,6 +12,7 @@
   * [Disks](#disks)
   * [Hardware](#hardware)
   * [Directories](#directories)
+  * [Power](#power)
   * [Network](#network)
   * [Wifi](#wifi)
   * [VPN](#vpn)

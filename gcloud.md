@@ -1,7 +1,12 @@
-
+- [Basics](#basics)
+- [Kubernetes](#kubernetes)
+- [Compute](#compute)
+- [DNS](#dns)
+- [Bucket](#bucket)
+- [IAM](#iam)
 ____
 
-#### Basics
+### Basics
 
 ###### To check command installation
 
@@ -39,7 +44,7 @@ gcloud config set compute/zone asia-east1-b
 gcloud config set core/project google-cloud-platform-project-name
 ```
 
-#### Kubernetes
+### Kubernetes
 
 ###### To add credentials to $HOME/.kube/config
 
@@ -141,7 +146,7 @@ kubectl create clusterrolebinding tiller-clusterrolebinding --clusterrole=cluste
 helm init --service-account tiller --wait
 ```
 
-#### Compute
+### Compute
 
 ###### To create an instance
 
@@ -266,7 +271,7 @@ gcloud compute machine-types list
 gcloud compute images list
 ```
 
-#### DNS
+### DNS
 
 ##### To list managed zones
 
@@ -280,7 +285,7 @@ gcloud dns managed-zones list
 gcloud dns managed-zones describe your-zone-name
 ```
 
-#### Bucket
+### Bucket
 
 ##### To copy files recursively
 
@@ -300,7 +305,12 @@ gsutil -m cp -R path/to/a/directory gs://your-bucket-name
 gsutil mb -l asia-east2 -c coldline gs://your-bucket-name
 ```
 
-#### IAM
+##### To serve a website from a bucket directly
+
+Create a `CNAME` DNS record and points it to `c.storage.googleapis.com`.
+Noie that it serves traffic in HTTP only (instead of HTTPS).
+
+### IAM
 
 ##### Links
 

@@ -24,7 +24,6 @@ for f in $(find . -name '*.md'); do
 	markdown-toc --maxdepth $depth $f > $filename
 	echo "" >> $filename
 	echo $delimiter >> $filename
-	echo "" >> $filename
 	tail -n $content_count $f >> $filename
 	mv $filename $f
 done

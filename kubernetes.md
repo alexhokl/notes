@@ -1,6 +1,7 @@
 - [Commands](#commands)
 - [Resource Definitions](#resource-definitions)
 - [Minikube](#minikube)
+- [Secret Management](#secret-management)
 - [Links](#links)
 ____
 
