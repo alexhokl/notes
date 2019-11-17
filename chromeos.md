@@ -16,6 +16,7 @@ ____
 
 - [Auto Update Policy](https://support.google.com/chrome/a/answer/6220366?hl=en)
 - [Chrome Releases](https://chromereleases.googleblog.com/)
+- [Matrix of chrome versions and machines](https://cros-updates-serving.appspot.com/)
 - [Pixelbook keyboard shortcuts](https://support.google.com/pixelbook/answer/7503852?hl=en)
 - [ChromeOS Containers do not respect "ARC VPN integration"](https://bugs.chromium.org/p/chromium/issues/detail?id=834585)
 - [Blog on ChromeOS by Keith I Myers](https://kmyers.me/knowledge/chromeos/)
