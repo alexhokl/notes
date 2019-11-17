@@ -22,6 +22,11 @@ ____
 - [hexyl](https://github.com/sharkdp/hexyl) - a command-line hex viewer
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc) - Generate a markdown TOC
 - [staticcheck](https://github.com/dominikh/go-tools) - Go static analysis, detecting bugs, performance issues, and much more
+- [Linters from Clean Code](https://github.com/showcases/clean-code-linters)
+- [Perkeep](https://perkeep.org/)
+- [Depicted—dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous
+  deployment safe by comparing before and after webpage screenshots for each
+  release.
 
 ## Online Tools
 
@@ -38,6 +43,11 @@ ____
 - [domain check from zeit](https://zeit.co/domains)
 - [Git History](https://github.com/pomber/git-history) - browse to a file on
     GitHub and replace `https://github.com` with `https://github.githistory.xyz`
+- [Amazon - My library](https://www.amazon.com/mycd)
+- [Hong Kong Job advertisement search](http://david.co/job.php)
+- [IcoMoon](https://icomoon.io/)
+- [JSON Schema Validator](https://www.jsonschemavalidator.net/) - from
+  Newtonsoft
 
 ### APIs
 
