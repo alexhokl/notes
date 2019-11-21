@@ -6,6 +6,10 @@ ____
 - [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
 - [eslint rules from Airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base/rules)
 
+### Code reviews
+
+- [Type check is a code smell](http://blog.millermedeiros.com/type-check-is-a-code-smell/)
+
 ##### To inject jQuery into Chrome deugging console
 
 ```js
