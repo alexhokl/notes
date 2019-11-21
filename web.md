@@ -70,3 +70,10 @@ display: inline-block;
 #### Tools
 
 To add a class in chrome on-the-fly, use "plus" button in inspect mode.
+
+### Accessibility
+
+#### Links
+
+- [axe-core](https://www.npmjs.com/package/axe-core) - an accessibility testing
+  engine for websites and other HTML-based user interfaces
