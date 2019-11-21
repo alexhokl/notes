@@ -10,3 +10,4 @@ ____
 -	[How to test your MongoDB models under Node & Express](https://www.terlici.com/2014/09/15/node-testing.html)
 -	[Best practices for Express app structure](https://www.terlici.com/2014/08/25/best-practices-express-structure.html)
 -	[Uploading files locally with Node & Express](https://www.terlici.com/2015/05/16/uploading-files-locally.html)
+- [Graceful shutdown with Node.js and Kubernetes](https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/)
