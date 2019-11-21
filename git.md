@@ -709,3 +709,7 @@ A comment with any of the following keywords:
 
 - [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 - [Issue and Pull Request templates](https://github.com/blog/2111-issue-and-pull-request-templates)
+
+## Links
+
+- [GitHub Blog](https://github.blog/)
