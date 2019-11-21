@@ -390,5 +390,6 @@ minikube service your-service-name --url --namespace default
 - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - [Web UI (Dashboard)](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 - [kubectl -Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-
-
+- [Spinnaker](https://www.spinnaker.io/) - an open-source, multi-cloud
+  continuous delivery platform that helps you release software changes with
+  high velocity and confidence
