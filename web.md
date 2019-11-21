@@ -7,6 +7,7 @@
     + [Icons](#icons)
     + [WebP](#webp)
     + [CSS](#css)
+    + [Accessibility](#accessibility)
 ____
 
 # Web
