@@ -63,6 +63,11 @@ ____
 - [Octopus Deploy](https://octopus.com/)
 - [cypress](https://www.cypress.io) - Javascript end-to-end testing
 - [bigpanda](https://www.bigpanda.io/) - Infrastructure and application monitoring
+- [transposit](https://www.transposit.com/) - an API composition platform
+  where traditional API are invoked like a GraphQL API and a SQL query can
+  combine several API calls into one
+- [shodan](https://www.shodan.io/) - a search engine of internet-connected
+  devices (for instance, IOT devices)
 
 ### Data
 
