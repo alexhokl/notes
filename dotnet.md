@@ -298,6 +298,19 @@ The SDK installations are located at
 /usr/local/share/dotnet/sdk/
 ```
 
+### Kestrel
+
+Kestrel uses `libuv` for transport layer (whereas Kestrel handles hosting
+layer). `libuv` handles I/O work from Kestrel and uses a single-threaded event
+loop model. All non I/O is done in managed code on standard .NET worker threads
+in Kestrel. Kestrel supports multiple event loops. The number of event loops is
+based on the number of logical processors available or overridden by the
+configuration.
+
+Each connection is bounded to a user thread in Kestrel and all I/O operation
+requests are coming from this thread. When an I/O call is requested, Kestrel
+marshal the `libuv` thread to perform the actual I/O.
+
 ### Workarounds
 
 In mixing .NET full framework with .NET Core stuff (via .NET Standard), the
