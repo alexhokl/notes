@@ -82,9 +82,15 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `[e` to move the current line up
 - `]e` to move the current line down
 - `:g/ASearchWord/d` to delete all lines containing `ASearchWord` (regex can be
-used here)
-- `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord` (regex can
-be used here
+  used here)
+- `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord`
+  (regex can be used here)
+- `:g/ASearchWord/y A` to yank all lines containing `ASearchWord` to register A
+  (`ctrl-r a` to paste the content of register A)
+- `:g/ASearchWord/m$` to move all lines containing `ASearchWord` to the end of
+  the current file
+- `:g/ASearchWord/norm @q` to apply macro stored in register `q` to all lines
+  containing `ASearchWord`
 - `u` to undo
 - `ctrl-r` to redo
 - `yy` to copy the current line
