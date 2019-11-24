@@ -2,16 +2,27 @@
 - [CLI](#cli)
 ____
 
+Reference: [.tmux.conf](https://github.com/alexhokl/dotfiles/blob/master/tmux.conf)
+
 ### Prefixes
 
 | Key | Functionality |
 | --- | --- |
+| ? | to show all the current key bindings |
 | d | detach the current session |
 | ; | switch to the previous pane |
 | c | create a new window |
 | - | split the current window vertically |
 | pipe | split the current window horizontally |
 | , | rename the current window |
+| arrow keys | switch pane |
+| alt + arrow keys | resize pane |
+| alt-F | fullscreen |
+| alt-f | exit fullscreen |
+| [ | to enter copy mode |
+| ] | to paste the current buffer |
+| = | to select a buffer and paste its content |
+| r | to reload configuration |
 
 ### CLI
 
