@@ -156,6 +156,12 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:cn` to advance to the next error
 - `:cp` to go to the previous error
 
+##### Folding
+
+- `za` to toggle a folding
+- `zc` to close a folding
+- `zo` to open a folding
+
 ##### ctrlp
 
 To refresh cached file list in fuzzy file search, hit `ctrl-p` and `F5` or use
