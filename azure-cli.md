@@ -75,6 +75,13 @@ az network public-ip update --ids $RESOURCE_ID --dns-name your-dns-name
 
 ### AKS
 
+##### Cluster token
+
+`kubernetes.io/service-account-token` will be expired every year by default.
+Although it could be configured to be never expired.
+
+See [Update or rotate the credentials for a service principal in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/update-credentials)
+
 ##### To list all clusters
 
 ```sh
