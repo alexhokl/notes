@@ -6,6 +6,9 @@ ____
 
 - [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
 - [eslint rules from Airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base/rules)
+- [greenkeeper.io](https://greenkeeper.io) - it sits between npm and GitHub,
+  observing all of the modules a project depend on. When they get updated,  the
+  project gets a new branch with that update. The CI tests kick in.
 
 ### Code reviews
 
