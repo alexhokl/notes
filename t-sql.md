@@ -273,6 +273,38 @@ FROM
         a.index_id = b.index_id;
 ```
 
+##### Create indexes with included columns
+
+```sql
+CREATE NONCLUSTERED INDEX IX_Address_PostalCode
+ON Address (PostalCode)
+INCLUDE (AddressLine1, AddressLine2, City, StateProvinceID);
+GO
+```
+
+The above index is useful when the following query is made.
+
+```sh
+SELECT
+    AddressLine1, AddressLine2, City, StateProvinceID
+FROM Address
+WHERE PostalCode = 'ABC'
+```
+
+An index with nonkey columns can significantly improve query performance when
+all columns in the query are included in the index either as key or nonkey
+columns. Performance gains are achieved because the query optimizer can locate
+all the column values within the index; table or clustered index data is not
+accessed resulting in fewer disk I/O operations. Included columns are not
+considered by the Database Engine when calculating the number of index key
+columns or index key size.
+
+A detailed explanation using query plan - [SQL Server Indexes with Included Columns](http://www.sqlservertutorial.net/sql-server-indexes/sql-server-indexes-with-included-columns/)
+
+##### Query plans
+
+- Index scan involves checking values of all rows in a table
+- Index seek involves only values of rows matching a specific criteria
 
 ### Database table manipulations
 
