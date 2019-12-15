@@ -393,3 +393,4 @@ minikube service your-service-name --url --namespace default
 - [Spinnaker](https://www.spinnaker.io/) - an open-source, multi-cloud
   continuous delivery platform that helps you release software changes with
   high velocity and confidence
+- [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
