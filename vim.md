@@ -66,6 +66,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `%` to jump to parentheses of the current line
 - `ctrl-O` to jump back the to the previous position
 - `ctrl-I` to jump forward to the next position (after a jump back)
+- `gx` in a (proper) link to open a browser
 
 ##### Editing
 
