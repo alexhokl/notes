@@ -21,3 +21,9 @@ xrandr --output DP-1 --mode 3840x2160 --right-of eDP-1
 ```sh
 xrandr --auto
 ```
+
+To explicitly turn off a monitor
+
+```sh
+xrandr --output DP-1 --off
+```
