@@ -97,7 +97,7 @@ az aks list | jq '.[] | .fqdn'
 ##### To set `kubectl` credentials
 
 ```sh
-az aks get-credentials --resource-group YourResourceGroupName --name your-aks-name
+az aks get-credentials --resource-group YourResourceGroupName --name your-aks-name --context your-custom-name
 ```
 
 ##### To browse Kubernetes dashboard
