@@ -165,7 +165,13 @@ chmod 0600 azure.pem
 ssh -i azure.pem azureuser@10.240.0.4
 ```
 
+##### To run a script on a node of a cluster
 
+```sh
+CLUSTER_RESOURCE_GROUP=$(az aks show --resource-group your-resource-group-name --name your-cluster-name --query nodeResourceGroup -o tsv)
+CLUSTER_FIRST_NODE_NAME=$(az vm list --resource-group $CLUSTER_RESOURCE_GROUP | jq -r '.[0] | .name')
+az vm run-command invoke -g $CLUSTER_RESOURCE_GROUP -n $CLUSTER_FIRST_NODE_NAME --scripts "cat /etc/kubernetes/azure.json" --command-id RunShellScript
+```
 
 ### ACR
 
