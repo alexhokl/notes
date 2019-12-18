@@ -102,6 +102,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `<` to remove indentation to the current line
 - `=` to fix indentation of the current line
 - ':retab' to replace all tabs with spaces
+- visually select lines and `gq` to format those lines
 
 ###### Surround
 
