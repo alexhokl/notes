@@ -44,6 +44,8 @@ ____
   interface parameter can accept both pointer and value. Function receiver (the
   parameter before function name) is the only exception. (see [Go interfaces
   and pointers](https://medium.com/@saiyerram/go-interfaces-pointers-4d1d98d5c9c6))
+- For examples on pointers, see
+  [alexhokl/go-pointers](https://github.com/alexhokl/go-pointers)
 
 ### Commands
 
