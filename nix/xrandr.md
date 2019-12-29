@@ -22,8 +22,16 @@ xrandr --output DP-1 --mode 3840x2160 --right-of eDP-1
 xrandr --auto
 ```
 
-To explicitly turn off a monitor
+### To explicitly turn off a monitor
 
 ```sh
 xrandr --output DP-1 --off
+```
+
+### To mirror displays
+
+Assuming the parent display is `eDP-1`,
+
+```sh
+xrandr --output DP-1 --same-as eDP-1
 ```
