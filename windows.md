@@ -230,3 +230,32 @@ Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uni
 ```sh
 Compare-Object -ReferenceObject (Get-Content listA.txt) -DifferenceObject (Get-Content listB.txt)
 ```
+
+# Troubleshooting
+
+## Bootloader
+
+In case of the corrupted master boot record (MBR) or Windows Bootloader, one
+may see the following error message.
+
+```console
+The Boot Configuration Data file is missing some required information
+File: \BCD
+Error code: 0xc0000034
+```
+
+The solution is to use a boot-able USB Windows installer (Windows 10 installer
+can be used to repair Windows 8.1 installlation) and boot the machine with the
+USB. Select `repair` instead of install option. Try to find option `Command
+Prompt` (and it may be hidden in advanced options/tools) and select it. In the
+command prompt execute the following commands.
+
+```cmd
+bootrec /RebuildBcd
+bootrec /fixMbr
+bootrec /fixboot
+exit
+```
+
+Remove the USB drive and the MBR or bootloader should have been fixed by this
+time.
