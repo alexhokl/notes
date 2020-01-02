@@ -1,4 +1,7 @@
-
+- [to extract delimited text](#to-extract-delimited-text)
+- [to extract certain lines in a file](#to-extract-certain-lines-in-a-file)
+- [to find multiple words in a file](#to-find-multiple-words-in-a-file)
+- [to do arithmetic](#to-do-arithmetic)
 ____
 
 ### to extract delimited text

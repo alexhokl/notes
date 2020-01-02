@@ -1,4 +1,5 @@
-
+- [Links](#links)
+- [Commands](#commands)
 ____
 
 ### Links

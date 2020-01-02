@@ -9,6 +9,7 @@
   * [Rollback](#rollback)
   * [Queries](#queries)
   * [GitHub](#github)
+- [Links](#links)
 ____
 
 ## Setup

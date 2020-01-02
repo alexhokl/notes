@@ -1,3 +1,6 @@
+- [To start console](#to-start-console)
+- [To connect to bluetooth device](#to-connect-to-bluetooth-device)
+____
 ### To start console
 
 ```sh

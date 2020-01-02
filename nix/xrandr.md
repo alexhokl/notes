@@ -1,3 +1,10 @@
+- [To list the existing ports for display and available resolutions](#to-list-the-existing-ports-for-display-and-available-resolutions)
+- [To list all the monitors](#to-list-all-the-monitors)
+- [To extend to another display (rather than mirroring)](#to-extend-to-another-display-rather-than-mirroring)
+- [To reset virtual desktops after unplugging](#to-reset-virtual-desktops-after-unplugging)
+- [To explicitly turn off a monitor](#to-explicitly-turn-off-a-monitor)
+- [To mirror displays](#to-mirror-displays)
+____
 ### To list the existing ports for display and available resolutions
 
 ```sh
