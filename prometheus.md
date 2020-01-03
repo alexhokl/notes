@@ -1,3 +1,42 @@
+## Links
+
+- [Reveal Your Deepest Kubernetes Metrics - Bob Cotton, Freshtracks.io](https://www.youtube.com/watch?v=1oJXMdVi0mM)
+
+## Types of metrics
+
+- `cAdvisor` - container metrics such as CPU, memory, memory and disk of a
+  cluster exposed by kubetlet
+- `node_exporter` - node metrics
+
+## Abstractions of Metrics
+
+### Four Golden Signals
+
+This is originated from [Google SRE Handbook](https://landing.google.com/sre/books/).
+
+- Latency — The time it takes to service a request
+- Traffic — A measure of how much demand is being placed on your system
+- Errors — The rate of requests that fail
+- Saturation — How “full” your service is.
+
+### USE Method
+
+This focuses on resources.
+
+- Resource: all physical server functional components (CPUs, disks, buses, ...)
+- Utilization: the average time that the resource was busy servicing work
+- Saturation: the degree to which the resource has extra work which it cannot
+  service, often queued
+- Errors: the count of error events
+
+### RED Method
+
+This focuses on services.
+
+- Rate: The number of requests per second.
+- Errors: The number of those requests that are failing.
+- Duration: The amount of time those requests take.
+
 ## Node Exporter
 
 - [Available metrics (via unit test of node-exporter)](https://github.com/prometheus/node_exporter/blob/master/collector/fixtures/e2e-output.txt)
