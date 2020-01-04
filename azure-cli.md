@@ -73,6 +73,24 @@ RESOURCE_ID=$(az network public-ip list -o json | jq -r --arg IP "$IP" '.[] | se
 az network public-ip update --ids $RESOURCE_ID --dns-name your-dns-name
 ```
 
+##### To list network security groups (NSGs)
+
+```sh
+az network nsg list | jq -r '.[] | {name:.name, rg:.resourceGroup}'
+```
+
+##### To list rules related to a specified destination port
+
+```sh
+az network nsg list | jq -r '.[] | select(.name=="your-nsg-name") | .securityRules[] | select(.destinationPortRange=="1433")'
+```
+
+##### To update a NSG rule to have a specific source IP
+
+```sh
+az network nsg rule update -g your-resource-group-name --nsg-name your-nsg-name -n your-nsg-rule-name --source-address-prefix '300.300.300.300'
+```
+
 ### AKS
 
 ##### Cluster token
