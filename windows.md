@@ -5,6 +5,8 @@
     + [IIS ASP.NET Administration](#iis-aspnet-administration)
     + [IIS FTP Administration](#iis-ftp-administration)
     + [Windows 10](#windows-10)
+- [Troubleshooting](#troubleshooting)
+  * [Bootloader](#bootloader)
 ____
 
 ##### Shortcuts
