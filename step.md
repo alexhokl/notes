@@ -68,7 +68,7 @@ step certificate create -csr test.smallstep.com test.csr test.key
 step crypto keypair k.pub k.prv --kty RSA --size 4096
 ```
 
-### To generate key pair using RSA
+### To generate key pair using elliptic curve
 
 ```sh
 step crypto keypair k.pub k.prv --kty EC --curve P-256
