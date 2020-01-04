@@ -74,9 +74,9 @@ Average number of CPUs in a node | count(node_cpu_seconds_total{mode="system"}) 
 1-minute load | sum by (instance) (node_load1{job="node-exporter"})
 5-minute load | sum by (instance) (node_load5{job="node-exporter"})
 15-minute load | sum by (instance) (node_load15{job="node-exporter"})
-CPU Utilisation using 1-minute load | sum(node_load1) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
-CPU Utilisation using 5-minute load | sum(node_load5) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
-CPU Utilisation using 15-minute load | sum(node_load15) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
+CPU Saturation using 1-minute load | sum(node_load1) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
+CPU Saturation using 5-minute load | sum(node_load5) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
+CPU Saturation using 15-minute load | sum(node_load15) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
 Data transmitted | rate(node_network_transmit_bytes_total{device!="lo"}[5m])
 Data received | rate(node_network_receive_bytes_total{device!="lo"}[5m])
 Node total disk size (Gb) | sum (node_filesystem_size_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
