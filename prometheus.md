@@ -83,4 +83,4 @@ Node total disk size (Gb) | sum (node_filesystem_size_bytes{job="node-exporter",
 Node available disk size (Gb) | sum (node_filesystem_avail_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
 Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter"}[1m]))/1024/1024
 Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter"}[1m]))/1024/1024
-Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=~"ext4\|xfs"}) * 100
+Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=\~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=\~"ext4\|xfs"}) * 100
