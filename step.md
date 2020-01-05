@@ -7,7 +7,7 @@
   * [To create a certificate signed by a CA (and a private key)](#to-create-a-certificate-signed-by-a-ca-and-a-private-key)
 - [Keys](#keys)
   * [To generate key pair using RSA](#to-generate-key-pair-using-rsa)
-  * [To generate key pair using RSA](#to-generate-key-pair-using-rsa-1)
+  * [To generate key pair using elliptic curve](#to-generate-key-pair-using-elliptic-curve)
 ____
 
 ## OAuth 2.0
