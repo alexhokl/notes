@@ -1,28 +1,32 @@
 - [Links](#links)
 - [Types of metrics](#types-of-metrics)
 - [Abstractions of Metrics](#abstractions-of-metrics)
-  * [Four Golden Signals](#four-golden-signals)
-  * [USE Method](#use-method)
-  * [RED Method](#red-method)
-- [Node Exporter](#node-exporter)
-  * [Examples](#examples)
-- [PromQL](#promql)
-  * [Tips](#tips)
-- [Alert Manager](#alert-manager)
-- [Grafana](#grafana)
-- [Kubernetes](#kubernetes)
+    + [Four Golden Signals](#four-golden-signals)
+    + [USE Method](#use-method)
+    + [RED Method](#red-method)
+- [Metric sources](#metric-sources)
+  * [Node Exporter](#node-exporter)
+    + [Examples](#examples)
+  * [cAdvisor](#cadvisor)
+    + [Examples](#examples-1)
+- [Other topics](#other-topics)
+  * [PromQL](#promql)
+    + [Tips](#tips)
+  * [Alert Manager](#alert-manager)
+  * [Grafana](#grafana)
+  * [Kubernetes](#kubernetes)
 ____
-## Links
+# Links
 
 - [Reveal Your Deepest Kubernetes Metrics - Bob Cotton, Freshtracks.io](https://www.youtube.com/watch?v=1oJXMdVi0mM)
 
-## Types of metrics
+# Types of metrics
 
 - `cAdvisor` - container metrics such as CPU, memory, memory and disk of a
   cluster exposed by kubetlet
 - `node_exporter` - node metrics
 
-## Abstractions of Metrics
+# Abstractions of Metrics
 
 ### Four Golden Signals
 
@@ -50,6 +54,8 @@ This focuses on services.
 - Rate: The number of requests per second.
 - Errors: The number of those requests that are failing.
 - Duration: The amount of time those requests take.
+
+# Metric sources
 
 ## Node Exporter
 
@@ -121,6 +127,8 @@ utilisation | Data rate | sum(rate(container_network_receive_bytes_total[5m])) b
 saturation | Packet drop /s | sum(rate(container_network_receive_packets_dropped_total[5m])) by (name) + sum(rate(container_network_transmit_packets_dropped_total[5m])) by (name)
 error | Network error rate | sum by (name) (rate(container_network_receive_errors_total[5m])) + sum by (name) (rate(container_network_transmit_errors_total[5m]))
 utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total[5m])) by (container_name,device) + sum(rate(container_fs_reads_bytes_total[5m])) by (container_name,device)
+
+# Other topics
 
 ## PromQL
 
