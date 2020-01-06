@@ -57,6 +57,16 @@ openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout selfsigned.key -out 
 Note that `-nodes` stands for "no DES" where the user will not be asked for
 a password to encrypt the private key.
 
+##### To generate key pair using elliptic curve P-256
+
+```sh
+openssl ecparam -name prime256v1 -genkey -out k.prv
+openssl ec -in k.prv -pubout -out k.pub
+```
+
+Note that this is equivalent to using [smallstep
+CLI](https://github.com/alexhokl/notes/blob/master/step.md#to-generate-key-pair-using-elliptic-curve).
+
 ##### To convert CRT TO PEM
 
 ```sh
