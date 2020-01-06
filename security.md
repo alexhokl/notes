@@ -12,6 +12,7 @@
     + [JWS Compact Serialization](#jws-compact-serialization)
     + [JWS JSON Serialization](#jws-json-serialization)
 - [Public Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+  * [Links](#links-1)
   * [Certificate](#certificate)
   * [PKI](#pki)
     + [Web PKI](#web-pki)
@@ -46,8 +47,6 @@ ____
   Ryck](https://www.youtube.com/watch?v=GyCL8AJUhww)
 - [Why the Resource Owner Password Credentials Grant Type is not Authentication
   nor Suitable for Modern Applications](https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications)
-- [Everything you should know about certificates and PKI but are too afraid to
-  ask](https://smallstep.com/blog/everything-pki/)
 
 # OpenID
 
@@ -145,6 +144,11 @@ Combination of the following 3 components
   - `signature` - with the value BASE64URL(JWS Signature)
 
 # Public Key Infrastructure (PKI)
+
+## Links
+
+- [Everything you should know about certificates and PKI but are too afraid to
+  ask](https://smallstep.com/blog/everything-pki/)
 
 ## Certificate
 
