@@ -103,6 +103,14 @@ curl --compressed http://localhost/testing
 curl -k https://localhost/testing
 ```
 
+Note that this disables certificate path validation.
+
+###### To specify root/CA certificate to establish TLS connection
+
+```sh
+curl --cacert root.crt https://localhost:8443/testing
+```
+
 ###### To include protocol headers in the output
 
 ```sh
