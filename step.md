@@ -8,6 +8,10 @@
 - [Keys](#keys)
   * [To generate key pair using RSA](#to-generate-key-pair-using-rsa)
   * [To generate key pair using elliptic curve](#to-generate-key-pair-using-elliptic-curve)
+- [Certificate Authority](#certificate-authority)
+  * [To generate a certificate and a private key for a domain using Let's Encrypt](#to-generate-a-certificate-and-a-private-key-for-a-domain-using-lets-encrypt)
+  * [To get root cert(s) from CA](#to-get-root-certs-from-ca)
+  * [To generate a certificate and a private key from a local CA](#to-generate-a-certificate-and-a-private-key-from-a-local-ca)
 ____
 
 ## OAuth 2.0
@@ -72,4 +76,28 @@ step crypto keypair k.pub k.prv --kty RSA --size 4096
 
 ```sh
 step crypto keypair k.pub k.prv --kty EC --curve P-256
+```
+
+## Certificate Authority
+
+### To generate a certificate and a private key for a domain using Let's Encrypt
+
+```sh
+step ca certificate testing.dev testing.dev.crt testing.dev.key --acme https://acme-staging-v02.api.letsencrypt.org/directory --san testing.dev
+```
+
+Note that staging server of Let's Encrypt is used.
+
+### To get root cert(s) from CA
+
+```sh
+step ca root root.crt --fingerprint 4324324324 --ca-url https://127.0.0.1:4443
+```
+
+Assuming a CA server has been setup locally.
+
+### To generate a certificate and a private key from a local CA
+
+```sh
+step ca certificate localhost server.crt server.key --ca-url https://127.0.0.1:4443
 ```
