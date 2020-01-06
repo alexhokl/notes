@@ -17,7 +17,11 @@
     + [Web PKI](#web-pki)
     + [Internal PKI](#internal-pki)
   * [Trust & Trustworthiness](#trust--trustworthiness)
-- [TLS](#tls)
+  * [Certificate Authority](#certificate-authority)
+  * [Key and Certificate Lifecycle](#key-and-certificate-lifecycle)
+  * [Using Certificates](#using-certificates)
+  * [TLS](#tls)
+- [File types](#file-types)
     + [.csr (Certificate Signing Request)](#csr-certificate-signing-request)
     + [.pem (Privacy Enhanced Mail)](#pem-privacy-enhanced-mail)
     + [.key](#key)
@@ -158,7 +162,7 @@ the PKIX variant described in [RFC 5280](https://tools.ietf.org/html/rfc5280)
 and further refined by the CA/Browser Forum’s Baseline Requirements. This is
 the kind of certificates that browsers understand and use for HTTPS (HTTP over
 TLS). There are other certificate formats.  Notably, SSH and PGP both have
-their own. 
+their own.
 
 If you’ve ever looked at an X.509 certificate and wondered why something
 designed for the web encodes a locality, state, and country here’s your answer:
@@ -225,7 +229,7 @@ carry a `.prv`, `.key`, or `.pem` extension.
 ## PKI
 
 PGP uses certificates, but doesn’t use CAs. Instead it uses a web-of-trust
-model. 
+model.
 
 ### Web PKI
 
@@ -299,14 +303,164 @@ might try CAA records and properly configured RPs. You might also want to check
 out SPIFFE, an evolving standardization effort that addresses this problem and
 a number of others related to internal PKI.
 
-# TLS
+## Certificate Authority
+
+A CA is a trusted certificate issuer. It vouches for the binding between
+a public key and a name by signing a certificate. Fundamentally, a certificate
+authority is just another certificate and a corresponding private key that is
+used to sign other certificates. A CA with a self-signed root certificate
+included in trust stores is called a root CA. A root private key belonging to
+a Web PKI root CA can only be used to sign a certificate by issuing a direct
+command. Thus, web PKI root CAs cannot automate certificate signing. They
+cannot be online. Web PKI root certificates are broadly distributed in trust
+stores and hard to revoke. Best practice, therefore, is to keep root private
+keys offline. To make certificate issuance scalable (i.e., to make automation
+possible) when the root CA is not online, the root private key is only used
+infrequently to sign a few intermediate certificates. The corresponding
+intermediate private keys are used by intermediate CAs (also called subordinate
+CAs) to sign and issue leaf certificates to subscribers. Intermediates are not
+generally included in trust stores, making them easier to revoke and rotate, so
+certificate issuance from an intermediate typically is online and automated.
+The leaf is signed by the intermediate, the intermediate is signed by the root,
+and the root signs itself.
+
+When you configure a subscriber (e.g., a web server like Apache or Nginx or
+Linkerd or Envoy) you will typically need to provide not just the leaf
+certificate, but a certificate bundle that includes intermediate(s). PKCS#7 and
+PKCS#12 are sometimes used here because they can include a full certificate
+chain. When a subscriber sends its certificate to a relying party it includes
+any intermediate(s) necessary to chain back up to a trusted root. The relying
+party verifies the leaf and intermediate certificates in a process called
+certificate path validation. Certificate path validation is the part of TLS
+that does authentication. Encryption without authentication is pretty
+worthless. It is like a blind confessional: your conversation is private but
+you have no idea who is on the other side of the curtain.
+
+## Key and Certificate Lifecycle
+
+When a subscriber wants a certificate from a certificate authority, it
+generates a key pair and submits a request to a CA. The CA makes sure the name
+that will be bound in the certificate is correct and, if it is, signs and
+returns a certificate. Historically, X.509 used X.500 distinguished names (DNs)
+to name the subject of a certificate (a subscriber). One should not try to
+field all the fields in DN. Usually, common name in DN is enough. PKIX
+originally specified that the DNS hostname of a website should be bound in the
+the DN common name. More recently, the CAB Forum has deprecated this practice
+and made the entire DN optional. Instead, the modern best practices is to
+leverage the [subject alternative name (SAN) X.509
+extension](https://en.wikipedia.org/wiki/Subject_Alternative_Name) to bind
+a name in a certificate. There are four sorts of SANs in common use, all of
+which bind names that are broadly used and understood: domain names (DNS),
+email addresses, IP addresses, and URIs. Note also that Web PKI allows for
+multiple names to be bound in a certificate and allows for wildcards in names.
+A certificate can have multiple SANs, and can have SANs like *.smallstep.com.
+
+There is a slow but ongoing transition from RSA to elliptic curve keys (ECDSA
+or EdDSA). If you decide to use RSA keys make them at least 2048 bits, and
+don’t bother with anything bigger than 4096 bits. If you use ECDSA, the P-256
+curve is probably best (`secp256k1` or `prime256v1` in `openssl`).
+
+Once a subscriber has a name and key pair the next step is to obtain a leaf
+certificate from a CA. The CA is going to want to authenticate (prove) two
+things:
+
+- The public key to be bound in the certificate is the subscriber’s public key
+  (i.e., the subscriber knows the corresponding private key)
+  - achieved via a certificate signing request
+- The name to be bound in the certificate is the subscriber’s name
+  - achieved by identity proofing or registration
+
+Three types of identity proofing:
+
+- domain validation (DV)
+- organization validation (OV) - no one actually uses it
+- extended validation (EV)
+
+DV certificates bind a DNS name and are issued based on proof of control over
+a domain name. Proofing typically proceeds via a simple ceremony like sending
+a confirmation email to the administrative contact listed in WHOIS records. The
+ACME protocol, originally developed and used by Let’s Encrypt, improves this
+process with better automation: instead of using email verification an ACME CA
+issues a challenge that the subscriber must complete to prove it controls
+a domain. The challenge portion of the ACME specification is an extension
+point, but common challenges include serving a random number at a given URL
+(the HTTP challenge) and placing a random number in a DNS `TXT` record (the DNS
+challenge).
+
+To address the problem with organization validation (OV), CAB Forum introduced
+EV certificates. They include the same basic information but mandate strict
+verification (identity proofing) requirements. The EV process can take days or
+weeks and can include public records searches and attestations (on paper)
+signed by corporate officers (with pens). After all this, when you visit
+a website that uses an EV certificate some browsers display the name of the
+organization in the URL bar. Outside this limited use in browsers, EV
+certificates are not widely leveraged or required by Web PKI relying parties.
+
+For internal PKI you can use any process you want for identity proofing. If you
+trust Chef or Puppet or Ansible or Kubernetes to put code on servers, you can
+trust them for identity attestations. If you’re using raw AMIs on AWS you can
+use instance identity documents (GCP and Azure have similar functionality).
+
+Your provisioning infrastructure must have some notion of identity in order to
+put the right code in the right place and start things up. And you must trust
+it. You can leverage this knowledge and trust to configure RP trust stores and
+bootstrap subscribers into your internal PKI. All you need to do is come up
+with some way for your provisioning infrastructure to tell your CA the identity
+of whatever is starting up.
+
+X.509 certificates include a validity period. It is up to each RP to check
+whether a certificate has expired.
+
+If a key pair was used for signing/authentication (e.g., with TLS) one should
+delete the private key once it is no longer needed. Keeping a signing key
+around is an unnecessary security risk: it is no good for anything but
+fraudulent signatures. If you have ever been told not to use the same key pair
+for signing and encryption, this is the main reason.
+
+There’s actually no standard renewal process for Web PKI. So the renewal
+process is the same as the issuance process: generate and submit a CSR and
+fulfill any identity proofing obligations.
+
+For internal PKI, we can do better. The easiest thing to do is to use your old
+certificate with a protocol like mutual TLS to renew. The CA can authenticate
+the client certificate presented by the subscriber, re-sign it with an extended
+expiry, and return the new certificate in response. This makes automated
+renewal very easy and still forces subscribers to periodically check in with
+a central authority. You can use this checkin process to easily build
+monitoring and revocation facilities.
+
+Let’s Encrypt makes automation easy and issues 90 day certificates, which is
+pretty good for Web PKI. For internal PKI you should probably go even shorter:
+twenty-four hours or less.
+
+Like expiration, the onus is on RPs to enforce revocations. Unlike expiration,
+the revocation status cannot be encoded in the certificate. The RP has to
+determine the certificate’s revocation status via some out-of-band process.
+Unless explicitly configured, most Web PKI TLS RPs do not bother. In other
+words, by default, most TLS implementations will happily accept revoked
+certificates.
+
+For internal PKI the trend is towards accepting this reality and using passive
+revocation. That is, issuing certificates that expire quickly enough that
+revocation is not necessary.
+
+## Using Certificates
+
+- To configure a PKI relying party you tell it which root certificates to use
+- To configure a PKI subscriber you tell it which certificate and private key
+  to use (or tell it how to generate its own key pair and exchange a CSR for
+  a certificate itself)
+
+## TLS
 
 TLS is successor of SSL (SSL 2.0 and SSL 3.0) and it has 4 versions.
 
 - 1.0 (will be deprecated soon)
 - 1.1 (will be deprecated soon)
 - 1.2
-- 1.3 
+- 1.3
+
+# File types
 
 ### .csr (Certificate Signing Request)
 
