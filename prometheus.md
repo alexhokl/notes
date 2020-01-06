@@ -38,7 +38,7 @@ This is originated from [Google SRE Handbook](https://landing.google.com/sre/boo
 This focuses on resources.
 
 - Resource: all physical server functional components (CPUs, disks, buses, ...)
-- Utilization: the average time that the resource was busy servicing work
+- Utilisation: the average time that the resource was busy servicing work
 - Saturation: the degree to which the resource has extra work which it cannot
   service, often queued
 - Errors: the count of error events
@@ -73,18 +73,15 @@ node_load15 | 15-minute load average - number of processes to be processed in th
 
 ### Examples
 
-Type | Statistic | Formula
+Type | Statistic | PromQL
 --- | --- | ---
-- | % Memory available | sum by (instance) ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100)
-- | % Memory available | sum by (instance) (((node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) * 100)
-utilisation | % Memory utilisation | (1 - sum by (instance) (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100
 - | Total number of CPUs in a cluster | count(node_cpu_seconds_total{mode="system"}) by (node)
 - | Average number of CPUs in a node | count(node_cpu_seconds_total{mode="system"}) by (instance)
 utilisation | CPU Core usage count | sum(rate(node_cpu_seconds_total{mode!="idle"}[5m])) BY (instance)
 utilisation | CPU Core usage count without `iowait` | sum(rate(node_cpu_seconds_total{mode!="idle",mode!="iowait"}[5m])) BY (instance)
-utilisation | % CPU utilization | 1 - avg without (mode,cpu) (rate(node_cpu_seconds_total{mode="idle"}[5m]))
-utilisation | % CPU utilization | (1 - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])))  * 100
-utilisation | % CPU utilization without `iowait` | (1 - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])) - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="iowait"}[5m]))) * 100
+utilisation | % CPU utilisation | 1 - avg without (mode,cpu) (rate(node_cpu_seconds_total{mode="idle"}[5m]))
+utilisation | % CPU utilisation | (1 - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])))  * 100
+utilisation | % CPU utilisation without `iowait` | (1 - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])) - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="iowait"}[5m]))) * 100
 - | % CPU Idle | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])))  * 100
 - | % CPU I/O wait | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="iowait"}[5m])))  * 100
 - | % CPU System usage | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="system"}[5m])))  * 100
@@ -96,6 +93,9 @@ utilisation | % CPU utilization without `iowait` | (1 - avg by (environment,inst
 saturation | CPU Saturation using 1-minute load | sum(node_load1) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
 saturation | CPU Saturation using 5-minute load | sum(node_load5) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
 saturation | CPU Saturation using 15-minute load | sum(node_load15) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
+- | % Memory available | sum by (instance) ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100)
+- | % Memory available | sum by (instance) (((node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) * 100)
+utilisation | % Memory utilisation | (1 - sum by (instance) (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100
 - | Data transmitted | rate(node_network_transmit_bytes_total{device!="lo"}[5m])
 - | Data received | rate(node_network_receive_bytes_total{device!="lo"}[5m])
 utilisation | Data Mb/s | (sum(rate(node_network_receive_bytes_total[5m])) by (instance) + sum(rate(node_network_transmit_bytes_total[5m])) by (instance)) / 1024 / 1024
@@ -106,6 +106,21 @@ error | Network error rate | sum by (instance) (rate(node_network_receive_errs_t
 - | Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter"}[1m]))/1024/1024
 - | Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter"}[1m]))/1024/1024
 - | Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=\~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=\~"ext4\|xfs"}) * 100
+
+## cAdvisor
+
+### Examples
+
+Type | Statistic | PromQL
+--- | --- | ---
+utilisation | CPU Utilisation | sum(rate(container_cpu_usage_seconds_total[5m])) by (container_name)
+saturation | CPU Saturation | sum(rate(container_cpu_cfs_throttled_seconds_total[5m])) by (container_name)
+utilisation | Memory Utilisation | sum(container_memory_working_set_bytes{name!~"POD"}) by name
+saturation | Memory Saturation | sum(container_memory_working_set_bytes) by (container_name) / sum(label_join(kube_pod_container_resource_limits_memory_bytes, "container_name", "", "container")) by (container_name)
+utilisation | Data rate | sum(rate(container_network_receive_bytes_total[5m])) by (name) + sum(rate(container_network_transmit_bytes_total[5m])) by (name)
+saturation | Packet drop /s | sum(rate(container_network_receive_packets_dropped_total[5m])) by (name) + sum(rate(container_network_transmit_packets_dropped_total[5m])) by (name)
+error | Network error rate | sum by (name) (rate(container_network_receive_errors_total[5m])) + sum by (name) (rate(container_network_transmit_errors_total[5m]))
+utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total[5m])) by (container_name,device) + sum(rate(container_fs_reads_bytes_total[5m])) by (container_name,device)
 
 ## PromQL
 
@@ -134,3 +149,12 @@ error | Network error rate | sum by (instance) (rate(node_network_receive_errs_t
 - if memory limits are implemented correctly, a node should never go into
   paging (or swap space). `node_exporter` metrics `node_vmstat_pgpgin` and
   `node_vmstat_pgpgin` can be used to indicate such activities.
+- The “container” metrics that are exposed from `cAdvisor` are ultimately the
+  metrics reported by the underlying Linux `cgroup` implementation.
+- CPU limit and request are specified as fractions of a CPU or core (down to
+  1/1000th) and those of memory is specified in bytes. If you set only limits,
+  the request will be the same as the limit. Limits give you one knob to
+  over-provision containers on a node as limits are not accounted for by the
+  Kubernetes scheduler. That being said, if your container exceeds your limits
+  the action depends on the resource; you will be throttled if you exceed the
+  CPU limit, and killed if you exceed the memory limit.
