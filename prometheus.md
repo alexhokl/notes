@@ -15,6 +15,9 @@
   * [Alert Manager](#alert-manager)
   * [Grafana](#grafana)
   * [Kubernetes](#kubernetes)
+  * [Tools](#tools)
+    + [Installation](#installation)
+    + [To check Prometheus file](#to-check-prometheus-file)
 ____
 # Links
 
@@ -166,3 +169,17 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total[5m])) 
   Kubernetes scheduler. That being said, if your container exceeds your limits
   the action depends on the resource; you will be throttled if you exceed the
   CPU limit, and killed if you exceed the memory limit.
+
+## Tools
+
+### Installation
+
+```sh
+go get github.com/prometheus/prometheus/cmd/...
+```
+
+### To check Prometheus file
+
+```sh
+promtool check rule your-rule-filename.yml
+```
