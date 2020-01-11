@@ -183,6 +183,26 @@ dotnet ef database update -c YourDataContext --project Your.Project.Name --start
 dotnet ef migrations remove YourMigrationName --project Your.Project.Name
 ```
 
+##### To install format tool
+
+```sh
+dotnet tool install -g dotnet-format
+```
+
+##### To format code according to .editorconfig
+
+```sh
+dotnet format
+```
+
+[`.editorconfig`](https://github.com/dotnet/roslyn/blob/master/.editorconfig) of Roslyn team
+
+##### To check if code has been formatted according to .editorconfig
+
+```sh
+dotnet format --dry-run --check -v n
+```
+
 ### Nuget
 
 ##### To install Nuget on macOS/Linux [link](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#macoslinux)
