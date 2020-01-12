@@ -123,6 +123,12 @@ curl -i http://localhost/testing
 curl -I http://localhost/testing
 ```
 
+###### To return HTTP status code only
+
+```sh
+curl -s -o /dev/null -I -w "%{http_code}" https://github.com
+```
+
 ###### Verbose mode
 
 ```sh
