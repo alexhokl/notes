@@ -84,37 +84,37 @@ node_load15 | 15-minute load average - number of processes to be processed in th
 
 Type | Statistic | PromQL
 --- | --- | ---
-- | Total number of CPUs in a cluster | count(node_cpu_seconds_total{mode="system"}) by (node)
-- | Average number of CPUs in a node | count(node_cpu_seconds_total{mode="system"}) by (instance)
+N/A | Total number of CPUs in a cluster | count(node_cpu_seconds_total{mode="system"}) by (node)
+N/A | Average number of CPUs in a node | count(node_cpu_seconds_total{mode="system"}) by (instance)
 utilisation | CPU Core usage count | sum(rate(node_cpu_seconds_total{mode!="idle"}[5m])) BY (instance)
 utilisation | CPU Core usage count without `iowait` | sum(rate(node_cpu_seconds_total{mode!="idle",mode!="iowait"}[5m])) BY (instance)
 utilisation | % CPU utilisation | 1 - avg without (mode,cpu) (rate(node_cpu_seconds_total{mode="idle"}[5m]))
 utilisation | % CPU utilisation | (1 - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])))  * 100
 utilisation | % CPU utilisation without `iowait` | (1 - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])) - avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="iowait"}[5m]))) * 100
-- | % CPU Idle | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])))  * 100
-- | % CPU I/O wait | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="iowait"}[5m])))  * 100
-- | % CPU System usage | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="system"}[5m])))  * 100
-- | % CPU User usage | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="user"}[5m])))  * 100
-- | % CPU Other usages | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode=~"softirq\|nice\|irq\|steal"}[5m])))  * 100
-- | 1-minute load | sum by (instance) (node_load1{job="node-exporter"})
-- | 5-minute load | sum by (instance) (node_load5{job="node-exporter"})
-- | 15-minute load | sum by (instance) (node_load15{job="node-exporter"})
+N/A | % CPU Idle | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="idle"}[5m])))  * 100
+N/A | % CPU I/O wait | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="iowait"}[5m])))  * 100
+N/A | % CPU System usage | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="system"}[5m])))  * 100
+N/A | % CPU User usage | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode="user"}[5m])))  * 100
+N/A | % CPU Other usages | (avg by (environment,instance) (irate(node_cpu_seconds_total{job="node-exporter",mode=~"softirq\|nice\|irq\|steal"}[5m])))  * 100
+N/A | 1-minute load | sum by (instance) (node_load1{job="node-exporter"})
+N/A | 5-minute load | sum by (instance) (node_load5{job="node-exporter"})
+N/A | 15-minute load | sum by (instance) (node_load15{job="node-exporter"})
 saturation | CPU Saturation using 1-minute load | sum(node_load1) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
 saturation | CPU Saturation using 5-minute load | sum(node_load5) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
 saturation | CPU Saturation using 15-minute load | sum(node_load15) by (instance) / count(node_cpu_seconds_total{mode="system"}) by (instance) * 100
-- | % Memory available | sum by (instance) ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100)
-- | % Memory available | sum by (instance) (((node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) * 100)
+N/A | % Memory available | sum by (instance) ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100)
+N/A | % Memory available | sum by (instance) (((node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) * 100)
 utilisation | % Memory utilisation | (1 - sum by (instance) (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100
-- | Data transmitted | rate(node_network_transmit_bytes_total{device!="lo"}[5m])
-- | Data received | rate(node_network_receive_bytes_total{device!="lo"}[5m])
+N/A | Data transmitted | rate(node_network_transmit_bytes_total{device!="lo"}[5m])
+N/A | Data received | rate(node_network_receive_bytes_total{device!="lo"}[5m])
 utilisation | Data Mb/s | (sum(rate(node_network_receive_bytes_total[5m])) by (instance) + sum(rate(node_network_transmit_bytes_total[5m])) by (instance)) / 1024 / 1024
 saturation | Packet drop /s | sum(rate(node_network_receive_drop_total[5m])) by (instance) + sum(rate(node_network_transmit_drop_total[5m])) by (instance)
 error | Network error rate | sum by (instance) (rate(node_network_receive_errs_total[5m])) + sum by (instance) (rate(node_network_transmit_errs_total[5m]))
-- | Node total disk size (Gb) | sum (node_filesystem_size_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
-- | Node available disk size (Gb) | sum (node_filesystem_avail_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
-- | Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter"}[1m]))/1024/1024
-- | Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter"}[1m]))/1024/1024
-- | Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=\~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=\~"ext4\|xfs"}) * 100
+N/A | Node total disk size (Gb) | sum (node_filesystem_size_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
+N/A | Node available disk size (Gb) | sum (node_filesystem_avail_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
+N/A | Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter"}[1m]))/1024/1024
+N/A | Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter"}[1m]))/1024/1024
+N/A | Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=\~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=\~"ext4\|xfs"}) * 100
 
 ## cAdvisor
 
