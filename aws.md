@@ -98,6 +98,12 @@ aws s3 mb s3://your-bucket-name
 aws s3 cp --recursive s3://your-bucket/ ./
 ```
 
+##### To change tiering of objects in a directory
+
+```sh
+aws s3 cp --recursive --storage-class INTELLIGENT_TIERING s3://your-bucket-name s3://your-bucket-name
+```
+
 ### Lambda
 
 #### .NET Core
