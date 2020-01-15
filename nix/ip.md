@@ -30,6 +30,18 @@ after the interface is turned off.
 sudo ip addr del 192.168.123.123/24 dev eth1
 ```
 
+###### To change an interface to use static IP
+
+```sh
+sudo ifconfig eth0 192.168.300.300 netmask 0.0.0.0 up
+```
+
+###### To change an interface to use DHCP
+
+```sh
+sudo ifconfig eth0 0.0.0.0 0.0.0.0 && sudo dhclient
+```
+
 ###### To enable a network interface
 
 ```sh
