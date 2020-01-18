@@ -33,6 +33,13 @@ ssh admin@192.168.200.3
 
 Note that the password has been set upon initialization of Unifi Controller.
 
+### To check information of a device
+
+```sh
+ssh admin@192.168.200.3
+info
+```
+
 ### To change IP of controller in an adopted device
 
 ```sh
