@@ -44,3 +44,9 @@ jq 'keys'
 ```
 
 Note that the result is a json array
+
+##### To count an json array
+
+```sh
+jq length
+```
