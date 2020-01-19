@@ -135,6 +135,7 @@ done
 - `elif` else-if
 - `[ -d some-directory ]` checks if directory `some-directory` exists
 - `[ -f some-file ]` checks if file `some-file` exists
+- `[ -L some-link ]` checks if a symbolic link exists
 - `[ ! -f some-file ]` checks if file `some-file` not exists
 - `[ -f *suffix ]` checks if file with suffix `suffix` exists
 
