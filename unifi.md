@@ -1,3 +1,11 @@
+- [Links](#links)
+- [Recipes](#recipes)
+  * [USG](#usg)
+  * [To adopt a pending-adopt/un-provisioned device](#to-adopt-a-pending-adoptun-provisioned-device)
+  * [To SSH into an adopted (or a provisioned) device](#to-ssh-into-an-adopted-or-a-provisioned-device)
+  * [To change IP of controller in an adopted device](#to-change-ip-of-controller-in-an-adopted-device)
+  * [To fix adoption loop of a device](#to-fix-adoption-loop-of-a-device)
+____
 ## Links
 
 - [UniFi - Troubleshooting Device Adoption
