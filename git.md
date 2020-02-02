@@ -441,6 +441,15 @@ Assuming HEAD is at the commit where "history" begins
 git checkout --orphan new_branch_name
 ```
 
+##### To replace one branch with another
+
+```sh
+git checkout new-master
+git merge -s ours master
+git checkout master
+git merge new-master
+```
+
 ##### Moving large files to LFS
 
 - install git lfs
