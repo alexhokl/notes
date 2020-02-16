@@ -330,6 +330,21 @@ spec:
     limits.memory: 2Gi
 ```
 
+## Concepts
+
+### Operator pattern
+
+- Operators are clients of the Kubernetes API that act as controllers for
+  a custom resource.
+- The most common way to deploy an Operator is to add the Custom Resource
+  Definition and its associated Controller to your cluster. The Controller will
+  normally run outside of the control plane, much as you would run any
+  containerized application. For example, you can run the controller in your
+  cluster as a Deployment.
+- Assuming operator of custom resource `SampleDB` has been deployed, to apply
+  new changes to the resource, simply use `kubectl edit
+  SampleDB/example-database`.
+
 ### Minikube
 
 ##### To start with VirtualBox (default)
@@ -394,3 +409,4 @@ minikube service your-service-name --url --namespace default
   continuous delivery platform that helps you release software changes with
   high velocity and confidence
 - [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
+- [OperatorHub.io](https://operatorhub.io/)
