@@ -1,11 +1,15 @@
 - [Commands](#commands)
 - [Resource Definitions](#resource-definitions)
+- [Concepts](#concepts)
+  * [Operator pattern](#operator-pattern)
+  * [Daemonset](#daemonset)
+  * [Statefulset](#statefulset)
 - [Minikube](#minikube)
-- [Secret Management](#secret-management)
-- [Links](#links)
+  * [Secret Management](#secret-management)
+  * [Links](#links)
 ____
 
-### Commands
+## Commands
 
 ###### To add docker login to the current kubernetes cluster
 
@@ -278,7 +282,7 @@ or, of pods
 kubectl top pod
 ```
 
-### Resource Definitions
+## Resource Definitions
 
 ##### To add a sidecar container to pump logs to pump logs to stdout
 
@@ -345,7 +349,31 @@ spec:
   new changes to the resource, simply use `kubectl edit
   SampleDB/example-database`.
 
-### Minikube
+### Daemonset
+
+- The way to install a single something on every machine. Kubernetes will
+  ensure there is only one instance on every machine and restart it if
+  necessary.
+
+### Statefulset
+
+It is valuable for applications that require one or more of the following
+
+- Stable, unique network identifiers
+  - pod name
+    - `$(statefulset name)-$(ordinal)`
+    - `$(podname).$(governing service domain)`
+  - service name
+    - `$(service name).$(namespace).svc.cluster.local`
+- Stable, persistent storage
+  - by using `VolumeClaimTemplate`
+  - the `PersistentVolume`s associated with the Pods’ `PersistentVolume` Claims
+    are not deleted when the Pods, or `StatefulSet` are deleted. This must be
+    done manually.
+- Ordered, graceful deployment and scaling
+- Ordered, automated rolling updates
+
+## Minikube
 
 ##### To start with VirtualBox (default)
 
