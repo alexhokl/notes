@@ -4,17 +4,10 @@
     + [Database performance](#database-performance)
     + [Database table manipulations](#database-table-manipulations)
     + [Query](#query)
+    + [Troubleshooting](#troubleshooting)
 ____
 
 # Database and T-SQL
-
-Contents
-
--	[Tools](#tools)
--	[Database Operations](#database-operations)
--	[Database performance](#database-performance)
--	[Database table manipulations](#database-table-manipulations)
--	[Query](#query)
 
 ### Tools
 
@@ -837,3 +830,14 @@ To change the collation of a column,
 ```sql
 ALTER TABLE MyTable ALTER COLUMN MyColumn VARCHAR(10) COLLATE Latin1_General_CI_AS NOT NULL;
 ```
+
+### Troubleshooting
+
+##### To check network connection
+
+```sh
+telnet your-mssql-server.example.com 1433
+```
+
+Note if the connection works fine, a blank page would be shown; an error
+message would be shown, otherwise.
