@@ -15,6 +15,8 @@
   * [Alert Manager](#alert-manager)
   * [Grafana](#grafana)
   * [Kubernetes](#kubernetes)
+  * [Operations](#operations)
+    + [To deploy Prometheus Operator](#to-deploy-prometheus-operator)
   * [Tools](#tools)
     + [Installation](#installation)
     + [To check Prometheus file](#to-check-prometheus-file)
@@ -169,6 +171,157 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total[5m])) 
   Kubernetes scheduler. That being said, if your container exceeds your limits
   the action depends on the resource; you will be throttled if you exceed the
   CPU limit, and killed if you exceed the memory limit.
+
+## Operations
+
+### To deploy Prometheus Operator
+
+```sh
+git clone https://github.com/coreos/kube-prometheus
+cd kube-prometheus
+```
+
+There is a problem with release `0.3` (and probably since `0.2`) where
+`nodeSelector` does not work. To workaround this problem, remove any
+`nodeSelector` in all files in `/manifest` directory.
+
+There is a problem with `kubelet` setup on AKS (Azure Kubernetes Service) and it
+is likely related to [this issue](https://github.com/Azure/AKS/issues/1087).
+The workaround is to replace all `https` and `https-metrics` to `http` and
+`http-metrics` respectively in
+`manifests/prometheus-serviceMonitorKubelet.yaml`.
+
+On AKS, metrics of `coredns` do not get exposed via a service. To make it work
+with `ServiceMonitor` `coredns`, we need to modify `ports` section of service
+`kube-dns` in namespace `kube-system`
+([ref](https://github.com/weaveworks/eksctl/issues/936#issuecomment-521162563)).
+
+```yaml
+  ports:
+  - name: dns
+    port: 53
+    protocol: UDP
+    targetPort: 53
+  - name: dns-tcp
+    port: 53
+    protocol: TCP
+    targetPort: 53
+  - name: metrics
+    port: 9153
+    protocol: TCP
+    targetPort: 9153
+```
+
+Note: There is a chance that we can add an extra `PodMonitor` instead of
+modifying the above service. But it is not done at the time of writing.
+
+On AKS, containers are unable to talk to Kubernetes API via subnet '172.x.x.x'
+([ref](https://github.com/Azure/AKS/issues/552)).  As a result we need to add
+the following to `endpoints` configuration in
+`manifests/prometheus-serviceMonitorApiserver.yaml` (note that it is not
+`metricRelabelings`).
+
+```yaml
+    relabelings:
+    - action: keep
+      regex: default;kubernetes;https
+      sourceLabels:
+      - __meta_kubernetes_namespace
+      - __meta_kubernetes_service_name
+      - __meta_kubernetes_endpoint_port_name
+    - replacement: kubernetes.default.svc:443
+      targetLabel: __address__
+```
+
+To add `thanos` support, create file `thanos-azure.yaml` with configuration of
+Azure Blob Storage (see
+[Object Storage - Azure](https://github.com/thanos-io/thanos/blob/master/docs/storage.md#azure))
+and it should be similar to the following.
+
+```yaml
+type: AZURE
+config:
+  storage_account: your-storage-account-name-short
+  storage_account_key: "your-storage-account-access-key"
+  container: thanos
+  max_retries: 0
+```
+
+Note: make sure the storage account and the corresponding container has been
+created.
+
+Then, apply the file as a secret
+`kubectl -n monitoring create secret generic thanos-objstore-config --from-file=thanos.yaml=./thanos-azure.yaml`.
+([ref](https://github.com/coreos/prometheus-operator/blob/master/Documentation/thanos.md))
+
+Add the following to `manifests/prometheus-prometheus.yaml`.
+
+```yaml
+  thanos:
+    version: v0.10.0
+    objectStorageConfig:
+      key: thanos.yaml
+      name: thanos-objstore-config
+  storage:
+    volumeClaimTemplate:
+      spec:
+        storageClassName: managed-premium
+        resources:
+          requests:
+            storage: 40Gi
+```
+
+```sh
+kubectl create -f manifest/setup/
+```
+
+Wait for a while for the operator to be deployed.
+
+```sh
+kubectl create -f manifest/
+```
+
+Since `kube-scheduler` and `kube-controller-manager` are not visible to users
+on public cloud ([ref](https://github.com/coreos/prometheus-operator/issues/2437)),
+the corresponding service monitors can be deleted.
+
+```sh
+kubectl delete servicemonitor kube-scheduler kube-controller-manager
+```
+
+To add [Thanos Query](https://thanos.io/components/query.md/) and
+[Thanos Store](https://thanos.io/components/store.md/).
+
+```sh
+git clone https://github.com/thanos-io/kube-thanos
+cd kube-thanos
+```
+
+In directory `manifest`, replace all namespace of `thanos` with `monitoring`.
+
+In `manifests/thanos-query-deployment.yaml`, replace `--store` URL with
+`thanos-store.monitoring.svc:10901`.
+
+In `manifests/thanos-store-statefulSet.yaml`, remove flag
+`--experimental.enable-index-header` and replace secret name with
+`thanos-objstore-config`.
+
+```sh
+kubectl create -f manifest/
+```
+
+![thanos architecture](./images/thanos-deployment.jpg)
+
+To add [Prometheus Pushgateway](https://github.com/prometheus/pushgateway)
+and its `serviceMonitor`.
+
+```sh
+helm install --name prometheus-pushgateway -f prometheus-pushgateway-values.yml --namespace monitoring stable/prometheus-pushgateway
+```
+
+In Grafana, add `thanos` as a data source with URL `thanos-store.monitoring.svc`.
+
+
 
 ## Tools
 
