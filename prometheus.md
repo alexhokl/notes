@@ -44,9 +44,9 @@ This is originated from [Google SRE Handbook](https://landing.google.com/sre/boo
 
 ### USE Method
 
-This focuses on resources.
+This focuses on resources (all physical server functional components (CPUs,
+disks, buses, ...)).
 
-- Resource: all physical server functional components (CPUs, disks, buses, ...)
 - Utilisation: the average time that the resource was busy servicing work
 - Saturation: the degree to which the resource has extra work which it cannot
   service, often queued
