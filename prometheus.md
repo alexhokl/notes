@@ -126,7 +126,7 @@ Type | Statistic | PromQL
 --- | --- | ---
 utilisation | CPU Utilisation | sum(rate(container_cpu_usage_seconds_total[5m])) by (container_name)
 saturation | CPU Saturation | sum(rate(container_cpu_cfs_throttled_seconds_total[5m])) by (container_name)
-utilisation | Memory Utilisation | sum(container_memory_working_set_bytes{container_name!~"POD"}) by (container_name)
+utilisation | Memory Utilisation | sum(container_memory_working_set_bytes{container_name!="", container_name!~"POD"}) by (container_name)
 saturation | Memory Saturation | sum(container_memory_working_set_bytes) by (container_name) / sum(label_join(kube_pod_container_resource_limits_memory_bytes, "container_name", "", "container")) by (container_name)
 utilisation | Data rate | sum(rate(container_network_receive_bytes_total[5m])) by (name) + sum(rate(container_network_transmit_bytes_total[5m])) by (name)
 saturation | Packet drop /s | sum(rate(container_network_receive_packets_dropped_total[5m])) by (name) + sum(rate(container_network_transmit_packets_dropped_total[5m])) by (name)
