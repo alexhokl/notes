@@ -124,14 +124,14 @@ N/A | Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter
 
 Type | Statistic | PromQL
 --- | --- | ---
-utilisation | CPU Utilisation | sum(rate(container_cpu_usage_seconds_total[5m])) by (container_name)
-saturation | CPU Saturation | sum(rate(container_cpu_cfs_throttled_seconds_total[5m])) by (container_name)
-utilisation | Memory Utilisation | sum(container_memory_working_set_bytes{container_name!="", container_name!~"POD"}) by (container_name)
-saturation | Memory Saturation | sum(container_memory_working_set_bytes) by (container_name) / sum(label_join(kube_pod_container_resource_limits_memory_bytes, "container_name", "", "container")) by (container_name)
-utilisation | Data rate | sum(rate(container_network_receive_bytes_total[5m])) by (name) + sum(rate(container_network_transmit_bytes_total[5m])) by (name)
-saturation | Packet drop /s | sum(rate(container_network_receive_packets_dropped_total[5m])) by (name) + sum(rate(container_network_transmit_packets_dropped_total[5m])) by (name)
-error | Network error rate | sum by (name) (rate(container_network_receive_errors_total[5m])) + sum by (name) (rate(container_network_transmit_errors_total[5m]))
-utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total[5m])) by (container_name,device) + sum(rate(container_fs_reads_bytes_total[5m])) by (container_name,device)
+utilisation | CPU Utilisation | sum(rate(container_cpu_usage_seconds_total{container_name!="",container_name!="POD",namespace!\~"kube-(.*)",namespace!="monitoring", container_name!~"kube-(.*)"}[5m])) by (container_name)
+saturation | CPU Saturation | sum(rate(container_cpu_cfs_throttled_seconds_total{container_name!="",container_name!="POD",namespace!\~"kube-(.*)", namespace!="monitoring", container_name!\~"kube-(.*)"}[5m])) by (container_name)
+utilisation | Memory Utilisation | sum(container_memory_working_set_bytes{container_name!="",container_name!="POD",namespace!\~"kube-(.*)",namespace!="monitoring", container_name!\~"kube-(.*)"}) by (container_name)/1024/1024/1024
+saturation | Memory Saturation | sum(container_memory_working_set_bytes{container_name!="",container_name!="POD",namespace!\~"kube-(.*)",namespace!="monitoring", container_name!\~"kube-(.*)"}) by (container_name) / sum(label_join(kube_pod_container_resource_limits_memory_bytes, "container_name", "", "container")) by (container_name) * 100
+utilisation | Data rate | sum(rate(container_network_receive_bytes_total{name!="",namespace!\~"kube-(.*)",namespace!="monitoring"}[5m])) by (name) /1024 + sum(rate(container_network_transmit_bytes_total{name!="",namespace!\~"kube-(.*)",namespace!="monitoring"}[5m])) by (name) /1024
+saturation | Packet drop /s | sum(rate(container_network_receive_packets_dropped_total{name!="",namespace!\~"kube-(.*)",namespace!="monitoring"}[5m])) by (name) + sum(rate(container_network_transmit_packets_dropped_total{name!="",namespace!\~"kube-(.*)",namespace!="monitoring"}[5m])) by (name)
+error | Network error rate | sum by (name) (rate(container_network_receive_errors_total{name!="",namespace!\~"kube-(.*)",namespace!="monitoring"}[5m])) + sum by (name) (rate(container_network_transmit_errors_total{name!="",namespace!\~"kube-(.*)",namespace!="monitoring"}[5m]))
+utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{container_name!="",container_name!="POD",namespace!\~"kube-(.*)",namespace!="monitoring", container_name!\~"kube-(.*)"}[5m])) by (container_name,device)/1024 + sum(rate(container_fs_reads_bytes_total{container_name!="",container_name!="POD",namespace!\~"kube-(.*)",namespace!="monitoring", container_name!\~"kube-(.*)"}[5m])) by (container_name,device)/1024
 
 # Other topics
 
