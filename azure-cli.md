@@ -103,13 +103,7 @@ See [Update or rotate the credentials for a service principal in Azure Kubernete
 ##### To list all clusters
 
 ```sh
-az aks list | jq '.[] | .name'
-```
-
-with its FQDN
-
-```sh
-az aks list | jq '.[] | .fqdn'
+az aks list | jq '.[] | { name:.name, rg:.resourceGroup, fqdn:.fdqn }'
 ```
 
 ##### To set `kubectl` credentials
