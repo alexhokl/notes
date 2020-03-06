@@ -27,9 +27,9 @@ ____
 
 # Types of metrics
 
-- `cAdvisor` - container metrics such as CPU, memory, memory and disk of a
-  cluster exposed by kubetlet
-- `node_exporter` - node metrics
+- [cAdvisor](https://github.com/google/cadvisor) - container metrics such as
+  CPU, memory, memory and disk of a cluster exposed by kubetlet
+- [node-exporter](https://github.com/prometheus/node_exporter) - node metrics
 
 # Abstractions of Metrics
 
@@ -114,8 +114,8 @@ saturation | Packet drop /s | sum(rate(node_network_receive_drop_total[5m])) by 
 error | Network error rate | sum by (instance) (rate(node_network_receive_errs_total[5m])) + sum by (instance) (rate(node_network_transmit_errs_total[5m]))
 N/A | Node total disk size (Gb) | sum (node_filesystem_size_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
 N/A | Node available disk size (Gb) | sum (node_filesystem_avail_bytes{job="node-exporter",fstype=~"ext4\|xfs", mountpoint="/"}) by (mountpoint, instance) /1024/1024/1024
-N/A | Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter"}[1m]))/1024/1024
-N/A | Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter"}[1m]))/1024/1024
+N/A | Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter",device="sda"}[1m]))/1024/1024
+N/A | Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter",device="sda"}[1m]))/1024/1024
 N/A | Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=\~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=\~"ext4\|xfs"}) * 100
 
 ## cAdvisor
@@ -319,9 +319,8 @@ and its `serviceMonitor`.
 helm install --name prometheus-pushgateway -f prometheus-pushgateway-values.yml --namespace monitoring stable/prometheus-pushgateway
 ```
 
-In Grafana, add `thanos` as a data source with URL `thanos-store.monitoring.svc`.
-
-
+In Grafana, add `thanos` as a data source with URL
+`http://thanos-query.monitoring.svc:9090`.
 
 ## Tools
 
