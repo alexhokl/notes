@@ -6,6 +6,7 @@
     + [Entity Framework (EF)](#entity-framework-ef)
     + [Mac Installation](#mac-installation)
     + [Kestrel](#kestrel)
+    + [Garbage collection](#garbage-collection)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1447,6 +1448,156 @@ configuration.
 Each connection is bounded to a user thread in Kestrel and all I/O operation
 requests are coming from this thread. When an I/O call is requested, Kestrel
 marshal the `libuv` thread to perform the actual I/O.
+
+### Garbage collection
+
+#### Reference
+
+- [Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
+
+#### Concept of memory
+
+- Each process has its own, separate virtual address space. All processes on
+  the same computer share the same physical memory and the page file
+- 3 states of virtual memory
+  - free
+  - reserved - available but cannot store data until committed
+  - committed - the block of memory is assigned to physical storage
+- When a virtual memory allocation is requested, the virtual memory manager has
+  to find a single free block that is large enough to satisfy that allocation
+  request.
+- Out of memory if there isn't enough virtual address space to reserve or
+  physical space to commit
+- The page file is used even if physical memory pressure is low.
+  - The first time physical memory pressure is high and it backs up some of the
+    data that is in physical memory to a page file. That data is not paged
+    until it's needed, so it's possible to encounter paging in situations where
+    the physical memory pressure is low.
+
+#### Conditions for a garbage collection (any one)
+
+- the system has low physical memory
+- the memory that is used by allocated objects on the managed heap surpasses
+an acceptable threshold. This threshold is continuously adjusted as the
+process runs.
+- `GC.Collect()`
+
+#### Managed heap
+
+- There is a managed heap for each managed process. All threads in the process
+  allocate memory for objects on the same heap.
+- The size of segments allocated by the garbage collector is
+  implementation-specific and is subject to change at any time
+- large object heap contains very large objects that are 85000 bytes and larger
+  - the size configurable via environment variable `COMPlus_GCLOHThreshold` (in
+    hex)
+
+#### Generations
+
+- Generation 0
+  - the youngest generation and contains short-lived objects
+    - An example of a short-lived object is a temporary variable. Garbage
+      collection occurs most frequently in this generation.
+  - Newly allocated objects form a new generation of objects and are
+    implicitly generation 0 collections. However, if they are large objects,
+    they go on the large object heap in a generation 2 collection.
+- Generation 1
+- Generation 2
+  - This generation contains long-lived objects. An example of a long-lived
+    object is an object in a server application that contains static data
+    that's live for the duration of the process.
+- Collecting a generation means collecting objects in that generation and all
+  its younger generations.
+  - A generation 2 garbage collection is also known as a full garbage
+    collection, because it reclaims all objects in all generations (that is,
+    all objects in the managed heap).
+- Objects that are not reclaimed in a garbage collection are known as survivors
+  and are promoted to the next generation
+- When the garbage collector detects that the survival rate is high in
+  a generation, it increases the threshold of allocations for that generation.
+  The next collection gets a substantial size of reclaimed memory. The CLR
+  continually balances two priorities: not letting an application's working set
+  get too large by delaying garbage collection and not letting the garbage
+  collection run too frequently.
+- Generation 0 and 1 are ephemeral generations
+- Each new segment acquired by the garbage collector becomes the new ephemeral
+  segment and contains the objects that survived a generation 0 garbage
+  collection. The old ephemeral segment becomes the new generation 2 segment.
+- Sizes of ephemeral segment
+  - Workstation GC - 25 6MB
+  - Server GC - 4 GB
+  - Server GC with > 4 logical CPUs - 2 GB
+  - Server GC with > 8 logical CPUs - 1 GB
+- Generation 2 objects can use multiple segments
+- The amount of freed memory from an ephemeral garbage collection is limited to
+  the size of the ephemeral segment
+
+#### Process of garbage collection
+
+- A marking phase that finds and creates a list of all live objects
+- A relocating phase that updates the references to the objects that will be
+  compacted
+- A compacting phase that reclaims the space occupied by the dead objects and
+  compacts the surviving objects. The compacting phase moves objects that have
+  survived a garbage collection toward the older end of the segment.
+- Because generation 2 collections can occupy multiple segments, objects that
+  are promoted into generation 2 can be moved into an older segment. Both
+  generation 1 and generation 2 survivors can be moved to a different segment
+- Ordinarily, the large object heap (LOH) is not compacted, because copying
+  large objects imposes a performance penalty.
+  - the behavior can be changed by
+    `System.Runtime.GCSettings.LargeObjectHeapCompactionMode`
+  - the LOH is automatically compacted when a hard limit is set by specifying
+    either
+    - a memory limit on a container, or
+    - on .NET Core 3.0 and after, environment variable
+      `COMPlus_GCHeapHardLimit` or `COMPlus_GCHeapHardLimitPercent`
+- Before a garbage collection starts, all managed threads are suspended except
+  for the thread that triggered the garbage collection
+
+#### Manipulate unmanaged resources
+
+- To perform the cleanup, you can make the managed object
+  [finalizable](https://docs.microsoft.com/en-us/dotnet/api/system.object.finalize)
+- When a finalizable object is discovered to be dead, its finalizer is put in
+  a queue so that its cleanup actions are executed, but the object itself is
+  promoted to the next generation. Therefore, you have to wait until the next
+  garbage collection that occurs on that generation (which is not necessarily
+  the next garbage collection) to determine whether the object has been
+  reclaimed.
+
+#### Workstation and server garbage collection
+
+- CLR provides the following types of garbage collection
+  - Workstation GC
+    - the default and default to use background garbage collection
+    - The collection occurs on the user thread that triggered the garbage
+      collection and remains at the same priority
+      - the garbage collector must compete with other threads for CPU time
+      - is always used on a computer that has only one processor, regardless of
+        configuration setting
+  - Server GC
+    - The collection occurs on multiple dedicated threads that are running at
+      `THREAD_PRIORITY_HIGHEST` priority level
+    - A heap and a dedicated thread to perform garbage collection are provided
+      for each CPU, and the heaps are collected at the same time.
+    - it is faster than workstation GC on the same size heap in general
+    - it is recommended to use workstation GC instead if the number of
+      processes are really high.
+- configurable using environment variable `COMPlus_gcServer`
+  - `0` for workstation
+  - `1` for server
+
+#### Background workstation garbage collection
+
+- performed on a dedicated thread and applies only to generation 2 collections
+- enabled by default
+  - configure via environment variable `COMPlus_gcConcurrent`
+- during background GC, the dedicated thread frequently checks if there is
+  a need for foreground GC (Gen 0 and Gen 1). If there is one, it will suspend
+  until the foreground GC is done
+- background GC can remove dead objects in ephemeral generations and it can
+  also expand the heap if needed during a generation 1 garbage collection
 
 ### Workarounds
 
