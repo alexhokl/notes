@@ -13,8 +13,9 @@
     + [Libraries](#libraries)
     + [Software](#software)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
+- [C#](#c%23)
     + [Generics](#generics)
-    + [Language](#language)
+    + [References](#references)
 - [ASP.NET](#aspnet)
     + [Links](#links-1)
     + [Lifecycle](#lifecycle)
@@ -1646,6 +1647,8 @@ Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
 
 See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn.microsoft.com/en-us/library/hh925568.aspx#net_d) for possible DWORD values.
 
+# C#
+
 ### Generics
 
 ##### Convariance and Contravariance
@@ -1655,7 +1658,7 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 - However, `IList<string> strings = new List<string>(); IList<object> objects = strings;` would be a compilation error as IList<T> is defined without the `out` keyword
 - Covariance (`out`) for arrays enables implicit conversion of an array of a more derived type to an array of a less derived type. But this operation is not type safe
 
-### Language
+### References
 
 - Objects in parameters are passed by reference by default. Thus, `ref` should
   be only used on primitive types.
