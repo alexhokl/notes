@@ -1,8 +1,3 @@
-- [Topics](#topics)
-____
-
-### Topics
-
 - [Basics](#basics)
 - [Navigation](#navigation)
 - [Editing](#editing)
@@ -10,15 +5,18 @@ ____
 - [Buffers](#buffers)
 - [Macro](#macro)
 - [Errors](#errors)
+- [Folding](#folding)
 - [ctrlp](#ctrlp)
 - [Git](#git)
-- [C#](#c)
+- [C#](#c%23)
 - [Go](#go)
 - [Snippets](#snippets)
+- [Help pages](#help-pages)
+____
 
 The following notes is based on [this configuration](https://github.com/alexhokl/.vim/blob/master/vimrc).
 
-##### Basics
+### Basics
 
 - `esc` to normal mode
 - `:wq` to save and exit
@@ -27,7 +25,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:map` to show all the mappings
 - `:map r` to show mappings started with `r`
 
-##### Navigation
+### Navigation
 
 - `gg` to go to the first line of a file
 - `G` to go to the last line of a file
@@ -68,7 +66,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `ctrl-I` to jump forward to the next position (after a jump back)
 - `gx` in a (proper) link to open a browser
 
-##### Editing
+### Editing
 
 - `a` to append
 - `i` to insert
@@ -104,7 +102,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - ':retab' to replace all tabs with spaces
 - visually select lines and `gq` to format those lines
 
-###### Surround
+#### Surround
 
 - `ysw'` to surround the current word with single quote
 - `yssB` to surround the current line with curly brackets
@@ -115,12 +113,12 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `dst` to delete the surrounding tag (XML or HMTL tags)
 - `cs"'` to change the surround `"` to `'`
 
-###### Commenting
+#### Commenting
 
 - `gcc` to toggle comment
 - visual selection + `gc` to toggle comment of multiple lines
 
-##### Multicursors
+### Multicursors
 
 - `ctrl-i` to select the current pattern or advance to the next instance of the
     current pattern
@@ -128,7 +126,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `ctrl-b` to skip to the next instance of the current pattern
 - `Esc` to remove multi-cursors
 
-##### Buffers
+### Buffers
 
 - `ctrl-x` or `ctrl-z` to switch between file buffers in a direction
 - `ctrl-^` to switch to a different buffer
@@ -144,7 +142,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:b 2` to change to second buffer
 - `:b doc<tab>` to change to a buffer with file prefixed with `doc`
 
-##### Macro
+### Macro
 
 - `q1` to start recording at register `1`
 - `q` in normal mode to stop recording
@@ -152,25 +150,25 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `5@1` to replay the recording at register `1` 5 times
 - `:reg` to list the current registers
 
-##### Errors
+### Errors
 
 - `:clist` to list all errors
 - `:cn` to advance to the next error
 - `:cp` to go to the previous error
 
-##### Folding
+### Folding
 
 - `za` to toggle a folding
 - `zc` to close a folding
 - `zo` to open a folding
 
-##### ctrlp
+### ctrlp
 
 To refresh cached file list in fuzzy file search, hit `ctrl-p` and `F5` or use
 command `:CtrlPClearCache`.
 
 
-##### Git
+### Git
 
 - `,gs` to show un-commited files and use `-` to toggle unstage and staged
     files
@@ -187,7 +185,7 @@ command `:CtrlPClearCache`.
   - `]q` to jump to the next commit
   - `[q` to jump to the previous commit
 
-##### C#
+### C#
 
 - `,fm` to list the members (methods or properties) in the current buffer
 - `,fu` to find usages
@@ -208,7 +206,7 @@ command `:CtrlPClearCache`.
 - `:OmniSharpRunTestsInFile` to run unit tests in the current file
 
 
-##### Go
+### Go
 
 - `,s` to show definition at bottom
 - `,v` to show definition on the side
@@ -219,7 +217,7 @@ command `:CtrlPClearCache`.
 - `,d` to show documentation
 - `,e` to rename
 
-##### Snippets
+### Snippets
 
 - [C#](https://github.com/honza/vim-snippets/blob/master/snippets/cs.snippets)
 - [Go](https://github.com/honza/vim-snippets/blob/master/snippets/go.snippets)
@@ -228,7 +226,7 @@ command `:CtrlPClearCache`.
 - [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
 - [markdown](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets)
 
-##### Help pages
+### Help pages
 
 - `:h vimtutor` - vim tutor
 - `:h unimpaired` - vim-unimpaired
