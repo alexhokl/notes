@@ -4,6 +4,7 @@
     + [Nuget](#nuget)
     + [ASP.NET Core](#aspnet-core)
     + [Entity Framework (EF)](#entity-framework-ef)
+    + [Async](#async)
     + [Mac Installation](#mac-installation)
     + [Kestrel](#kestrel)
     + [Garbage collection](#garbage-collection)
@@ -15,7 +16,7 @@
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
     + [Generics](#generics)
-    + [References](#references)
+    + [References](#references-1)
 - [ASP.NET](#aspnet)
     + [Links](#links-1)
     + [Lifecycle](#lifecycle)
@@ -114,7 +115,7 @@ dotnet test --no-build
 ##### To kickstart a slient test
 
 ```sh
-dotnet test -v q 
+dotnet test -v q
 ```
 
 ##### To add unit test coverage
@@ -242,29 +243,29 @@ See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-n
   - Child containers
   - Custom lifetime management
   - `Func<T>` support for lazy initialization
-- The root service provider is created when `BuildServiceProvider` is called. 
+- The root service provider is created when `BuildServiceProvider` is called.
   The root service provider's lifetime corresponds to the app/server's lifetime
   when the provider starts with the app and is disposed when the app shuts down.
-  Scoped services are disposed by the container that created them. If a scoped 
+  Scoped services are disposed by the container that created them. If a scoped
   service is created in the root container, the service's lifetime is effectively
   promoted to singleton because it's only disposed by the root container when
-  app/server is shut down. Validating service scopes catches these situations 
+  app/server is shut down. Validating service scopes catches these situations
   when `BuildServiceProvider` is called.
-- The services available within an ASP.NET Core request from `HttpContext` are 
+- The services available within an ASP.NET Core request from `HttpContext` are
   exposed through the `HttpContext.RequestServices` collection
   - Generally, an app shouldn't use these properties directly. Instead, request
     the types that classes require via class constructors and allow the framework
     inject the dependencies. This yields classes that are easier to test.
 - [recommendations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#recommendations)
   - `async`/`await` and `Task` based service resolution is not supported. C# does
-    not support asynchronous constructors, therefore the recommended pattern is 
+    not support asynchronous constructors, therefore the recommended pattern is
     to use asynchronous methods after synchronously resolving the service
   - Avoid storing data and configuration directly in the service container.
     For example, a user's shopping cart shouldn't typically be added to the service
     container. Configuration should use the options pattern. Similarly, avoid
     "data holder" objects that only exist to allow access to some other object.
     It's better to request the actual item via DI.
-  - Avoid static access to services (for example, statically-typing 
+  - Avoid static access to services (for example, statically-typing
     `IApplicationBuilder.ApplicationServices` for use elsewhere).
   - Avoid using the service locator pattern. For example, don't invoke `GetService`
     to obtain a service instance when you can use DI instead. Another service locator
@@ -1386,7 +1387,7 @@ Migration can be triggered by either using PowerShell or dotnet CLI.
 ```powershell
 Add-Migration InitialCreate
 ```
-or 
+or
 
 ```sh
 dotnet ef migrations add InitialCreate
@@ -1407,7 +1408,7 @@ or
 dotnet ef database update
 ```
 
-or 
+or
 
 ```csharp
 dataConext.Database.Migrate();
@@ -1428,6 +1429,178 @@ dotnet ef migrations script
 Note that the support of migration is depending on the underlying provider. For
 example, provider of SQLite cannot `AddPrimaryKey`, `AlterColumn` or
 `DropColumn`.
+
+### Async
+
+#### References
+
+- [ConfigureAwait FAQ](https://devblogs.microsoft.com/dotnet/configureawait-faq/)
+- [Should I await a Task with .ConfigureAwait(false)?](https://github.com/Microsoft/vs-threading/blob/master/doc/cookbook_vs.md#should-i-await-a-task-with-configureawaitfalse)
+- [There is no thread](https://blog.stephencleary.com/2013/11/there-is-no-thread.html)
+- [ASP.NET Core SynchronizationContext](https://blog.stephencleary.com/2017/03/aspnetcore-synchronization-context.html)
+- [Understanding the Whys, Whats, and Whens of ValueTask](https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/)
+- [Eliding Async and Await](https://blog.stephencleary.com/2016/12/eliding-async-await.html)
+- [Don't Block on Async Code](https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html)
+- [There is no thread](https://blog.stephencleary.com/2013/11/there-is-no-thread.html)
+
+#### ConfigureAwait
+
+- Different types of application has a different derived-type of
+  `SynchronizationContext`. Examples are Windows Forms, Windows Presentation
+  Foundation, Windows RunTime (WinRT) where all have a different implementation
+  of `SynchronizationContext.Post` which affects how code is executed after the
+  `await` line.
+- `SynchronizationContext` provides a single API that can be used to queue
+  a delegate for handling however the creator of the implementation desires,
+  without needing to know the details of that implementation
+- `SynchronizationContext` is a general abstraction for a "Scheduler"
+- Individual frameworks sometimes have their own abstractions for a scheduler.
+  Just as `SynchronizationContext` provides a virtual `Post` method to queue
+  a delegate’s invocation, `TaskScheduler` provides an abstract `QueueTask`
+  method.
+- The default scheduler as returned by `TaskScheduler.Default` is the thread
+  pool
+  - it is possible to derive from `TaskScheduler` and override the
+    relevant methods to achieve arbitrary behaviors for when and where a `Task`
+    is invoked
+    - example: `ConcurrentExclusiveSchedulerPair`
+- `await`ing a `Task` pays attention by default to
+  `SynchronizationContext.Current`, as well as to `TaskScheduler.Current`
+  - the compiler transforms the code to ask (via calling `GetAwaiter`) the
+    “awaitable” (in this case, the `Task`) for an “awaiter”
+  - awaiter is responsible for hooking up the callback (often referred to as
+    the “continuation”) that will call back into the state machine when the
+    awaited object completes, and it does so using whatever context/scheduler
+    it captured at the time the callback was registered.
+- `ConfigureAwait` provides a hook to change the behaviour of how the `await`
+  behaves via a custom awaiter
+  - for `ConfigureAwait(continueOnCapturedContext: false)`, it ignores the
+    current synchronization context and the current task scheduler
+- `ConfigureAwait(false)` advantages
+  - improving performance
+    - avoid the extra work of queuing the callback; especially useful for very
+      hot paths
+    - avoid the unnecessary thread static accesses
+    - utilize optimisations from the framework
+  - avoiding deadlocks
+    - deadlocks could be resulted with use of `.Wait()`, `.Result` or
+      `.GetAwaiter().GetResult()`; especially true when the current
+      synchronization context has a very limited number of concurrent
+      operations (like a UI thread)
+- scenarios to use `ConfigureAwait(false)`
+  - general-purpose library
+    - almost all .NET Core runtime libraries use it
+  - exceptions
+    - a library takes delegates to be invoked
+- `ConfigureAwait(false)` does not guarantee the callback would not be run in
+  the original context
+- `ConfigureAwait(false)` should not be only applied to the first `await`
+- the awaiter pattern requires awaiters to expose
+  - `IsCompleted` property
+  - `GetResult` method
+  - `OnCompleted` method (and `UnsafeOnCompleted`)
+- `ConfigureAwait` only affects the behaviour of `OnCompleted`
+  - `task.ConfigureAwait(false).GetAwaiter().GetResult()` is equivalent to
+    `task.GetAwaiter().GetResult()`
+- `ConfigureAwait(false)` causes the compiler to interact with
+  `ConfiguredTaskAwaiter` instead of `TaskAwaiter` and it means to always
+  schedule continuations to the threadpool (or in some cases inline the
+  continuation immediately after the `Task` itself is completed)
+- use `await TaskScheduler.Default;` before CPU intensive, free-threaded work
+- `ConfigureAwait(false)` may not actually move CPU intensive work off the UI
+  thread since it only makes the switch on the first yielding await
+- `ConfigureAwait(false)` contributes to threadpool starvation when the code
+  using it is called in the context of a `JoinableTaskFactory.Run` delegate
+  (where `JoinableTaskFactory` is used when developer wants to avoid deadlocks)
+- ASP.NET Core specifics
+  - classic ASP.NET has its own `SynchronizationContext` but ASP.NET Core does
+    not (mostly because ASP.NET Core is context-less, like no
+    `HttpContext.Current`)
+  - there is no context captured by `await` and this means that blocking on
+    asynchronous code will not cause a deadlock. `Task.GetAwaiter().GetResult()`
+    (or `Task.Wait` or `Task<T>.Result`) can be used without fear of deadlock.
+    But it should be avoided to give up scalability.
+  - since there is no context anymore, there is no need for
+    `ConfigureAwait(false)`
+  - the following code may result `results` in random order
+```csharp
+private HttpClient _client = new HttpClient();
+
+async Task<List<string>> GetBothAsync(string url1, string url2)
+{
+    var result = new List<string>();
+    var task1 = GetOneAsync(result, url1);
+    var task2 = GetOneAsync(result, url2);
+    await Task.WhenAll(task1, task2);
+    return result;
+}
+
+async Task GetOneAsync(List<string> result, string url)
+{
+    var data = await _client.GetStringAsync(url);
+    result.Add(data);
+}
+```
+
+
+#### `async`
+
+- it ensures exceptions are caught and returned in `Task`
+
+#### Code smells
+
+- `Task.Wait()`
+- `Task.Result`
+- `async void` - but there are exceptions
+
+#### Tricks
+
+- if `return await` and the is no `try`/`catch` or `using`, keyword `async` and
+  `await` could be removed to avoid state machine but the code is much more
+  tricky to be maintained
+- `ValueTask` can be used instead of `Task` if the hot path of an `async`
+  method does not have `await` lines involved
+  - `ValueTask` lives on stack rather than on heap
+  - `ValueTask` cannot be re-used (or use `ValueTask.AsTask()`)
+  - do not `ValueTask.GetAwaiter().GetResult()` as it is likely lead to race
+    condition
+  - avoid creating a local variable of type `ValueTask<T>` (due to possible
+    re-use)
+  - advanced usage
+
+```csharp
+int bytesRead;
+{
+    ValueTask<int> readTask = _connection.ReadAsync(buffer);
+    if (readTask.IsCompletedSuccessfully)
+    {
+        bytesRead = readTask.Result;
+    }
+    else
+    {
+        using (_connection.RegisterCancellation())
+        {
+            bytesRead = await readTask;
+        }
+    }
+}
+```
+
+- to handle async call in a constructor
+
+```csharp
+static async void HandleSafeFireAndForget<TException>(this Task task, bool continueOnCapturedContext, Action<TException>? onException) where TException : Exception
+{
+    try
+    {
+        await task.ConfigureAwait(continueOnCapturedContext);
+    }
+    catch (TException ex) when (onException != null)
+    {
+        HandleException(ex, onException);
+    }
+}
+```
 
 ### Mac Installation
 
@@ -1720,7 +1893,7 @@ Update-Package -Reinstall
 
 # IIS Express
 
-### Making ASP.NET site available on port 8080 to other machines 
+### Making ASP.NET site available on port 8080 to other machines
 
 ```ps1
 npm i -g iisexpress-proxy
@@ -2286,7 +2459,7 @@ csharp_preserve_single_line_blocks = true
 
   <!--
     We use quartz.config for this server, you can always use configuration section if you want to.
-    Configuration section has precedence here.  
+    Configuration section has precedence here.
   -->
   <!--
   <quartz >
