@@ -161,6 +161,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `za` to toggle a folding
 - `zc` to close a folding
 - `zo` to open a folding
+- `:set foldlevel=1` to fold up level 2 and deeper
 
 ### ctrlp
 
@@ -216,6 +217,8 @@ command `:CtrlPClearCache`.
 - `,dt` to test compile
 - `,d` to show documentation
 - `,e` to rename
+- `vif` to visually select body of a function (not including function signature)
+- `vaf` to visually select the whole function including its comments
 
 ### Snippets
 
