@@ -9,6 +9,7 @@
 - [SQL Database](#sql-database)
 - [Azure Storage](#azure-storage)
 - [Azure Disk](#azure-disk)
+- [azcopy](#azcopy)
 ____
 
 ### Account/Subscription
@@ -428,3 +429,16 @@ or in a table
 az disk list -o table
 ```
 
+### azcopy
+
+##### To download a file from blob storage
+
+```sh
+azcopy copy 'https://<storage-account-name>.<blob or dfs>.core.windows.net/<container-name>/<blob-path>' '<local-file-path>'
+```
+
+##### To download a directory from blob storage
+
+```sh
+azcopy copy 'https://<storage-account-name>.<blob or dfs>.core.windows.net/<container-name>/<directory-path>' '<local-directory-path>' --recursive
+```
