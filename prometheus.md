@@ -24,6 +24,7 @@ ____
 # Links
 
 - [Reveal Your Deepest Kubernetes Metrics - Bob Cotton, Freshtracks.io](https://www.youtube.com/watch?v=1oJXMdVi0mM)
+- [API Docs of `prometheus-operator`](https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md)
 
 # Types of metrics
 
