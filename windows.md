@@ -13,6 +13,7 @@ ____
 
 - [Windows 10 Shortcuts](http://www.hanselman.com/blog/CollectingWindows10AnniversaryEditionKeyboardShortcuts.aspx)
 - [Keyboard shortcuts for Windows](https://support.microsoft.com/en-gb/help/126449/keyboard-shortcuts-for-windows)
+- [Windows 10 Disc Image (ISO File)](https://www.microsoft.com/en-gb/software-download/windows10ISO)
 
 ##### Commands
 
