@@ -23,8 +23,11 @@
 ____
 # Links
 
-- [Reveal Your Deepest Kubernetes Metrics - Bob Cotton, Freshtracks.io](https://www.youtube.com/watch?v=1oJXMdVi0mM)
+- [A Deep Dive into Kubernetes Metrics](https://blog.freshtracks.io/a-deep-dive-into-kubernetes-metrics-b190cc97f0f6)
 - [API Docs of `prometheus-operator`](https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md)
+- [Kubernetes Metrics](https://help.sumologic.com/Metrics/Kubernetes_Metrics)
+- [cortex](https://github.com/cortexproject/cortex) - horizontally scalable,
+  highly available, multi-tenant, long term storage for Prometheus
 
 # Types of metrics
 
