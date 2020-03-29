@@ -5,6 +5,7 @@
   * [New repository](#new-repository)
   * [Forking](#forking)
   * [Rebase](#rebase)
+  * [Add](#add)
   * [Commit](#commit)
   * [Rollback](#rollback)
   * [Queries](#queries)
@@ -103,7 +104,7 @@ git rebase -i --root
 git rebase --show-current-patch
 ```
 
-##### To rebase and test
+##### To rebase and test every rebased commits
 
 ```sh
 git rebase -i origin/master --exec "make test"
@@ -117,6 +118,14 @@ Suppose `feature_branch` was branched out from `origin/master~10`,
 
 ```sh
 git range-diff origin/master~10 origin/feature_branch origin/master feature_branch
+```
+
+### Add
+
+##### Staging some parts of a file
+
+```sh
+git add -p
 ```
 
 ### Commit
