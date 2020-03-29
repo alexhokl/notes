@@ -1,17 +1,20 @@
-- [Basics](#basics)
-- [Navigation](#navigation)
-- [Editing](#editing)
-- [Multicursors](#multicursors)
-- [Buffers](#buffers)
-- [Macro](#macro)
-- [Errors](#errors)
-- [Folding](#folding)
-- [ctrlp](#ctrlp)
-- [Git](#git)
-- [C#](#c%23)
-- [Go](#go)
-- [Snippets](#snippets)
-- [Help pages](#help-pages)
+  * [Basics](#basics)
+  * [Navigation](#navigation)
+  * [Editing](#editing)
+  * [Multicursors](#multicursors)
+  * [Buffers](#buffers)
+  * [Macro](#macro)
+  * [Errors](#errors)
+  * [Folding](#folding)
+  * [ctrlp](#ctrlp)
+  * [Git](#git)
+  * [C#](#c%23)
+  * [Go](#go)
+  * [Snippets](#snippets)
+  * [vimrc](#vimrc)
+  * [Help pages](#help-pages)
+- [Scripting](#scripting)
+  * [References](#references)
 ____
 
 The following notes is based on [this configuration](https://github.com/alexhokl/.vim/blob/master/vimrc).
@@ -22,6 +25,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:wq` to save and exit
 - `ctrl-p` to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
 - `V` to select a line visually
+- `gv` to select the previous visual
 - `:map` to show all the mappings
 - `:map r` to show mappings started with `r`
 
@@ -44,13 +48,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `gi` to move cursor to previous insert position
 - `g;` to move the previous position in the change list
 - `g,` to move the next position in the change list
-- `/` to search forward
-- `?` to search backward
-- `*` to search the current word forward
-- `#` to search the current word backward
 - `w` to jump to the next word
 - `b` to jump back to the last word
-- `,<space>` to remove highlights from search
 - `<space>` put current cursor in center of the screen
 - `ctrl-n` to toggle NERDtree
 - `m1` to mark the current cursor position to register `1`
@@ -65,6 +64,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `ctrl-O` to jump back the to the previous position
 - `ctrl-I` to jump forward to the next position (after a jump back)
 - `gx` in a (proper) link to open a browser
+- `gf` in a file page to open the file in a buffer
+- `:echo expand('%:p')` to show current path
 
 ### Editing
 
@@ -80,6 +81,24 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `]<space>` to insert a line below
 - `[e` to move the current line up
 - `]e` to move the current line down
+- `gs` to swap function/method arguments (use `h` and `l` to swap and `j` and
+  `k` to select)
+- `gsl` to swap a visually selected list (use `h` and `l` to swap and `j` and
+  `k` to select)
+- `yy` to copy the current line
+
+#### Search and replace
+
+- `/` to search forward
+- `?` to search backward
+- `*` to search the current word forward
+- `#` to search the current word backward
+- `q/` to show search history
+- `,<space>` to remove highlights from search
+- `:%s/SearchWord/Replacement/g` to replace all `SearchWord` with `Replacement`
+  in the current file
+- `:1,5s/\v(\d+)$/\=submatch(1)+3` to add 3 to the second number in each line
+  from line 1 to line 5 
 - `:g/ASearchWord/d` to delete all lines containing `ASearchWord` (regex can be
   used here)
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord`
@@ -90,17 +109,27 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   the current file
 - `:g/ASearchWord/norm @q` to apply macro stored in register `q` to all lines
   containing `ASearchWord`
-- `u` to undo
-- `ctrl-r` to redo
-- `yy` to copy the current line
-- `~` to toggle between upper case and lower case of the current character
-- `gUaw` to change the current word to upper case
-- `guaw` to change the current word to lower case
+- `:vimgrep /SearchWord/gj **/*` to search `SearchWord` in all files (and then
+  use `:copen` to show results in quickfix window)
+
+#### Indentation
+
 - `>` to add indentation to the current line
 - `<` to remove indentation to the current line
 - `=` to fix indentation of the current line
 - ':retab' to replace all tabs with spaces
 - visually select lines and `gq` to format those lines
+
+#### Uppercases/Lowercases
+
+- `~` to toggle between upper case and lower case of the current character
+- `gUaw` to change the current word to upper case
+- `guaw` to change the current word to lower case
+
+#### Undo/Redo
+
+- `u` to undo
+- `ctrl-r` to redo
 
 #### Surround
 
@@ -112,6 +141,14 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `ds"` to delete the surrounding `"`
 - `dst` to delete the surrounding tag (XML or HMTL tags)
 - `cs"'` to change the surround `"` to `'`
+- `sa2w"` to surround two words with `"`
+- `sa{` to surround a visually select block with `{}`
+- `sd"` to delete the surrounding `"`
+- `sr"'` to replace the surrounding `"` with `'`
+- `sa2wf` to surround two words with a function name and `()`
+- `sa2wi` to surround two words with two texts (prefix and suffix could be
+  different)
+- `sa2wt` to surround two words with a tag
 
 #### Commenting
 
@@ -134,6 +171,9 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
 - `:sp` to split buffer horizontally
+- `:e test.txt` to open file `test.txt` in the same buffer
+- `:e +100 test.txt` to open file `test.txt` in the same buffer and advance to
+  line 100
 - `,q` to close a buffer
 - `,w` to write current buffer to disk
 - `,W` to trim all whitespace without writing to disk
@@ -167,7 +207,6 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 To refresh cached file list in fuzzy file search, hit `ctrl-p` and `F5` or use
 command `:CtrlPClearCache`.
-
 
 ### Git
 
@@ -206,7 +245,6 @@ command `:CtrlPClearCache`.
   current cursor
 - `:OmniSharpRunTestsInFile` to run unit tests in the current file
 
-
 ### Go
 
 - `,s` to show definition at bottom
@@ -216,9 +254,15 @@ command `:CtrlPClearCache`.
 - `,t` to test
 - `,dt` to test compile
 - `,d` to show documentation
+- `[[` jump to the previous function
+- `]]` jump to the next function
 - `,e` to rename
 - `vif` to visually select body of a function (not including function signature)
 - `vaf` to visually select the whole function including its comments
+- `:GoCoverage` to start code coverage
+- `:GoCoverageClear` to remove highlights of code coverage
+- `:GoCoverageToggle` to toggle highlights of code coverage
+- `:GoAddTags json` to add json field tags to a model `struct`
 
 ### Snippets
 
@@ -229,9 +273,23 @@ command `:CtrlPClearCache`.
 - [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
 - [markdown](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets)
 
+### vimrc
+
+- `:map` maps recursively
+- `:noremap` maps non-recursively
+- `:nnoremap` maps non-recursively in normal mode
+- `:e $MYVIMRC` to open `vimrc` in the current buffer
+
 ### Help pages
 
 - `:h vimtutor` - vim tutor
 - `:h unimpaired` - vim-unimpaired
 - `:h surround` - vim-surround
 - `:h fugitive` - vim-fugitive
+
+## Scripting
+
+### References
+
+- [Vim scripting cheatsheet](https://devhints.io/vimscript)
+- [Learn X (Vimscript) in Y minutes](https://learnxinyminutes.com/docs/vimscript/)
