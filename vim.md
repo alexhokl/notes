@@ -111,6 +111,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   containing `ASearchWord`
 - `:vimgrep /SearchWord/gj **/*` to search `SearchWord` in all files (and then
   use `:copen` to show results in quickfix window)
+- `:vimgrep /SearchWord/ %` to search `SearchWord` in the current buffer (and
+  then use `:copen` to show results in quickfix window)
 
 #### Indentation
 
@@ -224,6 +226,7 @@ command `:CtrlPClearCache`.
 - `,gl` show logs of the current file in a quick-fix list
   - `]q` to jump to the next commit
   - `[q` to jump to the previous commit
+- `:Gbrowse` to open the current file in a browser
 
 ### C#
 
