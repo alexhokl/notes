@@ -1,5 +1,6 @@
 - [.NET Core](#net-core)
     + [Porting](#porting)
+    + [Upgrade](#upgrade)
     + [.NET CLI](#net-cli)
     + [Nuget](#nuget)
     + [ASP.NET Core](#aspnet-core)
@@ -54,6 +55,12 @@ ____
 -   [PackageSeach](http://packagesearch.azurewebsites.net/)
 -   [Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
 -   [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on Cross-Platform Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
+
+### Upgrade
+
+- [Migrate from ASP.NET Core 2.2 to 3.0](https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-3.1&tabs=visual-studio)
+- [Migrate from ASP.NET Core 3.0 to 3.1](https://docs.microsoft.com/en-us/aspnet/core/migration/30-to-31?view=aspnetcore-3.1&tabs=visual-studio)
+- [Breaking changes for migration from Version 2.2 to 3.1](https://docs.microsoft.com/en-us/dotnet/core/compatibility/2.2-3.1)
 
 ### .NET CLI
 
