@@ -9,6 +9,7 @@
     + [Mac Installation](#mac-installation)
     + [Kestrel](#kestrel)
     + [Garbage collection](#garbage-collection)
+    + [Code Analysis](#code-analysis)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -17,7 +18,7 @@
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
     + [Generics](#generics)
-    + [References](#references-1)
+    + [References](#references-2)
 - [ASP.NET](#aspnet)
     + [Links](#links-1)
     + [Lifecycle](#lifecycle)
@@ -1817,6 +1818,19 @@ process runs.
   until the foreground GC is done
 - background GC can remove dead objects in ephemeral generations and it can
   also expand the heap if needed during a generation 1 garbage collection
+
+
+### Code Analysis
+
+#### References
+
+- [Fxcop rules](https://docs.microsoft.com/en-us/visualstudio/code-quality/fxcop-rule-port-status)
+
+#### Adding code analysis warnings to a projject
+
+```sh
+dotnet add your-project-name package Microsoft.CodeAnalysis.FxCopAnalyzers
+```
 
 ### Workarounds
 
