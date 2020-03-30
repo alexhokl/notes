@@ -18,7 +18,8 @@
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
     + [Generics](#generics)
-    + [References](#references-2)
+    + [ref](#ref)
+    + [Span, Memory and Pipeline](#span-memory-and-pipeline)
 - [ASP.NET](#aspnet)
     + [Links](#links-1)
     + [Lifecycle](#lifecycle)
@@ -1531,7 +1532,7 @@ example, provider of SQLite cannot `AddPrimaryKey`, `AlterColumn` or
     But it should be avoided to give up scalability.
   - since there is no context anymore, there is no need for
     `ConfigureAwait(false)`
-  - the following code may result `results` in random order
+- the following code may result `results` in random order
 ```csharp
 private HttpClient _client = new HttpClient();
 
@@ -1890,10 +1891,67 @@ See [How to: Determine Which .NET Framework Versions Are Installed](https://msdn
 - However, `IList<string> strings = new List<string>(); IList<object> objects = strings;` would be a compilation error as IList<T> is defined without the `out` keyword
 - Covariance (`out`) for arrays enables implicit conversion of an array of a more derived type to an array of a less derived type. But this operation is not type safe
 
-### References
+### ref
 
 - Objects in parameters are passed by reference by default. Thus, `ref` should
   be only used on primitive types.
+
+### Span<T>, Memory<T> and Pipeline<T>
+
+#### Span<T>
+
+##### Example
+
+```csharp
+Span<byte> bytes = new byte[10]; // implicit cast
+Span<byte> sliced = bytes.Slice(start: 5, length: 4);
+bytes[5] = 43;
+sliced[0] = 42;
+Assert.Equal(arr[5], bytes[5]);
+Assert.Equal(bytes[5], 42);
+Span<int> number = sliced;   // implicit cast to a 4-byte integer
+
+Span<byte> moreBytes = stackalloc byte[10]; // implicit cast
+
+string str = "hello, world";
+ReadOnlySpan<char> span = str.AsSpan()Slice(start: 7, length: 5);
+
+Span<byte> bytes = length <= 128 ? stackalloc byte[length] : new byte[length];
+```
+
+##### Implementation of get method
+
+```csharp
+public ref T this[int index] { get { ... } }  // Span<T>
+public ref readonly T this[int index] { get { ... } }  // ReadOnlySpan<T>
+```
+
+#### Memory<T>
+
+##### Limitations of Span<T>
+
+- `Span<T>` lives on stack
+- Boxing cannot be applied on `Span<T>` which means reflection is impossible
+- `Span<T>` cannot be fields in classes and this limits it usage in
+  asynchronous functionality
+- `Span<T>` cannot be used as a generic argument
+
+##### Characteristics
+
+- implicit cast or `AsMemory` can be used to create instance of `Memory<T>`
+- there is also `ReadOnlyMemory<T>`
+- it lives on heap
+- it works better on un-bounded array
+- it can wrap things other than array-like object
+
+#### Good APIs
+
+- `System.String.Create`
+- `System.Buffers.Text.Utf8Parser.TryParse`
+- `System.Buffers.Text.Base64.DecodeFromUtf8`
+- `System.Buffers.Text.Base64.EncodeToUtf8`
+- `System.Buffers.Text.Utf8Formatter.TryFormat`
+- `System.Security.Cryptography.HashAlgorithm.TryComputeHash`
 
 # ASP.NET
 
