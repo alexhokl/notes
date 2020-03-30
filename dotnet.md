@@ -1449,6 +1449,7 @@ example, provider of SQLite cannot `AddPrimaryKey`, `AlterColumn` or
 - [Eliding Async and Await](https://blog.stephencleary.com/2016/12/eliding-async-await.html)
 - [Don't Block on Async Code](https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html)
 - [There is no thread](https://blog.stephencleary.com/2013/11/there-is-no-thread.html)
+- [Recommended patterns for CancellationToken](https://devblogs.microsoft.com/premier-developer/recommended-patterns-for-cancellationtoken/)
 
 #### ConfigureAwait
 
@@ -1549,31 +1550,21 @@ async Task GetOneAsync(List<string> result, string url)
 }
 ```
 
-
 #### `async`
 
 - it ensures exceptions are caught and returned in `Task`
 
-#### Code smells
+#### ValueTask
 
-- `Task.Wait()`
-- `Task.Result`
-- `async void` - but there are exceptions
-
-#### Tricks
-
-- if `return await` and the is no `try`/`catch` or `using`, keyword `async` and
-  `await` could be removed to avoid state machine but the code is much more
-  tricky to be maintained
 - `ValueTask` can be used instead of `Task` if the hot path of an `async`
   method does not have `await` lines involved
-  - `ValueTask` lives on stack rather than on heap
-  - `ValueTask` cannot be re-used (or use `ValueTask.AsTask()`)
-  - do not `ValueTask.GetAwaiter().GetResult()` as it is likely lead to race
-    condition
-  - avoid creating a local variable of type `ValueTask<T>` (due to possible
-    re-use)
-  - advanced usage
+- `ValueTask` lives on stack rather than on heap
+- `ValueTask` cannot be re-used (or use `ValueTask.AsTask()`)
+- do not `ValueTask.GetAwaiter().GetResult()` as it is likely lead to race
+condition
+- avoid creating a local variable of type `ValueTask<T>` (due to possible
+re-use)
+- advanced usage
 
 ```csharp
 int bytesRead;
@@ -1592,6 +1583,53 @@ int bytesRead;
     }
 }
 ```
+
+#### CancellationToken
+
+- do not cancel if the point of no cancellation has been passed
+  - to cancel, reverting all the changes made is not a must but it must be in
+    a valid state that users of the method can expect
+  - `OperationCanceledException` should only be thrown after the method
+    reaching a valid state (be it a total revert or partial revert)
+  - pass `CancellationToken` once the point of no cancellation has been passed
+- `cancellationToken.ThrowIfCancellationRequested()` checks and throws
+  `OperationCanceledException`
+- propagate `CancellationToken` as much as possible
+- do not throw `OperationCanceledException` after all the work has been
+  completed; leave it to caller to decide if how to handle the cancellation
+- input validation before handling cancellation checks
+- if `cancellationToken.CanBeCanceled` returns `false` (usage of
+  `CancellationToken.None`), the method could use more efficient processing
+  like parallelism
+- use `CancellationToken` method parameter as the last method
+  parameter
+- make `CancellationToken` optional in public APIs; mandatory, otherwise
+- `TaskCanceledException` inherits `OperationCanceledException`
+- exception handling pattern
+```csharp
+try
+{
+  await httpClient.SendAsync(form, cancellationToken);
+}
+catch (OperationCanceledException)
+{
+  // clean up code here
+
+  throw;
+}
+```
+
+#### Code smells
+
+- `Task.Wait()`
+- `Task.Result`
+- `async void` - but there are exceptions
+
+#### Tricks
+
+- if `return await` and the is no `try`/`catch` or `using`, keyword `async` and
+  `await` could be removed to avoid state machine but the code is much more
+  tricky to be maintained
 
 - to handle async call in a constructor
 
