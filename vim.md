@@ -60,7 +60,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `6+` to jump 6 lines below and to the head of the line
 - `4-` to jump 4 lines above and to the head of the line
 - `5$` to jump 5 lines below and to the end of the line
-- `%` to jump to parentheses of the current line
+- `%` to jump to the start of parentheses of the current line
 - `ctrl-O` to jump back the to the previous position
 - `ctrl-I` to jump forward to the next position (after a jump back)
 - `gx` in a (proper) link to open a browser
