@@ -294,6 +294,70 @@ See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-n
     and it is not a concern in token-based authentication even the token could
     be saved in local storage
 
+##### SameSite Cookie
+
+ref: [Upcoming SameSite Cookie Changes in ASP.NET and ASP.NET Core](https://devblogs.microsoft.com/aspnet/upcoming-samesite-cookie-changes-in-asp-net-and-asp-net-core/)
+ref: [Chromium - SameSite Updates](https://www.chromium.org/updates/same-site)
+
+- originally it was an opt-in property
+- possible values
+  - `Lax`
+    - cookie should be sent on navigation within the same site, or
+    - through `GET` navigation to your site from other sites
+    - the new [Chrome default](https://www.chromium.org/updates/same-site)
+  - `Strict`
+    - cookie to requests which only originated from the same site
+  - (Unspecified)
+    - the old default
+    - place no restrictions on how the cookie flowed in requests
+    - OpenIdConnect authentication operations (e.g. login, logout), and other
+      features that send POST requests from an external site to the site
+      requesting the operation, can use cookies for correlation and/or CSRF
+      protection. These operations would need to opt-out of `SameSite`, by not
+      setting the property at all, to ensure these cookies will be sent during
+      their specialized request flows
+  - `None`
+    - a new value
+    - with Chrome's new implementation, site will have to use cookies whose
+      `SameSite` property is set to this value for features like OpenIdConnect
+    - old browser may understand this value as `Strict` and, thus, site will
+      need to add user agent sniffing to determine the `SameSite` value to set
+- packet sniffing
+```csharp
+private void CheckSameSite(HttpContext httpContext, CookieOptions options)
+{
+    if (options.SameSite == SameSiteMode.None)
+    {
+        var userAgent = httpContext.Request.Headers["User-Agent"].ToString();
+        // TODO: Use your User Agent library of choice here.
+        if (/* UserAgent doesn’t support new behavior */)
+        {
+               // For .NET Core < 3.1 set SameSite = (SameSiteMode)(-1)
+               options.SameSite = SameSiteMode.Unspecified;
+         }
+    }
+}
+
+public void ConfigureServices(IServiceCollection services)
+{
+    services.Configure<CookiePolicyOptions>(options =>
+    {
+        options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+        options.OnAppendCookie = cookieContext =>
+            CheckSameSite(cookieContext.Context, cookieContext.CookieOptions);
+        options.OnDeleteCookie = cookieContext =>
+            CheckSameSite(cookieContext.Context, cookieContext.CookieOptions);
+    });
+}
+
+public void Configure(IApplicationBuilder app)
+{
+    app.UseCookiePolicy(); // Before UseAuthentication or anything else that writes cookies.
+    app.UseAuthentication();
+    // …
+}
+```
+
 ##### Paths
 
 - `IHostingEnvironment.ContentRootPath` points to the directory of the web
