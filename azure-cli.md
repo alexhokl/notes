@@ -186,6 +186,12 @@ CLUSTER_FIRST_NODE_NAME=$(az vm list --resource-group $CLUSTER_RESOURCE_GROUP | 
 az vm run-command invoke -g $CLUSTER_RESOURCE_GROUP -n $CLUSTER_FIRST_NODE_NAME --scripts "cat /etc/kubernetes/azure.json" --command-id RunShellScript
 ```
 
+##### To check available versions on Azure
+
+```sh
+az aks get-versions --location southeastasia --output table
+```
+
 ### ACR
 
 ##### To list all registries
