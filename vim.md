@@ -113,6 +113,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   use `:copen` to show results in quickfix window)
 - `:vimgrep /SearchWord/ %` to search `SearchWord` in the current buffer (and
   then use `:copen` to show results in quickfix window)
+- `ctrl+F` to use `git grep` to search for the current word
+- `:Ggr searchWord` to use `git grep` to search for `searchWord`
 
 #### Indentation
 
