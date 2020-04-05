@@ -6,6 +6,8 @@
     + [ASP.NET Core](#aspnet-core)
     + [Entity Framework (EF)](#entity-framework-ef)
     + [Async](#async)
+    + [Reducing heap consumption](#reducing-heap-consumption)
+    + [No reflection](#no-reflection)
     + [Mac Installation](#mac-installation)
     + [Kestrel](#kestrel)
     + [Garbage collection](#garbage-collection)
@@ -1710,6 +1712,80 @@ static async void HandleSafeFireAndForget<TException>(this Task task, bool conti
     {
         HandleException(ex, onException);
     }
+}
+```
+
+### Reducing heap consumption
+
+- `System.Array.CopyTo`
+- `System.Text.StringBuilder`
+
+### No reflection
+
+#### Constructor
+
+```csharp
+public delegate object ConstructorDelegate();
+
+private ConstructorDelegate GetConstructor(string typeName)
+{
+    Type t = Type.GetType(typeName);
+    ConstructorInfo ctor = t.GetConstructor(new Type[0]);
+    string methodName = t.Name + "Ctor";
+    DynamicMethod dm = new DynamicMethod(methodName, t, new Type[0], typeof(Activator));
+    ILGenerator lgen = dm.GetILGenerator();
+    lgen.Emit(OpCodes.Newobj, ctor);
+    lgen.Emit(OpCodes.Ret);
+    return dm.CreateDelegate(typeof(ConstructorDelegate)) as ConstructorDelegate;
+}
+```
+
+#### Properties
+
+```csharp
+public delegate object PropertyGetDelegate(object obj);
+public delegate void PropertySetDelegate(object obj, object value);
+
+private PropertyGetDelegate GetPropertyGetter(string typeName, string propertyName)
+{
+    Type t = Type.GetType(typeName);
+    PropertyInfo pi = t.GetProperty(propertyName);
+    MethodInfo getter = pi.GetGetMethod();
+
+    DynamicMethod dm = new DynamicMethod("GetValue", typeof(object), new Type[] { typeof(object) }, typeof(object), true);
+    ILGenerator lgen = dm.GetILGenerator();
+    lgen.Emit(OpCodes.Ldarg_0);
+    lgen.Emit(OpCodes.Call, getter);
+
+    if (getter.ReturnType.GetTypeInfo().IsValueType)
+    {
+        lgen.Emit(OpCodes.Box, getter.ReturnType);
+    }
+    lgen.Emit(OpCodes.Ret);
+
+    return dm.CreateDelegate(typeof(PropertyGetDelegate)) as PropertyGetDelegate;
+}
+
+private PropertySetDelegate GetPropertySetter(string typeName, string propertyName)
+{
+    Type t = Type.GetType(typeName);
+    PropertyInfo pi = t.GetProperty(propertyName);
+    MethodInfo setter = pi.GetSetMethod(false);
+
+    DynamicMethod dm = new DynamicMethod("SetValue", typeof(void), new Type[] { typeof(object), typeof(object) }, typeof(object), true);
+    ILGenerator lgen = dm.GetILGenerator();
+    lgen.Emit(OpCodes.Ldarg_0);
+    lgen.Emit(OpCodes.Ldarg_1);
+
+    Type parameterType = setter.GetParameters()[0].ParameterType;
+    if (parameterType.GetTypeInfo().IsValueType)
+    {
+        lgen.Emit(OpCodes.UnBox_Any, parameterType);
+    }
+    lgen.Emit(OpCodes.Call, setter);
+    lgen.Emit(OpCodes.Ret);
+
+    return dm.CreateDelegate(typeof(PropertySetDelegate)) as PropertySetDelegate;
 }
 ```
 
