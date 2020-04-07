@@ -239,6 +239,10 @@ docker-compose down -v
 docker-compose logs your-service-name
 ```
 
+#### Useful examples
+
+- [Awesome Compose](https://github.com/docker/awesome-compose)
+
 ### Docker Content Trust
 
 Keys of images of docker content trust is stored in `~/.docker/trust/private` and it should be shared among machines. (See [Manage keys for content trust](https://docs.docker.com/engine/security/trust/trust_key_mng/)\)
