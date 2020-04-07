@@ -6,6 +6,8 @@
   * [Macro](#macro)
   * [Errors](#errors)
   * [Folding](#folding)
+  * [Layout](#layout)
+  * [File explorer](#file-explorer)
   * [ctrlp](#ctrlp)
   * [Git](#git)
   * [C#](#c%23)
@@ -206,6 +208,17 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `zc` to close a folding
 - `zo` to open a folding
 - `:set foldlevel=1` to fold up level 2 and deeper
+
+### Layout
+
+- `:mksession layout.vim` to save the current layout to `layout.vim` (to open
+  the layout again, use `vim -s layout.vim`)
+- `:vertical resize 30` to resize the current window to 30 characters wide
+- `:resize 5` to resize the current window to 5 lines
+
+### File explorer
+
+- `:Vex` to open a file explorer (netrw)
 
 ### ctrlp
 
