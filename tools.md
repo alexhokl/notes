@@ -50,8 +50,11 @@ ____
 - [Amazon - My library](https://www.amazon.com/mycd)
 - [Hong Kong Job advertisement search](http://david.co/job.php)
 - [IcoMoon](https://icomoon.io/)
+- [opencontainers/artwork](https://github.com/opencontainers/artwork)
 - [JSON Schema Validator](https://www.jsonschemavalidator.net/) - from
   Newtonsoft
+- [table-magic](https://stevecat.net/table-magic/) - converts between CSV/TSV,
+  markdown, SQL and HTML
 
 ### APIs
 
