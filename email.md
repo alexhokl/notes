@@ -95,6 +95,9 @@ the above record is tied to `example.com`, an extra DNS record on domain
 - [About DMARC](https://support.google.com/a/answer/2466580)
 - [Add a DMARC record](https://support.google.com/a/answer/2466563)
 - [Valimail - Domain test on DMARC](https://domain-checker.valimail.com/dmarc/)
+- [Yahoo DMARC policy](https://help.yahoo.com/kb/yahoo-dmarc-policy-sln24050.html)
+- [Yahoo to Expand Use of Strict DMARC
+  Policy](https://dmarc.org/2015/10/yahoo-to-expand-use-of-strict-dmarc-policy/)
 
 # G Suite
 
