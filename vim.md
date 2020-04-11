@@ -23,80 +23,80 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 ### Basics
 
-- `esc` to normal mode
+- <kbd>esc</kbd> to normal mode
 - `:wq` to save and exit
-- `ctrl-p` to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
-- `V` to select a line visually
-- `gv` to select the previous visual
+- <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
+- <kbd>V</kbd> to select a line visually
 - `:map` to show all the mappings
 - `:map r` to show mappings started with `r`
 
 ### Navigation
 
-- `gg` to go to the first line of a file
-- `G` to go to the last line of a file
-- `0` to jump to the beginning of the current line
-- `$` to jump to the end of the current line
-- `w` to jump to the beginning of the next word
-- `b` to jump to the beginning of the previous word
-- `}` to move cursor to the next empty line
-- `{` to move cursor to the previous empty line
-- `ctrl-e` to scroll down
-- `ctrl-y` to scroll up
-- `ctrl-f` to scroll down one page
-- `ctrl-b` to scroll up one page
-- `zt` to scroll the current line to the top of window
-- double backticks to move cursor to previous position
-- `gi` to move cursor to previous insert position
-- `g;` to move the previous position in the change list
-- `g,` to move the next position in the change list
-- `w` to jump to the next word
-- `b` to jump back to the last word
-- `<space>` put current cursor in center of the screen
-- `ctrl-n` to toggle NERDtree
-- `m1` to mark the current cursor position to register `1`
-- `'1` to jump to location stored in register `1`
-- `[s` to jump to the previous spelling error
-- `]s` to jump to the next spelling error
-- `z=` on a spelling error to show a list of spelling suggestions
-- `6+` to jump 6 lines below and to the head of the line
-- `4-` to jump 4 lines above and to the head of the line
-- `5$` to jump 5 lines below and to the end of the line
-- `%` to jump to the start of parentheses of the current line
-- `ctrl-O` to jump back the to the previous position
-- `ctrl-I` to jump forward to the next position (after a jump back)
-- `gx` in a (proper) link to open a browser
-- `gf` in a file page to open the file in a buffer
+- <kbd>g</kbd><kbd>g</kbd> to go to the first line of a file
+- <kbd>G</kbd> to go to the last line of a file
+- <kbd>0</kbd> to jump to the beginning of the current line
+- <kbd>\$</kbd> to jump to the end of the current line
+- <kbd>w</kbd> to jump to the beginning of the next word
+- <kbd>b</kbd> to jump to the beginning of the previous word
+- <kbd>}</kbd> to move cursor to the next empty line
+- <kbd>{</kbd> to move cursor to the previous empty line
+- <kbd>ctrl</kbd><kbd>e</kbd> to scroll down
+- <kbd>ctrl</kbd><kbd>y</kbd> to scroll up
+- <kbd>ctrl</kbd><kbd>f</kbd> to scroll down one page
+- <kbd>ctrl</kbd><kbd>b</kbd> to scroll up one page
+- <kbd>z</kbd><kbd>t</kbd> to scroll the current line to the top of window
+- <kbd>\`</kbd><kbd>\`</kbd> to move cursor to previous position
+- <kbd>g</kbd><kbd>i</kbd> to move cursor to previous insert position
+- <kbd>g</kbd><kbd>;</kbd> to move the previous position in the change list
+- <kbd>g</kbd><kbd>,</kbd> to move the next position in the change list
+- <kbd>g</kbd><kbd>v</kbd> to select the previous visual
+- <kbd>w</kbd> to jump to the next word
+- <kbd>b</kbd> to jump back to the last word
+- <kbd>space</kbd> put current cursor in center of the screen
+- <kbd>ctrl</kbd><kbd>n</kbd> to toggle NERDtree
+- <kbd>m</kbd><kbd>1</kbd> to mark the current cursor position to register `1`
+- <kbd>'</kbd><kbd>1</kbd> to jump to location stored in register `1`
+- <kbd>[</kbd><kbd>s</kbd> to jump to the previous spelling error
+- <kbd>]</kbd><kbd>s</kbd> to jump to the next spelling error
+- <kbd>z</kbd><kbd>=</kbd> on a spelling error to show a list of spelling suggestions
+- <kbd>6</kbd><kbd>+</kbd> to jump 6 lines below and to the head of the line
+- <kbd>4</kbd><kbd>-</kbd> to jump 4 lines above and to the head of the line
+- <kbd>5</kbd><kbd>\$</kbd> to jump 5 lines below and to the end of the line
+- <kbd>%</kbd> to jump to the start of parentheses of the current line
+- <kbd>ctrl</kbd><kbd>O</kbd> to jump back the to the previous position
+- <kbd>ctrl</kbd><kbd>I</kbd> to jump forward to the next position (after a jump back)
+- <kbd>g</kbd><kbd>x</kbd> in a (proper) link to open a browser
+- <kbd>g</kbd><kbd>f</kbd> in a file page to open the file in a buffer
 - `:echo expand('%:p')` to show current path
 
 ### Editing
 
-- `a` to append
-- `i` to insert
-- `A` to append to the end of the current line
-- `I` to insert to the beginning of the current line
-- `d` to delete
-- `c2w` to change 2 words
-- `o` to open a new line in the next line and insert
-- `O` to open a new line in the previous line and insert
-- `[<space>` to insert a line above
-- `]<space>` to insert a line below
-- `[e` to move the current line up
-- `]e` to move the current line down
-- `gs` to swap function/method arguments (use `h` and `l` to swap and `j` and
-  `k` to select)
-- `gsl` to swap a visually selected list (use `h` and `l` to swap and `j` and
-  `k` to select)
-- `yy` to copy the current line
+- <kbd>a</kbd> to append
+- <kbd>i</kbd> to insert
+- <kbd>A</kbd> to append to the end of the current line
+- <kbd>I</kbd> to insert to the beginning of the current line
+- <kbd>d</kbd> to delete
+- <kbd>c</kbd><kbd>2</kbd><kbd>w</kbd> to change 2 words
+- <kbd>o</kbd> to open a new line in the next line and insert
+- <kbd>O</kbd> to open a new line in the previous line and insert
+- <kbd>[</kbd><kbd>space</kbd> to insert a line above
+- <kbd>]</kbd><kbd>space</kbd> to insert a line below
+- <kbd>[</kbd><kbd>e</kbd> to move the current line up
+- <kbd>]</kbd><kbd>e</kbd> to move the current line down
+- <kbd>g</kbd><kbd>s</kbd> to swap function/method arguments (use <kbd>h</kbd> and <kbd>l</kbd> to swap and <kbd>j</kbd> and
+  k to select)
+- <kbd>g</kbd><kbd>s</kbd><kbd>l</kbd> to swap a visually selected list (use <kbd>h</kbd> and <kbd>l</kbd> to swap and <kbd>j</kbd> and
+  k to select)
+- <kbd>y</kbd><kbd>y</kbd> to copy the current line
 
 #### Search and replace
 
-- `/` to search forward
-- `?` to search backward
-- `*` to search the current word forward
-- `#` to search the current word backward
-- `q/` to show search history
-- `,<space>` to remove highlights from search
+- <kbd>/</kbd> to search forward
+- <kbd>?</kbd> to search backward
+- <kbd>*</kbd> to search the current word forward
+- <kbd>#</kbd> to search the current word backward
+- <kbd>q</kbd><kbd>/</kbd> to show search history
+- <kbd>,</kbd><kbd>space</kbd> to remove highlights from search
 - `:%s/SearchWord/Replacement/g` to replace all `SearchWord` with `Replacement`
   in the current file
 - `:1,5s/\v(\d+)$/\=submatch(1)+3` to add 3 to the second number in each line
@@ -106,7 +106,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord`
   (regex can be used here)
 - `:g/ASearchWord/y A` to yank all lines containing `ASearchWord` to register A
-  (`ctrl-r a` to paste the content of register A)
+  (<kbd>ctrl</kbd><kbd>r</kbd><kbd>A</kbd> to paste the content of register A)
 - `:g/ASearchWord/m$` to move all lines containing `ASearchWord` to the end of
   the current file
 - `:g/ASearchWord/norm @q` to apply macro stored in register `q` to all lines
@@ -115,85 +115,85 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   use `:copen` to show results in quickfix window)
 - `:vimgrep /SearchWord/ %` to search `SearchWord` in the current buffer (and
   then use `:copen` to show results in quickfix window)
-- `ctrl+F` to use `git grep` to search for the current word
+- <kbd>ctrl</kbd><kbd>F</kbd> to use `git grep` to search for the current word
 - `:Ggr searchWord` to use `git grep` to search for `searchWord`
 
 #### Indentation
 
-- `>` to add indentation to the current line
-- `<` to remove indentation to the current line
-- `=` to fix indentation of the current line
-- ':retab' to replace all tabs with spaces
-- visually select lines and `gq` to format those lines
+- <kbd>></kbd> to add indentation to the current line
+- <kbd><</kbd> to remove indentation to the current line
+- <kbd>=</kbd> to fix indentation of the current line
+- `:retab` to replace all tabs with spaces
+- visually select lines and <kbd>g</kbd><kbd>q</kbd> to format those lines
 
 #### Uppercases/Lowercases
 
-- `~` to toggle between upper case and lower case of the current character
-- `gUaw` to change the current word to upper case
-- `guaw` to change the current word to lower case
+- <kbd>~</kbd> to toggle between upper case and lower case of the current character
+- <kbd>g</kbd><kbd>U</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word to upper case
+- <kbd>g</kbd><kbd>u</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word to lower case
 
 #### Undo/Redo
 
-- `u` to undo
-- `ctrl-r` to redo
+- <kbd>u</kbd> to undo
+- <kbd>ctrl</kbd><kbd>r</kbd> to redo
 
 #### Surround
 
-- `ysw'` to surround the current word with single quote
-- `yssB` to surround the current line with curly brackets
-- `yss"` to surround the current line with `"`
-- `ySSB` to surround the current line with curly brackets but in different
+- <kbd>y</kbd><kbd>s</kbd><kbd>w</kbd><kbd>'</kbd> to surround the current word with single quote
+- <kbd>y</kbd><kbd>s</kbd><kbd>s</kbd><kbd>B</kbd> to surround the current line with curly brackets
+- <kbd>y</kbd><kbd>s</kbd><kbd>s</kbd><kbd>"</kbd> to surround the current line with `"`
+- <kbd>y</kbd><kbd>S</kbd><kbd>S</kbd><kbd>B</kbd> to surround the current line with curly brackets but in different
     lines
-- `ds"` to delete the surrounding `"`
-- `dst` to delete the surrounding tag (XML or HMTL tags)
-- `cs"'` to change the surround `"` to `'`
-- `sa2w"` to surround two words with `"`
-- `sa{` to surround a visually select block with `{}`
-- `sd"` to delete the surrounding `"`
-- `sr"'` to replace the surrounding `"` with `'`
-- `sa2wf` to surround two words with a function name and `()`
-- `sa2wi` to surround two words with two texts (prefix and suffix could be
+- <kbd>d</kbd><kbd>s</kbd><kbd>"</kbd> to delete the surrounding `"`
+- <kbd>d</kbd><kbd>s</kbd><kbd>t</kbd> to delete the surrounding tag (XML or HMTL tags)
+- <kbd>c</kbd><kbd>s</kbd><kbd>"</kbd><kbd>'</kbd> to change the surround `"` to `'`
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>"</kbd> to surround two words with `"`
+- <kbd>s</kbd><kbd>a</kbd><kbd>{</kbd> to surround a visually select block with `{}`
+- <kbd>s</kbd><kbd>d</kbd><kbd>"</kbd> to delete the surrounding `"`
+- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace the surrounding `"` with `'`
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>f</kbd> to surround two words with a function name and `()`
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>i</kbd> to surround two words with two texts (prefix and suffix could be
   different)
-- `sa2wt` to surround two words with a tag
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>t</kbd> to surround two words with a tag
 
 #### Commenting
 
-- `gcc` to toggle comment
-- visual selection + `gc` to toggle comment of multiple lines
+- <kbd>g</kbd><kbd>c</kbd><kbd>c</kbd> to toggle comment
+- visual selection + <kbd>g</kbd><kbd>c</kbd> to toggle comment of multiple lines
 
 ### Multicursors
 
-- `ctrl-i` to select the current pattern or advance to the next instance of the
+- <kbd>ctrl</kbd><kbd>i</kbd> to select the current pattern or advance to the next instance of the
     current pattern
-- `ctrl-y` to select the previous instance of the current pattern
-- `ctrl-b` to skip to the next instance of the current pattern
-- `Esc` to remove multi-cursors
+- <kbd>ctrl</kbd><kbd>y</kbd> to select the previous instance of the current pattern
+- <kbd>ctrl</kbd><kbd>b</kbd> to skip to the next instance of the current pattern
+- <kbd>esc</kbd> to remove multi-cursors
 
 ### Buffers
 
-- `ctrl-x` or `ctrl-z` to switch between file buffers in a direction
-- `ctrl-^` to switch to a different buffer
-- `ctrl-w` to change buffer
+- <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between file buffers in a direction
+- <kbd>ctrl</kbd><kbd>^</kbd> to switch to a different buffer
+- <kbd>ctrl</kbd><kbd>w</kbd> to change buffer
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
 - `:sp` to split buffer horizontally
 - `:e test.txt` to open file `test.txt` in the same buffer
 - `:e +100 test.txt` to open file `test.txt` in the same buffer and advance to
   line 100
-- `,q` to close a buffer
-- `,w` to write current buffer to disk
-- `,W` to trim all whitespace without writing to disk
+- <kbd>,</kbd><kbd>q</kbd> to close a buffer
+- <kbd>,</kbd><kbd>w</kbd> to write current buffer to disk
+- <kbd>,</kbd><kbd>W</kbd> to trim all whitespace without writing to disk
 - `:only` to close all other buffers except the current one
 - `:ls` to list all buffers
 - `:b 2` to change to second buffer
-- `:b doc<tab>` to change to a buffer with file prefixed with `doc`
+- `:b doc`<kbd>tab</kbd> to change to a buffer with file prefixed with `doc`
 
 ### Macro
 
-- `q1` to start recording at register `1`
-- `q` in normal mode to stop recording
-- `@1` to replay the recording at register `1`
-- `5@1` to replay the recording at register `1` 5 times
+- <kbd>q</kbd><kbd>1</kbd> to start recording at register `1`
+- <kbd>q</kbd> in normal mode to stop recording
+- <kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1`
+- <kbd>5</kbd><kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1` 5 times
 - `:reg` to list the current registers
 
 ### Errors
@@ -204,9 +204,9 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 ### Folding
 
-- `za` to toggle a folding
-- `zc` to close a folding
-- `zo` to open a folding
+- <kbd>z</kbd><kbd>a</kbd> to toggle a folding
+- <kbd>z</kbd><kbd>c</kbd> to close a folding
+- <kbd>z</kbd><kbd>o</kbd> to open a folding
 - `:set foldlevel=1` to fold up level 2 and deeper
 
 ### Layout
@@ -222,61 +222,61 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 ### ctrlp
 
-To refresh cached file list in fuzzy file search, hit `ctrl-p` and `F5` or use
+To refresh cached file list in fuzzy file search, hit <kbd>ctrl</kbd><kbd>p</kbd> and <kbd>F5</kbd> or use
 command `:CtrlPClearCache`.
 
 ### Git
 
-- `,gs` to show un-commited files and use `-` to toggle unstage and staged
+- , g s to show un-commited files and use `-` to toggle unstage and staged
     files
-- `,ga` to add the current file as staged file
-- `,gb` to show blame lines (and toggle)
-  - and `o` on the line in question to check the changes of that last commit
-- `,gm` to commit all current staged files and put a message
-- `,gco` to checkout the current file (effectively discarding current changes)
-- `,gd` to show diff of the current file
-  - `]c` to jump to the next diff
-  - `[c` to jump back to the previous diff
+- <kbd>,</kbd><kbd>g</kbd><kbd>a</kbd> to add the current file as staged file
+- <kbd>,</kbd><kbd>g</kbd><kbd>b</kbd> to show blame lines (and toggle)
+  - and <kbd>o</kbd> on the line in question to check the changes of that last commit
+- <kbd>,</kbd><kbd>g</kbd><kbd>m</kbd> to commit all current staged files and put a message
+- <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file (effectively discarding current changes)
+- <kbd>,</kbd><kbd>g</kbd><kbd>d</kbd> to show diff of the current file
+  - <kbd>]</kbd><kbd>c</kbd> to jump to the next diff
+  - <kbd>[</kbd><kbd>c</kbd> to jump back to the previous diff
 - `:Gdiff origin/master` to show diff between `master` and the current branch
-- `,gl` show logs of the current file in a quick-fix list
-  - `]q` to jump to the next commit
-  - `[q` to jump to the previous commit
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a quick-fix list
+  - <kbd>]</kbd><kbd>q</kbd> to jump to the next commit
+  - <kbd>[</kbd><kbd>q</kbd> to jump to the previous commit
 - `:Gbrowse` to open the current file in a browser
 
 ### C#
 
-- `,fm` to list the members (methods or properties) in the current buffer
-- `,fu` to find usages
-- `,fi` to find implementations
-- `,fs` to find symbols (pretty much like ctrl-t in ReSharper)
-- `,dc` show documentation
-- `,nm` to rename
-- `,fx` to fix `using` statements
-- `,cf` to format code
-- `,ca` to invoke code actions
-- `]m` to jump to the next method/property
-- `[m` to jump to the previous method/property
+- <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to list the members (methods or properties) in the current buffer
+- <kbd>,</kbd><kbd>f</kbd><kbd>u</kbd> to find usages
+- <kbd>,</kbd><kbd>f</kbd><kbd>i</kbd> to find implementations
+- <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to find symbols (pretty much like <kbd>ctrl</kbd><kbd>t</kbd> in ReSharper)
+- <kbd>,</kbd><kbd>d</kbd><kbd>c</kbd> show documentation
+- <kbd>,</kbd><kbd>n</kbd><kbd>m</kbd> to rename
+- <kbd>,</kbd><kbd>f</kbd><kbd>x</kbd> to fix `using` statements
+- <kbd>,</kbd><kbd>c</kbd><kbd>f</kbd> to format code
+- <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
+- <kbd>]</kbd><kbd>m</kbd> to jump to the next method/property
+- <kbd>[</kbd><kbd>m</kbd> to jump to the previous method/property
 - `:copen` to open a quickfix window
 - `:cc 2` to select the second option in a quickfix window
-- `ccl` to close the quickfix window
+- `:ccl` to close the quickfix window
 - `:OmniSharpRunTest` to run unit test of the test method containing the
   current cursor
 - `:OmniSharpRunTestsInFile` to run unit tests in the current file
 
 ### Go
 
-- `,s` to show definition at bottom
-- `,v` to show definition on the side
-- `,b` to build
-- `,rv` to run and show on the side
-- `,t` to test
-- `,dt` to test compile
-- `,d` to show documentation
-- `[[` jump to the previous function
-- `]]` jump to the next function
-- `,e` to rename
-- `vif` to visually select body of a function (not including function signature)
-- `vaf` to visually select the whole function including its comments
+- <kbd>,</kbd><kbd>s</kbd> to show definition at bottom
+- <kbd>,</kbd><kbd>v</kbd> to show definition on the side
+- <kbd>,</kbd><kbd>b</kbd> to build
+- <kbd>,</kbd><kbd>r</kbd><kbd>v</kbd> to run and show on the side
+- <kbd>,</kbd><kbd>t</kbd> to test
+- <kbd>,</kbd><kbd>d</kbd><kbd>t</kbd> to test compile
+- <kbd>,</kbd><kbd>d</kbd> to show documentation
+- <kbd>[</kbd><kbd>[</kbd> jump to the previous function
+- <kbd>]</kbd><kbd>]</kbd> jump to the next function
+- <kbd>,</kbd><kbd>e</kbd> to rename
+- <kbd>v</kbd><kbd>i</kbd><kbd>f</kbd> to visually select body of a function (not including function signature)
+- <kbd>v</kbd><kbd>a</kbd><kbd>f</kbd> to visually select the whole function including its comments
 - `:GoCoverage` to start code coverage
 - `:GoCoverageClear` to remove highlights of code coverage
 - `:GoCoverageToggle` to toggle highlights of code coverage
