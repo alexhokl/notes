@@ -8,6 +8,7 @@
   * [Folding](#folding)
   * [Layout](#layout)
   * [File explorer](#file-explorer)
+  * [Terminal](#terminal)
   * [ctrlp](#ctrlp)
   * [Git](#git)
   * [C#](#c%23)
@@ -35,9 +36,11 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>g</kbd><kbd>g</kbd> to go to the first line of a file
 - <kbd>G</kbd> to go to the last line of a file
 - <kbd>0</kbd> to jump to the beginning of the current line
+- <kbd>^</kbd> to jump to the first character of the current line
 - <kbd>\$</kbd> to jump to the end of the current line
 - <kbd>w</kbd> to jump to the beginning of the next word
 - <kbd>b</kbd> to jump to the beginning of the previous word
+- <kbd>e</kbd> to jump to the end of the current word
 - <kbd>}</kbd> to move cursor to the next empty line
 - <kbd>{</kbd> to move cursor to the previous empty line
 - <kbd>ctrl</kbd><kbd>e</kbd> to scroll down
@@ -54,17 +57,21 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>b</kbd> to jump back to the last word
 - <kbd>space</kbd> put current cursor in center of the screen
 - <kbd>ctrl</kbd><kbd>n</kbd> to toggle NERDtree
-- <kbd>m</kbd><kbd>1</kbd> to mark the current cursor position to register `1`
-- <kbd>'</kbd><kbd>1</kbd> to jump to location stored in register `1`
+- <kbd>m</kbd><kbd>a</kbd> to mark the current cursor position to register `a`
+- <kbd>m</kbd><kbd>A</kbd> to mark the current cursor position to register `A`
+  and it can be used in a different buffer
+- <kbd>'</kbd><kbd>a</kbd> to jump to location stored in register `a`
 - <kbd>[</kbd><kbd>s</kbd> to jump to the previous spelling error
 - <kbd>]</kbd><kbd>s</kbd> to jump to the next spelling error
 - <kbd>z</kbd><kbd>=</kbd> on a spelling error to show a list of spelling suggestions
 - <kbd>6</kbd><kbd>+</kbd> to jump 6 lines below and to the head of the line
 - <kbd>4</kbd><kbd>-</kbd> to jump 4 lines above and to the head of the line
 - <kbd>5</kbd><kbd>\$</kbd> to jump 5 lines below and to the end of the line
-- <kbd>%</kbd> to jump to the start of parentheses of the current line
-- <kbd>ctrl</kbd><kbd>O</kbd> to jump back the to the previous position
-- <kbd>ctrl</kbd><kbd>I</kbd> to jump forward to the next position (after a jump back)
+- <kbd>%</kbd> to jump between the start and end of parentheses of the current
+  line
+- <kbd>ctrl</kbd><kbd>o</kbd> to jump back the to the previous position
+- <kbd>ctrl</kbd><kbd>i</kbd> to jump forward to the next position (after a jump back)
+- `:jumps` to show the current jump list
 - <kbd>g</kbd><kbd>x</kbd> in a (proper) link to open a browser
 - <kbd>g</kbd><kbd>f</kbd> in a file page to open the file in a buffer
 - `:echo expand('%:p')` to show current path
@@ -172,8 +179,10 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 ### Buffers
 
 - <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between file buffers in a direction
-- <kbd>ctrl</kbd><kbd>^</kbd> to switch to a different buffer
+- <kbd>ctrl</kbd><kbd>^</kbd> to jump to the previous buffer
 - <kbd>ctrl</kbd><kbd>w</kbd> to change buffer
+- <kbd>ctrl</kbd><kbd>w</kbd><kbd>ctrl</kbd><kbd>^</kbd> to open previous
+  buffer in a split
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
 - `:sp` to split buffer horizontally
@@ -220,6 +229,13 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 - `:Vex` to open a file explorer (netrw)
 
+### Terminal
+
+- `:!ls` to run command `ls`
+- `:read!git rev-parse HEAD` to run command `git rev-parse HEAD` and paste it
+  into the current buffer
+- `:!jq` with a visually selected text to format it with `jq`
+
 ### ctrlp
 
 To refresh cached file list in fuzzy file search, hit <kbd>ctrl</kbd><kbd>p</kbd> and <kbd>F5</kbd> or use
@@ -253,6 +269,7 @@ command `:CtrlPClearCache`.
 - <kbd>,</kbd><kbd>n</kbd><kbd>m</kbd> to rename
 - <kbd>,</kbd><kbd>f</kbd><kbd>x</kbd> to fix `using` statements
 - <kbd>,</kbd><kbd>c</kbd><kbd>f</kbd> to format code
+- <kbd>,</kbd><kbd>f</kbd> to format visually selected code
 - <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
 - <kbd>]</kbd><kbd>m</kbd> to jump to the next method/property
 - <kbd>[</kbd><kbd>m</kbd> to jump to the previous method/property
@@ -304,6 +321,9 @@ command `:CtrlPClearCache`.
 - `:h unimpaired` - vim-unimpaired
 - `:h surround` - vim-surround
 - `:h fugitive` - vim-fugitive
+- `:h v_something` to check command `something` in visual mode
+- `:h i_something` to check command `something` in insert mode
+- `:helpgrep searchWord` to look for `searchWord` in all help files
 
 ## Scripting
 
