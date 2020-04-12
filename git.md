@@ -120,6 +120,15 @@ Suppose `feature_branch` was branched out from `origin/master~10`,
 git range-diff origin/master~10 origin/feature_branch origin/master feature_branch
 ```
 
+##### Split an existing commit
+
+1. Use `git rebase -i <commit-sha>` and edit the commit in question.
+2. Then, use `git reset HEAD~` to un-stage all the changes of that commit.
+3. Create whatever commit(s) required.
+4. If the remaining changes should be remained in the original commit, use `git
+   commit -c ORIG_HEAD`.
+5. `git rebase --continue`
+
 ### Add
 
 ##### Staging some parts of a file
