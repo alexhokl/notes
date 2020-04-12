@@ -106,8 +106,14 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>,</kbd><kbd>space</kbd> to remove highlights from search
 - `:%s/SearchWord/Replacement/g` to replace all `SearchWord` with `Replacement`
   in the current file
+- <kbd>&</kbd> to repeat the last replacement without flags (like `/g`)
+- `:&&` to repeat the last replacement with flags
+- <kbd>g</kbd><kbd>&</kbd> to repeat the last replacement with flags to the
+  current buffer
 - `:1,5s/\v(\d+)$/\=submatch(1)+3` to add 3 to the second number in each line
-  from line 1 to line 5 
+  from line 1 to line 5
+- `:%s/SearchWord/&Append/g` to append `Append` to `SearchWord` in the current
+  file
 - `:g/ASearchWord/d` to delete all lines containing `ASearchWord` (regex can be
   used here)
 - `:g!/ASearchWord/d` to delete all lines without containing `ASearchWord`
