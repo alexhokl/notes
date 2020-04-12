@@ -1960,6 +1960,18 @@ process runs.
 - background GC can remove dead objects in ephemeral generations and it can
   also expand the heap if needed during a generation 1 garbage collection
 
+#### Typical issues
+
+- a very high percentage time paused for garbage collection
+- individual GCs with unusually long pauses
+  - likely a GC thread problem
+- excessively induced GCs (induced GCs vs total GCs)
+- excessive number of gen2 GCs
+- long suspension issues
+  - suspension usually should take much less than 1ms
+- excessive number of pinned handles
+  - it is a concern if there are hundreds of it especially if it is during
+    ephemeral GCs
 
 ### Code Analysis
 
@@ -2092,6 +2104,53 @@ public ref readonly T this[int index] { get { ... } }  // ReadOnlySpan<T>
 - `System.Buffers.Text.Base64.EncodeToUtf8`
 - `System.Buffers.Text.Utf8Formatter.TryFormat`
 - `System.Security.Cryptography.HashAlgorithm.TryComputeHash`
+
+#### Pipeline<T>
+
+- see "TCP server with System.IO.Pipelines" in [System.IO.Pipelines: High
+  performance IO in .NET](https://devblogs.microsoft.com/dotnet/system-io-pipelines-high-performance-io-in-net/)
+  - the example requires to process lines from a stream of unknown size
+  - there are no explicit buffers allocated anywhere and all buffer management
+    is delegated to the `PipeReader`/`PipeWriter` implementations
+  - `PipeReader.Complete()` and `PipeWriter.Complete` allows the underlying
+    `Pipe` to release all memory it allocated
+  - `PipeReader.AdvancedTo` tells the underlying implementation to discard the
+    already processed memory
+  - one of the pipelines feature is the ability to peek at data in the `Pipe`
+    without consuming it
+  - `PipeWriter.FlushAsync` blocks when the amount of data in the `Pipe`
+    crosses `PipeOptions.PauseWriterThreashold` and unblocks when it becomes
+    lower than `PipeOptions.ResumeWriterThreshold`. These values allow back
+    pressure and flow control.
+  - Pipelines exports a `PipeScheduler` to allow fine-grained control over
+    exactly what threads are used for IO
+  - unit tests are easier to be written as it can now works with in-memory
+    buffers instead
+
+##### ReadOnlySequence<T>
+
+- it can support one or more segments
+- example
+
+```csharp
+string GetAsciiString(ReadOnlySequence<byte> buffer)
+{
+    if (buffer.IsSingleSegment)
+    {
+        return Encoding.ASCII.GetString(buffer.First.Span);
+    }
+
+    return string.Create((int)buffer.Length, buffer, (span, sequence) =>
+    {
+        foreach (var segment in sequence)
+        {
+            Encoding.ASCII.GetChars(segment.Span, span);
+
+            span = span.Slice(segment.Length);
+        }
+    });
+}
+```
 
 # ASP.NET
 
