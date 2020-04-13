@@ -373,6 +373,11 @@ It is valuable for applications that require one or more of the following
 - Ordered, graceful deployment and scaling
 - Ordered, automated rolling updates
 
+## References
+
+- [Kubernetes Custom Resource API Reference Docs
+  generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
+
 ## Minikube
 
 ##### To start with VirtualBox (default)
