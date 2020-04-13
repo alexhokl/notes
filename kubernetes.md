@@ -381,6 +381,18 @@ It is valuable for applications that require one or more of the following
 minikube start
 ```
 
+##### To start with kvm2
+
+```sh
+minikube start --driver=kvm2
+```
+
+##### To change the default driver
+
+```sh
+minikube config set driver kvm2
+```
+
 ##### To stop
 
 ```sh
