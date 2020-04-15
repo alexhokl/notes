@@ -197,6 +197,8 @@ FROM image-name:$FLAVOUR AS some-label
   - `# syntax=docker/dockerfile:1.0-experimental`
   - `RUN --mount=taget=.` instead of `COPY . /app`
   - `RUN --mount=type=cache,taget=/root/.m2`
+- [Best practices with
+  Node.js](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md)
 
 ### Networking
 
