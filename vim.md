@@ -95,6 +95,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>g</kbd><kbd>s</kbd><kbd>l</kbd> to swap a visually selected list (use <kbd>h</kbd> and <kbd>l</kbd> to swap and <kbd>j</kbd> and
   k to select)
 - <kbd>y</kbd><kbd>y</kbd> to copy the current line
+- <kbd>c</kbd><kbd>2</kbd><kbd>i</kbd><kbd>(</kbd> to change all words in the
+  outer brackets. `a(b(c))` &rarr; `a()`
 
 #### Search and replace
 
