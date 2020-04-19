@@ -69,6 +69,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>5</kbd><kbd>\$</kbd> to jump 5 lines below and to the end of the line
 - <kbd>%</kbd> to jump between the start and end of parentheses of the current
   line
+- <kbd>[</kbd><kbd>{</kbd> to jump to the opening of the current curly brackets
+- <kbd>]</kbd><kbd>}</kbd> to jump to the closing of the current curly brackets
 - <kbd>ctrl</kbd><kbd>o</kbd> to jump back the to the previous position
 - <kbd>ctrl</kbd><kbd>i</kbd> to jump forward to the next position (after a jump back)
 - `:jumps` to show the current jump list
