@@ -4,6 +4,7 @@
   * [Operator pattern](#operator-pattern)
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
+- [References](#references)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
   * [Links](#links)
