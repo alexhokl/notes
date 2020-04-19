@@ -1,15 +1,18 @@
+- [Links](#links)
+- [Troubleshoot](#troubleshoot)
+- [Commands](#commands)
 - [Dockerfile](#dockerfile)
+  * [`ENTRYPOINT` vs `CMD`](#entrypoint-vs-cmd)
 - [Networking](#networking)
 - [Docker Compose](#docker-compose)
 - [Docker Content Trust](#docker-content-trust)
 - [Docker Secret](#docker-secret)
-- [`ENTRYPOINT` vs `CMD`](#entrypoint-vs-cmd)
 - [Docker Swarm](#docker-swarm)
 - [Windows](#windows)
 - [Specific images](#specific-images)
 ____
 
-##### Links
+## Links
 
 -	[Sign an image](https://docs.docker.com/datacenter/dtr/2.4/guides/user/manage-images/sign-images/)
 -	[Running Graphical applications in Docker for Mac](https://github.com/chanezon/docker-tips/blob/master/x11/README.md)
@@ -22,9 +25,9 @@ ____
 -	[3 Steps to MSBuild with Docker](https://blog.alexellis.io/3-steps-to-msbuild-with-docker/)
 -	[Google Cloud Platform - Storage Options](https://cloud.google.com/images/storage-options/flowchart.svg)
 
-##### Troubleshoot
+## Troubleshoot
 
-###### Problem 1
+#### Problem 1
 
 For prompt of
 
@@ -35,31 +38,31 @@ COPY failed: stat /var/lib/docker/tmp/docker-builder752307336/src: no such file 
 
 check `.dockerignore` to see if it is a directory being ignored.
 
-###### Problem 2
+#### Problem 2
 
 In case a port could not be exposed, use command `iptables -t nat -nL` to check
 if the port in question has been published properly.
 
-###### Problem 3
+#### Problem 3
 
 In case of Docker daemon could be be started, try 
 `sudo usermod -aG docker $USER`
 
-##### Commands
+## Commands
 
-###### To logout of a Docker registry
+##### To logout of a Docker registry
 
 ```sh
 docker logout docker.io
 ```
 
-###### To show running containers
+##### To show running containers
 
 ```sh
 docker ps
 ```
 
-###### To show all containers
+##### To show all containers
 
 ```sh
 docker ps -a
@@ -71,38 +74,38 @@ or, with container size
 docker ps -a -s
 ```
 
-###### To stop all containers
+##### To stop all containers
 
 ```sh
 docker stop $(docker ps -a -q)
 ```
 
-###### To stop and remove all containers
+##### To stop and remove all containers
 
 ```sh
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
-###### To remove all dangling docker images
+##### To remove all dangling docker images
 
 ```sh
 docker system prune
 ```
 
-###### To remove all docker volumes
+##### To remove all docker volumes
 
 ```sh
 docker volume rm $(docker volume ls -q)
 ```
 
-###### To copy directory from container to host
+##### To copy directory from container to host
 
 ```sh
 docker cp container-name:/etc/letsencrypt ~/Desktop/letsencrypt
 ```
 
-###### To inspect the health of a container
+##### To inspect the health of a container
 
 Assuming it has `HEALTHCHECK CMD` in the image and the container named `proxy`\)
 
@@ -110,19 +113,19 @@ Assuming it has `HEALTHCHECK CMD` in the image and the container named `proxy`\)
 docker inspect --format='{{json .State.Health}}' your-container-name
 ```
 
-###### To inspect the port bindings of a container
+##### To inspect the port bindings of a container
 
 ```sh
 docker inspect -f "{{.HostConfig.PortBindings}}" your-container-name
 ```
 
-###### To check the network plugins installed on a host
+##### To check the network plugins installed on a host
 
 ```sh
 docker info
 ```
 
-###### To check the containers a network is attached to
+##### To check the containers a network is attached to
 
 ```sh
 docker network inspect your-network-name
@@ -164,26 +167,30 @@ docker build --rm -t your-image:your-tag .
 docker build --force-rm -t your-image:your-tag .
 ```
 
-###### To stream logs of a container
+##### To stream logs of a container
 
 ```sh
 docker logs -f your-container-name
 ```
 
-###### To clean up docker logs (could be deprecated)
+##### To clean up docker logs (could be deprecated)
 
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ```
 
-### Dockerfile
+## Dockerfile
 
 ##### Best practices
 
 - enable BuildKit `export DOCKER_BUILDKIT=1` (or deamon config `{ "features": { "buildkit": true } }`)
 - always combine lines of `apt-get update` and `apt-get install`
-- use `apt-get install --no-install-recommends`
+- use `apt-get install --no-install-recommends package-name`
+- use `apk add --no-cache package-name`
 - use `rm -rf /var/lib/apt/list/*` to remove files required during installation
+  (or `rm /var/cache/apk/*` in alpine)
+- use `apk del --purge package-name` to remove a package after it is not being
+  used anymore
 - use multi-stage build to enable multi-flavour builds
 
 ```dockerfile
@@ -200,7 +207,19 @@ FROM image-name:$FLAVOUR AS some-label
 - [Best practices with
   Node.js](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md)
 
-### Networking
+### `ENTRYPOINT` vs `CMD`
+
+- At least one of them exists
+- `ENTRYPOINT` and `CMD` behaves the same if only of them exist
+- For both `CMD` and `ENTRYPOINT`, there are "shell" and "exec" versions
+  - both shell versions would be prefixed with `/bin/sh -c`
+- "exec" version run its process with PID = 1 and "shell" version run its process in a sub-process of a container. Thus, pressing `ctrl-c` would be able to terminate "exec" version but not "shell" version. Note that "exec" version is the recommended way.
+-	"exec" version does not have environment variables (like `$PATH`). Thus, to use `java -jar spring.jar`, `["/usr/bin/java", "-jar", "spring.jar"]` is required.
+-	If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.
+-	If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
+-	`ENTRYPOINT` and `CMD` can be overridden via command line flags
+
+## Networking
 
 - use `host.docker.internal` to connect to the host
 - mappings seen are actually mapping between a port of one end of a bridge to another port of the other side
@@ -215,7 +234,7 @@ FROM image-name:$FLAVOUR AS some-label
 - mounting to `/var/run/docker.sock` enabling a container to connect to Docker
     server API via socket
 
-### Docker Compose
+## Docker Compose
 
 ###### To make sure all containers stated in docker-compose.yml are up and running in daemon mode
 
@@ -245,12 +264,12 @@ docker-compose logs your-service-name
 
 - [Awesome Compose](https://github.com/docker/awesome-compose)
 
-### Docker Content Trust
+## Docker Content Trust
 
 Keys of images of docker content trust is stored in `~/.docker/trust/private` and it should be shared among machines. (See [Manage keys for content trust](https://docs.docker.com/engine/security/trust/trust_key_mng/)\)
 
 
-### Docker Secret
+## Docker Secret
 
 ###### To create a secret
 
@@ -282,19 +301,7 @@ secrets:
 
 and the secret is mounted at `/run/secrets/super_secret`. To use the secret, it usually involves adding or modifying `entrypoint.sh` to read the secret.
 
-### `ENTRYPOINT` vs `CMD`
-
-- At least one of them exists
-- `ENTRYPOINT` and `CMD` behaves the same if only of them exist
-- For both `CMD` and `ENTRYPOINT`, there are "shell" and "exec" versions
-  - both shell versions would be prefixed with `/bin/sh -c`
-- "exec" version run its process with PID = 1 and "shell" version run its process in a sub-process of a container. Thus, pressing `ctrl-c` would be able to terminate "exec" version but not "shell" version. Note that "exec" version is the recommended way.
--	"exec" version does not have environment variables (like `$PATH`). Thus, to use `java -jar spring.jar`, `["/usr/bin/java", "-jar", "spring.jar"]` is required.
--	If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.
--	If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
--	`ENTRYPOINT` and `CMD` can be overridden via command line flags
-
-### Docker Swarm
+## Docker Swarm
 
 #### Links
 
@@ -417,7 +424,7 @@ docker service scale your-stack-service=3
 docker stack rm your-stack
 ```
 
-### Windows
+## Windows
 
 ##### Examples
 
@@ -443,7 +450,7 @@ To run linux containers in Docker Windows container engine (see also [mainfest l
 docker run --platform linux busybox echo hello
 ```
 
-### Specific images
+## Specific images
 
 ##### microsoft/mssql-server-linux
 
