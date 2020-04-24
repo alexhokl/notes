@@ -67,6 +67,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>6</kbd><kbd>+</kbd> to jump 6 lines below and to the head of the line
 - <kbd>4</kbd><kbd>-</kbd> to jump 4 lines above and to the head of the line
 - <kbd>5</kbd><kbd>\$</kbd> to jump 5 lines below and to the end of the line
+- <kbd>8</kbd><kbd>0</kbd><kbd>\|</kbd> to jump to character 80 in the current
+  line
 - <kbd>%</kbd> to jump between the start and end of parentheses of the current
   line
 - <kbd>[</kbd><kbd>{</kbd> to jump to the opening of the current curly brackets
@@ -103,6 +105,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 #### Search and replace
 
 - <kbd>/</kbd> to search forward
+- `/sign/;/searchWord` to search `searchWord` comes after `sign`
 - <kbd>?</kbd> to search backward
 - <kbd>*</kbd> to search the current word forward
 - <kbd>#</kbd> to search the current word backward
@@ -110,6 +113,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>,</kbd><kbd>space</kbd> to remove highlights from search
 - `:%s/SearchWord/Replacement/g` to replace all `SearchWord` with `Replacement`
   in the current file
+- `:%s/SearchWord|Something/Replacement/g` to replace all `SearchWord` or
+  `Something` with `Replacement` in the current file
 - <kbd>&</kbd> to repeat the last replacement without flags (like `/g`)
 - `:&&` to repeat the last replacement with flags
 - <kbd>g</kbd><kbd>&</kbd> to repeat the last replacement with flags to the
@@ -199,6 +204,8 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:e test.txt` to open file `test.txt` in the same buffer
 - `:e +100 test.txt` to open file `test.txt` in the same buffer and advance to
   line 100
+- `:e %:s?I?Base?` to edit a file with the current filename but with `I`
+  replaced by `Base`
 - <kbd>,</kbd><kbd>q</kbd> to close a buffer
 - <kbd>,</kbd><kbd>w</kbd> to write current buffer to disk
 - <kbd>,</kbd><kbd>W</kbd> to trim all whitespace without writing to disk
