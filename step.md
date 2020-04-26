@@ -38,6 +38,14 @@ The command will try to discover the endpoints by checking
 https://your-domain.com/.well-known/openid-configuration and set `redirect_uri`
 as http://127.0.0.1:20000
 
+### To inspect a JWT token
+
+```sh
+echo $TOKEN | step crypto jwt inspect --insecure
+```
+
+assuming the token is wrapped by `$TOKEN`
+
 ## Certificates
 
 ### To check SSL certificate of a website
