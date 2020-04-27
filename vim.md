@@ -26,7 +26,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 - <kbd>esc</kbd> to normal mode
 - `:wq` to save and exit
-- <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode) or to invoke autocomplete (in edit mode)
+- <kbd>ctrl</kbd><kbd>t</kbd> to invoke fuzzy file search (in normal mode)
 - <kbd>V</kbd> to select a line visually
 - `:map` to show all the mappings
 - `:map r` to show mappings started with `r`
@@ -106,6 +106,9 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 - <kbd>/</kbd> to search forward
 - `/sign/;/searchWord` to search `searchWord` comes after `sign`
+- `2/searchWord` to search for the second appearance of `searchWord`
+- `/searchWord/+1` to jump to the line after `searchWord`
+- `/searchWord/-1` to jump to the line before `searchWord`
 - <kbd>?</kbd> to search backward
 - <kbd>*</kbd> to search the current word forward
 - <kbd>#</kbd> to search the current word backward
@@ -279,11 +282,11 @@ command `:CtrlPClearCache`.
 ### C#
 
 - <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to list the members (methods or properties) in the current buffer
-- <kbd>,</kbd><kbd>f</kbd><kbd>u</kbd> to find usages
+- <kbd>g</kbd><kbd>r</kbd> to find usages
 - <kbd>,</kbd><kbd>f</kbd><kbd>i</kbd> to find implementations
 - <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to find symbols (pretty much like <kbd>ctrl</kbd><kbd>t</kbd> in ReSharper)
-- <kbd>,</kbd><kbd>d</kbd><kbd>c</kbd> show documentation
-- <kbd>,</kbd><kbd>n</kbd><kbd>m</kbd> to rename
+- <kbd>K</kbd> show documentation
+- <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
 - <kbd>,</kbd><kbd>f</kbd><kbd>x</kbd> to fix `using` statements
 - <kbd>,</kbd><kbd>c</kbd><kbd>f</kbd> to format code
 - <kbd>,</kbd><kbd>f</kbd> to format visually selected code
