@@ -429,6 +429,12 @@ minikube dashboard
 eval $(minikube docker-env)
 ```
 
+##### To add NGINX ingress controller
+
+```sh
+minikube addons enable ingress
+```
+
 ##### to get IP and port of the running service
 
 ```sh
