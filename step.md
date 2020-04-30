@@ -1,10 +1,12 @@
 - [OAuth 2.0](#oauth-20)
   * [To get token response using Google OpenID](#to-get-token-response-using-google-openid)
   * [To get token response](#to-get-token-response)
+  * [To inspect a JWT token](#to-inspect-a-jwt-token)
 - [Certificates](#certificates)
   * [To check SSL certificate of a website](#to-check-ssl-certificate-of-a-website)
   * [To check expiration date of a SSL certificate](#to-check-expiration-date-of-a-ssl-certificate)
   * [To create a certificate signed by a CA (and a private key)](#to-create-a-certificate-signed-by-a-ca-and-a-private-key)
+  * [To create a self-signed certificate](#to-create-a-self-signed-certificate)
 - [Keys](#keys)
   * [To generate key pair using RSA](#to-generate-key-pair-using-rsa)
   * [To generate key pair using elliptic curve](#to-generate-key-pair-using-elliptic-curve)
@@ -70,6 +72,12 @@ step certificate inspect cert.pem --format json | jq -r .validity.end
 
 ```sh
 step certificate create -csr test.smallstep.com test.csr test.key
+```
+
+### To create a self-signed certificate
+
+```sh
+step certificate create your-domain.com oauth.crt oauth.key --profile self-signed --subtle --kty=RSA --size=4096
 ```
 
 ## Keys
