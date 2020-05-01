@@ -67,6 +67,12 @@ openssl ec -in k.prv -pubout -out k.pub
 Note that this is equivalent to using [smallstep
 CLI](https://github.com/alexhokl/notes/blob/master/step.md#to-generate-key-pair-using-elliptic-curve).
 
+##### To extract public key from a certficiate
+
+```sh
+openssl x509 -pubkey -noout -in selfsigned.crt | tee selfsigned.pub
+```
+
 ##### To convert CRT TO PEM
 
 ```sh
