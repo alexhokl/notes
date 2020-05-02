@@ -1,15 +1,21 @@
   * [Basics](#basics)
   * [Navigation](#navigation)
   * [Editing](#editing)
+  * [Search and replace](#search-and-replace)
+  * [Indentation](#indentation)
+  * [Uppercases/Lowercases](#uppercaseslowercases)
+  * [Undo/Redo](#undoredo)
+  * [Surround](#surround)
+  * [Commenting](#commenting)
   * [Multicursors](#multicursors)
   * [Buffers](#buffers)
   * [Macro](#macro)
   * [Errors](#errors)
   * [Folding](#folding)
   * [Layout](#layout)
+  * [File search](#file-search)
   * [File explorer](#file-explorer)
   * [Terminal](#terminal)
-  * [ctrlp](#ctrlp)
   * [Git](#git)
   * [C#](#c%23)
   * [Go](#go)
@@ -90,6 +96,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>c</kbd><kbd>2</kbd><kbd>w</kbd> to change 2 words
 - <kbd>o</kbd> to open a new line in the next line and insert
 - <kbd>O</kbd> to open a new line in the previous line and insert
+- <kbd>S</kbd> to start insert in a blank line with correct indentation
 - <kbd>[</kbd><kbd>space</kbd> to insert a line above
 - <kbd>]</kbd><kbd>space</kbd> to insert a line below
 - <kbd>[</kbd><kbd>e</kbd> to move the current line up
@@ -102,7 +109,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>c</kbd><kbd>2</kbd><kbd>i</kbd><kbd>(</kbd> to change all words in the
   outer brackets. `a(b(c))` &rarr; `a()`
 
-#### Search and replace
+### Search and replace
 
 - <kbd>/</kbd> to search forward
 - `/sign/;/searchWord` to search `searchWord` comes after `sign`
@@ -136,39 +143,41 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   the current file
 - `:g/ASearchWord/norm @q` to apply macro stored in register `q` to all lines
   containing `ASearchWord`
-- `:vimgrep /SearchWord/gj **/*` to search `SearchWord` in all files (and then
-  use `:copen` to show results in quickfix window)
-- `:vimgrep /SearchWord/ %` to search `SearchWord` in the current buffer (and
-  then use `:copen` to show results in quickfix window)
-- <kbd>ctrl</kbd><kbd>F</kbd> to use `git grep` to search for the current word
-- `:Ggr searchWord` to use `git grep` to search for `searchWord`
+- <kbd>ctrl</kbd><kbd>f</kbd> to search in the current repository
+- <kbd>,</kbd><kbd>F</kbd> to search for the current word in the current
+  repository
 
-#### Indentation
+### Indentation
 
-- <kbd>></kbd> to add indentation to the current line
-- <kbd><</kbd> to remove indentation to the current line
+- <kbd>></kbd> to add indentation in visual mode
+- <kbd><</kbd> to remove indentation in visual mode
+- <kbd>></kbd><kbd>></kbd> to add indentation to the current line
+- <kbd>></kbd><kbd><</kbd> to remove indentation to the current line
+- <kbd>4</kbd><kbd>></kbd><kbd>></kbd> to add indentation to the current line
+  and the 3 lines below
 - <kbd>=</kbd> to fix indentation of the current line
+- <kbd>g</kbd><kbd>g</kbd><kbd>=</kbd><kbd>G</kbd> to fix indentation of the current file
 - `:retab` to replace all tabs with spaces
 - visually select lines and <kbd>g</kbd><kbd>q</kbd> to format those lines
 
-#### Uppercases/Lowercases
+### Uppercases/Lowercases
 
 - <kbd>~</kbd> to toggle between upper case and lower case of the current character
 - <kbd>g</kbd><kbd>U</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word to upper case
 - <kbd>g</kbd><kbd>u</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word to lower case
 
-#### Undo/Redo
+### Undo/Redo
 
 - <kbd>u</kbd> to undo
 - <kbd>ctrl</kbd><kbd>r</kbd> to redo
 
-#### Surround
+### Surround
 
 - <kbd>y</kbd><kbd>s</kbd><kbd>w</kbd><kbd>'</kbd> to surround the current word with single quote
 - <kbd>y</kbd><kbd>s</kbd><kbd>s</kbd><kbd>B</kbd> to surround the current line with curly brackets
 - <kbd>y</kbd><kbd>s</kbd><kbd>s</kbd><kbd>"</kbd> to surround the current line with `"`
 - <kbd>y</kbd><kbd>S</kbd><kbd>S</kbd><kbd>B</kbd> to surround the current line with curly brackets but in different
-    lines
+  lines
 - <kbd>d</kbd><kbd>s</kbd><kbd>"</kbd> to delete the surrounding `"`
 - <kbd>d</kbd><kbd>s</kbd><kbd>t</kbd> to delete the surrounding tag (XML or HMTL tags)
 - <kbd>c</kbd><kbd>s</kbd><kbd>"</kbd><kbd>'</kbd> to change the surround `"` to `'`
@@ -181,7 +190,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   different)
 - <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>t</kbd> to surround two words with a tag
 
-#### Commenting
+### Commenting
 
 - <kbd>g</kbd><kbd>c</kbd><kbd>c</kbd> to toggle comment
 - visual selection + <kbd>g</kbd><kbd>c</kbd> to toggle comment of multiple lines
@@ -189,13 +198,14 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 ### Multicursors
 
 - <kbd>ctrl</kbd><kbd>i</kbd> to select the current pattern or advance to the next instance of the
-    current pattern
+  current pattern
 - <kbd>ctrl</kbd><kbd>y</kbd> to select the previous instance of the current pattern
 - <kbd>ctrl</kbd><kbd>b</kbd> to skip to the next instance of the current pattern
 - <kbd>esc</kbd> to remove multi-cursors
 
 ### Buffers
 
+- <kbd>ctrl</kbd><kbd>b</kbd> to select buffers
 - <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between file buffers in a direction
 - <kbd>ctrl</kbd><kbd>^</kbd> to jump to the previous buffer
 - <kbd>ctrl</kbd><kbd>w</kbd> to change buffer
@@ -245,6 +255,10 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:vertical resize 30` to resize the current window to 30 characters wide
 - `:resize 5` to resize the current window to 5 lines
 
+### File search
+
+<kbd>ctrl</kbd><kbd>p</kbd> to search a file in the current repository
+
 ### File explorer
 
 - `:Vex` to open a file explorer (netrw)
@@ -256,15 +270,10 @@ The following notes is based on [this configuration](https://github.com/alexhokl
   into the current buffer
 - `:!jq` with a visually selected text to format it with `jq`
 
-### ctrlp
-
-To refresh cached file list in fuzzy file search, hit <kbd>ctrl</kbd><kbd>p</kbd> and <kbd>F5</kbd> or use
-command `:CtrlPClearCache`.
-
 ### Git
 
-- , g s to show un-commited files and use `-` to toggle unstage and staged
-    files
+- <kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> to show un-committed files and use `-` to
+  toggle un-staged and staged files
 - <kbd>,</kbd><kbd>g</kbd><kbd>a</kbd> to add the current file as staged file
 - <kbd>,</kbd><kbd>g</kbd><kbd>b</kbd> to show blame lines (and toggle)
   - and <kbd>o</kbd> on the line in question to check the changes of that last commit
@@ -277,13 +286,13 @@ command `:CtrlPClearCache`.
 - <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a quick-fix list
   - <kbd>]</kbd><kbd>q</kbd> to jump to the next commit
   - <kbd>[</kbd><kbd>q</kbd> to jump to the previous commit
-- `:Gbrowse` to open the current file in a browser
+- <kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
 
 ### C#
 
 - <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to list the members (methods or properties) in the current buffer
 - <kbd>g</kbd><kbd>r</kbd> to find usages
-- <kbd>,</kbd><kbd>f</kbd><kbd>i</kbd> to find implementations
+- <kbd>,</kbd><kbd>g</kbd><kbd>i</kbd> to find implementations
 - <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to find symbols (pretty much like <kbd>ctrl</kbd><kbd>t</kbd> in ReSharper)
 - <kbd>K</kbd> show documentation
 - <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
