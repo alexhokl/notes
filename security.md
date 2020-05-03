@@ -1,5 +1,6 @@
 - [OAuth 2.0](#oauth-20)
     + [Links](#links)
+    + [Specifics](#specifics)
 - [OpenID](#openid)
 - [JWT](#jwt)
     + [Abstract](#abstract)
@@ -48,10 +49,19 @@ ____
 - [Why the Resource Owner Password Credentials Grant Type is not Authentication
   nor Suitable for Modern Applications](https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications)
 
+### Specifics
+
+- Implicit flow should not be used anymore and Authorization Code flow with
+  [PKCE (Proof Key for Code Exchange)](https://tools.ietf.org/html/rfc7636)
+
 # OpenID
 
 - the ID tokens issued are supposed to be used by client and should not be
   consumed by APIs
+- this is effectively OAuth 2.0 but with additional scope of `openid` added in
+  the authorization request
+- this also avoid OAuth 2.0 to serve user information in the token flow (which
+  was used by major authentication providers previously)
 
 # JWT
 
