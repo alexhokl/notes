@@ -5,9 +5,10 @@
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
 - [References](#references)
+- [Links](#links)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
-  * [Links](#links)
+  * [Links](#links-1)
 ____
 
 ## Commands
@@ -378,6 +379,11 @@ It is valuable for applications that require one or more of the following
 
 - [Kubernetes Custom Resource API Reference Docs
   generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
+
+## Links
+
+- [Kubernetes Resource Report](https://github.com/hjacobs/kube-resource-report)]
+- [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)]
 
 ## Minikube
 
