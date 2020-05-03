@@ -12,7 +12,6 @@
   * [Macro](#macro)
   * [Errors](#errors)
   * [Folding](#folding)
-  * [Layout](#layout)
   * [File search](#file-search)
   * [File explorer](#file-explorer)
   * [Terminal](#terminal)
@@ -173,14 +172,6 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 ### Surround
 
-- <kbd>y</kbd><kbd>s</kbd><kbd>w</kbd><kbd>'</kbd> to surround the current word with single quote
-- <kbd>y</kbd><kbd>s</kbd><kbd>s</kbd><kbd>B</kbd> to surround the current line with curly brackets
-- <kbd>y</kbd><kbd>s</kbd><kbd>s</kbd><kbd>"</kbd> to surround the current line with `"`
-- <kbd>y</kbd><kbd>S</kbd><kbd>S</kbd><kbd>B</kbd> to surround the current line with curly brackets but in different
-  lines
-- <kbd>d</kbd><kbd>s</kbd><kbd>"</kbd> to delete the surrounding `"`
-- <kbd>d</kbd><kbd>s</kbd><kbd>t</kbd> to delete the surrounding tag (XML or HMTL tags)
-- <kbd>c</kbd><kbd>s</kbd><kbd>"</kbd><kbd>'</kbd> to change the surround `"` to `'`
 - <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>"</kbd> to surround two words with `"`
 - <kbd>s</kbd><kbd>a</kbd><kbd>{</kbd> to surround a visually select block with `{}`
 - <kbd>s</kbd><kbd>d</kbd><kbd>"</kbd> to delete the surrounding `"`
@@ -189,6 +180,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>i</kbd> to surround two words with two texts (prefix and suffix could be
   different)
 - <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>t</kbd> to surround two words with a tag
+- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace surrounded double quotes with single quote
 
 ### Commenting
 
@@ -197,22 +189,31 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 
 ### Multicursors
 
-- <kbd>ctrl</kbd><kbd>i</kbd> to select the current pattern or advance to the next instance of the
-  current pattern
-- <kbd>ctrl</kbd><kbd>y</kbd> to select the previous instance of the current pattern
+- <kbd>ctrl</kbd><kbd>i</kbd> to select the current pattern or advance to the
+  next instance of the current pattern
+- <kbd>ctrl</kbd><kbd>y</kbd> to select the previous instance of the current
+  pattern
 - <kbd>ctrl</kbd><kbd>b</kbd> to skip to the next instance of the current pattern
 - <kbd>esc</kbd> to remove multi-cursors
 
 ### Buffers
 
 - <kbd>ctrl</kbd><kbd>b</kbd> to select buffers
-- <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between file buffers in a direction
+- <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between
+  file buffers in a direction
 - <kbd>ctrl</kbd><kbd>^</kbd> to jump to the previous buffer
 - <kbd>ctrl</kbd><kbd>w</kbd> to change buffer
 - <kbd>ctrl</kbd><kbd>w</kbd><kbd>ctrl</kbd><kbd>^</kbd> to open previous
   buffer in a split
+- <kbd>ctrl</kbd><kbd>h</kbd> to jump to the split on the left
+- <kbd>ctrl</kbd><kbd>j</kbd> to jump to the split below
+- <kbd>ctrl</kbd><kbd>k</kbd> to jump to the split above
+- <kbd>ctrl</kbd><kbd>l</kbd> to jump to the split on the right
+- <kbd>ctrl</kbd><kbd>w</kbd><kbd>R</kbd> to swap buffer
 - `:vs` to split buffer vertically (the common way of splitting)
 - `:vs index.html` to split buffer vertically and open `index.html`
+- `:20vs index.html` to split buffer vertically with 20 characters wide and open
+  `index.html`
 - `:sp` to split buffer horizontally
 - `:e test.txt` to open file `test.txt` in the same buffer
 - `:e +100 test.txt` to open file `test.txt` in the same buffer and advance to
@@ -226,13 +227,20 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:ls` to list all buffers
 - `:b 2` to change to second buffer
 - `:b doc`<kbd>tab</kbd> to change to a buffer with file prefixed with `doc`
+- <kbd>,</kbd><kbd>↑</kbd> to increase vertical size of the current buffer
+- <kbd>,</kbd><kbd>↓</kbd> to decrease vertical size of the current buffer
+- <kbd>,</kbd><kbd>←</kbd> to decrease horizontal size of the current buffer
+- <kbd>,</kbd><kbd>→</kbd> to increase horizontal size of the current buffer
+- `:mksession layout.vim` to save the current layout to `layout.vim` (to open
+  the layout again, use `vim -s layout.vim`)
 
 ### Macro
 
 - <kbd>q</kbd><kbd>1</kbd> to start recording at register `1`
 - <kbd>q</kbd> in normal mode to stop recording
 - <kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1`
-- <kbd>5</kbd><kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1` 5 times
+- <kbd>5</kbd><kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1`
+  5 times
 - `:reg` to list the current registers
 
 ### Errors
@@ -247,13 +255,6 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - <kbd>z</kbd><kbd>c</kbd> to close a folding
 - <kbd>z</kbd><kbd>o</kbd> to open a folding
 - `:set foldlevel=1` to fold up level 2 and deeper
-
-### Layout
-
-- `:mksession layout.vim` to save the current layout to `layout.vim` (to open
-  the layout again, use `vim -s layout.vim`)
-- `:vertical resize 30` to resize the current window to 30 characters wide
-- `:resize 5` to resize the current window to 5 lines
 
 ### File search
 
@@ -343,6 +344,7 @@ The following notes is based on [this configuration](https://github.com/alexhokl
 - `:noremap` maps non-recursively
 - `:nnoremap` maps non-recursively in normal mode
 - `:e $MYVIMRC` to open `vimrc` in the current buffer
+- `:so $MYVIMRC` to reload `vimrc`
 
 ### Help pages
 
