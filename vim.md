@@ -25,16 +25,18 @@
   * [References](#references)
 ____
 
-The following notes is based on [this configuration](https://github.com/alexhokl/.vim/blob/master/vimrc).
+The following notes is based on my
+[vimrc](https://github.com/alexhokl/.vim/blob/master/vimrc) and [these
+configuration
+files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Basics
 
 - <kbd>esc</kbd> to normal mode
 - `:wq` to save and exit
-- <kbd>ctrl</kbd><kbd>t</kbd> to invoke fuzzy file search (in normal mode)
+- <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode)
 - <kbd>V</kbd> to select a line visually
-- `:map` to show all the mappings
-- `:map r` to show mappings started with `r`
+- `:Maps` to search for a configured mapping
 
 ### Navigation
 
