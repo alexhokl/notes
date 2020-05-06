@@ -8,37 +8,37 @@ ____
 
 ### Basics
 
-###### To check command installation
+##### To check command installation
 
 ```sh
 gcloud info
 ```
 
-###### To login
+##### To login
 
 ```sh
 gcloud auth login
 ```
 
-###### To list existing logins
+##### To list existing logins
 
 ```sh
 gcloud auth list
 ```
 
-###### To list current configuration
+##### To list current configuration
 
 ```sh
 gcloud config list
 ```
 
-###### To set default zone
+##### To set default zone
 
 ```sh
 gcloud config set compute/zone asia-east1-b
 ```
 
-###### To change project
+##### To change project
 
 ```sh
 gcloud config set core/project google-cloud-platform-project-name
@@ -46,25 +46,25 @@ gcloud config set core/project google-cloud-platform-project-name
 
 ### Kubernetes
 
-###### To add credentials to $HOME/.kube/config
+##### To add credentials to $HOME/.kube/config
 
 ```sh
 gcloud container clusters get-credentials your-cluster-name
 ```
 
-###### To create a kubernetes cluster
+##### To create a kubernetes cluster
 
 ```sh
 gcloud container clusters create your-cluster-name -m n1-standard-2 --num-nodes=3
 ```
 
-###### To set credentials on local machine to access kubernetes clusters
+##### To set credentials on local machine to access kubernetes clusters
 
 ```sh
 gcloud container clusters get-credentials your-cluster-name
 ```
 
-###### To authenticate to Container Registry on GCP
+##### To authenticate to Container Registry on GCP
 
 ```sh
 gcloud auth configure-docker
@@ -72,13 +72,13 @@ gcloud auth configure-docker
 
 Note that it can be executed on a GCP compute instance as well
 
-###### To show cluster information
+##### To show cluster information
 
 ```sh
 gcloud container clusters describe your-cluster-name
 ```
 
-###### To list clusters
+##### To list clusters
 
 ```sh
 gcloud container clusters list
@@ -90,19 +90,19 @@ or, to restrict to a zone
 gcloud container clusters list --zone asia-east1-b
 ```
 
-###### To delete a container cluster
+##### To delete a container cluster
 
 ```sh
 gcloud container clusters delete any-project-name-cluster
 ```
 
-###### To change the number of nodes in a cluster
+##### To change the number of nodes in a cluster
 
 ```sh
 gcloud container clusters resize your-cluster-name --size=1
 ```
 
-###### To migrate workloads to a different machine type
+##### To migrate workloads to a different machine type
 
 ```sh
 gcloud container node-pools create new-pool-name \
@@ -119,14 +119,14 @@ gcloud container node-pools delete default-pool --cluster your-cluster-name
 
 A kubernetes service can be exposed externally by assigning it as type `LoadBalancer` (see [Connect a Front End to a Back End Using a Service](https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/))
 
-###### To tag and push images onto Google Container Registry
+##### To tag and push images onto Google Container Registry
 
 ```sh
 docker tag image-name:latest asia.gcr.io/project-name/image-name
 gcloud docker push asia.gcr.io/project-name/image-name
 ```
 
-###### To allow pulling docker images from another project
+##### To allow pulling docker images from another project
 
 Suppose the image in docker registry of `your-project-a` is used in cluster of
 `your-project-b`,
@@ -137,7 +137,7 @@ SVC_EMAIL=$(gcloud iam service-accounts list --filter="Compute Engine default se
 gcloud projects add-iam-policy-binding your-project-a --member=serviceAccount:${SVC_EMAIL} --role roles/storage.objectViewer
 ```
 
-###### To create roles for Helm
+##### To create roles for Helm 2
 
 ```sh
 kubectl --user=admin/your-cluster-name create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gc config get-value account)
@@ -146,9 +146,19 @@ kubectl create clusterrolebinding tiller-clusterrolebinding --clusterrole=cluste
 helm init --service-account tiller --wait
 ```
 
+##### To create a pubic IP and assign it to a cluster running Ingress using Nginx
+
+Assuming the region of the cluster is `asia-east2`,
+
+```sh
+gcloud compute addresses create my-cluster-ip --region asia-east2
+IPADDR=$(gcloud compute addresses describe my-cluster-ip --region asia-east2 --format json | jq -r .address)
+helm install nginx-ingress --namespace default stable/nginx-ingress --set controller.service.loadBalancerIP=$IPADDR
+```
+
 ### Compute
 
-###### To create an instance
+##### To create an instance
 
 ```sh
 gcloud compute instances create my-instance-name --machine-type f1-micro
@@ -160,25 +170,25 @@ or, with a specific VM image
 gcloud compute instances create your-instance-name --image-family debian-8 --machine-type f1-micro
 ```
 
-###### To configure firewall for HTTP and HTTPS traffic
+##### To configure firewall for HTTP and HTTPS traffic
 
 ```sh
 gcloud compute firewall-rules create instance-rule --allow tcp:80,tcp:443
 ```
 
-###### To list firewall rules
+##### To list firewall rules
 
 ```sh
 gcloud compute firewall-rules list
 ```
 
-###### SSH
+##### SSH
 
 ```sh
 gcloud compute ssh your-username@your-instance-name
 ```
 
-###### SCP
+##### SCP
 
 ```sh
 gcloud compute scp some.txt your-instance-name:/path/to/the/file
@@ -190,31 +200,31 @@ or, to copy recursively
 gcloud compute scp some-directory video2:/path/to/a/directory/ --recurse
 ```
 
-###### To create a persistent volume
+##### To create a persistent volume
 
 ```sh
 gcloud compute disks create --size 1GB my-disk-name
 ```
 
-###### To list disk provisioned
+##### To list disk provisioned
 
 ```sh
 gcloud compute disks list
 ```
 
-###### To delete a disk
+##### To delete a disk
 
 ```sh
 gcloud compute disks delete your-disk-name
 ```
 
-###### To describe a disk
+##### To describe a disk
 
 ```sh
 gcloud compute disks describe your-disk-name
 ```
 
-###### To attach a persistent disk to an instance ([reference](https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting))
+##### To attach a persistent disk to an instance ([reference](https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting))
 
 ```sh
 gcloud compute instances attach-disk my-instance-name --disk my-disk-name
@@ -229,13 +239,13 @@ sudo mount -o discard,defaults /dev/sdb ./my-mount
 sudo chmod a+w ./my-mount
 ```
 
-###### To list instances
+##### To list instances
 
 ```sh
 gcloud compute instances list
 ```
 
-###### To describe an instance
+##### To describe an instance
 
 ```sh
 gcloud compute instances describe your-instance-name
@@ -247,25 +257,25 @@ or, to list service accounts and scopes
 gcloud compute instances describe your-instance-name --format='yaml(serviceAccounts[].scopes[])'
 ```
 
-###### To delete an instance
+##### To delete an instance
 
 ```sh
 gcloud compute instances delete your-instance-name
 ```
 
-###### To upload a directory onto an instance
+##### To upload a directory onto an instance
 
 ```sh
 gcloud compute scp ./my-source my-instance-name:/home/user/my-source --recurse
 ```
 
-###### To list available machine types (see also [Machine Types](https://cloud.google.com/compute/docs/machine-types))
+##### To list available machine types (see also [Machine Types](https://cloud.google.com/compute/docs/machine-types))
 
 ```sh
 gcloud compute machine-types list
 ```
 
-###### To list available VM images
+##### To list available VM images
 
 ```sh
 gcloud compute images list
