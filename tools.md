@@ -33,6 +33,8 @@ ____
   release.
 - [marp-cli](https://github.com/marp-team/marp-cli) - A CLI tool to convert
   markdown to presentation
+- [httpmole](https://github.com/jcchavezs/httpmole) - a CLI tool to mock
+  response of an endpoint or proxy an endpoint
 
 ## Online Tools
 
