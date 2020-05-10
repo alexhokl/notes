@@ -31,6 +31,8 @@ ____
 - [Depicted—dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous
   deployment safe by comparing before and after webpage screenshots for each
   release.
+- [marp-cli](https://github.com/marp-team/marp-cli) - A CLI tool to convert
+  markdown to presentation
 
 ## Online Tools
 
