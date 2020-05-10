@@ -55,6 +55,8 @@ ____
   Newtonsoft
 - [table-magic](https://stevecat.net/table-magic/) - converts between CSV/TSV,
   markdown, SQL and HTML
+- [quicktype](https://app.quicktype.io/) - generate code of various languages
+  from JSON data.
 
 ### APIs
 
