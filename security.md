@@ -48,6 +48,9 @@ ____
   Ryck](https://www.youtube.com/watch?v=GyCL8AJUhww)
 - [Why the Resource Owner Password Credentials Grant Type is not Authentication
   nor Suitable for Modern Applications](https://www.scottbrady91.com/OAuth/Why-the-Resource-Owner-Password-Credentials-Grant-Type-is-not-Authentication-nor-Suitable-for-Modern-Applications)
+- [lua-resty-openidc](https://github.com/zmartzone/lua-resty-openidc) -
+  a library for NGINX implementing the OpenID Connect Relying Party (RP)
+  and/or the OAuth 2.0 Resource Server (RS) functionality.
 
 ### Specifics
 
