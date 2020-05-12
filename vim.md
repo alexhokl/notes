@@ -63,7 +63,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>w</kbd> to jump to the next word
 - <kbd>b</kbd> to jump back to the last word
 - <kbd>space</kbd> put current cursor in center of the screen
-- <kbd>ctrl</kbd><kbd>n</kbd> to toggle NERDtree
 - <kbd>m</kbd><kbd>a</kbd> to mark the current cursor position to register `a`
 - <kbd>m</kbd><kbd>A</kbd> to mark the current cursor position to register `A`
   and it can be used in a different buffer
