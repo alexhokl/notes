@@ -399,6 +399,22 @@ minikube start
 minikube start --driver=kvm2
 ```
 
+##### To start with a local mount
+
+```sh
+minikube start --mount-string=/home/user/something:/data --mount
+```
+
+##### To start with a larger VM disk
+
+```sh
+minikube start --disk-size=100GB
+```
+
+Note that the default is 16GB.
+Also note that `minikube delete` is required before starting with a new disk
+size.
+
 ##### To change the default driver
 
 ```sh
@@ -441,10 +457,16 @@ eval $(minikube docker-env)
 minikube addons enable ingress
 ```
 
-##### to get IP and port of the running service
+##### To get IP and port of the running service
 
 ```sh
 minikube service your-service-name --url --namespace default
+```
+
+##### To SSH into the VM
+
+```sh
+minikube ssh -- df -h
 ```
 
 ### Secret Management
