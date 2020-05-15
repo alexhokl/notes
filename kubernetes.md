@@ -405,6 +405,26 @@ minikube start --driver=kvm2
 minikube start --mount-string=/home/user/something:/data --mount
 ```
 
+It compliments with
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - image: nginx:0.1
+    name: nginx
+    volumeMounts:
+    - mountPath: /mnt/data
+      name: volume
+  volumes:
+  - name: volume
+    hostPath:
+      path: /data
+```
+
 ##### To start with a larger VM disk
 
 ```sh
@@ -419,6 +439,18 @@ size.
 
 ```sh
 minikube config set driver kvm2
+```
+
+##### To change default memory limit
+
+```sh
+minikube config set memory 8192
+```
+
+##### To change default CPU limit
+
+```sh
+minikube config set cups 4
 ```
 
 ##### To stop
