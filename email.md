@@ -91,6 +91,10 @@ the above record is tied to `example.com`, an extra DNS record on domain
 `test.com` is required. It is of type `TXT`, host as
 `example.com._report._dmarc` and value of `v=DMARC1;`.
 
+#### Interpretation of reports
+
+- [Aggregate DMARC reports explained](https://www.dmarcanalyzer.com/dmarc-aggregate-reports/)
+
 #### References
 
 - [About DMARC](https://support.google.com/a/answer/2466580)
