@@ -143,6 +143,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   the current file
 - `:g/ASearchWord/norm @q` to apply macro stored in register `q` to all lines
   containing `ASearchWord`
+- `:g/^\s*$/d` to delete all empty lines
 - <kbd>ctrl</kbd><kbd>f</kbd> to search in the current repository
 - <kbd>,</kbd><kbd>F</kbd> to search for the current word in the current
   repository
@@ -268,7 +269,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 ### Terminal
 
 - `:!ls` to run command `ls`
-- `:read!git rev-parse HEAD` to run command `git rev-parse HEAD` and paste it
+- `:read !git rev-parse HEAD` to run command `git rev-parse HEAD` and paste it
   into the current buffer
 - `:!jq` with a visually selected text to format it with `jq`
 
