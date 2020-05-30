@@ -1,5 +1,10 @@
-
+- [Key generation](#key-generation)
+- [File transfer](#file-transfer)
+- [Configuration](#configuration)
+- [Tunneling](#tunneling)
 ____
+
+### Key generation
 
 ###### To generate a cert for accessing a remote server via SSH
 
@@ -13,6 +18,8 @@ chmod 400 app-test.pem
 ssh -i app-test.pem app@app-test.aws.com
 ```
 
+### File transfer
+
 ###### To pull a file from remote server
 
 ```sh
@@ -25,9 +32,11 @@ scp -i cert-to-server.pem app@app-test.aws.com:/server/path/file.txt local.txt
 scp -i cert-to-server.pem -r app@app-test.aws.com:/server/path/ ./destination-path
 ```
 
+### Configuration
+
 ###### To disable password loging
 
-Edit `/etc/ssh/sshd_config` and create or change the following entries with `no` va lues 
+Edit `/etc/ssh/sshd_config` and create or change the following entries with `no` va lues
 
 ```
 ChallengeResponseAuthentication no
@@ -40,7 +49,7 @@ and reload sshd
 sudo systemctl reload ssh
 ```
 
-###### Tunneling
+### Tunneling
 
 to map port 5601 from a remote machine to port 8080 of a local machine
 
@@ -60,5 +69,3 @@ to map port 5601 from a local machine to port 8080 of a remote machine
 ```sh
 ssh -R 8080:127.0.0.1:5601 username@remote-machine
 ```
-
-kk
