@@ -1,5 +1,5 @@
 - [Commands](#commands)
-- [Concepts](#concepts)
+- [Yubikey](#yubikey)
     + [Links](#links)
     + [Master key](#master-key)
 ____
@@ -129,7 +129,7 @@ gpg -r user@test.com -e something.txt
 gpg -o something.txt --decrypt something.txt.gpg
 ```
 
-# Concepts
+# Yubikey
 
 ### Links
 
