@@ -1,7 +1,10 @@
+- [Commands](#commands)
 - [Concepts](#concepts)
     + [Links](#links)
     + [Master key](#master-key)
 ____
+
+# Commands
 
 ##### To list all public keys
 
