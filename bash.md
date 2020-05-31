@@ -37,7 +37,7 @@ ____
 | ctrl+u | to cut to the beginning of a line |
 | ctrl+y | to paste already cut text |
 | alt+b  | to skip one word backward |
-| alt+f  | to skip one work forward |
+| alt+f  | to advance one work forward |
 | alt+d  | to delete until the end of the current word include the current character |
 | ctrl+x+e | to edit the current command in default editor |
 | alt+.  | to paste the last argument of the last command |
