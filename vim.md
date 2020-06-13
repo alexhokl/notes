@@ -72,15 +72,18 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>z</kbd><kbd>=</kbd> on a spelling error to show a list of spelling suggestions
 - <kbd>6</kbd><kbd>+</kbd> to jump 6 lines below and to the head of the line
 - <kbd>4</kbd><kbd>-</kbd> to jump 4 lines above and to the head of the line
-- <kbd>5</kbd><kbd>\$</kbd> to jump 5 lines below and to the end of the line
+- <kbd>5</kbd><kbd>\$</kbd> to jump 4 (not 5) lines below and to the end of the
+  line
 - <kbd>8</kbd><kbd>0</kbd><kbd>\|</kbd> to jump to character 80 in the current
   line
 - <kbd>%</kbd> to jump between the start and end of parentheses of the current
   line
 - <kbd>[</kbd><kbd>{</kbd> to jump to the opening of the current curly brackets
 - <kbd>]</kbd><kbd>}</kbd> to jump to the closing of the current curly brackets
-- <kbd>ctrl</kbd><kbd>o</kbd> to jump back the to the previous position
-- <kbd>ctrl</kbd><kbd>i</kbd> to jump forward to the next position (after a jump back)
+- <kbd>ctrl</kbd><kbd>o</kbd> to jump back the to the previous position (in the
+  jump list)
+- <kbd>ctrl</kbd><kbd>i</kbd> to jump forward to the next position (after a jump
+  back)(in the jump list)
 - `:jumps` to show the current jump list
 - <kbd>g</kbd><kbd>x</kbd> in a (proper) link to open a browser
 - <kbd>g</kbd><kbd>f</kbd> in a file page to open the file in a buffer
@@ -101,10 +104,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>]</kbd><kbd>space</kbd> to insert a line below
 - <kbd>[</kbd><kbd>e</kbd> to move the current line up
 - <kbd>]</kbd><kbd>e</kbd> to move the current line down
-- <kbd>g</kbd><kbd>s</kbd> to swap function/method arguments (use <kbd>h</kbd> and <kbd>l</kbd> to swap and <kbd>j</kbd> and
-  k to select)
-- <kbd>g</kbd><kbd>s</kbd><kbd>l</kbd> to swap a visually selected list (use <kbd>h</kbd> and <kbd>l</kbd> to swap and <kbd>j</kbd> and
-  k to select)
+- <kbd>g</kbd><kbd>s</kbd> to swap function/method arguments (use <kbd>h</kbd>
+  and <kbd>l</kbd> to swap and <kbd>j</kbd> and <kbd>k</kbd> to select)
+- <kbd>g</kbd><kbd>s</kbd> to swap a visually selected list (use <kbd>h</kbd>
+  and <kbd>l</kbd> to swap and <kbd>j</kbd> and <kbd>k</kbd> to select)
 - <kbd>y</kbd><kbd>y</kbd> to copy the current line
 - <kbd>c</kbd><kbd>2</kbd><kbd>i</kbd><kbd>(</kbd> to change all words in the
   outer brackets. `a(b(c))` &rarr; `a()`
