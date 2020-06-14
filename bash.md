@@ -15,7 +15,6 @@
   * [Power](#power)
   * [Network](#network)
   * [Wifi](#wifi)
-  * [VPN](#vpn)
   * [Encrypted drive](#encrypted-drive)
   * [Locales](#locales)
   * [Printing](#printing)
