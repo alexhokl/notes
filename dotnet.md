@@ -1978,11 +1978,14 @@ process runs.
 #### References
 
 - [Fxcop rules](https://docs.microsoft.com/en-us/visualstudio/code-quality/fxcop-rule-port-status)
+- [StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
+- [StyleCop rules](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
 
-#### Adding code analysis warnings to a projject
+#### Adding code analysis warnings to a project
 
 ```sh
 dotnet add your-project-name package Microsoft.CodeAnalysis.FxCopAnalyzers
+dotnet add your-project-name package StyleCop.Analyzers
 ```
 
 ### Workarounds
