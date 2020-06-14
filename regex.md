@@ -1,7 +1,10 @@
 - [Links](#links)
+- [Basics](#basics)
+  * [Metacharacters](#metacharacters)
+  * [Variables](#variables)
 ____
 
-### Links
+## Links
 
 -	[Expresso](http://www.ultrapico.com/expresso.htm) The premier regular expression development tool for Windows
 -	[myregextester](https://myregextester.com/index.php) A regular expression tester
@@ -9,9 +12,48 @@ ____
 -	[Regular Expression Examples](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-examples)
 -	[RegExLib](http://regexlib.com/) A regular expression library
 
-#### Variables
+## Basics
 
-###### `(?<email>.*?)\[(?<provider>.*?)\]`
+### Metacharacters
+
+#### Wildcard
+
+- `.` - any single character
+- `\s` - whitespace string
+- `\S` - non-whitespace string
+- `\d` - digit
+- `\D` - non-digit
+- `[a-z]` - lower case string
+- `[A-Z]` - upper case string
+- `[A-Za-z]` - alphabetical string
+- `[A-Za-z0-9_]` - alpha-numeric string
+- `\w` - alpha-numeric string
+- `\W` - non-alpha-numeric string
+
+#### Quantification
+
+- `*` - zero or more occurrences of the preceding element (which implies
+  optional)
+- `?` - zero or one occurrence of the preceding element (which also implies
+  optional)
+- `+` - one or more occurrences of the preceding element
+- `{2}` - exactly two occurrences of the preceding element
+- `{2,}` - at least two occurrences of the preceding element
+- `{2,4}` - two to four occurrences of the preceding element
+
+#### Position
+
+- `^` - beginning of a line
+- `$` - end of a line
+
+#### Operators
+
+- `|` - or
+- `()` - grouping
+
+### Variables
+
+##### `(?<email>.*?)\[(?<provider>.*?)\]`
 
 matches `"user@gmail.com[facebook]"`
 
