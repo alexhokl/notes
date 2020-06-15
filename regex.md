@@ -1,12 +1,13 @@
 - [Links](#links)
 - [Basics](#basics)
   * [Metacharacters](#metacharacters)
-  * [Variables](#variables)
+  * [Named groups](#named-groups)
 ____
 
 ## Links
 
 -	[Expresso](http://www.ultrapico.com/expresso.htm) The premier regular expression development tool for Windows
+- [regular expression 101](https://regex101.com/) A regular expression tester 
 -	[myregextester](https://myregextester.com/index.php) A regular expression tester
 -	[RegexBuddy](http://www.regexbuddy.com/) A regular expression development tool for Windows
 -	[Regular Expression Examples](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-examples)
@@ -51,7 +52,7 @@ ____
 - `|` - or
 - `()` - grouping
 
-### Variables
+### Named groups
 
 ##### `(?<email>.*?)\[(?<provider>.*?)\]`
 
