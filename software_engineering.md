@@ -1,21 +1,17 @@
 - [Software Engineering](#software-engineering)
-    + [Technical debts](#technical-debts)
-    + [Web App](#web-app)
-    + [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
-    + [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
-    + [Product / Project Management](#product--project-management)
-    + [Others](#others-1)
+  * [Technical debts](#technical-debts)
+  * [Web App](#web-app)
+    + [12-Factor App](#12-factor-app)
+  * [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
+  * [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
+  * [Product / Project Management](#product--project-management)
+  * [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
+  * [Others](#others-1)
 ____
 
 # Software Engineering
 
-- [Technical Debts](#technical-debts)
-- [Web App](#web-app)
-- [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
-- [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
-- [Others](#others-1)
-
-### Technical debts
+## Technical debts
 
 ##### Causes
 
@@ -52,9 +48,9 @@ ____
 - Check if any files should not be committed before creating a git commit
 - Don't put un-related changes in to the same commit
 
-### Web App
+## Web App
 
-#### [12-Factor App](https://12factor.net/)
+### [12-Factor App](https://12factor.net/)
 
 ##### [Codebase](https://12factor.net/codebase)
 
@@ -131,7 +127,7 @@ ____
 
 - Run admin/management tasks as one-off processes
 
-### One Bite At A Time: Partitioning Complexity
+## One Bite At A Time: Partitioning Complexity
 
 - See [post](https://www.facebook.com/notes/kent-beck/one-bite-at-a-time-partitioning-complexity/1716882961677894/)
 - make sure the code is correct, then make it clean, then make it fast
@@ -143,7 +139,7 @@ ____
 - use constants to replace complex computations to code other logics and make
   unit tests pass before getting back to replace that constant
 
-### 10 ways to accelerate software development from Dave Thomas
+## 10 ways to accelerate software development from Dave Thomas
 
 - See [slides](http://yowconference.com.au/slides/yownights/SLIDES_YN201705DaveThomas_TenWays.pdf)
 - development velocity is constrained by testing velocity
@@ -186,15 +182,74 @@ ____
   - ask other developers to test the UI and find stupid bugs
   - once it is stable, code selenium tests (e2e tests)
 
-### Product / Project Management
+## Product / Project Management
 
 - [Engineering Productivity](https://medium.com/@skamille/engineering-productivity-b1ea12db02e4)
-  - Breaking down the scope of projects to help your team ship frequently. An eye for the MVP, for sequencing work and for predicting likely risks and bottlenecks for project completion are the skills here. Project management is an important part of engineering leadership development. If the project does not cross teams or organisations, it is not neccessary to have a professional project manager.
+  - Breaking down the scope of projects to help your team ship frequently. An
+    eye for the MVP, for sequencing work and for predicting likely risks and
+    bottlenecks for project completion are the skills here. Project management
+    is an important part of engineering leadership development. If the project
+    does not cross teams or organisations, it is not necessary to have
+    a professional project manager.
   - Balancing that product delivery with sustaining engineering so that you
-    don’t end up with code that can’t be maintained in the future. The amount you will invest here depends on the future certainty (like the stage of a startup)
-  - Prioritizing, prioritizing, prioritizing. Implicit in the first two skills is the ability to figure out what is important, and prioritize it. If you overprioritize shipping, you might get a lot done for a while, and then slow down as the debt you’ve accumulated comes due. Overprioritize sustaining engineering and you don’t ship product. You may not start out with these instincts, but they can be developed, so don’t be afraid to start making judgment calls now and learning from the results.
+    do not end up with code that cannot be maintained in the future. The amount
+    you will invest here depends on the future certainty (like the stage of
+    a startup)
+  - Prioritizing, prioritizing, prioritizing. Implicit in the first two skills
+    is the ability to figure out what is important, and prioritize it. If you
+    over prioritize shipping, you might get a lot done for a while, and then
+    slow down as the debt you have accumulated comes due. Over prioritize
+    sustaining engineering and you don’t ship product. You may not start out
+    with these instincts, but they can be developed, so don’t be afraid to start
+    making judgment calls now and learning from the results.
 
-### Others
+## Quality Assurance and quality specialist
+
+Ref: [Faster, better, stronger: Building a high quality
+product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-building-high-quality-product)
+
+- There is no work flow status of `QA testing`. Instead, the testing is embedded
+  in the implementation. That means, implementation is not done and the
+  developer should not take another task until testing is completed. Thus, the
+  developer must ensure that the story is passed to an available QA. This forced
+  handover facilitates direct communication. The QA receives valuable context
+  from the developer; and the developer can make use of the conversation with
+  the QA to check whether all the acceptance criteria of a particular story are
+  actually fulfilled. This conversation is already a big win for quality.
+- It is best when QAs and BAs are sitting side by side. When they work together
+  on requirements and present them together to the team in short planning
+  meetings. In this way, the knowledge about requirements (including "edge
+  cases" and "sad paths") can be shared with the entire team before
+  implementation. The QAs can be sure that the most important "sad paths" are
+  already considered for the implementation and thus, also automatically tested
+  for regression. In this way, the effort for manual testing is significantly
+  reduced. In contrast to the code-freeze test under time pressure, we’re
+  introducing our products with substantially better quality and much earlier to
+  the market. The most cost effective way to detect defects as early as possible
+  and deliver high quality right from the start is when drafting the
+  requirements and analyzing the stories — and not only while testing.
+- To increase quality from the beginning, every commit goes to production.
+  Setting this rule increases the quality: When QAs are no longer the last
+  guardians of possible mistakes, developers spend more time making sure that
+  their tests cover the most important things. And as QAs are the experts for
+  testing, the push-and-pull relationship between developers and QAs is reversed
+  by this new rule. Previously, tickets have been pushed to the QAs for testing.
+  Now, developers are asking QAs for advice on how best to structure the tests
+  — especially before implementation.
+- Enable new features in a very controlled manner using Feature Toggles.
+- Pair programming helps to avoid slip ups - which are bound to happen 
+  sometimes. An effective damage control is the "pairing" of two people, mostly
+  developers. But slip ups are not the only motivation for pairing. Do you know
+  the "aha moment" that you have when you have tried something new and
+  understood how something works? We try to make it as easy as possible for the
+  team to experience such moments by "trying out" (= deliberately provoking
+  mistakes) — and talking within the pair about it!
+- Quality Specialists are usually the link between developers and business, we
+  connect people and their perspectives, we help to build a culture of trust.
+  Those are the small things that make up a great culture, and we Quality
+  Specialists are usually in the middle of it.
+
+## Others
 
 - Always instrumenting the app; for instances, time taken of API calls or time
   taken for SQL queries
