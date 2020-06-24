@@ -289,10 +289,37 @@ gcloud compute images list
 gcloud dns managed-zones list
 ```
 
+##### To add a managed zone
+
+```sh
+gcloud dns managed-zones create test-com --dns-name test.com --description ""
+```
+
 ##### To describe a zone
 
 ```sh
 gcloud dns managed-zones describe your-zone-name
+```
+
+##### To list all records of a domain
+
+```sh
+gcloud dns record-sets list --zone=test-com
+```
+
+##### To add a record
+
+```sh
+gcloud dns record-sets transaction start --zone=test-com
+gcloud dns record-sets transaction add --zone=test-com --ttl 3600 --type A --name office.alexho.dev "192.168.1.1"
+gcloud dns record-sets transaction add --zone sbcchk-com --ttl 300 --type MX --name test.com "10 mx1.emailsrvr.com." "20 mx2.emailsrvr.com."
+gcloud dns record-sets transaction execute --zone=test-com
+```
+
+To abort a transaction
+
+```sh
+gcloud dns record-sets transaction abort --zone=test-com
 ```
 
 ### Bucket

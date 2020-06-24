@@ -13,7 +13,6 @@
   * [Hardware](#hardware)
   * [Directories](#directories)
   * [Power](#power)
-  * [Network](#network)
   * [Wifi](#wifi)
   * [Encrypted drive](#encrypted-drive)
   * [Locales](#locales)
@@ -301,16 +300,6 @@ To enable suspend and hibernation
 
 ```sh
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
-```
-
-### Network
-
-##### nslookup
-
-To check the IP addresses of a domain
-
-```sh
-nslookup github.com
 ```
 
 ### Wifi
