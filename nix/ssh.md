@@ -1,4 +1,5 @@
 - [Key generation](#key-generation)
+- [Key management](#key-management)
 - [File transfer](#file-transfer)
 - [Configuration](#configuration)
 - [Tunneling](#tunneling)
@@ -16,6 +17,14 @@ ssh-copy-id -i app-test.pub app@app-test.aws.com
 mv app-test app-test.pem
 chmod 400 app-test.pem
 ssh -i app-test.pem app@app-test.aws.com
+```
+
+### Key management
+
+##### To list public keys in the currently inserted Yubikeys
+
+```sh
+ssh-add -L
 ```
 
 ### File transfer
