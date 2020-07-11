@@ -6,6 +6,7 @@
   * [for](#for)
   * [if](#if)
   * [function](#function)
+  * [options](#options)
 - [Recipes](#recipes)
   * [Versions](#versions)
   * [Users](#users)
@@ -136,13 +137,32 @@ done
 - `[ -L some-link ]` checks if a symbolic link exists
 - `[ ! -f some-file ]` checks if file `some-file` not exists
 - `[ -f *suffix ]` checks if file with suffix `suffix` exists
+- `[ -z "${MY_VAR:-}" ]` checks if variable `MY_VAR` exists
 
 ### function
 
 - `$2` refers to second argument of a function
 - `for arg in "$@"; do echo "$arg"; done` echo out all arguments
 
-## Recipes 
+### options
+
+##### set -x
+
+- enables a mode of the shell where executed commands are printed to the
+  terminal.
+- example usage
+  - `[[ -n $DEBUG ]] && set -x`
+- `set +x` disables this functionality
+
+##### set -euo pipefail
+
+- `-e` causes a bash script to exit immediately when a command fails
+  - append `|| true` to a command if immediate exit is not expected
+- `set -o pipefail` ensure exit in first of the piped command
+- `-u` causes the bash shell to treat unset variables as an error and exit
+  immediately
+
+## Recipes
 
 ### Versions
 
