@@ -69,7 +69,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>'</kbd><kbd>a</kbd> to jump to location stored in register `a`
 - <kbd>[</kbd><kbd>s</kbd> to jump to the previous spelling error
 - <kbd>]</kbd><kbd>s</kbd> to jump to the next spelling error
-- <kbd>z</kbd><kbd>=</kbd> on a spelling error to show a list of spelling suggestions
+- <kbd>z</kbd><kbd>=</kbd> on a spelling error to show a list of spelling
+  suggestions
 - <kbd>6</kbd><kbd>+</kbd> to jump 6 lines below and to the head of the line
 - <kbd>4</kbd><kbd>-</kbd> to jump 4 lines above and to the head of the line
 - <kbd>5</kbd><kbd>\$</kbd> to jump 4 (not 5) lines below and to the end of the
@@ -111,6 +112,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>y</kbd><kbd>y</kbd> to copy the current line
 - <kbd>c</kbd><kbd>2</kbd><kbd>i</kbd><kbd>(</kbd> to change all words in the
   outer brackets. `a(b(c))` &rarr; `a()`
+- <kbd>J</kbd> to append a space and move and append content of the next line to
+  the current line
 
 ### Search and replace
 
@@ -150,6 +153,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>ctrl</kbd><kbd>f</kbd> to search in the current repository
 - <kbd>,</kbd><kbd>F</kbd> to search for the current word in the current
   repository
+- `:CocSearch searchWord` to search for `searchWord` in the current project
 
 ### Indentation
 
@@ -160,15 +164,19 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>4</kbd><kbd>></kbd><kbd>></kbd> to add indentation to the current line
   and the 3 lines below
 - <kbd>=</kbd> to fix indentation of the current line
-- <kbd>g</kbd><kbd>g</kbd><kbd>=</kbd><kbd>G</kbd> to fix indentation of the current file
+- <kbd>g</kbd><kbd>g</kbd><kbd>=</kbd><kbd>G</kbd> to fix indentation of the
+  current file
 - `:retab` to replace all tabs with spaces
 - visually select lines and <kbd>g</kbd><kbd>q</kbd> to format those lines
 
 ### Uppercases/Lowercases
 
-- <kbd>~</kbd> to toggle between upper case and lower case of the current character
-- <kbd>g</kbd><kbd>U</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word to upper case
-- <kbd>g</kbd><kbd>u</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word to lower case
+- <kbd>~</kbd> to toggle between upper case and lower case of the current
+  character
+- <kbd>g</kbd><kbd>U</kbd><kbd>2</kbd><kbd>w</kbd> to change the current word
+  and the next to upper case
+- <kbd>g</kbd><kbd>u</kbd><kbd>a</kbd><kbd>w</kbd> to change the current word
+  to lower case
 
 ### Undo/Redo
 
@@ -177,20 +185,27 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Surround
 
-- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>"</kbd> to surround two words with `"`
-- <kbd>s</kbd><kbd>a</kbd><kbd>{</kbd> to surround a visually select block with `{}`
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>"</kbd> to surround two
+  words with `"`
+- <kbd>s</kbd><kbd>a</kbd><kbd>{</kbd> to surround a visually select block with
+  `{}`
 - <kbd>s</kbd><kbd>d</kbd><kbd>"</kbd> to delete the surrounding `"`
-- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace the surrounding `"` with `'`
-- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>f</kbd> to surround two words with a function name and `()`
-- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>i</kbd> to surround two words with two texts (prefix and suffix could be
-  different)
-- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>t</kbd> to surround two words with a tag
-- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace surrounded double quotes with single quote
+- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace the surrounding
+  `"` with `'`
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>f</kbd> to surround two
+  words with a function name and `()`
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>i</kbd> to surround two
+  words with two texts (prefix and suffix could be different)
+- <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>t</kbd> to surround two
+  words with a tag
+- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace surrounded double
+  quotes with single quote
 
 ### Commenting
 
 - <kbd>g</kbd><kbd>c</kbd><kbd>c</kbd> to toggle comment
-- visual selection + <kbd>g</kbd><kbd>c</kbd> to toggle comment of multiple lines
+- visual selection + <kbd>g</kbd><kbd>c</kbd> to toggle comment of multiple
+  lines
 
 ### Multicursors
 
@@ -198,7 +213,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   next instance of the current pattern
 - <kbd>ctrl</kbd><kbd>y</kbd> to select the previous instance of the current
   pattern
-- <kbd>ctrl</kbd><kbd>b</kbd> to skip to the next instance of the current pattern
+- <kbd>ctrl</kbd><kbd>b</kbd> to skip to the next instance of the current
+  pattern
 - <kbd>esc</kbd> to remove multi-cursors
 
 ### Buffers
@@ -282,24 +298,30 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   toggle un-staged and staged files
 - <kbd>,</kbd><kbd>g</kbd><kbd>a</kbd> to add the current file as staged file
 - <kbd>,</kbd><kbd>g</kbd><kbd>b</kbd> to show blame lines (and toggle)
-  - and <kbd>o</kbd> on the line in question to check the changes of that last commit
-- <kbd>,</kbd><kbd>g</kbd><kbd>m</kbd> to commit all current staged files and put a message
-- <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file (effectively discarding current changes)
+  - and <kbd>o</kbd> on the line in question to check the changes of that last
+    commit
+- <kbd>,</kbd><kbd>g</kbd><kbd>m</kbd> to commit all current staged files and
+  put a message
+- <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file
+  (effectively discarding current changes)
 - <kbd>,</kbd><kbd>g</kbd><kbd>d</kbd> to show diff of the current file
   - <kbd>]</kbd><kbd>c</kbd> to jump to the next diff
   - <kbd>[</kbd><kbd>c</kbd> to jump back to the previous diff
 - `:Gdiff origin/master` to show diff between `master` and the current branch
-- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a quick-fix list
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a
+  quick-fix list
   - <kbd>]</kbd><kbd>q</kbd> to jump to the next commit
   - <kbd>[</kbd><kbd>q</kbd> to jump to the previous commit
 - <kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
 
 ### C#
 
-- <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to list the members (methods or properties) in the current buffer
+- <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to list the members (methods or
+  properties) in the current buffer
 - <kbd>g</kbd><kbd>r</kbd> to find usages
 - <kbd>,</kbd><kbd>g</kbd><kbd>i</kbd> to find implementations
-- <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to find symbols (pretty much like <kbd>ctrl</kbd><kbd>t</kbd> in ReSharper)
+- <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to find symbols (pretty much like
+  <kbd>ctrl</kbd><kbd>t</kbd> in ReSharper)
 - <kbd>K</kbd> show documentation
 - <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
 - <kbd>,</kbd><kbd>f</kbd><kbd>x</kbd> to fix `using` statements
@@ -327,8 +349,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>[</kbd><kbd>[</kbd> jump to the previous function
 - <kbd>]</kbd><kbd>]</kbd> jump to the next function
 - <kbd>,</kbd><kbd>e</kbd> to rename
-- <kbd>v</kbd><kbd>i</kbd><kbd>f</kbd> to visually select body of a function (not including function signature)
-- <kbd>v</kbd><kbd>a</kbd><kbd>f</kbd> to visually select the whole function including its comments
+- <kbd>v</kbd><kbd>i</kbd><kbd>f</kbd> to visually select body of a function
+  (not including function signature)
+- <kbd>v</kbd><kbd>a</kbd><kbd>f</kbd> to visually select the whole function
+  including its comments
 - `:GoCoverage` to start code coverage
 - `:GoCoverageClear` to remove highlights of code coverage
 - `:GoCoverageToggle` to toggle highlights of code coverage
