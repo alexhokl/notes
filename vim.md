@@ -13,7 +13,7 @@
   * [Errors](#errors)
   * [Folding](#folding)
   * [File search](#file-search)
-  * [File explorer](#file-explorer)
+  * [File explorer (netrw)](#file-explorer-netrw)
   * [Terminal](#terminal)
   * [Git](#git)
   * [C#](#c%23)
@@ -281,9 +281,15 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 <kbd>ctrl</kbd><kbd>p</kbd> to search a file in the current repository
 
-### File explorer
+### File explorer (netrw)
 
 - `:Vex` to open a file explorer (netrw)
+
+#### In netrw
+
+- <kbd>D</kbd> to delete a file
+- <kbd>d</kbd> to create a directory
+- <kbd>%</kbd> to create a directory
 
 ### Terminal
 
