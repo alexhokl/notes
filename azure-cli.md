@@ -236,7 +236,7 @@ az acr repository untag -n YourRegistryName --image YourRepoName:YourTagName
 az acr login -n short-name-of-acr
 ```
 
-##### To create a Docker login (by creating a role)
+##### To create a Docker login (by creating a service principal)
 
 ```sh
 az ad sp create-for-rbac --scopes /subscriptions/{SubID}/resourceGroups/{ResourceGroup1}/providers/Microsoft.ContainerRegistry/registries/{acrName} --role Contributor --name your-credential-name
@@ -255,6 +255,20 @@ and show display name and service type
 
 ```sh
 az ad sp list --all | jq '.[] | { name: .displayName, type: .servicePrincipalType }'
+```
+
+##### To create a service principal
+
+```sh
+SP_JSON=$(az ad sp create-for-rbac --skip-assignment --name your-credential-name -o json)
+SP_ID=$(echo $SP_JSON | jq -r '.appId')
+SP_PASSSWORD=$(echo $SP_JSON | jq -r '.password')
+```
+
+##### To assign a role to a service principal
+
+```sh
+az role assignment create --assignee $SP_ID --scope "/your/long/scope/path" --role Contributor 
 ```
 
 ### Roles
