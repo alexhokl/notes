@@ -42,3 +42,19 @@ grep -rl $'\xEF\xBB\xBF' .
 ```sh
 grep -E '^token'
 ```
+
+##### To show lines after the match
+
+```sh
+grep -A 2 search-term
+```
+
+This show 2 lines before the match (that is, a total of 3 lines).
+
+##### To show lines before the match
+
+```sh
+grep -B 2 search-term
+```
+
+This show 2 lines before the match (that is, a total of 3 lines).
