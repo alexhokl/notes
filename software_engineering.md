@@ -202,6 +202,70 @@ ____
     sustaining engineering and you don’t ship product. You may not start out
     with these instincts, but they can be developed, so don’t be afraid to start
     making judgment calls now and learning from the results.
+- [Delivering on an architecture
+  strategy](https://blog.thepete.net/blog/2019/12/09/delivering-on-an-architecture-strategy/)
+  - By a sustainable balance between feature delivery and foundational
+    architectural work by empowering teams with autonomy, and fostering a strong
+    partnership between product and tech on within those teams.
+  - To make coherent progress on architectural goals, teams also need to
+    align behind a shared vision. The Strategic Architectural Initiatives
+    framework delivers that alignment, allowing you to reap full benefit from
+    your high-performing teams.
+  - finding time for technical work
+    - Besides feature work, architectural work is just as important to the
+      success of a product. It does not directly deliver product value, but
+      rather delivers the foundation upon which that product value is created.
+    - It can be challenging to get architectural work prioritized appropriately,
+      particularly when the person prioritizing the team’s backlog does not know
+      about this technical work, or does not fully understand the value of the
+      work. It results in an imbalanced prioritization of feature work over
+      architectural work.
+    - Managing technical work and feature work as a single backlog is much more
+      effective. Pulling from a single backlog gives a team more flexibility in
+      prioritizing and load-balancing across different tasks, and is a natural
+      fit for teams that are product-oriented, as opposed to project-oriented.
+    - Reserving a percentage of capacity for technical debt work or creating
+      a new team for technical work does not work efficiently in a long run.
+  - Enabling a balanced backlog
+    - Product-oriented teams
+      - When a product manager trusts that the engineers on the team have the
+        interest of the product at heart, they also trust the engineer’s
+        judgment when adding technical tasks to the backlog and prioritizing
+        them. This enables the balanced mix of feature and technical work.
+        However, this is only true if the team are empowered to manage their own
+        backlog; if the team has autonomy.
+    - Autonomous teams
+      - Empowering teams to make tactical decisions.
+      - Empowering teams to make decisions locally is only helpful if they also
+        understand the broader context.
+    - Aligned autonomy
+  - Connecting technical work to business outcomes
+    - A technical strategy does not exist in isolation. It should be in service
+      of broader product- or business-level objectives. For example, a technical
+      strategy to accelerate deployments might be driven by a product objective
+      of responding more rapidly to feature requests from customers. Put another
+      way, the technical strategy should be aligned with the business
+      objectives, and one should be concerned if the technical work cannot be
+      easily connect back to a broader business goal.
+    - A technical strategy provides the “what”, but we also need the “how”.
+      That is where an architectural initiative comes in, laying out the
+      specifics of an architectural change which will move a technical strategy
+      forward.
+  - Strategic Architectural Initiatives
+    - By stating the current state, the target state (within a year, two years
+      or 5 years), and the next steps (a not so clear "how" to allow teams to
+      figure out their own "how").
+    - Deconstructing an initiative into Current State, Target State, and Next
+      Steps ensures that people filling in the gaps for all the types of
+      thinkers that need to get behind the initiative. Target State helps Doers
+      to see beyond the tactical stuff that they tend to focus on, towards the
+      broader strategy. Current State reminds Dreamers of the reality today,
+      rather than what they think it should be in the future. Next Steps allow
+      everyone to connect the dots between where we are today and where we want
+      to get to, and ensure that the initial activities kicked off in pursuit of
+      our strategy are coordinated and coherent.
+    - [Creating and sharing Strategic Architectural
+      Initiatives](https://blog.thepete.net/blog/2020/01/09/creating-and-sharing-strategic-architectural-initiatives/)
 
 ## Quality Assurance and quality specialist
 
