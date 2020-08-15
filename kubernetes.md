@@ -1,3 +1,4 @@
+- [Links](#links)
 - [Commands](#commands)
 - [Resource Definitions](#resource-definitions)
 - [Concepts](#concepts)
@@ -5,11 +6,31 @@
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
 - [References](#references)
-- [Links](#links)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
-  * [Links](#links-1)
 ____
+
+## Links
+
+- [Kubernetes Resource Report](https://github.com/hjacobs/kube-resource-report)]
+- [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)] [DNS
+  for Services and
+  Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
+- [Configuration Best
+  Practices](https://kubernetes.io/docs/concepts/configuration/overview/)
+- [Kubernetes The Hard
+  Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) [Web UI
+  (Dashboard)](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
+- [kubectl -Cheat
+  Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Spinnaker](https://www.spinnaker.io/) - an open-source, multi-cloud
+  continuous delivery platform that helps you release software changes with
+  high velocity and confidence
+- [A visual guide on troubleshooting Kubernetes
+  deployments](https://learnk8s.io/troubleshooting-deployments)
+- [OperatorHub.io](https://operatorhub.io/)
+- [Troubleshooting - NGINX Ingress
+  Controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
 
 ## Commands
 
@@ -380,11 +401,6 @@ It is valuable for applications that require one or more of the following
 - [Kubernetes Custom Resource API Reference Docs
   generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
 
-## Links
-
-- [Kubernetes Resource Report](https://github.com/hjacobs/kube-resource-report)]
-- [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)]
-
 ## Minikube
 
 ##### To start with VirtualBox (default)
@@ -509,16 +525,3 @@ minikube ssh -- df -h
 - [azure/kubernetes-kms](https://github.com/azure/kubernetes-kms)
 - [kubernetes-sigs/aws-encryption-provider](https://github.com/kubernetes-sigs/aws-encryption-provider)
 - [oracle/kubernetes-vault-kms-plugin](https://github.com/oracle/kubernetes-vault-kms-plugin)
-
-### Links
-
-- [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
-- [Configuration Best Practices](https://kubernetes.io/docs/concepts/configuration/overview/)
-- [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
-- [Web UI (Dashboard)](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
-- [kubectl -Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-- [Spinnaker](https://www.spinnaker.io/) - an open-source, multi-cloud
-  continuous delivery platform that helps you release software changes with
-  high velocity and confidence
-- [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
-- [OperatorHub.io](https://operatorhub.io/)
