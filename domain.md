@@ -1,3 +1,5 @@
+- [Links](#links)
+____
 # Links
 
 [ICANN Lookup](https://lookup.icann.org/lookup)
