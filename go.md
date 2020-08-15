@@ -17,6 +17,7 @@ ____
 - [Grumpy: Go running Python!](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html)
 - [Gopherize.me](https://gopherize.me/) 
 - [Conference talks from Liz Rice](https://www.lizrice.com/talks)
+- [Go Time Podcast](https://changelog.com/gotime)
 
 ### Libraries
 
