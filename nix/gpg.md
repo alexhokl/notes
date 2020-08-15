@@ -2,6 +2,7 @@
 - [Yubikey](#yubikey)
     + [Links](#links)
     + [Master key](#master-key)
+    + [Install existing keys to new a Yubikey](#install-existing-keys-to-new-a-yubikey)
 ____
 
 # Commands
@@ -141,3 +142,21 @@ Master key should be kept offline at all times and only accessed to revoke or
 issue new sub-keys.
 
 Note that, once GPG keys are moved to a YubiKey, it cannot be moved again.
+
+### Install existing keys to new a Yubikey
+
+Assuming keys are stored in an encrypted USB drive as `/dev/sda1` and name
+of master key file is `mastersub.key`.
+
+Follow [Configure
+Smartcard](https://github.com/drduh/YubiKey-Guide#configure-smartcard) to
+prepare the new YubiKey.
+
+```sh
+sudo cryptsetup luksOpen /dev/sda1 secret
+sudo mount /dev/mapper/secret /mnt/encrypted-usb
+gpg --import /mnt/encrypted-usb/mastersub.key
+```
+
+Follow [Transfer keys](https://github.com/drduh/YubiKey-Guide#transfer-keys) to
+transfer the imported keys to the new Yubikey.
