@@ -21,6 +21,7 @@
   * [Snippets](#snippets)
   * [vimrc](#vimrc)
   * [Help pages](#help-pages)
+  * [Starting vim](#starting-vim)
 - [Scripting](#scripting)
   * [References](#references)
 ____
@@ -34,6 +35,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 - <kbd>esc</kbd> to normal mode
 - `:wq` to save and exit
+- `:xa` to save all files and exit
 - <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode)
 - <kbd>V</kbd> to select a line visually
 - `:Maps` to search for a configured mapping
@@ -97,6 +99,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>A</kbd> to append to the end of the current line
 - <kbd>I</kbd> to insert to the beginning of the current line
 - <kbd>d</kbd> to delete
+- `d/searchWord` to delete until the first occurrence of `searchWord`
+- <kbd>d</kbd><kbd>i</kbd><kbd>t</kbd> to delete contents in a tag
 - <kbd>c</kbd><kbd>2</kbd><kbd>w</kbd> to change 2 words
 - <kbd>o</kbd> to open a new line in the next line and insert
 - <kbd>O</kbd> to open a new line in the previous line and insert
@@ -390,6 +394,20 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:h v_something` to check command `something` in visual mode
 - `:h i_something` to check command `something` in insert mode
 - `:helpgrep searchWord` to look for `searchWord` in all help files
+
+### Starting vim
+
+##### Open multiple files and split horizontally
+
+```sh
+vim -o src/hello.js src/world.js
+```
+
+##### Open multiple files and split virtically
+
+```sh
+vim -O src/hello.js src/world.js
+```
 
 ## Scripting
 
