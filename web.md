@@ -1,5 +1,7 @@
 - [Web](#web)
+    + [Architecture](#architecture)
     + [Browsers](#browsers)
+    + [Tools](#tools)
     + [HTML5](#html5)
     + [UX Design](#ux-design)
     + [ServiceWorker](#serviceworker)
@@ -12,10 +14,18 @@ ____
 
 # Web
 
+### Architecture
+
+- [web.dev](https://web.dev/)
+
 ### Browsers
 
 - [Can I use](http://caniuse.com/)
 - [What's the difference between “Normal Reload”, “Hard Reload”, and “Empty Cache and Hard Reload” in chrome?](http://stackoverflow.com/questions/14969315/whats-the-difference-between-normal-reload-hard-reload-and-empty-cache-a)
+
+### Tools
+
+- [Tooling.Report](https://bundlers.tooling.report/)
 
 ### HTML5
 
