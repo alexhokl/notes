@@ -11,6 +11,8 @@
     + [Examples](#examples-1)
 - [Other topics](#other-topics)
   * [PromQL](#promql)
+    + [Links](#links-1)
+    + [Concepts](#concepts)
     + [Tips](#tips)
   * [Alert Manager](#alert-manager)
   * [Grafana](#grafana)
@@ -141,9 +143,59 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{contai
 
 ## PromQL
 
+### Links
+
 - [PromCon EU 2019: PromQL for Mere Mortals](https://www.youtube.com/watch?v=hTjHuoWxsks)
 - [GitLab - Saturation
   Metrics](https://gitlab.com/gitlab-com/runbooks/blob/master/rules/service_saturation.yml)
+
+### Concepts
+
+#### Data types
+
+- instant vector
+  - a set of time series containing a single sample for each time series, all
+    sharing the same timestamp
+- range vector
+  - a set of time series containing a range of data points over time for each
+    time series
+  - Range vector literals select a range of samples back from the current
+    instant.
+    - example: `http_requests_total{job="prometheus"}[5m]`
+- scalar
+  - a simple numeric floating point value
+- string
+
+#### label matching operators
+
+- `=`
+- `!=`
+- `=~`
+  - select labels that regex-match the provided string
+  - use `{job=~".+"}` instead of `{job=~".*"}` to avoid empty labels
+- `!~`
+  - select labels that do not regex-match the provided string
+
+#### Functions
+
+- `rate`
+  - it takes into account all of the data points within the range
+  - it automatically adjusts for resets
+    - thus, it is suitable for a counter but not for a gauge
+  - `rate` must be applied before any other aggregation functions such as `sum`
+  - it is suited only for spotting trends, spikes, and for alerting
+    - it extrapolates the beginning or the end of the selected window using
+      either the first or last two data points if there is any information
+      missing
+  - example
+    - suppose it scapes for every 10 seconds and the following 5 samples are
+      retrieved
+      - `0`, `4`, `6`, `10`, `2`
+      - the rate is `(12-0)/60=0.2`
+- `irate`
+  - it takes into account only the first and the last data point within the
+    range
+  - it automatically adjusts for resets
 
 ### Tips
 
