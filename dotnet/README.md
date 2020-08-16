@@ -367,6 +367,35 @@ public void Configure(IApplicationBuilder app)
 - `IHostingEnvironment.WebRootPath` generally points to `wwwroot` directory and
     may not available in every application
 
+##### Graceful termination
+
+Reference: [Graceful termination in Kubernetes with ASP.NET
+Core](https://blog.markvincze.com/graceful-termination-in-kubernetes-with-asp-net-core/)
+
+ASP.NET performs graceful termination automatically. However, the timeout of
+graceful termination is 5 seconds. Upon receiving `TERM` signal, ASP.NET will
+start finishing the existing requests but it would still process new incoming
+requests. The event of the signal can be captured by
+`IApplicationLifetime.ApplicationStopping.Register`.
+
+Once shutdown timeout has been reached, all the un-finished requests will be
+terminated. The event of termination can be captured by
+`IApplicationLifetime.ApplicationStopped.Register`.
+
+To extend the shutdown timeout, chain `UseShutdownTimeout` to `UseStartup` in
+`Program.cs`.
+
+```csharp
+public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+  WebHost
+    .CreateDefaultBuilder(args)
+    .UseConfiguration(new ConfigurationBuilder().AddCommandLine(args).Build())
+    .UseStartup<Startup>()
+    .UseShutdownTimeout(TimeSpan.FromSeconds(30));
+```
+
+Note that the default timeout is 5 seconds.
+
 ### [Entity Framework](./entity-framework.md)
 
 ### Async
