@@ -81,6 +81,9 @@ ____
   combine several API calls into one
 - [shodan](https://www.shodan.io/) - a search engine of internet-connected
   devices (for instance, IOT devices)
+- [Clubhouse](https://clubhouse.io/) - project management for software teams
+- [logz.io](https://logz.io/) - log management, infrastructure monitoring,
+  cloud SIEM
 
 ### Data
 
