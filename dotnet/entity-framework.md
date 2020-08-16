@@ -38,6 +38,7 @@
     + [Creation](#creation)
     + [Applying migration](#applying-migration)
     + [Generating migration scripts](#generating-migration-scripts)
+  * [Logging](#logging)
   * [Anti-patterns](#anti-patterns)
 - [Entity Framework (Classic)](#entity-framework-classic)
     + [Improving performance](#improving-performance)
@@ -1186,6 +1187,22 @@ dotnet ef migrations script
 Note that the support of migration is depending on the underlying provider. For
 example, provider of SQLite cannot `AddPrimaryKey`, `AlterColumn` or
 `DropColumn`.
+
+## Logging
+
+To dump parameter values into logs,
+`DbContextOptionsBuilder.EnableSensitiveDataLogging()` can be used.
+
+For example,
+
+```csharp
+options.UseSqlServer(Configuration.GetConnectionString("LocalDB"))
+    .UseLoggerFactory(LoggerFactory.Create(builder =>
+    {
+        builder.AddConsole().AddDebug();
+    }))
+    .EnableSensitiveDataLogging();
+```
 
 ## Anti-patterns
 
