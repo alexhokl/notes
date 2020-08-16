@@ -5,6 +5,7 @@
   * [Operator pattern](#operator-pattern)
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
+  * [Termination](#termination)
 - [References](#references)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
@@ -395,6 +396,36 @@ It is valuable for applications that require one or more of the following
     done manually.
 - Ordered, graceful deployment and scaling
 - Ordered, automated rolling updates
+
+### Termination
+
+The container runtime sends a `TERM` signal is sent to the main process in each
+container. Once the grace period (default is 30 seconds) has expired, the `KILL`
+signal is sent to any remaining processes, and the Pod is then deleted from the
+API Server.
+
+`kubelet` tries to run a graceful shutdown during the grace period. `kubelet`
+runs `preStop` hook if there is one defined. `kubelet` then triggers the
+container runtime to send a `TERM` signal to process `1` inside each container
+of the POD.
+
+At the same time as the `kubelet` is starting graceful shutdown, the control
+plane removes that shutting-down Pod from `Endpoint`s (and, if enabled,
+`EndpointSlice`). Since it takes a while for the `Endpoint` to be removed, it
+means traffic will still be directed to the POD. Thus, it is best to add
+a `preStop` hook to delay the triggering of `TERM` signal. This ensures that the
+POD will not be receiving new traffic by the time is starts termination.
+
+```yaml
+spec:
+  containers:
+    lifecycle:
+      preStop:
+        exec:
+          command:
+            - /bin/sleep
+            - "15"
+```
 
 ## References
 
