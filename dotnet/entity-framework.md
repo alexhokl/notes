@@ -62,6 +62,8 @@ ____
 - [Compare EF Core & EF6](https://docs.microsoft.com/en-us/ef/efcore-and-ef6/)
 - [Logging - EF Core](https://docs.microsoft.com/en-us/ef/core/miscellaneous/logging)
 - [Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
+- [SQLException
+  Numbers](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/cc645603(v=sql.105))
 
 ## Data Context
 
