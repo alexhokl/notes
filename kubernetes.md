@@ -32,6 +32,7 @@ ____
 - [OperatorHub.io](https://operatorhub.io/)
 - [Troubleshooting - NGINX Ingress
   Controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
+- [sighupio/permission-manager](https://github.com/sighupio/permission-manager)
 
 ## Commands
 
