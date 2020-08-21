@@ -187,6 +187,7 @@ truncate -s 0 /var/lib/docker/containers/*/*-json.log
 ### Non-root examples
 
 - [node](./dockerfiles/node/Dockerfile)
+- [nginx](./dockerfiles/nginx/Dockerfile)
 
 ### Best practices
 
