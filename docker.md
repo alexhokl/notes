@@ -2,6 +2,8 @@
 - [Troubleshoot](#troubleshoot)
 - [Commands](#commands)
 - [Dockerfile](#dockerfile)
+  * [Non-root examples](#non-root-examples)
+  * [Best practices](#best-practices)
   * [`ENTRYPOINT` vs `CMD`](#entrypoint-vs-cmd)
 - [Networking](#networking)
 - [Docker Compose](#docker-compose)
@@ -182,7 +184,11 @@ truncate -s 0 /var/lib/docker/containers/*/*-json.log
 
 ## Dockerfile
 
-##### Best practices
+### Non-root examples
+
+- [node](./dockerfiles/node/Dockerfile)
+
+### Best practices
 
 - enable BuildKit `export DOCKER_BUILDKIT=1` (or deamon config `{ "features": { "buildkit": true } }`)
 - always combine lines of `apt-get update` and `apt-get install`
