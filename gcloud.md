@@ -156,6 +156,13 @@ IPADDR=$(gcloud compute addresses describe my-cluster-ip --region asia-east2 --f
 helm install nginx-ingress --namespace default stable/nginx-ingress --set controller.service.loadBalancerIP=$IPADDR
 ```
 
+##### To enable network policy (Calico)
+
+```sh
+gcloud container clusters update your-cluster-name --update-addons=NetworkPolicy=ENABLED
+gcloud container clusters update your-cluster-name --enable-network-policy
+```
+
 ### Compute
 
 ##### To create an instance
