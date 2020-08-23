@@ -359,6 +359,49 @@ spec:
     limits.memory: 2Gi
 ```
 
+##### To run as a non-root user
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      securityContext:
+        fsGroup: 101
+      containers:
+        - name: web
+          image: nginx:1.19-alpine
+          ports:
+            - name: http-port
+              containerPort: 8080
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            runAsGroup: 101
+            runAsNonRoot: false
+            runAsUser: 101
+```
+
+Note that `readOnlyRootFilesystem` may not work if the container requires write
+access to `/tmp/`.
+
+Use `fsGroup` when there are shared volumes.
+
+Note that the ID has to match the user or group created within `Dockerfile`.
+
+See [Non-root examples in
+Docker](https://github.com/alexhokl/notes/blob/master/docker.md#non-root-examples).
+
 ## Concepts
 
 ### Operator pattern
