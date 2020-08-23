@@ -402,6 +402,38 @@ Note that the ID has to match the user or group created within `Dockerfile`.
 See [Non-root examples in
 Docker](https://github.com/alexhokl/notes/blob/master/docker.md#non-root-examples).
 
+##### To deny all but incoming traffic to a port
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-all
+  namespace: your-namespace
+spec:
+  podSelector: {}
+  policyTypes:
+  - Ingress
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: web
+  namespace: your-namespace
+spec:
+  podSelector:
+    matchLabels:
+      app: web
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    ports:
+    - protocol: TCP
+      port: 8080
+```
+
 ## Concepts
 
 ### Operator pattern
