@@ -110,7 +110,7 @@ az aks list | jq '.[] | { name:.name, rg:.resourceGroup, fqdn:.fdqn }'
 ##### To set `kubectl` credentials
 
 ```sh
-az aks get-credentials --resource-group YourResourceGroupName --name your-aks-name --context your-custom-name
+az aks get-credentials --resource-group your-resource-group-name --name your-aks-name --context your-custom-name
 ```
 
 ##### To browse Kubernetes dashboard
@@ -190,6 +190,18 @@ az vm run-command invoke -g $CLUSTER_RESOURCE_GROUP -n $CLUSTER_FIRST_NODE_NAME 
 
 ```sh
 az aks get-versions --location southeastasia --output table
+```
+
+##### To enable network policy (Calico)
+
+```sh
+az aks create \
+    --resource-group your-resource-group-name \
+    --name your-cluster-name \
+    --node-count 3 \
+    --generate-ssh-keys \
+    --network-plugin azure \
+    --network-policy calico
 ```
 
 ### ACR
