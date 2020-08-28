@@ -92,6 +92,18 @@ az network nsg list | jq -r '.[] | select(.name=="your-nsg-name") | .securityRul
 az network nsg rule update -g your-resource-group-name --nsg-name your-nsg-name -n your-nsg-rule-name --source-address-prefix '300.300.300.300'
 ```
 
+##### To list the zones of private DNS
+
+```sh
+az network private-dns zone list -o table
+```
+
+##### To list A records of a private DNS zone
+
+```sh
+az network private-dns record-set a list -g your-resource-group -z your-zone-name | jq '.[] | { fqdn:.fqdn, ip:.aRecords[0].ipv4Address }'
+```
+
 ### AKS
 
 ##### Cluster token
