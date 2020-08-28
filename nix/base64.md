@@ -4,7 +4,7 @@ ____
 ##### To encode as Base64 string
 
 ```sh
-echo -n "something" | base64
+echo -n "something" | base64 -w 0
 ```
 
 ##### To decode Base64 string
