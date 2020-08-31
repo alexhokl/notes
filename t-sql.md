@@ -11,7 +11,7 @@ ____
 
 ### Tools
 
--	[Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
+- [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
 
 ### Database Operations
 
@@ -95,24 +95,24 @@ FETCH NEXT FROM TableCursor INTO @TableName
 WHILE @@FETCH_STATUS = 0
 
 BEGIN
-	BEGIN TRY
-		-- Reindex
-		DBCC DBREINDEX(@TableName ,'', 100);
-	END TRY
-	BEGIN CATCH
-		 PRINT @TableName + ' Failed to reindex';
-	END CATCH
+  BEGIN TRY
+    -- Reindex
+    DBCC DBREINDEX(@TableName ,'', 100);
+  END TRY
+  BEGIN CATCH
+     PRINT @TableName + ' Failed to reindex';
+  END CATCH
 
-	BEGIN TRY
-		-- Update Statistic
-		SET @Statement = 'UPDATE STATISTICS ' + @TableName + ' WITH FULLSCAN;'
-		EXEC sp_executesql @Statement
-	END TRY
-	BEGIN CATCH
-		 PRINT @TableName + ' Failed to build statistic';
-	END CATCH
+  BEGIN TRY
+    -- Update Statistic
+    SET @Statement = 'UPDATE STATISTICS ' + @TableName + ' WITH FULLSCAN;'
+    EXEC sp_executesql @Statement
+  END TRY
+  BEGIN CATCH
+     PRINT @TableName + ' Failed to build statistic';
+  END CATCH
 
-	FETCH NEXT FROM TableCursor INTO @TableName
+  FETCH NEXT FROM TableCursor INTO @TableName
 END
 
 CLOSE TableCursor
@@ -152,10 +152,10 @@ DBCC DROPCLEANBUFFERS
 
 ##### To check query warnings via execution plan
 
-1.	Make a query via Management Studio with execution plan enabled
-2.	Right click on any blank space on the execution plan
-3.	Select "Show Execution Plan XML..."
-4.	Search for `warnings`
+1.  Make a query via Management Studio with execution plan enabled
+2.  Right click on any blank space on the execution plan
+3.  Select "Show Execution Plan XML..."
+4.  Search for `warnings`
 
 ##### To check cached query plans
 
@@ -244,26 +244,26 @@ SELECT * FROM sys.dm_exec_connections
 Connection count by database and login
 
 ```sql
-SELECT 
-    DB_NAME(dbid) as DBName, 
+SELECT
+    DB_NAME(dbid) as DBName,
     COUNT(dbid) as NumberOfConnections,
     loginame as LoginName
 FROM
     sys.sysprocesses
-WHERE 
+WHERE
     dbid > 0
-GROUP BY 
+GROUP BY
     dbid, loginame
 ```
 
 Total connection count
 
 ```sql
-SELECT 
+SELECT
     COUNT(dbid) as TotalConnections
 FROM
     sys.sysprocesses
-WHERE 
+WHERE
     dbid > 0
 ```
 
@@ -338,6 +338,54 @@ AND s.last_execution_time between '2020-08-01 17:00:00' AND '2020-08-01 17:05:00
 ORDER BY s.last_execution_time DESC;
 ```
 
+##### To list top CPU usage of frequently used queries
+
+```sql
+SELECT TOP 50
+    [Avg.MultiCore/CPU time(sec)] = qs.total_worker_time / 1000000 / qs.execution_count,
+    [Total MultiCore/CPU time(sec)] = qs.total_worker_time / 1000000,
+    [Avg.Elapsed Time(sec)] = qs.total_elapsed_time / 1000000 / qs.execution_count,
+    [Total Elapsed Time(sec)] = qs.total_elapsed_time / 1000000,
+    qs.execution_count,
+    [Avg.I/O] = (total_logical_reads + total_logical_writes) / qs.execution_count,
+    [Total I/O] = total_logical_reads + total_logical_writes,
+    Query = SUBSTRING(qt.[text], (qs.statement_start_offset / 2) + 1,
+    (
+    (
+    CASE qs.statement_end_offset
+        WHEN -1 THEN DATALENGTH(qt.[text])
+        ELSE qs.statement_end_offset
+    END - qs.statement_start_offset
+    ) / 2
+    ) + 1
+    ),
+    Batch = qt.[text],
+    [DB] = DB_NAME(qt.[dbid]),
+    qs.last_execution_time,
+    qp.query_plan
+FROM
+    sys.dm_exec_query_stats AS qs
+    CROSS APPLY sys.dm_exec_sql_text(qs.[sql_handle]) AS qt
+    CROSS APPLY sys.dm_exec_query_plan(qs.plan_handle) AS qp
+WHERE
+    qs.execution_count > 5--more than 5 occurences
+ORDER BY
+    [Total MultiCore/CPU time(sec)] DESC
+```
+
+##### To change maximum memory usage of a MSSQL server
+
+```sql
+EXEC sys.sp_configure N'show advanced options', N'1'  RECONFIGURE WITH OVERRIDE
+GO
+EXEC sys.sp_configure N'max server memory (MB)', N'100000'
+GO
+RECONFIGURE WITH OVERRIDE
+GO
+EXEC sys.sp_configure N'show advanced options', N'0'  RECONFIGURE WITH OVERRIDE
+GO
+```
+
 ### Database table manipulations
 
 ##### To modify column definition
@@ -383,41 +431,41 @@ ALTER TABLE MyTable DROP CONSTRAINT MyTable_Contraint
 
 ```sql
 SELECT
-	'ALTER TABLE [dbo].[' + t.name + '] ALTER COLUMN [' + c.name + '] ' +
-	ty.name + '(' +
-	CASE WHEN c.max_length < 0 THEN 'MAX'
-	     WHEN ty.name = 'nvarchar' THEN CONVERT(VARCHAR(5), c.max_length/2)
-		 ELSE CONVERT(VARCHAR(5), c.max_length) END +
-	 ') COLLATE database_default ' +
-	CASE WHEN c.is_nullable = 1 THEN 'NULL' ELSE 'NOT NULL' END
+  'ALTER TABLE [dbo].[' + t.name + '] ALTER COLUMN [' + c.name + '] ' +
+  ty.name + '(' +
+  CASE WHEN c.max_length < 0 THEN 'MAX'
+       WHEN ty.name = 'nvarchar' THEN CONVERT(VARCHAR(5), c.max_length/2)
+     ELSE CONVERT(VARCHAR(5), c.max_length) END +
+   ') COLLATE database_default ' +
+  CASE WHEN c.is_nullable = 1 THEN 'NULL' ELSE 'NOT NULL' END
 FROM
-	sys.columns c JOIN 
-	sys.tables t ON
-		t.object_id = c.object_id JOIN
-	sys.types ty ON
-		ty.system_type_id = c.system_type_id
+  sys.columns c JOIN
+  sys.tables t ON
+    t.object_id = c.object_id JOIN
+  sys.types ty ON
+    ty.system_type_id = c.system_type_id
 WHERE
-	--c.name <> 'Code' AND
-	c.collation_name <> (SELECT CONVERT (varchar, SERVERPROPERTY('collation'))) AND
-	ty.name <> 'sysname'
+  --c.name <> 'Code' AND
+  c.collation_name <> (SELECT CONVERT (varchar, SERVERPROPERTY('collation'))) AND
+  ty.name <> 'sysname'
 ORDER BY t.name
 
 
 SELECT 'DROP VIEW dbo.[' + name + ']'
 FROM (
 SELECT
-	DISTINCT t.name
+  DISTINCT t.name
 FROM
-	sys.columns c JOIN 
-	sys.views t ON
-		t.object_id = c.object_id JOIN
-	sys.types ty ON
-		ty.system_type_id = c.system_type_id
+  sys.columns c JOIN
+  sys.views t ON
+    t.object_id = c.object_id JOIN
+  sys.types ty ON
+    ty.system_type_id = c.system_type_id
 WHERE
-	--c.name <> 'Code' AND
-	c.collation_name <> (SELECT CONVERT (varchar, SERVERPROPERTY('collation'))) AND
-	ty.name <> 'sysname'
-	) temp
+  --c.name <> 'Code' AND
+  c.collation_name <> (SELECT CONVERT (varchar, SERVERPROPERTY('collation'))) AND
+  ty.name <> 'sysname'
+  ) temp
 ORDER BY name
 ```
 
@@ -425,40 +473,40 @@ ORDER BY name
 
 ```sql
 select
-	'DROP INDEX ' + i.name + ' ON dbo.[' + t.name + ']'
+  'DROP INDEX ' + i.name + ' ON dbo.[' + t.name + ']'
 from sys.indexes i JOIN
-	sys.tables t ON
-		t.object_id = i.object_id
+  sys.tables t ON
+    t.object_id = i.object_id
 WHERE i.name LIKE 'IX_%_Name'
 ORDER BY t.name, i.name
 
 select
-	'DROP INDEX ' + i.name + ' ON dbo.[' + t.name + ']'
+  'DROP INDEX ' + i.name + ' ON dbo.[' + t.name + ']'
 from sys.indexes i JOIN
-	sys.tables t ON
-		t.object_id = i.object_id
+  sys.tables t ON
+    t.object_id = i.object_id
 WHERE i.name LIKE 'UQ_%'
 ORDER BY t.name, i.name
 
 
 select
-	'ALTER TABLE dbo.[' + t.name + '] DROP CONSTRAINT ' + i.name
+  'ALTER TABLE dbo.[' + t.name + '] DROP CONSTRAINT ' + i.name
 from sys.indexes i JOIN
-	sys.tables t ON
-		t.object_id = i.object_id
+  sys.tables t ON
+    t.object_id = i.object_id
 WHERE i.name LIKE 'UQ_%'
 ORDER BY t.name, i.name
 
 
 SELECT
-	'ALTER TABLE [' + t.name + '] DROP CONSTRAINT ' + c.name
+  'ALTER TABLE [' + t.name + '] DROP CONSTRAINT ' + c.name
 FROM sys.check_constraints c JOIN
-	sys.tables t ON
-		t.object_id = c.parent_object_id
+  sys.tables t ON
+    t.object_id = c.parent_object_id
 
 SELECT t.name, c.name FROM sys.check_constraints c JOIN
-	sys.tables t ON
-		t.object_id = c.parent_object_id
+  sys.tables t ON
+    t.object_id = c.parent_object_id
 ```
 
 ### Query
@@ -806,7 +854,7 @@ GO
 
 ```sql
 CREATE TYPE [dbo].[TypeIds] AS TABLE(
-	[Id] [INT] NULL
+  [Id] [INT] NULL
 )
 GO
 
