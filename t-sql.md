@@ -325,6 +325,19 @@ A detailed explanation using query plan - [SQL Server Indexes with Included Colu
 - Index scan involves checking values of all rows in a table
 - Index seek involves only values of rows matching a specific criteria
 
+##### To check query history
+
+```sql
+SELECT t.[text], s.last_execution_time
+FROM sys.dm_exec_cached_plans AS p
+INNER JOIN sys.dm_exec_query_stats AS s
+   ON p.plan_handle = s.plan_handle
+CROSS APPLY sys.dm_exec_sql_text(p.plan_handle) AS t
+WHERE t.[text] LIKE N'%sp_something%'
+AND s.last_execution_time between '2020-08-01 17:00:00' AND '2020-08-01 17:05:00'
+ORDER BY s.last_execution_time DESC;
+```
+
 ### Database table manipulations
 
 ##### To modify column definition
