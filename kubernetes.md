@@ -33,6 +33,8 @@ ____
 - [Troubleshooting - NGINX Ingress
   Controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
 - [sighupio/permission-manager](https://github.com/sighupio/permission-manager)
+- [Troubleshooting
+  cert-manager](https://cert-manager.io/docs/faq/troubleshooting/)
 
 ## Commands
 
