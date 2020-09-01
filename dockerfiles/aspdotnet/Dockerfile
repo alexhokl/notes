@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS builder
 
+ENV ASPNETCORE_URLS http://+:5000
+
 WORKDIR /source
 
 COPY Your.Namespace.sln .
