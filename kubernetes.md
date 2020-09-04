@@ -397,12 +397,66 @@ spec:
 Note that `readOnlyRootFilesystem` may not work if the container requires write
 access to `/tmp/`.
 
-Use `fsGroup` when there are shared volumes.
+Use `fsGroup` if there are mounted volumes. The mounted volume will have
+ownership as user `root` and group `GID` (assigned to ID set as `fsGroup`).
 
 Note that the ID has to match the user or group created within `Dockerfile`.
 
+To check the current `uid` used.
+
+```sh
+kubectl exec -it container-name -- id
+```
+
 See [Non-root examples in
 Docker](https://github.com/alexhokl/notes/blob/master/docker.md#non-root-examples).
+
+##### To add Linux capabilities
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: security-context-demo-4
+spec:
+  containers:
+  - name: web
+    image: nginx:1.19-alpine
+    securityContext:
+      capabilities:
+        add: ["NET_ADMIN", "SYS_TIME"]
+```
+
+This adds `CAP_NET_ADMIN` and `CAP_SYS_TIME` capabilities.
+
+See [capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html).
+
+##### To set seccomp profile
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: security-context-demo-4
+spec:
+  containers:
+  - name: web
+    image: nginx:1.19-alpine
+    securityContext:
+      seccompProfile:
+        type: RuntimeDefault
+```
+
+This set the Seccomp profile to the node's container run default profile.
+
+Note that profile can be pre-configured on a node.
+
+```yaml
+securityContext:
+  seccompProfile:
+    type: Localhost
+    localhostProfile: my-profiles/profile-allow.json
+```
 
 ##### To deny all but incoming traffic to a port
 
