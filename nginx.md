@@ -1,5 +1,6 @@
 - [Links](#links)
 - [Commands](#commands)
+- [Contexts](#contexts)
 ____
 
 ### Links
@@ -15,3 +16,13 @@ ____
 ```sh
 nginx -s reload
 ```
+
+### Contexts
+
+The following contexts can be used in a Nginx configuration file.
+
+- `stream` - describes TCP/UDP traffic
+- `events` - describes general connection
+- `http` - describes HTTP traffic
+  - `server` - control requests of a virtual server
+    - `location` - defines an endpoint
