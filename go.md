@@ -1,14 +1,13 @@
-- [Go](#go)
-    + [Links](#links)
-    + [Libraries](#libraries)
-    + [Tricks](#tricks)
-    + [Commands](#commands)
-    + [Modules](#modules)
+- [Links](#links)
+- [Libraries](#libraries)
+- [Tricks](#tricks)
+- [Commands](#commands)
+  * [Modules](#modules)
+- [Language](#language)
+  * [Error handling](#error-handling)
 ____
 
-# Go
-
-### Links
+## Links
 
 - [Dave Cheney](https://dave.cheney.net/)
 - [Testing GO HTTP API](http://dennissuratna.com/testing-in-go/)
@@ -19,7 +18,7 @@ ____
 - [Conference talks from Liz Rice](https://www.lizrice.com/talks)
 - [Go Time Podcast](https://changelog.com/gotime)
 
-### Libraries
+## Libraries
 
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
 - [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured, leveled logging in Go [example](https://github.com/uber-go/zap/blob/master/example_test.go), [FAQ](https://github.com/uber-go/zap/blob/master/FAQ.md)
@@ -38,7 +37,7 @@ ____
 - [schachmat/wego](https://github.com/schachmat/wego) weather app for the terminal
 - [bryanl/manifest-summary](https://github.com/bryanl/manifest-summary) print summary of a kubernetes manifest
 
-### Tricks
+## Tricks
 
 - Use `.Equals` instead of `==` to compare Time objects.
 - Function parameters of interface type should not be a pointer as a normal
@@ -48,7 +47,7 @@ ____
 - For examples on pointers, see
   [alexhokl/go-pointers](https://github.com/alexhokl/go-pointers)
 
-### Commands
+## Commands
 
 List of all `GOOS` and `GOARCH` can be found in [`syslist.go`](https://github.com/golang/go/blob/master/src/go/build/syslist.go)
 
@@ -160,3 +159,18 @@ go help get
 ```
 
 This shows the help page of command `go get`.
+
+## Language
+
+### Error handling
+
+Wrapping error messages to give more information
+
+```go
+func Something() error {
+  if err := someProcess(); err != nil {
+    return fmt.Errorf("more error information: %w", err)
+  }
+  return nil
+}
+```
