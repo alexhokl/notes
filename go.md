@@ -59,6 +59,12 @@ List of all `GOOS` and `GOARCH` can be found in [`syslist.go`](https://github.co
 GOOS=windows GOARCH=amd64 go build -o list.exe list.go
 ```
 
+###### To build without cgo
+
+```sh
+CGO_ENABLED=0 go build -v -o helloworld
+```
+
 ###### To build with ldflags
 
 Assuming there is string global variable `version` defined in package `cmd`
