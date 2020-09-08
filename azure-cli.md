@@ -152,6 +152,14 @@ properly during the last service deletion. To do the clean-up manually,
 Assuming there is a SSH private and public key pair ready as `azure.pub` and
 `azure.pem`.
 
+Generate SSH keys.
+
+```sh
+ssh-keygen -t rsa -b 4096 -f azure -v
+mv azure azure.pem
+chmod 600 azure.pem
+```
+
 To list the nodes
 
 ```sh
@@ -165,30 +173,9 @@ Choose the node involved and upload the SSH public key onto it
 az vm user update --resource-group $CLUSTER_RESOURCE_GROUP --name your-node-name --username azureuser --ssh-key-value azure.pem
 ```
 
-Create a pod running Debian on the same cluster
-
-```sh
-kubectl run -it --rm aks-ssh --image=debian
-```
-
-Install SSH client in that pod
-
-```sh
-apt-get update && apt-get install openssh-client -y
-```
-
-In a new terminal, copy the SSH private key into that pod
-
-```sh
-kubectl cp azure.pem aks-ssh-554b746bcf-kbwvf:/azure.pem
-```
-
-In the terminal of the Debian pod
-
-```sh
-chmod 0600 azure.pem
-ssh -i azure.pem azureuser@10.240.0.4
-```
+See [To SSH into a node (with a SSH key already been setup on the
+node)](https://github.com/alexhokl/notes/blob/master/kubernetes.md#to-ssh-into-a-node-with-a-ssh-key-already-been-setup-on-the-node)
+for the rest of the steps.
 
 ##### To run a script on a node of a cluster
 

@@ -311,13 +311,16 @@ kubectl top pod
 
 ##### To SSH into a node (with a SSH key already been setup on the node)
 
+See [To SSH into one of the
+nodes](https://github.com/alexhokl/notes/blob/master/azure-cli.md#to-ssh-into-one-of-the-nodes)
+for steps to prepare a SSH key on Azure.
+
 Create a container in the cluster and prepare tools and directories.
 
 ```sh
 kubectl run --rm -it aks-ssh --image=debian
 mkdir ~/.ssh
-apt update
-apt install -y openssh-client
+apt update && apt install -y openssh-client
 ```
 
 Open a new terminal and copy the SSH private key into the container.
@@ -331,6 +334,7 @@ Copy the IP address of the node that we will SSH into and return to the
 original terminal.
 
 ```sh
+chmod 0600 ~/.ssh/id_rsa
 ssh azureuser@10.240.0.4
 ```
 
