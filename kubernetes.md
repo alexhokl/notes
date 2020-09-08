@@ -38,7 +38,7 @@ ____
 
 ## Commands
 
-###### To add docker login to the current kubernetes cluster
+##### To add docker login to the current kubernetes cluster
 
 ```sh
 kubectl create secret docker-registry regsecret \
@@ -55,13 +55,13 @@ imagePullSecrets:
 - name: regsecret
 ```
 
-###### To create deployment or service to the current cluster (where `directory-to-files` contains the YAML files of deployments, and/or services, etc)
+##### To create deployment or service to the current cluster (where `directory-to-files` contains the YAML files of deployments, and/or services, etc)
 
 ```sh
 kubectl create -f directory-to-files/
 ```
 
-###### To delete pods from configuration files (`.json` or `.yaml`)
+##### To delete pods from configuration files (`.json` or `.yaml`)
 
 ```sh
 kubectl delete -f directory-to-files/
@@ -87,73 +87,73 @@ Effectively showing `.kube/config`.
 kubectl config view
 ```
 
-###### To check status of pods
+##### To check status of pods
 
 ```sh
 kubectl get pods
 ```
 
-###### To check if there is a problem in creating a pod
+##### To check if there is a problem in creating a pod
 
 ```sh
 kubectl describe pod any-pod-name
 ```
 
-###### To show logs from a pod
+##### To show logs from a pod
 
 ```sh
 kubectl logs pod-name
 ```
 
-###### To show only the latest logs from a pod
+##### To show only the latest logs from a pod
 
 ```sh
 kubectl logs pod-name --tail=20
 ```
 
-###### To stream logs from a pod
+##### To stream logs from a pod
 
 ```sh
 kubectl logs -f pod-name
 ```
 
-###### To list services deployed (and check external IP exposed)
+##### To list services deployed (and check external IP exposed)
 
 ```sh
 kubectl get svc
 ```
 
-###### To list services in all namespaces
+##### To list services in all namespaces
 
 ```sh
 kubectl get svc --all-namespaces
 ```
 
-###### To delete a service
+##### To delete a service
 
 ```sh
 kubectl delete services any-service-name
 ```
 
-###### To force delete a pod
+##### To force delete a pod
 
 ```sh
 kubectl delete pod --grace-period=0 --force my-pod-name
 ```
 
-###### To create a secret with files to be mounted
+##### To create a secret with files to be mounted
 
 ```sh
 kubectl create secret generic any-secret-name --from-file=mounted-name1=/local/path/filename --from-file=mounted-name2=/local/path/filename2
 ```
 
-###### To create a secret with plain text
+##### To create a secret with plain text
 
 ```sh
 kubectl create secret generic any-secret-name --from-literal=username=alice --from-literal=password=bob-does-not-know
 ```
 
-###### To create a secret to be used as environment variable
+##### To create a secret to be used as environment variable
 
 ```sh
 echo -n 'somesecret' | base64
@@ -175,19 +175,19 @@ data:
 kubectl apply -f secret.yml
 ```
 
-###### To get a secret
+##### To get a secret
 
 ```sh
 kubectl get secret any-secret-name -o yaml
 ```
 
-###### To get Ingress instances
+##### To get Ingress instances
 
 ```sh
 kubectl get ingress
 ```
 
-###### To get deployments
+##### To get deployments
 
 ```sh
 kubectl get deployments
@@ -205,31 +205,31 @@ kubectl get rs
 kubectl get cm
 ```
 
-###### To list accessible clusters
+##### To list accessible clusters
 
 ```sh
 kubectl config get-contexts
 ```
 
-###### To list names of pods in the current namespace
+##### To list names of pods in the current namespace
 
 ```sh
 kubectl get pod -o=name
 ```
 
-###### To list all pods and nodes
+##### To list all pods and nodes
 
 ```sh
 kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
 ```
 
-###### To list all major resources
+##### To list all major resources
 
 ```sh
 kubectl get all -o wide --all-namespaces
 ```
 
-###### To change to access another cluster
+##### To change to access another cluster
 
 ```sh
 kubectl config use-context a-context-name
@@ -307,6 +307,31 @@ or, of pods
 
 ```sh
 kubectl top pod
+```
+
+##### To SSH into a node (with a SSH key already been setup on the node)
+
+Create a container in the cluster and prepare tools and directories.
+
+```sh
+kubectl run --rm -it aks-ssh --image=debian
+mkdir ~/.ssh
+apt update
+apt install -y openssh-client
+```
+
+Open a new terminal and copy the SSH private key into the container.
+
+```sh
+kubectl cp ~/.ssh/already-setup-key $(kubectl get pod -l run=aks-ssh -o jsonpath='{.items[0].metadata.name}'):/root/.ssh/id_rsa
+kubectl get nodes -o wide
+```
+
+Copy the IP address of the node that we will SSH into and return to the
+original terminal.
+
+```sh
+ssh azureuser@10.240.0.4
 ```
 
 ## Resource Definitions
