@@ -5,6 +5,11 @@ ____
 
 ### Creating installation media
 
+Reference: [How to create a bootable installer for macOS
+](https://support.apple.com/en-hk/HT201372)
+
+The USB involved should be formatted with format `Mac OS Extended`.
+
 ```sh
 sh sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Name --applicationpath /Applications/Install\ macOS\ High\ Sierra.app
 ```
