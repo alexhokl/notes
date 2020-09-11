@@ -1,29 +1,6 @@
-- [Creating installation media](#creating-installation-media)
 - [iTerm2](#iterm2)
-- [To uninstall homebrew](#to-uninstall-homebrew)
+- [homebrew](#homebrew)
 ____
-
-### Creating installation media
-
-Reference: [How to create a bootable installer for macOS
-](https://support.apple.com/en-hk/HT201372)
-
-The USB involved should be formatted with format `Mac OS Extended`.
-
-```sh
-sh sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Name --applicationpath /Applications/Install\ macOS\ High\ Sierra.app
-```
-
-Note: if directory `Applications/Install*` does not exist, one needs to visit
-App Store and get the installation.
-
-To boot up from an external drive, press `options` key upon starting a machine.
-See also [How to create a bootable installer for
-macOS](https://support.apple.com/en-hk/HT201372).
-
-In case the machine shows `No bootable device`, try to clean the BIOS (NVRAM)
-by holding keys `cmd` + `alt` + `P` + `R`. See [How to Reset NVRAM on your
-Mac](https://support.apple.com/en-hk/HT204063) for more information.
 
 ### iTerm2
 
@@ -35,7 +12,9 @@ Mac](https://support.apple.com/en-hk/HT204063) for more information.
 sh diskutil list diskutil unmountDisk /dev/disk2 sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m diskutil eject /dev/disk2
 ```
 
-### To uninstall homebrew
+### homebrew
+
+##### To uninstall
 
 ```sh
 sh ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
