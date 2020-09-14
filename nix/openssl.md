@@ -91,6 +91,21 @@ or, if password is required for the key
 openssl pkcs12 -export -out selfsigned.pfx -inkey selfsigned.key -in selfsigned.crt -passout pass:YourSecurePassword 
 ```
 
+##### To extract private key from pfx
+
+```sh
+openssl pkcs12 -in selfsigned.pfx -nocerts -out selfsigned.key
+```
+
+Note that you will be asked the password for `pfx` and a new password for the
+extracted keys.
+
+##### To extract certifcate from pfx
+
+```sh
+openssl pkcs12 -in selfsigned.pfx -clcerts -nokeys -out selfsigned.crt
+```
+
 ##### To generate a password conform to Apache
 
 ```sh
