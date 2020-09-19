@@ -235,6 +235,12 @@ ORDER BY
     t.Name
 ```
 
+##### To check if current connected database is a read-only replica
+
+```sql
+SELECT DATABASEPROPERTYEX(DB_NAME(), 'updateability')
+```
+
 ##### Check current connections
 
 ```sql
