@@ -1,5 +1,6 @@
 - [Links](#links)
 - [Shortcut keys](#shortcut-keys)
+- [SSH](#ssh)
 - [Networking](#networking)
 - [Linux-related topics](#linux-related-topics)
   * [crosh Colour scheme](#crosh-colour-scheme)
@@ -30,6 +31,15 @@ ____
 | `ctrl+shift` + multiscreen key | to take a partial screenshot |
 | `search+l` | lock screen |
 | `alt+=` | toggle between maximised window and normal size window |
+
+# SSH
+
+Install [Secure Shell
+App](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en)
+and [Smart Card
+Connector](https://chrome.google.com/webstore/detail/smart-card-connector/khpfeaanjngmcnplbdlpegiifgpfgdco?hl=en).
+
+To use YubiKey, in "SSH relay server options", enter `--ssh-agent=gsc`.
 
 # Networking
 
