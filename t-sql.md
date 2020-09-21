@@ -298,6 +298,22 @@ FROM
         a.index_id = b.index_id;
 ```
 
+##### To list recent SQL job history
+
+```sql
+SELECT top 100 j.[name]
+       ,[step_name]
+      ,[message]
+      ,[run_status]
+      ,[run_date]
+      ,[run_time]
+      ,[run_duration]
+  FROM [msdb].[dbo].[sysjobhistory] jh
+  JOIN [msdb].[dbo].[sysjobs] j
+  on jh.job_id= j.job_id
+  order by run_date desc
+```
+
 ##### Create indexes with included columns
 
 ```sql
