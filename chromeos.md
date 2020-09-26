@@ -31,6 +31,8 @@ ____
 | `ctrl+shift` + multiscreen key | to take a partial screenshot |
 | `search+l` | lock screen |
 | `alt+=` | toggle between maximised window and normal size window |
+| `alt+[` | dock the current window to left |
+| `alt+]` | dock the current window to right |
 
 # SSH
 
