@@ -7,6 +7,8 @@ ____
 
 # Commands
 
+## Key management
+
 ##### To list all public keys
 
 ```sh
@@ -89,6 +91,20 @@ gpg --edit-key your-key-id
 ```sh
 gpg --keyserver pgp.mit.edu --send-key your-key-id
 ```
+
+##### To delete a public key
+
+```sh
+gpg --delete-keys your-key-id
+```
+
+##### To delete a secret key
+
+```sh
+gpg --delete-secret-keys your-key-id
+```
+
+## Operations
 
 ##### To sign a file
 
