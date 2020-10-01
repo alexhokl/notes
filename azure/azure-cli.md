@@ -279,8 +279,30 @@ SP_PASSSWORD=$(echo $SP_JSON | jq -r '.password')
 ##### To assign a role to a service principal
 
 ```sh
-az role assignment create --assignee $SP_ID --scope "/your/long/scope/path" --role Contributor 
+az role assignment create --assignee $SP_ID --scope "/your/long/scope/path" --role Contributor
 ```
+
+##### To list all keys of a service principal
+
+```sh
+az ad sp credential list --id your_sp_id -o table
+```
+
+##### To update credential of a service principal after credential expiration
+
+```sh
+SP_ID=$(az aks show --resource-group your-resource-group --name your-cluster-name --query servicePrincipalProfile.clientId -o tsv)
+SP_SECRET=$(az ad sp credential reset --name $SP_ID --query password -o tsv)
+az aks update-credentials --resource-group your-resource-group --name your-cluster-name --reset-service-principal --service-principal $SP_ID --client-secret $SP_SECRET
+```
+
+Note that, by default, the service principal expires in a year (as a security
+practice).
+
+Also note that, all the nodes must be in state `running` otherwise it would
+result in exceptions.
+
+See also [Update or rotate the credentials for a service principal in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/update-credentials).
 
 ### Roles
 
@@ -301,22 +323,6 @@ az role assignment list --all -o table
 ```sh
 az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-group-name")'
 ```
-
-##### To update service principal after expiration
-
-```sh
-SP_ID=$(az aks show --resource-group your-resource-group --name your-cluster-name --query servicePrincipalProfile.clientId -o tsv)
-SP_SECRET=$(az ad sp credential reset --name $SP_ID --query password -o tsv)
-az aks update-credentials --resource-group your-resource-group --name your-cluster-name --reset-service-principal --service-principal $SP_ID --client-secret $SP_SECRET
-```
-
-Note that, by default, the service principal expires in a year (as a security
-practice).
-
-Also note that, all the nodes must be in state `running` otherwise it would
-result in exceptions.
-
-See also [Update or rotate the credentials for a service principal in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/update-credentials).
 
 ### Virtual Machine
 
