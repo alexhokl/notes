@@ -1,4 +1,6 @@
 - [Commands](#commands)
+  * [Key management](#key-management)
+  * [Operations](#operations)
 - [Yubikey](#yubikey)
     + [Links](#links)
     + [Master key](#master-key)
