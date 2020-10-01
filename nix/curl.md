@@ -1,17 +1,33 @@
-
+- [Connection options](#connection-options)
+- [Input options](#input-options)
+- [Output options](#output-options)
 ____
 
-###### To download a file from web and rename it
+### Connection options
+
+###### Follow redirect URL
 
 ```sh
-curl https://xyz.com/instructions.pdf -o guide.pdf
+curl -L http://localhost/testing
 ```
 
-###### To download a file from web with a forward URL and rename it
+###### Allow connections to SSL sites without certs (insecure)
 
 ```sh
-curl -L https://xyz.com/install -o installer.deb
+curl -k https://localhost/testing
 ```
+
+Note that this disables certificate path validation.
+
+##### Custom domain name resolution
+
+```sh
+curl http://test.com:8000/ --resolve test.com:8000:127.0.0.1
+```
+
+The server on `localhost` will receive a request targeting `test.com`.
+
+### Input options
 
 ###### Basic Authentication
 
@@ -55,6 +71,20 @@ or from a file
 curl -b cookies.txt http://localhost/testing
 ```
 
+###### To specify root/CA certificate to establish TLS connection
+
+```sh
+curl --cacert root.crt https://localhost:8443/testing
+```
+
+### Output options
+
+###### To download a file from web and rename it
+
+```sh
+curl https://xyz.com/instructions.pdf -o guide.pdf
+```
+
 ###### To write issued cookies to a file
 
 ```sh
@@ -79,12 +109,6 @@ curl -sS http://localhost/testing
 curl -f http://localhost/testing
 ```
 
-###### Follow redirect URL
-
-```sh
-curl -L http://localhost/testing
-```
-
 ###### Write output to a file named as the remote file
 
 ```sh
@@ -95,20 +119,6 @@ curl -O http://localhost/testing.txt
 
 ```sh
 curl --compressed http://localhost/testing
-```
-
-###### Allow connections to SSL sites without certs (insecure)
-
-```sh
-curl -k https://localhost/testing
-```
-
-Note that this disables certificate path validation.
-
-###### To specify root/CA certificate to establish TLS connection
-
-```sh
-curl --cacert root.crt https://localhost:8443/testing
 ```
 
 ###### To include protocol headers in the output
