@@ -146,7 +146,7 @@ kubectl create clusterrolebinding tiller-clusterrolebinding --clusterrole=cluste
 helm init --service-account tiller --wait
 ```
 
-##### To create a pubic IP and assign it to a cluster running Ingress using Nginx
+##### To create a public IP address and assign it to a cluster running Ingress using Nginx
 
 Assuming the region of the cluster is `asia-east2`,
 
@@ -244,6 +244,7 @@ sudo mkfs.ext4 -m 0 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sd
 mkdir my-mount
 sudo mount -o discard,defaults /dev/sdb ./my-mount
 sudo chmod a+w ./my-mount
+sudo chown alex.alex ./my-mount
 ```
 
 ##### To list instances
@@ -280,6 +281,12 @@ gcloud compute scp ./my-source my-instance-name:/home/user/my-source --recurse
 
 ```sh
 gcloud compute machine-types list
+```
+
+##### To list available disk-types
+
+```sh
+gcloud compute disk-types list
 ```
 
 ##### To list available VM images
