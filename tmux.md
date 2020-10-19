@@ -1,10 +1,12 @@
-- [Prefixes](#prefixes)
+- [Commands](#commands)
 - [CLI](#cli)
 ____
 
-Reference: [.tmux.conf](https://github.com/alexhokl/dotfiles/blob/master/tmux.conf)
+Reference: [.tmux.conf](https://github.com/alexhokl/dotfiles/blob/master/.tmux.conf)
 
-### Prefixes
+### Commands
+
+Note that the prefix key is <kbd>ctrl</kbd><kbd>z</kbd>.
 
 | Key | Functionality |
 | --- | --- |
