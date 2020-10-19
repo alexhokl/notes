@@ -1,9 +1,11 @@
 - [Commands](#commands)
   * [Key management](#key-management)
   * [Operations](#operations)
+  * [Configuration](#configuration)
 - [Yubikey](#yubikey)
     + [Links](#links)
     + [Master key](#master-key)
+    + [Key management](#key-management-1)
     + [Install existing keys to new a Yubikey](#install-existing-keys-to-new-a-yubikey)
 ____
 
