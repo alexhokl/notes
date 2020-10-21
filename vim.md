@@ -9,7 +9,7 @@
   * [Commenting](#commenting)
   * [Multicursors](#multicursors)
   * [Buffers](#buffers)
-  * [Macro](#macro)
+  * [Macro and registers](#macro-and-registers)
   * [Errors](#errors)
   * [Folding](#folding)
   * [File search](#file-search)
@@ -259,7 +259,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:mksession layout.vim` to save the current layout to `layout.vim` (to open
   the layout again, use `vim -s layout.vim`)
 
-### Macro
+### Macro and registers
 
 - <kbd>q</kbd><kbd>1</kbd> to start recording at register `1`
 - <kbd>q</kbd> in normal mode to stop recording
@@ -267,6 +267,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>5</kbd><kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1`
   5 times
 - `:reg` to list the current registers
+- By default, yank and paste use register `"`
+- <kbd>V</kbd><kbd>"</kbd><kbd>a</kbd><kbd>y</kbd> yanks the current line to
+  register `a` (and the default register `"`)
+- <kbd>"</kbd><kbd>a</kbd><kbd>p</kbd> paste from register `a`
 
 ### Errors
 
