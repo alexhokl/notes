@@ -21,7 +21,7 @@ Note that the prefix key is <kbd>ctrl</kbd><kbd>z</kbd>.
 | alt + arrow keys | resize pane |
 | alt-F | fullscreen |
 | alt-f | exit fullscreen |
-| [ | to enter copy mode |
+| [ | to enter copy mode, <kbd>space</kbd> to start select visually, <kbd>enter</kbd> to end selection and copy |
 | ] | to paste the current buffer |
 | = | to select a buffer and paste its content |
 | r | to reload configuration |
