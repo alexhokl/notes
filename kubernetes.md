@@ -30,6 +30,7 @@ ____
 - [A visual guide on troubleshooting Kubernetes
   deployments](https://learnk8s.io/troubleshooting-deployments)
 - [OperatorHub.io](https://operatorhub.io/)
+- [Nginx Ingress](https://kubernetes.github.io/ingress-nginx/)
 - [Troubleshooting - NGINX Ingress
   Controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
 - [sighupio/permission-manager](https://github.com/sighupio/permission-manager)
