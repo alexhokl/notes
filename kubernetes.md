@@ -13,9 +13,9 @@ ____
 
 ## Links
 
-- [Kubernetes Resource Report](https://github.com/hjacobs/kube-resource-report)]
-- [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)] [DNS
-  for Services and
+- [Kubernetes Resource Report](https://github.com/hjacobs/kube-resource-report)
+- [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)
+- [DNS for Services and
   Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
 - [Configuration Best
   Practices](https://kubernetes.io/docs/concepts/configuration/overview/)
