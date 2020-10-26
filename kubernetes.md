@@ -36,6 +36,8 @@ ____
 - [sighupio/permission-manager](https://github.com/sighupio/permission-manager)
 - [Troubleshooting
   cert-manager](https://cert-manager.io/docs/faq/troubleshooting/)
+- [kubectl
+  plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
 
 ## Commands
 
