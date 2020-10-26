@@ -53,6 +53,12 @@ curl -H "Content-Type: application/json" http://localhost/testing
 curl -X POST -H "Content-Type: application/json" -d '{ "property1": "value1" }' http://localhost/testing
 ```
 
+or, with a file,
+
+```sh
+curl -X POST -H "Content-Type: application/json" -d @some.json http://localhost/testing
+```
+
 ###### To specify HTTP multipart POST data
 
 ```sh
