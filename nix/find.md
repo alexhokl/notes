@@ -63,3 +63,12 @@ find . -name '*.md' -name 'README.*'
 find . -name '*.json' -maxdepth 2
 ```
 
+##### To limit the file size
+
+```sh
+find . -type f -size 100c
+```
+
+Note that `c` stands for byte, `w` stands for word (2 bytes), `k` stands for
+kilo-bytes, `M` stands for mega-bytes and `G` stands for giga-bytes.
+
