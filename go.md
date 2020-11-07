@@ -167,6 +167,13 @@ go help get
 
 This shows the help page of command `go get`.
 
+##### To upgrade Go version
+
+```sh
+go get golang.org/dl/go1.15.4
+go1.15.4 download
+```
+
 ## Language
 
 ### Error handling
