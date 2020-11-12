@@ -1,18 +1,23 @@
 - [Account/Subscription](#accountsubscription)
 - [Resource Groups](#resource-groups)
 - [Networking](#networking)
+  * [Public IP addresses](#public-ip-addresses)
+  * [Network interfaces](#network-interfaces)
+  * [Network Security Group (NSG)](#network-security-group-nsg)
+  * [Private zones and links](#private-zones-and-links)
 - [AKS](#aks)
 - [ACR](#acr)
 - [Active Directory](#active-directory)
 - [Roles](#roles)
 - [Virtual Machine](#virtual-machine)
 - [SQL Database](#sql-database)
+- [PostgreSQL](#postgresql)
 - [Azure Storage](#azure-storage)
 - [Azure Disk](#azure-disk)
 - [azcopy](#azcopy)
 ____
 
-### Account/Subscription
+## Account/Subscription
 
 ##### To list the accounts/subscriptions
 
@@ -26,7 +31,7 @@ az account list | jq '.[] | { default:.isDefault, id:.id }'
 az account set -s YourSubscriptionId
 ```
 
-### Resource Groups
+## Resource Groups
 
 ##### To list resource groups
 
@@ -40,7 +45,9 @@ or in a table
 az group list -o table
 ```
 
-### Networking
+## Networking
+
+### Public IP addresses
 
 ##### To list all public IPs
 
@@ -53,6 +60,8 @@ az network public-ip list -o table
 ```sh
 az network public-ip create -g your-resource-group-name -n your-name-to-this-ip
 ```
+
+### Network interfaces
 
 ##### To list network interfaces in a resource group
 
@@ -74,7 +83,9 @@ RESOURCE_ID=$(az network public-ip list -o json | jq -r --arg IP "$IP" '.[] | se
 az network public-ip update --ids $RESOURCE_ID --dns-name your-dns-name
 ```
 
-##### To list network security groups (NSGs)
+### Network Security Group (NSG)
+
+##### To list network security groups
 
 ```sh
 az network nsg list | jq -r '.[] | {name:.name, rg:.resourceGroup}'
@@ -92,6 +103,8 @@ az network nsg list | jq -r '.[] | select(.name=="your-nsg-name") | .securityRul
 az network nsg rule update -g your-resource-group-name --nsg-name your-nsg-name -n your-nsg-rule-name --source-address-prefix '300.300.300.300'
 ```
 
+### Private zones and links
+
 ##### To list the zones of private DNS
 
 ```sh
@@ -104,7 +117,7 @@ az network private-dns zone list -o table
 az network private-dns record-set a list -g your-resource-group -z your-zone-name | jq '.[] | { fqdn:.fqdn, ip:.aRecords[0].ipv4Address }'
 ```
 
-### AKS
+## AKS
 
 ##### Cluster token
 
@@ -203,7 +216,7 @@ az aks create \
     --network-policy calico
 ```
 
-### ACR
+## ACR
 
 ##### To list all registries
 
@@ -258,7 +271,7 @@ where
     `ResourceGroup1` is the name of resource group,
     `acrName` is the short name of the ACR
 
-### Active Directory
+## Active Directory
 
 ##### To list all security principals
 
@@ -304,7 +317,7 @@ result in exceptions.
 
 See also [Update or rotate the credentials for a service principal in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/update-credentials).
 
-### Roles
+## Roles
 
 ##### To list all roles available
 
@@ -324,7 +337,7 @@ az role assignment list --all -o table
 az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-group-name")'
 ```
 
-### Virtual Machine
+## Virtual Machine
 
 ##### To list all the machines
 
@@ -332,7 +345,7 @@ az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-
 az vm list -g your-resource-group -o table
 ```
 
-### SQL Database
+## SQL Database
 
 ##### To kickstart an export
 
@@ -378,7 +391,15 @@ az sql db delete -g your-resource-group-name -s your-server-name -n name-of-data
 az sql db op list -g your-resource-group-name -s your-database-server-name -d your-database-name
 ```
 
-### Azure Storage
+## PostgreSQL
+
+##### To list all servers
+
+```sh
+az postgres server list -o table
+```
+
+## Azure Storage
 
 #### Storage Account
 
@@ -452,7 +473,7 @@ az storage file list --connection-string your-connection-string-to-storage-accou
 az storage file list --connection-string your-connection-string-to-storage-account -s your-share-name -o table --path your/path/to/directory
 ```
 
-### Azure Disk
+## Azure Disk
 
 ##### To list all disks
 
@@ -466,7 +487,7 @@ or in a table
 az disk list -o table
 ```
 
-### azcopy
+## azcopy
 
 ##### To download a file from blob storage
 
