@@ -117,6 +117,12 @@ az network private-dns zone list -o table
 az network private-dns record-set a list -g your-resource-group -z your-zone-name | jq '.[] | { fqdn:.fqdn, ip:.aRecords[0].ipv4Address }'
 ```
 
+##### To list all private endpoints
+
+```sh
+az network private-endpoint list -o table
+```
+
 ## AKS
 
 ##### Cluster token
