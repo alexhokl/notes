@@ -66,6 +66,13 @@ echo $$
 sudo !!
 ```
 
+To repeat the last parameter of the last command (space delimited)
+
+```sh
+git clone https://github.com/cli/cli githubcli
+cd !$
+```
+
 ## Scripting
 
 ### string
