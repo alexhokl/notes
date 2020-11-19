@@ -135,6 +135,8 @@ done
 - `[ "$str1" = "$str2" ]` checks if `str1` equals `str2`
 - `[ "$str1" != "$str2" ]` checks if `str1` not equals `str2`
 - `[[ "$str1" == *"end" ]]` checks if `str1` ends with `end`
+- `[[ "${str1,,}" != "${str2,,}" ]]` checks if `str1` equals `str2` in
+  a case-insensitive way
 - `[ -n "$str" ]` checks if `str` is not empty
 - `[ -z "$str" ]` checks if `str` is empty
 - `[ $int1 -eq $int2 ]` checks if `int1` equals `int2`
