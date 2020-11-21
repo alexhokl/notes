@@ -251,7 +251,7 @@ az acr repository delete -n MyRegistry --image hello-world:latest
 ##### To list all tags in repository
 
 ```sh
-az acr repository show-tags --name YourRegistryName --repository YourRepoName | jq
+az acr repository show-tags --name YourRegistryName --repository YourRepoName | jq -r '.[]'
 ```
 
 ##### To remove a tag in repository
