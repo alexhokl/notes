@@ -15,6 +15,7 @@
 - [Azure Storage](#azure-storage)
 - [Azure Disk](#azure-disk)
 - [azcopy](#azcopy)
+- [Application Insights](#application-insights)
 ____
 
 ## Account/Subscription
@@ -505,4 +506,24 @@ azcopy copy 'https://<storage-account-name>.<blob or dfs>.core.windows.net/<cont
 
 ```sh
 azcopy copy 'https://<storage-account-name>.<blob or dfs>.core.windows.net/<container-name>/<directory-path>' '<local-directory-path>' --recursive
+```
+
+## Application Insights
+
+##### To enable commands related to Application Insights (since it is a preview)
+
+```sh
+az extension add -n application-insights
+```
+
+##### To list all Application Insights resources
+
+```sh
+az monitor app-insights component show -o table
+```
+
+To view instrumentation key,
+
+```sh
+az monitor app-insights component show | jq '.[] | { applicationId:.applicationId, instrumentationKey:.instrumentationKey }'
 ```
