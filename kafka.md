@@ -68,6 +68,8 @@ ____
 - [Kafka as a Platform: The Ecosystem from the Ground Up - Robin
   Moffatt](https://www.youtube.com/watch?v=qjTZ4UeJdoI) - the last part has
   a pretty good demo on KSQL
+- [Make your Kafka cluster production-ready:
+  Resources](https://www.youtube.com/watch?v=xIEl0V1yMjc)
 
 ### Others
 
