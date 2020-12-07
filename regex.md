@@ -2,16 +2,18 @@
 - [Basics](#basics)
   * [Metacharacters](#metacharacters)
   * [Named groups](#named-groups)
+  * [Other examples](#other-examples)
 ____
 
 ## Links
 
--	[Expresso](http://www.ultrapico.com/expresso.htm) The premier regular expression development tool for Windows
+- [Expresso](http://www.ultrapico.com/expresso.htm) The premier regular expression development tool for Windows
 - [regular expression 101](https://regex101.com/) A regular expression tester 
--	[myregextester](https://myregextester.com/index.php) A regular expression tester
--	[RegexBuddy](http://www.regexbuddy.com/) A regular expression development tool for Windows
--	[Regular Expression Examples](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-examples)
--	[RegExLib](http://regexlib.com/) A regular expression library
+- [myregextester](https://myregextester.com/index.php) A regular expression tester
+- [RegexBuddy](http://www.regexbuddy.com/) A regular expression development tool for Windows
+- [Regular Expression Examples](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-examples)
+- [RegExLib](http://regexlib.com/) A regular expression library
+- [RegExr](https://regexr.com/) A regular expression tester with explanation
 
 ## Basics
 
@@ -65,3 +67,13 @@ where `email = "user@gmail.com"` and `provider = "facebook"`.
 matches `"~/message/98765432/nexus"`
 
 where `itemName = "nexus"` and `phoneNumber = "98765432"`
+
+### Other examples
+
+- `reali[sz]e` matches both British and American spelling of the word
+- `<wind>` matches the whole word `wind`
+- `\bwind\b` matches the whole word `wind`
+- `[[:digit]]{4}` matches any 4 digits
+- `[[:alpha]]{4}` matches any 4-character word
+- `die?d` matches `did` or `died`
+- `June|July` matches `June` or `July`
