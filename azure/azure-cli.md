@@ -62,12 +62,42 @@ az network public-ip list -o table
 az network public-ip create -g your-resource-group-name -n your-name-to-this-ip
 ```
 
+##### To list all virtual networks
+
+```sh
+az network vnet list -o table
+```
+
+##### To list all subnets within a virtual network
+
+```sh
+az network vnet subnet list -g your-group --vnet-name your-vnet -o table
+```
+
 ### Network interfaces
 
 ##### To list network interfaces in a resource group
 
 ```sh
 az network nic list -g your-resource-group-name -o table
+```
+
+##### To list IP addresses of a network interface
+
+```sh
+az network nic ip-config list -g your-group --nic-name your-nic -o table
+```
+
+##### To list all IP addresses of all network interfaces of all resource groups
+
+```sh
+for g in $(az group list | jq -r '.[] | .name'); do
+	for n in $(az network nic list -g $g  | jq -r '.[] | .name'); do
+		for ip in $(az network nic ip-config list -g $g --nic-name $n | jq -r '.[] | .privateIpAddress'); do
+			echo $g $n $ip
+		done
+	done
+done
 ```
 
 ##### To attach an IP to a network interface
@@ -396,6 +426,12 @@ az sql db delete -g your-resource-group-name -s your-server-name -n name-of-data
 
 ```sh
 az sql db op list -g your-resource-group-name -s your-database-server-name -d your-database-name
+```
+
+##### To list managed instances
+
+```sh
+az sql mi list -o table
 ```
 
 ## PostgreSQL
