@@ -298,6 +298,18 @@ FROM
         a.index_id = b.index_id;
 ```
 
+##### To list SQL jobs
+
+```sql
+SELECT job_id, [name] FROM msdb.dbo.sysjobs;
+```
+
+##### To list command of a SQL job step
+
+```sql
+SELECT step_id, [command] FROM msdb.dbo.sysjobsteps WHERE job_id = 'your-job-id'
+```
+
 ##### To list recent SQL job history
 
 ```sql
@@ -543,6 +555,12 @@ FROM
     t.object_id = c.object_id
 WHERE c.name = 'ColumnToBeSearched'
 ORDER BY t.name, c.name
+```
+
+##### To list all stored procedures
+
+```sql
+"SELECT name, type FROM sys.objects WHERE [type] = 'P'
 ```
 
 ##### To search table constraints
