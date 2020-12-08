@@ -18,6 +18,14 @@
 - [Application Insights](#application-insights)
 ____
 
+## Login
+
+##### Using service principal (service account)
+
+```sh
+az login --service-principal --username $AZURE_APP_ID --password $AZURE_APP_PASSWORD --tenant $AZURE_TENANT_ID
+```
+
 ## Account/Subscription
 
 ##### To list the accounts/subscriptions
