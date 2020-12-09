@@ -1,3 +1,4 @@
+- [Login](#login)
 - [Account/Subscription](#accountsubscription)
 - [Resource Groups](#resource-groups)
 - [Networking](#networking)
