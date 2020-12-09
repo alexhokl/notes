@@ -90,22 +90,16 @@ Effectively showing `.kube/config`.
 kubectl config view
 ```
 
-##### To check status of pods
+##### To list accessible clusters
 
 ```sh
-kubectl get pods
+kubectl config get-contexts
 ```
 
-##### To check if there is a problem in creating a pod
+##### To change to access another cluster
 
 ```sh
-kubectl describe pod any-pod-name
-```
-
-##### To show logs from a pod
-
-```sh
-kubectl logs pod-name
+kubectl config use-context a-context-name
 ```
 
 ##### To show only the latest logs from a pod
@@ -118,24 +112,6 @@ kubectl logs pod-name --tail=20
 
 ```sh
 kubectl logs -f pod-name
-```
-
-##### To list services deployed (and check external IP exposed)
-
-```sh
-kubectl get svc
-```
-
-##### To list services in all namespaces
-
-```sh
-kubectl get svc --all-namespaces
-```
-
-##### To delete a service
-
-```sh
-kubectl delete services any-service-name
 ```
 
 ##### To force delete a pod
@@ -184,36 +160,6 @@ kubectl apply -f secret.yml
 kubectl get secret any-secret-name -o yaml
 ```
 
-##### To get Ingress instances
-
-```sh
-kubectl get ingress
-```
-
-##### To get deployments
-
-```sh
-kubectl get deployments
-```
-
-##### To list all replica set
-
-```sh
-kubectl get rs
-```
-
-##### To list all config maps
-
-```sh
-kubectl get cm
-```
-
-##### To list accessible clusters
-
-```sh
-kubectl config get-contexts
-```
-
 ##### To list names of pods in the current namespace
 
 ```sh
@@ -224,18 +170,6 @@ kubectl get pod -o=name
 
 ```sh
 kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces
-```
-
-##### To list all major resources
-
-```sh
-kubectl get all -o wide --all-namespaces
-```
-
-##### To change to access another cluster
-
-```sh
-kubectl config use-context a-context-name
 ```
 
 ##### To forward a port from a pod
@@ -310,6 +244,12 @@ or, of pods
 
 ```sh
 kubectl top pod
+```
+
+##### To create a job from existing cronjob definition
+
+```sh
+kubectl create job --from=cronjob/your-cronjob-name your-new-job-name
 ```
 
 ##### To SSH into a node (with a SSH key already been setup on the node)
