@@ -141,6 +141,12 @@ go get library@version
 go mod init
 ```
 
+##### To update dependencies
+
+```sh
+go mod tidy
+```
+
 ##### To list all packages created in the current directory
 
 ```sh
