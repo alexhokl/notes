@@ -2,7 +2,9 @@
 - [Libraries](#libraries)
 - [Tricks](#tricks)
 - [Commands](#commands)
+  * [Testing](#testing)
   * [Modules](#modules)
+  * [Help](#help)
 - [Language](#language)
   * [Error handling](#error-handling)
 ____
@@ -85,11 +87,7 @@ go install
 errcheck
 ```
 
-###### To format the code
-
-```sh
-go fmt -d main.go
-```
+### Testing
 
 ###### To test a project
 
@@ -147,23 +145,13 @@ go mod init
 go mod tidy
 ```
 
-##### To list all packages created in the current directory
+##### To create a version
 
 ```sh
-go list ./...
+git tag v1.0.1 && git push --tags
 ```
 
-##### To list all modules created in the current directory
-
-```sh
-go list -m ./...
-```
-
-##### To list all installed packages
-
-```sh
-go list all
-```
+### Help
 
 ##### To help page of a command
 
@@ -194,3 +182,7 @@ func Something() error {
   return nil
 }
 ```
+
+Note that `%w` is different from `%v` in that it gives a chance for higher level
+code which invokes `Something` to check the type of `err` (which could be
+a complicated `struct` implements `error` interface).
