@@ -49,6 +49,8 @@ ____
   and pointers](https://medium.com/@saiyerram/go-interfaces-pointers-4d1d98d5c9c6))
 - For examples on pointers, see
   [alexhokl/go-pointers](https://github.com/alexhokl/go-pointers)
+- Example on using OAuth with CLI
+  [alexhokl/go-bb-pr](https://github.com/alexhokl/go-bb-pr)
 
 ## Commands
 
