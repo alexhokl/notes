@@ -133,6 +133,12 @@ To change to multi-user mode (usually done at the end of a set of operations)
 ALTER DATABASE MyCustomDatabaseName SET MULTI_USER
 ```
 
+##### To list all logins
+
+```sql
+SELECT name FROM sys.sql_logins
+```
+
 ##### Re-enable SQL login and change its password
 
 ```sql
