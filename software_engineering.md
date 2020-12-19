@@ -1,15 +1,12 @@
-- [Software Engineering](#software-engineering)
-  * [Technical debts](#technical-debts)
-  * [Web App](#web-app)
-    + [12-Factor App](#12-factor-app)
-  * [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
-  * [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
-  * [Product / Project Management](#product--project-management)
-  * [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
-  * [Others](#others-1)
+- [Technical debts](#technical-debts)
+- [Web App](#web-app)
+  * [12-Factor App](#12-factor-app)
+- [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
+- [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
+- [Product / Project Management](#product--project-management)
+- [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
+- [Others](#others-1)
 ____
-
-# Software Engineering
 
 ## Technical debts
 
@@ -266,6 +263,23 @@ ____
       our strategy are coordinated and coherent.
     - [Creating and sharing Strategic Architectural
       Initiatives](https://blog.thepete.net/blog/2020/01/09/creating-and-sharing-strategic-architectural-initiatives/)
+- [Gaining insight and preventing misalignment without
+  micromanaging](https://leaddev.com/culture-engagement-motivation/gaining-insight-and-preventing-misalignment-without-micromanaging)
+  - Introducing a monthly status update meeting when
+    - You have a critical area that has some misalignment between the
+      participants. This can happen when there is a disagreement across product,
+      engineering management, and/or the tech leads, or among partner teams
+      working on a project.
+    - You have a manager who is not getting into the details enough and needs
+      some forcing function to get themselves (and their team) organized. They
+      should not only just have status updates, but have status updates that
+      they can explain every month.
+    - You have a strategic area where there is some uncertainty about where you
+      should be going. You are learning new information month over month that
+      can change the project focus and direction, and you need to hear about
+      project status, but also how the team is taking in new information to
+      inform future work.
+
 
 ## Quality Assurance and quality specialist
 
