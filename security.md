@@ -1,3 +1,4 @@
+- [Sign-up and Sign-in](#sign-up-and-sign-in)
 - [OAuth 2.0](#oauth-20)
     + [Links](#links)
     + [Specifics](#specifics)
@@ -33,6 +34,36 @@
     + [.p7b](#p7b)
     + [.crl (Certificate revocation list)](#crl-certificate-revocation-list)
 ____
+
+# Sign-up and Sign-in
+
+- One of the command practices is that there are no sign-up link/button in home
+  page anymore and it will be on sign-in page instead.
+- No email address confirmation field (repeating the entered address) should be
+  used anymore. Instead, sending a email to the specified address should used
+  and password creation should happen after the confirmation.
+- No password rotation policy should be enforced. (ref: [Is password expiration
+  no longer recommended?](https://pages.nist.gov/800-63-FAQ/#q-b05))
+- For new password field, `<input autocomplete="new-password" ...>` should be
+  used to help password managers identifying the field.
+- For current password field, `<input autocomplete="current-password" ...>`
+- should be used to help password managers identifying the field.
+- For email address field, `<input autocomplete="email" ...>` should be used to
+  help password managers identifying the field.
+- [Pwned Passwords](https://haveibeenpwned.com/Passwords) can be used to check
+  against new password entered by user and suggest against using it has been
+  compromised.
+- Password pasting should be allowed.
+- Salt and hashing the password should be done at the backend
+- Password hints should not be used to verify accounts (in case of forget
+  password).
+- URL `/.well-known/change-password/` should be implemented to redirect users to
+  password change page. (for instance, `curl -i
+  https://www.apple.com/.well-known/change-password`)
+- Email address is preferred over username.
+- Placeholders should not be used and labels next to the fields should be used
+  instead.
+- Show password button helps improving accessibility.
 
 # OAuth 2.0
 
