@@ -532,6 +532,19 @@ git log -L 1001,1001:SomeFolder/SomeFile.go
 git log -L 1001,+10:SomeFolder/SomeFile.go
 ```
 
+##### History of a function
+
+```sh
+git log -L SomeFunctionName:SomeFolder/SomeFile.go
+```
+
+Note that modification of `.gitattributes` may be needed to make `git`
+understand the language.
+
+```sh
+*.cs diff=csharp
+```
+
 ##### Comparing branches
 
 Assuming one is on branch `feature`, to show the commits only exist on the
