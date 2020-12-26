@@ -137,6 +137,8 @@ git range-diff origin/master~10 origin/feature_branch origin/master feature_bran
 git add -p
 ```
 
+To further split a patch into smaller chunks, answer `s` can be used.
+
 ### Commit
 
 ##### Amending the HEAD commit with current staged changes
