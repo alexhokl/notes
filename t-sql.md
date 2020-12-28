@@ -146,6 +146,50 @@ ALTER LOGIN YourSqlLoginName ENABLE
 ALTER Login YourSqlLoginName WITH PASSWORD = 'SomeStrongPassword'
 ```
 
+##### To list all roles
+
+```sql
+SELECT name FROM sys.database_principals WHERE type = 'R'
+```
+
+##### To list mapping between roles and logins
+
+```sql
+SELECT DP1.name AS DatabaseRoleName,
+    isnull (DP2.name, '') AS DatabaseUserName
+FROM sys.database_role_members AS DRM
+RIGHT OUTER JOIN sys.database_principals AS DP1
+    ON DRM.role_principal_id = DP1.principal_id
+LEFT OUTER JOIN sys.database_principals AS DP2
+    ON DRM.member_principal_id = DP2.principal_id
+WHERE DP1.type = 'R'
+ORDER BY DP1.name;
+```
+
+##### To list mappings between database and logins
+
+```sql
+CREATE TABLE #tempww (
+    LoginName nvarchar(max),
+    DBname nvarchar(max),
+    Username nvarchar(max),
+    AliasName nvarchar(max)
+)
+
+INSERT INTO #tempww
+EXEC master..sp_msloginmappings
+
+-- display results
+SELECT LoginName, DBname, Username
+FROM   #tempww
+ORDER BY dbname, username
+
+-- cleanup
+DROP TABLE #tempww
+```
+
+Note that `LoginName` is added at server level while `Username` is added at
+a database level.
 
 ### Database performance
 
