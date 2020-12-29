@@ -191,6 +191,12 @@ DROP TABLE #tempww
 Note that `LoginName` is added at server level while `Username` is added at
 a database level.
 
+##### To grant table read permission to a database user
+
+```sql
+GRANT SELECT ON your-table-name TO your-database-username
+```
+
 ### Database performance
 
 ##### To clean up SQL server cache
