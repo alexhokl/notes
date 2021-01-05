@@ -230,6 +230,11 @@ aws ec2 describe-instances | jq '.Reservations[] | .Instances[] | {id:.InstanceI
 
 ### Lightsail
 
+#### Directories and files
+
+- Plugins - `/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/`
+- Major configuration file - `/opt/bitnami/apps/wordpress/htdocs/wp-config.php`
+
 ##### To install Let's Encrypt (Lego) on the Ubuntu box ([reference](https://docs.bitnami.com/aws/how-to/generate-install-lets-encrypt-ssl/))
 
 ```sh
@@ -268,6 +273,5 @@ RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 ##### To set domain name of WordPress
 
-Edit file `/opt/bitnami/apps/wordpress/htdocs/wp-config.php` and look for `WP_SITEURL`
-    and `WP_HOME`
-
+Edit file `/opt/bitnami/apps/wordpress/htdocs/wp-config.php` and look for
+`WP_SITEURL` and `WP_HOME`
