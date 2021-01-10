@@ -9,6 +9,10 @@
   * [Error handling](#error-handling)
   * [main function](#main-function)
   * [Functional options](#functional-options)
+  * [Interface](#interface)
+  * [sync.WaitGroup](#syncwaitgroup)
+  * [Channels](#channels)
+  * [errgroup](#errgroup)
 ____
 
 ## Links
@@ -19,7 +23,7 @@ ____
 - [A Recap of Request Handling in Go](http://www.alexedwards.net/blog/a-recap-of-request-handling)
 - [Important interfaces that every Go developer should know](https://www.rzaluska.com/blog/important-go-interfaces/)
 - [Grumpy: Go running Python!](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html)
-- [Gopherize.me](https://gopherize.me/) 
+- [Gopherize.me](https://gopherize.me/)
 - [Conference talks from Liz Rice](https://www.lizrice.com/talks)
 - [Go Time Podcast](https://changelog.com/gotime)
 
@@ -205,7 +209,7 @@ const (
 func main() {
   if err := run(os.Args, os.Stdout); err != nil {
     fmt.Fprintf(os.Stderr, "%s\n", err)
-		os.Exit(exitFail)
+    os.Exit(exitFail)
   }
 }
 
@@ -298,3 +302,117 @@ func main() {
 Note that `Limit` helps adapting the signature to what required as an option.
 All functions except `main` can live in another package (and makes things as
 clean as using a configuration object).
+
+### Interface
+
+It is always prefer to have less methods in an interface to make it precise and
+easier to implement. Big interface can be created by composing using smaller
+interfaces.
+
+Usually interface is named with what its functions do. For instance, `io.Writer`
+has function `Write`.
+
+Although name of arguments and return values used in an interface are not
+enforced in the types that implement the interface, it is encouraged to name
+them to enhance documentation.
+
+Parameters of functions of an interface should be a type of lowest common
+denominator. For instance, if it is a choice between `string` and `byte[]`,
+`[]byte` should be used as it can be implemented by more types.
+
+Pointers can be passed to functions implementing a non-pointer method. For
+instance,
+
+```go
+type Stringer interface {
+  String() string
+}
+
+type Something struct {}
+
+func (s Something) String() string {
+  return "something"
+}
+
+func main() {
+  s := &Something{}
+  fmt.Println(s.String())
+  // this compiles and should display "something"
+}
+```
+
+### sync.WaitGroup
+
+```go
+func notify(services ...string) {
+  var wg sync.WaitGroup
+
+  for _, service := range services {
+    wg.Add(1)
+    go func(s string) {
+      defer wg.Done()
+      fmt.Printf("Starting to notifing %s...\n", s)
+      time.Sleep(time.Duration(rand.Intn(3)) * time.Second)
+      fmt.Printf("Finished notifying %s...\n", s)
+    }(service)
+  }
+
+  wg.Wait()
+  fmt.Println("All services notified!")
+}
+```
+
+### Channels
+
+```go
+func notify(services ...string) {
+  res := make(chan string)
+  count := 0
+
+  for _, service := range services {
+    count++
+    go func(s string) {
+      fmt.Printf("Starting to notifying %s...\n", s)
+      time.Sleep(time.Duration(rand.Intn(3)) * time.Second)
+      res <- fmt.Sprintf("Finished %s", s)
+    }(service)
+  }
+
+  for i := 0; i < count; i++ {
+    fmt.Println(<-res)
+  }
+
+  fmt.Println("All services notified!")
+}
+```
+
+### errgroup
+
+`errgroup` can be found in package `golang.org/x/sync/errgroup`.
+
+Note that `Wait()` returns on the first routine which returns an error.
+
+```go
+func notify(services ...string) {
+  var g errgroup.Group
+
+  for _, service := range services {
+    // Copy the value from the service variable into a local variable to
+    // avoid a common bug with closure inside a loop
+    s := service
+    g.Go(func() error {
+      fmt.Printf("Starting to notifing %s...\n", s)
+      time.Sleep(time.Duration(rand.Intn(3)) * time.Second)
+      fmt.Printf("Finished notifying %s...\n", s)
+      return nil // or a real error if we had one
+    })
+  }
+
+  err := g.Wait()
+  if err != nil {
+    fmt.Printf("Error notifying services: %v\n", err)
+    return
+  }
+  fmt.Println("All services notified successfully!")
+}
+```
