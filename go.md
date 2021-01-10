@@ -8,6 +8,7 @@
 - [Language](#language)
   * [Error handling](#error-handling)
   * [main function](#main-function)
+  * [Functional options](#functional-options)
 ____
 
 ## Links
@@ -216,4 +217,84 @@ func run(args []string, stdout io.Writer) error {
 Reference: [Why you shouldn't use func main in
 Go](https://pace.dev/blog/2020/02/12/why-you-shouldnt-use-func-main-in-golang-by-mat-ryer.html)
 
+### Functional options
 
+Reference: [Functional options for friendly
+APIs](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis)
+
+A common pattern is used to create a new object is to pass in a configuration
+object. For example,
+
+```go
+type Config struct {
+  one string
+  two string
+}
+
+func main() {
+  config, _ := parseArguments(os.Args)
+  mandatoryParameter := os.Args[1]
+  instance, _ := NewInstance(mandatoryParameter, config)
+  // ...
+}
+```
+
+The above approach made it difficult to handle mandatory parameters and optional
+parameters. Validations are much harder (although not impossible) to be done.
+Optional configuration object has to be prepared by caller regardless.
+
+Using functional options gives the following advantages.
+
+- The number of options can grow easily over time (instead of growing
+  configuration object
+- It makes the default use case to be the simplest
+- It provides meaningful configuration parameters
+- It gives access to initialize complex values
+
+```go
+func NewInstance(mandatoryParameter string, options ...func(*Instance)) (*Instance, error) {
+  i := &Instance{mandatoryParameter: mandatoryParameter}
+  for _, o := range options {
+    if err := o(i); err != nil {
+      return nil, err
+    }
+  }
+  return i, nil
+}
+
+func Debug(i *Instance) error {
+  return i.setDebugMode()
+}
+
+func Limit(int limit) func(*Instance) error {
+  return func(i *Instance) error {
+    if limit <= 0 {
+      return fmt.Errorf("Limit must be positive but it was %d", limit)
+    }
+    return i.setLimit(limit)
+  }
+}
+
+func parseArguments(args []string) ([]func(*Instance) error) {
+  var options []func(*Instance) error
+  if args[2] == "debug" {
+    options = append(options, Debug)
+  }
+
+  if args[3] == 'limit' {
+    options = append(options, Limit(args[4]))
+  }
+  return options
+}
+
+func main() {
+  options, _ := parseArguments(os.Args)
+  mandatoryParameter := os.Args[1]
+  instance, _ := NewInstance(mandatoryParameter, ...options)
+  // ...
+}
+```
+
+Note that `Limit` helps adapting the signature to what required as an option.
+All functions except `main` can live in another package (and makes things as
+clean as using a configuration object).
