@@ -7,6 +7,7 @@
   * [Help](#help)
 - [Language](#language)
   * [Error handling](#error-handling)
+  * [main function](#main-function)
 ____
 
 ## Links
@@ -188,3 +189,31 @@ func Something() error {
 Note that `%w` is different from `%v` in that it gives a chance for higher level
 code which invokes `Something` to check the type of `err` (which could be
 a complicated `struct` implements `error` interface).
+
+### main function
+
+To handle error better, a slim `main` function can be written. This also allows
+the program can be tested easily.
+
+```go
+const (
+  // exitFail is the exit code if the program fails
+  exitFail = 1
+)
+
+func main() {
+  if err := run(os.Args, os.Stdout); err != nil {
+    fmt.Fprintf(os.Stderr, "%s\n", err)
+		os.Exit(exitFail)
+  }
+}
+
+func run(args []string, stdout io.Writer) error {
+  // ...
+}
+```
+
+Reference: [Why you shouldn't use func main in
+Go](https://pace.dev/blog/2020/02/12/why-you-shouldnt-use-func-main-in-golang-by-mat-ryer.html)
+
+
