@@ -26,9 +26,10 @@ ContainerLog
 | join kind= inner (
   KubePodInventory
   | where TimeGenerated > startTime
-  | summarize by ContainerID, ContainerName, ServiceName, Namespace
+  | where ControllerName contains "web-deployment"
+  | summarize by ContainerID, ControllerName, ServiceName, Namespace
 ) on $left.ContainerID == $right.ContainerID
-| project TimeGenerated, LogEntry, ContainerName, ServiceName, Namespace
+| project TimeGenerated, LogEntry, ControllerName, ServiceName, Namespace
 | order by TimeGenerated desc;
 ```
 
