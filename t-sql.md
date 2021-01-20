@@ -338,6 +338,16 @@ WHERE
     resource_associated_entity_id = OBJECT_ID(N'dbo.YourTableName');
 ```
 
+To check application locks,
+
+```sh
+SELECT *
+FROM   sys.dm_tran_locks
+WHERE  resource_type = 'APPLICATION'
+       AND request_mode = 'X'
+       AND request_status = 'GRANT'
+```
+
 ##### Check index of a table
 
 ```sql
