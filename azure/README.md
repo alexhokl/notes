@@ -3,6 +3,7 @@
   * [Examples](#examples)
 - [Alerts](#alerts)
 ____
+
 ## Links
 
 - [Notes on Azure CLI](./azure-cli.md)
@@ -15,9 +16,16 @@ ____
 
 ### Examples
 
+##### Cluster names
+
+```kusto
+KubeNodeInventory
+| summarize by ClusterName
+```
+
 ##### AKS logs
 
-```
+```kusto
 let startTime = ago(7d);
 ContainerLog
 | where TimeGenerated > startTime
@@ -25,8 +33,9 @@ ContainerLog
 | project TimeGenerated, LogEntrySource, LogEntry, ContainerID
 | join kind= inner (
   KubePodInventory
-  | where TimeGenerated > startTime
+  | where ClientName == "my-cluster"
   | where ControllerName contains "web-deployment"
+  | where TimeGenerated > startTime
   | summarize by ContainerID, ControllerName, ServiceName, Namespace
 ) on $left.ContainerID == $right.ContainerID
 | project TimeGenerated, LogEntry, ControllerName, ServiceName, Namespace
@@ -35,7 +44,7 @@ ContainerLog
 
 ##### Kuberentes events
 
-```
+```kusto
 KubeEvents
 | where TimeGenerated > ago(7d)
 | where not(isempty(Namespace))
@@ -49,7 +58,7 @@ KubeEvents
 
 ##### Response time
 
-```
+```kusto
 let start=datetime("2020-08-13T06:38:00.000Z");
 let end=datetime("2020-08-14T06:38:00.000Z");
 let timeGrain=5m;
