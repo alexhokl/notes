@@ -197,6 +197,22 @@ a database level.
 GRANT SELECT ON your-table-name TO your-database-username
 ```
 
+##### To create a login
+
+```sql
+CREATE LOGIN your-login
+  WITH PASSWORD = 'your-password',
+  DEFAULT_DATABASE = your-database;
+GO
+
+USE your-database
+CREATE USER your-login FOR LOGIN your-login;
+GO
+
+ALTER ROLE db_datareader ADD MEMBER your-login;
+GO
+```
+
 ### Database performance
 
 ##### To clean up SQL server cache
