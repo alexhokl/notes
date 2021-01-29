@@ -61,6 +61,8 @@ ____
   markdown, SQL and HTML
 - [quicktype](https://app.quicktype.io/) - generate code of various languages
   from JSON data.
+- [crt.sh](https://crt.sh/?q=alexho.dev) - list of issued Let's Encrypt
+  certificates
 
 ### APIs
 
