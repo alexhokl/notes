@@ -56,6 +56,23 @@ KubeEvents
 | project TimeGenerated, Name, Message, Count
 ```
 
+##### Current PODs
+
+```kusto
+let startTime = (ago(60m));
+KubePodInventory
+| where TimeGenerated > startTime
+| summarize by ContainerID, Name, PodStatus, Namespace, ClusterName
+| order by ContainerID
+| join kind= inner (
+    ContainerInventory
+    | where TimeGenerated > startTime
+    | summarize by ContainerID, Image, ImageTag
+    )
+    on $left.ContainerID == $right.ContainerID
+| project Name, PodStatus, Namespace, ClusterName, Image, ImageTag, ContainerID
+```
+
 ##### Response time
 
 ```kusto
