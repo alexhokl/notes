@@ -408,6 +408,26 @@ SELECT top 100 j.[name]
   order by run_date desc
 ```
 
+where `run_status` indicates the following statuses.
+
+- `0` Failed
+- `1` Succeeded
+- `2` Retry
+- `3` Cancelled
+- `4` In Progress
+
+##### To start a SQL job
+
+```sql
+EXEC msdb.dbo.sp_start_job 'your-job-name'
+```
+
+or,
+
+```sql
+EXEC msdb.dbo.sp_start_job 'your-job-id'
+```
+
 ##### Create indexes with included columns
 
 ```sql
