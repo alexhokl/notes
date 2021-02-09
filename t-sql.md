@@ -389,7 +389,9 @@ SELECT job_id, [name] FROM msdb.dbo.sysjobs;
 ##### To list command of a SQL job step
 
 ```sql
-SELECT step_id, [command] FROM msdb.dbo.sysjobsteps WHERE job_id = 'your-job-id'
+SELECT step_id, [database_name], [command]
+FROM msdb.dbo.sysjobsteps
+WHERE job_id = 'your-job-id'
 ```
 
 ##### To list recent SQL job history
