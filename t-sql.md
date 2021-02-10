@@ -430,6 +430,13 @@ or,
 EXEC msdb.dbo.sp_start_job 'your-job-id'
 ```
 
+##### To delete a SQL job
+
+```sql
+EXEC msdb.dbo.sp_delete_job @job_name = 'your-job-name'
+
+```
+
 ##### Create indexes with included columns
 
 ```sql
