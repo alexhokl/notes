@@ -416,3 +416,98 @@ func notify(services ...string) {
   fmt.Println("All services notified successfully!")
 }
 ```
+
+### SIGTERM handling
+
+```go
+package main
+
+import (
+  "fmt"
+  "os"
+  "os/signal"
+  "syscall"
+)
+
+func main() {
+
+  sigs := make(chan os.Signal, 1)
+  done := make(chan bool, 1)
+
+  signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM)
+
+  go func() {
+    sig := <-sigs
+    fmt.Println()
+    fmt.Println(sig)
+    done <- true
+  }()
+
+  fmt.Println("awaiting signal")
+  <-done
+  fmt.Println("exiting")
+}
+```
+
+Note that hitting `ctrl` `c` is equivalent to sending `SIGINT`. `SIGTERM` is
+usually sent from an operation system.
+
+Also note that `SIGKILL` cannot be handled as it kills the process immediately.
+
+### panic
+
+`panic` does take care of the existing `defer` calls.
+
+### signal.NotifyContext
+
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"log"
+	"os"
+	"os/signal"
+	"time"
+)
+
+func main() {
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt)
+	defer stop()
+
+	p, err := os.FindProcess(os.Getpid())
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// On a Unix-like system, pressing Ctrl+C on a keyboard sends a
+	// SIGINT signal to the process of the program in execution.
+	//
+	// This example simulates that by sending a SIGINT signal to itself.
+	if err := p.Signal(os.Interrupt); err != nil {
+		log.Fatal(err)
+	}
+
+	select {
+	case <-time.After(time.Second):
+		fmt.Println("missed signal")
+	case <-ctx.Done():
+		fmt.Println(ctx.Err()) // prints "context canceled"
+		stop()                 // stop receiving signal notifications as soon as possible.
+	}
+
+}
+```
+
+### os.Exit
+
+- It does not cover any existing `defer` calls.
+- It does stop all existing go routines.
+
+### cmd
+
+`cmd` creates a sub process instead of a sub-routine. Thus, when ending a parent
+program, the sub process will not be cleaned up automatically and code has to be
+written to handle that.
+
