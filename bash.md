@@ -442,6 +442,12 @@ lpstat -a
 convert -background transparent image.png -define icon:auto-resize=16,32,48,64,256 favicon.ico
 ```
 
+##### To convert a JPG file with a lower quality
+
+```sh
+convert source.jpg -q 80 destination.jpg
+```
+
 ##### To convert a AVI file to MPEG-4 file
 
 ```sh
