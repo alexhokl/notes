@@ -23,6 +23,13 @@ KubeNodeInventory
 | summarize by ClusterName
 ```
 
+##### Docker image and tags
+
+```kusto
+ContainerInventory
+| summarize by Repository, Image, ImageTag
+```
+
 ##### AKS logs
 
 ```kusto
