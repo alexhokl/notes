@@ -305,6 +305,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:read !git rev-parse HEAD` to run command `git rev-parse HEAD` and paste it
   into the current buffer
 - `:!jq` with a visually selected text to format it with `jq`
+- `:term` to enter terminal mode
+  - <kbd>i</kbd> to change to interactive mode
+  - <kbd>ctrl</kbd><kbd>\</kbd><kbd>ctrl</kbd><kbd>n</kbd> to exit interactive
+    mode
 
 ### Git
 
