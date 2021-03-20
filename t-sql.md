@@ -531,6 +531,117 @@ EXEC sys.sp_configure N'show advanced options', N'0'  RECONFIGURE WITH OVERRIDE
 GO
 ```
 
+##### To find out the suggested MAXDOP setting
+
+```sql
+DECLARE @hyperthreadingRatio bit
+DECLARE @logicalCPUs int
+DECLARE @HTEnabled int
+DECLARE @physicalCPU int
+DECLARE @SOCKET int
+DECLARE @logicalCPUPerNuma int
+DECLARE @NoOfNUMA int
+
+SELECT
+  @logicalCPUs = cpu_count, -- [Logical CPU Count]
+  @hyperthreadingRatio = hyperthread_ratio, --  [Hyperthread Ratio]
+  @physicalCPU = cpu_count / hyperthread_ratio, -- [Physical CPU Count]
+  @HTEnabled = CASE
+    WHEN cpu_count > hyperthread_ratio
+        THEN 1
+    ELSE 0
+    END -- HTEnabled
+FROM sys.dm_os_sys_info
+OPTION (recompile);
+
+SELECT @logicalCPUPerNuma = COUNT(parent_node_id) -- [NumberOfLogicalProcessorsPerNuma]
+FROM sys.dm_os_schedulers
+WHERE
+  [status] = 'VISIBLE ONLINE' AND
+  parent_node_id < 64
+GROUP BY parent_node_id
+OPTION (recompile);
+
+SELECT @NoOfNUMA = COUNT(DISTINCT parent_node_id)
+FROM sys.dm_os_schedulers -- find NO OF NUMA Nodes
+WHERE
+  [status] = 'VISIBLE ONLINE' AND
+  parent_node_id < 64
+
+-- Report the recommendations ....
+SELECT
+    --- 8 or less processors and NO HT enabled
+    CASE
+        WHEN @logicalCPUs < 8
+            AND @HTEnabled = 0
+            THEN 'MAXDOP setting should be : ' + CAST(@logicalCPUs AS VARCHAR(3))
+                --- 8 or more processors and NO HT enabled
+        WHEN @logicalCPUs >= 8
+            AND @HTEnabled = 0
+            THEN 'MAXDOP setting should be : 8'
+                --- 8 or more processors and HT enabled and NO NUMA
+        WHEN @logicalCPUs >= 8
+            AND @HTEnabled = 1
+            AND @NoofNUMA = 1
+            THEN 'MaxDop setting should be : ' + CAST(@logicalCPUPerNuma / @physicalCPU AS VARCHAR(3))
+                --- 8 or more processors and HT enabled and NUMA
+        WHEN @logicalCPUs >= 8
+            AND @HTEnabled = 1
+            AND @NoofNUMA > 1
+            THEN 'MaxDop setting should be : ' + CAST(@logicalCPUPerNuma / @physicalCPU AS VARCHAR(3))
+        ELSE ''
+        END AS Recommendations
+```
+
+##### To get the current CPU, memory and I/O usage
+
+```sql
+SELECT
+AVG(avg_cpu_percent) AS 'Average CPU Utilization In Percent',
+MAX(avg_cpu_percent) AS 'Maximum CPU Utilization In Percent',
+AVG(avg_data_io_percent) AS 'Average Data IO In Percent',
+MAX(avg_data_io_percent) AS 'Maximum Data IO In Percent',
+AVG(avg_log_write_percent) AS 'Average Log Write I/O Throughput Utilization In Percent',
+MAX(avg_log_write_percent) AS 'Maximum Log Write I/O Throughput Utilization In Percent',
+AVG(avg_memory_usage_percent) AS 'Average Memory Usage In Percent',
+MAX(avg_memory_usage_percent) AS 'Maximum Memory Usage In Percent'
+FROM sys.dm_db_resource_stats;
+```
+
+##### To get the average CPU usage of the last few days
+
+```sql
+DECLARE @s datetime;
+DECLARE @e datetime;
+SET @s= DateAdd(d,-7,GetUTCDate());
+SET @e= GETUTCDATE();
+SELECT database_name, AVG(avg_cpu_percent) AS Average_Compute_Utilization
+FROM master.sys.resource_stats_raw
+WHERE start_time BETWEEN @s AND @e
+GROUP BY database_name
+HAVING AVG(avg_cpu_percent) >= 0
+```
+
+##### To find out statistics update effectiveness
+
+```sql
+SELECT
+    OBJECT_SCHEMA_NAME(obj.object_id) SchemaName,
+    obj.name TableName,
+    stat.name,
+    modification_counter,
+    [rows],
+    rows_sampled,
+    rows_sampled* 100 / [rows] AS [% Rows Sampled],
+    last_updated
+FROM sys.objects AS obj
+INNER JOIN sys.stats AS stat ON stat.object_id = obj.object_id
+CROSS APPLY sys.dm_db_stats_properties(stat.object_id, stat.stats_id) AS sp
+WHERE obj.is_ms_shipped = 0
+--and obj.name ='tablename'
+ORDER BY modification_counter DESC
+```
+
 ### Database table manipulations
 
 ##### To modify column definition
