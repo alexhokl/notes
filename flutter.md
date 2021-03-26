@@ -33,6 +33,12 @@ flutter emulators --launch Pixel_3_API_28
 flutter devices
 ```
 
+##### To create an application
+
+```sh
+flutter create your_app_name
+```
+
 ##### To run on either emulator or connected device
 
 ```sh
