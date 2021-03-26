@@ -13,6 +13,11 @@
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [errgroup](#errgroup)
+  * [SIGTERM handling](#sigterm-handling)
+  * [panic](#panic)
+  * [signal.NotifyContext](#signalnotifycontext)
+  * [os.Exit](#osexit)
+  * [cmd](#cmd)
 ____
 
 ## Links
