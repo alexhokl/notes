@@ -47,7 +47,6 @@ virt-install \
   --os-type=windows \
   --disk path=/var/lib/libvirt/images/windows10.qcow2,size=80 \
   --cdrom $HOME/Downloads/Win10_20H2_English_x64.iso \
-  --cdrom $HOME/Downloads/virtio-win-0.1.185.iso \
   --network network=default \
   --graphics spice
 ```
