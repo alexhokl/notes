@@ -146,3 +146,11 @@ virsh dombiflist windows10
 virsh undefine windows10
 sudo rm /var/lib/libvirt/images/windows10.qcow2
 ```
+
+##### To clone an image
+
+```sh
+virt-clone --original windows10 --name windows10_base --file /var/lib/libvirt/images/windows10_base.qcow2
+```
+
+Note that the image to be cloned must be in shutdown state.
