@@ -40,7 +40,7 @@ ContainerLog
 | project TimeGenerated, LogEntrySource, LogEntry, ContainerID
 | join kind= inner (
   KubePodInventory
-  | where ClientName == "my-cluster"
+  | where ClusterName == "my-cluster"
   | where ControllerName contains "web-deployment"
   | where TimeGenerated > startTime
   | summarize by ContainerID, ControllerName, ServiceName, Namespace
