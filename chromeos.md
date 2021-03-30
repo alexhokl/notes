@@ -26,14 +26,14 @@ ____
 
 | keys | function |
 | --- | --- |
-| `ctrl+alt+shift+?` | to show all shortcut keys |
-| `shift` + multiscreen key (<kbd>F5</kbd>) | to take a full screenshot |
-| `ctrl+shift` + multiscreen key (<kbd>F5</kbd>) | to take a partial screenshot |
-| `search+l` | lock screen |
-| `alt+=` | toggle between maximised window and normal size window |
-| `alt+[` | dock the current window to left |
-| `alt+]` | dock the current window to right |
-| `ctrl+alt+.` | switch user |
+| <kbd>ctrl</kbd><kbd>alt</kbd><kbd>shift</kbd><kbd>?</kbd> | to show all shortcut keys |
+| <kbd>shift</kbd> + multiscreen key (<kbd>F5</kbd>) | to take a full screenshot |
+| <kbd>ctrl</kbd><kbd>shift</kbd> + multiscreen key (<kbd>F5</kbd>) | to take a partial screenshot |
+| <kbd>search</kbd>+<kbd>l</kbd> | lock screen |
+| <kbd>alt</kbd><kbd>=</kbd> | toggle between maximised window and normal size window |
+| <kbd>alt</kbd><kbd>[</kbd> | dock the current window to left |
+| <kbd>alt</kbd><kbd>]</kbd> | dock the current window to right |
+| <kbd>ctrl</kbd><kbd>alt</kbd><kbd>.</kbd> | switch user |
 
 # SSH
 
