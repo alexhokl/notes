@@ -261,6 +261,10 @@ sudo lego --email="alex@test.com" --domains="test.com" --domains="www.test.com" 
 sudo /opt/bitnami/ctlscript.sh start
 ```
 
+In case of port `80` is not available, it is likely that there is another
+`apache2` instance running. Use `sudo service apache2 status` to check and `sudo
+service apache2 stop` to stop it from running and re-try the script above.
+
 ##### To redirect http to https
 
 Edit file `/opt/bitnami/apache2/conf/bitnami/bitnami-apps-prefix.conf` and add the following (to the top if not working properly)
