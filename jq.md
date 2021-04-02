@@ -50,3 +50,10 @@ Note that the result is a json array
 ```sh
 jq length
 ```
+
+##### To concatenate properties in to a stringdefault
+
+```sh
+kubectl -n default get endpoints kubernetes -o json | \
+  jq -r '(.subsets[0].addresses[0].ip + ":" + (.subsets[0].ports[0].port|tostring))'
+```
