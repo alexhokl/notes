@@ -531,6 +531,24 @@ spec:
             - "15"
 ```
 
+## API
+
+##### To setup shell
+
+```sh
+SERVICE_ACCOUNT_NAME=default
+SERVICE_ACCOUNT_SECRET_NAME=$(kubectl get serviceaccount -n default ${SERVICE_ACCOUNT_NAME} -o json | jq -Mr '.secrets[].name | select(contains("token"))')
+SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n default $SERVICE_ACCOUNT_SECRET_NAME token)
+kubectl view-secret -n default $SERVICE_ACCOUNT_SECRET_NAME ca.crt > /tmp/ca.crt
+API_URL=$(kubectl -n default get endpoints kubernetes -o json | jq -r '(.subsets[0].addresses[0].ip + ":" + (.subsets[0].ports[0].port|tostring))')
+```
+
+##### To get nodes
+
+```sh
+curl -sk https://$API_URL/api/v1/nodes -H "Authorization: Bearer ${SERVICE_ACCOUNT_TOKEN}" --cacert /tmp/ca.crt
+```
+
 ## References
 
 - [Kubernetes Custom Resource API Reference Docs
