@@ -26,6 +26,12 @@ gcloud auth login
 gcloud auth list
 ```
 
+##### To echo out JWT token of the current login
+
+```sh
+gcloud auth print-identity-token
+```
+
 ##### To list current configuration
 
 ```sh
@@ -42,6 +48,12 @@ gcloud config set compute/zone asia-east1-b
 
 ```sh
 gcloud config set core/project google-cloud-platform-project-name
+```
+
+##### To get project number from project ID
+
+```sh
+gcloud protjects list --filter="project_id:$PROJECT_ID" --format='value(project_number)'
 ```
 
 ### Kubernetes
