@@ -56,6 +56,12 @@ gcloud config set core/project google-cloud-platform-project-name
 gcloud protjects list --filter="project_id:$PROJECT_ID" --format='value(project_number)'
 ```
 
+##### To get project ID from project number
+
+```sh
+gcloud protjects list --filter="project_id:$PROJECT_NUMBER" --format='value(project_id)'
+```
+
 ### Kubernetes
 
 ##### To add credentials to $HOME/.kube/config
