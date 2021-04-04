@@ -6,6 +6,7 @@
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
   * [Termination](#termination)
+- [API](#api)
 - [References](#references)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
