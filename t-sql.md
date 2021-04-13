@@ -364,6 +364,104 @@ WHERE  resource_type = 'APPLICATION'
        AND request_status = 'GRANT'
 ```
 
+##### To show deadlock graphs
+
+```sql
+WITH CTE AS (
+    SELECT CAST(event_data AS XML)  AS [target_data_XML] 
+    FROM sys.fn_xe_telemetry_blob_target_read_file('dl', null, null, null)
+)
+SELECT 
+    target_data_XML.value('(/event/@timestamp)[1]', 'DateTime2') AS Timestamp,
+    target_data_XML.query('/event/data[@name=''xml_report'']/value/deadlock') AS deadlock_xml,
+    target_data_XML.query('/event/data[@name=''database_name'']/value').value('(/value)[1]', 'nvarchar(100)') AS db_name
+FROM CTE
+```
+
+##### To show blocking processes
+
+```sql
+SELECT
+    r.session_id,
+    r.plan_handle,
+    r.sql_handle,
+    r.request_id,
+    r.start_time,
+    r.status,
+    r.command,
+    r.database_id,
+    r.user_id,
+    r.wait_type,
+    r.wait_time,
+    r.last_wait_type,
+    r.wait_resource, 
+    r.total_elapsed_time,
+    r.cpu_time, 
+    r.transaction_isolation_level,
+    r.row_count,st.text 
+FROM
+    sys.dm_exec_requests r CROSS APPLY 
+    sys.dm_exec_sql_text(r.sql_handle) as st  
+WHERE
+    r.blocking_session_id = 0 and 
+    r.session_id in (SELECT distinct(blocking_session_id) FROM sys.dm_exec_requests) 
+GROUP BY 
+    r.session_id, 
+    r.plan_handle,
+    r.sql_handle, 
+    r.request_id,
+    r.start_time, 
+    r.status,
+    r.command, 
+    r.database_id,
+    r.user_id, 
+    r.wait_type,
+    r.wait_time,
+    r.last_wait_type,
+    r.wait_resource, 
+    r.total_elapsed_time,
+    r.cpu_time, 
+    r.transaction_isolation_level,
+    r.row_count,st.text  
+ORDER BY r.total_elapsed_time desc
+```
+
+##### To show the current waiting requests
+
+```sql
+SELECT * FROM sys.dm_os_waiting_tasks
+```
+
+##### To show the historical waiting requests
+
+```sql
+SELECT * FROM sys.dm_os_wait_stats ORDER BY waiting_tasks_count DESC
+```
+
+Note that the following wait types are of more interest.
+
+1. `CXPACKET`
+2. `HADR_WORK_QUEUE`
+3. `SOS_SCHEDULER_YIELD`
+
+##### To show machine information
+
+```sql
+SELECT * FROM sys.dm_os_sys_info
+```
+
+##### To show workers information of CPU
+
+```sql
+SELECT * FROM sys.dm_os_schedulers
+```
+
+##### To show current configuration
+
+```sql
+SELECT * FROM sys.database_scoped_configurations
+```
+
 ##### Check index of a table
 
 ```sql
