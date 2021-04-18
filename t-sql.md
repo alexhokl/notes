@@ -12,6 +12,7 @@ ____
 ### Tools
 
 - [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
+- [sqlcollaborative/dbatools](https://github.com/sqlcollaborative/dbatools)
 
 ### Database Operations
 
