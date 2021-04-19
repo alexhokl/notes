@@ -41,7 +41,7 @@ ContainerLog
 | join kind= inner (
   KubePodInventory
   | where ClusterName == "my-cluster"
-  | where ControllerName contains "web-deployment"
+  | where ServiceName == "my-service"
   | where TimeGenerated > startTime
   | summarize by ContainerID, ControllerName, ServiceName, Namespace
 ) on $left.ContainerID == $right.ContainerID
