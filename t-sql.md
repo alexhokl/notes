@@ -30,6 +30,12 @@ RESTORE DATABASE [MyDatabaseName] FROM DISK='C:\backup\MyDatabaseName.bak' WITH 
 GO
 ```
 
+##### To check logical names of a backup file
+
+```sql
+RESTORE FILELISTONLY FROM DISK = '/tmp/backup/your-databse.bak' WITH FILE = 1
+```
+
 ##### Attach a database
 
 Make sure that the folders containing the database files are granted with write permissions for the MSSQL server process (Check "Logon" tab in `services.msc`).
