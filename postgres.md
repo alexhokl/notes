@@ -47,8 +47,13 @@ Note that the above statements only covers schema `public`.
 ##### To remove a user
 
 ```sql
+REASSIGN OWNED BY "some_user" TO postgres; -- or other users
+DROP OWNED BY "some_user";
 DROP USER "some_user";
 ```
+
+Note that `REASSIGN OWNED` and `DROP OWNED` has to be done on a per-database
+basis.
 
 ##### To list all users
 
