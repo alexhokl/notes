@@ -9,6 +9,12 @@ To avoid issues with root directory, enclose search term with quotes.
 find . -name '.git'
 ```
 
+##### To list files
+
+```sh
+find . -name '.git' -ls
+```
+
 ##### to find directories with name
 
 ```sh
@@ -72,3 +78,22 @@ find . -type f -size 100c
 Note that `c` stands for byte, `w` stands for word (2 bytes), `k` stands for
 kilo-bytes, `M` stands for mega-bytes and `G` stands for giga-bytes.
 
+##### To find with last modified date
+
+To look for files modified in the last 2 hours
+
+```sh
+find . -type f -mmin -120
+```
+
+To look for files modified in the last 24 hours
+
+```sh
+find . -type f -mtime -1
+```
+
+To look for files modified more than 24 hours
+
+```sh
+find . -type f -mtime +1
+```
