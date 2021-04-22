@@ -57,7 +57,7 @@ KubeEvents
 | where not(isempty(Namespace))
 | where Reason == "Unhealthy"
 | where Name contains "api"
-| where Namespace = "your-namespace"
+| where Namespace == "your-namespace"
 | where Message contains "Liveness"
 | top 200 by TimeGenerated desc
 | project TimeGenerated, Name, Message, Count
