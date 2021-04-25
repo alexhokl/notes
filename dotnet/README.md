@@ -63,7 +63,8 @@ ____
 - [Migrate from ASP.NET Core 2.2 to 3.0](https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-3.1&tabs=visual-studio)
 - [Migrate from ASP.NET Core 3.0 to 3.1](https://docs.microsoft.com/en-us/aspnet/core/migration/30-to-31?view=aspnetcore-3.1&tabs=visual-studio)
 - [Breaking changes for migration from Version 2.2 to 3.1](https://docs.microsoft.com/en-us/dotnet/core/compatibility/2.2-3.1)
-- [Upgrade Assistant](https://github.com/dotnet/upgrade-assistant)
+- [Upgrade Assistant](https://github.com/dotnet/upgrade-assistant) (Windows
+  only)
 
 ### .NET CLI
 
