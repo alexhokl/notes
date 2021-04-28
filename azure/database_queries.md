@@ -1,3 +1,5 @@
+
+____
 ##### Proportion of different wait types
 
 ```kusto
