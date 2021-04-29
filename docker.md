@@ -227,6 +227,7 @@ FROM image-name:$FLAVOUR AS some-label
 -	If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.
 -	If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
 -	`ENTRYPOINT` and `CMD` can be overridden via command line flags
+  - `ENTRYPOINT` can be overridden by `docker run --entrypoint /bin/sh` or similar
 
 ## Networking
 
