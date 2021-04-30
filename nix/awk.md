@@ -1,6 +1,7 @@
 - [to extract delimited text](#to-extract-delimited-text)
 - [to extract certain lines in a file](#to-extract-certain-lines-in-a-file)
 - [to find multiple words in a file](#to-find-multiple-words-in-a-file)
+- [to replace word in a selected column](#to-replace-word-in-a-selected-column)
 - [to do arithmetic](#to-do-arithmetic)
 ____
 
@@ -29,6 +30,14 @@ it prints the second and third element of the line started with `Mem:`
 ```sh
 awk '/tom|jerry|vivek/' /etc/passwd
 ```
+
+### to replace word in a selected column
+
+```sh
+kind version | awk '{ gsub("v", "", $2); print $2 }'
+```
+
+where this replaces `v` with empty string in the second column
 
 ### to do arithmetic
 
