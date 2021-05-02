@@ -42,4 +42,9 @@ nslookup -q=txt alexho.dev
 nslookup -q=txt _dmarc.alexho.dev
 ```
 
+##### To lookup using a specific DNS server
+
+```sh
+nslookup -q=ns alexho.dev 8.8.8.8
+```
 
