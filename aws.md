@@ -199,10 +199,81 @@ aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 aws iam list-policies --scope Local | jq -r '.Policies[] | .Arn'
 ```
 
+##### To get basic information of a custom policy 
+
+```sh
+aws iam list-policies --scope Local | jq -r '.Policies[] | select(.PolicyName=="your-policy-name")'
+```
+
+##### To get versions of a custom policy
+
+```sh
+aws iam list-policy-versions --policy-arn arn:aws:iam::12345678:policy/your-policy-name
+```
+
+##### To get definition of a policy
+
+```sh
+aws iam get-policy-version --policy-arn arn:aws:iam::12345678:policy/your-policy-name --version-id v4
+```
+
 ##### To create a policy
 
 ```sh
 aws iam create-policy --policy-name your-policy --policy-document file://policy.json --description "A description"
+```
+
+##### To update a policy
+
+```sh
+aws iam create-policy-version --policy-name your-policy --policy-document file://policy.json
+```
+
+##### To list a policies attached to a user
+
+```sh
+aws iam list-attached-user-policies --user-name your-username
+```
+
+##### To attach a policy to a user
+
+```sh
+aws iam attach-user-policy --user-name your-username --policy-arn arn:aws:iam::12345678:policy/your-policy
+```
+
+##### To detach a policy to a user
+
+```sh
+aws iam detach-user-policy --user-name your-username --policy-arn arn:aws:iam::12345678:policy/your-policy
+```
+
+##### To create a user
+
+```sh
+aws iam create-user --user-name your-username
+```
+
+##### To create a password for a user
+
+```sh
+aws iam create-login-profile --user-name your-username --password your-strong-password
+```
+##### To update password for a user
+
+```sh
+aws iam update-login-profile --user-name your-username --password your-strong-password
+```
+
+##### To add a user to a group
+
+```sh
+aws iam add-user-to-group --group-name your-group-name --user-name your-username
+```
+
+##### To list groups a user attached to
+
+```sh
+aws iam list-groups-for-user --user-name your-username
 ```
 
 ### EC2
