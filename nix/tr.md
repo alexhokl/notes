@@ -7,6 +7,12 @@ ____
 echo Production | tr '[:upper:]' '[:lower:]'
 ```
 
+##### To convert all files to use lower case file names
+
+```sh
+for f in `find`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
+```
+
 ##### To remove line feeds in a file
 
 ```sh
