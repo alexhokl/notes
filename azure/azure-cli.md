@@ -451,6 +451,18 @@ az sql mi list -o table
 az postgres server list -o table
 ```
 
+##### To create a server
+
+```sh
+az postgres server create -n your-db --backup-retention 35 -g your-group -l southeastasia --geo-redundant-backup Enabled --minimal-tls-version TLS1_2 --public-network-access Enabled --sku-name GP_Gen5_2 --ssl-enforcement Enabled --storage-size 10240 --version 11 -u admin-username -p your-strong
+```
+
+##### To add a firewall rule to a server
+
+```sh
+az postgres server firewall-rule create -s your-db -g your-group -n your-rule-name --start-ip-address 300.300.300.300 --end-ip-address 300.300.300.300
+```
+
 ## Azure Storage
 
 #### Storage Account
