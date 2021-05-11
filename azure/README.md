@@ -63,6 +63,20 @@ KubeEvents
 | project TimeGenerated, Name, Message, Count
 ```
 
+##### Restart stats
+
+```kusto
+let startTime = datetime("2021-05-06T20:00:00Z");
+let endTime = datetime("2021-05-06T21:00:00Z");
+KubePodInventory
+| where TimeGenerated > startTime and TimeGenerated < endTime
+| where ClusterName == "your-cluster"
+| where Namespace == "your-namespace"
+| where ServiceName == "your-service"
+| order by TimeGenerated desc
+| project TimeGenerated, PodRestartCount, PodStartTime, ServiceName, Namespace, ClusterName
+```
+
 ##### Current PODs
 
 ```kusto
