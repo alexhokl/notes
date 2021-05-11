@@ -550,6 +550,14 @@ API_URL=$(kubectl -n default get endpoints kubernetes -o json | jq -r '(.subsets
 curl -sk https://$API_URL/api/v1/nodes -H "Authorization: Bearer ${SERVICE_ACCOUNT_TOKEN}" --cacert /tmp/ca.crt
 ```
 
+##### To get admin-user token
+
+```sh
+SERVICE_ACCOUNT_NAME=admin-user
+SERVICE_ACCOUNT_SECRET_NAME=$(kubectl get serviceaccount -n kube-system ${SERVICE_ACCOUNT_NAME} -o json | jq -Mr '.secrets[].name | select(contains("token"))')
+SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECRET_NAME token)
+```
+
 ## References
 
 - [Kubernetes Custom Resource API Reference Docs
