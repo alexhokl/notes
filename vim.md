@@ -299,6 +299,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>d</kbd> to create a directory
 - <kbd>%</kbd> to create a directory
 
+#### Sorting
+
+`:sort` to sort
+`:sort!` to sort in descending order
+
 ### Terminal
 
 - `:!ls` to run command `ls`
