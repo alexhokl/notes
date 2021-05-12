@@ -341,6 +341,8 @@ SP_PASSSWORD=$(echo $SP_JSON | jq -r '.password')
 az role assignment create --assignee $SP_ID --scope "/your/long/scope/path" --role Contributor
 ```
 
+where `--scope` could be the `id` of a resource.
+
 ##### To list all keys of a service principal
 
 ```sh
