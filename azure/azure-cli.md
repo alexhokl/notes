@@ -327,6 +327,20 @@ and show display name and service type
 az ad sp list --all | jq '.[] | { name: .displayName, type: .servicePrincipalType }'
 ```
 
+##### To show the details of a service principal
+
+```sh
+az ad sp show --id $SP_ID
+```
+
+##### To list roles of a service principal
+
+```sh
+az role assignment list --all | jq '.[] | select(.principalName=="http://your_sp_name") | .scope'
+```
+
+Note that name of service principal is used here but not ID of it.
+
 ##### To create a service principal
 
 ```sh
