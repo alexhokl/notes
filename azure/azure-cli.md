@@ -346,7 +346,7 @@ Note that name of service principal is used here but not ID of it.
 ```sh
 SP_JSON=$(az ad sp create-for-rbac --skip-assignment --name your-credential-name -o json)
 SP_ID=$(echo $SP_JSON | jq -r '.appId')
-SP_PASSSWORD=$(echo $SP_JSON | jq -r '.password')
+SP_PASSWORD=$(echo $SP_JSON | jq -r '.password')
 ```
 
 ##### To assign a role to a service principal
@@ -367,12 +367,12 @@ az ad sp credential list --id your_sp_id -o table
 
 ```sh
 SP_ID=$(az aks show --resource-group your-resource-group --name your-cluster-name --query servicePrincipalProfile.clientId -o tsv)
-SP_SECRET=$(az ad sp credential reset --name $SP_ID --query password -o tsv)
-az aks update-credentials --resource-group your-resource-group --name your-cluster-name --reset-service-principal --service-principal $SP_ID --client-secret $SP_SECRET
+SP_PASSWORD=$(az ad sp credential reset --name $SP_ID --query password -o tsv)
+az aks update-credentials --resource-group your-resource-group --name your-cluster-name --reset-service-principal --service-principal $SP_ID --client-secret $SP_PASSWORD
 ```
 
-Note that, by default, the service principal expires in a year (as a security
-practice).
+Note that, by default, the password of a service principal expires in a year (as
+a security practice).
 
 Also note that, all the nodes must be in state `running` otherwise it would
 result in exceptions.
