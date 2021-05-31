@@ -63,6 +63,7 @@ ____
   from JSON data.
 - [crt.sh](https://crt.sh/?q=alexho.dev) - list of issued Let's Encrypt
   certificates
+- [SLA & Uptime calculator](https://uptime.is/)
 
 ### APIs
 
