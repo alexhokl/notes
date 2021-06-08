@@ -30,13 +30,18 @@ CREATE USER "some_user" WITH
 	NOREPLICATION
 	CONNECTION LIMIT -1
 	PASSWORD 'your_strong_password';
+```
+
+##### To grant a user with read-only permissions
+
+```sql
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO "some_user";
 GRANT SELECT ON ALL SEQUENCES IN SCHEMA public TO "some_user";
 GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO "some_user";
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO PUBLIC;
 ```
 
-Execute the following if write access is required.
+##### To grant a user with write permissions
 
 ```sql
 GRANT INSERT,UPDATE,DELETE ON ALL TABLES IN SCHEMA public TO "some_user";
@@ -79,4 +84,34 @@ ORDER BY role_name desc;
 SELECT grantee,table_catalog, table_schema, table_name, privilege_type
 FROM   information_schema.table_privileges 
 WHERE  grantee = 'some_user';
+```
+
+##### To get a count of number of connections and its state
+
+```sql
+SELECT state, count(*) FROM pg_stat_activity GROUP BY state;
+```
+
+##### To get connections waiting for a lock
+
+```sql
+SELECT count(distinct pid) FROM pg_locks WHERE granted = false
+```
+
+##### To get maximum transaction age
+
+```sql
+SELECT max(now() -xact_start) FROM pg_stat_activity WHERE state IN ('idle in transaction','active'); 
+```
+
+##### To retrieve information about checkpoints
+
+```sql
+SELECT * FROM pg_stat_bgwriter;
+```
+
+##### To retrieve execution times
+
+```sql
+SELECT * FROM pg_stat_statements;
 ```
