@@ -747,6 +747,14 @@ WHERE obj.is_ms_shipped = 0
 ORDER BY modification_counter DESC
 ```
 
+##### To enforce parallelism on a query
+
+Apply the following option to the end of a query.
+
+```sql
+OPTION(USE HINT('ENABLE_PARALLEL_PLAN_PREFERENCE'))
+```
+
 ### Database table manipulations
 
 ##### To modify column definition
