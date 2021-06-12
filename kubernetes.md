@@ -8,6 +8,7 @@
   * [Termination](#termination)
 - [API](#api)
 - [References](#references)
+- [kind](#kind)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
 ____
@@ -562,6 +563,84 @@ SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECR
 
 - [Kubernetes Custom Resource API Reference Docs
   generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
+
+## kind
+
+##### To create a docker image registry and a kind cluster
+
+```sh
+#!/bin/sh
+set -o errexit
+
+# create registry container unless it already exists
+reg_name='kind-registry'
+reg_port='5000'
+running="$(docker inspect -f '{{.State.Running}}' "${reg_name}" 2>/dev/null || true)"
+if [ "${running}" != 'true' ]; then
+  docker run \
+    -d --restart=always -p "127.0.0.1:${reg_port}:5000" --name "${reg_name}" \
+    registry:2
+fi
+
+# create a cluster with the local registry enabled in containerd
+cat <<EOF | kind create cluster --config=-
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+containerdConfigPatches:
+- |-
+  [plugins."io.containerd.grpc.v1.cri".registry.mirrors."localhost:${reg_port}"]
+    endpoint = ["http://${reg_name}:${reg_port}"]
+EOF
+
+# connect the registry to the cluster network
+# (the network may already be connected)
+docker network connect "kind" "${reg_name}" || true
+
+# Document the local registry
+# https://github.com/kubernetes/enhancements/tree/master/keps/sig-cluster-lifecycle/generic/1755-communicating-a-local-registry
+cat <<EOF | kubectl apply -f -
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: local-registry-hosting
+  namespace: kube-public
+data:
+  localRegistryHosting.v1: |
+    host: "localhost:${reg_port}"
+    help: "https://kind.sigs.k8s.io/docs/user/local-registry/"
+EOF
+```
+
+To push an image to the Docker registry used by kind,
+(assuming the image is named `test:1.0`)
+
+```sh
+docker tag test:1.0 localhost::5000/test:1.0
+docker push localhost::5000/test:1.0
+```
+
+Note that the image name used in deployment should also be
+`localhost::5000/test:1.0`.
+
+##### To create a cluster with ingress and Docker registry
+
+This setup forwards port on a host to ingress controller.
+
+```sh
+reg_name='kind-registry'
+reg_port='5000'
+running="$(docker inspect -f '{{.State.Running}}' "${reg_name}" 2>/dev/null || true)"
+if [ "${running}" != 'true' ]; then
+  docker run \
+    -d --restart=always -p "127.0.0.1:${reg_port}:5000" --name "${reg_name}" \
+    registry:2
+fi
+curl -o kind-cluster.yml -sSL https://raw.githubusercontent.com/alexhokl/notes/master/yaml/kind-cluster.yml
+kind create cluster --config=kind-cluster.yml
+docker network connect "kind" "${reg_name}" || true
+kubectl apply -f https://raw.githubusercontent.com/alexhokl/notes/master/yaml/kind-local-registry-config.yml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/provider/kind/deploy.yaml
+```
 
 ## Minikube
 
