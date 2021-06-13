@@ -243,6 +243,10 @@ FROM image-name:$FLAVOUR AS some-label
   - usually a network policy is applied via labels
 - mounting to `/var/run/docker.sock` enabling a container to connect to Docker
     server API via socket
+- [Container Networking Is
+  Simple!](https://iximiuz.com/en/posts/container-networking-is-simple/) - not
+  particularly on Docker but it explains clearly how container networks can be
+  setup using `ip` commands
 
 ## Docker Compose
 
