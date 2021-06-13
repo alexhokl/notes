@@ -16,16 +16,8 @@ ____
 
 ## Links
 
--	[Sign an image](https://docs.docker.com/datacenter/dtr/2.4/guides/user/manage-images/sign-images/)
 -	[Running Graphical applications in Docker for Mac](https://github.com/chanezon/docker-tips/blob/master/x11/README.md)
--	[Two Weeks with Terraform](https://charity.wtf/2016/02/23/two-weeks-with-terraform/)
--	[kubernetes/kompose](https://github.com/kubernetes/kompose)
 -	[Docker Security](https://github.com/docker/labs/tree/master/security)
--	[Jenkins on Kubernetes Engine](https://cloud.google.com/solutions/jenkins-on-kubernetes-engine)
--	[Backup Docker Content Trust Keys](https://docs.docker.com/engine/security/trust/trust_key_mng/#choosing-a-passphrase)
--	[First look: Jenkins CI with Windows Containers and Docker](https://blog.alexellis.io/continuous-integration-docker-windows-containers/)
--	[3 Steps to MSBuild with Docker](https://blog.alexellis.io/3-steps-to-msbuild-with-docker/)
--	[Google Cloud Platform - Storage Options](https://cloud.google.com/images/storage-options/flowchart.svg)
 - [buildx](https://github.com/docker/buildx)
 
 ## Troubleshoot
