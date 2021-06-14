@@ -31,6 +31,7 @@ ____
 - [Gopherize.me](https://gopherize.me/)
 - [Conference talks from Liz Rice](https://www.lizrice.com/talks)
 - [Go Time Podcast](https://changelog.com/gotime)
+- [Code review comments](https://github.com/golang/go/wiki/CodeReviewComments)
 
 ## Libraries
 
