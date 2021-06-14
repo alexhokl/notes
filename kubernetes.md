@@ -256,6 +256,15 @@ kubectl create job --from=cronjob/your-cronjob-name your-new-job-name
 
 ##### To SSH into a node (with a SSH key already been setup on the node)
 
+```sh
+kubectl node-shell your-node-name
+```
+
+where `node-shell` is a `krew` plugin and `your-node-name` get be retrieved by
+`kubectl get nodes`
+
+or without using a plugin,
+
 See [To SSH into one of the
 nodes](https://github.com/alexhokl/notes/blob/master/azure-cli.md#to-ssh-into-one-of-the-nodes)
 for steps to prepare a SSH key on Azure.
@@ -281,6 +290,12 @@ original terminal.
 ```sh
 chmod 0600 ~/.ssh/id_rsa
 ssh azureuser@10.240.0.4
+```
+
+##### To check if a Kubernetes cluster is deployed securely 
+
+```sh
+kubectl apply -f https://raw.githubusercontent.com/aquasecurity/kube-bench/main/job.yaml
 ```
 
 ## Resource Definitions
