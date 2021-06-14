@@ -35,6 +35,10 @@ ____
   markdown to presentation
 - [httpmole](https://github.com/jcchavezs/httpmole) - a CLI tool to mock
   response of an endpoint or proxy an endpoint
+- [gitleaks](https://github.com/zricethezav/gitleaks) - a CLI tool to check if
+  there is credential in any git commits
+- [AutoCannon](https://github.com/mcollina/autocannon) - a CLI tool to benchmark
+  APIs
 
 ## Online Tools
 
@@ -64,6 +68,8 @@ ____
 - [crt.sh](https://crt.sh/?q=alexho.dev) - list of issued Let's Encrypt
   certificates
 - [SLA & Uptime calculator](https://uptime.is/)
+- [Blacklight](https://themarkup.org/blacklight) - a real-time website privacy
+  inspector
 
 ### APIs
 
