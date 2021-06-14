@@ -1,6 +1,11 @@
+- [Links](#links)
 - [iTerm2](#iterm2)
 - [homebrew](#homebrew)
 ____
+
+### Links
+
+- [Munki](https://github.com/munki/munki) - a package manager with an UI
 
 ### iTerm2
 
@@ -19,4 +24,3 @@ sh diskutil list diskutil unmountDisk /dev/disk2 sudo dd if=/path/to/abc.iso of=
 ```sh
 sh ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 ```
-
