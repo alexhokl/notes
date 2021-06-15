@@ -755,6 +755,37 @@ Apply the following option to the end of a query.
 OPTION(USE HINT('ENABLE_PARALLEL_PLAN_PREFERENCE'))
 ```
 
+##### To understand if the current queries are using a snapshot and its isolation level
+
+```sql
+SELECT
+    er.session_id,
+    er.command,
+    st.text,
+    er.start_time,
+    er.transaction_isolation_level,
+    sn.is_snapshot,
+    ClientAddress = con.client_net_address
+FROM
+    sys.dm_tran_active_snapshot_database_transactions SN JOIN
+    sys.dm_exec_requests er on
+        SN.session_id = er.session_id OUTER APPLY
+    sys.dm_exec_sql_text(er.sql_handle) st LEFT JOIN
+    sys.dm_exec_sessions ses ON
+        ses.session_id = er.session_id LEFT JOIN
+    sys.dm_exec_connections con ON
+        con.session_id = ses.session_id
+```
+
+Note that the possible `transaction_isolation_level` values are
+
+- `0` = Unspecified
+- `1` = ReadUncomitted
+- `2` = ReadCommitted
+- `3` = Repeatable
+- `4` = Serializable
+- `5` = Snapshot
+
 ### Database table manipulations
 
 ##### To modify column definition
