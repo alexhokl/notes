@@ -428,3 +428,5 @@ vim -O src/hello.js src/world.js
 
 - [Vim scripting cheatsheet](https://devhints.io/vimscript)
 - [Learn X (Vimscript) in Y minutes](https://learnxinyminutes.com/docs/vimscript/)
+- [Vim Keyboard Shortcuts](https://keycombiner.com/collections/vim/)
+  a visualisation of key combinations
