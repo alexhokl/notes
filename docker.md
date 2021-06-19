@@ -238,7 +238,12 @@ FROM image-name:$FLAVOUR AS some-label
 - [Container Networking Is
   Simple!](https://iximiuz.com/en/posts/container-networking-is-simple/) - not
   particularly on Docker but it explains clearly how container networks can be
-  setup using `ip` commands
+  setup using `ip` and `iptables` commands
+  - using `docker run --network host` means not network namespace is used
+  - with `docker run --network none`, a network namespace is created but no
+    bridge will be created (thus, probably useful in case of running a container
+    isolated)
+  - by default, `docker run --network bridge` is used
 
 ## Docker Compose
 
