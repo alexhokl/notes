@@ -2,6 +2,7 @@
 - [Commands](#commands)
     + [Authentication](#authentication)
     + [Basic](#basic)
+- [Troubleshooting](#troubleshooting)
 ____
 
 # Tools
