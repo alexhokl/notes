@@ -228,32 +228,6 @@ sudo mkfs.vfat /dev/sda2
 sudo e2label /dev/sda2 A_LABEL
 ```
 
-##### To mount a USB drive on linux
-
-```sh
-lsblk
-sudo mount /dev/sdc1 /home/current-user/usb
-```
-
-##### To umount a USB drive on linux
-
-```sh
-sudo umount /home/current-user/usb
-```
-
-##### To mount a NTFS Windows drive on linux
-
-```sh
-lsblk
-sudo mount -t ntfs-3g /dev/sdc1 /home/current-user/hdd
-```
-
-##### To mount a NFS drive
-
-```sh
-sudo mount -t nfs 192.168.300.300:/home/current-user/directory $HOME/remote-directory
-```
-
 ##### To list all partitions
 
 ```sh
@@ -264,18 +238,6 @@ sudo fdisk -l
 
 ```sh
 sudo fdisk /dev/sdX
-```
-
-##### To create a bootable USB from an ISO
-
-```sh
-sudo dd bs=4M if=~/Downloads/ubuntu-18.04.4-desktop-amd64.iso of=/dev/sda conv=fdatasync
-```
-
-##### To write random bits into a USB (or any mounts)
-
-```sh
-sudo dd if=/dev/urandom of=/dev/sda bs=4M status=progress
 ```
 
 ##### to check disk usage in the current directory
