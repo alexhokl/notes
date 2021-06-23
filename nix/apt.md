@@ -20,6 +20,12 @@ apt list --installed
 apt list
 ```
 
+##### To list available version of a package
+
+```sh
+apt list -a your-package-name
+```
+
 Note that this represents a list after updates from different repositories.
 That is, after `apt update`.
 
