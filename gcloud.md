@@ -64,12 +64,6 @@ gcloud protjects list --filter="project_id:$PROJECT_NUMBER" --format='value(proj
 
 ### Kubernetes
 
-##### To add credentials to $HOME/.kube/config
-
-```sh
-gcloud container clusters get-credentials your-cluster-name
-```
-
 ##### To create a kubernetes cluster
 
 ```sh
