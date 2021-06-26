@@ -315,6 +315,22 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   - <kbd>ctrl</kbd><kbd>\</kbd><kbd>ctrl</kbd><kbd>n</kbd> to exit interactive
     mode
 
+### Quickfix list
+
+- <kbd>]</kbd><kbd>q</kbd> to jump to the next item
+- <kbd>[</kbd><kbd>q</kbd> to jump to the previous item
+- `:copen` to open a quickfix list
+- `:cc2` to select the second option in a quickfix list
+- `:ccl` to close the quickfix list
+
+### Location list
+
+- <kbd>]</kbd><kbd>l</kbd> to jump to the next item
+- <kbd>[</kbd><kbd>l</kbd> to jump to the previous item
+- `:lopen` to open a quickfix list
+- `:ll2` to select the second option in a quickfix list
+- `:lcl` to close the quickfix list
+
 ### Git
 
 - <kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> to show un-committed files and use `-` to
@@ -333,8 +349,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:Gdiff origin/master` to show diff between `master` and the current branch
 - <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a
   location list
-  - <kbd>]</kbd><kbd>l</kbd> to jump to the next commit
-  - <kbd>[</kbd><kbd>l</kbd> to jump to the previous commit
 - <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>r</kbd>show logs of the current
   repository in a location list
 - <kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
@@ -355,9 +369,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
 - <kbd>]</kbd><kbd>m</kbd> to jump to the next method/property
 - <kbd>[</kbd><kbd>m</kbd> to jump to the previous method/property
-- `:copen` to open a quickfix window
-- `:cc 2` to select the second option in a quickfix window
-- `:ccl` to close the quickfix window
 - `:OmniSharpRunTest` to run unit test of the test method containing the
   current cursor
 - `:OmniSharpRunTestsInFile` to run unit tests in the current file
