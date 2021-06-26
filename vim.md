@@ -332,9 +332,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   - <kbd>[</kbd><kbd>c</kbd> to jump back to the previous diff
 - `:Gdiff origin/master` to show diff between `master` and the current branch
 - <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a
-  quick-fix list
-  - <kbd>]</kbd><kbd>q</kbd> to jump to the next commit
-  - <kbd>[</kbd><kbd>q</kbd> to jump to the previous commit
+  location list
+  - <kbd>]</kbd><kbd>l</kbd> to jump to the next commit
+  - <kbd>[</kbd><kbd>l</kbd> to jump to the previous commit
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>r</kbd>show logs of the current
+  repository in a location list
 - <kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
 
 ### C#
