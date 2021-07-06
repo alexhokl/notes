@@ -162,6 +162,15 @@ docker build --rm -t your-image:your-tag .
 docker build --force-rm -t your-image:your-tag .
 ```
 
+##### To build with a different architecture
+
+```sh
+docker buildx build --platform=linux/amd64 .
+```
+
+Note that the machine has to support this. For instance, Apple M1 Mac support
+both `x86` and `arm64`.
+
 ##### To stream logs of a container
 
 ```sh
