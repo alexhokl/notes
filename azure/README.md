@@ -112,6 +112,33 @@ dataset
 | order by percentile_duration_95 desc
 ```
 
+##### Response time comparison between two weeks
+
+```kusto
+let beforeFirstDay=startofweek(now() - 14d) + 1d;
+let afterFirstDay=startofweek(now() - 7d) + 1d;
+let timeGrain=5m;
+let before=requests
+    | where timestamp between(beforeFirstDay..(7d - 1tick))
+    | where client_Type != "Browser"
+    | where operation_Name startswith "GET /api/" and operation_Name !endswith_cs "Z" and operation_Name != ""
+    | summarize count_=sum(itemCount), avg(duration), percentiles(duration, 50, 95, 99) by operation_Name;
+let after=requests
+    | where timestamp between(afterFirstDay..(7d - 1tick))
+    | where client_Type != "Browser"
+    | where operation_Name startswith "GET /api/" and operation_Name !endswith_cs "Z" and operation_Name != ""
+    | summarize count_=sum(itemCount), avg(duration), percentiles(duration, 50, 95, 99) by operation_Name;
+after
+| join kind=fullouter (before) on operation_Name
+| where count_ >= 100 and count_1 >= 100 and percentile_duration_50 > 1000
+| extend percentage_change_50=round((percentile_duration_50 - percentile_duration_501) / percentile_duration_501 * 100)
+| extend percentage_change_95=round((percentile_duration_95 - percentile_duration_951) / percentile_duration_951 * 100)
+| extend percentage_change_99=round((percentile_duration_99 - percentile_duration_991) / percentile_duration_991 * 100)
+| extend percentage_change_count=round(todecimal(count_ - count_1) / count_1 * 100)
+| project operation_Name, CountAfter=count_, CountBefore=count_1, percentage_change_count, round(percentile_duration_50), percentage_change_50, round(percentile_duration_95), percentage_change_95, round(percentile_duration_99), percentage_change_99
+| order by percentile_duration_50 desc
+```
+
 ## Alerts
 
 - [Common alert schema definitions](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema-definitions)
