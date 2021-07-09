@@ -435,6 +435,12 @@ vim -o src/hello.js src/world.js
 vim -O src/hello.js src/world.js
 ```
 
+##### To check which scripts are loaded (and in what order)
+
+```sh
+:scriptnames
+```
+
 ## Scripting
 
 ### References
