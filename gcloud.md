@@ -47,19 +47,19 @@ gcloud config set compute/zone asia-east1-b
 ##### To change project
 
 ```sh
-gcloud config set core/project google-cloud-platform-project-name
+gcloud config set core/project $PROJECT_ID
 ```
 
 ##### To get project number from project ID
 
 ```sh
-gcloud protjects list --filter="project_id:$PROJECT_ID" --format='value(project_number)'
+gcloud projects list --filter="project_id:$PROJECT_ID" --format='value(project_number)'
 ```
 
 ##### To get project ID from project number
 
 ```sh
-gcloud protjects list --filter="project_id:$PROJECT_NUMBER" --format='value(project_id)'
+gcloud projects list --filter="project_id:$PROJECT_NUMBER" --format='value(project_id)'
 ```
 
 ### Kubernetes
@@ -67,13 +67,32 @@ gcloud protjects list --filter="project_id:$PROJECT_NUMBER" --format='value(proj
 ##### To create a kubernetes cluster
 
 ```sh
-gcloud container clusters create your-cluster-name -m n1-standard-2 --num-nodes=3
+gcloud container clusters create $CLUSTER_NAME -m n1-standard-2 --num-nodes=3
 ```
+
+##### To enable network policy (Calico)
+
+```sh
+gcloud container clusters update $CLUSTER_NAME --update-addons=NetworkPolicy=ENABLED
+gcloud container clusters update $CLUSTER_NAME --enable-network-policy
+```
+
+##### To enable workload identity
+
+```sh
+gcloud container clusters update $CLUSTER_NAME --workload-pool=$PROJECT_ID.svc.id.goog
+gcloud container node-pools update $POOL_NAME --cluster $CLUSTER_NAME --workload-metadata=GKE_METADATA
+```
+
+Note that this change will prevent workloads from using the Compute Engine
+service account and must be carefully rolled out.
+
+See [Link Kubernetes service account to Google service account](./#link-kubernetes-service-account-to-google-service-account).
 
 ##### To set credentials on local machine to access kubernetes clusters
 
 ```sh
-gcloud container clusters get-credentials your-cluster-name
+gcloud container clusters get-credentials $CLUSTER_NAME
 ```
 
 ##### To authenticate to Container Registry on GCP
@@ -87,7 +106,7 @@ Note that it can be executed on a GCP compute instance as well
 ##### To show cluster information
 
 ```sh
-gcloud container clusters describe your-cluster-name
+gcloud container clusters describe $CLUSTER_NAME
 ```
 
 ##### To list clusters
@@ -111,14 +130,14 @@ gcloud container clusters delete any-project-name-cluster
 ##### To change the number of nodes in a cluster
 
 ```sh
-gcloud container clusters resize your-cluster-name --size=1
+gcloud container clusters resize $CLUSTER_NAME --size=1
 ```
 
 ##### To migrate workloads to a different machine type
 
 ```sh
 gcloud container node-pools create new-pool-name \
-  --cluster your-cluster-name \
+  --cluster $CLUSTER_NAME \
   --machine-type=f1-micro \
   --num-nodes=10
 
@@ -126,7 +145,7 @@ for node in $(kubectl get nodes -l cloud.google.com/gke-nodepool=default-pool -o
 
 for node in $(kubectl get nodes -l cloud.google.com/gke-nodepool=default-pool -o=name); do kubectl drain --force --ignore-daemonsets "$node"; done
 
-gcloud container node-pools delete default-pool --cluster your-cluster-name
+gcloud container node-pools delete default-pool --cluster $CLUSTER_NAME
 ```
 
 A kubernetes service can be exposed externally by assigning it as type `LoadBalancer` (see [Connect a Front End to a Back End Using a Service](https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/))
@@ -152,7 +171,7 @@ gcloud projects add-iam-policy-binding your-project-a --member=serviceAccount:${
 ##### To create roles for Helm 2
 
 ```sh
-kubectl --user=admin/your-cluster-name create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gc config get-value account)
+kubectl --user=admin/$CLUSTER_NAME create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gc config get-value account)
 kubectl create serviceaccount --namespace=kube-system tiller
 kubectl create clusterrolebinding tiller-clusterrolebinding --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
 helm init --service-account tiller --wait
@@ -168,11 +187,78 @@ IPADDR=$(gcloud compute addresses describe my-cluster-ip --region asia-east2 --f
 helm install nginx-ingress --namespace default stable/nginx-ingress --set controller.service.loadBalancerIP=$IPADDR
 ```
 
-##### To enable network policy (Calico)
+##### Link Kubernetes service account to Google service account
+
+Note that [workload identity has to be enabled](./#to-enable-workload-identity)
+before accounts can be linked.
 
 ```sh
-gcloud container clusters update your-cluster-name --update-addons=NetworkPolicy=ENABLED
-gcloud container clusters update your-cluster-name --enable-network-policy
+gcloud iam service-accounts add-iam-policy-binding --role roles/iam.workloadIdentityUser --member "serviceAccount:$PROJECT_ID.svc.id.goog[$NAMESPACE/$SERVICE_ACCOUNT]" $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
+```
+
+To the Kubernetes service account to bind to, add the following annotation
+
+```yaml
+iam.gke.io/gcp-service-account=your_google_service_accont_name@your_project_id.iam.gserviceaccount.com
+```
+
+To create a secret and allow a Google service account to access it,
+
+```sh
+gcloud secrets create $SECRET_NAME --replication-policy=automatic --data-file=$SECRET_FILE
+gcloud secrets add-iam-policy-binding $SECRET_NAME --member=serviceAccount:$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com --role=roles/secretmanager.secretAccessor
+```
+
+To synchronise a secret from GCP Secret Manager to file system of a container,
+
+```yaml
+apiVersion: secrets-store.csi.x-k8s.io/v1alpha1
+kind: SecretProviderClass
+metadata:
+  name: your-app-secrets
+spec:
+  provider: gcp
+  parameters:
+    secrets: |
+      - resourceName: "projects/$PROJECT_ID/secrets/testsecret/versions/latest"
+        fileName: "secret.txt"
+```
+
+```yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: $SERVICE_ACCOUNT
+  namespace: $NAMESPACE
+  annotations:
+    iam.gke.io/gcp-service-account: $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+  namespace: default
+spec:
+  serviceAccountName: $SERVICE_ACCOUNT
+  containers:
+  - image: your-image:latest
+    name: mypod
+    volumeMounts:
+      - mountPath: "/var/secrets"
+        name: mysecret
+  volumes:
+  - name: mysecret
+    csi:
+      driver: secrets-store.csi.k8s.io
+      readOnly: true
+      volumeAttributes:
+        secretProviderClass: your-app-secrets
+```
+
+##### Unlink Kubernetes service account to Google service account
+
+```sh
+gcloud iam service-accounts remove-iam-policy-binding --role roles/iam.workloadIdentityUser --member "serviceAccount:$PROJECT_ID.svc.id.goog[$NAMESPACE/$SERVICE_ACCOUNT]" $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
 ```
 
 ### Compute
@@ -180,13 +266,13 @@ gcloud container clusters update your-cluster-name --enable-network-policy
 ##### To create an instance
 
 ```sh
-gcloud compute instances create my-instance-name --machine-type f1-micro
+gcloud compute instances create $INSTANCE_ID --machine-type f1-micro
 ```
 
 or, with a specific VM image
 
 ```sh
-gcloud compute instances create your-instance-name --image-family debian-8 --machine-type f1-micro
+gcloud compute instances create $INSTANCE_ID --image-family debian-8 --machine-type f1-micro
 ```
 
 ##### To configure firewall for HTTP and HTTPS traffic
@@ -204,13 +290,13 @@ gcloud compute firewall-rules list
 ##### SSH
 
 ```sh
-gcloud compute ssh your-username@your-instance-name
+gcloud compute ssh $USERNAME@$INSTANCE_ID
 ```
 
 ##### SCP
 
 ```sh
-gcloud compute scp some.txt your-instance-name:/path/to/the/file
+gcloud compute scp some.txt $INSTANCE_ID:/path/to/the/file
 ```
 
 or, to copy recursively
@@ -222,7 +308,7 @@ gcloud compute scp some-directory video2:/path/to/a/directory/ --recurse
 ##### To create a persistent volume
 
 ```sh
-gcloud compute disks create --size 1GB my-disk-name
+gcloud compute disks create --size 1GB $DISK_NAME
 ```
 
 ##### To list disk provisioned
@@ -234,19 +320,19 @@ gcloud compute disks list
 ##### To delete a disk
 
 ```sh
-gcloud compute disks delete your-disk-name
+gcloud compute disks delete $DISK_NAME
 ```
 
 ##### To describe a disk
 
 ```sh
-gcloud compute disks describe your-disk-name
+gcloud compute disks describe $DISK_NAME
 ```
 
 ##### To attach a persistent disk to an instance ([reference](https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting))
 
 ```sh
-gcloud compute instances attach-disk my-instance-name --disk my-disk-name
+gcloud compute instances attach-disk $INSTANCE_ID --disk $DISK_NAME
 ```
 
 On the instance,
@@ -268,25 +354,25 @@ gcloud compute instances list
 ##### To describe an instance
 
 ```sh
-gcloud compute instances describe your-instance-name
+gcloud compute instances describe $INSTANCE_ID
 ```
 
 or, to list service accounts and scopes
 
 ```sh
-gcloud compute instances describe your-instance-name --format='yaml(serviceAccounts[].scopes[])'
+gcloud compute instances describe $INSTANCE_ID --format='yaml(serviceAccounts[].scopes[])'
 ```
 
 ##### To delete an instance
 
 ```sh
-gcloud compute instances delete your-instance-name
+gcloud compute instances delete $INSTANCE_ID
 ```
 
 ##### To upload a directory onto an instance
 
 ```sh
-gcloud compute scp ./my-source my-instance-name:/home/user/my-source --recurse
+gcloud compute scp ./my-source $INSTANCE_ID:/home/user/my-source --recurse
 ```
 
 ##### To list available machine types (see also [Machine Types](https://cloud.google.com/compute/docs/machine-types))
@@ -324,7 +410,7 @@ gcloud dns managed-zones create test-com --dns-name test.com --description ""
 ##### To describe a zone
 
 ```sh
-gcloud dns managed-zones describe your-zone-name
+gcloud dns managed-zones describe $ZONE_ID
 ```
 
 ##### To list all records of a domain
@@ -353,19 +439,19 @@ gcloud dns record-sets transaction abort --zone=test-com
 ##### To copy files recursively
 
 ```sh
-gsutil cp -R path/to/a/directory gs://your-bucket-name
+gsutil cp -R path/to/a/directory gs://$BUCKET_NAME
 ```
 
 or, with multithreads,
 
 ```sh
-gsutil -m cp -R path/to/a/directory gs://your-bucket-name
+gsutil -m cp -R path/to/a/directory gs://$BUCKET_NAME
 ```
 
 ##### To create a bucket
 
 ```sh
-gsutil mb -l asia-east2 -c coldline gs://your-bucket-name
+gsutil mb -l asia-east2 -c coldline gs://$BUCKET_NAME
 ```
 
 ##### To serve a website from a bucket directly
@@ -388,13 +474,13 @@ gcloud iam service-accounts list
 ##### To create service account
 
 ```sh
-gcloud beta iam service-accounts create --display-name=your-service-account-name your-service-account-name
+gcloud iam service-accounts create --display-name=$GOOGLE_SERVICE_ACCOUNT $GOOGLE_SERVICE_ACCOUNT
 ```
 
 ##### To list keys of a service account
 
 ```sh
-gcloud iam service-accounts keys list --iam-account=your-service-account-name@your-project.iam.gserviceaccount.com
+gcloud iam service-accounts keys list --iam-account=$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
 ```
 
 ##### To create key of service account
@@ -402,12 +488,12 @@ gcloud iam service-accounts keys list --iam-account=your-service-account-name@yo
 To get key in form of `json`
 
 ```sh
-gcloud iam service-accounts keys create --iam-account=your-service-account-name@your-project.iam.gserviceaccount.com key.json
+gcloud iam service-accounts keys create --iam-account=$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com key.json
 ```
 
 To get key in form of `p12`
 
 ```sh
-gcloud iam service-accounts keys create --key-file-type=p12 --iam-account=your-service-account-name@your-project.iam.gserviceaccount.com key.p12
+gcloud iam service-accounts keys create --key-file-type=p12 --iam-account=$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com key.p12
 ```
 
