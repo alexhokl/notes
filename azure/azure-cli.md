@@ -317,6 +317,12 @@ where
     `ResourceGroup1` is the name of resource group,
     `acrName` is the short name of the ACR
 
+##### To purge all images older than 1 day
+
+```sh
+az acr run --cmd "acr purge --filter 'your-image:.*' --ago 1d --untagged" --registry YourRepoName /dev/null
+```
+
 ## Active Directory
 
 ##### To list all security principals
