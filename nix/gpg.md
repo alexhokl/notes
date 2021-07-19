@@ -228,6 +228,10 @@ key again. To enable the use of the new set of subkeys on other machines, remove
 the existing key and delete all keygrips as show above and import the newly
 exported public key.
 
+##### Tricks
+
+- In case an inserted Yubikey cannot be found, try open another terminal.
+
 ### Install existing keys to new a Yubikey
 
 Assuming keys are stored in an encrypted USB drive as `/dev/sda1` and name
