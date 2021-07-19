@@ -512,31 +512,45 @@ az storage account show-connection-string -n your-storage-account-name | jq -r '
 ##### To list all buckets/containers
 
 ```sh
-az storage container list --connection-string your-connection-string-to-storage-account -o table
+az storage container list --connection-string $AZURE_STORAGE_CONNECTION_STRING -o table
 ```
 
 ##### To list all object names in a bucket/container
 
 ```sh
-az storage blob list --connection-string your-connection-string-to-storage-account -c your-bucket-name | jq '.[] | .name'
+az storage blob list --connection-string $AZURE_STORAGE_CONNECTION_STRING -c $CONTAINER_NAME | jq '.[] | .name'
 ```
 
 ##### To download a file from a bucket/container
 
 ```sh
-az storage blob download --connection-string your-connection-string-to-storage-account -c your-bucket-name --name your-filename-in-bucket -f your-local-destination-path
+az storage blob download --connection-string $AZURE_STORAGE_CONNECTION_STRING -c $CONTAINER_NAME --name your-filename-in-bucket -f your-local-destination-path
 ```
 
 ##### To upload a file onto a bucket/container
 
 ```sh
-az storage blob upload --connection-string your-connection-string-to-storage-account -c your-bucket-name --name your-filename-in-bucket -f your-local-source-path
+az storage blob upload --connection-string $AZURE_STORAGE_CONNECTION_STRING -c $CONTAINER_NAME --name your-filename-in-bucket -f your-local-source-path
 ```
 
 ##### To upload multiple files onto a bucket/container
 
 ```sh
-az storage blob upload-batch --connection-string your-connection-string-to-storage-account -d your-bucket-name -s your-local-directory --pattern *.txt
+az storage blob upload-batch --connection-string $AZURE_STORAGE_CONNECTION_STRING -d $CONTAINER_NAME -s your-local-directory --pattern *.txt
+```
+
+##### To delete files from blob storage after a period of time
+
+```sh
+date=`date -d "2 days ago" '+%Y-%m-%dT%H:%MZ'`
+az storage blob delete-batch --connection-string $AZURE_STORAGE_CONNECTION_STRING -s $CONTAINER_NAME --if-unmodified-since $date
+```
+
+or with a pattern,
+
+```sh
+date=`date -d "2 days ago" '+%Y-%m-%dT%H:%MZ'`
+az storage blob delete-batch --connection-string $AZURE_STORAGE_CONNECTION_STRING -s $CONTAINER_NAME --if-unmodified-since $date --pattern *.bak
 ```
 
 #### Azure Files
@@ -544,19 +558,19 @@ az storage blob upload-batch --connection-string your-connection-string-to-stora
 ##### To list all shares in a storage account
 
 ```sh
-az storage share list --connection-string your-connection-string-to-storage-account -o table
+az storage share list --connection-string $AZURE_STORAGE_CONNECTION_STRING -o table
 ```
 
 ##### To list all files in a share
 
 ```sh
-az storage file list --connection-string your-connection-string-to-storage-account -s your-share-name -o table
+az storage file list --connection-string $AZURE_STORAGE_CONNECTION_STRING -s your-share-name -o table
 ```
 
 ##### To list all files in a share in a path
 
 ```sh
-az storage file list --connection-string your-connection-string-to-storage-account -s your-share-name -o table --path your/path/to/directory
+az storage file list --connection-string $AZURE_STORAGE_CONNECTION_STRING -s your-share-name -o table --path your/path/to/directory
 ```
 
 ## Azure Disk
