@@ -9,6 +9,7 @@
   * [Commit](#commit)
   * [Rollback](#rollback)
   * [Queries](#queries)
+  * [Troubleshooting](#troubleshooting)
   * [GitHub](#github)
 - [Links](#links)
 ____
@@ -735,6 +736,14 @@ git check-ignore abc.txt
 
 ```sh
 git log --author="_Your_Name_Here_" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+```
+
+### Troubleshooting
+
+For example, to see what underlying commands are used in signing a commit,
+
+```sh
+GIT_TRACE=1 git commit -m 'temp'
 ```
 
 ### GitHub
