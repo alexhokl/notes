@@ -34,15 +34,22 @@ gpg -K --keyid-format LONG | grep sec | awk '{ print $2 }' | awk -F '/' '{ print
 ##### To export private key
 
 ```sh
-gpg --export-secret-keys -a your-key-id
+gpg --export-secret-keys -a $KEYID
 ```
 
 `-a` to ascii-armored the key
 
+
+##### To export sub keys
+
+```sh
+gpg --export-secret-subkeys -a $KEYID
+```
+
 ##### To export public key
 
 ```sh
-gpg --export -a your-key-id
+gpg --export -a $KEYID
 ```
 
 ##### To import GPG key(s) from a file
@@ -54,19 +61,19 @@ gpg --import filename.asc
 ##### To import GPG key(s) from another machine via SSH
 
 ```sh
-ssh user_name@server_name gpg --export-secret-key your-key-id | gpg --import
+ssh user_name@server_name gpg --export-secret-key $KEYID | gpg --import
 ```
 
 ##### To import a public key from key server
 
 ```sh
-gpg --keyserver hkps://pgp.mit.edu --recv-keys your-key-id
+gpg --keyserver hkps://pgp.mit.edu --recv-keys $KEYID
 ```
 
 or, from default set of servers
 
 ```sh
-gpg --recv your-key-id
+gpg --recv $KEYID
 ```
 
 ##### To generate a key
@@ -87,13 +94,13 @@ gpg --full-generate-key
 ##### To edit a key
 
 ```sh
-gpg --edit-key your-key-id
+gpg --edit-key $KEYID
 ```
 
 ##### To change password of a key
 
 ```sh
-gpg --edit-key your-key-id passwd
+gpg --edit-key $KEYID passwd
 ```
 
 Note that master key and its subkeys shares the same passphrase (password).
@@ -101,19 +108,19 @@ Note that master key and its subkeys shares the same passphrase (password).
 ##### To upload a (public) key to key server
 
 ```sh
-gpg --keyserver pgp.mit.edu --send-key your-key-id
+gpg --keyserver pgp.mit.edu --send-key $KEYID
 ```
 
 ##### To delete a public key
 
 ```sh
-gpg --delete-keys your-key-id
+gpg --delete-keys $KEYID
 ```
 
 ##### To delete a secret key
 
 ```sh
-gpg --delete-secret-keys your-key-id
+gpg --delete-secret-keys $KEYID
 ```
 
 ## Operations
@@ -183,13 +190,16 @@ Note that, once GPG keys are moved to a YubiKey, it cannot be moved again.
 
 ### Key management
 
-Subkeys can be generated on a per-Yubikey-basis or the same set of subkeys be
-applied to all Yubikeys. Usually a Yubikey is paired with a machine to minimise
-the effort in managing the keygrips.
+Subkeys are generated on a per-Yubikey-basis.  Usually a Yubikey is paired with
+a machine to minimise the effort in managing the keygrips. Thus, if there are
+3 Yubikeys to be setup, 3 set of subkeys (9 keys; signing, encryption and
+authentication for each set) will be generated.
 
-Once a set of new subkeys are generated, the public key and secret key should be
-exported. The subkeys can then be transferred to a Yubikey (see [Transfer
-keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
+Once a set of new subkeys are
+[generated](https://github.com/drduh/YubiKey-Guide#sub-keys), the [master
+key](./gpg.md#to-export-private-key) and [subkeys](./gpg.md#to-export-sub-keys)
+should be exported. The subkeys can then be transferred to a Yubikey (see
+[Transfer keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
 
 To transfer the set of subkeys to another YubiKey, the keygrips on the machine
 has to be removed first.
@@ -197,18 +207,16 @@ has to be removed first.
 ```sh
 CONFIG_DIR=$(gpgconf --list-dirs homedir)
 KEYID=your-master-key-id
-KEYGRIPS="$(gpg --with-keygrip --list-secret-keys $KEYID | grep keygrip | awk '{print $3}')"
-for k in $KEYGRIPS; do
-  rm "$CONFIG_DIR/private-keys-v1.d/$k.key" 2> /dev/null
-done
+gpg --with-keygrip --list-secret-keys $KEYID | grep Keygrip | awk '{print $3}' | xargs -n 1 -I % rm "$CONFIG_DIR/private-keys-v1.d/%.key" 2> /dev/null
 gpg --card-status
 ```
 
 Once all Yubikeys has been filled with the new set of subkeys, the exported
-public key can be uploaded onto all sites that using this key. Since the public
-contains information on the subkeys, update is required on those sites.
-The exported secret key can then be copied to an encrypted storage for long term
-offline storage. The secret key on the machine can be removed by
+public key can be uploaded onto all sites (such as `pgp.mit.edu` or
+`github.com`) that using this key. Since the public contains information on the
+subkeys, update is required on those sites.  The exported secret key can then be
+copied to an encrypted storage for long term offline storage. The secret key on
+the machine can be removed by
 
 ```sh
 KEYID=your-master-key-id
