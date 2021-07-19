@@ -15,6 +15,8 @@
   * [File search](#file-search)
   * [File explorer (netrw)](#file-explorer-netrw)
   * [Terminal](#terminal)
+  * [Quickfix list](#quickfix-list)
+  * [Location list](#location-list)
   * [Git](#git)
   * [C#](#c%23)
   * [Go](#go)
