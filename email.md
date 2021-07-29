@@ -5,8 +5,9 @@
 - [G Suite](#g-suite)
     + [Migrate from other webmail providers to G Suite](#migrate-from-other-webmail-providers-to-g-suite)
     + [G Suite Toolbox](#g-suite-toolbox)
-- [DNS](#dns)
     + [GMail](#gmail)
+- [Microsoft Exchange](#microsoft-exchange)
+    + [DKIM](#dkim-1)
 - [Troubleshooting](#troubleshooting)
 ____
 
@@ -117,13 +118,25 @@ service](https://support.google.com/a/answer/9476255?hl=en&visit_id=637218572306
 - [Check MX](https://toolbox.googleapps.com/apps/checkmx/)
 - [messageheader](https://toolbox.googleapps.com/apps/messageheader/)
 
-# DNS
-
-- [Cloud DNS - Quickstart](https://cloud.google.com/dns/docs/quickstart)
-
 ### GMail
 
 - [Apply aliases to recipient addresses](https://support.google.com/a/answer/4524505)
+
+# Microsoft Exchange
+
+### DKIM
+
+To enable DKIM signing, visit [Microsoft 365
+Defender](https://security.microsoft.com/) and click through the following
+links.
+
+1. Email \& Collaboration
+2. Policies \& Rules
+3. Threat policies
+4. Rules
+5. DKIM
+
+Or visit [https://security.microsoft.com/dkimv2](https://security.microsoft.com/dkimv2).
 
 # Troubleshooting
 
