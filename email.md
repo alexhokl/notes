@@ -126,17 +126,42 @@ service](https://support.google.com/a/answer/9476255?hl=en&visit_id=637218572306
 
 ### DKIM
 
-To enable DKIM signing, visit [Microsoft 365
-Defender](https://security.microsoft.com/) and click through the following
-links.
+```sh
+sudo pwsh
+```
 
-1. Email \& Collaboration
-2. Policies \& Rules
-3. Threat policies
-4. Rules
-5. DKIM
+```ps1
+Install-Module -Name PSWSMan
+Install-WSMan
+exit
+```
 
-Or visit [https://security.microsoft.com/dkimv2](https://security.microsoft.com/dkimv2).
+```sh
+pwsh
+```
+
+```ps1
+Install-Module -Name ExchangeOnlineManagement
+Connect-ExchangeOnline -UserPrincipalName your-user@your-domain.com
+New-DkimSigningConfig -DomainName your-domain.com -Enabled $false
+Get-DkimSigningConfig -Identity your-domain.com | Format-List Selector1CNAME, Selector2CNAME
+```
+
+Create two `CNAME` DNS records with the following names
+
+- `selector1._domainkey.your-domain.com`
+- `selector2._domainkey.your-domain.com`
+
+and use the result of the commands above as its values.
+
+Once the DNS records have been populated properly, run
+
+```ps1
+Set-DkimSigningConfig -Identity your-domain.com -Enabled $true
+```
+
+To verify if it is working properly, check the headers of a newly sent mail and
+look for `DKIM=pass` or `DKIM=ok`.
 
 # Troubleshooting
 
