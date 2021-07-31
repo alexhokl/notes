@@ -587,8 +587,10 @@ SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECR
 curl -sSL https://raw.githubusercontent.com/alexhokl/notes/master/shell_scripts/create_kind_cluster.sh | bash -
 ```
 
-[Link to
-script](https://github.com/alexhokl/notes/blob/master/shell_scripts/create_kind_cluster.sh)
+- [Link to
+  script](https://github.com/alexhokl/notes/blob/master/shell_scripts/create_kind_cluster.sh)
+- [Link to yaml used by the
+  script](https://github.com/alexhokl/notes/master/yaml/kind-cluster.yml)
 
 To push an image to the Docker registry used by kind,
 (assuming the image is named `test:1.0`)
@@ -600,6 +602,12 @@ docker push localhost::5000/test:1.0
 
 Note that the image name used in deployment should also be
 `localhost::5000/test:1.0`.
+
+##### Configuration
+
+- Each `role` corresponds to a cluster node
+- To make a host volume available as persistent volume, use
+  [`extraMounts`](https://kind.sigs.k8s.io/docs/user/configuration/#extra-mounts)
 
 ## Minikube
 
