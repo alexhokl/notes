@@ -1,5 +1,14 @@
-
+- [Links](#links)
+- [Commands](#commands)
+- [SQL statements](#sql-statements)
 ____
+
+### Links
+
+- [explain.dalibo.com](https://explain.dalibo.com/) - visualising query plans
+
+### Commands
+
 ##### To backup from one database and restore to another
 
 ```sh
@@ -17,6 +26,8 @@ pg_dump -C -h host1 -U user1 --table "public.\"your-table\"" your-db-name | psql
 ```sh
 psql -U some-user@some-database -h some-database.example.com -d name-of-database
 ```
+
+### SQL statements
 
 ##### To create a user
 
