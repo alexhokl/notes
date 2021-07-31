@@ -13,6 +13,8 @@ ____
 
 - [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
 - [sqlcollaborative/dbatools](https://github.com/sqlcollaborative/dbatools)
+- [Brent Ozar - Paste the plan](https://www.brentozar.com/pastetheplan/) -
+  visualising query plan
 
 ### Database Operations
 
