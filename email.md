@@ -39,7 +39,6 @@ For best practices, use SPF and DomainKeys Identified Mail (DKIM). SPF
 validates who’s relaying the email, while DKIM adds a digital signature to
 verify the email’s content.
 
-
 See [Configure SPF records to work with
 G Suite](https://support.google.com/a/answer/33786?hl=en).
 
@@ -166,3 +165,4 @@ look for `DKIM=pass` or `DKIM=ok`.
 # Troubleshooting
 
 - [Troubleshoot email delivery](https://support.rackspace.com/how-to/troubleshoot-email-delivery/)
+- [IP and domain reputation checker](https://check.spamhaus.org/)
