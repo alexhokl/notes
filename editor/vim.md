@@ -111,6 +111,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>]</kbd><kbd>space</kbd> to insert a line below
 - <kbd>[</kbd><kbd>e</kbd> to move the current line up
 - <kbd>]</kbd><kbd>e</kbd> to move the current line down
+- <kbd>K</kbd> to move the current visually selected block up by one line
+- <kbd>J</kbd> to move the current visually selected block down by one line
 - <kbd>g</kbd><kbd>s</kbd> to swap function/method arguments (use <kbd>h</kbd>
   and <kbd>l</kbd> to swap and <kbd>j</kbd> and <kbd>k</kbd> to select)
 - <kbd>g</kbd><kbd>s</kbd> to swap a visually selected list (use <kbd>h</kbd>
