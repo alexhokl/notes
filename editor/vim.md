@@ -412,6 +412,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:nnoremap` maps non-recursively in normal mode
 - `:e $MYVIMRC` to open `vimrc` in the current buffer
 - `:so $MYVIMRC` to reload `vimrc`
+- `:so %` to reload the current file into vim configuration
 
 ### Help pages
 
