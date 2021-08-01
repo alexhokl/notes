@@ -1,14 +1,8 @@
-
+- [General usage](#general-usage)
+- [Specific cases](#specific-cases)
 ____
 
-##### remove BOM characters in files
-
-```sh
-for f in $(grep $'\xEF\xBB\xBF' --include=\*.cs --include=\*.config --include=\*.js -rl .); do
-	sed 's/\xEF\xBB\xBF//' "$f" > "$f".updated
-	mv "$f".updated "$f"
-done
-```
+### General usage
 
 ##### replace words in a file
 
@@ -46,4 +40,27 @@ To extract 2st, 5th, 8th, ... line from a file
 
 ```sh
 sed -n 2~3p some.txt
+```
+
+### Specific cases
+
+##### remove BOM characters in files
+
+```sh
+for f in $(grep $'\xEF\xBB\xBF' --include=\*.cs --include=\*.config --include=\*.js -rl .); do
+	sed 's/\xEF\xBB\xBF//' "$f" > "$f".updated
+	mv "$f".updated "$f"
+done
+```
+
+##### replace nbsp with spaces
+
+```sh
+sed 's/&nbsp;/ /g' file.txt
+```
+
+##### replace UTF-8 no-breaking spaces with spaces
+
+```sh
+sed 's/\xC2\xA0/ /g' file.txt
 ```
