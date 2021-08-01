@@ -33,6 +33,16 @@ telnet your-mssql-server.example.com 1433
 Note if the connection works fine, a blank page would be shown; an error
 message would be shown, otherwise.
 
+##### Error message on restore
+
+```
+MODIFY FILE encountered operating system error 31(A device attached to the
+system is not functioning.) while attempting to expand the physical file
+'/var/opt/mssql/data/TestDB.mdf'.
+```
+
+It is likely that the disk is full.
+
 ## Database Operations
 
 ### Backup
