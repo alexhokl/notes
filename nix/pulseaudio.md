@@ -12,6 +12,12 @@ pacmd list-cards
 pacmd list-cards | grep "active profile"
 ```
 
+##### To check the current PulseAudio server
+
+```sh
+pactl info | grep "^Server Name'
+```
+
 ##### To set profile
 
 ```sh
