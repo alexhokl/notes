@@ -140,7 +140,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:%s/SearchWord|Something/Replacement/g` to replace all `SearchWord` or
   `Something` with `Replacement` in the current file
 - <kbd>&</kbd> to repeat the last replacement without flags (like `/g`)
-- `:&&` to repeat the last replacement with flags
+- <kbd>:</kbd><kbd>&</kbd><kbd>&</kbd> to repeat the last replacement with flags
 - <kbd>g</kbd><kbd>&</kbd> to repeat the last replacement with flags to the
   current buffer
 - `:1,5s/\v(\d+)$/\=submatch(1)+3` to add 3 to the second number in each line
@@ -316,7 +316,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:!jq` with a visually selected text to format it with `jq`
 - `:term` to enter terminal mode
   - <kbd>i</kbd> to change to interactive mode
-  - <kbd>ctrl</kbd><kbd>\</kbd><kbd>ctrl</kbd><kbd>n</kbd> to exit interactive
+  - <kbd>ctrl</kbd><kbd>\\</kbd><kbd>ctrl</kbd><kbd>n</kbd> to exit interactive
     mode
 
 ### Quickfix list
