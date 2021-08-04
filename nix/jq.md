@@ -19,6 +19,12 @@ jq '.[] | .your-property-name'
 jq '.[] | select(.your-property-name=="some-string")'
 ```
 
+##### To select items in an array with a property containing a string
+
+```sh
+jq '.[] | select(.name | strings | test("search-term"))'
+```
+
 ##### To show multiple properties in an array
 
 ```sh
