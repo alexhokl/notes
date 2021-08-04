@@ -27,6 +27,24 @@ pg_dump -C -h host1 -U user1 --table "public.\"your-table\"" your-db-name | psql
 psql -U some-user@some-database -h some-database.example.com -d name-of-database
 ```
 
+##### To run a SQL script from standard input
+
+```sh
+cat query.sql | psql -U some-user@some-database -h some-database.example.com -d name-of-database
+```
+
+##### To run a SQL script from file
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -d name-of-database -f query.sql
+```
+
+##### To run a SQL statement
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "SELECT Id FROM your-table;"
+```
+
 ### SQL statements
 
 ##### To create a user
