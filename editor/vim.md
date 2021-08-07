@@ -376,6 +376,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:OmniSharpRunTest` to run unit test of the test method containing the
   current cursor
 - `:OmniSharpRunTestsInFile` to run unit tests in the current file
+- `:OmniSharpRestartServer` to reload the current solution
 
 ### Go
 
