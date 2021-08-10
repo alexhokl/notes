@@ -76,6 +76,12 @@ or, from default set of servers
 gpg --recv $KEYID
 ```
 
+##### To upload a (public) key to key server
+
+```sh
+gpg --keyserver pgp.mit.edu --send-key $KEYID
+```
+
 ##### To generate a key
 
 ```sh
@@ -104,12 +110,6 @@ gpg --edit-key $KEYID passwd
 ```
 
 Note that master key and its subkeys shares the same passphrase (password).
-
-##### To upload a (public) key to key server
-
-```sh
-gpg --keyserver pgp.mit.edu --send-key $KEYID
-```
 
 ##### To delete a public key
 
@@ -214,9 +214,10 @@ gpg --card-status
 Once all Yubikeys has been filled with the new set of subkeys, the exported
 public key can be uploaded onto all sites (such as `pgp.mit.edu` or
 `github.com`) that using this key. Since the public contains information on the
-subkeys, update is required on those sites.  The exported secret key can then be
-copied to an encrypted storage for long term offline storage. The secret key on
-the machine can be removed by
+subkeys, update is required on those sites. The public key uploaded can also be
+imported by other machines so that the new subkeys can be used. The exported
+secret key can then be copied to an encrypted storage for long term offline
+storage. The secret key on the machine can be removed by
 
 ```sh
 KEYID=your-master-key-id
