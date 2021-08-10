@@ -345,6 +345,12 @@ sudo chmod a+w ./my-mount
 sudo chown alex.alex ./my-mount
 ```
 
+##### To create a custom image from a disk
+
+```sh
+gcloud compute images create your_image_name --source-disk=$DISK_NAME --family=debian-10 --storage-location=$ZONE_NAME
+```
+
 ##### To list instances
 
 ```sh
