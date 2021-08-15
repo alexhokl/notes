@@ -336,6 +336,14 @@ In case of port `80` is not available, it is likely that there is another
 `apache2` instance running. Use `sudo service apache2 status` to check and `sudo
 service apache2 stop` to stop it from running and re-try the script above.
 
+To automate the process, a script file can be created and execute using a cron
+job. To edit cron schedule, use `sudo crontab -e` and use a line like the
+following.
+
+```crontab
+0 0 1,16 * * /opt/bitnami/letsencrypt/update-cert.sh 2> /dev/null
+```
+
 ##### To redirect http to https
 
 Edit file `/opt/bitnami/apache2/conf/bitnami/bitnami-apps-prefix.conf` and add the following (to the top if not working properly)
