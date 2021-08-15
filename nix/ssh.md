@@ -9,15 +9,21 @@ ____
 
 ###### To generate a cert for accessing a remote server via SSH
 
-where app-test.aws.com is the server to access. For Mac OSX, installation of ssh-copy-id may be required)
+Assuming `app-test.aws.com` is the remote server to be accessed.
 
 ```sh
-ssh-keygen -t rsa -b 4096 -f app-test -v
-ssh-copy-id -i app-test.pub app@app-test.aws.com
-mv app-test app-test.pem
-chmod 400 app-test.pem
-ssh -i app-test.pem app@app-test.aws.com
+SSH_KEY_NAME=app-test
+ssh-keygen -t ed25519 -C $SSH_KEY_NAME -f $HOME/.ssh/$SSH_KEY_NAME
+ssh-copy-id -i $SSH_KEY_NAME.pub app@app-test.aws.com
+ssh -i $HOME/.ssh/$SSH_KEY_NAME app@app-test.aws.com
 ```
+
+For Mac OSX, installation of `ssh-copy-id` may be required.
+
+If `ssh-copy-id` is not available or password authentication is disabled on the
+remote server, one can always copy the content of the public key generated and
+append it to `$HOME/.ssh/authorized_keys` on the remote server. On public cloud,
+usually there is a web UI to add these public SSH keys.
 
 ### Key management
 
