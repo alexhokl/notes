@@ -21,6 +21,21 @@ ____
 ip route show table 52
 ```
 
+### To enable subnet routes on other nodes on Linux
+
+```sh
+sudo tailscale up --accept-routes
+```
+
+## Windows
+
+The following options should be checked in `Preferences` menu.
+
+- Allow incoming connection
+- Use network DNS settings
+- Use network subnets
+- Run unattended
+
 ## Links
 
 - [The long wondrous life of a Tailscale packet](https://tailscale.com/blog/2021-05-life-of-a-packet/)
@@ -30,4 +45,4 @@ ip route show table 52
 - [How do I enable IP
   forwarding?](https://tailscale.com/kb/1104/enable-ip-forwarding/)
 - [Exit Nodes](https://tailscale.com/kb/1103/exit-nodes/)
-
+- [Tailscale CLI](https://tailscale.com/kb/1080/cli/)
