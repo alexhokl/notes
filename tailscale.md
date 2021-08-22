@@ -2,6 +2,8 @@
   * [Installation of Tailescale on QNAP NAS](#installation-of-tailescale-on-qnap-nas)
 - [CLI](#cli)
   * [To show routes of Tailscale](#to-show-routes-of-tailscale)
+  * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
+- [Windows](#windows)
 - [Links](#links)
 ____
 

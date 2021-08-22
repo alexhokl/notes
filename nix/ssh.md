@@ -3,6 +3,7 @@
 - [File transfer](#file-transfer)
 - [Configuration](#configuration)
 - [Tunneling](#tunneling)
+- [Agent forwarding](#agent-forwarding)
 ____
 
 ### Key generation
