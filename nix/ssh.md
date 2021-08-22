@@ -144,3 +144,10 @@ If the forwarding is success, a line similar to the following should be shown.
 ```
 gpg-connect-agent: connection to agent is in restricted mode
 ```
+
+Note that one should copy its public keyring from the client to the remote
+server or pull from a PKI.
+
+```sh
+scp ~/.gnupg/pubring.kbx remote:~/.gnupg/
+```
