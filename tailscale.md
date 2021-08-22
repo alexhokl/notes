@@ -9,7 +9,7 @@ ____
 
 ## NAS
 
-### Installation of Tailescale on QNAP NAS
+### Installation of Tailscale on QNAP NAS
 
 - [ivokub/tailscale-qpkg](https://github.com/ivokub/tailscale-qpkg/blob/master/Makefile)
   - use `./tailscale -socket var/run/tailscale/tailscaled.sock` to learn about
@@ -21,6 +21,12 @@ ____
 
 ```sh
 ip route show table 52
+```
+
+or, on Windows,
+
+```cmd
+route print
 ```
 
 ### To enable subnet routes on other nodes on Linux
