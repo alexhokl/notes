@@ -84,3 +84,62 @@ to map port 5601 from a local machine to port 8080 of a remote machine
 ```sh
 ssh -R 8080:127.0.0.1:5601 username@remote-machine
 ```
+
+### Agent forwarding
+
+#### SSH agent
+
+```sh
+ssh -A remote-machine
+```
+
+or, adding the following to `$HOME/.ssh/config`
+
+```apacheconf
+ForwardAgent yes
+```
+
+#### GPG agent
+
+On the remote server, add the following line to `/etc/ssh/sshd_config`.
+
+```apacheconf
+StreamLocalBindUnlink yes
+```
+
+Check the handle of the agent on remote server by
+
+```sh
+gpgconf --list-dirs agent-socket
+```
+
+The output would be something like
+
+```sh
+/run/user/1000/gnupg/S.gpg-agent
+```
+
+On the client, check the extra agent by
+
+```sh
+gpgconf --list-dirs agent-extra-socket
+```
+
+The output would be something like
+
+```sh
+/run/user/1000/gnupg/S.gpg-agent.extra
+```
+
+On the client, add the following lines to `$HOME/.ssh/config`
+
+```apacheconf
+RemoteForward /run/user/1000/gnupg/S.gpg-agent /run/user/1000/gnupg/S.gpg-agent.extra
+StreamLocalBindUnlink yes
+```
+
+If the forwarding is success, a line similar to the following should be shown.
+
+```
+gpg-connect-agent: connection to agent is in restricted mode
+```
