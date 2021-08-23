@@ -656,6 +656,12 @@ To find a term in files with a specific extension
 git grep search-term *.cs
 ```
 
+To exclude files
+
+```sh
+git grep search-term -- ':!*Test[s].cs'
+```
+
 To find a term in a commit (not just the changes involved)
 
 ```sh
