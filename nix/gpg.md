@@ -123,6 +123,12 @@ gpg --delete-keys $KEYID
 gpg --delete-secret-keys $KEYID
 ```
 
+##### To list properties of a key
+
+```sh
+gpg -a --export $KEYID | gpg --list-packets
+```
+
 ## Operations
 
 ##### To sign a file
