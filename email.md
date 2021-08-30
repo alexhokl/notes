@@ -8,6 +8,7 @@
     + [GMail](#gmail)
 - [Microsoft Exchange](#microsoft-exchange)
     + [DKIM](#dkim-1)
+    + [Migration](#migration)
 - [Troubleshooting](#troubleshooting)
 ____
 
@@ -161,6 +162,63 @@ Set-DkimSigningConfig -Identity your-domain.com -Enabled $true
 
 To verify if it is working properly, check the headers of a newly sent mail and
 look for `DKIM=pass` or `DKIM=ok`.
+
+### Migration
+
+##### To test connection to source server
+
+```ps1
+Test-MigrationServerAvailability -IMAP -RemoteServer imap.some-server.com -Port 993 -Security Ssl
+```
+
+##### To create a migration endpoint
+
+```ps1
+New-MigrationEndpoint -IMAP -Name IMAPEndpoint -RemoteServer imap.some-server.com -Port 993 -Security Ssl
+```
+
+Note that no migration is started at this point of time.
+
+##### To perform a migration
+
+Prepare a `.csv` file like the following.
+
+```csv
+EmailAddress,UserName,Password
+a@test.com,a@test.com,AStrongPassword
+b@test.com,b@test.com,AStrongPassword
+c@test.com,c@test.com,AStrongPassword
+```
+
+To start a migration
+
+```ps1
+New-MigrationBatch -Name IMAPBatch1 -SourceEndpoint IMAPEndpoint -CSVData ([System.IO.File]::ReadAllBytes("./accounts.csv")) -AutoStart
+```
+
+To check a migration process
+
+```ps1
+Get-MigrationBatch -Identity IMAPBatch1 | Format-List Status
+```
+
+To check all properties of a migration
+
+```ps1
+Get-MigrationBatch -Identity IMAPBatch1 | Format-List
+```
+
+To remove a migration
+
+```ps1
+Remove-MigrationBatch -Identity IMAPBatch1
+```
+
+and to confirm removal has been completed
+
+```ps1
+Get-MigrationBatch IMAPBatch1
+```
 
 # Troubleshooting
 
