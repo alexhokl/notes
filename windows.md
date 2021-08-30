@@ -26,9 +26,18 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319>InstallUtil.exe D:\Alex.Schedule
 ```
 
 ##### To check version of Windows
+
 ```bat
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 ```
+
+##### To check connection to a network drive
+
+```bat
+net use \\192.168.1.300
+```
+
+Note that this command is useful to troubleshoot any connection issue.
 
 #### To loop through files [documentation](https://technet.microsoft.com/zh-tw/library/cc753551.aspx)
 
