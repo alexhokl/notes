@@ -9,6 +9,11 @@
     + [Install existing keys to new a Yubikey](#install-existing-keys-to-new-a-yubikey)
 ____
 
+# Key servers
+
+- [keys.openpgp.org](https://keys.openpgp.org/)
+- [pgp.mit.edu](https://pgp.mit.edu/)
+
 # Commands
 
 ## Key management
@@ -201,11 +206,13 @@ a machine to minimise the effort in managing the keygrips. Thus, if there are
 3 Yubikeys to be setup, 3 set of subkeys (9 keys; signing, encryption and
 authentication for each set) will be generated.
 
-Once a set of new subkeys are
-[generated](https://github.com/drduh/YubiKey-Guide#sub-keys), the [master
-key](./gpg.md#to-export-private-key) and [subkeys](./gpg.md#to-export-sub-keys)
-should be exported. The subkeys can then be transferred to a Yubikey (see
-[Transfer keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
+Once all sets of new [subkeys](https://github.com/drduh/YubiKey-Guide#sub-keys)
+are generated, the [master key](./gpg.md#to-export-private-key),
+[subkeys](./gpg.md#to-export-sub-keys) and public key should be exported. The
+master key and subkeys should be stored offline. Since the private key of
+subkeys are still on machine, the
+subkeys can then be transferred to Yubikey(s) (see [Transfer
+keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
 
 To transfer the set of subkeys to another YubiKey, the keygrips on the machine
 has to be removed first.
@@ -218,11 +225,7 @@ gpg --card-status
 ```
 
 Once all Yubikeys has been filled with the new set of subkeys, the exported
-public key can be uploaded onto all sites (such as `pgp.mit.edu` or
-`github.com`) that using this key. Since the public contains information on the
-subkeys, update is required on those sites. The public key uploaded can also be
-imported by other machines so that the new subkeys can be used. The exported
-secret key can then be copied to an encrypted storage for long term offline
+secret keys can then be copied to an encrypted storage for long term offline
 storage. The secret key on the machine can be removed by
 
 ```sh
@@ -230,10 +233,22 @@ KEYID=your-master-key-id
 gpg --delete-secret-and-public-keys $KEYID
 ```
 
-To ensure the key can be used on the machine, import the newly exported public
-key again. To enable the use of the new set of subkeys on other machines, remove
-the existing key and delete all keygrips as show above and import the newly
-exported public key.
+The exported public key can be uploaded onto a key server (Note that network
+connection of `pgp.mit.edu` can be pretty bad and upload via a browser can be
+used instead). Once upload has been completed, [import the public from key
+server](./gpg.md#to-upload-a-public-key-to-key-server) again and test if the
+Yubikey can be used properly. Once the tests looks good, the public key can be
+further uploaded onto sites such as `github.com`. Since the public contains
+information on the subkeys, update is required on those sites. To setup other
+machines, remove  the existing key and delete all keygrips and import the new
+public key from the key server.
+
+##### On a machine where Yubikey cannot be used
+
+A set of subkeys will need to be generated for this machine. The procedures are
+the same a generating subkeys for a Yubikey. The trick is to import the secret
+subkeys exported in above steps, change the passphrase, and remove all
+non-relevant subkeys (that is, keeping only one set of subkeys).
 
 ##### Tricks
 
