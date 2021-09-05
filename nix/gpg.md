@@ -81,6 +81,12 @@ or, from default set of servers
 gpg --recv $KEYID
 ```
 
+or, using email address
+
+```sh
+gpg --keyserver hkps://keys.openpgp.org --locate-keys user@example.com
+```
+
 ##### To upload a (public) key to key server
 
 ```sh
