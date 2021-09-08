@@ -77,7 +77,13 @@ step certificate create -csr test.smallstep.com test.csr test.key
 ### To create a self-signed certificate
 
 ```sh
-step certificate create your-domain.com oauth.crt oauth.key --profile self-signed --subtle --kty=RSA --size=4096
+step certificate create your-domain.com oauth.crt oauth.key --profile self-signed --subtle --kty=RSA --size=4096 --not-after 8760h
+```
+
+or, to create without a password
+
+```sh
+step certificate create your-domain.com oauth.crt oauth.key --profile self-signed --subtle --kty=RSA --size=4096 --no-password --insecure --not-after 8760h
 ```
 
 ## Keys
