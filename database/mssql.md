@@ -247,6 +247,40 @@ GO
 
 ## Database performance
 
+### Memory
+
+##### Managed instance
+
+Ref: [Do you need more memory on Azure SQL Managed
+Instance?](https://techcommunity.microsoft.com/t5/azure-sql/do-you-need-more-memory-on-azure-sql-managed-instance/ba-p/563444)
+
+Checking memory usage on a managed instance may not be the best metric to
+understand memory pressure. A better metric is page life expectancy (PLE) where
+it indicates how many seconds the pages live in the memory before they are
+flushed back to disk. The higher this value is, the better. The minimum value of
+PLE corresponds to the total buffer pool memory available. The following query
+serves buffer pool memory, PLE and the minimum PLE. Note that the query only
+indicates the situation at the time of running.
+
+```sql
+SELECT
+  v.object_name,
+  bp_mem_gb = (l.cntr_value*8/1024)/1024, 
+  ple = v.cntr_value, 
+  min_ple = (((l.cntr_value*8/1024)/1024)/4)*300
+FROM
+  sys.dm_os_performance_counters v JOIN 
+  sys.dm_os_performance_counters l ON
+    v.object_name = l.object_name
+WHERE
+  v.counter_name = 'Page Life Expectancy' AND
+  l.counter_name = 'Database pages' AND
+  l.object_name LIKE '%Buffer Node%'
+```
+
+If PLE is very close to its minimum value, one should investigate more into the
+issue and consider enlarging the size of the instance.
+
 ### Query plans
 
 ##### To remove plan cache entries
