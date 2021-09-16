@@ -429,6 +429,12 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Starting vim
 
+##### To start without configuration and plugins
+
+```sh
+vim -u NONE src/hello.js
+```
+
 ##### Open multiple files and split horizontally
 
 ```sh
