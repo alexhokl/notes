@@ -872,3 +872,38 @@ Apply the following option to the end of a query.
 OPTION(USE HINT('ENABLE_PARALLEL_PLAN_PREFERENCE'))
 ```
 
+### Linked servers
+
+#### References
+
+- [Create Linked Servers (SQL Server Database
+  Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine)
+- [Create linked server to readable secondary replica in Managed Instance
+  Business Critical service
+  tier](https://argonsys.com/microsoft-cloud/library/create-linked-server-to-readable-secondary-replica-in-managed-instance-business-critical-service-tier/)
+
+#### Operations
+
+##### To add a linked server of read-scale-out replica
+
+Execute the following with a login with role `setupadmin`.
+
+```sql
+EXEC master.dbo.sp_addlinkedserver @server = N'SECONDARY', @srvproduct=N'', @provider=N'SQLNCLI', @datasrc=@@SERVERNAME, @provstr=N'ApplicationIntent=ReadOnly'
+```
+
+To test the setup, execute the following query and `READ_ONLY` should be the
+result.
+
+```sql
+SELECT *
+FROM OPENQUERY([SECONDARY],
+'SELECT DATABASEPROPERTYEX (''master'', ''Updateability'' ) ')
+```
+
+##### To list linked server logins
+
+```sql
+SELECT * FROM sys.linked_logins
+```
+
