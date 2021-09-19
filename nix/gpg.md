@@ -156,6 +156,10 @@ and a signature will be generated as file `something.txt.gpg`
 gpg --verify something.txt.gpg
 ```
 
+or, if the content and signature are detached,
+
+gpg --verify signature.asc content.txt
+
 ##### To encrypt with symmetric cipher and passphrase
 
 ```sh
