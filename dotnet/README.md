@@ -1,6 +1,7 @@
 - [.NET Core](#net-core)
     + [Porting](#porting)
     + [Upgrade](#upgrade)
+    + [Tools](#tools)
     + [.NET CLI](#net-cli)
     + [Nuget](#nuget)
     + [ASP.NET Core](#aspnet-core)
@@ -65,6 +66,55 @@ ____
 - [Breaking changes for migration from Version 2.2 to 3.1](https://docs.microsoft.com/en-us/dotnet/core/compatibility/2.2-3.1)
 - [Upgrade Assistant](https://github.com/dotnet/upgrade-assistant) (Windows
   only)
+
+### Tools
+
+##### dotnet-counters
+
+Reference: [Investigate performance counters
+(dotnet-counters)](https://docs.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters)
+
+```sh
+curl -sSL https://aka.ms/dotnet-counters/linux-x64 -o dotnet-counters
+chmod +x dotnet-counters
+./dotnet-counters monitor -p 1
+```
+
+Note that one can check for the architecture in the reference above when using
+it on Linux Alpine.
+
+##### dotnet-dump
+
+Reference: [Dump collection and analysis utility
+(dotnet-dump)](https://docs.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-dump)
+
+```sh
+curl -sSL https://aka.ms/dotnet-dump/linux-x64 -o dotnet-counters
+chmod +x dotnet-dump
+./dotnet-dump collect -p 1
+```
+
+Note that to run this in a Docker container, `--cap-add=SYS_PTRACE` or
+`--privileged` is needed.
+
+To analyse the dump,
+
+```sh
+./dotnet-dump analyze some_dump_file
+```
+
+Commands can be used include
+
+- `clrstack`
+- `eeheap -gc`
+- `dumpheap -stat`
+- `dumpheap -mt some_object_id`
+- `dumparray -length 10 some_object_id`
+- `db -c 1024 some_object_id`
+- `gcroot some_object_id`
+
+Note that one can check for the architecture in the reference above when using
+it on Linux Alpine.
 
 ### .NET CLI
 
