@@ -6,6 +6,7 @@
   * [User modes](#user-modes)
   * [Login](#login)
 - [Database performance](#database-performance)
+  * [Memory](#memory)
   * [Query plans](#query-plans)
   * [Indexes](#indexes)
   * [Locks and blocking processes](#locks-and-blocking-processes)
@@ -13,6 +14,7 @@
   * [Read-only replica and snapshot isolation](#read-only-replica-and-snapshot-isolation)
   * [Jobs](#jobs)
   * [CPU and parallelism](#cpu-and-parallelism)
+  * [Linked servers](#linked-servers)
 ____
 
 ## Tools

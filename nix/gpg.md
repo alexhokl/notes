@@ -1,3 +1,4 @@
+- [Key servers](#key-servers)
 - [Commands](#commands)
   * [Key management](#key-management)
   * [Operations](#operations)
