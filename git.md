@@ -226,6 +226,13 @@ git remote prune origin
 ```sh
 git branch --unset-upstream UserStory1
 git branch -D UserStory1
+git push origin -d UserStory1
+```
+
+To remove the deleted branch in other machines
+
+```sh
+git fetch --all --prune
 ```
 
 ##### Remove unstaged files
