@@ -495,6 +495,46 @@ WHERE  resource_type = 'APPLICATION'
        AND request_status = 'GRANT'
 ```
 
+##### To find table locks
+
+```sh
+SELECT DISTINCT
+  spid,
+  sp.[status],
+  loginame [Login],
+  hostname,
+  blocked BlkBy,
+  sd.name DBName,
+  IIF(resource_type = 'OBJECT', OBJECT_NAME(dl.resource_associated_entity_id), OBJECT_NAME(p.OBJECT_ID)) ObjectName,
+  cmd Command,
+  cpu CPUTime,
+  physical_io DiskIO,
+  last_batch LastBatch,
+  [program_name] ProgramName,
+  request_mode LockRequestMode,
+  request_type LockRequestType,
+  request_status LockRequestStatus,
+  txt.text Query
+FROM
+  master.dbo.sysprocesses sp JOIN
+  master.dbo.sysdatabases sd ON
+    sp.dbid = sd.dbid JOIN
+  master.sys.dm_tran_locks dl ON
+    dl.request_session_id = sp.spid LEFT JOIN
+  master.sys.dm_exec_requests ec ON
+    ec.session_id = dl.request_session_id OUTER APPLY
+  master.sys.dm_exec_Sql_text(ec.sql_handle) txt LEFT JOIN
+  master.sys.partitions p ON
+    p.hobt_id = dl.resource_associated_entity_id LEFT JOIN
+  master.sys.indexes i ON
+    i.OBJECT_ID = p.OBJECT_ID AND
+    i.index_id = p.index_id
+WHERE
+  (blocked <> 0 AND (IIF(resource_type = 'OBJECT', OBJECT_NAME(dl.resource_associated_entity_id), OBJECT_NAME(p.OBJECT_ID)) IS NOT NULL AND txt.text IS NOT NULL)) OR
+  (blocked = 0 AND spid IN (SELECT CAST(blocked AS INT) FROM master.dbo.sysprocesses sp))
+ORDER BY spid
+```
+
 ##### To show deadlock graphs
 
 ```sql
