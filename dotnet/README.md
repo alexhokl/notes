@@ -375,6 +375,7 @@ ref: [Chromium - SameSite Updates](https://www.chromium.org/updates/same-site)
     - old browser may understand this value as `Strict` and, thus, site will
       need to add user agent sniffing to determine the `SameSite` value to set
 - packet sniffing
+
 ```csharp
 private void CheckSameSite(HttpContext httpContext, CookieOptions options)
 {
@@ -1285,7 +1286,29 @@ session.SaveChanges();
 ##### IDataSource
 
 1.  If a filter is to be applied, all entries must be retrieved before any filtering.
-2.  If no filtering is required, real paging can be accomplished using ObjectDataSource, but not SqlDataSource.
+2.  If no filtering is required, real paging can be accomplished using `ObjectDataSource`, but not `SqlDataSource`.
+
+##### File system classes
+
+- Separated into two types
+  - informational
+  - utility
+- Most of the informational classes derive from the `FileSystemInfo` base class.
+- `FileSystemInfo.Delete`
+  - Removes the file or directory from the file system
+- `FileSystemInfo.Refresh`
+  - Updates with the most current information from the file system
+- `FileInfo.Replace`
+  - Replaces a file with the information in the current `FileInfo` object.
+- `DirectoryInfo.CreateSubDirectory`
+  - Creates a new directory as a child directory of the current directory in the directory hierarchy
+- `DirectoryInfo.Root`
+  - Gets the root part of the directory’s path as a string
+    - e.g. `C:\`
+- `DriveInfo.AvailableFreeSpace`
+  - Gets the amount of available space on the drive. The amount might be
+    different from the amount returned by `TotalFreeSpace` depending on disk
+    quotas.
 
 ### Log4Net
 
