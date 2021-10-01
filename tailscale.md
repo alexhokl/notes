@@ -54,3 +54,5 @@ The following options should be checked in `Preferences` menu.
   forwarding?](https://tailscale.com/kb/1104/enable-ip-forwarding/)
 - [Exit Nodes](https://tailscale.com/kb/1103/exit-nodes/)
 - [Tailscale CLI](https://tailscale.com/kb/1080/cli/)
+- [Provision TLS certificates for your internal Tailscale
+  services](https://tailscale.com/blog/tls-certs/)
