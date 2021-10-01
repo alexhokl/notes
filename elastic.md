@@ -4,6 +4,11 @@
 - [Characteristics](#characteristics)
 - [Popular users](#popular-users)
 - [Elasticsearch](#elasticsearch)
+  * [Directories](#directories)
+  * [Configuration files](#configuration-files)
+  * [API](#api)
+  * [Security](#security)
+  * [Internals](#internals)
 - [Kibana](#kibana)
 - [Logstash](#logstash)
 - [Beats](#beats)
@@ -11,13 +16,13 @@
 - [Deployment](#deployment)
 ____
 
-### Links
+## Links
 
 - [Docker @ Elastic](https://www.docker.elastic.co/)
 - [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/6.4/docker.html#docker)
 - [Official examples](https://github.com/elastic/examples/)
 
-### Hello World ELK setup
+## Hello World ELK setup
 
 files
 
@@ -100,21 +105,21 @@ nc localhost 5000 < SomeTextFile.txt
 Create an index via Kibana and one should find the log lines in `Discover`
 section.
 
-### Clients
+## Clients
 
 - [Nest](https://www.elastic.co/guide/en/elasticsearch/client/net-api/1.x/nest.html)
 
-### Characteristics
+## Characteristics
 
 - distributed search (scaled by adding more nodes and nodes can have different
     roles)
 
-### Popular users
+## Popular users
 
 - Ebay
 - Github
 
-### Elasticsearch
+## Elasticsearch
 
 - cluster is a concept rather than a physical thing
 - index
@@ -158,7 +163,7 @@ section.
 - Elasticsearch would return incomplete results if the shards cannot return
     results in time
 
-#### Directories
+### Directories
 
 - `bin`
 - `config`
@@ -171,7 +176,7 @@ section.
 - `modules`
 - `plugins`
 
-#### Configuration files
+### Configuration files
 
 - `/usr/share/elasticsearch/config/elasticsearch.yml`
   - `cluster.name`
@@ -212,9 +217,9 @@ section.
     - set to 1GB by default
     - or set via environment variable `ES_JAVA_OPTS`
 
-#### API
+### API
 
-###### `PUT my_index/_doc/111`
+##### `PUT my_index/_doc/111`
 
 to add/update a document with id `111`
 
@@ -225,7 +230,7 @@ to add/update a document with id `111`
 }
 ```
 
-###### `POST my_index/_doc/`
+##### `POST my_index/_doc/`
 
 to add a document with a generated id
 
@@ -238,19 +243,19 @@ to add a document with a generated id
 
 the generated id it stored as metadata field `_id`
 
-###### `GET my_index/_doc/111`
+##### `GET my_index/_doc/111`
 
 to get a document with index `111`
 
-###### `DELETE my_index/_doc/111`
+##### `DELETE my_index/_doc/111`
 
 to delete a document with index `111`
 
-###### `DELETE my_index`
+##### `DELETE my_index`
 
 to delete index `my_index`
 
-###### `GET my_index/_search`
+##### `GET my_index/_search`
 
 to get all documents in the specified index
 
@@ -607,7 +612,7 @@ to get documents from `my_index` and sort by id
 }
 ```
 
-###### `GET log_*/_search`
+##### `GET log_*/_search`
 
 to get distinct count of `originalUrl` in all indices prefixed with `log_`
 
@@ -736,7 +741,7 @@ to get the number of requests per `status_code` in all indices prefixed with
 }
 ```
 
-###### `GET my_index/_search?scroll=3m`
+##### `GET my_index/_search?scroll=3m`
 
 to get all documents from `my_index` and set paging timeout to 3 minutes
 
@@ -749,7 +754,7 @@ to get all documents from `my_index` and set paging timeout to 3 minutes
 }
 ```
 
-###### `GET _search/scroll`
+##### `GET _search/scroll`
 
 to get the next page of scroll results
 
@@ -760,11 +765,11 @@ to get the next page of scroll results
 }
 ```
 
-###### `GET my_index/_mapping`
+##### `GET my_index/_mapping`
 
 to check the mappings
 
-###### `PUT my_index`
+##### `PUT my_index`
 
 to create a custom mapping
 
@@ -818,7 +823,7 @@ to create a custom mapping
 }
 ```
 
-###### `PUT my_index`
+##### `PUT my_index`
 
 to set the number of shards and replicas of an index (note that replica of
 2 represents 3 copies of the same data)
@@ -832,7 +837,7 @@ to set the number of shards and replicas of an index (note that replica of
 }
 ```
 
-###### `GET _analyze`
+##### `GET _analyze`
 
 to process text with default analyzer (which is `standard`)
 
@@ -863,11 +868,11 @@ to process text with standard tokeniser and lower-case and snowball filters
 }
 ```
 
-###### `GET my_index/_analyze`
+##### `GET my_index/_analyze`
 
 to process text with analyzer in `my_index`
 
-###### `PUT my_custom_analyzer_index`
+##### `PUT my_custom_analyzer_index`
 
 to add/update custom analyzer and/or filters (mappings can also be set at this
 point)
@@ -900,7 +905,7 @@ point)
 }
 ```
 
-###### `POST _reindex`
+##### `POST _reindex`
 
 to copy data from `blogs` to `blogs_analyzed`
 
@@ -911,7 +916,7 @@ to copy data from `blogs` to `blogs_analyzed`
 }
 ```
 
-###### `POST _aliases`
+##### `POST _aliases`
 
 to add an alias (note that property `index` can be a wildcard)
 
@@ -943,7 +948,7 @@ to remove an alias
 }
 ```
 
-###### `PUT _template/my_index_template`
+##### `PUT _template/my_index_template`
 
 to add an index template to cover all indices prefixed with `my_index` and
 use same field mappings
@@ -961,7 +966,7 @@ use same field mappings
 }
 ```
 
-###### `POST my_index/_doc/bulk`
+##### `POST my_index/_doc/bulk`
 
 to update document with id `2` and add a document with id `3`
 
@@ -972,7 +977,7 @@ to update document with id `2` and add a document with id `3`
 {"title":"Something New", "content": "something new"}}
 ```
 
-###### `GET my_index/_doc/_mget`
+##### `GET my_index/_doc/_mget`
 
 to get documents with id `1` and `2`
 
@@ -985,28 +990,28 @@ to get documents with id `1` and `2`
 }
 ```
 
-###### `GET _cluster/state`
+##### `GET _cluster/state`
 
 to check the state of a cluster and the information shown is pretty complete
 
-###### `GET /`
+##### `GET /`
 
 to show basic cluster information
 
-###### `GET _cluster/health`
+##### `GET _cluster/health`
 
 to show the health information and `status` is one of the properties to look
 for
 
-###### `GET _cluster/health?level=indices`
+##### `GET _cluster/health?level=indices`
 
 to show index-level health information
 
-###### `GET _cluster/health/my_index?level=shards`
+##### `GET _cluster/health/my_index?level=shards`
 
 to show shard-level health information of index `my_index`
 
-###### `GET _cluster/allocation/explain`
+##### `GET _cluster/allocation/explain`
 
 to show the explanation of problem with the primary shard of shard `2` of
 `my_index`
@@ -1018,28 +1023,28 @@ to show the explanation of problem with the primary shard of shard `2` of
   "primary": true
 }
 ```
-###### `GET _cat/nodes?v`
+##### `GET _cat/nodes?v`
 
 to list basic information of nodes in the cluster
 
-###### `GET /_cat/indices?v`
+##### `GET /_cat/indices?v`
 
 to list basic information of all indices in the cluster
 
-###### `GET /_cat/shards?v`
+##### `GET /_cat/shards?v`
 
 to list basic information of all shards in the cluster
 
-###### `GET /_cat/shards/my_index?v`
+##### `GET /_cat/shards/my_index?v`
 
 to list basic information of all shards of `my_index`
 
-###### `GET /_cat`
+##### `GET /_cat`
 
 to show all available endpoints with information available in command line-like
     table
 
-###### `PUT _snapshot/my_local_repo`
+##### `PUT _snapshot/my_local_repo`
 
 to register the path of an index snapshot repository
 
@@ -1052,7 +1057,7 @@ to register the path of an index snapshot repository
 }
 ```
 
-###### `PUT _snapshot/my_local_repo/my_index_snapshot_1`
+##### `PUT _snapshot/my_local_repo/my_index_snapshot_1`
 
 to take a snapshot named `my_index_snapshot_1` of `my_index`, including the
 cluster state
@@ -1065,11 +1070,11 @@ cluster state
 }
 ```
 
-###### `GET _snapshot/my_local_repo/_all`
+##### `GET _snapshot/my_local_repo/_all`
 
 to show all snapshots created in `my_local_repo`
 
-###### `POST _snapshot/my_local_repo/my_index_snapshot_1/_restore`
+##### `POST _snapshot/my_local_repo/my_index_snapshot_1/_restore`
 
 to restore `my_index` from `my_index_snapshot_1` in `my_local_repo`
 
@@ -1081,7 +1086,7 @@ to restore `my_index` from `my_index_snapshot_1` in `my_local_repo`
 }
 ```
 
-#### Security
+### Security
 
 - Security does not available with basic license
 - to start trail `POST _xpack/license/start_trial?acknowledge=true` (or use
@@ -1097,9 +1102,113 @@ to restore `my_index` from `my_index_snapshot_1` in `my_local_repo`
 - a role can be setup to allow access to certain indices
 - a user can be associated with mutliple roles
 
-### Kibana
+### Internals
 
-##### Characteristics and features
+#### Lucene indexing
+
+- a shard is a single instance of Lucene 
+  - a complete search engine on its own
+  - clients do not refer to shards directly (but via an index)
+- to handle a `PUT` request
+  - the document involved will be analysed
+  - then written to a memory buffer
+    - the buffer is shared by all shards of that node
+    - the buffer size is 10% of the node heap
+      - `indices.memory.index_buffer_size: 10%`
+  - a Lucene flush writes data from buffer into a segment
+    - it occurs
+      - every second (Elasticsearch refresh, setting `refresh_interval` can be
+        increased to achieve better indexing performance in index heavy
+        scenarios), or
+      - when the buffer is full
+    - a relatively heavy operation
+    - the number of segments created corresponds to number of disk I/Os
+      - thus, we would want to lower the refresh rate to create less segment
+      - we can lower the setting specifically for running some data intensive import
+        jobs and revert it after
+  - document will be searchable after a Lucene flush
+    - the flush can be enforce in `POST`, `PUT` and `DELETE` of Document API
+      using parameter `refresh`
+      - `false` is the default behaviour
+      - `true` is to force the refresh
+      - `wait_for` is to force and wait for the refresh
+
+#### Segments
+
+- it is like a immutable "mini-index"
+- a collection of segments makes up a Lucene instance
+- each segment
+  - a fully independent index 
+  - composed by a bunch of files
+  - written to disk
+  - never updated (read only)
+- a search request is distributed to the shards and, on each shard, it is
+  performed sequentially over the segments
+
+`PUT my_index/_doc/27`
+```json
+{
+"author": "Uri",
+"category": "Releases",
+"title": "Elastic Cloud Enterprise Beta"
+}
+```
+
+`PUT my_index/_doc/14`
+```json
+{
+  "author": "Rasmus",
+  "category": "Releases",
+  "title": "Elastic APM enters beta-1.1"
+}
+```
+
+![segment](./images/elasticsearch_segment.webp)
+
+- assuming the following documents are stored in the same shard and segment
+  - normalization factors
+    - for each field in each document, a value is stored that is multiplied into
+      the score for hits on that field
+  - BKD trees
+    - single- and multi-dimensional numerics
+  - stored field values
+    - where `_source` is stored
+  - deleted documents
+    - an optional file that indicates which documents are deleted
+    - soft delete is made since segments are immutable
+    - updates are also soft deletes
+
+#### Segment merges
+
+- Segments are periodically merged into larger segments
+  - an automatic task on the shard level
+  - keeps the index size and number of segments manageable
+  - deleted documents also get expunged during a merge
+  - `POST my_index/_forcemerge` to force it
+    - on indices that will never have write operations executed in the future
+- the smaller the number of segments, the faster the search
+  - thus, segment merge is required
+  - each segment is represented as a file
+
+#### Elasticsearch indexing
+
+- an index consists of one or more shards
+- each shard has its own transaction logs to prevent data loss before Lucene
+  flush/commit happens
+  - effective a write is made to memory buffer and transaction log as the same
+    time
+  - transaction logs are written to disk
+  - in bulk request, it is written by the end of the process
+- Elasticsearch flush usually happens automatically after segment merge
+  - `POST my_index/_flush`
+    - no one needs to call this in general
+  - `POST my_index/_flush/synced`
+    - performs a normal flush, then adds a generated unique marker `sync_id` to
+      all shards
+
+## Kibana
+
+#### Characteristics and features
 
 - Machine learning
   - has anomaly detection feature and forecasting feature
@@ -1110,14 +1219,14 @@ to restore `my_index` from `my_index_snapshot_1` in `my_local_repo`
   - stack traces can be viewed as an APM transaction
   - SQL queries can be viewed in a per request basis
 
-##### Management
+#### Management
 
 - "Index Management" shows the current indices in Elastic cluster
 - "Index Patterns" allows grouping of multiple indices for other uses in Kibana
 
-##### Visualize
+#### Visualize
 
-###### Table
+##### Table
 
 To look for the top 5 hits of a web site from its logs, select table
 visualization. Select "split rows" in bucket and choose aggregation by "Terms".
@@ -1125,17 +1234,17 @@ Select a URL field, select a descending order and size of 5. Click on "play"
 button and make sure the date range on top right hand corner is in a correct
 range. If the visualization looks good, click on save and give it a name.
 
-###### Histogram
+##### Histogram
 
 To get a histogram of response size from its long, select vertical bar
 visualization. Select "x-axis" for bucket and "Histogram" for aggregation.
 Select response size field and click on "play" button.
 
-##### Dashboard
+#### Dashboard
 
 Dashboard shows multiple visualizations in a single view.
 
-##### Dev Tools
+#### Dev Tools
 
 It gives access to
 
@@ -1143,7 +1252,7 @@ It gives access to
   - `ctrl+enter` to execute a query
 - query profiler
 
-### Logstash
+## Logstash
 
 - kubenetes compatible
 - Beat modules can be developed to collect SQL queries
@@ -1156,9 +1265,9 @@ It gives access to
 - Slower in general and more resource consuming
 - Multiple `.conf` files can be used
 
-##### Examples
+#### Examples
 
-###### JDBC
+##### JDBC
 
 ```conf
 input {
@@ -1180,18 +1289,19 @@ input {
 
 See also [Integrating Elasticsearch with MS SQL, Logstash, and Kibana](https://stackabuse.com/integrating-elasticsearch-with-ms-sql-logstash-and-kibana/)
 
-### Beats
+## Beats
 
 - it does not perform any preprocessing and this means, if such processing is
     required, we need ingest nodes on Elasticsearch cluster
 
-### Data types
+## Data types
 
 - Static data which grows slowly relatively
 - Time-series data
 
-### Deployment
+## Deployment
 
 - It is better to deploy an Elastic stack in each data centre or cluster
 - one licence per node
 - Elastic cloud Enterprise is for deployment on clusters
+
