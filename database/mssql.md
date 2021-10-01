@@ -6,6 +6,7 @@
   * [User modes](#user-modes)
   * [Login](#login)
 - [Database performance](#database-performance)
+  * [Statistics](#statistics)
   * [Memory](#memory)
   * [Query plans](#query-plans)
   * [Indexes](#indexes)
@@ -248,6 +249,25 @@ GO
 ```
 
 ## Database performance
+
+### Statistics
+
+##### To show statistics as message
+
+```sql
+SET STATISTICS io ON
+
+SELECT *
+FROM YourTable t
+```
+
+Reference: [Reading
+Pages](https://docs.microsoft.com/en-us/sql/relational-databases/reading-pages)
+
+> The I/O from an instance of the SQL Server Database Engine includes logical
+> and physical reads. A logical read occurs every time the Database Engine
+> requests a page from the buffer cache. If the page is not currently in the
+> buffer cache, a physical read first copies the page from disk into the cache.
 
 ### Memory
 
