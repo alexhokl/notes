@@ -165,6 +165,12 @@ look for `DKIM=pass` or `DKIM=ok`.
 
 ### Migration
 
+##### Connect to exchange service and download the remote module
+
+```ps1
+Connect-ExchangeOnline -UserPrincipalName your-user@your-domain.com
+```
+
 ##### To test connection to source server
 
 ```ps1
@@ -189,6 +195,9 @@ a@test.com,a@test.com,AStrongPassword
 b@test.com,b@test.com,AStrongPassword
 c@test.com,c@test.com,AStrongPassword
 ```
+
+where `EmailAddress` is the email address on exchange and `UserName` is
+(normally) the email address on IMAP server.
 
 To start a migration
 
