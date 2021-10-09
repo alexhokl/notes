@@ -229,6 +229,12 @@ and to confirm removal has been completed
 Get-MigrationBatch IMAPBatch1
 ```
 
+To check mailbox usage
+
+```ps1
+Get-EXOMailboxStatistics -Identity someone@test.com
+```
+
 # Troubleshooting
 
 - [Troubleshoot email delivery](https://support.rackspace.com/how-to/troubleshoot-email-delivery/)
