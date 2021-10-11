@@ -3,6 +3,7 @@
 - [CLI](#cli)
   * [To show routes of Tailscale](#to-show-routes-of-tailscale)
   * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
+  * [To copy files to another device](#to-copy-files-to-another-device)
 - [Windows](#windows)
 - [Links](#links)
 ____
@@ -33,6 +34,12 @@ route print
 
 ```sh
 sudo tailscale up --accept-routes
+```
+
+### To copy files to another device
+
+```sh
+tailscale file cp some_file 100.333.333.333:
 ```
 
 ## Windows
