@@ -4,6 +4,7 @@
 - [Configuration](#configuration)
 - [Tunneling](#tunneling)
 - [Agent forwarding](#agent-forwarding)
+- [Windows](#windows)
 ____
 
 ### Key generation
@@ -151,3 +152,24 @@ server or pull from a PKI.
 ```sh
 scp ~/.gnupg/pubring.kbx remote:~/.gnupg/
 ```
+
+### Windows
+
+To add keys to `ssh-agent`, execute the following with administrative
+privileges.
+
+```ps1
+Get-Service ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+```
+
+Add the private key with normal user account.
+
+```ps1
+ssh-add ~\.ssh\your_key
+```
+
+Note that ssh-agent service is disabled by default.
+
+Reference: [OpenSSH key management - User key
+generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation_)
