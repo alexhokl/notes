@@ -8,8 +8,8 @@
   * [crouton](#crouton)
   * [crostini](#crostini)
     + [Timezone](#timezone)
-    + [Docker (deprecated, not needed on Chrome OS 73 and after)](#docker-deprecated-not-needed-on-chrome-os-73-and-after)
     + [Components](#components)
+    + [pinentry](#pinentry)
 - [Chrome Browser](#chrome-browser)
 ____
 
@@ -179,32 +179,6 @@ sudo dpkg-reconfigure tzdata
 Unfortunately, the trick of `lxc profile set default environment.TZ Asia/Hong_Kong`
     does not work yet.
 
-### Docker (deprecated, not needed on Chrome OS 73 and after)
-
-Before a `crosvm` is started, in `crosh` shell, start `termina`
-
-```sh
-vmc start termina
-```
-
-In `termina`,
-
-```sh
-lxc profile unset default security.syscalls.blacklist
-lxc profile apply penguin default
-exit
-```
-
-Open a `Terminal` window and execute,
-
-```sh
-sudo dockerd
-```
-
-Open another `Terminal` window to use Docker as normal.
-
-Reference: [Reddit: 70.0.3524.2 rolling out to Dev](https://www.reddit.com/r/Crostini/comments/99jdeh/70035242_rolling_out_to_dev/e4revli/)
-
 ### Components
 
 - the virtual machine is `crosvm` which implements `kvm` and it is in Rust
@@ -232,6 +206,17 @@ Reference: [Reddit: 70.0.3524.2 rolling out to Dev](https://www.reddit.com/r/Cro
     actual application
 
 See also [NYLUG Presents: David Reveman/Zach Reizner -on- Crostini: Linux applications on Chrome OS](https://www.youtube.com/watch?v=WwrXqDERFm8)
+
+### pinentry
+
+Crostini (Debian) default to use `pinentry-cruses` and it may not work well with
+`gpg-agent` remotely. The workaround it to use `pinentry-qt`.
+
+```sh
+sudo apt install -y pinentry-qt
+sudo update-alternatives --install /usr/bin/pinentry pinentry "$(which pinentry-qt)" 10
+sudo update-alternatives --install /usr/bin/pinentry-x11 pinentry-x11 "$(which pinentry-qt)" 10
+```
 
 # Chrome Browser
 
