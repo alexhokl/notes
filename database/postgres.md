@@ -1,9 +1,13 @@
 - [Links](#links)
-- [Commands](#commands)
+  * [Commands](#commands)
 - [SQL statements](#sql-statements)
+  * [Management](#management)
+  * [Performance](#performance)
+  * [JSON](#json)
+  * [Array and join (Cartesian product)](#array-and-join-cartesian-product)
 ____
 
-### Links
+## Links
 
 - [explain.dalibo.com](https://explain.dalibo.com/) - visualising query plans
 
@@ -51,7 +55,9 @@ psql -U some-user@some-database -h some-database.example.com -d name-of-database
 psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "SELECT Id FROM your-table;"
 ```
 
-### SQL statements
+## SQL statements
+
+### Management
 
 ##### To create a user
 
@@ -121,6 +127,8 @@ FROM   information_schema.table_privileges
 WHERE  grantee = 'some_user';
 ```
 
+### Performance
+
 ##### To get a count of number of connections and its state
 
 ```sql
@@ -150,3 +158,42 @@ SELECT * FROM pg_stat_bgwriter;
 ```sql
 SELECT * FROM pg_stat_statements;
 ```
+
+### JSON
+
+##### Arrow operations
+
+```sql
+SELECT info -> 'items' ->> 'product' as product
+FROM orders
+ORDER BY product;
+```
+
+where `->` outputs a JSON object and `->>` outputs a string.
+
+##### Aggregation
+
+```sql
+SELECT 
+   MIN (CAST (info -> 'items' ->> 'qty' AS INTEGER)),
+   MAX (CAST (info -> 'items' ->> 'qty' AS INTEGER)),
+   SUM (CAST (info -> 'items' ->> 'qty' AS INTEGER)),
+   AVG (CAST (info -> 'items' ->> 'qty' AS INTEGER))
+FROM orders;
+```
+
+### Array and join (Cartesian product)
+
+```sql
+SELECT 
+    c."customer_name",
+    o."timestamp",
+    json_array_elements(o."detail" -> 'items') ->> 'description' as "description"
+FROM
+    public."customer" as c JOIN
+    public."order" o ON
+        o."customer_id" = c."customer_id"
+```
+
+Assuming there are 1 customer and 5 order associated with the customer and each
+order has 5 items, the above query results in 25 rows of data.
