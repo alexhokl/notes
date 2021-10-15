@@ -16,6 +16,14 @@ or
 sed -i -e 's|IncorrectSpelling|CorrectSpelling|g' ./package.json
 ```
 
+##### To replace the last instance
+
+```sh
+echo "abc-def-xyz" | sed 's|\(.*\)-|\1|'
+```
+
+The output is `abc-defxyz`.
+
 ##### replace words in a file and create a new file
 
 ```sh
