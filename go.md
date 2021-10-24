@@ -32,6 +32,7 @@ ____
 - [Conference talks from Liz Rice](https://www.lizrice.com/talks)
 - [Go Time Podcast](https://changelog.com/gotime)
 - [Code review comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- [Top Go Web Frameworks](https://github.com/mingrammer/go-web-framework-stars)
 
 ## Libraries
 
