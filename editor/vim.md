@@ -461,3 +461,5 @@ vim -O src/hello.js src/world.js
 - [Learn X (Vimscript) in Y minutes](https://learnxinyminutes.com/docs/vimscript/)
 - [Vim Keyboard Shortcuts](https://keycombiner.com/collections/vim/)
   a visualisation of key combinations
+- [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
+  a collections of awesome Neovim plugins
