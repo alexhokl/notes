@@ -53,13 +53,14 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>b</kbd> to jump to the beginning of the previous word
 - <kbd>e</kbd> to jump to the end of the current word
 - <kbd>}</kbd> to move cursor to the next empty line
-- <kbd>{</kbd> to move cursor to the previous empty line
+- <kbd>{</kbd> to move cursor to the empty line above
 - <kbd>ctrl</kbd><kbd>e</kbd> to scroll down
 - <kbd>ctrl</kbd><kbd>y</kbd> to scroll up
 - <kbd>ctrl</kbd><kbd>f</kbd> to scroll down one page
 - <kbd>ctrl</kbd><kbd>b</kbd> to scroll up one page
 - <kbd>z</kbd><kbd>t</kbd> to scroll the current line to the top of window
 - <kbd>\`</kbd><kbd>\`</kbd> to move cursor to previous position
+- <kbd>\`</kbd><kbd>.</kbd> to move cursor to previous edited position
 - <kbd>g</kbd><kbd>i</kbd> to move cursor to previous insert position
 - <kbd>g</kbd><kbd>;</kbd> to move the previous position in the change list
 - <kbd>g</kbd><kbd>,</kbd> to move the next position in the change list
@@ -161,7 +162,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>ctrl</kbd><kbd>f</kbd> to search in the current repository
 - <kbd>,</kbd><kbd>F</kbd> to search for the current word in the current
   repository
-- `:CocSearch searchWord` to search for `searchWord` in the current project
+- yank and replace can be done by yanking first, delete the words to be
+  replaced, and `"0p`. It works because register `0` always stores the last
+  yanked content.
 
 ### Indentation
 
@@ -176,6 +179,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   current file
 - `:retab` to replace all tabs with spaces
 - visually select lines and <kbd>g</kbd><kbd>q</kbd> to format those lines
+- visually select lines and `:Tabularize /:` to align `:` in the line
+- visually select markdown table lines and `:Tabularize /|` to align `|` in the
+  table
 
 ### Uppercases/Lowercases
 
