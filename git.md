@@ -8,6 +8,7 @@
   * [Add](#add)
   * [Commit](#commit)
   * [Rollback](#rollback)
+  * [Operators](#operators)
   * [Queries](#queries)
   * [Troubleshooting](#troubleshooting)
   * [GitHub](#github)
@@ -249,7 +250,7 @@ git reset --hard HEAD~ path/to/file
 
 ##### Bisect
 
-To find out the commit where unit tests are broken 
+To find out the commit where unit tests are broken
 
 ```sh
 git bisect start
@@ -415,7 +416,7 @@ git describe --abbrev=0 --tags
 ###### To show the signature
 
 ```sh
-git verify-commit -v HEAD 
+git verify-commit -v HEAD
 ```
 
 ###### To show the raw signature
@@ -522,6 +523,18 @@ git config user.email alex@some.other.org
 git config user.name alex.some.other.org
 ```
 
+### Operators
+
+- `~` selects the first parent of a commit
+  - `HEAD~~` means the first parent of the first parent of `HEAD`
+  - `HEAD~` is equivalent to `HEAD~1`
+  - `HEAD~~~` is equivalent to `HEAD~3`
+- `^` selects a parent of a commit
+  - `^1` selects the first parent of a commit
+  - `^2` selects the second parent of a commit (in case the specified commit is
+    a merge commit) and that is the last comment of the branch being merged)
+  - `^3` is invalid as a commit can almost have two parents
+
 ### Queries
 
 ##### Last commits from the current HEAD
@@ -564,7 +577,7 @@ branch comparing to `master`,
 git log --oneline master..feature
 ```
 
-or 
+or
 
 ```sh
 git log --oneline master..
@@ -580,6 +593,18 @@ To show the commits exist on `master` but not on feature branch,
 
 ```sh
 git log --oneline ..master
+```
+
+##### To show changes of the last commit with a specified comment
+
+```sh
+git show :/'search term'
+```
+
+To show only a particular file
+
+```sh
+git show :/'search term' -- path/to/file
 ```
 
 ##### Showing commits excluding merge commits
