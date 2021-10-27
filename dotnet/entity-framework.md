@@ -40,6 +40,7 @@
     + [Generating migration scripts](#generating-migration-scripts)
   * [Logging](#logging)
   * [Anti-patterns](#anti-patterns)
+  * [Upgrade from version 2.1](#upgrade-from-version-21)
 - [Entity Framework (Classic)](#entity-framework-classic)
     + [Improving performance](#improving-performance)
     + [Building SQL deployment package](#building-sql-deployment-package)
@@ -1221,6 +1222,13 @@ options.UseSqlServer(Configuration.GetConnectionString("LocalDB"))
     custom methods and instead make the standard query operators available
 - Inheritance of entities should be based on `abstract` class instead of
   concrete class to avoid un-necessary joins
+
+## Upgrade from version 2.1
+
+- Replace `DbQuery` with `DbSet` and configure it as `.HasNoKey()`
+- Use `.FromSqlRaw` or `.FromSqlInterpolated` to enable filtering on joins
+- `dotnet ef database update 0` to remove all migrations but keeping the
+  database
 
 # Entity Framework (Classic)
 
