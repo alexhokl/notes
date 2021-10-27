@@ -21,6 +21,7 @@
   * [C#](#c%23)
   * [Go](#go)
   * [Snippets](#snippets)
+  * [Treesitter](#treesitter)
   * [vimrc](#vimrc)
   * [Help pages](#help-pages)
   * [Starting vim](#starting-vim)
@@ -413,6 +414,12 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - [HTML](https://github.com/honza/vim-snippets/blob/master/snippets/html.snippets)
 - [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
 - [markdown](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets)
+
+### Treesitter
+
+- `:TSPlayground` to open the playgrounds
+  - `o` to open a query buffer
+- `:TSConfigInfo` to list current configuration
 
 ### vimrc
 
