@@ -39,6 +39,7 @@
 - [MSSQL](#mssql)
 - [Azure](#azure)
     + [SQL](#sql)
+- [Monitoring](#monitoring)
 - [General Practices](#general-practices)
     + [To increase testability (C#)](#to-increase-testability-c%23)
     + [Multi-threading](#multi-threading)
@@ -1194,9 +1195,31 @@ netsh http delete urlacl url=http://alex-windows:3048/
 
 ### SQL
 
--   [Unable to create table](https://social.msdn.microsoft.com/forums/azure/en-US/259af3d5-4016-43e2-9a84-7a17d4f52673/im-unable-to-create-a-new-table-on-sql-azure)
--   [Keyword not supported: “data source” initializing Entity Framework Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
--   [Windows Azure, Entity Framework. Keyword not supported: 'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
+- [Unable to create
+  table](https://social.msdn.microsoft.com/forums/azure/en-US/259af3d5-4016-43e2-9a84-7a17d4f52673/im-unable-to-create-a-new-table-on-sql-azure)
+- [Keyword not supported: “data source” initializing Entity Framework
+  Context](http://stackoverflow.com/questions/6997035/keyword-not-supported-data-source-initializing-entity-framework-context)
+- [Windows Azure, Entity Framework. Keyword not supported:
+  'metadata'](http://stackoverflow.com/questions/13908348/windows-azure-entity-framework-keyword-not-supported-metadata)
+
+# Monitoring
+
+- machine level
+  - CPU usage
+  - memory usage
+  - number of threads
+  - number of open files/handles/sockets (check `ulimit`)
+- CLR level
+  - ThreadPool (work-items and worker threads)
+  - GC CPU (`Gen0`, `Gen1` and `Gen2`) collections
+    - look for pauses
+  - GC (heap sizes for `Gen0`, `Gen1` and `Gen2`)
+  - Locks
+  - Timers
+  - I/O threads
+- Application level
+  - `AsyncLocal` leaks
+  - Inefficient buffering
 
 # General Practices
 
