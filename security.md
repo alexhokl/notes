@@ -37,6 +37,11 @@ ____
 
 # Sign-up and Sign-in
 
+- [Sign-in form best practices](https://web.dev/sign-in-form-best-practices/)
+- [Sign-up form best practices](https://web.dev/sign-up-form-best-practices/)
+- [13 best practices for user account, authentication, and password management,
+  2021
+  edition](https://cloud.google.com/blog/products/identity-security/account-authentication-and-password-management-best-practices)
 - One of the command practices is that there are no sign-up link/button in home
   page anymore and it will be on sign-in page instead.
 - No email address confirmation field (repeating the entered address) should be
