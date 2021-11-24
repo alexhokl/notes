@@ -232,6 +232,13 @@ a database level.
 GRANT SELECT ON your-table-name TO your-database-username
 ```
 
+##### To grant read permission of a database to a database user
+
+```sql
+USE [your-datbase-name]
+GRANT SELECT TO your-database-username
+```
+
 ##### To create a login
 
 ```sql
@@ -287,11 +294,11 @@ indicates the situation at the time of running.
 ```sql
 SELECT
   v.object_name,
-  bp_mem_gb = (l.cntr_value*8/1024)/1024, 
-  ple = v.cntr_value, 
+  bp_mem_gb = (l.cntr_value*8/1024)/1024,
+  ple = v.cntr_value,
   min_ple = (((l.cntr_value*8/1024)/1024)/4)*300
 FROM
-  sys.dm_os_performance_counters v JOIN 
+  sys.dm_os_performance_counters v JOIN
   sys.dm_os_performance_counters l ON
     v.object_name = l.object_name
 WHERE
@@ -559,10 +566,10 @@ ORDER BY spid
 
 ```sql
 WITH CTE AS (
-    SELECT CAST(event_data AS XML)  AS [target_data_XML] 
+    SELECT CAST(event_data AS XML)  AS [target_data_XML]
     FROM sys.fn_xe_telemetry_blob_target_read_file('dl', null, null, null)
 )
-SELECT 
+SELECT
     target_data_XML.value('(/event/@timestamp)[1]', 'DateTime2') AS Timestamp,
     target_data_XML.query('/event/data[@name=''xml_report'']/value/deadlock') AS deadlock_xml,
     target_data_XML.query('/event/data[@name=''database_name'']/value').value('(/value)[1]', 'nvarchar(100)') AS db_name
@@ -585,35 +592,35 @@ SELECT
     r.wait_type,
     r.wait_time,
     r.last_wait_type,
-    r.wait_resource, 
+    r.wait_resource,
     r.total_elapsed_time,
-    r.cpu_time, 
+    r.cpu_time,
     r.transaction_isolation_level,
-    r.row_count,st.text 
+    r.row_count,st.text
 FROM
-    sys.dm_exec_requests r CROSS APPLY 
-    sys.dm_exec_sql_text(r.sql_handle) as st  
+    sys.dm_exec_requests r CROSS APPLY
+    sys.dm_exec_sql_text(r.sql_handle) as st
 WHERE
-    r.blocking_session_id = 0 and 
-    r.session_id in (SELECT distinct(blocking_session_id) FROM sys.dm_exec_requests) 
-GROUP BY 
-    r.session_id, 
+    r.blocking_session_id = 0 and
+    r.session_id in (SELECT distinct(blocking_session_id) FROM sys.dm_exec_requests)
+GROUP BY
+    r.session_id,
     r.plan_handle,
-    r.sql_handle, 
+    r.sql_handle,
     r.request_id,
-    r.start_time, 
+    r.start_time,
     r.status,
-    r.command, 
+    r.command,
     r.database_id,
-    r.user_id, 
+    r.user_id,
     r.wait_type,
     r.wait_time,
     r.last_wait_type,
-    r.wait_resource, 
+    r.wait_resource,
     r.total_elapsed_time,
-    r.cpu_time, 
+    r.cpu_time,
     r.transaction_isolation_level,
-    r.row_count,st.text  
+    r.row_count,st.text
 ORDER BY r.total_elapsed_time desc
 ```
 
