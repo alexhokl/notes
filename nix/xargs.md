@@ -18,7 +18,7 @@ separated by a space.
 ### To show the actual command executed
 
 ```sh
-echo "one two three four five" | xargs -t
+echo -n "one two three four five" | xargs -t -d ' ' -I %% echo %% done
 ```
 
 ### Process two tokens at a time
@@ -27,7 +27,7 @@ echo "one two three four five" | xargs -t
 echo "one two three four five" | xargs -n 2
 ```
 
-and this will output 
+and this will output
 
 ```
 one two
