@@ -81,6 +81,7 @@ ____
   - look for safety and security concerns
   - look for quality control
 - Ask the candidate about a simple binary search
+- What are the major technical problem in your current and last job?
 
 #### House-Tree-Person (HTP) test
 
