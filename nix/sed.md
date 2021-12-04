@@ -36,6 +36,12 @@ sed  's/IncorrectSpelling/CorrectSpelling/g' original.txt > new.txt
 sed -i -e "/some-pattern/r file.txt" working.txt
 ```
 
+##### To delete lines with a specific pattern
+
+```sh
+sed -i -e '/some-pattern/d' file.txt
+```
+
 ##### To extract some lines from a file
 
 To extract 1st, 3rd, 5th, ... line from a file
