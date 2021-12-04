@@ -18,6 +18,7 @@
   * [signal.NotifyContext](#signalnotifycontext)
   * [os.Exit](#osexit)
   * [cmd](#cmd)
+  * [Sprintf](#sprintf)
 ____
 
 ## Links
@@ -518,3 +519,23 @@ func main() {
 program, the sub process will not be cleaned up automatically and code has to be
 written to handle that.
 
+### Sprintf
+
+##### Bytes
+
+When bytes are included, casting to `string` is not necessary. That is, the
+following should be used
+
+```go
+fmt.Sprintf("%s", byteslice)
+```
+
+instead of
+
+```go
+fmt.Sprintf("%s", string(byteslice))
+```
+
+##### Options
+
+[String formatting options](https://gobyexample.com/string-formatting)
