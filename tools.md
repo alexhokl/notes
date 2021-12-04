@@ -48,7 +48,7 @@ ____
 - [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
 - [Website Test behind the Great Firewall of China](https://www.websitepulse.com/tools/china-firewall-test)
 - [myregextester](https://myregextester.com/index.php) A regular expression tester
-- [cmd.io](https://cmd.io) 
+- [cmd.io](https://cmd.io)
 - [Pwned Passwords](https://haveibeenpwned.com/Passwords)
 - [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
     without code
@@ -70,6 +70,8 @@ ____
 - [SLA & Uptime calculator](https://uptime.is/)
 - [Blacklight](https://themarkup.org/blacklight) - a real-time website privacy
   inspector
+- [command-not-found.com](https://command-not-found.com/) - shows how to install
+  a command in different operating systems
 
 ### APIs
 
