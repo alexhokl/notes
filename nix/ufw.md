@@ -7,6 +7,7 @@
 - [To allow a port range](#to-allow-a-port-range)
 - [To allow a port from access from an IP range](#to-allow-a-port-from-access-from-an-ip-range)
 ____
+
 ### To check status
 
 ```sh
@@ -57,3 +58,8 @@ Note that protocol is required in this case.
 sudo ufw allow from 192.168.1.0/24 to any port 22
 ```
 
+### To allow access to a port using an interface
+
+```sh
+sudo ufw allow in on tailscale0 to any port 22
+```
