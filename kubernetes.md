@@ -40,6 +40,8 @@ ____
   cert-manager](https://cert-manager.io/docs/faq/troubleshooting/)
 - [kubectl
   plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
+- [Awesome Kubernetes
+  Resources](https://github.com/tomhuang12/awesome-k8s-resources)
 
 ## Commands
 
@@ -292,7 +294,7 @@ chmod 0600 ~/.ssh/id_rsa
 ssh azureuser@10.240.0.4
 ```
 
-##### To check if a Kubernetes cluster is deployed securely 
+##### To check if a Kubernetes cluster is deployed securely
 
 ```sh
 kubectl apply -f https://raw.githubusercontent.com/aquasecurity/kube-bench/main/job.yaml
