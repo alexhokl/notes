@@ -6,6 +6,7 @@
 - [To delete a rule](#to-delete-a-rule)
 - [To allow a port range](#to-allow-a-port-range)
 - [To allow a port from access from an IP range](#to-allow-a-port-from-access-from-an-ip-range)
+- [To allow access to a port using an interface](#to-allow-access-to-a-port-using-an-interface)
 ____
 
 ### To check status
