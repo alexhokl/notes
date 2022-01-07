@@ -92,9 +92,16 @@ Note that the above statements only covers schema `public`.
 
 ##### To remove a user
 
+In each database the user is involved,
+
 ```sql
 REASSIGN OWNED BY "some_user" TO postgres; -- or other users
 DROP OWNED BY "some_user";
+```
+
+Run the following in any of the databases.
+
+```sql
 DROP USER "some_user";
 ```
 
@@ -105,14 +112,14 @@ basis.
 
 ```sql
 SELECT usename AS role_name,
-  CASE 
-     WHEN usesuper AND usecreatedb THEN 
+  CASE
+     WHEN usesuper AND usecreatedb THEN
 	   CAST('superuser, create database' AS pg_catalog.text)
-     WHEN usesuper THEN 
+     WHEN usesuper THEN
 	    CAST('superuser' AS pg_catalog.text)
-     WHEN usecreatedb THEN 
+     WHEN usecreatedb THEN
 	    CAST('create database' AS pg_catalog.text)
-     ELSE 
+     ELSE
 	    CAST('' AS pg_catalog.text)
   END role_attributes
 FROM pg_catalog.pg_user
@@ -123,8 +130,19 @@ ORDER BY role_name desc;
 
 ```sql
 SELECT grantee,table_catalog, table_schema, table_name, privilege_type
-FROM   information_schema.table_privileges 
+FROM   information_schema.table_privileges
 WHERE  grantee = 'some_user';
+```
+
+##### To change ownership of a table
+
+Suppose the table is owned by `abcadmin` and we want to change the ownership to
+user/role `appuser`. To enable the process, we add role `appuser` to role
+`abcadmin` and change the ownership.
+
+```sql
+GRANT appuser TO abcadmin
+ALTER TABLE public."some_table" OWNER TO appuser
 ```
 
 ### Performance
@@ -144,7 +162,7 @@ SELECT count(distinct pid) FROM pg_locks WHERE granted = false
 ##### To get maximum transaction age
 
 ```sql
-SELECT max(now() -xact_start) FROM pg_stat_activity WHERE state IN ('idle in transaction','active'); 
+SELECT max(now() -xact_start) FROM pg_stat_activity WHERE state IN ('idle in transaction','active');
 ```
 
 ##### To retrieve information about checkpoints
@@ -174,7 +192,7 @@ where `->` outputs a JSON object and `->>` outputs a string.
 ##### Aggregation
 
 ```sql
-SELECT 
+SELECT
    MIN (CAST (info -> 'items' ->> 'qty' AS INTEGER)),
    MAX (CAST (info -> 'items' ->> 'qty' AS INTEGER)),
    SUM (CAST (info -> 'items' ->> 'qty' AS INTEGER)),
@@ -185,7 +203,7 @@ FROM orders;
 ### Array and join (Cartesian product)
 
 ```sql
-SELECT 
+SELECT
     c."customer_name",
     o."timestamp",
     json_array_elements(o."detail" -> 'items') ->> 'description' as "description"
