@@ -42,6 +42,21 @@ sudo tailscale up --accept-routes
 tailscale file cp some_file 100.333.333.333:
 ```
 
+## Google Cloud Platform (GCP)
+
+### To start and share DNS names between GCP and Tailnet
+
+```sh
+tailscale up --advertise-routes=10.182.0.0/24,169.254.169.254/32 --accept-dns=false
+```
+
+where `10.182.0.0/24` is the subnet to be enabled with subnet routing,
+`169.254.169.254/32` is the DNS service on GCP (and likely on AWS and Azure as
+well), `--accept-dns=false` is to ensure the VM keep using GCP DNS names.
+
+Reference: [Access Google Compute Engine VMs privately using Tailscale
+](https://tailscale.com/kb/1147/cloud-gce/)
+
 ## Windows
 
 The following options should be checked in `Preferences` menu.
