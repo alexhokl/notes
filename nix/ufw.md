@@ -64,3 +64,9 @@ sudo ufw allow from 192.168.1.0/24 to any port 22
 ```sh
 sudo ufw allow in on tailscale0 to any port 22
 ```
+
+To allow fast peer-to-peer access for Tailsacle
+
+```sh
+sudo ufw allow 41641/udp
+```
