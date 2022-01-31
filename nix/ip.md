@@ -9,6 +9,12 @@ ip addr show
 
 or, `ip a` or `ip addr`.
 
+To show IPv4 only
+
+```sh
+ip -4 a
+```
+
 ###### To get IP from a host name
 
 ```sh
