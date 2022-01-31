@@ -7,6 +7,7 @@
 - [To allow a port range](#to-allow-a-port-range)
 - [To allow a port from access from an IP range](#to-allow-a-port-from-access-from-an-ip-range)
 - [To allow access to a port using an interface](#to-allow-access-to-a-port-using-an-interface)
+- [To allow fast peer-to-peer access for Tailsacle](#to-allow-fast-peer-to-peer-access-for-tailsacle)
 ____
 
 ### To check status
@@ -65,7 +66,7 @@ sudo ufw allow from 192.168.1.0/24 to any port 22
 sudo ufw allow in on tailscale0 to any port 22
 ```
 
-To allow fast peer-to-peer access for Tailsacle
+### To allow fast peer-to-peer access for Tailsacle
 
 ```sh
 sudo ufw allow 41641/udp
