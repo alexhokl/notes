@@ -404,6 +404,32 @@ ____
 
 ### Chapter 8 Balance Quality with Pragmatism
 
+- pragmatism
+  - thinking in terms of what does and does not work for achieving goals
+  - instead of right way or wrong way
+- advantages of code review
+  - catching bugs or design shortcomings early
+  - increasing accountability of code changes
+  - provide modelling of how to write good code
+  - sharing working knowledge of codebase
+  - increasing long-term agility
+- a sustainable code review process
+  - a process can be adapted to different situations/companies to get a good
+    balance between quality and throughput
+- abstractions
+  - it is useful and help saving time to maintenance as it is in one piece
+  - be aware of creating an abstraction too early where time could be wasted or
+    abstraction could be built poorly due to lack of information (which makes
+    the design too generic or overfitted)
+- technical debt
+  - all the deferred work that is necessary to improve the health and quality of
+    the codebases that would slow things down if left unaddressed
+  - it could be added due to insufficient understanding of the problem space
+    initially
+  - example solutions
+    - at Asana, a week of each quarter to pay of debts
+    - "code purge day" to remove old un-used code
+
 ### Chapter 9 Minimize Operational Burden
 
 ### Chapter 10 Invest in Your Team's Growth
