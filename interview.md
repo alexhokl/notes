@@ -82,6 +82,7 @@ ____
   - look for quality control
 - Ask the candidate about a simple binary search
 - What are the major technical problem in your current and last job?
+- What are the profiling tools you have used?
 
 #### House-Tree-Person (HTP) test
 
