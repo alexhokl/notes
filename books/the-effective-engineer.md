@@ -12,6 +12,8 @@ ____
   Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107)
   by Edmond Lau
 
+## Part 1: Adopt the Right Mindset
+
 ### Chapter 1 Focus on High-Leverage Activities
 
 - Two highest leverage investment
@@ -210,6 +212,8 @@ ____
       - This week
     - Backlog
 
+## Part 2: Execute, Execute, Execute
+
 ### Chapter 4 Invest in iteration speed
 
 - Continuous deployment
@@ -297,7 +301,8 @@ ____
 
 ### Chapter 6 Validate Your Ideas Early and Often
 
-- failing example of Cuil (a search engine)
+- failing example of [Cuil](https://en.wikipedia.org/wiki/Cuil) (a search
+  engine)
   - Cuil had wanted to make a big splash at launch and feared leaking details to
     the press, they had not hired any alpha testers to play around with the
     product.
@@ -305,4 +310,73 @@ ____
     quality was not there, that the search engine was not returning enough
     results, and that users did not care about the size of index if it did not
     actually lead to higher quality results
+  - an improved example of [BloomReach](https://www.bloomreach.com/en)
+    - build a MVP in 4 months and release it to beta customers
+    - getting feedback from beta customers and the feedback helps to determine
+      what to build next
+- an iterative approach
+  - the shorter each iteration cycle, the more quickly we can learn from our
+    mistakes; the longer the iteration cycle, the more likely it is that
+    incorrect assumptions and errors will compound
+  - thus, investment in iteration speed is important
+- demystifying the riskiest areas first allows updating of plan and avoiding
+  nasty surprises
+- always ask the question
+  - can I expend a small fraction of the total effort to collect some data nad
+    validate that what I'm doing will work?
+    - hesitation of adding 10% extra overhead to do this as
+      - in a hurry, or
+      - over confident about the implementation plans
+- MVP (minimum viable product)
+  - allows a team to collect the maximum amount of validated learning about
+    customers with the least effort
+  - validate hypotheses about your users as much as possible
+  - example
+    - a 4-minute video as a MVP of Dropbox
+  - for smaller project, a prototype can be used for the same effect
+  - fake implementation
+    - example
+      - Asana used a fake sign-in by Google button and show message "Thanks for
+        your interest" to determine whether they should implement such a button
+- A/B testing
+  - a random subset of users sees a change or a new feature; everyone else in
+    the control group does not
+  - it works by comparing metrics (assuming the assignment to a group was not
+    biased)
+  - it helps quantifying an idea/theory to see how much effort should be spent
+  - it encourages an iterative approach
+  - tools
+    - [Feature API](https://github.com/etsy/feature) from Etsy
+    - [vanity](https://github.com/assaf/vanity) using Ruby
+    - [Optimizely](https://www.optimizely.com/)
+    - [Apptimize](https://apptimize.com/)
+    - [Unbounce](https://unbounce.com/a-b-testing/)
+    - [Visual Website Optimizer](https://vwo.com/)
+- one-person team
+  - an anti-pattern
+  - feedback loop is hard to exist
+  - small blocking issues could last longer
+  - monotonous work cannot be shared
+  - suggestions
+    - be open and receptive to feedback
+    - commit code early and Often
+    - request code reviews from thorough critics
+    - ask to bounce ideas off your teammates
+    - design the interface or API of a new system first
+    - send out a design document before devoting time to code
+    - solicit buy-in for controversial features before investing too much time
+- feedback loop
+  - examples
+    - tying bonuses to engineering-wide metrics like reliability
+      - it is hard when the metrics are not clear-cut
+
+### Chapter 7 Improve Your Project Estimation Skills
+
+## Part 3: Build Long-Term Value
+
+### Chapter 8 Balance Quality with Pragmatism
+
+### Chapter 9 Minimize Operational Burden
+
+### Chapter 10 Invest in Your Team's Growth
 
