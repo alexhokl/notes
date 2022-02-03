@@ -372,6 +372,34 @@ ____
 
 ### Chapter 7 Improve Your Project Estimation Skills
 
+- project planning
+  - have estimates before discussion about deadlines
+- to create an accurate estimate
+  - decompose a project into granular tasks
+    - if a task takes more than 2 days, decompose it further
+    - a long estimate is a hiding place for nasty surprises
+    - easier to defend when a manager challenges it
+  - let the person doing the actual task to make the estimate
+    - it adapts to different skill set and familiarities
+  - beware of anchoring bias
+    - mostly due to manager give an estimate beforehand
+  - beware of the mythical man-month
+    - a task has an estimate of 1 man-week does not mean two developers can
+      complete it in 2.5 days as the are other overheads
+  - validate estimates against historical data
+  - use timeboxing to constraint tasks that can grow in scope
+  - allow others to challenge estimates
+    - increase accuracy
+    - increase buy-in
+- budget for unknown
+  - at Asana, one engineering day is mapped to two workdays
+- define specific goals
+  - this allows separation of must-have and nice-to-have tasks
+  - alignment with stakeholders for the assumptions involved
+  - helps developer in making local trade-offs
+  - avoids developer disappearing in a rabbit hole for a week (a long period of
+    time)
+
 ## Part 3: Build Long-Term Value
 
 ### Chapter 8 Balance Quality with Pragmatism
