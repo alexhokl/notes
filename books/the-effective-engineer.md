@@ -432,5 +432,38 @@ ____
 
 ### Chapter 9 Minimize Operational Burden
 
+- maintenance cost associated with a complex architecture
+  - engineering expertise gets splintered across multiple systems
+    - as each system/technology has its own unique set of properties or failure
+      modes
+  - increased complexity introduces more potential single point of failure
+    - surface area increases and it is hard to find more than 2 people covering
+      the same area
+  - new engineers face a steeper learning curve
+  - efforts towards improving abstractions, libraries, and tools get diluted
+    across the different systems/technologies
+    - end up with less tools or libraries created
+- (bad) techniques to fail slowly
+  - handle exceptions to allow the program to continue to run
+  - setting misconfigured parameters to default values
+  - adding catch-all exception handlers to deal with unexpected issues
+  - swallowing unexpected return values
+- drawbacks of fail slowly
+  - less decipherable bugs further down the road
+  - hard to reason when the request path contains multiple systems
+- relentlessly automate mechanical tasks
+  - the incentive is lowered if the manual work is spread across the team
+  - it is harder when engineers are not familiar with automation tools like bash
+    scripts
+  - internalizing the time it takes to complete the manual work helps the team
+    to understand the time wasted
+- make automated process idempotent
+  - or at least retryable or reentrant
+  - for infrequent schedules, make dry-run in-between schedules to allow
+    errors/problems surface sooner
+- production failures
+  - script the decision-making process for all possible scenarios such that, in
+    case a failure happens, we can respond quickly and in a planned-manner
+
 ### Chapter 10 Invest in Your Team's Growth
 
