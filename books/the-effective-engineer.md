@@ -467,3 +467,81 @@ ____
 
 ### Chapter 10 Invest in Your Team's Growth
 
+- hiring
+  - standardisation across interviews
+  - organised process for sourcing new candidates
+  - formalised campus recruiting efforts
+- goals of a good interview process
+  - screens for the type of people likely to do well on the team
+  - gets candidates excited about the team, the mission and the culture
+    - even with no offer, candidates would refer their friends to interview with
+      the company
+- hands-on interview is the trend
+- improving interview process
+  - take time with your team to identify which qualities in a potential teammate
+    you care about the most
+    - examples
+      - coding aptitude
+      - mastery of programming
+      - languages
+      - algorithms
+      - data structures
+      - product skills
+      - debugging
+      - communications skills
+      - culture fit
+  - periodically discuss how effective the current recruiting and interview
+    processes are; keep iterating until the process can accurately access the
+    skills and qualities
+  - design interview problems with multiple layers of difficulty that you can
+    tailor to the candidate's ability by adding or removing variables and
+    constraints
+    - layered problems tend to provide more fine-grained signals about
+      a candidate's ability than binary ones, where the candidate either gets
+      the answer or he/she does not
+  - control the interview pace to maintain a high signal-to-noise ratio
+    - do not let interviewees ramble, get stumped, or get sidetracked for too
+      long
+  - scan for red flags by rapidly firing short-answer questions to probe a wide
+    surface area
+  - periodically shadow or pair with another team member during interviews
+    - helps calibrate ratings across interviewers and provide opportunities to
+      give each other feedback on improving the interview process
+- on-boarding
+  - without a good process
+    - developers layout different subsets of concepts to new joins
+      - easy for useful information to be omitted among the scattered
+        explanations
+    - initial work of a new join may not touch the core abstractions and he/she
+      cannot learn about it
+    - expectations could not be communicated clearly which leads to a new join
+      spending too much time of documentation than on fixing bugs or
+      making enhancements
+  - examples
+    - pairing a new hire with a mentor
+      - mentor assigns small features or bugs from their task lists to do as
+        starter projects
+      - mentor has context of the tasks which guidance can provided
+      - free mentors to shift their attention from less-interesting tasks to
+        higher-leverage projects that they are better suited to tackle
+      - mentors are encouraged to spend time to ramp up the new hire than to do
+        other tasks
+- shared code ownership
+  - to avoid the bus factor of 1
+  - strategies
+    - avoid one-person team
+    - review each other's code and design
+    - rotate different types of tasks and responsibilities across teams
+    - keep code readable and code quality high
+    - present tech talks on software decisions and architecture
+    - document your software, either through high-level design documents or in
+      code-level comments
+    - document the complex workflows or non-obvious workarounds necessary for
+      you to get things done
+    - invest time in teaching mentoring other team members
+- post-mortems
+  - it requires aligning behind a common goal of improving the product or team,
+    and not focusing on where to assign blame
+  - it requires being open and receptive to feedback, with the goal of building
+    collective wisdom around what went wrong and what could have been done
+    better
