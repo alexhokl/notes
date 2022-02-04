@@ -1,9 +1,16 @@
-- [Chapter 1 Focus on High-Leverage Activities](#chapter-1-focus-on-high-leverage-activities)
-- [Chapter 2 Optimise for learning](#chapter-2-optimise-for-learning)
-- [Chapter 3 Prioritise Regularly](#chapter-3-prioritise-regularly)
-- [Chapter 4 Invest in iteration speed](#chapter-4-invest-in-iteration-speed)
-- [Chapter 5 Measure What You Want to Improve](#chapter-5-measure-what-you-want-to-improve)
-- [Chapter 6 Validate Your Ideas Early and Often](#chapter-6-validate-your-ideas-early-and-often)
+- [Part 1: Adopt the Right Mindset](#part-1-adopt-the-right-mindset)
+  * [Chapter 1 Focus on High-Leverage Activities](#chapter-1-focus-on-high-leverage-activities)
+  * [Chapter 2 Optimise for learning](#chapter-2-optimise-for-learning)
+  * [Chapter 3 Prioritise Regularly](#chapter-3-prioritise-regularly)
+- [Part 2: Execute, Execute, Execute](#part-2-execute-execute-execute)
+  * [Chapter 4 Invest in iteration speed](#chapter-4-invest-in-iteration-speed)
+  * [Chapter 5 Measure What You Want to Improve](#chapter-5-measure-what-you-want-to-improve)
+  * [Chapter 6 Validate Your Ideas Early and Often](#chapter-6-validate-your-ideas-early-and-often)
+  * [Chapter 7 Improve Your Project Estimation Skills](#chapter-7-improve-your-project-estimation-skills)
+- [Part 3: Build Long-Term Value](#part-3-build-long-term-value)
+  * [Chapter 8 Balance Quality with Pragmatism](#chapter-8-balance-quality-with-pragmatism)
+  * [Chapter 9 Minimize Operational Burden](#chapter-9-minimize-operational-burden)
+  * [Chapter 10 Invest in Your Team's Growth](#chapter-10-invest-in-your-teams-growth)
 ____
 
 #### Reference
