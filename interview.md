@@ -83,6 +83,8 @@ ____
 - Ask the candidate about a simple binary search
 - What are the major technical problem in your current and last job?
 - What are the profiling tools you have used?
+- What is the one thing that you like and one thing that you dislike about the
+  engineering culture at your current (or previous) workplace?
 
 #### House-Tree-Person (HTP) test
 
