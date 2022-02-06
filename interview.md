@@ -3,10 +3,16 @@ ____
 
 #### References
 
-- [The Guerrilla Guide to Interviewing (version 3.0)](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/)
-- [The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+- [The Guerrilla Guide to Interviewing (version
+  3.0)](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/)
+- [The Joel Test: 12 Steps to Better
+  Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+- [The Pragmatic Engineer Test: 12 Questions on Engineering
+  Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
 - [The Phone Screen](https://www.joelonsoftware.com/2006/10/24/the-phone-screen-2/)
 - [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/)
+- [Preparing for the Systems Design and Coding
+  Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
 
 ### Interview
 
