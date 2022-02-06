@@ -315,7 +315,7 @@ product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-build
   Now, developers are asking QAs for advice on how best to structure the tests
   — especially before implementation.
 - Enable new features in a very controlled manner using Feature Toggles.
-- Pair programming helps to avoid slip ups - which are bound to happen 
+- Pair programming helps to avoid slip ups - which are bound to happen
   sometimes. An effective damage control is the "pairing" of two people, mostly
   developers. But slip ups are not the only motivation for pairing. Do you know
   the "aha moment" that you have when you have tried something new and
@@ -332,3 +332,5 @@ product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-build
 - Always instrumenting the app; for instances, time taken of API calls or time
   taken for SQL queries
 - Keep variables immutable especially those in a loop
+- [Incident Review and Postmortem Best
+  Practices](https://blog.pragmaticengineer.com/postmortem-best-practices/)
