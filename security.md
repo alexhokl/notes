@@ -33,6 +33,7 @@
     + [.cert .cer .crt](#cert-cer-crt)
     + [.p7b](#p7b)
     + [.crl (Certificate revocation list)](#crl-certificate-revocation-list)
+- [RBAC](#rbac)
 ____
 
 # Sign-up and Sign-in
@@ -579,3 +580,8 @@ certification-path certificates.
 
 Certificate Authorities produce these as a way to de-authorize certificates
 before expiration. You can sometimes download them from CA websites.
+
+# RBAC
+
+- [RBAC like it was meant to
+  be](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/)
