@@ -2,6 +2,7 @@
 - [Online Tools](#online-tools)
   * [APIs](#apis)
   * [Services](#services)
+  * [Online meeting](#online-meeting)
   * [Data](#data)
   * [Hardware](#hardware)
 ____
@@ -95,6 +96,11 @@ ____
 - [Clubhouse](https://clubhouse.io/) - project management for software teams
 - [logz.io](https://logz.io/) - log management, infrastructure monitoring,
   cloud SIEM
+- [Linear](https://linear.app/) - issue tracking
+
+### Online meeting
+
+- [Jitsi Meet](https://meet.jit.si/)
 
 ### Data
 
