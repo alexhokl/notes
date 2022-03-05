@@ -331,6 +331,12 @@ actually pulling the code yet.
 git clone --recursive https://github.com/author/repo
 ```
 
+###### To clone a specific branch or tag
+
+```sh
+git clone -b your-branch https://github.com/author/repo
+```
+
 ###### To update submodules
 
 ```sh
