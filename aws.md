@@ -92,6 +92,24 @@ aws s3 cp --recursive s3://your-bucket/ ./
 aws s3 cp --recursive --storage-class INTELLIGENT_TIERING s3://your-bucket-name s3://your-bucket-name
 ```
 
+##### To enable public access of all the files in a bucket
+
+Add the following to `Bucket policy`.
+
+```sh
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::your-bucket/*"
+        }
+    ]
+}
+```
+
 ### Lambda
 
 #### .NET Core
@@ -199,7 +217,7 @@ aws iam list-roles | jq '.[][] | { name: .RoleName, path: .Path, arn: .Arn }'
 aws iam list-policies --scope Local | jq -r '.Policies[] | .Arn'
 ```
 
-##### To get basic information of a custom policy 
+##### To get basic information of a custom policy
 
 ```sh
 aws iam list-policies --scope Local | jq -r '.Policies[] | select(.PolicyName=="your-policy-name")'
