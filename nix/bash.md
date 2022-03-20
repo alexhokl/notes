@@ -275,8 +275,13 @@ If it is managed by LVM, use `sudo lvdisplay` to allocate the volume label and
 execute the following (assuming `/dev/vg1/lv1`).
 
 ```sh
-sudo mount -o ro,noload /dev/vg1/lv1 /mnt/your-mount-point
+sudo mount -o ro,noload /dev/vg1/lv1 /mnt/your-mount-point/
 ```
+
+Note: In case the volume to be mounted does not appeared as type `raid1` or
+`lvm`, it is likely the mounted as something like `/dev/md1`. We need to stop it
+first by `sudo mdadm --stop /dev/md1` and then re-assemble the array by
+`sudo mdadm --assemble --run --readonly --force /dev/md0 /dev/sda3`.
 
 ### Hardware
 
