@@ -258,6 +258,26 @@ or,
 du -d 1 -h
 ```
 
+##### To mount one of disks of RAID 1 array
+
+Assume `mdadm` has been installed.
+
+List block devices by using `lsblk`.
+
+If there is the volume is not managed by LVM (that is, no `lvm` appeared under
+`raid1`),
+
+```sh
+sudo mount -o ro,noload /dev/md1 /mnt/your-mount-point/
+```
+
+If it is managed by LVM, use `sudo lvdisplay` to allocate the volume label and
+execute the following (assuming `/dev/vg1/lv1`).
+
+```sh
+sudo mount -o ro,noload /dev/vg1/lv1 /mnt/your-mount-point
+```
+
 ### Hardware
 
 ##### To list all PCI devices
