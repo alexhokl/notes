@@ -279,7 +279,41 @@ ____
       can change the project focus and direction, and you need to hear about
       project status, but also how the team is taking in new information to
       inform future work.
-
+- [Five Ways to Optimise Your Team Performance - Without having to go full Agile
+  mode](https://medium.com/@danielapetruzalek/five-quick-wins-to-optimise-your-team-performance-21745a348c82)
+  - Ticket creation
+    - When passing a ticket from one stage to another, it’s important to remove
+      yourself from the ticket so everyone know that they can pick them up to
+      work on them. The whole process should be thought in a way that the
+      tickets are independent from the person that wrote them or have worked on
+      that particular task in the past.
+  - Ticket template
+    - https://gist.github.com/danicat/854de24dd88d57c34281df7a9cc1b215
+    - Context
+      - A brief description of what the feature or problem is. Telling how it
+        worked before and how is supposed to work is a good thing. Also, include
+        any reference material that is required for understanding the whole
+        picture. It is not necessary to copy the whole scoping document here (if
+        you have one), but also just linking to the scoping document without
+        explaining anything is not a good practice. Ideally the ticket is self
+        contained and the reference material is just for further clarification.
+    - To Do
+      - A list of items to be done in the ticket. Keep them small and self
+        contained. If you have more than 4 items to be done in the same ticket
+        it is a strong signal it must be broken down into smaller tasks.
+    - Definition of Done
+      - Ideally they would be a list that follow closely the To Do list above,
+        to make sure every required was implemented correctly. It is not so
+        useful to explain here how to test, but it is really important to tell
+        what to test. Both happy and sad paths. Ideally anyone from the team
+        should be able to test it, even non developers like the Product Manager.
+  - Definition of Ready
+    - The state when a ticket is ready to be worked on
+  - Spike ticket
+    - ticket for research or work with uncertainty
+    - resist the temptation of implementing the spike ticket during the spike
+      process
+    - time-box should be applied
 
 ## Quality Assurance and quality specialist
 
