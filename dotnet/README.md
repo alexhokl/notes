@@ -3,6 +3,7 @@
     + [Upgrade](#upgrade)
     + [Tools](#tools)
     + [.NET CLI](#net-cli)
+    + [Visual Studio](#visual-studio)
     + [Nuget](#nuget)
     + [ASP.NET Core](#aspnet-core)
     + [Entity Framework](#entity-framework)
@@ -267,6 +268,10 @@ dotnet format
 ```sh
 dotnet format --dry-run --check -v n
 ```
+
+### Visual Studio
+
+- [productivity features](https://github.com/kendrahavens/ProductivityFeatures)
 
 ### Nuget
 
