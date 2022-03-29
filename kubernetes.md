@@ -1,11 +1,16 @@
 - [Links](#links)
 - [Commands](#commands)
 - [Resource Definitions](#resource-definitions)
+  * [Sidecars](#sidecars)
+  * [Resource quota](#resource-quota)
+  * [Security](#security)
+  * [Network policy](#network-policy)
 - [Concepts](#concepts)
   * [Operator pattern](#operator-pattern)
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
   * [Termination](#termination)
+  * [RBAC and sudo](#rbac-and-sudo)
 - [API](#api)
 - [References](#references)
 - [kind](#kind)
@@ -302,6 +307,8 @@ kubectl apply -f https://raw.githubusercontent.com/aquasecurity/kube-bench/main/
 
 ## Resource Definitions
 
+### Sidecars
+
 ##### To add a sidecar container to pump logs to pump logs to stdout
 
 Add an empty directory to `volumes` of a `deployment` definition.
@@ -334,6 +341,8 @@ Finally, add the sidecar container to `deployment` definition.
     - "tail -f /tmp/log/vsftpd.log"
 ```
 
+### Resource quota
+
 ##### To add resource quota to a namespace
 
 ```yaml
@@ -351,6 +360,8 @@ spec:
     limits.cpu: "4"
     limits.memory: 2Gi
 ```
+
+### Security
 
 ##### To run as a non-root user
 
@@ -388,10 +399,22 @@ spec:
 Note that `readOnlyRootFilesystem` may not work if the container requires write
 access to `/tmp/`.
 
-Use `fsGroup` if there are mounted volumes. The mounted volume will have
+Use `fsGroup` for mounted volumes. The mounted volume will have
 ownership as user `root` and group `GID` (assigned to ID set as `fsGroup`).
 
+By default, Kubernetes recursively changes ownership and permissions for the
+contents of each volume to match the `fsGroup` specified in a Pod's
+`securityContext` when that volume is mounted. For large volumes, checking and
+changing ownership and permissions can take a lot of time, slowing Pod startup.
+`fsGroupChangePolicy` can be set as `OnRootMisatch` (and the default is `Always`
+to only change permissions and ownership if permission and ownership of root
+directory does not match with expected permissions of the volume. Note that this
+field has no effect on ephemeral volume types such as `secret`, `configMap` and
+`emptydir`.
+
 Note that the ID has to match the user or group created within `Dockerfile`.
+
+If `runAsGroup` is not assigned, it will be assigned with `0` (root).
 
 To check the current `uid` used.
 
@@ -418,7 +441,9 @@ spec:
         add: ["NET_ADMIN", "SYS_TIME"]
 ```
 
-This adds `CAP_NET_ADMIN` and `CAP_SYS_TIME` capabilities.
+This adds `CAP_NET_ADMIN` and `CAP_SYS_TIME` capabilities. Note that when you
+list capabilities in your container manifest, you must omit the `CAP_` portion
+of the constant.
 
 See [capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html).
 
@@ -438,9 +463,12 @@ spec:
         type: RuntimeDefault
 ```
 
-This set the Seccomp profile to the node's container run default profile.
+The above configuration sets the Seccomp profile to the node's default profile.
 
-Note that profile can be pre-configured on a node.
+Valid values of `type` are `RuntimeDefault`, `Unconfined` and `Localhost`.
+
+`localhostProfile` must be set if type is `localhost` and it allows a profile
+can be pre-configured on a node.
 
 ```yaml
 securityContext:
@@ -449,7 +477,39 @@ securityContext:
     localhostProfile: my-profiles/profile-allow.json
 ```
 
+##### To assign SELinux match
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: security-context-demo-4
+spec:
+  containers:
+  - name: web
+    image: nginx:1.19-alpine
+    securityContext:
+      seLinuxOptions:
+        level: "s0:c123,c456"
+```
+
+To assign SELinux labels, the SELinux security module must be loaded on the host
+operating system.
+
+SELinux is about supporting access control security policies, including
+mandatory access controls (MAC).
+
+Note that, after you specify an MCS label for a Pod, all Pods with the same
+label can access the Volume. If you need inter-Pod protection, you must assign
+a unique MCS label to each Pod.
+
+### Network policy
+
 ##### To deny all but incoming traffic to a port
+
+It is a best practice to start with a policy denying all traffic first. The
+following has a policy to set such default and another policy to allow
+a specific traffic.
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -476,6 +536,41 @@ spec:
   - Ingress
   ingress:
   - from:
+    ports:
+    - protocol: TCP
+      port: 8080
+```
+
+Reference: [Get started with Kubernetes network
+policy](https://projectcalico.docs.tigera.io/security/kubernetes-network-policy)
+
+If no Kubernetes network policies apply to a pod, then all traffic to/from the
+pod are allowed. If one or more Kubernetes network policies apply to a pod, then
+only the traffic specifically defined in that network policy are allowed.
+
+To allow ingress traffic from `kube-system` namespace, apply the following
+command and network policy.
+
+```sh
+kubectl label namespace kube-system name=kube-system
+```
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-kube-system-access
+  namespace: demo
+spec:
+  podSelector:
+    matchLabels: {}
+  policyTypes:
+  - Ingress
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          name: kube-system
     ports:
     - protocol: TCP
       port: 8080
@@ -548,6 +643,45 @@ spec:
           command:
             - /bin/sleep
             - "15"
+```
+
+### RBAC and sudo
+
+Reference: [Least Privilege in Kubernetes Using
+Impersonation](https://johnharris.io/2019/08/least-privilege-in-kubernetes-using-impersonation/)
+
+Although administrators can grant themselves role `cluster-admin`, we may not
+want administrators to use such a role all the time to avoid mistakes which
+could be damaging. `sudo`-like way of executing a `kubectl` command is possible
+through the use of option `--as`, such as `--as cluster-admin`. To achieve this,
+we assign administrators with less privileged roles (or even read-only roles)
+but we also assign them with a role where they can impersonate as
+`cluster-admin`. The following is setup of such role and role binding (where
+`ops-team` is the group administrators are assigned to).
+
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: cluster-admin-impersonator
+rules:
+- apiGroups: [""]
+  resources: ["users"]
+  verbs: ["impersonate"]
+  resourceNames: ["cluster-admin"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: cluster-admin-impersonate
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin-impersonator
+subjects:
+- apiGroup: rbac.authorization.k8s.io
+  kind: Group
+  name: ops-team
 ```
 
 ## API
