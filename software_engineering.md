@@ -314,6 +314,39 @@ ____
     - resist the temptation of implementing the spike ticket during the spike
       process
     - time-box should be applied
+- [Independence, autonomy, and too many small
+  teams](https://kislayverma.com/organizations/independence-autonomy-and-too-many-small-teams/)
+  - autonomous team
+    - aka two pizza team
+    - to minimise communication between multiple teams and empowering a single
+      team to be in complete control of delivering customer value
+    - before this idea, teams were orangised as backend, UI, DBA, Ops, etc and
+      it requires a lot of communication and alignment
+    - a single team would be given the entirety of the problem statement and the
+      tools it needed to solve it
+    - this idea will go wrong if the teams are sliced into too small a problem
+      space where it introduces dependency on other teams
+      - an example is that what a team delivers is not valuable by itself
+      - or the team’s work is not tied to a business objective any longer, so it
+        gets tied to tightly defined execution scopes
+    - collaboration is good in ideation and brainstorming but it is extremely
+      costly once we reached the execution phase
+    - [Amdahl’s law](https://en.wikipedia.org/wiki/Amdahl%27s_law) puts a finite
+      upper limit on the increased output when an extra worker is added into the
+      mix
+    - if the outputs of our teams are arranged sequentially, they are not
+      autonomous in delivery, no matter how independent they might be in their
+      day to day work
+    - a team that is authorized to solve a customer problem using any means at
+      its disposal in essence owns the entire “pipeline” of tasks that need to
+      be done
+    - a team is autonomous when it “delivers value to the customer”
+      independently
+    - The core idea behind autonomy is not arranging teams to maximize outputs
+      of steps in the value chain, but defining value chains in such a way that
+      a single, tight-knit team can be unleashed upon it. Every team has to
+      define its output in terms of customer success because that’s how the
+      organizational boundary is drawn
 
 ## Quality Assurance and quality specialist
 
