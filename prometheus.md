@@ -23,6 +23,7 @@
     + [Installation](#installation)
     + [To check Prometheus file](#to-check-prometheus-file)
 ____
+
 # Links
 
 - [A Deep Dive into Kubernetes Metrics](https://blog.freshtracks.io/a-deep-dive-into-kubernetes-metrics-b190cc97f0f6)
@@ -30,6 +31,7 @@ ____
 - [Kubernetes Metrics](https://help.sumologic.com/Metrics/Kubernetes_Metrics)
 - [cortex](https://github.com/cortexproject/cortex) - horizontally scalable,
   highly available, multi-tenant, long term storage for Prometheus
+- [PromLabs Blog](https://promlabs.com/blog/)
 
 # Types of metrics
 
@@ -205,7 +207,7 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{contai
       range of the bucket
     - `your_histogram_count` counts the total number of data points in all
       buckets
-    - `your_histogram_sum` sums up the value of all data point in all buckets 
+    - `your_histogram_sum` sums up the value of all data point in all buckets
 
 ### Tips
 
