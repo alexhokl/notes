@@ -340,6 +340,55 @@ See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-n
     Both of these practices mix Inversion of Control strategies.
   - Avoid static access to `HttpContext` (for example, `IHttpContextAccessor.HttpContext`).
 
+##### Dynamic dependency injection
+
+In `Startup.cs`,
+
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+  services.AddScoped<IPet, Cat>();
+  services.AddScoped<IPet, Dog>();
+  services.AddScoped<IPet, Hamster>();
+  services.AddScoped<Cat>();
+  services.AddScoped<Dog>();
+  services.AddScoped<Hamster>();
+  services.AddScoped<Func<string, IPet>>(serviceProvider => key =>
+  {
+    switch (key)
+    {
+      case "Cat":
+        return serviceProvider.GetService<Cat>();
+      case "Dog":
+        return serviceProvider.GetService<Dog>();
+      case "Hamster":
+        return serviceProvider.GetService<Hamster>();
+      default:
+        throw new NotImplementedException();
+    }
+  });
+}
+```
+
+In a controller,
+
+```csharp
+public class TestController
+{
+  public TestController(Func<string, IPet> serviceLocator)
+  {
+    this.serviceLocator = serviceLocator;
+  }
+
+  public void TestMethod(string petType)
+  {
+    var pet = serviceLocator(petType);
+  }
+
+  Func<string, IPet> serviceLocator;
+}
+```
+
 ##### Environment variables
 
 - Environment variables are available in `IConfiguration` objects
