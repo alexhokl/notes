@@ -389,6 +389,61 @@ public class TestController
 }
 ```
 
+##### Mocking IServiceProvider
+
+In controller,
+
+```csharp
+public class TestController : ControllerBase
+{
+    private readonly IServiceProvider _serviceProvider;
+
+    public TestController(IServiceProvider serviceProvider)
+    {
+        _serviceProvider = serviceProvider;
+    }
+
+    public async Task<string> Get(int id)
+    {
+        using (var scope = _serviceProvider.GetRequiredService<IServiceScopeFactory>().CreateScope())
+        {
+            var svc = scope.ServiceProvider.GetRequiredService<TestService>();
+            return svc.ReturnMemberValue(id);
+        }
+    }
+}
+```
+
+In test,
+
+```csharp
+//Arrange
+var serviceProvider = new Mock<IServiceProvider>();
+serviceProvider
+    .Setup(x => x.GetService(typeof(TestService)))
+    .Returns(new TestService("MemberValue"));
+
+var serviceScope = new Mock<IServiceScope>();
+serviceScope.Setup(x => x.ServiceProvider).Returns(serviceProvider.Object);
+
+var serviceScopeFactory = new Mock<IServiceScopeFactory>();
+serviceScopeFactory
+    .Setup(x => x.CreateScope())
+    .Returns(serviceScope.Object);
+
+serviceProvider
+    .Setup(x => x.GetService(typeof(IServiceScopeFactory)))
+    .Returns(serviceScopeFactory.Object);
+
+var sut = new TestController(serviceProvider.Object);
+
+//Act
+var actual = sut.Get(myIntValue);
+
+//Asssert
+//...
+```
+
 ##### Environment variables
 
 - Environment variables are available in `IConfiguration` objects
