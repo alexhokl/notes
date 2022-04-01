@@ -417,6 +417,22 @@ public void Configure(IApplicationBuilder app)
 }
 ```
 
+##### HttpClient with cookies
+
+```csharp
+var server = "https://test.com";
+var cookieContainer = new CookieContainer();
+using (var handler = new HttpClientHandler() { CookieContainer = cookieContainer, AllowAutoRedirect = false })
+{
+  using (var clientCode = new HttpClient(handler) { BaseAddress = server })
+  {
+    var request = new HttpRequestMessage(HttpMethod.Get, $"/hello/");
+    cookieContainer.Add(server, new Cookie("name", "value"));
+    return clientCode.SendAsync(request).GetAwaiter().GetResult();
+  }
+}
+```
+
 ##### Paths
 
 - `IHostingEnvironment.ContentRootPath` points to the directory of the web
