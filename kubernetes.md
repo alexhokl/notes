@@ -12,6 +12,8 @@
   * [Termination](#termination)
   * [RBAC and sudo](#rbac-and-sudo)
 - [API](#api)
+- [Ingress](#ingress)
+  * [Nginx](#nginx)
 - [References](#references)
 - [kind](#kind)
 - [Minikube](#minikube)
@@ -709,6 +711,17 @@ SERVICE_ACCOUNT_NAME=admin-user
 SERVICE_ACCOUNT_SECRET_NAME=$(kubectl get serviceaccount -n kube-system ${SERVICE_ACCOUNT_NAME} -o json | jq -Mr '.secrets[].name | select(contains("token"))')
 SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECRET_NAME token)
 ```
+
+## Ingress
+
+### Nginx
+
+##### HTTP response 413 (Request entity too large)
+
+We can get around this problem by changing the value of Nginx configuration
+`client-max-body`. If Helm chart is used, the value can be set to
+`controller.config.proxy-body-size`. It can also be set via annotation
+`nginx.ingress.kubernetes.io/proxy-body-size` of the Ingress resource.
 
 ## References
 
