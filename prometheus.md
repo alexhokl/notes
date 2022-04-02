@@ -16,6 +16,8 @@
     + [Tips](#tips)
   * [Alert Manager](#alert-manager)
   * [Grafana](#grafana)
+    + [Settings](#settings)
+    + [Variables](#variables)
   * [Kubernetes](#kubernetes)
   * [Operations](#operations)
     + [To deploy Prometheus Operator](#to-deploy-prometheus-operator)
@@ -168,6 +170,17 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{contai
   - a simple numeric floating point value
 - string
 
+#### Metric types
+
+- gauge
+- counter
+- histogram
+- summary
+  - similar to a histogram, except that you will need to specify which quantiles
+    instead of buckets
+  - while histograms can be aggregated, it is not statistically valid for
+    summary quantiles
+
 #### label matching operators
 
 - `=`
@@ -181,23 +194,38 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{contai
 #### Functions
 
 - `rate`
+  - the rate of increase per second, averaged over the entire provided time
+    window
   - it takes into account all of the data points within the range
   - it automatically adjusts for resets
     - thus, it is suitable for a counter but not for a gauge
-  - `rate` must be applied before any other aggregation functions such as `sum`
+  - it must be applied before any other aggregation functions such as `sum`
   - it is suited only for spotting trends, spikes, and for alerting
-    - it extrapolates the beginning or the end of the selected window using
-      either the first or last two data points if there is any information
-      missing
+    - extrapolation will be applied if there are no data points fit exact at the
+      start or the end of the window. Since the fitting is unlikely,
+      extrapolation almost always happens and thus the decimal points be seen in
+      rate values (see diagram in reference below)
+      - extrapolation is done using the first and last data points and assuming
+        the data points are not too far from the ends of the window
+  - at least 2 samples are need in the window for the metric to show up
   - example
-    - suppose it scapes for every 10 seconds and the following 5 samples are
+    - suppose it scrapes for every 10 seconds and the following 5 samples are
       retrieved
       - `0`, `4`, `6`, `10`, `2`
       - the rate is `(12-0)/60=0.2`
+  - references
+    - [How Exactly Does PromQL Calculate
+      Rates?](https://promlabs.com/blog/2021/01/29/how-exactly-does-promql-calculate-rates)
 - `irate`
-  - it takes into account only the first and the last data point within the
-    range
+  - it takes into account only the last 2 data point within the range
+    - no extrapolation will be applied
   - it automatically adjusts for resets
+  - it offers faster rendering but more spiky than `rate`
+  - at least 2 samples are need in the window for the metric to show up
+- `increase`
+  - `incrase(foo[5m]) / (5*60)` equivalent to `rate(foo[5m])`
+  - at least 2 samples are need in the window for the metric to show up
+  - extrapolation will be applied if necessary (with condition same as `rate`)
 - `histogram_quantile`
   - examples of 95-percentile
     - `histogram_quantile(0.95, sum(rate(your_histogram_bucket[5m])) by (le))`
@@ -224,6 +252,28 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{contai
 - [PromCon EU 2019: Managing Grafana Dashboards with grafonnet and git](https://www.youtube.com/watch?v=kV3Ua6guynI)
 - [GitLab - Capacity Planning Dashboard
   Alerts](https://gitlab.com/gitlab-com/runbooks/blob/master/dashboards/general/capacity-planning.jsonnet)
+- [Prometheus data
+  source](https://grafana.com/docs/grafana/latest/datasources/prometheus/) -
+  configurations available on Grafana
+
+### Settings
+
+- `Min step`
+  - the lower bounds on the interval between data points
+    - once this is set, variable `$__interval` or `$__rate_interval` can be
+      used
+- `Resolution`
+  - it is default to `1/1`
+    - `1/2` (or lower) can be used for faster rendering
+    - `1/2` means 1 data point per 2 pixels; `1/10` means 1 data point per 10
+      pixels
+
+### Variables
+
+- `$__rate_interval`
+  - `max($__interval + Scrape interval, 4 * Scrape interval)`
+    - where scrape interval is scrape interval of the metric if `Min step` is
+      not set
 
 ## Kubernetes
 
