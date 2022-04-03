@@ -39,6 +39,12 @@ net use \\192.168.1.300
 
 Note that this command is useful to troubleshoot any connection issue.
 
+##### To delete password saved for a connection to network drive
+
+```bat
+net use \\192.168.1.300 /delete
+```
+
 #### To loop through files [documentation](https://technet.microsoft.com/zh-tw/library/cc753551.aspx)
 
 ##### To delete log files more than 30 days old
