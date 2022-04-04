@@ -1,4 +1,5 @@
 - [Managing a junior team](#managing-a-junior-team)
+- [Leading engineering teams](#leading-engineering-teams)
 ____
 
 ### Managing a junior team
@@ -54,3 +55,38 @@ Orosz](https://twitter.com/GergelyOrosz/status/1459183541682593794)
   - can you bring in seniors externally (such as contractors) for the sake of
     monitoring?
   - do celebrate progress and wins. one step at a time
+
+### Leading engineering teams
+
+Reference: [An engineering leader's journey
+](https://icecrime.net/life/technology/an-engineering-leader-journey/) by Arnaud
+Porterie
+
+- common bottlenecks
+  - insufficient clarity on strategy causing a lack of alignment toward
+    priorities
+  - excessive work in progress
+  - a difficulty to move away from highly coupled historical systems all while
+    keeping the business going
+- ![heatmap of activity of teams in relation to business
+  outcomes](https://icecrime.net/images/2020-10-19-an-engineering-leader-journey/heatmap.jpg)
+- conclusions
+  - Top-down initiatives are expected but having the majority of your product
+    teams’ effort allocated to them is not a good sign: it begs the question of
+    individual teams empowerment and the true autonomy of Product Managers.
+  - The more initiatives a given team is contributing to, the more likely it
+    will fail delivering on some combination of them. One can argue that a high
+    number of small-ish things is fine, but experience shows it rarely is:
+    context switching has a cost, and the likelihood of one of these small-ish
+    things to reveal itself as a Pandora’s Box cannot be ignored.
+  - For a given initiative, the number of impacted teams is of interest, if only
+    as a proxy of the amount of coordination it will require, but more important
+    is the existing contention of teams on its path. It sometimes takes a single
+    team’s miss for an entire initiative to fail, and that risk grows as teams
+    are spread thinner.
+  - It’s a good model for examining roughly the “compatibility” of an initiative
+    to be potentially started with the existing workloads on the team, or the
+    inverse results of stopping one.
+  - It’s a good model to support discussions of technical coupling and the value
+    or architectural work (which could be the topic of an entire blog post
+    itself) as it makes interdependencies more apparent.
