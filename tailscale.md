@@ -3,6 +3,7 @@
 - [CLI](#cli)
   * [To show routes of Tailscale](#to-show-routes-of-tailscale)
   * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
+  * [To show login URL as QR code](#to-show-login-url-as-qr-code)
   * [To copy files to another device](#to-copy-files-to-another-device)
 - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
@@ -36,6 +37,12 @@ route print
 
 ```sh
 sudo tailscale up --accept-routes
+```
+
+### To show login URL as QR code
+
+```sh
+sudo tailscale up --qr
 ```
 
 ### To copy files to another device
