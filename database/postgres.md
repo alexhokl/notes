@@ -5,6 +5,7 @@
   * [Performance](#performance)
   * [JSON](#json)
   * [Array and join (Cartesian product)](#array-and-join-cartesian-product)
+  * [Array and count](#array-and-count)
 ____
 
 ## Links
@@ -215,3 +216,16 @@ FROM
 
 Assuming there are 1 customer and 5 order associated with the customer and each
 order has 5 items, the above query results in 25 rows of data.
+
+### Array and count
+
+```sql
+SELECT
+    c."customer_name",
+    o."timestamp",
+    json_array_length(o."detail" -> 'items') as cnt
+FROM
+    public."customer" as c JOIN
+    public."order" o ON
+        o."customer_id" = c."customer_id"
+```
