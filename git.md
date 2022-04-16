@@ -310,10 +310,16 @@ git stash apply
 
 ##### Submodule
 
-###### To add a submodule with an alias
+###### To add a submodule
 
 ```sh
 git submodule add https://github.com/alexhokl/library path/to/library
+```
+
+###### To add a submodule of specific branch
+
+```sh
+git submodule add -b your-branch https://github.com/alexhokl/library path/to/library
 ```
 
 ###### To retrieve submodules from a new clone
