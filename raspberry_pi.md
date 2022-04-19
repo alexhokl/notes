@@ -7,6 +7,8 @@
   * [Google Assistant and Dialogflow](#google-assistant-and-dialogflow)
   * [Zigbee](#zigbee)
   * [Bluetooth](#bluetooth)
+- [Camera](#camera)
+  * [Commands](#commands)
 ____
 
 ## Projects
@@ -92,3 +94,43 @@ ____
 ### Bluetooth
 
 - [Scan For BLE iBeacon Devices With Golang On A Raspberry Pi Zero W](https://www.thepolyglotdeveloper.com/2018/02/scan-ble-ibeacon-devices-golang-raspberry-pi-zero-w/)
+
+## Camera
+
+### Commands
+
+##### To capture a picture
+
+```sh
+libcamera-still -o test.jpg
+```
+
+##### To capture a video
+
+```sh
+libcamera-vid --codec h264 -t 5000 -o test.h264
+```
+
+Note that the following codecs are available.
+
+- `h264` (default)
+- `mjpeg`
+- `yuv420`
+
+##### To stream a video
+
+```sh
+libcamera-vid -t 0 --inline --listen -o tcp://0.0.0.0:30000
+```
+
+To connect to the stream, the following URL can be used.
+
+```
+tcp/h264://pi4:30000
+```
+
+Note that the following firewall rule may need to be enabled.
+
+```sh
+sudo ufw allow in on tailscale0 to any port 30000
+```
