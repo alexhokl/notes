@@ -1,5 +1,6 @@
 
 ____
+
 ##### Posting with JSON payload
 
 ```sh
@@ -10,6 +11,12 @@ which is equivalent to
 
 ```sh
 curl -X POST -H "Content-Type: application/json" -d '{ "property1": "value1", "property2":100 }' http://localhost/testing
+```
+
+##### To pass a bear token
+
+```sh
+xh -A bearer -a $TOKEN http://localhost/testing
 ```
 
 ##### Use header
@@ -27,7 +34,7 @@ curl -H "Content-Type: application/json" http://localhost/testing
 ##### To show only headers in the output
 
 ```sh
-xh --headers http://localhost/testing
+xh -h http://localhost/testing
 ```
 
 which is similar to
