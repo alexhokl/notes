@@ -41,7 +41,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:xa` to save all files and exit
 - <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode)
 - <kbd>V</kbd> to select a line visually
-- `:Maps` to search for a configured mapping
+- <kbd>,</kbd><kbd>m</kbd> to search for a configured mapping
 
 ### Navigation
 
@@ -59,16 +59,20 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>ctrl</kbd><kbd>y</kbd> to scroll up
 - <kbd>ctrl</kbd><kbd>f</kbd> to scroll down one page
 - <kbd>ctrl</kbd><kbd>b</kbd> to scroll up one page
-- <kbd>z</kbd><kbd>t</kbd> to scroll the current line to the top of window
+- <kbd>z</kbd><kbd>t</kbd> to move cursor to the top of window
+- <kbd>z</kbd><kbd>z</kbd> to move cursor to the middle of window
+- <kbd>z</kbd><kbd>b</kbd> to move cursor to the bottom of window
 - <kbd>\`</kbd><kbd>\`</kbd> to move cursor to previous position
 - <kbd>\`</kbd><kbd>.</kbd> to move cursor to previous edited position
+- <kbd>ctrl</kbd><kbd>o</kbd> to jump back the to the previous position (in the
+  jump list)
+- <kbd>ctrl</kbd><kbd>i</kbd> to jump forward to the next position (after a jump
+  back)(in the jump list)
+- <kbd>,</kbd><kbd>j</kbd> to show the current jump list
 - <kbd>g</kbd><kbd>i</kbd> to move cursor to previous insert position
 - <kbd>g</kbd><kbd>;</kbd> to move the previous position in the change list
 - <kbd>g</kbd><kbd>,</kbd> to move the next position in the change list
-- <kbd>g</kbd><kbd>v</kbd> to select the previous visual
-- <kbd>w</kbd> to jump to the next word
-- <kbd>b</kbd> to jump back to the last word
-- <kbd>space</kbd> put current cursor in center of the screen
+- <kbd>g</kbd><kbd>v</kbd> to select the previous visual selection
 - <kbd>m</kbd><kbd>a</kbd> to mark the current cursor position to register `a`
 - <kbd>m</kbd><kbd>A</kbd> to mark the current cursor position to register `A`
   and it can be used in a different buffer
@@ -87,11 +91,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   line
 - <kbd>[</kbd><kbd>{</kbd> to jump to the opening of the current curly brackets
 - <kbd>]</kbd><kbd>}</kbd> to jump to the closing of the current curly brackets
-- <kbd>ctrl</kbd><kbd>o</kbd> to jump back the to the previous position (in the
-  jump list)
-- <kbd>ctrl</kbd><kbd>i</kbd> to jump forward to the next position (after a jump
-  back)(in the jump list)
-- `:jumps` to show the current jump list
 - <kbd>g</kbd><kbd>x</kbd> in a (proper) link to open a browser
 - <kbd>g</kbd><kbd>f</kbd> in a file page to open the file in a buffer
 - `:echo expand('%:p')` to show current path
@@ -115,10 +114,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>]</kbd><kbd>e</kbd> to move the current line down
 - <kbd>K</kbd> to move the current visually selected block up by one line
 - <kbd>J</kbd> to move the current visually selected block down by one line
-- <kbd>g</kbd><kbd>s</kbd> to swap function/method arguments (use <kbd>h</kbd>
-  and <kbd>l</kbd> to swap and <kbd>j</kbd> and <kbd>k</kbd> to select)
-- <kbd>g</kbd><kbd>s</kbd> to swap a visually selected list (use <kbd>h</kbd>
-  and <kbd>l</kbd> to swap and <kbd>j</kbd> and <kbd>k</kbd> to select)
+- <kbd>,</kbd><kbd>a</kbd> to swap the current function/method arguments with
+  the next
+- <kbd>,</kbd><kbd>A</kbd> to swap the current function/method arguments with
+  the previous
 - <kbd>y</kbd><kbd>y</kbd> to copy the current line
 - <kbd>c</kbd><kbd>2</kbd><kbd>i</kbd><kbd>(</kbd> to change all words in the
   outer brackets. `a(b(c))` &rarr; `a()`
@@ -160,12 +159,13 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:g/ASearchWord/norm @q` to apply macro stored in register `q` to all lines
   containing `ASearchWord`
 - `:g/^\s*$/d` to delete all empty lines
-- <kbd>ctrl</kbd><kbd>f</kbd> to search in the current repository
+- <kbd>ctrl</kbd><kbd>t</kbd> to search in the current repository
 - <kbd>,</kbd><kbd>F</kbd> to search for the current word in the current
   repository
-- yank and replace can be done by yanking first, delete the words to be
-  replaced, and `"0p`. It works because register `0` always stores the last
-  yanked content.
+- <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to search for symbols in the current
+  buffer
+- <kbd>,</kbd><kbd>t</kbd><kbd>o</kbd><kbd>d</kbd><kbd>o</kbd> to search for
+  `TODO`, `FIX`, `HACK`, `WARN`, `PERF` and `NOTE`
 
 ### Indentation
 
@@ -180,8 +180,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   current file
 - `:retab` to replace all tabs with spaces
 - visually select lines and <kbd>g</kbd><kbd>q</kbd> to format those lines
-- visually select lines and `:Tabularize /:` to align `:` in the line
-- visually select markdown table lines and `:Tabularize /|` to align `|` in the
+- visually select table and <kbd>,</kbd><kbd>t</kbd> to align `|` in the
   table
 
 ### Uppercases/Lowercases
@@ -213,8 +212,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   words with two texts (prefix and suffix could be different)
 - <kbd>s</kbd><kbd>a</kbd><kbd>2</kbd><kbd>w</kbd><kbd>t</kbd> to surround two
   words with a tag
-- <kbd>s</kbd><kbd>r</kbd><kbd>"</kbd><kbd>'</kbd> to replace surrounded double
-  quotes with single quote
 
 ### Commenting
 
@@ -224,21 +221,19 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Multicursors
 
-- <kbd>ctrl</kbd><kbd>i</kbd> to select the current pattern or advance to the
+- <kbd>ctrl</kbd><kbd>d</kbd> to select the current pattern or advance to the
   next instance of the current pattern
-- <kbd>ctrl</kbd><kbd>y</kbd> to select the previous instance of the current
+- <kbd>q</kbd> to skip to the next instance of the current
   pattern
-- <kbd>ctrl</kbd><kbd>b</kbd> to skip to the next instance of the current
-  pattern
-- <kbd>esc</kbd> to remove multi-cursors
+- <kbd>Q</kbd> to remove multi-cursors
 
 ### Buffers
 
-- <kbd>ctrl</kbd><kbd>b</kbd> to select buffers
+- <kbd>,</kbd><kbd>b</kbd> to select buffers
 - <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between
   file buffers in a direction
 - <kbd>ctrl</kbd><kbd>^</kbd> to jump to the previous buffer
-- <kbd>ctrl</kbd><kbd>w</kbd> to change buffer
+- <kbd>ctrl</kbd><kbd>w</kbd> to jump to the next buffer
 - <kbd>ctrl</kbd><kbd>w</kbd><kbd>ctrl</kbd><kbd>^</kbd> to open previous
   buffer in a split
 - <kbd>ctrl</kbd><kbd>h</kbd> to jump to the split on the left
@@ -258,8 +253,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   replaced by `Base`
 - <kbd>,</kbd><kbd>q</kbd> to close a buffer
 - <kbd>,</kbd><kbd>w</kbd> to write current buffer to disk
-- <kbd>,</kbd><kbd>W</kbd> to trim all whitespace without writing to disk
-- `:only` to close all other buffers except the current one
+- `:only` to close all other splits except the current one
 - `:ls` to list all buffers
 - `:b 2` to change to second buffer
 - `:b doc`<kbd>tab</kbd> to change to a buffer with file prefixed with `doc`
@@ -278,16 +272,69 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>5</kbd><kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1`
   5 times
 - `:reg` to list the current registers
-- By default, yank and paste use register `"`
+- By default, yank and paste use register `"0`
 - <kbd>V</kbd><kbd>"</kbd><kbd>a</kbd><kbd>y</kbd> yanks the current line to
   register `a` (and the default register `"`)
 - <kbd>"</kbd><kbd>a</kbd><kbd>p</kbd> paste from register `a`
+- yank and replace can be done by yanking first, delete the words to be
+  replaced, and `"0p`. It works because register `0` always stores the last
+  yanked content.
 
-### Errors
+### LSP
 
-- `:clist` to list all errors
-- `:cn` to advance to the next error
-- `:cp` to go to the previous error
+- <kbd>g</kbd><kbd>r</kbd> to find usages
+- <kbd>g</kbd><kbd>i</kbd> to find implementations
+- <kbd>K</kbd> show documentation
+- <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
+- <kbd>,</kbd><kbd>f</kbd><kbd>f</kbd> to format code
+- <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
+
+### Treesitter
+
+- `:TSPlayground` to open the playgrounds
+  - `o` to open a query buffer
+- `:TSConfigInfo` to list current configuration
+- text objects
+  - `f` function or method
+  - `c` call of function or method
+  - `i` condition
+  - `l` loop
+  - `p` parameter
+  - `na` next argument (parameter)
+  - `la` last argument (parameter)
+  - `a` current argument (parameter)
+- <kbd>m</kbd> on a visual selection to select a bigger scope of visual
+  selection
+
+### C#
+
+- <kbd>,</kbd><kbd>/</kbd> at signature to add XML comments
+- <kbd>ctrl</kbd><kbd>b</kbd> to build
+
+### Go
+
+- <kbd>ctrl</kbd><kbd>b</kbd> to install
+
+### Git
+
+- <kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> to show un-committed files and use `-` to
+  toggle un-staged and staged files
+- <kbd>,</kbd><kbd>g</kbd><kbd>a</kbd> to add the current file as staged file
+- <kbd>,</kbd><kbd>g</kbd><kbd>b</kbd> to show blame lines (and toggle)
+  - and <kbd>o</kbd> on the line in question to check the changes of that last
+    commit
+- <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file
+  (effectively discarding current changes)
+- <kbd>,</kbd><kbd>g</kbd><kbd>d</kbd> to show diff of the current file
+  - <kbd>]</kbd><kbd>c</kbd> to jump to the next diff
+  - <kbd>[</kbd><kbd>c</kbd> to jump back to the previous diff
+- `:Gdiff origin/master` to show diff between `master` and the current branch
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>l</kbd> show logs of the current file
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>r</kbd>show logs of the current
+  repository
+- <kbd>,</kbd><kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
+- <kbd>,</kbd><kbd>g</kbd><kbd>y</kbd> to copy link to the current selected
+  line(s)
 
 ### Folding
 
@@ -295,6 +342,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>z</kbd><kbd>c</kbd> to close a folding
 - <kbd>z</kbd><kbd>o</kbd> to open a folding
 - `:set foldlevel=1` to fold up level 2 and deeper
+  (equivalent to <kbd>,</kbd><kbd>c</kbd><kbd>2</kbd>)
+- <kbd>,</kbd><kbd>c</kbd><kbd>0</kbd> to collapse all
+- <kbd>,</kbd><kbd>c</kbd><kbd>9</kbd> to expand all
 
 ### File search
 
@@ -302,13 +352,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### File explorer (netrw)
 
-- `:Vex` to open a file explorer (netrw)
-
-#### In netrw
-
-- <kbd>D</kbd> to delete a file
-- <kbd>d</kbd> to create a directory
-- <kbd>%</kbd> to create a directory
+- <kbd>,</kbd><kbd>n</kbd> to open file explorer
+- <kbd>o</kbd> to open selected file
 
 #### Sorting
 
@@ -342,69 +387,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:ll2` to select the second option in a quickfix list
 - `:lcl` to close the quickfix list
 
-### Git
+### Errors
 
-- <kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> to show un-committed files and use `-` to
-  toggle un-staged and staged files
-- <kbd>,</kbd><kbd>g</kbd><kbd>a</kbd> to add the current file as staged file
-- <kbd>,</kbd><kbd>g</kbd><kbd>b</kbd> to show blame lines (and toggle)
-  - and <kbd>o</kbd> on the line in question to check the changes of that last
-    commit
-- <kbd>,</kbd><kbd>g</kbd><kbd>m</kbd> to commit all current staged files and
-  put a message
-- <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file
-  (effectively discarding current changes)
-- <kbd>,</kbd><kbd>g</kbd><kbd>d</kbd> to show diff of the current file
-  - <kbd>]</kbd><kbd>c</kbd> to jump to the next diff
-  - <kbd>[</kbd><kbd>c</kbd> to jump back to the previous diff
-- `:Gdiff origin/master` to show diff between `master` and the current branch
-- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd> show logs of the current file in a
-  location list
-- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>r</kbd>show logs of the current
-  repository in a location list
-- <kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
-
-### C#
-
-- <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to list the members (methods or
-  properties) in the current buffer
-- <kbd>g</kbd><kbd>r</kbd> to find usages
-- <kbd>,</kbd><kbd>g</kbd><kbd>i</kbd> to find implementations
-- <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to find symbols (pretty much like
-  <kbd>ctrl</kbd><kbd>t</kbd> in ReSharper)
-- <kbd>K</kbd> show documentation
-- <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
-- <kbd>,</kbd><kbd>f</kbd><kbd>x</kbd> to fix `using` statements
-- <kbd>,</kbd><kbd>c</kbd><kbd>f</kbd> to format code
-- <kbd>,</kbd><kbd>f</kbd> to format visually selected code
-- <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
-- <kbd>]</kbd><kbd>m</kbd> to jump to the next method/property
-- <kbd>[</kbd><kbd>m</kbd> to jump to the previous method/property
-- `:OmniSharpRunTest` to run unit test of the test method containing the
-  current cursor
-- `:OmniSharpRunTestsInFile` to run unit tests in the current file
-- `:OmniSharpRestartServer` to reload the current solution
-
-### Go
-
-- <kbd>,</kbd><kbd>s</kbd> to show definition at bottom
-- <kbd>,</kbd><kbd>v</kbd> to show definition on the side
-- <kbd>,</kbd><kbd>b</kbd> to build
-- <kbd>,</kbd><kbd>r</kbd><kbd>v</kbd> to run and show on the side
-- <kbd>,</kbd><kbd>t</kbd> to test
-- <kbd>,</kbd><kbd>d</kbd><kbd>t</kbd> to test compile
-- <kbd>,</kbd><kbd>d</kbd> to show documentation
-- <kbd>[</kbd><kbd>[</kbd> jump to the previous function
-- <kbd>]</kbd><kbd>]</kbd> jump to the next function
-- <kbd>,</kbd><kbd>e</kbd> to rename
-- <kbd>v</kbd><kbd>i</kbd><kbd>f</kbd> to visually select body of a function
-  (not including function signature)
-- <kbd>v</kbd><kbd>a</kbd><kbd>f</kbd> to visually select the whole function
-  including its comments
-- `:GoCoverage` to start code coverage
-- `:GoCoverageClear` to remove highlights of code coverage
-- `:GoCoverageToggle` to toggle highlights of code coverage
-- `:GoAddTags json` to add json field tags to a model `struct`
+- `:clist` to list all errors
+- `:cn` to advance to the next error
+- `:cp` to go to the previous error
 
 ### Snippets
 
@@ -414,12 +401,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - [HTML](https://github.com/honza/vim-snippets/blob/master/snippets/html.snippets)
 - [Dart](https://github.com/honza/vim-snippets/blob/master/snippets/dart.snippets)
 - [markdown](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets)
-
-### Treesitter
-
-- `:TSPlayground` to open the playgrounds
-  - `o` to open a query buffer
-- `:TSConfigInfo` to list current configuration
 
 ### vimrc
 
@@ -432,13 +413,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Help pages
 
-- `:h vimtutor` - vim tutor
-- `:h unimpaired` - vim-unimpaired
-- `:h surround` - vim-surround
-- `:h fugitive` - vim-fugitive
-- `:h v_something` to check command `something` in visual mode
-- `:h i_something` to check command `something` in insert mode
-- `:helpgrep searchWord` to look for `searchWord` in all help files
+- <kbd>,</kbd><kbd>f</kbd><kbd>h</kbd> to search help
 
 ### Starting vim
 
