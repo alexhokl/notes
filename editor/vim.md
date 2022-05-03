@@ -285,9 +285,14 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>g</kbd><kbd>r</kbd> to find usages
 - <kbd>g</kbd><kbd>i</kbd> to find implementations
 - <kbd>K</kbd> show documentation
+- <kbd>g</kbd><kbd>d</kbd> go to definition
+- <kbd>g</kbd><kbd>D</kbd> go to declaration
+- <kbd>,</kbd><kbd>D</kbd> show type definition
 - <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
 - <kbd>,</kbd><kbd>f</kbd><kbd>f</kbd> to format code
 - <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
+- <kbd>,</kbd><kbd>l</kbd><kbd>e</kbd> to show line diagnostics
+- <kbd>,</kbd><kbd>e</kbd> to show all diagnostics
 
 ### Treesitter
 
@@ -315,6 +320,13 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 - <kbd>ctrl</kbd><kbd>b</kbd> to install
 
+### Markdown
+
+- <kbd>,</kbd><kbd>t</kbd> to align table cells
+- <kbd>,</kbd><kbd>c</kbd><kbd>o</kbd> to start a code block
+- <kbd>,</kbd><kbd>k</kbd> to wrap the current character with `<kbd></kbd>`
+- <kbd>,</kbd><kbd>h</kbd><kbd>3</kbd> to mark the current line as header `###`
+
 ### Git
 
 - <kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> to show un-committed files and use `-` to
@@ -323,6 +335,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>g</kbd><kbd>b</kbd> to show blame lines (and toggle)
   - and <kbd>o</kbd> on the line in question to check the changes of that last
     commit
+- <kbd>,</kbd><kbd>t</kbd><kbd>b</kbd> to show blame of the current line
+- <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>c</kbd> to last change of the current
+  line
 - <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file
   (effectively discarding current changes)
 - <kbd>,</kbd><kbd>g</kbd><kbd>d</kbd> to show diff of the current file
@@ -350,10 +365,13 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 <kbd>ctrl</kbd><kbd>p</kbd> to search a file in the current repository
 
-### File explorer (netrw)
+### File explorer (nvim-tree.lua)
 
-- <kbd>,</kbd><kbd>n</kbd> to open file explorer
-- <kbd>o</kbd> to open selected file
+- <kbd>,</kbd><kbd>n</kbd> to toggle file explorer
+- <kbd>?</kbd> to toggle help
+- <kbd>m</kbd> to rename
+- <kbd>d</kbd> to remove
+- <kbd>H</kbd> to toggle hidden files
 
 #### Sorting
 
