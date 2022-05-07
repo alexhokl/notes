@@ -10,18 +10,23 @@
   * [Multicursors](#multicursors)
   * [Buffers](#buffers)
   * [Macro and registers](#macro-and-registers)
-  * [Errors](#errors)
+  * [LSP](#lsp)
+  * [Treesitter](#treesitter)
+  * [C#](#c%23)
+  * [Go](#go)
+  * [Markdown](#markdown)
+  * [SQL](#sql)
+  * [Git](#git)
   * [Folding](#folding)
   * [File search](#file-search)
-  * [File explorer (netrw)](#file-explorer-netrw)
+  * [File explorer (nvim-tree.lua)](#file-explorer-nvim-treelua)
   * [Terminal](#terminal)
   * [Quickfix list](#quickfix-list)
   * [Location list](#location-list)
-  * [Git](#git)
-  * [C#](#c%23)
-  * [Go](#go)
+  * [Errors](#errors)
+  * [Twilight](#twilight)
+  * [Debugging (vimspector)](#debugging-vimspector)
   * [Snippets](#snippets)
-  * [Treesitter](#treesitter)
   * [vimrc](#vimrc)
   * [Help pages](#help-pages)
   * [Starting vim](#starting-vim)
@@ -226,6 +231,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>q</kbd> to skip to the next instance of the current
   pattern
 - <kbd>Q</kbd> to remove multi-cursors
+- <kbd>alt</kbd><kbd>down</kbd> to move cursor down
+- <kbd>alt</kbd><kbd>up</kbd> to move cursor up
 
 ### Buffers
 
@@ -327,6 +334,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>k</kbd> to wrap the current character with `<kbd></kbd>`
 - <kbd>,</kbd><kbd>h</kbd><kbd>3</kbd> to mark the current line as header `###`
 
+### SQL
+
+- <kbd>F5</kbd> to execute query in buffer or visually selected query
+- <kbd>ctrl</kbd><kbd>t</kbd> to switch database connection
+
 ### Git
 
 - <kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> to show un-committed files and use `-` to
@@ -410,6 +422,14 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:clist` to list all errors
 - `:cn` to advance to the next error
 - `:cp` to go to the previous error
+
+### Twilight
+
+- <kbd>,</kbd><kbd>l</kbd><kbd>l</kbd> to toggle twilight highlight
+
+### Debugging (vimspector)
+
+- <kbd>,</kbd><kbd>d</kbd><kbd>r</kbd> to start debugging on .NET, Go, C or C++
 
 ### Snippets
 
