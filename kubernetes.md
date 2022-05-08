@@ -13,6 +13,7 @@
   * [RBAC and sudo](#rbac-and-sudo)
 - [API](#api)
 - [Ingress](#ingress)
+  * [Ingress class](#ingress-class)
   * [Nginx](#nginx)
 - [References](#references)
 - [kind](#kind)
@@ -713,6 +714,12 @@ SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECR
 ```
 
 ## Ingress
+
+### Ingress class
+
+`kubernetes.io/ingress.class: nginx` or `kubernetes.io/ingress.class: haproxy`
+should be used to define the ingress controller to be used. Otherwise, on GCP,
+a load balancer will be created per ingress which can be very expensive.
 
 ### Nginx
 
