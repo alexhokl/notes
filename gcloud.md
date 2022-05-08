@@ -287,6 +287,16 @@ gcloud compute firewall-rules create instance-rule --allow tcp:80,tcp:443
 gcloud compute firewall-rules list
 ```
 
+This effectively shows the IP addresses associated with a load balancer
+
+##### To list backend services
+
+```sh
+gcloud compute backend-services list
+```
+
+This effectively shows the backend services associated with a load balancer
+
 ##### SSH
 
 ```sh
