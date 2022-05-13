@@ -47,6 +47,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode)
 - <kbd>V</kbd> to select a line visually
 - <kbd>,</kbd><kbd>m</kbd> to search for a configured mapping
+- <kbd>,</kbd><kbd>?</kbd> to show configured leader keys
 
 ### Navigation
 
@@ -299,7 +300,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>f</kbd><kbd>f</kbd> to format code
 - <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
 - <kbd>,</kbd><kbd>l</kbd><kbd>e</kbd> to show line diagnostics
-- <kbd>,</kbd><kbd>e</kbd> to show all diagnostics
+- <kbd>,</kbd><kbd>e</kbd><kbd>r</kbd> to show all diagnostics
+- <kbd>,</kbd><kbd>e</kbd><kbd>d</kbd> to show diagnostics of the current buffer
 
 ### Treesitter
 
