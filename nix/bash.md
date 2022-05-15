@@ -202,6 +202,14 @@ groups
 usermod -a -G your-group your-username
 ```
 
+##### To check status of an account
+
+```sh
+passwd -S your-username
+```
+
+Note that this can check if an account has been locked.
+
 ### Disks
 
 ##### To check free space and file system types
