@@ -4,7 +4,7 @@ ____
 ###### To zip a directory
 
 ```sh
-zip compressed.zip some-directory/
+zip compressed.zip -r some-directory/
 ```
 
 ###### To unzip to a directory
