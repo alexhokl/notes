@@ -340,6 +340,61 @@ See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-n
     Both of these practices mix Inversion of Control strategies.
   - Avoid static access to `HttpContext` (for example, `IHttpContextAccessor.HttpContext`).
 
+##### Dependency injection
+
+- Constructor injection
+  - good practices
+    - it makes service cannot be constructed without its dependencies
+    - assign injected dependency to a read only field
+- Property injection
+  - not supported by ASP.NET and third-party container is needed
+  - good practices
+    - used only for optional dependencies
+    - use null object pattern or always check for null
+- Service locator
+  ```
+  public ProductService(IServiceProvider serviceProvider)
+  {
+    _logger = serviceProvider.GetService<ILogger<ProductService>>() ?? NullLogger<ProductService>.Instance;
+  }
+
+  ```
+  - good practices
+    - should not be used then service type is known in development time
+      - it makes unit tests harder to be mocked
+    - resolve dependencies in the service constructor if possible
+      - resolving in a service method makes the application more complicated and
+        error prone
+- Service life times
+  - types
+    - transient
+      - created every time upon injection
+    - scoped
+      - created per scope
+      - in ASP.NET, every web request creates a new scope
+    - singleton
+      - created per DI container
+  - good practices
+    - use transient whenever possible
+      - multi-threading and memory leaks are generally not a concern
+    - scoped can be tricky when there is child scope or non-web application
+      - it is an optimisation for web application
+      - `HttpContextAccessor` implementation uses `AsyncLocal` to share the same
+        `HttpContext` during a web request
+    - take care of multi-threading and potential memory leak when using
+      singleton
+    - do not depend on a transient or scoped service from a singleton service
+      - ASP.NET default DI container throws exception by default
+- Resolving services in a method
+  - create a scope using `IServiceProvider.CreateScope()` and use
+    `scope.ServiceProvider.GetRequiredService(aServiceType)`
+  - injecting a scoped service in a child scope will result in a new instance of
+    service being created
+- Singleton
+  - use thread-safe constructs like `ConcurrentDictionary` to hold a state
+  - avoid memory leaks by releasing/disposing objects at the right time and not
+    until the end of the application
+
 ##### Dynamic dependency injection
 
 In `Startup.cs`,
