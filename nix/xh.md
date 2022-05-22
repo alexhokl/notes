@@ -13,6 +13,15 @@ which is equivalent to
 curl -X POST -H "Content-Type: application/json" -d '{ "property1": "value1", "property2":100 }' http://localhost/testing
 ```
 
+##### To post with form data
+
+```sh
+xh post --auth $CLIENT_ID:$CLIENT_SECRET -b -f https://localhost/connect/token grant_type=client_credentials scope=api
+```
+
+where `-b` is to print response body only and `-f` is to serialise data as form
+data instead of JSON.
+
 ##### To pass a bear token
 
 ```sh
