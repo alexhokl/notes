@@ -339,6 +339,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 - <kbd>F5</kbd> to execute query in buffer or visually selected query
 - <kbd>ctrl</kbd><kbd>t</kbd> to switch database connection
+  - connections are configured in `$HOME/.config/sqls/config.yml`
 
 ### Git
 
@@ -490,3 +491,5 @@ vim -O src/hello.js src/world.js
   a visualisation of key combinations
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
   a collections of awesome Neovim plugins
+- [Getting started using Lua in
+  Neovim](https://github.com/nanotee/nvim-lua-guide)
