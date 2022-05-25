@@ -17,6 +17,7 @@
   * [Markdown](#markdown)
   * [SQL](#sql)
   * [Git](#git)
+  * [Scripting](#scripting)
   * [Folding](#folding)
   * [File search](#file-search)
   * [File explorer (nvim-tree.lua)](#file-explorer-nvim-treelua)
@@ -30,7 +31,7 @@
   * [vimrc](#vimrc)
   * [Help pages](#help-pages)
   * [Starting vim](#starting-vim)
-- [Scripting](#scripting)
+- [Scripting](#scripting-1)
   * [References](#references)
 ____
 
@@ -364,6 +365,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
 - <kbd>,</kbd><kbd>g</kbd><kbd>y</kbd> to copy link to the current selected
   line(s)
+
+### Scripting
+
+- `:lua vim.pretty_print(1);` to print `1`
+- `:lua vim.pretty_print(vim.fn.getpid());` to print process ID
 
 ### Folding
 
