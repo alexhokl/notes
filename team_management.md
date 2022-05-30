@@ -1,5 +1,6 @@
 - [Managing a junior team](#managing-a-junior-team)
 - [Leading engineering teams](#leading-engineering-teams)
+- [Company culture](#company-culture)
 ____
 
 ### Managing a junior team
@@ -90,3 +91,53 @@ Porterie
   - It’s a good model to support discussions of technical coupling and the value
     or architectural work (which could be the topic of an entire blog post
     itself) as it makes interdependencies more apparent.
+
+### Company culture
+
+Reference: [The patient change
+agent](https://cutle.fish/blog/the-patient-change-agent)
+
+##### Find out the problem
+
+Observe for three months and try to answer the following questions.
+
+- What forces are holding the problem in place?
+- Who benefits from the status quo? Who will benefit from resolving the issue?
+- Why wasn’t the org able to fix this?
+- Does someone’s job involving fixing this? What is stopping them? Are they
+  trying? Does someone’s job exist because this isn’t fixed?
+- Are there benefits that I’m not seeing?
+- How does change actually happen here?
+- Has anything “worked”? Is there any momentum in terms of fixing the issue?
+- Who has “skin in the game” vs. a secondhand interest in seeking improvement?
+- Will anyone lose their job if the problem persists? Why?
+- How is the status quo meeting people’s needs? Is there some shared vision of
+  the future that might also meet people’s needs? Journaling helps you stay
+  objective, and also gives you an outlet .
+
+##### Run experiments
+
+- The emphasis of an experiment is not on ensuring success or avoiding failure,
+  but in allowing ideas that are not useful to fail in small, contained and
+  tolerable ways
+- Observable and time-bound. You’ll get data relatively quickly
+- Involve invitation, not imposition
+- Above all, the key thing here is to make them safe to fail. At no point should
+  you put your job/career/well-being/sanity/relationships/enthusiasm in
+  jeopardy. Never. It’s not worth it
+
+##### Successful changes
+
+- People will invite you to meetings to talk about it, and learn more about it
+- Other parts of the organization will adopt it
+- You’ll have volunteers to help you grow the idea
+- Someone will try to take credit for it (a good sign)
+- People will reach out to thank you
+- It will grow organically and virally. You will sense the momentum and
+  excitement. It will be palpable. No momentum... then it isn’t working.
+
+##### Take stock
+
+- Set a concrete stay/leave goal…if your “score” remains undecided (or less) for
+  an extended period of time (e.g three months), consider leaving at your twelve
+  month mark
