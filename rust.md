@@ -3,6 +3,10 @@
   * [Declarations](#declarations)
   * [Control flow](#control-flow)
   * [Compound data type](#compound-data-type)
+  * [Packages, crates and modules](#packages-crates-and-modules)
+  * [Collections](#collections)
+  * [String and string slice](#string-and-string-slice)
+  * [Hash map](#hash-map)
   * [Others](#others)
 ____
 
@@ -270,6 +274,120 @@ fn main() {
         true,
     );
     user3.print();
+}
+```
+
+### Packages, crates and modules
+
+- each package
+  - zero or multiple binary crates
+    - `main.rs` is a binary crate
+    - each `.rs` file in `bin` directory is a binary crate
+  - zero or one library crate
+    - `lib.rs` is a library crate
+- a package can be a binary or a bunch of source code
+- each crate contains a root module and named as `crate`
+- module is defined by `mod`
+- modules can be nested and submodules are private to root module by default
+  - `pub` is needed to allow access
+- the first level of submodules are define in the same directrory as `lib.rs`
+  - sumodules of a first level submodule are in a directory with the name of the
+    first level submodule
+    - example
+      - `lib.rs`
+      - `first_module.rs`
+      - `first_module/second_module.rs`
+- reference example
+  - `package_name::first_module::second_module::*`
+
+### Collections
+
+##### Vectors
+
+```rust
+let mut v1: Vec<i32> = Vec::new();
+v1.push(99);
+
+let v2 = vec![1, 2, 3];
+let index = 2;
+match v2.get(index) {
+  Some(i) => println!("the value is {}", i),
+  None => println!("invalid index"),
+};
+
+for i in &mut v1 {
+  *i += 2;
+}
+for i in &mut v1 {
+  println!("value is {}", i);
+}
+for i in &v2 {
+  println!("value is {}", i);
+}
+
+```
+
+### String and string slice
+
+```rust
+let s1: String = String::new();
+let s2: &str = "hello";
+let s3: String = String::from("world");
+
+let mut s4: String = s2.to_string();
+s4.push(' ');
+s4.push_str("world");
+
+let s5 = String::from("!");
+let s6: String = s4 + &s5; // s6 borrowed s4 and s4 cannot be referenced anymore
+let s7 = s2.to_string();
+let s8 = format!("{} {}", s7, s3);
+
+for b in s8.bytes() {
+  println!("{}", b);
+}
+for c in s8.chars() {
+  println!("{}", c);
+}
+```
+
+### Hash map
+
+It uses to store key-value pairs.
+
+```rust
+use std::collections::HashMap;
+
+fn main() {
+    // type specification is not required
+    // as it could be inferred from the the first insert usage
+    let mut scores = HashMap::new();
+
+    let blue = String::from("Blue");
+
+    scores.insert(blue, 10);    // blue cannot be referenced anymore since it has been borrowed by scores
+    scores.insert(String::from("Yellow"), 50);
+
+    let blue = String::from("Blue");
+    let score: Option<&i32> = scores.get(&blue);
+    println!("{:?}", score);
+
+    // overwrites a value of a key
+    scores.insert(String::from("Blue"), 25);
+
+    // this does nothing as key yellow exists
+    scores.entry(String::from("Yellow")).or_insert(99);
+
+    // writes a value of a key if it not exists
+    let red_score: &mut i32 = scores.entry(String::from("Red")).or_insert(99);
+
+    // updates value of red in scores
+    *red_score += 1;
+
+    // iterating over a hashmap
+    for (key, value) in &scores {
+        println!("{}: {}", key, value);
+    }
 }
 ```
 
