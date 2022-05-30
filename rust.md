@@ -151,6 +151,74 @@ let error_codes = [400, 401, 403, 409, 500];
 let conflict = error_codes[3];
 ```
 
+##### Enum
+
+```rust
+enum IpAddressVersion{
+  V4(u8, u8, u8, u8),
+  V6(String),
+}
+
+impl IpAddressVersion {
+  fn pretty_print(&self) {
+    match self {
+      IpAddressVersion::V4(a, b, c, d) => {
+        println!("{}.{}.{}.{}", a, b, c, d);
+      },
+      IpAddressVersion::V6(addr) => {
+        println!("{}", addr);
+      }
+    }
+  }
+}
+
+fn main() {
+  let localhost = IpAddressVersion::V4(127, 0, 0, 0);
+  let remote = IpAddressVersion::V6(String::from("fe80::42:dfff:fed6:9bb0"));
+  localhost.pretty_print();
+  remote.pretty_print();
+}
+```
+
+Note that `match` statement must exhause all possible values.
+
+There are no `null` in Rust and `Option<T>` is the way to indicate the
+possibility of having no value.
+
+```rust
+fn main() {
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+    let sum = x + y.unwrap_or(0);
+    println!("{}", sum);
+}
+```
+
+```rust
+fn plus_one(x: Option<i32>) -> Option<i32> {
+  match x {
+    None => None,
+    Some(i) => Some(i + 1),
+  }
+}
+```
+
+To have a default case
+
+```rust
+fn pretty_print(x: Option<i32>) {
+  match x {
+    Some(3) => {
+      println!("it is three. you got it!");
+    },
+    Some(i) => {
+      println!("it is not {}. it is another value", i);
+    },
+    _ => (),
+  }
+}
+```
+
 ##### Structure
 
 ```rust
