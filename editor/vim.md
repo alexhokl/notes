@@ -438,7 +438,86 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Debugging (vimspector)
 
-- <kbd>,</kbd><kbd>d</kbd><kbd>r</kbd> to start debugging on .NET, Go, C or C++
+- <kbd>,</kbd><kbd>d</kbd><kbd>c</kbd> or <kbd>F5</kbd> to start debugging
+- <kbd>,</kbd><kbd>d</kbd><kbd>r</kbd> to stop debugging
+- <kbd>,</kbd><kbd>d</kbd><kbd>b</kbd> or <kbd>F9</kbd> to toggle a breakpoint
+- <kbd>F10</kbd> to step over
+- <kbd>F11</kbd> to step into
+- <kbd>F12</kbd> to step out
+- to launch with arguments, fill in `args` in `.vimspector.json`
+
+##### Configuration for Go
+
+`.vimspector.json`
+
+```json
+{
+  "configurations": {
+    "run": {
+      "adapter": "delve",
+      "filetypes": [ "go" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${fileDirname}",
+        "args": [],
+        "mode": "debug"
+      }
+    }
+  }
+}
+```
+
+##### Configuration for .NET
+
+`.vimspector.json`
+
+```json
+{
+  "configurations": {
+    "launch - netcoredbg": {
+      "adapter": "netcoredbg",
+      "filetypes": [ "cs" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/bin/Debug/netcoreapp2.2/csharp.dll",
+        "args": [],
+        "stopAtEntry": true,
+        "cwd": "${workspaceRoot}",
+        "env": {}
+      }
+    },
+    "attach - netcoredbg": {
+      "adapter": "netcoredbg",
+      "filetypes": [ "cs" ],
+      "configuration": {
+        "request": "attach",
+        "cwd": "${workspaceRoot}",
+        "processId": "${processId}"
+      }
+    }
+  }
+}
+```
+
+##### Configuration for Rust
+
+`.vimspector.json`
+
+```json
+{
+  "configurations": {
+    "launch": {
+      "adapter": "CodeLLDB",
+      "filetypes": [ "rust" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/target/debug/vimspector_test",
+        "args": []
+      }
+    }
+  }
+}
+```
 
 ### Snippets
 
