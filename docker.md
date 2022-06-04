@@ -40,7 +40,7 @@ if the port in question has been published properly.
 
 #### Problem 3
 
-In case of Docker daemon could be be started, try 
+In case of Docker daemon could be be started, try
 `sudo usermod -aG docker $USER`
 
 ## Commands
@@ -181,6 +181,12 @@ docker logs -f your-container-name
 
 ```sh
 truncate -s 0 /var/lib/docker/containers/*/*-json.log
+```
+
+##### To check architecture emulator support
+
+```sh
+docker run --rm --privileged tonistiigi/binfmt
 ```
 
 ## Dockerfile
@@ -335,7 +341,7 @@ backend](https://docs.docker.com/swarm/reference/manage/#discovery--discovery-ba
 for more options.
 
 ```sh
-docker run -p 4000:4000 -H :4000 --replication --advertise 172.30.0.161:4000 consul://172.30.0.165:8500 -d swarm maanage 
+docker run -p 4000:4000 -H :4000 --replication --advertise 172.30.0.161:4000 consul://172.30.0.165:8500 -d swarm manage
 ```
 
 To
