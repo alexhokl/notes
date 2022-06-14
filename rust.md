@@ -1,3 +1,4 @@
+- [Reference](#reference)
 - [Commands](#commands)
 - [Language](#language)
   * [Declarations](#declarations)
@@ -24,8 +25,14 @@
   * [Concurrency (and parallelism)](#concurrency-and-parallelism)
   * [Object-oriented programming](#object-oriented-programming)
   * [Pattern matching](#pattern-matching)
+  * [Advanced types](#advanced-types)
+  * [Advanced functions and closures](#advanced-functions-and-closures)
   * [Others](#others)
 ____
+
+## Reference
+
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
 ## Commands
 
@@ -870,6 +877,220 @@ impl<T: Display> ToString for T {
     // --snip--
 }
 ```
+
+##### Associated types
+
+- define a trait that uses some types without needing to know exactly what those
+  types are until the trait is implemented
+
+```rust
+pub trait Iterator {
+    type Item;
+
+    fn next(&mut self) -> Option<Self::Item>;
+}
+```
+
+```rust
+struct Counter {
+    count: u32,
+}
+
+impl Counter {
+    fn new() -> Counter {
+        Counter { count: 0 }
+    }
+}
+
+impl Iterator for Counter {
+    type Item = u32;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        // --snip--
+        if self.count < 5 {
+            self.count += 1;
+            Some(self.count)
+        } else {
+            None
+        }
+    }
+}
+```
+
+##### Default generic type parameters
+
+```rust
+trait Add<Rhs=Self> {
+    type Output;
+
+    fn add(self, rhs: Rhs) -> Self::Output;
+}
+```
+
+which allows the following implementation with specifying the generic type
+parameter
+
+```rust
+use std::ops::Add;
+
+#[derive(Debug, Copy, Clone, PartialEq)]
+struct Point {
+    x: i32,
+    y: i32,
+}
+
+impl Add for Point {
+    type Output = Point;
+
+    fn add(self, other: Point) -> Point {
+        Point {
+            x: self.x + other.x,
+            y: self.y + other.y,
+        }
+    }
+}
+
+fn main() {
+    assert_eq!(
+        Point { x: 1, y: 0 } + Point { x: 2, y: 3 },
+        Point { x: 3, y: 3 }
+    );
+}
+```
+
+##### Disambiguation
+
+```rust
+trait Pilot {
+    fn fly(&self);
+}
+
+trait Wizard {
+    fn fly(&self);
+}
+
+struct Human;
+
+impl Pilot for Human {
+    fn fly(&self) {
+        println!("This is your captain speaking.");
+    }
+}
+
+impl Wizard for Human {
+    fn fly(&self) {
+        println!("Up!");
+    }
+}
+
+impl Human {
+    fn fly(&self) {
+        println!("*waving arms furiously*");
+    }
+}
+
+fn main() {
+    let person = Human;
+    Pilot::fly(&person);
+    Wizard::fly(&person);
+    person.fly();
+}
+```
+
+```rust
+trait Animal {
+    fn baby_name() -> String;
+}
+
+struct Dog;
+
+impl Dog {
+    fn baby_name() -> String {
+        String::from("Spot")
+    }
+}
+
+impl Animal for Dog {
+    fn baby_name() -> String {
+        String::from("puppy")
+    }
+}
+
+fn main() {
+    println!("A baby dog is called a {}", <Dog as Animal>::baby_name());
+}
+```
+
+##### Supertraits
+
+- when one trait depends on another trait, the trait being relied on is the
+  supertrait
+
+```rust
+trait OutlinePrint: fmt::Display {
+    fn outline_print(&self) {
+        let output = self.to_string();
+        let len = output.len();
+        println!("{}", "*".repeat(len + 4));
+        println!("*{}*", " ".repeat(len + 2));
+        println!("* {} *", output);
+        println!("*{}*", " ".repeat(len + 2));
+        println!("{}", "*".repeat(len + 4));
+    }
+}
+
+struct Point {
+    x: i32,
+    y: i32,
+}
+
+impl OutlinePrint for Point {}
+
+use std::fmt;
+
+impl fmt::Display for Point {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "({}, {})", self.x, self.y)
+    }
+}
+
+fn main() {
+    let p = Point { x: 1, y: 3 };
+    p.outline_print();
+}
+```
+
+##### Newtype
+
+- a term originates from the Haskell
+- to implement external traits on external types
+  - otherwise not possible as it is only allowed to implement a trait on a type
+    as long as either the trait or the type are local to the crate
+- no runtime performance penalty for using this pattern, and the wrapper type is
+  elided at compile time
+- it is mostly about wrapping with an existing type and implement it wiht extra
+  methods
+- similar to `type Age int` in Go
+
+```rust
+use std::fmt;
+
+struct Wrapper(Vec<String>);
+
+impl fmt::Display for Wrapper {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "[{}]", self.0.join(", "))
+    }
+}
+
+fn main() {
+    let w = Wrapper(vec![String::from("hello"), String::from("world")]);
+    println!("w = {}", w);
+}
+```
+
+where `Wrapper` does not have the methods of `Vec` and, if such behaviour is
+needed, one of the solutions is to implement `Deref` trait.
 
 ### Lifetimes (Generics Lifetimes)
 
@@ -2148,6 +2369,68 @@ fn main() {
     }
 }
 ```
+
+### Advanced types
+
+##### Type aliases
+
+```rust
+type Kilometers = i32;
+```
+
+alias `Kilometers` is a synonym for `i32`
+
+##### Empty type
+
+```rust
+fn bar() -> ! {
+    // --snip--
+}
+```
+
+where the function is called a diverging function.
+
+```rust
+let guess: u32 = match guess.trim().parse() {
+  Ok(num) => num,
+  Err(_) => continue,
+};
+
+println!("You guessed: {}", guess);
+```
+
+where `continue` returns `!` which does not assign any value to `guess`.
+
+##### Dynamically sized types
+
+- `Sized` trait to determine whether or not a type’s size is known at compile
+  time
+
+```rust
+fn generic<T>(t: T) {
+    // --snip--
+}
+```
+
+implicitly means
+
+```rust
+fn generic<T: Sized>(t: T) {
+    // --snip--
+}
+```
+
+To write a generic function without `Sized` limitation,
+
+```rust
+fn generic<T: ?Sized>(t: &T) {
+    // --snip--
+}
+```
+
+### Advanced functions and closures
+
+
 
 ### Others
 
