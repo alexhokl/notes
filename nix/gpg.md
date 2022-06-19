@@ -159,7 +159,9 @@ gpg --verify something.txt.gpg
 
 or, if the content and signature are detached,
 
+```sh
 gpg --verify signature.asc content.txt
+```
 
 ##### To encrypt with symmetric cipher and passphrase
 
