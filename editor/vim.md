@@ -519,6 +519,53 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 }
 ```
 
+##### Configuration for Go
+
+Installation command `:VimspectorInstall delve`
+
+`.vimspector.json`
+
+```json
+{
+  "configurations": {
+    "run": {
+      "adapter": "delve",
+      "filetypes": [ "go" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${fileDirname}",
+        "mode": "debug"
+      }
+    }
+  }
+}
+```
+
+##### Configuration for .NET
+
+Installation command `:VimspectorInstall netcoredbg`
+
+`.vimspector.json`
+
+```json
+{
+  "configurations": {
+    "launch - netcoredbg": {
+      "adapter": "netcoredbg",
+      "filetypes": [ "cs" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/bin/Debug/netcoreapp2.2/csharp.dll",
+        "args": [],
+        "stopAtEntry": true,
+        "cwd": "${workspaceRoot}",
+        "env": {}
+      }
+    }
+  }
+}
+```
+
 ### Snippets
 
 - [C#](https://github.com/honza/vim-snippets/blob/master/snippets/cs.snippets)
