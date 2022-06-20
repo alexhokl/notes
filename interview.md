@@ -91,6 +91,8 @@ ____
 - What are the profiling tools you have used?
 - What is the one thing that you like and one thing that you dislike about the
   engineering culture at your current (or previous) workplace?
+- If you are given code of a legacy web application to maintain, how would you
+  approach it if you need to understand it?
 
 #### House-Tree-Person (HTP) test
 
