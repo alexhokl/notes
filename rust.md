@@ -27,6 +27,7 @@
   * [Pattern matching](#pattern-matching)
   * [Advanced types](#advanced-types)
   * [Advanced functions and closures](#advanced-functions-and-closures)
+  * [Marcos](#marcos)
   * [Others](#others)
 ____
 
@@ -2430,7 +2431,50 @@ fn generic<T: ?Sized>(t: &T) {
 
 ### Advanced functions and closures
 
+##### Function pointers
 
+```rust
+fn add_one(x: i32) -> i32 {
+    x + 1
+}
+
+fn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {
+    f(arg) + f(arg)
+}
+
+fn main() {
+    let answer = do_twice(add_one, 5);
+
+    println!("The answer is: {}", answer);
+}
+```
+
+where `fn` is a type and function pointers implement all 3 of the closure traits
+(`Fn`, `FnMut` and `FnOnce`).
+
+##### Returning closures
+
+```rust
+fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
+    Box::new(|x| x + 1)
+}
+```
+
+where returning closure directly does not compile due to the size of closure is
+not known at compile time.
+
+### Marcos
+
+- a way of writing code that writes other code, which is known as
+  metaprogramming
+- it is useful for reducing the amount of code you have to write and maintain
+- a function signature must declare the number and type of parameters the
+  function has.
+  - macros, on the other hand, can take a variable number of parameters
+- macros are expanded before the compiler interprets the meaning of the code
+  - a marco can implement a trait on a given type
+- marcos much be defined or must be brought into a scope before it can be
+  invoked
 
 ### Others
 
