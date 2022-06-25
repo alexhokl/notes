@@ -15,6 +15,9 @@
 - [Ingress](#ingress)
   * [Ingress class](#ingress-class)
   * [Nginx](#nginx)
+- [Credential plugins](#credential-plugins)
+  * [Azure](#azure)
+  * [Google Cloud](#google-cloud)
 - [References](#references)
 - [kind](#kind)
 - [Minikube](#minikube)
@@ -729,6 +732,23 @@ We can get around this problem by changing the value of Nginx configuration
 `client-max-body`. If Helm chart is used, the value can be set to
 `controller.config.proxy-body-size`. It can also be set via annotation
 `nginx.ingress.kubernetes.io/proxy-body-size` of the Ingress resource.
+
+## Credential plugins
+
+### Azure
+
+Download [kubelogin](https://github.com/Azure/kubelogin) and run `kubelogin
+convert-kubeconfig -l azurecli` to convert existing entries in `~/.kube/config`
+to use `azure-cli` to retrieve access token.
+
+### Google Cloud
+
+```sh
+yay -S google-cloud-sdk-gke-gcloud-auth-plugin
+```
+
+If version of Kubernetes is lower than `v1.25`, use `export
+USE_GKE_GCLOUD_AUTH_PLUGIN=True`.
 
 ## References
 
