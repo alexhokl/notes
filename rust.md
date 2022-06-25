@@ -2476,6 +2476,119 @@ not known at compile time.
 - marcos much be defined or must be brought into a scope before it can be
   invoked
 
+##### Example using `macros_rules!`
+
+- this is an example of declarative macro
+- declarative macro replaces code in a template
+
+```rust
+#[macro_export]
+macro_rules! vec {
+    ( $( $x:expr ),* ) => {
+        {
+            let mut temp_vec = Vec::new();
+            $(
+                temp_vec.push($x);
+            )*
+            temp_vec
+        }
+    };
+}
+```
+
+where `( $( $x:expr ),* )` is a pattern to be matched. Note that this is for
+illustration and not an actual implementation.
+
+It translates `vec![1, 2, 3];` to
+
+```rust
+{
+    let mut temp_vec = Vec::new();
+    temp_vec.push(1);
+    temp_vec.push(2);
+    temp_vec.push(3);
+    temp_vec
+}
+```
+
+#### Procedural macro
+
+- procedural macro generates code with code
+- 3 types
+  - custom derive
+  - attribute-like
+  - function-like
+
+##### An example of custom derive procedural macro
+
+```rust
+pub trait HelloMacro {
+    fn hello_macro();
+}
+```
+
+```rust
+use proc_macro::TokenStream;
+use quote::quote;
+use syn;
+
+#[proc_macro_derive(HelloMacro)]
+pub fn hello_macro_derive(input: TokenStream) -> TokenStream {
+    // Construct a representation of Rust code as a syntax tree
+    // that we can manipulate
+    let ast = syn::parse(input).unwrap();
+
+    // Build the trait implementation
+    impl_hello_macro(&ast)
+}
+
+fn impl_hello_macro(ast: &syn::DeriveInput) -> TokenStream {
+    let name = &ast.ident;
+    let gen = quote! {
+        impl HelloMacro for #name {
+            fn hello_macro() {
+                println!("Hello, Macro! My name is {}!", stringify!(#name));
+            }
+        }
+    };
+    gen.into()
+}
+```
+
+The macro takes a stream of tokens (or code characters) and output generated
+code in form of another `TokenStream`.
+
+The macro can be used like the following.
+
+```rust
+use hello_macro::HelloMacro;
+use hello_macro_derive::HelloMacro;
+
+#[derive(HelloMacro)]
+struct Pancakes;
+
+fn main() {
+    Pancakes::hello_macro();
+}
+```
+
+Note that, for details related to crate creation and dependency setup, refer to
+[How to Write a Custom derive Macro
+](https://doc.rust-lang.org/book/ch19-06-macros.html#how-to-write-a-custom-derive-macro)
+
+##### An example usage of attribute-like procedural macro
+
+```rust
+#[route(GET, "/")]
+fn index() {
+```
+
+##### An example usage of function-like procedural macro
+
+```rust
+let sql = sql!(SELECT * FROM posts WHERE id=1);
+```
+
 ### Others
 
 ##### String interpolation
