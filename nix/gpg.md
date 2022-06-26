@@ -219,30 +219,43 @@ a machine to minimise the effort in managing the keygrips. Thus, if there are
 3 Yubikeys to be setup, 3 set of subkeys (9 keys; signing, encryption and
 authentication for each set) will be generated.
 
+To add subkeys, we can start by editing an existing master key (with its
+existing subkeys) after importing it from a offline storage.
+
+```sh
+gpg --expert --edit-key $KEYID
+```
+
 Once all sets of new [subkeys](https://github.com/drduh/YubiKey-Guide#sub-keys)
 are generated, the [master key](./gpg.md#to-export-private-key),
-[subkeys](./gpg.md#to-export-sub-keys) and public key should be exported. The
-master key and subkeys should be stored offline. Since the private key of
-subkeys are still on machine, the
-subkeys can then be transferred to Yubikey(s) (see [Transfer
-keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
+[subkeys](./gpg.md#to-export-sub-keys) and public key should be exported.
+
+```sh
+gpg --export-secret-keys -a $KEYID | sudo tee /mnt/encrypted-storage/key-$KEYID/mastersub.key
+gpg --export -a $KEYID > key-$KEYID.pub
+```
+
+The master key and subkeys should be stored offline. Since the private key of
+subkeys are still on machine, the subkeys can then be transferred to Yubikey(s)
+(see [Transfer keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
 
 To transfer the set of subkeys to another YubiKey, the keygrips on the machine
-has to be removed first.
+has to be removed first (and only the key grips that has been transferred
+though).
+
+Note that the following script remove all the keygrips.
 
 ```sh
 CONFIG_DIR=$(gpgconf --list-dirs homedir)
-KEYID=your-master-key-id
-gpg --with-keygrip --list-secret-keys $KEYID | grep Keygrip | awk '{print $3}' | xargs -n 1 -I % rm "$CONFIG_DIR/private-keys-v1.d/%.key" 2> /dev/null
-gpg --card-status
+gpg --with-keygrip --list-secret-keys $KEYID \
+  | grep Keygrip \
+  | awk '{print $3}' \
+  | xargs -n 1 -I % rm "$CONFIG_DIR/private-keys-v1.d/%.key" 2> /dev/null
 ```
 
-Once all Yubikeys has been filled with the new set of subkeys, the exported
-secret keys can then be copied to an encrypted storage for long term offline
-storage. The secret key on the machine can be removed by
+The secret key on the machine can be removed by
 
 ```sh
-KEYID=your-master-key-id
 gpg --delete-secret-and-public-keys $KEYID
 ```
 
@@ -255,6 +268,16 @@ further uploaded onto sites such as `github.com`. Since the public contains
 information on the subkeys, update is required on those sites. To setup other
 machines, remove  the existing key and delete all keygrips and import the new
 public key from the key server.
+
+SSH public keys can be obtained when a Yubikey is inserted and the following
+command is ran.
+
+```sh
+ssh-add -L
+```
+
+The public keys can then be uploaded to various services and remote server
+machines.
 
 ##### On a machine where Yubikey cannot be used
 
