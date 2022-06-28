@@ -41,6 +41,12 @@ curl --user your-username:your-password http://localhost/testing
 curl -H "Authorization: Bearer $TOKEN" http://localhost/testing
 ```
 
+or
+
+```sh
+curl --oauth2-bearer $TOKEN 'http://localhost/testing'
+```
+
 ###### Use header
 
 ```sh
@@ -143,6 +149,18 @@ curl -I http://localhost/testing
 
 ```sh
 curl -s -o /dev/null -I -w "%{http_code}" https://github.com
+```
+
+##### To return the size of HTTP response only
+
+```sh
+curl -X GET 'http://localhost/testing' -so /dev/null -w '%{size_download}'
+```
+
+or to apply `Gzip`,
+
+```sh
+curl --compressed -X GET 'http://localhost/testing' -so /dev/null -w '%{size_download}'
 ```
 
 ###### Verbose mode
