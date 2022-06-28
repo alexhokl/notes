@@ -7,7 +7,6 @@
     + [Links](#links)
     + [Master key](#master-key)
     + [Key management](#key-management-1)
-    + [Install existing keys to new a Yubikey](#install-existing-keys-to-new-a-yubikey)
 ____
 
 # Key servers
@@ -289,21 +288,3 @@ non-relevant subkeys (that is, keeping only one set of subkeys).
 ##### Tricks
 
 - In case an inserted Yubikey cannot be found, try open another terminal.
-
-### Install existing keys to new a Yubikey
-
-Assuming keys are stored in an encrypted USB drive as `/dev/sda1` and name
-of master key file is `mastersub.key`.
-
-Follow [Configure
-Smartcard](https://github.com/drduh/YubiKey-Guide#configure-smartcard) to
-prepare the new YubiKey.
-
-```sh
-sudo cryptsetup luksOpen /dev/sda1 secret
-sudo mount /dev/mapper/secret /mnt/encrypted-usb
-gpg --import /mnt/encrypted-usb/mastersub.key
-```
-
-Follow [Transfer keys](https://github.com/drduh/YubiKey-Guide#transfer-keys) to
-transfer the imported keys to the new Yubikey.
