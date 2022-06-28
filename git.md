@@ -10,7 +10,7 @@
   * [Rollback](#rollback)
   * [Operators](#operators)
   * [Queries](#queries)
-  * [Troubleshooting](#troubleshooting)
+  * [Troubleshooting](#troubleshooting-1)
   * [GitHub](#github)
 - [Links](#links)
 ____
@@ -435,6 +435,26 @@ git verify-commit -v HEAD
 
 ```sh
 git verify-commit --raw HEAD
+```
+
+##### Troubleshooting
+
+In case the following error message is show, there are two major possible cases.
+
+```sh
+error: gpg failed to sign the data
+fatal: failed to write commit object
+```
+
+1. No non-expired sub-keys are found. (that is, the subkeys were expired.)
+2. More than one subkeys are found and `gpg --status-fd=2 -bsau $MASTER_KEY_ID`
+   does not know what to do. (Untested: There is a chance specifying sub key ID
+   may work)
+
+To get trace lines during commit,
+
+```sh
+GIT_TRACE=1 git commit -m temp
 ```
 
 ##### Revert
