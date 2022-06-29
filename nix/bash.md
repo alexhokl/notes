@@ -327,6 +327,12 @@ To enable suspend and hibernation
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
 
+##### To check battery information
+
+```sh
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```
+
 ### Wifi
 
 ##### wpa_passphrase
