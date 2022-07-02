@@ -2,7 +2,7 @@
 - [To allow SSH traffic](#to-allow-ssh-traffic)
 - [To enable](#to-enable)
 - [To disable](#to-disable)
-- [To check status with index numbers](#to-check-status-with-index-numbers)
+- [To show routes configured](#to-show-routes-configured)
 - [To delete a rule](#to-delete-a-rule)
 - [To allow a port range](#to-allow-a-port-range)
 - [To allow a port from access from an IP range](#to-allow-a-port-from-access-from-an-ip-range)
@@ -34,10 +34,16 @@ sudo ufw enable
 sudo ufw disable
 ```
 
-### To check status with index numbers
+### To show routes configured
 
 ```sh
 sudo ufw status numbered
+```
+
+or, when inactive,
+
+```sh
+sudo ufw show added
 ```
 
 ### To delete a rule
