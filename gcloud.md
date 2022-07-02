@@ -179,11 +179,11 @@ helm init --service-account tiller --wait
 
 ##### To create a public IP address and assign it to a cluster running Ingress using Nginx
 
-Assuming the region of the cluster is `asia-east2`,
+Assuming the region of the cluster is `asia-east1`,
 
 ```sh
-gcloud compute addresses create my-cluster-ip --region asia-east2
-IPADDR=$(gcloud compute addresses describe my-cluster-ip --region asia-east2 --format json | jq -r .address)
+gcloud compute addresses create my-cluster-ip --region asia-east1
+IPADDR=$(gcloud compute addresses describe my-cluster-ip --region asia-east1 --format json | jq -r .address)
 helm install nginx-ingress --namespace default stable/nginx-ingress --set controller.service.loadBalancerIP=$IPADDR
 ```
 
@@ -467,13 +467,19 @@ gsutil -m cp -R path/to/a/directory gs://$BUCKET_NAME
 ##### To create a bucket
 
 ```sh
-gsutil mb -l asia-east2 -c coldline gs://$BUCKET_NAME
+gsutil mb -l asia-east1 -c coldline gs://$BUCKET_NAME
 ```
 
 ##### To serve a website from a bucket directly
 
 Create a `CNAME` DNS record and points it to `c.storage.googleapis.com`.
 Noie that it serves traffic in HTTP only (instead of HTTPS).
+
+##### To list IAM member-role bindings
+
+```sh
+gsutil iam get gs://$BUCKET_NAME
+```
 
 ### IAM
 
