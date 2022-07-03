@@ -1,10 +1,10 @@
-- [Reference](#reference)
+- [References](#references)
 - [Commands](#commands)
 - [Language](#language)
   * [Declarations](#declarations)
   * [Control flow](#control-flow)
   * [Ownership](#ownership)
-  * [References](#references)
+  * [References](#references-1)
   * [Compound data type](#compound-data-type)
   * [Packages, crates and modules](#packages-crates-and-modules)
   * [Collections](#collections)
@@ -31,9 +31,14 @@
   * [Others](#others)
 ____
 
-## Reference
+## References
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
+  - [Keywords](https://doc.rust-lang.org/book/appendix-01-keywords.html)
+  - [Operators and
+    Symbols](https://doc.rust-lang.org/book/appendix-02-operators.html)
+  - [Derivable
+    Traits](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html)
 
 ## Commands
 
@@ -2605,6 +2610,18 @@ where it prints `name` in debug format (if available)
 
 ```rust
 let s = format!("{} {}", "hello", "world");
+```
+
+##### Reading string allowing invalid UTF-8 characters
+
+```rust
+String::from_utf8_lossy(&buffer[..]);
+```
+
+##### Create a byte string
+
+```rust
+let get = b"GET / HTTP/1.1\r\n";
 ```
 
 ##### Function
