@@ -5,6 +5,7 @@
 - [Certificates](#certificates)
   * [To check SSL certificate of a website](#to-check-ssl-certificate-of-a-website)
   * [To check expiration date of a SSL certificate](#to-check-expiration-date-of-a-ssl-certificate)
+  * [To check domains of a certificate](#to-check-domains-of-a-certificate)
   * [To create a certificate signed by a CA (and a private key)](#to-create-a-certificate-signed-by-a-ca-and-a-private-key)
   * [To create a self-signed certificate](#to-create-a-self-signed-certificate)
 - [Keys](#keys)
@@ -66,6 +67,12 @@ or
 
 ```sh
 step certificate inspect cert.pem --format json | jq -r .validity.end
+```
+
+### To check domains of a certificate
+
+```sh
+step certificate inspect https://$DOMAIN --format json | jq -r '.extensions.subject_alt_name.dns_names[]'
 ```
 
 ### To create a certificate signed by a CA (and a private key)
