@@ -258,7 +258,10 @@ spec:
 ##### Unlink Kubernetes service account to Google service account
 
 ```sh
-gcloud iam service-accounts remove-iam-policy-binding --role roles/iam.workloadIdentityUser --member "serviceAccount:$PROJECT_ID.svc.id.goog[$NAMESPACE/$SERVICE_ACCOUNT]" $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
+gcloud iam service-accounts remove-iam-policy-binding \
+  --role roles/iam.workloadIdentityUser \
+  --member "serviceAccount:$PROJECT_ID.svc.id.goog[$NAMESPACE/$SERVICE_ACCOUNT]" \
+  $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
 ```
 
 ### Compute
@@ -409,6 +412,26 @@ gcloud compute disk-types list
 gcloud compute images list
 ```
 
+### CI/CD Builds
+
+##### To list recent builds
+
+```sh
+gcloud builds list --limit 10
+```
+
+#### To list logs of a build
+
+```sh
+gcloud builds log $BUILD_ID
+```
+
+or to stream a on-going build,
+
+```sh
+gcloud builds log --stream $BUILD_ID
+```
+
 ### DNS
 
 ##### To list managed zones
@@ -519,3 +542,20 @@ To get key in form of `p12`
 gcloud iam service-accounts keys create --key-file-type=p12 --iam-account=$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com key.p12
 ```
 
+##### To list roles
+
+```sh
+gcloud iam roles list
+```
+
+##### To list permissions of a role
+
+```sh
+gcloud iam roles describe --format json roles/container.admin | jq -r '.includedPermissions[]'
+```
+
+##### To list role bindings of a project
+
+```sh
+gcloud projects get-iam-policy $PROJECT_ID
+```
