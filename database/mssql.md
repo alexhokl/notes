@@ -152,6 +152,17 @@ ALTER DATABASE ExampleDatabaseName SET RECOVERY FULL WITH NO_WAIT
 GO
 ```
 
+##### To shrink tempdb
+
+Usually `tempdb` is mostly occupied by query plan cache. Thus, the step before
+shrink the database is to apply
+
+```sql
+DBCC FREEPROCCACHE
+```
+
+Shinking `tempdb` will work fine after.
+
 ### User modes
 
 To change to single-user mode (usually done at the beginning of a set of operations)
