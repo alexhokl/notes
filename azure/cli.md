@@ -388,7 +388,8 @@ az ad sp credential list --id $SP_ID -o table
 ##### To reset credential of a service principal
 
 ```sh
-az ad sp credential reset --name $SP_ID
+SP_ID=https://your_principal_name
+az ad sp credential reset --id $SP_ID
 ```
 
 ## Roles
