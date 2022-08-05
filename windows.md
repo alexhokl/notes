@@ -1,3 +1,6 @@
+  * [Links](#links)
+  * [Shortcuts](#shortcuts)
+  * [Commands](#commands)
     + [Chocolatey](#chocolatey)
 - [Powershell](#powershell)
     + [Basics](#basics)
@@ -9,13 +12,18 @@
   * [Bootloader](#bootloader)
 ____
 
-##### Shortcuts
+## Links
+
+- [Sign in to your Microsoft account with Windows Hello or a security
+  key](https://support.microsoft.com/en-us/windows/sign-in-to-your-microsoft-account-with-windows-hello-or-a-security-key-800a8c01-6b61-49f5-0660-c2159bea4d84)
+
+## Shortcuts
 
 - [Windows 10 Shortcuts](http://www.hanselman.com/blog/CollectingWindows10AnniversaryEditionKeyboardShortcuts.aspx)
 - [Keyboard shortcuts for Windows](https://support.microsoft.com/en-gb/help/126449/keyboard-shortcuts-for-windows)
 - [Windows 10 Disc Image (ISO File)](https://www.microsoft.com/en-gb/software-download/windows10ISO)
 
-##### Commands
+## Commands
 
 - [Windows CMD Commands](https://ss64.com/nt/)
 
