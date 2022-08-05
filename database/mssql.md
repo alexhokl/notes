@@ -6,6 +6,7 @@
   * [User modes](#user-modes)
   * [Login](#login)
 - [Database performance](#database-performance)
+  * [Troubleshooting](#troubleshooting-1)
   * [Statistics](#statistics)
   * [Memory](#memory)
   * [Query plans](#query-plans)
@@ -267,6 +268,15 @@ GO
 ```
 
 ## Database performance
+
+### Troubleshooting
+
+- [Troubleshooting performance
+  issues](https://docs.microsoft.com/en-us/azure/azure-sql/database/intelligent-insights-troubleshoot-performance)
+- [Understand blocking
+  problems](https://docs.microsoft.com/en-us/azure/azure-sql/database/understand-resolve-blocking)
+- [Resolve blocking problems caused by lock escalation in SQL
+  Server](https://docs.microsoft.com/en-GB/troubleshoot/sql/performance/resolve-blocking-problems-caused-lock-escalation)
 
 ### Statistics
 
