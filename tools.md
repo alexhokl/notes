@@ -73,6 +73,8 @@ ____
   inspector
 - [command-not-found.com](https://command-not-found.com/) - shows how to install
   a command in different operating systems
+- [Security Headers](https://securityheaders.com/) - providing security report
+  of headers of a site
 
 ### APIs
 
