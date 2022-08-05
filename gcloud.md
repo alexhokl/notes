@@ -1,6 +1,7 @@
 - [Basics](#basics)
 - [Kubernetes](#kubernetes)
 - [Compute](#compute)
+- [CI/CD Builds](#cicd-builds)
 - [DNS](#dns)
 - [Bucket](#bucket)
 - [IAM](#iam)
