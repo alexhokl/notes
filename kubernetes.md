@@ -44,8 +44,12 @@ ____
   deployments](https://learnk8s.io/troubleshooting-deployments)
 - [OperatorHub.io](https://operatorhub.io/)
 - [Nginx Ingress](https://kubernetes.github.io/ingress-nginx/)
-- [Troubleshooting - NGINX Ingress
-  Controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
+  - [Troubleshooting - NGINX Ingress
+    Controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
+  - [Nginx Ingress controller -
+    Annotations](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/)
+  - [Nginx Ingress controller -
+    ConfigMap](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/)
 - [sighupio/permission-manager](https://github.com/sighupio/permission-manager)
 - [Troubleshooting
   cert-manager](https://cert-manager.io/docs/faq/troubleshooting/)
