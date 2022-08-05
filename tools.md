@@ -66,7 +66,7 @@ ____
   markdown, SQL and HTML
 - [quicktype](https://app.quicktype.io/) - generate code of various languages
   from JSON data.
-- [crt.sh](https://crt.sh/?q=alexho.dev) - list of issued Let's Encrypt
+- [crt.sh](https://crt.sh/) - list of issued Let's Encrypt
   certificates
 - [SLA & Uptime calculator](https://uptime.is/)
 - [Blacklight](https://themarkup.org/blacklight) - a real-time website privacy
