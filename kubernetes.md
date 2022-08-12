@@ -754,6 +754,12 @@ yay -S google-cloud-sdk-gke-gcloud-auth-plugin
 If version of Kubernetes is lower than `v1.25`, use `export
 USE_GKE_GCLOUD_AUTH_PLUGIN=True`.
 
+or, on Windows or Mac,
+
+```sh
+gcloud components install gke-gcloud-auth-plugin
+```
+
 ## References
 
 - [Kubernetes Custom Resource API Reference Docs
