@@ -27,24 +27,25 @@ ____
 
 ## Terminal
 
-| Combination | Functionality |
-| --- | --- |
-| ctrl+a | to jump to the beginning of a line |
-| ctrl+e | to jump to the end of a line |
-| ctrl+w | to cut a word before the cursor |
-| ctrl+k | to cut to the end of a line |
-| ctrl+u | to cut to the beginning of a line |
-| ctrl+y | to paste already cut text |
-| alt+b  | to skip one word backward |
-| alt+f  | to advance one work forward |
-| alt+d  | to delete until the end of the current word include the current character |
-| ctrl+x+e | to edit the current command in default editor |
-| alt+.  | to paste the last argument of the last command |
-| alt+2  | to copy the 2nd argument of the last command |
-| ctrl+_ | to redo |
-| `reset` | to reset the current shell |
-| `fc` | to edit the last command in the default editor |
-| ctrl+r | to search commands in history
+| Combination                             | Functionality                                                             |
+| ---                                     | ---                                                                       |
+| <kbd>ctrl</kbd><kbd>a</kbd>             | to jump to the beginning of a line                                        |
+| <kbd>ctrl</kbd><kbd>e</kbd>             | to jump to the end of a line                                              |
+| <kbd>ctrl</kbd><kbd>w</kbd>             | to cut a word before the cursor                                           |
+| <kbd>ctrl</kbd><kbd>k</kbd>             | to cut to the end of a line                                               |
+| <kbd>ctrl</kbd><kbd>u</kbd>             | to cut to the beginning of a line                                         |
+| <kbd>ctrl</kbd><kbd>y</kbd>             | to paste already cut text                                                 |
+| <kbd>alt</kbd><kbd>b</kbd>              | to skip one word backward                                                 |
+| <kbd>alt</kbd><kbd>f</kbd>              | to advance one work forward                                               |
+| <kbd>alt</kbd><kbd>d</kbd>              | to delete until the end of the current word include the current character |
+| <kbd>ctrl</kbd><kbd>x</kbd><kbd>e</kbd> | to edit the current command in default editor                             |
+| <kbd>alt</kbd><kbd>.</kbd>              | to paste the last argument of the last command                            |
+| <kbd>alt</kbd><kbd>2</kbd>              | to copy the 2nd argument of the last command                              |
+| <kbd>ctrl</kbd><kbd>/</kbd>             | to undo                                                                   |
+| <kbd>ctrl</kbd><kbd>_</kbd>             | to redo                                                                   |
+| `reset`                                 | to reset the current shell                                                |
+| `fc`                                    | to edit the last command in the default editor                            |
+| <kbd>ctrl</kbd><kbd>r</kbd>             | to search commands in history
 
 ## Shortcuts
 
