@@ -5,6 +5,7 @@
   * [Size management](#size-management)
   * [User modes](#user-modes)
   * [Login](#login)
+  * [Encryption](#encryption)
 - [Database performance](#database-performance)
   * [Troubleshooting](#troubleshooting-1)
   * [Statistics](#statistics)
@@ -265,6 +266,26 @@ GO
 
 ALTER ROLE db_datareader ADD MEMBER your-login;
 GO
+```
+
+### Encryption
+
+##### To list encrpytion keys setup
+
+```sql
+SELECT * FROM sys.dm_database_encryption_keys
+```
+
+##### To list databases
+
+```sql
+SELECT name, is_encrypted FROM sys.databases
+```
+
+##### To remove TDE (encryption at rest)
+
+```sql
+ALTER DATABASE your_database_name SET ENCRYPTION OFF
 ```
 
 ## Database performance
