@@ -273,19 +273,30 @@ GO
 ##### To list encrpytion keys setup
 
 ```sql
-SELECT * FROM sys.dm_database_encryption_keys
+SELECT d.name, d.is_encrypted, k.encryption_state, k.encryption_state_desc, k.encryption_scan_state_desc
+FROM
+  sys.dm_database_encryption_keys k JOIN
+  sys.databases d ON
+    d.database_id = k.database_id
 ```
 
-##### To list databases
+where `encryption_state` can be interpreted as
 
-```sql
-SELECT name, is_encrypted FROM sys.databases
-```
+| Value | Description                                                                                                                        |
+| ---   | ---                                                                                                                                |
+| 0     | No database encryption key present, no encryption                                                                                  |
+| 1     | Unencrypted                                                                                                                        |
+| 2     | Encryption in progress                                                                                                             |
+| 3     | Encrypted                                                                                                                          |
+| 4     | Key change in progress                                                                                                             |
+| 5     | Decryption in progress                                                                                                             |
+| 6     | Protection change in progress (The certificate or asymmetric key that is encrypting the database encryption key is being changed.) |
 
 ##### To remove TDE (encryption at rest)
 
 ```sql
 ALTER DATABASE your_database_name SET ENCRYPTION OFF
+DROP DATABASE ENCRYPTION KEY
 ```
 
 ## Database performance
