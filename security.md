@@ -34,6 +34,7 @@
     + [.p7b](#p7b)
     + [.crl (Certificate revocation list)](#crl-certificate-revocation-list)
 - [RBAC](#rbac)
+- [Front-end](#front-end)
 ____
 
 # Sign-up and Sign-in
@@ -585,3 +586,15 @@ before expiration. You can sometimes download them from CA websites.
 
 - [RBAC like it was meant to
   be](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/)
+
+# Front-end
+
+Reference: [Tweet from Cory
+House](https://twitter.com/housecor/status/1558845973018906624)
+
+- Use HTTPs
+- Server render
+- Store JWT/token in `secure`, `samesite`, `httponly` cookie to prevent XSS
+- Declare content security policy (CSP) to prevent XSS
+- Regen cookies when user auths (prevent session fixation)
+- Set short cookie lifetime
