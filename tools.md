@@ -75,6 +75,11 @@ ____
   a command in different operating systems
 - [Security Headers](https://securityheaders.com/) - providing security report
   of headers of a site
+- [InAppBrowser.com](https://inappbrowser.com/) by Felix Krause - See
+  [Usage](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser).
+  Open the website within the iOS app to be checked. For example, to check
+  Instagram, send a direct message with the link to the website to the app and
+  open the link in the app.
 
 ### APIs
 
