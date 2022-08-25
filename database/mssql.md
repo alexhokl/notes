@@ -443,6 +443,81 @@ FROM WarningSearch ws
 
 ### Indexes
 
+- Index Fragmentation percentage varies when the logical page orders do not
+  coordinate with the physical page order in the page allocation of an index
+  - high fragmentation percentage has a bigger impact on query requires reading
+    many pages using full or range index scans
+  - When page density is low, more pages are required to store the same amount
+    of data. This means that more I/O is necessary to read and write this data,
+    and more memory is necessary to cache this data
+  - When Database Engine adds rows to a page, it will not fill the page fully if
+    the fill factor for the index is set to a value other than 100 (or 0, which
+    is equivalent in this context)
+  - When the Query Optimizer compiles a query plan, it considers the cost of I/O
+    needed to read the data required by the query. With low page density, there
+    are more pages to read, therefore the cost of I/O is higher
+  - To avoid lowering page density unnecessarily, Microsoft does not recommend
+    setting fill factor to values other than 100 or 0, except in certain cases
+    for indexes experiencing a high number of page splits, for example
+    frequently modified indexes with leading columns containing non-sequential
+    GUID values.
+- `REBUILD` or `REORGANIZE` indexes should be done in off-peak hours
+  - Reorganizing an index is less resource intensive than rebuilding an index
+- Rebuild an index implies dropping and re-create index and its related
+  statistics, and creating entries to log files
+  - An index rebuild has an important side benefit where it updates statistics
+    on key columns of the index by scanning all rows in the index. This is the
+    equivalent of executing `UPDATE STATISTICS ... WITH FULLSCAN`
+  - For most types of storage used in Azure SQL Database and Azure SQL Managed
+    Instance, there is no difference in performance between sequential I/O and
+    random I/O. This reduces the impact of index fragmentation on query
+    performance.
+- `REORGANIZE INDEX` reorders the index page by expelling the free or unused
+  space on the page. Ideally, index pages are reordered physically in the data
+  file. REORGANIZE does not drop and create the index but simply restructure the
+  information on the page
+  - `REORGANIZE` always performs online
+  - defragments only the leaf level of clustered and nonclustered indexes on
+    tables and views by physically reordering the leaf-level pages to match the
+    logical order of the leaf nodes
+    - whereas rebuild defragments at all levels
+  - Azure SQL Database, and Azure SQL Managed Instance, the tuple-mover is
+    helped by a background merge task that automatically compresses smaller open
+    delta rowgroups that have existed for some time as determined by an internal
+    threshold, or merges compressed rowgroups from where a large number of rows
+    has been deleted. This improves the columnstore index quality over time. For
+    most cases this dismisses the need for issuing `ALTER INDEX ... REORGANIZE`
+    commands.
+  - If you cancel a reorganize operation, or if it is otherwise interrupted, the
+    progress it made to that point is persisted in the database. To reorganize
+    large indexes, the operation can be started and stopped multiple times until
+    it completes.
+
+##### To rebuild an index
+
+```sql
+ALTER INDEX Index_Name ON Table_Name REBUILD WITH(ONLINE=ON)
+```
+
+where `WITH(ONLINE=ON)` indicates rebuild should be done online (an enterprise
+feature) which does not affect the running requests and tasks of a similar
+table. (If "offline", the table of the index would not be accessible till the
+end of `REBUILD` process completion.
+
+Note that `DBCC DBREINDEX` is an offline operation.
+
+##### To rebuild indexes of a table
+
+```sql
+ALTER INDEX ALL ON Production.Product REBUILD;
+```
+
+##### To re-organise (defragment) an index
+
+```sql
+ALTER INDEX ALL ON HumanResources.Employee REORGANIZE;
+```
+
 ##### To show indexes of a table
 
 ```sql
