@@ -25,6 +25,12 @@ jq '.[] | select(.your-property-name=="some-string")'
 jq '.[] | select(.name | strings | test("search-term"))'
 ```
 
+##### To select items in an array not with a property containing a string
+
+```sh
+jq '.[] | select(.name | strings | test("search-term" | not))'
+```
+
 ##### To show multiple properties in an array
 
 ```sh
