@@ -443,6 +443,9 @@ FROM WarningSearch ws
 
 ### Indexes
 
+Reference: [Optimize index maintenance to improve query performance and reduce
+  resource consumption](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes)
+
 - Index Fragmentation percentage varies when the logical page orders do not
   coordinate with the physical page order in the page allocation of an index
   - high fragmentation percentage has a bigger impact on query requires reading
@@ -554,7 +557,7 @@ WHERE obj.is_ms_shipped = 0
 ORDER BY modification_counter DESC
 ```
 
-##### Rebuild indexes and statistics
+##### Rebuild indexes
 
 ```sql
 DECLARE @TableName varchar(255)
@@ -572,12 +575,36 @@ WHILE @@FETCH_STATUS = 0
 BEGIN
   BEGIN TRY
     -- Reindex
-    DBCC DBREINDEX(@TableName ,'', 100);
+    ALTER INDEX ALL ON @Table REBUILD;
+    -- DBCC DBREINDEX(@TableName ,'', 100);
   END TRY
   BEGIN CATCH
      PRINT @TableName + ' Failed to reindex';
   END CATCH
 
+  FETCH NEXT FROM TableCursor INTO @TableName
+END
+
+CLOSE TableCursor
+DEALLOCATE TableCursor
+```
+
+##### Update statistics
+
+```sql
+DECLARE @TableName varchar(255)
+DECLARE TableCursor CURSOR FOR
+
+SELECT table_name FROM information_schema.tables
+WHERE table_type = 'base table' AND table_catalog='CustomDatabaseName' AND TABLE_SCHEMA='dbo'
+
+DECLARE @Statement NVARCHAR(300)
+
+OPEN TableCursor
+FETCH NEXT FROM TableCursor INTO @TableName
+WHILE @@FETCH_STATUS = 0
+
+BEGIN
   BEGIN TRY
     -- Update Statistic
     SET @Statement = 'UPDATE STATISTICS ' + @TableName + ' WITH FULLSCAN;'
