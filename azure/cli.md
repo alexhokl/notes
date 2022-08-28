@@ -394,10 +394,25 @@ az ad sp credential reset --id $SP_ID
 
 ## Roles
 
+Reference: [built-in
+roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
+
 ##### To list all roles available
 
 ```sh
 az role definition list -o table
+```
+
+##### To list only custom roles
+
+```sh
+az role definition list --custom-role-only -o table
+```
+
+##### To list permissions of a role
+
+```sh
+az role definition list --name gravity-alert-creator | jq -r '.[] | .permissions[] | .actions[]'
 ```
 
 ##### To list all roles assignments
@@ -406,10 +421,16 @@ az role definition list -o table
 az role assignment list --all -o table
 ```
 
-##### To list all roles assignments in a resource group
+##### To list roles assignments in a resource group
 
 ```sh
 az role assignment list --all | jq '.[] | select(.resourceGroup=="your-resource-group-name")'
+```
+
+##### To list assignments of a role
+
+```sh
+az role assignment list --all | jq '.[] | select(.roleDefinitionName=="your-role-name")'
 ```
 
 ## Virtual Machine

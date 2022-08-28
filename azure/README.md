@@ -1,4 +1,5 @@
 - [Links](#links)
+- [IAM](#iam)
 - [Log Analytic Workspace](#log-analytic-workspace)
   * [Examples](#examples)
 - [Alerts](#alerts)
@@ -7,6 +8,11 @@ ____
 ## Links
 
 - [Notes on Azure CLI](./azure-cli.md)
+
+## IAM
+
+- [Built-in
+  roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
 
 ## Log Analytic Workspace
 
