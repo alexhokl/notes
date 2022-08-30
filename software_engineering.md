@@ -427,6 +427,25 @@ References
       a single, tight-knit team can be unleashed upon it. Every team has to
       define its output in terms of customer success because that’s how the
       organizational boundary is drawn
+- [Building an Effective Partnership Between Product
+  & Engineering](https://www.platohq.com/resources/building-an-effective-partnership-between-product-engineering-666854236)
+  by Paulo André
+  - The organizational design should fundamentally be cross-functional and
+    should include product, design, engineering, and data unless you have really
+    strong reasons for a functional setup.
+  - Alignment starts at the top: heads of product and engineering need to be
+    (and remain) on the same page at all times. Nip issues in the bud, set and
+    manage expectations continuously at that level and always overcommunicate.
+    Make that part of the culture and ensure it downstream.
+  - Culture of accountability and ownership: don't tolerate blame games.
+    Everyone is trying to figure it out. At all levels (again, starting at the
+    top), Engineering must understand the priorities, and Product must
+    understand the trade-offs. If this is not solid, nothing else is.
+  - Pursue the culture of objectivity and participation: remove gut feeling and
+    opinion as much as possible. Experimentation and data level the playing
+    field and democratize it, so everyone can contribute with ideas regardless
+    of who they are.
+  - Beware of [maker's schedule](http://www.paulgraham.com/makersschedule.html)
 
 ## Quality Assurance and quality specialist
 
