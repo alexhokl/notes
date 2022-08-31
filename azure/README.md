@@ -1,9 +1,14 @@
+- [Status](#status)
 - [Links](#links)
 - [IAM](#iam)
 - [Log Analytic Workspace](#log-analytic-workspace)
   * [Examples](#examples)
 - [Alerts](#alerts)
 ____
+
+## Status
+
+- [Azure status](https://status.azure.com/status)
 
 ## Links
 
@@ -39,18 +44,14 @@ ContainerInventory
 ##### AKS logs
 
 ```kusto
-let startTime = ago(7d);
+let pods = KubePodInventory
+| where ClusterName == "my-cluster"
+| where ServiceName == "my-service"
+| summarize by ContainerID, ControllerName, ServiceName, Namespace;
 ContainerLog
-| where TimeGenerated > startTime
 | where LogEntry contains "your search term"
 | project TimeGenerated, LogEntrySource, LogEntry, ContainerID
-| join kind= inner (
-  KubePodInventory
-  | where ClusterName == "my-cluster"
-  | where ServiceName == "my-service"
-  | where TimeGenerated > startTime
-  | summarize by ContainerID, ControllerName, ServiceName, Namespace
-) on $left.ContainerID == $right.ContainerID
+| join kind= inner pods on ContainerID
 | project TimeGenerated, LogEntry, ControllerName, ServiceName, Namespace
 | order by TimeGenerated desc;
 ```
@@ -72,10 +73,7 @@ KubeEvents
 ##### Restart stats
 
 ```kusto
-let startTime = datetime("2021-05-06T20:00:00Z");
-let endTime = datetime("2021-05-06T21:00:00Z");
 KubePodInventory
-| where TimeGenerated > startTime and TimeGenerated < endTime
 | where ClusterName == "your-cluster"
 | where Namespace == "your-namespace"
 | where ServiceName == "your-service"
@@ -86,28 +84,19 @@ KubePodInventory
 ##### Current PODs
 
 ```kusto
-let startTime = (ago(60m));
+let pods = ContainerInventory
+| summarize by ContainerID, Image, ImageTag;
 KubePodInventory
-| where TimeGenerated > startTime
 | summarize by ContainerID, Name, PodStatus, Namespace, ClusterName
 | order by ContainerID
-| join kind= inner (
-    ContainerInventory
-    | where TimeGenerated > startTime
-    | summarize by ContainerID, Image, ImageTag
-    )
-    on $left.ContainerID == $right.ContainerID
+| join kind= inner pods ContainerID
 | project Name, PodStatus, Namespace, ClusterName, Image, ImageTag, ContainerID
 ```
 
 ##### Response time
 
 ```kusto
-let start=datetime("2020-08-13T06:38:00.000Z");
-let end=datetime("2020-08-14T06:38:00.000Z");
-let timeGrain=5m;
 let dataset=requests
-| where timestamp > start and timestamp < end
 | where client_Type != "Browser"
 | where operation_Name contains "PUT";
 dataset
@@ -123,7 +112,6 @@ dataset
 ```kusto
 let beforeFirstDay=startofweek(now() - 14d) + 1d;
 let afterFirstDay=startofweek(now() - 7d) + 1d;
-let timeGrain=5m;
 let before=requests
     | where timestamp between(beforeFirstDay..(7d - 1tick))
     | where client_Type != "Browser"
