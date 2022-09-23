@@ -93,8 +93,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   line
 - <kbd>8</kbd><kbd>0</kbd><kbd>\|</kbd> to jump to character 80 in the current
   line
-- <kbd>%</kbd> to jump between the start and end of parentheses of the current
-  line
+- <kbd>%</kbd> to jump between any closures (such as `()` or `{}`)
 - <kbd>[</kbd><kbd>{</kbd> to jump to the opening of the current curly brackets
 - <kbd>]</kbd><kbd>}</kbd> to jump to the closing of the current curly brackets
 - <kbd>g</kbd><kbd>x</kbd> in a (proper) link to open a browser
