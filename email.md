@@ -171,6 +171,9 @@ look for `DKIM=pass` or `DKIM=ok`.
 Connect-ExchangeOnline -UserPrincipalName your-user@your-domain.com
 ```
 
+Note: `Install-Module -Name ExchangeOnlineManagement` can be used to install
+`Connect-ExchangeOnline`
+
 ##### To test connection to source server
 
 ```ps1
