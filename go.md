@@ -19,6 +19,7 @@
   * [os.Exit](#osexit)
   * [cmd](#cmd)
   * [Sprintf](#sprintf)
+  * [Embed](#embed)
 ____
 
 ## Links
@@ -541,3 +542,31 @@ fmt.Sprintf("%s", string(byteslice))
 ##### Options
 
 [String formatting options](https://gobyexample.com/string-formatting)
+
+### Embed
+
+A SQL file can be embedded for reading later
+
+```go
+import (
+  _ "embed"
+)
+
+var (
+  //go:embed sql/user_posts.sql
+  queryUserPosts string
+)
+
+rows, err := db.Query(queryUserPosts, userID)
+```
+
+where `sql/user_post.sql` could be something like
+
+```sql
+SELECT users.email,
+  posts.id,
+  posts.title
+FROM posts
+  JOIN users ON posts.user_id = users.id
+WHERE users.id = $1;
+```
