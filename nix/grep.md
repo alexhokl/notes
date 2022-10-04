@@ -58,3 +58,12 @@ grep -B 2 search-term
 ```
 
 This show 2 lines before the match (that is, a total of 3 lines).
+
+##### To show lines before and after the match
+
+```sh
+grep -C 2 search-term
+```
+
+This show 2 lines before and after the match (that is, a total of 5 lines).
+
