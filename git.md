@@ -750,6 +750,18 @@ To show files involved the search term
 git grep -l search-term
 ```
 
+To show lines before and after
+
+```sh
+git grep -C 3 search-term
+```
+
+To show function name related to the result line
+
+```sh
+git grep -p search-term
+```
+
 ##### Remotes
 
 ```sh
