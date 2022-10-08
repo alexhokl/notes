@@ -155,6 +155,17 @@ or without changing the commit message of the HEAD commit
 git commit --amend --no-edit
 ```
 
+##### Fix a commit by adding a commit after and squash the commits in rebase
+
+```sh
+git commit -a --fixup=HEAD~3
+git rebase --autosquash -i HEAD~5
+```
+
+This adds the latest changes to the last (latest) commit of the history and,
+hence, the commit to be fixed becomes `HEAD~4`. The rebase operation will
+shuffle the latest commit and put it right after `HEAD~4`.
+
 ##### Completing a merge with default commit message
 
 ```sh
