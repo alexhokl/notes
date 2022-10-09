@@ -288,3 +288,26 @@ non-relevant subkeys (that is, keeping only one set of subkeys).
 ##### Tricks
 
 - In case an inserted Yubikey cannot be found, try open another terminal.
+
+### GPG Agent Forwarding
+
+Reference: [drduh/YubiKey-Guide - Remote Machines (GPG Agent
+Forwarding)](https://github.com/drduh/YubiKey-Guide#remote-machines-gpg-agent-forwarding)
+
+To find the socket on local machine
+
+```sh
+gpgconf --list-dirs agent-extra-socket
+```
+
+To find the socket on remote machine
+
+```sh
+gpgconf --list-dirs agent-socket
+```
+
+To copy public keys to the remote machine
+
+```sh
+scp ~/.gnupg/pubring.kbx remote:~/.gnupg/
+```
