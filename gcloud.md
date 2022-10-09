@@ -307,6 +307,29 @@ This effectively shows the backend services associated with a load balancer
 gcloud compute ssh $USERNAME@$INSTANCE_ID
 ```
 
+##### Manage SSH keys
+
+The SSH keys setup in `gcloud comnpute ssh` are store at project level and it
+can be listed by
+
+```sh
+gcloud compute project-info describe --format json | jq -r '.commonInstanceMetadata.items[] | select(.key=="ssh-keys") | .value'
+```
+
+To add/remove keys, dump the keys to a file by
+
+```sh
+gcloud compute project-info describe --format json | jq -r '.commonInstanceMetadata.items[] | select(.key=="ssh-keys") | .value' > /tmp/gcloud_ssh_keys
+```
+
+Edit `/tmp/gcloud_ssh_keys`.
+
+Update project setting with the file by
+
+```sh
+gcloud compute project-info add-metadata --metadata-from-file=ssh-keys=/tmp/gcloud_ssh_keys
+```
+
 ##### SCP
 
 ```sh
