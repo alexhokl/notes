@@ -7,6 +7,7 @@
     + [Links](#links)
     + [Master key](#master-key)
     + [Key management](#key-management-1)
+    + [GPG Agent Forwarding](#gpg-agent-forwarding)
 ____
 
 # Key servers
