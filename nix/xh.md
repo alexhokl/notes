@@ -52,6 +52,12 @@ which is similar to
 curl -i http://localhost/testing
 ```
 
+##### To show only response body in the output
+
+```sh
+xh -b http://localhost/testing
+```
+
 ##### Dry run
 
 ```sh
