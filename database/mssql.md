@@ -18,6 +18,7 @@
   * [Jobs](#jobs)
   * [CPU and parallelism](#cpu-and-parallelism)
   * [Linked servers](#linked-servers)
+  * [Table partitioning](#table-partitioning)
 ____
 
 ## Tools
@@ -1131,3 +1132,11 @@ FROM OPENQUERY([SECONDARY],
 SELECT * FROM sys.linked_logins
 ```
 
+### Table partitioning
+
+- [How To Decide if You Should Use Table
+  Partitioning](https://www.brentozar.com/archive/2012/03/how-decide-if-should-use-table-partitioning/)
+- [Potential Problems with
+  Partitioning](https://www.brentozar.com/archive/2012/08/potential-problems-partitioning/)
+- [SQL Server Table Partitioning:
+  Resources](https://www.brentozar.com/sql/table-partitioning-resources/)
