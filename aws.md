@@ -59,7 +59,7 @@ exec msdb.dbo.rds_restore_database
 ##### To apply public access
 
 ```sh
-aws s3api put-object-acl --bucket your-bucket-name --key filename.txt --acl public-read
+aws s3api put-object-acl --acl public-read --bucket your-bucket-name --key filename.txt
 ```
 
 ##### To show ACL of a bucket
