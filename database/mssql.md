@@ -316,7 +316,7 @@ DROP DATABASE ENCRYPTION KEY
 ##### To show statistics as message
 
 ```sql
-SET STATISTICS io ON
+SET STATISTICS io ON, TIME on
 
 SELECT *
 FROM YourTable t
