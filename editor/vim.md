@@ -87,6 +87,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>]</kbd><kbd>s</kbd> to jump to the next spelling error
 - <kbd>z</kbd><kbd>=</kbd> on a spelling error to show a list of spelling
   suggestions
+- <kbd>z</kbd><kbd>g</kbd> to add the current spelling to dictionary
 - <kbd>6</kbd><kbd>+</kbd> to jump 6 lines below and to the head of the line
 - <kbd>4</kbd><kbd>-</kbd> to jump 4 lines above and to the head of the line
 - <kbd>5</kbd><kbd>\$</kbd> to jump 4 (not 5) lines below and to the end of the
