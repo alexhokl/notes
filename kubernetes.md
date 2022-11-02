@@ -10,6 +10,7 @@
   * [Daemonset](#daemonset)
   * [Statefulset](#statefulset)
   * [Termination](#termination)
+  * [Readiness and liveness](#readiness-and-liveness)
   * [RBAC and sudo](#rbac-and-sudo)
 - [API](#api)
 - [Ingress](#ingress)
@@ -264,6 +265,27 @@ or, of pods
 ```sh
 kubectl top pod
 ```
+
+or, of containers
+
+```sh
+kubectl top pod --containers
+```
+
+##### To show endpoints
+
+```sh
+kubectl get endpoints
+```
+
+or,
+
+```sh
+kubectl get ep
+```
+
+This gives information about endpoints used by services and whether the
+endpoints are healthy.
 
 ##### To create a job from existing cronjob definition
 
@@ -654,6 +676,15 @@ spec:
             - /bin/sleep
             - "15"
 ```
+
+### Readiness and liveness
+
+- readiness
+  - failing means no traffic will be sent to the POD by Kubernetes and this is
+    not only applied at start-up of the container
+- liveness
+  - failing multiple time (depends on configuration) means Kubernetes will start
+    the POD
 
 ### RBAC and sudo
 
