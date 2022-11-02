@@ -20,7 +20,7 @@
   * [Check your title make sense](#check-your-title-make-sense)
   * [Keep your title short, where possible](#keep-your-title-short-where-possible)
   * [Avoid saying the same thing twice (tautologies)](#avoid-saying-the-same-thing-twice-tautologies)
-  * [Using ‘ing’ in titles](#using-ing-in-titles)
+  * [Using 'ing' in titles](#using-ing-in-titles)
   * [Do not include the format type in the title](#do-not-include-the-format-type-in-the-title)
   * [Remove the date unless it makes the title unique](#remove-the-date-unless-it-makes-the-title-unique)
 - [Summaries](#summaries)
