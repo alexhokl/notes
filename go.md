@@ -56,6 +56,7 @@ ____
 - [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal encrypted backups outside the app
 - [schachmat/wego](https://github.com/schachmat/wego) weather app for the terminal
 - [bryanl/manifest-summary](https://github.com/bryanl/manifest-summary) print summary of a kubernetes manifest
+- [microcosm-cc/bluemonday](https://github.com/microcosm-cc/bluemonday/) a HTML sanitizer
 
 ## Tricks
 
