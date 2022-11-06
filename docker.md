@@ -286,6 +286,14 @@ docker-compose down -v
 docker-compose logs your-service-name
 ```
 
+###### To add DNS entries to a container
+
+```yaml
+extra_hosts:
+- "host.docker.internal:host-gateway"
+- "anyip:300:300:300:300"
+```
+
 #### Useful examples
 
 - [Awesome Compose](https://github.com/docker/awesome-compose)
