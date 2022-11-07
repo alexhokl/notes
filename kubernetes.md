@@ -58,6 +58,9 @@ ____
   plugins](https://github.com/kubernetes-sigs/krew-index/blob/master/plugins.md)
 - [Awesome Kubernetes
   Resources](https://github.com/tomhuang12/awesome-k8s-resources)
+- [kubescape/kubescape](https://github.com/kubescape/kubescape) - a CLI tool to
+  scan Kubernetes cluster using a specific industry standard and produce
+  a report
 
 ## Commands
 
@@ -100,6 +103,12 @@ kubectl apply -f some-config.yml
 
 ```sh
 kubectl cluster-info
+```
+
+##### To list API versions
+
+```sh
+kubectl api-version
 ```
 
 ##### To show kubectl config
