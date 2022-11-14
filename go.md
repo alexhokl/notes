@@ -571,3 +571,21 @@ FROM posts
   JOIN users ON posts.user_id = users.id
 WHERE users.id = $1;
 ```
+
+### Module
+
+##### Testing a module locally
+
+Use `replace` in `go.mod`
+
+```go
+module github.com/acme/foo
+
+go 1.12
+
+require (
+	github.com/acme/bar v1.0.0
+)
+
+replace github.com/acme/bar => /path/to/local/bar
+```
