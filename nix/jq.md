@@ -63,9 +63,17 @@ Note that the result is a json array
 jq length
 ```
 
-##### To concatenate properties in to a stringdefault
+##### To concatenate properties in to a string
 
 ```sh
 kubectl -n default get endpoints kubernetes -o json | \
   jq -r '(.subsets[0].addresses[0].ip + ":" + (.subsets[0].ports[0].port|tostring))'
+```
+
+##### To use environment variables
+
+The trick is to use double quotes to wrap the query
+
+```sh
+jq -r ".ipRules | .[] | select(.ipAddressOrRange==\"$1\") | .ipAddressOrRange"
 ```
