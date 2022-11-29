@@ -20,6 +20,7 @@
   * [cmd](#cmd)
   * [Sprintf](#sprintf)
   * [Embed](#embed)
+  * [Module](#module)
 ____
 
 ## Links
