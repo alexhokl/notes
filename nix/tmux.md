@@ -1,5 +1,6 @@
 - [Commands](#commands)
 - [CLI](#cli)
+- [Others](#others)
 ____
 
 Reference: [.tmux.conf](https://github.com/alexhokl/dotfiles/blob/master/.tmux.conf)
@@ -51,3 +52,16 @@ tmux kill-session -t 0
 ```sh
 tmux new-session -d -s your-session-name -n your-window-name
 ```
+
+### Others
+
+##### To transfer a long running process from a terminal to tmux
+
+Note that [reptyr](https://github.com/nelhage/reptyr) has to be installed and it
+does not work on Mac yet.
+
+1. <kbd>ctrl</kbd><kbd>z</kbd> in the terminal running the process to pause it
+2. `bg` in the same terminal to continue the process in background
+3. `ps` to find out the pid
+4. start tmux or rejoin an existing session
+5. in the tmux session, run `reptyr 9876` (assuming the pid is `9876`)
