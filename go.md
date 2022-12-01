@@ -21,6 +21,7 @@
   * [Sprintf](#sprintf)
   * [Embed](#embed)
   * [Module](#module)
+  * [Array, slice, reference and range](#array-slice-reference-and-range)
 ____
 
 ## Links
@@ -589,4 +590,91 @@ require (
 )
 
 replace github.com/acme/bar => /path/to/local/bar
+```
+
+### Array, slice, reference and range
+
+Reference: [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
+
+Declarations of array and slice are different.
+
+```go
+array := [3]int{1,2,3}
+anotherArray := [...]int{1,2,3}
+slice := []int{1,2,3}
+anotherSlice := make([]int)
+```
+
+Array is a value type while slice is a reference type.
+
+```go
+s1 := []int{20}
+s2 := s1
+s2[0] = 60
+
+if s1[0] != 60 {
+  panic("")
+}
+
+a1 := [...]int{20}
+a2 := a1
+a2[0] = 60
+
+if a1[0] != 20 {
+  panic("")
+}
+
+fmt.Println("No panics")
+```
+
+Length and capacity of a slice
+
+```go
+len(slice)
+cap(slice)
+```
+
+Note that capacity is the number of elements in the underlying array but
+counting from the beginning position of the slice. A slice cannot be grown
+beyond its capacity. Attempting to do so will cause a runtime panic.
+
+Create a slice of `[]*Item` from array of `Item`
+
+```go
+var slice []*TodoItem
+for i := range array {
+  slice = append(slice, &array[i])
+}
+```
+
+Note that the following does not work as value from `range` is a copied value
+not a reference.
+
+```go
+var slice []*TodoItem
+for _, v := range array {
+  slice = append(slice, &v)
+}
+```
+
+There are times that copy should be considered to allow release of large block
+of memory sooner. If `Find` in the following example does not copy but simply
+return a slice, the returned slice would keep a reference to the original byte
+array which could hold a large file.
+
+```go
+var digitRegexp = regexp.MustCompile("[0-9]+")
+
+func FindDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    return digitRegexp.Find(b)
+}
+
+func FindAndCopyDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    b = digitRegexp.Find(b)
+    c := make([]byte, len(b))
+    copy(c, b)
+    return c
+}
 ```
