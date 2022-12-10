@@ -49,6 +49,12 @@ echo $TOKEN | step crypto jwt inspect --insecure
 
 assuming the token is wrapped by `$TOKEN`
 
+### To verify (and inspect) a JWT token
+
+```sh
+echo $TOKEN | step crypto jwt verify --key id4.crt --iss https://testing.com --aud api --alg RS256
+```
+
 ## Certificates
 
 ### To check SSL certificate of a website
