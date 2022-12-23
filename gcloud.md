@@ -1,11 +1,19 @@
-- [Basics](#basics)
-- [Kubernetes](#kubernetes)
-- [Compute](#compute)
-- [CI/CD Builds](#cicd-builds)
-- [DNS](#dns)
-- [Bucket](#bucket)
-- [IAM](#iam)
+- [gcloud Commands](#gcloud-commands)
+  * [Basics](#basics)
+  * [Kubernetes](#kubernetes)
+  * [Compute](#compute)
+  * [CI/CD Builds](#cicd-builds)
+  * [DNS](#dns)
+  * [IAM](#iam)
+- [gsutil commands](#gsutil-commands)
+  * [Bucket](#bucket)
+- [Concepts](#concepts)
+  * [Service account](#service-account)
+  * [Authentication on GCP](#authentication-on-gcp)
 ____
+
+
+## gcloud Commands
 
 ### Basics
 
@@ -497,37 +505,6 @@ To abort a transaction
 gcloud dns record-sets transaction abort --zone=test-com
 ```
 
-### Bucket
-
-##### To copy files recursively
-
-```sh
-gsutil cp -R path/to/a/directory gs://$BUCKET_NAME
-```
-
-or, with multithreads,
-
-```sh
-gsutil -m cp -R path/to/a/directory gs://$BUCKET_NAME
-```
-
-##### To create a bucket
-
-```sh
-gsutil mb -l asia-east1 -c coldline gs://$BUCKET_NAME
-```
-
-##### To serve a website from a bucket directly
-
-Create a `CNAME` DNS record and points it to `c.storage.googleapis.com`.
-Noie that it serves traffic in HTTP only (instead of HTTPS).
-
-##### To list IAM member-role bindings
-
-```sh
-gsutil iam get gs://$BUCKET_NAME
-```
-
 ### IAM
 
 ##### Links
@@ -583,3 +560,51 @@ gcloud iam roles describe --format json roles/container.admin | jq -r '.included
 ```sh
 gcloud projects get-iam-policy $PROJECT_ID
 ```
+
+## gsutil commands
+
+### Bucket
+
+##### To copy files recursively
+
+```sh
+gsutil cp -R path/to/a/directory gs://$BUCKET_NAME
+```
+
+or, with multithreads,
+
+```sh
+gsutil -m cp -R path/to/a/directory gs://$BUCKET_NAME
+```
+
+##### To create a bucket
+
+```sh
+gsutil mb -l asia-east1 -c coldline gs://$BUCKET_NAME
+```
+
+##### To serve a website from a bucket directly
+
+Create a `CNAME` DNS record and points it to `c.storage.googleapis.com`.
+Noie that it serves traffic in HTTP only (instead of HTTPS).
+
+##### To list IAM member-role bindings
+
+```sh
+gsutil iam get gs://$BUCKET_NAME
+```
+
+## Concepts
+
+### Service account
+
+- best practices
+  * follow a naming and documentation convention
+  * create single purpose service accounts
+  * rotate service account keys often
+  * disable un-used service accounts
+  * before deleting service accounts, disable them
+
+### Authentication on GCP
+
+![authentication options on GCP](./images/authentication_on_gcp.webp)
