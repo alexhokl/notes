@@ -2,6 +2,7 @@
   * [To get token response using Google OpenID](#to-get-token-response-using-google-openid)
   * [To get token response](#to-get-token-response)
   * [To inspect a JWT token](#to-inspect-a-jwt-token)
+  * [To verify (and inspect) a JWT token](#to-verify-and-inspect-a-jwt-token)
 - [Certificates](#certificates)
   * [To check SSL certificate of a website](#to-check-ssl-certificate-of-a-website)
   * [To check expiration date of a SSL certificate](#to-check-expiration-date-of-a-ssl-certificate)
