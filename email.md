@@ -124,45 +124,6 @@ service](https://support.google.com/a/answer/9476255?hl=en&visit_id=637218572306
 
 # Microsoft Exchange
 
-### DKIM
-
-```sh
-sudo pwsh
-```
-
-```ps1
-Install-Module -Name PSWSMan
-Install-WSMan
-exit
-```
-
-```sh
-pwsh
-```
-
-```ps1
-Install-Module -Name ExchangeOnlineManagement
-Connect-ExchangeOnline -UserPrincipalName your-user@your-domain.com
-New-DkimSigningConfig -DomainName your-domain.com -Enabled $false
-Get-DkimSigningConfig -Identity your-domain.com | Format-List Selector1CNAME, Selector2CNAME
-```
-
-Create two `CNAME` DNS records with the following names
-
-- `selector1._domainkey.your-domain.com`
-- `selector2._domainkey.your-domain.com`
-
-and use the result of the commands above as its values.
-
-Once the DNS records have been populated properly, run
-
-```ps1
-Set-DkimSigningConfig -Identity your-domain.com -Enabled $true
-```
-
-To verify if it is working properly, check the headers of a newly sent mail and
-look for `DKIM=pass` or `DKIM=ok`.
-
 ### Migration
 
 ##### Connect to exchange service and download the remote module
@@ -220,6 +181,15 @@ To check all properties of a migration
 Get-MigrationBatch -Identity IMAPBatch1 | Format-List
 ```
 
+To check migrations in a web interface, visit https://admin.exchange.microsoft.com/.
+Select `Migration` in the menu.
+
+To complete a migration
+
+```ps1
+Complete-MigrationBatch -Identity IMAPBatch1
+```
+
 To remove a migration
 
 ```ps1
@@ -237,6 +207,55 @@ To check mailbox usage
 ```ps1
 Get-EXOMailboxStatistics -Identity someone@test.com
 ```
+
+### DKIM
+
+Once email migration has been done, setup custom domain in
+https://admin.microsoft.com/ in section `Setup` (and select `Set up email
+& usernames with a custom domain`). The on-screen instructions will guide you to
+create a `TXT` DNS record to verify the ownership.
+
+After the verification and re-login, remove the `TXT` created for verification.
+This allows creation of other required `TXT` records. The on-screen instructions
+will guide you to create DNS records for MX, SPF and
+autodiscover.
+
+```sh
+sudo pwsh
+```
+
+```ps1
+Install-Module -Name PSWSMan
+Install-WSMan
+exit
+```
+
+```sh
+pwsh
+```
+
+```ps1
+Install-Module -Name ExchangeOnlineManagement
+Connect-ExchangeOnline -UserPrincipalName your-user@your-domain.com
+New-DkimSigningConfig -DomainName your-domain.com -Enabled $false
+Get-DkimSigningConfig -Identity your-domain.com | Format-List Selector1CNAME, Selector2CNAME
+```
+
+Create two `CNAME` DNS records with the following names
+
+- `selector1._domainkey.your-domain.com`
+- `selector2._domainkey.your-domain.com`
+
+and use the result of the commands above as its values.
+
+Once the DNS records have been populated properly, run
+
+```ps1
+Set-DkimSigningConfig -Identity your-domain.com -Enabled $true
+```
+
+To verify if it is working properly, check the headers of a newly sent mail and
+look for `DKIM=pass` or `DKIM=ok`.
 
 # Troubleshooting
 
