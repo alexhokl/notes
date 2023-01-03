@@ -1,5 +1,6 @@
 - [To compress](#to-compress)
 - [To decompress](#to-decompress)
+- [To compress a directory](#to-compress-a-directory)
 ____
 
 ### To compress
