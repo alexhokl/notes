@@ -7,8 +7,8 @@
     + [G Suite Toolbox](#g-suite-toolbox)
     + [GMail](#gmail)
 - [Microsoft Exchange](#microsoft-exchange)
-    + [DKIM](#dkim-1)
     + [Migration](#migration)
+    + [DKIM](#dkim-1)
 - [Troubleshooting](#troubleshooting)
 ____
 
