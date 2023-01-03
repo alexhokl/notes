@@ -4,8 +4,15 @@ ____
 #### Week of year
 
 ```sh
-date +%V
+date +"%Y %V"
 ```
+
+```sh
+date +"%Y %U"
+```
+
+where `%U` uses Sunday as first day of week and `%V` (ISO) uses Monday as first
+day of week.
 
 #### RFC-3339
 
