@@ -510,6 +510,7 @@ gcloud dns record-sets transaction abort --zone=test-com
 ##### Links
 
 - [Permission Reference](https://cloud.google.com/iam/docs/permissions-reference)
+- [Pre-defined roles](https://cloud.google.com/iam/docs/understanding-roles)
 
 ##### To list all service accounts
 
@@ -559,6 +560,18 @@ gcloud iam roles describe --format json roles/container.admin | jq -r '.included
 
 ```sh
 gcloud projects get-iam-policy $PROJECT_ID
+```
+
+##### To list organizations
+
+```sh
+gcloud organizations list
+```
+
+##### To list role bindings of an organization
+
+```sh
+gcloud organization get-iam-policy your-organization-name
 ```
 
 ## gsutil commands
