@@ -5,6 +5,7 @@
   * [Testing](#testing)
   * [Modules](#modules)
   * [Help](#help)
+- [Swagger](#swagger)
 - [Language](#language)
   * [Error handling](#error-handling)
   * [main function](#main-function)
@@ -188,6 +189,17 @@ This shows the help page of command `go get`.
 ```sh
 go get golang.org/dl/go1.15.4
 go1.15.4 download
+```
+
+## Swagger
+
+##### To generate code from an API specification
+
+```sh
+git clone https://github.com/swagger-api/swagger-codegen
+cd swagger-codegen
+./run-in-docker.sh mvn package
+./run-in-docker.sh generate -i https://developers.strava.com/swagger/swagger.json -l go -o generated/go
 ```
 
 ## Language
