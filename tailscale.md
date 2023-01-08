@@ -75,6 +75,11 @@ The following options should be checked in `Preferences` menu.
 - Use network subnets
 - Run unattended
 
+## Docker
+
+The Docker extension does not assign an IP address to each container but it
+exposes the public port to the host which has on tailnet already.
+
 ## Links
 
 - [The long wondrous life of a Tailscale packet](https://tailscale.com/blog/2021-05-life-of-a-packet/)
