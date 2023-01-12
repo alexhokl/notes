@@ -40,6 +40,13 @@ which is equivalent to
 curl -H "Content-Type: application/json" http://localhost/testing
 ```
 
+##### To pass JSON payload from stdin
+
+```sh
+echo "[1, 2, 3]" | xh post httpbin.org/post Content-Type:application/json
+```
+
+
 ##### To show only headers in the output
 
 ```sh
