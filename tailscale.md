@@ -8,6 +8,7 @@
 - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
 - [Windows](#windows)
+- [Docker](#docker)
 - [Links](#links)
 ____
 
