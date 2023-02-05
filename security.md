@@ -2,6 +2,7 @@
 - [OAuth 2.0](#oauth-20)
     + [Links](#links)
     + [Specifics](#specifics)
+    + [Tools](#tools)
 - [OpenID](#openid)
 - [JWT](#jwt)
     + [Abstract](#abstract)
@@ -94,6 +95,11 @@ ____
 
 - Implicit flow should not be used anymore and Authorization Code flow with
   [PKCE (Proof Key for Code Exchange)](https://tools.ietf.org/html/rfc7636)
+
+### Tools
+
+- [cloudentity/oauth2c](https://github.com/cloudentity/oauth2c) - User-friendly
+  OAuth2 CLI
 
 # OpenID
 
