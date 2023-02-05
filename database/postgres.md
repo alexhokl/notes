@@ -14,17 +14,33 @@ ____
 
 ### Commands
 
-##### To backup from one database and restore to another
+#### pg_dump
+
+##### To create script with database creation
 
 ```sh
-pg_dump -C -h host1 -U user1 your-db-name | psql -h host2 -U user2 your-db-name
+pg_dump -C -h host1 -U user1 -d your-db-name
 ```
 
-##### To backup from one database table and restore to another
+##### To create script of a table with schema and data
 
 ```sh
-pg_dump -C -h host1 -U user1 --table "public.\"your-table\"" your-db-name | psql -h host2 -U user2 --table "public.\"your-table\"" your-db-name
+pg_dump -h host1 -U user1 -t "public.\"your-table\"" -d your-db-name
 ```
+
+##### To create script with schema only
+
+```sh
+pg_dump -s -h host1 -U user1 -d your-db-name
+```
+
+##### To create script with data only
+
+```sh
+pg_dump -a -h host1 -U user1 -d your-db-name
+```
+
+#### psql
 
 ##### To avoid prompting for password for every psql command
 
