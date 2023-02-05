@@ -104,6 +104,7 @@ the above record is tied to `example.com`, an extra DNS record on domain
 - [Yahoo DMARC policy](https://help.yahoo.com/kb/yahoo-dmarc-policy-sln24050.html)
 - [Yahoo to Expand Use of Strict DMARC
   Policy](https://dmarc.org/2015/10/yahoo-to-expand-use-of-strict-dmarc-policy/)
+- [Email Security Check by gov.uk](https://emailsecuritycheck.service.ncsc.gov.uk/check)
 
 # G Suite
 
