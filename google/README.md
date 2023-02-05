@@ -18,3 +18,5 @@ ____
 - [Find my phone](https://www.google.com/android/devicemanager)
 - [OAuth 2.0 Scopes for Google
   APIs](https://developers.google.com/identity/protocols/oauth2/scopes)
+- [Demo of address
+  validation](https://developers.google.com/maps/documentation/address-validation/demo)
