@@ -80,6 +80,8 @@ ____
   Open the website within the iOS app to be checked. For example, to check
   Instagram, send a direct message with the link to the website to the app and
   open the link in the app.
+- [explainsheel.com](https://explainshell.com/) - explain shell commands and its
+  options
 
 ### APIs
 
