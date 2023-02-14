@@ -93,3 +93,9 @@ exposes the public port to the host which has on tailnet already.
 - [Tailscale CLI](https://tailscale.com/kb/1080/cli/)
 - [Provision TLS certificates for your internal Tailscale
   services](https://tailscale.com/blog/tls-certs/)
+- [Remote reboots with encrypted
+  disks](https://tavianator.com/2022/remote_reboots.html)
+- [Quickly switch between Tailscale
+  accounts](https://tailscale.com/blog/fast-user-switching/)
+- [Virtual private services with
+  tsnet](https://tailscale.com/blog/tsnet-virtual-private-services/)
