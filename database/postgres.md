@@ -76,6 +76,21 @@ psql -U some-user@some-database -h some-database.example.com -d name-of-database
 
 ### Management
 
+#### Links
+
+- [Database Roles](https://www.postgresql.org/docs/current/user-manag.html)
+
+#### Concepts
+
+##### Roles
+
+- A role can be thought of as either a database user, or a group of database
+  users
+- `CREATE USER` is equivalent to `CREATE ROLE` except that `CREATE USER`
+  includes `LOGIN` by default, while `CREATE ROLE` does not.
+
+#### Operations
+
 ##### To create a user
 
 ```sql
@@ -88,6 +103,12 @@ CREATE USER "some_user" WITH
 	NOREPLICATION
 	CONNECTION LIMIT -1
 	PASSWORD 'your_strong_password';
+```
+
+##### To grant privileges of a role to another role
+
+```sql
+GRANT read_write_role TO someone;
 ```
 
 ##### To grant a user with read-only permissions
