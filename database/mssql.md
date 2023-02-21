@@ -253,6 +253,17 @@ USE [your-datbase-name]
 GRANT SELECT TO your-database-username
 ```
 
+##### To grant permissions on GCP Cloud SQL
+
+```sql
+GRANT VIEW SERVER STATE TO [someone] AS CustomerDbRootRole
+```
+
+where `CustomerDbRootRole` is a role created by GCP.
+
+Reference: [Granting server
+permissions](https://cloud.google.com/sql/docs/sqlserver/users#grant-command)
+
 ##### To create a login
 
 ```sql
