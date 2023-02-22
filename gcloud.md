@@ -607,6 +607,15 @@ Noie that it serves traffic in HTTP only (instead of HTTPS).
 gsutil iam get gs://$BUCKET_NAME
 ```
 
+##### To create a notification on Pub/Sub
+
+```sh
+gcloud storage service-agent --project=$PROJECT_ID
+```
+
+If any service agent is created, you can check the email address by `gcloud
+storage service-agent`
+
 ## Concepts
 
 ### Service account
