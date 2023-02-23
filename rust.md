@@ -39,6 +39,7 @@ ____
     Symbols](https://doc.rust-lang.org/book/appendix-02-operators.html)
   - [Derivable
     Traits](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html)
+- [Rust playground](https://play.rust-lang.org/)
 
 ## Commands
 
