@@ -4,10 +4,11 @@
   * [Compute](#compute)
   * [CI/CD Builds](#cicd-builds)
   * [DNS](#dns)
+  * [Pub/Sub](#pubsub)
   * [IAM](#iam)
 - [gsutil commands](#gsutil-commands)
   * [Bucket](#bucket)
-- [Concepts](#concepts)
+- [Concepts](#concepts-1)
   * [Service account](#service-account)
   * [Authentication on GCP](#authentication-on-gcp)
 ____
@@ -503,6 +504,26 @@ To abort a transaction
 
 ```sh
 gcloud dns record-sets transaction abort --zone=test-com
+```
+
+### Pub/Sub
+
+##### Concepts
+
+- [Handle message
+  failures](https://cloud.google.com/pubsub/docs/handling-failures) - including
+  dead-letter topic
+
+##### To list topics
+
+```sh
+gcloud pubsub topics list
+```
+
+##### To list subscriptions
+
+```sh
+gcloud pubsub subscriptions list
 ```
 
 ### IAM
