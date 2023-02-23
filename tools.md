@@ -82,6 +82,7 @@ ____
   open the link in the app.
 - [explainsheel.com](https://explainshell.com/) - explain shell commands and its
   options
+- [GitHub user public keys](https://github.com/alexhokl.keys)
 
 ### APIs
 
