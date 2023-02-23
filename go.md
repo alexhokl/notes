@@ -1,5 +1,14 @@
 - [Links](#links)
 - [Libraries](#libraries)
+  * [Database](#database)
+  * [Logging](#logging)
+  * [Web](#web)
+  * [CLI](#cli)
+  * [Unit testing](#unit-testing)
+  * [Kafka](#kafka)
+  * [Finance](#finance)
+  * [Security](#security)
+  * [Others](#others)
 - [Tricks](#tricks)
 - [Commands](#commands)
   * [Testing](#testing)
@@ -43,23 +52,68 @@ ____
 
 ## Libraries
 
+### Database
+
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
-- [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured, leveled logging in Go [example](https://github.com/uber-go/zap/blob/master/example_test.go), [FAQ](https://github.com/uber-go/zap/blob/master/FAQ.md)
+- [go-jet/jet](https://github.com/go-jet/jet) generates `struct`s from a database
+  connection but it is not an ORM tool. It also allows serialising data into
+  custom `struct` created from the generated `struct`s.
+
+### Logging
+
+- [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured,
+  leveled logging in Go
+  [example](https://github.com/uber-go/zap/blob/master/example_test.go),
+  [FAQ](https://github.com/uber-go/zap/blob/master/FAQ.md)
+
+### Web
+
 - [go-chi/chi](https://github.com/go-chi/chi) lightweight, idiomatic and composable router for building Go HTTP services
+- [gorilla/websocket](https://github.com/gorilla/websocket)
+- [microcosm-cc/bluemonday](https://github.com/microcosm-cc/bluemonday/) a HTML
+  sanitizer
+- [twitchtv/twirp](https://github.com/twitchtv/twirp) A simple RPC framework
+  with protobuf service definitions
+
+### CLI
+
 - [spf13/viper](https://github.com/spf13/viper) for application configurations
 - [urfave/cli](https://github.com/urfave/cli) for building command line applications
-- [gorilla/websocket](https://github.com/gorilla/websocket)
+- [cohesivestack/valgo](https://github.com/cohesivestack/valgo) validates user
+  input
+
+### Unit testing
+
 - [leanovate/gopter](https://github.com/leanovate/gopter) property testing
-- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache Kafka 0.8, and up [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
-- [sdcoffey/techan](https://github.com/sdcoffey/techan/) a Technical (Financial) Analysis Library for Golang
-- [piquette/finance-go](https://github.com/piquette/finance-go) a Financial markets data library implemented in go
-- [mattevans/pwned-passwords](https://github.com/mattevans/pwned-passwords) Go client library for checking values against compromised HIBP Pwned Passwords
-- [twitchtv/twirp](https://github.com/twitchtv/twirp) A simple RPC framework with protobuf service definitions
-- [src-d/enry](https://github.com/src-d/enry) A faster file programming language detector
-- [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal encrypted backups outside the app
-- [schachmat/wego](https://github.com/schachmat/wego) weather app for the terminal
-- [bryanl/manifest-summary](https://github.com/bryanl/manifest-summary) print summary of a kubernetes manifest
-- [microcosm-cc/bluemonday](https://github.com/microcosm-cc/bluemonday/) a HTML sanitizer
+
+### Kafka
+
+- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache
+  Kafka 0.8, and up -
+  [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
+
+### Finance
+
+- [sdcoffey/techan](https://github.com/sdcoffey/techan/) a Technical (Financial)
+  Analysis Library for Golang
+- [piquette/finance-go](https://github.com/piquette/finance-go) a Financial
+  markets data library implemented in go
+
+### Security
+
+- [mattevans/pwned-passwords](https://github.com/mattevans/pwned-passwords) Go
+  client library for checking values against compromised HIBP Pwned Passwords
+- [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal
+  encrypted backups outside the app
+
+### Others
+
+- [src-d/enry](https://github.com/src-d/enry) A faster file programming language
+  detector
+- [schachmat/wego](https://github.com/schachmat/wego) weather app for the
+  terminal
+- [bryanl/manifest-summary](https://github.com/bryanl/manifest-summary) print
+  summary of a kubernetes manifest
 
 ## Tricks
 
