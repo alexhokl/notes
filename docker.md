@@ -5,6 +5,7 @@
   * [Non-root examples](#non-root-examples)
   * [Best practices](#best-practices)
   * [`ENTRYPOINT` vs `CMD`](#entrypoint-vs-cmd)
+  * [SHELL](#shell)
 - [Networking](#networking)
 - [Docker Compose](#docker-compose)
 - [Docker Content Trust](#docker-content-trust)
@@ -16,8 +17,9 @@ ____
 
 ## Links
 
--	[Running Graphical applications in Docker for Mac](https://github.com/chanezon/docker-tips/blob/master/x11/README.md)
--	[Docker Security](https://github.com/docker/labs/tree/master/security)
+- [Running Graphical applications in Docker for
+  Mac](https://github.com/chanezon/docker-tips/blob/master/x11/README.md)
+- [Docker Security](https://github.com/docker/labs/tree/master/security)
 - [buildx](https://github.com/docker/buildx)
 
 ## Troubleshoot
@@ -229,12 +231,36 @@ FROM image-name:$FLAVOUR AS some-label
 - `ENTRYPOINT` and `CMD` behaves the same if only of them exist
 - For both `CMD` and `ENTRYPOINT`, there are "shell" and "exec" versions
   - both shell versions would be prefixed with `/bin/sh -c`
-- "exec" version run its process with PID = 1 and "shell" version run its process in a sub-process of a container. Thus, pressing `ctrl-c` would be able to terminate "exec" version but not "shell" version. Note that "exec" version is the recommended way.
--	"exec" version does not have environment variables (like `$PATH`). Thus, to use `java -jar spring.jar`, `["/usr/bin/java", "-jar", "spring.jar"]` is required.
--	If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version, it will be chained with `ENTRYPOINT` comes first.
--	If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version, it will be chained with `ENTRYPOINT` comes first and `CMD` comes after with `/bin/sh -c` prefix.
--	`ENTRYPOINT` and `CMD` can be overridden via command line flags
-  - `ENTRYPOINT` can be overridden by `docker run --entrypoint /bin/sh` or similar
+- "exec" version run its process with PID = 1 and "shell" version run its
+  process in a sub-process of a container. Thus, pressing `ctrl-c` would be able
+  to terminate "exec" version but not "shell" version. Note that "exec" version
+  is the recommended way.
+- "exec" version does not have environment variables (like `$PATH`). Thus, to
+  use `java -jar spring.jar`, `["/usr/bin/java", "-jar", "spring.jar"]` is
+  required.
+- If both `ENTRYPOINT` and `CMD` exists and both of them are in "exec" version,
+  it will be chained with `ENTRYPOINT` comes first.
+- If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "exec" version
+  and `CMD` is in "shell" version, `CMD` will be chained with `ENTRYPOINT` comes
+  first and `CMD` comes after with `/bin/sh -c` prefix.
+- If both `ENTRYPOINT` and `CMD` exists and `ENTRYPOINT` is in "shell" version,
+  `CMD` will be ignored (and so does arguments passed to `docker run`)
+- `ENTRYPOINT` and `CMD` can be overridden via command line flags
+  - `ENTRYPOINT` can be overridden by `docker run --entrypoint /bin/sh` or
+    similar
+
+### SHELL
+
+- default
+  * Linux
+    + `["/bin/sh", "-c"]`
+  * Windows
+    + `["cmd", "/S", "/C"]`
+- `SHELL` must be written in JSON ("exec") form
+- `SHELL` instruction can appear multiple times in a Dockerfile (effectively it
+  is about changing shells)
+- `SHELL` of Powershell
+  * `["powershell", "-command"]`
 
 ## Networking
 
