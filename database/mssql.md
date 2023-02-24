@@ -1,3 +1,4 @@
+- [Links](#links)
 - [Tools](#tools)
 - [Troubleshooting](#troubleshooting)
 - [Database Operations](#database-operations)
@@ -20,6 +21,12 @@
   * [Linked servers](#linked-servers)
   * [Table partitioning](#table-partitioning)
 ____
+
+## Links
+
+- [Cloud SQL for SQL Server
+  features](https://cloud.google.com/sql/docs/sqlserver/features) and features
+  not available on Cloud SQL
 
 ## Tools
 
