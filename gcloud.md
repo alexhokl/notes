@@ -11,6 +11,7 @@
 - [Concepts](#concepts-1)
   * [Service account](#service-account)
   * [Authentication on GCP](#authentication-on-gcp)
+  * [Logging](#logging)
 ____
 
 
@@ -651,3 +652,29 @@ storage service-agent`
 ### Authentication on GCP
 
 ![authentication options on GCP](./images/authentication_on_gcp.webp)
+
+### Logging
+
+- [Logging query
+  language](https://cloud.google.com/logging/docs/view/logging-query-language)
+  - case-insensitive, with the exception of regular expressions
+  - JSON null value are expressed as `NULL_VALUE`
+  - `a OR NOT b AND NOT c OR d` is equivalent to
+    `(a OR (NOT b)) AND ((NOT c) OR d)`
+  - `a=b AND c=d AND NOT e=f` is equivalent to
+    `a=b c=d -e=f`
+  - `AND`, `OR` and `NOT` can be used by all filters
+  - `AND` and `NOT` can be used by filters in a log view
+  - to combine AND and OR rules in the same expression, you must nest the rules
+    using parentheses
+  - boolean operators always need to be capitalized
+    * Lowercase `and`, `or`, and `not` are parsed as search terms
+  - operators
+    - `=           -- equal`
+    - `!=          -- not equal`
+    - `> < >= <=   -- numeric ordering`
+    - `:           -- "has" matches any substring in the log entry field`
+    - `=~          -- regular expression search for a pattern`
+    - `!~          -- regular expression search not for a pattern`
+- [View logs by using the Logs
+  Explorer](https://cloud.google.com/logging/docs/view/logs-explorer-interface)
