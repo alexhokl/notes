@@ -27,6 +27,8 @@ ____
 - [Cloud SQL for SQL Server
   features](https://cloud.google.com/sql/docs/sqlserver/features) and features
   not available on Cloud SQL
+- [Installing ODBC drivers on
+  Linux](https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server)
 
 ## Tools
 
