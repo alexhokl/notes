@@ -42,8 +42,23 @@ if the port in question has been published properly.
 
 #### Problem 3
 
-In case of Docker daemon could be be started, try
+In case of Docker daemon could not be started, try
 `sudo usermod -aG docker $USER`
+
+
+#### Problem 4
+
+Error message
+
+```
+Error response from daemon: failed to create endpoint (...) on network bridge:
+failed to add the host (veth1d85371) <=> sandbox (vethbc264f6) pair interfaces:
+operation not supported.
+```
+
+If this happens after `sudo pacman -Syu`, it is probably about kernel update of
+ArchLinux and restarting service of `dockerd` (or restarting machine) should
+resolve the problem.
 
 ## Commands
 
