@@ -412,7 +412,7 @@ az role definition list --custom-role-only -o table
 ##### To list permissions of a role
 
 ```sh
-az role definition list --name gravity-alert-creator | jq -r '.[] | .permissions[] | .actions[]'
+az role definition list --name your-role-name | jq -r '.[] | .permissions[] | .actions[]'
 ```
 
 ##### To list all roles assignments
