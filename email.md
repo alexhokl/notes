@@ -9,6 +9,7 @@
 - [Microsoft Exchange](#microsoft-exchange)
     + [Migration](#migration)
     + [DKIM](#dkim-1)
+    + [Spam management](#spam-management)
 - [Troubleshooting](#troubleshooting)
 ____
 
@@ -257,6 +258,14 @@ Set-DkimSigningConfig -Identity your-domain.com -Enabled $true
 
 To verify if it is working properly, check the headers of a newly sent mail and
 look for `DKIM=pass` or `DKIM=ok`.
+
+### Spam management
+
+- [Spoof Intelligence Insight](https://security.microsoft.com/spoofintelligence)
+  where it shows a list of suspected spoofed users.
+- [Exchange admin center](https://admin.exchange.microsoft.com/) where in
+  section `Rules` under menu item `, a rule of `bypass spam filtering` can be
+  added if we want to whitelist a domain
 
 # Troubleshooting
 
