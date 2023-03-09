@@ -99,3 +99,4 @@ exposes the public port to the host which has on tailnet already.
   accounts](https://tailscale.com/blog/fast-user-switching/)
 - [Virtual private services with
   tsnet](https://tailscale.com/blog/tsnet-virtual-private-services/)
+- [Integrations](https://tailscale.com/integrations/)
