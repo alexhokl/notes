@@ -32,6 +32,7 @@
   * [Embed](#embed)
   * [Module](#module)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
+- [Vs Rust](#vs-rust)
 ____
 
 ## Links
@@ -744,3 +745,53 @@ func FindAndCopyDigits(filename string) []byte {
     return c
 }
 ```
+
+## Vs Rust
+
+Reference: [Vercel - Why Turborepo is migrating from Go to
+Rust](https://vercel.com/blog/turborepo-migration-go-rust)
+
+Go's strength is network computing in data centers and it excels at this task,
+powering these workloads at the world's largest scales. The
+goroutine-per-request model, Context API, and the standard library inclusion of
+server infrastructure is testament to this community focus.
+
+Additionally, Go favors simplicity over expressiveness. A side effect of that
+decision means more errors are caught at runtime where other languages might
+catch them at compilation. With a service running in a data center, you can roll
+back, fix, and roll forward at your convenience. But, when building software
+that users install, the cost of each mistake is higher.
+
+The Rust language and community has prioritized correctness over API
+abstraction—a tradeoff that we care a lot about when working with:
+
+- Process management
+- Filesystems
+- Other low level OS concepts
+- Shipping software to our users' machines
+
+This means additional complexity is surfaced into our codebase, but it's
+necessary complexity for the problems we're trying to solve.
+
+Rust's type system and safety features allow us to put guardrails in place in
+our codebase where we need them. The language's expressiveness allows our
+developers to encode constraints that catch errors at compile time rather than
+in GitHub issues.
+
+#### Example
+
+Go's preference for simplicity at the filesystem was creating problems for us
+when it came to file permissions. Go lets users set a Unix-style file permission
+code: a short number that describes who can read, write, or execute a file.
+
+While this sounds convenient, this abstraction does not work across platforms;
+Windows actually doesn't have the precise concept of file permissions. Go ends
+up allowing us to set a file permission code on Windows, even when doing so will
+have no effect.
+
+In contrast, Rust's explicitness in this area not only made things simpler for
+us but also more correct. If you want to set a file permission code in Rust, you
+have to explicitly annotate the code as Unix-only. If you don't, the code won't
+even compile on Windows. This surfacing of complexity helps us understand what
+our code is doing before we ever ship our software to users.
+
