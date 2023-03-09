@@ -672,12 +672,12 @@ storage service-agent`
   - boolean operators always need to be capitalized
     * Lowercase `and`, `or`, and `not` are parsed as search terms
   - operators
-    - `=           -- equal`
-    - `!=          -- not equal`
-    - `> < >= <=   -- numeric ordering`
-    - `:           -- "has" matches any substring in the log entry field`
-    - `=~          -- regular expression search for a pattern`
-    - `!~          -- regular expression search not for a pattern`
+    - `=`           -- equal
+    - `!=`          -- not equal
+    - `> < >= <=`   -- numeric ordering
+    - `:`           -- "has" matches any substring in the log entry field
+    - `=~`          -- regular expression search for a pattern
+    - `!~`          -- regular expression search not for a pattern
 - [View logs by using the Logs
   Explorer](https://cloud.google.com/logging/docs/view/logs-explorer-interface)
 
