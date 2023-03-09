@@ -13,6 +13,7 @@
   * [Authentication on GCP](#authentication-on-gcp)
   * [Logging](#logging)
   * [Cloud Trace](#cloud-trace)
+  * [Pub/Sub](#pubsub-1)
 ____
 
 
@@ -698,3 +699,64 @@ storage service-agent`
   - each trace consists of one or more spans
     * a span describes how long it takes to perform a complete sub-operation
 - cost is based on number of traces involved
+
+### Pub/Sub
+
+- publisher
+  * the maximum size of a `base64`-decoded message is 10Mb
+  * message cannot be empty and must be a valid JSON object with at least one
+    attribute (property)
+  * batching of publishing message should be turn off (or batch number = 1) in
+    most of the use cases (except streaming)
+    + this is particularly important when ordering key is used
+  * ordering is only guaranteed in region level
+    + no global endpoint should be used
+  * messages of a topic with no subscription will be discarded
+  * messages expired after the retention period will be discarded and no dead
+    letter will be generated
+- subscriber
+  * consumer of subscriber message needs to handle idempotency and duplication
+    as publisher is not guaranteed to deliver the same message only once
+  * subscription can be expired after 31 days (default) of inactivity and it can
+    be configured to never expire
+  * push subscriber requires a public DNS name and a non-self-signed SSL
+    certificate (effectively `https`)
+  * consumer of a pull subscriber can configure acknowledgement period
+  * a push subscribe automatically controls the rate of push according the
+    responses it received from previous pushes
+    + it starts with push one message and, if it succeed, it pushes double the
+      amount in the next push; the amount continue to increase until it gets
+      feedback of error code from the other end
+  * by default, client libraries default to use streaming pull (asynchronous)
+    + in case capability of the client is low, synchronous pull should be used
+      to control number of messages to be processed to prevent over-delivery
+    + it is advised to configure maximum outstanding messages to avoid one
+      consumer being overloaded and the other being idle
+  * if a push subscriber is a Cloud Function, configuring IAM would be enough
+    for authentication
+- seek
+  * future time
+    + all messages before the seek time will be considered as acknowledged
+  * past time
+    + effectively replaying previously acknowledged messages
+    + options
+      + to a snapshot
+        + states of acknowledgement remains as at the time the snapshot is made
+        + it respects retention setting
+        + allow replaying un-acknowledged message at the time the snapshot is
+          made
+        + a snapshot should be take before a deployment of new code
+      + to a specific time
+        + all messages before the seek time will be considered as acknowledged
+        + more expensive than snapshot
+- retention
+  - topic level
+    - maximum at 31 days
+    - it is done regardless of a message has been consumed or not
+  - subscription level
+    - maximum at 7 days
+- Pub/Sub Lite
+  - it is mostly for real-time event processing
+  - it does not support push subscribers
+  - it is not as "managed" as Pub/Sub
+  - it is closer to the model of running Kafka
