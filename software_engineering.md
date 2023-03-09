@@ -5,6 +5,7 @@
 - [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
 - [Product / Project Management](#product--project-management)
 - [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
+- [Analysis Paralysis](#analysis-paralysis)
 - [Others](#others-1)
 ____
 
@@ -492,6 +493,21 @@ product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-build
   connect people and their perspectives, we help to build a culture of trust.
   Those are the small things that make up a great culture, and we Quality
   Specialists are usually in the middle of it.
+
+## Analysis Paralysis
+
+- it typically manifests itself through the waterfall model with exceedingly
+  long phases of project planning, requirements gathering, program design, and
+  data modeling, which can create little or no extra value by those steps and
+  risk many revisions
+- it can occur when there is a lack of experience on the part of workers such as
+  systems analysts, project managers or software developers, and could be due to
+  a rigid and formal organizational culture
+- indecision in businesses is usually the result of not enough people acting or
+  speaking up about the inefficiencies of the company
+- Agile software development methodologies explicitly seek to prevent analysis
+  paralysis, by promoting an iterative work cycle that emphasizes working
+  products over product specifications
 
 ## Others
 
