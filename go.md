@@ -29,6 +29,7 @@
   * [os.Exit](#osexit)
   * [cmd](#cmd)
   * [Sprintf](#sprintf)
+  * [Printf](#printf)
   * [Embed](#embed)
   * [Module](#module)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
@@ -612,6 +613,38 @@ fmt.Sprintf("%s", string(byteslice))
 ##### Options
 
 [String formatting options](https://gobyexample.com/string-formatting)
+
+### Printf
+
+- [A Deep Dive into fmt Printf in
+  Golang](https://www.kosli.com/blog/a-deep-dive-into-fmt-printf-in-golang/)
+  - format specifiers
+    * `%t` - boolean values
+  - escaping characters
+    * `\a`  Alert or bell
+    * `\b`  Backspace
+    * `\t`  Horizontal tab
+    * `\n`  New line
+    * `\f`  Form feed
+    * `\r`  Carriage return
+    * `\v`  Vertical tab
+    * `\'` Single quote (only in rune literals)
+    * `\"` Double quote (only in string literals)
+    * `\\` single slash
+    * `%%` single percent
+  - printing complex types
+    * `%v` default representation of data
+      - example
+        - `[Mike David George]`
+        - `{Michael 25}`
+    * `%#v` Go's default representation of data
+      - example
+        - `[]string{"Mike", "David", "George"}`
+        - `main.person{name:"Michael", age:25}`
+    * `%+v` a representation between `%v` and `%#v`
+      - example
+        - `{name:Michael age:25}`
+    * `%T` type of object
 
 ### Embed
 
