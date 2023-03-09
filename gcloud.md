@@ -12,6 +12,7 @@
   * [Service account](#service-account)
   * [Authentication on GCP](#authentication-on-gcp)
   * [Logging](#logging)
+  * [Cloud Trace](#cloud-trace)
 ____
 
 
@@ -678,3 +679,22 @@ storage service-agent`
     - `!~          -- regular expression search not for a pattern`
 - [View logs by using the Logs
   Explorer](https://cloud.google.com/logging/docs/view/logs-explorer-interface)
+
+### Cloud Trace
+
+- a distributed tracing system for Google Cloud
+- it collects latency data from App Engine, HTTP(S) load balancers, and
+  applications instrumented with the Cloud Trace API
+- it shows application's dependencies
+- it is not [Cloud Porfiler](https://cloud.google.com/profiler/docs)
+- it only supports Linux
+- it consists of a tracing client, which collects traces and sends them to your
+  Google Cloud project
+- using OpenTelemetry is easier and it implements batching which might improve
+  performance
+- it is a VPC Service Controls supported service
+- a trace describes the time it takes an application to complete a single
+  operation.
+  - each trace consists of one or more spans
+    * a span describes how long it takes to perform a complete sub-operation
+- cost is based on number of traces involved
