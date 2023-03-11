@@ -7,6 +7,7 @@
 - [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
 - [Analysis Paralysis](#analysis-paralysis)
 - [Event Sourcing](#event-sourcing)
+- [Microservices](#microservices)
 - [Others](#others-1)
 ____
 
@@ -512,7 +513,7 @@ product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-build
 
 ## Event Sourcing
 
-References
+#### References
 
 - [Event Sourcing - Martin
   Fowler](https://martinfowler.com/eaaDev/EventSourcing.html)
@@ -533,6 +534,32 @@ all that has happened allows systems to be more reliable by means of audit and
 specification by example that literally translates to how the system is
 implemented. We also have enough storage to have a cache of different views into
 what has happened in the system.
+
+## Microservices
+
+#### References
+
+- [Design Microservice Architectures the Right
+  Way](https://www.youtube.com/watch?v=j6ow-UemzBc)
+
+#### Tricks
+
+- Number of adopted languages cannot be too many
+- Generated code is okay
+  - example
+    - generate API from Swagger
+    - generate clients from Swagger
+    - generate mock client
+- if event log may not be source of truth, using database sometimes is okay
+- each service own its database
+  - no other service is allowed to connect to the database
+  - other services use only the service interface (API or events)
+- use events over APIs
+  - promoting asynchronous communications
+  - consumers need to implement idempotency
+- use of feature flag
+  - so that features can be deployed and tested for a short while before
+    releasing
 
 ## Others
 
