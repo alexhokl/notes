@@ -335,6 +335,27 @@ extra_hosts:
 - "anyip:300:300:300:300"
 ```
 
+###### To use Cloud Logging on GCP
+
+```yaml
+services:
+  reverse-proxy:
+    image: gcr.io/your-project/haproxy:1.0.0
+    ports:
+      - "80:80"
+      - "443:443"
+    logging:
+      driver: gcplogs
+      options:
+        gcp-meta-name:
+        labels: some-namespace.app
+    labels:
+      - "some-namespace.app=reverse-proxy"
+```
+
+Reference: [Docker - Google Cloud Logging
+driver](https://docs.docker.com/config/containers/logging/gcplogs/)
+
 #### Useful examples
 
 - [Awesome Compose](https://github.com/docker/awesome-compose)
