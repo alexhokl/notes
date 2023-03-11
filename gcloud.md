@@ -12,6 +12,7 @@
   * [Service account](#service-account)
   * [Authentication on GCP](#authentication-on-gcp)
   * [Logging](#logging)
+  * [Monitoring](#monitoring)
   * [Cloud Trace](#cloud-trace)
   * [Pub/Sub](#pubsub-1)
 ____
@@ -680,6 +681,32 @@ storage service-agent`
     - `!~`          -- regular expression search not for a pattern
 - [View logs by using the Logs
   Explorer](https://cloud.google.com/logging/docs/view/logs-explorer-interface)
+
+### Monitoring
+
+- metrics
+  * alignment period
+    + it is a look-back interval from a particular point in time; the aligner is
+      the function that combines the points into the look-back interval into an
+      aligned value.
+      + example
+        + when the alignment period is five minutes, at 1:00 PM, the alignment
+          period contains the samples received between 12:55 PM and 1:00 PM. At
+          1:01 PM, the alignment period slides one minute and contains the
+          samples received between 12:56 PM and 1:01 PM.
+  * duration (or duration window)
+    + it is used to prevent a condition from triggering due to a single
+      measurement or forecast
+    + metric-threshold conditions
+      + trigger when, for a single time series, every aligned measurement in
+        a duration window (say 15 minutes) violates the threshold
+    + metric-absence conditions
+      + trigger when no data arrives for a time series in a duration window (say
+        15 minutes)
+    + forecast conditions
+      + trigger when every forecast produced during a duration window (say 15
+        minutes) predicts that the time series will violate the threshold within
+        the forecast window
 
 ### Cloud Trace
 
