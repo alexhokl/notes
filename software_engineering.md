@@ -6,6 +6,7 @@
 - [Product / Project Management](#product--project-management)
 - [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
 - [Analysis Paralysis](#analysis-paralysis)
+- [Event Sourcing](#event-sourcing)
 - [Others](#others-1)
 ____
 
@@ -508,6 +509,30 @@ product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-build
 - Agile software development methodologies explicitly seek to prevent analysis
   paralysis, by promoting an iterative work cycle that emphasizes working
   products over product specifications
+
+## Event Sourcing
+
+References
+
+- [Event Sourcing - Martin
+  Fowler](https://martinfowler.com/eaaDev/EventSourcing.html)
+- [Event Modelling](https://eventmodeling.org/)
+- [Event Modelling: What is
+  it?](https://eventmodeling.org/posts/what-is-event-modeling/)
+
+#### Event Modelling
+
+Event Modelling is a method of describing systems using an example of how
+information has changed within them over time. Specifically this omits transient
+details and looks at what is durably stored and what the user sees at any
+particular point in time. These are the events on the timeline that form the
+description of the system.
+
+Due to storage is getting cheaper, the ability to be able to keep a history of
+all that has happened allows systems to be more reliable by means of audit and
+specification by example that literally translates to how the system is
+implemented. We also have enough storage to have a cache of different views into
+what has happened in the system.
 
 ## Others
 
