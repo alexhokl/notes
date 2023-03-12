@@ -14,6 +14,7 @@
     + [Kestrel](#kestrel)
     + [Garbage collection](#garbage-collection)
     + [Code Analysis](#code-analysis)
+    + [Cultures](#cultures)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1115,6 +1116,39 @@ process runs.
 dotnet add your-project-name package Microsoft.CodeAnalysis.FxCopAnalyzers
 dotnet add your-project-name package StyleCop.Analyzers
 ```
+
+### Cultures
+
+#### Invariant mode
+
+References:
+
+- [Runtime configuration options for
+  globalization](https://learn.microsoft.com/en-us/dotnet/core/runtime-config/globalization)
+- [.NET Core Globalization Invariant
+  Mode](https://github.com/dotnet/runtime/blob/main/docs/design/features/globalization-invariant-mode.md)
+- [.NET Docker images](https://github.com/dotnet/dotnet-docker/)
+
+- `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT`
+  - determines whether a .NET Core app runs in globalization-invariant mode
+    without access to culture-specific data and behaviour
+  - `0` access to cultural data
+  - `1` run in invariant mode
+  - not setting this environment variable is equivalent setting value to `0`
+- globalization data is not sourced from .NET by the underlying OS
+  - installation of package [ICU](https://icu.unicode.org/) on Linux is required
+  - alpine
+    - only `:sdk` images are installed with `icu-libs` and `icu-data-full` and
+      some of the images does not have `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT`
+      set correctly
+- in invariant culture
+  - date formatting and parsing will be affected
+  - number formatting and parsing will be affected
+  - no currency symbols
+  - casing will be done in ASCII range only
+  - sorting is done as ordinal only
+  - Internationalized Domain Names (IDN) is not supported
+  - on Linux, only standard time zone names are used but not the ones from `ICU`
 
 ### Workarounds
 
