@@ -9,6 +9,7 @@
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
 - [Windows](#windows)
 - [Docker](#docker)
+- [Caddy](#caddy)
 - [Links](#links)
 ____
 
@@ -80,6 +81,29 @@ The following options should be checked in `Preferences` menu.
 
 The Docker extension does not assign an IP address to each container but it
 exposes the public port to the host which has on tailnet already.
+
+## Caddy
+
+Caddy automatically recognizes and uses certificates for your Tailscale network
+(`*.ts.net`), and can use Tailscale’s HTTPS certificate provisioning when
+spinning up a new service.
+
+To serve files on a machine,
+
+```Caddyfile
+machine-name.domain-alias.ts.net
+
+root * ./public
+file_server
+```
+
+To proxy a port on a machine,
+
+```Caddyfile
+machine-name.domain-alias.ts.net
+
+reverse_proxy :1313
+```
 
 ## Links
 
