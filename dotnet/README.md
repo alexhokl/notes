@@ -15,6 +15,8 @@
     + [Garbage collection](#garbage-collection)
     + [Code Analysis](#code-analysis)
     + [Cultures](#cultures)
+    + [Forwarding headers behind reverse proxy](#forwarding-headers-behind-reverse-proxy)
+    + [IPv6](#ipv6)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1149,6 +1151,88 @@ References:
   - sorting is done as ordinal only
   - Internationalized Domain Names (IDN) is not supported
   - on Linux, only standard time zone names are used but not the ones from `ICU`
+
+### Forwarding headers behind reverse proxy
+
+Reference: [Configure ASP.NET Core to work with proxy servers and load
+balancers](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer)
+
+There is
+[ForwardedHeadersMiddleware](https://github.com/dotnet/aspnetcore/blob/main/src/Middleware/HttpOverrides/src/ForwardedHeadersMiddleware.cs)
+helping to handle forwarded headers after traffic passing through a reverse
+proxy. `ForwardedHeadersOptions` can be used to configure this middleware.
+
+```csharp
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.KnownProxies.Add(IPAddress.Parse("127.0.10.1"));
+});
+```
+
+And it has to be configured before `app.UseForwardedHeaders()`.
+
+- environment variable `ASPNETCORE_FORWARDEDHEADERS_ENABLED`
+  * setting it to `1` enables `ForwardedHeadersMiddleware`
+  * use this setting only when it is impossible to set `KnownNetworks` and
+    `KnownProxies` (such as a Nginx ingress on Kubernetes where its private IP
+    address could be changed at anytime)
+- `KnownNetworks`
+  - address ranges of known networks to accept forwarded headers from
+  - the default is an `IList<IPNetwork>` containing a single entry for
+    `IPAddress.Loopback` (which is `127.0.0.1`)
+- `KnownProxies`
+  * addresses of known proxies to accept forwarded headers from
+  * The default is an `IList<IPAddress>` containing a single entry for
+    `IPAddress.IPv6Loopback`
+- forwarded headers can have more than 1 values and the middleware processes
+  headers in reverse order from right to left
+  - however, since `ForwardLimit` is default to `1`, only one value will be
+    returned from the headers
+    - setting `ForwardLimit` to `null` disables this limits but it has security
+      impacts (header spoofing)
+
+To troubleshoot forwarded headers,
+
+```csharp
+builder.Services.AddHttpLogging(options =>
+{
+    options.LoggingFields = HttpLoggingFields.RequestPropertiesAndHeaders;
+});
+
+app.UseForwardedHeaders();
+app.UseHttpLogging();
+
+app.Use(async (context, next) =>
+{
+    // Connection: RemoteIp
+    app.Logger.LogInformation("Request RemoteIp: {RemoteIpAddress}",
+        context.Connection.RemoteIpAddress);
+
+    await next(context);
+});
+```
+
+and have the following in `appsettings.json` if needed
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Microsoft.AspNetCore.HttpLogging": "Information"
+    }
+  }
+}
+```
+
+### IPv6
+
+[DualMode](https://learn.microsoft.com/en-gb/dotnet/api/system.net.sockets.socket.dualmode)
+sockets is being used in `SocketsHttpHandler`. This allows us to handle IPv4
+traffic from an IPv6 socket, and is considered to be a favourable practice by
+[RFC 1933](https://www.rfc-editor.org/rfc/rfc1933).
+
+Environment variable `DOTNET_SYSTEM_NET_DISABLEIPV6` can be set to `1` to
+disable IPv6.
 
 ### Workarounds
 
