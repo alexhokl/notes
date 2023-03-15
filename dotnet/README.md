@@ -1,6 +1,7 @@
 - [.NET Core](#net-core)
     + [Porting](#porting)
     + [Upgrade](#upgrade)
+    + [.NET 8](#net-8)
     + [Tools](#tools)
     + [.NET CLI](#net-cli)
     + [Visual Studio](#visual-studio)
@@ -71,6 +72,45 @@ ____
 - [Breaking changes for migration from Version 2.2 to 3.1](https://docs.microsoft.com/en-us/dotnet/core/compatibility/2.2-3.1)
 - [Upgrade Assistant](https://github.com/dotnet/upgrade-assistant) (Windows
   only)
+- [What's new in .NET
+  8](https://learn.microsoft.com/en-gb/dotnet/core/whats-new/dotnet-8)
+- [Breaking changes in .NET
+  8](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/8.0)
+
+### .NET 8
+
+- `\` characters are valid in directory and file names on Unix. Starting in .NET
+  8, the native CoreCLR runtime no longer converts `\` to `/` on Unix.
+- `System.ComponentModel.ITypeDescriptorContext` has three properties that were
+  previously annotated as being non-nullable, but they were actually nullable in
+  practice. The nullable annotations for these properties have been updated to
+  indicate that they're nullable. This change can result in new build warnings
+  related to use of nullable members.
+- `Environment.GetFolderPath` changes
+  | OS      | `SpecialFolder` value | .NET 7               | .NET 8                                                                 |
+  | ---     | ---                   | ---                  | ---                                                                    |
+  | Linux   | MyDocuments           | `$HOME`              | `XDG_DOCUMENTS_DIR`, or `$HOME/Documents` otherwise                    |
+  | Linux   | Personal              | `$HOME`              | `XDG_DOCUMENTS_DIR`, or `$HOME/Documents` otherwise                    |
+  | macOS   | MyDocuments           | `$HOME`              | `NSDocumentDirectory` (`$HOME/Documents`)                              |
+  | macOS   | Personal              | `$HOME`              | `NSDocumentDirectory` (`$HOME/Documents`)                              |
+  | macOS   | ApplicationData       | `$HOME/.config`      | `NSApplicationSupportDirectory`, (`$HOME/Library/Application Support`) |
+  | macOS   | LocalApplicationData  | `$HOME/.local/share` | `NSApplicationSupportDirectory`, (`$HOME/Library/Application Support`) |
+  | macOS   | MyVideos              | `$HOME/Videos`       | `NSMoviesDirectory` (`$HOME/Movies`)                                   |
+  | Android | MyDocuments           | `$HOME`              | `$HOME/Documents`                                                      |
+  | Android | Personal              | `$HOME`              | `$HOME/Documents`                                                      |
+- performance-focused types
+  * `System.Collections.Frozen.FrozenDictionary<TKey,TValue>`
+  * `System.Collections.Frozen.FrozenSet<TKey,TValue>`
+- Docker images
+  * a non-root user `app` has been included but not used by default
+  * default port changed from `80` to `8080`
+  * `ASPNETCORE_HTTP_PORTS` can be used to set port and it can replace the usage
+    of `ASPNETCORE_URLS`
+  * [chiseled Ubuntu
+    images](https://mcr.microsoft.com/product/dotnet/nightly/aspnet/tags) are
+    available
+    + super small, no package manager, no shell and run as non-root
+
 
 ### Tools
 
