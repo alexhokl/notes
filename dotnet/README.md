@@ -18,6 +18,8 @@
     + [Cultures](#cultures)
     + [Forwarding headers behind reverse proxy](#forwarding-headers-behind-reverse-proxy)
     + [IPv6](#ipv6)
+    + [`System.Drawing.Common`](#systemdrawingcommon)
+    + [Alpine](#alpine)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1273,6 +1275,45 @@ traffic from an IPv6 socket, and is considered to be a favourable practice by
 
 Environment variable `DOTNET_SYSTEM_NET_DISABLEIPV6` can be set to `1` to
 disable IPv6.
+
+### `System.Drawing.Common`
+
+If the .NET app uses the `System.Drawing.Common` assembly, `libgdiplus` will
+also need to be installed. Because `System.Drawing.Common` is no longer
+supported on Linux, this only works on .NET 6 and requires setting the
+`System.Drawing.EnableUnixSupport` runtime configuration switch.
+
+In `runtimeconfig.template.json`, specify the property like
+
+```json
+{
+  "configProperties": {
+    "System.Drawing.EnableUnixSupport": true
+  }
+}
+```
+
+To generate a runtime configuration file in publish process, add the following
+property in `.csproj`.
+
+```xml
+<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+```
+
+To install `libgdiplus` on Alpine 3.16 or newer (older versions don't include
+the package)
+
+```sh
+apk add libgdiplus
+```
+
+### Alpine
+
+Required installations
+
+```sh
+apk add bash icu-libs krb5-libs libgcc libintl libssl1.1 libstdc++ zlib
+```
 
 ### Workarounds
 
