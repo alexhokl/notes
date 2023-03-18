@@ -33,6 +33,8 @@
   * [Embed](#embed)
   * [Module](#module)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
+- [Charm](#charm)
+  * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
 ____
 
@@ -776,6 +778,39 @@ func FindAndCopyDigits(filename string) []byte {
     c := make([]byte, len(b))
     copy(c, b)
     return c
+}
+```
+
+## Charm
+
+### Bubbletea
+
+#### Debugging with Delve
+
+[Reference](https://github.com/charmbracelet/bubbletea#debugging-with-delve)
+
+Start a headless debugger (due to no access to `stdin` and `stdout`)
+
+```sh
+$ dlv debug --headless .
+```
+
+Assuming the port used by the headless Open another terminal
+
+```sh
+dlv connect 127.0.0.1:34241
+```
+
+#### Logging
+
+```go
+if len(os.Getenv("DEBUG")) > 0 {
+	f, err := tea.LogToFile("debug.log", "debug")
+	if err != nil {
+		fmt.Println("fatal:", err)
+		os.Exit(1)
+	}
+	defer f.Close()
 }
 ```
 
