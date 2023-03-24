@@ -681,6 +681,7 @@ storage service-agent`
     - `!~`          -- regular expression search not for a pattern
 - [View logs by using the Logs
   Explorer](https://cloud.google.com/logging/docs/view/logs-explorer-interface)
+- [Quota and limits](https://cloud.google.com/logging/quotas)
 
 ### Monitoring
 
