@@ -15,6 +15,7 @@
   * [Monitoring](#monitoring)
   * [Cloud Trace](#cloud-trace)
   * [Pub/Sub](#pubsub-1)
+- [Tools](#tools)
 ____
 
 
@@ -788,3 +789,12 @@ storage service-agent`
   - it does not support push subscribers
   - it is not as "managed" as Pub/Sub
   - it is closer to the model of running Kafka
+
+## Tools
+
+- [gcpdiag](https://github.com/GoogleCloudPlatform/gcpdiag) a lint tool to find
+  configuration issues on GCP
+  * `gcpdiag lint project=your_project_id`
+  * in case there is a problem with authentication, run `gcloud auth login
+    --update-adc` to create application credentials and the tool will read from
+    this default
