@@ -29,6 +29,8 @@ ____
   not available on Cloud SQL
 - [Installing ODBC drivers on
   Linux](https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server)
+- [Editions and supported features of SQL Server
+  2019](https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2019)
 
 ## Tools
 
