@@ -1,3 +1,4 @@
+- [Links](#links)
 - [NAS](#nas)
   * [Installation of Tailscale on QNAP NAS](#installation-of-tailscale-on-qnap-nas)
 - [CLI](#cli)
@@ -9,8 +10,28 @@
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
 - [Windows](#windows)
 - [Docker](#docker)
-- [Links](#links)
+- [Funnel](#funnel)
 ____
+
+## Links
+
+- [The long wondrous life of a Tailscale packet](https://tailscale.com/blog/2021-05-life-of-a-packet/)
+- [Using GitHub Actions and Tailscale to build and deploy applications
+  securely](https://tailscale.com/blog/2021-05-github-actions-and-tailscale/?utm_source=Tailscale+Newsletter&utm_campaign=37cbc3fd5e-EMAIL_CAMPAIGN_2020_10_06_12_18_COPY_01&utm_medium=email&utm_term=0_0b42c45af3-37cbc3fd5e-434266695)
+- [Subnet routes and relay nodes](https://tailscale.com/kb/1019/subnets/)
+- [How do I enable IP
+  forwarding?](https://tailscale.com/kb/1104/enable-ip-forwarding/)
+- [Exit Nodes](https://tailscale.com/kb/1103/exit-nodes/)
+- [Tailscale CLI](https://tailscale.com/kb/1080/cli/)
+- [Provision TLS certificates for your internal Tailscale
+  services](https://tailscale.com/blog/tls-certs/)
+- [Remote reboots with encrypted
+  disks](https://tavianator.com/2022/remote_reboots.html)
+- [Quickly switch between Tailscale
+  accounts](https://tailscale.com/blog/fast-user-switching/)
+- [Virtual private services with
+  tsnet](https://tailscale.com/blog/tsnet-virtual-private-services/)
+- [Integrations](https://tailscale.com/integrations/)
 
 ## NAS
 
@@ -81,22 +102,25 @@ The following options should be checked in `Preferences` menu.
 The Docker extension does not assign an IP address to each container but it
 exposes the public port to the host which has on tailnet already.
 
-## Links
+## Funnel
 
-- [The long wondrous life of a Tailscale packet](https://tailscale.com/blog/2021-05-life-of-a-packet/)
-- [Using GitHub Actions and Tailscale to build and deploy applications
-  securely](https://tailscale.com/blog/2021-05-github-actions-and-tailscale/?utm_source=Tailscale+Newsletter&utm_campaign=37cbc3fd5e-EMAIL_CAMPAIGN_2020_10_06_12_18_COPY_01&utm_medium=email&utm_term=0_0b42c45af3-37cbc3fd5e-434266695)
-- [Subnet routes and relay nodes](https://tailscale.com/kb/1019/subnets/)
-- [How do I enable IP
-  forwarding?](https://tailscale.com/kb/1104/enable-ip-forwarding/)
-- [Exit Nodes](https://tailscale.com/kb/1103/exit-nodes/)
-- [Tailscale CLI](https://tailscale.com/kb/1080/cli/)
-- [Provision TLS certificates for your internal Tailscale
-  services](https://tailscale.com/blog/tls-certs/)
-- [Remote reboots with encrypted
-  disks](https://tavianator.com/2022/remote_reboots.html)
-- [Quickly switch between Tailscale
-  accounts](https://tailscale.com/blog/fast-user-switching/)
-- [Virtual private services with
-  tsnet](https://tailscale.com/blog/tsnet-virtual-private-services/)
-- [Integrations](https://tailscale.com/integrations/)
+- use cases
+  * a webhook invoked by a public service
+  * briefly test a website a mobile device
+  * to host your personal blog or a small Mastodon server on your own computer
+- MagicDNS
+  * Tailscale provides a DNS name and supports a Tailscale node getting its
+    own Let’s Encrypt cert for that DNS name, but the Tailscale IP addresses
+    are not publicly routable
+- Tailscale Funnel is all off by default and double opt-in
+  * enabled in the Tailscale admin console, and
+  * enabled on the device
+- how does it work
+  * set up public DNS records for a `node.tailnet.ts.net` MagicDNS name to
+    point to public IP addresses of new servers Tailscale is now running
+  * add those Funnel ingress nodes to tailnet’s list of Tailscale peers
+  * When somebody goes to `node.tailnet.ts.net` in their browser, a traditional
+    DNS response then points to one of Tailscale's funnel VMs, ideally in
+    a region near the node. The VM then proxy those encrypted TCP connections to
+    the Tailscale node over Tailscale itself. SNI name is verified at the Funnel
+    VM but TLS is not terminated there.
