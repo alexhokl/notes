@@ -19,12 +19,48 @@ ____
 AUTH your-strong-password
 ```
 
+or
+
+```sh
+redis-cli -h test.com -a Passw0rd
+```
+
 ### Basic
 
 ##### To list all keys
 
 ```sh
 KEYS *
+```
+
+##### To flush all
+
+```sh
+FLUSHALL
+```
+
+##### To increment
+
+```sh
+INCR test_counter
+```
+
+##### To set
+
+```sh
+SET test_counter 2
+```
+
+##### To get
+
+```sh
+GET test_counter
+```
+
+##### To dump output of a command
+
+```sh
+redis-cli INCR test_counter > /tmp/output.txt
 ```
 
 # Troubleshooting
