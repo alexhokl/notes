@@ -5,6 +5,7 @@
   * [Web](#web)
   * [CLI](#cli)
   * [Unit testing](#unit-testing)
+  * [GUI](#gui)
   * [Kafka](#kafka)
   * [Finance](#finance)
   * [Security](#security)
@@ -89,6 +90,11 @@ ____
 ### Unit testing
 
 - [leanovate/gopter](https://github.com/leanovate/gopter) property testing
+
+### GUI
+
+- [fyne-io/fyne](https://github.com/fyne-io/fyne) - purely in Go
+- [wailsapp/wails](https://github.com/wailsapp/wails) - combining Go and HTML
 
 ### Kafka
 
