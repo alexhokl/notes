@@ -6,6 +6,7 @@
   * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
   * [To show login URL as QR code](#to-show-login-url-as-qr-code)
   * [To copy files to another device](#to-copy-files-to-another-device)
+- [Taildrop (file)](#taildrop-file)
 - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
 - [Windows](#windows)
@@ -72,6 +73,15 @@ sudo tailscale up --qr
 ```sh
 tailscale file cp some_file 100.333.333.333:
 ```
+
+## Taildrop (file)
+
+- it does not work with tagged devices as tagged devices are considered userless
+  and are meant to be used for shared services
+
+> Taildrop permits you to share files between devices that you are logged in to,
+> even if ACLs are used to restrict access to the devices. You cannot use
+> Taildrop to send files to and from nodes you have tagged.
 
 ## Google Cloud Platform (GCP)
 
