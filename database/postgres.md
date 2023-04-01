@@ -4,8 +4,6 @@
   * [Management](#management)
   * [Performance](#performance)
   * [JSON](#json)
-  * [Array and join (Cartesian product)](#array-and-join-cartesian-product)
-  * [Array and count](#array-and-count)
 ____
 
 ## Links
@@ -238,7 +236,7 @@ SELECT
 FROM orders;
 ```
 
-### Array and join (Cartesian product)
+##### Array and join (Cartesian product)
 
 ```sql
 SELECT
@@ -254,7 +252,7 @@ FROM
 Assuming there are 1 customer and 5 order associated with the customer and each
 order has 5 items, the above query results in 25 rows of data.
 
-### Array and count
+##### Array and count
 
 ```sql
 SELECT
