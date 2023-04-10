@@ -45,7 +45,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout selfsigned.key -out 
 or, to include a configuration file to avoid command line prompts
 
 ```sh
-openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout selfsigned.key -out selfsigned.crt -passin pass:YourSecurePassword -config gen.conf 
+openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout selfsigned.key -out selfsigned.crt -passin pass:YourSecurePassword -config gen.conf
 ```
 
 or, to include configurations as command line parameters
@@ -88,7 +88,7 @@ openssl pkcs12 -export -out selfsigned.pfx -inkey selfsigned.key -in selfsigned.
 or, if password is required for the key
 
 ```sh
-openssl pkcs12 -export -out selfsigned.pfx -inkey selfsigned.key -in selfsigned.crt -passout pass:YourSecurePassword 
+openssl pkcs12 -export -out selfsigned.pfx -inkey selfsigned.key -in selfsigned.crt -passout pass:YourSecurePassword
 ```
 
 ##### To extract private key from pfx
@@ -104,6 +104,20 @@ extracted keys.
 
 ```sh
 openssl pkcs12 -in selfsigned.pfx -clcerts -nokeys -out selfsigned.crt
+```
+
+##### To convert to a PKCS#8 encoded private RSA key from PKCS#1 encoded private RSA key
+
+```sh
+openssl pkcs8 -inform PEM -topk8 -passin file:local.password -passout file:local.password \
+  -in local.key -out local.key.pem
+```
+
+Assuming password file `local.password` has been prepared like the following.
+
+```
+strongP@ssw0rd
+strongP@ssw0rd
 ```
 
 ##### To generate a password conform to Apache
