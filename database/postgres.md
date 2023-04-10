@@ -70,6 +70,24 @@ psql -U some-user@some-database -h some-database.example.com -d name-of-database
 psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "SELECT Id FROM your-table;"
 ```
 
+##### To list all users of a database server
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -c "\du"
+```
+
+##### To list all tables of a database
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "\dt"
+```
+
+##### To list all column types, indexes and foreign keys of a database table
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "\d some_table_name"
+```
+
 ## SQL statements
 
 ### Management
