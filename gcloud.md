@@ -5,6 +5,7 @@
   * [CI/CD Builds](#cicd-builds)
   * [DNS](#dns)
   * [Pub/Sub](#pubsub)
+  * [Cloud SQL](#cloud-sql)
   * [IAM](#iam)
 - [gsutil commands](#gsutil-commands)
   * [Bucket](#bucket)
@@ -529,6 +530,52 @@ gcloud pubsub topics list
 
 ```sh
 gcloud pubsub subscriptions list
+```
+
+### Cloud SQL
+
+#### SQL Server
+
+##### BAK export
+
+To enable command `gcloud beta sql export bak` to upload to a bucket, service
+account running the SQL server requires permission to write to the bucket.
+
+To find the service account,
+
+```sh
+gcloud sql instances list --project $project_id --format json \
+  | jq -r '.[] | .name + "," + .serviceAccountEmailAddress'
+```
+
+To grant the write permission,
+
+```sh
+gcloud storage buckets add-iam-policy-binding gs://$BUCKET_NAME \
+  --role=roles/storage.admin \
+  --member=serviceAccount:$SERVICE_ACCOUNT_EMAIL
+```
+
+##### BAK import
+
+To enable command `gcloud beta sql import bak` to upload to a bucket, service
+account running the SQL server requires permission to read from the bucket. Note
+that cross-project import is possible as long as IAM permissions has been
+configured correctly.
+
+To find the service account,
+
+```sh
+gcloud sql instances list --project $project_id --format json \
+  | jq -r '.[] | .name + "," + .serviceAccountEmailAddress'
+```
+
+To grant the read permission,
+
+```sh
+gcloud storage buckets add-iam-policy-binding gs://$BUCKET_NAME \
+  --role=roles/storage.objectViewer \
+  --member=serviceAccount:$SERVICE_ACCOUNT_EMAIL
 ```
 
 ### IAM
