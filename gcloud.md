@@ -209,7 +209,10 @@ Note that [workload identity has to be enabled](./#to-enable-workload-identity)
 before accounts can be linked.
 
 ```sh
-gcloud iam service-accounts add-iam-policy-binding --role roles/iam.workloadIdentityUser --member "serviceAccount:$PROJECT_ID.svc.id.goog[$NAMESPACE/$SERVICE_ACCOUNT]" $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
+gcloud iam service-accounts add-iam-policy-binding \
+  --role roles/iam.workloadIdentityUser \
+  --member "serviceAccount:$PROJECT_ID.svc.id.goog[$NAMESPACE/$SERVICE_ACCOUNT]" \
+  $GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com
 ```
 
 To the Kubernetes service account to bind to, add the following annotation
@@ -222,7 +225,9 @@ To create a secret and allow a Google service account to access it,
 
 ```sh
 gcloud secrets create $SECRET_NAME --replication-policy=automatic --data-file=$SECRET_FILE
-gcloud secrets add-iam-policy-binding $SECRET_NAME --member=serviceAccount:$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com --role=roles/secretmanager.secretAccessor
+gcloud secrets add-iam-policy-binding $SECRET_NAME \
+  --member=serviceAccount:$GOOGLE_SERVICE_ACCOUNT@$PROJECT_ID.iam.gserviceaccount.com \
+  --role=roles/secretmanager.secretAccessor
 ```
 
 To synchronise a secret from GCP Secret Manager to file system of a container,
