@@ -107,6 +107,7 @@ ____
 - [logz.io](https://logz.io/) - log management, infrastructure monitoring,
   cloud SIEM
 - [Linear](https://linear.app/) - issue tracking
+- [Codecov](https://about.codecov.io/) - code coverage reporting
 
 ### Online meeting
 
