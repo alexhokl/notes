@@ -85,6 +85,7 @@ ____
 - [GitHub user public keys](https://github.com/alexhokl.keys)
 - [What Unicode character is
   this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
+- [Unicode Text Analyzer](https://www.fontspace.com/unicode/analyzer)
 - [CBOR playground](https://cbor.me/)
 
 ### APIs
