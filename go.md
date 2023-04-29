@@ -34,6 +34,7 @@
   * [Embed](#embed)
   * [Module](#module)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
+  * [Unix socket](#unix-socket)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -786,6 +787,10 @@ func FindAndCopyDigits(filename string) []byte {
     return c
 }
 ```
+
+### Unix socket
+
+- [alexhokl/unix-socket-test](https://github.com/alexhokl/unix-socket-test)
 
 ## Charm
 
