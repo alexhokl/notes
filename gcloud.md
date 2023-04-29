@@ -105,10 +105,16 @@ service account and must be carefully rolled out.
 
 See [Link Kubernetes service account to Google service account](./#link-kubernetes-service-account-to-google-service-account).
 
-##### To set credentials on local machine to access kubernetes clusters
+##### To set credentials on local machine to access Kubernetes clusters
 
 ```sh
 gcloud container clusters get-credentials $CLUSTER_NAME
+```
+
+To connect with a private IP address
+
+```sh
+gcloud container clusters get-credentials $CLUSTER_NAME --internal-ip
 ```
 
 ##### To authenticate to Container Registry on GCP
