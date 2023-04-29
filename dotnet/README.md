@@ -116,6 +116,8 @@ ____
 
 ### Tools
 
+- [.NET Fiddle](https://dotnetfiddle.net/) - acts like a playground
+
 ##### dotnet-counters
 
 Reference: [Investigate performance counters
