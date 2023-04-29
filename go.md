@@ -64,6 +64,7 @@ ____
 - [go-jet/jet](https://github.com/go-jet/jet) generates `struct`s from a database
   connection but it is not an ORM tool. It also allows serialising data into
   custom `struct` created from the generated `struct`s.
+- [go-gorm/gorm](https://github.com/go-gorm/gorm)
 
 ### Logging
 
@@ -74,12 +75,16 @@ ____
 
 ### Web
 
-- [go-chi/chi](https://github.com/go-chi/chi) lightweight, idiomatic and composable router for building Go HTTP services
-- [gorilla/websocket](https://github.com/gorilla/websocket)
+- [go-chi/chi](https://github.com/go-chi/chi) lightweight, idiomatic and
+  composable router for building Go HTTP services
 - [microcosm-cc/bluemonday](https://github.com/microcosm-cc/bluemonday/) a HTML
   sanitizer
 - [twitchtv/twirp](https://github.com/twitchtv/twirp) A simple RPC framework
   with protobuf service definitions
+- [gin-gonic/gin](https://github.com/gin-gonic/gin) - easy to create web API and
+  fast
+- [labstack/echo](https://github.com/labstack/echo) - easy to create
+  unit-testable web APIs
 
 ### CLI
 
@@ -258,13 +263,25 @@ go1.15.4 download
 
 ## Swagger
 
-##### To generate code from an API specification
+##### To generate a client from an API specification
 
 ```sh
 git clone https://github.com/swagger-api/swagger-codegen
 cd swagger-codegen
 ./run-in-docker.sh mvn package
 ./run-in-docker.sh generate -i https://developers.strava.com/swagger/swagger.json -l go -o generated/go
+```
+
+or using `oapi-codegen`
+
+```sh
+oapi-codegen -package yourpackage -generate client swagger.json > proxy.go
+```
+
+##### To generate a server
+
+```sh
+oapi-codegen -package yourpackage -generate server swagger.json > server.go
 ```
 
 ## Language
