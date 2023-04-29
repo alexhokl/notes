@@ -1,6 +1,8 @@
 - [Commands](#commands)
+- [Links](#links)
 ____
-### Commands
+
+## Commands
 
 #### `terraform init`
 
@@ -22,3 +24,8 @@ ____
 ```sh
 terraform destroy -target=module.hangfire-postgres.helm_release.hangfire-postgres
 ```
+
+## Links
+
+- [Writing Terraform for unsupported
+  resources](https://www.hashicorp.com/blog/writing-terraform-for-unsupported-resources)
