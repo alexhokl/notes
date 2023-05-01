@@ -213,6 +213,8 @@ docker run --rm --privileged tonistiigi/binfmt
 - [node](./dockerfiles/node/Dockerfile)
 - [nginx](./dockerfiles/nginx/Dockerfile)
 - [ASP.NET](./dockerfiles/aspdotnet/Dockerfile)
+- From .NET 8, it has user `APP_UID` built-in
+  ([example](https://github.com/dotnet/dotnet-docker/blob/e5bc76bca49a1bbf9c11e74a590cf6a9fe9dbf2a/samples/aspnetapp/Dockerfile.alpine-non-root#L27))
 
 ### Best practices
 
