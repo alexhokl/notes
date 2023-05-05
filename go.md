@@ -21,6 +21,7 @@
   * [main function](#main-function)
   * [Functional options](#functional-options)
   * [Interface](#interface)
+  * [Empty interface and pointer](#empty-interface-and-pointer)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [errgroup](#errgroup)
@@ -446,6 +447,56 @@ func main() {
   s := &Something{}
   fmt.Println(s.String())
   // this compiles and should display "something"
+}
+```
+
+### Empty interface and pointer
+
+```go
+func main() {
+	var ptr *string
+	fmt.Println("ptr", ptr)
+	fmt.Println("ptr is null", ptr == nil, "(expected true)")
+	fmt.Println("function return:", notNil(ptr), "(expected false)")
+}
+
+func notNil(i interface{}) bool {
+	fmt.Println("function parameter i:", i)
+	return i != nil
+}
+```
+
+Output
+
+```
+ptr <nil>
+ptr is null true (expected true)
+function parameter i: <nil>
+function return: true (expected false)
+```
+
+A variable of interface contains the following two items
+
+- a pointer to the actual type (`*rtype`)
+- a pointer to the data (`unsafe.Pointer`)
+
+In the example above, when the pointer is passed as `interface{}` variable,
+a pointer to type `string` is store and the data is null. Thus, the variable is
+never `== nil` although its value can be `nil`.
+
+```go
+type rtype struct {
+   size       uintptr
+   ptrdata    uintptr
+   hash       uint32
+   tflag      tflag
+   align      uint8
+   fieldAlign uint8
+   kind       uint8
+   alg        *typeAlg
+   gcdata     *byte
+   str        nameOff
+   ptrToThis  typeOff
 }
 ```
 
