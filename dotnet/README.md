@@ -72,15 +72,38 @@ ____
 - [Migrate from ASP.NET Core 2.2 to 3.0](https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-3.1&tabs=visual-studio)
 - [Migrate from ASP.NET Core 3.0 to 3.1](https://docs.microsoft.com/en-us/aspnet/core/migration/30-to-31?view=aspnetcore-3.1&tabs=visual-studio)
 - [Breaking changes for migration from Version 2.2 to 3.1](https://docs.microsoft.com/en-us/dotnet/core/compatibility/2.2-3.1)
+
+#### Upgrade assistant
+
 - [Upgrade Assistant](https://github.com/dotnet/upgrade-assistant) (Windows
   only)
+
+To install
+
+```sh
+dotnet tool install -g upgrade-assistant \
+  --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json
+```
+
+To upgrade
+
+```sh
+dotnet tool update -g upgrade-assistant \
+  --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json
+```
+
+To run
+
+```sh
+upgrade-assistant upgrade YourSolution.sln
+```
+
+### .NET 8
+
 - [What's new in .NET
   8](https://learn.microsoft.com/en-gb/dotnet/core/whats-new/dotnet-8)
 - [Breaking changes in .NET
   8](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/8.0)
-
-### .NET 8
-
 - `\` characters are valid in directory and file names on Unix. Starting in .NET
   8, the native CoreCLR runtime no longer converts `\` to `/` on Unix.
 - `System.ComponentModel.ITypeDescriptorContext` has three properties that were
