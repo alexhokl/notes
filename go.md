@@ -66,6 +66,8 @@ ____
   connection but it is not an ORM tool. It also allows serialising data into
   custom `struct` created from the generated `struct`s.
 - [go-gorm/gorm](https://github.com/go-gorm/gorm)
+- [RadhiFadlillah/sqldiagram](https://github.com/RadhiFadlillah/sqldiagram)
+  generates SQL diagram using SQL files - it only supports MySQL
 
 ### Logging
 
