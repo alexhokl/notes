@@ -37,6 +37,7 @@
   * [Module](#module)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
   * [Unix socket](#unix-socket)
+  * [Testing](#testing-1)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -57,6 +58,7 @@ ____
 - [Top Go Web Frameworks](https://github.com/mingrammer/go-web-framework-stars)
 - [Programming the Windows
   firewall](https://tailscale.com/blog/windows-firewall/)
+- [Go project generator](https://goquick.dev/)
 
 ## Libraries
 
@@ -99,6 +101,7 @@ ____
 
 ### Unit testing
 
+- [Fuzz test](https://go.dev/security/fuzz/)
 - [leanovate/gopter](https://github.com/leanovate/gopter) property testing
 
 ### GUI
@@ -135,6 +138,8 @@ ____
   terminal
 - [bryanl/manifest-summary](https://github.com/bryanl/manifest-summary) print
   summary of a kubernetes manifest
+- [dolthub/swiss](https://github.com/dolthub/swiss) a replacement to built-in
+  `map`
 
 ## Tricks
 
@@ -215,6 +220,12 @@ go test -test.list .
 
 ```sh
 go test --short all
+```
+
+###### To run fuzz test
+
+```sh
+go test -fuzz
 ```
 
 ### Modules
@@ -869,6 +880,61 @@ func FindAndCopyDigits(filename string) []byte {
 ### Unix socket
 
 - [alexhokl/unix-socket-test](https://github.com/alexhokl/unix-socket-test)
+
+### Testing
+
+#### Normal unit testing
+
+```go
+func TestValidateDate(t *testing.T) {
+	tests := []struct {
+		name          string
+		str           string
+		expectedError error
+	}{
+		{
+			name:          "valid RFC3339 date",
+			str:           "2022-11-21T05:00:00Z",
+			expectedError: nil,
+		},
+		{
+			name:          "invalid RFC3339 date",
+			str:           "2022-11-21",
+			expectedError: errors.New("invalid date format"),
+		},
+	}
+
+	for _, test := range tests {
+		testName := fmt.Sprintf(test.name, test.str)
+		t.Run(testName, func(t *testing.T) {
+			actualErr := ValidateDate(test.str)
+			if actualErr != test.expectedError {
+				if !strings.Contains(actualErr.Error(), test.expectedError.Error()) {
+					t.Errorf("expected error %v, got %v", test.expectedError, actualErr)
+				}
+				return
+			}
+		})
+	}
+}
+```
+
+#### Fuzz testing
+
+```go
+func FuzzEnglish(f *testing.F) {
+  f.Add(5, "five")
+  f.Fuzz(func(t *testing.T, i int, s string) {
+    out, err := English(i, s)
+    if err != nil && out != "" {
+      t.Errorf("%q, %v", out, err)
+    }
+  })
+}
+```
+
+- There must be exactly one fuzz target per fuzz test.
+- Fuzzing argument can only be primitive types.
 
 ## Charm
 
