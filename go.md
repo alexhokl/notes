@@ -15,6 +15,7 @@
   * [Testing](#testing)
   * [Modules](#modules)
   * [Help](#help)
+  * [Vulnerability detection](#vulnerability-detection)
 - [Swagger](#swagger)
 - [Language](#language)
   * [Error handling](#error-handling)
@@ -263,6 +264,12 @@ This shows the help page of command `go get`.
 ```sh
 go get golang.org/dl/go1.15.4
 go1.15.4 download
+```
+
+### Vulnerability detection
+
+```sh
+govulncheck ./...
 ```
 
 ## Swagger
