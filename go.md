@@ -124,6 +124,7 @@ ____
   client library for checking values against compromised HIBP Pwned Passwords
 - [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal
   encrypted backups outside the app
+- [egbakou/domainverifier](https://github.com/egbakou/domainverifier)
 
 ### Others
 
