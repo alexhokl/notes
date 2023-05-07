@@ -20,6 +20,7 @@
     + [IPv6](#ipv6)
     + [`System.Drawing.Common`](#systemdrawingcommon)
     + [Alpine](#alpine)
+    + [Cryptography](#cryptography)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1338,6 +1339,66 @@ Required installations
 
 ```sh
 apk add bash icu-libs krb5-libs libgcc libintl libssl1.1 libstdc++ zlib
+```
+
+### Cryptography
+
+To load public key from JSON Web Key definition
+
+```csharp
+var keys = LoadKeys(new Uri("https://test.com/.well-known/openid-configuration/jwks"));
+
+public static IEnumerable<RSA> LoadKeys(Uri uri)
+{
+    var client = new HttpClient();
+    var response = client.GetAsync(uri.ToString()).Result;
+    var content = response.Content;
+    var json = content.ReadAsStringAsync().Result;
+    var keySet = new JsonWebKeySet(json);
+
+    foreach (var jwk in keySet.Keys)
+    {
+        var rsaParams = new RSAParameters
+        {
+            Modulus = Base64UrlEncoder.DecodeBytes(jwk.N),
+            Exponent = Base64UrlEncoder.DecodeBytes(jwk.E),
+        };
+
+        yield return RSA.Create(rsaParams);
+    }
+}
+```
+
+To load public key from JSON Web Key definition
+
+```csharp
+var keys = LoadKeys(new Uri("https://test.com/.well-known/openid-configuration/jwks"));
+
+public static IEnumerable<RSA> LoadKeys(Uri uri)
+{
+    var client = new HttpClient();
+    var response = client.GetAsync(uri.ToString()).Result;
+    var content = response.Content;
+    var json = content.ReadAsStringAsync().Result;
+    var keySet = new JsonWebKeySet(json);
+
+    foreach (var jwk in keySet.Keys)
+    {
+        var rsaParams = new RSAParameters
+        {
+            Modulus = Base64UrlEncoder.DecodeBytes(jwk.N),
+            Exponent = Base64UrlEncoder.DecodeBytes(jwk.E),
+            D = Base64UrlEncoder.DecodeBytes(jwk.D),
+            DP = Base64UrlEncoder.DecodeBytes(jwk.DP),
+            DQ = Base64UrlEncoder.DecodeBytes(jwk.DQ),
+            P = Base64UrlEncoder.DecodeBytes(jwk.P),
+            Q = Base64UrlEncoder.DecodeBytes(jwk.Q),
+            InverseQ = Base64UrlEncoder.DecodeBytes(jwk.QI),
+        };
+
+        yield return RSA.Create(rsaParams);
+    }
+}
 ```
 
 ### Workarounds
