@@ -87,6 +87,8 @@ ____
   this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
 - [Unicode Text Analyzer](https://www.fontspace.com/unicode/analyzer)
 - [CBOR playground](https://cbor.me/)
+- [First Timers Only](https://www.firsttimersonly.com/) - clues for contributing
+  to open source
 
 ### APIs
 
