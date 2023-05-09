@@ -37,6 +37,7 @@
   * [Module](#module)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
   * [Unix socket](#unix-socket)
+  * [PostgreSQL](#postgresql)
   * [Testing](#testing-1)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
@@ -71,6 +72,7 @@ ____
 - [go-gorm/gorm](https://github.com/go-gorm/gorm)
 - [RadhiFadlillah/sqldiagram](https://github.com/RadhiFadlillah/sqldiagram)
   generates SQL diagram using SQL files - it only supports MySQL
+- [czinc/sqlite](https://gitlab.com/cznic/sqlite) SQLite written purely in Go
 
 ### Logging
 
@@ -880,6 +882,12 @@ func FindAndCopyDigits(filename string) []byte {
 ### Unix socket
 
 - [alexhokl/unix-socket-test](https://github.com/alexhokl/unix-socket-test)
+
+### PostgreSQL
+
+- [PG advisory locks in Go with built-in
+  hashes](https://brandur.org/fragments/pg-advisory-locks-with-go-hash) similar
+  application lock in MSSQL
 
 ### Testing
 
