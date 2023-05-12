@@ -16,6 +16,7 @@
   * [Monitoring](#monitoring)
   * [Cloud Trace](#cloud-trace)
   * [Pub/Sub](#pubsub-1)
+  * [Cloud Storage (Bucket)](#cloud-storage-bucket)
 - [Tools](#tools)
 ____
 
@@ -847,6 +848,12 @@ storage service-agent`
   - it does not support push subscribers
   - it is not as "managed" as Pub/Sub
   - it is closer to the model of running Kafka
+
+### Cloud Storage (Bucket)
+
+- [oittaa/gcp-storage-emulator](https://github.com/oittaa/gcp-storage-emulator/)
+- [Package
+  cloud.google.com/go/storage](https://cloud.google.com/go/docs/reference/cloud.google.com/go/storage/latest)
 
 ## Tools
 
