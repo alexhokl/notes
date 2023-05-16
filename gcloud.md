@@ -843,6 +843,23 @@ storage service-agent`
     - it is done regardless of a message has been consumed or not
   - subscription level
     - maximum at 7 days
+- ordering
+  * requirements
+    + ordering key is set in a message
+    + ordering is enabled in a subscription
+  * properties
+    + order
+      + message published in the same region will be received in the same order
+    + consistent redelivery
+      + If a message is redelivered, then all messages received after that
+        message for the same ordering key will also be redelivered, whether or
+        not they were already acknowledged.
+    + affinity
+      + for streaming pull subscriber, if there are messages with an ordering
+        key to a subscriber, the additional messages will be delivered to the
+        same subscriber. If there are no outstanding messages, the service
+        delivers messages to the last subscriber to receive messages for that
+        key on a best-effort basis
 - Pub/Sub Lite
   - it is mostly for real-time event processing
   - it does not support push subscribers
