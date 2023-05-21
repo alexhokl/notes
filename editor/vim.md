@@ -320,6 +320,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   - `a` current argument (parameter)
 - <kbd>m</kbd> on a visual selection to select a bigger scope of visual
   selection
+- `:TSHighlightCapturesUnderCursor` show highlight groups under the current
+  cursor
+- `:TSNodeUnderCursor` show node under the current cursor
 
 ### C#
 
