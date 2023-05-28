@@ -58,7 +58,7 @@ cargo new package_name --lib
 This will create package in path `./package_name`.
 
 ```sh
-cargp init
+cargo init
 ```
 
 This will create a new package in the currect directory instead. The current
