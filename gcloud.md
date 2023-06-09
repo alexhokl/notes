@@ -659,6 +659,14 @@ gcloud organizations list
 gcloud organization get-iam-policy your-organization-name
 ```
 
+### Commitments
+
+##### To list commitments
+
+```sh
+gcloud compute commitments list
+```
+
 ## gsutil commands
 
 ### Bucket
