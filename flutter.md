@@ -75,5 +75,11 @@ flutter build appbundle
 flutter build ios
 ```
 
-Note that this works on Mac only.
+##### To add a package
+
+```sh
+flutter pub add flutter_animate
+```
+
+This adds package `flutter_animate` to section `dependencies` in `pubspec.yaml`.
 
