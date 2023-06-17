@@ -7,6 +7,7 @@
   * [Pub/Sub](#pubsub)
   * [Cloud SQL](#cloud-sql)
   * [IAM](#iam)
+  * [Commitments](#commitments)
 - [gsutil commands](#gsutil-commands)
   * [Bucket](#bucket)
 - [Concepts](#concepts-1)
@@ -798,6 +799,17 @@ storage service-agent`
 
 ### Pub/Sub
 
+- life of a message
+  * A publisher sends a message
+  * the message is written to storage
+  * Pub/Sub sends an acknowledgement to the publisher that it has received the
+    message and guarantees its delivery to all attached subscriptions
+  * at the same time as writing the message to storage, Pub/Sub delivers it to
+    subscribers
+  * subscribers send an acknowledgement to Pub/Sub that they have processed the
+    message
+  * once at least one subscriber for each subscription has acknowledged the
+    message, Pub/Sub deletes the message from storage
 - publisher
   * the maximum size of a `base64`-decoded message is 10Mb
   * message cannot be empty and must be a valid JSON object with at least one
@@ -810,9 +822,19 @@ storage service-agent`
   * messages of a topic with no subscription will be discarded
   * messages expired after the retention period will be discarded and no dead
     letter will be generated
+  * message is encrypted by proxy layer by the time it is being sent to a topic
+  * when a message reaches Pub/Sub, forwarder initially writes the message to
+    `N` clusters (where `N` is an odd number) and consider the message persisted
+    when it has been written to at least `N/2` clusters. Once a message is
+    persisted, the publishing forwarder acknowledges receipt of the message back
+    to the publisher
 - subscriber
   * consumer of subscriber message needs to handle idempotency and duplication
-    as publisher is not guaranteed to deliver the same message only once
+    as publisher is not guaranteed to deliver the same message only once (but at
+    least once)
+  * multiple subscribers to the same subscription implies message will be
+    load-balanced across the subscribers and each subscriber receiving a subset
+    of the messages
   * subscription can be expired after 31 days (default) of inactivity and it can
     be configured to never expire
   * push subscriber requires a public DNS name and a non-self-signed SSL
@@ -830,6 +852,45 @@ storage service-agent`
       consumer being overloaded and the other being idle
   * if a push subscriber is a Cloud Function, configuring IAM would be enough
     for authentication
+- internal architecture
+  * data plane
+    + moving messages between publishers and subscribers
+    + servers in this plane are called forwarders
+      + any forwarder is capable of serving clients for any topic or
+        subscription (publishing forwarder and subscribing forwarder)
+      + publishing forwarder
+        + has a list of all subscriptions that are attached to a topic
+        + it is responsible for persisting both the published messages and the
+          metadata describing which messages have been acknowledged by each
+          subscription.
+        + the set of messages received and stored by a publishing forwarder for
+          a particular topic, along with this tracking of acknowledged messages,
+          is called a "publish message source."
+      + subscribing forwarder
+        + Subscribers receive messages by connecting to subscribing forwarders,
+          forwarders through which messages flow to subscribers from publishers.
+          “Connecting” in the case of a pull subscriber means issuing a pull
+          request. “Connecting” in the case of a push subscriber means having
+          the push endpoint registered with Pub/Sub. Once a subscription is
+          created, it is guaranteed that any messages published after that point
+          will be delivered to that subscription, what we call a sync-point
+          guarantee.
+    + acknowledgement
+      + Once a subscriber processes a message, it sends an acknowledgement back
+        to the subscribing forwarder. The subscribing forwarder relays this
+        acknowledgement to the publishing forwarder, which stores the
+        acknowledgement in the publish message source. Once all subscriptions on
+        a topic have acknowledged a message, the message is asynchronously
+        deleted from the publish message source and from storage.
+  * control plane
+    + assignment of publishers and subscribers to servers on the data plane
+    + servers in this plane are called routers
+      + router provides the client with an ordered list of forwarders it can
+        consider connecting to
+        + this ordered list may change based on forward availability and the
+          shape of the load from the client
+        + a client takes this list of forwarders and connects to one or more of
+          them
 - seek
   * future time
     + all messages before the seek time will be considered as acknowledged
