@@ -7,6 +7,8 @@
 - [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
 - [Analysis Paralysis](#analysis-paralysis)
 - [Event Sourcing](#event-sourcing)
+- [Deployment](#deployment)
+  * [Canary](#canary)
 - [Microservices](#microservices)
 - [Others](#others-1)
 ____
@@ -534,6 +536,14 @@ all that has happened allows systems to be more reliable by means of audit and
 specification by example that literally translates to how the system is
 implemented. We also have enough storage to have a cache of different views into
 what has happened in the system.
+
+## Deployment
+
+### Canary
+
+A subset of the production environment that has a small amount of customer
+traffic. This allows testing new changes with a subset of traffic before rolling
+it out to the whole production environment.
 
 ## Microservices
 
