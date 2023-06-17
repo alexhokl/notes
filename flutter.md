@@ -83,3 +83,8 @@ flutter pub add flutter_animate
 
 This adds package `flutter_animate` to section `dependencies` in `pubspec.yaml`.
 
+##### To download dependencies (packages)
+
+```sh
+flutter pub get
+```
