@@ -819,6 +819,8 @@ storage service-agent`
     + this is particularly important when ordering key is used
   * ordering is only guaranteed in region level
     + no global endpoint should be used
+      + this implies publishers and subscribers need to be configured to use
+        regional endpoints to ensure messages are routed to the correct region
   * messages of a topic with no subscription will be discarded
   * messages expired after the retention period will be discarded and no dead
     letter will be generated
@@ -832,6 +834,7 @@ storage service-agent`
   * consumer of subscriber message needs to handle idempotency and duplication
     as publisher is not guaranteed to deliver the same message only once (but at
     least once)
+    + Dataflow can be incorporated to de-duplicate messages
   * multiple subscribers to the same subscription implies message will be
     load-balanced across the subscribers and each subscriber receiving a subset
     of the messages
@@ -852,6 +855,24 @@ storage service-agent`
       consumer being overloaded and the other being idle
   * if a push subscriber is a Cloud Function, configuring IAM would be enough
     for authentication
+  * subscription retry policies
+    * immediate redelivery (default)
+    * exponential backoff
+      + exponential backoff is only applied per-message, rather than to all the
+        messages in a subscription
+  * acknowledgement deadline (lease) management
+    + high-level client libraries provide lease management as a feature that
+      automatically extends the deadline of a message that has not yet been
+      acknowledged. By default, the client libraries can extend the deadline to
+      an hour by issuing periodic `modifyAckDeadline` requests. The high-level
+      client libraries for Python, Go, Java, and .Net use the `99th` percentile
+      of acknowledgement delay to determine the length of each extension
+    + acknowledgement deadlines are not guaranteed to be respected unless you
+      enable exactly-once delivery
+  * exactly-once delivery
+    + unique message ID is required
+    + it has significantly higher publish-to-subscribe latency compared to
+      regular subscriptions
 - internal architecture
   * data plane
     + moving messages between publishers and subscribers
@@ -929,6 +950,29 @@ storage service-agent`
         same subscriber. If there are no outstanding messages, the service
         delivers messages to the last subscriber to receive messages for that
         key on a best-effort basis
+- Cloud Storage as subscriber (sink)
+  * Dataflow needs to be setup which requires either Java or python
+- comparison with Kafka
+  * Kafka requires configuration of number of partitions for each topic whereas
+    Pub/Sub autoscales itself
+  * Kafka has message de-duplication out of the box whereas Pub/Sub requires the
+    use of Dataflow
+  * Kafka as dead-letter queue since `2.0`
+  * Kafka supports stream processing via `KSQL` whereas Pub/Sub via Dataflow
+  * Kafka has not hard limit on messages size whereas Pub/Sub limits to `10MB`
+    + the workaround is to use Cloud Storage to store the messages
+  * cost of Kafka is based on cost of machines, disk, networking, data ingress
+    and egress whereas Pub/Sub is based on data transferred from publishers and
+    to subscribers, and the cost of temporarily storing un-acknowledged messages
+  * Kafka supports the following authentication methods
+    + client certificates
+    + Kerberos
+    + LDAP
+    + username and password
+  * Kafka use ACLs for authorization
+- migrate from Kafka to Pub/Sub
+  * Pub/Sub Kafka connectors can be used to forward messages of a Kafka topic to
+    a Pub/Sub topic
 - Pub/Sub Lite
   - it is mostly for real-time event processing
   - it does not support push subscribers
