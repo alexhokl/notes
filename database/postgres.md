@@ -4,6 +4,8 @@
   * [Management](#management)
   * [Performance](#performance)
   * [JSON](#json)
+- [Features](#features)
+- [Limitations](#limitations)
 ____
 
 ## Links
@@ -282,3 +284,18 @@ FROM
     public."order" o ON
         o."customer_id" = c."customer_id"
 ```
+
+## Features
+
+- [index types](https://www.postgresql.org/docs/current/indexes-types.html)
+  * B-Tree (default)
+  * Hash
+  * GiST
+  * SP-GiST
+  * GIN (an inverted index)
+    + it is like tokenized a column so that rows are indexed by the tokens
+  * BRIN
+
+## Limitations
+
+- it does not have a way to deal with surrogate pair of UTF-16 characters
