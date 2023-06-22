@@ -1,4 +1,5 @@
 - [Sign-up and Sign-in](#sign-up-and-sign-in)
+- [WebAuthn](#webauthn)
 - [OAuth 2.0](#oauth-20)
     + [Links](#links)
     + [Specifics](#specifics)
@@ -72,6 +73,13 @@ ____
 - Placeholders should not be used and labels next to the fields should be used
   instead.
 - Show password button helps improving accessibility.
+
+# WebAuthn
+
+- [WebAuthn](https://webauthn.io/)
+- [passkey](https://passkeys.dev/)
+- [Passkeys.directory](https://passkeys.directory/) - a community-driven index
+  of websites, apps, and services that offer signing in with passkeys
 
 # OAuth 2.0
 
