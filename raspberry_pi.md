@@ -9,6 +9,7 @@
   * [Bluetooth](#bluetooth)
 - [Camera](#camera)
   * [Commands](#commands)
+- [Infrared IR](#infrared-ir)
 ____
 
 ## Projects
@@ -90,6 +91,17 @@ ____
 - [deCONZ REST API - code](https://github.com/dresden-elektronik/deconz-rest-plugin) (for Raspbee and ConBee)
 - [Phoscon App Beta](https://github.com/dresden-elektronik/phoscon-app-beta) (a web app based on deCONZ REST API)
 - [Connecting XBee to Raspberry Pi](https://dzone.com/articles/connecting-xbee-raspberry-pi)
+- ZigBee Alliance has been renamed as [CSA (Connectivity Standards
+  Alliance)](https://csa-iot.org/)
+- [Matter](https://csa-iot.org/all-solutions/matter/) is created by CSA and it
+  works with
+  * Zigbee
+  * [Thread](https://www.threadgroup.org/)
+    + has a lower energy consumption and better security (end-to-end encryption
+      in the mesh network)
+    + it does not work with Home Assistant yet
+  * WiFi
+  * Bluetooth
 
 ### Bluetooth
 
@@ -133,4 +145,20 @@ Note that the following firewall rule may need to be enabled.
 
 ```sh
 sudo ufw allow in on tailscale0 to any port 30000
+```
+
+## Infrared IR
+
+Install `lirc` (Linux infrared remote control) and verify the installation.
+
+```sh
+sudo apt update && sudo apt upgrade -y && sudo apt install -y lirc
+lircd --version
+```
+
+Reboot and check if the service has been started correctly.
+
+```sh
+sudo reboot
+sudo /etc/init.d/lircd status
 ```
