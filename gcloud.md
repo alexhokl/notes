@@ -18,6 +18,7 @@
   * [Cloud Trace](#cloud-trace)
   * [Pub/Sub](#pubsub-1)
   * [Cloud Storage (Bucket)](#cloud-storage-bucket)
+- [Cloud NAT](#cloud-nat)
 - [Tools](#tools)
 ____
 
@@ -984,6 +985,77 @@ storage service-agent`
 - [oittaa/gcp-storage-emulator](https://github.com/oittaa/gcp-storage-emulator/)
 - [Package
   cloud.google.com/go/storage](https://cloud.google.com/go/docs/reference/cloud.google.com/go/storage/latest)
+
+## Cloud NAT
+
+- [Overview](https://cloud.google.com/nat/docs/overview)
+- Cloud NAT provides outgoing connectivity for the following resources
+  * Compute Engine virtual machine (VM) instances without external IP addresses
+  * Private Google Kubernetes Engine (GKE) clusters
+  * Cloud Run instances through Serverless VPC Access
+  * Cloud Functions instances through Serverless VPC Access
+  * App Engine standard environment instances through Serverless VPC Access
+- Cloud NAT is a distributed, software-defined managed service. It's not based
+  on proxy VMs or appliances
+- it powers a VPC network so that it provides source network address translation
+  (source NAT or SNAT) for VMs without external IP addresses
+- If the network interface has an external IP address assigned to it, Google
+  Cloud automatically performs one-to-one NAT for packets whose sources match
+  the interface's primary internal IP address because the network interface
+  meets the Google Cloud internet access requirements
+- For GKE clusters, Cloud NAT can provide service even if the cluster has
+  external IP addresses in certain circumstances
+- Each Cloud NAT gateway is associated with a single VPC network, region, and
+  Cloud Router. The Cloud NAT gateway and the Cloud Router provide a control
+  plane—they are not involved in the data plane, so packets do not pass through
+  the Cloud NAT gateway or Cloud Router.
+- Cloud NAT relies on custom static routes whose next hops are the default
+  internet gateway
+  * Each VPC network starts with a default route whose destination is
+    `0.0.0.0/0` and whose next hop is the default internet gateway
+  * Cloud NAT does not work when
+    + a custom static route with next hops set to any other type of custom
+      static route next hop (which is not the default internet gateway)
+    + a custom static route whose next hop is a Cloud VPN tunnel
+    + an on-premises router advertises a custom dynamic route to a Cloud Router
+      managing a Cloud VPN tunnel or Cloud Interconnect attachment (VLAN)
+- Cloud NAT does not have any Google Cloud firewall rule requirements. Firewall
+  rules are applied directly to the network interfaces of Compute Engine VMs,
+  not Cloud NAT gateways.
+  * When a Cloud NAT gateway provides NAT for a VM's network interface,
+    applicable egress firewall rules are evaluated as packets for that network
+    interface before NAT. Ingress firewall rules are evaluated after packets
+    have been processed by NAT.
+- Using a Cloud NAT gateway does not change the amount of outbound or inbound
+  bandwidth that a VM can use
+- Manual assignment of public IP address to a gateway is possible
+- Cloud NAT never performs NAT for traffic sent to the select external IP
+  addresses for Google APIs and services
+- Cloud NAT does not apply to shared VPC by default
+  * shared VPC ties to a host project; Cloud NAT gateway has to configured in
+    that project
+- A Cloud NAT gateway created in one VPC network cannot provide NAT to VMs in
+  other VPC networks connected by using VPC Network Peering, even if the VMs in
+  peered networks are in the same region as the gateway.
+- A Cloud NAT gateway can perform NAT for nodes and Pods in a private cluster,
+  which is a type of VPC-native cluster
+  * the following needs to be covered
+    + Subnet primary IP address range (used by nodes)
+    + Subnet secondary IP address range used for Pods in the cluster
+    + Subnet secondary IP address range used for Services in the cluster
+  * The simplest way to provide NAT for an entire private cluster is to
+    configure a Cloud NAT gateway to apply to all of the cluster's subnet's IP
+    address ranges.
+- For non-private GKE cluster, since nodes have external IP addresses, packets
+  sent from the node's primary internal IP address are never processed by Cloud
+  NAT. However, packets sent from Pods can be processed by a Cloud NAT gateway
+  if both of the following are true
+  * the Cloud NAT gateway is configured to apply to the secondary IP address
+    range for the cluster's Pods
+  * the cluster's IP masquerade configuration is not configured to perform SNAT
+    within the cluster for packets sent from Pods to the internet (see
+    [Configuring an IP masquerade agent in Standard
+    clusters](https://cloud.google.com/kubernetes-engine/docs/how-to/ip-masquerade-agent))
 
 ## Tools
 
