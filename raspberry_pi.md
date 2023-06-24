@@ -49,6 +49,8 @@ ____
 - [Getting started with camera - official
   guide](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
 - [Pimoroni Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat)
+- [rpilocator](https://rpilocator.com/) - locates the availability of Raspbrerry
+  Pi
 
 ### Docker
 
