@@ -1,7 +1,22 @@
+- [Links](#links)
+- [Libraries](#libraries)
 - [Commands](#commands)
 ____
 
-### Commands
+## Links
+
+- [DartPad](https://dartpad.dev/)
+- [Material design](https://m3.material.io/)
+- [Codelabs on Flutter](https://docs.flutter.dev/codelabs)
+- [Flutter Samples](https://flutter.github.io/samples/)
+- [fvm](https://fvm.app/) - flutter version management
+- [flutter gems](https://fluttergems.dev/)
+
+## Libraries
+
+- [flutter_animate](https://pub.dev/packages/flutter_animate)
+
+## Commands
 
 ##### To upgrade flutter installation
 
