@@ -45,31 +45,31 @@ pg_dump -a -h host1 -U user1 -d your-db-name
 ##### To avoid prompting for password for every psql command
 
 ```sh
-PGPASSWORD=a_strong_password psql -U some-user@some-database -h some-database.example.com -d name-of-database
+PGPASSWORD=a_strong_password psql -U some-user@some-database -h some-database.example.com -d name_of_database
 ```
 
 ##### To connect to a database user psql
 
 ```sh
-psql -U some-user@some-database -h some-database.example.com -d name-of-database
+psql -U some-user@some-database -h some-database.example.com -d name_of_database
 ```
 
 ##### To run a SQL script from standard input
 
 ```sh
-cat query.sql | psql -U some-user@some-database -h some-database.example.com -d name-of-database
+cat query.sql | psql -U some-user@some-database -h some-database.example.com -d name_of_database
 ```
 
 ##### To run a SQL script from file
 
 ```sh
-psql -U some-user@some-database -h some-database.example.com -d name-of-database -f query.sql
+psql -U some-user@some-database -h some-database.example.com -d name_of_database -f query.sql
 ```
 
 ##### To run a SQL statement
 
 ```sh
-psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "SELECT Id FROM your-table;"
+psql -U some-user@some-database -h some-database.example.com -d name_of_database -c "SELECT Id FROM your-table;"
 ```
 
 ##### To list all users of a database server
@@ -78,16 +78,28 @@ psql -U some-user@some-database -h some-database.example.com -d name-of-database
 psql -U some-user@some-database -h some-database.example.com -c "\du"
 ```
 
-##### To list all tables of a database
+##### To list all schemas of a database
 
 ```sh
-psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "\dt"
+psql -U some-user@some-database -h some-database.example.com -d name_of_database -c "\dn"
+```
+
+##### To list all tables of a database (in schema public)
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -d name_of_database -c "\dt"
+```
+
+##### To list all tables of a database in a schema
+
+```sh
+psql -U some-user@some-database -h some-database.example.com -d name_of_database -c "\dt name_of_schema.*"
 ```
 
 ##### To list all column types, indexes and foreign keys of a database table
 
 ```sh
-psql -U some-user@some-database -h some-database.example.com -d name-of-database -c "\d some_table_name"
+psql -U some-user@some-database -h some-database.example.com -d name_of_database -c "\d some_table_name"
 ```
 
 ## SQL statements
