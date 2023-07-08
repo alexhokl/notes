@@ -42,7 +42,8 @@
   * [Logging](#logging)
   * [Threat Detection](#threat-detection)
   * [Upgrading and application security practices](#upgrading-and-application-security-practices)
-- [References](#references)
+- [Service mesh](#service-mesh)
+  * [Advantages](#advantages)
 - [kind](#kind)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
@@ -84,6 +85,8 @@ ____
 - [kubescape/kubescape](https://github.com/kubescape/kubescape) - a CLI tool to
   scan Kubernetes cluster using a specific industry standard and produce
   a report
+- [Kubernetes Custom Resource API Reference Docs
+  generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
 
 ## Commands
 
@@ -1423,10 +1426,13 @@ image.
   * this practice will help reduce the attack surface and the risk of unused
     tools remaining on the system and falling out of date
 
-## References
+## Service mesh
 
-- [Kubernetes Custom Resource API Reference Docs
-  generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
+### Advantages
+
+- move retries from application to service mesh
+- better observation
+- it is a software defined network
 
 ## kind
 
