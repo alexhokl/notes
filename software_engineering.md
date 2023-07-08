@@ -10,6 +10,7 @@
 - [Deployment](#deployment)
   * [Canary](#canary)
 - [Microservices](#microservices)
+- [Integration Testing](#integration-testing)
 - [Others](#others-1)
 ____
 
@@ -570,6 +571,11 @@ it out to the whole production environment.
 - use of feature flag
   - so that features can be deployed and tested for a short while before
     releasing
+
+## Integration Testing
+
+- At Pinterest, payload of some (~1%) of API requests are stored in a Kafka
+  topic such that it can be replayed as data for regression tests in the future
 
 ## Others
 
