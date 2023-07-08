@@ -11,6 +11,7 @@
   * [Canary](#canary)
 - [Microservices](#microservices)
 - [Integration Testing](#integration-testing)
+- [Garbage Collection](#garbage-collection)
 - [Others](#others-1)
 ____
 
@@ -576,6 +577,12 @@ it out to the whole production environment.
 
 - At Pinterest, payload of some (~1%) of API requests are stored in a Kafka
   topic such that it can be replayed as data for regression tests in the future
+
+## Garbage Collection
+
+- the more frequent the GC collection occurs, the more CPU cycles it consumes
+- adding GC CPU usage (in terms of time) to Grafana helps to see if there is
+  [threshing](https://en.wikipedia.org/wiki/Thrashing_(computer_science))
 
 ## Others
 
