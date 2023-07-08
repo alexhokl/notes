@@ -8,6 +8,7 @@ ____
 - [DejaVu Sans Mono Nerd
   Font](https://github.com/blinksh/fonts/blob/master/DejaVu%20Sans%20Mono%20Nerd%20Font.css)
   - used in blinksh on iOS
+- [Nerd font downloads](https://www.nerdfonts.com/font-downloads]
 
 ### Chrome
 
