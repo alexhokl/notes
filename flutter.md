@@ -54,6 +54,9 @@ flutter devices
 flutter create your_app_name
 ```
 
+This also creates directory `your_app_name` but it does not include `git`
+integration.
+
 ##### To run on either emulator or connected device
 
 ```sh
