@@ -97,6 +97,7 @@ ____
 - [Dark Sky API](https://darksky.net/dev) The easiest, most advanced, weather API on the web.
 - [OpenWeatherWeb](http://openweathermap.org/API)
 - [Nokia Health API](https://developer.health.nokia.com/api)
+- [Resend](https://resend.com/) - sending emails via API
 
 ### Services
 
