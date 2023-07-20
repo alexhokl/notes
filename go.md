@@ -16,6 +16,7 @@
   * [Modules](#modules)
   * [Help](#help)
   * [Vulnerability detection](#vulnerability-detection)
+  * [Update installed binaries](#update-installed-binaries)
 - [Swagger](#swagger)
 - [Language](#language)
   * [Error handling](#error-handling)
@@ -142,6 +143,7 @@ ____
   summary of a kubernetes manifest
 - [dolthub/swiss](https://github.com/dolthub/swiss) a replacement to built-in
   `map`
+- [zephyrtronium/gotools](https://gitlab.com/zephyrtronium/gotools)
 
 ## Tricks
 
@@ -283,6 +285,12 @@ go1.15.4 download
 
 ```sh
 govulncheck ./...
+```
+
+### Update installed binaries
+
+```sh
+gotools -u
 ```
 
 ## Swagger
