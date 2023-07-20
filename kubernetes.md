@@ -251,6 +251,30 @@ kubectl port-forward service/your-service 8080:80
 kubectl get pods --all-namespaces | grep Evicted | awk '{print $2 " --namespace=" $1}' | xargs kubectl delete pod
 ```
 
+##### To list CSI drivers installed on nodes
+
+```sh
+kubectl get csinodes -o json | jq '.items[] | {node:.metadata.name, drivers:.spec.drivers[].name}'
+```
+
+##### To force releasing a PVC (claim) from a PV
+
+```sh
+kubectl patch pv your-pv-name -p '{"spec":{"claimRef": null}}'
+```
+
+This is needed when a claim is deleted but the claim attached to PV is not
+removed cleanly. Symptoms of this kind of issue can be identified by running
+`kubectl describe pvc` and the following warning is shown upon unable to
+attached the new claim to the PV.
+
+```
+Events:
+  Type     Reason         Age   From                         Message
+  ----     ------         ----  ----                         -------
+  Warning  ClaimMisbound  28s   persistentvolume-controller  Two claims are bound to the same volume, this one is bound incorrectly
+```
+
 ##### To install Kubernetes Dashboard
 
 ```sh
