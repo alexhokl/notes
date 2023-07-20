@@ -18,7 +18,8 @@
   * [Cloud Trace](#cloud-trace)
   * [Pub/Sub](#pubsub-1)
   * [Cloud Storage (Bucket)](#cloud-storage-bucket)
-- [Cloud NAT](#cloud-nat)
+  * [Cloud NAT](#cloud-nat)
+  * [Security Command Center (SCC)](#security-command-center-scc)
 - [Tools](#tools)
 ____
 
@@ -986,7 +987,7 @@ storage service-agent`
 - [Package
   cloud.google.com/go/storage](https://cloud.google.com/go/docs/reference/cloud.google.com/go/storage/latest)
 
-## Cloud NAT
+### Cloud NAT
 
 - [Overview](https://cloud.google.com/nat/docs/overview)
 - Cloud NAT provides outgoing connectivity for the following resources
@@ -1056,6 +1057,49 @@ storage service-agent`
     within the cluster for packets sent from Pods to the internet (see
     [Configuring an IP masquerade agent in Standard
     clusters](https://cloud.google.com/kubernetes-engine/docs/how-to/ip-masquerade-agent))
+
+### Security Command Center (SCC)
+
+- it offers a program Security Command Center Premium (SCCP)
+  * [pricing](https://cloud.google.com/security-command-center/pricing)
+  * [standard service tier vs premium service
+    tier](https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview#standard-tier)
+  * part of the program provides financial protection to defray Compute Engine
+    VM costs related to undetected and unauthorized cryptomining attacks
+  * requirement is to follow [Security Command Center Cryptomining Detection
+    Best Practices](https://cloud.google.com/security-command-center/docs/cryptomining-detection-best-practices)
+    + enable key threat detections
+      + event-threat detection
+        + [Account_Has_Leaked_Credentials](https://cloud.google.com/security-command-center/docs/concepts-security-sources#leaked-credentials-anomaly)
+        + [Evasion: Access from Anonymizing
+          Proxy](https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview#rules)
+        + [Initial Access: Dormant Service Account
+          Action](https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview#rules)
+        + [Malware: Bad IP](https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview#rules)
+        + [Malware: Bad Domain](https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview#rules)
+      + VM threat detection
+        + [Execution: Cryptomining YARA
+          Rule](https://cloud.google.com/security-command-center/docs/concepts-vm-threat-detection-overview#cryptocurrency-mining-threat-findings)
+        + [Execution: Cryptomining Hash
+          Match](https://cloud.google.com/security-command-center/docs/concepts-vm-threat-detection-overview#cryptocurrency-mining-threat-findings)
+        + [Execution: Combined
+          Detection](https://cloud.google.com/security-command-center/docs/concepts-vm-threat-detection-overview#cryptocurrency-mining-threat-findings)
+    + enable Cloud DNS logging
+    + integrate SIEM and SOAR products with Security Command Center
+      + if your security team does not use a SIEM or SOAR product, the team
+        needs to familiarize themselves with working with Security Command
+        Center findings in the Google Cloud console and how to set up finding
+        notifications and exports by using Pub/Sub or the Security Command
+        Center APIs to route findings for cryptomining attacks effectively.
+  * to qualify for Google Cloud credits under the program, upon request customer
+    must
+    + submit evidence reasonably demonstrating the occurrence of a cryptomining
+      attack, such as event logs and/or anomalous Compute Engine costs, and
+    + represent and provide evidence reasonably demonstrating that customer was
+      following Security Command Center Cryptomining Detection Best Practices for
+      this program as described at Security Command Center Cryptomining Detection
+      Best Practices and did not receive a finding or other notice from Google
+      regarding the cryptomining attack
 
 ## Tools
 
