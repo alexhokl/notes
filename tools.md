@@ -40,6 +40,8 @@ ____
   there is credential in any git commits
 - [AutoCannon](https://github.com/mcollina/autocannon) - a CLI tool to benchmark
   APIs
+- [dnsee](https://github.com/bschaatsbergen/dnsee) - a CLI tool to check DNS
+  recods of a domain (but not its sub-domains)
 
 ## Online Tools
 
