@@ -121,6 +121,10 @@ ____
 ### Online meeting
 
 - [Jitsi Meet](https://meet.jit.si/)
+- [pop](https://pop.com/) - screen sharing, multiplayer control, crystal-clear
+  voice and high-quality video. Perfect for pair programming
+  * multiplayer screen sharing — where everyone controls the screen together
+    with their own mouse and keyboard
 
 ### Data
 
