@@ -14,6 +14,7 @@
   * [RBAC and sudo](#rbac-and-sudo)
 - [API](#api)
 - [Ingress](#ingress)
+  * [Gateway API](#gateway-api)
   * [Ingress class](#ingress-class)
   * [Nginx](#nginx)
 - [Credential plugins](#credential-plugins)
@@ -817,6 +818,11 @@ SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECR
 ```
 
 ## Ingress
+
+### Gateway API
+
+- a replacement of `ingress` objects
+- [introduction](https://gateway-api.sigs.k8s.io/)
 
 ### Ingress class
 
