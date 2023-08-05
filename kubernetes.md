@@ -51,6 +51,12 @@ ____
 
 ## Links
 
+- [Kubernetes Removals and Major Changes In
+  1.25](https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25/)
+- [Kubernetes Removals, Deprecations, and Major Changes in
+  1.26](https://kubernetes.io/blog/2022/11/18/upcoming-changes-in-kubernetes-1-26/)
+- [Kubernetes Removals and Major Changes In
+  v1.27](https://kubernetes.io/blog/2023/03/17/upcoming-changes-in-kubernetes-v1-27/)
 - [Kubernetes Resource Report](https://github.com/hjacobs/kube-resource-report)
 - [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)
 - [DNS for Services and
