@@ -79,5 +79,8 @@ terraform state mv some_resource_type.worker some_resource_type.helper
 ##### To move a resource into a module
 
 ```sh
-terraform state mv some_resource_type.worker module.worker.some_resource_type.main
+terraform state mv 'some_resource_type.worker' 'module.worker.some_resource_type.main'
 ```
+
+Note that it is best to surround resource with single quote especially in case
+of square brackets `[]` are used.
