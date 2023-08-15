@@ -18,6 +18,7 @@
   * [Cloud Trace](#cloud-trace)
   * [Pub/Sub](#pubsub-1)
   * [Cloud Storage (Bucket)](#cloud-storage-bucket)
+  * [VPC](#vpc)
   * [Cloud NAT](#cloud-nat)
   * [Security Command Center (SCC)](#security-command-center-scc)
 - [Tools](#tools)
@@ -986,6 +987,14 @@ storage service-agent`
 - [oittaa/gcp-storage-emulator](https://github.com/oittaa/gcp-storage-emulator/)
 - [Package
   cloud.google.com/go/storage](https://cloud.google.com/go/docs/reference/cloud.google.com/go/storage/latest)
+
+### VPC
+
+- VPC peering
+  * Custom routes of a VPC needs to be explicitly exported and imported during
+    peering setup
+  * Peering between VPC `A` and VPC `B` and between VPC `B` and VPC `C` do not
+    imply peering between VPC `A` and VPC `C`
 
 ### Cloud NAT
 
