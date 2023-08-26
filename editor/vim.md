@@ -306,8 +306,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Treesitter
 
-- `:TSPlayground` to open the playgrounds
-  - `o` to open a query buffer
+- `:InspectTree` to open the tree (formerly known as playground)
+- `:PreviewQuery` to open query editor
 - `:TSConfigInfo` to list current configuration
 - text objects
   - `f` function or method
