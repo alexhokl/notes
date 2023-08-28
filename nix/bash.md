@@ -8,6 +8,7 @@
   * [if](#if)
   * [function](#function)
   * [options](#options)
+  * [variables](#variables)
 - [Recipes](#recipes)
   * [Versions](#versions)
   * [Users](#users)
@@ -177,6 +178,22 @@ done
 - `set -o pipefail` ensure exit in first of the piped command
 - `-u` causes the bash shell to treat unset variables as an error and exit
   immediately
+
+### variables
+
+##### To make indirect reference to another variable
+
+```sh
+sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
+```
+
+##### to modify PATH
+
+```sh
+echo ${PATH} > t1
+vi t1
+export PATH=$(cat t1)
+```
 
 ## Recipes
 
@@ -508,10 +525,26 @@ to configure locale.
 
 ### Processes
 
+#### Links
+
+- [Sloth](https://github.com/sveinbjornt/Sloth) on Mac
+
 ##### To kill a process running on a particular port
 
 ```sh
 kill $(lsof -ti tcp:3000)
+```
+
+##### To list process occupied a file
+
+```sh
+fuser -v /path/to/file
+```
+
+##### To list process occupied a port
+
+```sh
+fuser -v -n tcp 3000
 ```
 
 ##### To kill all processes by name
@@ -524,12 +557,6 @@ killall your-program-name
 
 ```sh
 disown -a && exit
-```
-
-##### To make indirect reference to another variable
-
-```sh
-sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
 ```
 
 ##### To check available memory
@@ -549,12 +576,3 @@ top
 ```sh
 sudo netstat -tupln
 ```
-
-##### to modify PATH
-
-```sh
-echo ${PATH} > t1
-vi t1
-export PATH=$(cat t1)
-```
-
