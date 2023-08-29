@@ -530,12 +530,6 @@ gcloud dns record-sets transaction abort --zone=test-com
 
 ### Pub/Sub
 
-##### Concepts
-
-- [Handle message
-  failures](https://cloud.google.com/pubsub/docs/handling-failures) - including
-  dead-letter topic
-
 ##### To list topics
 
 ```sh
@@ -859,8 +853,11 @@ storage service-agent`
   * if a push subscriber is a Cloud Function, configuring IAM would be enough
     for authentication
   * subscription retry policies
-    * immediate redelivery (default)
-    * exponential backoff
+    + [Handle message
+      failures](https://cloud.google.com/pubsub/docs/handling-failures) -
+      including dead-letter topic
+    + immediate redelivery (default)
+    + exponential backoff
       + exponential backoff is only applied per-message, rather than to all the
         messages in a subscription
   * acknowledgement deadline (lease) management
@@ -953,6 +950,7 @@ storage service-agent`
         same subscriber. If there are no outstanding messages, the service
         delivers messages to the last subscriber to receive messages for that
         key on a best-effort basis
+- [Pub/Sub code samples](https://cloud.google.com/pubsub/docs/samples)
 - Cloud Storage as subscriber (sink)
   * Dataflow needs to be setup which requires either Java or python
 - comparison with Kafka
