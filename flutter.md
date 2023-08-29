@@ -48,6 +48,12 @@ flutter emulators --launch Pixel_3_API_28
 flutter devices
 ```
 
+##### To disable web as connected device
+
+```sh
+flutter config --no-enable-web
+```
+
 ##### To create an application
 
 ```sh
