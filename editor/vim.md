@@ -26,7 +26,7 @@
   * [Location list](#location-list)
   * [Errors](#errors)
   * [Twilight](#twilight)
-  * [Debugging (vimspector)](#debugging-vimspector)
+  * [Debugging](#debugging)
   * [Snippets](#snippets)
   * [vimrc](#vimrc)
   * [Help pages](#help-pages)
@@ -439,19 +439,23 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 - <kbd>,</kbd><kbd>l</kbd><kbd>l</kbd> to toggle twilight highlight
 
-### Debugging (vimspector)
+### Debugging
 
-- <kbd>,</kbd><kbd>d</kbd><kbd>c</kbd> or <kbd>F5</kbd> to start debugging
-- <kbd>,</kbd><kbd>d</kbd><kbd>r</kbd> to stop debugging
-- <kbd>,</kbd><kbd>d</kbd><kbd>b</kbd> or <kbd>F9</kbd> to toggle a breakpoint
+- <kbd>F5</kbd> to start debugging
+- `:DapTerminate` to stop debugging
+- <kbd>F9</kbd> to toggle a breakpoint
 - <kbd>F10</kbd> to step over
 - <kbd>F11</kbd> to step into
 - <kbd>F12</kbd> to step out
-- to launch with arguments, fill in `args` in `.vimspector.json`
+- debugging adapters installation are needed beforehand
+  - configuration of adapters for a DAP client can be configured as
+    `dap.adapter`
+  - launch or attach configuration can be configured via
+    `$PROJECT_DIR/.vscode/launch.json`
 
 ##### Configuration for Go
 
-`.vimspector.json`
+`$PROJECT_DIR/.vscode/launch.json`
 
 ```json
 {
@@ -465,6 +469,15 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
         "args": [],
         "mode": "debug"
       }
+    },
+    "run": {
+      "adapter": "delve",
+      "filetypes": [ "go" ],
+      "configuration": {
+        "request": "launch",
+        "program": "${fileDirname}",
+        "mode": "debug"
+      }
     }
   }
 }
@@ -472,100 +485,138 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ##### Configuration for .NET
 
-`.vimspector.json`
+`$PROJECT_DIR/.vscode/launch.json`
 
 ```json
 {
-  "configurations": {
-    "launch - netcoredbg": {
-      "adapter": "netcoredbg",
-      "filetypes": [ "cs" ],
-      "configuration": {
-        "request": "launch",
-        "program": "${workspaceRoot}/bin/Debug/netcoreapp2.2/csharp.dll",
-        "args": [],
-        "stopAtEntry": true,
-        "cwd": "${workspaceRoot}",
-        "env": {}
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (web)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Alex.Namespace.Web/bin/Debug/net6.0/Alex.Namespace.Web.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Alex.Namespace.Web",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "attach - netcoredbg": {
-      "adapter": "netcoredbg",
-      "filetypes": [ "cs" ],
-      "configuration": {
-        "request": "attach",
-        "cwd": "${workspaceRoot}",
-        "processId": "${processId}"
-      }
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach",
+      "processId": "${command:pickProcess}"
     }
-  }
+  ]
+}
+```
+
+`$PROJECT_DIR/.vscode/tasks.json`
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "rebuild",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "--no-incremental",
+        "${workspaceFolder}/Alex.Namespace.sln",
+        "/property:GenerateFullPaths=true"
+      ]
+    },
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Alex.Namespace.sln",
+        "/property:GenerateFullPaths=true"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
 }
 ```
 
 ##### Configuration for Rust
 
-`.vimspector.json`
+`$PROJECT_DIR/.vscode/launch.json`
 
 ```json
 {
-  "configurations": {
-    "launch": {
-      "adapter": "CodeLLDB",
-      "filetypes": [ "rust" ],
-      "configuration": {
-        "request": "launch",
-        "program": "${workspaceRoot}/target/debug/vimspector_test",
-        "args": []
-      }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false
     }
-  }
+  ]
 }
 ```
 
-##### Configuration for Go
+##### Configuration for C/C++
 
-Installation command `:VimspectorInstall delve`
-
-`.vimspector.json`
+`$PROJECT_DIR/.vscode/launch.json`
 
 ```json
 {
-  "configurations": {
-    "run": {
-      "adapter": "delve",
-      "filetypes": [ "go" ],
-      "configuration": {
-        "request": "launch",
-        "program": "${fileDirname}",
-        "mode": "debug"
-      }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/output",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false
     }
-  }
+  ]
 }
 ```
 
-##### Configuration for .NET
+##### Configuration for Flutter
 
-Installation command `:VimspectorInstall netcoredbg`
-
-`.vimspector.json`
+`$PROJECT_DIR/.vscode/launch.json`
 
 ```json
 {
-  "configurations": {
-    "launch - netcoredbg": {
-      "adapter": "netcoredbg",
-      "filetypes": [ "cs" ],
-      "configuration": {
-        "request": "launch",
-        "program": "${workspaceRoot}/bin/Debug/netcoreapp2.2/csharp.dll",
-        "args": [],
-        "stopAtEntry": true,
-        "cwd": "${workspaceRoot}",
-        "env": {}
-      }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch MacOS",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "dartSdkPath": "{env:HOME}/git/flutter/bin/cache/dart-sdk",
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "deviceId": "macos"
+    },
+    {
+      "name": "Launch Chrome",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "dartSdkPath": "{env:HOME}/git/flutter/bin/cache/dart-sdk",
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "deviceId": "chrome"
     }
-  }
+  ]
 }
 ```
 
