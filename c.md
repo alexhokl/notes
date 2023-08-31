@@ -1,4 +1,5 @@
 - [Libraries](#libraries)
+- [Commands](#commands)
 - [Talks](#talks)
   * [Practical C++ Development of Bloomberg Terminal](#practical-c-development-of-bloomberg-terminal)
   * [Hashing](#hashing)
@@ -7,6 +8,25 @@ ____
 ## Libraries
 
 - [oatpp](https://github.com/oatpp/oatpp) - a web framework
+
+
+## Commands
+
+##### To compile a simple C++ program
+
+```sh
+g++ main.app -o output
+```
+
+```sh
+gcc -xc++ -lstdc++ main.cpp -o output
+```
+
+```sh
+clong -xc++ -lstdc++ main.cpp -o output
+```
+
+where `-xc++` is a compiler option and `-lstdc++` is a linker option.
 
 ## Talks
 

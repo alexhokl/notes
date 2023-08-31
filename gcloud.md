@@ -10,7 +10,7 @@
   * [Commitments](#commitments)
 - [gsutil commands](#gsutil-commands)
   * [Bucket](#bucket)
-- [Concepts](#concepts-1)
+- [Concepts](#concepts)
   * [Service account](#service-account)
   * [Authentication on GCP](#authentication-on-gcp)
   * [Logging](#logging)
