@@ -453,6 +453,13 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   - launch or attach configuration can be configured via
     `$PROJECT_DIR/.vscode/launch.json`
 
+##### Links of debug adapter
+
+- [debug adapter of
+  flutter](https://github.com/flutter/flutter/blob/master/packages/flutter_tools/lib/src/debug_adapters/README.md)
+- [Debug
+  Adapters](https://microsoft.github.io/debug-adapter-protocol/implementors/adapters/)
+
 ##### Configuration for Go
 
 `$PROJECT_DIR/.vscode/launch.json`
