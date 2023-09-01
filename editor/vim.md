@@ -1,3 +1,4 @@
+  * [Links](#links)
   * [Basics](#basics)
   * [Navigation](#navigation)
   * [Editing](#editing)
@@ -39,6 +40,11 @@ The following notes is based on my
 [vimrc](https://github.com/alexhokl/.vim/blob/master/vimrc) and [these
 configuration
 files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
+
+### Links
+
+- [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - a
+  collections of awesome Neovim plugins
 
 ### Basics
 
@@ -323,6 +329,17 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:TSHighlightCapturesUnderCursor` show highlight groups under the current
   cursor
 - `:TSNodeUnderCursor` show node under the current cursor
+- `vn` to select the current node
+- in visual mode
+  - `H` to increase the scope of selection
+  - `L` to reduce the scope of selection
+  - `J` to select the next tree node on the same level
+  - `K` to select the previous tree node on the same level
+  - <kbd>ctrl</kbd><kbd>j</kbd> to swap with the next node on the same level
+  - <kbd>ctrl</kbd><kbd>k</kbd> to swap with the previous node on the same level
+- `gif` to jump to if-statements
+- `gfo` to jump to for loops
+- `gj` to jump to other tree nodes
 
 ### C#
 
@@ -455,10 +472,12 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ##### Links of debug adapter
 
-- [debug adapter of
-  flutter](https://github.com/flutter/flutter/blob/master/packages/flutter_tools/lib/src/debug_adapters/README.md)
 - [Debug
   Adapters](https://microsoft.github.io/debug-adapter-protocol/implementors/adapters/)
+- [debug adapter of
+  flutter](https://github.com/flutter/flutter/blob/master/packages/flutter_tools/lib/src/debug_adapters/README.md)
+- [Multi device debugging in VS
+  Code](https://github.com/flutter/flutter/wiki/Multi-device-debugging-in-VS-Code)
 
 ##### Configuration for Go
 
