@@ -93,6 +93,8 @@ ____
   to open source
 - [ip2location.io](https://www.ip2location.io/) - finding location using an IP
   address
+- [Bellingcat OpenStreetMap search](https://osm-search.bellingcat.com/) - search
+  for a location using metadata
 
 ### APIs
 
