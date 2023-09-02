@@ -598,6 +598,12 @@ git log -L 1001,1001:SomeFolder/SomeFile.go
 git log -L 1001,+10:SomeFolder/SomeFile.go
 ```
 
+or in one line
+
+```sh
+git log --pretty=format:'%h %s [%ad] [%cn]' --no-patch -L 22,22:plugin/git.lua --date=short
+```
+
 ##### History of a function
 
 ```sh
