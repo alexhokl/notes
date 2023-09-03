@@ -1,4 +1,7 @@
 - [Technical debts](#technical-debts)
+  * [From Ward Cunningham](#from-ward-cunningham)
+  * [From researchers from Google](#from-researchers-from-google)
+  * [From other sources](#from-other-sources)
 - [Web App](#web-app)
   * [12-Factor App](#12-factor-app)
 - [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
@@ -16,6 +19,59 @@
 ____
 
 ## Technical debts
+
+### From Ward Cunningham
+
+A little debt speeds development so long as it is paid back promptly with
+a rewrite. The danger occurs when the debt is not repaid. Every minute spent on
+not-quite-right code counts as interest on that debt.
+
+### From researchers from Google
+
+#### Categories
+
+- migration is needed or in progress
+  * this may be motivated by the need to scale, due to mandates, to reduce
+    dependencies, or to avoid deprecated technology
+- documentation on project and APIs
+  * information on how your project works is hard to find, missing or
+    incomplete, or may include documentation on APIs or inherited code.
+- testing
+  * poor test quality or coverage, such as missing tests or poor test data,
+    results in fragility, flaky tests, or lots of rollbacks
+- code quality
+  * product architecture or code within a project was not well designed
+  * it may have been rushed or a prototype/demo
+- dead and/or abandoned code
+- code degradation
+  * the code base has degraded or not kept up with changing standards over time
+  * the code may be in maintenance mode, in need of refactoring or updates
+- team lacks necessary expertise
+  * this may be due to staffing gaps and turnover or inherited orphaned
+    code/projects
+- dependencies
+  * dependencies are unstable, rapidly changing, or trigger rollbacks
+- migration was poorly executed or abandoned
+  * this may have resulted in maintaining two versions
+- release process
+  * the rollout and monitoring of production needs to be updated, migrated, or
+    maintained
+
+#### Survey conduction
+
+The survey does not ask engineers “Which forms of technical debt did you
+encounter?” but only “Which forms of technical debt have hindered your
+productivity?”
+
+#### Conclusion
+
+Technical debt is not unequivocally a bad thing, after all. Just like financial
+debt, technical debt is one component of a strategy for trading off velocity and
+(some form of) quality or completeness. Just as one can thoughtfully and
+responsibly use financial debt to accomplish goals, one can use technical debt
+to do so, but it is critical to do so thoughtfully and responsibly.
+
+### From other sources
 
 ##### Causes
 
