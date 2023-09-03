@@ -40,6 +40,8 @@ ____
   - [Derivable
     Traits](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html)
 - [Rust playground](https://play.rust-lang.org/)
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/) - a
+  training course
 
 ## Commands
 
