@@ -14,7 +14,10 @@ ____
 ##### To umount an USB drive and dump ISO image to it (on Mac)
 
 ```sh
-sh diskutil list diskutil unmountDisk /dev/disk2 sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m diskutil eject /dev/disk2
+diskutil list
+diskutil unmountDisk /dev/disk2
+sudo dd if=/path/to/abc.iso of=/dev/disk2 bs=1m
+diskutil eject /dev/disk2
 ```
 
 ### homebrew
