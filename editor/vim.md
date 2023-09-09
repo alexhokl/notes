@@ -146,7 +146,13 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>?</kbd> to search backward
 - <kbd>*</kbd> to search the current word forward
 - <kbd>#</kbd> to search the current word backward
-- <kbd>q</kbd><kbd>/</kbd> to show search history
+- <kbd>f</kbd><kbd>t</kbd> to search the next character `t` on the same line
+  (and <kbd>;</kbd> for the next `t`; or <kbd>,</kbd> for the previous)
+- <kbd>t</kbd><kbd>t</kbd> to search the next character `t` but set cursor
+  before `t` (till `t`)
+- <kbd>F</kbd><kbd>t</kbd> to search the previous character `t` on the same line
+  (and <kbd>;</kbd> for the previous `t`; or <kbd>,</kbd> for the next)
+- `:Telescope search_history` to show search history
 - <kbd>,</kbd><kbd>space</kbd> to remove highlights from search
 - `:%s/SearchWord/Replacement/g` to replace all `SearchWord` with `Replacement`
   in the current file
@@ -176,6 +182,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   repository
 - <kbd>,</kbd><kbd>f</kbd><kbd>s</kbd> to search for symbols in the current
   buffer
+- <kbd>,</kbd><kbd>f</kbd><kbd>m</kbd> to search for methods/functions in the
+  current buffer
 - <kbd>,</kbd><kbd>t</kbd><kbd>o</kbd><kbd>d</kbd><kbd>o</kbd> to search for
   `TODO`, `FIX`, `HACK`, `WARN`, `PERF` and `NOTE`
 
@@ -315,20 +323,6 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:InspectTree` to open the tree (formerly known as playground)
 - `:PreviewQuery` to open query editor
 - `:TSConfigInfo` to list current configuration
-- text objects
-  - `f` function or method
-  - `c` call of function or method
-  - `i` condition
-  - `l` loop
-  - `p` parameter
-  - `na` next argument (parameter)
-  - `la` last argument (parameter)
-  - `a` current argument (parameter)
-- <kbd>m</kbd> on a visual selection to select a bigger scope of visual
-  selection
-- `:TSHighlightCapturesUnderCursor` show highlight groups under the current
-  cursor
-- `:TSNodeUnderCursor` show node under the current cursor
 - `vn` to select the current node
 - in visual mode
   - `H` to increase the scope of selection
