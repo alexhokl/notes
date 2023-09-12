@@ -135,6 +135,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   outer brackets. `a(b(c))` &rarr; `a()`
 - <kbd>J</kbd> to append a space and move and append content of the next line to
   the current line
+- <kbd>ctrl</kbd><kbd>a</kbd> to increment the number next to the cursor (or
+  increment the first number of each line in line visual mode)
+- <kbd>g</kbd><kbd>ctrl</kbd><kbd>a</kbd> increments the first number in line
+  1 by 1 and first number in line 2 by 2, etc... and it works in line visual
+  mode and visual block mode (vertical visual mode)
 
 ### Search and replace
 
@@ -186,6 +191,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   current buffer
 - <kbd>,</kbd><kbd>t</kbd><kbd>o</kbd><kbd>d</kbd><kbd>o</kbd> to search for
   `TODO`, `FIX`, `HACK`, `WARN`, `PERF` and `NOTE`
+- `:s/\(\w.*\)/before = "\1";` inserts `before = "` before the first word and
+  append `";` to the end of each line
 
 ### Indentation
 
@@ -193,9 +200,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd><</kbd> to remove indentation in visual mode
 - <kbd>></kbd><kbd>></kbd> to add indentation to the current line
 - <kbd>></kbd><kbd><</kbd> to remove indentation to the current line
-- <kbd>4</kbd><kbd>></kbd><kbd>></kbd> to add indentation to the current line
+- <kbd>4</kbd><kbd>></kbd><kbd>j</kbd> to add indentation to the current line
   and the 3 lines below
-- <kbd>=</kbd> to fix indentation of the current line
+- <kbd>4</kbd><kbd>></kbd><kbd>k</kbd> to add indentation to the current line
+  and the 5 lines above
+- <kbd>=</kbd> to fix indentation of highlighted lines in visual mode
 - <kbd>g</kbd><kbd>g</kbd><kbd>=</kbd><kbd>G</kbd> to fix indentation of the
   current file
 - `:retab` to replace all tabs with spaces
