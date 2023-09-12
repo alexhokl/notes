@@ -389,6 +389,12 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
 - <kbd>,</kbd><kbd>g</kbd><kbd>y</kbd> to copy link to the current selected
   line(s)
+- <kbd>]</kbd><kbd>x</kbd> — move to next conflict
+- <kbd>[</kbd><kbd>x</kbd> — move to previous conflict
+- <kbd>c</kbd><kbd>o</kbd> — choose ours
+- <kbd>c</kbd><kbd>t</kbd> — choose theirs
+- <kbd>c</kbd><kbd>b</kbd> — choose both
+- <kbd>c</kbd><kbd>0</kbd> — choose none
 
 ### Scripting
 
