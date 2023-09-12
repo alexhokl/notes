@@ -230,6 +230,7 @@ utilisation | Disk Utilisation | sum(rate(container_fs_writes_bytes_total{contai
   - examples of 95-percentile
     - `histogram_quantile(0.95, sum(rate(your_histogram_bucket[5m])) by (le))`
     - `histogram_quantile(0.95, sum(rate(your_histogram_bucket[5m])) by (le, your-category))`
+    - `histogram_quantile(0.95, sum(rate(your_histogram_bucket{job="Worker"}[$__rate_interval])) by(le))`
   - assuming the name of histogram metric is `your_histogram`
     - `your_histogram_bucket` counts the number of data points fall within the
       range of the bucket
