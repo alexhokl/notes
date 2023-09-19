@@ -40,6 +40,8 @@
   * [Unix socket](#unix-socket)
   * [PostgreSQL](#postgresql)
   * [Testing](#testing-1)
+  * [io.MultiReader](#iomultireader)
+  * [Generics](#generics)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -576,6 +578,18 @@ func notify(services ...string) {
 }
 ```
 
+`range` over a channel returns one value (unlike two values for an array).
+
+```go
+ch := make(chan int)
+
+// ...
+
+for value := range ch {
+  fmt.Println(value)
+}
+```
+
 ### errgroup
 
 `errgroup` can be found in package `golang.org/x/sync/errgroup`.
@@ -951,6 +965,95 @@ func FuzzEnglish(f *testing.F) {
 
 - There must be exactly one fuzz target per fuzz test.
 - Fuzzing argument can only be primitive types.
+
+### io.MultiReader
+
+Function `io.MultiReader` takes multiple readers and returns a single
+`io.Reader` which reads the list of readers sequentially.
+
+One of the use cases is to read multiple files at the same time. Assuming
+`files` is an array of readers connected to structured log files in `JSON`, the
+following reads all the logs.
+
+```go
+logReader := io.MultiReader(files...)
+dec := json.NewDecoder(logReader)
+```
+
+Another use case is to read some part of the file with one `io.Reader` and read
+rest of the file with another `io.Reader`. This gives a chance where, when logic
+applies, the program can choose not to read all of the file bytes.
+
+```go
+func checkContentType(r io.Reader) ([]byte, error) {
+  buf := make([]byte, 512)
+  n, err := r.Read(buf)
+  if err != nil {
+    return nil, err
+  }
+  contentType := http.DetectContentType(buf[:n])
+  if contentType != "image/png" {
+    return nil, fmt.Errorf("unexpected content type: %s", contentType)
+  }
+  return buf[:n], nil
+}
+
+func CreateImage(r io.Reader, filename string) error {
+	readBytes, err := checkContentType(r)
+	if err != nil {
+		return err
+	}
+	f, err := os.Create(filename)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	r = io.MultiReader(bytes.NewReader(readBytes), r)
+	_, err = io.Copy(f, r)
+	return nil
+}
+```
+
+### Generics
+
+The following function caters most of the integer types.
+
+```go
+func Min[T uint | int | int64](a, b T) T {
+  if a < b {
+    return a
+  }
+  return b
+}
+```
+
+However, it would not work for `Duration` defined as
+
+```go
+type Duration int64
+```
+
+To cater types like `Duration`, operator `~` can be used.
+
+```go
+func Min[T ~uint | ~int | ~int64](a, b T) T {
+  if a < b {
+    return a
+  }
+  return b
+}
+```
+
+In this particular case, package `constraints` can also be used.
+
+```go
+func Min[T constraints.Integer](a, b T) T {
+  if a < b {
+    return a
+  }
+  return b
+}
+```
 
 ## Charm
 

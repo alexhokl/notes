@@ -7,6 +7,7 @@ ____
 - [Saved Passwords](https://passwords.google.com)
 - [Security check-up](https://myaccount.google.com/security-checkup)
 - [Ad Settings](https://adssettings.google.com)
+- [Google Takeout](https://takeout.google.com/takeout/custom/album_archive)
 - [Download data on Google](https://takeout.google.com/)
 - [Removing Content From
   Google](https://support.google.com/legal/troubleshooter/1114905)
