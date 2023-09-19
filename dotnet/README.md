@@ -21,6 +21,7 @@
     + [`System.Drawing.Common`](#systemdrawingcommon)
     + [Alpine](#alpine)
     + [Cryptography](#cryptography)
+    + [OpenTelemetry](#opentelemetry)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1398,6 +1399,403 @@ public static IEnumerable<RSA> LoadKeys(Uri uri)
 
         yield return RSA.Create(rsaParams);
     }
+}
+```
+
+### OpenTelemetry
+
+Reference: [Observing .NET microservices with OpenTelemetry - logs, traces and
+metrics](https://blog.codingmilitia.com/2023/09/05/observing-dotnet-microservices-with-opentelemetry-logs-traces-metrics/)
+
+##### Logging
+
+```cs
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Logging.AddOpenTelemetry(options =>
+{
+  options.SetResourceBuilder(
+          ResourceBuilder
+              .CreateDefault()
+              .AddService(
+                  serviceName: "Worker",
+                  serviceVersion: typeof(Program).Assembly.GetName().Version?.ToString() ?? "unknown",
+                  serviceInstanceId: Environment.MachineName));
+
+  options.IncludeScopes = true;
+  options.IncludeFormattedMessage = true;
+  options.ParseStateValues = true;
+
+  // TODO: configure export such as scopes
+  // ...
+
+  // configure export endpoint
+  // to point to OpenTelemetry Collector
+  options.AddOtlpExporter(exporterOptions =>
+    {
+        exporterOptions.Endpoint =
+            builder
+                .Configuration
+                .GetSection(nameof(OpenTelemetrySettings))
+                .Get<OpenTelemetrySettings>()!
+                .Endpoint;
+    });
+});
+```
+
+`ResourceBuilder` is setup to provide metadata in various logs, trace and
+metrics.
+
+After the above setup, logs can be created via the normal route of using
+`Microsoft.Extensions.Logging.ILogger` and it should be tagged with metadata
+from OpenTelemetry.
+
+##### Tracing
+
+Tracing can be set using the following code.
+
+```cs
+builder.Services
+    .AddOpenTelemetry()
+    .ConfigureResource(resourceBuilder =>
+    {
+        resourceBuilder.AddService(
+            serviceName: "Worker",
+            serviceVersion: typeof(Program).Assembly.GetName().Version?.ToString() ?? "unknown",
+            serviceInstanceId: Environment.MachineName)
+    })
+    .WithTracing(providerBuilder =>
+    {
+        providerBuilder
+            .AddAspNetCoreInstrumentation()
+            .AddNpgsql()
+            .AddSource(nameof(EventConsumer))
+            .AddOtlpExporter(options =>
+            {
+                options.Endpoint =
+                    builder
+                        .Configuration
+                        .GetSection(nameof(OpenTelemetrySettings))
+                        .Get<OpenTelemetrySettings>()!
+                        .Endpoint;
+
+                options.Protocol = OtlpExportProtocol.Grpc;
+            });
+    });
+```
+
+As the above example shown, ASP.NET and `Npgsql` has built-in telemetry and it
+pretty much works out-of-the-box. Custom classes like `EventConsumer` is
+required when there is not telemetry built-in (Kafka in this case).
+
+```cs
+public async Task PublishAsync(StuffHappened @event)
+{
+    using var activity = EventPublisherActivitySource.StartActivity(
+        _kafkaSettings.Topic,
+        @event);
+
+    await _producer.ProduceAsync(
+        _kafkaSettings.Topic,
+            new Message<Guid, StuffHappened>
+            {
+                Key = @event.Id,
+                Value = @event,
+                Headers = EventPublisherActivitySource.EnrichHeadersWithTracingContext(
+            activity,
+                new Headers())
+            });
+
+    _metrics.EventPublished(_kafkaSettings.Topic);
+}
+```
+
+```cs
+public static class EventPublisherActivitySource
+{
+    private const string Name = "event publish";
+    private const ActivityKind Kind = ActivityKind.Producer;
+    private const string EventTopicTag = "event.topic";
+    private const string EventIdTag = "event.id";
+    private const string EventTypeTag = "event.type";
+
+    private static readonly ActivitySource ActivitySource
+        = new(nameof(EventPublisher));
+
+    private static readonly TextMapPropagator Propagator
+        = Propagators.DefaultTextMapPropagator;
+
+    public static Activity? StartActivity(string topic, IEvent @event)
+    {
+        if (!ActivitySource.HasListeners())
+        {
+            return null;
+        }
+
+        return ActivitySource.StartActivity(
+            name: Name,
+            kind: Kind,
+            tags: new KeyValuePair<string, object?>[]
+            {
+                new (EventTopicTag, topic),
+                new (EventIdTag, @event.Id),
+                new (EventTypeTag, @event.GetType().Name),
+            });
+    }
+
+    public static Headers EnrichHeadersWithTracingContext(Activity? activity, Headers headers)
+    {
+        if (activity is null)
+        {
+            return headers;
+        }
+
+        var contextToInject = activity?.Context
+            ?? Activity.Current?.Context
+            ?? default;
+
+        Propagator.Inject(
+            new PropagationContext(contextToInject, Baggage.Current),
+            headers,
+            InjectTraceContext);
+
+        return headers;
+
+        static void InjectTraceContext(Headers headers, string key, string value)
+            => headers.Add(key, Encoding.UTF8.GetBytes(value));
+    }
+}
+```
+
+Note that `Headers` are passed via a Kafka message such that, on the consumer
+side, the headers can be consumed to create a trace (see `StartActivity` below.
+
+Also note that `Baggage` (see
+[definition](https://opentelemetry.io/docs/concepts/signals/baggage/) is
+contextual information that’s passed between spans. It’s a key-value store that
+resides alongside span context in a trace.
+
+```cs
+private async Task HandleConsumeResultAsync(
+    IConsumer<Guid, StuffHappened> consumer,
+    ConsumeResult<Guid, StuffHappened> consumeResult,
+    CancellationToken stoppingToken)
+{
+    var startingTimestamp = _metrics.EventHandlingStart(_kafkaSettings.Topic);
+
+    try
+    {
+        using var activity = EventConsumerActivitySource.StartActivity(
+            _kafkaSettings.Topic,
+            consumeResult.Message.Value,
+            consumeResult.Message.Headers);
+
+        await HandleEventAsync(consumeResult.Message.Value, stoppingToken);
+
+        consumer.Commit();
+    }
+    finally
+    {
+        _metrics.EventHandlingEnd(_kafkaSettings.Topic, startingTimestamp);
+    }
+}
+```
+
+```cs
+public class EventConsumerActivitySource
+{
+    private const string Name = "event handle";
+    private const ActivityKind Kind = ActivityKind.Consumer;
+    private const string EventTopicTag = "event.topic";
+    private const string EventIdTag = "event.id";
+    private const string EventTypeTag = "event.type";
+
+    private static readonly ActivitySource ActivitySource
+        = new(nameof(EventConsumer));
+
+    private static readonly TextMapPropagator Propagator
+        = Propagators.DefaultTextMapPropagator;
+
+    public static Activity? StartActivity(
+        string topic,
+        IEvent @event,
+        Headers? headers)
+    {
+        if (!ActivitySource.HasListeners())
+        {
+            return null;
+        }
+
+        // Extract the context injected in the headers by the publisher
+        var parentContext = Propagator.Extract(
+            default,
+            headers,
+            ExtractTraceContext);
+
+        // Inject extracted info into current context
+        Baggage.Current = parentContext.Baggage;
+
+        return ActivitySource.StartActivity(
+            Name,
+            Kind,
+            parentContext.ActivityContext,
+            tags: new KeyValuePair<string, object?>[]
+            {
+                new(EventTopicTag, topic),
+                new(EventIdTag, @event.Id),
+                new(EventTypeTag, @event.GetType().Name),
+            });
+
+        static IEnumerable<string> ExtractTraceContext(
+            Headers? headers,
+            string key)
+        {
+            if (headers is not null
+                && headers.TryGetLastBytes(key, out var value)
+                && value is { } bytes)
+            {
+                return new[] { Encoding.UTF8.GetString(bytes) };
+            }
+
+            return Enumerable.Empty<string>();
+        }
+    }
+}
+```
+
+##### Metrics
+
+With .NET 8, there is a new way of exposing metrics via
+`System.Diagnostic.Metrics` (although the old way in .NET would still work).
+
+To setup metrics
+
+```cs
+builder.Services
+    .AddOpenTelemetry()
+    .ConfigureResource(configureResource)
+    .WithMetrics(metrics =>
+    {
+        metrics
+            .AddRuntimeInstrumentation()
+            .AddProcessInstrumentation()
+            .AddAspNetCoreInstrumentation()
+            .AddHttpClientInstrumentation()
+            .AddView(
+                "kafka_consumer_event_duration",
+                new ExplicitBucketHistogramConfiguration
+                {
+                    Boundaries = new[]
+                    {
+                        0,
+                        0.005,
+                        0.01,
+                        // ...
+                        10
+                    }
+                })
+            .AddMeter(
+                "System.Runtime",
+                "Microsoft.AspNetCore.Hosting",
+                "Microsoft.AspNetCore.Server.Kestrel",
+                "Npgsql",
+                EventConsumerMetrics.MeterName)
+            .AddOtlpExporter(/* same thing as we saw for tracing */);
+    });
+```
+
+`EventConsumerMetrics.MeterName` is a custom metrics which is created in the
+following code.
+
+```cs
+private async Task HandleConsumeResultAsync(
+    IConsumer<Guid, StuffHappened> consumer,
+    ConsumeResult<Guid, StuffHappened> consumeResult,
+    CancellationToken stoppingToken)
+{
+    var startingTimestamp = _metrics.EventHandlingStart(_kafkaSettings.Topic);
+
+    try
+    {
+        using var activity = EventConsumerActivitySource.StartActivity(
+            _kafkaSettings.Topic,
+            consumeResult.Message.Value,
+            consumeResult.Message.Headers);
+
+        await HandleEventAsync(consumeResult.Message.Value, stoppingToken);
+
+        consumer.Commit();
+    }
+    finally
+    {
+        _metrics.EventHandlingEnd(_kafkaSettings.Topic, startingTimestamp);
+    }
+}
+```
+
+```cs
+public class EventConsumerMetrics : IDisposable
+{
+    public const string MeterName = "Sample.KafkaConsumer";
+
+	private readonly TimeProvider _timeProvider;
+    private readonly Meter _meter;
+    private readonly UpDownCounter<long> _activeEventHandlingCounter;
+    private readonly Histogram<double> _eventHandlingDuration;
+
+    public EventConsumerMetrics(
+        IMeterFactory meterFactory,
+        TimeProvider timeProvider)
+    {
+        _timeProvider = timeProvider;
+        _logger = logger;
+        _meter = meterFactory.Create(MeterName);
+
+        _activeEventHandlingCounter = _meter.CreateUpDownCounter<long>(
+            "kafka_consumer_event_active",
+            unit: "{event}",
+            description: "Number of events currently being handled");
+
+        _eventHandlingDuration = _meter.CreateHistogram<double>(
+            "kafka_consumer_event_duration",
+            unit: "s",
+            description: "Measures the duration of inbound events");
+    }
+
+    public long EventHandlingStart(string topic)
+    {
+        if (_activeEventHandlingCounter.Enabled)
+        {
+            var tags = new TagList { { "topic", topic } };
+            _activeEventHandlingCounter.Add(1, tags);
+        }
+
+        return _timeProvider.GetTimestamp();
+    }
+
+    public void EventHandlingEnd(string topic, long startingTimestamp)
+    {
+        var tags = _activeEventHandlingCounter.Enabled
+                  || _eventHandlingDuration.Enabled
+            ? new TagList { { "topic", topic } }
+            : default;
+
+        if (_activeEventHandlingCounter.Enabled)
+        {
+            _activeEventHandlingCounter.Add(-1, tags);
+        }
+
+        if (_eventHandlingDuration.Enabled)
+        {
+            var elapsed = _timeProvider.GetElapsedTime(startingTimestamp);
+
+            _eventHandlingDuration.Record(
+                elapsed.TotalSeconds,
+                tags);
+        }
+    }
+
+    public void Dispose() => _meter.Dispose();
 }
 ```
 
