@@ -31,6 +31,8 @@ ____
   Linux](https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server)
 - [Editions and supported features of SQL Server
   2019](https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2019)
+- [Database Enginer events and
+errors](https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors) - error codes / numbers
 
 ## Tools
 
