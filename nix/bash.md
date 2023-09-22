@@ -2,6 +2,8 @@
 - [Terminal](#terminal)
 - [Shortcuts](#shortcuts)
 - [Scripting](#scripting)
+  * [command substitution](#command-substitution)
+  * [process substitution](#process-substitution)
   * [string](#string)
   * [list and range](#list-and-range)
   * [for](#for)
@@ -81,6 +83,27 @@ cd !$
 ```
 
 ## Scripting
+
+### command substitution
+
+```sh
+$EDITOR `rg -l some_word`
+```
+
+This opens all the files found by `rg` in the default editor.
+
+This is similar to `$()`, which is bash-specific, but it is also different where
+command substitution cannot be nested (which means substitution within
+substitution).
+
+### process substitution
+
+One of the use cases is to avoid generate temporary files storing output of
+a command.
+
+```sh
+delta <(cat a.txt) <(cat b.txt)
+```
 
 ### string
 
