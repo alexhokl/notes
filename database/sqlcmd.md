@@ -3,8 +3,9 @@ ____
 
 ##### SET QUOTED_IDENTIFIER
 
-Option `-I` should be used all the time to make sure `SET QUOTED_IDENTIFIER ON`
-is used. This is the default behaviour of MSSQL Management Studio.
+Option `-I` is not required anymore in Go-version of `sqlcmd`. It used to be to
+ensure `SET QUOTED_IDENTIFIER ON` . This aligns with the default behaviour of
+MSSQL Management Studio.
 
 ##### To capture error
 
