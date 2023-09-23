@@ -1,6 +1,6 @@
 - [Links](#links)
 - [NAS](#nas)
-  * [Installation of Tailscale on QNAP NAS](#installation-of-tailscale-on-qnap-nas)
+  * [QNAP NAS](#qnap-nas)
 - [CLI](#cli)
   * [To show routes of Tailscale](#to-show-routes-of-tailscale)
   * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
@@ -36,11 +36,13 @@ ____
 
 ## NAS
 
-### Installation of Tailscale on QNAP NAS
+### QNAP NAS
 
+- [Access QNAP NAS from anywhere](https://tailscale.com/kb/1273/qnap/#supported-qnap-hardware)
 - [ivokub/tailscale-qpkg](https://github.com/ivokub/tailscale-qpkg/blob/master/Makefile)
   - use `./tailscale -socket var/run/tailscale/tailscaled.sock` to learn about
     all possible commands
+- path to executable `/share/CACHEDEV1_DATA/.qpkg/Tailscale/tailscale`
 
 ## CLI
 
