@@ -10,7 +10,6 @@
   * [Finance](#finance)
   * [Security](#security)
   * [Others](#others)
-- [Tricks](#tricks)
 - [Commands](#commands)
   * [Testing](#testing)
   * [Modules](#modules)
@@ -24,6 +23,8 @@
   * [Functional options](#functional-options)
   * [Interface](#interface)
   * [Empty interface and pointer](#empty-interface-and-pointer)
+  * [Anonymous interface and dynamic function checking](#anonymous-interface-and-dynamic-function-checking)
+  * [Pointers and types](#pointers-and-types)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [errgroup](#errgroup)
@@ -42,6 +43,9 @@
   * [Testing](#testing-1)
   * [io.MultiReader](#iomultireader)
   * [Generics](#generics)
+  * [Time](#time)
+  * [Call stack](#call-stack)
+  * [Build tags](#build-tags)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -134,6 +138,8 @@ ____
 - [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal
   encrypted backups outside the app
 - [egbakou/domainverifier](https://github.com/egbakou/domainverifier)
+- [alexhokl/go-bb-pr](https://github.com/alexhokl/go-bb-pr) Example on using
+  OAuth with CLI
 
 ### Others
 
@@ -146,18 +152,6 @@ ____
 - [dolthub/swiss](https://github.com/dolthub/swiss) a replacement to built-in
   `map`
 - [zephyrtronium/gotools](https://gitlab.com/zephyrtronium/gotools)
-
-## Tricks
-
-- Use `.Equals` instead of `==` to compare Time objects.
-- Function parameters of interface type should not be a pointer as a normal
-  interface parameter can accept both pointer and value. Function receiver (the
-  parameter before function name) is the only exception. (see [Go interfaces
-  and pointers](https://medium.com/@saiyerram/go-interfaces-pointers-4d1d98d5c9c6))
-- For examples on pointers, see
-  [alexhokl/go-pointers](https://github.com/alexhokl/go-pointers)
-- Example on using OAuth with CLI
-  [alexhokl/go-bb-pr](https://github.com/alexhokl/go-bb-pr)
 
 ## Commands
 
@@ -517,21 +511,80 @@ In the example above, when the pointer is passed as `interface{}` variable,
 a pointer to type `string` is store and the data is null. Thus, the variable is
 never `== nil` although its value can be `nil`.
 
+Thus, function parameters of interface type should not be a pointer as a normal
+interface parameter can accept both pointer and value. Function receiver (the
+parameter before function name) is the only exception. (see [Go interfaces and
+pointers](https://medium.com/@saiyerram/go-interfaces-pointers-4d1d98d5c9c6))
+
+For examples on pointers, see
+[alexhokl/go-pointers](https://github.com/alexhokl/go-pointers)
+
+### Anonymous interface and dynamic function checking
+
+Reference: see section `... and anonymous interfaces` in [Golang Quirks
+& Intermediate Tricks, Pt 1: Declarations, Control Flow,
+& Typesystem](https://eblog.fly.dev/quirks.html)
+
+Checking whether a function exist on an object can be made via anonymous
+interface. The following example shows checking of function `Flush` and `Sync`
+which are not include in interface `io.Writer`.
+
 ```go
-type rtype struct {
-   size       uintptr
-   ptrdata    uintptr
-   hash       uint32
-   tflag      tflag
-   align      uint8
-   fieldAlign uint8
-   kind       uint8
-   alg        *typeAlg
-   gcdata     *byte
-   str        nameOff
-   ptrToThis  typeOff
+import "gzip"
+func writeZipped(w io.Writer, b []byte) (int, error) {
+    zipw := gzip.NewWriter(w)
+    n, err := zipw.Write(w)
+    if err != nil {
+        return n, err
+    }
+    if err := zipw.Close(); err != nil {
+        return err
+    }
+    // flush the underlying buffer, if there is one
+    if f, ok := w.(interface{Flush() error}); ok {
+        _ = f.Flush()
+    }
+    // sync to disk if possible
+    if f, ok := w.(interface{Sync() error}); ok {
+        _ = f.Sync()
+    }
 }
 ```
+
+### Pointers and types
+
+Reference: [Golang Quirks & Tricks, Pt 2](https://eblog.fly.dev/quirks2.html)
+
+The following program prints as follows.
+
+```go
+func main() {  // https://go.dev/play/p/io4pUcl2oiS
+
+ for _, t := range []any{
+  "",
+  new(string),
+  any(nil),
+  io.Writer(new(bytes.Buffer)),
+  io.Writer(io.Discard),
+  (*io.Writer)(&io.Discard),
+  (*any)(nil),
+ } {
+  fmt.Println(reflect.TypeOf(t))
+ }
+}
+```
+
+```
+string
+*string
+<nil>
+*bytes.Buffer
+io.discard
+*io.Writer
+*interface {}
+```
+
+Note that `any` is an alias to `interface{}` (since Go 1.18).
 
 ### sync.WaitGroup
 
@@ -578,6 +631,8 @@ func notify(services ...string) {
 }
 ```
 
+#### Channels and range
+
 `range` over a channel returns one value (unlike two values for an array).
 
 ```go
@@ -589,6 +644,17 @@ for value := range ch {
   fmt.Println(value)
 }
 ```
+
+#### Direction of channel parameters
+
+By default, if direction of a channel is not specified, it is bidirectional.
+
+```go
+func useChannels(a chan int, b <- chan int, c chan <- int)
+```
+
+where `a` is a bidirectional channel, `b` is an output channel, `c` is an input
+channel.
 
 ### errgroup
 
@@ -1053,6 +1119,102 @@ func Min[T constraints.Integer](a, b T) T {
   }
   return b
 }
+```
+
+#### Inferred types
+
+The following example shows when Go unable infer generic types.
+
+```go
+func As1[FROM, TO any](f FROM) TO {
+     return *(*TO)(unsafe.Pointer(&f)) // we'll conver unsafe later in this article.
+}
+
+func main() { // https://go.dev/play/p/no9apPCbMAX
+    b := As1[uint64, [8]byte](4)
+    fmt.Println(b)
+}
+```
+
+Go is not able to guess (infer) the type of the second parameter from the call
+to `As1`.
+
+The following example shows when Go can infer generic types.
+
+```go
+func As2[TO, FROM any](f FROM) TO { // https://go.dev/play/p/50PexocApZy
+ return *(*TO)(unsafe.Pointer(&f))
+}
+func main() {
+    b := As2[[8]byte](4)
+     fmt.Println(b)
+}
+```
+
+The second parameter can be guessed as it can be inferred from function
+parameter. Thus, only the first type parameter needs to be specified.
+
+### Time
+
+- Use `.Equals` instead of `==` to compare Time objects.
+
+### Call stack
+
+```go
+func Logged[T any](t T) T {
+    _, file, line, _ := runtime.Caller(1) // 1 = caller of Logged
+    fmt.Printf("%s:%d: %T: %v\n", file, line, t, t)
+    return t
+}
+```
+
+where `runtime.Caller(skip int)` returns the caller in the call stack.
+
+### Build tags
+
+`main.go`
+
+```go
+package main
+import "fmt"
+// a is not defined here: it's in either a.go or not_a.go
+func main() {
+    if a {
+        fmt.Println("a")
+    } else {
+        fmt.Println("!a")
+    }
+}
+```
+
+`a.go`
+
+```go
+//go:build a
+package main
+const a = true
+```
+
+`not_a.go`
+
+```go
+//go:build not_a
+package main
+const a = false
+```
+
+The following will generate different builds.
+
+```sh
+go build --tags a -o positive
+go build --tags not_a -o negative
+```
+
+Multiple tags can also be applied. Here is the syntax.
+
+```go
+//go:build a && b
+//go:build a || b
 ```
 
 ## Charm
