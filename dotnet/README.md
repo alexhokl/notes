@@ -826,10 +826,10 @@ async Task GetOneAsync(List<string> result, string url)
   method does not have `await` lines involved
 - `ValueTask` lives on stack rather than on heap
 - `ValueTask` cannot be re-used (or use `ValueTask.AsTask()`)
-- do not `ValueTask.GetAwaiter().GetResult()` as it is likely lead to race
-condition
 - avoid creating a local variable of type `ValueTask<T>` (due to possible
-re-use)
+  re-use)
+- do not `ValueTask.GetAwaiter().GetResult()` as it is likely lead to race
+  condition
 - advanced usage
 
 ```csharp
@@ -849,6 +849,10 @@ int bytesRead;
     }
 }
 ```
+
+- one of the non-use-case is where one path leads to database retrieval and the
+  other path leads to a Redis read
+  - since both lead to a remote call, `ValueTask` should not be used
 
 #### CancellationToken
 
