@@ -10,6 +10,7 @@
 - [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
 - [Analysis Paralysis](#analysis-paralysis)
 - [Event Sourcing](#event-sourcing)
+- [Messaging](#messaging)
 - [Deployment](#deployment)
   * [Canary](#canary)
 - [Microservices](#microservices)
@@ -594,6 +595,19 @@ all that has happened allows systems to be more reliable by means of audit and
 specification by example that literally translates to how the system is
 implemented. We also have enough storage to have a cache of different views into
 what has happened in the system.
+
+## Messaging
+
+- Idempotence should be ensured on consumer side of messages such that message
+  can be redelivered at any circumstances
+  - Internal state of consumer can be used to avoid implementing a full rollback
+    in case a message cannot be processed completely.
+  - Idempotence can be implemented on business logic level. For instance,
+    a unique identifier can be added to an order such that the consumer of the
+    message can check if a message has been duplicated, and subsequently
+    acknowledge the message without doing anything else. This avoids
+    implementing de-duplication (or exactly-once) in messaging infrastructure
+    which could be slow.
 
 ## Deployment
 
