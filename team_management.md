@@ -1,6 +1,7 @@
 - [Managing a junior team](#managing-a-junior-team)
 - [Leading engineering teams](#leading-engineering-teams)
 - [Company culture](#company-culture)
+- [Planning](#planning)
 ____
 
 ### Managing a junior team
@@ -141,3 +142,152 @@ Observe for three months and try to answer the following questions.
 - Set a concrete stay/leave goal…if your “score” remains undecided (or less) for
   an extended period of time (e.g three months), consider leaving at your twelve
   month mark
+
+### Planning
+
+Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
+
+#### some of the goals of planning
+
+- communicate a shared goal and vision for everyone to pull towards
+  * our vast and endless sea to yearn for
+- list the projects that teams are going to work on, and the metrics they plan
+  to move
+- equip the business to estimate whether the projects and impacts are
+  sufficient to meet the organization’s targets (growth, revenue,
+  capabilities, etc)
+- give leadership a venue to provide feedback, set direction and course correct
+
+#### some rules of thumb for making planning
+
+##### bottom up processes do not work
+
+- there are a ton of critical insights we need from the people on the
+  front lines doing the work, but bottom up planning is not how to get them
+- individual teams, almost definitionally, are not in possession of the
+  information and perspective to understand what is most important for the
+  whole organization, and perforce will make locally optimal choices based
+  on the information they do have
+  * this may also mean more information should be shared to the team, if the
+    team cares
+- individual teams during planning will answer the question of what it would
+  take them to accomplish a given goal, without awareness of what other
+  teams will accomplish.
+  * this may also mean sharing the work of a team to another team, if the
+    other team cares
+- the above two tendencies are a recipe for an organization that grows
+  larger every year, but is largely maintaining the status quo
+  * bottom up processes fall victim to anchoring
+- In a bottom up process you ask people to spend time and energy advocating
+  for what they think the right thing to do is, and what resources they need
+  to do it. They naturally emotionally invest in that outcome.  This now
+  becomes the floor for their expectations.
+
+##### planning is the wrong time to introduce anything new
+
+- most organizations have a formal period of time annually
+- leadership often feels like Planning is their opportunity to introduce the new
+  direction they would like to see the company move in
+  * all this does is create a scramble, shallow thinking, and low quality plans
+  * planning is when everyone is too busy to have these conversations
+    + and too emotionally keyed up as they contemplate their budget for the
+      coming year and what that means for their team
+- instead, start working on new things when you are not Planning
+  * document what you want to do/build/etc; share the proposal with people; get
+    their explicit buy-in to support the new thing; Test your assumptions and
+    estimates with people in your organization with expertise that are different
+    from yours; get feedback from leadership about whether your idea is aligned
+    with the direction of the organization (or if they are willing to change
+    directions); tell people how much it is going to cost: in terms of people
+    assigned to it, time to iterate on it, to break through the noise in the
+    market and educate your target customers, etc; solicit internal interest for
+    people who would be interested to join the effort if it gets approved; this
+    is a Funding Proposal, and it is a great process to run outside of Planning
+  * Funding Proposals can seem like a heavy process; it can take weeks or
+    months; it is not something you can do within the constraints of a company’s
+    annual Planning process
+  * the other option that also works well for a large class of ideas: just try
+    them. Don’t ask for resources, don’t ask for support from other teams, do
+    the quick and dirty test to validate or disprove your idea, build a thing
+    knowing that you will probably fail and be ready to back out your changes
+    and throw it away. That is a great alternative to doing a real plan
+
+##### provide frameworks and constraints
+
+- doing top-down planning without micro-managing
+- metrics are perennially popular constraints
+  * revenue, [churn](https://en.wikipedia.org/wiki/Churn_rate), sign ups,
+    availability, etc are the bread and butter of many companies’ planning
+    processes; consider pairing them with metrics that shape a narrative
+    (storytelling metrics) about what you think is important
+    + examples
+      + customers who used our product both on desktop and mobile
+      + % of the company who adopts a product once it’s available
+- constraint cannot be decided by the planning process
+  - constraint such as deadline cannot be decided in planning; the team will be
+    in a deadlock where deciding amount of work to complete and deciding the
+    deadline
+- existing constraints before planning
+  * cost of work we have already committed to (things committed last year or last
+    sprint)
+  * these constraints are the most important and it should be found out before
+    planning
+- top down planning comes with a risk
+  * teams need to be willing to give feedback to higher management
+
+##### project planning has an inflection point
+
+- as the complexity of what you are trying to accomplish increases and Planning
+  becomes more about coordination and communication, Project Planning is no
+  longer appropriate to do at the company level
+  * it is too fine grained
+  * it leads you to make overly detailed commitments about how you solve
+    a problem to people who are outside your team
+    + once you have people outside your team monitoring your approach to solving
+      a problem it becomes much harder to change your plan as you learn new
+      things
+- many organizations miss this critical inflection point and go sailing off into
+  Strategic Planning with the expectations of Project Planning still firmly in
+  place
+
+##### do not wait to kill bad ideas
+
+- instead emphasize with each team that you believe that their plans are
+  hypotheses, and that you see their job as testing those hypotheses
+  * setup regular conversations to ask how that testing process is going
+    + what have they learned?
+    + what have they disproven?
+    + where have they changed their mind?
+- so make it easier to kill bad ideas, and make it easy to talk about killing
+  bad ideas sooner
+
+##### minimize dependencies
+
+- as the person designing Planning, encourage people to build their plans on the
+  foundation of things that are already working and shipped
+  * new capabilities (which introduces new dependencies), and building support
+    and excitement for them should be done via Funding Proposals outside this
+    process
+
+##### headcount planning would not map to your plans
+
+- shifting the high stakes nature of headcount planning by moving towards off
+  cycle funding proposals
+
+##### Environment with less restrictions on resources
+
+- especially in a hyper-growth environment or when money and headcount are no
+  object, you need to be better at planning, because the only constraints are
+  the quality of your thinking
+
+##### purposes of planning
+
+- it acts as a point in time to synchronize our multi-threaded company
+  * all year we operate with different teams and functions loosely coupled;
+    having a moment in time when we all agree we want to collate as
+    comprehensive a view of what we are doing as possible is an important
+    investment to keep us from drifting too far apart
+  * a time to all get on the same page before we all start running fast again
+- it is a forcing function
+  * we are all busy and sometimes things just don’t get done without a deadline
+    and a person asking for them
