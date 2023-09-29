@@ -95,6 +95,32 @@ ____
   address
 - [Bellingcat OpenStreetMap search](https://osm-search.bellingcat.com/) - search
   for a location using metadata
+- [PeakVisor](https://peakvisor.com/)
+  * an app showing 3D rendering of mountains around
+  * the rendering is much better than Google Street view
+    + too smoothed to show distinctive rock features
+  * originally developed to help mountaineers and hikers orientate, navigate and
+    share geographic information on their smartphones
+  * features
+    + a 3D panorama allowing users to place themselves at any coordinates of
+      their choice to scan a highly accurately rendered 360 degree landscape
+    + a 2D contour map allows users to view the inclines of all natural slopes
+      in a selected region, be that in a rural or urban environment
+    + PhotoFit feature allows users to overlay the silhouettes of any skyline or
+      natural landmark onto a photograph, allowing for comparison and therefore
+      verification of the location of the image
+      + photos can be uploaded and it can be overlaid onto the virtual view
+    + its terrain shading and topology rendering algorithms make the valley
+      floor’s raised road and grassy river basin distinct, and they adjust both
+      seasonally and for time of day
+      + it also provides a much more defined skyline
+    + a dynamic location feature which re-renders the resulting image in almost
+      real time as the user moves along the virtual landscape
+    + by selecting distinct landmarks in PeakVisor’s 3D virtual panorama and
+      measuring the distance from each to the presumed location
+    + it displays the names of mountains in the panorama, stating their distance
+      from the viewpoint in kilometres
+  * Peakvisor OPen Source Investigation (POPSI) project is involved
 
 ### APIs
 
