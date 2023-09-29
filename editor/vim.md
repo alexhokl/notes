@@ -303,8 +303,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>5</kbd><kbd>@</kbd><kbd>1</kbd> to replay the recording at register `1`
   5 times
 - `:reg` to list the current registers
-- By default, yank use register `0`, `"` and `-`; change and delete use register
-  `"` and `-`; system clipboard use register `*`
+- by default
+  * yank use register `0`, `"` and `-`
+  * change and delete use register `"` and `-`
+  * system clipboard use register `*`
 - yank and replace can be done by yanking first, delete the words to be
   replaced, and `"0p`. It works because register `0` always stores the last
   yanked content.
