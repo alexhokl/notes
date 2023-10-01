@@ -42,6 +42,9 @@ ____
   APIs
 - [dnsee](https://github.com/bschaatsbergen/dnsee) - a CLI tool to check DNS
   recods of a domain (but not its sub-domains)
+- [xavidop/dialogflow-cx-cli](https://github.com/xavidop/dialogflow-cx-cli) - a
+  CLI to interact with Google's DialogFlow, text-to-speech and speech-to-text
+  APIs
 
 ## Online Tools
 
