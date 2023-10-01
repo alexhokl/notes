@@ -76,6 +76,12 @@ kubectl -n default get endpoints kubernetes -o json | \
   jq -r '(.subsets[0].addresses[0].ip + ":" + (.subsets[0].ports[0].port|tostring))'
 ```
 
+##### To concatenate a simple array to string with delimiters
+
+```sh
+jq '.names | join(",")'
+```
+
 ##### To use environment variables
 
 The trick is to use double quotes to wrap the query
