@@ -1,3 +1,4 @@
+- [Libraries](#libraries)
 - [.NET Core](#net-core)
     + [Porting](#porting)
     + [Upgrade](#upgrade)
@@ -24,7 +25,6 @@
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
-    + [Libraries](#libraries)
     + [Software](#software)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
@@ -55,6 +55,19 @@
     + [.editorconfig](#editorconfig)
     + [Quartz.NET](#quartznet)
 ____
+
+# Libraries
+
+- [Marten](https://martendb.io/)
+  * It serves two major functions
+    + as a document DB
+    + as a store of events like Kafka but the data lives on PostgreSQL
+- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional)
+- [Audit.NET](https://github.com/thepirat000/Audit.NET) An extensible
+  framework to audit executing operations in .NET and .NET Core
+- [bilal-fazlani/tracker-enabled-dbcontext](https://github.com/bilal-fazlani/tracker-enabled-dbcontext)
+  Tracker-enabled DbContext offers you to implement full auditing in your
+  database
 
 # .NET Core
 
@@ -1423,17 +1436,6 @@ To run the formatter, download the zip from release page and run
 ```ps1
 codeformatter.exe /nocopyright C:\work\solution.sln
 ```
-
-### Libraries
-
-- [StackExchange/NetGain](https://github.com/StackExchange/NetGain) A high
-  performance websocket server library powering Stack Overflow
-- [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional)
-- [Audit.NET](https://github.com/thepirat000/Audit.NET) An extensible
-  framework to audit executing operations in .NET and .NET Core
-- [bilal-fazlani/tracker-enabled-dbcontext](https://github.com/bilal-fazlani/tracker-enabled-dbcontext)
-  Tracker-enabled DbContext offers you to implement full auditing in your
-  database
 
 ### Software
 
