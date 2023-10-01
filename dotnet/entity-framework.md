@@ -1,6 +1,7 @@
 - [Entity Framework Core](#entity-framework-core)
   * [Useful Libraries](#useful-libraries)
   * [Links](#links)
+  * [What's new in EF Core 7](#whats-new-in-ef-core-7)
   * [Data Context](#data-context)
   * [Modeling](#modeling)
     + [Concepts](#concepts)
@@ -66,6 +67,38 @@ ____
 - [Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
 - [SQLException
   Numbers](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/cc645603(v=sql.105))
+
+## What's new in EF Core 7
+
+##### To avoid fetching a lot of data for EF to update some columns
+
+```cs
+await context.Blogs
+  .Where(b => b.Rating == 1)
+  .ExecuteUpdateAsync(updates => updates.SetProperty(b => b.IsActive, false);
+```
+
+```cs
+await context.Blogs
+  .Where(b => b.Posts.Any(p => p.Views > 0)
+  .ExecuteUpdateAsync(updates => updates.SetProperty(b => b.IsActive, false);
+```
+
+```cs
+await context.Posts
+  .Where(p => p.Blog.Rating == 1)
+  .ExecuteUpdateAsync(updates => updates.SetProperty(p => p.Views, p => p.Views + 1));
+```
+
+```cs
+await context.Blogs
+  .Where(b => b.Rating == 1)
+  .ExecuteDeleteAsync();
+```
+
+The above examples avoid heavy operation (in terms of both time to complete and
+memory consumption) of `.SaveChanges()`. This also does not wait for
+`.SaveChanges()` and it breaks values of tracked entities.
 
 ## Data Context
 
