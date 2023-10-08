@@ -492,33 +492,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ##### Configuration for Go
 
-`$PROJECT_DIR/.vscode/launch.json`
-
-```json
-{
-  "configurations": {
-    "run": {
-      "adapter": "delve",
-      "filetypes": [ "go" ],
-      "configuration": {
-        "request": "launch",
-        "program": "${fileDirname}",
-        "args": [],
-        "mode": "debug"
-      }
-    },
-    "run": {
-      "adapter": "delve",
-      "filetypes": [ "go" ],
-      "configuration": {
-        "request": "launch",
-        "program": "${fileDirname}",
-        "mode": "debug"
-      }
-    }
-  }
-}
-```
+Configuration is probably not required due to the use of plugin
+[leoluz/nvim-dap-go](https://github.com/leoluz/nvim-dap-go).
 
 ##### Configuration for .NET
 
