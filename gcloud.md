@@ -556,6 +556,12 @@ gcloud pubsub topics list
 gcloud pubsub subscriptions list
 ```
 
+##### To pull a message without acknowledgement
+
+```sh
+gcloud pubsub subscriptions pull your-subscription-name --format=json
+```
+
 ### Cloud SQL
 
 #### SQL Server
