@@ -46,6 +46,7 @@
   * [Time](#time)
   * [Call stack](#call-stack)
   * [Build tags](#build-tags)
+  * [Logging](#logging-1)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -1216,6 +1217,16 @@ Multiple tags can also be applied. Here is the syntax.
 //go:build a && b
 //go:build a || b
 ```
+
+### Logging
+
+- [log/slog](https://go.dev/blog/slog)
+- [Resources of slog](https://github.com/golang/go/wiki/Resources-for-slog)
+- [jussi-kalliokoski/slogdriver](https://github.com/jussi-kalliokoski/slogdriver)
+  to send logs to GCP Cloud logging
+- [ttys3/slogx](https://github.com/ttys3/slogx/) to send logs to OpenTelemetry
+  collector
+- [samber/slog-gin](https://github.com/samber/slog-gin)
 
 ## Charm
 
