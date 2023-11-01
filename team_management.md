@@ -1,5 +1,6 @@
 - [Managing a junior team](#managing-a-junior-team)
 - [Leading engineering teams](#leading-engineering-teams)
+- [Leading Teams](#leading-teams)
 - [Company culture](#company-culture)
 - [Planning](#planning)
 ____
@@ -92,6 +93,12 @@ Porterie
   - It’s a good model to support discussions of technical coupling and the value
     or architectural work (which could be the topic of an entire blog post
     itself) as it makes interdependencies more apparent.
+
+### Leading Teams
+
+- implement system and rules for teams instead of depending on skills of an
+  individual leader as those skills could be limited in some areas and it could
+  be hard to guess
 
 ### Company culture
 
@@ -291,3 +298,5 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - it is a forcing function
   * we are all busy and sometimes things just don’t get done without a deadline
     and a person asking for them
+
+
