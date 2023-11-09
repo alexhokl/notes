@@ -47,6 +47,7 @@
   * [Call stack](#call-stack)
   * [Build tags](#build-tags)
   * [Logging](#logging-1)
+  * [Garbage collection](#garbage-collection)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -1227,6 +1228,42 @@ Multiple tags can also be applied. Here is the syntax.
 - [ttys3/slogx](https://github.com/ttys3/slogx/) to send logs to OpenTelemetry
   collector
 - [samber/slog-gin](https://github.com/samber/slog-gin)
+
+### Garbage collection
+
+The vast majority of the time the Go runtime performs garbage collection
+concurrently with the execution of your program. This means that the GC is
+running at the same time as your program.
+
+There are two points in the GC process where the Go runtime needs to stop every
+Goroutine. This is required to ensure data integrity. These usually takes in the
+order of tens of microseconds.
+
+- Before the Mark Phase of the GC the runtime stops every Goroutine to apply the
+  write barrier, this ensures no objects created after this point are garbage
+  collected. This phase is known as Sweep Termination.
+- After the mark phase has finished there is another stop the world phase, this
+  is known as Mark Termination and the same process happens to remove the write
+  barrier.
+
+When the Go runtime starts it creates an OS thread for each CPU core. The
+problem is that the Go runtime is not aware of the CGroup CPU limits and will
+happily schedule goroutines on all OS threads. Long stop the world durations
+arise from the Go runtime needing to stop Goroutine on threads that it’s waiting
+for the Linux Scheduler to schedule. These threads will not be scheduled once
+the container has used it’s CPU quota.
+
+Go allows you to limit the number of CPU threads that the runtime will create
+using the `GOMAXPROCS` environment variable. The result of using the variable
+correctly would be the garbage collection is much shorter, despite having the
+exact same load.
+
+The following explains how the variable can be configured (which can be passed
+as an environment variable in `docker run`)
+
+```sh
+GOMAXPROCS=max(1, floor(CPUs))
+```
 
 ## Charm
 
