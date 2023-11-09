@@ -3,6 +3,7 @@
 - [Leading Teams](#leading-teams)
 - [Company culture](#company-culture)
 - [Planning](#planning)
+- [Recruitment](#recruitment)
 ____
 
 ### Managing a junior team
@@ -299,4 +300,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
   * we are all busy and sometimes things just don’t get done without a deadline
     and a person asking for them
 
+### Recruitment
 
+- the decision should not be based on intuition as even experienced interviewer
+  could get it wrong; thus, a more objective methods should be used
