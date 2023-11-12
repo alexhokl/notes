@@ -6,6 +6,8 @@
   * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
   * [To show login URL as QR code](#to-show-login-url-as-qr-code)
   * [To copy files to another device](#to-copy-files-to-another-device)
+  * [To setup a server within Tailscale network](#to-setup-a-server-within-tailscale-network)
+  * [To setup a server publicly (via Tailscale Funnel)](#to-setup-a-server-publicly-via-tailscale-funnel)
 - [Taildrop (file)](#taildrop-file)
 - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
@@ -75,6 +77,22 @@ sudo tailscale up --qr
 ```sh
 tailscale file cp some_file 100.333.333.333:
 ```
+
+### To setup a server within Tailscale network
+
+```sh
+tailscale serve 5000
+```
+
+where this will setup a server at port `5000` with HTTPS on.
+
+### To setup a server publicly (via Tailscale Funnel)
+
+```sh
+tailscale funnel 5000
+```
+
+where this will setup a server at port `5000` with HTTPS on.
 
 ## Taildrop (file)
 
