@@ -48,6 +48,7 @@
   * [Build tags](#build-tags)
   * [Logging](#logging-1)
   * [Garbage collection](#garbage-collection)
+  * [Cryptography](#cryptography)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -1260,6 +1261,13 @@ exact same load.
 
 The following explains how the variable can be configured (which can be passed
 as an environment variable in `docker run`)
+
+### Cryptography
+
+A recent package [crypto/ecdh](https://pkg.go.dev/crypto/ecdh) can be used to
+generated private and public key pairs. Interface `Curve` contains functions to
+generate private key from a random number (where `crypto/rand.Reader` is
+recommended) and to generate public key from a private key.
 
 ```sh
 GOMAXPROCS=max(1, floor(CPUs))
