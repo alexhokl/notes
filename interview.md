@@ -107,6 +107,7 @@ ____
   guess its usage
   * look for the ability to understand table relationships quickly
 - how to count number of users of an API endpoint
+- What is important to a developer besides writing code?
 
 ### General approach
 
