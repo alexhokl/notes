@@ -100,6 +100,21 @@ Porterie
 - implement system and rules for teams instead of depending on skills of an
   individual leader as those skills could be limited in some areas and it could
   be hard to guess
+- manager of managers to stand away most of the time (or away from day-to-day
+  business) and observe but step in to give feedback and guidance afterwards
+  (such as after a meeting or at the end of a week)
+- psychological safety is about the absence of interpersonal fear
+  * for example, pushing to something that is not technically possible
+  * it is different from job security
+  * with the safely, people will speak up and get give their opinion or asking
+    questions
+  * for those are quiet to give opinions, manager should provide the following
+    + framing
+      + giving context of the difficulty of the problem
+    + inviting
+      + not "are you with me?" but "is there anything we can do better?"
+    + responding
+      + responses do not spread fear in case of bad results
 
 ### Company culture
 
@@ -304,3 +319,4 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 
 - the decision should not be based on intuition as even experienced interviewer
   could get it wrong; thus, a more objective methods should be used
+- writing things down is an important attribute/skill with higher management
