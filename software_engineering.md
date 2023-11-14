@@ -9,6 +9,8 @@
 - [Product / Project Management](#product--project-management)
 - [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
 - [Analysis Paralysis](#analysis-paralysis)
+- [Command and Query Responsibility Segregation (CQRS)](#command-and-query-responsibility-segregation-cqrs)
+  * [with event sourcing](#with-event-sourcing)
 - [Event Sourcing](#event-sourcing)
 - [Messaging](#messaging)
 - [Deployment](#deployment)
@@ -571,6 +573,68 @@ product](https://www.thoughtworks.com/insights/blog/faster-better-stronger-build
 - Agile software development methodologies explicitly seek to prevent analysis
   paralysis, by promoting an iterative work cycle that emphasizes working
   products over product specifications
+
+## Command and Query Responsibility Segregation (CQRS)
+
+Reference: [CQRS
+pattern](https://learn.microsoft.com/en-GB/azure/architecture/patterns/cqrs)
+
+Implementing CQRS in your application can maximize its performance, scalability,
+and security. The flexibility created by migrating to CQRS allows a system to
+better evolve over time and prevents update commands from causing merge
+conflicts at the domain level.
+
+In traditional architectures, the same data model is used to query and update
+a database. In more complex applications, however, this approach can become
+unwieldy. For example, on the read side, the application may perform many
+different queries, returning data transfer objects (DTOs) with different shapes.
+Object mapping can become complicated. On the write side, the model may
+implement complex validation and business logic. As a result, you can end up
+with an overly complex model that does too much. Read and write workloads are
+often asymmetrical, with very different performance and scale requirements.
+
+The traditional approach can have a negative effect on performance due to load
+on the data store and data access layer, and the complexity of queries required
+to retrieve information.
+
+CQRS separates reads and writes into different models, using commands to update
+data, and queries to read data.
+
+- Commands should be task-based, rather than data centric. ("Book hotel room",
+  not "set ReservationStatus to Reserved").
+- Commands may be placed on a queue for asynchronous processing, rather than
+  being processed synchronously.
+- Queries never modify the database. A query returns a DTO that does not
+  encapsulate any domain knowledge.
+
+For greater isolation, you can physically separate the read data from the write
+data. In that case, the read database can use its own data schema that is
+optimized for queries. If separate read and write databases are used, they must
+be kept in sync. Typically this is accomplished by having the write model
+publish an event whenever it updates the database. Separation of the read and
+write stores also allows each to be scaled appropriately to match the load. For
+example, read stores typically encounter a much higher load than write stores.
+If you separate the read and write databases, the read data may be stale. The
+read model store must be updated to reflect changes to the write model store,
+and it can be difficult to detect when a user has issued a request based on
+stale read data. The read model has no business logic or validation stack, and
+just returns a DTO for use in a view model. The read model is eventually
+consistent with the write model.
+
+Scenarios where one team of developers can focus on the complex domain model
+that is part of the write model, and another team can focus on the read model
+and the user interfaces.
+
+### with event sourcing
+
+When used with the Event Sourcing pattern, the store of events is the write
+model, and is the official source of information. The read model of a CQRS-based
+system provides materialized views of the data, typically as highly denormalized
+views. Because the event store is the official source of information, it is
+possible to delete the materialized views and replay all past events to create
+a new representation of the current state when the system evolves, or when the
+read model must change. The materialized views are in effect a durable read-only
+cache of the data.
 
 ## Event Sourcing
 
