@@ -40,6 +40,7 @@
     + [Applying migration](#applying-migration)
     + [Generating migration scripts](#generating-migration-scripts)
   * [Logging](#logging)
+  * [Pagination](#pagination)
   * [Anti-patterns](#anti-patterns)
   * [Upgrade from version 2.1](#upgrade-from-version-21)
 - [Entity Framework (Classic)](#entity-framework-classic)
@@ -99,6 +100,39 @@ await context.Blogs
 The above examples avoid heavy operation (in terms of both time to complete and
 memory consumption) of `.SaveChanges()`. This also does not wait for
 `.SaveChanges()` and it breaks values of tracked entities.
+
+##### Aggregated functions (and bring things to old EF6 feature parity)
+
+```cs
+var categories =
+  await context.Blogs
+    .GroupBy(b => b.Category)
+    .Select(g => New
+      {
+        Category = g.Key,
+        StddevViews = EF.Functions.StandardDeviationPopulation(g.Select(b => b.Views)),
+      });
+```
+
+where `EF.Functions` is a way to apply database engine specific (SQL server,
+PostgreSQL) functions.
+
+```cs
+var categories =
+  await context.Blogs
+    .GroupBy(b => b.Category)
+    .Select(g => New
+      {
+        Category = g.Key,
+        Names = string.Join(", ", g.Where(b => b.Views > 2).OrderBy(b => b.Views).Select(b => b.Name)),
+      });
+```
+
+##### JSON columns
+
+There is a chance that an indexed computed JSON property can be faster than
+a table join. For instance, table `Company` joining `CompanyAddress` compared to
+`Company.Address.Country`.
 
 ## Data Context
 
@@ -1237,6 +1271,37 @@ options.UseSqlServer(Configuration.GetConnectionString("LocalDB"))
     }))
     .EnableSensitiveDataLogging();
 ```
+
+## Pagination
+
+Performance of `Skip` and `Take` is bad when the number of rows is large. For
+example,
+
+```cs
+var blogs =
+  dataContext.Blogs
+    .Skip(20)
+    .Take(10)
+    .ToList();
+```
+
+The above could be better if it is written as
+
+```cs
+var lastUpdated = new DateTime(2022, 5, 6);
+var lastId = 345;
+var blogs =
+  dataContext.Blogs
+    .Where(b =>
+      b.LastUpdated > lastUpdated ||
+      (b.LastUpdated == lastUpdated && b.Id > lastId)
+    .Take(10)
+    .ToList();
+```
+
+Library
+[mrahhal/MR.EntityFrameworkCore.KeysetPagination](https://github.com/mrahhal/MR.EntityFrameworkCore.KeysetPagination)
+can be used to allow the above keyset pagination to be defined.
 
 ## Anti-patterns
 
