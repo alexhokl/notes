@@ -970,6 +970,25 @@ func FindAndCopyDigits(filename string) []byte {
 }
 ```
 
+#### Initialisation of object being applied range
+
+```go
+fib := []int{0, 1}
+for i, f1 := range fib {
+  f2 := fib[i+1]
+  fib = append(fib, f1+f2)
+  if f1+f2 > 100 {
+    break
+  }
+}
+fmt.Println(fib)
+```
+
+The following code does not produce a Fibonacci sequence just over 100 but `[0
+1 1 2]` instead. It is due to `fib` was of size `2` at the time `range` was
+applied. It implies `i` would never reach `2` although `fib` array does expand
+properly to size of `4` by the end of the algorithm.
+
 ### Unix socket
 
 - [alexhokl/unix-socket-test](https://github.com/alexhokl/unix-socket-test)
