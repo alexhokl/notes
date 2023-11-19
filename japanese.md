@@ -1,4 +1,5 @@
 - [Keyboard](#keyboard)
+  * [12 keys mapping](#12-keys-mapping)
   * [Hiragana mapping](#hiragana-mapping)
 ____
 
@@ -23,6 +24,27 @@ ____
     + down お (o)
   * <kbd>space</kbd> to select options
   * <kbd>enter</kbd> to confirm
+
+## 12 keys mapping
+
+| -       | -       | -       |
+| ---     | ---     | ---     |
+| あ (a)  | か (ka) | さ (sa) |
+| た (ta) | な (na) | は (ha) |
+| ま (ma) | や (ya) | ら (ra) |
+| -       | わ (wa) | -       |
+
+| -     | -     | -     |
+| ---   | ---   | ---   |
+|       | う(u) |       |
+| い(i) | あ(a) | え(e) |
+|       | お(o) |       |
+
+| -   | -      | -   |
+| --- | ---    | --- |
+|     | ん(n)  |     |
+| (o) | わ(wa) | ー  |
+|     | 〜     |     |
 
 ## Hiragana mapping
 
