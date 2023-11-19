@@ -21,6 +21,7 @@
   * [VPC](#vpc)
   * [Cloud NAT](#cloud-nat)
   * [Security Command Center (SCC)](#security-command-center-scc)
+  * [Duet AI](#duet-ai)
 - [Tools](#tools)
 ____
 
@@ -1127,6 +1128,12 @@ storage service-agent`
       this program as described at Security Command Center Cryptomining Detection
       Best Practices and did not receive a finding or other notice from Google
       regarding the cryptomining attack
+
+### Duet AI
+
+It is a GitHub Copilot Chat-like product where it help suggesting how BigQuery
+can be used, suggesting and explaining BigQuery queries, explaining select
+BigQuery tables.
 
 ## Tools
 
