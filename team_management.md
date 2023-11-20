@@ -4,6 +4,7 @@
 - [Company culture](#company-culture)
 - [Planning](#planning)
 - [Recruitment](#recruitment)
+- [Meetings](#meetings)
 ____
 
 ### Managing a junior team
@@ -320,3 +321,24 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - the decision should not be based on intuition as even experienced interviewer
   could get it wrong; thus, a more objective methods should be used
 - writing things down is an important attribute/skill with higher management
+
+### Meetings
+
+- disclose agenda of a meeting such as the type of meeting
+  * making a decision
+  * sharing information
+- share information after meeting to a wider audience so that people would not
+  have anxiety in missing out a meeting which they may not be able to contribute
+  to
+- pre-reading
+  * leave time for everyone to read the context so that no time is wasted during
+    a meeting to find out context (either making sure people read beforehand or
+    allocate time for people to read at the beginning of a meeting)
+- check-in
+  * ask people to start talking
+- checkout
+  * ask for one word participant think right after a meeting
+    + to understand whether the meeting is a success or that is something
+      missing
+- dis-associate idea from the people who suggests it
+  * list out the ideas without people's name
