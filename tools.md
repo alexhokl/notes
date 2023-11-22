@@ -150,6 +150,7 @@ ____
   cloud SIEM
 - [Linear](https://linear.app/) - issue tracking
 - [Codecov](https://about.codecov.io/) - code coverage reporting
+- [TestRail](https://www.testrail.com/)
 
 ### Online meeting
 
