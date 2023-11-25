@@ -45,6 +45,7 @@ ____
 - [xavidop/dialogflow-cx-cli](https://github.com/xavidop/dialogflow-cx-cli) - a
   CLI to interact with Google's DialogFlow, text-to-speech and speech-to-text
   APIs
+- [ssh-vault](https://ssh-vault.com/) - encrypt/decrypt using ssh keys
 
 ## Online Tools
 
