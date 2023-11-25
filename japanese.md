@@ -1,7 +1,13 @@
+- [Basics](#basics)
 - [Keyboard](#keyboard)
   * [12 keys mapping](#12-keys-mapping)
   * [Hiragana mapping](#hiragana-mapping)
 ____
+
+# Basics
+
+- [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
+- [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 
 # Keyboard
 
