@@ -126,6 +126,8 @@ ____
 - [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache
   Kafka 0.8, and up -
   [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
+- [ThreeDotsLabs/watermill/](https://github.com/ThreeDotsLabs/watermill/) - a Go
+  library as an abstraction to Kafka or Google Cloud Pub/Sub
 
 ### Finance
 
