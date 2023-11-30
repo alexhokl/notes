@@ -20,6 +20,7 @@
   * [CPU and parallelism](#cpu-and-parallelism)
   * [Linked servers](#linked-servers)
   * [Table partitioning](#table-partitioning)
+  * [User-defined function (UDF)](#user-defined-function-udf)
 ____
 
 ## Links
@@ -1164,3 +1165,53 @@ SELECT * FROM sys.linked_logins
   Partitioning](https://www.brentozar.com/archive/2012/08/potential-problems-partitioning/)
 - [SQL Server Table Partitioning:
   Resources](https://www.brentozar.com/sql/table-partitioning-resources/)
+
+### User-defined function (UDF)
+
+Reference: [Scalar UDF
+Inlining](https://learn.microsoft.com/en-us/sql/relational-databases/user-defined-functions/scalar-udf-inlining)
+
+UDF are slow due to
+
+- iterative invocation
+  * each iteration incurs additional costs of repeated context switching due to
+    function invocation
+- lack of costing
+  * scalar operators are not costed during optimisation
+- interpreted execution
+  * UDFs are evaluated as a batch of statements, executed
+    statement-by-statement. Each statement itself is compiled, and the compiled
+    plan is cached. Although this caching strategy saves some time as it avoids
+    recompilations, each statement executes in isolation. No cross-statement
+    optimizations are carried out.
+- serial execution
+  * SQL Server does not allow intra-query parallelism in queries that invoke
+    UDFs
+
+#### Automatic inlining of scalar UDF
+
+- a new feature in SQL 2019 (15.0)
+- a feature to improve performance of queries that invoke T-SQL scalar UDFs,
+  where UDF execution is the main bottleneck.
+- scalar UDFs are automatically transformed into scalar expressions or scalar
+  subqueries that are substituted in the calling query in place of the UDF
+  operator
+  * expressions and subqueries are then optimized
+  * the query plan will no longer have a user-defined function operator
+- [requirements](https://learn.microsoft.com/en-us/sql/relational-databases/user-defined-functions/scalar-udf-inlining#requirements)
+  * UDF can only contain a single `RETURN` statement
+  * UDF does not invoke any intrinsic function that is either time-dependent
+    (such as `GETDATE()`) or has side effects (such as `NEWSEQUENTIALID()`)
+  * UDF does not reference table variables or table-valued parameters
+  * UDF doesn't reference a scalar UDF call in its `GROUP BY` clause.
+  * the query invoking a scalar UDF in its select list with `DISTINCT` clause
+    does not have `ORDER BY` clause
+  * UDF is not used in `ORDER BY` clause
+  * UDF is not used in a computed column
+  * UDF does not reference user-defined types
+  * UDF does not contain references to Common Table Expressions (CTEs)
+  * UDF does not reference built-in views (such as `OBJECT_ID`)
+  * UDF does not reference XML methods
+  * UDF does not contain a `SELECT` with `ORDER BY` without a `TOP 1` clause
+  * UDF does not reference the `STRING_AGG` function
+
