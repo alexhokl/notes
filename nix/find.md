@@ -97,3 +97,17 @@ To look for files modified more than 24 hours
 ```sh
 find . -type f -mtime +1
 ```
+
+##### To replace CRLF (Windows) line-endings with LF (Unix)
+
+On Mac,
+
+```sh
+find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;
+```
+
+Or on linux,
+
+```sh
+find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
+```
