@@ -16,10 +16,8 @@
   * [Users](#users)
   * [Disks](#disks)
   * [Hardware](#hardware)
-  * [Directories](#directories)
   * [Power](#power)
   * [Wifi](#wifi)
-  * [Encrypted drive](#encrypted-drive)
   * [Locales](#locales)
   * [Printing](#printing)
   * [Images](#images)
@@ -345,20 +343,6 @@ first by `sudo mdadm --stop /dev/md1` and then re-assemble the array by
 lspci -vnn
 ```
 
-### Directories
-
-##### To create a temporary directory
-
-```sh
-mktemp
-```
-
-or to save the directory path to a variable as well,
-
-```sh
-TEMP_DIR=$(mktemp)
-```
-
 ### Power
 
 ##### To disable suspend and hibernation
@@ -387,76 +371,6 @@ To generate configuration for login
 
 ```sh
 wpa_passphrase your-ssid your-strong-password
-```
-
-### Encrypted drive
-
-##### To mount an encrypted drive
-
-```sh
-sudo mkdir /mnt/encrypted-storage
-sudo cryptsetup luksOpen /dev/sda1 secret
-sudo mount /dev/mapper/secret /mnt/encrypted-storage
-```
-
-or
-
-```sh
-lsblk
-sudo cryptsetup luksOpen /dev/sda3 old_hdd
-sudo vgdisplay --short
-sudo lvs -o lv_name,lv_size -S vg_name=debian-iMac-vg
-sudo lvchange -ay debian-iMac-vg/root
-mkdir old-hdd
-sudo mount /dev/debian-iMac-vg/root ~/old-hdd
-```
-
-##### To unmount an encrypted drive
-
-```sh
-sudo umount /mnt/encrypted-storage/
-sudo cryptsetup luksClose secret
-```
-
-or
-
-```sh
-sudo umount /dev/debian-iMac-vg/root
-sudo lvchange -an debian-iMac-vg/root
-sudo cryptsetup luksClose encrypted_device
-```
-
-##### To create an encrypted partition
-
-```sh
-sudo dd if=/dev/urandom of=/dev/sda bs=4M status=progress
-sudo fdisk /dev/sda # erase and create a partition
-sudo cryptsetup luksFormat /dev/sda
-sudo cryptsetup luksOpen /dev/sda1 secret
-sudo mkfs.ext2 /dev/mapper/secret -L your-label
-```
-
-Note that file system could be other than `ext2`.
-`secret` is a mapping name.
-
-##### To change CRLF (Windows) line-endings to LF (Unix)
-
-On Mac,
-
-```sh
-find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;
-```
-
-Or on linux,
-
-```sh
-find . -type f -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'
-```
-
-##### To reload Nginx in a container
-
-```sh
-nginx -s reload
 ```
 
 ### Locales
