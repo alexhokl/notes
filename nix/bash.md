@@ -14,10 +14,9 @@
 - [Recipes](#recipes)
   * [Versions](#versions)
   * [Users](#users)
-  * [Disks](#disks)
   * [Hardware](#hardware)
   * [Power](#power)
-  * [Wifi](#wifi)
+  * [WiFi](#wifi)
   * [Locales](#locales)
   * [Printing](#printing)
   * [Images](#images)
@@ -282,7 +281,7 @@ sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 ```
 
-### Wifi
+### WiFi
 
 ##### wpa_passphrase
 
