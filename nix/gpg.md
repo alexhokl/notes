@@ -204,6 +204,8 @@ and it should return something like `$HOME/.gnupg`.
 ### Links
 
 - [drduh/Yubikey-Guide](https://github.com/drduh/YubiKey-Guide)
+- [Compatible devices / Troubleshooting Issues with
+  GPG](https://support.yubico.com/hc/en-us/articles/360013714479-Troubleshooting-Issues-with-GPG)
 
 ### Master key
 
