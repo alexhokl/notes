@@ -37,6 +37,7 @@
     + [.crl (Certificate revocation list)](#crl-certificate-revocation-list)
 - [RBAC](#rbac)
 - [Front-end](#front-end)
+- [FIDO](#fido)
 ____
 
 # Sign-up and Sign-in
@@ -612,3 +613,8 @@ House](https://twitter.com/housecor/status/1558845973018906624)
 - Declare content security policy (CSP) to prevent XSS
 - Regen cookies when user auths (prevent session fixation)
 - Set short cookie lifetime
+
+# FIDO
+
+- [FIDO Promises a Life Without
+  Passwords](https://www.youtube.com/watch?v=lRFeuSH9t44(
