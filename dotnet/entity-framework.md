@@ -63,6 +63,12 @@ ____
 
 ## Links
 
+- [Breaking changes in EF Core 7.0
+  (EF7)](https://learn.microsoft.com/en-gb/ef/core/what-is-new/ef-core-7.0/breaking-changes)
+- [Breaking changes in EF Core
+  8 (EF8)](https://learn.microsoft.com/en-gb/ef/core/what-is-new/ef-core-8.0/breaking-changes)
+- [What's New in EF Core
+  8](https://learn.microsoft.com/en-gb/ef/core/what-is-new/ef-core-8.0/whatsnew)
 - [Compare EF Core & EF6](https://docs.microsoft.com/en-us/ef/efcore-and-ef6/)
 - [Logging - EF Core](https://docs.microsoft.com/en-us/ef/core/miscellaneous/logging)
 - [Common LINQ mistakes](https://github.com/SanderSade/common-linq-mistakes/blob/master/readme.md)
