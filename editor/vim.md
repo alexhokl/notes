@@ -131,6 +131,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>A</kbd> to swap the current function/method arguments with
   the previous
 - <kbd>y</kbd><kbd>y</kbd> to copy the current line
+- `:%y` to copy all lines of the current buffer
 - <kbd>c</kbd><kbd>2</kbd><kbd>i</kbd><kbd>(</kbd> to change all words in the
   outer brackets. `a(b(c))` &rarr; `a()`
 - <kbd>J</kbd> to append a space and move and append content of the next line to
