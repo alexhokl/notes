@@ -30,6 +30,7 @@
   * [Debugging](#debugging)
   * [Snippets](#snippets)
   * [vimrc](#vimrc)
+  * [Database](#database)
   * [Help pages](#help-pages)
   * [Starting vim](#starting-vim)
 - [Scripting](#scripting-1)
@@ -650,6 +651,14 @@ Configuration is probably not required due to the use of plugin
 - `:e $MYVIMRC` to open `vimrc` in the current buffer
 - `:so $MYVIMRC` to reload `vimrc`
 - `:so %` to reload the current file into vim configuration
+
+### Database
+
+- `:DBUI` to manage database connections
+- `:DBUIAddConnection` to add a database connection
+- by default, connection configurations are stored in
+  `~/.local/share/db_ui/connections.json`
+- to start running a query, save the query in a file with extension `.sql`
 
 ### Help pages
 
