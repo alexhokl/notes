@@ -5,6 +5,7 @@
   * [Configuration](#configuration)
 - [Yubikey](#yubikey)
     + [Links](#links)
+    + [PINs](#pins)
     + [Master key](#master-key)
     + [Key management](#key-management-1)
     + [GPG Agent Forwarding](#gpg-agent-forwarding)
@@ -206,6 +207,23 @@ and it should return something like `$HOME/.gnupg`.
 - [drduh/Yubikey-Guide](https://github.com/drduh/YubiKey-Guide)
 - [Compatible devices / Troubleshooting Issues with
   GPG](https://support.yubico.com/hc/en-us/articles/360013714479-Troubleshooting-Issues-with-GPG)
+
+### PINs
+
+The GPG interface is separate from other modules on a Yubikey such as the PIV
+interface. The GPG interface has its own PIN, Admin PIN, and Reset Code.
+
+Unblocking PIN, changing reset code, changing admin PIN should be available with
+the following steps.
+
+```sh
+> gpg --card-edit
+> admin
+> passwd
+```
+
+Reference: [Change PIN in
+drduh/Yubikey-Guide](https://github.com/drduh/YubiKey-Guide?tab=readme-ov-file#change-pin)
 
 ### Master key
 
