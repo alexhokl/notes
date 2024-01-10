@@ -35,6 +35,7 @@ ____
 - [Virtual private services with
   tsnet](https://tailscale.com/blog/tsnet-virtual-private-services/)
 - [Integrations](https://tailscale.com/integrations/)
+- [Kubernetes Operator](https://tailscale.com/kb/1236/kubernetes-operator)
 
 ## NAS
 
