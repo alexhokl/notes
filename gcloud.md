@@ -56,6 +56,12 @@ credentials with a project (which can be billed against)
 gcloud auth application-default set-quota-project your_project_name
 ```
 
+##### To impersonate a service account
+
+```sh
+gcloud auth application-default login --impersonate-service-account your-service-account@your-project.iam.gserviceaccount.com
+```
+
 ##### To list existing logins
 
 ```sh
