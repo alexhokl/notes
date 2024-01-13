@@ -864,3 +864,5 @@ A comment with any of the following keywords:
 ## Links
 
 - [GitHub Blog](https://github.blog/)
+- [Set up your YubiKey for Git signing with
+  FIDO2](https://www.youtube.com/watch?v=2M2vKQwbCDk)
