@@ -219,10 +219,12 @@ Reference: [Handling Concurrency Conflicts](https://docs.microsoft.com/en-us/ef/
 
 EF Core implements optimistic concurrency control, meaning that it will let
 multiple processes or users make changes independently without the overhead of
-synchronization or locking. In the ideal situation, these changes will not
-interfere with each other and therefore will be able to succeed. In the worst
-case scenario, two or more processes will attempt to make conflicting changes,
-and only one of them should succeed.
+synchronization or locking. For instance, if process `A` updates column `1` and
+process `B` updates column `2`, both process can update at the same time as EF
+generates `UPDATE` statements only with the relevant columns. In the ideal
+situation, these changes will not interfere with each other and therefore will
+be able to succeed. In the worst case scenario, two or more processes will
+attempt to make conflicting changes, and only one of them should succeed.
 
 Properties configured as concurrency tokens are used to implement optimistic
 concurrency control: whenever an update or delete operation is performed during
@@ -237,13 +239,14 @@ against the original value read by EF Core.
 Database providers are responsible for implementing the comparison of
 concurrency token values.
 
-Resolving concurrency conflicts is possible with methods and properties
-available in `DbUpdateConcurrencyException` (see reference above).
+#### Application-managed concurrency tokens
 
 To mark a property as concurrency token
 
 - apply attribute `[ConcurrencyCheck]`, or
 - `modelBuilder.Entity<TEntity>().Property(b => b.YourPropertyName).IsConcurrencyToken()`
+
+#### Native database-generated concurrency tokens
 
 Timestamp property is also considered as concurrency token. To make a property
 as timestamp
@@ -252,7 +255,31 @@ as timestamp
 - `modelBuilder.Entity<TEntity>().Property(b => b.YourPropertyName).IsRowVersion()`
 
 Note that the implementation of timestamp depends on the underlying data
-provider.
+provider. For instance, timestamp maps to SQL Server `rowversion`.
+
+Since it is database-native, it is preferred over application-managed
+concurrency tokens in most cases. The exception is one wants to control
+precisely when it gets regenerated, to avoid needless concurrency conflicts.
+
+#### Conflict resolution
+
+Resolving concurrency conflicts is possible with methods and properties
+available in `DbUpdateConcurrencyException` (see reference above).
+
+One naive (but effective) way to handle `DbUpdateConcurrencyException` is to put
+the code to read database and to update database in a loop. Whenever there is
+a `DbUpdateConcurrencyException`, the loop will be re-run until it can be
+completed successfully. The tricky thing to be aware of is that the
+`DataContext` has to be clean when starting each loop.
+`DataContext.ChangeTracker.Clear()` can help ensuring a clean state before
+reading from database again.
+
+To avoid EF using optimistic concurrency control, one can make the state of an
+entity as modified before applying `SaveChanges()`.
+
+```csharp
+context.Entry(product).State = EntityState.Modified;
+```
 
 ### Shadow properties
 
