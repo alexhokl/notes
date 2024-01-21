@@ -25,6 +25,7 @@ ____
 - immutable data
 - ordered data
 - replayable
+- it has better resilience than Redis Pub/Sub
 
 ## Tips
 
