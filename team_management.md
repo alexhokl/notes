@@ -5,6 +5,7 @@
 - [Planning](#planning)
 - [Recruitment](#recruitment)
 - [Meetings](#meetings)
+- [Time management](#time-management)
 ____
 
 ### Managing a junior team
@@ -320,7 +321,14 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 
 - the decision should not be based on intuition as even experienced interviewer
   could get it wrong; thus, a more objective methods should be used
+  * quick intuition about a person is bad (a slow one is okay); 2-3 minutes get
+    an impression (intuition) and the rest of the interview is about confirming
+    the impression
+  * find 6 exclusive metrics or characteristics that are important to the job
+    + ask questions so that interviewer can grade the candidate for the
+      6 metrics or characteristics
 - writing things down is an important attribute/skill with higher management
+  recruitments
 
 ### Meetings
 
@@ -342,3 +350,9 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
       missing
 - dis-associate idea from the people who suggests it
   * list out the ideas without people's name
+
+### Time management
+
+- managers can start practising concentration periods of 20 minutes and continue
+  to lengthen the time once getting used to the concentration period
+
