@@ -38,6 +38,19 @@
 - [RBAC](#rbac)
 - [Front-end](#front-end)
 - [FIDO](#fido)
+- [Architecture](#architecture)
+  * [principles](#principles)
+  * [anti-patterns](#anti-patterns)
+  * [fundamentals](#fundamentals)
+  * [frameworks](#frameworks)
+  * [domains](#domains)
+    + [identity access management (IAM)](#identity-access-management-iam)
+    + [endpoints (client devices)](#endpoints-client-devices)
+    + [networks](#networks)
+    + [applications](#applications)
+    + [data](#data)
+  * [detection](#detection)
+  * [response](#response)
 ____
 
 # Sign-up and Sign-in
@@ -617,4 +630,191 @@ House](https://twitter.com/housecor/status/1558845973018906624)
 # FIDO
 
 - [FIDO Promises a Life Without
-  Passwords](https://www.youtube.com/watch?v=lRFeuSH9t44(
+  Passwords](https://www.youtube.com/watch?v=lRFeuSH9t44)
+
+# Architecture
+
+Reference: [Cybersecurity Architecture from IBM
+Technology](https://www.youtube.com/playlist?list=PLOspHqNVtKADkWLFt9OcziQF7EatuANSY)
+
+## principles
+
+- [defence in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
+- [principle of least
+  privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
+  * privilege granted for only during the time required
+- separation of duties
+  * separation of worker and approver
+- secure by design (security is considered at all points of SDLC)
+- KISS Keep it simple and stupid
+  * one bad example is complicated password rules
+
+## anti-patterns
+
+- secure by obscurity (secret or closed source algorithms)
+  * the opposite is [Kerckhoff's
+    prinicple](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+
+## fundamentals
+
+- confidentiality
+  * access control
+    + authentication
+    + authorization
+  * encryption
+- integrity
+  * immutable logs
+    + hash of log lines
+  * immutable messages
+- availablility
+  * denial of service attacks
+
+## frameworks
+
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+  * [quick start
+    guide](https://www.nist.gov/cyberframework/getting-started/quick-start-guide)
+
+## domains
+
+### identity access management (IAM)
+
+- administration
+- authentication
+  * something you know
+  * something you have
+  * something you are
+- authorization
+  * for highly privileged user such as system admin or database admin,
+    [PAM](https://en.wikipedia.org/wiki/Pluggable_authentication_module) can be
+    introduced to rotation of highly privileged credentials
+- audit
+
+### endpoints (client devices)
+
+- controls
+  * inventory
+    + hardware
+    + software versions
+  * security policy
+  * patching
+  * encryption
+  * remote wipe
+  * location tracking
+  * anti-virius / endpoint detection and response
+  * disposal
+
+### networks
+
+- firewall
+  * packet filtering (header filtering)
+  * stateful packet inspection (payload filtering)
+  * proxy
+  * network address translation
+- segmentation
+  * bastion before a firewall
+  * tri-homed (usually found in router at home)
+    + cheap
+    + easy to scale
+    + single point of failure
+  * basic DMZ
+    + a set of servers between two firewall of either side
+      + one side is internet; internal network on another
+    + defence in depth
+    + scalable
+    + higher cost
+    + higher complexity
+  * multi-tiered DMZ
+    + firewall before application (non-web server)
+    + firewall before database
+    + higher granularity
+    + even better defence in depth
+- VPN
+  * application-specific
+    + higher granularity
+    + better control
+  * network-based
+    + simpler to implement
+- secure access service edge (SASE)
+
+### applications
+
+- SDLC
+  * linear
+  * siloed
+  * inflexible
+  * DevOps practices makes the feedback loop in SDLC smaller
+  * DevSecOps introduces security practices in all aspects of DevOps
+- secure coding
+  * coding practices
+    + [owasp.org](https://owasp.org/)
+  * trusted libraries
+  * standard architecture
+  * mistakes to avoid
+    + [owasp top 10](https://owasp.org/www-project-top-ten/)
+  * software build of material (to understand what is being used)
+    + components
+    + libraries
+    + dependencies
+    + versions
+    + origins
+    + vulnerbilities
+- vulnerbility testing
+  * static application security testing
+    + white box apporach
+    + source code scanning
+    + finding vulnerbilities earlier
+  * dynamic application security testing
+    + black box approach
+    + scanning a running application
+    + finding vulnerbilities later
+
+### data
+
+- governance
+  * policy (end goals)
+  * classification of data
+  * catalog (location of data)
+  * resilience
+- discovery
+  * database
+  * files
+  * network
+  * data loss protection (DLP)
+- protection
+  * encryption at rest
+  * encryption in motion
+  * key management
+  * access control
+  * backup
+- compliance
+  * report
+  * retain necessary data for a necessary period
+- detection
+  * monitoring
+  * user behaviour analytics (abnormal behaviour detection)
+  * alerts
+- response
+  * case creation
+  * dynamic playbook
+  * automation of responses
+  * orchestration of responses (needed before automation can be done)
+
+## detection
+
+- security information and event management (SIEM)
+  * monitor
+  * analyse
+  * report
+  * threat hunting (or attack detection)
+    + results in early detection
+- external detection response (XDR)
+  * software is install on endpoint (client device)
+
+## response
+
+- incident response
+  * more traditional
+  * triage
+  * remediate
+- security orchestration automation and response (SOAR)
