@@ -25,6 +25,8 @@
   * [Empty interface and pointer](#empty-interface-and-pointer)
   * [Anonymous interface and dynamic function checking](#anonymous-interface-and-dynamic-function-checking)
   * [Pointers and types](#pointers-and-types)
+  * [Array, slice, reference and range](#array-slice-reference-and-range)
+  * [Maps and pointers](#maps-and-pointers)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [errgroup](#errgroup)
@@ -37,7 +39,6 @@
   * [Printf](#printf)
   * [Embed](#embed)
   * [Module](#module)
-  * [Array, slice, reference and range](#array-slice-reference-and-range)
   * [Unix socket](#unix-socket)
   * [PostgreSQL](#postgresql)
   * [Testing](#testing-1)
@@ -591,6 +592,135 @@ io.discard
 
 Note that `any` is an alias to `interface{}` (since Go 1.18).
 
+### Array, slice, reference and range
+
+Reference: [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
+
+Declarations of array and slice are different.
+
+```go
+array := [3]int{1,2,3}
+anotherArray := [...]int{1,2,3}
+slice := []int{1,2,3}
+anotherSlice := make([]int)
+```
+
+Array is a value type while slice is a reference type.
+
+```go
+s1 := []int{20}
+s2 := s1
+s2[0] = 60
+
+if s1[0] != 60 {
+  panic("")
+}
+
+a1 := [...]int{20}
+a2 := a1
+a2[0] = 60
+
+if a1[0] != 20 {
+  panic("")
+}
+
+fmt.Println("No panics")
+```
+
+Length and capacity of a slice
+
+```go
+len(slice)
+cap(slice)
+```
+
+Note that capacity is the number of elements in the underlying array but
+counting from the beginning position of the slice. A slice cannot be grown
+beyond its capacity. Attempting to do so will cause a runtime panic.
+
+For reference,
+[slice](https://github.com/golang/go/blob/master/src/runtime/slice.go#L15) is
+defined as
+
+```go
+type slice struct {
+    array unsafe.Pointer
+    len int
+    cap int
+}
+```
+
+Function `append()` may or may not create a new copy of an array (which the
+specified slice is referring to) depending on the capacity of the slice
+specified. If the slice has enough capacity, no new array will be created;
+created, otherwise. Thus, if we know the size we needed beforehand, it is
+important to use `make(slice, beginIndex, size)` to ensure enough memory is
+allocated.
+
+Create a slice of `[]*Item` from array of `Item`
+
+```go
+var slice []*TodoItem
+for i := range array {
+  slice = append(slice, &array[i])
+}
+```
+
+Note that the following does not work as value from `range` is a copied value
+not a reference.
+
+```go
+var slice []*TodoItem
+for _, v := range array {
+  slice = append(slice, &v)
+}
+```
+
+There are times that copy should be considered to allow release of large block
+of memory sooner. If `Find` in the following example does not copy but simply
+return a slice, the returned slice would keep a reference to the original byte
+array which could hold a large file.
+
+```go
+var digitRegexp = regexp.MustCompile("[0-9]+")
+
+func FindDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    return digitRegexp.Find(b)
+}
+
+func FindAndCopyDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    b = digitRegexp.Find(b)
+    c := make([]byte, len(b))
+    copy(c, b)
+    return c
+}
+```
+
+#### Initialisation of object being applied range
+
+```go
+fib := []int{0, 1}
+for i, f1 := range fib {
+  f2 := fib[i+1]
+  fib = append(fib, f1+f2)
+  if f1+f2 > 100 {
+    break
+  }
+}
+fmt.Println(fib)
+```
+
+The following code does not produce a Fibonacci sequence just over 100 but `[0
+1 1 2]` instead. It is due to `fib` was of size `2` at the time `range` was
+applied. It implies `i` would never reach `2` although `fib` array does expand
+properly to size of `4` by the end of the algorithm.
+
+### Maps and pointers
+
+`map` is a reference object to the underlying `hmap` hash map object.
+
 ### sync.WaitGroup
 
 ```go
@@ -884,112 +1014,6 @@ require (
 
 replace github.com/acme/bar => /path/to/local/bar
 ```
-
-### Array, slice, reference and range
-
-Reference: [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
-
-Declarations of array and slice are different.
-
-```go
-array := [3]int{1,2,3}
-anotherArray := [...]int{1,2,3}
-slice := []int{1,2,3}
-anotherSlice := make([]int)
-```
-
-Array is a value type while slice is a reference type.
-
-```go
-s1 := []int{20}
-s2 := s1
-s2[0] = 60
-
-if s1[0] != 60 {
-  panic("")
-}
-
-a1 := [...]int{20}
-a2 := a1
-a2[0] = 60
-
-if a1[0] != 20 {
-  panic("")
-}
-
-fmt.Println("No panics")
-```
-
-Length and capacity of a slice
-
-```go
-len(slice)
-cap(slice)
-```
-
-Note that capacity is the number of elements in the underlying array but
-counting from the beginning position of the slice. A slice cannot be grown
-beyond its capacity. Attempting to do so will cause a runtime panic.
-
-Create a slice of `[]*Item` from array of `Item`
-
-```go
-var slice []*TodoItem
-for i := range array {
-  slice = append(slice, &array[i])
-}
-```
-
-Note that the following does not work as value from `range` is a copied value
-not a reference.
-
-```go
-var slice []*TodoItem
-for _, v := range array {
-  slice = append(slice, &v)
-}
-```
-
-There are times that copy should be considered to allow release of large block
-of memory sooner. If `Find` in the following example does not copy but simply
-return a slice, the returned slice would keep a reference to the original byte
-array which could hold a large file.
-
-```go
-var digitRegexp = regexp.MustCompile("[0-9]+")
-
-func FindDigits(filename string) []byte {
-    b, _ := ioutil.ReadFile(filename)
-    return digitRegexp.Find(b)
-}
-
-func FindAndCopyDigits(filename string) []byte {
-    b, _ := ioutil.ReadFile(filename)
-    b = digitRegexp.Find(b)
-    c := make([]byte, len(b))
-    copy(c, b)
-    return c
-}
-```
-
-#### Initialisation of object being applied range
-
-```go
-fib := []int{0, 1}
-for i, f1 := range fib {
-  f2 := fib[i+1]
-  fib = append(fib, f1+f2)
-  if f1+f2 > 100 {
-    break
-  }
-}
-fmt.Println(fib)
-```
-
-The following code does not produce a Fibonacci sequence just over 100 but `[0
-1 1 2]` instead. It is due to `fib` was of size `2` at the time `range` was
-applied. It implies `i` would never reach `2` although `fib` array does expand
-properly to size of `4` by the end of the algorithm.
 
 ### Unix socket
 
