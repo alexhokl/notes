@@ -73,13 +73,19 @@ ____
 
 ### Porting
 
--   [GitHub issues: port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
--   [Porting to .NET Core from .NET Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
--   [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by running `.\apiport.exe analyze -f C:\work\solution\project\bin\ `)
--   [Can I port my application to .NET Core?](https://icanhasdot.net/)
--   [PackageSeach](http://packagesearch.azurewebsites.net/)
--   [Multi-Targeting and Porting a .NET Library to .NET Core 2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
--   [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on Cross-Platform Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
+- [GitHub issues:
+  port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
+- [Porting to .NET Core from .NET
+  Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
+- [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by
+  running `.\apiport.exe analyze -f C:\work\solution\project\bin\ `)
+- [Can I port my application to .NET Core?](https://icanhasdot.net/)
+- [PackageSeach](http://packagesearch.azurewebsites.net/)
+- [Multi-Targeting and Porting a .NET Library to .NET Core
+  2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
+- [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on
+  Cross-Platform
+  Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
 
 ### Upgrade
 
