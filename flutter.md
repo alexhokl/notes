@@ -1,6 +1,10 @@
 - [Links](#links)
 - [Libraries](#libraries)
+- [Files](#files)
 - [Commands](#commands)
+  * [Setup](#setup)
+  * [Packges](#packges)
+  * [Build and run](#build-and-run)
 ____
 
 ## Links
