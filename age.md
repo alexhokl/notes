@@ -1,5 +1,9 @@
 - [Installations](#installations)
 - [Commands](#commands)
+  * [Key generation](#key-generation)
+    + [Without Yubikey](#without-yubikey)
+    + [With Yubikey](#with-yubikey)
+  * [Operations](#operations)
 ____
 
 # Installations
