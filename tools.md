@@ -1,10 +1,32 @@
 - [Offline Tools](#offline-tools)
 - [Online Tools](#online-tools)
   * [APIs](#apis)
-  * [Services](#services)
-  * [Online meeting](#online-meeting)
+  * [App builder](#app-builder)
+  * [CLI](#cli)
+  * [Cron](#cron)
+  * [Cryptography](#cryptography)
   * [Data](#data)
+  * [Domain](#domain)
+  * [Go](#go)
   * [Hardware](#hardware)
+  * [Job search](#job-search)
+  * [JSON](#json)
+  * [Location](#location)
+  * [Online meeting](#online-meeting)
+  * [Open source](#open-source)
+  * [Privacy](#privacy)
+  * [Regular expression](#regular-expression)
+  * [Security](#security)
+  * [Services](#services)
+  * [Shopping](#shopping)
+  * [SLA](#sla)
+  * [Source control](#source-control)
+  * [Spreadsheet](#spreadsheet)
+  * [SQL](#sql)
+  * [Syntax highlight](#syntax-highlight)
+  * [Unicode](#unicode)
+  * [Web development](#web-development)
+  * [Others](#others)
 ____
 
 ## Offline Tools
@@ -49,52 +71,65 @@ ____
 
 ## Online Tools
 
-- [Carbon](https://carbon.now.sh) for sharing code to show on web pages
-- [gopherize](https://gopherize.me) for generating Gophers
-- [crontab.guru](https://crontab.guru/) for testing cron expressions
-- [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
-- [Website Test behind the Great Firewall of China](https://www.websitepulse.com/tools/china-firewall-test)
-- [myregextester](https://myregextester.com/index.php) A regular expression tester
-- [cmd.io](https://cmd.io)
-- [Pwned Passwords](https://haveibeenpwned.com/Passwords)
+### APIs
+
+- [Dark Sky API](https://darksky.net/dev) The easiest, most advanced, weather API on the web.
+- [OpenWeatherWeb](http://openweathermap.org/API)
+- [Nokia Health API](https://developer.health.nokia.com/api)
+- [Resend](https://resend.com/) - sending emails via API
+
+### App builder
+
 - [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
     without code
-- [domain check from zeit](https://zeit.co/domains)
-- [Git History](https://github.com/pomber/git-history) - browse to a file on
-    GitHub and replace `https://github.com` with `https://github.githistory.xyz`
-- [Amazon - My library](https://www.amazon.com/mycd)
-- [Hong Kong Job advertisement search](http://david.co/job.php)
-- [IcoMoon](https://icomoon.io/)
-- [opencontainers/artwork](https://github.com/opencontainers/artwork)
-- [JSON Schema Validator](https://www.jsonschemavalidator.net/) - from
-  Newtonsoft
-- [table-magic](https://stevecat.net/table-magic/) - converts between CSV/TSV,
-  markdown, SQL and HTML
-- [quicktype](https://app.quicktype.io/) - generate code of various languages
-  from JSON data.
-- [crt.sh](https://crt.sh/) - list of issued Let's Encrypt
-  certificates
-- [SLA & Uptime calculator](https://uptime.is/)
-- [Blacklight](https://themarkup.org/blacklight) - a real-time website privacy
-  inspector
+
+### CLI
+
 - [command-not-found.com](https://command-not-found.com/) - shows how to install
   a command in different operating systems
-- [Security Headers](https://securityheaders.com/) - providing security report
-  of headers of a site
-- [InAppBrowser.com](https://inappbrowser.com/) by Felix Krause - See
-  [Usage](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser).
-  Open the website within the iOS app to be checked. For example, to check
-  Instagram, send a direct message with the link to the website to the app and
-  open the link in the app.
 - [explainshell.com](https://explainshell.com/) - explain shell commands and its
   options
-- [GitHub user public keys](https://github.com/alexhokl.keys)
-- [What Unicode character is
-  this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
-- [Unicode Text Analyzer](https://www.fontspace.com/unicode/analyzer)
+
+### Cron
+
+- [crontab.guru](https://crontab.guru/) for testing cron expressions
+
+### Cryptography
+
 - [CBOR playground](https://cbor.me/)
-- [First Timers Only](https://www.firsttimersonly.com/) - clues for contributing
-  to open source
+- [GitHub user public keys](https://github.com/alexhokl.keys)
+
+### Data
+
+- [g0vhk.io](https://g0vhk.io)
+
+### Domain
+
+- [domain check from zeit](https://zeit.co/domains)
+- [crt.sh](https://crt.sh/) - list of issued Let's Encrypt
+  certificates
+
+### Go
+
+- [gopherize](https://gopherize.me) for generating Gophers
+
+### Hardware
+
+- [Apple Support - Check support coverage](https://checkcoverage.apple.com/ie/en/)
+
+### Job search
+
+- [Hong Kong Job advertisement search](http://david.co/job.php)
+
+### JSON
+
+- [JSON Schema Validator](https://www.jsonschemavalidator.net/) - from
+  Newtonsoft
+- [quicktype](https://app.quicktype.io/) - generate code of various languages
+  from JSON data.
+
+### Location
+
 - [ip2location.io](https://www.ip2location.io/) - finding location using an IP
   address
 - [Bellingcat OpenStreetMap search](https://osm-search.bellingcat.com/) - search
@@ -126,12 +161,38 @@ ____
       from the viewpoint in kilometres
   * Peakvisor OPen Source Investigation (POPSI) project is involved
 
-### APIs
+### Online meeting
 
-- [Dark Sky API](https://darksky.net/dev) The easiest, most advanced, weather API on the web.
-- [OpenWeatherWeb](http://openweathermap.org/API)
-- [Nokia Health API](https://developer.health.nokia.com/api)
-- [Resend](https://resend.com/) - sending emails via API
+- [Jitsi Meet](https://meet.jit.si/)
+- [pop](https://pop.com/) - screen sharing, multiplayer control, crystal-clear
+  voice and high-quality video. Perfect for pair programming
+  * multiplayer screen sharing — where everyone controls the screen together
+    with their own mouse and keyboard
+
+### Open source
+
+- [First Timers Only](https://www.firsttimersonly.com/) - clues for contributing
+  to open source
+
+### Privacy
+
+- [Blacklight](https://themarkup.org/blacklight) - a real-time website privacy
+  inspector
+
+### Regular expression
+
+- [myregextester](https://myregextester.com/index.php) A regular expression tester
+
+### Security
+
+- [Pwned Passwords](https://haveibeenpwned.com/Passwords)
+- [Security Headers](https://securityheaders.com/) - providing security report
+  of headers of a site
+- [InAppBrowser.com](https://inappbrowser.com/) by Felix Krause - See
+  [Usage](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser).
+  Open the website within the iOS app to be checked. For example, to check
+  Instagram, send a direct message with the link to the website to the app and
+  open the link in the app.
 
 ### Services
 
@@ -153,18 +214,44 @@ ____
 - [Codecov](https://about.codecov.io/) - code coverage reporting
 - [TestRail](https://www.testrail.com/)
 
-### Online meeting
+### Shopping
 
-- [Jitsi Meet](https://meet.jit.si/)
-- [pop](https://pop.com/) - screen sharing, multiplayer control, crystal-clear
-  voice and high-quality video. Perfect for pair programming
-  * multiplayer screen sharing — where everyone controls the screen together
-    with their own mouse and keyboard
+- [Amazon - My library](https://www.amazon.com/mycd)
 
-### Data
+### SLA
 
-- [g0vhk.io](https://g0vhk.io)
+- [SLA & Uptime calculator](https://uptime.is/)
 
-### Hardware
+### Source control
 
-- [Apple Support - Check support coverage](https://checkcoverage.apple.com/ie/en/)
+- [Git History](https://github.com/pomber/git-history) - browse to a file on
+    GitHub and replace `https://github.com` with `https://github.githistory.xyz`
+
+### Spreadsheet
+
+- [table-magic](https://stevecat.net/table-magic/) - converts between CSV/TSV,
+  markdown, SQL and HTML
+
+### SQL
+
+- [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
+
+### Syntax highlight
+
+- [Carbon](https://carbon.now.sh) for sharing code to show on web pages
+
+### Unicode
+
+- [What Unicode character is
+  this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
+- [Unicode Text Analyzer](https://www.fontspace.com/unicode/analyzer)
+
+### Web development
+
+- [IcoMoon](https://icomoon.io/)
+- [opencontainers/artwork](https://github.com/opencontainers/artwork)
+
+### Others
+
+- [Website Test behind the Great Firewall of China](https://www.websitepulse.com/tools/china-firewall-test)
+
