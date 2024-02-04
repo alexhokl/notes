@@ -42,7 +42,6 @@ ____
     trust technologies
     ([intro](https://smallstep.com/blog/zero-trust-swiss-army-knife.html))
 - [peek](https://github.com/phw/peek) - an animated GIF recorder
-- [google/git-appraise](https://github.com/google/git-appraise) - a command line tool for performing code reviews on git repositories
 - [HTTP Prompt](http://http-prompt.com/)
 - [httpstat](https://github.com/davecheney/httpstat) - visualizes `curl` statistics in a way of beauty and clarity
 - [bed](https://github.com/itchyny/bed) - a binary editor written in Go
@@ -58,8 +57,6 @@ ____
   markdown to presentation
 - [httpmole](https://github.com/jcchavezs/httpmole) - a CLI tool to mock
   response of an endpoint or proxy an endpoint
-- [gitleaks](https://github.com/zricethezav/gitleaks) - a CLI tool to check if
-  there is credential in any git commits
 - [AutoCannon](https://github.com/mcollina/autocannon) - a CLI tool to benchmark
   APIs
 - [dnsee](https://github.com/bschaatsbergen/dnsee) - a CLI tool to check DNS
@@ -70,12 +67,27 @@ ____
 - [ssh-vault](https://ssh-vault.com/) - encrypt/decrypt using ssh keys
 - [input-leap](https://github.com/input-leap/input-leap) - successor of Barier
   with Wayland support
+- [bellingcat/auto-archiver](https://github.com/bellingcat/auto-archiver) - a
+  python tool to archive social media data
+  * [an example
+    configuration](https://github.com/bellingcat/auto-archiver/blob/main/example.orchestration.yaml)
+
+### git
+
+- [gitleaks](https://github.com/zricethezav/gitleaks) - a CLI tool to check if
+  there is credential in any git commits
+- [google/git-appraise](https://github.com/google/git-appraise) - a command line
+  tool for performing code reviews on git repositories
+- [bellingcat/octosuite](https://github.com/bellingcat/octosuite) - a python
+  TUI/GUI tool to pull data from GitHub by using its APIs
+  * [introduction](https://www.bellingcat.com/resources/2023/01/20/octosuite-a-new-tool-to-conduct-open-source-investigations-on-github/)
 
 ## Online Tools
 
 ### APIs
 
-- [Dark Sky API](https://darksky.net/dev) The easiest, most advanced, weather API on the web.
+- [Tomorrow.io](https://www.tomorrow.io/) - weather APIs serving personal and
+  commercial use cases
 - [OpenWeatherWeb](http://openweathermap.org/API)
 - [Nokia Health API](https://developer.health.nokia.com/api)
 - [Resend](https://resend.com/) - sending emails via API
@@ -84,6 +96,11 @@ ____
 
 - [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
     without code
+
+### Auth
+
+- [boxyhq/jackson](https://github.com/boxyhq/jackson) - a self-hosted service of
+  SAML
 
 ### CLI
 
@@ -110,6 +127,9 @@ ____
 - [domain check from zeit](https://zeit.co/domains)
 - [crt.sh](https://crt.sh/) - list of issued Let's Encrypt
   certificates
+- [mess with dns](https://messwithdns.net/) - a site for experimenting DNS setup
+- [badssl.com](https://badssl.com/) - for manual testing of security UI in web
+  clients. It provides links to check various possible errors.
 
 ### Go
 
@@ -180,6 +200,7 @@ ____
 
 - [Blacklight](https://themarkup.org/blacklight) - a real-time website privacy
   inspector
+- [Burner](https://www.burnerapp.com/) - service for a temporary phone number
 
 ### Regular expression
 
@@ -215,6 +236,7 @@ ____
 - [Linear](https://linear.app/) - issue tracking
 - [Codecov](https://about.codecov.io/) - code coverage reporting
 - [TestRail](https://www.testrail.com/)
+- [CodeSee](https://www.codesee.io/) - codebase visibility
 
 ### Shopping
 
