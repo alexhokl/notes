@@ -10,6 +10,7 @@ ____
 
 - [Writing Terraform for unsupported
   resources](https://www.hashicorp.com/blog/writing-terraform-for-unsupported-resources)
+- [OpenTofu](https://opentofu.org/)
 
 ## Commands
 
