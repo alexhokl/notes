@@ -6,6 +6,7 @@
   * [Best practices](#best-practices)
   * [`ENTRYPOINT` vs `CMD`](#entrypoint-vs-cmd)
   * [SHELL](#shell)
+  * [Dockerfile frontend](#dockerfile-frontend)
 - [Networking](#networking)
 - [Docker Compose](#docker-compose)
 - [Docker Content Trust](#docker-content-trust)
@@ -279,6 +280,19 @@ FROM image-name:$FLAVOUR AS some-label
   is about changing shells)
 - `SHELL` of Powershell
   * `["powershell", "-command"]`
+
+### Dockerfile frontend
+
+Reference: [Custom Dockerfile
+syntax](https://docs.docker.com/build/dockerfile/frontend/)
+
+Changing the frontend allows Dockerfile to use different version of syntax.
+
+The recommandation is to use the following.
+
+```dockerfile
+#syntax=docker/dockerfile:1
+```
 
 ## Networking
 
