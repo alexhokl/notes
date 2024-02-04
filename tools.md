@@ -68,6 +68,8 @@ ____
   CLI to interact with Google's DialogFlow, text-to-speech and speech-to-text
   APIs
 - [ssh-vault](https://ssh-vault.com/) - encrypt/decrypt using ssh keys
+- [input-leap](https://github.com/input-leap/input-leap) - successor of Barier
+  with Wayland support
 
 ## Online Tools
 
