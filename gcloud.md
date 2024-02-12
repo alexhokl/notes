@@ -22,6 +22,7 @@
   * [Cloud NAT](#cloud-nat)
   * [Security Command Center (SCC)](#security-command-center-scc)
   * [Duet AI](#duet-ai)
+  * [Certificate Authority Service](#certificate-authority-service)
 - [Tools](#tools)
 ____
 
@@ -1140,6 +1141,11 @@ storage service-agent`
 It is a GitHub Copilot Chat-like product where it help suggesting how BigQuery
 can be used, suggesting and explaining BigQuery queries, explaining select
 BigQuery tables.
+
+### Certificate Authority Service
+
+- CAS can be used to issue certificate for zero trust setup. Resources require
+  a certificate can ask for one using IAM credentials.
 
 ## Tools
 
