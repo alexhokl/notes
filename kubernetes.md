@@ -20,6 +20,13 @@
 - [Credential plugins](#credential-plugins)
   * [Azure](#azure)
   * [Google Cloud](#google-cloud)
+- [CLI tools](#cli-tools)
+  * [kubectl-view-allocations](#kubectl-view-allocations)
+  * [kubectl-whoami](#kubectl-whoami)
+  * [goldilocks](#goldilocks)
+  * [rbac-lookup](#rbac-lookup)
+  * [nova](#nova)
+  * [pluto](#pluto)
 - [Security (Hardening Guidance)](#security-hardening-guidance)
   * [Threat model](#threat-model)
   * [Logical components of control plane](#logical-components-of-control-plane)
@@ -860,6 +867,98 @@ or, on Windows or Mac,
 
 ```sh
 gcloud components install gke-gcloud-auth-plugin
+```
+
+## CLI tools
+
+### kubectl-view-allocations
+
+```sh
+kubectl view-allocations -r cpu -r memory -g node -n default
+```
+
+where it shows CPU and memory allocation used in namespace `default` and grouped
+by nodes.
+
+### kubectl-whoami
+
+#### To shows the accounts used to connect to kubernetes
+
+```sh
+kubectl whoami
+```
+
+#### To shows the information about user, groups and ARN
+
+```sh
+kubectl whoami --all
+```
+
+To impersonate for an operation
+
+```sh
+kubectl whoami --as someone@test.com
+```
+
+where the parameter can be a regular user or a service account in a namespace
+
+### goldilocks
+
+Assuming the [standard installation (via
+Helm)](https://goldilocks.docs.fairwinds.com/installation/) is made.
+
+Dashboard is available via port-forwarding using the following command
+
+```sh
+kubectl port-forward -n goldilocks svc/goldilocks-dashboard 8080:80
+```
+
+### rbac-lookup
+
+##### To lookup Kubernetes roles
+
+```sh
+rbac-lookup rob --output wide
+```
+
+##### To lookup Kubernetes roles filter by kind
+
+```sh
+rbac-lookup rob --output wide --kind user
+```
+
+##### To lookup Kubernetes roles and its associated GCP roles
+
+```sh
+rbac-lookup rob --gke --output wide
+```
+
+### nova
+
+##### To find the latest version of Helm charts for update
+
+```sh
+nova find --format table
+```
+
+### pluto
+
+##### To detect out-dated Kubernetes resources in YAML files in a folder
+
+```sh
+pluto detect-files -d deploy/
+```
+
+##### To detect out-dated Helm charts in the current cluster
+
+```sh
+pluto detect-helm -o wide
+```
+
+##### To detect out-dated Kubernetes resources in the current cluster
+
+```sh
+pluto detect-api-resources -o wide
 ```
 
 ## Security (Hardening Guidance)
