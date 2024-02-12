@@ -208,6 +208,41 @@ Commands can be used include
 Note that one can check for the architecture in the reference above when using
 it on Linux Alpine.
 
+##### dotnet-trace
+
+The tool is available on machines with .NET SDK.
+
+For linux machine only has .NET runtime, it can be installed by
+
+```sh
+curl -L https://aks.ms/dotnet-trace/linux-x64 -o dotnet-trace
+chmod +x dotnet-trace
+```
+
+To list processes and its PID running in .NET runtime
+
+```sh
+dotnet-trace ps
+```
+
+To collect events for 30 seconds
+
+```sh
+dotnet-trace collect -p $PID —duration 00:00:30
+```
+
+- the resultant trace file can be opened on any Windows machine
+  * Visual Studio
+  * `perfview`
+- profiles can be selected via command line options
+  * default profile
+    + CPU
+  * GC
+  * database (EF)
+- example use-cases
+  * it can report the top methods that uses the largest amount of CPU
+- call tree is available
+
 ### .NET CLI
 
 ##### To check the installed SDKs and runtimes
