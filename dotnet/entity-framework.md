@@ -41,6 +41,10 @@
     + [Generating migration scripts](#generating-migration-scripts)
   * [Logging](#logging)
   * [Pagination](#pagination)
+  * [Change tracking](#change-tracking)
+    + [Setting values](#setting-values)
+    + [Cloning objects](#cloning-objects)
+  * [Direct update and delete](#direct-update-and-delete)
   * [Anti-patterns](#anti-patterns)
   * [Upgrade from version 2.1](#upgrade-from-version-21)
 - [Entity Framework (Classic)](#entity-framework-classic)
@@ -273,6 +277,43 @@ completed successfully. The tricky thing to be aware of is that the
 `DataContext` has to be clean when starting each loop.
 `DataContext.ChangeTracker.Clear()` can help ensuring a clean state before
 reading from database again.
+
+One smarter way is to read the latest data from database and try to resolve the
+conflicts.
+
+```csharp
+var saved = false;
+while (!saved)
+{
+  try
+  {
+    context.SaveChanges();
+    saved = true;
+  }
+  catch(DbUpdateConcurrencyException dbEx)
+  {
+    // for each conflicting rows
+    foreach (var entry in ex.Entries)
+    {
+      if (entry is not YourType)
+      {
+        throw new NotSupportedException();
+      }
+      var userValues = entry.CurrentValues;
+      var latestDatabaseValues = entry.GetDatabaseValues();
+      foreach (var property in proposedValues.Properties)
+      {
+        var userValue = userValues[property];
+        var databaseValue = latestDatabaseValues[property];
+
+        // TODO: decide if userValue needs to be overwritten
+      }
+
+      entry.OriginalValues.SetValues(latestDatabaseValues);
+    }
+  }
+}
+```
 
 To avoid EF using optimistic concurrency control, one can make the state of an
 entity as modified before applying `SaveChanges()`.
@@ -1335,6 +1376,51 @@ var blogs =
 Library
 [mrahhal/MR.EntityFrameworkCore.KeysetPagination](https://github.com/mrahhal/MR.EntityFrameworkCore.KeysetPagination)
 can be used to allow the above keyset pagination to be defined.
+
+## Change tracking
+
+### Setting values
+
+`SetValues` can be used to set multiple values of a change tracking object.
+
+```csharp
+var existingProduct = dbContext.Products.SingleOrDefault(p => p.Name == "test");
+
+var updatedProduct = new Product{};
+
+// make some updates to updatedProduct here
+
+// updates done here
+
+dbContext.Entry(existingProduct).CurrentValues.SetValues(updatedProduct);
+```
+
+Note that dictionary can also be used for new values.
+
+### Cloning objects
+
+```csharp
+var clonedBlog = context.Entry(blog).GetDatabaseValues().ToObject();
+```
+
+## Direct update and delete
+
+Since EF7, one can directly update database without involving change tracking.
+
+```csharp
+var rowsAffected = await dbContext.Products
+    .Where(e => e.Id == updatedProduct.Id & e.RowVersion == originalProduct.RowVersion)
+    .ExecuteUpdateAsync(
+        s => s
+            .SetProperty(e => e.Name, updatedProduct.Name)
+            .SetProperty(e => e.Price, updatedProduct.Price));
+```
+
+```csharp
+var rowsAffected = await dbContext.Products
+    .Where(e => e.Id == updatedProduct.Id & e.RowVersion == originalProduct.RowVersion)
+    .ExecuteDeleteAsync();
+```
 
 ## Anti-patterns
 
