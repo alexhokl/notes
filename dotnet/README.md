@@ -1071,9 +1071,12 @@ process runs.
   allocate memory for objects on the same heap.
 - The size of segments allocated by the garbage collector is
   implementation-specific and is subject to change at any time
-- large object heap contains very large objects that are 85000 bytes and larger
+- large object heap contains very large objects that are 85k bytes or larger
   - the size configurable via environment variable `COMPlus_GCLOHThreshold` (in
     hex)
+  - since large objects are not efficient to be moved between generations, .NET
+    will allocate such objects to generation `2` directly and skipping
+    generation `0` and `1`
 
 #### Generations
 
