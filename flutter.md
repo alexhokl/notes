@@ -5,6 +5,10 @@
   * [Setup](#setup)
   * [Packges](#packges)
   * [Build and run](#build-and-run)
+- [Widgets](#widgets)
+  * [SteamBuilder](#steambuilder)
+  * [Expanded](#expanded)
+- [Concepts](#concepts)
 ____
 
 ## Links
@@ -130,3 +134,23 @@ flutter build appbundle
 flutter build ios
 ```
 
+## Widgets
+
+### SteamBuilder<T>
+
+* [reference](https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html)
+* it builds itself based on the latest snapshot of interaction with a `Stream`
+  + via `State.setState`
+  + rebuilding is decoupled from the timing of the stream (as per timing of
+    `yield` is being invoked
+
+### Expanded
+
+* [reference](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
+* it must be a decendent of a `Row`, `Column` or `Flex`
+* the path to it must contain only `StatelessWidget` or `StatefulWidget` (and
+  not like `RenderObjectWidget`)
+
+## Concepts
+
+- builder as a delegate to make rendering more efficient
