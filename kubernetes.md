@@ -53,6 +53,8 @@
 - [Service mesh](#service-mesh)
   * [Advantages](#advantages)
   * [Istio](#istio)
+- [GKE](#gke)
+  * [Security posture](#security-posture)
 - [kind](#kind)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
@@ -1581,6 +1583,14 @@ image.
 - jaeger has a nicer search UI than Cloud Trace on GCP
 - virtual service (an Istio concept) can beapplied over an existing Kubernetes
   to perform actions like automatic API retries
+
+## GKE
+
+### Security posture
+
+- it requires enabling of Container Security API
+- it includes sustained scanning and assessment of workloads and container
+  images
 
 ## kind
 
