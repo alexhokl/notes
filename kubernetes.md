@@ -52,6 +52,7 @@
   * [Upgrading and application security practices](#upgrading-and-application-security-practices)
 - [Service mesh](#service-mesh)
   * [Advantages](#advantages)
+  * [Istio](#istio)
 - [kind](#kind)
 - [Minikube](#minikube)
   * [Secret Management](#secret-management)
@@ -1568,6 +1569,18 @@ image.
 - move retries from application to service mesh
 - better observation
 - it is a software defined network
+
+### Istio
+
+- it can be installed using command `istioctl`
+- labeling of deployments are required for Istio to work
+- stuff like jaeger or Grafana can be installed as add-ons to Istio
+  * to open dashboards
+    + `istioctl dashboard grafana`
+    + `istioctl dashboard jaeger`
+- jaeger has a nicer search UI than Cloud Trace on GCP
+- virtual service (an Istio concept) can beapplied over an existing Kubernetes
+  to perform actions like automatic API retries
 
 ## kind
 
