@@ -8,6 +8,7 @@
   * [Apache](#apache)
   * [GPL](#gpl)
   * [AGPL](#agpl)
+  * [MPL](#mpl)
 ____
 
 # Concepts
@@ -38,6 +39,7 @@ ____
     + [AGPL](#agpl)
     + [CC
       BY-SA](https://en.wikipedia.org/wiki/Creative_Commons_license#Types_of_licenses)
+    + [MPL](#mpl)
 
 ## Copyleft
 
@@ -195,3 +197,28 @@ ____
   * MongoDB (previously)
   * RethinkDB
   * SugarCRM
+
+## MPL
+
+- Mozilla Public License
+- a weak copyleft license
+- it defines rights as passing from "contributors", who create or modify source
+  code, through an optional auxiliary distributor (itself a licensee), to the
+  licensee
+  * it grants liberal copyright and patent licenses allowing for free use,
+    modification, distribution, and "exploitation" of the work, but does not
+    grant the licensee any rights to a contributor's trademarks
+- recipients can combine licensed source code with other files under
+  a different, even proprietary license
+  * but the MPL-covered source files must be made freely available
+- requirements
+  * covered source code files must remain under the MPL, and distributors "may
+    not attempt to alter or restrict recipients' rights" to it
+  * it is either all or none of the code in a given source file falls under the
+    license
+  * licensee must ensure access to or provide all the source code within an
+    executable
+- users
+  * Adobe Flex
+  * LibreOffice
+
