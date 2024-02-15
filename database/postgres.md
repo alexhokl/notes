@@ -4,6 +4,7 @@
   * [Management](#management)
   * [Performance](#performance)
   * [JSON](#json)
+  * [User and role management](#user-and-role-management)
 - [Features](#features)
 - [Limitations](#limitations)
 ____
@@ -295,6 +296,91 @@ FROM
     public."customer" as c JOIN
     public."order" o ON
         o."customer_id" = c."customer_id"
+```
+
+### User and role management
+
+- `user` is a subset of `role` and `user` has login
+- `role` may not have a login
+- a `role` can be added to another `role`
+  * permission is better to be granted to a `role` and then granting the `role`
+    to another `role` or `user`
+- `role` is database-wide
+
+##### To create a role
+
+```sql
+CREATE ROLE your_readonly;
+```
+
+##### To add a role to another role
+
+```sql
+GRANT some_role TO another_role;
+```
+
+where both `some_role` and `another_role` can be a user
+
+##### To list all roles in database
+
+and also the roles included in a role
+
+```sql
+SELECT r.rolname, r.rolsuper, r.rolinherit,
+  r.rolcreaterole, r.rolcreatedb, r.rolcanlogin,
+  r.rolconnlimit, r.rolvaliduntil,
+  ARRAY(SELECT b.rolname
+        FROM pg_catalog.pg_auth_members m
+        JOIN pg_catalog.pg_roles b ON (m.roleid = b.oid)
+        WHERE m.member = r.oid) as memberof
+, r.rolreplication
+, r.rolbypassrls
+FROM pg_catalog.pg_roles r
+WHERE r.rolname <> '^pg_'
+ORDER BY 1
+```
+
+##### To grant access to a schema
+
+```sql
+GRANT USAGE ON SCHEMA your_schema TO your_readonly;
+```
+
+##### To grant basic read-only permission to objects in a schema
+
+```sql
+GRANT SELECT ON ALL TABLES IN SCHEMA your_schema TO your_readonly;
+GRANT SELECT ON ALL SEQUENCES IN SCHEMA your_schema TO your_readonly;
+GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA your_schema TO your_readonly;
+```
+
+##### To grant schema creation permission
+
+```sql
+GRANT CREATE ON DATABASE your_database TO appuser;
+```
+
+This is particularly useful for an application account to run migrations to
+create schema.
+
+##### To grant object creation permission
+
+```sql
+GRANT CREATE ON SCHEMA your_schema TO appuser;
+```
+
+Note that object includes table, functions, ... etc.
+
+##### To grant permission for foreign key creation
+
+```sql
+GRANT REFERENCES ON ALL TABLES IN SCHEMA your_schema TO appuser;
+```
+
+##### To change ownership of a schema
+
+```sql
+ALTER SCHEMA your_schema OWNER TO appuser;
 ```
 
 ## Features
