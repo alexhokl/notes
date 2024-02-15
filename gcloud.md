@@ -23,6 +23,7 @@
   * [Security Command Center (SCC)](#security-command-center-scc)
   * [Duet AI](#duet-ai)
   * [Certificate Authority Service](#certificate-authority-service)
+  * [Compliance](#compliance)
 - [Tools](#tools)
 ____
 
@@ -1146,6 +1147,11 @@ BigQuery tables.
 
 - CAS can be used to issue certificate for zero trust setup. Resources require
   a certificate can ask for one using IAM credentials.
+
+### Compliance
+
+- [certifications](https://cloud.google.com/security/compliance/offerings)
+  * note that the certifications are location dependent
 
 ## Tools
 
