@@ -8,6 +8,7 @@
   * [Cron](#cron)
   * [Cryptography](#cryptography)
   * [Data](#data)
+  * [Deployment](#deployment)
   * [Domain](#domain)
   * [Go](#go)
   * [Hardware](#hardware)
@@ -123,6 +124,11 @@ ____
 ### Data
 
 - [g0vhk.io](https://g0vhk.io)
+
+### Deployment
+
+- [Lifecycle](https://livecycle.io/) - deploy onto staging environment early for
+  review in SDLC
 
 ### Domain
 
