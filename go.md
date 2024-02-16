@@ -27,6 +27,7 @@
   * [Pointers and types](#pointers-and-types)
   * [Array, slice, reference and range](#array-slice-reference-and-range)
   * [Maps and pointers](#maps-and-pointers)
+  * [Iterator functions](#iterator-functions)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [errgroup](#errgroup)
@@ -720,6 +721,47 @@ properly to size of `4` by the end of the algorithm.
 ### Maps and pointers
 
 `map` is a reference object to the underlying `hmap` hash map object.
+
+### Iterator functions
+
+Signature of of iterator function of `Item`.
+
+```go
+func (yield func(Item) bool)
+```
+
+`range` will be responsible for implementation of function `yield` and iterator
+function needs to feed `yield` with a value of `Item`. When yield returns false,
+it implies `range` has been completed and it is the time for cleanup, if
+necessary.
+
+An example usage.
+
+```go
+package main
+
+import "fmt"
+
+type Item int
+
+func main() {
+	for i := range iterateItems {
+		fmt.Println(i)
+	}
+}
+
+func iterateItems(yield func(Item) bool) {
+  items := []Item{1, 2, 3}
+  for _, v := range items {
+    if !yield(v) {
+        return
+    }
+  }
+}
+```
+
+Note that this is available after version `1.22` and `GOEXPERIMENT=rangefunc` is
+required.
 
 ### sync.WaitGroup
 
