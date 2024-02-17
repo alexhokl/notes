@@ -19,6 +19,7 @@
 - [Integration Testing](#integration-testing)
 - [Garbage Collection](#garbage-collection)
 - [System migration](#system-migration)
+- [Function as a service (FaaS)](#function-as-a-service-faas)
 - [Others](#others-1)
 ____
 
@@ -728,6 +729,15 @@ it out to the whole production environment.
   - practically this can be done by making the old (monolith) application to
     send out messages and to have an new applications subscribe to the messages
     and replace the processes in the old application
+
+## Function as a service (FaaS)
+
+Since it is unlikely VM (or Kubernetes) will be running at 100% CPU all the
+time, using FaaS could be more cost-efficient.
+
+A side benefit is using Cloud Functions, Cloud Run, or AWS Lambda is very easy
+to track costs with high accuracy. The cost of runing a service can be hidden on
+Kuberenetes.
 
 ## Others
 
