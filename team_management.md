@@ -6,6 +6,8 @@
 - [Recruitment](#recruitment)
 - [Meetings](#meetings)
 - [Time management](#time-management)
+- [Alerting](#alerting)
+- [Cost tracking](#cost-tracking)
 ____
 
 ### Managing a junior team
@@ -356,3 +358,16 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - managers can start practising concentration periods of 20 minutes and continue
   to lengthen the time once getting used to the concentration period
 
+### Alerting
+
+A regular (usually every 2 weeks) alert review meeting to go over all the alerts.
+
+- for critical alerts, discuss if it should stay critical
+- for non-critical alerts, iterate the alerts and discuss what can be done to clear out
+  * it can be tweaking the threshold or creating some automation
+
+### Cost tracking
+
+- monthly review meeting
+  * not reviewed from a purely finance perspective
+  * to understand if cost of an item sounds right
