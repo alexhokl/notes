@@ -6,7 +6,9 @@
 - [IAM](#iam)
 - [EC2](#ec2)
 - [Lightsail](#lightsail)
+- [Account manager](#account-manager)
 ____
+
 ### RDS
 
 ##### References
@@ -376,3 +378,8 @@ RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 Edit file `/opt/bitnami/apps/wordpress/htdocs/wp-config.php` and look for
 `WP_SITEURL` and `WP_HOME`
+
+### Account manager
+
+AWS might be better in looking after a customer in that they provide dedicated
+account manager whereas Google Cloud does not do.
