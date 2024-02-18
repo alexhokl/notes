@@ -31,6 +31,7 @@
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [errgroup](#errgroup)
+  * [Context](#context)
   * [SIGTERM handling](#sigterm-handling)
   * [panic](#panic)
   * [signal.NotifyContext](#signalnotifycontext)
@@ -863,6 +864,83 @@ func notify(services ...string) {
   fmt.Println("All services notified successfully!")
 }
 ```
+
+### Context
+
+- [Go Concurrency Patterns: Context](https://go.dev/blog/context)
+- [Go Concurrency Patterns: Pipelines and
+  cancellation](https://go.dev/blog/pipelines)
+- [context package](https://pkg.go.dev/context)
+
+#### HTTP server
+
+```go
+// A Context carries a deadline, cancellation signal, and request-scoped values
+// across API boundaries. Its methods are safe for simultaneous use by multiple
+// goroutines.
+type Context interface {
+    // Done returns a channel that is closed when this Context is canceled
+    // or times out.
+    Done() <-chan struct{}
+
+    // Err indicates why this context was canceled, after the Done channel
+    // is closed.
+    Err() error
+
+    // Deadline returns the time when this Context will be canceled, if any.
+    Deadline() (deadline time.Time, ok bool)
+
+    // Value returns the value associated with key or nil if none.
+    Value(key interface{}) interface{}
+}
+
+// WithCancel returns a copy of parent whose Done channel is closed as soon as
+// parent.Done is closed or cancel is called.
+func WithCancel(parent Context) (ctx Context, cancel CancelFunc)
+
+// A CancelFunc cancels a Context.
+type CancelFunc func()
+
+// WithTimeout returns a copy of parent whose Done channel is closed as soon as
+// parent.Done is closed, cancel is called, or timeout elapses. The new
+// Context's Deadline is the sooner of now+timeout and the parent's deadline, if
+// any. If the timer is still running, the cancel function releases its
+// resources.
+func WithTimeout(parent Context, timeout time.Duration) (Context, CancelFunc)
+
+// WithValue returns a copy of parent whose Value method returns val for key.
+func WithValue(parent Context, key interface{}, val interface{}) Context
+```
+
+- each incoming request is handled in its own goroutine
+- interface `Context` helps
+  * passing value to one process to another process of the same request or its
+    sub-routines
+  * passing cancellation or timeout signals to a request and its sub-routines
+- interface `Context` does not have a `Cancel` method since it is meant to be
+  read-only (or receive-only) as demonstrated by `Done` method
+  * the function receiving a cancellation signal is usually not the one that
+    sends the signal
+  * when a parent operation starts goroutines for sub-operations, those
+    sub-operations should not be able to cancel the parent
+  * instead, `WithCancel` function provides a way to cancel a new `Context`
+    value
+  * `Context` is safe for simultaneous use by multiple goroutines
+    + code can pass a single `Context` to any number of goroutines and cancel
+      that `Context` to signal all of them
+- `context` package provides functions to derive new `Context` values from
+  existing ones these values form a tree
+  * when a `Context` is canceled, all `Context`s derived from it are also
+    canceled
+- `context.Background()` is the root of any `Context` tree
+  * it is never cancelled
+- `WithCancel` and `WithTimeout` return derived `Context` values that can be
+  canceled sooner than the parent `Context`
+- passing `Context` to a function effectively is passing `Done` channel to it
+  * the function can then check if `Done` channel has been closed to decide to
+    continue on with its work
+- for a client making HTTP requests, an HTTP request can be added with `Context`
+  via `WithContext` to allow cancellation control
 
 ### SIGTERM handling
 
