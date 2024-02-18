@@ -52,6 +52,7 @@
   * [Logging](#logging-1)
   * [Garbage collection](#garbage-collection)
   * [Cryptography](#cryptography)
+  * [HTTP server](#http-server-1)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -1436,6 +1437,104 @@ recommended) and to generate public key from a private key.
 
 ```sh
 GOMAXPROCS=max(1, floor(CPUs))
+```
+
+### HTTP server
+
+Reference: [How I write HTTP services in Go after 13
+years](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/)
+
+```go
+// Validator is an object that can be validated.
+type Validator interface {
+	// Valid checks the object and returns any
+	// problems. If len(problems) == 0 then
+	// the object is valid.
+	Valid(ctx context.Context) (problems map[string]string)
+}
+
+func main() {
+	ctx := context.Background()
+	if err := run(ctx, os.GetEnv, os.Stdin, os.Stdout, os.Stderr, os.Args); err != nil {
+		fmt.Fprintf(os.Stderr, "%s\n", err)
+		os.Exit(1)
+	}
+}
+
+func run(ctx context.Context, getenv func(string) string, stdin io.Reader, stdout, stderr io.Writer, args []string) error {
+  ctx, cancel := signal.NotifyContext(ctx, os.Interrupt)
+	defer cancel()
+
+  logger := NewLogger()
+  config := LoadConfig()
+  store := NewStore()
+
+  srv := NewServer(logger, config, store)
+  httpServer := &http.Server{
+    Addr:    net.JoinHostPort(config.Host, config.Port),
+    Handler: srv,
+  }
+
+  go func() {
+    log.Printf("listening on %s\n", httpServer.Addr)
+    if err := httpServer.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+      fmt.Fprintf(os.Stderr, "error listening and serving: %s\n", err)
+    }
+  }()
+
+  var wg sync.WaitGroup
+  wg.Add(1)
+
+  go func() {
+    defer wg.Done()
+    <-ctx.Done()
+    // make a new context for the Shutdown (thanks Alessandro Rosetti)
+    shutdownCtx := context.Background()
+    shutdownCtx, cancel := context.WithTimeout(shutdownCtx, 10 * time.Second)
+    defer cancel()
+    if err := httpServer.Shutdown(shutdownCtx); err != nil {
+      fmt.Fprintf(os.Stderr, "error shutting down http server: %s\n", err)
+    }
+  }()
+  wg.Wait()
+  return nil
+}
+
+func NewServer(logger *Logger, config *Config, store *Store) {
+  mux := http.NewServeMux()
+	addRoutes(mux, logger, config, stored)
+	var handler http.Handler = mux
+	handler = someMiddleware(handler)
+	handler = someMiddleware2(handler)
+	handler = someMiddleware3(handler)
+	return handler
+}
+
+func addRoutes(mux *http.ServeMux, logger *Logger, config *Config, store *Store) {
+  mux.Handle("/api/v1/", handleGet(logger, store))
+	mux.Handle("/", http.NotFoundHandler())
+}
+
+func handleGet(logger *Logger, store *Store) http.Handler {
+	thing := prepareThing()
+	return http.HandlerFunc(
+		func(w http.ResponseWriter, r *http.Request) {
+			// use thing to handle request
+			logger.Info(r.Context(), "msg", "handleGet")
+		}
+	)
+}
+
+func decodeValid[T Validator](r *http.Request) (T, map[string]string, error) {
+	var v T
+	if err := json.NewDecoder(r.Body).Decode(&v); err != nil {
+		return v, nil, fmt.Errorf("decode json: %w", err)
+	}
+	if problems := v.Valid(r.Context()); len(problems) > 0 {
+		return v, problems, fmt.Errorf("invalid %T: %d problems", v, len(problems))
+	}
+	return v, nil, nil
+}
 ```
 
 ## Charm
