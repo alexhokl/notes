@@ -190,3 +190,23 @@ ____
 | --- | ---    | ---      |
 | =   |        |          |
 | ]   | mu     | む       |
+
+# Situations
+
+## Restaurant
+
+- どうも (dōmo) - not thank you but shows some kind of gratitude
+- ご馳走様でした (gochisōsamadeshita) - I enjoyed the dishes
+- 助かりました (tasukarimashita) - this helps alot!
+
+## Transportation
+
+- 快速 (kaisoku) - Rapid
+- 新快速 (shin kaisoku) - Special Rapid
+- 急行 (kyūkō) - Express
+  * These trains stop at fewer stations than rapid trains, and typically run
+    more frequently than limited express trains. In most cases, you can ride
+    express trains without paying special fares, but there are exceptions.
+- 特急 (tokkyū) - Limited Express
+  * this train stops at the fewest stations. In most cases, you can ride limited
+    express trains without paying special fares, but there are exceptions.
