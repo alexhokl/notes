@@ -154,3 +154,24 @@ flutter build ios
 ## Concepts
 
 - builder as a delegate to make rendering more efficient
+
+## State management
+
+### Riverpod
+
+- types of provider
+  * Provider
+  * FutureProvider
+  * StreamProvider
+- Family
+  * it works like a factory method where different parameter produces different
+    providers
+  * for custom provider classes, equality operator must be implemented; `Family`
+    will keep creating invalid instances of providers, otherwise
+- AutoDispose
+  * it automatically disposes the provider when it is no longer used; such as
+    showing different screens
+  * this is not the default behaviour
+- all proivders are declared as singletons and global
+- it caches values by default
+  * the caching is pretty greedy; thus, invalidation logic is likely required
