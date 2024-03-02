@@ -127,9 +127,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>]</kbd><kbd>e</kbd> to move the current line down
 - <kbd>K</kbd> to move the current visually selected block up by one line
 - <kbd>J</kbd> to move the current visually selected block down by one line
-- <kbd>,</kbd><kbd>a</kbd> to swap the current function/method arguments with
+- <kbd>v</kbd><kbd>j</kbd> to swap the current function/method arguments with
   the next
-- <kbd>,</kbd><kbd>A</kbd> to swap the current function/method arguments with
+- <kbd>v</kbd><kbd>k</kbd> to swap the current function/method arguments with
   the previous
 - <kbd>y</kbd><kbd>y</kbd> to copy the current line
 - `:%y` to copy all lines of the current buffer
@@ -210,6 +210,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>g</kbd><kbd>g</kbd><kbd>=</kbd><kbd>G</kbd> to fix indentation of the
   current file
 - `:retab` to replace all tabs with spaces
+  * `:set expandtab` may be needed beforehand
 - visually select lines and <kbd>g</kbd><kbd>q</kbd> to format those lines
 - visually select table and <kbd>,</kbd><kbd>t</kbd> to align `|` in the
   table
