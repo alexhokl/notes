@@ -14,6 +14,7 @@
 - [Windows](#windows)
 - [Docker](#docker)
 - [Funnel](#funnel)
+- [Public DNS name for tailnet](#public-dns-name-for-tailnet)
 ____
 
 ## Links
@@ -155,3 +156,38 @@ exposes the public port to the host which has on tailnet already.
     a region near the node. The VM then proxy those encrypted TCP connections to
     the Tailscale node over Tailscale itself. SNI name is verified at the Funnel
     VM but TLS is not terminated there.
+
+## Public DNS name for tailnet
+
+Assuming the ownership of the following domains.
+
+- `a-b.ts.net`
+- `testing.com`
+
+We can expose a service in tailnet with a public DNS name without exposing the
+service to the public internet.
+
+To do so, setup a DNS `CNAME` record maps `*.testing.com` to
+`proxy.a-b.ts.net`. Setup a reverse proxy on `proxy.a-b.ts.net` to forward
+requests to any services in tailnet. The following assumes `Caddy` is being used
+as the reverse proxy.
+
+```caddyfile
+(clouddns) {
+  tls {
+    dns googleclouddns {
+      gcp_project {$GCP_PROJECT_ID}
+    }
+  }
+}
+
+service1.testing.com {
+  reverse_proxy http://10.42.0.42
+  import clouddns
+}
+
+service2.testing.com {
+  reverse_proxy http://internet-ts-name
+  import clouddns
+}
+```
