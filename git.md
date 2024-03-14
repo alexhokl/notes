@@ -720,6 +720,12 @@ git diff --unified=10
 
 This show 10 lines instead of 3 (default) of context.
 
+##### To show diff with file paths only
+
+```sh
+git diff --name-only
+```
+
 ##### To show the closest tag to a commit
 
 ```sh
