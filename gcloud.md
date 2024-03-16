@@ -218,6 +218,13 @@ SVC_EMAIL=$(gcloud iam service-accounts list --filter="Compute Engine default se
 gcloud projects add-iam-policy-binding your-project-a --member=serviceAccount:${SVC_EMAIL} --role roles/storage.objectViewer
 ```
 
+##### To allow push docker image
+
+The following roles and permissions are required
+
+- `roles/storage.objectCreator`
+- `storage.buckets.get` (a permission)
+
 ##### To create roles for Helm 2
 
 ```sh
