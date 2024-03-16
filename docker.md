@@ -13,6 +13,7 @@
 - [Docker Secret](#docker-secret)
 - [Docker Swarm](#docker-swarm)
 - [Windows](#windows)
+- [Monitoring](#monitoring)
 - [Specific images](#specific-images)
 ____
 
@@ -562,6 +563,28 @@ To run linux containers in Docker Windows container engine (see also [mainfest l
 ```ps1
 docker run --platform linux busybox echo hello
 ```
+
+## Monitoring
+
+- [grafana/otel-lgtm](https://github.com/grafana/docker-otel-lgtm)
+  * This is not for production-use but it is useful for testing and development
+  * an open source backend for OpenTelemetry
+  * it can be started by `docker run -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm
+    -ti grafana/otel-lgtm`
+  * port `3000` Grafana
+  * port `4317` OpenTelemetry gRPC endpoint
+  * port `4318` OpenTelemetry HTTP endpoint
+  * By default, any application instrumented with OpenTelemetry will
+    automatically send metrics, traces, and logs to one of these ports on
+    localhost. There’s no configuration required.
+  * by default, OpenTelemetry exports signals every 60 seconds
+  * sources of data
+    + Prometheus data (queried by PromQL)
+    + Loki data (queried by LogQL)
+    + Tempo data (queried by TempoQL)
+  * [Prometheus and OpenMetrics
+    Compatibility](https://opentelemetry.io/docs/specs/otel/compatibility/prometheus_and_openmetrics/)
+    spec defines how the OpenTelemetry metric names map to Prometheus metric names
 
 ## Specific images
 
