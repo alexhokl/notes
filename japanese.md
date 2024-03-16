@@ -2,6 +2,10 @@
 - [Keyboard](#keyboard)
   * [12 keys mapping](#12-keys-mapping)
   * [Hiragana mapping](#hiragana-mapping)
+- [Situations](#situations)
+  * [Restaurant](#restaurant)
+  * [Food](#food)
+  * [Transportation](#transportation)
 ____
 
 # Basics
@@ -198,6 +202,12 @@ ____
 - どうも (dōmo) - not thank you but shows some kind of gratitude
 - ご馳走様でした (gochisōsamadeshita) - I enjoyed the dishes
 - 助かりました (tasukarimashita) - this helps alot!
+
+## Food
+
+- 豚骨 (tonkotsu) - pork bone
+- 醤油 (shōyu) - soy sauce
+- 葱 (negi) - green onion
 
 ## Transportation
 
