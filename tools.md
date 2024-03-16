@@ -74,6 +74,10 @@ ____
   python tool to archive social media data
   * [an example
     configuration](https://github.com/bellingcat/auto-archiver/blob/main/example.orchestration.yaml)
+- [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu/) - a PDF processor written
+  in Go
+  * it can split, merge and validate PDFs
+  * it can also extract font and images from a PDF
 
 ### git
 
@@ -288,4 +292,8 @@ ____
 ### Others
 
 - [Website Test behind the Great Firewall of China](https://www.websitepulse.com/tools/china-firewall-test)
+- [URL
+  parts](https://url-parts.glitch.me/?url=https://cats.example.org.au:1234/stripes/fur.html?pattern=tabby#claws)
+- [Resources from Bellingcat](https://www.bellingcat.com/category/resources/)
+
 
