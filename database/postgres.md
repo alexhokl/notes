@@ -12,6 +12,8 @@ ____
 ## Links
 
 - [explain.dalibo.com](https://explain.dalibo.com/) - visualising query plans
+- [pganalyze](https://pganalyze.com/) - a SaaS product for tuning PostgreSQL
+  queries
 
 ### Commands
 
