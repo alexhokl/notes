@@ -22,6 +22,7 @@
     + [`System.Drawing.Common`](#systemdrawingcommon)
     + [Alpine](#alpine)
     + [Cryptography](#cryptography)
+    + [OpenTelemetry](#opentelemetry)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1461,6 +1462,25 @@ public static IEnumerable<RSA> LoadKeys(Uri uri)
     }
 }
 ```
+
+### OpenTelemetry
+
+Reference: [.NET observability with
+OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel)
+
+- The .NET OpenTelemetry implementation is a little different from other
+  platforms, as .NET provides logging, metrics, and activity APIs in the
+  framework. That means OTel doesn't need to provide APIs for library authors to
+  use.
+- data types
+  * logging
+    + `Microsoft.Extensions.Logging.ILogger`
+  * metrics
+    + `System.Diagnostics.Metrics.Meter`
+  * tracing
+    + `System.Diagnostics.Activity` and `System.Diagnostics.ActivitySource`
+- [OpenTelemetry
+  packages](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#opentelemetry-packages)
 
 ### Workarounds
 
