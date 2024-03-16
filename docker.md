@@ -15,6 +15,8 @@
 - [Windows](#windows)
 - [Monitoring](#monitoring)
 - [Specific images](#specific-images)
+  * [Database](#database)
+  * [Security](#security)
 ____
 
 ## Links
@@ -588,6 +590,8 @@ docker run --platform linux busybox echo hello
 
 ## Specific images
 
+### Database
+
 ##### microsoft/mssql-server-linux
 
 Environment variable `attach_dbs` can be used to attached `.mdf` and `.ldf`
@@ -607,3 +611,18 @@ files directly.
   }
 ]
 ```
+
+### Security
+
+- [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy/)
+  * Docker image
+    + [quay.io](https://quay.io/repository/oauth2-proxy/oauth2-proxy)
+    + [chainguard](https://hub.docker.com/r/chainguard/oauth2-proxy)
+  * [documentation](https://oauth2-proxy.github.io/oauth2-proxy/)
+  * it can be used to perform SSL termination or placed behind a reverse proxy
+    with SSL termination
+  * [upstream
+    configuration](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview/#upstreams-configuration)
+  * [Configuring for use with the Nginx auth_request
+    directive](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview/#configuring-for-use-with-the-nginx-auth_request-directive)
+  * [Behaviour](https://oauth2-proxy.github.io/oauth2-proxy/behaviour)
