@@ -193,11 +193,11 @@ done
 
 ##### set -euo pipefail
 
-- `-e` causes a bash script to exit immediately when a command fails
+- `set -e` causes a bash script to exit immediately when a command fails
   - append `|| true` to a command if immediate exit is not expected
-- `set -o pipefail` ensure exit in first of the piped command
-- `-u` causes the bash shell to treat unset variables as an error and exit
+- `set -u` causes the bash shell to treat unset variables as an error and exit
   immediately
+- `set -o pipefail` ensure exit in first of the piped command
 
 ### variables
 
