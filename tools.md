@@ -135,6 +135,8 @@ ____
 - [domain check from zeit](https://zeit.co/domains)
 - [crt.sh](https://crt.sh/) - list of issued Let's Encrypt
   certificates
+- [Free Monitor Certificate expiry via
+  RSS](https://raphting.dev/posts/monitor-rss/)
 - [mess with dns](https://messwithdns.net/) - a site for experimenting DNS setup
 - [badssl.com](https://badssl.com/) - for manual testing of security UI in web
   clients. It provides links to check various possible errors.
