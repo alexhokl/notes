@@ -22,6 +22,7 @@
     + [`System.Drawing.Common`](#systemdrawingcommon)
     + [Alpine](#alpine)
     + [Cryptography](#cryptography)
+    + [Snapshot testing](#snapshot-testing)
     + [OpenTelemetry](#opentelemetry)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
@@ -1462,6 +1463,11 @@ public static IEnumerable<RSA> LoadKeys(Uri uri)
     }
 }
 ```
+
+### Snapshot testing
+
+- [Verify](https://github.com/VerifyTests/Verify/) a library to generate and
+  verify snapshots made during unit tests
 
 ### OpenTelemetry
 
