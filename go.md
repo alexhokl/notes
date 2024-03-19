@@ -53,6 +53,7 @@
   * [Garbage collection](#garbage-collection)
   * [Cryptography](#cryptography)
   * [HTTP server](#http-server-1)
+- [Private module](#private-module)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Vs Rust](#vs-rust)
@@ -1535,6 +1536,27 @@ func decodeValid[T Validator](r *http.Request) (T, map[string]string, error) {
 	}
 	return v, nil, nil
 }
+```
+
+## Private module
+
+To tell Go that some import paths are private and that it should not try to use
+the central Go services, you can use the `GOPRIVATE` environment variable. The
+`GOPRIVATE` environment variable is a comma-separated list of import path
+prefixes where, when encountered, the Go tools will try to access them directly
+instead of going through the central services.
+
+```sh
+GOPRIVATE=github.com/your_username/mysecret,github.com/your_username/othersecret
+```
+
+When Go encounter a module such as `github.com/test_user/test_repo`, it will
+add `https://` to the module name before pulling using `git`. To use SSH
+properly to pull private module, `.gitconfig` should be setup.
+
+```gitconfig
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
 ```
 
 ## Charm
