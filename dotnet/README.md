@@ -70,6 +70,10 @@ ____
 - [bilal-fazlani/tracker-enabled-dbcontext](https://github.com/bilal-fazlani/tracker-enabled-dbcontext)
   Tracker-enabled DbContext offers you to implement full auditing in your
   database
+- [microsoft/garnet](https://github.com/microsoft/garnet) a new remote
+  cache-store from Microsoft Research
+  * [getting started](https://microsoft.github.io/garnet/docs/getting-started)
+  * clients such as `StackExchange.Redis` can be used
 
 # .NET Core
 
