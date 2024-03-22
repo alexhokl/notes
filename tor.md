@@ -34,5 +34,5 @@ ____
 ## Others
 
 - [Using Tor in
-  China](https://medium.com/@phoebecross/using-tor-in-china-1b84349925da) - this
+  some countries](https://medium.com/@phoebecross/using-tor-in-china-1b84349925da) - this
   is an older post but some of the techniques are still relevant

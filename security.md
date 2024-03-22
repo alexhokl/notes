@@ -357,7 +357,7 @@ But that does not mean they are trustworthy in the moral sense. On the
 contrary, there are documented cases of Web PKI certificate authorities
 providing governments with fraudulent certificates in order to snoop on traffic
 and impersonate websites. Some of these “trusted” CAs operate out of
-authoritarian jurisdictions like China. The 2011 DigiNotar attack demonstrated
+authoritarian jurisdictions. The 2011 DigiNotar attack demonstrated
 the problem here: as part of the attack a certificate was fraudulently issued
 for google.com. This certificate was trusted by major web browsers and
 operating systems despite the fact that Google had no relationship with

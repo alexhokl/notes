@@ -278,7 +278,7 @@ ____
 
 ### Others
 
-- [Website Test behind the Great Firewall of China](https://www.websitepulse.com/tools/china-firewall-test)
+- [Website Test behind the Great Firewall](https://www.websitepulse.com/tools/china-firewall-test)
 - [URL
   parts](https://url-parts.glitch.me/?url=https://cats.example.org.au:1234/stripes/fur.html?pattern=tabby#claws)
 - [Resources from Bellingcat](https://www.bellingcat.com/category/resources/)
