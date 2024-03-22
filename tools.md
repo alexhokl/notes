@@ -27,7 +27,6 @@
   * [SQL](#sql)
   * [Syntax highlight](#syntax-highlight)
   * [Unicode](#unicode)
-  * [Web development](#web-development)
   * [Others](#others)
 ____
 
@@ -77,6 +76,11 @@ ____
   in Go
   * it can split, merge and validate PDFs
   * it can also extract font and images from a PDF
+- [dmd](https://dmd.tanna.dev/) a CLI tool to convert [supported collected
+  package dependency data](https://dmd.tanna.dev/related/) to a format which can
+  be used by `dmd-web` to show visualisation of dependencies and can be stored
+  in SQLite
+  * [getting started](https://dmd.tanna.dev/cookbooks/getting-started/)
 
 ### git
 
@@ -271,11 +275,6 @@ ____
 - [What Unicode character is
   this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
 - [Unicode Text Analyzer](https://www.fontspace.com/unicode/analyzer)
-
-### Web development
-
-- [IcoMoon](https://icomoon.io/)
-- [opencontainers/artwork](https://github.com/opencontainers/artwork)
 
 ### Others
 

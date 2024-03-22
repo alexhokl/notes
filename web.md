@@ -50,8 +50,9 @@ ____
 
 ## Icons
 
-- [IcoMoon](https://icomoon.io://icomoon.io/)
+- [IcoMoon](https://icomoon.io/)
 - [veryicon](http://www.veryicon.com/)
+- [opencontainers/artwork](https://github.com/opencontainers/artwork)
 
 ## WebP
 
