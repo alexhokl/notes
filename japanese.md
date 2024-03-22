@@ -4,6 +4,7 @@
   * [Hiragana mapping](#hiragana-mapping)
 - [Situations](#situations)
   * [Restaurant](#restaurant)
+  * [Convience store](#convience-store)
   * [Food](#food)
   * [Transportation](#transportation)
 ____
@@ -202,6 +203,18 @@ ____
 - どうも (dōmo) - not thank you but shows some kind of gratitude
 - ご馳走様でした (gochisōsamadeshita) - I enjoyed the dishes
 - 助かりました (tasukarimashita) - this helps alot!
+
+## Convience store
+
+- こちら温めまっすか？ (kochira atatame masu ka?) - This, do you want to warn it up?
+- はい、お願いします (hai, onegaishimasu) - Yes, please
+- かしこまりました (kashikomarimashita) - Certainly
+- お箸、おつけしますか? (ohashi, otsukeshimasu ka?) - chopsticks, may I add?
+- おしぼり、おつけしますか？ (oshibori, otsukeshimasu ka?) - wet towel, may I add?
+- ポイントカードはおもちですか? (pointo kādo wa omochi desu ka?) - point card, do you have?
+- 袋、ご利用おですか? (fukuro wa goriyō odesu ka?) - bag, will you use?
+- いえ (ie) - no
+- 大丈夫です (daijōbudesu) - it's okay
 
 ## Food
 
