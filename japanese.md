@@ -5,6 +5,8 @@
 - [Situations](#situations)
   * [Restaurant](#restaurant)
   * [Convience store](#convience-store)
+  * [Payment](#payment)
+  * [Drinks](#drinks)
   * [Food](#food)
   * [Transportation](#transportation)
 ____
@@ -215,6 +217,17 @@ ____
 - 袋、ご利用おですか? (fukuro wa goriyō odesu ka?) - bag, will you use?
 - いえ (ie) - no
 - 大丈夫です (daijōbudesu) - it's okay
+
+## Payment
+
+- カードでお願いします (kādo de onegaishimasu) - Card by I'll pay
+- カード使えますか？ (kādo tsukaemasu ka?) - Card, can I use?
+- アップルペイ使えますか? (appurupai tsukaemasu ka?) - Apple pay, can I use?
+
+## Drinks
+
+- お茶 (ocha) - tea
+- コーヒー (kōhī) - coffee
 
 ## Food
 
