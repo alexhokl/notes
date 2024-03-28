@@ -205,6 +205,8 @@ ____
 - どうも (dōmo) - not thank you but shows some kind of gratitude
 - ご馳走様でした (gochisōsamadeshita) - I enjoyed the dishes
 - 助かりました (tasukarimashita) - this helps alot!
+- お会計お願いします (okaikei onegaishimasu) - bill, please
+- お水お願いします (omizu onegaishimasu) - water, please
 
 ## Convience store
 
@@ -237,6 +239,11 @@ ____
 
 ## Transportation
 
+- 渋谷までお願いします (shibuya made onegaishimasu) - Shibuya to please
+- まもなく電車が参ります。黄色い線の内側煮立ってお待ちください (mamonaku densha ga mairimasu. kiiroi sen no uchigawa ni tatte omachikudasai) - soon train is coming. yellow line inside by standing wait please
+
+### Trains
+
 - 快速 (kaisoku) - Rapid
 - 新快速 (shin kaisoku) - Special Rapid
 - 急行 (kyūkō) - Express
@@ -246,3 +253,26 @@ ____
 - 特急 (tokkyū) - Limited Express
   * this train stops at the fewest stations. In most cases, you can ride limited
     express trains without paying special fares, but there are exceptions.
+
+## Days of week
+
+- 月曜日 (getsuyōbi) - Monday
+- 火曜日 (kayōbi) - Tuesday
+- 水曜日 (suiyōbi) - Wednesday
+- 木曜日 (mokuyōbi) - Thursday
+- 金曜日 (kin'yōbi) - Friday
+- 土曜日 (doyōbi) - Saturday
+- 日曜日 (nichiyōbi) - Sunday
+
+## Numbers
+
+- 一 (ichi) - 1
+- 二 (ni) - 2
+- 三 (san) - 3
+- 四 (yon, shi) - 4
+- 五 (go) - 5
+- 六 (roku) - 6
+- 七 (nana, shichi) - 7
+- 八 (hachi) - 8
+- 九 (kyū, ku) - 9
+- 十 (jū) - 10
