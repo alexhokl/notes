@@ -326,25 +326,31 @@ The recommandation is to use the following.
 ###### To make sure all containers stated in docker-compose.yml are up and running in daemon mode
 
 ```sh
-docker-compose up -d
+docker compose up -d
 ```
 
 ###### To compose with specified configuration files
 
 ```sh
-docker-compose -f docker-compose.yml -f docker-compose.extra.yml up -d
+docker compose -f docker-compose.yml -f docker-compose.extra.yml up -d
 ```
 
 ###### To make sure all continers stated in docker-compose.yml are stopped, removed and have its network and volumes removed
 
 ```sh
-docker-compose down -v
+docker compose down -v
 ```
 
 ###### To show logs of a service
 
 ```sh
-docker-compose logs your-service-name
+docker compose logs your-service-name
+```
+
+###### To verify environment variable substitutions via `env_file`
+
+```sh
+docker compose config
 ```
 
 ###### To add DNS entries to a container
