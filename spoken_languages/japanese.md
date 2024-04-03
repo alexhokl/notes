@@ -121,6 +121,7 @@ ____
 ## Time
 
 - 八時四十分 (hachi-ji yon-jū-pun) - 8:40
+- 2時間40分 (ni-jikan yon-jū-pun) - 2 hours 40 minutes
 
 ## Day
 
