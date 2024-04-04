@@ -35,6 +35,7 @@ ____
 - お会計お願いします (okaikei onegaishimasu) - bill, please
 - お水お願いします (omizu onegaishimasu) - water, please
 - 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
+- 五名です (go mei desu) - there are 5 people
 
 ## Convience store
 
