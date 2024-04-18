@@ -83,6 +83,7 @@ ____
   * [getting started](https://dmd.tanna.dev/cookbooks/getting-started/)
 - [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - a CLI tool
   to capture a terminal command, code file and save it as an image
+- [curl/trurl](https://github.com/curl/trurl) - CLI tool to manipulate URLs
 
 ### git
 
