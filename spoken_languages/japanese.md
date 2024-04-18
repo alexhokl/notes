@@ -36,6 +36,7 @@ ____
 - お水お願いします (omizu onegaishimasu) - water, please
 - 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
 - 五名です (go mei desu) - there are 5 people
+- 定食 (teishoku) - set meal
 
 ## Convience store
 
