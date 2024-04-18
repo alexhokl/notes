@@ -27,6 +27,7 @@
   * [kubectl-whoami](#kubectl-whoami)
   * [goldilocks](#goldilocks)
   * [rbac-lookup](#rbac-lookup)
+  * [rabc-tool](#rabc-tool)
   * [nova](#nova)
   * [pluto](#pluto)
 - [Security (Hardening Guidance)](#security-hardening-guidance)
@@ -950,6 +951,34 @@ rbac-lookup rob --output wide --kind user
 
 ```sh
 rbac-lookup rob --gke --output wide
+```
+
+### rabc-tool
+
+##### To generate RBAC setup of a cluster in HTML
+
+```sh
+rbac-tool viz
+```
+
+##### To show information of the current login
+
+```sh
+rbac-tool whoami
+```
+
+##### To list all system subjects and its associated roles and bindings in a cluster
+
+```sh
+kub rbac-tool lookup -e '^system:.*'
+```
+
+##### To list all policy rules of a subject of a cluster
+
+Policy rules include API group, kind, namespace and verbs
+
+```sh
+kub rbac-tool policy-rules -e '^system:authenticated'
 ```
 
 ### nova
