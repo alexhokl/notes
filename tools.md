@@ -39,6 +39,8 @@ ____
 - [mitmproxy](https://mitmproxy.org/) - a free and open source interactive HTTPS proxy
 - [Scoop](https://scoop.sh/) - a command-line installer for Windows
 - [asciinema](https://asciinema.org/) - a lightweight, purely text-based approach to terminal recording
+- [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - a CLI tool
+  to capture a terminal command, code file and save it as an image
 - [smallstep](https://smallstep.com/) - a command line tool to work with zero
     trust technologies
     ([intro](https://smallstep.com/blog/zero-trust-swiss-army-knife.html))
@@ -81,9 +83,9 @@ ____
   be used by `dmd-web` to show visualisation of dependencies and can be stored
   in SQLite
   * [getting started](https://dmd.tanna.dev/cookbooks/getting-started/)
-- [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - a CLI tool
-  to capture a terminal command, code file and save it as an image
 - [curl/trurl](https://github.com/curl/trurl) - CLI tool to manipulate URLs
+- [tauri](https://tauri.app/) - a framework to build desktop applications using
+  web technologies where binary is built using Rust
 
 ### git
 
