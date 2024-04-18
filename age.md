@@ -1,3 +1,4 @@
+- [Links](#links)
 - [Installations](#installations)
 - [Commands](#commands)
   * [Key generation](#key-generation)
@@ -5,6 +6,10 @@
     + [With Yubikey](#with-yubikey)
   * [Operations](#operations)
 ____
+
+# Links
+
+- [awesome-age](https://github.com/FiloSottile/awesome-age)
 
 # Installations
 
