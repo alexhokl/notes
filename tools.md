@@ -81,6 +81,8 @@ ____
   be used by `dmd-web` to show visualisation of dependencies and can be stored
   in SQLite
   * [getting started](https://dmd.tanna.dev/cookbooks/getting-started/)
+- [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - a CLI tool
+  to capture a terminal command, code file and save it as an image
 
 ### git
 
