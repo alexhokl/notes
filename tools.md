@@ -86,6 +86,9 @@ ____
 - [curl/trurl](https://github.com/curl/trurl) - CLI tool to manipulate URLs
 - [tauri](https://tauri.app/) - a framework to build desktop applications using
   web technologies where binary is built using Rust
+- [usebruno/bruno](https://github.com/usebruno/bruno) a Postman alternative
+- [ekzhang/sshx](https://github.com/ekzhang/sshx) share SSH session via web
+  browser
 
 ### git
 
