@@ -6,6 +6,7 @@
   * [A good team setup](#a-good-team-setup)
   * [Interview questions](#interview-questions)
   * [General approach](#general-approach)
+  * [General principles from Honeycomb](#general-principles-from-honeycomb)
   * [House-Tree-Person (HTP) test](#house-tree-person-htp-test)
   * [Other items](#other-items)
 ____
@@ -125,6 +126,31 @@ ____
 - when the interview is over do not be afraid to give feedback on what candidates
   did well. Hopefully they can read between the lines and figure out what they
   did not do well.
+
+### General principles from Honeycomb
+
+- No surprises
+  * The research is clear: unknowns cause anxiety, and people do not perform
+    well when they are anxious. Company should offer up as much detail in
+    advance about the process as they can, even down to the questions. The
+    hiring manager will walk the candidate through what to expect in advance,
+    and tell the candidate what they are looking for in answers from candidate.
+- Realistic code
+  * No whiteboard coding. The coding exercises used should involve extending or
+    improving existing code, the night before, in the ease of your own dev
+    environment and without an interviewer watching. The code should relate to
+    actual work that you would actually do, and that does not usually mean green
+    field, does it?
+- The communication is the interview.
+  * When candidate come in for an interview, the candidate will talk through the
+    PR with a couple of engineers, and that is the meat and bones of the
+    interview. If the candidate can communicate clearly about the choices and
+    the tradeoffs, the candidate can certainly do the work, while the reverse is
+    not necessarily true.
+- See every candidate at their best
+  * Company should not hire people for lack of weaknesses; hire them for their
+    strengths. Company should try to ask everyone in advance, “what can we do to
+    see you at your best?”
 
 ### House-Tree-Person (HTP) test
 
