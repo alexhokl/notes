@@ -248,6 +248,7 @@ ____
 - [Codecov](https://about.codecov.io/) - code coverage reporting
 - [TestRail](https://www.testrail.com/)
 - [CodeSee](https://www.codesee.io/) - codebase visibility
+- [monkeytype](https://monkeytype.com/) - typing speed test
 
 ### Shopping
 
