@@ -1,4 +1,6 @@
 - [Links](#links)
+- [Troubleshooting](#troubleshooting)
+  * [error "unable to fetch certificate that owns the secret"](#error-unable-to-fetch-certificate-that-owns-the-secret)
 - [Commands](#commands)
 - [Resource Definitions](#resource-definitions)
   * [Sidecars](#sidecars)
@@ -106,6 +108,18 @@ ____
   a report
 - [Kubernetes Custom Resource API Reference Docs
   generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
+
+## Troubleshooting
+
+### error "unable to fetch certificate that owns the secret"
+
+Removing an ingress definition does not automatically remove the associated
+certificate secret. To resolve this error, remove the certificate secret would
+do.
+
+If there is a lot of secret involved, [this
+script](https://github.com/richstokes/k8s-scripts/blob/master/clean-orphaned-secrets-cert-manager/clean-orphans.sh)
+can be used.
 
 ## Commands
 
