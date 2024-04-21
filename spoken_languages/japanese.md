@@ -14,6 +14,7 @@
   * [Day](#day)
   * [Colours](#colours)
 - [Conjunctions](#conjunctions)
+- [Positions](#positions)
 - [Keyboard](#keyboard)
   * [12 keys mapping](#12-keys-mapping)
   * [Hiragana mapping](#hiragana-mapping)
@@ -154,6 +155,20 @@ ____
 - だから (dakara) - so
 - それで (sorede) - therefore
 - なぜなら (nazenara) - because
+
+# Positions
+
+- 上 (ue) - up
+- 下 (shita) - down
+- 後ろ (ushiro) - back
+- 前 (mae) - front
+- 左 (hidari) - left
+- 右 (migi) - right
+- 中 (naka) - center
+- 外 (soto) - outside
+- 鄰 (tonari) - next to
+- 近く (chikaku) - near
+- 遠く (tōku) - far
 
 # Keyboard
 
