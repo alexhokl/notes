@@ -89,6 +89,8 @@ ____
 - [usebruno/bruno](https://github.com/usebruno/bruno) a Postman alternative
 - [ekzhang/sshx](https://github.com/ekzhang/sshx) share SSH session via web
   browser
+- [lcl.host](https://lcl.host/) - a local server to setup CA locally for
+  developement
 
 ### git
 
