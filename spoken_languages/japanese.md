@@ -169,6 +169,7 @@ ____
 - 鄰 (tonari) - next to
 - 近く (chikaku) - near
 - 遠く (tōku) - far
+- ここ (koko) - here
 
 # Keyboard
 
