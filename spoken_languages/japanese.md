@@ -170,6 +170,7 @@ ____
 - 近く (chikaku) - near
 - 遠く (tōku) - far
 - ここ (koko) - here
+- そこ (soko) - there
 
 # Keyboard
 
