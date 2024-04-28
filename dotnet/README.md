@@ -1,5 +1,6 @@
 - [Libraries](#libraries)
 - [.NET Core](#net-core)
+    + [Links](#links)
     + [Porting](#porting)
     + [Upgrade](#upgrade)
     + [.NET 8](#net-8)
@@ -34,7 +35,7 @@
     + [ref](#ref)
     + [Span, Memory and Pipeline](#span-memory-and-pipeline)
 - [ASP.NET](#aspnet)
-    + [Links](#links)
+    + [Links](#links-1)
     + [Lifecycle](#lifecycle)
     + [Web API](#web-api)
     + [Error handling](#error-handling)
@@ -76,6 +77,10 @@ ____
   * clients such as `StackExchange.Redis` can be used
 
 # .NET Core
+
+### Links
+
+- [Source code of .NET Core](https://source.dot.net/)
 
 ### Porting
 
