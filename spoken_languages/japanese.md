@@ -152,9 +152,12 @@ ____
 - そして (soshite) - and
 - または (matawa) - or
 - しかし (shikashi) - but
+- だけど (dakedo) - however
 - だから (dakara) - so
 - それで (sorede) - therefore
+- それから (sorekara) - then
 - なぜなら (nazenara) - because
+- だって (datte) - because
 
 # Positions
 
