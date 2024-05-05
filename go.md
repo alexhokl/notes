@@ -10,6 +10,7 @@
   * [Visualisation](#visualisation)
   * [Finance](#finance)
   * [Security](#security)
+  * [AI](#ai)
   * [Others](#others)
 - [Commands](#commands)
   * [Testing](#testing)
@@ -162,6 +163,11 @@ ____
 - [egbakou/domainverifier](https://github.com/egbakou/domainverifier)
 - [alexhokl/go-bb-pr](https://github.com/alexhokl/go-bb-pr) Example on using
   OAuth with CLI
+
+### AI
+
+- [andrewstuart/openai](https://github.com/andrewstuart/openai) OpenAI API
+  wrapper
 
 ### Others
 
