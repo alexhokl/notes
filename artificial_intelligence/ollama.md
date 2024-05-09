@@ -69,3 +69,15 @@ xh post http://localhost:11434/api/generate model=llama3 prompt="What is TCP/IP?
 docker exec -it ollama ollama run llama3 "Summarise $(cat /Users/someone/main.go)"
 ```
 
+##### To create a modelfile from a model
+
+```sh
+ollama show llama3 --modelfile > llama3.modelfile
+```
+
+##### To creata a model with a modelfile
+
+```sh
+ollama create custom_model --modelfile llama3.modelfile
+```
+
