@@ -25,6 +25,7 @@
     + [Cryptography](#cryptography)
     + [Snapshot testing](#snapshot-testing)
     + [OpenTelemetry](#opentelemetry)
+    + [Regular Expression (regex)](#regular-expression-regex)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [dotnet/codeformatter](#dotnetcodeformatter)
@@ -1497,6 +1498,42 @@ OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observa
     + `System.Diagnostics.Activity` and `System.Diagnostics.ActivitySource`
 - [OpenTelemetry
   packages](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#opentelemetry-packages)
+
+### Regular Expression (regex)
+
+See also [regex](../regex.md)
+
+##### Ignore case
+
+```cs
+Regex r = new Regex("abc", RegexOptions.IgnoreCase);
+```
+
+##### Compiled expression
+
+```cs
+Regex r = new Regex("(a(b)c|def)", RegexOptions.Compiled);
+```
+
+Note that it takes time to compile. Thus, if it is not a hot path, the time
+takes to compile may not worth it.
+
+##### Capture groups
+
+```cs
+Regex r = new Regex("(a(b)c|def)");
+var length = regex.Match(input!).Groups.Count; // 3
+```
+
+##### Generated code
+
+```cs
+static partial class Example
+{
+  [GeneratedRegex("abc")]
+  public static partial Regex Demo();
+}
+```
 
 ### Workarounds
 
