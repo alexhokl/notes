@@ -1,10 +1,36 @@
-
+- [Commands](#commands)
+- [Syntax](#syntax)
+- [Recipes](#recipes)
 ____
+
+# Commands
+
+##### To install a version
+
+```sh
+pyenv install 3.12
+```
+
+##### To use a version globally
+
+```sh
+pyenv global 3.12
+```
+
+To list all versions
+
+```sh
+pyenv versions
+```
+
+# Syntax
 
 ##### Getting class name
 ```py
 variable_name.__class__.__name__
 ```
+
+# Recipes
 
 ##### Look up exception on StackOverflow
 ```py
