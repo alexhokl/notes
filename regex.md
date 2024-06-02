@@ -52,7 +52,7 @@ ____
 #### Operators
 
 - `|` - or
-- `()` - grouping
+- `()` - grouping (or referred as a capture group)
 
 ### Named groups
 
