@@ -1,3 +1,4 @@
+- [Links](#links)
 - [HTTP](#http)
 - [Public cloud support](#public-cloud-support)
 - [Languages](#languages)
@@ -5,6 +6,13 @@
   * [Node.js](#nodejs)
   * [.NET](#net)
 ____
+
+# Links
+
+- [Troubleshooting
+  collector](https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/troubleshooting.md)
+- [exporters of
+  collectors](https://github.com/open-telemetry/opentelemetry-collector/tree/main/exporter)
 
 # HTTP
 
