@@ -58,6 +58,7 @@
   * [Istio](#istio)
 - [Tools](#tools-1)
   * [OpenCost](#opencost)
+  * [Postgres](#postgres)
 - [GKE](#gke)
   * [Security posture](#security-posture)
 - [kind](#kind)
@@ -1635,6 +1636,27 @@ image.
 
 - [opencost/opencost](https://github.com/opencost/opencost)
 - [documentation](https://www.opencost.io/docs/)
+
+### Postgres
+
+- [StackGres](https://stackgres.io/)
+  - it provides a Helm chart for deploying Postgres on Kubernetes
+  - it provides connection pooling, automatic failover and HA, monitoring,
+    backups and DR, centralized logging
+  - components
+    * PostgreSQL
+      + The world’s most advanced open source relational database
+    * Patroni
+      + The HA solution that relies on kubernetes distributed consensus storage to
+    * WAL-G
+      + WAL-G is an archival restoration tool for Postgres
+    * PgBouncer
+      + Lightweight connection pooler for PostgreSQL
+    * PostgreSQL Server Exporter
+      + Prometheus exporter for PostgreSQL server metrics.
+    * Envoy
+      + open source edge and service proxy, designed for cloud-native applications
+  - it provides a Web UI for managing Postgres instances
 
 ## GKE
 
