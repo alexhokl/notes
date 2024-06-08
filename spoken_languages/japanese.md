@@ -15,6 +15,8 @@
   * [Colours](#colours)
 - [Conjunctions](#conjunctions)
 - [Positions](#positions)
+- [Hiragana](#hiragana)
+- [Katakana](#katakana)
 - [Keyboard](#keyboard)
   * [12 keys mapping](#12-keys-mapping)
   * [Hiragana mapping](#hiragana-mapping)
@@ -179,6 +181,36 @@ ____
 - 遠く (tōku) - far
 - ここ (koko) - here
 - そこ (soko) - there
+
+# Hiragana
+
+|    | a  | i  | u  | e  | o |
+|----|----|----|----|----|---|
+|    | あ | い | う | え | お |
+| k  | か | き | く | け | こ |
+| s  | さ | し | す | せ | そ |
+| t  | た | ち | つ | て | と |
+| n  | な | に | ぬ | ね | の |
+| h  | は | ひ | ふ | へ | ほ |
+| m  | ま | み | む | め | も |
+| y  | や |    | ゆ |    | よ |
+| r  | ら | り | る | れ | ろ |
+| w  | わ |    |    |    | を |
+
+# Katakana
+
+|    | a  | i  | u  | e  | o |
+|----|----|----|----|----|---|
+|    | ア | イ | ウ | エ | オ |
+| k  | カ | キ | ク | ケ | コ |
+| s  | サ | シ | ス | セ | ソ |
+| t  | タ | チ | ツ | テ | ト |
+| n  | ナ | ニ | ヌ | ネ | ノ |
+| h  | ハ | ヒ | フ | ヘ | ホ |
+| m  | マ | ミ | ム | メ | モ |
+| y  | ヤ |    | ユ |    | ヨ |
+| r  | ラ | リ | ル | レ | ロ |
+| w  | ワ |    |    |    | ヲ |
 
 # Keyboard
 
