@@ -1,4 +1,4 @@
-- [Basics](#basics)
+- [Links](#links)
 - [Situations](#situations)
   * [Restaurant](#restaurant)
   * [Convience store](#convience-store)
@@ -15,17 +15,23 @@
   * [Colours](#colours)
 - [Conjunctions](#conjunctions)
 - [Positions](#positions)
-- [Hiragana](#hiragana)
-  * [Similar strokes](#similar-strokes)
-- [Katakana](#katakana)
+- [Kana](#kana)
+  * [Hiragana](#hiragana)
+    + [Similar strokes](#similar-strokes)
+  * [Katakana](#katakana)
+  * [Sokuon](#sokuon)
+- [Grammar](#grammar)
+  * [Particles](#particles)
 - [Keyboard](#keyboard)
   * [12 keys mapping](#12-keys-mapping)
 ____
 
-# Basics
+# Links
 
 - [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
+- [WHAT IS けど ?](https://www.tofugu.com/japanese/kedo/)
+- [Kana quiz](https://kana-quiz.tofugu.com/)
 
 # Situations
 
@@ -182,7 +188,9 @@ ____
 - ここ (koko) - here
 - そこ (soko) - there
 
-# Hiragana
+# Kana
+
+## Hiragana
 
 |    | a  | i  | u  | e  | o |
 |----|----|----|----|----|---|
@@ -197,7 +205,7 @@ ____
 | r  | ら | り | る | れ | ろ |
 | w  | わ |    |    |    | を |
 
-## Similar strokes
+### Similar strokes
 
 |      | a    | i    | u    | e    | o   |
 | ---- | ---- | ---- | ---- | ---- | --- |
@@ -253,7 +261,7 @@ ____
 | r    |      |      |      | れ   |     |
 | w    | わ   |      |      |      |     |
 
-# Katakana
+## Katakana
 
 |    | a  | i  | u  | e  | o |
 |----|----|----|----|----|---|
@@ -267,6 +275,27 @@ ____
 | y  | ヤ |    | ユ |    | ヨ |
 | r  | ラ | リ | ル | レ | ロ |
 | w  | ワ |    |    |    | ヲ |
+
+## Sokuon
+
+- hiragana
+  * っ (small tsu) - double consonant
+- katakana
+  * ッ (small tsu) - double consonant
+- examples
+  * やっぱり (yappari) - after all
+  * いっぱい (ippai) - full
+  * みっつ (mittsu) - three
+  * 美味しかった (oishikatta) - it was delicious
+  * あった (atta) - there was
+  * だった (datta) - was
+
+# Grammar
+
+## Particles
+
+- わ (wa) - as for
+- が (ga) - subject marker
 
 # Keyboard
 
