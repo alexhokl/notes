@@ -19,9 +19,12 @@
   * [Hiragana](#hiragana)
     + [Similar strokes](#similar-strokes)
   * [Katakana](#katakana)
-  * [Sokuon](#sokuon)
+    + [Similar to hiragana](#similar-to-hiragana)
+    + [Similar strokes](#similar-strokes-1)
+  * [Sokuon (促音)](#sokuon-%E4%BF%83%E9%9F%B3)
 - [Grammar](#grammar)
-  * [Particles](#particles)
+  * [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
+    + [Examples](#examples)
 - [Keyboard](#keyboard)
   * [12 keys mapping](#12-keys-mapping)
 ____
@@ -32,6 +35,7 @@ ____
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 - [WHAT IS けど ?](https://www.tofugu.com/japanese/kedo/)
 - [Kana quiz](https://kana-quiz.tofugu.com/)
+- [Keyboard mapping](./keyboard_mapping.md)
 
 # Situations
 
@@ -263,20 +267,89 @@ ____
 
 ## Katakana
 
-|    | a  | i  | u  | e  | o |
-|----|----|----|----|----|---|
-|    | ア | イ | ウ | エ | オ |
-| k  | カ | キ | ク | ケ | コ |
-| s  | サ | シ | ス | セ | ソ |
-| t  | タ | チ | ツ | テ | ト |
-| n  | ナ | ニ | ヌ | ネ | ノ |
-| h  | ハ | ヒ | フ | ヘ | ホ |
-| m  | マ | ミ | ム | メ | モ |
-| y  | ヤ |    | ユ |    | ヨ |
-| r  | ラ | リ | ル | レ | ロ |
-| w  | ワ |    |    |    | ヲ |
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      | ア   | イ   | ウ   | エ   | オ  |
+| k    | カ   | キ   | ク   | ケ   | コ  |
+| s    | サ   | シ   | ス   | セ   | ソ  |
+| t    | タ   | チ   | ツ   | テ   | ト  |
+| n    | ナ   | ニ   | ヌ   | ネ   | ノ  |
+| h    | ハ   | ヒ   | フ   | ヘ   | ホ  |
+| m    | マ   | ミ   | ム   | メ   | モ  |
+| y    | ヤ   |      | ユ   |      | ヨ  |
+| r    | ラ   | リ   | ル   | レ   | ロ  |
+| w    | ワ   |      |      |      | ヲ  |
 
-## Sokuon
+### Similar to hiragana
+
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      |      |      | ウ   |      |     |
+| k    | カ   | キ   |      |      |     |
+| s    |      |      |      | セ   |     |
+| t    |      |      |      |      |     |
+| n    |      | ニ   |      |      |     |
+| h    |      |      |      | ヘ   |     |
+| m    |      |      |      |      | モ  |
+| y    | ヤ   |      |      |      |     |
+| r    |      | リ   |      |      |     |
+
+### Similar strokes
+
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      |      |      | ウ   |      |     |
+| k    |      |      | ク   | ケ   |     |
+| s    |      |      | ス   |      |     |
+| t    | タ   |      |      |      |     |
+| n    |      |      |      |      |     |
+| h    |      |      | フ   |      |     |
+| m    |      |      |      |      |     |
+| y    |      |      |      |      |     |
+| r    |      |      |      |      |     |
+| w    | ワ   |      |      |      | ヲ  |
+
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      |      |      |      |      | オ  |
+| k    |      |      |      |      |     |
+| s    |      |      |      |      |     |
+| t    |      |      |      |      |     |
+| n    |      |      |      |      |     |
+| h    |      |      |      |      | ホ  |
+
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      |      |      |      |      |     |
+| k    |      |      |      |      | コ  |
+| s    |      |      |      |      |     |
+| t    |      |      |      |      |     |
+| n    |      |      |      |      |     |
+| h    |      |      |      |      |     |
+| m    |      |      |      |      |     |
+| y    |      |      | ユ   |      | ヨ  |
+
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      |      |      |      |      |     |
+| k    |      |      |      |      |     |
+| s    |      | シ   |      |      | ソ  |
+| t    |      |      | ツ   |      |     |
+| n    |      |      |      |      | ノ  |
+| h    |      |      |      |      |     |
+| m    |      |      |      |      |     |
+| y    |      |      |      |      |     |
+| r    |      | リ   |      |      |     |
+
+|      | a    | i    | u    | e    | o   |
+| ---- | ---- | ---- | ---- | ---- | --- |
+|      |      |      |      |      |     |
+| k    |      |      |      |      |     |
+| s    |      |      |      |      |     |
+| t    |      | チ   |      | テ   |     |
+| n    | ナ   |      |      |      |     |
+
+## Sokuon (促音)
 
 - hiragana
   * っ (small tsu) - double consonant
@@ -292,10 +365,29 @@ ____
 
 # Grammar
 
-## Particles
+## Particles (助詞)
 
-- わ (wa) - as for
+- は (wa) - as for
 - が (ga) - subject marker
+- を (o) - object marker
+- で (de) - place of action
+- に (ni) - destination or place of existence
+- と (to) - and (between nouns)
+- か (ka) - or (between nouns)
+- や (ya) - for example (between nouns)
+
+### Examples
+
+- 大坂`に`行きした (ōsaka ni ikimashita) - I went to Osaka
+- 大坂`で`寿司`を`食べました (ōsaka de sushi o tabemashita) - I ate sushi in Osaka
+- 大坂`に`料理店`が`あります (ōsaka ni ryōriten ga arimasu) - There are restaurants
+  in Osaka
+- 大坂`が`好きです (ōsaka ga suki desu) - I like Osaka
+- 大坂`や`京都`に`行きたいです (ōsaka ya kyōto ni ikitai desu) - I want to go to
+Osaka and Kyoto, for example
+- 日本`は`大坂`が`有名です (nihon wa ōsaka ga yūmei desu) - As for Japan, Osaka
+  is famous
+- 大坂`を`知っていますか？ (ōsaka o shitteimasu ka?) - Do you know Osaka?
 
 # Keyboard
 
