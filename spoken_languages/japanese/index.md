@@ -13,6 +13,7 @@
   * [Time](#time)
   * [Day](#day)
   * [Colours](#colours)
+  * [Feelings](#feelings)
 - [Conjunctions](#conjunctions)
 - [Positions](#positions)
 - [Kana](#kana)
@@ -163,6 +164,11 @@ ____
 - ピンク (pinku) - pink
 - 茶色 (chairo) - brown
 - グレー (gurē) - grey
+
+## Feelings
+
+- ほんと？ (honto?) - really?
+- いいね (īne) - nice...
 
 # Conjunctions
 
