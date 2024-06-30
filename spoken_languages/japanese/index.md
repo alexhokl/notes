@@ -159,6 +159,8 @@ ____
 
 - ほんと？ (honto?) - really?
 - いいね (īne) - nice...
+- 面白い (omoshiroi) - interesting
+- 可愛い (kawaii) - cute
 
 ## Positions
 
