@@ -7,6 +7,7 @@
   * [User modes](#user-modes)
   * [Login](#login)
   * [Encryption](#encryption)
+  * [Queries](#queries)
 - [Database performance](#database-performance)
   * [Troubleshooting](#troubleshooting-1)
   * [Statistics](#statistics)
@@ -323,6 +324,29 @@ where `encryption_state` can be interpreted as
 ```sql
 ALTER DATABASE your_database_name SET ENCRYPTION OFF
 DROP DATABASE ENCRYPTION KEY
+```
+
+### Queries
+
+##### To find a default constraint of a column
+
+```sql
+SELECT name
+FROM sys.default_constraints
+WHERE parent_object_id = OBJECT_ID('your_table_name')
+AND parent_column_id = COLUMNPROPERTY(OBJECT_ID('your_table_name'), 'your_column_name', 'ColumnId');
+```
+
+##### To find table name of a constraint
+
+```sql
+SELECT
+    OBJECT_NAME(parent_object_id) AS TableName,
+    name AS ConstraintName,
+    type_desc AS ConstraintType
+FROM sys.objects
+WHERE type_desc LIKE '%CONSTRAINT'
+    AND name = 'DF__YourTab__YourCol__1DDC1E2F'
 ```
 
 ## Database performance
