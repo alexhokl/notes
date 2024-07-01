@@ -13,3 +13,7 @@ ____
     + the resulting vector embedding arrays can then be stored in a database,
       which will compare them as a way to search for data that is similar in
       meaning.
+  * examples
+    * [alexhokl/ollama-rag](https://github.com/alexhokl/ollama-rag)
+    * [Local RAG agent with llama3 using
+      LangChain](https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_rag_agent_llama3_local.ipynb)
