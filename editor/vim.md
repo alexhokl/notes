@@ -382,20 +382,21 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>t</kbd><kbd>b</kbd> to show blame of the current line
 - <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>c</kbd> to last change of the current
   line
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>l</kbd> show logs of the current line
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>f</kbd> show logs of the current file
+- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>r</kbd>show logs of the current
+  repository
 - <kbd>,</kbd><kbd>g</kbd><kbd>c</kbd><kbd>o</kbd> to checkout the current file
   (effectively discarding current changes)
 - <kbd>,</kbd><kbd>g</kbd><kbd>d</kbd> to show diff of the current file
   - <kbd>]</kbd><kbd>c</kbd> to jump to the next diff
   - <kbd>[</kbd><kbd>c</kbd> to jump back to the previous diff
 - `:Gdiff origin/master` to show diff between `master` and the current branch
-- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>l</kbd> show logs of the current file
-- <kbd>,</kbd><kbd>g</kbd><kbd>l</kbd><kbd>r</kbd>show logs of the current
-  repository
 - <kbd>,</kbd><kbd>g</kbd><kbd>w</kbd> to open the current file in a browser
 - <kbd>,</kbd><kbd>g</kbd><kbd>y</kbd> to copy link to the current selected
   line(s)
-- <kbd>]</kbd><kbd>x</kbd> — move to next conflict
-- <kbd>[</kbd><kbd>x</kbd> — move to previous conflict
+- <kbd>c</kbd><kbd>n</kbd> — move to next conflict
+- <kbd>c</kbd><kbd>p</kbd> — move to previous conflict
 - <kbd>c</kbd><kbd>o</kbd> — choose ours
 - <kbd>c</kbd><kbd>t</kbd> — choose theirs
 - <kbd>c</kbd><kbd>b</kbd> — choose both
