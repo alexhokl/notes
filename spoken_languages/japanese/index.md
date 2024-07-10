@@ -85,6 +85,8 @@ ____
 - 醤油 (shōyu) - soy sauce
 - 葱 (negi) - green onion
 - 鹽 (shio) - salt
+- ハラミ (harami) - skirt steak (横隔膜)
+- ホルモン (horumon) - offal (內臟)
 
 ## Transportation
 
