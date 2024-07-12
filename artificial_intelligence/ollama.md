@@ -8,6 +8,8 @@ ____
 - [models](https://ollama.com/library)
 - [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - a
   Retrieval-Augmented Generation engine
+- [alexhokl/ollama-rag](https://github.com/alexhokl/ollama-rag)
+- [alexhokl/ollama-image](https://github.com/alexhokl/ollama-image)
 
 # Commands
 
