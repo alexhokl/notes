@@ -8,6 +8,7 @@
 - [Widgets](#widgets)
   * [SteamBuilder](#steambuilder)
   * [Expanded](#expanded)
+  * [Adaptive layout](#adaptive-layout)
 - [Concepts](#concepts)
 - [State management](#state-management)
   * [Riverpod](#riverpod)
@@ -152,6 +153,65 @@ flutter build ios
 * it must be a decendent of a `Row`, `Column` or `Flex`
 * the path to it must contain only `StatelessWidget` or `StatefulWidget` (and
   not like `RenderObjectWidget`)
+
+### Adaptive layout
+
+Reference: [tomcheung/flutter_adaptive_gallery](https://github.com/tomcheung/flutter_adaptive_gallery/tree/finish)
+
+A widget can be created to abstract layout sizes to a limited set of values.
+
+```dart
+import 'package:flutter/material.dart';
+
+enum LayoutSizeData { large, medium, small }
+
+class AdaptiveLayoutBuilder extends StatelessWidget {
+  final Widget Function(LayoutSizeData) layoutBuilder;
+
+  const AdaptiveLayoutBuilder({
+    super.key,
+    required this.layoutBuilder,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final width = MediaQuery.sizeOf(context).width;
+
+    LayoutSizeData size = switch (width) {
+      >= 800 => LayoutSizeData.large,
+      >= 600 => LayoutSizeData.medium,
+      _ => LayoutSizeData.small
+    };
+
+    return layoutBuilder(size);
+  }
+}
+
+class LayoutSize extends InheritedWidget {
+  final LayoutSizeData size;
+
+  const LayoutSize({super.key, required this.size, required super.child});
+
+  @override
+  bool updateShouldNotify(covariant LayoutSize oldWidget) {
+    return oldWidget.size != size;
+  }
+
+  static LayoutSizeData of(BuildContext context) {
+    return context.dependOnInheritedWidgetOfExactType<LayoutSize>()!.size;
+  }
+}
+```
+
+In the code deciding the layout, the conceptual size can be retrieved via build
+context.
+
+```dart
+final size = LayoutSize.of(context);
+```
+
+Note that this is usually invoked in `build` method and care should be taken to
+avoid triggering too many re-draws.
 
 ## Concepts
 
