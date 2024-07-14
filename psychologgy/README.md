@@ -1,5 +1,5 @@
 - [Links](#links)
-- [human memory](#human-memory)
+- [Human memory](#human-memory)
 ____
 
 # Links

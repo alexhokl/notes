@@ -1,6 +1,10 @@
 - [Links](#links)
 - [Facts](#facts)
 - [Actions](#actions)
+____
+- [Links](#links)
+- [Facts](#facts)
+- [Actions](#actions)
 
 ---
 
