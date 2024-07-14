@@ -384,12 +384,6 @@ to configure locale.
 
 - [Sloth](https://github.com/sveinbjornt/Sloth) on Mac
 
-##### To kill a process running on a particular port
-
-```sh
-kill $(lsof -ti tcp:3000)
-```
-
 ##### To list process occupied a file
 
 ```sh
