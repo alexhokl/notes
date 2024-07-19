@@ -80,61 +80,18 @@ ____
 
 ### Links
 
+- [.NET Fiddle](https://dotnetfiddle.net/) - acts like a playground
 - [Source code of .NET Core](https://source.dot.net/)
 - [sharplab.io](https://sharplab.io/) - live compilation to intermediate language
 - [C# 12](./csharp12.md)
 - [.NET 8](./net8.md)
-
-### Porting
-
-- [GitHub issues:
-  port-to-core](https://github.com/dotnet/corefx/issues?q=is%3Aopen+is%3Aissue+label%3Aport-to-core)
 - [Porting to .NET Core from .NET
-  Framework](https://docs.microsoft.com/en-us/dotnet/articles/core/porting/)
-- [Microsoft/dotnet-apiport](https://github.com/Microsoft/dotnet-apiport/) (by
-  running `.\apiport.exe analyze -f C:\work\solution\project\bin\ `)
-- [Can I port my application to .NET Core?](https://icanhasdot.net/)
-- [PackageSeach](http://packagesearch.azurewebsites.net/)
-- [Multi-Targeting and Porting a .NET Library to .NET Core
-  2.0](https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20)
+  Framework](https://learn.microsoft.com/en-us/dotnet/core/porting/)
 - [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on
   Cross-Platform
   Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
 
-### Upgrade
-
-- [Migrate from ASP.NET Core 2.2 to 3.0](https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-3.1&tabs=visual-studio)
-- [Migrate from ASP.NET Core 3.0 to 3.1](https://docs.microsoft.com/en-us/aspnet/core/migration/30-to-31?view=aspnetcore-3.1&tabs=visual-studio)
-- [Breaking changes for migration from Version 2.2 to 3.1](https://docs.microsoft.com/en-us/dotnet/core/compatibility/2.2-3.1)
-
-#### Upgrade assistant
-
-- [Upgrade Assistant](https://github.com/dotnet/upgrade-assistant) (Windows
-  only)
-
-To install
-
-```sh
-dotnet tool install -g upgrade-assistant \
-  --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json
-```
-
-To upgrade
-
-```sh
-dotnet tool update -g upgrade-assistant \
-  --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json
-```
-
-To run
-
-```sh
-upgrade-assistant upgrade YourSolution.sln
-```
-
 ### Tools
-
-- [.NET Fiddle](https://dotnetfiddle.net/) - acts like a playground
 
 ##### dotnet-counters
 
@@ -1507,18 +1464,6 @@ following steps may be needed to get the stuff compile.
 3. Apply `<Reference include="netstandard" />`
 
 # .NET (Classic)
-
-### [dotnet/codeformatter](https://github.com/dotnet/codeformatter)
-
-To run the formatter, download the zip from release page and run
-
-```ps1
-codeformatter.exe /nocopyright C:\work\solution.sln
-```
-
-### Software
-
--   [NCrunch](http://www.ncrunch.net/) an automated concurrent testing tool for Visual Studio
 
 ### To check which .NET framework versions are installed
 
