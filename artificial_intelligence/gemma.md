@@ -1,11 +1,19 @@
-
+- [Links](#links)
+- [Basic concepts](#basic-concepts)
+- [Ollama](#ollama)
+  * [API examples](#api-examples)
 ____
 
-- it is a model from Google
-- it is available for download and run offline (via kaggle)
-- it is a LLM
-- it is text only
-  * unlike Gemini where it can process image and more input mediums
+# Links
+
+- [google-gemini/gemme-cookbook](https://github.com/google-gemini/gemma-cookbook)
+
+# Basic concepts
+
+- a model from Google
+- available via Ollama or Kaggle
+- a text-only LLM
+  * unlike Gemini where it can process images and more input mediums
 - access examples
   * via [KerasNLP](https://keras.io/keras_nlp/)
     + [generate text](https://ai.google.dev/gemma/docs/get_started)
@@ -16,3 +24,24 @@ ____
     + in the example, the response was too difficult for a child to understand
       initially; the model was later tuned to fit this use case
 - it can be used to generate data for training
+
+# Ollama
+
+## API examples
+
+```sh
+xh http://localhost:11434/api/generate \
+  model=gemma2:9b \
+  prompt="What is the capital of Portugal?"
+```
+
+```sh
+curl http://localhost:11434/api/chat -d '{ \
+  "model": "gemma:7b", \
+  "messages": [ \
+    { "role": "user", "content": "what is the capital of Portugal?" } \
+  ] \
+}'
+```
+
+
