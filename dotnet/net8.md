@@ -4,6 +4,8 @@
   * [SearchValues](#searchvalues)
   * [Keyed scope](#keyed-scope)
   * [IHostedLifecycleService](#ihostedlifecycleservice)
+  * [Rate limiting](#rate-limiting)
+- [Algorithms](#algorithms)
 ____
 
 # .NET 8
@@ -97,3 +99,21 @@ It inherits from `IHostedService` and provide more lifecycle methods.
 - `StoppingAsync(CancellationToken)` triggered before `StopAsync(CancellationToken)`
 - `StoppedAsync(CancellationToken)` triggered after `StopAsync(CancellationToken)`
 
+
+## Rate limiting
+
+reference: [Rate limiting middleware in ASP.NET
+Core](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit)
+
+# Algorithms
+
+- [Fixed
+  window](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#fixed-window-limiter)
+- [Sliding
+  window](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#sliding-window-limiter)
+- [Token
+  bucket](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#token-bucket-limiter)
+- [Concurrency](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#concurrency-limiter)
+- [Create chained
+  limiters](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#create-chained-limiters)
+  to understand how `PartitionedRateLimiter` can be used
