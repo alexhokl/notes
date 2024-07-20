@@ -57,6 +57,8 @@
   * [HTTP server](#http-server-1)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
+- [Ko](#ko)
+  * [Commands](#commands-1)
 - [Vs Rust](#vs-rust)
 ____
 
@@ -1587,6 +1589,30 @@ if len(os.Getenv("DEBUG")) > 0 {
 	}
 	defer f.Close()
 }
+```
+
+## Ko
+
+- This is tool to build Docker images of Go executable without Docker.
+- It build images from `gcr.io/distroless/static:nonroot`
+  * no shell
+  * no other executables
+  * it has
+    + CA certificates
+    + timezone data
+
+### Commands
+
+##### To build a Docker image locally
+
+```sh
+KO_DOCKER_REPO=gcr.io/YOUR_PROJECT/my-app KO ko build -L .
+```
+
+To replace image name in Kubernetes manifests
+
+```sh
+ko resolve -f deployment.yml | kubectl apply -f -
 ```
 
 ## Vs Rust
