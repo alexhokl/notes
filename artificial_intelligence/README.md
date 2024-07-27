@@ -1,20 +1,26 @@
+- [Links](#links)
 - [Concepts](#concepts)
   * [General concepts](#general-concepts)
   * [Retrieval augmented generation (RAG)](#retrieval-augmented-generation-rag)
 - [Machine Learning](#machine-learning)
-  * [Links](#links)
+  * [Links](#links-1)
 - [Tools](#tools)
   * [yt-dlp](#yt-dlp)
   * [whisper](#whisper)
-    + [Links](#links-1)
+    + [Links](#links-2)
     + [Commands](#commands)
   * [tts](#tts)
-    + [Links](#links-2)
+    + [Links](#links-3)
     + [Commands](#commands-1)
   * [easyocr](#easyocr)
-    + [Links](#links-3)
+    + [Links](#links-4)
     + [Commands](#commands-2)
 ____
+
+# Links
+
+- [Sam Witteveen](https://www.youtube.com/@samwitteveenai)
+- [Matt Williams](https://www.youtube.com/@technovangelist)
 
 # Concepts
 
