@@ -70,6 +70,8 @@ ____
   - explains what is machine learning
 - [Hugging Face](https://huggingface.co/)
   - a model hub
+- [Standford CS229: Machine Learning by Andrew Ng](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
+  - a lecture series on machine learning
 
 # Tools
 
