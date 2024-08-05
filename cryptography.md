@@ -5,7 +5,11 @@ ____
 
 ### Links
 
-- [End-to-end encryption: Behind the scenes](https://www.youtube.com/watch?v=oRZoeDRACrY)
+- [End-to-end encryption: Behind the
+  scenes](https://www.youtube.com/watch?v=oRZoeDRACrY)
+  it explains RSA, forward secrecy, Diffie-Hellman key exchange (and its
+  possible man-in-the-middle attack), authenticated key exchange MAC, and
+  message exchanges
 
 ### Modular Multiplicative Inverse
 
@@ -35,7 +39,7 @@ Apply `mod 72` on both sides, and since `-25 (mod 72) = 47 (mod 72)`,
 - Pick two primes
   - for instance, `7` and `13`
 - Calculate `n` where it is the product of the two primes
-  - `n = 7 x 13 = 91` 
+  - `n = 7 x 13 = 91`
 - Compute Euler's totient function of `n`
   - `φ(91) = (7-1)(13-1) = 72`
 - Pick an integer `e` where `1 < e < φ(n)` and `e` is a [coprime](https://en.wikipedia.org/wiki/Coprime_integers)
@@ -63,7 +67,7 @@ Apply `mod 72` on both sides, and since `-25 (mod 72) = 47 (mod 72)`,
 - Alice generates a signature `sig` using her private key and hash of `msg`
 - Alice generates a symmetric cipher `c` using `k` and the combination of `sig` and `msg`
 - Alice sends `c` and `k^(Bpub)` to Bob
-- Bob computes `k` by ``k^(Bpub)^(Bpriv) = k`` 
+- Bob computes `k` by ``k^(Bpub)^(Bpriv) = k``
 - Bob decrypts the symmetric cipher `c` using the computed `k` and get `sig`
     and `msg`
 - Bob can check `sig` using `Apub` and hash of` msg`
