@@ -46,6 +46,12 @@ docker exec -it ollama ollama pull gemma:7b
 docker exec -it ollama ollama list
 ```
 
+##### To show context length
+
+```sh
+ollama show llama3.1:8b
+```
+
 ##### To start a chat bot
 
 ```sh
