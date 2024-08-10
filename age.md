@@ -92,11 +92,20 @@ or, using a file with public key,
 cat something.txt | age -R someone_public.txt > something.txt.age
 ```
 
+or, to format the encrypted file as PEM,
+
+```sh
+cat something.txt | age --armor -r $AGE_PUBLIC_KEY > something.txt.age.pem
+```
+
 ##### to decrypt
 
 ```sh
 age --decrypt -i someone.txt something.txt.age > something.txt
 ```
+
+where `someone.txt` contains private key generated via `age-keygen` (or
+`age-plugin-yubikey -i` as above)
 
 If Yubikey is used, the program will ask for PIN in terminal. After entering the
 PIN, if the following is shown, it is waiting for a touch on the Yubikey.
@@ -111,4 +120,3 @@ age: waiting on yubikey plugin...
 age-plugin-yubikey --list
 ```
 
-where `someone.txt` contains private key generated via `age-keygen`.
