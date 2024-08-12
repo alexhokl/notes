@@ -1,3 +1,9 @@
+- [gemini](#gemini)
+- [gemma](#gemma)
+  * [Links](#links)
+  * [Basic concepts](#basic-concepts)
+  * [Ollama](#ollama)
+    + [API examples](#api-examples)
 ____
 
 # gemini
@@ -13,6 +19,8 @@ ____
 - a character is a token (unlike it is a word in GPT-3)
 - video processing is separated from audio processing
 - with short context and access via API, it can be free
+- Gemini Enterprise and Business is available in Hong Kong since May 2024
+  ([reference](https://workspaceupdates.googleblog.com/2024/05/gemini-language-region-expansion-io-2024.html?m=1#:~:text=And%20is%20now%20available%20to,Hong%20Kong))
 
 # gemma
 
