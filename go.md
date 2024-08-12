@@ -91,6 +91,7 @@ ____
 - [RadhiFadlillah/sqldiagram](https://github.com/RadhiFadlillah/sqldiagram)
   generates SQL diagram using SQL files - it only supports MySQL
 - [czinc/sqlite](https://gitlab.com/cznic/sqlite) SQLite written purely in Go
+- [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
 
 ### Logging
 
