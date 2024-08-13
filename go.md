@@ -11,6 +11,7 @@
   * [Finance](#finance)
   * [Security](#security)
   * [AI](#ai)
+  * [PDF](#pdf)
   * [Others](#others)
 - [Commands](#commands)
   * [Testing](#testing)
@@ -91,7 +92,6 @@ ____
 - [RadhiFadlillah/sqldiagram](https://github.com/RadhiFadlillah/sqldiagram)
   generates SQL diagram using SQL files - it only supports MySQL
 - [czinc/sqlite](https://gitlab.com/cznic/sqlite) SQLite written purely in Go
-- [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
 
 ### Logging
 
@@ -171,6 +171,10 @@ ____
 
 - [andrewstuart/openai](https://github.com/andrewstuart/openai) OpenAI API
   wrapper
+
+### PDF
+
+- [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
 
 ### Others
 
@@ -1556,6 +1560,46 @@ func decodeValid[T Validator](r *http.Request) (T, map[string]string, error) {
 		return v, problems, fmt.Errorf("invalid %T: %d problems", v, len(problems))
 	}
 	return v, nil, nil
+}
+```
+
+#### Handling endpoint dependencies
+
+##### Using closure
+
+```go
+func CreateTweet(db *sql.DB, creatorID int, content string) (*Tweet, error) {
+  row := db.QueryRow("INSERT INTO tweets ...")
+  // more code to follow
+}
+
+func CreateTweetHandler(db *sql.DB) http.HandlerFunc {
+  return func(w http.ResponseWriter, r *http.Request) {
+    return func(w http.ResponseWriter, r *http.Request) {
+      creatorID, content := parseForm(r)
+      tweet, err := CreateTweet(db, creatorID, content)
+      if err != nil {
+        http.Error(w, err.Error(), http.StatusInternalServerError)
+        return
+      }
+      json.NewEncoder(w).Encode(tweet)
+    }
+  }
+}
+```
+
+##### Using a dependency struct
+
+This can be considered when there are multiple dependencies.
+
+```go
+type TweetStorage struct {
+  db *sql.DB
+}
+
+func (ts *TweetStorage) CreateTweet(creatorID int, content string) (*Tweet, error) {
+  row := ts.db.QueryRow("INSERT INTO tweets ...")
+  // more code to follow
 }
 ```
 
