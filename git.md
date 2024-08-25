@@ -1,6 +1,7 @@
+- [Links](#links)
 - [Setup](#setup)
   * [BASH completion](#bash-completion)
-- [Concepts](#concepts)
+  * [Signing commits using SSH key](#signing-commits-using-ssh-key)
 - [Operations](#operations)
   * [New repository](#new-repository)
   * [Forking](#forking)
@@ -12,8 +13,18 @@
   * [Queries](#queries)
   * [Troubleshooting](#troubleshooting-1)
   * [GitHub](#github)
-- [Links](#links)
 ____
+
+## Links
+
+- [GitHub Blog](https://github.blog/)
+- [Set up your YubiKey for Git signing with
+  FIDO2](https://www.youtube.com/watch?v=2M2vKQwbCDk)
+- [Popular git config
+  options](https://jvns.ca/blog/2024/02/16/popular-git-config-options/)
+- [GOTO 2019 • Knowledge is Power: Getting out of Trouble by Understanding Git
+  • Steve Smith](https://www.youtube.com/watch?v=fHLcZGi3yMQ) - on `.git`
+  directory
 
 ## Setup
 
@@ -23,10 +34,30 @@ ____
 2. Copy the file to `/etc/bash_completion.d/` on Linux (on Mac, this requires a bit more work).
 3. On Mac, source the file from the path in step 2 in `~/.bash_profile`.
 
-## Concepts
+### Signing commits using SSH key
 
-- Git does not have a notion of "this commit was made on this branch".
-- [GOTO 2019 • Knowledge is Power: Getting out of Trouble by Understanding Git • Steve Smith](https://www.youtube.com/watch?v=fHLcZGi3yMQ) - on `.git` directory
+Ensure the following configuration is set in `.gitconfig`.
+
+```
+[commit]
+  gpgsign = true
+
+[gpg]
+  format = ssh
+
+[user]
+  signingkey = /path/to/some_ssh.pub
+
+[gpg "ssh"]
+  allowedSignersFile = /path/to/allowed_signers
+```
+
+where `allowed_signers` has the following format
+
+```
+someone@test.com,someoneelse@test.com ssh-ed25519 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFJ6
+someone@test.com,someoneelse@test.com ssh-ed25519 AAAAF2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFJ6
+```
 
 ## Operations
 
@@ -867,10 +898,3 @@ A comment with any of the following keywords:
 - [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 - [Issue and Pull Request templates](https://github.com/blog/2111-issue-and-pull-request-templates)
 
-## Links
-
-- [GitHub Blog](https://github.blog/)
-- [Set up your YubiKey for Git signing with
-  FIDO2](https://www.youtube.com/watch?v=2M2vKQwbCDk)
-- [Popular git config
-  options](https://jvns.ca/blog/2024/02/16/popular-git-config-options/)
