@@ -2,6 +2,7 @@
 - [Concepts](#concepts)
   * [General concepts](#general-concepts)
   * [Retrieval augmented generation (RAG)](#retrieval-augmented-generation-rag)
+  * [Tricks with LLM](#tricks-with-llm)
 - [Machine Learning](#machine-learning)
   * [Links](#links-1)
 - [Tools](#tools)
@@ -61,6 +62,16 @@ ____
         revenue in 2020?" and "What was NVIDIA's revenue in 2023?"
   * grounded generation
     + citing the source of the information in the generated text
+
+## Tricks with LLM
+
+- instead of asking a direct question of selecting the best option, one can ask
+  a model to ask the user with a list of yes/no questions to help narrowing the
+  possible criteria
+- to avoid hallucination, one can ask a model to give chain-of-thought, or to
+  give one step at a time, to help breaking down a complex idea
+- to avoid a model giving a too generic answer, one can specify the model a role
+  (to be some kind of expert)
 
 # Machine Learning
 
