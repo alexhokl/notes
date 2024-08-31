@@ -128,6 +128,8 @@ ____
 ### GUI
 
 - [fyne-io/fyne](https://github.com/fyne-io/fyne) - purely in Go
+  * [introduction](https://www.youtube.com/watch?v=sXKsyuSjJ8o)
+  * cross-platform (including mobile) compilation is available
 - [wailsapp/wails](https://github.com/wailsapp/wails) - combining Go and HTML
 
 ### Kafka
