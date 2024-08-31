@@ -163,6 +163,8 @@ ____
 - いいね (īne) - nice...
 - 面白い (omoshiroi) - interesting
 - 可愛い (kawaii) - cute
+- 気持ちいい (kimochi īi) - feels good
+- 美しい (utsukushī) - beautiful
 
 ## Positions
 
