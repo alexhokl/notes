@@ -6,6 +6,7 @@
 - [Machine Learning](#machine-learning)
   * [Links](#links-1)
 - [Tools](#tools)
+  * [GitHub Copilot](#github-copilot)
   * [yt-dlp](#yt-dlp)
   * [whisper](#whisper)
     + [Links](#links-2)
@@ -85,6 +86,10 @@ ____
   - a lecture series on machine learning
 
 # Tools
+
+## GitHub Copilot
+
+- the opened tabs will be sent as context to the model
 
 ## yt-dlp
 
