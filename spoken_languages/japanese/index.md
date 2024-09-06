@@ -1,4 +1,5 @@
 - [Links](#links)
+- [Pronunciation](#pronunciation)
 - [Situations](#situations)
   * [Restaurant](#restaurant)
   * [Convience store](#convience-store)
@@ -27,6 +28,11 @@ ____
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 - [WHAT IS けど ?](https://www.tofugu.com/japanese/kedo/)
 - [Kana quiz](https://kana-quiz.tofugu.com/)
+
+# Pronunciation
+
+- ら (ra), り (ri), る (ru), れ (re), ろ (ro) - `r` is pronounced as `l`
+- を (wo) - `wo` is pronounced as `o`
 
 # Situations
 

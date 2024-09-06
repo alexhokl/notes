@@ -9,7 +9,7 @@ ____
 
 - は (wa) - as for
 - が (ga) - subject marker
-- を (o) - object marker
+- を (wo) - object marker
 - で (de) - place of action
 - に (ni) - destination or place of existence
 - と (to) - and (between nouns)
