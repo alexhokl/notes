@@ -1,8 +1,6 @@
 - [Libraries](#libraries)
 - [.NET Core](#net-core)
     + [Links](#links)
-    + [Porting](#porting)
-    + [Upgrade](#upgrade)
     + [Tools](#tools)
     + [.NET CLI](#net-cli)
     + [Visual Studio](#visual-studio)
@@ -27,8 +25,6 @@
     + [Regular Expression (regex)](#regular-expression-regex)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
-    + [dotnet/codeformatter](#dotnetcodeformatter)
-    + [Software](#software)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
     + [Generics](#generics)
@@ -686,6 +682,13 @@ public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
 ```
 
 Note that the default timeout is 5 seconds.
+
+##### Clean architecture
+
+- [ardlis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
+- `dotnet new install Ardalis.CleanArchitecture.Template` to install template
+  for creating a new solution
+- `dotnet new clean-arch -o YourNameSpace.SolutionName` to create a new solution
 
 ### [Entity Framework](./entity-framework.md)
 
