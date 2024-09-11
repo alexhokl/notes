@@ -296,9 +296,13 @@ To find out the commit where unit tests are broken
 
 ```sh
 git bisect start
-git bisect good your-parent-commit
-git bisect run make test
+git bisect good good-commit-ref
+git bisect bad bad-commit-ref
+make test
+git bisect good # if tests passed
 ```
+
+Once the commit is found, use `git bisect reset` to exit the bisect mode.
 
 ##### Stash
 
