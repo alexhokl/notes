@@ -59,20 +59,25 @@ d (t)   | z (s)
   * 学ぶ まなぶ (manabu) (not an example for small tsu)
 
 - 長音 (chōon) - long vowel
-  * 母 かあ (kā)
-  * 父 とう (tō)
-  * 兄 にい (nī)
-  * 空気 くうき (kūki)
-  * また来週 またらいしゅう (mata raishū) - see you next week
-  * 英語 えいご (ēgo)
-  * 時計 とけい (tokē)
-  * 豆腐 とうふ (tōfu)
-  * 通 つう (tsū)
-  * 料理 りょうり (ryōri)
-  * 大きい おおきい (ōkī) - big
-  * 十 とお (tō) - tenth
-  * 氷 こおり (kōri) - ice
-  * カード (kādo) - card
+  * `aa` is written as `ā`
+    + 母 かあ (kā)
+    + カード (kādo) - card
+  * `ii` is written as `ī`
+    + 兄 にい (nī)
+  * `uu` is written as `ū`
+    + 空気 くうき (kūki)
+    + また来週 またらいしゅう (mata raishū) - see you next week
+    + 通 つう (tsū)
+  * `ei` is written as `ē`
+    + 英語 えいご (ēgo)
+    + 時計 とけい (tokē)
+  * `ou` is written as `ō`
+    + 父 とう (tō)
+    + 豆腐 とうふ (tōfu)
+    + 料理 りょうり (ryōri)
+    + 大きい おおきい (ōkī) - big
+    + 十 とお (tō) - tenth
+    + 氷 こおり (kōri) - ice
 
 - 鼻濁音 (bidadakuon) - nasal sound
   * が (nga)

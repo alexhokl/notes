@@ -13,10 +13,12 @@ ____
   * The difficulty of translating katakana to sounds
   * <kbd>space</kbd> to select options
   * <kbd>enter</kbd> to confirm
-  * `nn` to type `n` (`ん`)
-  * `ou` to type `ō` (`おう`)
-  * `ei` to type `ē` (`えい`)
-  * `ii` to type `ī` (`いい`)
+  * `aa` to type `ā`
+  * `ii` to type `ī`
+  * `uu` to type `ū`
+  * `ei` to type `ē`
+  * `ou` to type `ō`
+  * `nn` to type `n`
 - 12 keys on mobile
   * consonants are listed from left to right and from top to bottom
   * on pressing and drag
