@@ -70,10 +70,14 @@ ____
 
 ## Conversation
 
+- 初めまして (hajimemashite) - nice to meet you
+- どうぞ 宜しく お願います (dōzo yoroshiku onegaishimasu) - please take care of me
+- ありがとう ございます (arigatō gozaimasu) - thank you
+- どう 致しまして (dō itashimashite) - you're welcome
+- おめでとう ございます somedetō gozaimasu) - congratulations
 - も一度いいですか？ (mo ichido īdesu ka?) - one more time, is it okay?
 - 日本語がわかりません (nihongo ga wakarimasen) - I don't understand Japanese
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
-- どーぞよろしく (dōzo yoroshiku) - please take care of me (nice to meet you)
 
 ## Drinks
 
