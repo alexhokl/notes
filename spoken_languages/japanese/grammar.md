@@ -105,23 +105,23 @@ ____
 
 ### 五段動詞
 
-| chart line | Japanese | Romaji | English |
-| --- | --- | --- | --- |
-| あ ｜聞かない | ki`ka`nai | not listen |
-| い ｜聞きます | ki`ki`masu | listen (polite) |
-| う ｜聞く | ki`ku` | listen (plain) |
-| え ｜聞ける | ki`ke`ru | can listen |
-| お ｜聞こう | ki`ko`u | let's listen |
+ | chart line | Japanese | Romaji     | English         |
+ | ---        | ---      | ---        | ---             |
+ | あ         | 聞かない | ki`ka`nai  | not listen      |
+ | い         | 聞きます | ki`ki`masu | listen (polite) |
+ | う         | 聞く     | ki`ku`     | listen (plain)  |
+ | え         | 聞ける   | ki`ke`ru   | can listen      |
+ | お         | 聞こう   | ki`ko`u    | let's listen    |
 
 ### 一段動詞
 
-| Japanese | Romaji | English |
-| --- | --- | --- |
-| 食べたい | `tabe`nai | not eat |
-| 食べます | `tabe`masu | eat (polite) |
-| 食べる | `tabe`ru | eat (plain) |
-| 食べられる | `tabe`rareru | can eat |
-| 食べよう | `tabe`you | let's eat |
+ | Japanese   | Romaji       | English      |
+ | ---        | ---          | ---          |
+ | 食べたい   | `tabe`nai    | not eat      |
+ | 食べます   | `tabe`masu   | eat (polite) |
+ | 食べる     | `tabe`ru     | eat (plain)  |
+ | 食べられる | `tabe`rareru | can eat      |
+ | 食べよう   | `tabe`you    | let's eat    |
 
 ### 五段動詞 and 一段動詞
 
