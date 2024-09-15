@@ -9,7 +9,8 @@ ____
 
 ## References
 
-- [Sentence and clauses](https://www.tofugu.com/japanese-grammar/sentences-and-clauses/)
+- [Sentence and
+  clauses](https://www.tofugu.com/japanese-grammar/sentences-and-clauses/)
 
 ## Sentence structure
 
@@ -50,9 +51,14 @@ ____
 #### Noun modification
 
 - `可愛い`猫 (kawaii neko) - cute cat
-- `スーパーの前で拾った`猫 (sūpā no mae de hirotta neko) - the cat that I found in front of the supermarket
-- 残念ながら、`スーパーの前で拾った`猫が逃げたんだ。 (zannen nagara, sūpā no mae de hirotta neko ga nigetan da) - Unfortunately, the cat that I found in front of the supermarket ran away.
-- `スーパーの前で拾った`猫が`お母さんからもらった`ランプを壊した。 (sūpā no mae de hirotta neko ga okāsan kara moratta ranpu o kowashita) - The cat that I found in front of the supermarket broke the lamp that I got from my mother.
+- `スーパーの前で拾った`猫 (sūpā no mae de hirotta neko) - the cat that I found
+  in front of the supermarket
+- 残念ながら、`スーパーの前で拾った`猫が逃げたんだ。 (zannen nagara, sūpā no mae
+  de hirotta neko ga nigetan da) - Unfortunately, the cat that I found in front
+  of the supermarket ran away.
+- `スーパーの前で拾った`猫が`お母さんからもらった`ランプを壊した。 (sūpā no mae
+  de hirotta neko ga okāsan kara moratta ranpu o kowashita) - The cat that
+  I found in front of the supermarket broke the lamp that I got from my mother.
 
 #### Politeness markers
 
@@ -60,9 +66,169 @@ ____
 - `ます`
 - in complex sentences with multiple politeness markers, only the last one needs
   to be kept and others can be replaced `です` by `だ`
-  * example: 桜が満開`だ`から、お花見に行き`ます`。 (sakura ga mankai da kara, ohanami ni ikimasu) - The cherry blossoms are in full bloom, so I'm going to see them.
+  * example: 桜が満開`だ`から、お花見に行き`ます`。 (sakura ga mankai da kara,
+    ohanami ni ikimasu) - The cherry blossoms are in full bloom, so I'm going to
+    see them.
 - in spoken quotation, `です`っっ and `ます` cannot be used and `だ` is used instead
-  * example: 近所の人から桜が満開`だ`と教えてもらった。 (kinjo no hito kara sakura ga mankai da to oshiete moratta) - A neighbor told me that the cherry blossoms were in full bloom.
+  * example: 近所の人から桜が満開`だ`と教えてもらった。 (kinjo no hito kara
+    sakura ga mankai da to oshiete moratta) - A neighbor told me that the cherry
+    blossoms were in full bloom.
+
+## Verb forms
+
+| Form              | Affirmative                 | Negative                             |
+| ---               | ---                         | ---                                  |
+| Non-past          | 聞く (kiku)                 | 聞かない (kikanai)                   |
+| Non-past, polite  | 聞きます (kikimasu)         | 聞きません (kikimasen)               |
+| Past              | 聞いた (kiita)              | 聞かなかった (kikanakatta)           |
+| Past, polite      | 聞きました (kikimashita)    | 聞きませんでした (kikimasen deshita) |
+| Te-form           | 聞いて (kiite)              | 聞かなくて (kikanakute)              |
+| Potential         | 聞ける (kikeru)             | 聞けない (kikenai)                   |
+| Passive           | 聞かれる (kikareru)         | 聞かれない (kikarenai)               |
+| Causative         | 聞かせる (kikaseru)         | 聞かせない (kikasenai)               |
+| Causative Passive | 聞かせられる (kikaserareru) | 聞かせられない (kikaserarenai)       |
+| Imperative        | 聞け (kike)                 | 聞くな (kikuna)                      |
+
+## Verb conjugation
+
+- conjugate
+  * take a varierty of endings
+  * convey verb in the present or past, positive or negative, and more
+- types
+  * 五段動詞 (godan dōshi)
+    + aka うverbs, Group I verbs or consonant-root verbs
+    + as these verbs conjugate, the う-line character will shift through the
+      five vowel sounds in the hiragana chart (あ, い, う, え, お)
+  * 一段動詞 (ichidan dōshi)
+    + aka るverbs, Group II verbs or vowel-root verbs
+  * 変格動詞 (henkaku dōshi) - irregular verbs
+
+### 五段動詞
+
+| chart line | Japanese | Romaji | English |
+| --- | --- | --- | --- |
+| あ ｜聞かない | ki`ka`nai | not listen |
+| い ｜聞きます | ki`ki`masu | listen (polite) |
+| う ｜聞く | ki`ku` | listen (plain) |
+| え ｜聞ける | ki`ke`ru | can listen |
+| お ｜聞こう | ki`ko`u | let's listen |
+
+### 一段動詞
+
+| Japanese | Romaji | English |
+| --- | --- | --- |
+| 食べたい | `tabe`nai | not eat |
+| 食べます | `tabe`masu | eat (polite) |
+| 食べる | `tabe`ru | eat (plain) |
+| 食べられる | `tabe`rareru | can eat |
+| 食べよう | `tabe`you | let's eat |
+
+### 五段動詞 and 一段動詞
+
+#### verbs ended in う
+
+* if the vowel sound that comes before る is `a`, `u`, or `o`, it is
+  `definitely` a 五段動詞
+  + it is likely that the verb is a combination of kanji and る
+  + examples
+    * いる (iru) - to need
+    * 入る (hairu) - to enter
+    * 走る (hashiru) - to run
+    * 帰る (kaeru) - to return
+    * 減る (heru) - to decrease
+    * 喋る (shaberu) - to chat
+* if the vowel sound that comes before る is `e` or `i`, it is `probably` a
+  一段動詞
+  + it is likely that the verb is a combination of 送り仮名 (okurigana) and る
+  + examples
+    * 起きる (okiru) - to wake up
+    * 開ける (akeru) - to open
+    * 食べる (taberu) - to eat
+
+| verb group | Japanese | Romaji    | English       |
+| ---        | ---      | ---       | ---           |
+| 五段動詞   | 分かる   | wak`a`ru  | to understand |
+|            | 作る     | tsuk`u`ru | to make       |
+|            | 折る     | `o`ru     | to fold       |
+| 一段動詞   | 食べる   | tab`e`ru  | to eat        |
+|            | 起きる   | ok`i`ru   | to wake up    |
+
+### 変格動詞
+
+- examples
+  * する (suru) - to do
+  * 来る (kuru) - to come
+
+### Lost of the w sound
+
+- example of pronunciation in the old times
+  * 上 (ue) pronounced as `wuwe`
+  * 田舎 (inaka) pronounced as `winawka`
+  * 買う (kau) pronounced as `kawu`
+
+| conjugation form | Japanese | Romaji     | remarks            |
+| ---              | ---      | ---        | ---                |
+| negative (plain) | 買わない | ka`wa`nai  |                    |
+| polite           | 買います | kaimasu    | normal conjugation |
+| plain            | 買う     | kau        | normal conjugation |
+| active           | 買おう   | kaiou      | normal conjugation |
+| passive          | 買われる | ka`wa`reru |                    |
+| causative        | 買わせる | ka`wa`seru |                    |
+
+Note that all other conjugations of 買う use hiragana characters on the
+あいうえお line.
+
+### Sound convenience in conjugations
+
+- there is a concept in Japanese linguistics called 音便 (おんびん), which
+  refers to changes in pronunciation that occur to make a word easier to say
+- 五段動詞
+  * て form
+  * past tense suffix た
+  * suffix たら
+  * suffix たり
+- rules
+  * double consonant
+    + when small っ pops up in a conjugation
+  * assimilation
+    + when two sounds blend together into ん
+  * consonant removal
+    + when a consonant disappears
+
+#### double consonant with Small っ
+
+- the double consonant (small っ) is used when a verb root ends in `w`, `t`, or
+  `r`
+
+| verb | root     | expected て form | actual て form |
+| ---  | ---      | ---              | ---            |
+| 買う | ka(`w`)  | 買いて           | 買って         |
+| 持つ | mo`t`(s) | 持ちて           | 持って         |
+| 降る | fu`r`    | 降りて           | 降って         |
+
+#### assimilation with ん
+
+- the ん character is used when a verb stem ends in `m`, `n` or `b`
+- by dropping the verb stem ending sound, replacing it with ん, and transforming
+  the `t` to a `d`
+
+| verb | root     | expected て form | actual て form |
+| ---  | ---      | ---              | ---            |
+| 飲む | no`m`    | 飲みて           | 飲んで         |
+| 死ぬ | shi`n`   | 死にて           | 死んで         |
+| 呼ぶ | yo`b`    | 呼びて           | 呼んで         |
+
+#### consonant removal
+
+- if the verb root ended in `k`, the verb ending would be attached with a `t`
+  sound
+- if the verb root ended in `g`, the verb ending would be attached with a `d`
+  sound
+
+| verb | root     | expected て form | actual て form |
+| ---  | ---      | ---              | ---            |
+| 聞く | ki`k`    | 聞きて           | 聞いて         |
+| 急ぐ | iso`g`   | 急いて           | 急いで         |
 
 ## Particles (助詞)
 

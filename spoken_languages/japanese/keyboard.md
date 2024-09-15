@@ -19,6 +19,7 @@ ____
   * `ei` to type `ē`
   * `ou` to type `ō`
   * `nn` to type `n`
+  * `xtsu` to type `っ` (and similar for other 小さい (small) kana)
 - 12 keys on mobile
   * consonants are listed from left to right and from top to bottom
   * on pressing and drag

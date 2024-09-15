@@ -28,6 +28,11 @@ ____
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 - [WHAT IS けど ?](https://www.tofugu.com/japanese/kedo/)
 - [Kana quiz](https://kana-quiz.tofugu.com/)
+- [Conjugation practice](https://baileysnyder.com/jconj/)
+- [Japanese Conjunction
+  City](https://play.google.com/store/apps/details?id=stoicknight.japaneseconjugation) - Android app
+- [jisho.org](https://jisho.org/) - Japanese-English dictionary and it is
+  especially useful in checking verb forms
 
 # Situations
 
@@ -171,6 +176,7 @@ ____
 - 可愛い (kawaii) - cute
 - 気持ちいい (kimochi īi) - feels good
 - 美しい (utsukushī) - beautiful
+- 素晴らしい (subarashī) - wonderful
 
 ## Positions
 
