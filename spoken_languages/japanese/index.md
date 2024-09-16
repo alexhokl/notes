@@ -194,3 +194,7 @@ ____
 - ここ (koko) - here
 - そこ (soko) - there
 
+## Academic
+
+- 勉強する (benkyō suru) - to study
+
