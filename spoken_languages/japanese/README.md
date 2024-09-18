@@ -2,6 +2,9 @@
 - [Situations](#situations)
   * [Restaurant](#restaurant)
   * [Food](#food)
+    + [Fish](#fish)
+    + [Shellfish](#shellfish)
+    + [Other seafood](#other-seafood)
   * [Convience store](#convience-store)
   * [Payment](#payment)
   * [Conversation](#conversation)
@@ -9,10 +12,12 @@
   * [Food](#food-1)
   * [Transportation](#transportation)
     + [Trains](#trains)
+  * [Date](#date)
+  * [Time](#time)
+    + [Approximate time](#approximate-time)
   * [Days of week](#days-of-week)
   * [Day](#day)
   * [Numbers](#numbers)
-  * [Time](#time)
   * [Colours](#colours)
   * [Feelings](#feelings)
   * [Positions](#positions)
@@ -43,6 +48,8 @@ ____
 - [Learn Japanese: A Ridiculous detailed
   guide](https://www.tofugu.com/learn-japanese/) - contains steps to learn
 - [NHK World Easy Japanese](https://www.nhk.or.jp/lesson/en/lessons/) - lessons
+- [Western calendar year convert to Japanese
+  year](https://www.sljfaq.org/afaq/dates.html)
 
 # Situations
 
@@ -63,6 +70,51 @@ ____
 - ご飯 (gohan) - rice
 - パスタ (pasuta) - pasta
 - クッキー (kukkī) - cookie
+- 玉ねぎ (たまねぎ) - onion
+
+### Fish
+
+- 鯖 (さば) - mackerel
+- 鮪 (まぐろ) - tuna
+- 本鮪 (ほんまぐろ) - bluefin tuna
+- とろ - fatty cut of tuna
+- 中トロ (ちゅうとろ) - medium fatty cut of tuna
+- 大トロ (おおとろ) - fatty cut of tuna
+- 鮃 (ひらめ) - flounder
+- 新烏賊 (しんいか) - squid
+- 墨烏賊 (すみいか) - cuttlefish
+- 鰤 (ぶり) - yellowtail
+- 平政 (ひらまさ) - yellowtail amberjack
+- 間八 (かまはち) - greater amberjack
+- 縞鯵 (しまあじ) - striped jack (striped horse mackerel)
+- 鯵 (あじ) - horse mackerel
+- 鰯 (いわし) - sardine
+- 新子 (しんこ) - juvenile gizzard shad
+- 小鰭 (こびれ) - mid-sized konoshiro gizzard shad
+- 鰹 (かつお) - bonito (skipjack tuna)
+- 真子鰈 (まこがれい) - marbled sole
+- 針魚 (さより) - halfbeak
+- 穴子 (あなご) - conger eel
+- シーバス - sea bass
+- ハドック - haddock
+- マス - trout
+
+### Shellfish
+
+- 鳥貝 (とりがい) - cockle
+- 赤貝 (あかがい) - red clam
+- 鮑 (あわび) - abalone
+- 蛤 (はまぐり) - clam
+
+### Other seafood
+
+- 車海老 (くるまえび) - tiger prawn
+- 蝦蛄 (しゃこ) - mantis shrimp
+- 蛸 (たこ) - octopus
+- 海胆 (ウニ) - sea urchin
+- 小柱 (こばしら) - baby scallop
+- イクラ - salmon roe
+- 朧 (おぼろ) - crumbled shrimp paste
 
 ## Convience store
 
@@ -100,6 +152,7 @@ ____
 - ちょっと日本語がわかる (chotto nihongo ga wakaru) - I understand a little
   Japanese
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
+- 皆さん (みなさん) - everyone
 
 ## Drinks
 
@@ -120,6 +173,7 @@ ____
 
 - 渋谷までお願いします (shibuya made onegaishimasu) - Shibuya to please
 - まもなく電車が参ります。黄色い線の内側煮立ってお待ちください (mamonaku densha ga mairimasu. kiiroi sen no uchigawa ni tatte omachikudasai) - soon train is coming. yellow line inside by standing wait please
+- 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
 
 ### Trains
 
@@ -132,6 +186,123 @@ ____
 - 特急 (tokkyū) - Limited Express
   * this train stops at the fewest stations. In most cases, you can ride limited
     express trains without paying special fares, but there are exceptions.
+
+## Date
+
+- format
+  * year month day (weekday)
+- 年 (ねん)
+- 月 (がつ)
+- 日 (にち)
+- 曜日 (ようび)
+- 何年 (なんねん) - what year
+- 何月 (なんがつ) - what month
+- 何日 (なんにち) - what day
+- 何曜日 (なんようび) - what day of the week
+- 西暦 (せいれき) - Western calendar
+- counting months ケ月
+  * 五ケ月 - 5 months
+
+| 年号 (ねんごう)   | Year |
+| ---               | ---  |
+| 令和 (れいわ)     | 2019 |
+| 平成 (へいせい)   | 1989 |
+| 昭和 (しょうわ)   | 1926 |
+| 大正 (たいしょう) | 1912 |
+| 明治 (めいじ)     | 1868 |
+
+| 月 (がつ)                      | Month     |
+| ---                            | ---       |
+| 四月 (`し`がつ)                | April     |
+| 七月 (`しち`がつ / `なな`がつ) | July      |
+| 九月 (`く`がつ)                | September |
+| 十月 (`じゅう`がつ)            | October   |
+| 十一月 (`じゅういち`がつ)      | November  |
+| 十二月 (`じゅうに`がつ)        | December  |
+
+ | 日 (にち) | Reading               |
+ | ---       | ---                   |
+ | 一日      | `つい`たち / `いっぴ` |
+ | 二日      | `ふつか`              |
+ | 三日      | `みっか`              |
+ | 四日      | `よっか`              |
+ | 五日      | `いつか`              |
+ | 六日      | `むいか`              |
+ | 七日      | `なのか`              |
+ | 八日      | `ようか`              |
+ | 九日      | `ここのか`            |
+ | 十日      | `とおか`              |
+ | 十一日    | `じゅういち`にち      |
+ | 十四日    | `じゅうよっか`        |
+ | 十九日    | `じゅうく`にち        |
+ | 二十日    | `はつか`              |
+ | 二十四日  | `にじゅうよっか`      |
+ | 二十九日  | `にじゅうく`にち      |
+ | 三十日    | `さんじゅう`にち      |
+
+## Time
+
+- 分 (ふん) - minute
+  * it can be pronounced as ぷん due to 連濁 (れんだく)
+- 八時四十 分(hachi-ji yon-jū-pun) - 8:40
+- 2時間40分 (ni-jikan yon-jū-pun) - 2 hours 40 minutes
+- 午前 (ごぜん) - AM
+- 午後 (ごご) - PM
+- Interestingly, times beyond midnight after the 24-hour mark can also be
+  counted continuously sometimes. This often occurs when the activity from
+  before midnight extends past midnight, indicating that your day has kept on
+  extending past the 24-hour threshold.
+  * example
+    + a radio program that starts at 1:00 and ends at 2:00 in the morning might
+      say it starts at 25:00 and ends at 26:00 on their time table
+- 午前零時 - midnight
+- 午後零時 - noon
+
+ | Hour     | Reading                         |
+ | ---      | ---                             |
+ | 四時     | `よ`じ                          |
+ | 七時     | `しち`じ / `なな`じ             |
+ | 九時     | `く`じ                          |
+ | 十時     | `じゅう`じ                      |
+ | 十四時   | `じゅうよ`じ                    |
+ | 十七時   | `じゅうしち`じ / `じゅうなな`じ |
+ | 十九時   | `じゅうく`じ                    |
+ | 二十時   | `にじゅう`じ                    |
+ | 二十四時 | `にじゅうよ`じ                  |
+ | 零時     | `れい`じ                        |
+ | 九時半   | `く`じ `はん`                   |
+
+### Approximate time
+
+- suffix くらい or 頃 (ごろ) can be used to indicate approximate time
+  * 頃 is more formal than くらい
+  * examples
+    + 七時`くらい`にそっちに行くね。 - I'll be there around 7.
+    + 七時`頃`にそちらに伺います。 - I'll be there around 7.
+  * 連濁 (れんだく) applies to both くらい and 頃
+    + くらい can be pronounced as ぐらい
+    + 頃 can be pronounced as ごろ
+- くらい can also approximate durations
+  * particle に is required to indicate the point in time; the sentence would
+    refer to a duration, otherwise
+  * examples
+    + 四十五分くらい`に`バスに乗るね！ - I'll get on the bus around 45 minutes
+      (of the hour).
+    + 四十五分くらいバスに乗るね！ - I'll get on the bus around 45 minutes
+      (duration).
+- 頃 can only denotes approximate point in time
+  * examples
+    + 四十五分頃（に）バスに乗るね！- I'll get on the bus around 45 minutes
+      (of the hour).
+- before a certain time
+  * 二時間`前`にバス停に来た。 - I came to the bus stop 2 hours ago.
+- shortly before
+  * 二時`前`にバス停に来た。 - I came to the bus stop shortly before 2.
+- shortly after
+  * 二時`過ぎ`にバスが来た。 - The bus came shortly after 2.
+  * it is also common to write this in kana as 二時`すぎ`
+- after a certain time
+  * 二時間`後`にバスが来た。 - The bus came 2 hours later.
 
 ## Days of week
 
@@ -165,11 +336,6 @@ ____
 - 百 (hyaku) - 100
 - 千 (sen) - 1000
 - 万 (man) - 10000
-
-## Time
-
-- 八時四十分 (hachi-ji yon-jū-pun) - 8:40
-- 2時間40分 (ni-jikan yon-jū-pun) - 2 hours 40 minutes
 
 ## Colours
 
