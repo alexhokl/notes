@@ -1,20 +1,27 @@
 - [Links](#links)
 - [Situations](#situations)
   * [Restaurant](#restaurant)
+  * [Food](#food)
   * [Convience store](#convience-store)
   * [Payment](#payment)
   * [Conversation](#conversation)
   * [Drinks](#drinks)
-  * [Food](#food)
+  * [Food](#food-1)
   * [Transportation](#transportation)
     + [Trains](#trains)
   * [Days of week](#days-of-week)
+  * [Day](#day)
   * [Numbers](#numbers)
   * [Time](#time)
-  * [Day](#day)
   * [Colours](#colours)
   * [Feelings](#feelings)
   * [Positions](#positions)
+  * [Academic](#academic)
+  * [Countries](#countries)
+  * [Football](#football)
+  * [Driving](#driving)
+  * [Animals](#animals)
+  * [Relative pronouns](#relative-pronouns)
 ____
 
 # Links
@@ -33,6 +40,9 @@ ____
   City](https://play.google.com/store/apps/details?id=stoicknight.japaneseconjugation) - Android app
 - [jisho.org](https://jisho.org/) - Japanese-English dictionary and it is
   especially useful in checking verb forms
+- [Learn Japanese: A Ridiculous detailed
+  guide](https://www.tofugu.com/learn-japanese/) - contains steps to learn
+- [NHK World Easy Japanese](https://www.nhk.or.jp/lesson/en/lessons/) - lessons
 
 # Situations
 
@@ -47,7 +57,12 @@ ____
 - 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
 - 五名です (go mei desu) - there are 5 people
 - 定食 (teishoku) - set meal
+
+## Food
+
 - ご飯 (gohan) - rice
+- パスタ (pasuta) - pasta
+- クッキー (kukkī) - cookie
 
 ## Convience store
 
@@ -82,6 +97,8 @@ ____
 - おめでとう ございます somedetō gozaimasu) - congratulations
 - も一度いいですか？ (mo ichido īdesu ka?) - one more time, is it okay?
 - 日本語がわかりません (nihongo ga wakarimasen) - I don't understand Japanese
+- ちょっと日本語がわかる (chotto nihongo ga wakaru) - I understand a little
+  Japanese
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
 
 ## Drinks
@@ -122,9 +139,16 @@ ____
 - 火曜日 (kayōbi) - Tuesday
 - 水曜日 (suiyōbi) - Wednesday
 - 木曜日 (mokuyōbi) - Thursday
-- 金曜日 (kin'yōbi) - Friday
+- 金曜日 (kinyōbi) - Friday
 - 土曜日 (doyōbi) - Saturday
 - 日曜日 (nichiyōbi) - Sunday
+
+## Day
+
+- 本日 (honjitsu) - today
+- 今日 (kyō) - today
+- 明日 (ashita) - tomorrow
+- 昨日 (kinō) - yesterday
 
 ## Numbers
 
@@ -146,13 +170,6 @@ ____
 
 - 八時四十分 (hachi-ji yon-jū-pun) - 8:40
 - 2時間40分 (ni-jikan yon-jū-pun) - 2 hours 40 minutes
-
-## Day
-
-- 本日 (honjitsu) - today
-- 今日 (kyō) - today
-- 明日 (ashita) - tomorrow
-- 昨日 (kinō) - yesterday
 
 ## Colours
 
@@ -177,6 +194,13 @@ ____
 - 気持ちいい (kimochi īi) - feels good
 - 美しい (utsukushī) - beautiful
 - 素晴らしい (subarashī) - wonderful
+- 素敵 (suteki) - lovely; wonderful; nice
+- 疲れる (tsukareru) - to get tired
+- やった (yatta) - yay!
+- 残念 (zannen) - unfortunate
+- 大好き (daisuki) - loveable
+- 欲しい (hoshī) - desired
+- 嫌い (kirai) - detestable
 
 ## Positions
 
@@ -198,3 +222,62 @@ ____
 
 - 勉強する (benkyō suru) - to study
 
+## Countries
+
+- 中国 (chūgoku) - China
+- スペイン (supein) - Spain
+- スイス (suisu) - Switzerland
+
+## Football
+
+- ゴール (gōru) - goal
+- シュート (shūto) - shoot
+- パス (pasu) - pass
+- ドリブル (doriburu) - dribble
+- タックル (takkuru) - tackle
+- オフサイド (ofusaido) - offside
+- フリーキック (furīkikku) - free kick
+- ペナルティーキック (penarutīkikku) - penalty kick
+- ゴールキーパー (gōru kīpā) - goalkeeper
+- ディフェンダー (difendā) - defender
+- ミッドフィルダー (midofirudā) - midfielder
+- フォワード (fowādo) - forward
+- チーム (chīmu) - team
+- ワールドカップ (wārudokappu) - World Cup
+- チャンピオンズリーグ (chanpionzurīgu) - Champions League
+- プレミアリーグ (puremiarīgu) - Premier League
+- ラ・リーガ (ra rīga) - La Liga
+- セリエA (serieA) - Serie A
+- ブンデスリーガ (bunderusurīga) - Bundesliga
+
+## Driving
+
+- マニュアル (manyuaru) - manual
+- オートマチック (ōtomachikku) - automatic
+
+## Animals
+
+- 犬 (inu) - dog
+- 猫 (neko) - cat
+- 鳥 (tori) - bird
+- 魚 (sakana) - fish
+- 豚 (buta) - pig
+- 牛 (ushi) - cow
+- 馬 (uma) - horse
+- ラブラドール (raburadōru) - Labrador
+
+## Relative pronouns
+
+- これ (kore) - this
+- この (kono) - this
+- それ (sore) - that
+- その (sono) - that
+- あれ (are) - that (over there)
+- あの (ano) - that (over there)
+- どれ (dore) - which
+- どの (dono) - which
+- ここ (koko) - here
+- そこ (soko) - there
+- あそこ (asoko) - over there
+- どこ (doko) - where
+- だれ (dare) - who

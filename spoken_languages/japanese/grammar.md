@@ -2,8 +2,18 @@
 - [Sentence structure](#sentence-structure)
   * [Simple sentence](#simple-sentence)
   * [Complex sentence](#complex-sentence)
+- [Verb forms](#verb-forms)
+  * [Plain form](#plain-form)
+- [Verb conjugation](#verb-conjugation)
+  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
+  * [Lost of the w sound](#lost-of-the-w-sound)
+  * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
+  * [が](#%E3%81%8C)
 - [Conjunctions](#conjunctions)
 ____
 
@@ -88,6 +98,41 @@ ____
 | Causative         | 聞かせる (kikaseru)         | 聞かせない (kikasenai)               |
 | Causative Passive | 聞かせられる (kikaserareru) | 聞かせられない (kikaserarenai)       |
 | Imperative        | 聞け (kike)                 | 聞くな (kikuna)                      |
+
+### Plain form
+
+- aka non-past form, dictionary form る form
+- express present, habitual and future actions
+- ends with `u` sound (such as 飲む、使う、する)
+- examples
+  * 兄は毎日パスタを`食べる`。 (My brother eats pasta everyday.)
+  * 兄は明日パスタを`食べる`。 (My brother will eat pasta tomorrow.)
+- if there are no context clues, more often than not the plain present form is
+  used to talk about the future
+  * examples
+    + パーティーをする。 (I will throw a party.)
+    + 飲む？ (Will you drink it?)
+      + 飲む！ (I will drink it!)
+- hibits, facts or generalisations
+  * if the speaker believes it is a fact, whether it is actually true or false
+    does not really matter
+  * examples
+    + 朝は、いつもサンドイッチを`食べる`。 (I always eat sandwiches in the
+      morning.)
+    + 水は100度で`沸騰する`。 (Water boils at 100 celsius.)
+    + ラブラドールはよく`食べる`。 (Labradors eat well.)
+  * if the fact or generalization is something that is continuously happening,
+    it is more common to think of it as a repeated action with the focus on its
+    continuity using the `ている` form of the verb
+    + 月は地球の周りを`回っている`。 (The moon revolves around the earth.)
+    + 兄はパソコンを三台も`持つ`。 (My brother has three computers from now on.)
+    + 兄はパソコンを三台も`持っている`。 (My brother has three computers.)
+- politness
+  * examples
+    + non-polite
+      + クッキー`食べる`？ (Will you eat some cookies?)
+    + polite
+      + クッキー`食べますか`？ (Would you like to eat some cookies?)
 
 ## Verb conjugation
 
@@ -253,6 +298,78 @@ Osaka and Kyoto, for example
 - 日本`は`大坂`が`有名です (nihon wa ōsaka ga yūmei desu) - As for Japan, Osaka
   is famous
 - 大坂`を`知っていますか？ (ōsaka o shitteimasu ka?) - Do you know Osaka?
+
+### が
+
+- marks the subject of a sentence
+  * person
+  * thing
+- basics
+  * どの方`が`トーフグの社長さんですか？ (Which person is the president of
+    Tofugu?)
+    + 私`が`社長です。 (I am the president.)
+- subject omission is extremely common in Japanese when we know what that
+  subject is from context
+- even when the subject is included, it is really common to omit が in informal
+  speaking, as well as writing that closely resembles spoken styles, like casual
+  text messages
+  * It is also possible to omit が in polite speaking. in this case there is
+    little or no difference in the nuance. It simply comes down to the
+    individual preference.
+- が with verb-like adjectives
+  * in English, the objects of our desire or distaste are exactly that — objects
+    + in Japanese, however, they can be considered subjects, because they are
+      the ones that are desirable, or detestable.
+  * examples
+    + 梅干`が`大好き。 (Umeboshi is loveable.)
+    + 小犬`が`欲しい。 (A puppy is desired.)
+    + そういうの`が`嫌いだよ。 (That sort of thing is detestable.)
+  * in English, "want" is a verb that generally takes an object. You want
+    something. That thing is the object, and you are the subject.
+    * in Japanese, to say that you want to do something in Japanese, you can
+      change the verb into the たい form, as in 食べたい (I want to eat)
+    * examples
+      + 梅干`が`食べたい。 (I want to eat umeboshi.)
+        + い is the clue that is form has basically "become" an い adjective
+        + it is totally possible to say 梅干`を`食べたい
+          + if を you are not craving pickled plums, but you are more
+            practically thinking about eating some
+          + the sentence with が, on the other hand, implies that you have
+            a spontaneous desire to eat pickled plums, which may or may not be
+            fulfilled
+- が with verbs that describe states
+  * examples
+    + 日本語`が`分かる。 (Japanese is comprehensible to me.)
+    + それ`が`できる。 (That is doable for me.)
+    + その人`が`見える。 (That person is visible to me.)
+    + 音楽`が`聞こえる。 (Music is audible to me.)
+- が with verbs for "exist"
+  * ある (to exist) (for a non-living thing)
+  * いる (to exist) (for a living thing)
+  * examples
+    + 私（に）は夢`が`ある。 (A dream exists for me.)
+    + かなえ（に）は可愛い犬`が`いる。 (Kanae has a cute dog.)
+    + まみ（に）は素敵な子供`が`二人いる。 (Mami has two lovely kids.)
+- が in relative clauses
+  * examples
+    + スミスさん`は`お金を見つけた。 (Mr Smith found some money.)
+      + (スミスさん`が`見つけた)お金だ。 (That is the money (that Mr Smith
+        found).)
+      + (スミスさん`の`見つけた)お金だ。 (That is the money (that Mr Smith
+        found).)
+    + スイス`は`物価が高い。 (As for Switzerland, the prices are high.)
+      + スイス`は`(物価`が`高い)国だ。 (As for Switzerland, it is a country that
+        has high prices.)
+      + スイス`は`(物価`の`高い国)だ。 (As for Switzerland, it is a country that
+        has high prices.m
+- が in embedded clauses
+  * examples
+    + 犬`は`吠えました。 (The dog barked.)
+      + 犬`が`吠えたと言いました。 (They said that the dog had barked.)
+- two subjects with が
+  * examples
+    + スイスが物価が高い。 (It is Switzerland that has a high cost of living.)
+      + the examples streses Switzerland
 
 ## Conjunctions
 
