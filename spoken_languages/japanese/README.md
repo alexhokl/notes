@@ -71,6 +71,8 @@ ____
 - パスタ (pasuta) - pasta
 - クッキー (kukkī) - cookie
 - 玉ねぎ (たまねぎ) - onion
+- 牡蠣 (かき) - oyster
+- 生牡蠣 (なまがき) - raw oyster
 
 ### Fish
 

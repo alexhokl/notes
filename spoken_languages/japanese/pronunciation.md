@@ -7,6 +7,7 @@
   * [長音 (chōon) - long vowel](#%E9%95%B7%E9%9F%B3-choon---long-vowel)
   * [鼻濁音 (bidadakuon) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-bidadakuon---nasal-sound)
   * [音読み and 訓読み (onyomi and kunyomi)](#%E9%9F%B3%E8%AA%AD%E3%81%BF-and-%E8%A8%93%E8%AA%AD%E3%81%BF-onyomi-and-kunyomi)
+  * [連濁 (Rendaku)](#%E9%80%A3%E6%BF%81-rendaku)
 ____
 
 # Pronunciation
@@ -151,3 +152,91 @@ d (t)   | z (s)
   * just learn one reading per kanji
   * choose the "best" kanji reading to learn
   * learn other readings through vocabulary
+
+## 連濁 (Rendaku)
+
+- aka "sequential voicing"
+- when two or more words join together to form one word, and the initial
+  consonant of the second word becomes voiced
+- un-related facts
+  * `k` and `s` are unvoiced consonants
+  * `m` and `r` are voiced consonants
+  * ` ゛` is 濁点 (dakuten)
+  * ` ゜` is 半濁点 (handakuten)
+- rendaku conversion
+  * `k` => `g`
+  * `s` => `z`
+  * `t` => `d`
+  * `h` => `b` or `p`
+- compound word
+  * both words exist on their own separately, but when they come together they
+    create a new, unique word
+- basic necessary conditions
+  * two words come together to form a compound word
+  * the first consonant of the second word is unvoiced
+  * the first consonant of the second word is one of the four sets of characters
+    that can change into a voiced consonant with dakuten or handakuten (`k`,
+    `s`, `t`, or `h`)
+  * surrounding the first consonant of the second word are voiced vowels (and
+    sometimes nasals)
+- if the first word ends in つ or ん the `h` consonant will usually rendaku to
+  `p`; otherwise, `b`
+  * `つ` will be converted to small `っ` as well
+  * examples
+    * 出 (しゅつ) + 発 (はつ) = 出発 (しゅっぱつ)
+- general guidelines
+  * 和語 (大和言葉) wago words do rendaku
+    + it almost never start with a dakuten or handakuten voiced consonant
+  * 漢語 kango loanwords do not rendaku
+    + stopping rendaku even when they are in a compound with a wago word
+  * 外来語 gairaigo loanwords do not rendaku
+    + exceptions are mostly imported words from Dutch and Portuguese during the
+      Edo period
+      + it is trickier to spot as they usually appear in kanji or katakana
+    + exceptions: gairago + wago can cause rendaku, just like a normal wago
+      compound
+  * if the second word in the compound has a voiced consonant or handakuon
+    anywhere in it, rendaku does not occur
+  * if voicing in the first word is too close to the second word, rendaku may
+    not occur
+    + dakuten and handakuten are too close to each other
+    + examples
+      + 赤 (あか) + 玉 (たま) = 赤玉 (あかだま)
+      + 水 (みず) + 玉 (たま) = 水玉 (みずたま)
+    + there are a lot of exceptions to this rule; it is like a 50/50 chance
+  * in words that come together to mean "X and Y," rendaku does not occur
+    + 山 (やま) + 川 (かわ) = 山川 (やまかわ) - mountains and rivers
+    + 山 (やま) + 川 (かわ) = 山川 (やまがわ) - a mountain river
+  * repeating onomatopoeia do not rendaku
+  * certain prefixes and suffixes cause rendaku not to occur
+    + examples
+      + 半 (はん) Half
+      + 御 (お, み) Honorific
+      + 毎 (まい) Every
+      + 一 (ひと) One
+      + 二 (ふた) Two
+      + 片 (かた) One-sided
+      + 唐 (から) China
+      + 白 (しろ) White
+      + 黒 (くろ) Black
+      + 先 (さき) Previous, Tip
+      + 紐 (ひも) String, Cord
+      + 浜 (はま) Beach
+      + 姫 (ひめ) Princess
+      + 煙 (けむり) Smoke
+      + 土 (つち) Dirt
+      + 潮 (しお) Tide
+      + 血 (けつ) Blood
+      + 下 (した) Below
+- revese rendaku
+  * two voiced consonants do not exist in a row
+  * examples
+    + 舌 (した) + 鼓 (つづみ) = 舌鼓 (したづつみ)
+    + 腹 (はら) + 鼓 (つづみ) = 腹鼓 (はらづつみ)
+    + 後 (あと) + 退ざり (しざり) = 後退さり (あとじさり)
+- words with very high chance of rendaku
+  * 花 (はな)
+  * 風呂 (ふろ)
+  * 骨 (ほね)
+  * 笛 (ふえ)
+  * 箱 (はこ)
