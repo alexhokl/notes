@@ -179,8 +179,11 @@ ____
 ## Transportation
 
 - 渋谷までお願いします (shibuya made onegaishimasu) - Shibuya to please
-- まもなく電車が参ります。黄色い線の内側煮立ってお待ちください (mamonaku densha ga mairimasu. kiiroi sen no uchigawa ni tatte omachikudasai) - soon train is coming. yellow line inside by standing wait please
+- まもなく電車が参ります。黄色い線の内側煮立ってお待ちください (mamonaku densha
+  ga mairimasu. kiiroi sen no uchigawa ni tatte omachikudasai) - soon train is
+  coming. yellow line inside by standing wait please
 - 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
+- 案内 (あんない) - guidance or information
 
 ### Trains
 
@@ -396,6 +399,9 @@ ____
 ## Academic
 
 - 勉強する (べんきょうする) - to study
+- 読み (よみ) - reading
+- 読む (よむ) - to read
+- 解読 (かいどく) - deciphering
 
 ## Countries
 
