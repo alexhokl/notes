@@ -161,6 +161,10 @@ ____
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
 - 皆さん (みなさん) - everyone
 
+## Sites
+
+- 開放 (かいほう) - open
+
 ## Drinks
 
 - お茶 (ocha) - tea
