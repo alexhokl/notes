@@ -207,6 +207,12 @@ done
 sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
 ```
 
+##### To list paths in PATH
+
+```sh
+echo $PATH | tr ':' '\n'
+```
+
 ##### to modify PATH
 
 ```sh
@@ -214,6 +220,14 @@ echo ${PATH} > t1
 vi t1
 export PATH=$(cat t1)
 ```
+
+##### To list all possible paths of a program
+
+```sh
+which -a program
+```
+
+This also shows the order of the paths.
 
 ## Recipes
 
