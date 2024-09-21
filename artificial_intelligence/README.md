@@ -17,6 +17,7 @@
   * [easyocr](#easyocr)
     + [Links](#links-4)
     + [Commands](#commands-2)
+  * [pdftotext](#pdftotext)
 ____
 
 # Links
@@ -166,3 +167,8 @@ or with detail of coordinates of text locations
 ```sh
 easyocr -l en -f image.jpg --detail=1 --gpu=True
 ```
+
+## pdftotext
+
+- [poppler](https://poppler.freedesktop.org/)
+- [pdftotext-go](https://github.com/heussd/pdftotext-go)
