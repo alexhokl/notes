@@ -14,6 +14,8 @@
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
   * [が](#%E3%81%8C)
+  * [を](#%E3%82%92)
+  * [に and で](#%E3%81%AB-and-%E3%81%A7)
 - [Conjunctions](#conjunctions)
 ____
 
@@ -370,6 +372,111 @@ Osaka and Kyoto, for example
   * examples
     + スイスが物価が高い。 (It is Switzerland that has a high cost of living.)
       + the examples streses Switzerland
+
+### を
+
+- marks the direct object of a sentence
+- marks the thing that affected by the verb
+- noun + を
+  * かなえは`ボールを`打った。 - Kanae hits the ball.
+  * まちこは`梅酒を`作った。 - Machiko made plum wine.
+  * キャメロンが`ゴキブリを`つぶした。 - Cameron squashed a cockroach.
+  * ジェニーが`キャメロンを`責めた。 - Jenny blamed Cameron.
+  * ゴキブリ等が`政党を`作りました。 - The cockroaches created a political party.
+- を at the end of a sentence
+  * in this kind of sentence, verb is proposefully missing, and the listener is
+    expected to complete the sentence in their head using world knowledge or
+    context clues
+  * examples
+    + お腹が痛いわ〜 食べ過ぎちゃった。 - My stomach hurts... I ate too much.
+      + 何を？ - Of what?
+    + 日本語教育に新しい風を！ - A new wind into Japanese language education!
+      + implies 吹かせる - to cause a new wind to blow
+    + 良いお年を！ - great year
+      + implies "have a great year"
+      + long form of 良いお年をお迎えください
+- the definition of object in Japanese is not equivalent to the definition of
+  object in English
+- を with movement verbs
+  * を and で
+    + examples
+      + ケンイチが`厚板の上を`歩かされた！- Kenichi was made to walk on the
+        plank! (and he walked all of it, and fell off its end)
+        + ケンイチが`厚板の上で`歩かされた！- Kenichi was made to walk around on
+          a plank!
+      + `公園を`散歩する。 - to stroll (through) the park
+        + `公園で`散歩する。 - to stroll in the park
+- を and から
+  * を can also be used with movement verbs that express departure (usually
+    without stating a destination)
+    + with verbs
+      + 出る (to leave)
+      + 下りる (to disembark)
+  * マミが家`を`出た。 - Mami left the house.
+    + マミが家`から`出た。 - Mami left from the house
+    + マミが家から`庭に`出た。 - Mami left the house into the garden
+  * アニメ`を`卒業しました。 - I moved on (graduated) from anime. (implies
+    his/her time in anime industry is over)
+    + アニメ`から`卒業しました。 - I moved on (graduated) from anime. (implies
+      to another industry)
+### に and で
+
+- に and で are both used to indicate a location
+- に
+  * defines the place or location where something or someone is, was, or will
+    be
+  * examples
+    + 学校`に`いる - I am at school
+    + 学校`に`ジムがある。 - There is a gym at school
+    + 学校`に`行く。 - I will go to school
+- で
+  * defines the place or location where an activity or event is, was, or will
+    be carried out
+  * examples
+    + 学校`で`勉強する。 - I study at school
+    + 学校`で`チャリティーイベントがある。 - There is a charity event at school
+- に and で
+  * examples
+    + マグネットを冷蔵庫のドア`に`貼った。 - I put a magnet on the fridge door.
+      + マグネット - magnet
+      + ドア - door
+    + キッチン`で`マグネットを冷蔵庫のドア`に`貼った。 - I put a magnet on the
+      fridge door in the kitchen.
+      + キッチン - kitchen
+    + カナエは机`に`手紙を書いた。 - Kanae wrote a letter on the desk. (and
+      literally on the wood of the desk)
+    + カナエは机`で`手紙を書いた。 - Kanae wrote a letter on the desk.
+    + 庭`に`花を植えた。 - I planted flowers in the garden.
+      + the focus is on 庭
+    + 庭`で`花を植えた。 - I planted flowers in the garden.
+      + the focus is on 花を植えた
+    + 東京`に`住んでいます。 - I live in Tokyo.
+      + the focus is on 東京
+      + に is more common than で when talking about where you live
+    + 東京`で`住んでいます。 - I live in Tokyo.
+      + the focus is on 住んでいます
+- に is used with verbs that indicate some kind of attachment or contact, such
+  as 貼はる (affix) or 付ける (attach). Like in 座っている (sitting), these
+  verbs take the 〜ている form to indicate an ongoing state. It may be tempting
+  to treat these as activities and choose particle で, but verbs of attachment
+  usually take particle に.
+- ソファ`で`ダラダラしている。 - I’m relaxing and doing nothing on the sofa.
+  * ソファ - sofa
+  * relaxing and doing nothing could be considered an activity
+- に and で for time
+  * に is used to pin a particular time on a time line
+    + examples
+      + 学校は９時に始まります。 - School starts at 9.
+  * で suggests a time limit, and refers to the end point of an activity or
+    event
+    + examples
+      + 学校が３時`で`終わります。 - School ends at 3.
+      + 学校が３時`に`終わります。 - School ends at 3.
+  * で to emphasize the end of whatever activity leads up to the new one that is
+    beginning
+    + examples
+      + まだゲームしてるの？学校が９時で始まるよ！ - Are you still playing
+        games? The school starts at 9!
 
 ## Conjunctions
 

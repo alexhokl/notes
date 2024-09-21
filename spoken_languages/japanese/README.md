@@ -26,7 +26,10 @@
   * [Football](#football)
   * [Driving](#driving)
   * [Animals](#animals)
+  * [Funiture](#funiture)
   * [Relative pronouns](#relative-pronouns)
+  * [Adverb](#adverb)
+  * [Verb](#verb)
 ____
 
 # Links
@@ -73,6 +76,8 @@ ____
 - 玉ねぎ (たまねぎ) - onion
 - 牡蠣 (かき) - oyster
 - 生牡蠣 (なまがき) - raw oyster
+- プリン - pudding
+- コーラ - cola
 
 ### Fish
 
@@ -308,93 +313,95 @@ ____
 
 ## Days of week
 
-- 月曜日 (getsuyōbi) - Monday
-- 火曜日 (kayōbi) - Tuesday
-- 水曜日 (suiyōbi) - Wednesday
-- 木曜日 (mokuyōbi) - Thursday
-- 金曜日 (kinyōbi) - Friday
-- 土曜日 (doyōbi) - Saturday
-- 日曜日 (nichiyōbi) - Sunday
+- 月曜日 (げつようび) - Monday
+- 火曜日 (かようび) - Tuesday
+- 水曜日 (すいようび) - Wednesday
+- 木曜日 (もくようび) - Thursday
+- 金曜日 (きんようび) - Friday
+- 土曜日 (どようび) - Saturday
+- 日曜日 (にちようび) - Sunday
 
 ## Day
 
-- 本日 (honjitsu) - today
-- 今日 (kyō) - today
-- 明日 (ashita) - tomorrow
-- 昨日 (kinō) - yesterday
+- 本日 (ほんじつ) - today
+- 今日 (きょう) - today
+- 明日 (あした) - tomorrow
+- 昨日 (きのう) - yesterday
 
 ## Numbers
 
-- 一 (ichi) - 1
-- 二 (ni) - 2
-- 三 (san) - 3
-- 四 (yon, shi) - 4
-- 五 (go) - 5
-- 六 (roku) - 6
-- 七 (nana, shichi) - 7
-- 八 (hachi) - 8
-- 九 (kyū, ku) - 9
-- 十 (jū) - 10
-- 百 (hyaku) - 100
-- 千 (sen) - 1000
-- 万 (man) - 10000
+- 一 (いち) - 1
+- 二 (に) - 2
+- 三 (さん) - 3
+- 四 (よん, し) - 4
+- 五 (ご) - 5
+- 六 (ろく) - 6
+- 七 (しち, なな) - 7
+- 八 (はち) - 8
+- 九 (きゅう, く) - 9
+- 十 (じゅう) - 10
+- 百 (ひゃく) - 100
+- 千 (せん) - 1000
+- 万 (まん) - 10000
 
 ## Colours
 
-- 黒 (kuro) - black
-- 白 (shiro) - white
-- 赤 (aka) - red
-- 青 (ao) - blue
-- 黄色 (kiiro) - yellow
-- 緑 (midori) - green
-- 紫 (murasaki) - purple
-- オレンジ (orenji) - orange
-- ピンク (pinku) - pink
-- 茶色 (chairo) - brown
-- グレー (gurē) - grey
+- 黒 (くろ) - black
+- 白 (しろ) - white
+- 赤 (あか) - red
+- 青 (あお) - blue
+- 黄色 (きいろ) - yellow
+- 緑 (みどり) - green
+- 紫 (むらさき) - purple
+- オレンジ - orange
+- ピンク - pink
+- 茶色 (ちゃいろ) - brown
+- グレー - grey
 
 ## Feelings
 
-- ほんと？ (honto?) - really?
-- いいね (īne) - nice...
-- 面白い (omoshiroi) - interesting
-- 可愛い (kawaii) - cute
-- 気持ちいい (kimochi īi) - feels good
-- 美しい (utsukushī) - beautiful
-- 素晴らしい (subarashī) - wonderful
-- 素敵 (suteki) - lovely; wonderful; nice
-- 疲れる (tsukareru) - to get tired
-- やった (yatta) - yay!
-- 残念 (zannen) - unfortunate
-- 大好き (daisuki) - loveable
-- 欲しい (hoshī) - desired
-- 嫌い (kirai) - detestable
+- 本当？ (ほんとう) - really?
+- いいね - nice...
+- 面白い (おもしろい) - interesting
+- 可愛い (かわいい) - cute
+- 気持ちいい (きもちいい) - feels good
+- 美しい (うつくしい) - beautiful
+- 素晴らしい (すばらしい) - wonderful
+- 素敵 (すてき) - lovely; wonderful; nice
+- 疲れる (つかれる) - to get tired
+- やった - yay!
+- 残念 (ざんねん) - unfortunate
+- 大好き (だいすき) - loveable
+- 欲しい (ほしい) - desired
+- 嫌い (きらい) - dislike
+- 我慢 (がまん) - patience
+- ダラダラ - leisurely
 
 ## Positions
 
-- 上 (ue) - up
-- 下 (shita) - down
-- 後ろ (ushiro) - back
-- 前 (mae) - front
-- 左 (hidari) - left
-- 右 (migi) - right
-- 中 (naka) - center
-- 外 (soto) - outside
-- 鄰 (tonari) - next to
-- 近く (chikaku) - near
-- 遠く (tōku) - far
-- ここ (koko) - here
-- そこ (soko) - there
+- 上 (うえ) - up
+- 下 (した) - down
+- 後ろ (うしろ) - back
+- 前 (まえ) - front
+- 左 (ひだり) - left
+- 右 (みぎ) - right
+- 中 (なか) - center
+- 外 (そと) - outside
+- 隣 (となり) - next to
+- 近く (ちかく) - near
+- 遠く (とおく) - far
+- ここ (ここ) - here
+- そこ (そこ) - there
 
 ## Academic
 
-- 勉強する (benkyō suru) - to study
+- 勉強する (べんきょうする) - to study
 
 ## Countries
 
-- 中国 (chūgoku) - China
-- スペイン (supein) - Spain
-- スイス (suisu) - Switzerland
+- 中国 (ちゅおごく) - China
+- スペイン - Spain
+- スイス - Switzerland
 
 ## Football
 
@@ -434,6 +441,10 @@ ____
 - 馬 (uma) - horse
 - ラブラドール (raburadōru) - Labrador
 
+## Funiture
+
+- ソファ - sofa
+
 ## Relative pronouns
 
 - これ (kore) - this
@@ -449,3 +460,11 @@ ____
 - あそこ (asoko) - over there
 - どこ (doko) - where
 - だれ (dare) - who
+
+## Adverb
+
+- 迚も (とても) - very
+
+## Verb
+
+- 成る (なる) - to become
