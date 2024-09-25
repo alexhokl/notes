@@ -8,6 +8,7 @@
   * [鼻濁音 (bidadakuon) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-bidadakuon---nasal-sound)
   * [音読み and 訓読み (onyomi and kunyomi)](#%E9%9F%B3%E8%AA%AD%E3%81%BF-and-%E8%A8%93%E8%AA%AD%E3%81%BF-onyomi-and-kunyomi)
   * [連濁 (Rendaku)](#%E9%80%A3%E6%BF%81-rendaku)
+  * [pronunciation of さん](#pronunciation-of-%E3%81%95%E3%82%93)
 ____
 
 # Pronunciation
@@ -240,3 +241,9 @@ d (t)   | z (s)
   * 骨 (ほね)
   * 笛 (ふえ)
   * 箱 (はこ)
+
+## pronunciation of さん
+
+- it depends of the pitch of the sound of the word that comes before it
+  * if the word before さん ends in a high pitch, さん is pronounced as `san`
+  * if the word before さん ends in a low pitch, さん is pronounced as `zan`

@@ -2,11 +2,14 @@
 - [Sentence structure](#sentence-structure)
   * [Simple sentence](#simple-sentence)
   * [Complex sentence](#complex-sentence)
+- [Auxiliary verbs](#auxiliary-verbs)
 - [Verb forms](#verb-forms)
-  * [Plain form](#plain-form)
-- [Verb conjugation](#verb-conjugation)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [Plain form](#plain-form)
+- [Verb conjugation](#verb-conjugation)
+  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
+  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
   * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
   * [Lost of the w sound](#lost-of-the-w-sound)
@@ -86,7 +89,20 @@ ____
     sakura ga mankai da to oshiete moratta) - A neighbor told me that the cherry
     blossoms were in full bloom.
 
+## Auxiliary verbs
+
+- noun + `です`
+- adjective + `です`
+- verb + ます (non-example)
+
+| Form             | Affirmative | Negative       |
+| ---              | ---         | ---            |
+| Non-past         | だ          | ではない       |
+| Non-past, polite | です        | ではありません |
+
 ## Verb forms
+
+### 五段動詞
 
 | Form              | Affirmative                 | Negative                             |
 | ---               | ---                         | ---                                  |
@@ -100,6 +116,21 @@ ____
 | Causative         | 聞かせる (kikaseru)         | 聞かせない (kikasenai)               |
 | Causative Passive | 聞かせられる (kikaserareru) | 聞かせられない (kikaserarenai)       |
 | Imperative        | 聞け (kike)                 | 聞くな (kikuna)                      |
+
+### 一段動詞
+
+| Form              | Affirmative    | Negative         |
+| ---               | ---            | ---              |
+| Non-past          | 食べる         | 食べない         |
+| Non-past, polite  | 食べます       | 食べません       |
+| Past              | 食べた         | 食べなかった     |
+| Past, polite      | 食べました     | 食べませんでした |
+| Te-form           | 食べて         | 食べなくて       |
+| Potential         | 食べられる     | 食べられない     |
+| Passive           | 食べられる     | 食べられない     |
+| Causative         | 食べさせる     | 食べさせない     |
+| Causative Passive | 食べさせられる | 食べさせられない |
+| Imperative        | 食べろ         | 食べるな         |
 
 ### Plain form
 

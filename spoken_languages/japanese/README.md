@@ -8,6 +8,7 @@
   * [Convience store](#convience-store)
   * [Payment](#payment)
   * [Conversation](#conversation)
+  * [Sites](#sites)
   * [Drinks](#drinks)
   * [Food](#food-1)
   * [Transportation](#transportation)
@@ -27,8 +28,10 @@
   * [Driving](#driving)
   * [Animals](#animals)
   * [Funiture](#funiture)
-  * [Relative pronouns](#relative-pronouns)
+  * [Pronouns](#pronouns)
   * [Adverb](#adverb)
+  * [Sex](#sex)
+  * [約物 Punctuation](#%E7%B4%84%E7%89%A9-punctuation)
   * [Verb](#verb)
 ____
 
@@ -434,6 +437,11 @@ ____
 - ラ・リーガ (ra rīga) - La Liga
 - セリエA (serieA) - Serie A
 - ブンデスリーガ (bunderusurīga) - Bundesliga
+- ハイライト (hairaito) - highlihts
+- マンチェスター・ユナイテッド (manchesutā yunaiteddo) - Manchester United
+- マンチェスター・U (manchesutā yū) - Manchester United
+- マンチェスター・シティ (manchesutā shiti) - Manchester City
+- マンチェスター・C (manchesutā shī) - Manchester City
 
 ## Driving
 
@@ -455,25 +463,50 @@ ____
 
 - ソファ - sofa
 
-## Relative pronouns
+## Pronouns
 
-- これ (kore) - this
-- この (kono) - this
-- それ (sore) - that
-- その (sono) - that
-- あれ (are) - that (over there)
-- あの (ano) - that (over there)
-- どれ (dore) - which
-- どの (dono) - which
-- ここ (koko) - here
-- そこ (soko) - there
-- あそこ (asoko) - over there
-- どこ (doko) - where
-- だれ (dare) - who
+- used standalone
+  * これ - this
+  * それ - that
+  * あれ - that (over there)
+  * どれ - which
+- used with a noun
+  * この - this
+  * その - that
+  * あの - that (over there)
+  * どの - which
+- place
+  * 此処 (ここ) - here
+  * 其処 (そこ) - there
+  * 彼処 (あそこ) - over there
+  * 何処 (どこ) - where
+- 何 (なに) - what
+- 誰 (だれ) - who
+- 私 (わたし) - I
+  * 僕 (ぼく) - I (man)
+  * 私 (あたし) - I (woman)
+- 貴方 (あなた) - you
 
 ## Adverb
 
 - 迚も (とても) - very
+
+## Sex
+
+- prefix
+  * 女 (おんな) - woman
+  * 男 (おとこ) - man
+- suffix
+  * 女 (じょ) - woman
+  * 男 (なん) - man
+
+## 約物 Punctuation
+
+- `、` 読点 (とうてん) - comma
+- `。` 句点 (くてん) - period
+  * question ends with period in Japanese (that is no question mark)
+- `・` 中黒 (なかぐろ) - interpunct
+
 
 ## Verb
 
