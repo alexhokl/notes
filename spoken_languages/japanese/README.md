@@ -1,16 +1,20 @@
 - [Links](#links)
-- [Situations](#situations)
+- [約物 Punctuation](#%E7%B4%84%E7%89%A9-punctuation)
+- [Grammatical words](#grammatical-words)
+  * [Conjunctions](#conjunctions)
+  * [Pronouns](#pronouns)
+  * [Adverb](#adverb)
+- [Situation and vocabulary](#situation-and-vocabulary)
   * [Restaurant](#restaurant)
   * [Food](#food)
     + [Fish](#fish)
     + [Shellfish](#shellfish)
     + [Other seafood](#other-seafood)
+  * [Drinks](#drinks)
   * [Convience store](#convience-store)
   * [Payment](#payment)
   * [Conversation](#conversation)
   * [Sites](#sites)
-  * [Drinks](#drinks)
-  * [Food](#food-1)
   * [Transportation](#transportation)
     + [Trains](#trains)
   * [Date](#date)
@@ -28,10 +32,9 @@
   * [Driving](#driving)
   * [Animals](#animals)
   * [Funiture](#funiture)
-  * [Pronouns](#pronouns)
-  * [Adverb](#adverb)
+  * [Internet](#internet)
+  * [Media](#media)
   * [Sex](#sex)
-  * [約物 Punctuation](#%E7%B4%84%E7%89%A9-punctuation)
   * [Verb](#verb)
 ____
 
@@ -57,19 +60,70 @@ ____
 - [Western calendar year convert to Japanese
   year](https://www.sljfaq.org/afaq/dates.html)
 
-# Situations
+# 約物 Punctuation
+
+- `、` 読点 (とうてん) - comma
+- `。` 句点 (くてん) - period
+  * question ends with period in Japanese (that is no question mark)
+- `・` 中黒 (なかぐろ) - interpunct
+
+# Grammatical words
+
+## Conjunctions
+
+- 而して (そして) - thus
+- 又は (または) - or
+- 然し (しかし) - however
+- だけど - however
+- だから - therefore
+- 其れで (それで) - therefore
+- 其れから (それから) - and then
+- 何故なら (なぜなら) - because
+- だって - because
+- 為に (ために) - for
+
+## Pronouns
+
+- used standalone
+  * これ - this
+  * それ - that
+  * あれ - that (over there)
+  * どれ - which
+- used with a noun
+  * この - this
+  * その - that
+  * あの - that (over there)
+  * どの - which
+- place
+  * 此処 (ここ) - here
+  * 其処 (そこ) - there
+  * 彼処 (あそこ) - over there
+  * 何処 (どこ) - where
+- 何 (なに) - what
+- 誰 (だれ) - who
+- 私 (わたし) - I
+  * 僕 (ぼく) - I (man)
+  * 私 (あたし) - I (woman)
+- 貴方 (あなた) - you
+
+## Adverb
+
+- 迚も (とても) - very
+
+# Situation and vocabulary
 
 ## Restaurant
 
 - どうも (dōmo) - not thank you but shows some kind of gratitude
 - ご馳走様でした (gochisōsamadeshita) - I enjoyed the dishes
 - 助かりました (tasukarimashita) - this helps alot!
-- どーぞ (dōzo) - please (or go ahead)
+- どうぞ (dōzo) - please (or go ahead)
 - お会計お願いします (okaikei onegaishimasu) - bill, please
 - お水お願いします (omizu onegaishimasu) - water, please
 - 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
 - 五名です (go mei desu) - there are 5 people
 - 定食 (teishoku) - set meal
+- レストラン (resutoran) - restaurant
 
 ## Food
 
@@ -81,6 +135,14 @@ ____
 - 生牡蠣 (なまがき) - raw oyster
 - プリン - pudding
 - コーラ - cola
+- 豚骨 (tonkotsu) - pork bone
+- 醤油 (shōyu) - soy sauce
+- 葱 (negi) - green onion
+- 鹽 (shio) - salt
+- ハラミ (harami) - skirt steak (横隔膜)
+- ホルモン (horumon) - offal (內臟)
+- ベーコン (bēkon) - bacon
+- トマト (tomato) - tomato
 
 ### Fish
 
@@ -115,6 +177,7 @@ ____
 - 赤貝 (あかがい) - red clam
 - 鮑 (あわび) - abalone
 - 蛤 (はまぐり) - clam
+- クラム (kuramu) - clam
 
 ### Other seafood
 
@@ -125,6 +188,12 @@ ____
 - 小柱 (こばしら) - baby scallop
 - イクラ - salmon roe
 - 朧 (おぼろ) - crumbled shrimp paste
+
+## Drinks
+
+- お茶 (ocha) - tea
+- コーヒー (kōhī) - coffee
+- 水 (mizu) - water
 
 ## Convience store
 
@@ -142,6 +211,8 @@ ____
 - レジ袋わいらないです (reji bukuro wa iranai desu) - cashier bag, I don't need
 - レジ袋 (reji bukuro) - plastic bag (literally it is "cashier bag")
 - ビニール袋 (binīru bukuro) - plastic bag (literally it is "vinyl bag")
+- コンビニ (konbini) - convenience store
+- パック (pakku) - pack
 
 ## Payment
 
@@ -168,21 +239,6 @@ ____
 
 - 開放 (かいほう) - open
 
-## Drinks
-
-- お茶 (ocha) - tea
-- コーヒー (kōhī) - coffee
-- 水 (mizu) - water
-
-## Food
-
-- 豚骨 (tonkotsu) - pork bone
-- 醤油 (shōyu) - soy sauce
-- 葱 (negi) - green onion
-- 鹽 (shio) - salt
-- ハラミ (harami) - skirt steak (横隔膜)
-- ホルモン (horumon) - offal (內臟)
-
 ## Transportation
 
 - 渋谷までお願いします (shibuya made onegaishimasu) - Shibuya to please
@@ -191,6 +247,13 @@ ____
   coming. yellow line inside by standing wait please
 - 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
 - 案内 (あんない) - guidance or information
+- バス (basu) - bus
+- タクシー (takushī) - taxi
+- 電車 (densha) - train
+- 徒歩 (とほ) - on foot
+- トラック (torakku) - truck
+- キロ (kiro) - kilometer
+- 切符 (きっぷ) - ticket
 
 ### Trains
 
@@ -274,11 +337,12 @@ ____
       say it starts at 25:00 and ends at 26:00 on their time table
 - 午前零時 - midnight
 - 午後零時 - noon
+- 昼間 (ひるま) - daytime
 
  | Hour     | Reading                         |
  | ---      | ---                             |
  | 四時     | `よ`じ                          |
- | 七時     | `しち`じ / `なな`じ             |
+ | 七時     | `しち`じ                        |
  | 九時     | `く`じ                          |
  | 十時     | `じゅう`じ                      |
  | 十四時   | `じゅうよ`じ                    |
@@ -443,6 +507,12 @@ ____
 - マンチェスター・シティ (manchesutā shiti) - Manchester City
 - マンチェスター・C (manchesutā shī) - Manchester City
 
+## Cycling
+
+- 自転車 (じてんしゃ) - bicycle
+- ロードバイク (rōdo baiku) - road bike
+- ライド (raido) - ride
+
 ## Driving
 
 - マニュアル (manyuaru) - manual
@@ -463,33 +533,16 @@ ____
 
 - ソファ - sofa
 
-## Pronouns
+## Internet
 
-- used standalone
-  * これ - this
-  * それ - that
-  * あれ - that (over there)
-  * どれ - which
-- used with a noun
-  * この - this
-  * その - that
-  * あの - that (over there)
-  * どの - which
-- place
-  * 此処 (ここ) - here
-  * 其処 (そこ) - there
-  * 彼処 (あそこ) - over there
-  * 何処 (どこ) - where
-- 何 (なに) - what
-- 誰 (だれ) - who
-- 私 (わたし) - I
-  * 僕 (ぼく) - I (man)
-  * 私 (あたし) - I (woman)
-- 貴方 (あなた) - you
+- インスタ (insuta) - Instagram
+- ポッドキャスト (poddokyasuto) - podcast
 
-## Adverb
+## Media
 
-- 迚も (とても) - very
+- テレビ (terebi) - TV
+- 雑誌 (ざっし) - magazine
+- 本 (ほん) - book
 
 ## Sex
 
@@ -500,14 +553,19 @@ ____
   * 女 (じょ) - woman
   * 男 (なん) - man
 
-## 約物 Punctuation
+## Stationary
 
-- `、` 読点 (とうてん) - comma
-- `。` 句点 (くてん) - period
-  * question ends with period in Japanese (that is no question mark)
-- `・` 中黒 (なかぐろ) - interpunct
+- 鋏 (はさみ) - scissors
 
-
-## Verb
+# Verbs
 
 - 成る (なる) - to become
+- 居る (いる) - to be (used for living things) (usually written in kana)
+- 有る (ある) - to exist (used for non-living things) (usually written in kana)
+- 考える (かんがえる) - to think
+- 見る (みる) - to see
+- 聞く (きく) - to hear
+- 話す (はなす) - to speak
+- 読む (よむ) - to read
+- 書く (かく) - to write
+- 頂く (いただく) - to receive, to get

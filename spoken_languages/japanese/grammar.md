@@ -6,6 +6,7 @@
 - [Verb forms](#verb-forms)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [Irregular verbs](#irregular-verbs)
   * [Plain form](#plain-form)
 - [Verb conjugation](#verb-conjugation)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
@@ -19,7 +20,11 @@
   * [が](#%E3%81%8C)
   * [を](#%E3%82%92)
   * [に and で](#%E3%81%AB-and-%E3%81%A7)
-- [Conjunctions](#conjunctions)
+  * [に](#%E3%81%AB)
+  * [で](#%E3%81%A7)
+  * [へ](#%E3%81%B8)
+  * [まで](#%E3%81%BE%E3%81%A7)
+  * [だけ](#%E3%81%A0%E3%81%91)
 ____
 
 ## References
@@ -131,6 +136,34 @@ ____
 | Causative         | 食べさせる     | 食べさせない     |
 | Causative Passive | 食べさせられる | 食べさせられない |
 | Imperative        | 食べろ         | 食べるな         |
+
+### Irregular verbs
+
+| Form              | Affirmative            | Negative                       |
+| ---               | ---                    | ---                            |
+| Non-past          | 為る (する)            | 為ない (しない)                |
+| Non-past, polite  | 為ます (します)        | 為ません (しません)            |
+| Past              | 為た (し為た)          | 為なかった(しなかった)         |
+| Past, polite      | 為ました(しました)     | 為ませんでした(しませんでした) |
+| Te-form           | 為て(して)             | 為なくて(しなくて)             |
+| Potential         | できる                 | できない                       |
+| Passive           | 為れる (される)        | 為れない(されない)             |
+| Causative         | 為せる(させる)         | 為せない(させない)             |
+| Causative Passive | 為せられる(させられる) | 為せられない(させられない)     |
+| Imperative        | 為ろ(しろ)             | 為るな(するな)                 |
+
+| Form              | Affirmative                   | Negative                          |
+| ---               | ---                           | ---                               |
+| Non-past          | 来る (く来る)                 | 来ない (こ来ない)                 |
+| Non-past, polite  | 来ます (き来ます)             | 来ません (き来ません)             |
+| Past              | 来た (き来た)                 | 来なかった (こ来なかった)         |
+| Past, polite      | 来ました (き来ました)         | 来ませんでした (き来ませんでした) |
+| Te-form           | 来て (き来て)                 | 来なくて (こ来なくて)             |
+| Potential         | 来られる (こ来られる)         | 来られない (こ来られない)         |
+| Passive           | 来られる (こ来られる)         | 来られない (こ来られない)         |
+| Causative         | 来させる (こ来させる)         | 来させない (こ来させない)         |
+| Causative Passive | 来させられる (こ来させられる) | 来させられない (こ来させられない) |
+| Imperative        | 来い (こ来い)                 | 来るな (く来るな)                 |
 
 ### Plain form
 
@@ -450,6 +483,7 @@ Osaka and Kyoto, for example
     his/her time in anime industry is over)
     + アニメ`から`卒業しました。 - I moved on (graduated) from anime. (implies
       to another industry)
+
 ### に and で
 
 - に and で are both used to indicate a location
@@ -460,6 +494,7 @@ Osaka and Kyoto, for example
     + 学校`に`いる - I am at school
     + 学校`に`ジムがある。 - There is a gym at school
     + 学校`に`行く。 - I will go to school
+  * it usually goes with いる (to be) and ある (to exist)
 - で
   * defines the place or location where an activity or event is, was, or will
     be carried out
@@ -509,16 +544,275 @@ Osaka and Kyoto, for example
       + まだゲームしてるの？学校が９時で始まるよ！ - Are you still playing
         games? The school starts at 9!
 
-## Conjunctions
+### に
 
-- そして (soshite) - and
-- または (matawa) - or
-- しかし (shikashi) - but
-- だけど (dakedo) - however
-- だから (dakara) - so
-- それで (sorede) - therefore
-- それから (sorekara) - then
-- なぜなら (nazenara) - because
-- だって (datte) - because
+- verb (stem form) + に
+  * or ため + に
+  * indicates the purpose of the verb
+  * examples
+    + コウイチは宇宙人を`探しに`行きました。 - Koichi went to search for an
+      alien.
+      + 探し is stem form of 探す
+    + 会議の`ために`NASAに行った。 - I went to NASA for a meeting.
+    + 会議をしにNASAに行った。 - I went to NASA to hold a meeting.
+      + し is stem form of する
+    + ロケットを見る`ために`NASAに走った。 - I went to NASA to watch a rocket.
+- な-adjective + に
+  * marks a state or condition or manner
+  * the whole combination acts like an adverb
+  * examples
+    + 宇宙は`とても静かに`なった。 - Space became very quiet.
+      + とても - very
+      + 静か - quiet
+    + コウイチは宇宙船を`冷静に`運転する。 - Koichi drives the spaceship
+      calmly.
+- に for location
+  * see [に and で](#%E3%81%AB-and-%E3%81%A7)
+  * common learn mistakes with verbs without a sense of direction
+    + 歩く or 走る
+    + examples
+      + 今日はNASA`に`歩いて`行った`。
+        + but not 今日はNASA`に`歩いた。
+        + verb 歩く is converted to て form 歩いて
+        + verb 行く is converted to past tense 行った
+- に for attachment
+  * examples
+    + `自転車に`乗るのが大好きだ。 - I love riding my bike.
+    + 毎朝、`電車に`乗ります。 - I take the train every morning.
+  * modes of transportation take に
+    + you are metaphorically "attaching" yourself to the bike or train when you
+      ride it
+- に for marking the result of a transformation
+- usually used with verbs such as なる (to become) and 変わる (to change)
+  * examples
+    + ジェニーは`宇宙飛行士に`なった。 - Jenny became an astronaut.
+    + ジェニーは`勇敢に`なった。 - Jenny became brave.
+    + 宇宙船を止めて！信号が`赤に`変わったよ！ - Stop the spaceship! The signal
+      turned red!
+    + 宇宙船を止めて！これから信号が`赤に`変わるよ！ - Stop the spaceship! The
+      signal will turn red!
+- に in social interactions
+  * usuaully used with verbs such as あげる (to give) or もらう (to receive)
+  * examples
+    + かなえは`まみに`アメリカのベーコンをあげた。 - Kanae gave American bacon
+      to Mami.
+    + かなえは`まみに`カナダのベーコンをもらった。 - Kanae received Canadian
+      bacon from Mami.
+    + キャメロンは`かなえに`英語を教えた。 - Cameron taught English to Kanae.
+    + キャメロンは`かなえに`日本語を習った。 - Cameron learned Japanese from
+      Kanae.
+    + ジェニーは`まみに`話した。 - Jenny talked to Mami.
+      + ジェニーは`マミと`話した。 - Jenny talked with Mami.
+- に in passive sentences
+  * in a passive sentence, the person or thing that is being affected by the
+    verb is placed at the beginning of the sentence.
+    + if に is included in the passive sentence, it marks the person or thing
+      that causes the event to occur
+  * examples
+    + キャメロンは`ジェニーに`そのレストランを勧められた。 - That resturant
+      was recommended to Cameron by Jenny.
+      + 勧められた is passive form of 勧める
+- に in causative sentences
+  * the causative form is a verb conjugation that is used when someone or
+    something causes the situation described in the sentence
+      + depending on the context, it can mean
+        + to make someone do something
+        + to allow someone to do something
+    * examples
+      + まみは`子供に`外で遊ばせた。 - Mami let/made the child play outside.
+        + まみは`子供を`外で遊ばせた。 - Mami made the child play outside.
 
+### で
 
+  - it specifies where or how an activity or event takes place
+  - the places that it specifies does not necessarily have to be a physical space
+    and it can specify abstract places as well
+    * examples
+      + 私は`貧しい家庭で`育らました。 - I grew up in a poor household.
+      + `インスタで`！ - On Instagram!
+  - means of an action
+    * examples
+      + `ハサミで`紙を切ります。 - I cut paper with scissors.
+      + `徒歩で`行きます。 - I will go on foot.
+      + `日本語で`話しましょう。 - Let's speak in Japanese.
+      + 人を`見かけで`判断するな。 - Don't judge people by their appearance.
+  - for components
+    * to specify the components of a larger whole
+    * examples
+      + この小説は`五つの章で`構成されている。 - This novel is made up of five
+        chapters.
+      + このテーブルは`木で`できている。 - This table is made of wood.
+      + このクッキーは、 `小麦粉と砂糖だけで`作りました。 - I made these cookies
+        made with only flour and sugar.
+        + だけ - only
+  - to specify a category
+    * used as "among"
+    * examples
+      + `スポーツで`好きあのはサッカーだよ。 - Among all sports, my favorite is
+      soccer.
+      + we could also say スポーツの中で
+    + 富士山は`日本の山で`一番高い山だ。 - Mount Fuji is the tallest mountain
+      among all the mountains in Japan.
+      + we could also say 日本の山の中で
+- to specify quantities and measurements
+  * examples
+    + トマトは`十個で`百円です。 - The tomatoes are ten for a 100 yen.
+      + で can be omitted in this case
+    + トラックは時速百キロで走っていた。 - The truck was driving at 100 km/h.
+      + で cannot be omitted in this case
+    + すごい速さで
+    + すごいスピードで
+- to specify groups of people (and to emphasize the group)
+  * examples
+    + `二人で`住んでいます。 - Two of us live here.
+    + `全員で`考えました。 - We thought about this all together.
+    + `警察で`捜査します。 - The police will investigate.
+- to specify time boundaries
+  * examples
+    + `五分で`話します。 - I will talk in five minutes.
+      + 五分話します。 - I will talk for five minutes.
+    + 今日は`三時で`仕事を終わります。 - I will finish work at 3 today.
+    + 今日は`三時で`帰ります。 - I will leave at 3 today.
+
+### へ
+
+- it is always pronunced as え when it is used as a particle
+- indicates a destination or the direction that something is heading
+  * examples
+    + `富士山の頂上へ`登る。 - I will climb to the top of Mount Fuji.
+- to specify physical destinations and directions
+  * examples
+    + 花子が`アメリカへ`行く。 - Hanako is going to America.
+    + 花子が`アメリカへ`来る。 - Hanako is coming to America.
+    + 花子は`学校へ`歩いた。 - Hanako walked to school.
+    + 花子は`学校へ`走った。 - Hanako ran to school.
+- to specify abstract destinations and directions
+  * examples
+    + `西へ`向かっている。 - I am heading west.
+    + `目標へ`向かって頑張る。 - I will work hard towards my goal.
+- to specify a transition
+  * examples
+    + 奈良時代から`平安時代へ` - From the Nara period to the Heian period.
+- to indicate the receipent of something
+  * examples
+    + `娘へ`荷物を送った。 - I sent a package to my daughter.
+    + `花子へ` - To Hanako
+      + to indicate the recipient of a letter or a gift
+    + 母から`娘へ`受け継がれたネックレス - The necklace that was passed down
+      from the mother to the daughter.
+- へ and verb omission
+  * examples
+    + どうぞ、`こちらへ`。 - Please, this way.
+      + without omission, どうぞ、`こちらへ`来てください。 - Please, come this
+        way.
+    + どうぞ、`こちらへ`。 - Please, this way.
+      + without omission, どうぞ、`こちらへ`お座りください。 - Please, have a
+        seat.
+- へ and に
+  * both marks a destination
+  * examples
+    + `日本に`行く。 - I will go to Japan. (direction towards Japan)
+    + `日本へ`行く。 - I will go to Japan. (at Japan)
+  * compliments に with verbs without directionality
+    + examples
+      + `コンビニへ`歩いた。 - I walked to the convenience store.
+        + コンビニに歩いて行った。 - I walked towards the convenience store.
+- へ and まで
+  * both can be used with から (from) to mean "from A to B"
+  * examples
+    + 東京から`大阪まで` - From Tokyo to Osaka (emphasizes the starting and
+      ending points)
+    + 東京から`大阪へ` - From Tokyo to Osaka (emphasizes the trip itself)
+    + 東京から`大阪まで`の距離は約500kmです。 - The distance from Tokyo to Osaka is
+      about 500 km.
+- へも
+  * examples
+    + え、`間ノ岳へも`登るんですか？ - Oh, are you going to climb Mt. Aino as well?
+    + え、`間ノ岳にも`登るの？ - Oh, are you going to climb Mt. Aino as well?
+- への
+  * examples
+    + `花子への`手紙 - letter to Hanako
+    + `成功への`道のりは険しい。 - The road to success is steep.
+- へは
+  * examples
+    + `ホテルへは`、15分くらいです。 - As for getting to the hotel, it takes
+      about 15 minutes.
+
+### まで
+
+- indicates the end point in space, time and numbers
+- examples
+  * 大阪から`東京まで` - From Osaka to Tokyo
+  * １時から`２時まで` - From 1 to 2
+  * 家から`学校まで`の距離は１kmです。 - The distance between my house and school
+    is 1km.
+  * 家から`学校まで`歩く。 - I'll walk from my house to school.
+  * `学校まで`歩く。 - I'll walk to school.
+- verb + まで
+  * `これ食べるまで`待って！ - Wait until I eat this!
+- まで and に
+  * まで can be used with the particle に to specify the time by which something
+    will be done
+  * examples
+    + `１０時までに`帰る。
+  * まで is one of the particles that is not usually skipped
+- to marks the end point related to a location
+  * examples
+    + 駅から`コンビニまで` - From the station to the convenience store
+    + 駅から`コンビニまで` １m/１分/一本道 です。 - From the station to the
+      convenience store is 1m/1min/straight road.
+    + 駅から`コンビニまで`走ります。 - I'm going to run from the station to the
+      convenience store.
+    + `東京駅まで`お願いします。 - To Tokyo station, please.
+- to mark the end point in time
+  * examples
+    + １時から`２時まで`走ります。 - I will run from 1 to 2.
+    + イベントは`今週の日曜日まで`です。 - The event is held until this Sunday.
+    + `昼間まで`寝ていた。 - I slept until the afternoon.
+- to mark end point in order
+  * when some things are aligned in a standard order, and each item has a number
+    or name, the start and end points can also be marked by から and まで
+  * examples
+    + この曲は１番から`３番まで`あります。 - This song has verse 1 to 3.
+    + アルファベットはAから`Zまで`です。 - The alphabet goes from A to Z.
+      + アルファベット (arufabetto) - alphabet
+- to mark a limit of something
+  * examples
+    + この車には`４人まで`乗車できます。 - This car can carry up to 4 people.
+    + この車は`４００km/hまで`出ます。 - This car can accelerate up to 400 km/h.
+    + `７０点まで`が合格です。 - The lowest passing score is 70 points.
+      + ７０点からが合格です。 - 70 and above is the passing score.
+- to mean "until"
+  * by attaching it to the end of the plain form of a verb
+  * examples
+    + 私が`行くまで`そこにいて。 - Be there until I get there.
+    + 宿題が`終わるまで`ゲームはダメだよ。 - You can't play games until you
+      finish your homework.
+    + ドラマが`始まるまで`勉強する。 - I will study until the drama starts.
+- emphatic use
+  * such as "even"
+  * examples
+    + `納豆まで`食べれるの！？ - You can even eat natto!?
+      + まで indicates 納豆 was the furthest item from the beginning of the list
+    + `そこまで`ビックリする？ - Are you surprised that much?
+      + そこ is not referring to "there" but referring to the extreme point of
+        your friend's surprise
+- まで and も
+  * examples
+    + `納豆まで`食べれるの！？ - You can even eat natto!? (marks end point of
+      surprise)
+    + `納豆も`食べれるの！？ - You can even eat natto!? (also eat natto)
+  * `納豆１０パックも`食べた。 - I ate 10 packs of natto.
+    + も emphasizes the amount when it marks a quantified amount
+    + まで does not have that function because it can only mark the "end point"
+    + 納豆１０パックまで suggests ten packs of natto are the farthest item in
+      the list of the things you ate
+- までの
+  * examples
+    + `東京までの`切符 - a ticket to Tokyo
+- までも
+  * examples
+    + 言う`までもない` - needless to say / it goes without saying
+      + verb + までもない usually means it can be effortlessly carried out
+
+### だけ
