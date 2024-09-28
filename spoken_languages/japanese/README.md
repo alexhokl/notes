@@ -134,7 +134,6 @@ ____
 - 牡蠣 (かき) - oyster
 - 生牡蠣 (なまがき) - raw oyster
 - プリン - pudding
-- コーラ - cola
 - 豚骨 (tonkotsu) - pork bone
 - 醤油 (shōyu) - soy sauce
 - 葱 (negi) - green onion
@@ -143,6 +142,7 @@ ____
 - ホルモン (horumon) - offal (內臟)
 - ベーコン (bēkon) - bacon
 - トマト (tomato) - tomato
+- バナナ (banana) - banana
 
 ### Fish
 
@@ -191,9 +191,11 @@ ____
 
 ## Drinks
 
+- コーラ - cola
 - お茶 (ocha) - tea
 - コーヒー (kōhī) - coffee
 - 水 (mizu) - water
+- ジュース (jūsu) - juice
 
 ## Convience store
 
@@ -552,6 +554,16 @@ ____
 - suffix
   * 女 (じょ) - woman
   * 男 (なん) - man
+
+## Family relationships
+
+- お父さん (おとうさん) - father
+- お母さん (おかあさん) - mother
+- お兄さん (おにいさん) - older brother
+- お姉さん (おねえさん) - older sister
+- 弟 (おとうと) - younger brother
+- 妹 (いもうと) - younger sister
+- 赤ちゃん - baby
 
 ## Stationary
 

@@ -15,6 +15,7 @@
   * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
   * [Lost of the w sound](#lost-of-the-w-sound)
   * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
+  * [と](#%E3%81%A8)
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
   * [が](#%E3%81%8C)
@@ -24,7 +25,8 @@
   * [で](#%E3%81%A7)
   * [へ](#%E3%81%B8)
   * [まで](#%E3%81%BE%E3%81%A7)
-  * [だけ](#%E3%81%A0%E3%81%91)
+  * [と](#%E3%81%A8-1)
+- [だけ](#%E3%81%A0%E3%81%91)
 ____
 
 ## References
@@ -340,6 +342,69 @@ Note that all other conjugations of 買う use hiragana characters on the
 | ---  | ---      | ---              | ---            |
 | 聞く | ki`k`    | 聞きて           | 聞いて         |
 | 急ぐ | iso`g`   | 急いて           | 急いで         |
+
+### と
+
+- for things that always happen
+  * when と is used for things with inevitable results like this, it is commonly
+    used with words like 必ず (without exception), いつも (always) or よく
+    (usually)
+  * examples
+    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
+      I always crave for sweets (without exception).
+- for habits
+  * examples
+    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
+      a run.
+    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
+      a run.
+    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
+      went for a run.
+      + と and the sentence ending ものだ (or ものです) are used for recalling
+        and narrating the old days
+- for general conditions
+  * examples
+    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
+    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
+      permission, Mami always gets upset.
+- for successive actions
+  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
+    often pairs up with と in this usage
+  * examples
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+      + note the use of past tense
+    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
+      right away.
+- for "what happens if" questions
+  * examples
+    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
+- for warnings
+  * by showing an inevitable consequence of doing something (or often not doing
+    something with the negative form of verbs)
+  * examples
+    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
+- for showing a different perspective
+  * In Japanese culture, people tend to try not to sound too direct or
+    assertive. They are sensitive of providing information as a universal truth
+    unless they are 100% certain because they don't want to be "wrong"! So と is
+    used to soften the assertiveness by bringing an objective perspective as
+    a certain condition.
+  * examples
+    + はっきり言う`と`… - To be honest...
+    + そう考える`と`… - Viewed from that angle...
+    + 他と比べる`と`… - Compared to others...
+    + 一般的に見る`と`… - Generally speaking...
+- と and たら
+  * quite similar because they can both show conditions and time sequence
+  * と shows strong causal relationship whereas the focus of たら is more of the
+    condition as the trigger of the result
+  * examples
+    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
+      crave for sweets.
+    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
+      for sweets.
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
 
 ## Particles (助詞)
 
@@ -814,5 +879,56 @@ Osaka and Kyoto, for example
   * examples
     + 言う`までもない` - needless to say / it goes without saying
       + verb + までもない usually means it can be effortlessly carried out
+
+### と
+
+- as in "and"
+  * examples
+    + ペン太`と`ペン子は友達だ。 - Penta and Penko are friends.
+    + トマト`と`バナナを食べる。 - I am going to eat tomatoes and bananas.
+    + トマト`と`バナナ`と`ケーキ`と`ラーメン`と`すしを食べる。
+- as in "with"
+  * examples
+    + 妹`と`トマトを食べた。 - I ate tomatoes with my sister.
+    + 妹`と`弟`と`トマトを食べた。 - I ate tomatoes with my younger sister and my
+      younger brother.
+    + 妹`と`弟`と`お父さん`と`お母さん`と`トマト`と`バナナ`と`ケーキ`と`ラーメン
+      `と`すしを食べた。- I ate tomatoes, bananas, cake, ramen, and sushi with
+      my younger sister, my younger brother, my father, and my mother.
+- for listing options
+  * examples
+    + 牛乳`と`ジュース`と`紅茶`と`コーヒー(`と`)、どれがいいですか？ - Which
+      would you like: milk, juice, tea, or coffee?
+- for interactive actions
+  * the Japanese idea of "with" is quite different from the English one
+  * examples
+    + 彼女`と`キスをした。 - I kissed with my girlfriend.
+      + 彼女`に`キスをした。 - I kissed to my girlfriend. (and this indicates
+        the directionality)
+    + 彼女`と`電話をした。 - I have a call with my girlfriend.
+      + 彼女`に`電話をした。 - I called my girlfriend.
+    + 彼女`と`結婚をした。 - I married my girlfriend.
+      + と cannot be replaced に in this case
+- for different interpretations
+  * examples
+    + 第一次世界対戦では、日本はイギリス`と`戦いました。 - In the First World
+      War, Japan and Great Britain fought (together).
+    + 第二次世界対戦では、日本はイギリス`と`戦いました。 - In the Second World
+      War, Japan and Great Britain fought (each other).
+    + 第一次世界対戦では、日本はイギリス`と`一緒に戦いました。 - In the First
+      World War, Japan and Great Britain fought together.
+      + note the use of 一緒に (together) to clarify the meaning of と
+    + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
+    + タケシはマサル`と` 一緒にケンカをした。 - Takeshi and Masaru fought
+      together (against someone else).
+- for marking quotations
+  * examples
+    + キャメロンが「おはよう」`と`言った。 - Cameron said "good morning."
+      + note that quoatation marks can be omitted in this case
+      + in casual conversation, と can be replaced by って
+        + キャメロンがおはよう`って`言った。 - Cameron said "good morning."
+    + 難しい質問だ`と`思う。 - I think it is a difficult question.
+    + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
+    + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
 
 ### だけ
