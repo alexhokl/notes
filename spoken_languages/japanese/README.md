@@ -124,6 +124,7 @@ ____
 - 五名です (go mei desu) - there are 5 people
 - 定食 (teishoku) - set meal
 - レストラン (resutoran) - restaurant
+- マクドナルド (makudonarudo) - McDonald's
 
 ## Food
 
@@ -142,7 +143,10 @@ ____
 - ホルモン (horumon) - offal (內臟)
 - ベーコン (bēkon) - bacon
 - トマト (tomato) - tomato
-- バナナ (banana) - banana
+- ピザ (piza) - pizza
+- カレー (karē) - curry
+- アップルパイ (appurupai) - apple pie
+- パンプキンパイ (panpukin pai) - pumpkin pie
 
 ### Fish
 
@@ -189,19 +193,26 @@ ____
 - イクラ - salmon roe
 - 朧 (おぼろ) - crumbled shrimp paste
 
+### Fruits
+
+- 葡萄 (ぶどう) - grape
+- バナナ (banana) - banana
+- 苺 (いちご) - strawberry
+
 ## Drinks
 
 - コーラ - cola
 - お茶 (ocha) - tea
 - コーヒー (kōhī) - coffee
-- 水 (mizu) - water
+- 水 (みず) - water
 - ジュース (jūsu) - juice
+- ワイン (wain) - wine
 
 ## Convience store
 
 - はい、お願いします (hai, onegaishimasu) - Yes, please
 - かしこまりました (kashikomarimashita) - Certainly
-- 大丈夫です (daijōbudesu) - it's okay
+- 大丈夫です (だいじゃうぶです) - it's okay
 - いえ (ie) - no
 - お箸、おつけしますか? (ohashi, otsukeshimasu ka?) - chopsticks, may I add?
 - おしぼり、おつけしますか？ (oshibori, otsukeshimasu ka?) - wet towel, may I add?
@@ -215,6 +226,7 @@ ____
 - ビニール袋 (binīru bukuro) - plastic bag (literally it is "vinyl bag")
 - コンビニ (konbini) - convenience store
 - パック (pakku) - pack
+- ハミガキ (hamigaki) - toothpaste
 
 ## Payment
 
@@ -236,6 +248,7 @@ ____
   Japanese
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
 - 皆さん (みなさん) - everyone
+- キャンセル (kyanseru) - cancel
 
 ## Sites
 
@@ -326,7 +339,7 @@ ____
 
 - 分 (ふん) - minute
   * it can be pronounced as ぷん due to 連濁 (れんだく)
-- 八時四十 分(hachi-ji yon-jū-pun) - 8:40
+- 八時四十分(hachi-ji yon-jū-pun) - 8:40
 - 2時間40分 (ni-jikan yon-jū-pun) - 2 hours 40 minutes
 - 午前 (ごぜん) - AM
 - 午後 (ごご) - PM
@@ -340,6 +353,8 @@ ____
 - 午前零時 - midnight
 - 午後零時 - noon
 - 昼間 (ひるま) - daytime
+- 八時前 (はちじまえ) - before 8
+- 八時後 (はちじご) - after 8
 
  | Hour     | Reading                         |
  | ---      | ---                             |
@@ -482,6 +497,14 @@ ____
 - スペイン - Spain
 - スイス - Switzerland
 
+## Weather
+
+- 晴れ (はれ) - sunny
+- 曇り (くもり) - cloudy
+- 雨 (あめ) - rain
+- 熱い (あつい) - hot
+- 寒い (さむい) - cold
+
 ## Football
 
 - ゴール (gōru) - goal
@@ -581,3 +604,4 @@ ____
 - 読む (よむ) - to read
 - 書く (かく) - to write
 - 頂く (いただく) - to receive, to get
+- 止まる (やます) - to stop

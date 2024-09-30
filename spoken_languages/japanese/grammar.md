@@ -15,6 +15,8 @@
   * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
   * [Lost of the w sound](#lost-of-the-w-sound)
   * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
+  * [Stem form](#stem-form)
+  * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
   * [と](#%E3%81%A8)
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
@@ -26,7 +28,9 @@
   * [へ](#%E3%81%B8)
   * [まで](#%E3%81%BE%E3%81%A7)
   * [と](#%E3%81%A8-1)
-- [だけ](#%E3%81%A0%E3%81%91)
+  * [から](#%E3%81%8B%E3%82%89)
+  * [より](#%E3%82%88%E3%82%8A)
+  * [だけ](#%E3%81%A0%E3%81%91)
 ____
 
 ## References
@@ -342,6 +346,76 @@ Note that all other conjugations of 買う use hiragana characters on the
 | ---  | ---      | ---              | ---            |
 | 聞く | ki`k`    | 聞きて           | 聞いて         |
 | 急ぐ | iso`g`   | 急いて           | 急いで         |
+
+### Stem form
+
+- aka
+  * V-stem form
+  * ます form
+  * i-form
+  * 連用形 (れんようけい)
+  * continuative form
+  * continuative stem
+  * conjunctive form
+  * sentence-joining form
+- the fixed part in a verb conjuation
+- suffixed with い if it is a 五段動詞 (godan verb)
+- it can also stand alone as a noun at times or become at least noun-like,
+  allowing it to combine with another word to form a compound verb like 飛び込む
+  (to jump in)
+- conjugation
+  * 五段動詞
+    + replace う ending with い
+  * 一段動詞
+    + remove る ending
+  * 変格動詞
+    + する -> し
+    + 来る -> 来
+
+### Command form (imperative) ろ
+
+- it is pretty strong and not exactly super polite to use
+- conjugation
+  * 五段動詞
+    + change from う-line to え-line
+  * 一段動詞
+    + replace る ending with ろ
+    + exception
+      + くれる -> くれ
+  * 変格動詞
+    + する -> しろ
+    + 来る -> 来い
+- command form is also used in situations where relative social standing is not
+  important
+  * in moments of danger or crisis, your warning message is more important than
+    making sure you do not offend anyone
+  * examples
+    + 熊だ！逃げろー！ - A bear! Run away!
+- softening the command form with particles
+  * when using the command form in casual conversations, final particles such as
+    よ are often attached to the verb to avoid sounding too aggressive
+    + examples
+      + おい、にやにやするの止めろよ！ - Hey, stop grinning at me like that!
+        + ニヤニヤ - grinning
+  * use って or ってば
+    + it indicates that you are repeating the same command, which does a great
+      job of expressing your frustration
+    + examples
+      + やめろって！ - I said Stop it!
+      + やめろってば！ - I said stop it!
+- for motivation or encouragement
+  * keep in mind, this might not be appropriate if you are speaking face-to-face
+    with the athletes
+  * examples
+    + 自分を信じろ！ - Believe in yourself!
+    + 全力でやれ！ - Give it all you have got!
+      + やれ is the imperative form of やる (to do)
+    + 気合入れろ! - Pick it up!
+    + 頑張れ！ - Hang in there!
+- commanding not to do something
+  * examples
+    + 心配するな。 - Don't worry about it.
+    + 泣くな！男の子でしょう！ - Don't cry! You are a boy, aren't you?
 
 ### と
 
@@ -930,5 +1004,166 @@ Osaka and Kyoto, for example
     + 難しい質問だ`と`思う。 - I think it is a difficult question.
     + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
     + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
+
+### から
+
+- to indicate the beginning point of something, or where something is coming
+  from
+  * examples
+    + `アメリカから`日本まで - From America to Japan
+    + `９時から`１０時まで - From 9 to 10
+- to indicate the source of something
+- examples
+- `ここから`あそこまで - From here to there
+- `ここから`クマが出てきた！ - A bear came out from here!
+- patterns
+  * noun + から
+    + `ロサンゼルスから`ニューヨークまで - From Los Angeles to New York
+  * action/state + から
+    + 赤ちゃん`寝たから`静かにして。 - The baby fell asleep, so please be quiet.
+    + `暑いから`眠れない。 - It's hot, so I can't sleep.
+  * て form + から
+    + `ハミガキしてから`寝た。 - I went to bed after brushing my teeth.
+    + `ハミガキしてから`５分がたった。 - Five minutes have passed since
+      I brushed my teeth.
+- for a beginning point in space
+  * examples
+    + `ロサンゼルスから`ニューヨークまで歩いた。 - I walked from Los Angeles to
+      New York.
+    + `どこから`来たんですか。 - Where did you come from?
+    + `ロサンゼルスから`来ました。 - I came from Los Angeles.
+    + 先生が`マクドナルドから`出てきた。 - The teacher came out from McDonald's.
+- for a beginning point in time
+  * examples
+    + `１１時から`会議が始まる。 - The meeting starts from eleven o'clock.
+      + `１１時に`会議が始まる。 - The meeting starts at eleven o'clock.
+    + `今日から`筋トレする！ - I will start working out today!
+- for the original state in a transition
+  * examples
+    + `くもりから`雨に変わる。 - It changes from cloudy to rainy.
+      + 曇り (くもり) - cloudy
+    + `学生から`社会人になる。 - I will become a working adult from a student.
+- for raw materials
+  * examples
+    + ワインは`ブドウから`作られます。 - Wine is made from grapes.
+    + ピザ生地は、小麦粉とイーストと水`から`作られます。 - Pizza dough is made
+      from flour, yeast, and water.
+      + ピザ生地は、小麦粉とイーストと水`で`作られます。 can be used but the
+        focus would be on the process of making the dough
+- for sources
+  * examples
+    + トーフグ`から`学んだ。 - I learned from Tofugu.
+      + トーフグ`で`学んだ。 - I learned from Tofugu. (but marks means/tools
+        used to learn)
+    + 友達`から`助けてもらった。 - I was helped by my friend.
+      + 友達`に`助けてもらった。 - I was helped by my friend. (focus on the
+        friend)
+    + `私から`告白した。 - I did the love confession.
+- in passive sentence
+  * examples
+    + `彼氏から`キスされた。 - I was kissed by my boyfriend.
+- から and より
+  * both indicates the source in "someone is receiving something from someone
+    else"
+  * より is an archaic (old-fashion) version of から and it generally carries
+    a formal tone
+  * examples
+    + `友達から`手紙をもらった。 - I received a letter from my friend.
+    + `友達より`手紙をもらった。 - I received a letter from my friend.
+  * indicating "from" in a letter
+    + まみより - from Mami
+- for reason
+  * examples
+    + `予定があるから`遊べない。 - I have plans, so I can't hang out with you.
+    + `予定がキャンセルになったから`遊べる。 - The plans have been canceled so
+      I can hang out with you.
+      + キャンセル (kyanseru) - cancel
+- for continuous actions
+  * it can be attached to the て form of a word when it is connecting sequential
+    actions
+  * in this case, the sentence works without から, but adding から clarifies or
+    emphasizes that the event it is marking is the original event where the
+    event following it came from
+  * examples
+    + `宿題をしてから`友達と遊んだ。 - I did homework and then hung out with my
+      friend.
+      + `宿題をして`友達と遊んだ。 - I did homework and hung out with my friend.
+      + `宿題をしてから`ゲームをするのよ！ - You do your homework before playing
+        games, all right?
+- for since
+  * it can be attached to the て form when it expresses continuous actions
+  * examples
+    + `大学を卒業してから`1年が過ぎた。 - Since I graduated from university,
+      it's been one year.
+      + `大学を卒業して`1年が過ぎた。 - I graduated from university a year ago.
+
+### より
+
+- to be used as "than"
+  * examples
+    + このイチゴは、あのイチゴ`より`大きい。 - This strawberry is bigger than
+      that strawberry.
+    + このイチゴは、あのイチゴ`より`速く育っている。 - This strawberry is
+      growing faster than that strawberry.
+  * note that the adjectives and adverbs come after does not have to change and
+    keep their basic forms
+- patterns
+- ...は...より...
+  * examples
+    + トムは、ベン`より`背が高い。 - Tom is taller than Ben.
+    + トムは、ベン`よりも`背が高い。 - Tom is taller than Ben.
+    + トムは、背が (ベン`より`) 高い。 - Tom is taller than Ben.
+  * this pattern focuses on the subject marked by は
+- ...方が...より...
+  * this pattern focuses on the dimension being compared
+  * 方 works like noun and より is a particle
+    + 方 (ほう) - direction
+  * examples
+    + トムの方が、ベン`よりも`背が高い。 - Tom is taller than Ben.
+      + 方 indicates you are comparing two entities and pointing to one of them
+    + トムの方が背が高い。 - Tom is taller.
+      + 方が by itself can indicate the comparison and 〜より is often omitted
+        if it's clear from the context
+    + 熱い方が、寒い`より`いい。
+      + 熱い (あつい) - hot
+      + 寒い (さむい) - cold
+    + 真面目な方が、不真面目`より`いい。
+      + 真面目 (まじめ) - serious
+      + 不真面目 (ふまじめ) - not serious
+      + な to make 真面目 an adjective
+    + トムの方が背が高い。 - Tom is taller.
+      + understood from the context that who we are comparing Tom to
+    + の方が`より`おいしい。 - It is more delicious.
+      + it can imply (私が作るカレー) の方が (トムが作るカレー) よりおいしい。 - The
+        curry I make is more delicious than the curry Tom makes.
+    + 方が`より`おいしい。 - It is better.
+      + it can imply (私が作る) が (トムが作る) `より`おいしい。 - I make it
+        better than Tom does.
+    + 方がおいしい。 - It tastes better when I make it.
+      + it makes sense when the person to comparing to is clear from the context
+- degrees of difference
+  * when comparing two entities, to include information to talk about how much
+    the entities differ by
+    + the information is normally placed just after より or よりも
+  * examples
+    + トムは、ベン`よりも`３才年上だ。 - Tom is three years older than Ben.
+    + アップルパイの方が、パンプキンパイ`より`五ドル高い。 - Apple pie is five
+      dollars more expensive than pumpkin pie.
+- negative sentence
+  * examples
+    + このイチゴは、あのイチゴ`ほど`大きくない。 - This strawberry is not as big
+      as that strawberry.
+      + このイチゴは、あのイチゴ`より`大きい。 - This strawberry is bigger than
+        that strawberry.
+- when it means "than" and "from"
+  * examples
+  * この線`より`内側に立ってください。- Please stand inside this line.
+  * 六時`より`後なら大丈夫だよ。 - It's okay if it's after six.
+- when it means "no other choice"
+  * examples
+    + 歩く`より`仕方がない。 - There is no other choice but to walk.
+    + 歩く`より`仕様がない。 - There is no other choice but to walk.
+    + 歩く`より`他にがない。 - There is no other choice but to walk.
+- to be used as starting point
 
 ### だけ
