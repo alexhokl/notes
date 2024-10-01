@@ -10,6 +10,7 @@
     + [Fish](#fish)
     + [Shellfish](#shellfish)
     + [Other seafood](#other-seafood)
+    + [Fruits](#fruits)
   * [Drinks](#drinks)
   * [Convience store](#convience-store)
   * [Payment](#payment)
@@ -26,16 +27,22 @@
   * [Colours](#colours)
   * [Feelings](#feelings)
   * [Positions](#positions)
+  * [Form filling](#form-filling)
   * [Academic](#academic)
+  * [People names](#people-names)
   * [Countries](#countries)
+  * [Weather](#weather)
   * [Football](#football)
+  * [Cycling](#cycling)
   * [Driving](#driving)
   * [Animals](#animals)
   * [Funiture](#funiture)
   * [Internet](#internet)
   * [Media](#media)
   * [Sex](#sex)
-  * [Verb](#verb)
+  * [Family relationships](#family-relationships)
+  * [Stationary](#stationary)
+- [Verbs](#verbs)
 ____
 
 # Links
@@ -484,12 +491,22 @@ ____
 - ここ (ここ) - here
 - そこ (そこ) - there
 
+## Form filling
+
+- 名前 (なまえ) - first name
+- 苗字 (みょうじ) - last name
+
 ## Academic
 
 - 勉強する (べんきょうする) - to study
 - 読み (よみ) - reading
 - 読む (よむ) - to read
 - 解読 (かいどく) - deciphering
+- クラス (kurasu) - class
+
+## People names
+
+- アレックス (arekkusu) - Alex
 
 ## Countries
 
