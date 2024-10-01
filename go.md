@@ -13,6 +13,7 @@
   * [AI](#ai)
   * [PDF](#pdf)
   * [Others](#others)
+- [Configuration](#configuration)
 - [Commands](#commands)
   * [Testing](#testing)
   * [Modules](#modules)
@@ -190,9 +191,35 @@ ____
   `map`
 - [zephyrtronium/gotools](https://gitlab.com/zephyrtronium/gotools)
 
+## Configuration
+
+- `GOMEMLIMIT`
+  * reference: [A Guide to the Go Garbage
+    Collector](https://tip.golang.org/doc/gc-guide)
+  * introduced since 1.19
+  * without this limit set, Go garbage collector (after each GC cycle) picks
+    a total heap size proportional to the live heap size without considering the
+    memory available to the system
+    + the proportion is determined by environment variable `GOGC` and its
+      default value is `100`
+  * setting this to too a values could introduce a scenario called thrashing
+    where the garbage collector is running continuously and consumes all the CPU
+    but it does not throw an out-of-memory error
+    + thus, it is worst than having an out-of-memory error
+  * this is a soft limit to GC to avoid thrashing
+    + Go ignore this limit if GC comsume too much CPU
+  * good use-cases
+    + deployment to a container
+  * bad use-cases
+    + heap size is likely very close to the memory limit to be set (which can
+      results in thrashing)
+  * examples
+    + `export GOMEMLIMIT=250MiB`
+
 ## Commands
 
-List of all `GOOS` and `GOARCH` can be found in [`syslist.go`](https://github.com/golang/go/blob/master/src/go/build/syslist.go)
+List of all `GOOS` and `GOARCH` can be found in
+[`syslist.go`](https://github.com/golang/go/blob/master/src/go/build/syslist.go)
 
 
 ###### To build Windows executable
