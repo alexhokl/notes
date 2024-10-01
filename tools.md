@@ -14,6 +14,7 @@
   * [Job search](#job-search)
   * [JSON](#json)
   * [Location](#location)
+  * [Image search](#image-search)
   * [Online meeting](#online-meeting)
   * [Open source](#open-source)
   * [Privacy](#privacy)
@@ -36,9 +37,13 @@ ____
   a curated list of awesome console services
   (reachable via HTTP, HTTPS and other network protocols). Structured data of
   the list (kept in sync) is in structured.yaml.
-- [mitmproxy](https://mitmproxy.org/) - a free and open source interactive HTTPS proxy
+- [Awesome TUIs](https://github.com/rothgar/awesome-tuis) - List of projects
+  that provide terminal user interfaces
+- [mitmproxy](https://mitmproxy.org/) - a free and open source interactive HTTPS
+  proxy
 - [Scoop](https://scoop.sh/) - a command-line installer for Windows
-- [asciinema](https://asciinema.org/) - a lightweight, purely text-based approach to terminal recording
+- [asciinema](https://asciinema.org/) - a lightweight, purely text-based
+  approach to terminal recording
 - [charmbracelet/freeze](https://github.com/charmbracelet/freeze) - a CLI tool
   to capture a terminal command, code file and save it as an image
 - [smallstep](https://smallstep.com/) - a command line tool to work with zero
@@ -46,11 +51,14 @@ ____
     ([intro](https://smallstep.com/blog/zero-trust-swiss-army-knife.html))
 - [peek](https://github.com/phw/peek) - an animated GIF recorder
 - [HTTP Prompt](http://http-prompt.com/)
-- [httpstat](https://github.com/davecheney/httpstat) - visualizes `curl` statistics in a way of beauty and clarity
+- [httpstat](https://github.com/davecheney/httpstat) - visualizes `curl`
+  statistics in a way of beauty and clarity
 - [bed](https://github.com/itchyny/bed) - a binary editor written in Go
 - [hexyl](https://github.com/sharkdp/hexyl) - a command-line hex viewer
-- [markdown-toc](https://github.com/jonschlinkert/markdown-toc) - Generate a markdown TOC
-- [staticcheck](https://github.com/dominikh/go-tools) - Go static analysis, detecting bugs, performance issues, and much more
+- [markdown-toc](https://github.com/jonschlinkert/markdown-toc) - Generate
+  a markdown TOC
+- [staticcheck](https://github.com/dominikh/go-tools) - Go static analysis,
+  detecting bugs, performance issues, and much more
 - [Linters from Clean Code](https://github.com/showcases/clean-code-linters)
 - [Perkeep](https://perkeep.org/)
 - [Depicted—dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous
@@ -202,6 +210,10 @@ ____
       from the viewpoint in kilometres
   * Peakvisor OPen Source Investigation (POPSI) project is involved
 
+### Image search
+
+- [PimEyes](https://pimeyes.com/) - reverse image/people search
+
 ### Online meeting
 
 - [Jitsi Meet](https://meet.jit.si/)
@@ -238,7 +250,8 @@ ____
 
 ### Services
 
-- [Snyk](https://snyk.io/) Find vulnerabilities in your repos and remediate risks with updates and patches.
+- [Snyk](https://snyk.io/) Find vulnerabilities in your repos and remediate
+  risks with updates and patches.
 - [empear](https://www.empear.com/) Project Analysis with Intelligence
 - [BrowserStack](https://www.browserstack.com/)
 - [Octopus Deploy](https://octopus.com/)
