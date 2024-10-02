@@ -495,6 +495,8 @@ ____
 
 - 名前 (なまえ) - first name
 - 苗字 (みょうじ) - last name
+- マル - circle
+- バツ - cross
 
 ## Academic
 
@@ -594,6 +596,11 @@ ____
 - suffix
   * 女 (じょ) - woman
   * 男 (なん) - man
+- noun
+  * 女の人 (おんなのひと) - woman
+    + pronounced like onnanoshito
+  * 男の人 (おとこのひと) - man
+    + pronounced like otokonoshito
 
 ## Family relationships
 

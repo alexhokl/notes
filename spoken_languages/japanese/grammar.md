@@ -20,6 +20,8 @@
   * [と](#%E3%81%A8)
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
+  * [の](#%E3%81%AE)
+  * [も](#%E3%82%82)
   * [が](#%E3%81%8C)
   * [を](#%E3%82%92)
   * [に and で](#%E3%81%AB-and-%E3%81%A7)
@@ -490,6 +492,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - と (to) - and (between nouns)
 - か (ka) - or (between nouns)
 - や (ya) - for example (between nouns)
+- almost all particles follows a noun
 
 ### Examples
 
@@ -503,6 +506,26 @@ Osaka and Kyoto, for example
 - 日本`は`大坂`が`有名です (nihon wa ōsaka ga yūmei desu) - As for Japan, Osaka
   is famous
 - 大坂`を`知っていますか？ (ōsaka o shitteimasu ka?) - Do you know Osaka?
+
+### の
+
+- if the context is clear andthe noun comes before の is a person
+  * 山田さん`の`本です can be written as 山田さん`の`
+
+### も
+
+- it means "too" in general
+- it is usually used in the second sentence of two sentences which describe the
+  same situation or beahviour
+- examples
+  * らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif is a
+    student, too.
+  * らヒムさんわ先ではありません。アリフさん`も`先生ではありません。 - Rahim is not a
+    teacher. Arif is not a teacher, either.
+  * 私はマレーシア人です。貴方`も`マレーシア人ですか。 - I am Malaysian. Are you
+    Malaysian, too?
+    + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
+    + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
 
 ### が
 
