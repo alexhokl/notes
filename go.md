@@ -50,6 +50,7 @@
   * [Testing](#testing-1)
   * [io.MultiReader](#iomultireader)
   * [Generics](#generics)
+  * [Range over function](#range-over-function)
   * [Time](#time)
   * [Call stack](#call-stack)
   * [Build tags](#build-tags)
@@ -1377,6 +1378,180 @@ func main() {
 
 The second parameter can be guessed as it can be inferred from function
 parameter. Thus, only the first type parameter needs to be specified.
+
+### Range over function
+
+- added since Go `1.23`
+- range over function that take a single argument and the argument must itself
+  be a function that takes zero to two arguments and returns a `bool`
+  * by convention, the function is identified as yield function
+  * signatures
+    + `func (yield func() bool)`
+    + `func (yield func(V) bool)`
+    + `func (yield func(K, V) bool)`
+  * typically, yield function is specified by user of `range` and invoked by an
+    iterator
+- standard iterators are push iterators
+  * since it pushes out a sequence of values by calling a yield function
+```go
+package iter
+type Seq[V any] func(yield func(V) bool)
+type Seq2[K, V any] func(yield func(K, V) bool)
+```
+  * example
+```go
+// All is an iterator over the elements of s.
+func (s *Set[E]) All() iter.Seq[E] {
+    return func(yield func(E) bool) {
+        for v := range s.m {
+            if !yield(v) {
+                // clean up here if needed
+                return
+            }
+        }
+    }
+}
+```
+  * how does it work
+    + for some sequence of values, they call a yield function with each value in
+      the sequence. If the yield function returns `false`, no more values are
+      needed, and the iterator can just return, doing any cleanup that may be
+      required. If the yield function never returns false, the iterator can just
+      return after calling yield with all the values in the sequence.
+  * As a matter of convention, it is encouraged that all container types to
+    provide an `All` method that returns an iterator, so that programmers do not
+    have to remember whether to range over `All` directly or whether to call
+    `All` to get a value they can range over. They can always do the latter.
+- pull iterators
+  * it is a function that is written such that each time you call it, it returns
+    the next value in the sequence
+  * it is not supported directly by the `for`/`range` statement; however, it is
+    straightforward to write an ordinary `for` statement that loops through a
+    pull iterator
+  * since there is no way to force the yield function to return `false`, a stop
+    function is needed
+    + strictly speaking you do not need to call the stop function if the pull
+      iterator returns false to indicate that it has reached the end of the
+      sequence, but it is usually simpler to just always call it
+    + an example on reporting whether two arbitrary sequences contain the same
+      elements in the same order
+      + note that there is no `for`/`range` involved
+```go
+func EqSeq[E comparable](s1, s2 iter.Seq[E]) bool {
+    next1, stop1 := iter.Pull(s1)
+    defer stop1()
+    next2, stop2 := iter.Pull(s2)
+    defer stop2()
+    for {
+        v1, ok1 := next1()
+        v2, ok2 := next2()
+        if !ok1 {
+            return !ok2
+        }
+        if ok1 != ok2 || v1 != v2 {
+            return false
+        }
+    }
+}
+```
+- iterator examples
+  * an example on filtering
+    + note that the first arugment is the fucntion defined by the user to
+      perform the actual filtering logic
+```go
+func Filter[V any](f func(V) bool, s iter.Seq[V]) iter.Seq[V] {
+    return func(yield func(V) bool) {
+        for v := range s {
+            if f(v) {
+                if !yield(v) {
+                    return
+                }
+            }
+        }
+    }
+}
+```
+  * an example on binary tree
+```go
+type Tree[E any] struct {
+    val   E
+    left  *Tree[E]
+    right *Tree[E]
+}
+
+func (t *Tree[E]) All() iter.Seq[E] {
+    return func(yield func(E) bool) {
+        t.push(yield)
+    }
+}
+
+func (t *Tree[E]) push(yield func(E) bool) bool {
+    if t == nil {
+        return true
+    }
+    return t.left.push(yield) &&
+        yield(t.val) &&
+        t.right.push(yield)
+}
+```
+- updates in slice and maps package since Go `1.23`
+  * functions work with iterators
+    + slice package
+      + `All([]E) iter.Seq2[int, E]`
+      + `Values([]E) iter.Seq[E]`
+      + `Collect(iter.Seq[E]) []E`
+      + `AppendSeq([]E, iter.Seq[E]) []E`
+      + `Backward([]E) iter.Seq2[int, E]`
+      + `Sorted(iter.Seq[E]) []E`
+      + `SortedFunc(iter.Seq[E], func(E, E) int) []E`
+      + `SortedStableFunc(iter.Seq[E], func(E, E) int) []E`
+      + `Repeat([]E, int) []E`
+      + `Chunk([]E, int) iter.Seq([]E)`
+    + maps package
+      + `All(map[K]V) iter.Seq2[K, V]`
+      + `Keys(map[K]V) iter.Seq[K]`
+      + `Values(map[K]V) iter.Seq[V]`
+      + `Collect(iter.Seq2[K, V]) map[K, V]`
+      + `Insert(map[K, V], iter.Seq2[K, V])`
+  * examples
+    + an example on filtering
+```go
+// LongStrings returns a slice of just the values
+// in m whose length is n or more.
+func LongStrings(m map[int]string, n int) []string {
+    isLong := func(s string) bool {
+        return len(s) >= n
+    }
+    return slices.Collect(Filter(isLong, maps.Values(m)))
+}
+```
+    + an example on iterating over lines in a file
+      + the original (inefficient) way
+```go
+nl := []byte{'\n'}
+// Trim a trailing newline to avoid a final empty blank line.
+for _, line := range bytes.Split(bytes.TrimSuffix(data, nl), nl) {
+    handleLine(line)
+}
+```
+      + the new (efficient) way
+```go
+func Lines(data []byte) iter.Seq[[]byte] {
+    return func(yield func([]byte) bool) {
+        for len(data) > 0 {
+            line, rest, _ := bytes.Cut(data, []byte{'\n'})
+            if !yield(line) {
+                return
+            }
+            data = rest
+        }
+    }
+}
+
+for line := range Lines(data) {
+    handleLine(line)
+}
+```
 
 ### Time
 
