@@ -222,12 +222,16 @@ ____
 - 大丈夫です (だいじゃうぶです) - it's okay
 - いえ (ie) - no
 - お箸、おつけしますか? (ohashi, otsukeshimasu ka?) - chopsticks, may I add?
-- おしぼり、おつけしますか？ (oshibori, otsukeshimasu ka?) - wet towel, may I add?
-- ポイントカードはおもちですか? (pointo kādo wa omochi desu ka?) - point card, do you have?
-- こちら温めまっすか？ (kochira atatame masu ka?) - This, do you want to warn it up?
+- おしぼり、おつけしますか？ (oshibori, otsukeshimasu ka?) - wet towel, may
+  I add?
+- ポイントカードはおもちですか? (pointo kādo wa omochi desu ka?) - point card,
+  do you have?
+- こちら温めまっすか？ (kochira atatame masu ka?) - This, do you want to warn it
+  up?
 - 袋、ご利用おですか? (fukuro wa goriyō odesu ka?) - bag, will you use?
 - レジ袋いりますか？ (reji bukuro irimasu ka?) - cashier bag, do you need?
-- レジ袋お付けしますか？ (reji bukuro otsukeshimasu ka?) - cashier bag, may I add?
+- レジ袋お付けしますか？ (reji bukuro otsukeshimasu ka?) - cashier bag, may
+  I add?
 - レジ袋わいらないです (reji bukuro wa iranai desu) - cashier bag, I don't need
 - レジ袋 (reji bukuro) - plastic bag (literally it is "cashier bag")
 - ビニール袋 (binīru bukuro) - plastic bag (literally it is "vinyl bag")
@@ -244,8 +248,10 @@ ____
 
 ## Conversation
 
-- 初めまして (hajimemashite) - nice to meet you
-- どうぞ 宜しく お願います (dōzo yoroshiku onegaishimasu) - please take care of me
+- 初めまして (はじめまして) - nice to meet you
+- どうぞ宜しくお願いします (どうぞよろしくおねがいします) - pleased to meet you
+- こちらこそよろしくお願いします (こちらこそよろしくおねがいします) - I'm
+  pleased to meet you too
 - ありがとう ございます (arigatō gozaimasu) - thank you
 - どう 致しまして (dō itashimashite) - you're welcome
 - おめでとう ございます somedetō gozaimasu) - congratulations
