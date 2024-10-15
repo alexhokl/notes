@@ -33,6 +33,10 @@
   * [から](#%E3%81%8B%E3%82%89)
   * [より](#%E3%82%88%E3%82%8A)
   * [だけ](#%E3%81%A0%E3%81%91)
+- [Adjectives](#adjectives)
+  * [い形容詞 (いけいようし) - い-adjectives](#%E3%81%84%E5%BD%A2%E5%AE%B9%E8%A9%9E-%E3%81%84%E3%81%91%E3%81%84%E3%82%88%E3%81%86%E3%81%97---%E3%81%84-adjectives)
+  * [な形容詞 (なけいようし) - な-adjectives](#%E3%81%AA%E5%BD%A2%E5%AE%B9%E8%A9%9E-%E3%81%AA%E3%81%91%E3%81%84%E3%82%88%E3%81%86%E3%81%97---%E3%81%AA-adjectives)
+  * [Conjugation](#conjugation)
 ____
 
 ## References
@@ -1190,3 +1194,38 @@ Osaka and Kyoto, for example
 - to be used as starting point
 
 ### だけ
+
+## Adjectives
+
+- it must be followed by a noun
+- adjective + です
+- い-adjectives
+  * it ends with い
+- な-adjectives
+  * it does not end with な
+
+### い形容詞 (いけいようし) - い-adjectives
+
+- 新しい (あたらしい) - new
+- 美味しい (おいしい) - delicious
+- 太い (ふとい) - thick
+  * fat for person; wide for things
+
+### な形容詞 (なけいようし) - な-adjectives
+
+- 静か (しずか) - quiet
+- 賑やか (にぎやか) - lively / busy / noisy
+- 綺麗 (きれい) - beautiful / clean
+  * this is not a い-adjective
+- 有名 (ゆうめい) - famous
+  * this is not a い-adjective
+- 嫌い (きらい) - dislike
+  * this is not a い-adjective
+
+### Conjugation
+
+|          | Affirmative | Negative       |
+| ---      | ---         | ---            |
+| non-past | 新しい      | 新しくない     |
+| past     | 新しかった  | 新しくなかった |
+

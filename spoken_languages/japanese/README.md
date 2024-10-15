@@ -88,6 +88,7 @@ ____
 - 何故なら (なぜなら) - because
 - だって - because
 - 為に (ために) - for
+- では - then
 
 ## Pronouns
 
@@ -112,6 +113,10 @@ ____
   * 僕 (ぼく) - I (man)
   * 私 (あたし) - I (woman)
 - 貴方 (あなた) - you
+- 此方 (こちら) - this way / here / this
+  * I / me / we / us
+- 其方 (そちら) - that way / there / that
+  * you / your family / your company
 
 ## Adverb
 
@@ -252,6 +257,7 @@ ____
 - どうぞ宜しくお願いします (どうぞよろしくおねがいします) - pleased to meet you
 - こちらこそよろしくお願いします (こちらこそよろしくおねがいします) - I'm
   pleased to meet you too
+  * こちらこそ - it is me who should say so
 - ありがとう ございます (arigatō gozaimasu) - thank you
 - どう 致しまして (dō itashimashite) - you're welcome
 - おめでとう ございます somedetō gozaimasu) - congratulations
@@ -262,6 +268,7 @@ ____
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
 - 皆さん (みなさん) - everyone
 - キャンセル (kyanseru) - cancel
+- 始めましょう (はじめましょう) - let's start
 
 ## Sites
 
