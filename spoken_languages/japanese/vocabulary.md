@@ -9,12 +9,19 @@
   * [N4](#n4)
     + [Nouns](#nouns-1)
     + [Adjectives](#adjectives-1)
+    + [Verbs](#verbs-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
+    + [Adjectives](#adjectives-2)
+    + [Verbs](#verbs-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
+    + [Adjectives](#adjectives-3)
+    + [Verbs](#verbs-3)
   * [N1](#n1)
     + [Nouns](#nouns-4)
+    + [Adjectives](#adjectives-4)
+    + [Verbs](#verbs-4)
 ____
 
 # Vocabulary
@@ -23,6 +30,7 @@ ____
 
 ### Nouns
 
+- [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
 - 男 (おとこ)
 - 女 (おんな)
 - 名前 (なまえ) - name
@@ -62,6 +70,7 @@ ____
 
 ### Adjectives
 
+m [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - tall
 - 低い (ひくい) - short
 - 長い (ながい) - long
@@ -94,6 +103,7 @@ ____
 
 ### Adverbs
 
+- [list](https://jisho.org/search/%23jlpt-n5%20%23adverb)
 - 少し (すこし) - a little
 - 迚も (とても) - very
 
@@ -103,6 +113,7 @@ ____
 
 ### Verbs
 
+- [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
 
 ### Expressions
@@ -114,6 +125,7 @@ ____
 
 ### Nouns
 
+- [list](https://jisho.org/search/%23jlpt-n4%20%23noun)
 - オートバイ - motorcycle
 - 試験 (しけん) - exam
 - 消しゴム (けしゴム) - eraser
@@ -123,7 +135,12 @@ ____
 
 ### Adjectives
 
+- [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
+
+### Verbs
+
+- [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
 
 ## N3
 
@@ -132,17 +149,43 @@ ____
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
 
+### Adjectives
+
+- [list](https://jisho.org/search/%23jlpt-n3%20%23adjective)
+
+### Verbs
+
+- [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
+
 ## N2
 
 ### Nouns
 
+- [list](https://jisho.org/search/%23jlpt-n2%20%23noun)
 - 彫刻 (ちょうこく) - sculpture
 - 国立 (こくりつ) - national
 - ロビー - lobby
+
+### Adjectives
+
+- [list](https://jisho.org/search/%23jlpt-n2%20%23adjective)
+
+### Verbs
+
+- [list](https://jisho.org/search/%23jlpt-n2%20%23verb)
 
 ## N1
 
 ### Nouns
 
+- [list](https://jisho.org/search/%23jlpt-n1%20%23noun)
 - 階 (かい) - floor
 - インフォメーション - information
+
+### Adjectives
+
+- [list](https://jisho.org/search/%23jlpt-n1%20%23adjective)
+
+### Verbs
+
+- [list](https://jisho.org/search/%23jlpt-n1%20%23verb)

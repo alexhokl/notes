@@ -115,6 +115,7 @@ ____
 - どの人 (どのひと) - which person
 - 私 (わたし) - I
   * 僕 (ぼく) - I (man)
+  * 俺 (おれ) - I (man)
   * 私 (あたし) - I (woman)
 - 貴方 (あなた) - you
 - 君 (きみ) - you / buddy
@@ -641,7 +642,8 @@ ____
 - 成る (なる) - to become
 - 居る (いる) - to be (used for living things) (usually written in kana)
 - 有る (ある) - to exist (used for non-living things) (usually written in kana)
-- 考える (かんがえる) - to think
+- 考える (かんがえる) - to think (on a specific detail)
+- 思う (おもう) - to think / to care for / to worry about (on a general topic)
 - 見る (みる) - to see
 - 聞く (きく) - to hear
 - 話す (はなす) - to speak
