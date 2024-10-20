@@ -23,7 +23,6 @@
     + [Approximate time](#approximate-time)
   * [Days of week](#days-of-week)
   * [Day](#day)
-  * [Numbers](#numbers)
   * [Colours](#colours)
   * [Feelings](#feelings)
   * [Positions](#positions)
@@ -37,6 +36,7 @@
   * [Driving](#driving)
   * [Animals](#animals)
   * [Funiture](#funiture)
+  * [Electronics](#electronics)
   * [Internet](#internet)
   * [Media](#media)
   * [Sex](#sex)
@@ -50,6 +50,8 @@ ____
 - [Kana](./kana.md)
 - [Pronunciation](./pronunciation.md)
 - [Grammar](./grammar.md)
+- [Numbers](./numbers.md)
+- [Vocabulary](./vocabulary.md)
 - [Keyboard](./keyboard.md)
 - [Hiragana keyboard mapping](./hiragana_keyboard_mapping.md)
 - [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
@@ -107,12 +109,15 @@ ____
   * 其処 (そこ) - there
   * 彼処 (あそこ) - over there
   * 何処 (どこ) - where
+  * 何方 (どちら) - which way
 - 何 (なに) - what
 - 誰 (だれ) - who
+- どの人 (どのひと) - which person
 - 私 (わたし) - I
   * 僕 (ぼく) - I (man)
   * 私 (あたし) - I (woman)
 - 貴方 (あなた) - you
+- 君 (きみ) - you / buddy
 - 此方 (こちら) - this way / here / this
   * I / me / we / us
 - 其方 (そちら) - that way / there / that
@@ -137,6 +142,8 @@ ____
 - 定食 (teishoku) - set meal
 - レストラン (resutoran) - restaurant
 - マクドナルド (makudonarudo) - McDonald's
+- お手洗い (おてあらい) - restroom
+- トイレ - toilet
 
 ## Food
 
@@ -210,6 +217,7 @@ ____
 - 葡萄 (ぶどう) - grape
 - バナナ (banana) - banana
 - 苺 (いちご) - strawberry
+- 林檎 (りんご) - apple
 
 ## Drinks
 
@@ -243,6 +251,7 @@ ____
 - コンビニ (konbini) - convenience store
 - パック (pakku) - pack
 - ハミガキ (hamigaki) - toothpaste
+- エーティーエム (ētīemu) - ATM
 
 ## Payment
 
@@ -269,6 +278,13 @@ ____
 - 皆さん (みなさん) - everyone
 - キャンセル (kyanseru) - cancel
 - 始めましょう (はじめましょう) - let's start
+- お休みなさい (おやすみなさい) - good night
+- friendly way to name someone
+  * name + 君 (くん)
+  * name + ちゃん
+- はい、そうです - yes, that's right
+- いいえ、そうではありません - no, that's not right
+- そうですか。 - is that so?
 
 ## Sites
 
@@ -439,22 +455,6 @@ ____
 - 明日 (あした) - tomorrow
 - 昨日 (きのう) - yesterday
 
-## Numbers
-
-- 一 (いち) - 1
-- 二 (に) - 2
-- 三 (さん) - 3
-- 四 (よん, し) - 4
-- 五 (ご) - 5
-- 六 (ろく) - 6
-- 七 (しち, なな) - 7
-- 八 (はち) - 8
-- 九 (きゅう, く) - 9
-- 十 (じゅう) - 10
-- 百 (ひゃく) - 100
-- 千 (せん) - 1000
-- 万 (まん) - 10000
-
 ## Colours
 
 - 黒 (くろ) - black
@@ -527,7 +527,9 @@ ____
 
 - 中国 (ちゅおごく) - China
 - スペイン - Spain
-- スイス - Switzerland
+- スイス - Switerland
+- アメリカ - America
+- 英吉利 (イギリス) - United Kingdom
 
 ## Weather
 
@@ -569,6 +571,7 @@ ____
 - 自転車 (じてんしゃ) - bicycle
 - ロードバイク (rōdo baiku) - road bike
 - ライド (raido) - ride
+- サドル (sadoru) - saddle
 
 ## Driving
 
@@ -589,6 +592,10 @@ ____
 ## Funiture
 
 - ソファ - sofa
+
+## Electronics
+
+- 携帯電話 (けいたいでんわ) - mobile phone
 
 ## Internet
 
