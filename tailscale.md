@@ -37,6 +37,8 @@ ____
   tsnet](https://tailscale.com/blog/tsnet-virtual-private-services/)
 - [Integrations](https://tailscale.com/integrations/)
 - [Kubernetes Operator](https://tailscale.com/kb/1236/kubernetes-operator)
+- [Easy Guide to Exposing a Kubernetes Service with
+  Tailscale](https://www.youtube.com/watch?v=INdZOBnUBl4)
 
 ## NAS
 
