@@ -127,6 +127,7 @@ ____
 ## Adverb
 
 - 迚も (とても) - very
+- 結構 (けっこう) - quite
 
 # Situation and vocabulary
 
@@ -392,6 +393,7 @@ ____
 - 昼間 (ひるま) - daytime
 - 八時前 (はちじまえ) - before 8
 - 八時後 (はちじご) - after 8
+- 今 (いま) - now
 
  | Hour     | Reading                         |
  | ---      | ---                             |
@@ -480,6 +482,7 @@ ____
 - 美しい (うつくしい) - beautiful
 - 素晴らしい (すばらしい) - wonderful
 - 素敵 (すてき) - lovely; wonderful; nice
+- 結構 (けっこう) - nice / sufficient / fine
 - 疲れる (つかれる) - to get tired
 - やった - yay!
 - 残念 (ざんねん) - unfortunate
@@ -550,10 +553,12 @@ ____
 - オフサイド (ofusaido) - offside
 - フリーキック (furīkikku) - free kick
 - ペナルティーキック (penarutīkikku) - penalty kick
+- ポジション (pojishon) - position
 - ゴールキーパー (gōru kīpā) - goalkeeper
 - ディフェンダー (difendā) - defender
 - ミッドフィルダー (midofirudā) - midfielder
 - フォワード (fowādo) - forward
+- ボランチ (boranchi) - volante (key player in the midfield)
 - チーム (chīmu) - team
 - ワールドカップ (wārudokappu) - World Cup
 - チャンピオンズリーグ (chanpionzurīgu) - Champions League
@@ -651,3 +656,7 @@ ____
 - 書く (かく) - to write
 - 頂く (いただく) - to receive, to get
 - 止まる (やます) - to stop
+- ググる - to google
+- バズる - to go viral (buzz)
+- サボる - to slack off (sabotage)
+- パクる - to cheat / steal (plagiarize)
