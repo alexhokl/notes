@@ -82,7 +82,7 @@ ____
 
 - 而して (そして) - thus
 - 又は (または) - or
-- 然し (しかし) - however
+- 然し (しかし) - however / but
 - だけど - however
 - だから - therefore
 - 其れで (それで) - therefore
@@ -110,6 +110,7 @@ ____
   * 彼処 (あそこ) - over there
   * 何処 (どこ) - where
   * 何方 (どちら) - which way
+  * 何階 (なんかい) - which floor
 - 何 (なに) - what
 - 誰 (だれ) - who
 - どの人 (どのひと) - which person
@@ -284,9 +285,25 @@ ____
 - friendly way to name someone
   * name + 君 (くん)
   * name + ちゃん
-- はい、そうです - yes, that's right
-- いいえ、そうではありません - no, that's not right
-- そうですか。 - is that so?
+- answers can be used to questions made in noun phrase (it cannot be used with
+  questions containing adjectives)
+  * はい、そうです - yes, that's right
+  * いいえ、そうではありません - no, that's not right
+- そうですか。 - is that so? (just an acknowledgement, it is neither
+  agreement nor disagreement)
+- そうですね。 - that's right (agreement)
+- something + ですよ
+  * softens the tone of the sentence compared to something + です
+- 貴方の部屋は綺麗ですね。 (あなたのへやはきれいですね) - your room is clean,
+  isn't it?
+  * とでもありません。 - not really
+- asking for a location
+  * 職員室はどこですか。 - where is the staff room?
+    + あそこです。 - over there
+    + 二階です。 - on the second floor
+  * どこが職員室ですか。 - where is the staff room?
+    + あそこが職員室です。 - over there is the staff room
+    + 二階が職員室です。 - the second floor is the staff room
 
 ## Sites
 

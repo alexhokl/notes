@@ -58,6 +58,7 @@ ____
 - 銀行 (ぎんこう) - bank
 - 郵便局 (ゆうびんきょく) - post office
 - 病院 (びょういん) - hospital
+- 公園 (こうえん) - park
 - 山 (やま) - mountain
 - 部屋 (へや) - room
 - 洋袴 (ズボン) - trousers
@@ -70,13 +71,13 @@ ____
 
 ### Adjectives
 
-m [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
+- [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - tall
 - 低い (ひくい) - short
 - 長い (ながい) - long
 - 短い (みじかい) - short
-- 太い (ふとい) - thick
-- 細い (ほそい) - thin
+- 太い (ふとい) - thick / fat
+- 細い (ほそい) - thin / slim
 - 厚い (あつい) - thick
 - 薄い (うすい) - thin
 - 広い (ひろい) - wide
