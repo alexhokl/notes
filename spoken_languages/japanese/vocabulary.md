@@ -72,8 +72,8 @@ ____
 ### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
-- 高い (たかい) - tall
-- 低い (ひくい) - short
+- 高い (たかい) - high
+- 低い (ひくい) - low
 - 長い (ながい) - long
 - 短い (みじかい) - short
 - 太い (ふとい) - thick / fat
@@ -147,6 +147,7 @@ ____
 
 ### Nouns
 
+- [list](https://jisho.org/search/%23jlpt-n3%20%23noun)
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
 
