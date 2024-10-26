@@ -83,6 +83,7 @@ ____
 - 而して (そして) - thus
 - 又は (または) - or
 - 然し (しかし) - however / but
+- 然 (さ) - so
 - だけど - however
 - だから - therefore
 - 其れで (それで) - therefore
