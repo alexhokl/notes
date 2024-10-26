@@ -33,6 +33,13 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
 - 男 (おとこ)
 - 女 (おんな)
+- お父さん (おとうさん) - father
+- お母さん (おかあさん) - mother
+- お兄さん (おにいさん) - older brother
+- お姉さん (おねえさん) - older sister
+- 弟 (おとうと) - younger brother
+- 妹 (いもうと) - younger sister
+- 人 (ひと) - person
 - 名前 (なまえ) - name
 - 学校 (がっこう) - school
 - 教室 (きょうしつ) - classroom
@@ -101,6 +108,7 @@ ____
 - 綺麗 (きれい) - beautiful / clean
 - 汚い (きたない) - dirty
 - 有名 (ゆうめい) - famous
+- 大切 (たいせつ) - important
 
 ### Adverbs
 
@@ -111,11 +119,13 @@ ____
 ### Conjunctions
 
 - 然し (しかし) - however / but
+- でも - but
 
 ### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
+- 教える (おしえる) - to teach
 
 ### Expressions
 
@@ -187,6 +197,7 @@ ____
 ### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23adjective)
+- 的 (てき) - -ish / -wise / -like
 
 ### Verbs
 
