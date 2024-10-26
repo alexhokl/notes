@@ -370,6 +370,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>F5</kbd> to execute query in buffer or visually selected query
 - <kbd>ctrl</kbd><kbd>t</kbd> to switch database connection
   - connections are configured in `$HOME/.config/sqls/config.yml`
+- <kbd>,</kbd><kbd>W</kbd> to save query (via `vim-dadbod-ui`)
+- `:lua print(vim.g.db_ui_save_location)` to show the location of saved queries
 
 ### Git
 
