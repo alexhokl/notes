@@ -31,8 +31,8 @@ ____
 ### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
-- 男 (おとこ)
-- 女 (おんな)
+- 男 (おとこ) - man
+- 女 (おんな) - woman
 - お父さん (おとうさん) - father
 - お母さん (おかあさん) - mother
 - お兄さん (おにいさん) - older brother
