@@ -113,6 +113,12 @@ flutter pub get
 flutter run
 ```
 
+##### To run on a specific device
+
+```sh
+flutter run -d macos
+```
+
 ##### To build the assets directory
 
 ```sh
