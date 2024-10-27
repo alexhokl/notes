@@ -50,6 +50,10 @@ flutter upgrade
 flutter doctor
 ```
 
+In case there are problems with CocoaPods, there is a chance that the machine
+does not have the correct version of Ruby installed yet. In case `rbenv` is used
+run `rbenv init` to ensure the version comes from `rbenv` is being used.
+
 ##### To list available emulators
 
 ```sh
