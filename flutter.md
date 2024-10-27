@@ -83,6 +83,12 @@ flutter create your_app_name
 This also creates directory `your_app_name` but it does not include `git`
 integration.
 
+To create an application in an existing directory
+
+```sh
+flutter create --project-name an_underscore_package_name .
+```
+
 ### Packges
 
 ##### To add a package
