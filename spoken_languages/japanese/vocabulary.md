@@ -1,44 +1,51 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
-    + [Nouns](#nouns)
-    + [Adjectives](#adjectives)
+    + [Noun](#noun)
+    + [Noun (position)](#noun-position)
+    + [Pronoun](#pronoun)
+    + [Adjective](#adjective)
     + [Adverbs](#adverbs)
-    + [Conjunctions](#conjunctions)
-    + [Verbs](#verbs)
-    + [Expressions](#expressions)
+    + [Conjunction](#conjunction)
+    + [Verb](#verb)
+    + [Expression](#expression)
   * [N4](#n4)
-    + [Nouns](#nouns-1)
-    + [Adjectives](#adjectives-1)
-    + [Verbs](#verbs-1)
+    + [Noun](#noun-1)
+    + [Adjective](#adjective-1)
+    + [Verb](#verb-1)
   * [N3](#n3)
-    + [Nouns](#nouns-2)
-    + [Adjectives](#adjectives-2)
-    + [Verbs](#verbs-2)
+    + [Noun](#noun-2)
+    + [Adjective](#adjective-2)
+    + [Verb](#verb-2)
   * [N2](#n2)
-    + [Nouns](#nouns-3)
-    + [Adjectives](#adjectives-3)
-    + [Verbs](#verbs-3)
+    + [Noun](#noun-3)
+    + [Adjective](#adjective-3)
+    + [Verb](#verb-3)
   * [N1](#n1)
-    + [Nouns](#nouns-4)
-    + [Adjectives](#adjectives-4)
-    + [Verbs](#verbs-4)
+    + [Noun](#noun-4)
+    + [Adjective](#adjective-4)
+    + [Verb](#verb-4)
 ____
 
 # Vocabulary
 
 ## N5
 
-### Nouns
+### Noun
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
 - 男 (おとこ) - man
 - 女 (おんな) - woman
+- 男の人 (おとこのひと) - man
+- 女の人 (おんなのひと) - woman
+- 男の子 (おとこのこ) - boy
+- 女の子 (おんなのこ) - girl
 - お父さん (おとうさん) - father
 - お母さん (おかあさん) - mother
 - お兄さん (おにいさん) - older brother
 - お姉さん (おねえさん) - older sister
 - 弟 (おとうと) - younger brother
 - 妹 (いもうと) - younger sister
+- 子供 (こども) - child
 - 人 (ひと) - person
 - 名前 (なまえ) - name
 - 学校 (がっこう) - school
@@ -64,6 +71,7 @@ ____
 - 食堂 (しょくどう) - canteen
 - 銀行 (ぎんこう) - bank
 - 郵便局 (ゆうびんきょく) - post office
+- 図書館 (としょかん) - library
 - 病院 (びょういん) - hospital
 - 公園 (こうえん) - park
 - 山 (やま) - mountain
@@ -71,12 +79,42 @@ ____
 - 洋袴 (ズボン) - trousers
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
+- 帽子 (ぼうし) - hat
+- 靴 (くつ) - shoes
+- 靴下 (くつした) - socks
 - 時計 (とけい) - clock / watch
 - ラジオ - radio
 - 自転車 (じてんしゃ) - bicycle
 - 花 (はな) - flower
+- 友達 (ともだち) - friend
+- 机 (つくえ) - desk
+- 椅子 (いす) - chair
 
-### Adjectives
+### Noun (position)
+
+- 上 (うえ) - on top of
+- 中 (なか) - inside
+- 下 (した) - below
+- 横 (よこ) - beside
+- 隣 (となり) - next to
+- 左 (ひだり) - left
+- 右 (みぎ) - right
+- 前 (まえ) - front
+- 後ろ (うしろ) - behind
+- 外 (そと) - outside
+- 近く (ちかく) - near
+- 遠く (とおく) - far
+
+### Pronoun
+
+- 此処 (ここ) - here
+- 其処 (そこ) - there
+- 彼処 (あそこ) - over there
+- 此れ (これ) - this
+- 其れ (それ) - that
+- 彼 (あれ) - that over there
+
+### Adjective
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - high
@@ -109,6 +147,10 @@ ____
 - 汚い (きたない) - dirty
 - 有名 (ゆうめい) - famous
 - 大切 (たいせつ) - important
+- 便利 (べんり) - convenient
+- 白い (しろい) - white
+- 黒い (くろい) - black
+- 赤い (あかい) - red
 
 ### Adverbs
 
@@ -116,25 +158,25 @@ ____
 - 少し (すこし) - a little
 - 迚も (とても) - very
 
-### Conjunctions
+### Conjunction
 
 - 然し (しかし) - however / but
 - でも - but
 
-### Verbs
+### Verb
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
 - 教える (おしえる) - to teach
 
-### Expressions
+### Expression
 
 - 下さい (ください) - please
 - あのう - em...
 
 ## N4
 
-### Nouns
+### Noun
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23noun)
 - オートバイ - motorcycle
@@ -143,62 +185,65 @@ ____
 - 数学 (すうがく) - mathematics
 - エスカレーター - escalator
 - 髪 (かみ) - hair
+- 漫画 (まんが) - manga
 
-### Adjectives
+### Adjective
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
 
-### Verbs
+### Verb
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
 
 ## N3
 
-### Nouns
+### Noun
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23noun)
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
+- 我慢 (がまん) - patience
+- 居間 (いま) - living room
 
-### Adjectives
+### Adjective
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23adjective)
 
-### Verbs
+### Verb
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
 
 ## N2
 
-### Nouns
+### Noun
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23noun)
 - 彫刻 (ちょうこく) - sculpture
 - 国立 (こくりつ) - national
 - ロビー - lobby
 
-### Adjectives
+### Adjective
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23adjective)
 
-### Verbs
+### Verb
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23verb)
 
 ## N1
 
-### Nouns
+### Noun
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23noun)
 - 階 (かい) - floor
 - インフォメーション - information
 
-### Adjectives
+### Adjective
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23adjective)
 - 的 (てき) - -ish / -wise / -like
 
-### Verbs
+### Verb
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23verb)

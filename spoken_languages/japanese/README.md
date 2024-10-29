@@ -25,7 +25,6 @@
   * [Day](#day)
   * [Colours](#colours)
   * [Feelings](#feelings)
-  * [Positions](#positions)
   * [Form filling](#form-filling)
   * [Academic](#academic)
   * [People names](#people-names)
@@ -510,22 +509,6 @@ ____
 - 我慢 (がまん) - patience
 - ダラダラ - leisurely
 
-## Positions
-
-- 上 (うえ) - up
-- 下 (した) - down
-- 後ろ (うしろ) - back
-- 前 (まえ) - front
-- 左 (ひだり) - left
-- 右 (みぎ) - right
-- 中 (なか) - center
-- 外 (そと) - outside
-- 隣 (となり) - next to
-- 近く (ちかく) - near
-- 遠く (とおく) - far
-- ここ (ここ) - here
-- そこ (そこ) - there
-
 ## Form filling
 
 - 名前 (なまえ) - first name
@@ -616,6 +599,8 @@ ____
 ## Funiture
 
 - ソファ - sofa
+- ごみ箱 (ごみばこ) - trash can
+- 屑籠 (くずかご) - wastepaper basket
 
 ## Electronics
 
