@@ -93,6 +93,19 @@ To create an application in an existing directory
 flutter create --project-name an_underscore_package_name .
 ```
 
+##### To debug on an Android device
+
+1. Search for "build number" in settings
+2. Tap on it 7 times
+3. Search for "developer options" in settings
+4. Enable "USB debugging"
+5. Connect the device to the computer via USB
+6. Run `flutter devices` to see the device
+7. Run `flutter run -d device_name` to run the application on the device
+
+
+Note that step `1` and `2` should be one-off setting.
+
 ### Packges
 
 ##### To add a package
