@@ -30,7 +30,7 @@ ____
 
 ## N5
 
-### Noun
+### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
 - 男 (おとこ) - man
@@ -45,6 +45,7 @@ ____
 - お姉さん (おねえさん) - older sister
 - 弟 (おとうと) - younger brother
 - 妹 (いもうと) - younger sister
+- 両親 (りょうしん) - parents
 - 子供 (こども) - child
 - 人 (ひと) - person
 - 名前 (なまえ) - name
@@ -61,6 +62,7 @@ ____
 - 本 (ほん) - book
 - 辞書 (じしょ) - dictionary
 - ノート - notebook
+- 写真 (しゃしん) - photograph
 - 質問 (しつもん) - question
 - 問題 (もんだい) - problem / question
 - 練習 (れんしゅう) - practice
@@ -73,24 +75,41 @@ ____
 - 郵便局 (ゆうびんきょく) - post office
 - 図書館 (としょかん) - library
 - 病院 (びょういん) - hospital
+- 建物 (たてもの) - building
 - 公園 (こうえん) - park
+- 駅 (えき) - train station
 - 山 (やま) - mountain
 - 部屋 (へや) - room
+- 台所 (だいどころ) - kitchen
+- 玄関 (げんかん) - front door
 - 洋袴 (ズボン) - trousers
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
 - 帽子 (ぼうし) - hat
 - 靴 (くつ) - shoes
 - 靴下 (くつした) - socks
+- シャツ - shirt
 - 時計 (とけい) - clock / watch
 - ラジオ - radio
 - 自転車 (じてんしゃ) - bicycle
+- 車 (くるま) - car
 - 花 (はな) - flower
 - 友達 (ともだち) - friend
 - 机 (つくえ) - desk
 - 椅子 (いす) - chair
+- ドア - door
+- テーブル - table
+- 電気 (でんき) - electricity
+- 茶色 (ちゃいろ) - brown
+- 町 (まち) - town / neighborhood
+- 大勢 (おおぜい) - crowd
+- 沢山 (たくさん) - a lot / many
+- 動物 (どうぶつ) - animal
+- 犬 (いぬ) - dog
+- 猫 (ねこ) - cat
+- 国 (くに) - country
 
-### Noun (position)
+### Nouns (position)
 
 - 上 (うえ) - on top of
 - 中 (なか) - inside
@@ -102,10 +121,11 @@ ____
 - 前 (まえ) - front
 - 後ろ (うしろ) - behind
 - 外 (そと) - outside
+- 内 (うち) - inside
 - 近く (ちかく) - near
 - 遠く (とおく) - far
 
-### Pronoun
+### Pronouns
 
 - 此処 (ここ) - here
 - 其処 (そこ) - there
@@ -114,7 +134,7 @@ ____
 - 其れ (それ) - that
 - 彼 (あれ) - that over there
 
-### Adjective
+### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - high
@@ -151,99 +171,120 @@ ____
 - 白い (しろい) - white
 - 黒い (くろい) - black
 - 赤い (あかい) - red
+- 色々 (いろいろ) - various
+- 良い (よい) - good
+- いい - good
+- 悪い (わるい) - bad
+- 丈夫 (じょうぶ) - strong
+- 弱い (よわい) - weak
 
 ### Adverbs
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adverb)
 - 少し (すこし) - a little
 - 迚も (とても) - very
+- 何時も (いつも) - always
 
-### Conjunction
+### Conjunctions
 
 - 然し (しかし) - however / but
 - でも - but
 
-### Verb
+### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
 - 教える (おしえる) - to teach
 
-### Expression
+### Expressions
 
 - 下さい (ください) - please
 - あのう - em...
 
 ## N4
 
-### Noun
+### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23noun)
 - オートバイ - motorcycle
 - 試験 (しけん) - exam
 - 消しゴム (けしゴム) - eraser
+- 引き出し (ひきだし) - drawer
 - 数学 (すうがく) - mathematics
 - エスカレーター - escalator
 - 髪 (かみ) - hair
 - 漫画 (まんが) - manga
+- 寺 (てら) - temple
 
-### Adjective
+### Nouns (position)
+
+- 隅 (すみ) - corner
+
+### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
 
-### Verb
+### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
 
 ## N3
 
-### Noun
+### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23noun)
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
 - 我慢 (がまん) - patience
 - 居間 (いま) - living room
+- 恋人 (こいびと) - lover
+- 保証人 (ほしょうにん) - guarantor
+- スタンド - stand
+- 城 (しろ) - castle
+- 兎 (うさぎ) - rabbit
+- 象 (ぞう) - elephant
 
-### Adjective
+### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23adjective)
+- どんな - what kind of
 
-### Verb
+### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
 
 ## N2
 
-### Noun
+### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23noun)
 - 彫刻 (ちょうこく) - sculpture
 - 国立 (こくりつ) - national
 - ロビー - lobby
+- 広場 (ひろば) - square
 
-### Adjective
+### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23adjective)
 
-### Verb
+### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23verb)
 
 ## N1
 
-### Noun
+### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23noun)
 - 階 (かい) - floor
 - インフォメーション - information
 
-### Adjective
+### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23adjective)
 - 的 (てき) - -ish / -wise / -like
 
-### Verb
+### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23verb)

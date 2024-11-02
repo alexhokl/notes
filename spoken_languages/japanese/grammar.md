@@ -531,6 +531,11 @@ Osaka and Kyoto, for example
     + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
     + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
 
+### は
+
+- something `は`・・・。 something else `は`・・・。
+  * "something else" can be used as an additional context to "something"
+
 ### が
 
 - marks the subject of a sentence

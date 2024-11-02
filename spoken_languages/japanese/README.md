@@ -256,6 +256,12 @@ ____
 - ハミガキ (hamigaki) - toothpaste
 - エーティーエム (ētīemu) - ATM
 
+## Shopping
+
+- スーパー (sūpā) - supermarket
+- 本屋 (ほんや) - bookstore
+- 風呂場 (ふろば) - bathroom
+
 ## Payment
 
 - カードでお願いします (kādo de onegaishimasu) - Card by I'll pay
@@ -304,10 +310,12 @@ ____
   * どこが職員室ですか。 - where is the staff room?
     + あそこが職員室です。 - over there is the staff room
     + 二階が職員室です。 - the second floor is the staff room
+- 分かりました (わかりました) - understood
 
 ## Sites
 
 - 開放 (かいほう) - open
+- ビル (biru) - multi-floor building
 
 ## Transportation
 
@@ -319,7 +327,8 @@ ____
 - 案内 (あんない) - guidance or information
 - バス (basu) - bus
 - タクシー (takushī) - taxi
-- 電車 (densha) - train
+- 電車 (でんしゃ) - train
+- トラム (toramu) - tram
 - 徒歩 (とほ) - on foot
 - トラック (torakku) - truck
 - キロ (kiro) - kilometer
@@ -587,14 +596,17 @@ ____
 
 ## Animals
 
-- 犬 (inu) - dog
-- 猫 (neko) - cat
-- 鳥 (tori) - bird
-- 魚 (sakana) - fish
-- 豚 (buta) - pig
-- 牛 (ushi) - cow
-- 馬 (uma) - horse
+- 犬 (いぬ) - dog
+- 猫 (ねこ) - cat
+- 鳥 (とり) - bird
+- 魚 (さかな) - fish
+- 豚 (ぶた) - pig
+- 牛 (うし) - cow
+- 馬 (うま) - horse
 - ラブラドール (raburadōru) - Labrador
+- 亀 (かめ) - turtle
+- 兎 (うさぎ) - rabbit
+- 山羊 (やぎ) - goat
 
 ## Funiture
 
