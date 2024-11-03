@@ -188,8 +188,8 @@ dotnet new sln -n Name.Space
 ##### To create a new class library project from a solution
 
 ```sh
-dotnet new classlib -n Name.Space.Library
-dotnet sln add Name.Space.Library/Name.Space.Library.csproj
+dotnet new classlib -n Name.Space.Library -o src/Name.Space.Library
+dotnet sln add src/Name.Space.Library/
 ```
 
 ##### To add a Nuget package to a project
