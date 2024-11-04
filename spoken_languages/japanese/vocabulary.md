@@ -69,6 +69,7 @@ ____
 - トイレ - toilet
 - お手洗い (おてあらい) - toilet / restroom
 - 庭 (にわ) - garden
+- 池 (いけ) - pond
 - 喫茶店 (きっさてん) - coffee shop / teahouse
 - 食堂 (しょくどう) - canteen
 - 銀行 (ぎんこう) - bank
@@ -78,6 +79,7 @@ ____
 - 建物 (たてもの) - building
 - 公園 (こうえん) - park
 - 駅 (えき) - train station
+- 電車 (でんしゃ) - train
 - 山 (やま) - mountain
 - 部屋 (へや) - room
 - 台所 (だいどころ) - kitchen
@@ -89,6 +91,7 @@ ____
 - 靴 (くつ) - shoes
 - 靴下 (くつした) - socks
 - シャツ - shirt
+- 財布 (さいふ) - wallet / purse
 - 時計 (とけい) - clock / watch
 - ラジオ - radio
 - 自転車 (じてんしゃ) - bicycle
@@ -99,6 +102,9 @@ ____
 - 椅子 (いす) - chair
 - ドア - door
 - テーブル - table
+- 本棚 (ほんだな) - bookshelf
+- ベッド - bed
+- テレビ - television
 - 電気 (でんき) - electricity
 - 茶色 (ちゃいろ) - brown
 - 町 (まち) - town / neighborhood
@@ -107,6 +113,7 @@ ____
 - 動物 (どうぶつ) - animal
 - 犬 (いぬ) - dog
 - 猫 (ねこ) - cat
+- 魚 (さかな) - fish
 - 国 (くに) - country
 
 ### Nouns (position)
@@ -116,6 +123,7 @@ ____
 - 下 (した) - below
 - 横 (よこ) - beside
 - 隣 (となり) - next to
+- 側 (そば) - beside
 - 左 (ひだり) - left
 - 右 (みぎ) - right
 - 前 (まえ) - front
@@ -177,6 +185,7 @@ ____
 - 悪い (わるい) - bad
 - 丈夫 (じょうぶ) - strong
 - 弱い (よわい) - weak
+- 丸い (まるい) - round / circular
 
 ### Adverbs
 
@@ -244,6 +253,8 @@ ____
 - 城 (しろ) - castle
 - 兎 (うさぎ) - rabbit
 - 象 (ぞう) - elephant
+- ソファー - sofa
+- 心配 (しんぱい) - worry / concern / anxiety
 
 ### Adjectives
 
@@ -253,6 +264,8 @@ ____
 ### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
+- 心配 (しんぱい) - care / help
+- 怪我 (けが) - injury / mistake
 
 ## N2
 
