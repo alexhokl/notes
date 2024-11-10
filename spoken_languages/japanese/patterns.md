@@ -1,5 +1,68 @@
-
+- [Chapter 1](#chapter-1)
+- [Chapter 2](#chapter-2)
+- [Chapter 3](#chapter-3)
 ____
+
+## Chapter 1
+
+- noun + は + noun + です。
+
+- noun + は + noun + ではあれません。
+
+- noun + は + noun + ですか。
+  はい、noun + は + noun + です。
+  いいえ、noun + は + noun + ではありません。
+
+- これ/それ/あれ + は + noun + ですか。
+
+- これ/それ/あれ + は + 何ですか。
+
+- noun + の + noun
+
+- person + の
+  * これは誰の辞書ですか。
+    それはアリフさんの辞書です。
+
+- noun + も + noun + です。
+  noun + も + noun + ではありません。
+  * これは辞書です。それも辞書です。
+  * 木村さんは男の人です。森田さんも男の人ですか。
+    はい、森田さんも男の人です。
+
+## Chapter 2
+
+- noun + は + い-adjective + です。
+- noun + は + な-adjective + です。
+  * 富士山は高いです。
+  * 大坂はにぎやかです。
+
+- noun + は + adjective + ですか、 + opposite adjective + ですか。
+  * 大坂はにぎやかですか、静かですか。
+
+- この/その/あの + noun + は + adjective + です。
+- その/その/あの + noun + は + noun + です。
+
+- ここ/そこ/あそこ + は + noun + です。
+
+- ここ/そこ/あそこ + は + 何ですか。
+
+- noun + は + どこですか。
+  * お手洗いはどこですか。
+
+- noun + は + noun + ですか。
+  はい、そうです。
+  いいえ、そうではありません。
+
+- A: noun + は + noun + です。
+  B: そうですか。
+
+- A: noun + は + adjective + です。
+  B: そうですか。
+
+- something + ね。
+  * 貴方の部屋は綺麗ですね。
+
+## Chapter 3
 
 - い-adjective + noun = noun
   * あれは大きい病院です。
