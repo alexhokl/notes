@@ -103,12 +103,12 @@ git merge upstream/master
 
 ##### Rebase for merge
 
-To rebase a feature branch before merging into master (it involves re-writing the commits in the feature branch)
+To rebase a feature branch before merging into `main` (it involves re-writing the commits in the feature branch)
 
 ```sh
 git fetch
 git checkout feature_branch
-git rebase -i origin/master
+git rebase -i origin/main
 
 (git shows a list of commits involved in an editor and quit the editor if the list looks good)
 
@@ -161,6 +161,29 @@ git range-diff origin/master~10 origin/feature_branch origin/master feature_bran
 4. If the remaining changes should be remained in the original commit, use `git
    commit -c ORIG_HEAD`.
 5. `git rebase --continue`
+
+##### Rebase stacked branches
+
+Stacked branches are branches branched out from another branch. For example,
+`feature1` is branched out from `main` and `feature2` is branched out from
+`feature1`.
+
+To rebase `feature2` and `feature1` against the latest version of `main`,
+
+```sh
+git fetch
+git checkout feature2
+git rebase -i origin/main --update-refs
+```
+
+Note that the list of commits shown could affect the commits of `main` (thus,
+effectively rebase `main` as well).
+
+This behaviour can be enabled by default by
+
+```sh
+git config --global rebase.updateRefs true
+```
 
 ### Add
 
@@ -413,6 +436,8 @@ git push --recurse-submodules=on-demand
 git submodule status
 ```
 
+This lists the commit hashes of submodules recursively.
+
 ###### To execute for each submodule
 
 ```sh
@@ -501,6 +526,20 @@ To get trace lines during commit,
 
 ```sh
 GIT_TRACE=1 git commit -m temp
+```
+
+##### Checkout
+
+###### To checkout (revert) a file from a specific commit
+
+```sh
+git checkout 0432432432 path/to/file
+```
+
+The file will be in staged state. To unstage the file,
+
+```sh
+git restore --staged path/to/file
 ```
 
 ##### Revert
