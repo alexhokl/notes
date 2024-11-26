@@ -141,6 +141,10 @@ ____
 - 此れ (これ) - this
 - 其れ (それ) - that
 - 彼 (あれ) - that over there
+- どれ - which (of three or more)
+- どちら - which (of two)
+- いつ - when
+- 何時 (なんじ) - what time
 
 ### Adjectives
 
