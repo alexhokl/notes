@@ -48,7 +48,7 @@ ____
 - 両親 (りょうしん) - parents
 - 子供 (こども) - child
 - 人 (ひと) - person
-- 名前 (なまえ) - name
+- 名前 (なまえ) - first name
 - 学校 (がっこう) - school
 - 教室 (きょうしつ) - classroom
 - 勉強 (べんきょう) - study
@@ -115,13 +115,17 @@ ____
 - 猫 (ねこ) - cat
 - 魚 (さかな) - fish
 - 国 (くに) - country
+- 春 (はる) - spring
+- 夏 (なつ) - summer
+- 秋 (あき) - autumn
+- 冬 (ふゆ) - winter
 
 ### Nouns (position)
 
 - 上 (うえ) - on top of
 - 中 (なか) - inside
 - 下 (した) - below
-- 横 (よこ) - beside
+- 横 (よこ) - horizontally beside (left or right)
 - 隣 (となり) - next to
 - 側 (そば) - beside
 - 左 (ひだり) - left
@@ -197,6 +201,9 @@ ____
 - 少し (すこし) - a little
 - 迚も (とても) - very
 - 何時も (いつも) - always
+- たくさん - a lot / too many / too much
+- 大勢 (おおぜい) - many (people)
+- なぜ - why
 
 ### Conjunctions
 
@@ -228,6 +235,8 @@ ____
 - 髪 (かみ) - hair
 - 漫画 (まんが) - manga
 - 寺 (てら) - temple
+- 値段 (ねだん) - price / cost
+- うち - home
 
 ### Nouns (position)
 
@@ -280,6 +289,7 @@ ____
 - 国立 (こくりつ) - national
 - ロビー - lobby
 - 広場 (ひろば) - square
+- 苗字 (みょうじ) - surname
 
 ### Adjectives
 

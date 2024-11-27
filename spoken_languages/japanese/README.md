@@ -167,6 +167,7 @@ ____
 - ベーコン (bēkon) - bacon
 - トマト (tomato) - tomato
 - ピザ (piza) - pizza
+- バーガー (bāgā) - burger
 - カレー (karē) - curry
 - アップルパイ (appurupai) - apple pie
 - パンプキンパイ (panpukin pai) - pumpkin pie
@@ -312,6 +313,7 @@ ____
     + あそこが職員室です。 - over there is the staff room
     + 二階が職員室です。 - the second floor is the staff room
 - 分かりました (わかりました) - understood
+- お名前は何ですか。 (おなまえはなんですか) - what is your name?
 
 ## Sites
 
@@ -618,6 +620,7 @@ ____
 ## Electronics
 
 - 携帯電話 (けいたいでんわ) - mobile phone
+- スマートフォン (スマホ) - smartphone
 
 ## Internet
 

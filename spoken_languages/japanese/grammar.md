@@ -521,6 +521,7 @@ Osaka and Kyoto, for example
 - it means "too" in general
 - it is usually used in the second sentence of two sentences which describe the
   same situation or beahviour
+  * it can be used to replace `は` or `が` in the second sentence
 - examples
   * らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif is a
     student, too.

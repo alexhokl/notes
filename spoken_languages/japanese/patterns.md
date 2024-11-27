@@ -98,6 +98,7 @@ ____
   answer: はい、います。
   answer: いいえ、 + something + はいません。
   * 部屋の中に人がいますか。
+    はい、います。
     いいえ、人はいません。
 
 - first question: location + に + 何がありますか。
