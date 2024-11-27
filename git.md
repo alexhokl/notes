@@ -7,6 +7,7 @@
   * [Forking](#forking)
   * [Rebase](#rebase)
   * [Add](#add)
+  * [Remove](#remove)
   * [Commit](#commit)
   * [Rollback](#rollback)
   * [Operators](#operators)
@@ -194,6 +195,14 @@ git add -p
 ```
 
 To further split a patch into smaller chunks, answer `s` can be used.
+
+### Remove
+
+##### To remove a file from git index but not from file system
+
+```sh
+git rm --cached $FILE
+```
 
 ### Commit
 
@@ -716,6 +725,12 @@ To show the commits exist on `master` but not on feature branch,
 
 ```sh
 git log --oneline ..master
+```
+
+To show how two branches are related to each other
+
+```sh
+git log --graph feature_a...feature_b
 ```
 
 ##### To show changes of the last commit with a specified comment
