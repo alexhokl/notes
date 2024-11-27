@@ -8,6 +8,7 @@
     + [IIS ASP.NET Administration](#iis-aspnet-administration)
     + [IIS FTP Administration](#iis-ftp-administration)
     + [Windows 10](#windows-10)
+- [BitLocker](#bitlocker)
 - [Troubleshooting](#troubleshooting)
   * [Bootloader](#bootloader)
 ____
@@ -256,6 +257,30 @@ Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uni
 ```sh
 Compare-Object -ReferenceObject (Get-Content listA.txt) -DifferenceObject (Get-Content listB.txt)
 ```
+
+# BitLocker
+
+- BitLocker recovery key
+  * needed when BitLocker cannot automatically unlock
+  an encrypted drive in Windows
+    + when Windows encounters a security risk
+    + when hardware changed or firmware updated
+      + firmware update of TPM
+      + BIOS update
+  * a 48-digit number
+  * the prompt at startup shows the required recovery key ID
+    + the ID can be used to search for the correct recovery key
+  * the latest version of Windows likely has repeated prompts for key resolved
+    and, thus, the problem is likely related actual hardware / firmware changes
+  * personal machines should be tied to another when it first signed up and the
+    recovery keys can be found on [device recovery
+    keys](https://account.microsoft.com/devices/recoverykey)
+  * UEFI Boot could be required (not proven yet)
+- references
+  * [Find your BitLocker recovery
+    key](https://support.microsoft.com/en-us/windows/find-your-bitlocker-recovery-key-6b71ad27-0b89-ea08-f143-056f5ab347d6)
+  * [BitLocker recovery
+    process](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/recovery-process)
 
 # Troubleshooting
 
