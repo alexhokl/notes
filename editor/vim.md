@@ -289,8 +289,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>w</kbd> to write current buffer to disk
 - `:only` to close all other splits except the current one
 - `:ls` to list all buffers
-- `:b 2` to change to second buffer
+- `:b2` to change to second buffer (buffer number can be found in `:ls`)
+- `:bd1` to delete the first buffer (buffer number can be found in `:ls`)
 - `:b doc`<kbd>tab</kbd> to change to a buffer with file prefixed with `doc`
+- `%bd` to delete all buffers
 - <kbd>,</kbd><kbd>↑</kbd> to increase vertical size of the current buffer
 - <kbd>,</kbd><kbd>↓</kbd> to decrease vertical size of the current buffer
 - <kbd>,</kbd><kbd>←</kbd> to decrease horizontal size of the current buffer
@@ -307,8 +309,11 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
   5 times
 - `:reg` to list the current registers
 - by default
-  * yank use register `0`, `"` and `-`
-  * change and delete use register `"` and `-`
+  * yank, delete and change all send text to register `"`
+  * yank also send text to register `0`
+  * change and delete use register `1` to `9`
+    + `1` is the most recent change
+    + recently deleted text can be found in register `1` to `9`
   * system clipboard use register `*`
 - yank and replace can be done by yanking first, delete the words to be
   replaced, and `"0p`. It works because register `0` always stores the last
@@ -316,6 +321,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>V</kbd><kbd>"</kbd><kbd>a</kbd><kbd>y</kbd> yanks the current line to
   register `a` (and the default register `"`)
 - <kbd>"</kbd><kbd>a</kbd><kbd>p</kbd> paste from register `a`
+- register `%` stores the current file path
 
 ### LSP
 
