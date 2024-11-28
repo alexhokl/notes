@@ -7,7 +7,7 @@ ____
 
 - noun + は + noun + です。
 
-- noun + は + noun + ではあれません。
+- noun + は + noun + ではありません。
 
 - noun + は + noun + ですか。
   はい、noun + は + noun + です。
@@ -20,14 +20,14 @@ ____
 - noun + の + noun
 
 - person + の
-  * これは誰の辞書ですか。
-    それはアリフさんの辞書です。
+  * A: これは誰の辞書ですか。
+    B: それはアリフさんの辞書です。
 
 - noun + も + noun + です。
   noun + も + noun + ではありません。
   * これは辞書です。それも辞書です。
-  * 木村さんは男の人です。森田さんも男の人ですか。
-    はい、森田さんも男の人です。
+  * A: 木村さんは男の人です。森田さんも男の人ですか。
+    B: はい、森田さんも男の人です。
 
 ## Chapter 2
 
@@ -73,8 +73,8 @@ ____
   * あの賑やかな教室は誰の教室ですか。
 
 - location + に + thing + が + あります
-- location + に + animal + が + います
-- location + に + person + が + います
+  location + に + animal + が + います
+  location + に + person + が + います
   * 教室に机があります。
   * 教室にマリアさんがいます。
 
@@ -86,42 +86,42 @@ ____
   * 池の中に魚や亀などがいます。
 
 - location + に + 誰が + いますか。 (person)
-- location + に + 何が + りますか。 (animal)
-- location + に + 何が + ありますか。 (thing)
-  * 部屋の中に誰がいますか。
-    アリフさんがいます。
+  location + に + 何が + りますか。 (animal)
+  location + に + 何が + ありますか。 (thing)
+  * A: 部屋の中に誰がいますか。
+    B: アリフさんがいます。
 
-- question: location + に + something +  が + ありますか。
-  answer: はい、あります。
-  answer: いいえ、 + something + はありません。
-- question: location + に + something +  が + いますか。
-  answer: はい、います。
-  answer: いいえ、 + something + はいません。
-  * 部屋の中に人がいますか。
-    はい、います。
-    いいえ、人はいません。
+- A: location + に + something +  が + ありますか。
+  B: はい、あります。
+  B: いいえ、 + something + はありません。
+- A: location + に + something +  が + いますか。
+  B: はい、います。
+  B: いいえ、 + something + はいません。
+  * A: 部屋の中に人がいますか。
+    B: はい、います。
+    B: いいえ、人はいません。
 
 - first question: location + に + 何がありますか。
   second question: location + には + 何がありますか。
 - first question: location + に + 誰がいますか。
   second question: location + には + 誰がいますか。
-  * 机の上に何がありますか。
-    本があります。
-    机の下には何がありますか。
-    机の下には鞄があります。
+  * A: 机の上に何がありますか。
+    B: 本があります。
+    A: 机の下には何がありますか。
+    B: 机の下には鞄があります。
 
-- question: location + に + 誰がいますか。
-  answer:   location + には + 誰もいません。
-- question: location + に + 何がいますか。
-  answer:   location + には + 何もいません。
-- question: location + に + 何がありますか。
-  answer:   location + には + 何もありません。
+- A: location + に + 誰がいますか。
+  B: location + には + 誰もいません。
+- A: location + に + 何がいますか。
+  B: location + には + 何もいません。
+- A: location + に + 何がありますか。
+  B: location + には + 何もありません。
 
 - thing + は + どこに + ありますか。
-- animal + は + どこに + いますか。
-- person + は + どこに + いますか。
-  * 猫はどこにいますか。
-  * 猫はベッドの下にいます。
+  animal + は + どこに + いますか。
+  person + は + どこに + いますか。
+  * A: 猫はどこにいますか。
+    B: 猫はベッドの下にいます。
 
 - ... + location + ...。 location + には + ...。
   * ここは動物園です。動物園にはいろいろな動物がいます。
