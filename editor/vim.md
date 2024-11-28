@@ -146,6 +146,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 ### Search and replace
 
 - <kbd>/</kbd> to search forward
+- <kbd>/</kbd> + <kbd>ctrl</kbd><kbd>r</kbd> + <kbd>ctrl</kbd><kbd>d</kbd> to
+  start search with the current word
 - `/sign/;/searchWord` to search `searchWord` comes after `sign`
 - `2/searchWord` to search for the second appearance of `searchWord`
 - `/searchWord/+1` to jump to the line after `searchWord`
