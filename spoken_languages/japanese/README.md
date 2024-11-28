@@ -135,14 +135,25 @@ ____
 
 ## Restaurant
 
-- どうも (dōmo) - not thank you but shows some kind of gratitude
-- ご馳走様でした (gochisōsamadeshita) - I enjoyed the dishes
-- 助かりました (tasukarimashita) - this helps alot!
+- どうも - not thank you but shows some kind of gratitude
+- いただきます - thank you (for the meal just served)
 - どうぞ (dōzo) - please (or go ahead)
-- お会計お願いします (okaikei onegaishimasu) - bill, please
-- お水お願いします (omizu onegaishimasu) - water, please
 - 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
+- お水お願いします (omizu onegaishimasu) - water, please
 - 五名です (go mei desu) - there are 5 people
+- 二人です (ふたりです) - there are 2 people
+- お下げしてもよろしいですか。 (おさげしてもよろしいですか) - can I take it
+  away? (usually by restaurant staff)
+- 失礼します (しつれいします) - excuse me (usually after staff take a plate
+  away or about to serve a dish)
+- ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
+- 助かりました (たすかりました) - this helps alot!
+- お会計お願いします (okaikei onegaishimasu) - bill, please
+- ここってカード使えますか？ (ここってカードつかえますか) - can I use card here?
+  (usage of って is equivalent to は)
+- カードでお願いします - I'll pay by card
+- 食べる (たべる) - to eat
+- 飲む (のむ) - to drink
 - 定食 (teishoku) - set meal
 - レストラン (resutoran) - restaurant
 - マクドナルド (makudonarudo) - McDonald's
@@ -290,6 +301,10 @@ ____
 - キャンセル (kyanseru) - cancel
 - 始めましょう (はじめましょう) - let's start
 - お休みなさい (おやすみなさい) - good night
+- 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
+  leaves)
+- 行ってきます (いってきます) - I'll go and come back (when I'm leaving from
+  some place)
 - friendly way to name someone
   * name + 君 (くん)
   * name + ちゃん
