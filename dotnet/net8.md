@@ -5,7 +5,12 @@
   * [Keyed scope](#keyed-scope)
   * [IHostedLifecycleService](#ihostedlifecycleservice)
   * [Rate limiting](#rate-limiting)
-- [Algorithms](#algorithms)
+    + [Algorithms](#algorithms)
+  * [AOT](#aot)
+  * [Trimming (self-contained)](#trimming-self-contained)
+  * [Web Application creation](#web-application-creation)
+  * [FrozenDictionary](#frozendictionary)
+  * [StringBuilder](#stringbuilder)
 ____
 
 # .NET 8
@@ -105,7 +110,7 @@ It inherits from `IHostedService` and provide more lifecycle methods.
 reference: [Rate limiting middleware in ASP.NET
 Core](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit)
 
-# Algorithms
+### Algorithms
 
 - [Fixed
   window](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#fixed-window-limiter)
@@ -117,3 +122,48 @@ Core](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit)
 - [Create chained
   limiters](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit#create-chained-limiters)
   to understand how `PartitionedRateLimiter` can be used
+
+## AOT
+
+- advantages
+  * minimised disk footprint
+  * reduced startup times
+  * reduced memory demand
+- `5.8x` of normal build time
+
+## Trimming (self-contained)
+
+- available since .NET 6 but not all library supported
+  * `TrimMode` was set to `partial` until .NET 8
+  * only assemblies that explicitly stated they supported trimming would be
+  * ASP.NET Core libraries are not compatible with trimming yet
+  trimmed
+- remove code that is not used
+- libraries need to annotate types and methods calls to tell trimmer about code
+  being used that the trimmer cannot determine
+- `TrimMode` is set to `full` in .NET 8
+  * all assemblies are trimmed by default
+  * ASP.NET Core libraries are compatible with trimming
+  * trim speed (during compilation) is faster than previous versions
+    + `2.7x` of normal build time
+
+## Web Application creation
+
+- existing method
+  * `WebApplication.CreateBuilder`
+- new methods
+  * `WebApplication.CreateSlimBuilder`
+  * `WebApplication.CreateEmptyBuilder` (`builder.WebHost.UseKestrelCore()` is
+    needed)
+
+## FrozenDictionary
+
+- optimised for read operations at the cost of slower constructions
+- it is used in routing in ASP.NET
+
+## StringBuilder
+
+- `AppendInterpolated` needs less memory than `AppendToString`
+- `StringBuilder.Append(CultureInfo.InvariantCulture, $"{b:x2}");`
+  * and `StringBuilder.Append(b.ToString("x2", CultureInfo.InvariantCulture));`
+    is slower
