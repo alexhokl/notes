@@ -750,13 +750,14 @@ Note that the default timeout is 5 seconds.
       `.GetAwaiter().GetResult()`; especially true when the current
       synchronization context has a very limited number of concurrent
       operations (like a UI thread)
+    - it is not a problem for ASP.NET in general
 - scenarios to use `ConfigureAwait(false)`
   - general-purpose library
     - almost all .NET Core runtime libraries use it
   - exceptions
     - a library takes delegates to be invoked
 - `ConfigureAwait(false)` does not guarantee the callback would not be run in
-  the original context
+  the original context (especially when `Task` has already completed)
 - `ConfigureAwait(false)` should not be only applied to the first `await`
 - the awaiter pattern requires awaiters to expose
   - `IsCompleted` property
@@ -775,6 +776,30 @@ Note that the default timeout is 5 seconds.
 - `ConfigureAwait(false)` contributes to threadpool starvation when the code
   using it is called in the context of a `JoinableTaskFactory.Run` delegate
   (where `JoinableTaskFactory` is used when developer wants to avoid deadlocks)
+- `ConfigureAwait(ConfigureAwaitOptions)` introduced since .NET 8
+  * `ConfigureAwaitOptions` is a `Flags` enum (implies combination is possible)
+    + `None`
+    + `ContinueOnCapturedContext`
+    + `SuppressThrowing`
+    + `ForceYielding`
+  * the default flag is `None`
+    + there is no change to the default behaviour of `ConfigureAwait`
+    + when this method signature is used, `None` is included unless
+      `ContinueOnCapturedContext` is explicitly included
+  * `ConfigureAwait(ConfigureAwaitOptions.ContinueOnCapturedContext)` is
+    equivalent to `ConfigureAwait(true)`
+  * `ConfigureAwait(ConfigureAwaitOptions.None)` is equivalent to
+    `ConfigureAwait(false)`
+  * `await task.ConfigureAwait(ConfigureAwaitOptions.SuppressThrowing);` is
+    equivalent to `try { await task.ConfigureAwait(false); } catch { }`
+  * `ForceYielding` schedules the continuation to the threadpool even if the
+    task is already completed (where the normal behaviour is to run the task on
+    the current thread)
+    + similar to `Task.Yield` but not the same
+      + `Yield` returns a special awaitable that always claims to be not
+        completed but schedule its continuations immediately
+      + `Yield` will resume on the captured context
+      + equivalent to `await Task.CompletedTask.ConfigureAwait(ConfigureAwaitOptions.ForceYielding | ConfigureAwaitOptions.ContinueOnCapturedContext)`
 - ASP.NET Core specifics
   - classic ASP.NET has its own `SynchronizationContext` but ASP.NET Core does
     not (mostly because ASP.NET Core is context-less, like no
