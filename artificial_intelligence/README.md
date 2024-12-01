@@ -1,4 +1,6 @@
 - [Links](#links)
+  * [People](#people)
+  * [Services](#services)
 - [Concepts](#concepts)
   * [General concepts](#general-concepts)
   * [Retrieval augmented generation (RAG)](#retrieval-augmented-generation-rag)
@@ -22,8 +24,17 @@ ____
 
 # Links
 
+## People
+
 - [Sam Witteveen](https://www.youtube.com/@samwitteveenai)
 - [Matt Williams](https://www.youtube.com/@technovangelist)
+
+## Services
+
+- [Ai2 Playground](https://playground.allenai.org/)
+- [Julius AI](https://juliusai.com/) - analysing structured data and answering
+  questions using generative AI
+- [bolt](https://bolt.new/) - generate apps using generative AI
 
 # Concepts
 
