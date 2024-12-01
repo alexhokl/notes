@@ -43,6 +43,11 @@ ____
 - [Using ServiceWorker in Chrome today](https://jakearchibald.com/2014/using-serviceworker-today/)
 - [The Offline Cookbook](https://jakearchibald.com/2014/offline-cookbook/)
 
+## Local Storage
+
+- [livestorejs](https://github.com/livestorejs) - a Javascript library for local
+  storage using SQLite
+
 ## HTTP Headers
 
 - [Using the Accept HEader to version your API](http://labs.qandidate.com/blog/2014/10/16/using-the-accept-header-to-version-your-api/)
