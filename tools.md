@@ -240,6 +240,7 @@ ____
 ### Security
 
 - [Pwned Passwords](https://haveibeenpwned.com/Passwords)
+- [DataBreach](https://databreach.com/) - a search engine for data breaches
 - [Security Headers](https://securityheaders.com/) - providing security report
   of headers of a site
 - [InAppBrowser.com](https://inappbrowser.com/) by Felix Krause - See
