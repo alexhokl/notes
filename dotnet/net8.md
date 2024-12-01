@@ -56,7 +56,7 @@ ____
 
 ## TimeProvider
 
-```csharp
+```cs
 TimeProvider p = TImeProvider.System;
 
 class Example(TimeProvider timeProvider)
@@ -70,25 +70,63 @@ via `TimeProvider` in unit tests.
 
 ## SearchValues
 
-```csharp
-var sv = SearchValues.Create("!@#$%^&*()_1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"u8);
-var keyword= (byte)"z"[0];
-for (var i = 0; i < N; i++)
-{
-    sv.Contains(keyword);
-}
+- `System.Buffers.SearchValues`
+- the pattern for using a `SearchValues` is to create one, store it in a static
+  readonly field, and then use that `SearchValues` for all searching operations
+  for that target set
+- it has the advantage of using less memory and performing at a faster speed
+
+```cs
+public static readonly SearchValues<char> sv = SearchValues.Create("!@#$%^&*()_1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"u8);
+
+// in a method
+
+ReadOnlySpan<char> remaining = bookContentString;
+var index = remaining.IndexOfAny(sv);
 ```
 
 This automatically looks for the best way (or the most optimised way) to search
 for a value in a string.
 
+The following values use different implementations.
+
+Values
+
+```cs
+Console.WriteLine(SearchValues.Create(""));
+Console.WriteLine(SearchValues.Create("a"));
+Console.WriteLine(SearchValues.Create("ac"));
+Console.WriteLine(SearchValues.Create("ace"));
+Console.WriteLine(SearchValues.Create("ab\u05D0\u05D1"));
+Console.WriteLine(SearchValues.Create("abc\u05D0\u05D1"));
+Console.WriteLine(SearchValues.Create("abcdefghijklmnopqrstuvwxyz"));
+Console.WriteLine(SearchValues.Create("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"));
+Console.WriteLine(SearchValues.Create("\u00A3\u00A5\u00A7\u00A9\u00AB\u00AD"));
+Console.WriteLine(SearchValues.Create("abc\u05D0\u05D1\u05D2"));
+```
+
+Underlying types
+
+```cs
+System.Buffers.EmptySearchValues`1[System.Char]
+System.Buffers.SingleCharSearchValues`1[System.Buffers.SearchValues+TrueConst]
+System.Buffers.Any2CharSearchValues`1[System.Buffers.SearchValues+TrueConst]
+System.Buffers.Any3CharSearchValues`1[System.Buffers.SearchValues+TrueConst]
+System.Buffers.Any4SearchValues`2[System.Char,System.Int16]
+System.Buffers.Any5SearchValues`2[System.Char,System.Int16]
+System.Buffers.RangeCharSearchValues`1[System.Buffers.SearchValues+TrueConst]
+System.Buffers.AsciiCharSearchValues`1[System.Buffers.IndexOfAnyAsciiSearcher+Default]
+System.Buffers.ProbabilisticCharSearchValues
+System.Buffers.ProbabilisticWithAsciiCharSearchValues`1[System.Buffers.IndexOfAnyAsciiSearcher+Default]
+```
+
 ## Keyed scope
 
-```csharp
+```cs
 builder.Services.AddKeyedScoped<ISomeService, SomeService>("key1");
 ```
 
-```csharp
+```cs
 public SomeFunction(ILogger logger, [FromKeyedServices("key2")] ICache cache)
 {
     // do something
@@ -161,9 +199,28 @@ Core](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit)
 - optimised for read operations at the cost of slower constructions
 - it is used in routing in ASP.NET
 
-## StringBuilder
+## Span-related performance boosts
+
+### StringBuilder
 
 - `AppendInterpolated` needs less memory than `AppendToString`
 - `StringBuilder.Append(CultureInfo.InvariantCulture, $"{b:x2}");`
   * and `StringBuilder.Append(b.ToString("x2", CultureInfo.InvariantCulture));`
     is slower
+
+### String.Split
+
+- signature `String.Split(char[], Int32)` is faster as it uses
+  `System.MemoryExtensions` for its implementation
+
+### ReadOnlySpan<T>.Count
+
+- it is a new method to look for an element in a span
+
+### ReadOnlySpan<T>.IndexOfAnyInRange
+
+- it is a new method to look for any element in a span within the specified
+  range
+- examples
+  * `bool nonAsciiOrControlCharacters = text.IndexOfAnyExceptInRange((char)0x20, (char)0x7e) >= 0;`
+  * `Encoding enc = _text.AsSpan().ContainsAnyExceptInRange((char)32, (char)126) ? Encoding.UTF8 : Encoding.ASCII;`
