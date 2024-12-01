@@ -122,6 +122,11 @@ ____
 - [cohesivestack/valgo](https://github.com/cohesivestack/valgo) validates user
   input
 
+### JSON
+
+- [orsinium/valdo](https://github.com/orsinium-labs/valdo) - JSON validation for
+  API and it can generate OpenAPI schema
+
 ### Unit testing
 
 - [Fuzz test](https://go.dev/security/fuzz/)
