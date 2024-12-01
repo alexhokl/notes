@@ -1,6 +1,7 @@
   * [Links](#links)
   * [Basics](#basics)
   * [Navigation](#navigation)
+  * [Text objects](#text-objects)
   * [Editing](#editing)
   * [Search and replace](#search-and-replace)
   * [Indentation](#indentation)
@@ -107,6 +108,12 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>g</kbd><kbd>x</kbd> in a (proper) link to open a browser
 - <kbd>g</kbd><kbd>f</kbd> in a file page to open the file in a buffer
 - `:echo expand('%:p')` to show current path
+
+### Text objects
+
+- `s` for sentence
+- `p` for paragraph
+- `b` for brackets
 
 ### Editing
 
