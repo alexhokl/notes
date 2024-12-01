@@ -32,6 +32,7 @@ ____
 ## Services
 
 - [Ai2 Playground](https://playground.allenai.org/)
+- [Ai2 OpenScholar](https://openscholar.allen.ai/)
 - [Julius AI](https://juliusai.com/) - analysing structured data and answering
   questions using generative AI
 - [bolt](https://bolt.new/) - generate apps using generative AI
