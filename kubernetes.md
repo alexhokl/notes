@@ -1010,6 +1010,14 @@ pluto detect-helm -o wide
 pluto detect-api-resources -o wide
 ```
 
+### ingress2gateway
+
+##### To generate Gateway API resources from Ingress resources
+
+```sh
+ingress2gateway --providers ingress-nginx print
+```
+
 ## Security (Hardening Guidance)
 
 Reference: [Kubernetes Hardening
