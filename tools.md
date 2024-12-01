@@ -18,6 +18,7 @@
   * [Online meeting](#online-meeting)
   * [Open source](#open-source)
   * [Privacy](#privacy)
+  * [PDF](#pdf)
   * [Regular expression](#regular-expression)
   * [Security](#security)
   * [Services](#services)
@@ -28,6 +29,7 @@
   * [SQL](#sql)
   * [Syntax highlight](#syntax-highlight)
   * [Unicode](#unicode)
+  * [Weather](#weather)
   * [Others](#others)
 ____
 
@@ -311,6 +313,13 @@ ____
 - [What Unicode character is
   this?](https://www.babelstone.co.uk/Unicode/whatisit.html)
 - [Unicode Text Analyzer](https://www.fontspace.com/unicode/analyzer)
+
+### Weather
+
+- [Windy](https://www.windy.com/) - weather forecast
+- [blitzortung](https://www.blitzortung.org/en/live_lightning_maps.php) -
+  lightning map
+- [LightningMaps](https://www.lightningmaps.org/) - lightning map
 
 ### Others
 
