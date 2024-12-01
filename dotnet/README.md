@@ -1472,15 +1472,26 @@ Regex r = new Regex("(a(b)c|def)");
 var length = regex.Match(input!).Groups.Count; // 3
 ```
 
-##### Generated code
+##### Compiled expression
+
+It generates IL code from the regular expression pattern instead of being
+interpreted at runtime. It is faster but it takes time to compile.
+
+```cs
+Regex r = new Regex("(a(b)c|def)", RegexOptions.Compiled);
+```
+
+##### Generate source
 
 ```cs
 static partial class Example
 {
-  [GeneratedRegex("abc")]
-  public static partial Regex Demo();
+  [GeneratedRegex("abc|def")]
+  public static partial Regex DemoRegex();
 }
 ```
+
+This ignores `RegexOptions.Compiled` automatically.
 
 ### Workarounds
 
