@@ -233,6 +233,11 @@ ____
   inspector
 - [Burner](https://www.burnerapp.com/) - service for a temporary phone number
 
+### PDF
+
+- [Stirling PDF](https://github.com/StirlingPDF/Stirling-PDF) - a docker image
+  for web-based PDF manipulation
+
 ### Regular expression
 
 - [myregextester](https://myregextester.com/index.php) A regular expression tester
