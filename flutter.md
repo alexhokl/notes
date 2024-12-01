@@ -18,6 +18,7 @@ ____
 
 - [DartPad](https://dartpad.dev/)
 - [Material design](https://m3.material.io/)
+- [Icons of Material design](https://fonts.google.com/icons)
 - [Codelabs on Flutter](https://docs.flutter.dev/codelabs)
 - [Flutter Samples](https://flutter.github.io/samples/)
 - [fvm](https://fvm.app/) - flutter version management
