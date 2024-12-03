@@ -273,6 +273,7 @@ ____
 - 象 (ぞう) - elephant
 - ソファー - sofa
 - 心配 (しんぱい) - worry / concern / anxiety
+- 世話 (せわ) - care / looking after / help / support
 
 ### Adjectives
 
