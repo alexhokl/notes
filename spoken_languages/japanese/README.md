@@ -194,7 +194,8 @@ ____
 - 鮃 (ひらめ) - flounder
 - 新烏賊 (しんいか) - squid
 - 墨烏賊 (すみいか) - cuttlefish
-- 鰤 (ぶり) - yellowtail
+- 鰤 (ぶり) - amberjack / yellowtail
+- 魬 (はまち) - young amberjack / yellowtail
 - 平政 (ひらまさ) - yellowtail amberjack
 - 間八 (かまはち) - greater amberjack
 - 縞鯵 (しまあじ) - striped jack (striped horse mackerel)

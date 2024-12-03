@@ -1,29 +1,31 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
-    + [Noun](#noun)
-    + [Noun (position)](#noun-position)
-    + [Pronoun](#pronoun)
-    + [Adjective](#adjective)
+    + [Nouns](#nouns)
+    + [Nouns (position)](#nouns-position)
+    + [Pronouns](#pronouns)
+    + [Adjectives (i-adjectives)](#adjectives-i-adjectives)
+    + [Adjectives (na-adjectives)](#adjectives-na-adjectives)
     + [Adverbs](#adverbs)
-    + [Conjunction](#conjunction)
-    + [Verb](#verb)
-    + [Expression](#expression)
+    + [Conjunctions](#conjunctions)
+    + [Verbs](#verbs)
+    + [Expressions](#expressions)
   * [N4](#n4)
-    + [Noun](#noun-1)
-    + [Adjective](#adjective-1)
-    + [Verb](#verb-1)
+    + [Nouns](#nouns-1)
+    + [Nouns (position)](#nouns-position-1)
+    + [Adjectives](#adjectives)
+    + [Verbs](#verbs-1)
   * [N3](#n3)
-    + [Noun](#noun-2)
-    + [Adjective](#adjective-2)
-    + [Verb](#verb-2)
+    + [Nouns](#nouns-2)
+    + [Adjectives](#adjectives-1)
+    + [Verbs](#verbs-2)
   * [N2](#n2)
-    + [Noun](#noun-3)
-    + [Adjective](#adjective-3)
-    + [Verb](#verb-3)
+    + [Nouns](#nouns-3)
+    + [Adjectives](#adjectives-2)
+    + [Verbs](#verbs-3)
   * [N1](#n1)
-    + [Noun](#noun-4)
-    + [Adjective](#adjective-4)
-    + [Verb](#verb-4)
+    + [Nouns](#nouns-4)
+    + [Adjectives](#adjectives-3)
+    + [Verbs](#verbs-4)
 ____
 
 # Vocabulary
@@ -150,7 +152,7 @@ ____
 - いつ - when
 - 何時 (なんじ) - what time
 
-### Adjectives
+### Adjectives (i-adjectives)
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - high
@@ -175,25 +177,28 @@ ____
 - 古い (ふるい) - old
 - 大きい (おおきい) - big
 - 小さい (ちいさい) - small
-- 賑やか (にぎやか) - lively
-- 静か (しずか) - quiet
 - 美味しい (おいしい) - delicious
 - 不味い (まずい) - bad tasting
-- 綺麗 (きれい) - beautiful / clean
 - 汚い (きたない) - dirty
-- 有名 (ゆうめい) - famous
-- 大切 (たいせつ) - important
-- 便利 (べんり) - convenient
 - 白い (しろい) - white
 - 黒い (くろい) - black
 - 赤い (あかい) - red
-- 色々 (いろいろ) - various
-- 良い (よい) - good
-- いい - good
+- 良い (よい) - good (formal)
+- いい - good (casual)
 - 悪い (わるい) - bad
-- 丈夫 (じょうぶ) - strong
 - 弱い (よわい) - weak
 - 丸い (まるい) - round / circular
+
+### Adjectives (na-adjectives)
+
+- 賑やか (にぎやか) - lively
+- 静か (しずか) - quiet
+- 綺麗 (きれい) - beautiful / clean
+- 有名 (ゆうめい) - famous
+- 大切 (たいせつ) - important
+- 便利 (べんり) - convenient
+- 色々 (いろいろ) - various
+- 丈夫 (じょうぶ) - strong
 
 ### Adverbs
 
