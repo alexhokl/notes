@@ -6,6 +6,7 @@
   * [促音 (sokuon) - (小さいつ) (small tsu)](#%E4%BF%83%E9%9F%B3-sokuon---%E5%B0%8F%E3%81%95%E3%81%84%E3%81%A4-small-tsu)
   * [長音 (chōon) - long vowel](#%E9%95%B7%E9%9F%B3-choon---long-vowel)
   * [鼻濁音 (bidadakuon) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-bidadakuon---nasal-sound)
+  * [母音の無声化 - vowel devoicing](#%E6%AF%8D%E9%9F%B3%E3%81%AE%E7%84%A1%E5%A3%B0%E5%8C%96---vowel-devoicing)
   * [音読み and 訓読み (onyomi and kunyomi)](#%E9%9F%B3%E8%AA%AD%E3%81%BF-and-%E8%A8%93%E8%AA%AD%E3%81%BF-onyomi-and-kunyomi)
   * [連濁 (Rendaku)](#%E9%80%A3%E6%BF%81-rendaku)
   * [pronunciation of さん](#pronunciation-of-%E3%81%95%E3%82%93)
@@ -98,6 +99,23 @@ d (t)   | z (s)
 * ご (ngo)
 * ぱ (npa)
 * ら (nra)
+
+## 母音の無声化 - vowel devoicing
+
+- consonant without sound such as `k`, `s`, `t`, `h`, `p`, `kya`, `sha`, `cha`,
+  `hya`, `pya` comes before `i` or `u`
+- examples
+  * `き`し (kshi)
+  * `し`き (ski)
+  * `し`た (sta)
+  * `ふ`た (fta)
+  * `つ`くえ (tskue)
+  * `く`さ (ksa)
+  * で`す` (des)
+  * おい`し`かった (oishkatta)
+  * まんねん`ひ`つ (mannenstsu)
+- samples
+  * [sigure.tw](https://www.sigure.tw/learn-japanese/basic/pronunciation/vowel#聆聽發音)
 
 ## 音読み and 訓読み (onyomi and kunyomi)
 

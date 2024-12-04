@@ -3,8 +3,8 @@
     + [Nouns](#nouns)
     + [Nouns (position)](#nouns-position)
     + [Pronouns](#pronouns)
-    + [Adjectives (i-adjectives)](#adjectives-i-adjectives)
-    + [Adjectives (na-adjectives)](#adjectives-na-adjectives)
+    + [Adjectives (い)](#adjectives-%E3%81%84)
+    + [Adjectives (な)](#adjectives-%E3%81%AA)
     + [Adverbs](#adverbs)
     + [Conjunctions](#conjunctions)
     + [Verbs](#verbs)
@@ -110,8 +110,6 @@ ____
 - 電気 (でんき) - electricity
 - 茶色 (ちゃいろ) - brown
 - 町 (まち) - town / neighborhood
-- 大勢 (おおぜい) - crowd
-- 沢山 (たくさん) - a lot / many
 - 動物 (どうぶつ) - animal
 - 犬 (いぬ) - dog
 - 猫 (ねこ) - cat
@@ -127,7 +125,7 @@ ____
 - 上 (うえ) - on top of
 - 中 (なか) - inside
 - 下 (した) - below
-- 横 (よこ) - horizontally beside (left or right)
+- 横 (よこ) - horizontally beside (left or right) (of different types of things)
 - 隣 (となり) - next to
 - 側 (そば) - beside
 - 左 (ひだり) - left
@@ -151,16 +149,18 @@ ____
 - どちら - which (of two)
 - いつ - when
 - 何時 (なんじ) - what time
+- 誰 (だれ) - who
+- 何方 (どなた) - who (honorific)
 
-### Adjectives (i-adjectives)
+### Adjectives (い)
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - high
 - 低い (ひくい) - low
 - 長い (ながい) - long
 - 短い (みじかい) - short
-- 太い (ふとい) - thick / fat
-- 細い (ほそい) - thin / slim
+- 太い (ふとい) - thick (in radius)
+- 細い (ほそい) - thin (in radius)
 - 厚い (あつい) - thick
 - 薄い (うすい) - thin
 - 広い (ひろい) - wide
@@ -188,8 +188,9 @@ ____
 - 悪い (わるい) - bad
 - 弱い (よわい) - weak
 - 丸い (まるい) - round / circular
+- 暑い (あつい) - hot / warm
 
-### Adjectives (na-adjectives)
+### Adjectives (な)
 
 - 賑やか (にぎやか) - lively
 - 静か (しずか) - quiet
@@ -206,9 +207,10 @@ ____
 - 少し (すこし) - a little
 - 迚も (とても) - very
 - 何時も (いつも) - always
-- たくさん - a lot / too many / too much
+- たくさん - a lot / too many (on countables)
 - 大勢 (おおぜい) - many (people)
 - なぜ - why
+- また - also / again
 
 ### Conjunctions
 
