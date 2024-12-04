@@ -2,7 +2,9 @@
   * [N5](#n5)
     + [Nouns](#nouns)
     + [Nouns (position)](#nouns-position)
-    + [Pronouns](#pronouns)
+    + [Pronouns (place)](#pronouns-place)
+    + [Pronouns (time)](#pronouns-time)
+    + [Pronouns (person)](#pronouns-person)
     + [Adjectives (い)](#adjectives-%E3%81%84)
     + [Adjectives (な)](#adjectives-%E3%81%AA)
     + [Adverbs](#adverbs)
@@ -13,10 +15,12 @@
     + [Nouns](#nouns-1)
     + [Nouns (position)](#nouns-position-1)
     + [Adjectives](#adjectives)
+    + [Pronouns (person)](#pronouns-person-1)
     + [Verbs](#verbs-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Adjectives](#adjectives-1)
+    + [Pronouns (person)](#pronouns-person-2)
     + [Verbs](#verbs-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
@@ -137,7 +141,7 @@ ____
 - 近く (ちかく) - near
 - 遠く (とおく) - far
 
-### Pronouns
+### Pronouns (place)
 
 - 此処 (ここ) - here
 - 其処 (そこ) - there
@@ -147,10 +151,19 @@ ____
 - 彼 (あれ) - that over there
 - どれ - which (of three or more)
 - どちら - which (of two)
+
+### Pronouns (time)
+
 - いつ - when
 - 何時 (なんじ) - what time
+
+### Pronouns (person)
+
 - 誰 (だれ) - who
 - 何方 (どなた) - who (honorific)
+- 私 (わたし) - I / me (slight femininity)
+- 貴方 (あなた) - you
+- 自分 (じぶん) - myself / oneself
 
 ### Adjectives (い)
 
@@ -254,6 +267,12 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
 
+### Pronouns (person)
+
+- 君 (きみ) - you (friendly / musculine / poetic)
+- 彼 (かれ) - he / boyfriend
+- 彼女 (かのじょ) - she / girlfriend
+
 ### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
@@ -281,6 +300,12 @@ ____
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23adjective)
 - どんな - what kind of
+
+### Pronouns (person)
+
+- お前 (おまえ) - you (musculine / vulgar)
+- 彼ら (かれら) - they (mixed sex group)
+- 彼女ら (かのじょら) - they (females)
 
 ### Verbs
 

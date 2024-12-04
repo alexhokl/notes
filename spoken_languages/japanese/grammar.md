@@ -22,6 +22,7 @@
   * [Examples](#examples)
   * [の](#%E3%81%AE)
   * [も](#%E3%82%82)
+  * [は](#%E3%81%AF)
   * [が](#%E3%81%8C)
   * [を](#%E3%82%92)
   * [に and で](#%E3%81%AB-and-%E3%81%A7)
@@ -37,6 +38,8 @@
   * [い形容詞 (いけいようし) - い-adjectives](#%E3%81%84%E5%BD%A2%E5%AE%B9%E8%A9%9E-%E3%81%84%E3%81%91%E3%81%84%E3%82%88%E3%81%86%E3%81%97---%E3%81%84-adjectives)
   * [な形容詞 (なけいようし) - な-adjectives](#%E3%81%AA%E5%BD%A2%E5%AE%B9%E8%A9%9E-%E3%81%AA%E3%81%91%E3%81%84%E3%82%88%E3%81%86%E3%81%97---%E3%81%AA-adjectives)
   * [Conjugation](#conjugation)
+- [Honorific prefixes](#honorific-prefixes)
+  * [御](#%E5%BE%A1)
 ____
 
 ## References
@@ -1235,3 +1238,104 @@ Osaka and Kyoto, for example
 | non-past | 新しい      | 新しくない     |
 | past     | 新しかった  | 新しくなかった |
 
+## Honorific prefixes
+
+### 御
+
+- readings
+  * お
+  * ご
+  * おん
+  * み
+  * きょ
+- to add a sense of respect and politeness
+- commonly attached to something that belongs to the person you are addressing
+- there is not hard-and-fast rule as to which words do and do not use 御; as
+  well as which reading of 御 to use, if it is not written in kana
+- with nouns
+  * お箸 (おはし) - chopsticks
+  * ご家族 (ごかぞく) - family
+- with adverbs
+  * お近く (おちかく) - nearby
+  * ごゆっくり - take your time / enjoy your stay
+- with adjectives
+  * お優しい (おやさしい) - kind
+  * ごもっとも - you are right
+- with verbs
+  * patterns
+    + お/ご + verb stem / verbal noun + する
+    + お + verb stem / verbal noun + になる
+  * examples
+    + お預かりする - to look after
+    + ご活躍する - to be active
+    + お食べになる - to eat
+- お
+  * attaches to nouns which often related to what we use in daily life
+    + お水
+    + お野菜
+    + お買い物
+    + お勉強
+  * can be used with words refer to a family role and it is generally combined
+  with さん or ちゃん
+    + お父さん
+    + お母さん
+    + お姉さん
+    + お兄さん
+    + but not to 弟 or 妹
+- ご
+  * generally attached to nouns that consisted of kango words and the nouns are
+    generally abstract which are not related to physical objects
+    + ご住所
+    + ご注文
+    + ご結婚
+  * it adds meaning to the sentence
+    + ゆっくり (slowly) - ごゆっくり (take your time)
+    + もっとも (reasonable) - ごもっとも (you are absolutely right)
+  * it is more commonly written in kanji as 御
+    * 御注文 (ごちゅうもん) in order slip in a restaurant
+- integrated words
+  * it does not add politeness or respect
+  * examples
+    + おはよう - good morning
+    + おにぎり - rice ball
+    + お前 - you
+    + おなら - fart
+    + ごめん - sorry
+    + ご飯 - meal
+- to show respect to the person you are addressing
+  * 社長のお車
+  * 社長のごあいさつ
+- to show respect towards someone else in a conversation
+  * お客様のお車
+  * but not to something that not owned by anyone
+    + 飛行機
+    + 電車
+    + exception
+      + お船
+      + おトイレ
+- it is not uaually used with katakana words
+- お + name of someone = sort of nickname
+  * usually two syllables after お
+    + 花子 (はなこ) - お花さん (おはなさん) / お花ちゃん (おはなちゃん)
+- おん
+  * when the word attached to is referring to an organization
+  * examples
+    + 御社 (おんしゃ) - your company
+    + 御校 (おんこう) - your school
+    + 御礼 (おんれい) - thank you (the common reading is おれい)
+- み
+  * when the word attached to is referring God, Buddha, the emperor, or the
+    imperial family
+  * examples
+    + 御国 (みくに) - your country
+    + 御名 (みな) - your name
+    + 御手 (みて) - your hand
+    + 御顔 (みがお) - your face
+    + 御霊 (みたま) - your spirit
+- きょ
+  * shows respect to the emperor and his family
+  * examples
+    + 崩御 (ほうきょ) - passing away of the emperor
+  * other use cases
+    + 御意 (ぎょい) - as you wish (a bit old-fashioned and very formal)
+    + 御者 (ぎょしゃ) - coachman / driver

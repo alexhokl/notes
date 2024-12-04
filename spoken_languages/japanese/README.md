@@ -112,14 +112,34 @@ ____
   * 何方 (どちら) - which way
   * 何階 (なんかい) - which floor
 - 何 (なに) - what
-- 誰 (だれ) - who
 - どの人 (どのひと) - which person
-- 私 (わたし) - I
-  * 僕 (ぼく) - I (man)
-  * 俺 (おれ) - I (man)
-  * 私 (あたし) - I (woman)
+- 誰 (だれ) - who 何方 (どなた) - who (honorific)
+- 私 (わたし) - I / me (slight femininity)
+- 私 (わたくし) - I (formal)
+- 僕 (ぼく) - I (polite masculine / boyish)
+- 俺 (おれ) - I (masculine but can be as vulgar)
+- うち - I (feminine)
 - 貴方 (あなた) - you
-- 君 (きみ) - you / buddy
+- 貴様 (きさま) - you bastard (vulgar)
+- 君 (きみ) - you (friendly / musculine / poetic)
+- お前 (おまえ) - you (musculine / vulgar)
+- 彼 (かれ) - he / boyfriend
+- 彼女 (かのじょ) - she / girlfriend
+- こいつ - this person
+- そいつ - that person
+- あいつ - the person over there
+- 私達 (わたしたち) - we
+- 僕たち (ぼくたち) - we
+- 彼ら (かれら) - they (mixed sex group)
+- 彼女ら (かのじょら) - they (females)
+- 自分 (じぶん) - myself / oneself
+  * while often associated with strict hierarchical systems, such those
+    associated with military and sporting environments, it's more gender-neutral
+    than common first-person pronouns
+  * it can be used as second-person pronoun in Kansai dialect
+- second-person pronoun
+  * it can be seen as rude and it is common to avoid it in conversations
+  * it is common to use their names or social or family roles instead
 - 此方 (こちら) - this way / here / this
   * I / me / we / us
 - 其方 (そちら) - that way / there / that
