@@ -124,18 +124,18 @@ ____
 
 ### 五段動詞
 
-| Form              | Affirmative                 | Negative                             |
-| ---               | ---                         | ---                                  |
-| Non-past          | 聞く (kiku)                 | 聞かない (kikanai)                   |
-| Non-past, polite  | 聞きます (kikimasu)         | 聞きません (kikimasen)               |
-| Past              | 聞いた (kiita)              | 聞かなかった (kikanakatta)           |
-| Past, polite      | 聞きました (kikimashita)    | 聞きませんでした (kikimasen deshita) |
-| Te-form           | 聞いて (kiite)              | 聞かなくて (kikanakute)              |
-| Potential         | 聞ける (kikeru)             | 聞けない (kikenai)                   |
-| Passive           | 聞かれる (kikareru)         | 聞かれない (kikarenai)               |
-| Causative         | 聞かせる (kikaseru)         | 聞かせない (kikasenai)               |
-| Causative Passive | 聞かせられる (kikaserareru) | 聞かせられない (kikaserarenai)       |
-| Imperative        | 聞け (kike)                 | 聞くな (kikuna)                      |
+| Form              | Affirmative                 | Negative                            |
+| ---               | ---                         | ---                                 |
+| Non-past          | 聞く         (きく)         | 聞かない         (きかない)         |
+| Non-past, polite  | 聞きます     (ききます)     | 聞きません       (ききません)       |
+| Past              | 聞いた       (きいた)       | 聞かなかった     (きかなかった)     |
+| Past, polite      | 聞きました   (ききました)   | 聞きませんでした (ききませんでした) |
+| Te-form           | 聞いて       (きいて)       | 聞かなくて       (きかなくて)       |
+| Potential         | 聞ける       (きける)       | 聞けない         (きけない)         |
+| Passive           | 聞かれる     (きかれる)     | 聞かれない       (きかれない)       |
+| Causative         | 聞かせる     (きかせる)     | 聞かせない       (きかせない)       |
+| Causative Passive | 聞かせられる (きかせられる) | 聞かせられない   (きかせられない)   |
+| Imperative        | 聞け         (きけ)         | 聞くな           (きくな)           |
 
 ### 一段動詞
 
