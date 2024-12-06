@@ -296,6 +296,7 @@ ____
 - ソファー - sofa
 - 心配 (しんぱい) - worry / concern / anxiety
 - 世話 (せわ) - care / looking after / help / support
+- 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 
 ### Adjectives
 
