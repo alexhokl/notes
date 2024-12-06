@@ -109,7 +109,7 @@ ____
 ##### To download a soundtrack of a video
 
 ```sh
-yt-dlp -extract-audio --audio-format mp3 https://www.youtube.com/watch?v=wq9p6Y8RPEs
+yt-dlp --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=wq9p6Y8RPEs
 ```
 
 ## whisper
