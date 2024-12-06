@@ -34,6 +34,14 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 brew services start ollama
 ```
 
+##### To use a remote instance
+
+```sh
+OLLAMA_HOST=https://example.com/ollama ollama run gemma:2b
+```
+
+assuming port `11434` is used
+
 ##### To pull a model
 
 ```sh
