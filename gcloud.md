@@ -24,6 +24,7 @@
   * [Duet AI](#duet-ai)
   * [Certificate Authority Service](#certificate-authority-service)
   * [Compliance](#compliance)
+  * [Cloud Run](#cloud-run)
 - [Tools](#tools)
 ____
 
@@ -1159,6 +1160,10 @@ BigQuery tables.
 
 - [certifications](https://cloud.google.com/security/compliance/offerings)
   * note that the certifications are location dependent
+
+### Cloud Run
+
+- a volume mount can be created using a Cloud Storage bucket
 
 ## Tools
 
