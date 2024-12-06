@@ -19,7 +19,7 @@ ____
 docker pull docker.io/ollama/ollama:latest
 ```
 
-##### To run ollama server
+##### To run ollama server on Docker
 
 ```sh
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
@@ -28,22 +28,25 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 - by default, it runs command `ollama serve`
 - it creates a docker volume named `ollama` to store the model files
 
+##### To run ollama server on Mac
+
+```sh
+brew services start ollama
+```
+
 ##### To pull a model
 
 ```sh
-docker exec -it ollama ollama pull llama3
-```
-
-```sh
-docker exec -it ollama ollama pull llama3:70b
-docker exec -it ollama ollama pull gemma:2b
-docker exec -it ollama ollama pull gemma:7b
+ollama pull llama3
+ollama pull llama3:70b
+ollama pull gemma:2b
+ollama pull gemma:7b
 ```
 
 ##### To list models available locally
 
 ```sh
-docker exec -it ollama ollama list
+ollama list
 ```
 
 ##### To show context length
@@ -55,7 +58,7 @@ ollama show llama3.1:8b
 ##### To start a chat bot
 
 ```sh
-docker exec -it ollama ollama run llama3
+ollama run llama3
 ```
 
 ##### API usage
@@ -74,7 +77,7 @@ xh post http://localhost:11434/api/generate model=llama3 prompt="What is TCP/IP?
 ##### Summarise a code file
 
 ```sh
-docker exec -it ollama ollama run llama3 "Summarise $(cat /Users/someone/main.go)"
+ollama run llama3 "Summarise $(cat /Users/someone/main.go)"
 ```
 
 ##### To create a modelfile from a model
