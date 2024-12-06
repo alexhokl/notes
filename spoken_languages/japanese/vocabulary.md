@@ -229,6 +229,7 @@ ____
 
 - 然し (しかし) - however / but
 - でも - but
+- では - then
 
 ### Verbs
 
@@ -306,6 +307,11 @@ ____
 - お前 (おまえ) - you (musculine / vulgar)
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
+
+### Adverbs
+
+- [list](https://jisho.org/search/%23jlpt-n3%20%23adverb)
+- つまり - that is to say / in other words
 
 ### Verbs
 
