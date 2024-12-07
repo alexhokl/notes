@@ -90,20 +90,6 @@ ____
 - 部屋 (へや) - room
 - 台所 (だいどころ) - kitchen
 - 玄関 (げんかん) - front door
-- 洋袴 (ズボン) - trousers
-- 傘 (かさ) - umbrella
-- 鞄 (かばん) - bag
-- 帽子 (ぼうし) - hat
-- 靴 (くつ) - shoes
-- 靴下 (くつした) - socks
-- シャツ - shirt
-- 財布 (さいふ) - wallet / purse
-- 時計 (とけい) - clock / watch
-- ラジオ - radio
-- 自転車 (じてんしゃ) - bicycle
-- 車 (くるま) - car
-- 花 (はな) - flower
-- 友達 (ともだち) - friend
 - 机 (つくえ) - desk
 - 椅子 (いす) - chair
 - ドア - door
@@ -111,6 +97,20 @@ ____
 - 本棚 (ほんだな) - bookshelf
 - ベッド - bed
 - テレビ - television
+- 傘 (かさ) - umbrella
+- 鞄 (かばん) - bag
+- 財布 (さいふ) - wallet / purse
+- 洋袴 (ズボン) - trousers
+- 帽子 (ぼうし) - hat
+- 靴 (くつ) - shoes
+- 靴下 (くつした) - socks
+- シャツ - shirt
+- 時計 (とけい) - clock / watch
+- ラジオ - radio
+- 自転車 (じてんしゃ) - bicycle
+- 車 (くるま) - car
+- 花 (はな) - flower
+- 友達 (ともだち) - friend
 - 電気 (でんき) - electricity
 - 茶色 (ちゃいろ) - brown
 - 町 (まち) - town / neighborhood
