@@ -39,8 +39,8 @@ ____
 ### Nouns
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
-- 男 (おとこ) - man
-- 女 (おんな) - woman
+- 男 (おとこ) - male
+- 女 (おんな) - female
 - 男の人 (おとこのひと) - man
 - 女の人 (おんなのひと) - woman
 - 男の子 (おとこのこ) - boy
@@ -73,10 +73,10 @@ ____
 - 問題 (もんだい) - problem / question
 - 練習 (れんしゅう) - practice
 - トイレ - toilet
-- お手洗い (おてあらい) - toilet / restroom
+- お手洗い (おてあらい) - restroom
 - 庭 (にわ) - garden
 - 池 (いけ) - pond
-- 喫茶店 (きっさてん) - coffee shop / teahouse
+- 喫茶店 (きっさてん) - teahouse
 - 食堂 (しょくどう) - canteen
 - 銀行 (ぎんこう) - bank
 - 郵便局 (ゆうびんきょく) - post office
