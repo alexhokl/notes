@@ -70,7 +70,7 @@ ____
 - ノート - notebook
 - 写真 (しゃしん) - photograph
 - 質問 (しつもん) - question
-- 問題 (もんだい) - problem / question
+- 問題 (もんだい) - problem (question)
 - 練習 (れんしゅう) - practice
 - トイレ - toilet
 - お手洗い (おてあらい) - restroom

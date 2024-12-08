@@ -82,13 +82,14 @@ d (t)   | z (s)
 * `ei` is written as `ē`
   + 英語 えいご (ēgo)
   + 時計 とけい (tokē)
-* `ou` is written as `ō`
+* `ou` or `oo` is written as `ō`
   + 父 とう (tō)
   + 豆腐 とうふ (tōfu)
   + 料理 りょうり (ryōri)
   + 大きい おおきい (ōkī) - big
   + 十 とお (tō) - tenth
   + 氷 こおり (kōri) - ice
+  + 遠く とおく (tōku) - far
 
 ## 鼻濁音 (bidadakuon) - nasal sound
 
