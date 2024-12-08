@@ -112,7 +112,7 @@ ____
 - 花 (はな) - flower
 - 友達 (ともだち) - friend
 - 電気 (でんき) - electricity
-- 茶色 (ちゃいろ) - brown
+- 茶色 (ちゃいろ) - brown colour
 - 町 (まち) - town / neighborhood
 - 動物 (どうぶつ) - animal
 - 犬 (いぬ) - dog
@@ -127,7 +127,7 @@ ____
 ### Nouns (position)
 
 - 上 (うえ) - on top of
-- 中 (なか) - inside
+- 中 (なか) - middle (inside)
 - 下 (した) - below
 - 横 (よこ) - horizontally beside (left or right) (of different types of things)
 - 隣 (となり) - next to
