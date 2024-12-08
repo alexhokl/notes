@@ -469,6 +469,10 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - `:copen` to open a quickfix list
 - `:cc2` to select the second option in a quickfix list
 - `:ccl` to close the quickfix list
+- `:chistory` to show the history of quickfix list in the current session
+- `:colder` to go to the previous quickfix list
+- `:cnewer` to go to the next quickfix list
+- `:cfile filename` to load a quickfix list from a file
 
 ### Location list
 
