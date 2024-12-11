@@ -179,29 +179,34 @@ ____
 - マクドナルド (makudonarudo) - McDonald's
 - お手洗い (おてあらい) - restroom
 - トイレ - toilet
+- 冷やし (ひやし) - cold
 
 ## Food
 
 - ご飯 (gohan) - rice
-- パスタ (pasuta) - pasta
-- クッキー (kukkī) - cookie
+- 卵 (たまご) - egg
+- 玉子 (たまご) - egg
+- パスタ - pasta
+- クッキー - cookie
 - 玉ねぎ (たまねぎ) - onion
 - 牡蠣 (かき) - oyster
 - 生牡蠣 (なまがき) - raw oyster
 - プリン - pudding
-- 豚骨 (tonkotsu) - pork bone
-- 醤油 (shōyu) - soy sauce
+- 叉焼 (チャーシュー) - roasted pork
+- 豚骨 (とんこつ) - pork bone
+- 醤油 (しょうゆ) - soy sauce
 - 葱 (negi) - green onion
 - 鹽 (shio) - salt
 - ハラミ (harami) - skirt steak (横隔膜)
-- ホルモン (horumon) - offal (內臟)
-- ベーコン (bēkon) - bacon
-- トマト (tomato) - tomato
-- ピザ (piza) - pizza
-- バーガー (bāgā) - burger
-- カレー (karē) - curry
-- アップルパイ (appurupai) - apple pie
-- パンプキンパイ (panpukin pai) - pumpkin pie
+- ホルモン - offal (內臟)
+- ベーコン - bacon
+- トマト - tomato
+- ピザ - pizza
+- バーガー - burger
+- カレー - curry
+- アップルパイ - apple pie
+- パンプキンパイ - pumpkin pie
+- ベジタリアン - vegetarian
 
 ### Fish
 
