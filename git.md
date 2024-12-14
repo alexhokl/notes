@@ -480,9 +480,11 @@ git submodule deinit -f --
 ###### To remove a submodule
 
 1. Remove the submodule section from `.gitmodules`
-2. `git submodule deinit path/to/module`
-3. `git rm --cached path/to/module`
-4. remove files in `.git/modules/path/to/module`
+2. Create a commit with the change
+3. `git submodule deinit path/to/module`
+4. `git rm --cached path/to/module`
+5. `rm -rf path/to/module`
+6. `rm -rf .git/modules/path/to/module`
 
 ##### Tag
 
