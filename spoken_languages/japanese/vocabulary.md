@@ -213,6 +213,8 @@ ____
 - 便利 (べんり) - convenient
 - 色々 (いろいろ) - various
 - 丈夫 (じょうぶ) - strong
+- 好き (すき) - like
+- 大好き (だいすき) - liking very much / love
 
 ### Adverbs
 
