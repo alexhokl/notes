@@ -49,6 +49,12 @@ jq '.[] | { name: .some-property, display: .some-other-property }'
 jq '.[6]'
 ```
 
+##### To show the last 5 entries in an array
+
+```sh
+jq '.[-5:][] | .property-name'
+```
+
 ##### To show a value without double quotes
 
 ```sh
