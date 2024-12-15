@@ -11,6 +11,8 @@
     + [Components](#components)
     + [pinentry](#pinentry)
 - [Chrome Browser](#chrome-browser)
+  * [Bookmarks](#bookmarks)
+  * [Recipies](#recipies)
 ____
 
 # Links
@@ -219,6 +221,25 @@ sudo update-alternatives --install /usr/bin/pinentry-x11 pinentry-x11 "$(which p
 ```
 
 # Chrome Browser
+
+## Bookmarks
+
+On Mac, bookmarks are stored in
+
+```sh
+$HOME/Library/Application Support/Google/Chrome/Default/Bookmarks
+```
+
+Dumping of URLs can be made by
+
+```sh
+cat $HOME/Library/Application Support/Google/Chrome/Default/Bookmarks |\
+  jq '.roots.bookmark_bar.children[] | select(.name=="To Read") | .children[] | { title:.name, url:.url}'
+```
+
+assuming the bookmarks are in folder `To Read` in `Bookmarks Bar`
+
+## Recipies
 
 ##### To Enable blackboxing
 
