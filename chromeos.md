@@ -233,7 +233,7 @@ $HOME/Library/Application Support/Google/Chrome/Default/Bookmarks
 Dumping of URLs can be made by
 
 ```sh
-cat $HOME/Library/Application Support/Google/Chrome/Default/Bookmarks |\
+cat $HOME/Library/Application\ Support/Google/Chrome/Default/Bookmarks |\
   jq '.roots.bookmark_bar.children[] | select(.name=="To Read") | .children[] | { title:.name, url:.url}'
 ```
 
