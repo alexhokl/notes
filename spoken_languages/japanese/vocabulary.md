@@ -90,12 +90,14 @@ ____
 - 部屋 (へや) - room
 - 台所 (だいどころ) - kitchen
 - 玄関 (げんかん) - front door
+- 廊下 (ろうか) - corridor
 - 机 (つくえ) - desk
 - 椅子 (いす) - chair
 - ドア - door
 - テーブル - table
 - 本棚 (ほんだな) - bookshelf
 - ベッド - bed
+- 窓 (まど) - window
 - テレビ - television
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
@@ -226,6 +228,7 @@ ____
 - 大勢 (おおぜい) - many (people)
 - なぜ - why
 - また - also / again
+- 未だ (まだ) - still / yet / only
 
 ### Conjunctions
 
@@ -315,6 +318,7 @@ ____
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23adverb)
 - つまり - that is to say / in other words
+- まあ - well / I mean
 
 ### Verbs
 
@@ -332,6 +336,7 @@ ____
 - ロビー - lobby
 - 広場 (ひろば) - square
 - 苗字 (みょうじ) - surname
+- 箪笥 (たんす) - chest of drawers
 
 ### Adjectives
 
