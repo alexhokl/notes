@@ -1,7 +1,6 @@
 - [Offline Tools](#offline-tools)
   * [git](#git)
 - [Online Tools](#online-tools)
-  * [APIs](#apis)
   * [App builder](#app-builder)
   * [Auth](#auth)
   * [CLI](#cli)
@@ -9,8 +8,10 @@
   * [Cryptography](#cryptography)
   * [Data](#data)
   * [Deployment](#deployment)
+  * [Email](#email)
   * [Go](#go)
   * [Hardware](#hardware)
+  * [Health](#health)
   * [Job search](#job-search)
   * [JSON](#json)
   * [Location](#location)
@@ -122,14 +123,6 @@ ____
 
 ## Online Tools
 
-### APIs
-
-- [Tomorrow.io](https://www.tomorrow.io/) - weather APIs serving personal and
-  commercial use cases
-- [OpenWeatherWeb](http://openweathermap.org/API)
-- [Nokia Health API](https://developer.health.nokia.com/api)
-- [Resend](https://resend.com/) - sending emails via API
-
 ### App builder
 
 - [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
@@ -165,6 +158,10 @@ ____
 - [Lifecycle](https://livecycle.io/) - deploy onto staging environment early for
   review in SDLC
 
+### Email
+
+- [Resend](https://resend.com/) - sending emails via API
+
 ### Go
 
 - [gopherize](https://gopherize.me) for generating Gophers
@@ -172,6 +169,10 @@ ____
 ### Hardware
 
 - [Apple Support - Check support coverage](https://checkcoverage.apple.com/ie/en/)
+
+### Health
+
+- [Nokia Health API](https://developer.health.nokia.com/api)
 
 ### Job search
 
@@ -318,10 +319,14 @@ ____
 
 ### Weather
 
+- [Tomorrow.io](https://www.tomorrow.io/) - weather APIs serving personal and
+  commercial use cases
+- [OpenWeatherWeb](http://openweathermap.org/API)
 - [Windy](https://www.windy.com/) - weather forecast
 - [blitzortung](https://www.blitzortung.org/en/live_lightning_maps.php) -
   lightning map
 - [LightningMaps](https://www.lightningmaps.org/) - lightning map
+- [ECMWF experimentation using GraphCast ML model from Google DeepMind](https://charts.ecmwf.int/products/graphcast_medium-mslp-wind850)
 
 ### Others
 
