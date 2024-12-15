@@ -1,9 +1,18 @@
 - [Methods of counting](#methods-of-counting)
 - [Simple Numbers](#simple-numbers)
-- [Floors](#floors)
-- [Hours](#hours)
-- [Day of month](#day-of-month)
 - [Months](#months)
+  * [counting months](#counting-months)
+  * [month of year](#month-of-year)
+- [Days](#days)
+  * [counting days](#counting-days)
+  * [nth day of an event](#nth-day-of-an-event)
+  * [days of month](#days-of-month)
+- [Hours](#hours)
+  * [hour of day](#hour-of-day)
+  * [counting hours](#counting-hours)
+  * [counting number of classes](#counting-number-of-classes)
+- [本](#%E6%9C%AC)
+- [Floors](#floors)
 - [Counters](#counters)
   * [Core](#core)
   * [optional](#optional)
@@ -270,12 +279,41 @@ Reference: [A Guide to the Japanese Counter-ish Word:
 | 四時間   | four classes |
 | 四時間目 | fourth class |
 
+## 本
+
+Reference: [Japanese Counter 本: 11 Ways to Count Long, Skinny
+Things](https://www.tofugu.com/japanese/japanese-counter-hon/)
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一本     | `いっ`ぽん       |
+| 二本     | にほん           |
+| 三本     | さんぼん         |
+| 四本     | よんぼん         |
+| 五本     | ごほん           |
+| 六本     | `ろっ`ぽん       |
+| 七本     | ななほん         |
+| 八本     | はちほん         |
+| 九本     | きゅうほん       |
+| 十本     | `じゅっ`ぽん     |
+| 十一本   | じゅう`いっ`ぽん |
+| 十二本   | じゅうにほん     |
+| 何本     | なんぼん         |
+
 ## Floors
 
-- 1 階 (いっかい) - 1st floor
-- 2 階 (にかい) - 2nd floor
-- 3 階 (さんがい) - 3rd floor
-- 4 階 (よんかい) - 4th floor
+| Japanese | Reading      |
+| ---      | ---          |
+| 一階     | `いっ`かい   |
+| 二階     | にかい       |
+| 三階     | さんがい     |
+| 四階     | よんかい     |
+| 五階     | ごかい       |
+| 六階     | `ろっ`かい   |
+| 七階     | ななかい     |
+| 八階     | はちかい     |
+| 九階     | きゅうかい   |
+| 十階     | `じゅっ`かい |
 
 ## Counters
 
@@ -290,11 +328,16 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
 - 個 (こ) is a kango; to count things that has a boundary to it
   * りんごが７個あります。
 - 本 (ほん) counts for "stick-shaped or long" things
+  * 赤い傘は一本しか持っていません。
+  * 私は2本時計を着ています。
+  * 私の庭には木が三本生えています。
+  * 私の眼鏡は四本あります。
   * Counts: pens, pencils, asparagus, soba, darts, firewood, trees, bamboo,
     cords, threads, dumplings, water wells, injections, folding fans, eels,
     tails, nail clippers, icicles, fishing rods, film, chimneys, tenugui,
     trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
-    ribbons, cacti, soda cans
+    ribbons, cacti, soda cans, spines, teeth, individual hairs, arms, legs,
+    fingers, blood vessels, rivers, waterways
 - 枚 (まい) counts flat things
   * it uses kango counting method
   * 田中さんの投げたボールで、窓ガラスが一枚割れてしまった。
