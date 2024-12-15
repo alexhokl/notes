@@ -296,6 +296,17 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
     trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
     ribbons, cacti, soda cans
 - 枚 (まい) counts flat things
+  * it uses kango counting method
+  * 田中さんの投げたボールで、窓ガラスが一枚割れてしまった。
+  * 私の部屋には壁が四枚あります。
+  * 五枚セットのお皿を買いました。
+  * 今お財布には、百円玉三枚と、十円玉四枚しか入っていない。
+  * どうしてETのDVDを二枚持ってるの？
+  * 朝ごはんにクッキーを八十五枚食べた。
+  * その絵を一枚売ってくれませんか。
+  * 魚を三枚におろせますか？
+  * ランチにざる蕎麦を三枚も食べた。
+  * 餃子は焼き立てが美味しいから、一枚ずつ頼んだ方がいいよ。
   * Counts: paper, photos, rafts, bath mats, shells, playing cards, credit
     cards, t-shirts, pants, other clothes, dust cloths, walls, a single serving
     of soba, a single serving of gyoza
