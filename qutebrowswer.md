@@ -61,16 +61,24 @@ ____
 
 ## recipes
 
+##### To update bookmarks
+
+Open file `$HOME/.qutebrowser/bookmarks/urls`.
+
 ##### To import bookmarks from Chrome on Mac
 
 ```sh
 cat $HOME/Library/Application\ Support/Google/Chrome/Default/Bookmarks |\
-  jq -r '.roots.bookmark_bar.children[] | select(.name=="To Read") | .children[] | "qutebrowser :bookmark-add \(.url) \"\(.name)\""'
+  jq -r '.roots.bookmark_bar.children[] | select(.name=="To Read") | .children[] | .url + " " + .name' |\
+  tee -a $HOME/.qutebrowser/bookmarks/urls
 ```
 
 or to only import the last 5 bookmarks
 
 ```sh
 cat $HOME/Library/Application\ Support/Google/Chrome/Default/Bookmarks |\
-  jq -r '.roots.bookmark_bar.children[] | select(.name=="To Read") | .children[-5:][] | "qutebrowser :bookmark-add \(.url) \"\(.name)\""'
+  jq -r '.roots.bookmark_bar.children[] | select(.name=="To Read") | .children[-5:][] | .url + " " + .name' |\
+  tee -a $HOME/.qutebrowser/bookmarks/urls
 ```
+
+Note that bookmarks are not reflected until the browser is restarted.
