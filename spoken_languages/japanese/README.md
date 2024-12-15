@@ -13,6 +13,7 @@
     + [Fruits](#fruits)
   * [Drinks](#drinks)
   * [Convience store](#convience-store)
+  * [Shopping](#shopping)
   * [Payment](#payment)
   * [Conversation](#conversation)
   * [Sites](#sites)
@@ -26,6 +27,7 @@
   * [Colours](#colours)
   * [Feelings](#feelings)
   * [Form filling](#form-filling)
+  * [Home](#home)
   * [Academic](#academic)
   * [People names](#people-names)
   * [Countries](#countries)
@@ -207,6 +209,8 @@ ____
 - アップルパイ - apple pie
 - パンプキンパイ - pumpkin pie
 - ベジタリアン - vegetarian
+- 人参 (にんじん) - carrot
+- 朝鮮人参 (ちょうせんにんじん) - ginseng
 
 ### Fish
 
@@ -260,6 +264,7 @@ ____
 - バナナ (banana) - banana
 - 苺 (いちご) - strawberry
 - 林檎 (りんご) - apple
+- 蜜柑 (みかん) - mandarin orange
 
 ## Drinks
 
@@ -568,6 +573,10 @@ ____
 - 苗字 (みょうじ) - last name
 - マル - circle
 - バツ - cross
+
+## Home
+
+- 寝室 (しんしつ) - bedroom
 
 ## Academic
 
