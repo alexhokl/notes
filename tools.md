@@ -107,6 +107,8 @@ ____
   developement
 - [tmate-io/tmate](https://github.com/tmate-io/tmate) - tmux but for sharing
   session
+- [FreeCAD](https://wiki.freecad.org/) - CAD application runs on Windows, Mac
+  and Linux
 
 ### git
 
