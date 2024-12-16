@@ -325,19 +325,44 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
 - つ; the original wago form of counting
   * ビール４つと水１つ、それから枝豆５つください。
   * まだ６つしかアイディアを思いついていません。
+
 - 個 (こ) is a kango; to count things that has a boundary to it
   * りんごが７個あります。
-- 本 (ほん) counts for "stick-shaped or long" things
+
+- 本 (ほん) counts for "stick-shaped or long" things; or thin and long
+  containers if it contains a liquid or gaseous substance; thin and long
+  buildings or structures; thin and long spaces; rolled-up tapes; wind and
+  string instruments; number of connected phone calls; nubmer of runs for
+  a train or bus; in sports, some plays lead to something positive, like a point
+  or a better position; things that have a start and end; number of products
+  (usually software); number of prizes
   * 赤い傘は一本しか持っていません。
   * 私は2本時計を着ています。
   * 私の庭には木が三本生えています。
   * 私の眼鏡は四本あります。
+  * 今日はコーラを六本も飲んでしまった。
+  * 大阪にタワーが一本建っています。
+  * 来年、ここに橋が一本架けられる予定だ。
+  * 青森県は、もう1本青函トンネルが必要だと主張している。
+  * フィルム一本現像するのに、いくらかかると思う？
+  * 田中さんは、今日も一本電話をかけてきた。
+  * 混んでるから、一本後の電車に乗って行こう。
+  * シュートを一本うったがはずれた。
+  * この後、講演の仕事が一本入っているんだ。
+  * 今週は何本ぐらい記事を書けそうですか？ (from writer's perspective)
+  * 今日は3本プロジェクトがあります。
+  * 走り込み十本! ヨーイ、スタート！
+  * ドラえもんとドラゴンボールの二本立ての映画を見に行った。
+  * あのYouTuberは、いつも一日で10本分のビデオを撮りだめするそうだ。
+  * あのアナウンサーは、一分で三本のニュースを読み上げた。
   * Counts: pens, pencils, asparagus, soba, darts, firewood, trees, bamboo,
     cords, threads, dumplings, water wells, injections, folding fans, eels,
     tails, nail clippers, icicles, fishing rods, film, chimneys, tenugui,
     trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
     ribbons, cacti, soda cans, spines, teeth, individual hairs, arms, legs,
-    fingers, blood vessels, rivers, waterways
+    fingers, blood vessels, rivers, waterways, towers, bridges, tunnels, plastic
+    wrap, tinfoil, wax paper
+
 - 枚 (まい) counts flat things
   * it uses kango counting method
   * 田中さんの投げたボールで、窓ガラスが一枚割れてしまった。
@@ -353,44 +378,59 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
   * Counts: paper, photos, rafts, bath mats, shells, playing cards, credit
     cards, t-shirts, pants, other clothes, dust cloths, walls, a single serving
     of soba, a single serving of gyoza
+
 - 匹 (ひき) counts small or medium-sized animals; if you can pick the animal
   * Counts: dogs, cats, monkeys, fish, prawns, shrimps, lobsters, wolves,
     rabbits, mosquitoes, shellfish, deer, worms, caterpillars, silkworms,
     earthworms, frogs, snails, crabs, tortoises, turtles, octopuses, animals,
     insects, dragonflies, sea otters, ogres, monsters, naughty children,
     animal-like people
+
 - 頭 (とう) counts larger animals
   * Counts: cows, horses, livestock, elephants, gorillas, whales, camels,
     tigers, "professional" animals, insects on display, animals for sale
+
 - 羽 (わ) counts birds; the exception is rabbit
   * Counts: chickens, ostriches, peacocks, penguins, other birds, also rabbits,
     origami cranes
+
 - 冊 (さつ) counts books
   * Counts: books, book collections, albums, notebooks, memo pads, musical
     scores, catalogs, magazines, dictionaries, publications, documents, booklet
   * 私は毎日７冊本を読みます。
+
 - 台 (だい) counts a variety of fairly unrelated things; it counts platforms you
   can stand or put things on, machines, cars, large instruments
   * Counts: playground slides, beds, tables, couches, harps, pianos, cellos,
     cars, trucks, motors, washing machines, dryers, ovens, air conditioners,
     microwaves, cellular phones, keyboards
+
 - 分 (ふん) counts minutes
+
 - 日 (か/にち) counts days
+
 - 年 (ねん) counts years
+
 - 回 (かい) counts the number of times something happens, or frequency
   * Counts: the number of times something happens, chances, opportunities,
     revolutions
+
 - 人 (り/にん) counts number of people. Beyond people, it can also count things
   we treat like people, such as figure-like things, and even your pets, if you
   treat them like family
   * for one or two people (一人、二人) get counted using the wago counting
     method; three people and up (三人) are just counted in kango
+
 - 月 (つき/がつ) counts number of months
+
 - 時 (じ) is a unit for hours
+
 - 時間 (じかん) counts number of hours
   * 学校の昼休みは２時間もある。
   * 二時間後に会いましょう。
+
 - 階 (かい) counts building floors
+
 - 歳 (さい) counts age; 才 (さい) is for the same thing
 
 ### optional
@@ -398,34 +438,44 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
 - 箇 is not counter by itself but it is used with combination with words as
   a counter; it is often written with the hiragana か or a small ヵ or ヶ; it is
   actually just an archaic version of the counter 個
+
 - 箇月(かげつ) counts the number of months; as in, "for three months" or "in
   three months."
+
 - 箇国 (かこく)
+
 - 箇所 (かしょ) counts places, spots, points, passages
   * Counts: places, spots, points, passages, parts, typos, water supply points,
     movie theaters, shopping malls, toilets, mosquito bites, scars, broken parts
     of something, parts that need to be fixed, changed parts, dangerous area
+
 - 缶 (かん) counts cans
   * the first two cans can be counted with either wago or kango numbers. "One
     can" is １缶, read as either いっかん or ひとかん; "Two cans" is ２缶, read
     as either にかん or ふたかん; from three cans and up you use the kango
     counting method; when a can is empty—or when it's a garbage can—you'll
     generally want to use the counter 個 instead of 缶
+
 - 巻 (かん) counts volumes of a series of books, videotapes, cassette tapes; it
   can also be used as an ordinal number suffix to show which item in a series it
   is
   * ハリーポッターの１３巻目 is "the thirteenth Harry Potter book in the series."
   * Counts: volumes of books, cassette tapes, videotapes, DVDs, etc. that are in
     a series, and scrolls
+
 - 曲 (きょく) counts the number of song
+
 - 切れ (きれ) counts cut/sliced things
+
 - 口 (くち) counts the number of bites; it can also be used to count things like
   a set price of a contribution, submissions to a contest, bank accounts, and
   a "share" of insurance
   * １口飲ませて！
   * ３口しか食べてないのにお腹がいっぱいになってしまった。
+
 - 組 (くみ) counts a set, a group, or a pair of something
   * use wago counting method for number is 2 or below; kango, otherwise
+
 - 件 (けん) counts those matters and cases
   * Counts: proposals, suggestions, legislative bills, agenda items, projects,
     plans, crimes, incidents, scandals, complaints, objections, contracts,
@@ -433,57 +483,76 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
     Internet access numbers, voice mail messages
   * 先週、この町で殺人事件が２件も起きたそうです。
   * この記事には１０万件のアクセスがあった。
+
 - 軒 (けん) counts houses, buildings, shops, restaurants, farms, factories; or
   mailing addresses
+
 - 語 (ご) counts words (not characters)
   * 新しい単語を２０語覚えました。
+
 - 校 (こう) counts the number of schools; or nubmer of proofreadings
+
 - 皿 (さら) counts number of dishes or plates
   * use wago counting method for number is 2 or below; kango, otherwise
+
 - 試合 (しあい) counts sport games
+
 - 品 (しな/ひん) counts items, products, or dishes of food
   * use wago counting method for number is 2 or below and it is pronounced as
     しな; kango, otherwise
+
 - 社 (しゃ) count companies or temples
+
 - 種類(しゅるい) counts kinds, types, or varieties of things
   * ７種類のスパイスを混ぜました。
   * 人の口臭には約１０種類の臭いがあるらしい。
+
 - 週 (しゅう) counts weeks
   * １週間ずっと風邪で寝込んでいた。
   * ７月の３週目にポートランドに行く予定です。 (third)
+
 - 周 (しゅう) counts the number of times someone goes around something
   * 公園を１周して帰ろう。
   * ４周目でハチに刺された。 (fourth)
   * Counts: circuits, rounds, laps, rounds of golf, instances of traveling
     around something/somewhere, courses, revolutions
+
 - 色 (しょく/いろ) counts number of colors
+
 - 席 (せき) counts seats
+
 - 戦 (せん) counts matches, fights, battles, or even sports game matches
   * 結果は５戦３勝２敗でした。
   * ４戦目でやっとクッパを倒した。 (fourth)
+
 - 足 (そく) counts pairs of footware
   * Counts: shoes, socks, stockings, slippers, zōri (Japanese sandals), tabi
     (Japanese socks), geta (wooden Japanese shoes), clogs, roller skates,
     rollerblades, ice skates, flip flops, boots, rain boots, sheets of dried
     squid
   * 靴下３足で５００円だって。
+
 - 束 (たば) counts bunches or bundles of things
   * use wago counting method for number is 2 or below; kango, otherwise
+
 - 玉 (たま) counts round things
   * use wago counting method for number is 2 or below; kango, otherwise
   * Counts: peaches, melons, watermelons, tomatoes, and persimmons; onions,
     cabbage, lettuce, Chinese cabbage; balls of noodles such as yakisoba, udon,
     soba, ramen, and konnyaku noodles; balls of yarn, balls of wire, pachinko
     balls
+
 - 段 (だん) counts stages, layers or levels of things
   * Counts: steps of stairs, shelves (when multiple shelves are installed
     vertically), cake tiers, bunk bed levels, drawers (when multiple drawers are
     installed vertically), stages such as rocket stages, martial arts ranks,
     Japanese calligraphy ranks, paragraphs, columns
   * ２段ベッドの上の段に寝ているのがうちの息子です。
+
 - 着 (ちゃく) counts clothes; or ordering of ranking
   * コートを４着持っています。
   * 徒競走で１着になった。
+
 - 通 (つう) can count quite a few things, but they generally fall into the
   categories "messages" and "official documents"
   * Counts: written postcards, greeting cards, letters, mail, memos, notes,
@@ -492,7 +561,9 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
     survey answer responses, driver's licenses, passports, bankbooks, school
     report cards
   * 未読のメールが１０００通もある。
+
 - 粒 (つぶ) counts small, round things
+
 - 点 (てん) counts items, scores, dots, points, fulcrums, and any kind of
   artwork including paintings, sculptures, literature, and even films
   * Counts: dots, points, fulcrums; items and products such as accessories,
@@ -501,6 +572,7 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
     and other literature; test scores, sports game scores, eye drops
   * 高級時計５点が盗まれた。
   * 試験の点は９５点でした。
+
 - 度 (ど/たび) has eight different use categories; the numbering system can
   either be wago or kango, depending on the number and what you are counting; it
   is kango for ど and wago for たび, but たび is only used to count up to the
@@ -512,36 +584,51 @@ Are](https://www.tofugu.com/japanese/japanese-counters-list/)
   * １度２人で話をしませんか？
   * Counts: the number of times something happens, chances, opportunities,
     experiences, series of actions, divided actions, degrees, temperature
+
 - 杯 (はい) counts liquids in cups or bowls
+
 - 泊 (はく) counts overnight stays or rentals
+
 - 箱 (はこ) counts boxes
   * exception is small disposable wooden/cardboard boxes filled with sweets,
     a meal, or bento where it is count with 折 (おり)
   * １箱買うと、２箱目が無料になります。 (second)
+
 - 発 (はつ) counts bullets, bullet marks, explosives, fireworks, shots fired
   (including farts)
+
 - 番 (ばん) shows one's order, turn or rank
   * マミの成績はいつもクラスで２番です。 (second)
   * １４番目 (fourteenth)
+
 - 秒 (びょう) counts seconds of time
+
 - 便 (びん) counts the number of flights, boats shipping out, long-distance
   buses
   * ここから日本へのフライトは１日１便しかない。
+
 - 袋 (ふくろ) counts the number of bag, sack, or pouch
   * use wago counting method for number is 2 or below; kango, otherwise
+
 - 部屋 (へや) counts rooms
   * use wago counting method for number is 3 or below; kango, otherwise
+
 - 歩 (ほ) counts steps (physical or abstract)
+
 - 名 (めい) counts number of names
   * it is more polite than using 人
   * do not use it when the number is 3 or less
+
 - 文字 (もじ) counts letters or characters
   * ツイッターの文字制限って140字だっけ？
+
 - 問 (もん) counts number of questions or problems
   * １０問中９問不正解だった。
   * ３問目を間違えた。 (third)
+
 - 話 (わ) counts stories or episodes
   * ドラマを１０話一気にみた。
   * このアニメは３話目から面白くなってくるんだよ。 (third)
+
 - 割 (わり) counts of 10%
   * 2割引き is equivalent to 20% off
