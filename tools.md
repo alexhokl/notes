@@ -14,6 +14,7 @@
   * [Health](#health)
   * [Job search](#job-search)
   * [JSON](#json)
+  * [Language](#language)
   * [Location](#location)
   * [Image search](#image-search)
   * [Online meeting](#online-meeting)
@@ -184,6 +185,10 @@ ____
   Newtonsoft
 - [quicktype](https://app.quicktype.io/) - generate code of various languages
   from JSON data.
+
+### Language
+
+- [粵典 words.hk](https://words.hk/)
 
 ### Location
 
