@@ -21,6 +21,8 @@ ____
 ### Reference
 
 - [Command Line Interface Guidelines](https://clig.dev/)
+- ["Rules" that terminal programs
+  follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
 
 ### Characteristics
 
@@ -142,6 +144,8 @@ ____
     - `git status` suggests commands you can run to modify the state you are
       viewing
 - use colour with intention
+  * avoid using colours other than the 16 ANSI colours as there is a better
+    chance to be displayed correctly in a terminal emulator
 - disable colour if your program is not in a terminal or the user requested it
   - `stdout` or `stderr` is not an interactive terminal
   - respect `NO_COLOR` environment variable
@@ -225,6 +229,7 @@ ____
 - if possible, make arguments, flags and subcommands order-independent
 - do not read secrets directly from flags
   - consider accepting sensitive data only via files or via `stdin`
+- argument `-` means stdin or stdout
 
 ### Interactivity
 
@@ -236,9 +241,18 @@ ____
 - if you are prompting for a password, do not print it as the user types
   - this is done by turning off echo in the terminal
 - let the user escape
-  - if your program hangs on network I/O etc, always make Ctrl-C still work. If
-  - it is a wrapper around program execution where Ctrl-C can’t quit, make it
+  - if your program hangs on network I/O etc, always make `Ctrl-C` still work. If
+    it is a wrapper around program execution where `Ctrl-C` can’t quit, make it
     clear how to do that
+- if it is an interactive program, `Ctrl-C` should stop the operation but not
+  quitting the program
+- if it is an interactive program, pressing `q` should quit the program
+- support of `Ctrl-E` to move the cursor to the end of the line
+- support of `Ctrl-A` to move the cursor to the beginning of the line
+- support of `Ctrl-U` to delete all characters before the cursor
+- support of `Ctrl-K` to delete all characters after the cursor
+- support of `Ctrl-Y` to paste the last deleted text
+- support of `Ctrl-W` to delete the word before the cursor
 
 ### Subcommands
 
@@ -302,14 +316,14 @@ ____
 
 ### Signals and control characters
 
-- if a user hits Ctrl-C (the INT signal), exit as soon as possible
+- if a user hits `Ctrl-C` (the INT signal), exit as soon as possible
   - add a timeout to any clean-up code so it cannot hang forever
-- if a user hits Ctrl-C during clean-up operations that might take a long time,
+- if a user hits `Ctrl-C` during clean-up operations that might take a long time,
   skip them
 
 ### Configuration
 
-- use flags if it is  likely to vary from one invocation of the command to the
+- use flags if it is likely to vary from one invocation of the command to the
   next
 - use flags and probably environment variables if generally stable from one
   invocation to the next, but not always
@@ -317,6 +331,7 @@ ____
   a project, for all users
 - follow the XDG-spec
   - `~/.config/`
+  - or it has to be in home directory; add `rc` suffix such as `~/.myapprc`
 - modify configuration that is not your program
   - prefer creating a new config file (for example `/etc/cron.d/myapp`)
   - if you have to append or modify to a system-wide config file, use a dated
