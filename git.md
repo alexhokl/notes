@@ -484,7 +484,7 @@ git push --recurse-submodules=on-demand
 ##### To check status of all submodules
 
 ```sh
-git submodule status
+git submodule status --recursive
 ```
 
 This lists the commit hashes of submodules recursively.
@@ -495,38 +495,17 @@ This lists the commit hashes of submodules recursively.
 git submodule forach git pull origin master
 ```
 
-##### To deinit a submodule
-
-```sh
-git submodule deinit path/to/module
-```
-
-Use this command if the user does not want to have a local checkout of the
-submodule in your working tree anymore.
-
-It removes the whole `submodule` section from `.git/config` together with
-their work tree (files).
-
-To remove local modifications as well
-
-```sh
-git submodule deinit -f path/to/module
-```
-
-To remove all submodules
-
-```sh
-git submodule deinit -f --
-```
-
 ##### To remove a submodule
 
-1. Remove the submodule section from `.gitmodules`
-2. Create a commit with the change
-3. `git submodule deinit path/to/module`
-4. `git rm --cached path/to/module`
-5. `rm -rf path/to/module`
-6. `rm -rf .git/modules/path/to/module`
+```sh
+rm -rf path/to/module
+git submodule deinit -f -- path/to/module
+rm -rf .git/modules/path/to/module
+git rm -f path/to/module
+```
+
+Note that `git submodule deinit` removes the whole `submodule` section from
+`.git/config` together with their work tree (files).
 
 ## Tags
 
