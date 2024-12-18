@@ -5,18 +5,39 @@
 - [Operations](#operations)
   * [New repository](#new-repository)
   * [Forking](#forking)
+  * [Cloning](#cloning)
   * [Rebase](#rebase)
   * [Add](#add)
   * [Remove](#remove)
   * [Commit](#commit)
   * [Rollback](#rollback)
+  * [Branches](#branches)
+  * [Cleaning up](#cleaning-up)
+  * [Bisect](#bisect)
+  * [Stash](#stash)
+  * [Submodule](#submodule)
+  * [Tags](#tags)
+  * [GPG signature](#gpg-signature)
+  * [Checkout](#checkout)
+  * [Revert](#revert)
+  * [Rerere](#rerere)
+  * [Subtree](#subtree)
+  * [LFS](#lfs)
+  * [Configuration](#configuration)
   * [Operators](#operators)
   * [Queries](#queries)
+    + [Logs](#logs)
+    + [Commit](#commit-1)
+    + [Diff](#diff)
+    + [Text search](#text-search)
+    + [Remotes](#remotes)
+    + [Ignore](#ignore)
+    + [Others](#others)
   * [Troubleshooting](#troubleshooting-1)
   * [GitHub](#github)
 ____
 
-## Links
+# Links
 
 - [GitHub Blog](https://github.blog/)
 - [Set up your YubiKey for Git signing with
@@ -27,15 +48,15 @@ ____
   • Steve Smith](https://www.youtube.com/watch?v=fHLcZGi3yMQ) - on `.git`
   directory
 
-## Setup
+# Setup
 
-### BASH completion
+## BASH completion
 
 1. Get the completion file from `https://github.com/git/git/blob/master/contrib/completion/git-completion.bash`.
 2. Copy the file to `/etc/bash_completion.d/` on Linux (on Mac, this requires a bit more work).
 3. On Mac, source the file from the path in step 2 in `~/.bash_profile`.
 
-### Signing commits using SSH key
+## Signing commits using SSH key
 
 Ensure the following configuration is set in `.gitconfig`.
 
@@ -60,11 +81,11 @@ someone@test.com,someoneelse@test.com ssh-ed25519 AAAAE2VjZHNhLXNoYTItbmlzdHAyNT
 someone@test.com,someoneelse@test.com ssh-ed25519 AAAAF2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFJ6
 ```
 
-## Operations
+# Operations
 
 Note that aliases used can be found in [.gitconfig](https://github.com/alexhokl/dotfiles/blob/master/.gitconfig).
 
-### New repository
+## New repository
 
 To upload a local git repository onto GitHub, first create a repository on GitHub.
 
@@ -81,7 +102,7 @@ git remote add origin https://github.com/alexhokl/example.git
 git push -u origin master
 ```
 
-### Forking
+## Forking
 
 To connect to the original repository of a forked repository,
 check if the original repository is already stated in remotes.
@@ -100,7 +121,21 @@ git checkout master
 git merge upstream/master
 ```
 
-### Rebase
+## Cloning
+
+##### To clone a repository and its submodules
+
+```sh
+git clone --recursive https://github.com/author/repo
+```
+
+##### To clone a specific branch or tag
+
+```sh
+git clone -b your-branch https://github.com/author/repo
+```
+
+## Rebase
 
 ##### Rebase for merge
 
@@ -186,7 +221,7 @@ This behaviour can be enabled by default by
 git config --global rebase.updateRefs true
 ```
 
-### Add
+## Add
 
 ##### Staging some parts of a file
 
@@ -196,7 +231,7 @@ git add -p
 
 To further split a patch into smaller chunks, answer `s` can be used.
 
-### Remove
+## Remove
 
 ##### To remove a file from git index but not from file system
 
@@ -204,7 +239,7 @@ To further split a patch into smaller chunks, answer `s` can be used.
 git rm --cached $FILE
 ```
 
-### Commit
+## Commit
 
 ##### Amending the HEAD commit with current staged changes
 
@@ -235,7 +270,7 @@ shuffle the latest commit and put it right after `HEAD~4`.
 git commit --no-edit
 ```
 
-### Rollback
+## Rollback
 
 To rollback a particular file (abc.txt, for example) from the last commit (before it is pushed onto GitHub)
 
@@ -245,7 +280,15 @@ git reset HEAD abc.txt
 git commit -m 'A new commit message.'
 ```
 
-##### Branching
+## Branches
+
+##### To list branches and its latest commit
+
+```sh
+git branch -v
+```
+
+##### to create a branch
 
 To create a branch from a particular commit
 
@@ -253,13 +296,13 @@ To create a branch from a particular commit
 git branch feature_branch 7654321
 ```
 
-##### Renaming a branch
+##### to rename a branch
 
 ```sh
 git branch -m old_branch_name new_branch_name
 ```
 
-##### Describing a branch
+##### to describe a branch
 
 This is useful as the description will be made into merge commit message.
 
@@ -267,7 +310,32 @@ This is useful as the description will be made into merge commit message.
 git branch --edit-description feature1
 ```
 
-##### Cleanup working directory
+##### Remove a branch
+
+```sh
+git branch --unset-upstream UserStory1
+git branch -D UserStory1
+git push origin -d UserStory1
+```
+
+To remove the deleted branch in other machines
+
+```sh
+git fetch --all --prune
+```
+
+##### To replace one branch with another
+
+```sh
+git checkout new-master
+git merge -s ours master
+git checkout master
+git merge new-master
+```
+
+## Cleaning up
+
+##### to clean-up working directory
 
 To remove staged and un-staged files. (Clean working directory)
 
@@ -276,7 +344,7 @@ git reset HEAD
 git clean -f
 ```
 
-##### Cleanup
+##### to clean-up garbage collector
 
 Cleanup unnecessary files and optimise the local repository and prune loose objects
 
@@ -296,20 +364,6 @@ To prune a remote (for real)
 git remote prune origin
 ```
 
-##### Remove a branch
-
-```sh
-git branch --unset-upstream UserStory1
-git branch -D UserStory1
-git push origin -d UserStory1
-```
-
-To remove the deleted branch in other machines
-
-```sh
-git fetch --all --prune
-```
-
 ##### Remove unstaged files
 
 ```sh
@@ -322,7 +376,7 @@ git clean -f
 git reset --hard HEAD~ path/to/file
 ```
 
-##### Bisect
+## Bisect
 
 To find out the commit where unit tests are broken
 
@@ -336,7 +390,7 @@ git bisect good # if tests passed
 
 Once the commit is found, use `git bisect reset` to exit the bisect mode.
 
-##### Stash
+## Stash
 
 To stash unstaged and staged files
 
@@ -386,21 +440,21 @@ To stage the current stash
 git stash apply
 ```
 
-##### Submodule
+## Submodule
 
-###### To add a submodule
+##### To add a submodule
 
 ```sh
 git submodule add https://github.com/alexhokl/library path/to/library
 ```
 
-###### To add a submodule of specific branch
+##### To add a submodule of specific branch
 
 ```sh
 git submodule add -b your-branch https://github.com/alexhokl/library path/to/library
 ```
 
-###### To retrieve submodules from a new clone
+##### To retrieve submodules from a new clone
 
 ```sh
 git submodule init
@@ -409,19 +463,7 @@ git submodule init
 This adds the submodules defined in `.gitmodules` to `.git/config` without
 actually pulling the code yet.
 
-###### To clone a repository and its submodules
-
-```sh
-git clone --recursive https://github.com/author/repo
-```
-
-###### To clone a specific branch or tag
-
-```sh
-git clone -b your-branch https://github.com/author/repo
-```
-
-###### To update submodules
+##### To update submodules
 
 ```sh
 git submodule update
@@ -439,7 +481,7 @@ To push changes from submodule, create a commit in the directory of submodule
 git push --recurse-submodules=on-demand
 ```
 
-###### To check status of all submodules
+##### To check status of all submodules
 
 ```sh
 git submodule status
@@ -447,13 +489,13 @@ git submodule status
 
 This lists the commit hashes of submodules recursively.
 
-###### To execute for each submodule
+##### To execute for each submodule
 
 ```sh
 git submodule forach git pull origin master
 ```
 
-###### To deinit a submodule
+##### To deinit a submodule
 
 ```sh
 git submodule deinit path/to/module
@@ -477,7 +519,7 @@ To remove all submodules
 git submodule deinit -f --
 ```
 
-###### To remove a submodule
+##### To remove a submodule
 
 1. Remove the submodule section from `.gitmodules`
 2. Create a commit with the change
@@ -486,15 +528,15 @@ git submodule deinit -f --
 5. `rm -rf path/to/module`
 6. `rm -rf .git/modules/path/to/module`
 
-##### Tag
+## Tags
 
-###### To add and push a tag
+##### To add and push a tag
 
 ```sh
 git tag my-tag-name && git push --tags
 ```
 
-###### To remove a pushed tag
+##### To remove a pushed tag
 
 ```sh
 git push --delete origin my-tag-name
@@ -507,15 +549,15 @@ git tag --delete my-tag-name
 git describe --abbrev=0 --tags
 ```
 
-##### GPG signature
+## GPG signature
 
-###### To show the signature
+##### To show the signature
 
 ```sh
 git verify-commit -v HEAD
 ```
 
-###### To show the raw signature
+##### To show the raw signature
 
 ```sh
 git verify-commit --raw HEAD
@@ -541,9 +583,9 @@ To get trace lines during commit,
 GIT_TRACE=1 git commit -m temp
 ```
 
-##### Checkout
+## Checkout
 
-###### To checkout (revert) a file from a specific commit
+##### To checkout (revert) a file from a specific commit
 
 ```sh
 git checkout 0432432432 path/to/file
@@ -555,21 +597,32 @@ The file will be in staged state. To unstage the file,
 git restore --staged path/to/file
 ```
 
-##### Revert
+##### Remove old history
 
-###### To revert a normal commit
+Assuming HEAD is at the commit where "history" begins
+
+```sh
+git checkout --orphan new_branch_name
+```
+
+## Revert
+
+##### To revert a normal commit
 
 ```sh
 git revert <sha-1 of the commit>
 ```
 
-###### To revert a merge commit (or a merge)
+##### To revert a merge commit (or a merge)
 
 ```sh
 git revert -m 1 <sha-1 of the merge commit>
 ```
 
-##### Rerere (reuse recorded resolution) [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
+## Rerere
+
+- reuse recorded resolution
+- [reference](https://git-scm.com/blog/2010/03/08/rerere.html)
 
 `git rerere`
 
@@ -580,6 +633,8 @@ This same tactic can be used if you want to keep a branch rebased so you don't h
 To enable, `git config --global rerere.enabled true`.
 
 When there is a merge conflict, `git rerere status` shows the files to have resolution to be recorded. `git rerere diff` shows the current status of the resoltion. Resolve the conflict as usual and the resolution will be recorded automatically. The resolution will be applied in the subsequent conflicts.
+
+## Subtree
 
 ##### Moving history of a directory of one repository to another
 
@@ -592,22 +647,7 @@ git remote add -f upstream https://github.com/alexhokl/repo1
 git merge --allow-unrelated-histories upstream/split-feature
 ```
 
-##### Remove old history
-
-Assuming HEAD is at the commit where "history" begins
-
-```sh
-git checkout --orphan new_branch_name
-```
-
-##### To replace one branch with another
-
-```sh
-git checkout new-master
-git merge -s ours master
-git checkout master
-git merge new-master
-```
+## LFS
 
 ##### Moving large files to LFS
 
@@ -620,7 +660,9 @@ git merge new-master
 git lfs track "*.webp
 ```
 
-##### Configuration
+## Configuration
+
+##### To edit configuration
 
 To edit system git config
 
@@ -653,7 +695,7 @@ git config user.email alex@some.other.org
 git config user.name alex.some.other.org
 ```
 
-### Operators
+## Operators
 
 - `~` selects the first parent of a commit
   - `HEAD~~` means the first parent of the first parent of `HEAD`
@@ -665,7 +707,9 @@ git config user.name alex.some.other.org
     a merge commit) and that is the last comment of the branch being merged)
   - `^3` is invalid as a commit can almost have two parents
 
-### Queries
+## Queries
+
+### Logs
 
 ##### Last commits from the current HEAD
 
@@ -786,6 +830,7 @@ Note that commits are shown in reverse chronological order by default.
 ```sh
 git log --all --author=alexhokl --since='9am yesterday' --format=%s
 ```
+### Commit
 
 ##### To show the SHA1 hash of a commit
 
@@ -798,6 +843,17 @@ To show the shorten version
 ```sh
 git rev-parse --short origin/a-branch-name
 ```
+
+##### To show the closest tag to a commit
+
+```sh
+git describe 0432432432
+```
+
+Note that this either shows the tag itself or the closest tag plus a suffix
+with number commits on top of the tag.
+
+### Diff
 
 ##### Comparing files with certain extensions
 
@@ -819,14 +875,7 @@ This show 10 lines instead of 3 (default) of context.
 git diff --name-only
 ```
 
-##### To show the closest tag to a commit
-
-```sh
-git describe 0432432432
-```
-
-Note that this either shows the tag itself or the closest tag plus a suffix
-with number commits on top of the tag.
+### Text search
 
 ##### Grep
 
@@ -878,7 +927,7 @@ To show function name related to the result line
 git grep -p search-term
 ```
 
-##### Remotes
+### Remotes
 
 ```sh
 git remote -v
@@ -894,12 +943,6 @@ To set the url of a remote
 
 ```sh
 git remote set-url origin https://github.com/auther/repo
-```
-
-##### Branches
-
-```sh
-git branch -v
 ```
 
 ##### To show commits of the two diverging branches
@@ -922,7 +965,7 @@ Note that the log is only available on a local machine.
 git fetch origin
 ```
 
-##### Ignore
+### Ignore
 
 To check file `abc.txt` would be ignored
 
@@ -930,13 +973,15 @@ To check file `abc.txt` would be ignored
 git check-ignore abc.txt
 ```
 
+### Others
+
 ##### Lines count
 
 ```sh
 git log --author="_Your_Name_Here_" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 For example, to see what underlying commands are used in signing a commit,
 
@@ -944,7 +989,7 @@ For example, to see what underlying commands are used in signing a commit,
 GIT_TRACE=1 git commit -m 'temp'
 ```
 
-### GitHub
+## GitHub
 
 ##### Closing an issue
 
