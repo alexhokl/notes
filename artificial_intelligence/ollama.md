@@ -34,6 +34,12 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 brew services start ollama
 ```
 
+##### To allow other machines accessing the server
+
+```sh
+OLLAMA_HOST=0.0.0.0:11434 ollama serve
+```
+
 ##### To use a remote instance
 
 ```sh
