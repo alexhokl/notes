@@ -1,6 +1,14 @@
 - [qutebrowser](#qutebrowser)
   * [key bindings](#key-bindings)
+    + [settings](#settings)
+    + [URL](#url)
+    + [tabs](#tabs)
+    + [scrolling](#scrolling)
+    + [bookmarks](#bookmarks)
+    + [printing](#printing)
+    + [debugging](#debugging)
   * [commands](#commands)
+    + [bookmarks](#bookmarks-1)
   * [recipes](#recipes)
 ____
 
@@ -24,6 +32,10 @@ ____
 - `Pp` to open the URL in the clipboard in a new tab
 - `pP` to open the URL from selection
 - `PP` to open the URL from selection in a new tab
+
+### tabs
+
+- `T` to list tabs
 
 ### scrolling
 
