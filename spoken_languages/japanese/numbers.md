@@ -56,6 +56,11 @@ ____
   * 3.14 is read as さんてんいちよん
   * 0.15 is read as れんてんいちご
 - 20 years old is read as Wago はたち (or in Kango にじゅっさい)
+- 三十路 (みそじ) is a term for someone who is in their 30s
+  * it uses Wago counting method
+  * however, it carries a negative nuance that you are getting old
+- 四十路 (よそじ) is a term for someone who is in their 40s
+  * Wago counting method is not used after 40
 
 ## Months
 
