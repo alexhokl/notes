@@ -45,6 +45,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### Links
 
+- [VimConf](https://vimconf.org/)
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - a
   collections of awesome Neovim plugins
 
