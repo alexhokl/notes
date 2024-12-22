@@ -91,6 +91,7 @@ ____
 - 其れから (それから) - and then
 - 何故なら (なぜなら) - because
 - だって - because
+- ので - because of
 - 為に (ために) - for
 - では - then
 

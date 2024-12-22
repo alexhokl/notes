@@ -16,11 +16,13 @@
     + [Nouns (position)](#nouns-position-1)
     + [Adjectives](#adjectives)
     + [Pronouns (person)](#pronouns-person-1)
+    + [Conjunctions](#conjunctions-1)
     + [Verbs](#verbs-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Adjectives](#adjectives-1)
     + [Pronouns (person)](#pronouns-person-2)
+    + [Adverbs](#adverbs-1)
     + [Verbs](#verbs-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
@@ -54,6 +56,8 @@ ____
 - 両親 (りょうしん) - parents
 - 子供 (こども) - child
 - 人 (ひと) - person
+- 皆 (みな) - everyone / everything
+- 皆さん (みなさん) - everyone (honorific)
 - 名前 (なまえ) - first name
 - 学校 (がっこう) - school
 - 教室 (きょうしつ) - classroom
@@ -278,6 +282,10 @@ ____
 - 君 (きみ) - you (friendly / musculine / poetic)
 - 彼 (かれ) - he / boyfriend
 - 彼女 (かのじょ) - she / girlfriend
+
+### Conjunctions
+
+- けど - but / however
 
 ### Verbs
 
