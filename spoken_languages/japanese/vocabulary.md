@@ -233,6 +233,7 @@ ____
 - なぜ - why
 - また - also / again
 - 未だ (まだ) - still / yet / only
+- 多分 (たぶん) - maybe / probably
 
 ### Conjunctions
 
@@ -285,7 +286,8 @@ ____
 
 ### Conjunctions
 
-- けど - but / however
+- けど - but / however (usually at the end of the sentence in a phone call, and
+  expect a response)
 
 ### Verbs
 
