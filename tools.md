@@ -43,6 +43,8 @@ ____
   the list (kept in sync) is in structured.yaml.
 - [Awesome TUIs](https://github.com/rothgar/awesome-tuis) - List of projects
   that provide terminal user interfaces
+- [reHackable/awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable)
+  links to repositories related to tablet reMarkable
 - [mitmproxy](https://mitmproxy.org/) - a free and open source interactive HTTPS
   proxy
 - [Scoop](https://scoop.sh/) - a command-line installer for Windows
@@ -141,6 +143,10 @@ ____
 - [explainshell.com](https://explainshell.com/) - explain shell commands and its
   options
 
+### Course
+
+- [Online research seminars](https://researchseminars.org/)
+
 ### Cron
 
 - [crontab.guru](https://crontab.guru/) for testing cron expressions
@@ -163,6 +169,10 @@ ____
 
 - [Resend](https://resend.com/) - sending emails via API
 
+### Fact checking
+
+- [snopes](https://www.snopes.com/) - a fact-checking website
+
 ### Go
 
 - [gopherize](https://gopherize.me) for generating Gophers
@@ -175,9 +185,13 @@ ____
 
 - [Nokia Health API](https://developer.health.nokia.com/api)
 
-### Job search
+### Job search and hiring
 
 - [Hong Kong Job advertisement search](http://david.co/job.php)
+- [layoffs.fyi](https://layoffs.fyi)
+- [4 day week](https://4dayweek.io/remote-jobs)
+- [greenhouse](https://www.greenhouse.io/) - a talent acquisition suite built
+  for structured hiring
 
 ### JSON
 
@@ -222,6 +236,7 @@ ____
     + it displays the names of mountains in the panorama, stating their distance
       from the viewpoint in kilometres
   * Peakvisor OPen Source Investigation (POPSI) project is involved
+- [Submarine Cable Map](https://www.submarinecablemap.com/)
 
 ### Image search
 
@@ -239,6 +254,10 @@ ____
 
 - [First Timers Only](https://www.firsttimersonly.com/) - clues for contributing
   to open source
+
+### Personal finance
+
+- [Lunch Money](https://lunchmoney.app/) - personal finance and budgeting
 
 ### Privacy
 
@@ -312,6 +331,11 @@ ____
 
 - [Instant SQL Formatter](http://www.dpriver.com/pp/sqlformat.htm)
 
+### Supply chain
+
+- [Free AIS Ship Tracker](https://www.vesselfinder.com/) - find a vessel by its
+  name, IMO, or MMSI
+
 ### Syntax highlight
 
 - [Carbon](https://carbon.now.sh) for sharing code to show on web pages
@@ -331,7 +355,11 @@ ____
 - [blitzortung](https://www.blitzortung.org/en/live_lightning_maps.php) -
   lightning map
 - [LightningMaps](https://www.lightningmaps.org/) - lightning map
-- [ECMWF experimentation using GraphCast ML model from Google DeepMind](https://charts.ecmwf.int/products/graphcast_medium-mslp-wind850)
+- [ECMWF experimentation using GraphCast ML model from Google
+  DeepMind](https://charts.ecmwf.int/products/graphcast_medium-mslp-wind850)
+- [Sunrise and sunset times in Hong
+  Kong](https://www.timeanddate.com/sun/hong-kong/hong-kong)
+- [Hong Kong Weather Warning](https://www.metwarn.com/)
 
 ### Others
 
