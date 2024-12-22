@@ -42,6 +42,9 @@ errors](https://learn.microsoft.com/en-us/sql/relational-databases/errors-events
   powershell commands
 - [Brent Ozar - Paste the plan](https://www.brentozar.com/pastetheplan/) -
   visualising query plan
+- [Plan Explorer](https://www.solarwinds.com/free-tools/plan-explorer) - a free
+  tool from SolarWinds to visualise query plans, index and statistics analysis;
+  paid full version is available
 
 ## Troubleshooting
 
