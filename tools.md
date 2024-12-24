@@ -349,6 +349,8 @@ ____
   risks with updates and patches.
 - [bigpanda](https://www.bigpanda.io/) - Infrastructure and application monitoring
 - [Socket](https://socket.dev/) - checking for vulnerabilities in dependencies
+- [Dangerzone: Convert potentially dangerous documents into safe
+  PDFs](https://dangerzone.rocks/)
 
 ### Shopping
 
