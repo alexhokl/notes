@@ -351,6 +351,8 @@ ____
 - [Socket](https://socket.dev/) - checking for vulnerabilities in dependencies
 - [Dangerzone: Convert potentially dangerous documents into safe
   PDFs](https://dangerzone.rocks/)
+- [mondoo](https://mondoo.com/) - security posture management for cloud and
+  container environments
 
 ### Shopping
 
