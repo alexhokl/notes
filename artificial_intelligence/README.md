@@ -36,6 +36,7 @@ ____
 - [Julius AI](https://juliusai.com/) - analysing structured data and answering
   questions using generative AI
 - [bolt](https://bolt.new/) - generate apps using generative AI
+- [n8n](https://n8n.io/) - workflow automation tool
 
 # Concepts
 
