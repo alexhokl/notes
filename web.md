@@ -1,9 +1,11 @@
 - [Architecture](#architecture)
 - [Browsers](#browsers)
+- [Linters](#linters)
 - [Tools](#tools)
 - [HTML5](#html5)
 - [UX Design](#ux-design)
 - [ServiceWorker](#serviceworker)
+- [Local Storage](#local-storage)
 - [HTTP Headers](#http-headers)
 - [Icons](#icons)
 - [WebP](#webp)
@@ -24,6 +26,11 @@ ____
 
 - [Can I use](http://caniuse.com/)
 - [What's the difference between “Normal Reload”, “Hard Reload”, and “Empty Cache and Hard Reload” in chrome?](http://stackoverflow.com/questions/14969315/whats-the-difference-between-normal-reload-hard-reload-and-empty-cache-a)
+
+## Linters
+
+- [The JavaScript Oxidation Compiler](https://oxc.rs/) - a JavaScript linter,
+  parser, resolver and transformer written in Rust
 
 ## Tools
 
