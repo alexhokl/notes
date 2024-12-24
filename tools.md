@@ -2,36 +2,47 @@
   * [git](#git)
 - [Online Tools](#online-tools)
   * [App builder](#app-builder)
+  * [Audio books](#audio-books)
   * [Auth](#auth)
   * [CLI](#cli)
+  * [Continuous Integration / Continuous Deployment (CI/CD)](#continuous-integration--continuous-deployment-cicd)
+  * [Course](#course)
   * [Cron](#cron)
   * [Cryptography](#cryptography)
   * [Data](#data)
   * [Deployment](#deployment)
   * [Email](#email)
+  * [Fact checking](#fact-checking)
   * [Go](#go)
   * [Hardware](#hardware)
   * [Health](#health)
-  * [Job search](#job-search)
+  * [Job search and hiring](#job-search-and-hiring)
   * [JSON](#json)
   * [Language](#language)
   * [Location](#location)
   * [Image search](#image-search)
+  * [Internet of Things (IOT)](#internet-of-things-iot)
+  * [Monitoring](#monitoring)
   * [Online meeting](#online-meeting)
   * [Open source](#open-source)
+  * [Personal finance](#personal-finance)
   * [Privacy](#privacy)
   * [PDF](#pdf)
+  * [Project management](#project-management)
   * [Regular expression](#regular-expression)
+  * [Remote desktop](#remote-desktop)
   * [Security](#security)
-  * [Services](#services)
   * [Shopping](#shopping)
   * [SLA](#sla)
   * [Source control](#source-control)
   * [Spreadsheet](#spreadsheet)
   * [SQL](#sql)
+  * [Supply chain](#supply-chain)
   * [Syntax highlight](#syntax-highlight)
+  * [Testing](#testing)
   * [Unicode](#unicode)
   * [Weather](#weather)
+  * [Web development](#web-development)
   * [Others](#others)
 ____
 
@@ -113,6 +124,11 @@ ____
   session
 - [FreeCAD](https://wiki.freecad.org/) - CAD application runs on Windows, Mac
   and Linux
+- [AsciiDoc](https://asciidoc.org/) - a text document format for writing notes,
+  documentation, articles, books, ebooks, slideshows, web pages; an alternative
+  to markdown
+- [lix](https://lix.systems/) - a NIX package manager for NixOS, nix-darwin, or
+  any other Linux/MacOS system
 
 ### git
 
@@ -131,6 +147,10 @@ ____
 - [glide](https://heyglide.com/) - makes it easy and fun to build amazing apps
     without code
 
+### Audio books
+
+- [Libro.fm](https://libro.fm/)
+
 ### Auth
 
 - [boxyhq/jackson](https://github.com/boxyhq/jackson) - a self-hosted service of
@@ -142,6 +162,10 @@ ____
   a command in different operating systems
 - [explainshell.com](https://explainshell.com/) - explain shell commands and its
   options
+
+### Continuous Integration / Continuous Deployment (CI/CD)
+
+- [Octopus Deploy](https://octopus.com/)
 
 ### Course
 
@@ -255,6 +279,19 @@ ____
 
 - [PimEyes](https://pimeyes.com/) - reverse image/people search
 
+### Internet of Things (IOT)
+
+- [shodan](https://www.shodan.io/) - a search engine of internet-connected
+  devices (for instance, IOT devices)
+
+### Monitoring
+
+- [Akita](https://www.akitasoftware.com/) - API monitoring (sort of like
+  proxying the endpoints); currently supports HTTP; gPRC and GraphQL are coming
+  soon
+- [logz.io](https://logz.io/) - log management, infrastructure monitoring,
+  cloud SIEM
+
 ### Online meeting
 
 - [Jitsi Meet](https://meet.jit.si/)
@@ -283,9 +320,19 @@ ____
 - [Stirling PDF](https://github.com/StirlingPDF/Stirling-PDF) - a docker image
   for web-based PDF manipulation
 
+### Project management
+
+- [shortcut](https://www.shortcut.com/) - project management for software teams
+- [Linear](https://linear.app/) - issue tracking
+
 ### Regular expression
 
 - [myregextester](https://myregextester.com/index.php) A regular expression tester
+
+### Remote desktop
+
+- [rustdesk](https://rustdesk.com/) - a remote desktop software; an alternative
+  to TeamViewer; it can be self-hosted; it has paid features
 
 ### Security
 
@@ -298,29 +345,10 @@ ____
   Open the website within the iOS app to be checked. For example, to check
   Instagram, send a direct message with the link to the website to the app and
   open the link in the app.
-
-### Services
-
 - [Snyk](https://snyk.io/) Find vulnerabilities in your repos and remediate
   risks with updates and patches.
-- [empear](https://www.empear.com/) Project Analysis with Intelligence
-- [BrowserStack](https://www.browserstack.com/)
-- [Octopus Deploy](https://octopus.com/)
-- [cypress](https://www.cypress.io) - Javascript end-to-end testing
 - [bigpanda](https://www.bigpanda.io/) - Infrastructure and application monitoring
-- [transposit](https://www.transposit.com/) - an API composition platform
-  where traditional API are invoked like a GraphQL API and a SQL query can
-  combine several API calls into one
-- [shodan](https://www.shodan.io/) - a search engine of internet-connected
-  devices (for instance, IOT devices)
-- [Clubhouse](https://clubhouse.io/) - project management for software teams
-- [logz.io](https://logz.io/) - log management, infrastructure monitoring,
-  cloud SIEM
-- [Linear](https://linear.app/) - issue tracking
-- [Codecov](https://about.codecov.io/) - code coverage reporting
-- [TestRail](https://www.testrail.com/)
-- [CodeSee](https://www.codesee.io/) - codebase visibility
-- [monkeytype](https://monkeytype.com/) - typing speed test
+- [Socket](https://socket.dev/) - checking for vulnerabilities in dependencies
 
 ### Shopping
 
@@ -334,6 +362,8 @@ ____
 
 - [Git History](https://github.com/pomber/git-history) - browse to a file on
     GitHub and replace `https://github.com` with `https://github.githistory.xyz`
+- [CodeSee](https://www.codesee.io/) - codebase visibility
+- [CodeScene](https://codescene.com/) code analysis for builing products
 
 ### Spreadsheet
 
@@ -352,6 +382,13 @@ ____
 ### Syntax highlight
 
 - [Carbon](https://carbon.now.sh) for sharing code to show on web pages
+
+### Testing
+
+- [cypress](https://www.cypress.io) - Javascript end-to-end testing
+- [Codecov](https://about.codecov.io/) - code coverage reporting
+- [TestRail](https://www.testrail.com/)
+- [BrowserStack](https://www.browserstack.com/)
 
 ### Unicode
 
@@ -374,11 +411,17 @@ ____
   Kong](https://www.timeanddate.com/sun/hong-kong/hong-kong)
 - [Hong Kong Weather Warning](https://www.metwarn.com/)
 
+### Web development
+
+- [JAM](https://jam.dev/) - a front-end bug reporting tool
+
 ### Others
 
 - [Website Test behind the Great Firewall](https://www.websitepulse.com/tools/china-firewall-test)
 - [URL
   parts](https://url-parts.glitch.me/?url=https://cats.example.org.au:1234/stripes/fur.html?pattern=tabby#claws)
 - [Resources from Bellingcat](https://www.bellingcat.com/category/resources/)
-
+- [monkeytype](https://monkeytype.com/) - typing speed test
+- [JoeFin Apps](https://joefinapps.com/) - mostly a collection of Microsoft
+  Store apps
 
