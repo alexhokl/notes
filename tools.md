@@ -146,6 +146,13 @@ ____
 ### Course
 
 - [Online research seminars](https://researchseminars.org/)
+- [Arizona State University](https://www.youtube.com/@arizonastateuniversity)
+- [Machine Learning
+  Foundations](https://www.youtube.com/playlist?list=PLOU2XLYxmsII9mzQ-Xxug4l2o04JBrkLV)
+- [DeepMind x UCL | Deep Learning Lecture Series
+  2021](https://www.youtube.com/playlist?list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm)
+- [Stanford CS229: Machine Learning by Andrew Ng | Autumn
+  2018](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 
 ### Cron
 
@@ -172,6 +179,12 @@ ____
 ### Fact checking
 
 - [snopes](https://www.snopes.com/) - a fact-checking website
+- [Hive Moderation](https://hivemoderation.com/) - AI-powered tool to ensure the
+  integrity and authenticity of digital content; it support multiple media
+  formats
+- [TrueMedia.org](https://www.truemedia.org/) - identifying deepfakes in social
+  media content by using AI
+- [Deepware Scanner](https://deepware.ai/) - a tool to detect deepfakes videos
 
 ### Go
 
