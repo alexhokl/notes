@@ -1,6 +1,13 @@
+- [Links](#links)
 - [CLI](#cli)
   * [GraphQL API](#graphql-api)
 ____
+
+## Links
+
+- [GitHub Receipt](https://gitreceipt.vercel.app/) - Generate a receipt-style
+  summary of your GitHub profile
+
 ## CLI
 
 ### GraphQL API
