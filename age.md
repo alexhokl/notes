@@ -129,6 +129,8 @@ age-plugin-yubikey --list
 
 - It is an encryption format
 - it supports seekable streaming encryption
+- key generation is not deterministic and it implies passphrase alone is not
+  enough to decrypt data but the corresponding key file is needed as well
 
 ## Age file
 
