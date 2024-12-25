@@ -5,6 +5,7 @@
 - [Tunneling](#tunneling)
 - [Agent forwarding](#agent-forwarding)
 - [Windows](#windows)
+- [Well-known resource of a domain](#well-known-resource-of-a-domain)
 ____
 
 ### Key generation
@@ -173,3 +174,28 @@ Note that ssh-agent service is disabled by default.
 
 Reference: [OpenSSH key management - User key
 generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation_)
+
+### Well-known resource of a domain
+
+- reference: [SSHFP Well-Known Resource
+  Identifier](https://sshfp.github.io/sshfp.html)
+- URL `~/.well-known/sshfp`
+- it serves the public key, finger print of the domain
+- example
+```json
+{
+    "hosts": {
+        "decade": [
+            {
+                "public_key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAD+WrsYTcgGfmSZONzVScwk9+illAYwbZPewX3ihhajSJXVXrHYbHqiGFFSQZTYc2fKuq6Pgl5ed5lwvhzYtyQ=",
+                "algo": "ecdsa-sha2-nistp256"
+            },
+            {
+                "algo": "ssh-rsa",
+                "fp": "SHA256:9pDJ7FtlWi1mQGMeVlO/5mfbrD3+PeATDubTyMwHDcg",
+                "port": 22
+            }
+        ]
+    }
+}
+```
