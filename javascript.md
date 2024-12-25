@@ -9,6 +9,8 @@ ____
 - [greenkeeper.io](https://greenkeeper.io) - it sits between npm and GitHub,
   observing all of the modules a project depend on. When they get updated,  the
   project gets a new branch with that update. The CI tests kick in.
+- [Plot](https://observablehq.com/plot/getting-started) - a JavaScript library
+  for creating charts; works with React, Vue, Svelte, and Node.js
 
 ### Code reviews
 
