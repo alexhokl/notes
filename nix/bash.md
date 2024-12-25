@@ -29,6 +29,8 @@ ____
 ## Links
 
 - [List of Linux bash commands](https://github.com/trinib/Linux-Bash-Commands)
+- [Bashly](https://bashly.dannyb.co/) - a command line application (written in
+  Ruby) to generate feature-rich bash command line tools
 
 ## Terminal
 
