@@ -1173,3 +1173,7 @@ BigQuery tables.
   * in case there is a problem with authentication, run `gcloud auth login
     --update-adc` to create application credentials and the tool will read from
     this default
+- [xavidop/dialogflow-cx-cli](https://github.com/xavidop/dialogflow-cx-cli)
+  helps Dialogflow CX users test their agents and interact with them in various
+  ways; it also helps interact with the text-to-speech and speech-to-text APIs
+  in Google Cloud
