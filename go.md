@@ -4,6 +4,7 @@
   * [Logging](#logging)
   * [Web](#web)
   * [CLI](#cli)
+  * [JSON](#json)
   * [Unit testing](#unit-testing)
   * [GUI](#gui)
   * [Kafka](#kafka)
@@ -12,8 +13,10 @@
   * [Security](#security)
   * [AI](#ai)
   * [PDF](#pdf)
+  * [Documentation](#documentation)
+  * [Configuration](#configuration)
   * [Others](#others)
-- [Configuration](#configuration)
+- [Configuration](#configuration-1)
 - [Commands](#commands)
   * [Testing](#testing)
   * [Modules](#modules)
@@ -184,6 +187,16 @@ ____
 ### PDF
 
 - [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
+
+### Documentation
+
+- [swaggo/gin-swagger](https://github.com/swaggo/gin-swagger) - gin middleware
+  to automatically generate RESTful API documentation with Swagger 2.0
+
+### Configuration
+
+- [chasinglogic/appdirs](https://github.com/chasinglogic/appdirs) - find
+  platform-specific directories
 
 ### Others
 
@@ -1630,6 +1643,8 @@ Multiple tags can also be applied. Here is the syntax.
 - [ttys3/slogx](https://github.com/ttys3/slogx/) to send logs to OpenTelemetry
   collector
 - [samber/slog-gin](https://github.com/samber/slog-gin)
+- [m-mizutani/masq](https://github.com/m-mizutani/masq) - a redacting utility to
+  conceal sensitive data for slog
 
 ### Garbage collection
 
