@@ -338,19 +338,28 @@ Add alias `alias nuget="mono /usr/local/bin/nuget.exe"`
 
 Note that Mono 4.4.2 or later is required.
 
-See also [feature availability](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#feature-availability)
-
+See also [feature
+availability](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#feature-availability)
 
 ### ASP.NET Core
 
-- [Writing Custom Middleware in ASP.NET Core 1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
-- [ASP.NET Core Logging with NLog AND ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
-- [Accepting Raw Request Body Content in ASP.NET Core API Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
-- [A few notes on creating Class Libraries for ASP.NET Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core) (mostly about not including a kitchen sink of dependencies)
-- [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
-- [Create instance from ASP.NET Core dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#call-services-from-main)
-- [Services available in `ConfigureServices`](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#framework-provided-services)
-
+- [Writing Custom Middleware in ASP.NET Core
+  1.0](https://www.exceptionnotfound.net/writing-custom-middleware-in-asp-net-core-1-0)
+- [ASP.NET Core Logging with NLog AND
+  ElasticSearch](https://damienbod.com/2016/08/20/asp-net-core-logging-with-nlog-and-elasticsearch)
+- [Accepting Raw Request Body Content in ASP.NET Core API
+  Controllers](https://weblog.west-wind.com/posts/2017/Sep/14/Accepting-Raw-Request-Body-Content-in-ASPNET-Core-API-Controllers)
+- [A few notes on creating Class Libraries for ASP.NET
+  Core](https://weblog.west-wind.com/posts/2017/Sep/26/A-few-notes-on-creating-Class-Libraries-for-ASPNET-Core)
+  (mostly about not including a kitchen sink of dependencies)
+- [Dependency injection in ASP.NET
+  Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
+- [Create instance from ASP.NET Core dependency
+  injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#call-services-from-main)
+- [Services available in
+  `ConfigureServices`](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#framework-provided-services)
+- [Identity management solutions for .NET web
+  apps](https://learn.microsoft.com/en-gb/aspnet/core/security/identity-management-solutions)
 
 ##### Object lifecycle management
 
