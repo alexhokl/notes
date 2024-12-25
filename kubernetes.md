@@ -30,6 +30,7 @@
   * [rabc-tool](#rabc-tool)
   * [nova](#nova)
   * [pluto](#pluto)
+  * [ingress2gateway](#ingress2gateway)
 - [Security (Hardening Guidance)](#security-hardening-guidance)
   * [Threat model](#threat-model)
   * [Logical components of control plane](#logical-components-of-control-plane)
@@ -59,6 +60,8 @@
 - [Tools](#tools-1)
   * [OpenCost](#opencost)
   * [Postgres](#postgres)
+  * [Application Identity management](#application-identity-management)
+  * [Kueue](#kueue)
 - [GKE](#gke)
   * [Security posture](#security-posture)
 - [kind](#kind)
@@ -1665,6 +1668,12 @@ image.
 - [keycloak](https://keycloak.org) - including SAML, OpenID Connect, OAuth 2.0,
   LDAP and social login; implementing a custom provider is required if
   a relational database is used
+
+### Kueue
+
+- [kubernetes-sigs/kueue](https://github.com/kubernetes-sigs/kueue) - enables
+  queuing of Kubernetes jobs; beta version at the time of writing;
+  [docs](https://kueue.sigs.k8s.io/)
 
 ## GKE
 
