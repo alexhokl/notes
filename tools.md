@@ -12,6 +12,7 @@
   * [Data](#data)
   * [Deployment](#deployment)
   * [Email](#email)
+  * [Emojis](#emojis)
   * [Fact checking](#fact-checking)
   * [Go](#go)
   * [Hardware](#hardware)
@@ -22,6 +23,7 @@
   * [Location](#location)
   * [Image search](#image-search)
   * [Internet of Things (IOT)](#internet-of-things-iot)
+  * [Mobile devices](#mobile-devices)
   * [Monitoring](#monitoring)
   * [Online meeting](#online-meeting)
   * [Open source](#open-source)
@@ -129,6 +131,23 @@ ____
   to markdown
 - [lix](https://lix.systems/) - a NIX package manager for NixOS, nix-darwin, or
   any other Linux/MacOS system
+- [Pieces](https://pieces.app/) - it helps developer to manage their small code
+  snippets or ideas; it works offline and it can be integrated with major online
+  AI services
+- [yznts/dsh](https://github.com/yznts/dsh) - A set of command line database
+  tools; it works with sqlite, postgresql but not MSSQL
+- [SSOReady](https://ssoready.com/) - it is open-sourced and can be self-hosted
+  SSO solution; it does support SAML, OAuth2, OIDC; it has both SP- and
+  IDP-initiated SAML support
+  * [source code](https://github.com/ssoready/ssoready)
+  * [C# SDK](https://github.com/ssoready/ssoready-csharp)
+  * [Go SDK](https://github.com/ssoready/ssoready-go)
+- [jvns/tweets-archive/](https://github.com/jvns/tweets-archive/) - a tool to
+  archive tweets but customisation is likely needed for each user
+- [Syncthing](https://docs.syncthing.net/intro/getting-started.html) - allows to
+  sync files between machines; it is built on GTK and it has community support
+  for Windows and Android
+  * [firewall setup](https://docs.syncthing.net/users/firewall.html)
 
 ### git
 
@@ -199,6 +218,11 @@ ____
 ### Email
 
 - [Resend](https://resend.com/) - sending emails via API
+
+### Emojis
+
+- [AI Emoji Generator](https://emojis.sh/)
+  * [source code](https://github.com/Pondorasti/emojis)
 
 ### Fact checking
 
@@ -284,6 +308,12 @@ ____
 - [shodan](https://www.shodan.io/) - a search engine of internet-connected
   devices (for instance, IOT devices)
 
+### Mobile devices
+
+- [ntfy.sh](https://ntfy.sh/) - a paid service to send push notifications to
+  your phone via PUT/POST; this is done without using infrasttructure of Apple
+  or Google
+
 ### Monitoring
 
 - [Akita](https://www.akitasoftware.com/) - API monitoring (sort of like
@@ -324,6 +354,8 @@ ____
 
 - [shortcut](https://www.shortcut.com/) - project management for software teams
 - [Linear](https://linear.app/) - issue tracking
+- [Sync](https://www.sync.com/) - Secure Cloud Storage, File Sharing and
+  Document Collaboration
 
 ### Regular expression
 
