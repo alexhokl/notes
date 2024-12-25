@@ -1,6 +1,7 @@
 - [Setup using Tailscale](#setup-using-tailscale)
 - [Dynamic reverse proxy](#dynamic-reverse-proxy)
 - [Let's Encrypt](#lets-encrypt)
+- [Rate limiting](#rate-limiting)
 ____
 
 ## Setup using Tailscale
@@ -71,3 +72,7 @@ http://localhost:5000 {
 
 - `HTTP-01` chanllenges only work for DNS `A` and `AAAA` records but not `CNAME`
 - `DNS-01` challenges are required for DNS `CNAME` records
+
+## Rate limiting
+
+- [RussellLuo/caddy-ext/ratelimit](https://github.com/RussellLuo/caddy-ext/blob/master/ratelimit/ratelimit.go)
