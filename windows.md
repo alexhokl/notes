@@ -17,6 +17,8 @@ ____
 
 - [Sign in to your Microsoft account with Windows Hello or a security
   key](https://support.microsoft.com/en-us/windows/sign-in-to-your-microsoft-account-with-windows-hello-or-a-security-key-800a8c01-6b61-49f5-0660-c2159bea4d84)
+- [Home Updater](https://patchmypc.com/product/home-updater) - a paid solution
+  to keep Windows and other applications up-to-date
 
 ## Shortcuts
 
