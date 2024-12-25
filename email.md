@@ -10,6 +10,7 @@
     + [Migration](#migration)
     + [DKIM](#dkim-1)
     + [Spam management](#spam-management)
+    + [PST and OST](#pst-and-ost)
 - [Troubleshooting](#troubleshooting)
 ____
 
@@ -266,6 +267,13 @@ look for `DKIM=pass` or `DKIM=ok`.
 - [Exchange admin center](https://admin.exchange.microsoft.com/) where in
   section `Rules` under menu item `, a rule of `bypass spam filtering` can be
   added if we want to whitelist a domain
+
+### PST and OST
+
+- [MS-PST: Outlook Personal Folders (.pst) File
+  Format](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546)
+- [How to configure the size limit for both (.pst) and (.ost) files in
+  Outlook](https://support.microsoft.com/en-us/topic/how-to-configure-the-size-limit-for-both-pst-and-ost-files-in-outlook-2f13f558-d40e-9c2a-e3b6-02806fa535f4)
 
 # Troubleshooting
 
