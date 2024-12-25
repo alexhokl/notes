@@ -9,6 +9,7 @@
   * [Links](#links-1)
 - [Tools](#tools)
   * [GitHub Copilot](#github-copilot)
+  * [Continue](#continue)
   * [yt-dlp](#yt-dlp)
   * [whisper](#whisper)
     + [Links](#links-2)
@@ -98,12 +99,21 @@ ____
   - a model hub
 - [Standford CS229: Machine Learning by Andrew Ng](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
   - a lecture series on machine learning
+- [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide)
+  * [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home)
 
 # Tools
 
 ## GitHub Copilot
 
 - the opened tabs will be sent as context to the model
+
+## Continue
+
+- [site](https://www.continue.dev/)
+- [supported models](https://docs.continue.dev/chat/model-setup) and it supports
+  Ollama; it supports Visual Studio Code and JetBrains IDEs
+- [config.json](https://docs.continue.dev/reference/)
 
 ## yt-dlp
 
