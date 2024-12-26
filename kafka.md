@@ -83,6 +83,7 @@ ____
   Explained](https://rmoff.net/2018/08/02/kafka-listeners-explained/)
 - [Should You Put Several Event Types in the Same Kafka
   Topic?](https://www.confluent.io/blog/put-several-event-types-kafka-topic/)
+- [Debezium](https://debezium.io/) - stream changes from database
 
 ## Command line
 
