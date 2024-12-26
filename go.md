@@ -5,6 +5,7 @@
   * [Web](#web)
   * [CLI](#cli)
   * [JSON](#json)
+  * [Protobuf](#protobuf)
   * [Unit testing](#unit-testing)
   * [GUI](#gui)
   * [Kafka](#kafka)
@@ -131,6 +132,18 @@ ____
 
 - [orsinium/valdo](https://github.com/orsinium-labs/valdo) - JSON validation for
   API and it can generate OpenAPI schema
+
+### Protobuf
+
+- [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway)
+  it generates a reverse-proxy server which translates a RESTful JSON API into
+  gRPC; this is useful as the same protobuf file can be used to generate both
+  gRPC server and RESTful JSON API server (which is the proxy); see `option
+  (google.api.http)` and import of `google/api/annotations.proto` in `README.md`
+  of the repository
+- [grpc-ecosystem/go-grpc-middleware](https://github.com/grpc-ecosystem/go-grpc-middleware)
+  allows logging, OpenTelemetry, and other middleware to be added to gRPC
+  server; it can also be used to generate OpenAPI schema v2 (not v3)
 
 ### Unit testing
 
@@ -920,6 +933,19 @@ func useChannels(a chan int, b <- chan int, c chan <- int)
 where `a` is a bidirectional channel, `b` is an output channel, `c` is an input
 channel.
 
+#### nil channel
+
+reference: [nil
+channels](https://www.campoy.cat/blog/justforfunc-26-nil-chans/)
+
+- by default, a closed channel returns its defualt value; thus, a `string`
+  channel returns `""`, an `int` channel returns `0`, etc.
+  * thus, `ok` should be checked as in `v, ok := <- c`
+- for output channel, if it is not closed, it could cause a deadlock; thus,
+  `defer close(c)` should be used to ensure the channel is closed
+- a close channel does not blocks; thus, to finish the channel, it should be set
+  to `nil`
+
 ### errgroup
 
 `errgroup` can be found in package `golang.org/x/sync/errgroup`.
@@ -957,6 +983,26 @@ func notify(services ...string) {
 - [Go Concurrency Patterns: Pipelines and
   cancellation](https://go.dev/blog/pipelines)
 - [context package](https://pkg.go.dev/context)
+- one of the functionalities is to provide an API to pass data between function
+  calls without keep changing the function signature; some data could be
+  relatively "global" and use of global variable is avoided
+- another functionality is to provide a way to cancel a function call and its
+  sub-routines; for example, before a database query is made, `Context` object
+  should be checked if cancellation signal has been sent
+- another functionality is to provide a way to set a deadline for a function
+  call and its sub-routines
+- `Context` object is immutable; it is safe to pass it to multiple goroutines;
+  and it is only additively modified
+- `context.TODO()` should be used when the function to be invoked has `Context`
+  as a parameter but the current function does not have a `Context` object to
+  pass
+- keys should be a non-exported type alias instead of a string or int to avoid
+  collision with other packages
+- good candidates as values
+  * database transaction handles
+  * per-transation object caches
+  * side effect buffers
+    + such as those for writing events to a message queue
 
 #### HTTP server
 
