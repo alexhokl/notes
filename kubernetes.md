@@ -57,6 +57,7 @@
 - [Service mesh](#service-mesh)
   * [Advantages](#advantages)
   * [Istio](#istio)
+  * [Linkerd](#linkerd)
 - [Tools](#tools-1)
   * [OpenCost](#opencost)
   * [Postgres](#postgres)
@@ -107,6 +108,9 @@ ____
   a report
 - [Kubernetes Custom Resource API Reference Docs
   generator](https://github.com/ahmetb/gen-crd-api-reference-docs)
+- [Komodor](https://komodor.com/) - a SaaS platform for Kubernetes management
+  and troubleshooting
+- [ahmetb/kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) a set of recipes for Kubernetes Network Policies
 
 ## Troubleshooting
 
@@ -848,6 +852,8 @@ SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECR
 
 - a replacement of `ingress` objects
 - [introduction](https://gateway-api.sigs.k8s.io/)
+- [Gateway API
+  implementations](https://gateway-api.sigs.k8s.io/implementations/)
 
 ### Ingress class
 
@@ -1634,6 +1640,10 @@ image.
 - jaeger has a nicer search UI than Cloud Trace on GCP
 - virtual service (an Istio concept) can beapplied over an existing Kubernetes
   to perform actions like automatic API retries
+
+### Linkerd
+
+- [Linkerd](https://linkerd.io/)
 
 ## Tools
 
