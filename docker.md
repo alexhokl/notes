@@ -26,6 +26,8 @@ ____
 - [Docker Security](https://github.com/docker/labs/tree/master/security)
 - [buildx](https://github.com/docker/buildx)
 - [Chainguard images](https://www.chainguard.dev/chainguard-images)
+- [HEALTHCHECK implementation
+  references](https://github.com/docker-library/healthcheck)
 
 ## Troubleshoot
 
