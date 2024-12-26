@@ -26,6 +26,13 @@ ____
 - [flutter gems](https://fluttergems.dev/)
 - [Codelabs - first
   project](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#2)
+- [Build a form with
+  validation](https://docs.flutter.dev/cookbook/forms/validation)
+- [Asynchronous programming: futures, async,
+  await](https://dart.dev/libraries/async/async-await)
+- [Implicit animations](https://docs.flutter.dev/codelabs/implicit-animations)
+- [gRPC with Dart](https://grpc.io/docs/languages/dart/quickstart/)
+- [Flutter AppAuth Plugin](https://pub.dev/packages/flutter_appauth)
 
 ## Libraries
 
