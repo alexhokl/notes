@@ -268,6 +268,7 @@ ____
 - 寺 (てら) - temple
 - 値段 (ねだん) - price / cost
 - うち - home
+- 先輩 (せんぱい) - senior
 
 ### Nouns (position)
 
@@ -347,6 +348,7 @@ ____
 - 広場 (ひろば) - square
 - 苗字 (みょうじ) - surname
 - 箪笥 (たんす) - chest of drawers
+- 後輩 (こうはい) - junior
 
 ### Adjectives
 
