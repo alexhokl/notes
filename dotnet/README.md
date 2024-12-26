@@ -572,11 +572,15 @@ var actual = sut.Get(myIntValue);
 - CSRF (Cross-site Request Forgery) applies only in cookie-based authentication
     and it is not a concern in token-based authentication even the token could
     be saved in local storage
+- [ASP.NET OAuth
+  providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/tree/dev/src)
 
 ##### SameSite Cookie
 
-ref: [Upcoming SameSite Cookie Changes in ASP.NET and ASP.NET Core](https://devblogs.microsoft.com/aspnet/upcoming-samesite-cookie-changes-in-asp-net-and-asp-net-core/)
-ref: [Chromium - SameSite Updates](https://www.chromium.org/updates/same-site)
+References
+- [Upcoming SameSite Cookie Changes in ASP.NET and ASP.NET
+Core](https://devblogs.microsoft.com/aspnet/upcoming-samesite-cookie-changes-in-asp-net-and-asp-net-core/)
+- [Chromium - SameSite Updates](https://www.chromium.org/updates/same-site)
 
 - originally it was an opt-in property
 - possible values
