@@ -124,6 +124,8 @@ ____
 - [urfave/cli](https://github.com/urfave/cli) for building command line applications
 - [cohesivestack/valgo](https://github.com/cohesivestack/valgo) validates user
   input
+- [charmbracelet/huh](https://github.com/charmbracelet/huh) a library for
+  building interactive TUI
 
 ### JSON
 
@@ -134,6 +136,13 @@ ____
 
 - [Fuzz test](https://go.dev/security/fuzz/)
 - [leanovate/gopter](https://github.com/leanovate/gopter) property testing
+- [frankban/quicktest](https://github.com/frankban/quicktest) a helper library
+  for assertions in tests
+- [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) for mocking SQL
+  database connection `sql/driver`
+  * [example using gorm without
+    assertions](https://tanutaran.medium.com/golang-unit-testing-with-gorm-and-sqlmock-postgresql-simplest-setup-67ccc7c056ef)
+- [testing a Gin endpoint](https://gin-gonic.com/docs/testing/)
 
 ### GUI
 
@@ -209,6 +218,8 @@ ____
 - [dolthub/swiss](https://github.com/dolthub/swiss) a replacement to built-in
   `map`
 - [zephyrtronium/gotools](https://gitlab.com/zephyrtronium/gotools)
+- [golangci/golangci-lint](https://golangci-lint.run/) - linter for Go
+- [securego/gosec](https://github.com/securego/gosec) - security checker
 
 ## Configuration
 
