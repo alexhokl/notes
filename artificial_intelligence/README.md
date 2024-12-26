@@ -101,6 +101,8 @@ ____
   - a lecture series on machine learning
 - [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide)
   * [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home)
+- [Machine Learning Crash Course from
+  Google](https://developers.google.com/machine-learning/crash-course/)
 
 # Tools
 
