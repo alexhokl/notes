@@ -21,6 +21,7 @@
     + [Alpine](#alpine)
     + [Cryptography](#cryptography)
     + [Snapshot testing](#snapshot-testing)
+    + [Prometheus](#prometheus)
     + [OpenTelemetry](#opentelemetry)
     + [Regular Expression (regex)](#regular-expression-regex)
     + [Workarounds](#workarounds)
@@ -1439,6 +1440,12 @@ public static IEnumerable<RSA> LoadKeys(Uri uri)
 
 - [Verify](https://github.com/VerifyTests/Verify/) a library to generate and
   verify snapshots made during unit tests
+
+### Prometheus
+
+- [prometheus-net.DotNetRuntime](https://github.com/djluck/prometheus-net.DotNetRuntime)
+  a third-party library to expose .NET runtime metrics to Prometheus especaially
+  in garbage collection and JIT compilation
 
 ### OpenTelemetry
 
