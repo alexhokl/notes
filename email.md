@@ -11,6 +11,7 @@
     + [DKIM](#dkim-1)
     + [Spam management](#spam-management)
     + [PST and OST](#pst-and-ost)
+    + [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 ____
 
@@ -267,6 +268,8 @@ look for `DKIM=pass` or `DKIM=ok`.
 - [Exchange admin center](https://admin.exchange.microsoft.com/) where in
   section `Rules` under menu item `, a rule of `bypass spam filtering` can be
   added if we want to whitelist a domain
+- [Configure outbound spam policies in Exchange Online Protection
+  (EOP)](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-configure)
 
 ### PST and OST
 
@@ -274,6 +277,11 @@ look for `DKIM=pass` or `DKIM=ok`.
   Format](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546)
 - [How to configure the size limit for both (.pst) and (.ost) files in
   Outlook](https://support.microsoft.com/en-us/topic/how-to-configure-the-size-limit-for-both-pst-and-ost-files-in-outlook-2f13f558-d40e-9c2a-e3b6-02806fa535f4)
+
+### Configuration
+
+- [Enable-OrganizationCustomization](https://learn.microsoft.com/en-us/powershell/module/exchange/enable-organizationcustomization)
+
 
 # Troubleshooting
 
