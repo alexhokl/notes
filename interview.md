@@ -9,6 +9,7 @@
   * [General principles from Honeycomb](#general-principles-from-honeycomb)
   * [House-Tree-Person (HTP) test](#house-tree-person-htp-test)
   * [Other items](#other-items)
+- [Interviewee](#interviewee)
 ____
 
 ## References
@@ -29,21 +30,25 @@ ____
 ### Setup
 
 - Have peer colleagues to interview or talk to them as well.
-- Each interview should consist of one interviewer and one interviewee, in a room with a door that closes and a whiteboard.
+- Each interview should consist of one interviewer and one interviewee, in
+  a room with a door that closes and a whiteboard.
 
 ### Selection principles
 
 - Do not hire “maybes”.
-- At the end of the interview, interviewer must be able make a sharp decision about the candidate, that is hire or not hire.
+- At the end of the interview, interviewer must be able make a sharp decision
+  about the candidate, that is hire or not hire.
 - Look for candidates who are
   - smart and
   - get things done
 - Bad candidates
   - Smart but don’t Get Things Done
     - often have PhDs
-    - usually able to point out the theoretical similarity between two widely divergent concepts
+    - usually able to point out the theoretical similarity between two widely
+      divergent concepts
   - Get Things Done but are not Smart
-    - will do stupid things seemingly without thinking about them and somebody else will have to come clean up their mess later
+    - will do stupid things seemingly without thinking about them and somebody
+      else will have to come clean up their mess later
     - they soak up good people’s time
 
 ### The process
@@ -53,21 +58,32 @@ ____
 3. easy programming questions
 4. pointer/recurring questions (or async questions in Javascript)
 5. are you satisfied?
-6. do you have any questions?
+6. do you have any questions? (only if the candidate did not ask any questions
+   during the interview)
+7. arrange to meet the rest of the team if the candidate has a high chance of
+   being hired
 
-
-- Reassure candidates that interviewers are interested in how they go about solving problems, not the actual answer.
-- Try to ask open-ended questions so that candidates get a chance to show off themselves.
+- Reassure candidates that interviewers are interested in how they go about
+  solving problems, not the actual answer.
+- Try to ask open-ended questions so that candidates get a chance to show off
+  themselves.
 - Make sure candidates explain things in layman terms.
 - Look for candidates who have passion on their work
-- Ask if the decision made by the interviewer were seemingly wrong, what would he/she do?
-- 3 very easy programming questions to filter out stupid candidates. (note their timing as that is a good indicator for solving harder questions)
+- Ask if the decision made by the interviewer were seemingly wrong, what would
+  he/she do?
+- 3 very easy programming questions to filter out stupid candidates. (note their
+  timing as that is a good indicator for solving harder questions)
   - examples
-    - Write a function that determines if a string starts with an upper-case letter A-Z
+    - Write a function that determines if a string starts with an upper-case
+      letter A-Z
     - Write a function that determines the area of a circle given the radius
     - Add up all the values in an array
-- In coding test, try to find bug(s) and ask them to find it out. Check their responses to see whether they could be over diplomatic in their answers.
-- Always leave about five minutes at the end of the interview to sell the candidate on the company and the job.
+- In coding test, try to find bug(s) and ask them to find it out. Check their
+  responses to see whether they could be over diplomatic in their answers.
+- Always leave about five minutes at the end of the interview to sell the
+  candidate on the company and the job.
+- Encourage the candidate to ask questions and to engage in a conversation
+  (rather than a Q&A session).
 
 ### A good team setup
 
@@ -161,3 +177,23 @@ ____
 - Travis CI doesn't do whiteboarding as the interviewers has already done their
   due diligence. Thus, the interview session is more about finding out how the
   candidate resolving conflicts and could be fitted into the team.
+
+## Interviewee
+
+- collect and practice good interview questions for you to ask potential
+  employers
+- get a feeling of how the company treat its people
+- ask how the company is going? do they have enough runway? hitting their
+  quarterly or yearly targets? how is growth curve look like? what are the
+  biggest obstacles?
+- does the interviewer free to speak about their previous failures?
+- how bad news is delivered to the team?
+- how decisions are made? it leads to the question of "how does the work end up
+  on my plate?"
+- what is a balance between product work and reliability and maintenance work?
+- any big project finish deadlines? how often that is? how the working time was
+  arranged? correponding time-off?
+- how support work is arranged?
+- how does does it take to write a line of code to have it deployed?
+- what does it mean by "success" in the role?
+
