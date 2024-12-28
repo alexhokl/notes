@@ -26,6 +26,8 @@
   * [Certificate Authority Service](#certificate-authority-service)
   * [Compliance](#compliance)
   * [Cloud Run](#cloud-run)
+- [APIs](#apis)
+  * [Vision API](#vision-api)
 - [Tools](#tools)
 ____
 
@@ -1173,6 +1175,18 @@ BigQuery tables.
 ### Cloud Run
 
 - a volume mount can be created using a Cloud Storage bucket
+
+## APIs
+
+### Vision API
+
+- it can be used as OCR to extract text from images
+- the returned result has the following hierarchy
+  * `pages`
+  * `blocks`
+  * `paragraphs`
+  * `words`
+  * `symbols`
 
 ## Tools
 
