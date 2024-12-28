@@ -443,6 +443,22 @@ ____
 - [LightningMaps](https://www.lightningmaps.org/) - lightning map
 - [ECMWF experimentation using GraphCast ML model from Google
   DeepMind](https://charts.ecmwf.int/products/graphcast_medium-mslp-wind850)
+  * it predicts weather conditions up to 10 days in advance more accurately and
+    much faster than the industry gold-standard weather simulation system – the
+    High Resolution Forecast (HRES), produced by the European Centre for
+    Medium-Range Weather Forecasts (ECMWF)
+  * it is open-sourced
+  * it is already being used by weather agencies, including ECMWF
+  * forecasts typically rely on Numerical Weather Prediction (NWP), which begins
+    with carefully defined physics equations, which are then translated into
+    computer algorithms run on supercomputers
+  * it is trained on four decades of weather reanalysis data, from the ECMWF’s
+    ERA5 dataset
+  * it is a weather forecasting system based on machine learning and Graph
+    Neural Networks (GNNs), which are a particularly useful architecture for
+    processing spatially structured data
+  * the model is highly efficient as it can generate a 10-day forecasts in less
+    than a minute on a single Google TPU v4 machine
 - [Sunrise and sunset times in Hong
   Kong](https://www.timeanddate.com/sun/hong-kong/hong-kong)
 - [Hong Kong Weather Warning](https://www.metwarn.com/)
