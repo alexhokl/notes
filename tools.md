@@ -459,6 +459,7 @@ ____
     processing spatially structured data
   * the model is highly efficient as it can generate a 10-day forecasts in less
     than a minute on a single Google TPU v4 machine
+  * [GenCast](https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/) provides a even better 15-day forecast
 - [Sunrise and sunset times in Hong
   Kong](https://www.timeanddate.com/sun/hong-kong/hong-kong)
 - [Hong Kong Weather Warning](https://www.metwarn.com/)
