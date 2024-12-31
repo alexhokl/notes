@@ -859,9 +859,94 @@ SELECT first_name, last_name, subsidiary_id, phone_number
 
 ## Index-Only Scan
 
+- it is one of the most powerful tuning methods of all
+  * it avoids accessing the table completely if the database can find the
+    selected columns in the index itself
+  * queries of aggregations are good candidates
+  * it has a drawback that it is highly dependent on the `SELECT` clause
+  * it is better to comment this intention in the code as it might not be
+    obvious to other developers
+
+Example
+
+```sql
+CREATE INDEX sales_sub_eur
+    ON sales
+     ( subsidiary_id, eur_value )
+```
+
+```sql
+SELECT SUM(eur_value)
+FROM sales
+WHERE subsidiary_id = ?
+```
+
+- creating such index may not worth it when
+  * if the other index has a good clustering factor; that is, if the respective
+    rows are well clustered in a few table blocks; the advantage may be
+    significantly lower
+  * if the number of select rows is small, the saving of table access is small
+- date column as the first column in index
+  *  one of the advantages is having a better clustering factor
+    +  if the data grows chronologically according to the date
+- an index with good clustering factor
+  * the selected tables rows are stored closely together so that the database
+    only needs to read a few table blocks to get all the rows
+    + the query might be fast enough without an index-only scan
+- non-key columns in index
+  * keyword `INCLUDE`
+  * it has both MSSQL and PostgreSQL support
+  * the columns are stored only in leaf nodes
+
+```sql
+CREATE INDEX empsubupnam
+     ON employees
+       (subsidiary_id, last_name)
+INCLUDE(phone_number, first_name)
+```
+
+- limit of number of bytes of index entry
+  * 1700 for non-clustered index, 900 for clustered index for MSSQL
+  * 2713 for PostgreSQL
+
 ## Index-Organized Table
 
+- clustered index
+  * use an index as primary table store (no heap table)
+  * every access is an index-only scan
+  * tables with one index only are best implemented as clustered indexes
+  * drawbacks
+    + when a second index is needed for the table but there is no heap table to
+      refer to
+      + a logical key will be created to refer to the clustered index
+      + the maintenance cost is high to maintain both indexes
+      + two B-tree traversal make queries inefficient
+      + tables with more indexes can often benefit from heap tables
+- [Figure
+  5.3](https://use-the-index-luke.com/sql/clustering/index-organized-clustered-index)
+- MSSQL
+  * by default, it uses clustered indexes using the primary key as clustering
+    key
+    + to create non clustered index
+      + `CONSTRAINT pk PRIMARY KEY NONCLUSTERED (id)`
+    + dropping a clustered index transforms the table into a heap table
+    + this default behaviour often causes performance problems when using
+      secondary indexes
+- PostgreSQL
+  * it only uses heap tables
+  * keyword `CLUSTER` can be used to align the contents of the heap table with
+    an index
+
 # 6. Sorting and Grouping
+
+- sorting is a very resource intensive operation
+  * it needs a fair amount of CPU time
+  * database must temporarily buffer the results
+  * sort operations (without an index) cannot be executed in a pipelined manner
+- full table scan is often faster than index scan in this scenario
+- an index helps
+  * saving the sorting effort
+  * allowing execution in pipelined manner
 
 ## Indexed Order By
 
