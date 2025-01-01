@@ -43,8 +43,11 @@
   * [Window-Functions](#window-functions)
 - [8. Modifying Data](#8-modifying-data)
   * [Insert](#insert)
-  * [Update](#update)
   * [Delete](#delete)
+  * [Update](#update)
+- [9. Execution Plans](#9-execution-plans)
+  * [MSSQL](#mssql)
+  * [PostgreSQL](#postgresql)
 ___
 
 Reference: [Use The Index, Luke!](https://use-the-index-luke.com/)
@@ -947,26 +950,400 @@ INCLUDE(phone_number, first_name)
 - an index helps
   * saving the sorting effort
   * allowing execution in pipelined manner
+- execution plan keywords
+  * MSSQL
+    + Sort
+      + it needs large amounts of memory to materialize the intermediate result
+        (not pipelined)
+    + Sort (Top N Sort)
+      + it is used for top-N queries if pipelined execution is not possible
+    + Stream Aggregate
+      + aggregates a presorted set according the `GROUP BY` clause
+      + this operation does not buffer the intermediate result
+      + it is executed in a pipelined manner
+    + Hash Match (Aggregate)
+      + this operation needs large amounts of memory to materialize the
+        intermediate result (not pipelined)
+    + Top
+      + its efficiency of depends on the execution mode of the underlying
+        operations
+  * PostgreSQL
+    + Sort
+      + it needs large amounts of memory to materialize the intermediate result
+        (not pipelined)
+    + GroupAggregate
+      + this operation does not buffer large amounts of data (pipelined)
+    + HashAggregate
+      + it uses a temporary hash table to group records
+      + it does not require a presorted data set, instead it uses large amounts
+        of memory to materialize the intermediate result (not pipelined)
+      + the output is not ordered in any meaningful way
+    + WindowAgg
+      + indicates the use of window functions
+
 
 ## Indexed Order By
 
+Example query
+
+```sql
+SELECT sale_date, product_id, quantity
+FROM sales
+WHERE sale_date = TRUNC(sysdate) - INTERVAL '1' DAY
+ORDER BY sale_date, product_id
+```
+
+and the correponding index
+
+```sql
+CREATE INDEX sales_date ON sales (sale_date)
+```
+
+As the index does not include `product_id`, database needs to sort the result in
+memory.
+
+By including `product_id` in the index,
+
+```sql
+CREATE INDEX sales_dt_pr ON sales (sale_date, product_id)
+```
+
+the sorting operation is avoided.
+
+For the following query
+
+```sql
+SELECT sale_date, product_id, quantity
+FROM sales
+WHERE sale_date >= TRUNC(sysdate) - INTERVAL '1' DAY
+ORDER BY product_id
+```
+
+although the index `sales_dt_pr` is used, the sorting is still required.
+
+- when debugging a slow query with `ORDER BY`, it can be started by adding an
+  index with all the columns appeared in the `ORDER BY` clause and study its
+  execution plan
+
 ## ASC/DESC and NULL FIRST/LAST
+
+- database can read indexes in both directions
+- in composite indexes, the order of index needs to be exactly the same or
+  opposite to the `ORDER BY` clause
+- `NULL FIRST` and `NULL LAST` is not supported in MSSQL but PostgreSQL
+- `NULL` is considered as the smallest value in MSSQL but largest value in
+  PostgreSQL
 
 ## Indexed Group By
 
+- algorithms
+  * hash algorithm
+    + aggregates the input records in a temporary hash table; once all input
+      records are processed, the hash table is returned as the result
+  * sort/group algorithm
+    + sorts the input data by the grouping key so that the rows of each group
+      follow each other in immediate succession
+    + the database just needs to aggregate them
+    + some operations can be executed in a pipelined manner as the data is
+      already sorted
+- total cost shown in the execution plan may not be the sole factor to consider
+  * as with `ORDER BY`, the ability to execute the operation in a pipelined
+    manner could be more important
+
+Example index and query
+
+```sql
+CREATE INDEX sales_dt_pr ON sales (sale_date, product_id)
+```
+
+```sql
+SELECT product_id, sum(eur_value)
+FROM sales
+WHERE sale_date = TRUNC(sysdate) - INTERVAL '1' DAY
+GROUP BY product_id
+```
+
+even the first column of the index is not `product_id`, the index can be used
+and it allows the database to aggregate the data in a pipelined manner.
+
+By changing the query to match a range of `sale_date` (instead of a single
+date), the execution plan changes significantly.
+
+```sql
+SELECT product_id, sum(eur_value)
+FROM sales
+WHERE sale_date >= TRUNC(sysdate) - INTERVAL '1' DAY
+GROUP BY product_id
+```
+
+although the index `sales_dt_pr` is used, it only helps filtering rows with
+matching `sale_date` and, thus, sorting is still required in memory and it is
+done using hash algorithm.
+
 # 7. Partial Results
+
+- top N rows (in MSSQL terms)
+- query executed in pipelined manner is very important in performance
 
 ## Selecting Top-N Rows
 
+- to select the best execution plan, the optimizer has to know if the
+  application will ultimately fetch all rows
+  * if there is no suitable index to be used, database will be forced to do
+    a full table scan
+
+`FETCH FIRST` example (supported by both MSSQL and PostgreSQL)
+
+```sql
+SELECT *
+FROM sales
+ORDER BY sale_date DESC
+FETCH FIRST 10 ROWS ONLY
+```
+
 ## Fetching The Next Page
 
+- methods
+  * offset
+    + numbers the rows from the beginning and uses a filter on this row number
+      to discard the rows before the requested page
+    * the database must count all rows from the beginning until it reaches the
+      requested page
+    * the pages drift when inserting new sales because the numbering is always
+      done from scratch
+    * the response time increases when browsing further back
+  * seek
+    + searches the last entry of the previous page and fetches only the
+      following rows
+
+Offset example
+
+MSSQL syntax
+
+```sql
+SELECT *
+FROM sales
+ORDER BY sale_date DESC
+OFFSET 10 ROWS
+FETCH NEXT 10 ROWS ONLY
+```
+
+PostgreSQL syntax
+
+```sql
+SELECT *
+FROM sales
+ORDER BY sale_date DESC
+OFFSET 10
+FETCH NEXT 10 ROWS ONLY
+```
+
+Note that `ROWS` keyword is not allowed in `OFFSET` clause in PostgreSQL.
+
+- seek method
+  * it is important the ordering has to be deterministic
+    + if it is not, add unique column to the `ORDER BY` clause
+
+Seek example
+
+```sql
+SELECT *
+FROM sales
+WHERE sale_date < ?
+ORDER BY sale_date DESC
+FETCH FIRST 10 ROWS ONLY
+```
+
+assuming `sale_date` is unique.
+
 ## Window-Functions
+
+- another way to implement pagination
+- support
+  - MSSQL
+  - PostgreSQL 15 and later
+
+Example query
+
+```sql
+SELECT *
+FROM ( SELECT sales.*
+            , ROW_NUMBER() OVER (ORDER BY sale_date DESC
+                                        , sale_id   DESC) rn
+          FROM sales
+     ) tmp
+ WHERE rn between 11 and 20
+ ORDER BY sale_date DESC, sale_id DESC
+```
+
+PostgreSQL execution plan
+
+```
+ Subquery Scan on tmp
+    (cost=0.42..141724.98 rows=334751 width=249)
+    (actual time=0.040..0.052 rows=10 loops=1)
+ Filter: (tmp.rn >= 11)
+ Rows Removed by Filter: 10
+ Buffers: shared hit=5
+ -> WindowAgg
+       (cost=0.42..129171.80 rows=1004254 width=249)
+       (actual time=0.028..0.049 rows=20 loops=1)
+    Run Condition: (row_number() OVER (?) <= 20)
+    Buffers: shared hit=5
+    -> Index Scan Backward using sl_dtid on sales
+           (cost=0.42..111597.36 rows=1004254 width=241)
+           (actual time=0.018..0.025 rows=22 loops=1)
+       Buffers: shared hit=5
+```
+
+Note that `Run Condition` is on the first `20` rows.
+
+- efficiency is roughly the same as offset method
+- `ROW_NUMBER()` is supported by both MSSQL and PostgreSQL (15 and later)
+  * but `PARTITION BY` is not supported by PostgreSQL
+- `RANK()`, `DENSE_RANK()` and `COUNT()` are supported by PostgreSQL
+- `OVER(ORDER BY ...)` is supported by both MSSQL and PostgreSQL (15 and later)
+- `OVER(PARTITION BY ... ORDER BY ...)` is supported by both MSSQL and
+  PostgreSQL (15 and later)
+- the major use-case is not pagination but analytical caculations
 
 # 8. Modifying Data
 
 ## Insert
 
-## Update
+- number of indexes on a table
+  * the most dominant factor for insert performance
+  * it cannot directly benefit from indexing because it has no where clause
+- adding a new row to a table
+  * find a place to store the row; for a regular heap table, which has no
+    particular row order, the database can take any table block that has enough
+    free space; this is a very simple and quick process, mostly executed in main
+    memory; all the database has to do afterwards is to add the new entry to the
+    respective data block
+  * if there are indexes on the table, the database must make sure the new entry
+    is also found via these indexes
+    + adding an entry to an index is much more expensive than inserting one into
+      a heap structure because the database has to keep the index order and tree
+      balance
+    + once the correct leaf node has been identified, the database confirms that
+      there is enough free space left in this node; if not, the database splits
+      the leaf node and distributes the entries between the old and a new node;
+      this process also affects the reference in the corresponding branch
+      (parent) node as that must be duplicated as well
+    + the branch node can run out of space as well so it might have to be split
+      too
+    + in the worst case, the database has to split all nodes up to the root
+      node; this is the only case in which the tree gains an additional layer
+      and grows in depth
+- the performance without indexes is so good that it can make sense to
+  temporarily drop all indexes while loading large amounts of data—provided the
+  indexes are not needed by any other SQL statements in the meantime; this can
+  unleash a dramatic speed-up which is visible in the chart and is, in fact,
+  a common practice in data warehouses
 
 ## Delete
 
+- it works like a `SELECT` statement
+  * with an additional step to delete the identified rows
+- the actual deletion of a row is a similar process to inserting a new one,
+  especially the removal of the references from the indexes and the activities
+  to keep the index trees in balance
+- optimizer produces execution plan for `DELETE` statement
+- `TRUNCATE TABLE table_name` is equivalent to `DELETE FROM table_name`
+  * but different in that
+    + both MSSQL and PostgreSQL do not implicitly commit the statement
+    + it does not execute any triggers
+
+## Update
+
+- it does not necessarily affect all indexes on the table but only those that
+  contain updated columns
+- to optimize update performance, avoid updating columns with indexes (it is
+  more related to ORM tools); it is a good practice to occasionally enable query
+  logging in a development environment to verify the generated SQL statements
+
+# 9. Execution Plans
+
+## MSSQL
+
+- presentation of execution plans
+  * graphical
+  * tabular
+- in graphical execution plan, predicate information is only visible when the
+  mouse is hovered the particular operation
+
+To generate a tabular execution plan,
+
+```sql
+SET STATISTICS PROFILE ON
+```
+
+Once enabled, each executed statement produces an extra result set.
+
+Once the query executed, the plan should be in the `StmtText` column.
+
+To stop generating a tabular execution plan,
+
+```sql
+SET STATISTICS PROFILE OFF
+```
+
+## PostgreSQL
+
+```sql
+PREPARE stmt(int) AS SELECT $1
+EXPLAIN EXECUTE stmt(1)
+```
+
+Note that `PREPARE` is needed due to bind parameters.
+
+To remove a prepared statement,
+
+```sql
+DEALLOCATE stmt
+```
+
+From version 16, `PREPARE` can be skipped by using `EXPLAIN GENERIC_PLAN`.
+
+The following plan shows startup cost of `0.01` and total cost of `8.29`.
+
+```
+Index Scan using emp_up_name on employees
+   (cost=0.01..8.29 rows=1 width=17)
+   Index Cond: (upper((last_name)::text) ~>=~ 'WIN'::text)
+           AND (upper((last_name)::text) ~<~  'WIO'::text)
+       Filter: (upper((last_name)::text) ~~ 'WIN%D'::text)
+```
+
+`EXPLAIN` does not execute the query but `EXPLAIN ANALYZE` does.
+
+To allow rollback of the statement of interest,
+
+```sql
+BEGIN
+EXPLAIN (ANALYZE, BUFFERS, SETTINGS)
+EXECUTE stmt(1)
+ROLLBACK
+```
+
+and the corresponding plan is
+
+```
+                   QUERY PLAN
+--------------------------------------------------
+ Result  (cost=0.00..0.01 rows=1 width=4)
+         (actual time=0.001..0.002 rows=1 loops=1)
+ Settings: random_page_cost = '1.1'
+ Planning Time: 0.032 ms
+ Execution Time: 0.078 ms
+```
+
+Note that `actual time` is included.
+
+PostgreSQL execution plans do not show index access and filter predicates
+separately—both show up as “Index Cond”. That means the execution plan must be
+compared to the index definition to differentiate access predicates from index
+filter predicates.
+
+“Filter” are always table level filter predicates, even when shown for an Index
+Scan operation.
