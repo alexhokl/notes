@@ -2,6 +2,7 @@
   * [N5](#n5)
     + [Nouns](#nouns)
     + [Nouns (position)](#nouns-position)
+    + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [Pronouns (place)](#pronouns-place)
     + [Pronouns (time)](#pronouns-time)
     + [Pronouns (person)](#pronouns-person)
@@ -146,6 +147,13 @@ ____
 - 内 (うち) - inside
 - 近く (ちかく) - near
 - 遠く (とおく) - far
+
+### 連体詞
+
+- こんな - this kind of
+- そんな - that kind of
+- あんな - that kind of (over there)
+- どんな - what kind of / any
 
 ### Pronouns (place)
 
@@ -353,6 +361,7 @@ ____
 ### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23adjective)
+- 勿体ない (もったいない) - wasteful / too good / more than one deserves
 
 ### Verbs
 
