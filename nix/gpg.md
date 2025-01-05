@@ -239,8 +239,28 @@ a machine to minimise the effort in managing the keygrips. Thus, if there are
 3 Yubikeys to be setup, 3 set of subkeys (9 keys; signing, encryption and
 authentication for each set) will be generated.
 
-To add subkeys, we can start by editing an existing master key (with its
-existing subkeys) after importing it from a offline storage.
+Assuming the offline master key is stored in
+`/mnt/encrypted-storage/key-$KEYID/mastersub.key`, import the master key by
+
+```sh
+gpg --import /mnt/encrypted-storage/key-$KEYID/mastersub.key
+```
+
+To add a new set of subkeys,
+
+```sh
+KEY_TYPE=rsa4096
+EXPIRATION=2025-01-01
+CERTIFY_PASS=passphrase_of_master_key
+KEYFP=$(gpg -k --with-colons $KEYID | awk -F: '/^fpr:/ { print $10; exit }')
+for SUBKEY in sign encrypt auth ; do \
+  echo "$CERTIFY_PASS" | gpg --batch --pinentry-mode=loopback --passphrase-fd 0 \
+      --quick-add-key "$KEYFP" "$KEY_TYPE" "$SUBKEY" "$EXPIRATION"
+done
+```
+
+Note that to generate another set of subkeys, run the above `for` loop for
+another time.
 
 ```sh
 gpg --expert --edit-key $KEYID
@@ -251,19 +271,30 @@ are generated, the [master key](./gpg.md#to-export-private-key),
 [subkeys](./gpg.md#to-export-sub-keys) and public key should be exported.
 
 ```sh
-gpg --export-secret-keys -a $KEYID | sudo tee /mnt/encrypted-storage/key-$KEYID/mastersub.key
-gpg --export -a $KEYID > key-$KEYID.pub
+gpg --export-secret-keys -a $KEYID > /mnt/encrypted-storage/key-$KEYID/mastersub.key
+gpg --export -a $KEYID > /mnt/encrypted-storage/key-$KEYID/pub.pem
+gpg --export -a $KEYID > $HOME/Desktop/pub.pem
 ```
 
 The master key and subkeys should be stored offline. Since the private key of
 subkeys are still on machine, the subkeys can then be transferred to Yubikey(s)
-(see [Transfer keys](https://github.com/drduh/YubiKey-Guide#transfer-keys)).
+(see [Transfer
+Subkeys](https://github.com/drduh/YubiKey-Guide#transfer-subkeys)).
 
 To transfer the set of subkeys to another YubiKey, the keygrips on the machine
 has to be removed first (and only the key grips that has been transferred
-though).
+though). Find keygrips of the transferred subkeys (which is marked by `>`) by
 
-Note that the following script remove all the keygrips.
+```sh
+gpg -K
+```
+
+Remove the keygrips by deleting the corresponding files in the directory
+`~/.gnupg/private-keys-v1.d/`.
+
+Once all the subkeys are transferred, all the keygrips can be removed.
+
+Unplug all Yubikeys and to remove all the keygrips,
 
 ```sh
 CONFIG_DIR=$(gpgconf --list-dirs homedir)
@@ -277,6 +308,24 @@ The secret key on the machine can be removed by
 
 ```sh
 gpg --delete-secret-and-public-keys $KEYID
+```
+
+Import the latest public key generated
+
+```sh
+gpg --import $HOME/Desktop/pub.pem
+```
+
+The imported key needs to be trusted and it can be done by
+
+```sh
+gpg --command-fd=0 --pinentry-mode=loopback --edit-key "$KEYID" <<EOF
+uid *
+trust
+5
+y
+save
+EOF
 ```
 
 The exported public key can be uploaded onto a key server (Note that network
