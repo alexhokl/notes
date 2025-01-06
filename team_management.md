@@ -11,6 +11,12 @@
 - [Alerting](#alerting)
 - [Cost tracking](#cost-tracking)
 - [One-on-ones](#one-on-ones)
+- [Manager energy drain](#manager-energy-drain)
+- [Culture](#culture)
+- [Interview](#interview)
+- [Engineering lead, manager and product manager](#engineering-lead-manager-and-product-manager)
+- [Incompetent leaders](#incompetent-leaders)
+- [Build or buy?](#build-or-buy)
 ____
 
 ### Managing a junior team
@@ -470,3 +476,192 @@ reference: [Dear Manager — How to make time for
   * be positive
   * take notes during the meeting
 
+### Manager energy drain
+
+reference: [Manager Energy
+Drain](https://larahogan.me/blog/manager-energy-drain/)
+
+- possible problems
+  * working long hours to do hands-on “work-work” after full days of one-on-ones
+  * the labour of managing or more strategic thinking drains their energy
+    significantly faster than the work they did as engineer
+  * context-switching between meetings super taxing
+
+- solutions
+  * calendar colour coding and defragging
+    + colour code your calendar based on the kind of brain you use in each event
+      + it helps to get a sense of in what ways the mental energy is being spent
+    + use those colors to analyze how much context switching you are doing each
+      day; also analyze how much you are drained at the end of the day when
+      there is large blocks of the same brain
+    + defrag or reorganize
+      + move some things around so you are doing less context-switching, and see
+        if that helps
+      + or scatter the super draining events throughout the week to see if that
+        makes it a little less taxing
+  * delegate messy and unscoped projects
+    + the best gift you can give your direct reports is a messy, unscoped
+      project with a bit of a safety net; this kind of project creates the
+      biggest opportunity for someone to grow as a leader
+      + hones problem-solving abilities
+      + forces them to lean on more people around them
+      + stretches them far faster into new leadership skill sets than
+        cleanly-packaged projects do
+    + tell them how and in what medium you will support them
+      + “DM me on Slack if you’ve spent more than 1 day stumped on how to move
+        forward”
+    + tell them that you expect this to be a stretch for them, and that is the
+      point
+      + you trust that they are capable of doing great work with this project,
+        and that they will raise a flag to you if they get stuck; for less
+        experienced direct reports, you might need to be more explicit about
+        what “raise a flag” means
+    + release yourself of being involved in the decision-making
+    + [Project delegation
+      template](https://wherewithall.com/resources/Project-Delegation-Template.pdf)
+  * say no
+    + it is possible that the best way to troubleshoot your energy drain is to
+      reduce the amount of things you say “yes” to
+      + and start to get more practice saying “no” or “I know I said yes before,
+        but after more time thinking about it/doing it, I need to say no.”
+    + write down draft emails you can copy and paste from to say “no” clearly
+      and gracefully every time you need to and feel hesitation
+
+### Culture
+
+- it is not about free food, nice Christmas parties or other perks.
+- it is about shared values and beliefs, the common ground of every discussion
+  and the bigger reason why you are all working on the same idea
+- the importance of culture heavily impacts your hiring; every single person you
+  bring on in the early days changes your culture, in a good or bad way
+- a leader is to facilitate discussions, offer a vision and set the guard rails;
+  nothing defines culture more than actions
+
+### Interview
+
+- the better you are at convincing people to join your team and in selling your
+  vision, the better they eventually work for you
+- it is important to understand that it is not just about you interviewing
+  a candidate
+- design a hiring process that involves your team and gives the candidate a lot
+  of opportunity to evaluate you as well
+
+### Engineering lead, manager and product manager
+
+- engineering lead
+  * owns the story of "how"
+- engineering manager
+  * owns the story of "who"
+    + coaching engineers' career paths and personal growth
+    + recruiting and owning the team's interview workflow
+    + delivering annual performance reviews
+    + monitoring team health
+- product manager
+  * owns the story of "what"
+
+### Incompetent leaders
+
+- characteristics
+  * moving away behaviours
+    + create distance from others through hyper-emotionality, diminished
+      communication, and skepticism that erodes trust
+  * moving against behaviours
+    + overpower and manipulate people while aggrandizing self
+  * moving toward behaviours
+    + being ingratiating, overly conforming, and reluctant to take chances or
+      stand up for one's team
+- absentee leaders are people in leadership roles who are psychologically absent
+  from them
+  * they were promoted into management, and enjoy the privileges and rewards of a
+    leadership role, but avoid meaningful involvement with their teams
+- reserach shows that being ignored by one's boss is more alienating than being
+  treated poorly
+
+### Build or buy?
+
+Reference: [Why is it so hard to decide to
+buy?](https://skamille.medium.com/why-is-it-so-hard-to-decide-to-buy-d86fee98e88e)
+
+- reasons to build by default
+  * over-focus on the edge cases that are not perfectly solved by off-the-shelf
+    tools, and ignore the complexity of providing the main features in addition
+    to the desired edge cases
+  * our whole style of teaching computer science is first-principles based,
+    which encourages the default to build ourselves
+  * it is easy to see the bill for SaaS software (that has been bought) every
+    month, and hard to appreciate that the engineering cost to build an internal
+    version is still probably higher because you have not factored in the
+    opportunity cost of having engineers build that system instead of
+    contributing to more core business opportunities
+  * when it comes time to evaluate people, we look at systems built from scratch
+    and believe their authors show more technical talent than those who
+    completed similarly-challenging integration projects with less raw code
+- reasons to build
+  * Is this software core to your business and its unique value? Will you need
+    to change the product regularly to meet new business needs? Does it need to
+    adapt to those changes quickly, on the order of days or (few) weeks, in
+    order to keep up with the demands?
+  * Are you in a space where a combination of scale and functionality means that
+    you need bespoke software to run your business? Then yes, this is your core
+    business
+    + the trick here is going to be how much you should build
+  * is this a place where you can build a small and very focused tool that would
+    not need new features over time?
+    + especially if most of the options are large and cumbersome to learn how to
+      use
+    + if this is a product area that needs to grow over time, you can find
+      yourself trapped in a bind where you spend a lot of energy expanding your
+      bespoke offering but migrating to a vendor tool is also an expensive
+      proposition
+- reasons to buy
+  * if none of the above are true
+    + do your best to find a SaaS solution
+    + an open source or vendor solution
+- what if there is no off-the-shelf solution that you can adopt but it does not
+  fall into any of these other categories?
+  * it is possible that you are solving a problem that may not need to be solved
+- even when you decided to buy
+  * it is ok to make the decision to build based on today’s offerings, if you
+    feel confident that there is nothing out there that is close to your
+    requirements; expecially for software that is not core to your business
+    + try to build the minimal set so that you can migrate to better options if
+      and when they appear
+- what not to do when buying
+  * buying a bigger solution than you need, and then feeling obligated to use
+    all of it
+    + JIRA might be the best example of this kind of abuse
+    + you are writing a lot of code and maintaining a lot of bespoke logic for
+      a system you do not really "own", which tends to bring a lot of technical
+      debt over time as the product evolves in ways that are incompatible with
+      your customizations
+  * evaluating every option out there for every decision
+    + there is a cost to delay of making a decision, so be realistic about what
+      the really important factors are for choosing the product and try to
+      otherwise move fast; when you agonize over every one of these decisions,
+      you make the team less inclined to adopt something that they’re
+      comfortable with and works and more inclined to just build their own thing
+      to avoid the bureaucracy
+  * over-vetting every product
+    + if the process of approving a purchase is slow and painful, there is every
+      incentive for engineers to just build so they do not have to wait for
+      approvals to get started
+  * underestimating the work of integration
+    + integration is often the right choice in a cost-benefit analysis, but that
+      does not make it free
+    + no product is perfect and the more sales people there are around the
+      product the more likely you are to find some unexpected gaps in the
+      offering that you may have to work around, so make sure you understand the
+      core important features
+  * neglecting to speak to the value of what the engineers are providing when
+    they are not building from scratch
+    + these engineers need to feel like they are learning, and growing, and they
+      deserve to be part of these decisions
+      + the integrations, automation, the shims you build on top to make
+        a unified surface area for the users at your company, the fine-tuning of
+        the use of the software so you do not spend a ton of money, these are
+        tasks for engineers
+    + it is an ongoing process to explain to engineers who are not familiar with
+      working on these problems why they are still interesting and fun even when
+      you are not building everything from scratch
+    + you will need to look at your rewards structure if you want to encourage
+      a move towards buying more and building less
