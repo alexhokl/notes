@@ -169,8 +169,12 @@ ____
 - [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache
   Kafka 0.8, and up -
   [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
+  * from Slack Engineering, it sounds like there were a few bugs in some edge
+    cases
 - [ThreeDotsLabs/watermill/](https://github.com/ThreeDotsLabs/watermill/) - a Go
   library as an abstraction to Kafka or Google Cloud Pub/Sub
+- [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go)
+  a library better than `sarama`
 
 ### Visualisation
 
