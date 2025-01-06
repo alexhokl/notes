@@ -20,6 +20,7 @@
 - [Garbage Collection](#garbage-collection)
 - [System migration](#system-migration)
 - [Function as a service (FaaS)](#function-as-a-service-faas)
+- [Writing a library](#writing-a-library)
 - [Others](#others-1)
 ____
 
@@ -738,6 +739,52 @@ time, using FaaS could be more cost-efficient.
 A side benefit is using Cloud Functions, Cloud Run, or AWS Lambda is very easy
 to track costs with high accuracy. The cost of runing a service can be hidden on
 Kuberenetes.
+
+## Writing a library
+
+reference: [Library Writing
+Realizations](https://cbloomrants.blogspot.com/2015/09/library-writing-realizations.html)
+
+- example code should be production-ready
+  * people will just copy-paste the code
+- the need to write a lot of documentation
+  * a sign that things could be too complicated
+  * people will not read the documentation
+- cut peripheral helper features
+  * figure out what the one core function really is and cut it down to that
+  * avoid confusing others
+  * if you feel that you really need to include your cute helpers, put them in
+    example code
+  * this is also true for a CLI application
+- simplicity is better
+  * fewer arguments on your functions
+    + even arguments that could allow a slightly faster implementation
+- micro-efficiency is not important
+  * making your `Init()` call take 100 clocks instead of 10,000 clocks is
+    irrelevant to everyone but you
+- it should just work
+  * a chanin of function calls could lead to fragile code
+    + eropations should be single function call when possible
+- special case stuff should be external (and callbacks are bad)
+  * anything that is unique to a few users, or that people will want to be
+    different should be out of the library
+  * make it possible to do that stuff through client-side code
+  * avoid callbacks to make this work, try to do it through imperative
+    sequential code
+  * some of these code things can go in the example code
+- you are writing the library for evaluators and new users
+  * things need to be easy and clear and just work for them
+  * people who actually license or become long-term users are not a problem
+    + once you have a relationship with them as a client, then you can talk to
+      them, help them figure out how to use things, show them solutions
+  * evaluators would not talk to you; they often would not read the docs or even
+    use your examples; so it needs to go well if they just start blindly calling
+    your APIs
+- make the default log and check errors
+  * this is related to the evaluator use-case
+  * evaluators will trigger lots of errors and get failures with no messages
+  * do some amount of error checking and logging so that evaluators can figure
+    things out
 
 ## Others
 
