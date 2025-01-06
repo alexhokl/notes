@@ -31,6 +31,7 @@
   * [nova](#nova)
   * [pluto](#pluto)
   * [ingress2gateway](#ingress2gateway)
+- [Security (from official documentation)](#security-from-official-documentation)
 - [Security (Hardening Guidance)](#security-hardening-guidance)
   * [Threat model](#threat-model)
   * [Logical components of control plane](#logical-components-of-control-plane)
@@ -1020,6 +1021,69 @@ pluto detect-api-resources -o wide
 ```sh
 ingress2gateway --providers ingress-nginx print
 ```
+
+## Security (from official documentation)
+
+- use TLS for all API traffic
+  * ensuring connnections in `~/.kube/config` are using `https://`
+- API authentication
+  * larger clusters may wish to integrate an existing OIDC or LDAP server that
+    allow users to be subdivided into groups
+- API authorization
+  * it is recommended that you use the Node and RBAC authorizers together, in
+    combination with the NodeRestriction admission plugin
+  * as more users interact with the cluster, it may become necessary to separate
+    teams into separate namespaces with more limited roles
+  * it is important to understand how updates on one object may cause actions in
+    other places. For instance, a user may not be able to create pods directly,
+    but allowing them to create a deployment, which creates pods on their
+    behalf, will let them create those pods indirectly. Likewise, deleting
+    a node from the API will result in the pods scheduled to that node being
+    terminated and recreated on other nodes. The out-of-the box roles represent
+    a balance between flexibility and common use cases, but more limited roles
+    should be carefully reviewed to prevent accidental escalation. You can make
+    roles specific to your use case if the out-of-box ones don't meet your
+    needs.
+- controlling access to the Kubelet
+  * Kubelets expose HTTPS endpoints which grant powerful control over the node
+    and containers
+    + by default Kubelets allow unauthenticated access to this API
+  * production clusters should enable Kubelet authentication and authorization
+- limiting resource usage on a cluster
+  * use resource quota to a namespace
+  * use limit ranges in POD
+- controlling what privileges containers run with
+  * utilise `SecurityContext`
+  * configure Pod security admission to enforce use of a particular Pod Security
+    Standard in a namespace, or to detect breaches
+  * application containers to run as a non-root user
+- preventing containers from loading unwanted kernel modules
+  * to block module loading more generically, you can use a Linux Security
+    Module (such as SELinux) to completely deny the module_request permission to
+    containers, preventing the kernel from loading modules for containers under
+    any circumstances. (Pods would still be able to use modules that had been
+    loaded manually, or modules that were loaded by the kernel on behalf of some
+    more-privileged process.)
+- restricting network access
+  * network policies for a namespace allows application authors to restrict
+    which pods in other namespaces may access pods and ports within their
+    namespaces
+- restricting cloud metadata API access
+  * cloud platforms often expose metadata services locally to instances. By
+    default these APIs are accessible by pods running on an instance and can
+    contain cloud credentials for that node, or provisioning data such as
+    kubelet credentials
+  * use network policies to restrict pod access to the metadata API, and avoid
+    using provisioning data to deliver secrets
+- retrict access to etcd
+  * administrators should always use strong credentials from the API servers to
+    their etcd server, such as mutual auth via TLS client certificates, and it
+    is often recommended to isolate the etcd servers behind a firewall that only
+    the API servers may access
+- enable audit logging
+  * it is recommended to enable audit logging and archive the audit file on
+    a secure server
+- restrict access to alpha or beta features
 
 ## Security (Hardening Guidance)
 
