@@ -6,8 +6,11 @@
 - [Recruitment](#recruitment)
 - [Meetings](#meetings)
 - [Time management](#time-management)
+- [Delegation and time management](#delegation-and-time-management)
+- [Delegating worries](#delegating-worries)
 - [Alerting](#alerting)
 - [Cost tracking](#cost-tracking)
+- [One-on-ones](#one-on-ones)
 ____
 
 ### Managing a junior team
@@ -358,6 +361,71 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - managers can start practising concentration periods of 20 minutes and continue
   to lengthen the time once getting used to the concentration period
 
+### Delegation and time management
+
+reference: [Delegation and Time Management - When being “helpful” is actually
+hurting](https://skamille.medium.com/delegation-and-time-management-6cb326a880d3)
+
+- managing middle managers
+  * let them tell how they are thinking about tackling a problem or a situation
+  * give a few bits of advice to them
+  * they should only ask for direct intervention when their efforts have failed
+- on controlling your time as a manager, making sure you do not take on too many
+  tasks that are really the job of your subordinates
+  * examples
+    + one of your directs asks for your input on a complex decision, and you
+      take ownership of studying the factors and making that decision
+      + instead
+        + talk over the decision in your 1–1, provide them with suggestions, but
+          let them make the final call and justify it to the stakeholders
+    + telling someone on your team that you want to review a proposal before
+      they send it out
+      + instead
+        + review the doc in your 1–1 or another meeting specifically set up for
+          this purpose (if they requested your review or if this is something
+          they’re still learning how to do), but otherwise provide feedback at
+          the same time that other stakeholders are given the doc
+    + volunteering to provide the first draft of goals for a project that
+      a member of your team owns
+      + instead
+        + let them set up the first draft of the goals, and again in the context
+          of your 1–1 or a review set up for this purpose, review the goals that
+          they have drafted and provide your feedback
+  * most of the above meetings can be avoid by having the conversation during
+    1-1
+    * this frees up time for some other more important tasks
+  * it puts the initiative squarely on the shoulders of your team, which is
+    almost always where it belongs
+    + they are not going to learn how to make good decisions, set good goals, or
+      write effective docs
+    + if you are always there providing a safety net or taking over the hard
+      work from them
+- instead of taking it over, ask them what they think the next steps should be;
+  give your feedback, and let them bring the follow-ups to you in the next
+  appropriate touch base
+
+### Delegating worries
+
+reference: [Worring](https://www.onebigfluke.com/2018/01/worrying.html)
+
+- to manage junior engineers
+  * delegate responsibilities, not tasks
+    + they will learn a lot by pushing their own boundaries in the process
+  * although not all responsbility are clear cut, we can start with some easier
+    ones
+    + examples
+      + "reduce the number of user-visible HTTP 500s by 90%"
+- if the delegation done correctly
+  * finding and fixing bugs before anyone else notices
+  * being pessimistic about the quality of our codebase and the stability of our
+    infrastructure
+  * identifying and mitigating risks in advance
+  * strenthening relationships with more communications
+- delegation
+  * listening to teammates to figure out what needs to happen, instead of the
+    other way around
+  * ask teammates many questions to fully understand issues and their severity
+
 ### Alerting
 
 A regular (usually every 2 weeks) alert review meeting to go over all the alerts.
@@ -371,3 +439,32 @@ A regular (usually every 2 weeks) alert review meeting to go over all the alerts
 - monthly review meeting
   * not reviewed from a purely finance perspective
   * to understand if cost of an item sounds right
+
+### One-on-ones
+
+reference: [Dear Manager — How to make time for
+1-on-1s](https://medium.com/absadesign/dear-manager-how-to-make-time-for-1-on-1s-f3831b2c77a3)
+
+- reasons
+  * to foster a healthy relationship between manager and direct report
+    + human connection leads to trust
+  * discuss things in private
+  * mentoring, coaching and feedback
+- scheduling
+  * 30 minutes for each direct report
+  * avoid Monday and Friday
+  * morning is better in general; therr is less time for your day to spiral
+  * avoid back-to-back slots
+  * best to have direct reports fill in their preferred slot
+  * arrange a face-to-face meeting if possible
+  * once a schedule confirmed, protect the schedule and do not change
+    + this shows respect and give direct reports a sense of their importance
+- the conversation
+  * it is important to talk about life in the first few minutes
+    + be human
+  * it is not a status update
+  * personal growth can be discussed
+  * to give feedback and get to know the direct report
+  * be positive
+  * take notes during the meeting
+
