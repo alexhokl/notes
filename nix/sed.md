@@ -78,3 +78,9 @@ sed 's/&nbsp;/ /g' file.txt
 ```sh
 sed 's/\xC2\xA0/ /g' file.txt
 ```
+
+##### To replace $ with bash variable involved
+
+```sh
+sed "s/\\$\\$\\$/${s}/g" ${TEMPLATE_FILE} > ${ANOTHER_FILE}.json
+```
