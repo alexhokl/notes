@@ -36,6 +36,7 @@
   * [Security](#security)
   * [Shopping](#shopping)
   * [SLA](#sla)
+  * [Social media](#social-media)
   * [Source control](#source-control)
   * [Spreadsheet](#spreadsheet)
   * [SQL](#sql)
@@ -148,6 +149,12 @@ ____
   sync files between machines; it is built on GTK and it has community support
   for Windows and Android
   * [firewall setup](https://docs.syncthing.net/users/firewall.html)
+- [McKael/madonctl](https://github.com/McKael/madonctl) - a CLI tool to interact
+  with Mastodon
+- [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) - an MacOS
+  application to store SSH keys in the Secure Enclave; as with Secure Enclave,
+  the keys are local to the machine and cannot be exported or transferred to
+  another machine; YubiKey is supported
 
 ### git
 
@@ -394,6 +401,10 @@ ____
 
 - [SLA & Uptime calculator](https://uptime.is/)
 
+### Social media
+
+- [Move Twitter contacts to Mastodon](https://www.movetodon.org/)
+
 ### Source control
 
 - [Git History](https://github.com/pomber/git-history) - browse to a file on
@@ -474,6 +485,8 @@ ____
 - [URL
   parts](https://url-parts.glitch.me/?url=https://cats.example.org.au:1234/stripes/fur.html?pattern=tabby#claws)
 - [Resources from Bellingcat](https://www.bellingcat.com/category/resources/)
+- [Online Open Source Investigation
+  Toolkit](https://bellingcat.gitbook.io/toolkit)
 - [monkeytype](https://monkeytype.com/) - typing speed test
 - [JoeFin Apps](https://joefinapps.com/) - mostly a collection of Microsoft
   Store apps
