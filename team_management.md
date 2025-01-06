@@ -122,6 +122,8 @@ Porterie
       + not "are you with me?" but "is there anything we can do better?"
     + responding
       + responses do not spread fear in case of bad results
+- if a manager can be super transparent about what his/her days and weeks look
+  like to the team, it will help the team to understand the role of manager
 
 ### Company culture
 
