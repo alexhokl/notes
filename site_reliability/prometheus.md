@@ -34,6 +34,10 @@ ____
 - [cortex](https://github.com/cortexproject/cortex) - horizontally scalable,
   highly available, multi-tenant, long term storage for Prometheus
 - [PromLabs Blog](https://promlabs.com/blog/)
+- [Dashboard - Node Export
+  Full](https://grafana.com/grafana/dashboards/1860-node-exporter-full/)
+- [Dashboard - PostgreSQL
+  Database](https://grafana.com/grafana/dashboards/9628-postgresql-database/)
 
 # Types of metrics
 
