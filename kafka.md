@@ -52,10 +52,13 @@ ____
 
 ### Clients
 
-- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache Kafka 0.8, and up
-- [confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go)
+- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache
+  Kafka 0.8, and up
+  * from Slack Engineering, it sounds like there were a few bugs in some edge
+    cases
+- [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go)
   ([documentation](https://docs.confluent.io/clients-confluent-kafka-go/current/index.html))
-  Confluent's Apache Kafka Golang client
+  Confluent's Apache Kafka Golang client; it may be better than `sarama`
 
 ### Videos
 
