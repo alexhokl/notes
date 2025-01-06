@@ -1027,6 +1027,15 @@ storage service-agent`
   - it does not support push subscribers
   - it is not as "managed" as Pub/Sub
   - it is closer to the model of running Kafka
+- general migration strategy of message queue
+  * steps
+    + create a new set of topics and subscriptions
+    + run any validation tests using dark traffic on the new setup
+    + stop publishing to the old topics
+    + start publishing to the new topics
+    + turn off the old topics after retention window expires
+  * this strategy has the downside of coordinating cutting over consumers, but
+    it could be a fairly standard operating procedure
 
 ### Cloud Storage (Bucket)
 
