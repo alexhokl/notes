@@ -9,7 +9,7 @@
   * [Encryption](#encryption)
   * [Queries](#queries)
 - [Database performance](#database-performance)
-  * [Troubleshooting](#troubleshooting-1)
+  * [Troubleshooting perfromance issues](#troubleshooting-perfromance-issues)
   * [Statistics](#statistics)
   * [Memory](#memory)
   * [Query plans](#query-plans)
@@ -22,6 +22,9 @@
   * [Linked servers](#linked-servers)
   * [Table partitioning](#table-partitioning)
   * [User-defined function (UDF)](#user-defined-function-udf)
+  * [LIKE wildcard queries](#like-wildcard-queries)
+  * [Untrusted constraints](#untrusted-constraints)
+  * [Foreign keys](#foreign-keys)
 ____
 
 ## Links
@@ -35,6 +38,10 @@ ____
   2019](https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2019)
 - [Database Enginer events and
 errors](https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors) - error codes / numbers
+- [Brent Ozar - consulting for quick pain
+  relief](https://www.brentozar.com/sql-critical-care/)
+- [Brent Ozar - Free How to Think Like the SQL Server Engine
+  Course](https://www.brentozar.com/training/think-like-sql-server-engine/)
 
 ## Tools
 
@@ -42,6 +49,7 @@ errors](https://learn.microsoft.com/en-us/sql/relational-databases/errors-events
   powershell commands
 - [Brent Ozar - Paste the plan](https://www.brentozar.com/pastetheplan/) -
   visualising query plan
+- [BrentOzarULTD/SQL-Server-First-Responder-Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
 - [Plan Explorer](https://www.solarwinds.com/free-tools/plan-explorer) - a free
   tool from SolarWinds to visualise query plans, index and statistics analysis;
   paid full version is available
@@ -66,6 +74,11 @@ system is not functioning.) while attempting to expand the physical file
 ```
 
 It is likely that the disk is full.
+
+##### Use of JOIN HINT
+
+It should be used as a last resort by experienced developers and database
+administrators.
 
 ## Database Operations
 
@@ -354,7 +367,7 @@ WHERE type_desc LIKE '%CONSTRAINT'
 
 ## Database performance
 
-### Troubleshooting
+### Troubleshooting perfromance issues
 
 - [Troubleshooting performance
   issues](https://docs.microsoft.com/en-us/azure/azure-sql/database/intelligent-insights-troubleshoot-performance)
@@ -364,6 +377,15 @@ WHERE type_desc LIKE '%CONSTRAINT'
   Server](https://docs.microsoft.com/en-GB/troubleshoot/sql/performance/resolve-blocking-problems-caused-lock-escalation)
 
 ### Statistics
+
+- optimizer alaways assume table variables to have a single row
+- temporary tables has statistics generated as in other normal tables
+- statistics can get updated after a query edxecution if optizimer finds the
+  plan was out of date or have changed since the original plan was created
+- the main cause of a difference between the plan is differences beetween the
+  statistics and the actual data
+- automatic update of statistics that occurs only samples a subset of the data
+  in order to reduce the cost of the operation
 
 ##### To show statistics as message
 
@@ -418,6 +440,25 @@ issue and consider enlarging the size of the instance.
 
 ### Query plans
 
+- execution plans are not kept in memory forever
+  * it aged out of the system using an "age" formula that multiplies the
+    estimated cost of the plan by the number of times it has been used
+- untrusted contraints are not used
+  * these contraints usually created by the operation of dropping constraints,
+    foreign keys, or indexes to import a large amount of data
+  * see section [Untrusted constraints](#untrusted-constraints)
+
+##### To grant permission to view execution plans
+
+- if the user has role `sysadmin`, `dbcreator` or `db_owner`, the user has the
+  permission already
+
+For other users,
+
+```sql
+GRANT SHOWPLAN TO [username]
+```
+
 ##### To remove plan cache entries
 
 and remove all clean buffers
@@ -425,6 +466,33 @@ and remove all clean buffers
 ```sql
 DBCC FREEPROCCACHE
 DBCC DROPCLEANBUFFERS
+```
+
+##### To show plans in Management Studio
+
+- `ctrl-l` to get estimated plan
+- `ctrl-m` to get actual plan
+
+##### To show estimated text plans
+
+```sql
+SET SHOWPLAN_ALL ON;
+```
+
+It is important to remember to `SET SHOWPLAN_ALL OFF` after an investigation has
+been completed; statements of `CREATE`, `UPDATE` or `DELETE` would not be
+executed, otherwise.
+
+##### To show actual text plans
+
+```sql
+SET STATISTICS PROFILE ON;
+```
+
+and, to turn it off,
+
+```sql
+SET STATISTICS PROFILE OFF;
 ```
 
 ##### Understanding query plans
@@ -508,7 +576,7 @@ Reference: [Optimize index maintenance to improve query performance and reduce
     and more memory is necessary to cache this data
   - When Database Engine adds rows to a page, it will not fill the page fully if
     the fill factor for the index is set to a value other than 100 (or 0, which
-    is equivalent in this context)
+    is equivalent in this context); the default fill factor is 100.
   - When the Query Optimizer compiles a query plan, it considers the cost of I/O
     needed to read the data required by the query. With low page density, there
     are more pages to read, therefore the cost of I/O is higher
@@ -1002,6 +1070,11 @@ EXEC msdb.dbo.sp_delete_job @job_name = 'your-job-name'
 
 ### CPU and parallelism
 
+- before a query execution, a decision will be made to see if the cost of the
+  plan exceeds the threshold for a parallel execution
+  * the optimizer will generate a second plan and stored with a different set of
+    operations to support parallelism
+
 ##### To list top CPU usage of frequently used queries
 
 ```sql
@@ -1242,3 +1315,163 @@ UDF are slow due to
   * UDF does not contain a `SELECT` with `ORDER BY` without a `TOP 1` clause
   * UDF does not reference the `STRING_AGG` function
 
+### LIKE wildcard queries
+
+- it is general bad to "contain" as index cannot be utilised
+- use binary collation instead of SQL or Dictionary collation can improve
+  performance in some specific cases
+  * in case of a column stores some sort of codes, barcodes
+  * `ALTER TABLE TableName ALTER COLUMN Code NVARCHAR(20) COLLATE Latin1_General_BIN`
+  * it works best when the query is repeated with a warm cache
+
+### Untrusted constraints
+
+##### To find untrusted constraints
+
+```sql
+SELECT '[' + s.name + '].[' + o.name + '].[' + i.name + ']' AS keyname
+from sys.foreign_keys i
+INNER JOIN sys.objects o ON i.parent_object_id = o.object_id
+INNER JOIN sys.schemas s ON o.schema_id = s.schema_id
+WHERE i.is_not_trusted = 1 AND i.is_not_for_replication = 0;
+GO
+
+SELECT '[' + s.name + '].[' + o.name + '].[' + i.name + ']' AS keyname
+from sys.check_constraints i
+INNER JOIN sys.objects o ON i.parent_object_id = o.object_id
+INNER JOIN sys.schemas s ON o.schema_id = s.schema_id
+WHERE i.is_not_trusted = 1 AND i.is_not_for_replication = 0 AND i.is_disabled = 0;
+GO
+```
+
+To check data for the constraint (to get trusted),
+
+```sql
+ALTER TABLE dbo.YourTableName WITH CHECK CHECK CONSTRAINT YourConstraintName
+```
+
+Note that checking of the existing data can take time, burn a lot of IO, and it
+will require schema modification locks, so you may want to do this during
+maintenance windows if the table is large.
+
+### Foreign keys
+
+##### To find foreign keys that are not indexed
+
+```sql
+SELECT o.name [table], s.name [schema], fk.name [foreign_key_no_index]
+FROM sys.foreign_keys fk
+INNER JOIN sys.objects o
+ ON o.[object_id] = fk.parent_object_id
+INNER JOIN sys.schemas s
+ ON s.[schema_id] = o.[schema_id]
+WHERE o.is_ms_shipped = 0
+AND NOT EXISTS ( SELECT *
+         FROM sys.index_columns ic
+         WHERE EXISTS ( SELECT *
+    FROM sys.foreign_key_columns fkc
+           WHERE fkc.constraint_object_id = fk.[object_id]
+    AND fkc.parent_object_id = ic.[object_id]
+           AND fkc.parent_column_id = ic.column_id )
+         GROUP BY ic.index_id
+         HAVING COUNT(*) = MAX(index_column_id)
+         AND COUNT(*) = ( SELECT COUNT(*)
+    FROM sys.foreign_key_columns fkc
+           WHERE fkc.constraint_object_id = fk.[object_id] ) )
+ORDER BY o.[name], fk.[name];
+```
+
+##### To find tree of foreign keys
+
+Create a stored procedure to find the tree of foreign keys.
+
+```sql
+if object_id('dbo.usp_searchFK', 'P') is not null
+  drop proc dbo.usp_SearchFK;
+go
+
+create proc dbo.usp_SearchFK
+  @table varchar(256) -- use two part name convention
+, @lvl int=0 -- do not change
+, @ParentTable varchar(256)='' -- do not change
+, @debug bit = 1
+as
+begin
+  set nocount on;
+
+  declare @dbg bit;
+  set @dbg=@debug;
+
+  if object_id('tempdb..#tbl', 'U') is null
+    create table  #tbl  (id int identity, tablename varchar(256), lvl int, ParentTable varchar(256));
+
+  declare @curS cursor;
+
+  if @lvl = 0
+    insert into #tbl (tablename, lvl, ParentTable)
+    select @table, @lvl, Null;
+  else
+    insert into #tbl (tablename, lvl, ParentTable)
+    select @table, @lvl,@ParentTable;
+
+  if @dbg=1
+    print replicate('----', @lvl) + 'lvl ' + cast(@lvl as varchar(10)) + ' = ' + @table;
+
+  if not exists (select * from sys.foreign_keys where referenced_object_id = object_id(@table))
+    return;
+  else
+  begin -- else
+    set @ParentTable = @table;
+    set @curS = cursor for
+
+    select tablename=object_schema_name(parent_object_id)+'.'+object_name(parent_object_id)
+    from sys.foreign_keys
+    where referenced_object_id = object_id(@table)
+    and parent_object_id <> referenced_object_id; -- add this to prevent self-referencing which can create a indefinitive loop;
+
+    open @curS;
+    fetch next from @curS into @table;
+    while @@fetch_status = 0
+    begin --while
+      set @lvl = @lvl+1;
+      -- recursive call
+      exec dbo.usp_SearchFK @table, @lvl, @ParentTable, @dbg;
+      set @lvl = @lvl-1;
+      fetch next from @curS into @table;
+    end --while
+
+    close @curS;
+    deallocate @curS;
+  end -- else
+
+  if @lvl = 0
+    select * from #tbl;
+  return;
+end
+go
+```
+
+Execute the stored procedure.
+
+```sql
+exec dbo.usp_SearchFK 'dbo.YourTableName'
+```
+
+### MERGE statements
+
+- `WHEN NOT MATCHED BY SOURCE`
+  * a row exists in the target table, but not in the source
+  * effectively `LEFT JOIN`
+- `WHEN MATCHED`
+  * a matching row exists in both data sets
+  * effectively `INNER JOIN`
+  * extra conditions should be added to avoid unnecessary updates
+    + beaware that the extra conditions are indexed or not
+  * it can appear multiple times in the `MERGE` statement if the conditions are
+    different
+- `WHEN NOT MATCHED BY TARGET`
+  * a row exists in the source, but not in the target table
+  * effectively `LEFT JOIN`
+- `OUTPUT`
+  * to capture the results of the `MERGE` statement
+  * `INSERTED` and `DELETED` tables are available
