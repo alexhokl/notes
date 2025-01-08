@@ -17,6 +17,7 @@
 - [Engineering lead, manager and product manager](#engineering-lead-manager-and-product-manager)
 - [Incompetent leaders](#incompetent-leaders)
 - [Build or buy?](#build-or-buy)
+- [Bullshit detection](#bullshit-detection)
 ____
 
 ### Managing a junior team
@@ -665,3 +666,62 @@ buy?](https://skamille.medium.com/why-is-it-so-hard-to-decide-to-buy-d86fee98e88
       you are not building everything from scratch
     + you will need to look at your rewards structure if you want to encourage
       a move towards buying more and building less
+
+### Bullshit detection
+
+Reference: [Introductory bullshit detection for non-technical
+managers](https://itsyourturnblog.com/introductory-bullshit-detection-for-non-technical-managers-7c7a9e54afee)
+
+- having a rough idea of how it works from the direct report is not good enough
+  * it is better to understand how it works
+- What problem are you actually trying to solve?
+  * no metaphors
+  * describe it from the point of view of the person or group encountering the
+    problem
+  * unless you have a satisfactory answer to this question, you do not move on
+    with any project, no matter how small it seems
+- What is one concrete example of a problem this will solve?
+  * a trap a lot of technical people can fall into is wanting to create
+    something simply because it is interesting, not because it is actually
+    useful in any way
+  * if you do not have a satisfactory answer to even one problem that could be
+    practically solved, then it is at best considered research
+- Who specifically will represent the users of this system?
+  * this can be a problem with a product idea as well
+  * a real life individual person they will consult with on questions and who
+    can verify it meets their expectations, at least
+  * if your team is working in a vacuum, it is a sure sign they’re working on
+    the wrong thing
+- What are the platform constraints?
+  * get answers that are as specific and thorough as possible
+  * create the list because you have to make sure it all gets tested
+- What are the memory constraints?
+  * you should at least expect to have an answer to how much memory will be
+    needed
+- What are the performance constraints?
+  * there is an acceptable upper bound and you need to have absolute clarity on
+    what that is
+- "I’m making a generic version of ..."
+  * It means: I don’t understand the constraints of the actual problem, so I’m
+    going to design an even bigger problem that we have no way of verifying the
+    efficacy of.
+- "I'm creating a new framework to ..."
+  * It means: I’m not interested in solving the actual problem, so I’m going to
+    create something else so that the person that actually will solve the
+    problem has to also fix the problems in my stuff on top of that.
+- "It's platform independent."
+  * It means: I literally have not spent two seconds thinking about what
+    platforms this will obviously not work for.
+- "I'm adding this to make sure it's future-proof."
+  * It means: I believe in fairies.
+- "I really need to refactor this bit ..."
+  * However, it can also be just an excuse to change things to some conception
+    of “better” for no real benefit.
+  * Unless you’re Google, in which case you keep doing that until some other
+    team solves the actual problem and your project gets deprecated.
+- 80/50 rule
+  * If you’re not 80% done by the time you’ve used 50% of your resources, you
+    are behind.
+  * When something doesn’t pass this test, it’s time to evaluate what needs to
+    change. Does this project need to stop? Do other projects need to move? “I
+    can make up the time” is not a realistic response.
