@@ -1,6 +1,7 @@
 - [Chapter 1](#chapter-1)
 - [Chapter 2](#chapter-2)
 - [Chapter 3](#chapter-3)
+- [Chapter 4](#chapter-4)
 ____
 
 ## Chapter 1
@@ -163,3 +164,44 @@ ____
   * どの猫ですか。
 - どの人ですか。
   * 田中さんはどの人ですか。田中さんはあの人です。
+
+## Chapter 4
+
+- formal i-adjective in negative form
+  * い => くありません
+    + 新しくありません。
+- casual i-adjective in negative form
+  * い => くないです
+    * 新しくないです。
+- formal na-adjective in negative form
+  * adjective + ではありません
+    * 静かではありません。
+- casual na-adjective in negative form
+  * adjective + ではないです
+    * 静かではないです。
+- more casual na-adjective in negative form
+  * adjective + じゃないです
+    * 静かじゃないです。
+
+- 良いです。 (いいです。)
+  * 良くありません。 (よくありません。)
+
+- te-form
+  * i-adjective
+    + い => くて
+      + 大きくて重いです。
+  * na-adjective
+    + adjective + で
+      + 丈夫で軽いです。
+
+- どうですか。
+  * このカレーはどうですか。
+    + 美味しいです。
+
+- あまり + adjective in nagative form
+  * このカレーはあまり美味しくないです。
+  * 私の部屋はあまり綺麗じゃないです。
+
+- location + に + thing + が + quantity + ありますか。
+  * 机の上に本が三冊ありますか。
+  * たくさん can be used in place of quantity

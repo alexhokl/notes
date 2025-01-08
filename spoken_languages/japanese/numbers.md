@@ -50,8 +50,9 @@ ____
 
 - Kango sound of 4, 7, 9 has alternatives to avoid sounds like 死 (し), 苦 (く),
   一(いち) or 四(し)
-- 一千 (いっせん) is normally read as 千 (せん)
-- 一万 (いちまん) is normally read as 万 (まん)
+- 100 is read as 百 (ひゃく)
+- 1k is normally read as 千 (せん)
+- 10k is normally read as 一万 (いちまん)
 - decimal is read as 点 (てん)
   * 3.14 is read as さんてんいちよん
   * 0.15 is read as れんてんいちご
@@ -61,6 +62,10 @@ ____
   * however, it carries a negative nuance that you are getting old
 - 四十路 (よそじ) is a term for someone who is in their 40s
   * Wago counting method is not used after 40
+- 四円 (よえん)
+- 4人 (よにん)
+- 四時 (よじ)
+- 四時間 (よじかん)
 
 ## Months
 

@@ -17,13 +17,14 @@
     + [Nouns (position)](#nouns-position-1)
     + [Adjectives](#adjectives)
     + [Pronouns (person)](#pronouns-person-1)
+    + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
     + [Verbs](#verbs-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Adjectives](#adjectives-1)
     + [Pronouns (person)](#pronouns-person-2)
-    + [Adverbs](#adverbs-1)
+    + [Adverbs](#adverbs-2)
     + [Verbs](#verbs-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
@@ -82,6 +83,7 @@ ____
 - 庭 (にわ) - garden
 - 池 (いけ) - pond
 - 喫茶店 (きっさてん) - teahouse
+- 店 (みせ) - shop
 - 食堂 (しょくどう) - canteen
 - 銀行 (ぎんこう) - bank
 - 郵便局 (ゆうびんきょく) - post office
@@ -130,6 +132,7 @@ ____
 - 夏 (なつ) - summer
 - 秋 (あき) - autumn
 - 冬 (ふゆ) - winter
+- 一緒 (いっしょ) - together / the same
 
 ### Nouns (position)
 
@@ -228,6 +231,7 @@ ____
 - 色々 (いろいろ) - various
 - 丈夫 (じょうぶ) - strong
 - 好き (すき) - like
+- 嫌い (きらい) - dislike
 - 大好き (だいすき) - liking very much / love
 
 ### Adverbs
@@ -242,6 +246,8 @@ ____
 - また - also / again
 - 未だ (まだ) - still / yet / only
 - 多分 (たぶん) - maybe / probably
+- 余り (あまり) - not very / not much
+- 些とも (ちっとも) - not at all
 
 ### Conjunctions
 
@@ -286,12 +292,18 @@ ____
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
+- 硬い (かたい) - hard
+- 固い (かたい) - solid
 
 ### Pronouns (person)
 
 - 君 (きみ) - you (friendly / musculine / poetic)
 - 彼 (かれ) - he / boyfriend
 - 彼女 (かのじょ) - she / girlfriend
+
+### Adverbs
+
+- 些とも (ちっとも) - not at all
 
 ### Conjunctions
 
@@ -338,6 +350,7 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n3%20%23adverb)
 - つまり - that is to say / in other words
 - まあ - well / I mean
+- 全然 (ぜんぜん) - totally
 
 ### Verbs
 
