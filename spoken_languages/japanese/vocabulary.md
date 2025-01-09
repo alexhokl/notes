@@ -29,6 +29,7 @@
   * [N2](#n2)
     + [Nouns](#nouns-3)
     + [Adjectives](#adjectives-2)
+    + [Adverbs](#adverbs-3)
     + [Verbs](#verbs-3)
   * [N1](#n1)
     + [Nouns](#nouns-4)
@@ -375,6 +376,10 @@ ____
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23adjective)
 - 勿体ない (もったいない) - wasteful / too good / more than one deserves
+
+### Adverbs
+
+- 愈々 (いよいよ) - more and more / all the more
 
 ### Verbs
 
