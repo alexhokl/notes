@@ -801,6 +801,42 @@ Columns](http://www.sqlservertutorial.net/sql-server-indexes/sql-server-indexes-
 
 ### Locks and blocking processes
 
+- references
+  * [Transaction (Process ID) was deadlocked on lock resources with another
+  process and has been chosen as the deadlock victim (Msg
+  1205)](https://sqlbak.com/academy/transaction-process-id-was-deadlocked-on-lock-resources-with-another-process-and-has-been-chosen-as-the-deadlock-victim-msg-1205/)
+- deadlock graphs are stored in extended events of `system_health` session
+  * Management Studio
+    + `Management` -> `Extended Events` -> `Sessions` -> `system_health` ->
+      `package0.event_file` -> `View Target Data`
+    + resource section shows the contention
+
+#### Deadlock priority
+
+- `DEADLOCK_PRIORITY` can be set to allow database to choose which session to
+  kill
+  * it is set to `NORMAL` or `0` by default
+  * the higher the number or level, the better chance the session will survive
+
+#### Transactions read data before an update
+
+- without doing anything, usually both transactions will be acquire `S-lock`
+  during the read operation; however, when any of the process tries to update,
+  it deadlocks as it tries to wait for `S-lock` to be released
+  * hint `WITH (UPDLOCK)` can be used in the read operation to acquire `U-lock`
+    instead of `S-lock` during the read operation; the other transaction will
+    wait for the `U-lock` to be released and, thus, avoid deadlock
+
+##### To check deadlock priority
+
+```sql
+SELECT session_id, DEADLOCK_PRIORITY
+FROM sys.dm_exec_sessions
+WHERE SESSION_ID = @@SPID
+```
+
+#### Other topics
+
 ##### Check current locks on a table
 
 ```sql
@@ -1497,3 +1533,4 @@ exec dbo.usp_SearchFK 'dbo.YourTableName'
 - `OUTPUT`
   * to capture the results of the `MERGE` statement
   * `INSERTED` and `DELETED` tables are available
+
