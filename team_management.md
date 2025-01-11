@@ -18,6 +18,8 @@
 - [Incompetent leaders](#incompetent-leaders)
 - [Build or buy?](#build-or-buy)
 - [Bullshit detection](#bullshit-detection)
+- [Giving feedback in remote teams](#giving-feedback-in-remote-teams)
+- [Managing unexpected work requests](#managing-unexpected-work-requests)
 ____
 
 ### Managing a junior team
@@ -725,3 +727,39 @@ managers](https://itsyourturnblog.com/introductory-bullshit-detection-for-non-te
   * When something doesn’t pass this test, it’s time to evaluate what needs to
     change. Does this project need to stop? Do other projects need to move? “I
     can make up the time” is not a realistic response.
+
+### Giving feedback in remote teams
+
+Reference: [The importance of small, positive interactions - How to give regular
+positive feedback in
+remotely](https://leaddev.com/culture/importance-small-positive-interactions)
+
+- to make a remote team feel engaged and not just transactional, giving regular,
+  intentional praise is essential
+- with all the public researches available, it indicates more positive
+  interactions than negative ones is essential to a healthy and trusting
+  relationship
+  * negative feedback should be "occasional" in normal circumstances
+- writing thoughtfully-crafted messages
+- scheduling more meetings to check in on people
+- take time in 1:1s to talk about things other than work, to check in on them as
+  people, and to share some of your own life
+
+### Managing unexpected work requests
+
+Reference: [Managing unexpected work requests when your team is
+busy](https://leaddev.com/management/managing-unexpected-work-requests-when-your-team-busy)
+
+- ask where this request falls in the priority of everything your team is doing
+  * tell the requester all of the things your team is doing at the moment, and
+    ask them which things are okay to slow down or stop doing in order to
+    fulfill the new task
+    + this allows you to clarify the impact of the disruption to the team so
+      that together you can decide whether the new request is important enough
+      to switch to
+    + track these disruptions to make a case for future discussions
+  * avoid using this tactic to much as others might feel you are playing on
+    bureaucracy; use it when your team is really busy
+- use the request as evidence to bolster support for other unscheduled projects
+  * use the request to prioritize work of "important but not urgent"
+    + for example, automation or monitoring
