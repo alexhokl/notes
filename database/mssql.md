@@ -3,6 +3,7 @@
 - [Troubleshooting](#troubleshooting)
 - [Database Operations](#database-operations)
   * [Backup](#backup)
+  * [Recovery models](#recovery-models)
   * [Size management](#size-management)
   * [User modes](#user-modes)
   * [Login](#login)
@@ -25,6 +26,7 @@
   * [LIKE wildcard queries](#like-wildcard-queries)
   * [Untrusted constraints](#untrusted-constraints)
   * [Foreign keys](#foreign-keys)
+  * [MERGE statements](#merge-statements)
 ____
 
 ## Links
@@ -134,6 +136,26 @@ sqlpackage /a:Import /tsn:database.example.com /tdn:MyDatabase /tu:sa /tp:AStron
 Note that if the target database already exists and contains objects such as
 tables or views, then the import will fail. The database must either not exist,
 or be completely empty.
+
+### Recovery models
+
+- recovery models are designed to control transaction log maintenance
+- simple
+  * no log backup
+  * saving disk space for transaction logs
+  * implies
+    + no log shipping
+    + no point-in-time recovery
+    + no always-on or database mirroring
+- full
+  * requires log backup
+- bulk-logged
+  * requires log backup
+  * permits high-performance bulk copy operations
+  * reduces log space usage by using minimal logging for most bulk operations
+    + log backups might be of a significant size because the minimally logged
+      operations are captured in the log backup
+  * no point-in-time recovery support
 
 ### Size management
 
