@@ -1,20 +1,26 @@
 - [Methods of counting](#methods-of-counting)
 - [Simple Numbers](#simple-numbers)
-- [Months](#months)
-  * [counting months](#counting-months)
-  * [month of year](#month-of-year)
-- [Days](#days)
-  * [counting days](#counting-days)
-  * [nth day of an event](#nth-day-of-an-event)
-  * [days of month](#days-of-month)
-- [Hours](#hours)
-  * [hour of day](#hour-of-day)
-  * [counting hours](#counting-hours)
-  * [counting number of classes](#counting-number-of-classes)
-- [本](#%E6%9C%AC)
-- [Floors](#floors)
 - [Counters](#counters)
   * [Core](#core)
+    + [つ](#%E3%81%A4)
+    + [個 (こ)](#%E5%80%8B-%E3%81%93)
+    + [本 (ほん)](#%E6%9C%AC-%E3%81%BB%E3%82%93)
+    + [枚 (まい)](#%E6%9E%9A-%E3%81%BE%E3%81%84)
+    + [匹 (ひき)](#%E5%8C%B9-%E3%81%B2%E3%81%8D)
+    + [頭 (とう)](#%E9%A0%AD-%E3%81%A8%E3%81%86)
+    + [羽 (わ)](#%E7%BE%BD-%E3%82%8F)
+    + [冊 (さつ)](#%E5%86%8A-%E3%81%95%E3%81%A4)
+    + [台 (だい)](#%E5%8F%B0-%E3%81%A0%E3%81%84)
+    + [分 (ふん)](#%E5%88%86-%E3%81%B5%E3%82%93)
+    + [日 (か/にち)](#%E6%97%A5-%E3%81%8B%E3%81%AB%E3%81%A1)
+    + [年 (ねん)](#%E5%B9%B4-%E3%81%AD%E3%82%93)
+    + [回 (かい)](#%E5%9B%9E-%E3%81%8B%E3%81%84)
+    + [人 (り/にん)](#%E4%BA%BA-%E3%82%8A%E3%81%AB%E3%82%93)
+    + [月 (つき/がつ)](#%E6%9C%88-%E3%81%A4%E3%81%8D%E3%81%8C%E3%81%A4)
+    + [時 (じ)](#%E6%99%82-%E3%81%98)
+    + [時間 (じかん)](#%E6%99%82%E9%96%93-%E3%81%98%E3%81%8B%E3%82%93)
+    + [階 (かい)](#%E9%9A%8E-%E3%81%8B%E3%81%84)
+    + [歳 (さい)](#%E6%AD%B3-%E3%81%95%E3%81%84)
   * [optional](#optional)
 ____
 
@@ -67,72 +73,171 @@ ____
 - 四時 (よじ)
 - 四時間 (よじかん)
 
-## Months
+## Counters
 
-Reference: [A Guide to the Japanese Counter-ish Word:
-月 (Months)](https://www.tofugu.com/japanese/japanese-counter-tsuki-gatsu-getsu/)
+References
 
-### counting months
+- [350 Japanese Counters Grouped by How Useful They
+  Are](https://www.tofugu.com/japanese/japanese-counters-list/)
+- [Systematic Reading
+  Changes](https://www.tofugu.com/japanese/japanese-counters-guide/#systematic-reading-changes)
+- [ものの数え方・助数詞](https://www.benricho.org/kazu/index.html) - a tool to
+  find the counter for a given noun
 
-| Japanese | Reading    |
-| ---      | ---        |
-| 一月     | ひとつき   |
-| 二月     | ふたつき   |
-| 三月     | みつき     |
-| 四月     | よつき     |
-| 五月     | いつつき   |
-| 六月     | むつき     |
-| 七月     | ななつき   |
-| 八月     | やつき     |
-| 九月     | ここのつき |
-| 十月     | とおつき   |
-| 何月     | なんつき   |
+### Core
 
-| Japanese | Reading            |
-| ---      | ---                |
-| 一箇月   | `いっ`かげつ       |
-| 二箇月   | にかげつ           |
-| 三箇月   | さんかげつ         |
-| 四箇月   | よんかげつ         |
-| 五箇月   | ごかげつ           |
-| 六箇月   | `ろっ`かげつ       |
-| 七箇月   | ななかげつ         |
-| 八箇月   | `はっ`かげつ       |
-| 九箇月   | きゅうかげつ       |
-| 十箇月   | じゅっかげつ       |
-| 十一箇月 | じゅう`いっ`かげつ |
-| 十二箇月 | じゅうにかげつ     |
-| 何箇月   | なんかげつ         |
+#### つ
 
-- 箇 can be written as か, カ, ヵ, ケ or ヶ
-  * regardless the writing, it is always pronounced as か
-- in most cases, when number of months is 3 or more, 箇 is used
+- the original wago form of counting
+- [Japanese Counter 〜つ: Counting Everything and
+  Anything](https://www.tofugu.com/japanese/japanese-counter-tsu/)
+- ビール４つと水１つ、それから枝豆５つください。
+- まだ６つしかアイディアを思いついていません。
 
-### month of year
+#### 個 (こ)
 
-| English     | Japanese | Reading        |
-| ---         | ---      | ---            |
-| January     | 一月     | いちがつ       |
-| February    | 二月     | にがつ         |
-| March       | 三月     | さんがつ       |
-| April       | 四月     | `し`がつ       |
-| May         | 五月     | ごがつ         |
-| June        | 六月     | ろくがつ       |
-| July        | 七月     | `しち`がつ     |
-| August      | 八月     | はちがつ       |
-| September   | 九月     | `く`がつ       |
-| October     | 十月     | じゅうがつ     |
-| November    | 十一月   | じゅういちがつ |
-| December    | 十二月   | じゅうにがつ   |
-| which month | 何月     | なんがつ       |
+- it is a kango; to count things that has a boundary to it
+- [Japanese Counter 個: Count (Almost)
+  Everything](https://www.tofugu.com/japanese/japanese-counter-ko/)
+- りんごが７個あります。
 
-## Days
+#### 本 (ほん)
 
-- 日 can be read as
+- it counts for "stick-shaped or long" things; or thin and long
+  containers if it contains a liquid or gaseous substance; thin and long
+  buildings or structures; thin and long spaces; rolled-up tapes; wind and
+  string instruments; number of connected phone calls; nubmer of runs for
+  a train or bus; in sports, some plays lead to something positive, like a point
+  or a better position; things that have a start and end; number of products
+  (usually software); number of prizes
+- [Japanese Counter 本: 11 Ways to Count Long, Skinny
+  Things](https://www.tofugu.com/japanese/japanese-counter-hon/)
+- 赤い傘は一本しか持っていません。
+- 私は2本時計を着ています。
+- 私の庭には木が三本生えています。
+- 私の眼鏡は四本あります。
+- 今日はコーラを六本も飲んでしまった。
+- 大阪にタワーが一本建っています。
+- 来年、ここに橋が一本架けられる予定だ。
+- 青森県は、もう1本青函トンネルが必要だと主張している。
+- フィルム一本現像するのに、いくらかかると思う？
+- 田中さんは、今日も一本電話をかけてきた。
+- 混んでるから、一本後の電車に乗って行こう。
+- シュートを一本うったがはずれた。
+- この後、講演の仕事が一本入っているんだ。
+- 今週は何本ぐらい記事を書けそうですか？ (from writer's perspective)
+- 今日は3本プロジェクトがあります。
+- 走り込み十本! ヨーイ、スタート！
+- ドラえもんとドラゴンボールの二本立ての映画を見に行った。
+- あのYouTuberは、いつも一日で10本分のビデオを撮りだめするそうだ。
+- あのアナウンサーは、一分で三本のニュースを読み上げた。
+- Counts: pens, pencils, asparagus, soba, darts, firewood, trees, bamboo,
+  cords, threads, dumplings, water wells, injections, folding fans, eels,
+  tails, nail clippers, icicles, fishing rods, film, chimneys, tenugui,
+  trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
+  ribbons, cacti, soda cans, spines, teeth, individual hairs, arms, legs,
+  fingers, blood vessels, rivers, waterways, towers, bridges, tunnels, plastic
+  wrap, tinfoil, wax paper
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一本     | `いっ`ぽん       |
+| 二本     | にほん           |
+| 三本     | さんぼん         |
+| 四本     | よんぼん         |
+| 五本     | ごほん           |
+| 六本     | `ろっ`ぽん       |
+| 七本     | ななほん         |
+| 八本     | はちほん         |
+| 九本     | きゅうほん       |
+| 十本     | `じゅっ`ぽん     |
+| 十一本   | じゅう`いっ`ぽん |
+| 十二本   | じゅうにほん     |
+| 何本     | なんぼん         |
+
+#### 枚 (まい)
+
+- counts flat things
+- [Japanese Counter 枚: Everything
+  Flat](https://www.tofugu.com/japanese/japanese-counter-mai/)
+- it uses kango counting method
+- 田中さんの投げたボールで、窓ガラスが一枚割れてしまった。
+- 私の部屋には壁が四枚あります。
+- 五枚セットのお皿を買いました。
+- 今お財布には、百円玉三枚と、十円玉四枚しか入っていない。
+- どうしてETのDVDを二枚持ってるの？
+- 朝ごはんにクッキーを八十五枚食べた。
+- その絵を一枚売ってくれませんか。
+- 魚を三枚におろせますか？
+- ランチにざる蕎麦を三枚も食べた。
+- 餃子は焼き立てが美味しいから、一枚ずつ頼んだ方がいいよ。
+- Counts: paper, photos, rafts, bath mats, shells, playing cards, credit
+  cards, t-shirts, pants, other clothes, dust cloths, walls, a single serving
+  of soba, a single serving of gyoza
+
+#### 匹 (ひき)
+
+- it counts small or medium-sized animals; if you can pick the animal
+- [Japanese Counter 匹: Animals, Bugs, Wild Children,
+  & More](https://www.tofugu.com/japanese/japanese-counter-hiki/)
+- Counts: dogs, cats, monkeys, fish, prawns, shrimps, lobsters, wolves,
+  rabbits, mosquitoes, shellfish, deer, worms, caterpillars, silkworms,
+  earthworms, frogs, snails, crabs, tortoises, turtles, octopuses, animals,
+  insects, dragonflies, sea otters, ogres, monsters, naughty children,
+  animal-like people
+
+#### 頭 (とう)
+
+- 頭 (とう) counts larger animals
+- [Japanese Counter 頭: For Big, Smart, Professional
+  Animals](https://www.tofugu.com/japanese/japanese-counter-tou/)
+- Counts: cows, horses, livestock, elephants, gorillas, whales, camels,
+  tigers, "professional" animals, insects on display, animals for sale
+
+#### 羽 (わ)
+
+- it counts birds; the exception is rabbit
+- [Japanese Counter 羽 (WA): For Birds, Bats, and
+  Bunnies](https://www.tofugu.com/japanese/japanese-counter-wa/)
+- Counts: chickens, ostriches, peacocks, penguins, other birds, also rabbits,
+  origami cranes
+
+#### 冊 (さつ)
+
+- it counts books
+- [Japanese Counter 冊 (SATSU): Count Your
+  Books](https://www.tofugu.com/japanese/japanese-counter-satsu/)
+- Counts: books, book collections, albums, notebooks, memo pads, musical
+  scores, catalogs, magazines, dictionaries, publications, documents, booklet
+- 私は毎日７冊本を読みます。
+
+#### 台 (だい)
+
+- it counts a variety of fairly unrelated things; it counts platforms you
+  can stand or put things on, machines, cars, large instruments
+- [Japanese Counter 台: Machines, Furniture,
+  & More](https://www.tofugu.com/japanese/japanese-counter-dai/)
+- it counts in kango
+- Counts: playground slides, beds, tables, couches, harps, pianos, cellos,
+  cars, trucks, motors, washing machines, dryers, ovens, air conditioners,
+  microwaves, cellular phones, keyboards
+
+#### 分 (ふん)
+
+- it counts minutes
+- [Japanese Counter 分: For Minutes and Ancient
+  Money](https://www.tofugu.com/japanese/japanese-counter-fun/)
+
+#### 日 (か/にち)
+
+- it counts days
+- [A Guide to the Japanese Counter-ish Word:
+  日 (Days)](https://www.tofugu.com/japanese/japanese-counter-ka-nichi/)
+- it can be read as
   * か (wago)
   * にち (kango)
 
-### counting days
+##### counting days
 
 | Japanese | Reading          |
 | ---      | ---              |
@@ -157,36 +262,6 @@ Reference: [A Guide to the Japanese Counter-ish Word:
 | 十九日   | じゅう`く`にち   |
 | 二十日   | はつか           |
 | 何日     | なんにち         |
-
-### nth day of an event
-
-- 第 (だい) is kango
-- 目 (め) is wago
-  * reading of its numbers is the same as counting days
-- reading of the number depends on 第 is used or not
-
-| Japanese | Reading        |
-| ---      | ---            |
-| 第一日   | だいいちにち   |
-| 第二日   | だいににち     |
-| 第三日   | だいさんにち   |
-| 第四日   | だいよんにち   |
-| 第五日   | だいごにち     |
-| 第六日   | だいろくにち   |
-| 第七日   | だいななにち   |
-| 第八日   | だいはちにち   |
-| 第九日   | だい`く`にち   |
-| 第十日   | だいじゅうにち |
-| 第何日   | だいなんにち   |
-
-| Japanese | Reading        |
-| ---      | ---            |
-| 一日目   | いちにちめ     |
-| 二日目   | ふつかめ       |
-| 三日目   | みっかめ       |
-| 四日目   | よっかめ       |
-
-### days of month
 
 | Japanese | Reading            |
 | ---      | ---                |
@@ -223,9 +298,125 @@ Reference: [A Guide to the Japanese Counter-ish Word:
 | 三十一日 | さんじゅういちにち |
 | 何日     | なんにち           |
 
-## Hours
+##### nth day of an event
 
-### hour of day
+- 第 (だい) is kango
+- 目 (め) is wago
+  * reading of its numbers is the same as counting days
+- reading of the number depends on 第 is used or not
+
+| Japanese | Reading        |
+| ---      | ---            |
+| 第一日   | だいいちにち   |
+| 第二日   | だいににち     |
+| 第三日   | だいさんにち   |
+| 第四日   | だいよんにち   |
+| 第五日   | だいごにち     |
+| 第六日   | だいろくにち   |
+| 第七日   | だいななにち   |
+| 第八日   | だいはちにち   |
+| 第九日   | だい`く`にち   |
+| 第十日   | だいじゅうにち |
+| 第何日   | だいなんにち   |
+
+| Japanese | Reading        |
+| ---      | ---            |
+| 一日目   | いちにちめ     |
+| 二日目   | ふつかめ       |
+| 三日目   | みっかめ       |
+| 四日目   | よっかめ       |
+
+#### 年 (ねん)
+
+- it counts years
+- [A Guide to the Japanese Counter-ish Word:
+  年 (Years)](https://www.tofugu.com/japanese/japanese-counters-nen/)
+
+#### 回 (かい)
+
+- it counts the number of times something happens, or frequency
+- [Japanese Counter 回: Repetitive Actions
+  (Times)](https://www.tofugu.com/japanese/japanese-counter-kai-times/)
+- Counts: the number of times something happens, chances, opportunities,
+  revolutions
+
+#### 人 (り/にん)
+
+- it counts number of people. Beyond people, it can also count things
+  we treat like people, such as figure-like things, and even your pets, if you
+  treat them like family
+- [Japanese Counter 人: People and Smart
+  Animals](https://www.tofugu.com/japanese/japanese-counter-nin/)
+- for one or two people (一人、二人) get counted using the wago counting
+  method; three people and up (三人) are just counted in kango
+
+#### 月 (つき/がつ)
+
+- it counts number of months
+- [A Guide to the Japanese Counter-ish Word:
+  月 (Months)](https://www.tofugu.com/japanese/japanese-counter-tsuki-gatsu-getsu/)
+- 箇 can be written as か, カ, ヵ, ケ or ヶ
+  * regardless the writing, it is always pronounced as か
+- in most cases, when number of months is 3 or more, 箇 is used
+
+##### counting months
+
+| Japanese | Reading    |
+| ---      | ---        |
+| 一月     | ひとつき   |
+| 二月     | ふたつき   |
+| 三月     | みつき     |
+| 四月     | よつき     |
+| 五月     | いつつき   |
+| 六月     | むつき     |
+| 七月     | ななつき   |
+| 八月     | やつき     |
+| 九月     | ここのつき |
+| 十月     | とおつき   |
+| 何月     | なんつき   |
+
+| Japanese | Reading            |
+| ---      | ---                |
+| 一箇月   | `いっ`かげつ       |
+| 二箇月   | にかげつ           |
+| 三箇月   | さんかげつ         |
+| 四箇月   | よんかげつ         |
+| 五箇月   | ごかげつ           |
+| 六箇月   | `ろっ`かげつ       |
+| 七箇月   | ななかげつ         |
+| 八箇月   | `はっ`かげつ       |
+| 九箇月   | きゅうかげつ       |
+| 十箇月   | じゅっかげつ       |
+| 十一箇月 | じゅう`いっ`かげつ |
+| 十二箇月 | じゅうにかげつ     |
+| 何箇月   | なんかげつ         |
+
+##### month of year
+
+| English     | Japanese | Reading        |
+| ---         | ---      | ---            |
+| January     | 一月     | いちがつ       |
+| February    | 二月     | にがつ         |
+| March       | 三月     | さんがつ       |
+| April       | 四月     | `し`がつ       |
+| May         | 五月     | ごがつ         |
+| June        | 六月     | ろくがつ       |
+| July        | 七月     | `しち`がつ     |
+| August      | 八月     | はちがつ       |
+| September   | 九月     | `く`がつ       |
+| October     | 十月     | じゅうがつ     |
+| November    | 十一月   | じゅういちがつ |
+| December    | 十二月   | じゅうにがつ   |
+| which month | 何月     | なんがつ       |
+
+#### 時 (じ)
+
+- it is a unit for hour of the day
+- [Japanese Counters 時 and 時間: Time and
+  Hours](https://www.tofugu.com/japanese/japanese-counter-ji-jikan/)
+- 午前 (ごぜん)
+- 午後 (ごご)
+- 半 (はん)
 
 | Hour     | Reading        |
 | ---      | ---            |
@@ -255,11 +446,13 @@ Reference: [A Guide to the Japanese Counter-ish Word:
 | 二十四時 | にじゅう`よ`じ |
 | 何時     | なんじ         |
 
-- 午前 (ごぜん)
-- 午後 (ごご)
-- 半 (はん)
+#### 時間 (じかん)
 
-### counting hours
+- it counts number of hours
+- [Japanese Counters 時 and 時間: Time and
+  Hours](https://www.tofugu.com/japanese/japanese-counter-ji-jikan/)
+- 学校の昼休みは２時間もある。
+- 二時間後に会いましょう。
 
 | Japanese | Reading          |
 | ---      | ---              |
@@ -280,8 +473,7 @@ Reference: [A Guide to the Japanese Counter-ish Word:
 | 十五時間 | じゅうごじかん   |
 | 何時間   | なんじかん       |
 
-
-### counting number of classes
+##### counting number of classes
 
 | Japanese | English      |
 | ---      | ---          |
@@ -289,28 +481,11 @@ Reference: [A Guide to the Japanese Counter-ish Word:
 | 四時間   | four classes |
 | 四時間目 | fourth class |
 
-## 本
+#### 階 (かい)
 
-Reference: [Japanese Counter 本: 11 Ways to Count Long, Skinny
-Things](https://www.tofugu.com/japanese/japanese-counter-hon/)
-
-| Japanese | Reading          |
-| ---      | ---              |
-| 一本     | `いっ`ぽん       |
-| 二本     | にほん           |
-| 三本     | さんぼん         |
-| 四本     | よんぼん         |
-| 五本     | ごほん           |
-| 六本     | `ろっ`ぽん       |
-| 七本     | ななほん         |
-| 八本     | はちほん         |
-| 九本     | きゅうほん       |
-| 十本     | `じゅっ`ぽん     |
-| 十一本   | じゅう`いっ`ぽん |
-| 十二本   | じゅうにほん     |
-| 何本     | なんぼん         |
-
-## Floors
+- it counts building floors
+- [Japanese Counter 階: Floors of
+  a Building](https://www.tofugu.com/japanese/japanese-counter-kai-floors/)
 
 | Japanese | Reading      |
 | ---      | ---          |
@@ -325,123 +500,10 @@ Things](https://www.tofugu.com/japanese/japanese-counter-hon/)
 | 九階     | きゅうかい   |
 | 十階     | `じゅっ`かい |
 
-## Counters
+#### 歳 (さい)
 
-Reference: [350 Japanese Counters Grouped by How Useful They
-Are](https://www.tofugu.com/japanese/japanese-counters-list/)
-
-### Core
-
-- つ; the original wago form of counting
-  * ビール４つと水１つ、それから枝豆５つください。
-  * まだ６つしかアイディアを思いついていません。
-
-- 個 (こ) is a kango; to count things that has a boundary to it
-  * りんごが７個あります。
-
-- 本 (ほん) counts for "stick-shaped or long" things; or thin and long
-  containers if it contains a liquid or gaseous substance; thin and long
-  buildings or structures; thin and long spaces; rolled-up tapes; wind and
-  string instruments; number of connected phone calls; nubmer of runs for
-  a train or bus; in sports, some plays lead to something positive, like a point
-  or a better position; things that have a start and end; number of products
-  (usually software); number of prizes
-  * 赤い傘は一本しか持っていません。
-  * 私は2本時計を着ています。
-  * 私の庭には木が三本生えています。
-  * 私の眼鏡は四本あります。
-  * 今日はコーラを六本も飲んでしまった。
-  * 大阪にタワーが一本建っています。
-  * 来年、ここに橋が一本架けられる予定だ。
-  * 青森県は、もう1本青函トンネルが必要だと主張している。
-  * フィルム一本現像するのに、いくらかかると思う？
-  * 田中さんは、今日も一本電話をかけてきた。
-  * 混んでるから、一本後の電車に乗って行こう。
-  * シュートを一本うったがはずれた。
-  * この後、講演の仕事が一本入っているんだ。
-  * 今週は何本ぐらい記事を書けそうですか？ (from writer's perspective)
-  * 今日は3本プロジェクトがあります。
-  * 走り込み十本! ヨーイ、スタート！
-  * ドラえもんとドラゴンボールの二本立ての映画を見に行った。
-  * あのYouTuberは、いつも一日で10本分のビデオを撮りだめするそうだ。
-  * あのアナウンサーは、一分で三本のニュースを読み上げた。
-  * Counts: pens, pencils, asparagus, soba, darts, firewood, trees, bamboo,
-    cords, threads, dumplings, water wells, injections, folding fans, eels,
-    tails, nail clippers, icicles, fishing rods, film, chimneys, tenugui,
-    trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
-    ribbons, cacti, soda cans, spines, teeth, individual hairs, arms, legs,
-    fingers, blood vessels, rivers, waterways, towers, bridges, tunnels, plastic
-    wrap, tinfoil, wax paper
-
-- 枚 (まい) counts flat things
-  * it uses kango counting method
-  * 田中さんの投げたボールで、窓ガラスが一枚割れてしまった。
-  * 私の部屋には壁が四枚あります。
-  * 五枚セットのお皿を買いました。
-  * 今お財布には、百円玉三枚と、十円玉四枚しか入っていない。
-  * どうしてETのDVDを二枚持ってるの？
-  * 朝ごはんにクッキーを八十五枚食べた。
-  * その絵を一枚売ってくれませんか。
-  * 魚を三枚におろせますか？
-  * ランチにざる蕎麦を三枚も食べた。
-  * 餃子は焼き立てが美味しいから、一枚ずつ頼んだ方がいいよ。
-  * Counts: paper, photos, rafts, bath mats, shells, playing cards, credit
-    cards, t-shirts, pants, other clothes, dust cloths, walls, a single serving
-    of soba, a single serving of gyoza
-
-- 匹 (ひき) counts small or medium-sized animals; if you can pick the animal
-  * Counts: dogs, cats, monkeys, fish, prawns, shrimps, lobsters, wolves,
-    rabbits, mosquitoes, shellfish, deer, worms, caterpillars, silkworms,
-    earthworms, frogs, snails, crabs, tortoises, turtles, octopuses, animals,
-    insects, dragonflies, sea otters, ogres, monsters, naughty children,
-    animal-like people
-
-- 頭 (とう) counts larger animals
-  * Counts: cows, horses, livestock, elephants, gorillas, whales, camels,
-    tigers, "professional" animals, insects on display, animals for sale
-
-- 羽 (わ) counts birds; the exception is rabbit
-  * Counts: chickens, ostriches, peacocks, penguins, other birds, also rabbits,
-    origami cranes
-
-- 冊 (さつ) counts books
-  * Counts: books, book collections, albums, notebooks, memo pads, musical
-    scores, catalogs, magazines, dictionaries, publications, documents, booklet
-  * 私は毎日７冊本を読みます。
-
-- 台 (だい) counts a variety of fairly unrelated things; it counts platforms you
-  can stand or put things on, machines, cars, large instruments
-  * Counts: playground slides, beds, tables, couches, harps, pianos, cellos,
-    cars, trucks, motors, washing machines, dryers, ovens, air conditioners,
-    microwaves, cellular phones, keyboards
-
-- 分 (ふん) counts minutes
-
-- 日 (か/にち) counts days
-
-- 年 (ねん) counts years
-
-- 回 (かい) counts the number of times something happens, or frequency
-  * Counts: the number of times something happens, chances, opportunities,
-    revolutions
-
-- 人 (り/にん) counts number of people. Beyond people, it can also count things
-  we treat like people, such as figure-like things, and even your pets, if you
-  treat them like family
-  * for one or two people (一人、二人) get counted using the wago counting
-    method; three people and up (三人) are just counted in kango
-
-- 月 (つき/がつ) counts number of months
-
-- 時 (じ) is a unit for hours
-
-- 時間 (じかん) counts number of hours
-  * 学校の昼休みは２時間もある。
-  * 二時間後に会いましょう。
-
-- 階 (かい) counts building floors
-
-- 歳 (さい) counts age; 才 (さい) is for the same thing
+- it counts age
+- 才 (さい) is for the same thing
 
 ### optional
 
