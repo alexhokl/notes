@@ -62,6 +62,8 @@
   * [Garbage collection](#garbage-collection)
   * [Cryptography](#cryptography)
   * [HTTP server](#http-server-1)
+  * [Type alias](#type-alias)
+  * [Tools](#tools)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Ko](#ko)
@@ -1886,6 +1888,70 @@ func (ts *TweetStorage) CreateTweet(creatorID int, content string) (*Tweet, erro
   row := ts.db.QueryRow("INSERT INTO tweets ...")
   // more code to follow
 }
+```
+
+### Type alias
+
+#### Creating a type
+
+The following are two distinct types.
+
+```go
+type Celsius float64
+type Fahrenheit float64
+```
+It improves type safety by preventing us from accidentally passing `Celsius` to
+a function expecting `Fahrenheit`.
+
+When creating a type definition, it contains the fields of the underlying data
+type but not its method.
+
+#### Creating a type alias
+
+```go
+type Celsius = float64
+type Manager = Employee
+type Pair[T any] = oldpkg.Pair[T]
+```
+
+Type alias is particularly useful during a refactoring process where renaming is
+planned.
+
+### Tools
+
+Dependencies not built into the final executable (or non-production) used to
+managed by adding `tools.go` with content like the following.
+
+```go
+import (
+  _ gitHub.com/username/some_package;
+)
+```
+
+Since version `1.24`, command `tool` can be used instead.
+
+##### To add a tool
+
+```sh
+go get -tool go.uber.org/mock/mockgen@latest
+```
+
+##### To list tools
+
+```sh
+go tool
+```
+
+##### To update all tools
+
+```sh
+go get -u tool
+```
+
+##### To install all tools
+
+```sh
+go install tool
 ```
 
 ## Charm
