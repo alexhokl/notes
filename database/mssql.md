@@ -470,6 +470,36 @@ issue and consider enlarging the size of the instance.
     foreign keys, or indexes to import a large amount of data
   * see section [Untrusted constraints](#untrusted-constraints)
 
+#### Memory grant
+
+Adaptive Query processing is a feature available since SQL Server 2017 and it
+improves the performance of the queries by adjusting the memory grant based on
+the actual data processed in previous executions. In subsequent executions of
+the same query, the memory grant is adjusted automatically and it may lead to
+a better execution plan or less memory grant waiting.
+
+Row mode memory grant feedback is a feature available since SQL Server 2019 and
+it can be enabled by
+
+```sql
+ALTER DATABASE SCOPED CONFIGURATION SET ROW_MODE_MEMORY_GRANT_FEEDBACK = ON;
+```
+
+or disabled by
+
+```sql
+ALTER DATABASE SCOPED CONFIGURATION SET ROW_MODE_MEMORY_GRANT_FEEDBACK = OFF;
+```
+
+To troubleshoot memory grant updates, extended event
+`query_post_execution_showplan` can be used. The event is fired after a SQL
+statement is executed. This event can be found in XML representation of the
+actual query plan. Note that enabling this event can create a significant amount
+of performance overhead, so it should be used only when troubleshooting or
+monitoring specific problems for brief periods of time.
+
+#### Other topics
+
 ##### To grant permission to view execution plans
 
 - if the user has role `sysadmin`, `dbcreator` or `db_owner`, the user has the
@@ -811,12 +841,22 @@ Columns](http://www.sqlservertutorial.net/sql-server-indexes/sql-server-indexes-
       `package0.event_file` -> `View Target Data`
     + resource section shows the contention
 
-#### Deadlock priority
+#### Schema locks
 
-- `DEADLOCK_PRIORITY` can be set to allow database to choose which session to
-  kill
-  * it is set to `NORMAL` or `0` by default
-  * the higher the number or level, the better chance the session will survive
+- types
+  * SCH-S – schema stability lock
+  * SCH-M - schema modification lock
+- SCH-S
+  * it is acquired by DML statements and held for duration of the statement
+  * it will be acquired even in read uncommitted level
+  * multiple SCH-S locks on the same table by different queries can be granted
+    at the same time
+    + however, it blocks acquiring of SCH-M (from an alter table operation) and
+      intent lock (IX) (from an insert statement).
+- SCH-M
+  * it is acquired by sessions that are altering the metadata and live for
+    duration of transaction
+  * this lock can be described as super-exclusive lock
 
 #### Transactions read data before an update
 
@@ -826,6 +866,13 @@ Columns](http://www.sqlservertutorial.net/sql-server-indexes/sql-server-indexes-
   * hint `WITH (UPDLOCK)` can be used in the read operation to acquire `U-lock`
     instead of `S-lock` during the read operation; the other transaction will
     wait for the `U-lock` to be released and, thus, avoid deadlock
+
+#### Deadlock priority
+
+- `DEADLOCK_PRIORITY` can be set to allow database to choose which session to
+  kill
+  * it is set to `NORMAL` or `0` by default
+  * the higher the number or level, the better chance the session will survive
 
 ##### To check deadlock priority
 
@@ -1179,6 +1226,15 @@ RECONFIGURE WITH OVERRIDE
 GO
 EXEC sys.sp_configure N'show advanced options', N'0'  RECONFIGURE WITH OVERRIDE
 GO
+```
+
+##### To limit parallelism per query
+
+```sql
+SELECT *
+FROM Sales.SalesOrderDetail
+ORDER BY ProductID
+OPTION (MAXDOP 1)
 ```
 
 ##### To find out the suggested MAXDOP setting
