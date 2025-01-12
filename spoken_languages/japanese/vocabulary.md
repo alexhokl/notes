@@ -15,25 +15,26 @@
   * [N4](#n4)
     + [Nouns](#nouns-1)
     + [Nouns (position)](#nouns-position-1)
-    + [Adjectives](#adjectives)
+    + [Adjectives (い)](#adjectives-%E3%81%84-1)
     + [Pronouns (person)](#pronouns-person-1)
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
     + [Verbs](#verbs-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
-    + [Adjectives](#adjectives-1)
+    + [Adjectives](#adjectives)
+    + [Adjectives (な)](#adjectives-%E3%81%AA-1)
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
     + [Verbs](#verbs-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
-    + [Adjectives](#adjectives-2)
+    + [Adjectives](#adjectives-1)
     + [Adverbs](#adverbs-3)
     + [Verbs](#verbs-3)
   * [N1](#n1)
     + [Nouns](#nouns-4)
-    + [Adjectives](#adjectives-3)
+    + [Adjectives](#adjectives-2)
     + [Verbs](#verbs-4)
 ____
 
@@ -76,6 +77,7 @@ ____
 - 辞書 (じしょ) - dictionary
 - ノート - notebook
 - 写真 (しゃしん) - photograph
+- 切手 (きって) - stamp
 - 質問 (しつもん) - question
 - 問題 (もんだい) - problem (question)
 - 練習 (れんしゅう) - practice
@@ -90,7 +92,11 @@ ____
 - 郵便局 (ゆうびんきょく) - post office
 - 図書館 (としょかん) - library
 - 病院 (びょういん) - hospital
+- デパート - department store
+- ホテル - hotel
 - 建物 (たてもの) - building
+- マンション - condominium / apartment building
+- ビル - multi-storey building
 - 公園 (こうえん) - park
 - 駅 (えき) - train station
 - 電車 (でんしゃ) - train
@@ -133,6 +139,7 @@ ____
 - 夏 (なつ) - summer
 - 秋 (あき) - autumn
 - 冬 (ふゆ) - winter
+- 口 (くち) - mouth
 - 一緒 (いっしょ) - together / the same
 
 ### Nouns (position)
@@ -284,12 +291,14 @@ ____
 - 値段 (ねだん) - price / cost
 - うち - home
 - 先輩 (せんぱい) - senior
+- 市 (し) - city
+- 工場 (こうじょう) - factory
 
 ### Nouns (position)
 
 - 隅 (すみ) - corner
 
-### Adjectives
+### Adjectives (い)
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
@@ -338,7 +347,10 @@ ____
 ### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23adjective)
-- どんな - what kind of
+
+### Adjectives (な)
+
+- 新鮮 (しんせん) - fresh
 
 ### Pronouns (person)
 
@@ -392,6 +404,7 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n1%20%23noun)
 - 階 (かい) - floor
 - インフォメーション - information
+- 区 (く) - ward / district
 
 ### Adjectives
 

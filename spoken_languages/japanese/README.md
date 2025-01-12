@@ -305,6 +305,8 @@ ____
 
 - スーパー (sūpā) - supermarket
 - 本屋 (ほんや) - bookstore
+- 洋書 (ようしょ) - book in foreign language
+- 地下街 (ちかがい) - underground shopping street
 - 風呂場 (ふろば) - bathroom
 
 ## Payment
