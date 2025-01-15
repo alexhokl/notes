@@ -35,7 +35,7 @@ ____
 
 | Arabic | Wago          | Kango       | Gairaigo   |
 | ---    | ---           | ---         | ---        |
-| 0      | なし          | れん        | ゼロ       |
+| 0      | なし          | れい        | ゼロ       |
 | 1      | ひとつ / ひ   | いち        | ワン       |
 | 2      | ふたつ / ふ   | に          | ツー       |
 | 3      | みっつ / み   | さん        | スリー     |
@@ -53,6 +53,15 @@ ____
 | 1000      | 千    | せん   |
 | 10000     | 万    | まん   |
 | 100000000 | 億    | おく   |
+
+- exceptions in reading for larger numbers
+
+| Numeral   | 百 (ひゃく) | 千 (せん) |
+| ---       | ---         | ---       |
+| 300       | さんびゃく  | さんぜん  |
+| 600       | ろっぴゃく  |           |
+| 800       | はっぴゃく  | はっせん  |
+| 何 (なん) | なんびゃく  | なんぜん  |
 
 - Kango sound of 4, 7, 9 has alternatives to avoid sounds like 死 (し), 苦 (く),
   一(いち) or 四(し)
@@ -91,6 +100,8 @@ References
 - the original wago form of counting
 - [Japanese Counter 〜つ: Counting Everything and
   Anything](https://www.tofugu.com/japanese/japanese-counter-tsu/)
+- when ordering from a menu, no matter it is a drink or a dish or whatever
+  shape, always use つ to count the number of items
 - ビール４つと水１つ、それから枝豆５つください。
 - まだ６つしかアイディアを思いついていません。
 
@@ -100,6 +111,20 @@ References
 - [Japanese Counter 個: Count (Almost)
   Everything](https://www.tofugu.com/japanese/japanese-counter-ko/)
 - りんごが７個あります。
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一個     | `いっこ`         |
+| 二個     | にこ             |
+| 三個     | さんこ           |
+| 四個     | よんこ           |
+| 五個     | ごこ             |
+| 六個     | `ろっこ`         |
+| 七個     | ななこ           |
+| 八個     | `はっこ`         |
+| 九個     | きゅうこ         |
+| 十個     | `じゅっこ`       |
+| 何個     | なんこ           |
 
 #### 本 (ほん)
 
@@ -141,19 +166,18 @@ References
 
 | Japanese | Reading          |
 | ---      | ---              |
-| 一本     | `いっ`ぽん       |
+| 一本     | `いっぽん`       |
 | 二本     | にほん           |
-| 三本     | さんぼん         |
-| 四本     | よんぼん         |
+| 三本     | `さんぼん`       |
+| 四本     | `よんぼん`       |
 | 五本     | ごほん           |
-| 六本     | `ろっ`ぽん       |
+| 六本     | `ろっぽん`       |
 | 七本     | ななほん         |
 | 八本     | はちほん         |
 | 九本     | きゅうほん       |
-| 十本     | `じゅっ`ぽん     |
-| 十一本   | じゅう`いっ`ぽん |
-| 十二本   | じゅうにほん     |
-| 何本     | なんぼん         |
+| 十本     | `じゅっぽん`     |
+| 十一本   | `じゅういっぽん` |
+| 何本     | `なんぼん`       |
 
 #### 枚 (まい)
 
@@ -185,6 +209,20 @@ References
   earthworms, frogs, snails, crabs, tortoises, turtles, octopuses, animals,
   insects, dragonflies, sea otters, ogres, monsters, naughty children,
   animal-like people
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一匹     | `いっぴき`       |
+| 二匹     | にひき           |
+| 三匹     | `さんびき`       |
+| 四匹     | よんひき         |
+| 五匹     | ごひき           |
+| 六匹     | `ろっぴき`       |
+| 七匹     | ななひき         |
+| 八匹     | `はっぴき`       |
+| 九匹     | きゅうひき       |
+| 十匹     | `じゅっぴき`     |
+| 何匹     | `なんびき`       |
 
 #### 頭 (とう)
 
@@ -349,6 +387,20 @@ References
   Animals](https://www.tofugu.com/japanese/japanese-counter-nin/)
 - for one or two people (一人、二人) get counted using the wago counting
   method; three people and up (三人) are just counted in kango
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一人     | `ひとり`         |
+| 二人     | `ふたり`         |
+| 三人     | さんにん         |
+| 四人     | `よにん`         |
+| 五人     | ごにん           |
+| 六人     | ろくにん         |
+| 七人     | ななにん         |
+| 八人     | はちにん         |
+| 九人     | きゅうにん       |
+| 十人     | じゅうにん       |
+| 何人     | なんにん         |
 
 #### 月 (つき/がつ)
 
@@ -604,6 +656,20 @@ References
     squid
   * 靴下３足で５００円だって。
 
+| Japanese | Reading          |
+| ---      | ---              |
+| 一足     | `いっそく`       |
+| 二足     | にそく           |
+| 三足     | `さんぞく`       |
+| 四足     | よんそく         |
+| 五足     | ごそく           |
+| 六足     | ろくそく         |
+| 七足     | ななそく         |
+| 八足     | `はっそく`       |
+| 九足     | きゅうそく       |
+| 十足     | `じゅっそく`     |
+| 何足     | `なんぞく`       |
+
 - 束 (たば) counts bunches or bundles of things
   * use wago counting method for number is 2 or below; kango, otherwise
 
@@ -658,6 +724,20 @@ References
     experiences, series of actions, divided actions, degrees, temperature
 
 - 杯 (はい) counts liquids in cups or bowls
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一杯     | `いっぱい`       |
+| 二杯     | にはい           |
+| 三杯     | `さんぱい`       |
+| 四杯     | よんはい         |
+| 五杯     | ごはい           |
+| 六杯     | `ろっぱい`       |
+| 七杯     | ななはい         |
+| 八杯     | `はっぱい`       |
+| 九杯     | きゅうはい       |
+| 十杯     | `じゅっぱい`     |
+| 何杯     | `なんぱい`       |
 
 - 泊 (はく) counts overnight stays or rentals
 

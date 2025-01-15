@@ -113,6 +113,7 @@ ____
 - ベッド - bed
 - 窓 (まど) - window
 - テレビ - television
+- 冷蔵庫 (れいぞうこ) - refrigerator
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
 - 財布 (さいふ) - wallet / purse
@@ -256,6 +257,7 @@ ____
 - 多分 (たぶん) - maybe / probably
 - 余り (あまり) - not very / not much
 - 些とも (ちっとも) - not at all
+- 幾つ (いくつ) - how many
 
 ### Conjunctions
 
