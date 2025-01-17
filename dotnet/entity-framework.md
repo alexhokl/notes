@@ -40,6 +40,7 @@
     + [Applying migration](#applying-migration)
     + [Generating migration scripts](#generating-migration-scripts)
   * [Logging](#logging)
+    + [Tagging](#tagging)
   * [Pagination](#pagination)
   * [Change tracking](#change-tracking)
     + [Setting values](#setting-values)
@@ -1345,6 +1346,26 @@ options.UseSqlServer(Configuration.GetConnectionString("LocalDB"))
         builder.AddConsole().AddDebug();
     }))
     .EnableSensitiveDataLogging();
+```
+
+### Tagging
+
+Tagging allows generated SQL queries to be eaisly identified in logs.
+
+```csharp
+var publishedBlogPosts = dbContext.BlogPosts
+    .Where(b => b.PublishedAt != null)
+    .TagWith("Getting published blog posts")
+    .ToList();
+```
+
+which proceduces
+
+```sql
+-- Getting published blog posts
+SELECT [b].[BlogPostId], [b].[Content], [b].[PublishedAt], [b].[Title]
+      FROM [BlogPosts] AS [b]
+      WHERE [b].[PublishedAt] IS NOT NULL
 ```
 
 ## Pagination
