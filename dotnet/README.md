@@ -24,6 +24,7 @@
     + [Prometheus](#prometheus)
     + [OpenTelemetry](#opentelemetry)
     + [Regular Expression (regex)](#regular-expression-regex)
+    + [Dictionaries](#dictionaries)
     + [Workarounds](#workarounds)
 - [.NET (Classic)](#net-classic)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
@@ -1512,6 +1513,29 @@ static partial class Example
 ```
 
 This ignores `RegexOptions.Compiled` automatically.
+
+### Dictionaries
+
+- `Hashtable`
+  * good read speed (no lock required)
+  * about as lightweight as dictionary
+  * more expensive to mutate
+  * no generics
+- `Dictionary`
+  * as an immutable object
+    + best read speed
+    + lightweight to create but heavy update
+      + copy and modify on mutation
+- `ConcurrentDictionary`
+  * good read speed even in the face of concurrency
+  * it is a heavyweight object to create and slower to update
+  * better than a dictionary with lock
+    + poor read speed
+    + lightweight to create
+    + “medium” update speed
+- `ImmutableDictionary`
+  * poorish read speed
+  * no locking required but more allocations require to update than a dictionary
 
 ### Workarounds
 
