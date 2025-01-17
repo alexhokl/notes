@@ -924,6 +924,38 @@ catch (OperationCanceledException)
 - `Task.Result`
 - `async void` - but there are exceptions
 
+#### GetResult
+
+The following code is not recommended.
+
+```csharp
+void DoSomething()
+{
+    DoSomethingElseAsync().Wait();
+    DoSomethingElseAsync().GetAwaiter().GetResult();
+    var result = CalculateSomethingAsync().Result;
+}
+```
+
+It can be replaced with the following.
+
+```csharp
+void DoSomething()
+{
+    // to manage SynchronizationContext
+    var context = new JoinableTaskContext();
+
+    var joinableTaskFactory = new JoinableTaskFactory(context);
+
+    joinableTaskFactory.Run(async delegate
+    {
+        await DoSomethingElseAsync();
+        await DoSomethingElseAsync();
+        var result = await CalculateSomethingAsync();
+    });
+}
+```
+
 #### Tricks
 
 - if `return await` and the is no `try`/`catch` or `using`, keyword `async` and
