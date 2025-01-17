@@ -356,6 +356,8 @@ ____
 
 - [Stirling PDF](https://github.com/StirlingPDF/Stirling-PDF) - a docker image
   for web-based PDF manipulation
+- [diffoscope](https://try.diffoscope.org/) - a tool to compare zip of any files
+  or directories and it compares PDF well
 
 ### Project management
 
