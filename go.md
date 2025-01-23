@@ -28,6 +28,7 @@
 - [Language](#language)
   * [Error handling](#error-handling)
   * [main function](#main-function)
+  * [init](#init)
   * [Functional options](#functional-options)
   * [Interface](#interface)
   * [Empty interface and pointer](#empty-interface-and-pointer)
@@ -38,6 +39,7 @@
   * [Iterator functions](#iterator-functions)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
+  * [Semaphore](#semaphore)
   * [errgroup](#errgroup)
   * [Context](#context)
   * [SIGTERM handling](#sigterm-handling)
@@ -64,12 +66,14 @@
   * [HTTP server](#http-server-1)
   * [Type alias](#type-alias)
   * [Tools](#tools)
+  * [Multiline string](#multiline-string)
+  * [Vendoring](#vendoring)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Ko](#ko)
   * [Commands](#commands-1)
 - [Vs Rust](#vs-rust)
-____
+___
 
 ## Links
 
@@ -341,6 +345,40 @@ go test --short all
 go test -fuzz
 ```
 
+###### To test with race detector
+
+```sh
+go test -race -v ./...
+```
+
+###### To run benchmarking tests
+
+```sh
+go test -bench=.
+```
+
+Note that, by default, it benchmarks on CPU only.
+
+Note that `.` after `-bench` is a regular expression to match the name of the
+test (not test file).
+
+To benchmark on both CPU and memory,
+
+```sh
+go test -bench=. -benchmem
+```
+
+To create profile at the same time,
+
+```sh
+$ go test -bench=BenchmarkFindPalindromes \
+	-count=10 \
+	-benchmem \
+	-memprofile ./benchmarking/wordlens/benchmarks/unoptimized.mem.prof \
+	-cpuprofile ./benchmarking/wordlens/benchmarks/unoptimized.cpu.prof \
+	./benchmarking/wordlens/unoptimized | tee ./benchmarking/wordlens/benchmarks/unoptimized.bench.txt
+```
+
 ### Modules
 
 ###### To list all module dependencies
@@ -470,6 +508,12 @@ func run(args []string, stdout io.Writer) error {
 Reference: [Why you shouldn't use func main in
 Go](https://pace.dev/blog/2020/02/12/why-you-shouldnt-use-func-main-in-golang-by-mat-ryer.html)
 
+### init
+
+`init` function is used to initialise a package. It is called after all the
+variables in the package have been initialised. This behaviour is difficult to
+understand and it is not recommended to use `init` function.
+
 ### Functional options
 
 Reference: [Functional options for friendly
@@ -559,7 +603,7 @@ easier to implement. Big interface can be created by composing using smaller
 interfaces.
 
 Usually interface is named with what its functions do. For instance, `io.Writer`
-has function `Write`.
+has function `Write`. The naming convention is to suffix with `er`.
 
 Although name of arguments and return values used in an interface are not
 enforced in the types that implement the interface, it is encouraged to name
@@ -824,6 +868,45 @@ The following code does not produce a Fibonacci sequence just over 100 but `[0
 applied. It implies `i` would never reach `2` although `fib` array does expand
 properly to size of `4` by the end of the algorithm.
 
+#### Internal interface only specify part of the public interface
+
+Assuming the public interface is defined as following.
+
+```go
+type PublicWriter interface {
+  A()
+  B()
+  C()
+  D()
+}
+```
+
+and also assuming we only use/care about function `C`, we can define an internal
+interface.
+
+```go
+type internalWriter interface {
+  C()
+}
+```
+
+In this way a type can easily implement the internal interface for testing.
+
+```go
+type TestWriter struct {}
+
+func (t TestWriter) C() {
+  fmt.Println("C")
+}
+```
+
+But the actual type can be satisfied as well.
+
+```go
+actualWriter := publicpackage.NewWriter()
+actualWriter.C()
+```
+
 ### Maps and pointers
 
 `map` is a reference object to the underlying `hmap` hash map object.
@@ -951,6 +1034,194 @@ channels](https://www.campoy.cat/blog/justforfunc-26-nil-chans/)
   `defer close(c)` should be used to ensure the channel is closed
 - a close channel does not blocks; thus, to finish the channel, it should be set
   to `nil`
+
+#### server timeout
+
+```go
+func greetHandler(w http.ResponseWriter, r *http.Request) {
+	log.Println("Handling greeting request")
+	defer log.Println("Handled greeting request")
+
+	completeAfter := time.After(5 * time.Second)
+
+	for {
+		select {
+		case <-completeAfter:
+			fmt.Fprintln(w, "Hello Gopher!")
+			return
+		default:
+			time.Sleep(1 * time.Second)
+			log.Println("Greetings are hard. Thinking...")
+		}
+	}
+}
+
+func main() {
+	http.HandleFunc("/", greetHandler)
+	log.Println("Server listening on :8080...")
+	log.Fatal(http.ListenAndServe("127.0.0.1:8080", nil))
+}
+```
+
+`time.After` returns a channel that will send a signal after the specified time.
+
+#### handling request cancellation
+
+```go
+func greetHandler(w http.ResponseWriter, r *http.Request) {
+	log.Println("Handling greeting request")
+	defer log.Println("Handled greeting request")
+
+	completeAfter := time.After(5 * time.Second)
+	ctx := r.Context()
+
+	for {
+		select {
+		case <-completeAfter:
+			fmt.Fprintln(w, "Hello Gopher!")
+			return
+		case <-ctx.Done():
+			err := ctx.Err()
+			log.Printf("Context Error: %s", err.Error())
+			return
+		default:
+			time.Sleep(1 * time.Second)
+			log.Println("Greetings are hard. Thinking...")
+		}
+	}
+}
+
+func main() {
+	http.HandleFunc("/", greetHandler)
+	log.Println("Server listening on :8080...")
+	log.Fatal(http.ListenAndServe("127.0.0.1:8080", nil))
+}
+```
+
+The key is to handle `Done` channel of the context object of request object.
+
+#### Worker pool
+
+```go
+listOfInputs := []int{1, 2, 3, 4, 5}
+numWorkers := runtime.NumCPU()
+inputsChan := make(chan int, numWorkers) // assuming imput type is int
+resultsChan := make(chan int) // assuming result type is int
+
+for i := 0; i < cap(inputsChan); i++ { // numWorkers also acceptable here
+  // initialise workers but the work would not start until inputs are sent from
+  // inputsChan channel
+  go worker(otherParameters, inputsChan, resultsChan)
+}
+
+go func() {
+  for _, p := range listOfInputs {
+    inputsChan <- p
+  }
+}()
+
+var results []int
+for i := 0; i < len(listOfInputs); i++ {
+  if p := <-resultsChan; p != 0 { // non-zero port means it's open
+    results = append(results, p)
+  }
+}
+
+close(inputsChan)
+close(resultsChan)
+
+fmt.Println("RESULTS")
+sort.Ints(results)
+for _, p := range results {
+  fmt.Printf("%d\n", p)
+}
+```
+
+where `worker` contains the actual logic of the work.
+
+### Semaphore
+
+The advantage of using semaphore could be avoiding the use of channels in some
+of the cases which leads to more readable code.
+
+#### Basic
+
+```go
+listOfInputs := []int{1, 2, 3, 4, 5}
+numWorkers := runtime.NumCPU()
+
+sem := semaphore.NewWeighted(int64(numWorkers))
+results := make([]int, 0)
+ctx := context.TODO()
+
+for _, i := range listOfInputs {
+  if err := sem.Acquire(ctx, 1); err != nil {
+    fmt.Printf("Failed to acquire semaphore: %v", err)
+    break
+  }
+
+  go func(input int) {
+    defer sem.Release(1)
+    p := worker(otherParameters, input)
+    if p != 0 {
+      results = append(results, p)
+    }
+  }(i)
+}
+
+// We block here until done.
+if err := sem.Acquire(ctx, int64(numWorkers)); err != nil {
+  fmt.Printf("Failed to acquire semaphore: %v", err)
+}
+
+fmt.Println("RESULTS")
+sort.Ints(results)
+for _, p := range results {
+  fmt.Printf("%d\n", p)
+}
+```
+
+where `worker` contains the actual logic of the work.
+
+#### With timeout
+
+```go
+listOfInputs := []int{1, 2, 3, 4, 5}
+numWorkers := runtime.NumCPU()
+
+sem := semaphore.NewWeighted(int64(numWorkers))
+results := make([]int, 0)
+ctx, cancel := context.WithTimeout(context.Background(), time.Duration(timeout)*time.Second)
+defer cancel()
+
+for _, i := range listOfInputs {
+  if err := sem.Acquire(ctx, 1); err != nil {
+    fmt.Printf("Failed to acquire semaphore: %v", err)
+    break
+  }
+
+  go func(input int) {
+    defer sem.Release(1)
+    p := worker(otherParameters, input)
+    if p != 0 {
+      results = append(results, p)
+    }
+  }(i)
+}
+
+// We block here until done.
+if err := sem.Acquire(ctx, int64(numWorkers)); err != nil {
+  fmt.Printf("Failed to acquire semaphore: %v", err)
+}
+
+fmt.Println("RESULTS")
+sort.Ints(results)
+for _, p := range results {
+  fmt.Printf("%d\n", p)
+}
+```
+
+where `worker` contains the actual logic of the work.
 
 ### errgroup
 
@@ -1321,6 +1592,25 @@ func TestValidateDate(t *testing.T) {
 }
 ```
 
+If there is a lot of properties involved or the object is very nested,
+`DeepEqual` can be used instead.
+
+```go
+if !reflect.DeepEqual(tc.want, got) {
+  t.Fatalf("expected: %v, got: %v", tc.want, got)
+}
+```
+
+#### Parallel testing
+
+```go
+t.Parallel()
+```
+
+indicates that preparation has been completed and the code followed can be run
+in parallel. It implies that test scheduler will wait for all the test reach
+this `t.Parallel()` before running them in parallel.
+
 #### Fuzz testing
 
 ```go
@@ -1337,6 +1627,69 @@ func FuzzEnglish(f *testing.F) {
 
 - There must be exactly one fuzz target per fuzz test.
 - Fuzzing argument can only be primitive types.
+
+#### Benchmarking
+
+```go
+func fib(n int) int {
+	if n < 2 {
+		return n
+	}
+	return fib(n-1) + fib(n-2)
+}
+
+func benchFib(i int, b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		fib(i)
+	}
+}
+
+func BenchmarkFib1(b *testing.B) { benchFib(1, b)}
+func BenchmarkFib10(b *testing.B) { benchFib(10, b)}
+func BenchmarkFib20(b *testing.B) { benchFib(20, b)}
+```
+
+To get only CPU benchmarks,
+
+```sh
+go test -bench=.
+```
+
+Note that `.` after `-bench` is a regular expression to match the name of the
+test (not test file).
+
+To get CPU and memory benchmarks,
+
+```sh
+go test -bench=. -benchmem
+```
+
+To create profile at the same time,
+
+```sh
+$ go test -bench=BenchmarkFindPalindromes \
+	-count=10 \
+	-benchmem \
+	-memprofile ./benchmarking/wordlens/benchmarks/unoptimized.mem.prof \
+	-cpuprofile ./benchmarking/wordlens/benchmarks/unoptimized.cpu.prof \
+	./benchmarking/wordlens/unoptimized | tee ./benchmarking/wordlens/benchmarks/unoptimized.bench.txt
+```
+
+To check the profile generated,
+
+```sh
+go tool pprof ./benchmarking/wordlens/benchmarks/unoptimized.cpu.prof
+```
+
+It is an interactive tool. To get a list of commands, type `help`. Command `top`
+shows the hotspots (where CPU or memory usage is high) of the program.
+
+To get a more readable output in terminal,
+
+```sh
+benchstat -filter ".unit:(sec/op)" \
+		unoptimized=./benchmarking/wordlens/benchmarks/unoptimized.bench.txt
+```
 
 ### io.MultiReader
 
@@ -1953,6 +2306,23 @@ go get -u tool
 ```sh
 go install tool
 ```
+
+### Multiline string
+
+```go
+` This is an example
+    with tab intentation.`
+```
+
+### Vendoring
+
+Create a directory `vendor` in the root directory.
+
+The dependencies can be copied to the `vendor` directory with the directory
+hierarchy of something like `github.com/username/package`.
+
+The directory should be in source control as this replaces the process of
+pulling packages from the internet during the build process.
 
 ## Charm
 
