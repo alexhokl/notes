@@ -16,6 +16,14 @@ or
 sed -i -e 's|IncorrectSpelling|CorrectSpelling|g' ./package.json
 ```
 
+or, to include `/` in the pattern
+
+```sh
+sed -i -e 's|IncorrectSpelling/|CorrectSpelling/|g' ./package.json
+```
+
+or use `+` instead of `|`.
+
 ##### To replace the last instance
 
 ```sh
@@ -40,6 +48,12 @@ sed -i -e "/some-pattern/r file.txt" working.txt
 
 ```sh
 sed -i -e '/some-pattern/d' file.txt
+```
+
+##### To delete a specific line
+
+```sh
+sed -i -e '3d' file.txt
 ```
 
 ##### To extract some lines from a file
