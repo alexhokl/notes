@@ -62,6 +62,8 @@ ____
 - advanced features
   * a search step to retrieve documents from vector database or a web search
     + put the documents into the prompt with the question
+    + vector database can be something like Chroma or PostgreSQL with
+      [pgvector](https://github.com/pgvector/pgvector) extenion
   * re-ranking the sourced documents
   * query re-writing
     + re-writing the question using a generative language model to find the
