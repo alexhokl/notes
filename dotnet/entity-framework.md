@@ -35,13 +35,22 @@
     + [Relationships](#relationships)
     + [Loading](#loading)
     + [Cyclic navigation properties](#cyclic-navigation-properties)
+  * [Performance](#performance)
+    + [Performance diagnosis](#performance-diagnosis)
+    + [Effiient Querying](#effiient-querying)
+    + [Efficient Updating](#efficient-updating)
+    + [Modeling for performance](#modeling-for-performance)
+    + [Advanced performance topics](#advanced-performance-topics)
+    + [NativeAOT Support and Precompiled Queries](#nativeaot-support-and-precompiled-queries)
+  * [Client evaluation](#client-evaluation)
+  * [Scaffolding (Reverse Engineering)](#scaffolding-reverse-engineering)
   * [Migration](#migration)
     + [Creation](#creation)
     + [Applying migration](#applying-migration)
     + [Generating migration scripts](#generating-migration-scripts)
   * [Logging](#logging)
     + [Tagging](#tagging)
-  * [Pagination](#pagination)
+  * [Pagination](#pagination-1)
   * [Change tracking](#change-tracking)
     + [Setting values](#setting-values)
     + [Cloning objects](#cloning-objects)
@@ -65,6 +74,12 @@ ____
 - [zzzprojects/EntityFramework-Plus](https://github.com/zzzprojects/EntityFramework-Plus)
 - [Dapper](https://github.com/StackExchange/Dapper)
 - [SqlKata](https://sqlkata.com/)
+- [mysticmind/mysticmind-postgresembed](https://github.com/mysticmind/mysticmind-postgresembed)
+  * PostgreSQL embedded server for .Net applications
+  * it is installed as a nuget package
+  * it is a good candidate to be used unit tests
+  * it has good support with extensions
+  * it works well with xUnit
 
 ## Links
 
@@ -1279,6 +1294,728 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 Or adding `[JsonIgnore]` to one of the navigation properties.
+
+## Performance
+
+- factors
+  * pure database performance
+  * network data transfer
+  * network roundtrips
+  * EF runtime overhead
+    + LINQ to SQL
+    + change tracking
+    + it is mostly negligible in practice
+
+### Performance diagnosis
+
+#### Identifying slow queries by logging
+
+- EF prepares and executes commands to be executed against your database with
+  relational database that means executing SQL statements via the ADO.NET
+  database API
+
+To configure logger,
+
+```cs
+private static ILoggerFactory ContextLoggerFactory
+    => LoggerFactory.Create(b => b.AddConsole().AddFilter("", LogLevel.Information));
+
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder
+        .UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Connection=True;ConnectRetryCount=0")
+        .UseLoggerFactory(ContextLoggerFactory);
+}
+```
+
+- command logging can also reveal cases where unexpected database roundtrips are
+  being made; this would show up as multiple commands where only one is expected
+- logging itself slows down application, and may quickly create huge log
+  files which can fill up disk of server
+- see [tagging](#tagging) for correlating database commands to LINQ queries
+
+#### Other interfaces for capturing performance data
+
+- the Activity Monitor, which provides a live dashboard of server activity
+  (including the most expensive queries), and the Extended Events (XEvent)
+  feature, which allows defining arbitrary data capture sessions which can be
+  tailored to your exact needs
+- another approach for capturing performance data is to collect information
+  automatically emitted by either EF or the database driver via the
+  `DiagnosticSource` interface, and then analyze that data or display it on
+  a dashboard
+
+#### Inspecting query executing plans
+
+- once a problematic query that requires optimization has been pinpointed, the
+  next step is usually analyzing execution plan of the query
+
+#### Metrics
+
+Reference: [Metrics - EF
+Core](https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/metrics?tabs=windows)
+
+- this is introduced in EF Core 9.0
+- EF Core reports metrics via the standard `System.Diagnostics.Metrics` API
+- `Microsoft.EntityFrameworkCore` is the name of the meter
+- it can show number of active DBContext (guage), number of queries executed
+  (counter), and number of `SaveChanges` (counter)
+
+#### Benchmarking
+
+- [example](https://github.com/dotnet/EntityFramework.Docs/blob/main/samples/core/Benchmarks/AverageBlogRanking.cs)
+
+### Effiient Querying
+
+- use indexes properly
+
+#### Project only properties you need
+
+The following pulls the whole blog row.
+
+```cs
+await foreach (var blog in context.Blogs.AsAsyncEnumerable())
+{
+    Console.WriteLine("Blog: " + blog.Url);
+}
+```
+
+It can be more efficient in pulling only the required fields.
+
+```cs
+await foreach (var blogName in context.Blogs.Select(b => b.Url).AsAsyncEnumerable())
+{
+    Console.WriteLine("Blog: " + blogName);
+}
+```
+
+- since EF's change tracking only works with entity instances, it is possible to
+  perform updates without loading entire entities by attaching a modified `Blog`
+  instance and telling EF which properties have changed, but that is a more
+  advanced technique that may not be worth it
+
+#### Pagination
+
+- consider using keyset pagination
+
+#### Avoid cartesian explosion when loading related entities
+
+- example
+  * in joining table `blog` with table `post`
+    + if a typical `blog` has multiple related `posts`, rows for these `posts`
+      will duplicate the `blog`'s information
+  * this duplication leads to the so-called "cartesian explosion" problem
+    + as more one-to-many relationships are loaded, the amount of duplicated
+      data may grow and adversely affect the performance of your application
+- EF allows avoiding this effect via the use of "split queries", which load the
+  related entities via separate queries
+
+#### Load related entities eagerly when possible
+
+- `include()`
+  * a typical example would be loading a certain set of Blogs, along with all
+    their Posts; in these scenarios, it is always better to use eager loading,
+    so that EF can fetch all the required data in one roundtrip
+
+#### Beware of lazy loading
+
+- it often seems like a very useful way to write database logic, since EF Core
+  automatically loads related entities from the database as they are accessed by
+  your code
+- it is particularly prone for producing unneeded extra roundtrips which can
+  slow the application
+- prone to N+1 problem
+- example
+
+```cs
+foreach (var blog in await context.Blogs.ToListAsync())
+{
+    foreach (var post in blog.Posts)
+    {
+        Console.WriteLine($"Blog {blog.Url}, Post: {post.Title}");
+    }
+}
+```
+
+The better way could be using eager loading `include()` if the whole entity is
+needed or project only the columns needed like the following.
+
+```cs
+await foreach (var blog in context.Blogs.Select(b => new { b.Url, b.Posts }).AsAsyncEnumerable())
+{
+    foreach (var post in blog.Posts)
+    {
+        Console.WriteLine($"Blog {blog.Url}, Post: {post.Title}");
+    }
+}
+```
+
+#### Buffering and streaming
+
+- if your query might return large numbers of rows, it is worth giving thought
+  to streaming instead of buffering
+- avoid using `ToList` or `ToArray` if you intend to use another LINQ operator
+  on the result; this will needlessly buffer all results into memory. Use
+  `AsAsyncEnumerable` instead
+- examples
+
+```cs
+// Foreach streams, processing one row at a time:
+await foreach (var blog in context.Posts.Where(p => p.Title.StartsWith("A")).AsAsyncEnumerable())
+{
+    // ...
+}
+
+// AsAsyncEnumerable also streams, allowing you to execute LINQ operators on the client-side:
+var doubleFilteredBlogs = context.Posts
+    .Where(p => p.Title.StartsWith("A")) // Translated to SQL and executed in the database
+    .AsAsyncEnumerable()
+    .Where(p => SomeDotNetMethod(p)); // Executed at the client on all database results
+```
+
+#### Internal buffering by EF
+
+- in certain situations, EF will itself buffer the resultset internally,
+  regardless of how you evaluate your query
+  * when a retrying execution strategy is in place; this is done to make sure
+    the same results are returned if the query is retried later
+  * when split query is used, the resultsets of all but the last query are
+    buffered; unless MARS (Multiple Active Result Sets) is enabled on SQL Server
+
+#### Tracking
+
+- EF internally maintains a dictionary of tracked instances. When new data is
+  loaded, EF checks the dictionary to see if an instance is already tracked for
+  that entity's key (identity resolution); the dictionary maintenance and
+  lookups take up some time when loading the query's results.
+- before handing a loaded instance to the application, EF snapshots that
+  instance and keeps the snapshot internally; when `SaveChanges` is called, the
+  application's instance is compared with the snapshot to discover the changes
+  to be persisted; the snapshot takes up more memory, and the snapshotting
+  process itself takes time
+- in read-only scenarios, use no-tracking queries
+- it is possible to perform updates without the overhead of change tracking, by
+  utilizing a no-tracking query and then attaching the returned instance to the
+  context, specifying which changes are to be made; this transfers the burden of
+  change tracking from EF to the user, and should only be attempted if the
+  change tracking overhead has been shown to be unacceptable via profiling or
+  benchmarking
+
+#### Using SQL queries
+
+- `FromSqlRaw`
+  * it lets you compose over the SQL with regular LINQ queries, allowing you to
+    express only a part of the query in SQL
+  * this is a good technique when the SQL only needs to be used in a single
+    query in your codebase
+
+#### Asynchronous programming
+
+- it is important to always use asynchronous APIs rather than synchronous one
+- synchronous APIs block the thread for the duration of database I/O, increasing
+  the need for threads and the number of thread context switches that must occur
+- bugs with asynchronous implementation of `Microsoft.Data.SqlClient`
+  * [Reading large data (binary, text) asynchronously is extremely slow · Issue
+    #593](https://github.com/dotnet/SqlClient/issues/593)
+  * [Async opening of connections in parallel is slow/blocking · Issue
+    #601](https://github.com/dotnet/SqlClient/issues/601)
+
+### Efficient Updating
+
+#### Batching
+
+- EF Core helps minimize roundtrips by automatically batching together all
+  updates in a single roundtrip
+- EF Core will by default only execute up to 42 statements in a single batch,
+  and execute additional statements in separate roundtrips
+- the thresholds can be tweaked to achieve potentially higher performance; but
+  benchmark carefully before modifying
+  * `.MinBatchSize(1).MaxBatchSize(100);`
+
+#### ExecuteUpdate and ExecuteDelete
+
+- the following code involves loading all the relevant employees, apply change
+  tracking, a second database roundtrip is performed to save all the changes
+
+```cs
+foreach (var employee in context.Employees)
+{
+    employee.Salary += 1000;
+}
+await context.SaveChangesAsync();
+```
+- since EF Core 7.0
+
+```cs
+await context.Employees.ExecuteUpdateAsync(s =>
+  s.SetProperty(e => e.Salary, e => e.Salary + 1000));
+```
+
+### Modeling for performance
+
+#### Denormalization and caching
+
+- denormalization is the practice of adding redundant data to your schema,
+  usually in order to eliminate joins when querying
+- it can be viewed as a form of caching
+
+#### Stored computed columns
+
+- if the data to be cached is a product of other columns in the same table, then
+  a stored computed column can be a perfect solution
+
+#### Update cache columns when inputs change
+
+- if the cached column references another table, computed columns cannot be used
+- updates has to be done manually via the regular EF Core API
+  * `SaveChanges` Events or interceptors can be used to automatically check if
+    any `Posts` are being updated, and to perform the recalculation that way
+  * note that this typically entails additional database roundtrips, as
+    additional commands must be sent
+- for more perf-sensitive applications, database triggers can be defined to
+  automatically perform the recalculation in the database; this saves the extra
+  database roundtrips, automatically occurs within the same transaction as the
+  main update, and can be simpler to set up
+
+#### Materialized/indexed views
+
+- in PostgreSQL, materialized views must be manually refreshed in order for
+  their values to be synchronized with their underlying tables
+  * this is typically done via a timer, in cases where some data lag is
+    acceptable, or via a trigger or stored procedure call in specific conditions
+- SQL Server Indexed Views are automatically updated as their underlying tables
+  are modified; this ensures that the view always shows the latest data, at the
+  cost of slower updates
+- EF does not currently provide any specific API for creating or maintaining
+  views, materialized/indexed or otherwise; but it is perfectly fine to create
+  an empty migration and add the view definition via raw SQL.
+
+### Advanced performance topics
+
+#### DbContext pooling
+
+- EF generally opens connections just before each operation (e.g. query), and
+  closes it right afterwards
+- EF Core can pool context instances
+  * when a context is disposed, EF Core resets its state and stores it in an
+    internal pool
+  * it allows you to pay context setup costs only once at program startup,
+    rather than continuously
+  * replace `AddDbContext` with `AddDbContextPool`
+  * `poolSize` parameter of `AddDbContextPool` sets the maximum number of
+    instances retained by the pool (defaults to `1024`). Once `poolSize` is
+    exceeded, new context instances are not cached and EF falls back to the
+    non-pooling behavior of creating instances on demand
+
+```cs
+builder.Services.AddDbContextPool<WeatherForecastContext>(
+  o => o.UseSqlServer(
+    builder.Configuration.GetConnectionString("WeatherForecastContext")));
+```
+
+- special care must be taken when the context involves any state that may change
+  between requests
+- the context's `OnConfiguring` is only invoked once; when the instance context
+  is first created and so cannot be used to set state which needs to vary (e.g.
+  a tenant ID).
+
+```cs
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ITenant>(sp =>
+{
+    var tenantIdString =
+        sp.GetRequiredService<IHttpContextAccessor>().HttpContext.Request.Query["TenantId"];
+
+    return tenantIdString != StringValues.Empty && int.TryParse(tenantIdString, out var tenantId)
+        ? new Tenant(tenantId)
+        : null;
+});
+builder.Services.AddPooledDbContextFactory<WeatherForecastContext>(
+    o => o.UseSqlServer(builder.Configuration.GetConnectionString("WeatherForecastContext")));
+builder.Services.AddScoped<WeatherForecastScopedFactory>();
+builder.Services.AddScoped(
+    sp => sp.GetRequiredService<WeatherForecastScopedFactory>().CreateDbContext());
+
+public class WeatherForecastScopedFactory : IDbContextFactory<WeatherForecastContext>
+{
+    private const int DefaultTenantId = -1;
+
+    private readonly IDbContextFactory<WeatherForecastContext> _pooledFactory;
+    private readonly int _tenantId;
+
+    public WeatherForecastScopedFactory(
+        IDbContextFactory<WeatherForecastContext> pooledFactory,
+        ITenant tenant)
+    {
+        _pooledFactory = pooledFactory;
+        _tenantId = tenant?.TenantId ?? DefaultTenantId;
+    }
+
+    public WeatherForecastContext CreateDbContext()
+    {
+        var context = _pooledFactory.CreateDbContext();
+        context.TenantId = _tenantId;
+        return context;
+    }
+}
+```
+
+#### Compiled queries
+
+- EF supports compiled queries, which allow the explicit compilation of a LINQ
+  query into a .NET delegate; once this delegate is acquired, it can be invoked
+  directly to execute the query, without providing the LINQ expression tree
+- this technique bypasses the cache lookup, and provides the most optimized way
+  to execute a query in EF Core
+
+```cs
+private static readonly Func<BloggingContext, int, IAsyncEnumerable<Blog>> _compiledQuery
+    = EF.CompileAsyncQuery(
+        (BloggingContext context, int length) => context.Blogs.Where(b => b.Url.StartsWith("http://") && b.Url.Length == length));
+
+await foreach (var blog in _compiledQuery(context, 8))
+{
+    // Do something with the results
+}
+```
+
+Note that the delegate is thread-safe, and can be invoked concurrently on
+different context instances.
+
+- limitations
+  * compiled queries may only be used against a single EF Core model.
+  * when using parameters in compiled queries, use simple, scalar parameters
+
+#### Query caching and parameterization
+
+The following use the same execution plan.
+
+```cs
+var postTitle = "post1";
+var post1 = await context.Posts.FirstOrDefaultAsync(p => p.Title == postTitle);
+postTitle = "post2";
+var post2 = await context.Posts.FirstOrDefaultAsync(p => p.Title == postTitle);
+```
+
+- note that EF Core's metrics report the Query Cache Hit Rate. In a normal
+  application, this metric reaches 100% soon after program startup, once most
+  queries have executed at least once. If this metric remains stable below 100%,
+  that is an indication that your application may be doing something which
+  defeats the query cache - it is a good idea to investigate that.
+
+#### Dynamically-constructed queries
+
+- executing `where` lambda expressions
+  * expression API witha a constant
+    + this is a frequent mistake
+      + causes EF to recompile the query each time it is invoked with
+        a different constant value and it also causes plan cache pollution at
+        the database server
+  * expression API with parameter
+  * simple with parameter
+
+#### Compiled models
+
+- compiled models can improve EF Core startup time for applications with large
+  models
+  * a large model typically means hundreds to thousands of entity types and
+    relationships
+  * startup time here is the time to perform the first operation on
+    a `DbContext` when that `DbContext` type is used for the first time in the
+    application. Note that just creating a `DbContext` instance does not cause
+    the EF model to be initialized
+- `dotnet ef dbcontext optimize --output-dir MyCompiledModels --namespace
+MyCompiledModels`
+- limitations
+  * global query filters are not supported
+  * lazy loading and change-tracking proxies are not supported
+
+```cs
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    => optionsBuilder
+        .UseModel(MyCompiledModels.BlogsContextModel.Instance)
+        .UseSqlite(@"Data Source=test.db");
+```
+
+### NativeAOT Support and Precompiled Queries
+
+- it is available since EF Core 10
+- significantly faster application startup time
+- EF also precompiles LINQ queries when publishing your application
+  * no processing is needed when starting up
+  * the SQL is already available for immediate execution
+  * the more EF LINQ queries an application has in its code, the faster the
+    startup gains are expected to be
+- the support for LINQ query execution under NativeAOT relies on query
+  precompilation
+  * this mechanism statically identifies EF LINQ queries and generates C#
+    interceptors, which contain code to execute each specific query
+
+To generate interceptors without publishing,
+
+```sh
+dotnet ef dbcontext optimize --precompile-queries --nativeaot
+```
+
+To precompile queries without NativeAOT,
+
+```sh
+dotnet ef dbcontext optimize --precompile-queries
+```
+
+#### Limitations
+
+- dynamic LINQ queries are not supported
+  * `query = query.Where(x => x.Name == "John");`
+- LINQ query expression syntax is not supported
+  * `query = from x in query where x.Name == "John" select x;`
+- the generated compiled model and query interceptors may currently be quite
+  large in terms of code size, and take a long while to generate
+- EF providers may need to build in support for precompiled queries
+- value converters that use captured state are not supported
+
+## Client evaluation
+
+reference: [Store
+Configuration](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/query-execution#store-configuration)
+
+- differences in behaviour
+  * SQL Server orders GUIDs differently than the CLR
+  * different precision for decimal
+  * string comparison behaviour is different
+  * methods translated via LINQ are different from the ones executed in memory
+    + `Contains`
+    + `StartsWith`
+    + `EndsWith`
+
+## Scaffolding (Reverse Engineering)
+
+reference: [Reverse
+Engineering](https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/?tabs=dotnet-core-cli)
+
+- command
+  * `dotnet ef dbcontext scaffold`
+  * examples
+    + `dotnet ef dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Chinook" Microsoft.EntityFrameworkCore.SqlServer`
+- requirements
+  * nuget
+    + install `Microsoft.EntityFrameworkCore.Design` to the project involving the
+      scaffolding
+  * database provider
+    + `Microsoft.EntityFrameworkCore.SqlServer`
+    + `Npgsql`
+  * connection string
+    + quote and escape characters depends on the shell used
+- behaviours
+  * by default, the scaffolder will include the connection string in the
+    scaffolded code; and it should be removed before deploying onto production
+    + option `--no-onconfiguring` can disable this behaviour
+  * by default, all tables and views in the database schema are scaffolded into
+    entity types
+    + option `--schema` and `--table` can be used to select specifics
+      + option `--table` accepts schema as well; `your_schema.your_table`
+  * preserving name of tables and columns
+    + without option `--use-database-name` (the default)
+      + use .NET naming conventions
+      + examples
+        + table name `BLOGS` -> entity name `Blog`
+        + table name `posts` -> entity name `Post`
+        + column name `ID` -> property name `Id`
+        + column name `id` -> property name `Id`
+        + column name `Blog_Name` -> property name `BlogName`
+        + column name `postTitle` -> property name `PostTitle`
+        + column name `post content` -> property name `PostContent`
+        + column name `1 PublishedON` -> property name `_1PublishedOn`
+        + column name `2 DeletedON` -> property name `_2DeletedOn`
+        + column name `BlogID` -> property name `BlogId`
+        + navigation property `Blog.Posts`
+    + option `--use-database-name`
+      + preserving the original database names as much as possible
+        + invalid .NET identifiers will still be fixed and synthesized names
+          like navigation properties will still conform to .NET naming
+          convention
+      + examples
+        + table name `BLOGS` -> entity name `BLOG`
+        + table name `posts` -> entity name `post`
+        + column name `ID` -> property name `ID`
+        + column name `id` -> property name `id`
+        + column name `Blog_Name` -> property name `Blog_Name`
+        + column name `postTitle` -> property name `postTitle`
+        + column name `post content` -> property name `post content`
+        + column name `1 PublishedON` -> property name `_1_PublishedON`
+        + column name `2 DeletedON` -> property name `_2_DeletedON`
+        + column name `BlogID` -> property name `BlogID`
+        + navigation property `BLOG.posts`
+  * entity type configuration is done using `OnModelCreating` by default
+    + option `--data-annotations` to change this default behaviour by using
+      annotations
+    + since some aspects of the model cannot be configured using mapping
+      attributes; the scaffolder will still use the model building API to handle
+      these cases.
+  * name of context
+    + name of the database suffixed with `Context` by default
+    + option `--context` to override
+  * directories and namespaces
+    + option `--output-dir` (for models)
+    + option `--context-dir` (for data access nad configuration)
+    + option `--namespace` (for namespace of models)
+    + option `--context-namespace` (for namepsace of data access nad
+      configuration)
+- T4 text templates to customize the generated code
+  ([reference](https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/templates?tabs=dotnet-core-cli)
+- nullable reference types
+
+```sql
+CREATE TABLE [Tags] (
+  [Id] int NOT NULL IDENTITY,
+  [Name] nvarchar(max) NOT NULL,
+  [Description] nvarchar(max) NULL,
+  CONSTRAINT [PK_Tags] PRIMARY KEY ([Id]));
+```
+
+```cs
+public partial class Tag
+{
+    public Tag()
+    {
+        Posts = new HashSet<Post>();
+    }
+
+    public int Id { get; set; }
+    public string Name { get; set; } = null!;
+    public string? Description { get; set; }
+    public virtual ICollection<Post> Posts { get; set; }
+}
+```
+
+```sql
+CREATE TABLE [Posts] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Contents] nvarchar(max) NOT NULL,
+    [PostedOn] datetime2 NOT NULL,
+    [UpdatedOn] datetime2 NULL,
+    [BlogId] int NOT NULL,
+    CONSTRAINT [PK_Posts] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Posts_Blogs_BlogId] FOREIGN KEY ([BlogId]) REFERENCES [Blogs] ([Id]));
+```
+
+```cs
+public partial class Blog
+{
+    public Blog()
+    {
+        Posts = new HashSet<Post>();
+    }
+
+    public int Id { get; set; }
+    public string Name { get; set; } = null!;
+
+    public virtual ICollection<Post> Posts { get; set; }
+}
+
+public partial class Post
+{
+    public Post()
+    {
+        Tags = new HashSet<Tag>();
+    }
+
+    public int Id { get; set; }
+    public string Title { get; set; } = null!;
+    public string Contents { get; set; } = null!;
+    public DateTime PostedOn { get; set; }
+    public DateTime? UpdatedOn { get; set; }
+    public int BlogId { get; set; }
+
+    public virtual Blog Blog { get; set; } = null!;
+
+    public virtual ICollection<Tag> Tags { get; set; }
+}
+```
+
+- many-to-many relationships
+
+```sql
+CREATE TABLE [Tags] (
+  [Id] int NOT NULL IDENTITY,
+  [Name] nvarchar(max) NOT NULL,
+  [Description] nvarchar(max) NULL,
+  CONSTRAINT [PK_Tags] PRIMARY KEY ([Id]));
+
+CREATE TABLE [Posts] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Contents] nvarchar(max) NOT NULL,
+    [PostedOn] datetime2 NOT NULL,
+    [UpdatedOn] datetime2 NULL,
+    CONSTRAINT [PK_Posts] PRIMARY KEY ([Id]));
+
+CREATE TABLE [PostTag] (
+    [PostsId] int NOT NULL,
+    [TagsId] int NOT NULL,
+    CONSTRAINT [PK_PostTag] PRIMARY KEY ([PostsId], [TagsId]),
+    CONSTRAINT [FK_PostTag_Posts_TagsId] FOREIGN KEY ([TagsId]) REFERENCES [Tags] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_PostTag_Tags_PostsId] FOREIGN KEY ([PostsId]) REFERENCES [Posts] ([Id]) ON DELETE CASCADE);
+```
+
+```cs
+public partial class Post
+{
+    public Post()
+    {
+        Tags = new HashSet<Tag>();
+    }
+
+    public int Id { get; set; }
+    public string Title { get; set; } = null!;
+    public string Contents { get; set; } = null!;
+    public DateTime PostedOn { get; set; }
+    public DateTime? UpdatedOn { get; set; }
+    public int BlogId { get; set; }
+
+    public virtual Blog Blog { get; set; } = null!;
+
+    public virtual ICollection<Tag> Tags { get; set; }
+}
+
+public partial class Tag
+{
+    public Tag()
+    {
+        Posts = new HashSet<Post>();
+    }
+
+    public int Id { get; set; }
+    public string Name { get; set; } = null!;
+    public string? Description { get; set; }
+
+    public virtual ICollection<Post> Posts { get; set; }
+}
+
+// note that no entity PostTag will be generated
+entity.HasMany(d => d.Tags)
+    .WithMany(p => p.Posts)
+    .UsingEntity<Dictionary<string, object>>(
+        "PostTag",
+        l => l.HasOne<Tag>().WithMany().HasForeignKey("PostsId"),
+        r => r.HasOne<Post>().WithMany().HasForeignKey("TagsId"),
+        j =>
+            {
+                j.HasKey("PostsId", "TagsId");
+                j.ToTable("PostTag");
+                j.HasIndex(new[] { "TagsId" }, "IX_PostTag_TagsId");
+            });
+```
+
+- repeated scaffolding
+  * this will overwrite any previously scaffolded code
+  * by default, the EF commands will not overwrite any existing code to protect
+    against accidental code loss
+- limitations
+  * inheritance hierarchies, owned types, and table splitting are not present in
+    the database schema
+  * not all concurrency tokens can be scaffolded
 
 ## Migration
 
