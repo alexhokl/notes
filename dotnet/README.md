@@ -73,6 +73,9 @@ ____
   cache-store from Microsoft Research
   * [getting started](https://microsoft.github.io/garnet/docs/getting-started)
   * clients such as `StackExchange.Redis` can be used
+- [nietras/Sep](https://github.com/nietras/Sep) - a fast .NET CSV Parser;
+  cross-platform, trimmable and AOT/NativeAOT compatible; it also has extensive
+  documentation of its APIs
 
 # .NET Core
 
