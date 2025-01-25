@@ -68,6 +68,9 @@
   * [Tools](#tools)
   * [Multiline string](#multiline-string)
   * [Vendoring](#vendoring)
+  * [Goroutine](#goroutine)
+  * [JSON marshalling](#json-marshalling)
+  * [Protobuf](#protobuf-1)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Ko](#ko)
@@ -2323,6 +2326,34 @@ hierarchy of something like `github.com/username/package`.
 
 The directory should be in source control as this replaces the process of
 pulling packages from the internet during the build process.
+
+### Goroutine
+
+- resource management
+  * stopping a goroutine and releasing all resources associated with it
+    + it is hard to implement in practice
+  * notify the goroutine to stop
+    + it might take a bit of time for a goroutine to stop even it received
+      a signal (it has nothing do with how the code is written but the scheduler
+      of Go)
+    + a goroutine can hold up resources due to its waiting of IO (be it network
+      or file or even `stdout` if there is a lot of lines)
+- [github.com/pkg/group](https://github.com/pkg/group)
+  * this can be better than `errorgroup` as goroutines using `errorgroup` needs
+    to have access to the group and handle it
+    + in constrast, `group` is transparent to goroutines
+
+### JSON marshalling
+
+- it does not marshal unexported (private) fields and, thus, unexported fields
+  will be initialised with its default value
+  * an exception is with embbedded struct where all the fields are considered as
+    exported and, thus, those embedded fields will be marshalled
+
+### Protobuf
+
+- printing it can change the state of protobuf instance, thus, calling `Reset()`
+  would be required for further operations
 
 ## Charm
 
