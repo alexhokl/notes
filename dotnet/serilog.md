@@ -3,14 +3,15 @@
 - [Requests Logging](#requests-logging)
 - [Adding properties to logs](#adding-properties-to-logs)
 - [Enrichers](#enrichers)
-____
+___
+
 ## Links
 
 - [Serilog Best Practices](https://benfoster.io/blog/serilog-best-practices/)
 
 ## Initialisation
 
-```csharp
+```cs
 public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
   WebHost
     .CreateDefaultBuilder(args)
@@ -24,8 +25,7 @@ public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
 
 public static IWebHostBuilder ConfigureLogging(
     this IWebHostBuilder builder,
-    Action<WebHostBuilderContext, IServiceProvider,
-    LoggerConfiguration> configureLogger)
+    Action<WebHostBuilderContext, IServiceProvider, LoggerConfiguration> configureLogger)
 {
     builder.ConfigureServices((context, collection) =>
     {
@@ -57,7 +57,7 @@ static void ConfigureServices(IServiceCollection collection, Serilog.ILogger log
 
 or,
 
-```csharp
+```cs
 public static IHostBuilder CreateHostBuilder(string[] args) =>
   Host.CreateDefaultBuilder(args)
     .ConfigureWebHostDefaults(webBuilder =>
@@ -70,7 +70,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 
 ## Requests Logging
 
-```csharp
+```cs
 public void Configure(IApplicationBuilder app, IHostEnvironment env)
 {
   app.UseSerilogRequestLogging();
@@ -79,7 +79,7 @@ public void Configure(IApplicationBuilder app, IHostEnvironment env)
 
 ## Adding properties to logs
 
-```csharp
+```cs
 public static IDisposable AddToContext(
     this Microsoft.Extensions.Logging.ILogger logger,
     IEnumerable<KeyValuePair<string, object>> properties)
@@ -150,7 +150,7 @@ public static void AddExceptionToDictionary(this Dictionary<string, object> dic,
 
 ## Enrichers
 
-```csharp
+```cs
 public class ExceptionTypeEnricher : ILogEventEnricher
 {
   public void Enrich(LogEvent logEvent, ILogEventPropertyFactory propertyFactory)
