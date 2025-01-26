@@ -97,6 +97,8 @@ ___
 - [Programming the Windows
   firewall](https://tailscale.com/blog/windows-firewall/)
 - [Go project generator](https://goquick.dev/)
+- [Go for Experienced
+  Programmers](https://github.com/jboursiquot/go-for-experienced-programmers/wiki)
 
 ## Libraries
 
