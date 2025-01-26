@@ -1,21 +1,22 @@
 - [Links](#links)
 - [Libraries](#libraries)
-  * [Database](#database)
-  * [Logging](#logging)
-  * [Web](#web)
-  * [CLI](#cli)
-  * [JSON](#json)
-  * [Protobuf](#protobuf)
-  * [Unit testing](#unit-testing)
-  * [GUI](#gui)
-  * [Kafka](#kafka)
-  * [Visualisation](#visualisation)
-  * [Finance](#finance)
-  * [Security](#security)
   * [AI](#ai)
-  * [PDF](#pdf)
-  * [Documentation](#documentation)
+  * [CLI](#cli)
   * [Configuration](#configuration)
+  * [Database](#database)
+  * [Documentation](#documentation)
+  * [Finance](#finance)
+  * [GUI](#gui)
+  * [JSON](#json)
+  * [Kafka](#kafka)
+  * [Logging](#logging)
+  * [PDF](#pdf)
+  * [Protobuf](#protobuf)
+  * [Security](#security)
+  * [Source control](#source-control)
+  * [Visualisation](#visualisation)
+  * [Unit testing](#unit-testing)
+  * [Web](#web)
   * [Others](#others)
 - [Configuration](#configuration-1)
 - [Commands](#commands)
@@ -37,10 +38,12 @@
   * [Array, slice, reference and range](#array-slice-reference-and-range)
   * [Maps and pointers](#maps-and-pointers)
   * [Iterator functions](#iterator-functions)
+  * [Goroutine](#goroutine)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
   * [Semaphore](#semaphore)
   * [errgroup](#errgroup)
+  * [pkg/group](#pkggroup)
   * [Context](#context)
   * [SIGTERM handling](#sigterm-handling)
   * [panic](#panic)
@@ -58,6 +61,7 @@
   * [Generics](#generics)
   * [Range over function](#range-over-function)
   * [Time](#time)
+  * [Timer](#timer)
   * [Call stack](#call-stack)
   * [Build tags](#build-tags)
   * [Logging](#logging-1)
@@ -68,7 +72,6 @@
   * [Tools](#tools)
   * [Multiline string](#multiline-string)
   * [Vendoring](#vendoring)
-  * [Goroutine](#goroutine)
   * [JSON marshalling](#json-marshalling)
   * [Protobuf](#protobuf-1)
 - [Charm](#charm)
@@ -97,6 +100,25 @@ ___
 
 ## Libraries
 
+### AI
+
+- [andrewstuart/openai](https://github.com/andrewstuart/openai) OpenAI API
+  wrapper
+
+### CLI
+
+- [spf13/viper](https://github.com/spf13/viper) for application configurations
+- [urfave/cli](https://github.com/urfave/cli) for building command line applications
+- [cohesivestack/valgo](https://github.com/cohesivestack/valgo) validates user
+  input
+- [charmbracelet/huh](https://github.com/charmbracelet/huh) a library for
+  building interactive TUI
+
+### Configuration
+
+- [chasinglogic/appdirs](https://github.com/chasinglogic/appdirs) - find
+  platform-specific directories
+
 ### Database
 
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock)
@@ -108,12 +130,104 @@ ___
   generates SQL diagram using SQL files - it only supports MySQL
 - [czinc/sqlite](https://gitlab.com/cznic/sqlite) SQLite written purely in Go
 
+### Documentation
+
+- [swaggo/gin-swagger](https://github.com/swaggo/gin-swagger) - gin middleware
+  to automatically generate RESTful API documentation with Swagger 2.0
+
+### Finance
+
+- [sdcoffey/techan](https://github.com/sdcoffey/techan/) a Technical (Financial)
+  Analysis Library for Golang
+- [piquette/finance-go](https://github.com/piquette/finance-go) a Financial
+  markets data library implemented in go
+
+### GUI
+
+- [fyne-io/fyne](https://github.com/fyne-io/fyne) - purely in Go
+  * [introduction](https://www.youtube.com/watch?v=sXKsyuSjJ8o)
+  * cross-platform (including mobile) compilation is available
+- [wailsapp/wails](https://github.com/wailsapp/wails) - combining Go and HTML
+
+### JSON
+
+- [orsinium/valdo](https://github.com/orsinium-labs/valdo) - JSON validation for
+  API and it can generate OpenAPI schema
+
+### Kafka
+
+- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache
+  Kafka 0.8, and up -
+  [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
+  * from Slack Engineering, it sounds like there were a few bugs in some edge
+    cases
+- [ThreeDotsLabs/watermill/](https://github.com/ThreeDotsLabs/watermill/) - a Go
+  library as an abstraction to Kafka or Google Cloud Pub/Sub
+- [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go)
+  a library better than `sarama`
+
 ### Logging
 
 - [uber-go/zap](https://github.com/uber-go/zap) Blazing fast, structured,
   leveled logging in Go
   [example](https://github.com/uber-go/zap/blob/master/example_test.go),
   [FAQ](https://github.com/uber-go/zap/blob/master/FAQ.md)
+
+### PDF
+
+- [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
+
+### Protobuf
+
+- [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway)
+  it generates a reverse-proxy server which translates a RESTful JSON API into
+  gRPC; this is useful as the same protobuf file can be used to generate both
+  gRPC server and RESTful JSON API server (which is the proxy); see `option
+  (google.api.http)` and import of `google/api/annotations.proto` in `README.md`
+  of the repository
+- [grpc-ecosystem/go-grpc-middleware](https://github.com/grpc-ecosystem/go-grpc-middleware)
+  allows logging, OpenTelemetry, and other middleware to be added to gRPC
+  server; it can also be used to generate OpenAPI schema v2 (not v3)
+
+### Security
+
+- [mattevans/pwned-passwords](https://github.com/mattevans/pwned-passwords) Go
+  client library for checking values against compromised HIBP Pwned Passwords
+- [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal
+  encrypted backups outside the app
+- [egbakou/domainverifier](https://github.com/egbakou/domainverifier)
+- [securego/gosec](https://github.com/securego/gosec) - security checker
+
+### Source control
+
+- [alexhokl/go-bb-pr](https://github.com/alexhokl/go-bb-pr) Example on using
+  OAuth with CLI
+- [gomods/athens](https://github.com/gomods/athens) - a Go module datastore and
+  proxy; [summary](https://engineering.grab.com/go-module-proxy)
+
+### Visualisation
+
+- [ajstarks/dchart](https://github.com/ajstarks/dchart) both a Go library and
+  binary to generate XML files in deck (a language to draw visualisation).
+  Visualisation (in `png` or `pdf`) can then be generated by using other commands
+  such as `pngdeck` or `pdfdeck`.
+  * [ajstarks/deck/cmd/pngdeck](https://github.com/ajstarks/deck/cmd/pngdeck)
+  * [ajstarks/deck/cmd/pdfdeck](https://github.com/ajstarks/deck/cmd/pdfdeck)
+- [ajstarks/decksh](https://github.com/ajstarks/decksh) a binary to generate
+  deck files (a language to draw visualisation) from scripts. The deck files can
+  then be used to generate slides.
+
+### Unit testing
+
+- [Fuzz test](https://go.dev/security/fuzz/)
+- [leanovate/gopter](https://github.com/leanovate/gopter) property testing
+- [frankban/quicktest](https://github.com/frankban/quicktest) a helper library
+  for assertions in tests
+- [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) for mocking SQL
+  database connection `sql/driver`
+  * [example using gorm without
+    assertions](https://tanutaran.medium.com/golang-unit-testing-with-gorm-and-sqlmock-postgresql-simplest-setup-67ccc7c056ef)
+- [testing a Gin endpoint](https://gin-gonic.com/docs/testing/)
 
 ### Web
 
@@ -128,111 +242,6 @@ ___
 - [labstack/echo](https://github.com/labstack/echo) - easy to create
   unit-testable web APIs
 
-### CLI
-
-- [spf13/viper](https://github.com/spf13/viper) for application configurations
-- [urfave/cli](https://github.com/urfave/cli) for building command line applications
-- [cohesivestack/valgo](https://github.com/cohesivestack/valgo) validates user
-  input
-- [charmbracelet/huh](https://github.com/charmbracelet/huh) a library for
-  building interactive TUI
-
-### JSON
-
-- [orsinium/valdo](https://github.com/orsinium-labs/valdo) - JSON validation for
-  API and it can generate OpenAPI schema
-
-### Protobuf
-
-- [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway)
-  it generates a reverse-proxy server which translates a RESTful JSON API into
-  gRPC; this is useful as the same protobuf file can be used to generate both
-  gRPC server and RESTful JSON API server (which is the proxy); see `option
-  (google.api.http)` and import of `google/api/annotations.proto` in `README.md`
-  of the repository
-- [grpc-ecosystem/go-grpc-middleware](https://github.com/grpc-ecosystem/go-grpc-middleware)
-  allows logging, OpenTelemetry, and other middleware to be added to gRPC
-  server; it can also be used to generate OpenAPI schema v2 (not v3)
-
-### Unit testing
-
-- [Fuzz test](https://go.dev/security/fuzz/)
-- [leanovate/gopter](https://github.com/leanovate/gopter) property testing
-- [frankban/quicktest](https://github.com/frankban/quicktest) a helper library
-  for assertions in tests
-- [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) for mocking SQL
-  database connection `sql/driver`
-  * [example using gorm without
-    assertions](https://tanutaran.medium.com/golang-unit-testing-with-gorm-and-sqlmock-postgresql-simplest-setup-67ccc7c056ef)
-- [testing a Gin endpoint](https://gin-gonic.com/docs/testing/)
-
-### GUI
-
-- [fyne-io/fyne](https://github.com/fyne-io/fyne) - purely in Go
-  * [introduction](https://www.youtube.com/watch?v=sXKsyuSjJ8o)
-  * cross-platform (including mobile) compilation is available
-- [wailsapp/wails](https://github.com/wailsapp/wails) - combining Go and HTML
-
-### Kafka
-
-- [Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache
-  Kafka 0.8, and up -
-  [example](https://github.com/Shopify/sarama/blob/master/examples/http_server/http_server.go)
-  * from Slack Engineering, it sounds like there were a few bugs in some edge
-    cases
-- [ThreeDotsLabs/watermill/](https://github.com/ThreeDotsLabs/watermill/) - a Go
-  library as an abstraction to Kafka or Google Cloud Pub/Sub
-- [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go)
-  a library better than `sarama`
-
-### Visualisation
-
-- [ajstarks/dchart](https://github.com/ajstarks/dchart) both a Go library and
-  binary to generate XML files in deck (a language to draw visualisation).
-  Visualisation (in `png` or `pdf`) can then be generated by using other commands
-  such as `pngdeck` or `pdfdeck`.
-  * [ajstarks/deck/cmd/pngdeck](https://github.com/ajstarks/deck/cmd/pngdeck)
-  * [ajstarks/deck/cmd/pdfdeck](https://github.com/ajstarks/deck/cmd/pdfdeck)
-- [ajstarks/decksh](https://github.com/ajstarks/decksh) a binary to generate
-  deck files (a language to draw visualisation) from scripts. The deck files can
-  then be used to generate slides.
-
-### Finance
-
-- [sdcoffey/techan](https://github.com/sdcoffey/techan/) a Technical (Financial)
-  Analysis Library for Golang
-- [piquette/finance-go](https://github.com/piquette/finance-go) a Financial
-  markets data library implemented in go
-
-### Security
-
-- [mattevans/pwned-passwords](https://github.com/mattevans/pwned-passwords) Go
-  client library for checking values against compromised HIBP Pwned Passwords
-- [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal
-  encrypted backups outside the app
-- [egbakou/domainverifier](https://github.com/egbakou/domainverifier)
-- [alexhokl/go-bb-pr](https://github.com/alexhokl/go-bb-pr) Example on using
-  OAuth with CLI
-
-### AI
-
-- [andrewstuart/openai](https://github.com/andrewstuart/openai) OpenAI API
-  wrapper
-
-### PDF
-
-- [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
-
-### Documentation
-
-- [swaggo/gin-swagger](https://github.com/swaggo/gin-swagger) - gin middleware
-  to automatically generate RESTful API documentation with Swagger 2.0
-
-### Configuration
-
-- [chasinglogic/appdirs](https://github.com/chasinglogic/appdirs) - find
-  platform-specific directories
-
 ### Others
 
 - [src-d/enry](https://github.com/src-d/enry) A faster file programming language
@@ -245,7 +254,6 @@ ___
   `map`
 - [zephyrtronium/gotools](https://gitlab.com/zephyrtronium/gotools)
 - [golangci/golangci-lint](https://golangci-lint.run/) - linter for Go
-- [securego/gosec](https://github.com/securego/gosec) - security checker
 
 ## Configuration
 
@@ -955,6 +963,18 @@ func iterateItems(yield func(Item) bool) {
 Note that this is available after version `1.22` and `GOEXPERIMENT=rangefunc` is
 required.
 
+### Goroutine
+
+- resource management
+  * stopping a goroutine and releasing all resources associated with it
+    + it is hard to implement in practice
+  * notify the goroutine to stop
+    + it might take a bit of time for a goroutine to stop even it received
+      a signal (it has nothing do with how the code is written but the scheduler
+      of Go)
+    + a goroutine can hold up resources due to its waiting of IO (be it network
+      or file or even `stdout` if there is a lot of lines)
+
 ### sync.WaitGroup
 
 ```go
@@ -1105,6 +1125,8 @@ The key is to handle `Done` channel of the context object of request object.
 
 #### Worker pool
 
+Reference: [Go by Example: Worker Pools](https://gobyexample.com/worker-pools)
+
 ```go
 listOfInputs := []int{1, 2, 3, 4, 5}
 numWorkers := runtime.NumCPU()
@@ -1254,6 +1276,99 @@ func notify(services ...string) {
     return
   }
   fmt.Println("All services notified successfully!")
+}
+```
+
+### pkg/group
+
+- [pkg/group](https://github.com/pkg/group)
+  * [examples](https://github.com/pkg/group/blob/main/example_test.go)
+- this can be better than `errgroup` as goroutines using `errgroup` needs to
+  have access to the group and handle it
+  * in constrast, `group` is transparent to goroutines
+- `group` allows passing of `context.Context` object to goroutines and goroutines
+  can normal flow control using the context object
+
+To handle timeout within a goroutine
+
+```go
+ctx := context.Background()
+g := group.New(group.WithContext(ctx))
+g.Add(func(c context.Context) error {
+  select {
+  case <-c.Done():
+    return c.Err()
+  case <-time.After(1 * time.Second):
+    return errors.New("timed out")
+  }
+})
+
+// Wait for all goroutines to finish.
+if err := g.Wait(); err != nil {
+  fmt.Println(err)
+}
+```
+
+To handle error within a goroutine
+
+```go
+ctx := context.Background()
+g := group.New(group.WithContext(ctx))
+g.Add(func(_ context.Context) error {
+  return errors.New("startup error")
+})
+
+// Wait for all goroutines to finish.
+if err := g.Wait(); err != nil {
+  fmt.Println(err)
+}
+```
+
+To handle external signal to goroutines
+
+```go
+ctx := context.Background()
+g := group.New(group.WithContext(ctx))
+shutdown := make(chan struct{})
+g.Add(func(c context.Context) error {
+  select {
+  case <-c.Done():
+    return c.Err()
+  case <-shutdown:
+    return errors.New("timed out")
+  }
+})
+
+time.AfterFunc(1*time.Second, func() {
+  close(shutdown)
+})
+
+// Wait for all goroutines to finish.
+if err := g.Wait(); err != nil {
+  fmt.Println(err)
+}
+```
+
+To handle SIGTERM signal in multiple goroutines
+
+```go
+ctx := context.Background()
+ctx, _ = signal.NotifyContext(ctx, os.Interrupt)
+
+g := group.New(group.WithContext(ctx))
+
+g.Add(MainHTTPServer)
+g.Add(DebugHTTPServer)
+g.Add(AsyncLogger)
+
+<-time.After(100 * time.Millisecond)
+
+// simulate ^C
+proc, _ := os.FindProcess(os.Getpid())
+proc.Signal(os.Interrupt)
+
+if err := g.Wait(); err != nil {
+  fmt.Println(err)
 }
 ```
 
@@ -1603,6 +1718,11 @@ if !reflect.DeepEqual(tc.want, got) {
   t.Fatalf("expected: %v, got: %v", tc.want, got)
 }
 ```
+
+`reflect.DeepEqual` compares unexported fields as well. If only exported fields
+should be compared or more complex logic is needed package
+`github.com/google/go-cmp/cmp` can be used (see
+[examples](https://github.com/google/go-cmp/blob/master/cmp/example_test.go).
 
 #### Parallel testing
 
@@ -1994,6 +2114,15 @@ for line := range Lines(data) {
 
 - Use `.Equals` instead of `==` to compare Time objects.
 
+### Timer
+
+```go
+shutdown := make(chan struct{})
+time.AfterFunc(5*time.Second, func() {
+  close(shutdown)
+})
+```
+
 ### Call stack
 
 ```go
@@ -2326,22 +2455,6 @@ hierarchy of something like `github.com/username/package`.
 
 The directory should be in source control as this replaces the process of
 pulling packages from the internet during the build process.
-
-### Goroutine
-
-- resource management
-  * stopping a goroutine and releasing all resources associated with it
-    + it is hard to implement in practice
-  * notify the goroutine to stop
-    + it might take a bit of time for a goroutine to stop even it received
-      a signal (it has nothing do with how the code is written but the scheduler
-      of Go)
-    + a goroutine can hold up resources due to its waiting of IO (be it network
-      or file or even `stdout` if there is a lot of lines)
-- [github.com/pkg/group](https://github.com/pkg/group)
-  * this can be better than `errorgroup` as goroutines using `errorgroup` needs
-    to have access to the group and handle it
-    + in constrast, `group` is transparent to goroutines
 
 ### JSON marshalling
 
