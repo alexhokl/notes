@@ -8,6 +8,9 @@ ____
 - [models](https://ollama.com/library)
 - [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - a
   Retrieval-Augmented Generation engine
+- [parakeet-nest/parakeet](https://github.com/parakeet-nest/parakeet) - a GoLang
+  library, made to simplify the development of small generative AI applications
+  with Ollama; [documentation](https://parakeet-nest.github.io/parakeet/)
 - [alexhokl/ollama-rag](https://github.com/alexhokl/ollama-rag)
 - [alexhokl/ollama-image](https://github.com/alexhokl/ollama-image)
 
