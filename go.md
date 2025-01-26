@@ -106,6 +106,9 @@ ___
 
 - [andrewstuart/openai](https://github.com/andrewstuart/openai) OpenAI API
   wrapper
+- [mdelapenya/generative-ai-with-testcontainers](https://github.com/mdelapenya/generative-ai-with-testcontainers)
+  demonstrates how to leverage Testcontainers Go for building and testing
+  generative AI applications
 
 ### CLI
 
