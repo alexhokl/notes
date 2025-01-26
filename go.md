@@ -201,7 +201,8 @@ ___
 - [xeals/signal-back](https://github.com/xeals/signal-back) Decrypt Signal
   encrypted backups outside the app
 - [egbakou/domainverifier](https://github.com/egbakou/domainverifier)
-- [securego/gosec](https://github.com/securego/gosec) - security checker
+- [securego/gosec](https://github.com/securego/gosec) - security checker;
+  [rules](https://securego.io/docs/rules/rule-intro)
 
 ### Source control
 
