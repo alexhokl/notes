@@ -35,6 +35,7 @@
     + [.cert .cer .crt](#cert-cer-crt)
     + [.p7b](#p7b)
     + [.crl (Certificate revocation list)](#crl-certificate-revocation-list)
+    + [PKCS #8](#pkcs-%238)
 - [RBAC](#rbac)
 - [Front-end](#front-end)
 - [FIDO](#fido)
@@ -609,6 +610,14 @@ certification-path certificates.
 
 Certificate Authorities produce these as a way to de-authorize certificates
 before expiration. You can sometimes download them from CA websites.
+
+### PKCS #8
+
+Defined in [RFC 5208](https://tools.ietf.org/html/rfc5208). Technically, this is
+not a file type but a syntax for storing private key information. It can be
+encrypted with a passphrase using PKCS #5 (defined in [RFC
+2898](https://tools.ietf.org/html/rfc2898)). PKCS #8 private keys are typically
+exchanged in the PEM base64-encoded format.
 
 # RBAC
 
