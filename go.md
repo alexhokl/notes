@@ -2471,8 +2471,10 @@ pulling packages from the internet during the build process.
 
 ### Protobuf
 
-- printing it can change the state of protobuf instance, thus, calling `Reset()`
-  would be required for further operations
+- generated `struct` objects, such as those of request or response types,
+  although all the values can be same as another object, its state (or internal
+  pointer) can be different; calling `Reset()` before comparing two objects is
+  recommended
 
 ## Charm
 
