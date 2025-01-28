@@ -368,33 +368,9 @@ go test -fuzz
 go test -race -v ./...
 ```
 
-###### To run benchmarking tests
+###### Benchmarking
 
-```sh
-go test -bench=.
-```
-
-Note that, by default, it benchmarks on CPU only.
-
-Note that `.` after `-bench` is a regular expression to match the name of the
-test (not test file).
-
-To benchmark on both CPU and memory,
-
-```sh
-go test -bench=. -benchmem
-```
-
-To create profile at the same time,
-
-```sh
-$ go test -bench=BenchmarkFindPalindromes \
-	-count=10 \
-	-benchmem \
-	-memprofile ./benchmarking/wordlens/benchmarks/unoptimized.mem.prof \
-	-cpuprofile ./benchmarking/wordlens/benchmarks/unoptimized.cpu.prof \
-	./benchmarking/wordlens/unoptimized | tee ./benchmarking/wordlens/benchmarks/unoptimized.bench.txt
-```
+- see section `Benchmarking` in [Testing](#testing)
 
 ### Modules
 
@@ -1777,11 +1753,12 @@ func BenchmarkFib1(b *testing.B) { benchFib(1, b)}
 func BenchmarkFib10(b *testing.B) { benchFib(10, b)}
 func BenchmarkFib20(b *testing.B) { benchFib(20, b)}
 ```
+###### To run benchmarking tests
 
 To get only CPU benchmarks,
 
 ```sh
-go test -bench=.
+go test -bench=. ./...
 ```
 
 Note that `.` after `-bench` is a regular expression to match the name of the
@@ -1790,28 +1767,36 @@ test (not test file).
 To get CPU and memory benchmarks,
 
 ```sh
-go test -bench=. -benchmem
+go test -bench=. -benchmem ./...
 ```
 
-To create profile at the same time,
+Profiles can be created on a per-package basis. Assuming package `collections`
+is located in directory `collections` and directory `benchmarks` exists. To
+create profiles,
 
 ```sh
-$ go test -bench=BenchmarkFindPalindromes \
+$ go test -bench=. \
 	-count=10 \
 	-benchmem \
-	-memprofile ./benchmarking/wordlens/benchmarks/unoptimized.mem.prof \
-	-cpuprofile ./benchmarking/wordlens/benchmarks/unoptimized.cpu.prof \
-	./benchmarking/wordlens/unoptimized | tee ./benchmarking/wordlens/benchmarks/unoptimized.bench.txt
+	-memprofile ./benchmarks/collections.mem.prof \
+	-cpuprofile ./benchmarks/collections.cpu.prof \
+  ./collections/
 ```
 
-To check the profile generated,
+To check profile generated,
 
 ```sh
-go tool pprof ./benchmarking/wordlens/benchmarks/unoptimized.cpu.prof
+go tool pprof ./benchmarks/collections.cpu.prof
 ```
 
 It is an interactive tool. To get a list of commands, type `help`. Command `top`
 shows the hotspots (where CPU or memory usage is high) of the program.
+
+To check profile generated in a browser,
+
+```sh
+go tool pprof -http localhost:8080 ./benchmarks/collection.mem.prof
+```
 
 To get a more readable output in terminal,
 
