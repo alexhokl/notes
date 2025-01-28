@@ -15,6 +15,8 @@ ____
 # Links
 
 - [awesome-age](https://github.com/FiloSottile/awesome-age)
+- [matiaskorhonen/paper-age](https://github.com/matiaskorhonen/paper-age) paper
+  backups of secrets
 
 # Installations
 
