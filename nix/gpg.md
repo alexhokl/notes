@@ -1,15 +1,21 @@
+- [Links](#links)
 - [Key servers](#key-servers)
 - [Commands](#commands)
   * [Key management](#key-management)
   * [Operations](#operations)
   * [Configuration](#configuration)
 - [Yubikey](#yubikey)
-    + [Links](#links)
+    + [Links](#links-1)
     + [PINs](#pins)
     + [Master key](#master-key)
     + [Key management](#key-management-1)
     + [GPG Agent Forwarding](#gpg-agent-forwarding)
 ____
+
+# Links
+
+- [GPG
+  forwarding](https://coder.com/docs/v1/guides/customization/gpg-forwarding)
 
 # Key servers
 
@@ -199,6 +205,27 @@ gpgconf --list-dirs homedir
 ```
 
 and it should return something like `$HOME/.gnupg`.
+
+##### To start a local agent
+
+```sh
+gpgconf --launch gpg-agent
+```
+
+or
+
+```sh
+gpgconf --reload gpg-agent
+```
+
+This ensures the sockets for mounting. Without the sockets, the agent in remote
+system will have no keys.
+
+##### To check if a local agent is running
+
+```sh
+gpgconf --list-components | grep gpg-agent
+```
 
 # Yubikey
 
