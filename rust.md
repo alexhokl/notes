@@ -1,4 +1,6 @@
 - [References](#references)
+- [Libraries](#libraries)
+  * [GUI](#gui)
 - [Commands](#commands)
 - [Language](#language)
   * [Declarations](#declarations)
@@ -42,6 +44,15 @@ ____
 - [Rust playground](https://play.rust-lang.org/)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/) - a
   training course
+- [rust-embedded/rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
+  learn to write an embedded OS in Rust (on Raspberry Pi)
+
+## Libraries
+
+### GUI
+
+- [Yew](https://yew.rs/)
+- [iced-rs/iced](https://github.com/iced-rs/iced) inspired by Elm
 
 ## Commands
 
