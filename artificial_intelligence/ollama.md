@@ -11,6 +11,8 @@ ____
 - [parakeet-nest/parakeet](https://github.com/parakeet-nest/parakeet) - a GoLang
   library, made to simplify the development of small generative AI applications
   with Ollama; [documentation](https://parakeet-nest.github.io/parakeet/)
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) - a web
+  interface for Ollama
 - [alexhokl/ollama-rag](https://github.com/alexhokl/ollama-rag)
 - [alexhokl/ollama-image](https://github.com/alexhokl/ollama-image)
 
