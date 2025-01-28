@@ -109,6 +109,8 @@ ___
 - [mdelapenya/generative-ai-with-testcontainers](https://github.com/mdelapenya/generative-ai-with-testcontainers)
   demonstrates how to leverage Testcontainers Go for building and testing
   generative AI applications
+- [pemistahl/lingua-go](https://github.com/pemistahl/lingua-go) a language
+  detection library
 
 ### CLI
 
