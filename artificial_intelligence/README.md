@@ -1,13 +1,14 @@
 - [Links](#links)
   * [People](#people)
   * [Services](#services)
+  * [Tools](#tools)
 - [Concepts](#concepts)
   * [General concepts](#general-concepts)
   * [Retrieval augmented generation (RAG)](#retrieval-augmented-generation-rag)
   * [Tricks with LLM](#tricks-with-llm)
 - [Machine Learning](#machine-learning)
   * [Links](#links-1)
-- [Tools](#tools)
+- [Tools](#tools-1)
   * [GitHub Copilot](#github-copilot)
   * [Continue](#continue)
   * [yt-dlp](#yt-dlp)
@@ -39,6 +40,13 @@ ____
 - [bolt](https://bolt.new/) - generate apps using generative AI
 - [n8n](https://n8n.io/) - workflow automation tool
 - [weaviate](https://weaviate.io/) - vector search engine
+- [Common Voice](https://commonvoice.mozilla.org/en) - a service for sharing,
+  creating and curating text and speech datasets
+
+## Tools
+
+- [mergestat/scribe](https://github.com/mergestat/scribe) - a CLI tool for
+  translating natural language prompts into SQL queries using the OpenAI API
 
 # Concepts
 
