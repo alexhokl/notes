@@ -16,6 +16,7 @@
     + [Nouns](#nouns-1)
     + [Nouns (position)](#nouns-position-1)
     + [Adjectives (い)](#adjectives-%E3%81%84-1)
+    + [Adjectives (な)](#adjectives-%E3%81%AA-1)
     + [Pronouns (person)](#pronouns-person-1)
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
@@ -23,7 +24,7 @@
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Adjectives](#adjectives)
-    + [Adjectives (な)](#adjectives-%E3%81%AA-1)
+    + [Adjectives (な)](#adjectives-%E3%81%AA-2)
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
     + [Verbs](#verbs-2)
@@ -62,6 +63,7 @@ ____
 - 人 (ひと) - person
 - 皆 (みな) - everyone / everything
 - 皆さん (みなさん) - everyone (honorific)
+- 主人 (しゅじん) - husband / head of household / landlord / employer
 - 名前 (なまえ) - first name
 - 学校 (がっこう) - school
 - 教室 (きょうしつ) - classroom
@@ -69,6 +71,8 @@ ____
 - 試験 (しけん) - exam
 - 先生 (せんせい) - teacher / master
 - 鉛筆 (えんぴつ) - pencil
+- 紙 (かみ) - paper
+- 切手 (きって) - stamp
 - 料理 (りょうり) - cooking
 - 会社 (かいしゃ) - company
 - 英語 (えいご) - English
@@ -94,8 +98,10 @@ ____
 - 病院 (びょういん) - hospital
 - デパート - department store
 - ホテル - hotel
+- レストラン - restaurant
 - 建物 (たてもの) - building
 - マンション - condominium / apartment building
+- アパート - apartment
 - ビル - multi-storey building
 - 公園 (こうえん) - park
 - 駅 (えき) - train station
@@ -122,6 +128,8 @@ ____
 - 靴 (くつ) - shoes
 - 靴下 (くつした) - socks
 - シャツ - shirt
+- ハンカチ - handkerchief
+- お古 (おふる) - second-hand / old clothes
 - 時計 (とけい) - clock / watch
 - ラジオ - radio
 - 自転車 (じてんしゃ) - bicycle
@@ -142,6 +150,12 @@ ____
 - 冬 (ふゆ) - winter
 - 口 (くち) - mouth
 - 一緒 (いっしょ) - together / the same
+- 焼き (やき) - grilled / fried
+- 牛タン (ぎゅうタン) - beef tongue
+- 牛乳 (ぎゅうにゅう) - milk
+- 鶏 (にわとり) - chicken
+- 軟骨 (なんこつ) - cartilage
+- 卵 (たまご) - egg
 
 ### Nouns (position)
 
@@ -228,6 +242,7 @@ ____
 - 弱い (よわい) - weak
 - 丸い (まるい) - round / circular
 - 暑い (あつい) - hot / warm
+- 甘い (あまい) - sweet
 
 ### Adjectives (な)
 
@@ -306,6 +321,10 @@ ____
 - 正しい (ただしい) - correct
 - 硬い (かたい) - hard
 - 固い (かたい) - solid
+
+### Adjectives (な)
+
+- 親切 (しんせつ) - kind
 
 ### Pronouns (person)
 

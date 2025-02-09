@@ -212,6 +212,7 @@ ____
 - ベジタリアン - vegetarian
 - 人参 (にんじん) - carrot
 - 朝鮮人参 (ちょうせんにんじん) - ginseng
+- 豚汁 (とんじる) - pork miso soup
 
 ### Fish
 
