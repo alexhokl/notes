@@ -37,6 +37,8 @@ Header](https://www.w3.org/TR/trace-context/#traceparent-header)
 
 - [Generate traces and metrics with
   Go](https://cloud.google.com/stackdriver/docs/instrumentation/setup/go)
+- [OpenTelemetry: A Guide to Observability with
+  Go](https://www.lucavall.in/blog/opentelemetry-a-guide-to-observability-with-go)
 - standard library of `context.Context` is used as the implementation of
   OpenTelemetry Context in Go.
 
