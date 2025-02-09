@@ -158,6 +158,7 @@ ____
 - [EnhancedJax/Bagels](https://github.com/EnhancedJax/Bagels) - a CLI tool to
   log expenses
 - [posting.sh](https://posting.sh/) - a CLI tool like Postman GUI
+- [meli](https://meli-email.org/) - a terminal email client
 
 ### git
 
