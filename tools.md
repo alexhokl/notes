@@ -155,6 +155,9 @@ ____
   application to store SSH keys in the Secure Enclave; as with Secure Enclave,
   the keys are local to the machine and cannot be exported or transferred to
   another machine; YubiKey is supported
+- [EnhancedJax/Bagels](https://github.com/EnhancedJax/Bagels) - a CLI tool to
+  log expenses
+- [posting.sh](https://posting.sh/) - a CLI tool like Postman GUI
 
 ### git
 
@@ -267,6 +270,8 @@ ____
   Newtonsoft
 - [quicktype](https://app.quicktype.io/) - generate code of various languages
   from JSON data.
+- [JSON Crack](https://jsoncrack.com/) - an online JSON editor to visualize and
+  edit JSON data
 
 ### Language
 
@@ -484,6 +489,8 @@ ____
 ### Others
 
 - [Website Test behind the Great Firewall](https://www.websitepulse.com/tools/china-firewall-test)
+- [web probe](https://api.webprobe.org/scan/) - an internet health checkups via
+  browser (no results will be shown but it contributes to NetBlocks)
 - [URL
   parts](https://url-parts.glitch.me/?url=https://cats.example.org.au:1234/stripes/fur.html?pattern=tabby#claws)
 - [Resources from Bellingcat](https://www.bellingcat.com/category/resources/)
