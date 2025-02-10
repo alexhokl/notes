@@ -18,6 +18,7 @@ ____
 - [mess with dns](https://messwithdns.net/) - a site for experimenting DNS setup
 - [badssl.com](https://badssl.com/) - for manual testing of security UI in web
   clients. It provides links to check various possible errors.
+- [hover](https://www.hover.com/) - domain registrar
 
 # Domain transfer
 
