@@ -163,8 +163,10 @@ ____
 - どうぞ (dōzo) - please (or go ahead)
 - 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
 - お水お願いします (omizu onegaishimasu) - water, please
-- 五名です (go mei desu) - there are 5 people
+- 五名です (ごめいです) - there are 5 people
 - 二人です (ふたりです) - there are 2 people
+- いらっしゃいませ - welcome
+- かしこまりました - certainly
 - お下げしてもよろしいですか。 (おさげしてもよろしいですか) - can I take it
   away? (usually by restaurant staff)
 - 失礼します (しつれいします) - excuse me (usually after staff take a plate
@@ -175,8 +177,9 @@ ____
 - ここってカード使えますか？ (ここってカードつかえますか) - can I use card here?
   (usage of って is equivalent to は)
 - カードでお願いします - I'll pay by card
-- 食べる (たべる) - to eat
-- 飲む (のむ) - to drink
+- 朝食 (ちょうしょく) - breakfast
+- 昼食 (ちゅうしょく) - lunch
+- 夕食 (ゆうしょく) - dinner
 - 定食 (teishoku) - set meal
 - レストラン (resutoran) - restaurant
 - マクドナルド (makudonarudo) - McDonald's
@@ -213,6 +216,7 @@ ____
 - 人参 (にんじん) - carrot
 - 朝鮮人参 (ちょうせんにんじん) - ginseng
 - 豚汁 (とんじる) - pork miso soup
+- エビフライ - fried shrimp
 
 ### Fish
 
@@ -309,6 +313,8 @@ ____
 - 洋書 (ようしょ) - book in foreign language
 - 地下街 (ちかがい) - underground shopping street
 - 風呂場 (ふろば) - bathroom
+- でございます - polite form of です (usually used in shops to address to
+  customers)
 
 ## Payment
 
@@ -364,6 +370,9 @@ ____
     + 二階が職員室です。 - the second floor is the staff room
 - 分かりました (わかりました) - understood
 - お名前は何ですか。 (おなまえはなんですか) - what is your name?
+- 私は香港から来ました。 - I came from Hong Kong
+- あの - used before asking a question
+- えっど - used before answering a question
 
 ## Sites
 
@@ -456,8 +465,9 @@ ____
 
 - 分 (ふん) - minute
   * it can be pronounced as ぷん due to 連濁 (れんだく)
-- 八時四十分(hachi-ji yon-jū-pun) - 8:40
-- 2時間40分 (ni-jikan yon-jū-pun) - 2 hours 40 minutes
+- 八時四十分(はちじよんじゅっぷん) - 8:40
+- 10時五分前 (じゅじごふんまえ) - 9:55
+- 2時間40分 (にじかんよんじゅっぷん) - 2 hours and 40 minutes
 - 午前 (ごぜん) - AM
 - 午後 (ごご) - PM
 - Interestingly, times beyond midnight after the 24-hour mark can also be
@@ -473,20 +483,10 @@ ____
 - 八時前 (はちじまえ) - before 8
 - 八時後 (はちじご) - after 8
 - 今 (いま) - now
-
- | Hour     | Reading                         |
- | ---      | ---                             |
- | 四時     | `よ`じ                          |
- | 七時     | `しち`じ                        |
- | 九時     | `く`じ                          |
- | 十時     | `じゅう`じ                      |
- | 十四時   | `じゅうよ`じ                    |
- | 十七時   | `じゅうしち`じ / `じゅうなな`じ |
- | 十九時   | `じゅうく`じ                    |
- | 二十時   | `にじゅう`じ                    |
- | 二十四時 | `にじゅうよ`じ                  |
- | 零時     | `れい`じ                        |
- | 九時半   | `く`じ `はん`                   |
+- 毎日 (まいにち) - every day
+- 毎朝 (まいあさ) - every morning
+- 毎晩 (まいばん) - every night
+- そちらは何時から何時までですか？ What is the opening hours?
 
 ### Approximate time
 
@@ -529,12 +529,14 @@ ____
 - 金曜日 (きんようび) - Friday
 - 土曜日 (どようび) - Saturday
 - 日曜日 (にちようび) - Sunday
+- 何曜日 (なんようび) - what day of the week
 
 ## Day
 
 - 本日 (ほんじつ) - today
 - 今日 (きょう) - today
-- 明日 (あした) - tomorrow
+- 明日 (あした) - tomorrow (also as あす)
+- 明後日 (あさって) - the day after tomorrow
 - 昨日 (きのう) - yesterday
 
 ## Colours

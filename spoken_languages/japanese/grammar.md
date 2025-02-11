@@ -214,6 +214,10 @@ ____
       + クッキー`食べる`？ (Will you eat some cookies?)
     + polite
       + クッキー`食べますか`？ (Would you like to eat some cookies?)
+- types
+  * 他動詞 (たどうし) - transitive verb
+  * 自動詞 (じどうし) - intransitive verb
+    + 往来動詞 (おうらいどうし) - directional intransitive verb
 
 ## Verb conjugation
 

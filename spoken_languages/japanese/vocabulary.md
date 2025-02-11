@@ -21,6 +21,7 @@
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
     + [Verbs](#verbs-1)
+    + [Expressions](#expressions-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Adjectives](#adjectives)
@@ -63,11 +64,14 @@ ____
 - 人 (ひと) - person
 - 皆 (みな) - everyone / everything
 - 皆さん (みなさん) - everyone (honorific)
-- 主人 (しゅじん) - husband / head of household / landlord / employer
+- 主人 (しゅじん) - husband / head of household / landlord / employer /
+  restaurant owner
 - 名前 (なまえ) - first name
 - 学校 (がっこう) - school
+- 大学 (だいがく) - university
 - 教室 (きょうしつ) - classroom
 - 勉強 (べんきょう) - study
+- 授業 (じゅぎょう) - lesson / class
 - 試験 (しけん) - exam
 - 先生 (せんせい) - teacher / master
 - 鉛筆 (えんぴつ) - pencil
@@ -104,11 +108,10 @@ ____
 - アパート - apartment
 - ビル - multi-storey building
 - 公園 (こうえん) - park
-- 駅 (えき) - train station
-- 電車 (でんしゃ) - train
 - 山 (やま) - mountain
 - 部屋 (へや) - room
 - 台所 (だいどころ) - kitchen
+- 風呂 (ふろ) - bath
 - 玄関 (げんかん) - front door
 - 廊下 (ろうか) - corridor
 - 机 (つくえ) - desk
@@ -132,30 +135,54 @@ ____
 - お古 (おふる) - second-hand / old clothes
 - 時計 (とけい) - clock / watch
 - ラジオ - radio
-- 自転車 (じてんしゃ) - bicycle
-- 車 (くるま) - car
 - 花 (はな) - flower
 - 友達 (ともだち) - friend
 - 電気 (でんき) - electricity
 - 茶色 (ちゃいろ) - brown colour
 - 町 (まち) - town / neighborhood
-- 動物 (どうぶつ) - animal
-- 犬 (いぬ) - dog
-- 猫 (ねこ) - cat
-- 魚 (さかな) - fish
 - 国 (くに) - country
 - 春 (はる) - spring
 - 夏 (なつ) - summer
 - 秋 (あき) - autumn
 - 冬 (ふゆ) - winter
-- 口 (くち) - mouth
 - 一緒 (いっしょ) - together / the same
+- 音楽 (おんがく) - music
+- シャワー - shower
+- 物 (もの) - thing
+- 休み (やすみ) - rest / holiday
+
+### Nouns (food)
+
 - 焼き (やき) - grilled / fried
 - 牛タン (ぎゅうタン) - beef tongue
 - 牛乳 (ぎゅうにゅう) - milk
 - 鶏 (にわとり) - chicken
 - 軟骨 (なんこつ) - cartilage
 - 卵 (たまご) - egg
+- ご飯 (ごはん) - meal / cooked rice
+- パン - bread
+- 水 (みず) - water
+
+### Nouns (transportation)
+
+- 地下鉄 (ちかてつ) - subway / metro / underground
+- バス - bus
+- 駅 (えき) - train station
+- 電車 (でんしゃ) - train
+- 車 (くるま) - car
+- 自転車 (じてんしゃ) - bicycle
+
+### Nouns (animals)
+
+- 動物 (どうぶつ) - animal
+- 犬 (いぬ) - dog
+- 猫 (ねこ) - cat
+- 魚 (さかな) - fish
+
+### Nouns (body parts)
+
+- 口 (くち) - mouth
+- 歯 (は) - tooth
 
 ### Nouns (position)
 
@@ -171,8 +198,13 @@ ____
 - 後ろ (うしろ) - behind
 - 外 (そと) - outside
 - 内 (うち) - inside
-- 近く (ちかく) - near
+- 近く (ちかく) - near / recently / soon
 - 遠く (とおく) - far
+
+### Nouns (sports)
+
+- ジョギング - jogging
+- サッカー - soccer
 
 ### 連体詞
 
@@ -273,6 +305,7 @@ ____
 - 余り (あまり) - not very / not much
 - 些とも (ちっとも) - not at all
 - 幾つ (いくつ) - how many
+- 時々 (ときどき) - sometimes / occasionally
 
 ### Conjunctions
 
@@ -280,11 +313,39 @@ ____
 - でも - but
 - では - then
 
-### Verbs
+### Transitive Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
+- 為る (する) - to do
 - 教える (おしえる) - to teach
+- 食べる (たべる) - to eat
+- 飲む (のむ) - to drink
+- 見る (みる) - to watch/see
+- 聞く (きく) - to listen (also 聴く (きく))
+- 読む (よむ) - to read
+- 洗う (あらう) - to wash
+- 浴びる (あびる) - to take a shower
+- 磨く (みがく) - to brush
+- 買う (かう) - to buy
+
+### Intransitive Verbs
+
+- 起きる (おきる) - to wake up
+- 寝る (ねる) - to sleep
+- 始まる (はじまる) - to start
+- 終わる (おわる) - to end
+- 出る (でる) - to leave / to appear / to attend
+- 降りる (おりる) - to get off
+- 入る (はいる) - to enter
+- 乗る (のる) - to get on
+- 掛かる (かかる) - to take (time/money)
+
+### Direction Intransitive Verbs
+
+- 行く (いく) - to go
+- 来る (くる) - to come
+- 帰る (かえる) - to return
 
 ### Expressions
 
@@ -298,6 +359,8 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n4%20%23noun)
 - オートバイ - motorcycle
 - 試験 (しけん) - exam
+- 復習 (ふくしゅう) - review / revision
+- 予習 (よしゅう) - preparation for a lesson
 - 消しゴム (けしゴム) - eraser
 - 引き出し (ひきだし) - drawer
 - 数学 (すうがく) - mathematics
@@ -341,9 +404,23 @@ ____
 - けど - but / however (usually at the end of the sentence in a phone call, and
   expect a response)
 
-### Verbs
+### Intransitive Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
+- 入学 (にゅうがく) - admission to school
+- 入院 (にゅういん) - hospitalization
+- 卒業 (そつぎょう) - graduation
+- 退院 (たいいん) - discharge from hospital
+- 戻る (もどる) - to return
+
+### Transitive Verbs
+
+- 思う (おもう) - to consider / to plan
+- 考える (かんがえる) - to think
+
+### Expressions
+
+- もうすぐ - soon
 
 ## N3
 
@@ -364,6 +441,9 @@ ____
 - 心配 (しんぱい) - worry / concern / anxiety
 - 世話 (せわ) - care / looking after / help / support
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
+- お昼 (おひる) - lunch / noon / midday
+- お皿 (おさら) - plate
+- 頃 (ころ) - (approximate) time
 
 ### Adjectives
 
@@ -386,11 +466,15 @@ ____
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
 
-### Verbs
+### Intransitive Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
-- 心配 (しんぱい) - care / help
 - 怪我 (けが) - injury / mistake
+- 運転 (うんてん) - driving / operating
+
+### Transitive Verbs
+
+- 心配 (しんぱい) - care / help
 
 ## N2
 
@@ -426,11 +510,16 @@ ____
 - 階 (かい) - floor
 - インフォメーション - information
 - 区 (く) - ward / district
+- ぐらい - about / approximately
 
 ### Adjectives
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23adjective)
 - 的 (てき) - -ish / -wise / -like
+
+### Adverb
+
+- 直ぐ (すぐ) - immediately / soon / easily
 
 ### Verbs
 
