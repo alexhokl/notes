@@ -173,10 +173,12 @@ References
 | 五本     | ごほん           |
 | 六本     | `ろっぽん`       |
 | 七本     | ななほん         |
-| 八本     | はちほん         |
+| 八本     | `はっぽん`       |
 | 九本     | きゅうほん       |
 | 十本     | `じゅっぽん`     |
 | 十一本   | `じゅういっぽん` |
+| 百本     | `ひゃっぽん`     |
+| 千本     | `せんぼん`       |
 | 何本     | `なんぼん`       |
 
 #### 枚 (まい)
@@ -222,6 +224,8 @@ References
 | 八匹     | `はっぴき`       |
 | 九匹     | きゅうひき       |
 | 十匹     | `じゅっぴき`     |
+| 百匹     | `ひゃっぴき`     |
+| 千匹     | `せんぴき`       |
 | 何匹     | `なんびき`       |
 
 #### 頭 (とう)
@@ -231,6 +235,19 @@ References
   Animals](https://www.tofugu.com/japanese/japanese-counter-tou/)
 - Counts: cows, horses, livestock, elephants, gorillas, whales, camels,
   tigers, "professional" animals, insects on display, animals for sale
+
+| Japanese | Reading      |
+| ---      | ---          |
+| 一頭     | `いっとう`   |
+| 二頭     | にとう       |
+| 三頭     | さんとう     |
+| 四頭     | よんとう     |
+| 五頭     | ごとう       |
+| 六頭     | ろくとう     |
+| 七頭     | ななとう     |
+| 八頭     | `はっとう`   |
+| 九頭     | きゅうとう   |
+| 十頭     | `じゅっとう` |
 
 #### 羽 (わ)
 
@@ -248,6 +265,19 @@ References
 - Counts: books, book collections, albums, notebooks, memo pads, musical
   scores, catalogs, magazines, dictionaries, publications, documents, booklet
 - 私は毎日７冊本を読みます。
+
+| Japanese | Reading      |
+| ---      | ---          |
+| 一冊     | `いっさつ`   |
+| 二冊     | にさつ       |
+| 三冊     | さんさつ     |
+| 四冊     | よんさつ     |
+| 五冊     | ごさつ       |
+| 六冊     | ろくさつ     |
+| 七冊     | ななさつ     |
+| 八冊     | `はっさつ`   |
+| 九冊     | きゅうさつ   |
+| 十冊     | `じゅっさつ` |
 
 #### 台 (だい)
 
@@ -415,10 +445,10 @@ References
 | 一人     | `ひとり`         |
 | 二人     | `ふたり`         |
 | 三人     | さんにん         |
-| 四人     | `よにん`         |
+| 四人     | `よ`にん         |
 | 五人     | ごにん           |
 | 六人     | ろくにん         |
-| 七人     | ななにん         |
+| 七人     | `しち`にん       |
 | 八人     | はちにん         |
 | 九人     | きゅうにん       |
 | 十人     | じゅうにん       |
@@ -578,6 +608,21 @@ References
 
 - it counts age
 - 才 (さい) is for the same thing
+
+#### 円 (えん)
+
+| Japanese | Reading    |
+| ---      | ---        |
+| 一円     | いちえん   |
+| 二円     | にえん     |
+| 三円     | さんえん   |
+| 四円     | `よ`えん   |
+| 五円     | ごえん     |
+| 六円     | ろくえん   |
+| 七円     | ななえん   |
+| 八円     | はちえん   |
+| 九円     | きゅうえん |
+| 十円     | じゅうえん |
 
 ### optional
 
@@ -749,9 +794,9 @@ References
 
 | Japanese | Reading          |
 | ---      | ---              |
-| 一杯     | `いっぱい`       |
+| 一杯     | `いっばい`       |
 | 二杯     | にはい           |
-| 三杯     | `さんぱい`       |
+| 三杯     | `さんばい`       |
 | 四杯     | よんはい         |
 | 五杯     | ごはい           |
 | 六杯     | `ろっぱい`       |
@@ -759,7 +804,9 @@ References
 | 八杯     | `はっぱい`       |
 | 九杯     | きゅうはい       |
 | 十杯     | `じゅっぱい`     |
-| 何杯     | `なんぱい`       |
+| 百杯     | `ひゃっぱい`     |
+| 千杯     | `せんばい`       |
+| 何杯     | `なんばい`       |
 
 - 泊 (はく) counts overnight stays or rentals
 
