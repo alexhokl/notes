@@ -8,6 +8,7 @@
   * [To copy files to another device](#to-copy-files-to-another-device)
   * [To setup a server within Tailscale network](#to-setup-a-server-within-tailscale-network)
   * [To setup a server publicly (via Tailscale Funnel)](#to-setup-a-server-publicly-via-tailscale-funnel)
+- [Monitoring](#monitoring)
 - [Taildrop (file)](#taildrop-file)
 - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
   * [To start and share DNS names between GCP and Tailnet](#to-start-and-share-dns-names-between-gcp-and-tailnet)
@@ -97,6 +98,10 @@ tailscale funnel 5000
 ```
 
 where this will setup a server at port `5000` with HTTPS on.
+
+## Monitoring
+
+- Prometheus metrics is available at `http://100.100.100.100/metrics`
 
 ## Taildrop (file)
 
