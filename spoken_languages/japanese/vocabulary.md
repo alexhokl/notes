@@ -161,12 +161,14 @@ ____
 - 卵 (たまご) - egg
 - ご飯 (ごはん) - meal / cooked rice
 - パン - bread
+- 果物 (くだもの) - fruit
 - 水 (みず) - water
 
 ### Nouns (transportation)
 
 - 地下鉄 (ちかてつ) - subway / metro / underground
 - バス - bus
+- バス停 (バスてい) - bus stop
 - 駅 (えき) - train station
 - 電車 (でんしゃ) - train
 - 車 (くるま) - car
@@ -275,6 +277,8 @@ ____
 - 丸い (まるい) - round / circular
 - 暑い (あつい) - hot / warm
 - 甘い (あまい) - sweet
+- 早い (はやい) - early / fast / quick
+- 遅い (おそい) - late / slow
 
 ### Adjectives (な)
 
@@ -313,7 +317,7 @@ ____
 - でも - but
 - では - then
 
-### Transitive Verbs
+### Verbs (Transitive)
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
@@ -329,7 +333,7 @@ ____
 - 磨く (みがく) - to brush
 - 買う (かう) - to buy
 
-### Intransitive Verbs
+### Verbs (Intransitive)
 
 - 起きる (おきる) - to wake up
 - 寝る (ねる) - to sleep
@@ -339,9 +343,9 @@ ____
 - 降りる (おりる) - to get off
 - 入る (はいる) - to enter
 - 乗る (のる) - to get on
-- 掛かる (かかる) - to take (time/money)
+- 掛かる (かかる) - to take (time, money)
 
-### Direction Intransitive Verbs
+### Verbs (Direction Intransitive)
 
 - 行く (いく) - to go
 - 来る (くる) - to come
@@ -373,6 +377,7 @@ ____
 - 先輩 (せんぱい) - senior
 - 市 (し) - city
 - 工場 (こうじょう) - factory
+- サンドイッチ - sandwich
 
 ### Nouns (position)
 
@@ -404,7 +409,7 @@ ____
 - けど - but / however (usually at the end of the sentence in a phone call, and
   expect a response)
 
-### Intransitive Verbs
+### Verbs (Intransitive)
 
 - [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
 - 入学 (にゅうがく) - admission to school
@@ -413,7 +418,7 @@ ____
 - 退院 (たいいん) - discharge from hospital
 - 戻る (もどる) - to return
 
-### Transitive Verbs
+### Verbs (Transitive)
 
 - 思う (おもう) - to consider / to plan
 - 考える (かんがえる) - to think
@@ -444,6 +449,9 @@ ____
 - お昼 (おひる) - lunch / noon / midday
 - お皿 (おさら) - plate
 - 頃 (ころ) - (approximate) time
+- ドラマ - drama
+- クラシック - classical music
+- 生 (なま) - raw / uncooked
 
 ### Adjectives
 
@@ -466,13 +474,13 @@ ____
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
 
-### Intransitive Verbs
+### Verbs (Intransitive)
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
 - 怪我 (けが) - injury / mistake
 - 運転 (うんてん) - driving / operating
 
-### Transitive Verbs
+### Verbs (Transitive)
 
 - 心配 (しんぱい) - care / help
 

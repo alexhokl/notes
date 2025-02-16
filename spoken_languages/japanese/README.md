@@ -322,6 +322,7 @@ ____
 - カード使えますか？ (kādo tsukaemasu ka?) - Card, can I use?
 - アップルペイ使えますか? (appurupai tsukaemasu ka?) - Apple pay, can I use?
 - いくらですか？ (ikura desu ka?) - how much is it?
+- ドル - dollar
 
 ## Conversation
 
@@ -716,6 +717,10 @@ ____
 ## Stationary
 
 - 鋏 (はさみ) - scissors
+
+## Work
+
+- 残業 (ざんぎょう) - overtime
 
 # Verbs
 
