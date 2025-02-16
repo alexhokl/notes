@@ -344,6 +344,7 @@ ____
 - 入る (はいる) - to enter
 - 乗る (のる) - to get on
 - 掛かる (かかる) - to take (time, money)
+- 走る (はしる) - to run
 
 ### Verbs (Direction Intransitive)
 
@@ -378,6 +379,7 @@ ____
 - 市 (し) - city
 - 工場 (こうじょう) - factory
 - サンドイッチ - sandwich
+- ケーキ - cake
 
 ### Nouns (position)
 
@@ -452,6 +454,7 @@ ____
 - ドラマ - drama
 - クラシック - classical music
 - 生 (なま) - raw / uncooked
+- 世話 (せわ) - care / looking after / help / support
 
 ### Adjectives
 

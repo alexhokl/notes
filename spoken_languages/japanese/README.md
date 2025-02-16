@@ -217,6 +217,7 @@ ____
 - 朝鮮人参 (ちょうせんにんじん) - ginseng
 - 豚汁 (とんじる) - pork miso soup
 - エビフライ - fried shrimp
+- ビュッフェ - buffet
 
 ### Fish
 
@@ -374,6 +375,7 @@ ____
 - 私は香港から来ました。 - I came from Hong Kong
 - あの - used before asking a question
 - えっど - used before answering a question
+- 頑張りましょう - let's do our best
 
 ## Sites
 

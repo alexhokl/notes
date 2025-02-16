@@ -18,6 +18,7 @@
   * [Stem form](#stem-form)
   * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
   * [と](#%E3%81%A8)
+- [て form](#%E3%81%A6-form)
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
   * [の](#%E3%81%AE)
@@ -492,6 +493,53 @@ Note that all other conjugations of 買う use hiragana characters on the
       for sweets.
     + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
     + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
+
+## て form
+
+- the most basic use
+  * to connect simultaneous or sequential actions, events or states together
+- conjugation
+  * 五段動詞
+    + replace う,つ,る with って
+    + replace ぬ,ぶ,む with んで
+    + replace す with して
+    + replace く with いて
+    + replace ぐ with いで
+    + exception
+      + 行く -> 行って
+  * 一段動詞
+    + replace る with て
+  * 変格動詞
+    + する -> して
+    + 来る -> 来て
+  * い adjectives
+    + replace い with くて
+    + exception
+      + いい -> よくて (not exactly an exception since stem form is よい
+  * な adjectives
+    + add で
+  * nouns
+    + add で
+- other usages
+  * and
+    + `走って`シャワーをする。 - I run and take a shower.
+  * by
+    + `走って`駅に行く。 - I go to the station by running.
+  * multiple actions
+    + `走って`シャワーを`浴びて`、朝ご飯を食べる。 - I run, take a shower, and
+      eat breakfast.
+  * so
+    + このケーキ`甘くて`おいしい。 - This cake is sweet so it is delicious.
+    + 頭痛で眠れなかった。 - I had a headache so I couldn't sleep.
+    + 睡眠薬を飲んで眠った。 - I took sleeping pills so I slept. / I slept by
+      taking sleeping pills.
+  * ending a sentence (polite form)
+    + 起きてください。- Please wake up.
+  * ending a sentence (command form)
+    + 起きて。 - Wake up.
+  * share the same subject
+    + このベーコンはカリカリ`で`おいしい。 - This bacon is crispy and it is
+      delicious.
 
 ## Particles (助詞)
 
