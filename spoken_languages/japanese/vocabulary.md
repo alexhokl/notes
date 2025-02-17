@@ -1,7 +1,12 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
     + [Nouns](#nouns)
+    + [Nouns (food)](#nouns-food)
+    + [Nouns (transportation)](#nouns-transportation)
+    + [Nouns (animals)](#nouns-animals)
+    + [Nouns (body parts)](#nouns-body-parts)
     + [Nouns (position)](#nouns-position)
+    + [Nouns (sports)](#nouns-sports)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [Pronouns (place)](#pronouns-place)
     + [Pronouns (time)](#pronouns-time)
@@ -10,7 +15,9 @@
     + [Adjectives (な)](#adjectives-%E3%81%AA)
     + [Adverbs](#adverbs)
     + [Conjunctions](#conjunctions)
-    + [Verbs](#verbs)
+    + [Verbs (Transitive)](#verbs-transitive)
+    + [Verbs (Intransitive)](#verbs-intransitive)
+    + [Verbs (Direction Intransitive)](#verbs-direction-intransitive)
     + [Expressions](#expressions)
   * [N4](#n4)
     + [Nouns](#nouns-1)
@@ -20,7 +27,8 @@
     + [Pronouns (person)](#pronouns-person-1)
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
-    + [Verbs](#verbs-1)
+    + [Verbs (Intransitive)](#verbs-intransitive-1)
+    + [Verbs (Transitive)](#verbs-transitive-1)
     + [Expressions](#expressions-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
@@ -28,16 +36,18 @@
     + [Adjectives (な)](#adjectives-%E3%81%AA-2)
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
-    + [Verbs](#verbs-2)
+    + [Verbs (Intransitive)](#verbs-intransitive-2)
+    + [Verbs (Transitive)](#verbs-transitive-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
     + [Adjectives](#adjectives-1)
     + [Adverbs](#adverbs-3)
-    + [Verbs](#verbs-3)
+    + [Verbs](#verbs)
   * [N1](#n1)
     + [Nouns](#nouns-4)
     + [Adjectives](#adjectives-2)
-    + [Verbs](#verbs-4)
+    + [Adverb](#adverb)
+    + [Verbs](#verbs-1)
 ____
 
 # Vocabulary
@@ -180,6 +190,7 @@ ____
 - 犬 (いぬ) - dog
 - 猫 (ねこ) - cat
 - 魚 (さかな) - fish
+- パット - pet
 
 ### Nouns (body parts)
 
@@ -455,6 +466,9 @@ ____
 - クラシック - classical music
 - 生 (なま) - raw / uncooked
 - 世話 (せわ) - care / looking after / help / support
+- 支払い (しはらい) - payment
+- 暮らし (くらし) - life / living
+- ケース - case
 
 ### Adjectives
 

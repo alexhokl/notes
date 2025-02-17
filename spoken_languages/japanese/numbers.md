@@ -1,5 +1,9 @@
 - [Methods of counting](#methods-of-counting)
 - [Simple Numbers](#simple-numbers)
+- [総称語 (quantifiers)](#%E7%B7%8F%E7%A7%B0%E8%AA%9E-quantifiers)
+- [Unspecified quantity](#unspecified-quantity)
+- [Suffixes](#suffixes)
+- [畳語 Repetition words](#%E7%95%B3%E8%AA%9E-repetition-words)
 - [Counters](#counters)
   * [Core](#core)
     + [つ](#%E3%81%A4)
@@ -21,6 +25,7 @@
     + [時間 (じかん)](#%E6%99%82%E9%96%93-%E3%81%98%E3%81%8B%E3%82%93)
     + [階 (かい)](#%E9%9A%8E-%E3%81%8B%E3%81%84)
     + [歳 (さい)](#%E6%AD%B3-%E3%81%95%E3%81%84)
+    + [円 (えん)](#%E5%86%86-%E3%81%88%E3%82%93)
   * [optional](#optional)
 ____
 
@@ -82,16 +87,61 @@ ____
 - 四時 (よじ)
 - 四時間 (よじかん)
 
+## 総称語 (quantifiers)
+
+- words that express quantity
+- made up of a number and a counter
+- examples
+  * 三枚
+  * たくさん
+- usages
+  * to modify a noun
+    + 三枚の紙
+    + たくさんのリンゴ
+  * before a verb
+    + 紙が三枚ある。
+    + リンゴをたくさん食べた。
+
+## Unspecified quantity
+
+- 少し (すこし) - litte, few
+- 少ない (すくない) - litte, few
+- たくさん - many, much
+- 多い - many, much
+- 一部 (いちぶ) - partially
+- 全部 (ぜんぶ) - all
+- いくつか - a few
+
+## Suffixes
+
+- 達
+  * ジェニー達 - Jenny and Co.
+
+## 畳語 Repetition words
+
+- 人々 (ひとびと) - people
+  * たくさんの人々 - a lot of people
+  * 村の人々 - villagers (or 村の人達)
+- 日々 (ひび) - days
+- 月々 (つきづき) - months
+- 我々 (われわれ) - we
+- 方々 (かたがた) - people (formal)
+- 国々 (くにぐに) - countries
+- 山々 (やまやま) - mountains
+- 木々 (きぎ) - trees
+- 花々 (はなばな) - flowwers
+- 神々 (かみがみ) - gods
+
 ## Counters
 
-References
-
-- [350 Japanese Counters Grouped by How Useful They
-  Are](https://www.tofugu.com/japanese/japanese-counters-list/)
-- [Systematic Reading
-  Changes](https://www.tofugu.com/japanese/japanese-counters-guide/#systematic-reading-changes)
-- [ものの数え方・助数詞](https://www.benricho.org/kazu/index.html) - a tool to
-  find the counter for a given noun
+- it comes right after a number and indicate specific quantities of things
+- references
+  * [350 Japanese Counters Grouped by How Useful They
+    Are](https://www.tofugu.com/japanese/japanese-counters-list/)
+  * [Systematic Reading
+    Changes](https://www.tofugu.com/japanese/japanese-counters-guide/#systematic-reading-changes)
+  * [ものの数え方・助数詞](https://www.benricho.org/kazu/index.html) - a tool to
+    find the counter for a given noun
 
 ### Core
 

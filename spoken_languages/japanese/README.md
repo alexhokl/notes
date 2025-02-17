@@ -3,6 +3,9 @@
 - [Grammatical words](#grammatical-words)
   * [Conjunctions](#conjunctions)
   * [Pronouns](#pronouns)
+    + [First person pronouns and its plural form](#first-person-pronouns-and-its-plural-form)
+    + [Second person pronouns and its plural form](#second-person-pronouns-and-its-plural-form)
+    + [Third person pronouns and its plural form](#third-person-pronouns-and-its-plural-form)
   * [Adverb](#adverb)
 - [Situation and vocabulary](#situation-and-vocabulary)
   * [Restaurant](#restaurant)
@@ -14,6 +17,7 @@
   * [Drinks](#drinks)
   * [Convience store](#convience-store)
   * [Shopping](#shopping)
+    + [Online shopping](#online-shopping)
   * [Payment](#payment)
   * [Conversation](#conversation)
   * [Sites](#sites)
@@ -42,7 +46,10 @@
   * [Media](#media)
   * [Sex](#sex)
   * [Family relationships](#family-relationships)
+  * [Second-hand shopping](#second-hand-shopping)
+    + [Item conditions](#item-conditions)
   * [Stationary](#stationary)
+  * [Work](#work)
 - [Verbs](#verbs)
 ____
 
@@ -128,6 +135,7 @@ ____
 - お前 (おまえ) - you (musculine / vulgar)
 - 彼 (かれ) - he / boyfriend
 - 彼女 (かのじょ) - she / girlfriend
+- 彼氏 (かれし) - boyfriend
 - こいつ - this person
 - そいつ - that person
 - あいつ - the person over there
@@ -135,6 +143,10 @@ ____
 - 僕たち (ぼくたち) - we
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
+- it is common to use the name of a person rather than a third person pronoun
+  even if the name has to be repeate
+  * 田中さんもう帰っちゃった。田中さんに聞きたいことがあったんだよね。 - Has
+    Tanaka already left? I had something that I wanted to ask him about.
 - 自分 (じぶん) - myself / oneself
   * while often associated with strict hierarchical systems, such those
     associated with military and sporting environments, it's more gender-neutral
@@ -147,6 +159,38 @@ ____
   * I / me / we / us
 - 其方 (そちら) - that way / there / that
   * you / your family / your company
+
+### First person pronouns and its plural form
+
+|               | honorific | causal  | neutral   | polite (humble) |
+| ---           | ---       | ---     | ---       | ---             |
+|               | 方 (がた) | 等 (ら) | 達 (たち) | 供 (ども)       |
+| 私 (わたし)   |           | 私等    | 私達      | 私供            |
+| 私 (わたくし) |           |         | 私達      | 私共            |
+| 僕 (ぼく)     |           | 僕等    | 僕達      | 僕供            |
+| 俺 (おれ)     |           | 俺等    | 俺等      |                 |
+| うち          |           | うち等  |           |                 |
+
+### Second person pronouns and its plural form
+
+|               | rough     | causal  | neutral   | polite    |
+| ---           | ---       | ---     | ---       | ---       |
+|               | 供 (ども) | 等 (ら) | 達 (たち) | 方 (がた) |
+| 貴方 (あなた) |           | 貴等    | 貴達      | 貴方      |
+| 君 (きみ)     |           | 君等    | 君達      |           |
+| お前 (おまえ) | お前供    | お前等  | お前達    | 僕供      |
+
+### Third person pronouns and its plural form
+
+|                 | rough     | causal   | neutral   | polite    |
+| ---             | ---       | ---      | ---       | ---       |
+|                 | 供 (ども) | 等 (ら)  | 達 (たち) | 方 (がた) |
+| 彼 (かれ)       |           | 彼等     |           |           |
+| 彼女 (かのじょ) |           | 彼女等   | 彼女達    |           |
+| こいつ          | こいつ供  | こいつ等 | こいつ達  |           |
+| そいつ          | そいつ供  | そいつ等 | そいつ達  |           |
+| あいつ          | あいつ供  | あいつ等 | あいつ達  |           |
+
 
 ## Adverb
 
@@ -316,6 +360,43 @@ ____
 - 風呂場 (ふろば) - bathroom
 - でございます - polite form of です (usually used in shops to address to
   customers)
+- 新入荷 (しんにゅうか) - new arrival
+- 激安 (げきやす) - dirty cheap
+
+### Online shopping
+
+- 絞り込み (しぼりこみ) - search filters
+- 商品の状態 (しょうひん の じょうたい) - item condition
+- 新品 (しんぴん) - new
+- 未使用 (みしよう) - unused
+- 未使用に近い (みしようにちかい) - close to unused
+- 目立った傷や汚れなし (めだったきずやよごれなし) - no noticeable imperfections
+  or dirt unless you look very closely
+- やや傷や汚れあり (ややきずやよごれあり) - a few noticeable imperfections or
+  dirt
+- 傷や汚れあり (きずやよごれあり) - clear imperfections or dirt
+- 全体的に状態が悪い (ぜんたいてきにじょうたいがわるい) - bad condition,
+  generally damaged
+- 販売状況 (はんばいじょうきょう) - availability
+- 販売中 (はんばいちゅう) - for sale now
+- 売り切れ (うりきれ) - sold out
+- 早い者勝ち方式。即購入OK。 - First come first served. Immediate purchases are
+  okay.
+- いきなり購入禁止。コメントでやりとりしてから専用出品します。 - Please don't
+  instantly buy this item. Comment first, and then I'll put up a reserved
+  listing for you.
+- username 様専用 - Reserved for username-sama
+- 使用感があるため、神経質な方はご遠慮ください。 - This item is clearly used, so
+  please refrain from buying if you're picky/sensitive to wear and tear.
+- ３回程使用後、畳んで保管しておりました。 - After using it three times,
+  I folded it up and stored it.
+- 保管場所にペットはいません。非喫煙者です。 - There are no pets or smokers
+  where this item has been stored.
+- 発送料の負担 (はっそうのふたん) - who will pay the shipping
+- 着払い (ちゃくばらい) - cash on delivery
+- 送料込み (そうりょうこみ) - free shipping/shipping included
+- 取引中 (とりひきちゅう) - in-process
+
 
 ## Payment
 
@@ -715,6 +796,38 @@ ____
 - 弟 (おとうと) - younger brother
 - 妹 (いもうと) - younger sister
 - 赤ちゃん - baby
+
+## Second-hand shopping
+
+- リサイクルショップ - recycle shop (store that sells used goods)
+- リユース - resue
+- 中古 (ちゅうこ) - used
+- 中古品 (ちゅうこひん) - used item
+- 中古商品 (ちゅうこしょうひん) - used product
+- 古着屋 (ふるぎや) - thrift store for clothing
+- 古本 (furuhon) - secondhand book
+- 古書 (kosho) - secondhand book
+- 中古漫画 (ちゅうこまんが) - secondhand manga
+- 中古コミック(ちゅうこコミック) - secondhand manga
+- 古着 (ふるぎ) - secondhand clothing
+- ブランド古着 (ブランドふるぎ) - brand-name secondhand clothing
+- 買い取り / 買取 (かいとり) - buyback/resell service
+- 買取センター (かいとりセンター) - buyback/resell service center
+- お売りください (おうりください) - please sell
+- 不用品 (ふようひん) - - unneeded item
+- フリーマーケット - flea market
+- フリマ - flea market
+- フリマアプリ - flea market app
+
+### Item conditions
+
+- 傷 (きず) - imperfections, flaws, scratches, defects
+- 汚れ (よごれ) - dirt, stains, spots
+- シミ / 染み - stain, spot, smudge, discoloration
+- シワ / 皺 - wrinkle, crease
+- 色褪せ (いろあせ) - fading, discoloration
+- 使用感 (しようかん) - wear and tear, signs of use
+- 日焼け (ひやけ) - sun damage/fading
 
 ## Stationary
 
