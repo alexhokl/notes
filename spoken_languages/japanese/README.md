@@ -225,6 +225,7 @@ ____
 - 昼食 (ちゅうしょく) - lunch
 - 夕食 (ゆうしょく) - dinner
 - 定食 (teishoku) - set meal
+- 放題 (ほうだい) - all you can eat
 - レストラン (resutoran) - restaurant
 - マクドナルド (makudonarudo) - McDonald's
 - お手洗い (おてあらい) - restroom
