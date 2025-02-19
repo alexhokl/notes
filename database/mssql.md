@@ -317,6 +317,9 @@ where `CustomerDbRootRole` is a role created by GCP.
 Reference: [Granting server
 permissions](https://cloud.google.com/sql/docs/sqlserver/users#grant-command)
 
+The above example grants the permission to run stored procedures such as
+`sp_who2`.
+
 ##### To create a login
 
 ```sql
