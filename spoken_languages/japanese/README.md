@@ -571,6 +571,7 @@ ____
 - 毎日 (まいにち) - every day
 - 毎朝 (まいあさ) - every morning
 - 毎晩 (まいばん) - every night
+- 昨夜 (ゆうべ) - last night
 - そちらは何時から何時までですか？ What is the opening hours?
 
 ### Approximate time

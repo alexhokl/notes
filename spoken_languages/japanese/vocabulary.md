@@ -133,6 +133,7 @@ ____
 - 窓 (まど) - window
 - テレビ - television
 - 冷蔵庫 (れいぞうこ) - refrigerator
+- コップ - cup
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
 - 財布 (さいふ) - wallet / purse
@@ -157,6 +158,7 @@ ____
 - 冬 (ふゆ) - winter
 - 一緒 (いっしょ) - together / the same
 - 音楽 (おんがく) - music
+- 映画 (えいが) - movie
 - シャワー - shower
 - 物 (もの) - thing
 - 休み (やすみ) - rest / holiday
@@ -435,6 +437,7 @@ ____
 
 - 思う (おもう) - to consider / to plan
 - 考える (かんがえる) - to think
+- 受ける (うける) - to receive / to take (an exam)
 
 ### Expressions
 
@@ -460,6 +463,7 @@ ____
 - 世話 (せわ) - care / looking after / help / support
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 - お昼 (おひる) - lunch / noon / midday
+- 酒 (さけ) - alcohol
 - お皿 (おさら) - plate
 - 頃 (ころ) - (approximate) time
 - ドラマ - drama

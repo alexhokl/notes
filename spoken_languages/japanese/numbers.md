@@ -212,7 +212,7 @@ ____
   trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
   ribbons, cacti, soda cans, spines, teeth, individual hairs, arms, legs,
   fingers, blood vessels, rivers, waterways, towers, bridges, tunnels, plastic
-  wrap, tinfoil, wax paper
+  wrap, tinfoil, wax paper, banana
 
 | Japanese | Reading          |
 | ---      | ---              |
