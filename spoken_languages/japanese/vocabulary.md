@@ -63,14 +63,6 @@ ____
 - 女の人 (おんなのひと) - woman
 - 男の子 (おとこのこ) - boy
 - 女の子 (おんなのこ) - girl
-- お父さん (おとうさん) - father
-- お母さん (おかあさん) - mother
-- お兄さん (おにいさん) - older brother
-- お姉さん (おねえさん) - older sister
-- 弟 (おとうと) - younger brother
-- 妹 (いもうと) - younger sister
-- 両親 (りょうしん) - parents
-- 子供 (こども) - child
 - 人 (ひと) - person
 - 皆 (みな) - everyone / everything
 - 皆さん (みなさん) - everyone (honorific)
@@ -152,16 +144,37 @@ ____
 - 茶色 (ちゃいろ) - brown colour
 - 町 (まち) - town / neighborhood
 - 国 (くに) - country
-- 春 (はる) - spring
-- 夏 (なつ) - summer
-- 秋 (あき) - autumn
-- 冬 (ふゆ) - winter
 - 一緒 (いっしょ) - together / the same
 - 音楽 (おんがく) - music
 - 映画 (えいが) - movie
 - シャワー - shower
 - 物 (もの) - thing
 - 休み (やすみ) - rest / holiday
+- 旅行 (りょこう) - travel
+- 雨 (あめ) - rain
+
+### Nouns (family)
+
+- お父さん (おとうさん) - father
+- お母さん (おかあさん) - mother
+- お兄さん (おにいさん) - older brother
+- お姉さん (おねえさん) - older sister
+- 弟 (おとうと) - younger brother
+- 妹 (いもうと) - younger sister
+- 両親 (りょうしん) - parents
+- 子供 (こども) - child
+
+### Nouns (time)
+
+- 春 (はる) - spring
+- 夏 (なつ) - summer
+- 秋 (あき) - autumn
+- 冬 (ふゆ) - winter
+- 昨夜 (ゆうべ) - last night
+- 今晩 (こんばん) - tonight
+- 今朝 (けさ) - this morning
+- 先月 (せんげつ) - last month
+- 去年 (きょねん) - last year
 
 ### Nouns (food)
 
@@ -173,6 +186,7 @@ ____
 - 卵 (たまご) - egg
 - ご飯 (ごはん) - meal / cooked rice
 - パン - bread
+- 野菜 (やさい) - vegetable
 - 果物 (くだもの) - fruit
 - 水 (みず) - water
 
@@ -289,6 +303,7 @@ ____
 - 弱い (よわい) - weak
 - 丸い (まるい) - round / circular
 - 暑い (あつい) - hot / warm
+- 寒い (さむい) - cold
 - 甘い (あまい) - sweet
 - 早い (はやい) - early / fast / quick
 - 遅い (おそい) - late / slow
@@ -377,7 +392,7 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n4%20%23noun)
 - オートバイ - motorcycle
 - 試験 (しけん) - exam
-- 復習 (ふくしゅう) - review / revision
+- 復習 (ふくしゅう) - review (of learned material)
 - 予習 (よしゅう) - preparation for a lesson
 - 消しゴム (けしゴム) - eraser
 - 引き出し (ひきだし) - drawer
@@ -408,6 +423,7 @@ ____
 ### Adjectives (な)
 
 - 親切 (しんせつ) - kind
+- 残念 (ざんねん) - regrettable, disappointing, unfortunate
 
 ### Pronouns (person)
 
@@ -418,6 +434,8 @@ ____
 ### Adverbs
 
 - 些とも (ちっとも) - not at all
+- 最近 (さいきん) - recently, lately
+- 昔 (むかし) - old times, old days
 
 ### Conjunctions
 
@@ -438,6 +456,7 @@ ____
 - 思う (おもう) - to consider / to plan
 - 考える (かんがえる) - to think
 - 受ける (うける) - to receive / to take (an exam)
+- くれる - to give
 
 ### Expressions
 
@@ -473,6 +492,7 @@ ____
 - 支払い (しはらい) - payment
 - 暮らし (くらし) - life / living
 - ケース - case
+- 虎 (とら) - tiger
 
 ### Adjectives
 
@@ -481,6 +501,7 @@ ____
 ### Adjectives (な)
 
 - 新鮮 (しんせん) - fresh
+- 邪魔 (じゃま) - disturbance, obstruction
 
 ### Pronouns (person)
 
@@ -500,6 +521,7 @@ ____
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
 - 怪我 (けが) - injury / mistake
 - 運転 (うんてん) - driving / operating
+- 運動 (うんどう) - exercise
 
 ### Verbs (Transitive)
 

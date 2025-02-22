@@ -677,6 +677,7 @@ ____
 - 読む (よむ) - to read
 - 解読 (かいどく) - deciphering
 - クラス (kurasu) - class
+- 中学生 (ちゅうがくせい) - junior high school student
 
 ## People names
 
