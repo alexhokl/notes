@@ -26,16 +26,14 @@
   * [Date](#date)
   * [Time](#time)
     + [Approximate time](#approximate-time)
-  * [Days of week](#days-of-week)
-  * [Day](#day)
   * [Colours](#colours)
   * [Feelings](#feelings)
   * [Form filling](#form-filling)
   * [Home](#home)
   * [Academic](#academic)
   * [People names](#people-names)
-  * [Countries](#countries)
   * [Weather](#weather)
+  * [Sports](#sports)
   * [Football](#football)
   * [Cycling](#cycling)
   * [Driving](#driving)
@@ -458,6 +456,7 @@ ____
 - あの - used before asking a question
 - えっど - used before answering a question
 - 頑張りましょう - let's do our best
+- あ、分かりました - ah, I understood
 
 ## Sites
 
@@ -606,37 +605,12 @@ ____
 - after a certain time
   * 二時間`後`にバスが来た。 - The bus came 2 hours later.
 
-## Days of week
-
-- 月曜日 (げつようび) - Monday
-- 火曜日 (かようび) - Tuesday
-- 水曜日 (すいようび) - Wednesday
-- 木曜日 (もくようび) - Thursday
-- 金曜日 (きんようび) - Friday
-- 土曜日 (どようび) - Saturday
-- 日曜日 (にちようび) - Sunday
-- 何曜日 (なんようび) - what day of the week
-
-## Day
-
-- 本日 (ほんじつ) - today
-- 今日 (きょう) - today
-- 明日 (あした) - tomorrow (also as あす)
-- 明後日 (あさって) - the day after tomorrow
-- 昨日 (きのう) - yesterday
-
 ## Colours
 
-- 黒 (くろ) - black
-- 白 (しろ) - white
-- 赤 (あか) - red
-- 青 (あお) - blue
-- 黄色 (きいろ) - yellow
 - 緑 (みどり) - green
 - 紫 (むらさき) - purple
 - オレンジ - orange
 - ピンク - pink
-- 茶色 (ちゃいろ) - brown
 - グレー - grey
 
 ## Feelings
@@ -683,14 +657,6 @@ ____
 
 - アレックス (arekkusu) - Alex
 
-## Countries
-
-- 中国 (ちゅおごく) - China
-- スペイン - Spain
-- スイス - Switerland
-- アメリカ - America
-- 英吉利 (イギリス) - United Kingdom
-
 ## Weather
 
 - 晴れ (はれ) - sunny
@@ -698,6 +664,10 @@ ____
 - 雨 (あめ) - rain
 - 熱い (あつい) - hot
 - 寒い (さむい) - cold
+
+## Sports
+
+- 野球 (やきゅう) - baseball
 
 ## Football
 
@@ -839,21 +809,10 @@ ____
 ## Work
 
 - 残業 (ざんぎょう) - overtime
+- 職場 (しょくば) - workplace
 
 # Verbs
 
-- 成る (なる) - to become
-- 居る (いる) - to be (used for living things) (usually written in kana)
-- 有る (ある) - to exist (used for non-living things) (usually written in kana)
-- 考える (かんがえる) - to think (on a specific detail)
-- 思う (おもう) - to think / to care for / to worry about (on a general topic)
-- 見る (みる) - to see
-- 聞く (きく) - to hear
-- 話す (はなす) - to speak
-- 読む (よむ) - to read
-- 書く (かく) - to write
-- 頂く (いただく) - to receive, to get
-- 止まる (やます) - to stop
 - ググる - to google
 - バズる - to go viral (buzz)
 - サボる - to slack off (sabotage)

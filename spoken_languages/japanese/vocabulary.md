@@ -1,12 +1,15 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
     + [Nouns](#nouns)
+    + [Nouns (family)](#nouns-family)
+    + [Nouns (time)](#nouns-time)
     + [Nouns (food)](#nouns-food)
     + [Nouns (transportation)](#nouns-transportation)
     + [Nouns (animals)](#nouns-animals)
     + [Nouns (body parts)](#nouns-body-parts)
     + [Nouns (position)](#nouns-position)
     + [Nouns (sports)](#nouns-sports)
+    + [Nouns (countries)](#nouns-countries)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [Pronouns (place)](#pronouns-place)
     + [Pronouns (time)](#pronouns-time)
@@ -109,6 +112,7 @@ ____
 - マンション - condominium / apartment building
 - アパート - apartment
 - ビル - multi-storey building
+- 映画館 (えいがかん) - cinema
 - 公園 (こうえん) - park
 - 山 (やま) - mountain
 - 部屋 (へや) - room
@@ -130,6 +134,7 @@ ____
 - 鞄 (かばん) - bag
 - 財布 (さいふ) - wallet / purse
 - 洋袴 (ズボン) - trousers
+- 洋服 (ようふく) - Western-style clothes
 - 帽子 (ぼうし) - hat
 - 靴 (くつ) - shoes
 - 靴下 (くつした) - socks
@@ -143,7 +148,6 @@ ____
 - 電気 (でんき) - electricity
 - 茶色 (ちゃいろ) - brown colour
 - 町 (まち) - town / neighborhood
-- 国 (くに) - country
 - 一緒 (いっしょ) - together / the same
 - 音楽 (おんがく) - music
 - 映画 (えいが) - movie
@@ -152,17 +156,41 @@ ____
 - 休み (やすみ) - rest / holiday
 - 旅行 (りょこう) - travel
 - 雨 (あめ) - rain
+- 海 (うみ) - sea
+- 声 (こえ) - voice
+- 音 (おと) - sound, noise
+- 次 (つぎ) - next
+- 言葉 (ことば) - word, language
+- 意味 (いみ) - meaning
+- 結婚 (けっこん) - marriage
 
 ### Nouns (family)
 
-- お父さん (おとうさん) - father
-- お母さん (おかあさん) - mother
-- お兄さん (おにいさん) - older brother
-- お姉さん (おねえさん) - older sister
-- 弟 (おとうと) - younger brother
-- 妹 (いもうと) - younger sister
 - 両親 (りょうしん) - parents
-- 子供 (こども) - child
+- 父 (ちち) - father (of mine)
+- お父さん (おとうさん) - father (of someone)
+- 母 (はは) - mother (of mine)
+- お母さん (おかあさん) - mother (of someone)
+- 兄弟 (きょうだい) - siblings
+- 兄 (あに) - older brother (of mine)
+- お兄さん (おにいさん) - older brother (of someone)
+- 姉 (あね) - older sister (of mine)
+- お姉さん (おねえさん) - older sister (of someone)
+- 弟 (おとうと) - younger brother (of mine)
+- 弟さん (おとうとさん) - younger brother (of someone)
+- 妹 (いもうと) - younger sister (of mine)
+- 妹さん (いもうとさん) - younger sister
+- 夫婦 (ふうふ) - married couple
+- 夫 (おっと) / 主人 (しゅじん) - husband
+- さん / ご主人 (ごしゅじん) - husband (of someone)
+- 妻 (つま) - wife
+- 奥さん (おくさん) - wife (of someone)
+- 子供 (こども) - children
+- お子さん (おこさん) - child (of someone)
+- 息子 (むすこ) - son (of mine)
+- 息子さん (むすこさん) - son (of someone)
+- 娘 (むすめ) - daughter (of mine)
+- お娘さん (おむすめさん) - daughter (of someone)
 
 ### Nouns (time)
 
@@ -170,11 +198,38 @@ ____
 - 夏 (なつ) - summer
 - 秋 (あき) - autumn
 - 冬 (ふゆ) - winter
+- 一昨日 (おととい) - day before yesterday
+- 昨日 (きのう) - yesterday
+- 今日 (きょう) - today
+- 本日 (ほんじつ) - today
+- 明日 (あした) - tomorrow (also as あす)
+- 明後日 (あさって) - day after tomorrow
 - 昨夜 (ゆうべ) - last night
 - 今晩 (こんばん) - tonight
 - 今朝 (けさ) - this morning
+- 先々週 (せんせんしゅう) - week before last
+- 先週 (せんしゅう) - last week
+- 今週 (こんしゅう) - this week
+- 来週 (らいしゅう) - next week
+- 再来週 (さらいしゅう) - week after next
+- 先々月 (せんせんげつ) - month before last
 - 先月 (せんげつ) - last month
+- 今月 (こんげつ) - this month
+- 来月 (らいげつ) - next month
+- 再来月 (さらいげつ) - month after next
+- 一昨年 (おととし) - year before last
 - 去年 (きょねん) - last year
+- 今年 (ことし) - this year
+- 来年 (らいねん) - next year
+- 再来年 (さらいねん) - year after next
+- 月曜日 (げつようび) - Monday
+- 火曜日 (かようび) - Tuesday
+- 水曜日 (すいようび) - Wednesday
+- 木曜日 (もくようび) - Thursday
+- 金曜日 (きんようび) - Friday
+- 土曜日 (どようび) - Saturday
+- 日曜日 (にちようび) - Sunday
+- 何曜日 (なんようび) - what day of the week
 
 ### Nouns (food)
 
@@ -234,6 +289,19 @@ ____
 
 - ジョギング - jogging
 - サッカー - soccer
+
+### Nouns (countries)
+
+- 国 (くに) - country
+- 外国 (がいこく) - foreign country
+- 英吉利 (イギリス) - England
+- 独逸 (ドイツ) - Germany
+- 中国 (ちゅうごく) - China
+- 韓国 (かんこく) - Korea
+- 西班牙 (スペイン) - Spain
+- 瑞西 (スイス) - Switzerland
+- 亜米利加 (アメリカ) - United States
+- 仏蘭西 (フランス) - France
 
 ### 連体詞
 
@@ -297,6 +365,9 @@ ____
 - 白い (しろい) - white
 - 黒い (くろい) - black
 - 赤い (あかい) - red
+- 青い (あおい) - azure or green
+- 黄色い (きいろい) - yellow
+- 茶色い (ちゃいろい) - brown
 - 良い (よい) - good (formal)
 - いい - good (casual)
 - 悪い (わるい) - bad
@@ -326,6 +397,7 @@ ____
 
 - [list](https://jisho.org/search/%23jlpt-n5%20%23adverb)
 - 少し (すこし) - a little
+- ちょっと - a little
 - 迚も (とても) - very
 - 何時も (いつも) - always
 - たくさん - a lot / too many (on countables)
@@ -338,6 +410,7 @@ ____
 - 些とも (ちっとも) - not at all
 - 幾つ (いくつ) - how many
 - 時々 (ときどき) - sometimes / occasionally
+- 良く (よく) - nicely, often
 
 ### Conjunctions
 
@@ -360,9 +433,14 @@ ____
 - 浴びる (あびる) - to take a shower
 - 磨く (みがく) - to brush
 - 買う (かう) - to buy
+- 話す (はなす) - to speak
+- 書く (かく) - to write
 
 ### Verbs (Intransitive)
 
+- 居る (いる) - to be (used for living things)
+- 有る (ある) - to exist (used for non-living things)
+- 成る (なる) - to become
 - 起きる (おきる) - to wake up
 - 寝る (ねる) - to sleep
 - 始まる (はじまる) - to start
@@ -373,6 +451,10 @@ ____
 - 乗る (のる) - to get on
 - 掛かる (かかる) - to take (time, money)
 - 走る (はしる) - to run
+- 聞こえる (きこえる) - to be heard
+- 見える (みえる) - to be seen
+- 分かる (わかる) - to understand
+- 止まる (とまる) - to stop, to come to a halt
 
 ### Verbs (Direction Intransitive)
 
@@ -395,10 +477,11 @@ ____
 - 復習 (ふくしゅう) - review (of learned material)
 - 予習 (よしゅう) - preparation for a lesson
 - 消しゴム (けしゴム) - eraser
+- 髪 (かみ) - hair
 - 引き出し (ひきだし) - drawer
+- 字 (じ) - character, kanji
 - 数学 (すうがく) - mathematics
 - エスカレーター - escalator
-- 髪 (かみ) - hair
 - 漫画 (まんが) - manga
 - 寺 (てら) - temple
 - 値段 (ねだん) - price / cost
@@ -408,6 +491,11 @@ ____
 - 工場 (こうじょう) - factory
 - サンドイッチ - sandwich
 - ケーキ - cake
+- 二階建て (にかいだて) - two-storied building
+- 試合 (しあい) - match, game
+- 着物 (きもの) - kimono
+- 席 (せき) - seat
+- 乗り物 (のりもの) - vehicle, (means of) transport
 
 ### Nouns (position)
 
@@ -453,8 +541,8 @@ ____
 
 ### Verbs (Transitive)
 
-- 思う (おもう) - to consider / to plan
-- 考える (かんがえる) - to think
+- 思う (おもう) - to consider / to plan (on a general topic)
+- 考える (かんがえる) - to think (on a specific topic)
 - 受ける (うける) - to receive / to take (an exam)
 - くれる - to give
 
@@ -526,6 +614,7 @@ ____
 ### Verbs (Transitive)
 
 - 心配 (しんぱい) - care / help
+- 頂く (いただく) - to receive, to take (humble)
 
 ## N2
 
@@ -562,6 +651,7 @@ ____
 - インフォメーション - information
 - 区 (く) - ward / district
 - ぐらい - about / approximately
+- 製 (せい) - -made, -manufactured
 
 ### Adjectives
 
