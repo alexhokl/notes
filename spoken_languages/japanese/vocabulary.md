@@ -22,6 +22,7 @@
     + [Verbs (Intransitive)](#verbs-intransitive)
     + [Verbs (Direction Intransitive)](#verbs-direction-intransitive)
     + [Expressions](#expressions)
+    + [Common word](#common-word)
   * [N4](#n4)
     + [Nouns](#nouns-1)
     + [Nouns (position)](#nouns-position-1)
@@ -35,22 +36,26 @@
     + [Expressions](#expressions-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
+    + [Nouns (animals)](#nouns-animals-1)
     + [Adjectives](#adjectives)
     + [Adjectives (な)](#adjectives-%E3%81%AA-2)
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
     + [Verbs (Intransitive)](#verbs-intransitive-2)
     + [Verbs (Transitive)](#verbs-transitive-2)
+    + [Common word](#common-word-1)
   * [N2](#n2)
     + [Nouns](#nouns-3)
     + [Adjectives](#adjectives-1)
     + [Adverbs](#adverbs-3)
     + [Verbs](#verbs)
+    + [Expressions](#expressions-2)
   * [N1](#n1)
     + [Nouns](#nouns-4)
     + [Adjectives](#adjectives-2)
     + [Adverb](#adverb)
     + [Verbs](#verbs-1)
+    + [Common word](#common-word-2)
 ____
 
 # Vocabulary
@@ -79,6 +84,7 @@ ____
 - 授業 (じゅぎょう) - lesson / class
 - 試験 (しけん) - exam
 - 先生 (せんせい) - teacher / master
+- 物 (もの) - thing
 - 鉛筆 (えんぴつ) - pencil
 - 紙 (かみ) - paper
 - 切手 (きって) - stamp
@@ -94,6 +100,7 @@ ____
 - 質問 (しつもん) - question
 - 問題 (もんだい) - problem (question)
 - 練習 (れんしゅう) - practice
+- 所 (ところ) - place; site
 - トイレ - toilet
 - お手洗い (おてあらい) - restroom
 - 庭 (にわ) - garden
@@ -146,7 +153,6 @@ ____
 - 花 (はな) - flower
 - 友達 (ともだち) - friend
 - 電気 (でんき) - electricity
-- 茶色 (ちゃいろ) - brown colour
 - 町 (まち) - town / neighborhood
 - 一緒 (いっしょ) - together / the same
 - 音楽 (おんがく) - music
@@ -155,14 +161,16 @@ ____
 - 物 (もの) - thing
 - 休み (やすみ) - rest / holiday
 - 旅行 (りょこう) - travel
+- 天気 (てんき) - weather
 - 雨 (あめ) - rain
 - 海 (うみ) - sea
 - 声 (こえ) - voice
-- 音 (おと) - sound, noise
+- 音 (おと) - sound; noise
 - 次 (つぎ) - next
-- 言葉 (ことば) - word, language
+- 言葉 (ことば) - word; language
 - 意味 (いみ) - meaning
 - 結婚 (けっこん) - marriage
+- 色 (いろ) - color
 
 ### Nouns (family)
 
@@ -230,6 +238,7 @@ ____
 - 土曜日 (どようび) - Saturday
 - 日曜日 (にちようび) - Sunday
 - 何曜日 (なんようび) - what day of the week
+- 一週間 (いっしゅうかん) - one week
 
 ### Nouns (food)
 
@@ -284,6 +293,10 @@ ____
 - 内 (うち) - inside
 - 近く (ちかく) - near / recently / soon
 - 遠く (とおく) - far
+- 東 (ひがし) - east
+- 南 (みなみ) - south
+- 西 (にし) - west
+- 北 (きた) - north
 
 ### Nouns (sports)
 
@@ -302,6 +315,7 @@ ____
 - 瑞西 (スイス) - Switzerland
 - 亜米利加 (アメリカ) - United States
 - 仏蘭西 (フランス) - France
+- 欧米 (おうべい) - Europe and America
 
 ### 連体詞
 
@@ -378,6 +392,8 @@ ____
 - 甘い (あまい) - sweet
 - 早い (はやい) - early / fast / quick
 - 遅い (おそい) - late / slow
+- 楽しい (たのしい) - fun; happy
+- 忙しい (いそがしい) - busy
 
 ### Adjectives (な)
 
@@ -410,7 +426,7 @@ ____
 - 些とも (ちっとも) - not at all
 - 幾つ (いくつ) - how many
 - 時々 (ときどき) - sometimes / occasionally
-- 良く (よく) - nicely, often
+- 良く (よく) - nicely; often
 
 ### Conjunctions
 
@@ -454,7 +470,7 @@ ____
 - 聞こえる (きこえる) - to be heard
 - 見える (みえる) - to be seen
 - 分かる (わかる) - to understand
-- 止まる (とまる) - to stop, to come to a halt
+- 止まる (とまる) - to stop; to come to a halt
 
 ### Verbs (Direction Intransitive)
 
@@ -466,6 +482,10 @@ ____
 
 - 下さい (ください) - please
 - あのう - em...
+
+### Common word
+
+- クラス - class
 
 ## N4
 
@@ -479,7 +499,7 @@ ____
 - 消しゴム (けしゴム) - eraser
 - 髪 (かみ) - hair
 - 引き出し (ひきだし) - drawer
-- 字 (じ) - character, kanji
+- 字 (じ) - character; kanji
 - 数学 (すうがく) - mathematics
 - エスカレーター - escalator
 - 漫画 (まんが) - manga
@@ -492,10 +512,10 @@ ____
 - サンドイッチ - sandwich
 - ケーキ - cake
 - 二階建て (にかいだて) - two-storied building
-- 試合 (しあい) - match, game
+- 試合 (しあい) - match; game
 - 着物 (きもの) - kimono
 - 席 (せき) - seat
-- 乗り物 (のりもの) - vehicle, (means of) transport
+- 乗り物 (のりもの) - vehicle; (means of) transport
 
 ### Nouns (position)
 
@@ -507,11 +527,12 @@ ____
 - 正しい (ただしい) - correct
 - 硬い (かたい) - hard
 - 固い (かたい) - solid
+- 珍しい (めずらしい) - rare
 
 ### Adjectives (な)
 
 - 親切 (しんせつ) - kind
-- 残念 (ざんねん) - regrettable, disappointing, unfortunate
+- 残念 (ざんねん) - regrettable; disappointing; unfortunate
 
 ### Pronouns (person)
 
@@ -522,8 +543,8 @@ ____
 ### Adverbs
 
 - 些とも (ちっとも) - not at all
-- 最近 (さいきん) - recently, lately
-- 昔 (むかし) - old times, old days
+- 最近 (さいきん) - recently; lately
+- 昔 (むかし) - old times; old days
 
 ### Conjunctions
 
@@ -563,8 +584,6 @@ ____
 - 保証人 (ほしょうにん) - guarantor
 - スタンド - stand
 - 城 (しろ) - castle
-- 兎 (うさぎ) - rabbit
-- 象 (ぞう) - elephant
 - ソファー - sofa
 - 心配 (しんぱい) - worry / concern / anxiety
 - 世話 (せわ) - care / looking after / help / support
@@ -580,6 +599,15 @@ ____
 - 支払い (しはらい) - payment
 - 暮らし (くらし) - life / living
 - ケース - case
+- 結果 (けっか) - result
+- 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
+- 滞在 (たいざい) - sta
+- 土産 (みやげ) - local specialty; souvenir
+
+### Nouns (animals)
+
+- 兎 (うさぎ) - rabbit
+- 象 (ぞう) - elephant
 - 虎 (とら) - tiger
 
 ### Adjectives
@@ -589,7 +617,7 @@ ____
 ### Adjectives (な)
 
 - 新鮮 (しんせん) - fresh
-- 邪魔 (じゃま) - disturbance, obstruction
+- 邪魔 (じゃま) - disturbance; obstruction
 
 ### Pronouns (person)
 
@@ -614,7 +642,11 @@ ____
 ### Verbs (Transitive)
 
 - 心配 (しんぱい) - care / help
-- 頂く (いただく) - to receive, to take (humble)
+- 頂く (いただく) - to receive; to take (humble)
+
+### Common word
+
+- クリスマス - Christmas
 
 ## N2
 
@@ -642,6 +674,10 @@ ____
 
 - [list](https://jisho.org/search/%23jlpt-n2%20%23verb)
 
+### Expressions
+
+- お陰様で (おかげさまで) - thankfully; fortunately
+
 ## N1
 
 ### Nouns
@@ -651,7 +687,7 @@ ____
 - インフォメーション - information
 - 区 (く) - ward / district
 - ぐらい - about / approximately
-- 製 (せい) - -made, -manufactured
+- 製 (せい) - -made; -manufactured
 
 ### Adjectives
 
@@ -665,3 +701,7 @@ ____
 ### Verbs
 
 - [list](https://jisho.org/search/%23jlpt-n1%20%23verb)
+
+### Common word
+
+- ルール - rule
