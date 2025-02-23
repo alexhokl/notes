@@ -261,6 +261,7 @@ ____
 - 豚汁 (とんじる) - pork miso soup
 - エビフライ - fried shrimp
 - ビュッフェ - buffet
+- チルド - chilled
 
 ### Fish
 
