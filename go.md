@@ -148,6 +148,8 @@ ___
   Analysis Library for Golang
 - [piquette/finance-go](https://github.com/piquette/finance-go) a Financial
   markets data library implemented in go
+- [khatibomar/fulus](https://github.com/khatibomar/fulus) ensures type safety
+  when dealing with multiple currencies
 
 ### GUI
 
