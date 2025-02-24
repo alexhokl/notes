@@ -403,6 +403,11 @@ ____
 
 - negative of past tense of な-adjective (append ではありませんでした)
   * 私は中学生の時英語の勉強が好きではありませんでした。
+
+- past tense of noun (replace です with でした)
+  * 昨日は良い天気でした。
+
+- negative of past tense of noun (append でした)
   * 昨日は良い天気ではありませんでした。
 
 - person + は + time + (に) + location + で + activity

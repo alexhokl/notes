@@ -171,6 +171,7 @@ ____
 - 意味 (いみ) - meaning
 - 結婚 (けっこん) - marriage
 - 色 (いろ) - color
+- 絵 (え) - picture; drawing; painting; sketch
 
 ### Nouns (family)
 
@@ -516,6 +517,8 @@ ____
 - 着物 (きもの) - kimono
 - 席 (せき) - seat
 - 乗り物 (のりもの) - vehicle; (means of) transport
+- 形 (かたち) - shape; form
+- テニス - tennis
 
 ### Nouns (position)
 
@@ -660,6 +663,7 @@ ____
 - 苗字 (みょうじ) - surname
 - 箪笥 (たんす) - chest of drawers
 - 後輩 (こうはい) - junior
+- 売店 (ばいてん) - stall; booth; kiosk; store
 
 ### Adjectives
 
