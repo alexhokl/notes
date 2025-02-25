@@ -272,9 +272,9 @@ ____
   一段動詞
   + it is likely that the verb is a combination of 送り仮名 (okurigana) and る
   + examples
-    * 起きる (okiru) - to wake up
-    * 開ける (akeru) - to open
-    * 食べる (taberu) - to eat
+    * 起きる (おきる) - to wake up
+    * 開ける (あける) - to open
+    * 食べる (たべる) - to eat
 
 | verb group | Japanese | Romaji    | English       |
 | ---        | ---      | ---       | ---           |
