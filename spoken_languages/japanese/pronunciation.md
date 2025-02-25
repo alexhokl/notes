@@ -261,8 +261,19 @@ d (t)   | z (s)
   * 笛 (ふえ)
   * 箱 (はこ)
 
-## pronunciation of さん
+## さん
 
 - it depends of the pitch of the sound of the word that comes before it
   * if the word before さん ends in a high pitch, さん is pronounced as `san`
   * if the word before さん ends in a low pitch, さん is pronounced as `zan`
+
+## 何
+
+- 何で (なんで)
+- 何か (なんか)
+- 何の (なんの)
+- 何と (なんと)
+- 何 (as quantifier) + counter
+  * 何人 (なんにん)
+  * 何個 (なんこ)
+- otherwise 何 + particle (なに)

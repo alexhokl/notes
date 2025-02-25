@@ -372,6 +372,11 @@ ____
 
 ## Chapter 6
 
+- meaning of past tense
+  * simple past tense
+  * result of a current action
+    + よかったです。
+
 - past tense of verb
   * 私は昨夜映画を見ました。
   * 私は今朝はパンを食べました。
@@ -399,6 +404,9 @@ ____
 - negative of past tense of い-adjective (replace い with くありませんでした)
   * 去年の冬はあまり寒くありませんでした。
 
+- casual negative of past tense of f い-adjective (replace い with かった)
+  * 去年の冬はあまり寒苦なかったです。
+
 - past tense of な-adjective (append でした)
   * 私は中学生の時英語の勉強が好きでした。
   * 昨日は良い天気でした。
@@ -412,6 +420,9 @@ ____
     + いいえ、子供の時野菜は好きではありませんでした。
     + いいえ、子供の時は野菜が好きではありませんでした。
     + いいえ、子供の時は野菜は好きではありませんでした。
+
+- casual negative of past tense of な-adjective (replace い with かった)
+  * 私は中学生の時英語の勉強が好きではなかったです。
 
 - past tense of noun (replace です with でした)
   * 昨日は良い天気でした。

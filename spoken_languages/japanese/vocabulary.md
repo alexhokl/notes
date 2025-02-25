@@ -240,6 +240,12 @@ ____
 - 日曜日 (にちようび) - Sunday
 - 何曜日 (なんようび) - what day of the week
 - 一週間 (いっしゅうかん) - one week
+- 毎日 (まいにち) - every day
+- 毎晩 (まいばん) - every night
+- 毎朝 (まいあさ) - every morning
+- 毎週 (まいしゅう) - every week
+- 毎月 (まいつき) - every month
+- 毎年 (まいとし) - every year
 
 ### Nouns (food)
 
@@ -519,6 +525,7 @@ ____
 - 乗り物 (のりもの) - vehicle; (means of) transport
 - 形 (かたち) - shape; form
 - テニス - tennis
+- アルバイト - part-time job
 
 ### Nouns (position)
 
