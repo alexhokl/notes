@@ -2,6 +2,8 @@
 - [Sentence structure](#sentence-structure)
   * [Simple sentence](#simple-sentence)
   * [Complex sentence](#complex-sentence)
+    + [Noun modification](#noun-modification)
+    + [Politeness markers](#politeness-markers)
 - [Auxiliary verbs](#auxiliary-verbs)
 - [Verb forms](#verb-forms)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
@@ -12,9 +14,13 @@
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
   * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
   * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+    + [verbs ended in う](#verbs-ended-in-%E3%81%86)
   * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
   * [Lost of the w sound](#lost-of-the-w-sound)
   * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
+    + [double consonant with Small っ](#double-consonant-with-small-%E3%81%A3)
+    + [assimilation with ん](#assimilation-with-%E3%82%93)
+    + [consonant removal](#consonant-removal)
   * [Stem form](#stem-form)
   * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
   * [と](#%E3%81%A8)
@@ -41,16 +47,24 @@
   * [Conjugation](#conjugation)
 - [Honorific prefixes](#honorific-prefixes)
   * [御](#%E5%BE%A1)
+- [Plural suffixes and prefixes](#plural-suffixes-and-prefixes)
+  * [Suffixes](#suffixes)
+    + [方 (がた)](#%E6%96%B9-%E3%81%8C%E3%81%9F)
+    + [達 (たち)](#%E9%81%94-%E3%81%9F%E3%81%A1)
+    + [等 (ら)](#%E7%AD%89-%E3%82%89)
+    + [供 (ども)](#%E4%BE%9B-%E3%81%A9%E3%82%82)
+    + [諸 (しょ)](#%E8%AB%B8-%E3%81%97%E3%82%87)
+    + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
 ____
 
-## References
+# References
 
 - [Sentence and
   clauses](https://www.tofugu.com/japanese-grammar/sentences-and-clauses/)
 
-## Sentence structure
+# Sentence structure
 
-### Simple sentence
+## Simple sentence
 
 | item | examples | example sentence | translation |
 | --- | --- | --- | --- |
@@ -71,7 +85,7 @@ ____
   * sentence order can be manipulated to highlight information at the beginning
     of the sentence, or tuck it awat at the end like an afterthought
 
-### Complex sentence
+## Complex sentence
 
 | item | examples | example sentence | translation |
 | --- | --- | --- | --- |
@@ -84,7 +98,7 @@ ____
 - `から` makes it clear that the first clause is the reason for the second
 - `忙しくて` is `て` form of adjective `忙しい`
 
-#### Noun modification
+### Noun modification
 
 - `可愛い`猫 (kawaii neko) - cute cat
 - `スーパーの前で拾った`猫 (sūpā no mae de hirotta neko) - the cat that I found
@@ -96,7 +110,7 @@ ____
   de hirotta neko ga okāsan kara moratta ranpu o kowashita) - The cat that
   I found in front of the supermarket broke the lamp that I got from my mother.
 
-#### Politeness markers
+### Politeness markers
 
 - `です`
 - `ます`
@@ -110,7 +124,7 @@ ____
     sakura ga mankai da to oshiete moratta) - A neighbor told me that the cherry
     blossoms were in full bloom.
 
-## Auxiliary verbs
+# Auxiliary verbs
 
 - noun + `です`
 - adjective + `です`
@@ -121,9 +135,9 @@ ____
 | Non-past         | だ          | ではない       |
 | Non-past, polite | です        | ではありません |
 
-## Verb forms
+# Verb forms
 
-### 五段動詞
+## 五段動詞
 
 | Form              | Affirmative                 | Negative                            |
 | ---               | ---                         | ---                                 |
@@ -138,7 +152,7 @@ ____
 | Causative Passive | 聞かせられる (きかせられる) | 聞かせられない   (きかせられない)   |
 | Imperative        | 聞け         (きけ)         | 聞くな           (きくな)           |
 
-### 一段動詞
+## 一段動詞
 
 | Form              | Affirmative    | Negative         |
 | ---               | ---            | ---              |
@@ -153,7 +167,7 @@ ____
 | Causative Passive | 食べさせられる | 食べさせられない |
 | Imperative        | 食べろ         | 食べるな         |
 
-### Irregular verbs
+## Irregular verbs
 
 | Form              | Affirmative            | Negative                       |
 | ---               | ---                    | ---                            |
@@ -181,7 +195,7 @@ ____
 | Causative Passive | 来させられる (こ来させられる) | 来させられない (こ来させられない) |
 | Imperative        | 来い (こ来い)                 | 来るな (く来るな)                 |
 
-### Plain form
+## Plain form
 
 - aka non-past form, dictionary form る form
 - express present, habitual and future actions
@@ -220,7 +234,7 @@ ____
   * 自動詞 (じどうし) - intransitive verb
     + 往来動詞 (おうらいどうし) - directional intransitive verb
 
-## Verb conjugation
+# Verb conjugation
 
 - conjugate
   * take a varierty of endings
@@ -234,7 +248,7 @@ ____
     + aka るverbs, Group II verbs or vowel-root verbs
   * 変格動詞 (henkaku dōshi) - irregular verbs
 
-### 五段動詞
+## 五段動詞
 
  | chart line | Japanese | Romaji     | English         |
  | ---        | ---      | ---        | ---             |
@@ -244,7 +258,7 @@ ____
  | え         | 聞ける   | ki`ke`ru   | can listen      |
  | お         | 聞こう   | ki`ko`u    | let's listen    |
 
-### 一段動詞
+## 一段動詞
 
  | Japanese   | Romaji       | English      |
  | ---        | ---          | ---          |
@@ -254,9 +268,9 @@ ____
  | 食べられる | `tabe`rareru | can eat      |
  | 食べよう   | `tabe`you    | let's eat    |
 
-### 五段動詞 and 一段動詞
+## 五段動詞 and 一段動詞
 
-#### verbs ended in う
+### verbs ended in う
 
 * if the vowel sound that comes before る is `a`, `u`, or `o`, it is
   `definitely` a 五段動詞
@@ -284,13 +298,13 @@ ____
 | 一段動詞   | 食べる   | tab`e`ru  | to eat        |
 |            | 起きる   | ok`i`ru   | to wake up    |
 
-### 変格動詞
+## 変格動詞
 
 - examples
   * する (suru) - to do
   * 来る (kuru) - to come
 
-### Lost of the w sound
+## Lost of the w sound
 
 - example of pronunciation in the old times
   * 上 (ue) pronounced as `wuwe`
@@ -309,7 +323,7 @@ ____
 Note that all other conjugations of 買う use hiragana characters on the
 あいうえお line.
 
-### Sound convenience in conjugations
+## Sound convenience in conjugations
 
 - there is a concept in Japanese linguistics called 音便 (おんびん), which
   refers to changes in pronunciation that occur to make a word easier to say
@@ -326,7 +340,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * consonant removal
     + when a consonant disappears
 
-#### double consonant with Small っ
+### double consonant with Small っ
 
 - the double consonant (small っ) is used when a verb root ends in `w`, `t`, or
   `r`
@@ -337,7 +351,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 | 持つ | mo`t`(s) | 持ちて           | 持って         |
 | 降る | fu`r`    | 降りて           | 降って         |
 
-#### assimilation with ん
+### assimilation with ん
 
 - the ん character is used when a verb stem ends in `m`, `n` or `b`
 - by dropping the verb stem ending sound, replacing it with ん, and transforming
@@ -349,7 +363,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 | 死ぬ | shi`n`   | 死にて           | 死んで         |
 | 呼ぶ | yo`b`    | 呼びて           | 呼んで         |
 
-#### consonant removal
+### consonant removal
 
 - if the verb root ended in `k`, the verb ending would be attached with a `t`
   sound
@@ -361,7 +375,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 | 聞く | ki`k`    | 聞きて           | 聞いて         |
 | 急ぐ | iso`g`   | 急いて           | 急いで         |
 
-### Stem form
+## Stem form
 
 - aka
   * V-stem form
@@ -386,7 +400,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + する -> し
     + 来る -> 来
 
-### Command form (imperative) ろ
+## Command form (imperative) ろ
 
 - it is pretty strong and not exactly super polite to use
 - conjugation
@@ -431,7 +445,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 心配するな。 - Don't worry about it.
     + 泣くな！男の子でしょう！ - Don't cry! You are a boy, aren't you?
 
-### と
+## と
 
 - for things that always happen
   * when と is used for things with inevitable results like this, it is commonly
@@ -494,7 +508,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
     + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
 
-## て form
+# て form
 
 - the most basic use
   * to connect simultaneous or sequential actions, events or states together
@@ -541,7 +555,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + このベーコンはカリカリ`で`おいしい。 - This bacon is crispy and it is
       delicious.
 
-## Particles (助詞)
+# Particles (助詞)
 
 - は (wa) - as for
 - が (ga) - subject marker
@@ -553,7 +567,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - や (ya) - for example (between nouns)
 - almost all particles follows a noun
 
-### Examples
+## Examples
 
 - 大坂`に`行きした (ōsaka ni ikimashita) - I went to Osaka
 - 大坂`で`寿司`を`食べました (ōsaka de sushi o tabemashita) - I ate sushi in Osaka
@@ -566,12 +580,12 @@ Osaka and Kyoto, for example
   is famous
 - 大坂`を`知っていますか？ (ōsaka o shitteimasu ka?) - Do you know Osaka?
 
-### の
+## の
 
 - if the context is clear andthe noun comes before の is a person
   * 山田さん`の`本です can be written as 山田さん`の`
 
-### も
+## も
 
 - it means "too" in general
 - it is usually used in the second sentence of two sentences which describe the
@@ -587,12 +601,12 @@ Osaka and Kyoto, for example
     + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
     + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
 
-### は
+## は
 
 - something `は`・・・。 something else `は`・・・。
   * "something else" can be used as an additional context to "something"
 
-### が
+## が
 
 - marks the subject of a sentence
   * person
@@ -664,7 +678,7 @@ Osaka and Kyoto, for example
     + スイスが物価が高い。 (It is Switzerland that has a high cost of living.)
       + the examples streses Switzerland
 
-### を
+## を
 
 - marks the direct object of a sentence
 - marks the thing that affected by the verb
@@ -711,7 +725,7 @@ Osaka and Kyoto, for example
     + アニメ`から`卒業しました。 - I moved on (graduated) from anime. (implies
       to another industry)
 
-### に and で
+## に and で
 
 - に and で are both used to indicate a location
 - に
@@ -771,7 +785,7 @@ Osaka and Kyoto, for example
       + まだゲームしてるの？学校が９時で始まるよ！ - Are you still playing
         games? The school starts at 9!
 
-### に
+## に
 
 - verb (stem form) + に
   * or ため + に
@@ -849,7 +863,7 @@ Osaka and Kyoto, for example
       + まみは`子供に`外で遊ばせた。 - Mami let/made the child play outside.
         + まみは`子供を`外で遊ばせた。 - Mami made the child play outside.
 
-### で
+## で
 
   - it specifies where or how an activity or event takes place
   - the places that it specifies does not necessarily have to be a physical space
@@ -901,7 +915,7 @@ Osaka and Kyoto, for example
     + 今日は`三時で`仕事を終わります。 - I will finish work at 3 today.
     + 今日は`三時で`帰ります。 - I will leave at 3 today.
 
-### へ
+## へ
 
 - it is always pronunced as え when it is used as a particle
 - indicates a destination or the direction that something is heading
@@ -965,7 +979,7 @@ Osaka and Kyoto, for example
     + `ホテルへは`、15分くらいです。 - As for getting to the hotel, it takes
       about 15 minutes.
 
-### まで
+## まで
 
 - indicates the end point in space, time and numbers
 - examples
@@ -1042,7 +1056,7 @@ Osaka and Kyoto, for example
     + 言う`までもない` - needless to say / it goes without saying
       + verb + までもない usually means it can be effortlessly carried out
 
-### と
+## と
 
 - as in "and"
   * examples
@@ -1093,7 +1107,7 @@ Osaka and Kyoto, for example
     + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
     + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
 
-### から
+## から
 
 - to indicate the beginning point of something, or where something is coming
   from
@@ -1185,7 +1199,7 @@ Osaka and Kyoto, for example
       it's been one year.
       + `大学を卒業して`1年が過ぎた。 - I graduated from university a year ago.
 
-### より
+## より
 
 - to be used as "than"
   * examples
@@ -1254,9 +1268,9 @@ Osaka and Kyoto, for example
     + 歩く`より`他にがない。 - There is no other choice but to walk.
 - to be used as starting point
 
-### だけ
+## だけ
 
-## Adjectives
+# Adjectives
 
 - it must be followed by a noun
 - adjective + です
@@ -1265,14 +1279,14 @@ Osaka and Kyoto, for example
 - な-adjectives
   * it does not end with な
 
-### い形容詞 (いけいようし) - い-adjectives
+## い形容詞 (いけいようし) - い-adjectives
 
 - 新しい (あたらしい) - new
 - 美味しい (おいしい) - delicious
 - 太い (ふとい) - thick
   * fat for person; wide for things
 
-### な形容詞 (なけいようし) - な-adjectives
+## な形容詞 (なけいようし) - な-adjectives
 
 - 静か (しずか) - quiet
 - 賑やか (にぎやか) - lively / busy / noisy
@@ -1283,16 +1297,16 @@ Osaka and Kyoto, for example
 - 嫌い (きらい) - dislike
   * this is not a い-adjective
 
-### Conjugation
+## Conjugation
 
 |          | Affirmative | Negative       |
 | ---      | ---         | ---            |
 | non-past | 新しい      | 新しくない     |
 | past     | 新しかった  | 新しくなかった |
 
-## Honorific prefixes
+# Honorific prefixes
 
-### 御
+## 御
 
 - readings
   * お
@@ -1391,3 +1405,63 @@ Osaka and Kyoto, for example
   * other use cases
     + 御意 (ぎょい) - as you wish (a bit old-fashioned and very formal)
     + 御者 (ぎょしゃ) - coachman / driver
+
+# Plural suffixes and prefixes
+
+## Suffixes
+
+### 方 (がた)
+
+- formal
+- examples
+  * 先生方 (せんせいがた) - teachers
+  * お母さん方 (おかあさんがた) - mothers
+  * お医者さん方 (おいしゃさんがた) - doctors
+  * お客様方 (おきゃくさまがた) - customers
+  * 〜様方 (さまがた) - ~ care of (used in business letters)
+
+### 達 (たち)
+
+- very common and pretty neutral in terms of formality
+- examples
+  * 私達 (わたしたち) - we
+  * 友達 (ともだち) - friends
+  * 田中さん達 (たなかさんたち) - Tanaka and Co.
+
+### 等 (ら)
+
+- more casual than 達; often associated with friendliness and/or disrepect
+- usually written in kana
+  * to distinguish it from reading of 等 as など
+- examples
+  * うちらには関係ない。 - It is none of our business.
+  * 田中容疑者らは逃亡しました。 - The suspect Tanaka and his accociates fled.
+  * これら - these
+  * あれら - those
+  * あれら - those over there
+  * ちょっと鞄ら見といてくれる。 - Could you keep an eye on my bag and other
+    stuff?
+
+### 供 (ども)
+
+- often used for someone you despise or disrespect
+- it can be used to refer to oneself to express modesty
+  * examples
+    + 私どもにお任せください。 - Please leave it to us.
+
+### 諸 (しょ)
+
+- a prefix
+- meaning of various
+  * アボカドの語源に関しては諸説ある。 - There are various theories about the
+    origin of the word "avocado".
+  * ハワイ諸島 (ハワイしょとう) - Hawaii islands
+  * アジア諸国 (アジアしょこく) - Asian countries
+
+### 等 (など)
+
+- to showcase examples rather than pluralize nouns
+- examples
+  * そのパーティーには弁護士などが来ました。- People like lawyers came to the
+    party. (it implies that there are other professionals besides lawyers)
+- in the Kansai area, やら is common used instead
