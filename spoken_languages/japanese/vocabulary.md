@@ -200,6 +200,7 @@ ____
 - 息子さん (むすこさん) - son (of someone)
 - 娘 (むすめ) - daughter (of mine)
 - お娘さん (おむすめさん) - daughter (of someone)
+- お祖母さん (おばあさん) - grandmother
 
 ### Nouns (time)
 

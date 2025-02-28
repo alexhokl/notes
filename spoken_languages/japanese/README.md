@@ -18,6 +18,11 @@
   * [Convience store](#convience-store)
   * [Shopping](#shopping)
     + [Online shopping](#online-shopping)
+    + [Clothing types](#clothing-types)
+    + [Fashion categories](#fashion-categories)
+    + [Sizes](#sizes)
+  * [Second-hand shopping](#second-hand-shopping)
+    + [Item conditions](#item-conditions)
   * [Payment](#payment)
   * [Conversation](#conversation)
   * [Sites](#sites)
@@ -44,8 +49,6 @@
   * [Media](#media)
   * [Sex](#sex)
   * [Family relationships](#family-relationships)
-  * [Second-hand shopping](#second-hand-shopping)
-    + [Item conditions](#item-conditions)
   * [Stationary](#stationary)
   * [Work](#work)
 - [Verbs](#verbs)
@@ -356,16 +359,22 @@ ____
 - スーパー (sūpā) - supermarket
 - 本屋 (ほんや) - bookstore
 - 洋書 (ようしょ) - book in foreign language
+- 腕時計 (うでどけい) - wristwatch
+- サングラス - sunglasses
 - 地下街 (ちかがい) - underground shopping street
 - 風呂場 (ふろば) - bathroom
 - でございます - polite form of です (usually used in shops to address to
   customers)
 - 新入荷 (しんにゅうか) - new arrival
 - 激安 (げきやす) - dirty cheap
+- 定価 (ていか) - regular retail price
+- 参考上代 (さんこうじょうだい) - MSRP (Manufacturer's Suggested Retail Price)
 
 ### Online shopping
 
+- 通販 (つうはん) - online shopping
 - 絞り込み (しぼりこみ) - search filters
+- さらに絞り込んで探す (さらにしぼりこんでさがす) - filter your search further
 - 商品の状態 (しょうひん の じょうたい) - item condition
 - 新品 (しんぴん) - new
 - 未使用 (みしよう) - unused
@@ -396,7 +405,120 @@ ____
 - 着払い (ちゃくばらい) - cash on delivery
 - 送料込み (そうりょうこみ) - free shipping/shipping included
 - 取引中 (とりひきちゅう) - in-process
+- 貸出中 (かしだしちゅう) - currently rented out
+- 貸し出し中 (かしだしちゅう) - currently rented out
+- ネットデ借りる (ネットでかりる) - rent online
+- まとめて購入 (まとめてこうにゅう) - buy in bulk
+- まとめてレンタル - rent in bulk
+- 宅配便 (たくはいびん) - home delivery service
+- 宅配レンタリ (たくはいれんたり) - home delivery rental
+- 海外発送可 (かいがいはっそうか) - international shipping available
 
+### Clothing types
+
+- ショーツ - shorts
+- ショートパンツ - shorts
+- 半ズボン (はんずぼん) - shorts
+- ジャケット - jacket
+- デニムジャケット - jean jacket
+- レザージャケット - leather jacket
+- 革ジャケット - leather jacket
+- テーラードジャケット - tailored jacket
+- コート - coat
+- セーター - sweater
+- ニット - knit
+- アウターウエア - outerwear
+- 上着 (うわぎ) - outerwear
+- 下着 (したぎ) - underwear
+- パンツ - pants (underwear)
+- パジャマ - pajamas
+- ルームウエア - loungewear
+
+### Fashion categories
+
+- カテゴルー - category
+- レディース - womenswear
+- メンズ - menswear
+- ユニセックス - unisex
+- ジェンダーレス - genderless
+- キッズ - kidswear
+- 手作り (てずくり) - handmade
+- ハンドメイド - handmade
+- ブランド - brand
+- カラー - color
+- 色 (いろ) - color
+- デザイン - design
+- 柄 (がら) - pattern
+- 年代 (ねんだい) - year or generation (for vintage)
+
+### Sizes
+
+- サイズ - size
+- 大きめ (おおきめ) - on the large side
+- 小さめ (ちさめ) - on the small side
+- フリーサイズ - one size fits all
+- 平置き実寸 (ひらおきじっすん) - actual measurements when placed flat
+- 丈 (たけ) - height
+- 着丈 (きたけ) - height
+- 身丈 (みたけ) - height
+- 幅 (はば) - width
+- 身幅 (みはば) - width
+- 肩幅 (かたはば) - shoulder width
+- 袖丈 (そでたけ) - sleeve length
+- 裄丈 (ゆきたけ) - length from the center of collar to the top of the sleeve
+- ウエスト - waist width
+- 胴幅 (どうはば) - waist width
+- 腰幅 (こしはば) - waist width
+- ヒップ - hip width
+- 股上 (またがみ) - front rise (crotch to waist, for pants)
+- 股下 (またした) - inseam (crotch to hem, for pants)
+- 裾幅 (すそはば) - hem width
+- 総丈 (そうたけ) - total length
+
+## Second-hand shopping
+
+- リサイクルショップ - recycle shop (store that sells used goods)
+- リユース - resue
+- 中古 (ちゅうこ) - used
+- 中古品 (ちゅうこひん) - used item
+- 中古商品 (ちゅうこしょうひん) - used product
+- 古着屋 (ふるぎや) - thrift store for clothing
+- 古着 (ふるぎ) - secondhand clothing
+- ブランド古着 (ブランドふるぎ) - brand-name secondhand clothing
+- 古本屋 (ふるほんや) - used book store
+- 古書店 (こしょてん) - used book store
+- 中古本 (ちゅうこほん) - secondhand book
+- 古本 (furuhon) - secondhand book
+- 古書 (kosho) - secondhand book
+- 単行本 (たんこうぼん) - single volume book
+- 中古漫画 (ちゅうこまんが) - secondhand manga
+- 中古コミック(ちゅうこコミック) - secondhand manga
+- 買い取り / 買取 (かいとり) - buyback/resell service
+- 買取センター (かいとりセンター) - buyback/resell service center
+- お売りください (おうりください) - please sell
+- 不用品 (ふようひん) - - unneeded item
+- 勿体ない (もったいない) - a waste (usually people leaving a place and do not
+  want to keep the item)
+- フリーマーケット - flea market
+- フリマ - flea market
+- フリマアプリ - flea market app
+- 中古のみ (ちゅうこのみ) - secondhand only
+- コンディション - condition
+
+### Item conditions
+
+- 傷 (きず) - imperfections, flaws, scratches, defects
+- 汚れ (よごれ) - dirt, stains, spots
+- シミ / 染み - stain, spot, smudge, discoloration
+- シワ / 皺 - wrinkle, crease
+- 色褪せ (いろあせ) - fading, discoloration
+- 使用感 (しようかん) - wear and tear, signs of use
+- 日焼け (ひやけ) - sun damage/fading
+- 未使用品 (みしようひん) - unused item
+- 毛玉 (けだま) - pilling, fuzz balls
+- 毛羽立ち (けばたち) - fuzzing, fraying
+- 虫食い穴 (むしくいあな) - holes eaten by bugs or moths
+- ほころび - seams that have come apart or tears
 
 ## Payment
 
@@ -770,38 +892,6 @@ ____
 - 弟 (おとうと) - younger brother
 - 妹 (いもうと) - younger sister
 - 赤ちゃん - baby
-
-## Second-hand shopping
-
-- リサイクルショップ - recycle shop (store that sells used goods)
-- リユース - resue
-- 中古 (ちゅうこ) - used
-- 中古品 (ちゅうこひん) - used item
-- 中古商品 (ちゅうこしょうひん) - used product
-- 古着屋 (ふるぎや) - thrift store for clothing
-- 古本 (furuhon) - secondhand book
-- 古書 (kosho) - secondhand book
-- 中古漫画 (ちゅうこまんが) - secondhand manga
-- 中古コミック(ちゅうこコミック) - secondhand manga
-- 古着 (ふるぎ) - secondhand clothing
-- ブランド古着 (ブランドふるぎ) - brand-name secondhand clothing
-- 買い取り / 買取 (かいとり) - buyback/resell service
-- 買取センター (かいとりセンター) - buyback/resell service center
-- お売りください (おうりください) - please sell
-- 不用品 (ふようひん) - - unneeded item
-- フリーマーケット - flea market
-- フリマ - flea market
-- フリマアプリ - flea market app
-
-### Item conditions
-
-- 傷 (きず) - imperfections, flaws, scratches, defects
-- 汚れ (よごれ) - dirt, stains, spots
-- シミ / 染み - stain, spot, smudge, discoloration
-- シワ / 皺 - wrinkle, crease
-- 色褪せ (いろあせ) - fading, discoloration
-- 使用感 (しようかん) - wear and tear, signs of use
-- 日焼け (ひやけ) - sun damage/fading
 
 ## Stationary
 
