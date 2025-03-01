@@ -28,10 +28,12 @@
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
   * [Examples](#examples)
   * [の](#%E3%81%AE)
-  * [も](#%E3%82%82)
   * [は](#%E3%81%AF)
   * [が](#%E3%81%8C)
   * [を](#%E3%82%92)
+  * [も](#%E3%82%82)
+  * [か](#%E3%81%8B)
+  * [ね](#%E3%81%AD)
   * [に and で](#%E3%81%AB-and-%E3%81%A7)
   * [に](#%E3%81%AB)
   * [で](#%E3%81%A7)
@@ -580,8 +582,86 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 ## の
 
-- if the context is clear andthe noun comes before の is a person
-  * 山田さん`の`本です can be written as 山田さん`の`
+- as noun modifier
+  * to give extra information about a noun
+  * noun + の + noun
+    + if the context is clear and the noun comes before の is a person
+      + 山田さん`の`本です can be written as 山田さん`の`
+  * particle + の + noun
+    + へ
+      + examples
+        + 日本への飛行機 - airplane to Japan
+        + 日本からの飛行機 - airplane from Japan
+    + だけ
+      + examples
+        + 寝るだけの人生 - a life of only sleeping
+    + と
+      + examples
+        + お母さんとの会話 - conversation with mother
+        + 「早く帰ってきてね！」とのメッセージ - a message saying "Come home
+          soon!"
+  * non-noun + の
+    + examples
+      + 食べるのが好きだ。 - I like eating.
+  * non-possessive nature
+    + the reason of thinking の as label but not possessive
+    + examples
+      + バナナの本、面白いよ。 - Books about bananas are interesting.
+      + バナナの本、面白いよ。 - Banana-shaped books are interesting.
+      + バナナの本、面白いよ。 - Banana's book is interesting.
+  * usages
+    + ownership
+    + affiliation
+      + examples
+        + 東京大学の教授 - a professor at Tokyo University
+    + topic
+      + examples
+        + 日本語の知識 - knowledge of Japanese
+        + 猫の研究 - research on cats
+          + to ensure it does not mean "research by cats"
+            + 猫`について`の研究
+    + location
+      + examples
+        + ニューヨークの自由の女神 - the New York Statue of Liberty
+    + time
+      + examples
+        + 朝五時のアラーム - the 5 o'clock alarm
+    + degree (amount, quantity, price, size and more)
+      + examples
+        + 五十人のアメリカ人
+        + 四千円のりんご
+    + order and rank
+      + examples
+        + 最初の試験
+        + 三人目の孫 - the third grandchild
+        + 世界一の温泉
+    + apposition
+      + examples
+        + フルーツのバナナ - banana, the fruit
+        + 校長の山田先生
+    + materials and ingredients
+      + examples
+        + 木の机
+        + アサリの味噌汁 - miso soup with clams
+    + adjective-like nouns
+      + examples
+        + 普通の車
+        + 久しぶりの再会 - reunion for the first time in a long time
+  * replacing が in relative clauses
+    + examples
+      + the bouquet that the florist made
+        + 花屋の店員`が`作った花束
+        + 花屋の店員`の`作った花束
+- as nominalizer
+  * turns non-nouns into nouns
+    + it is like gerund in English
+  * usages
+    + relative clause + の
+      + examples
+        + 走るのは楽しいです。 - Running is fun.
+        + 走るのは明日だよ。 - (The time for) running is tomorrow.
+        + 走るのは海子だよ。 - (The person) running is Umiko.
+        + お父さんが買ったのは、時計です。 - What dad bought is a clock.
 
 ## は
 
@@ -889,6 +969,74 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 今日は`まみさんも来るか`どうか知ってる？ - Do you know if Mami is coming
       today or not?
 
+## ね
+
+- a sentence ending particle
+- to imply that the listener agrees with what speaker is saying, or give the
+  impression that they are both on the same page
+- basic examples
+  * あ、雨が降ってるね。 - Oh, it's raining, isn't it?
+  * 食べるね。 - I'll eat, okay?
+  * 暑いね。 - It's hot, isn't it?
+  * A: 今日、暖かいね。
+    B: うん、暖かいね。 - yeah, it is warm.
+    C: え、暖かくないよ。 - what? It is not warm.
+- used with な-adjectives or nouns
+  * with a feminine tone
+    + 静かね。
+    + 犬ね。
+    + 犬もね。
+  * with a affirmative and neutral tone
+    + 静かだね。
+    + 犬だね。
+    + 犬もだね。
+  * with a polite neutral tone
+    + 静かですね。
+    + 犬ですね。
+    + 犬もですね。
+- hey
+  * only used in this way between people who are on friendly terms
+  * examples
+    + ね！
+    + ねえ！
+    + ねえねえ！
+- used as saying "like" over and over
+  * examples
+    + なんかね、やっぱね、今日はね、お風呂はね、入りたくないんだよね。 - Well,
+      like, turns out, today, like, I don't wanna take a bath, okay?
+- for confirmation
+  * examples
+    + ご予約の佐藤さんですね。こちらへどうぞ。 - You are Mr. Satou who made the
+      reservation, correct? This way, please.
+    + 佐藤フグ男さんですね。署までご同行願います。 - You're Fuguo Satou, right?
+      Please come with us to the police station.
+  * with less confidence
+    + examples
+      + あの、日本のアイドルのフグ男さんです`よね`？ - Hi, you're the Japanese
+        idol Fuguo, right?
+- used in requests
+  * to soften the request
+  * て form + ね
+    + examples
+      + この記事を読んでね。 - Read this article.
+      + 食べ終わったらお皿洗ってね。 - After you eat, can you make sure you do
+        the dishes?
+- used in suggestions
+  * to soften the suggestion
+  * 〜よう + ね
+    + a way to be both nurturing and slightly assertive at the same time
+      + examples
+        + そろそろ宿題しようね。 - It is time for you to do your homework, okay?
+    + to make a promise
+      + examples
+        + また会おうね。 - Let's be sure to meet again, ok?
+- being sarcastic
+  * add it to a statement that contains information the listener is clearly not
+    aware of
+  * examples
+    + それ？マッカラン・ラリックの62年だね。 - That? It's a 62-year-old
+      Macallan, right?
+    + できないね。 - I can't, clearly.
 
 ## に and で
 

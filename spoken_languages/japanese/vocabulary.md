@@ -392,7 +392,7 @@ ____
 - 茶色い (ちゃいろい) - brown
 - 良い (よい) - good (formal)
 - いい - good (casual)
-- 悪い (わるい) - bad
+- 悪い (わるい) - bad; at fault
 - 弱い (よわい) - weak
 - 丸い (まるい) - round / circular
 - 暑い (あつい) - hot / warm
@@ -479,6 +479,9 @@ ____
 - 見える (みえる) - to be seen
 - 分かる (わかる) - to understand
 - 止まる (とまる) - to stop; to come to a halt
+- 休む (やすむ) - to rest
+- 降る (ふる) - to fall (rain, snow)
+- 出来る (できる) - to be able to do; to be good at
 
 ### Verbs (Direction Intransitive)
 
@@ -577,6 +580,10 @@ ____
 - 考える (かんがえる) - to think (on a specific topic)
 - 受ける (うける) - to receive / to take (an exam)
 - くれる - to give
+
+### Common word
+
+- 久しぶり - a long time
 
 ### Expressions
 
@@ -691,6 +698,10 @@ ____
 - お陰様で (おかげさまで) - thankfully; fortunately
 
 ## N1
+
+### Particles
+
+- だけ - only; just
 
 ### Nouns
 
