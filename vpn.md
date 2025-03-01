@@ -3,6 +3,8 @@
 - [Types](#types)
   * [OpenVPN](#openvpn)
     + [Troubleshooting](#troubleshooting)
+- [Services](#services)
+  * [Countries can enforce data sharing with government agencies](#countries-can-enforce-data-sharing-with-government-agencies)
 ____
 
 # Concepts
@@ -41,3 +43,12 @@ ____
 - Press <kbd>Win</kbd><kbd>R</kbd> and enter in `%TEMP%`.
 - Remove `.ovpn-connect-lockfile`.
 
+# Services
+
+## Countries can enforce data sharing with government agencies
+
+- Australia
+- Canada
+- New Zealand
+- United Kingdom
+- United States
