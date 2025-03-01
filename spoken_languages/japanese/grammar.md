@@ -583,24 +583,80 @@ Note that all other conjugations of 買う use hiragana characters on the
 - if the context is clear andthe noun comes before の is a person
   * 山田さん`の`本です can be written as 山田さん`の`
 
-## も
-
-- it means "too" in general
-- it is usually used in the second sentence of two sentences which describe the
-  same situation or beahviour
-  * it can be used to replace `は` or `が` in the second sentence
-- examples
-  * らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif is a
-    student, too.
-  * らヒムさんわ先ではありません。アリフさん`も`先生ではありません。 - Rahim is not a
-    teacher. Arif is not a teacher, either.
-  * 私はマレーシア人です。貴方`も`マレーシア人ですか。 - I am Malaysian. Are you
-    Malaysian, too?
-    + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
-    + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
-
 ## は
 
+- it is like a spotlight that shines on the topic and leaving other potential
+  topcis in the dark
+- as a topic marker
+  * it is the rough equivalent of "as for"
+  * it is a special feature of Japanese, as there are very few languages in the
+    world that have a specific grammatical way to pick out a topic
+- for constrasting two topics
+  * examples
+    + 東京`は`物価が高いけど、田舎`は`物価が安い。
+- with い-adjectives
+  * examples
+    + 難しく`は`ないけど、ただ時間がかかる。 - It is not (exactly) difficult, it
+      is just time-consuming.
+    + 難しく`は`ありませんが、時間がかかります。
+    + 難しく`は`あるけど、おもしろい。 - It is difficult, but it is also fun.
+- with nouns and な-adjectives
+  * examples
+    + 有名で`は`ないが、人気はある。 - They are not (exactly) famous, but they
+      are popular.
+    + 先生で`は`ありませんが、説明が上手な人です。 - They are not a teacher, but
+      they are good at explaining.
+- questions words may be following by が, を, etc, but almost never は
+- it cannot be combined with が, を or も
+- either replace に or become には
+  * examples
+    + I've been to Japan.
+      + 日本`に`行ったことがある。
+      + 日本`には`行ったことがある。
+      + 日本`は`行ったことがある。
+    + The dog is barking in the kitchen.
+      + 台所`で`犬が吠えています。
+      + 台所`では`犬が吠えています。
+    + I went to the movies with my younger brother.
+      + 弟`と`映画館に行きました。
+      + 弟`とは`映画館に行きました。
+- for contrast
+  * examples
+    + 日本語が好きです。 - I like Japanese.
+    + 日本語`は`好きですが - I like Japanese (but maybe I don't like other
+      languages/subjects).
+    + お肉を食べない。 - I don't eat meat.
+    + お肉`は`食べない。 - I don't eat meat (but I eat other things).
+    + お肉`は`食べないけど魚は食べるよ。
+  * the feeling of constrast can also be increased with a pause
+    + examples
+      + 日本語は、好き。
+- for hesitating when speaking
+  * examples
+    + お寿司は好きですか。
+    + お寿司はね…
+    + お寿司は…
+- it can be replaced by a comma
+  * any notion of comparison (or other nuance) is softened
+  * very common with time phrases such as 来週, 先月 or 今年
+  * examples
+    + 今年、日本に行くんです。
+    + 日本語、面白い。
+    + 少し、食べました。
+- for changing scenes
+- used in relative clauses
+  * examples
+    + 蜂蜜の瓶を籠に入れていますした。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
+      The bear put a jar of honey into basket and left. Unaware of all this, the
+      donkey kept on his afternoon nap.
+    + I was accepted by the school that Jenny failed to get into.
+      + ジェニー`の`落ちた学校に私は受かった。
+      + ジェニー`が`落ちた学校に私は受かった。
+      + ジェニー`は`落ちた学校に私は受かった。
+    + I also failed to get into the school that Jenny failed to get into.
+      + ジェニー`の`落ちた学校に私も落ちた。
+      + ジェニー`が`落ちた学校に私も落ちた。
+      + は cannot be used in this case as it is not a contrast
 - something `は`・・・。 something else `は`・・・。
   * "something else" can be used as an additional context to "something"
 
@@ -722,6 +778,79 @@ Note that all other conjugations of 買う use hiragana characters on the
     his/her time in anime industry is over)
     + アニメ`から`卒業しました。 - I moved on (graduated) from anime. (implies
       to another industry)
+
+## も
+
+- marker for a part of a set
+  * when it goes after a word, it indicates that the word is a member of the
+    group
+  * examples
+    + 鈴木さん`も`日本語の先生です。
+    + 鈴木さんは先生です。鈴木さんはゲーマーで`も`あります。 - Suzuki is
+      a teacher. Suzuki is also a gamer.
+- noun + も
+  * it is more like used in place of は
+- used at the end of a sentence
+  * for noun or な-adjective
+    + it is added between て form and ある
+      + examples
+        + ジェニーは先生である。 - Jenny is a teacher.
+        + ジェニーは先生で`も`ある。 - Jenny is also a teacher.
+        + ここは静かである。 - Here is quiet.
+        + ここは静かで`も`ある。 - Here is also quiet.
+  * for い-adjective
+    + it is added between く form and ある
+      + examples
+        + 猫は可愛い。
+        + 猫は可愛く`も`ある。
+-  combined with other particles
+  * it combines the same was as は
+    + にも
+    + でも
+    + とも
+    + へも
+  * examples
+    + ジェニー`にも`あげる。 - I'll also give it to Jenny.
+- used as in "also"
+  * examples
+    + Hayashi is a student. Mori and Yamada are also students.
+      + 林さんは学生です。森さん`も`山田さん`も`学生です。
+      + 林さんは学生です。森さん`と`山田さん`も`学生です。
+    + らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif
+      is a student, too.
+    + 私はマレーシア人です。貴方`も`マレーシア人ですか。 - I am Malaysian. Are
+      you Malaysian, too?
+      + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
+      + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
+- used as in "either"
+  * examples
+    + 林さんは学生じゃありません。森さん`も`山田さん`も`学生じゃありません。
+    + 林さんは学生じゃありません。森さん`と`山田さん`も`学生じゃありません。
+    + らヒムさんわ先ではありません。アリフさん`も`先生ではありません。 - Rahim
+      is not a teacher. Arif is not a teacher, either.
+- for emphasis
+  * examples
+    + アイスとチョコを食べた後に、パンプキンパイ`も`食べたの！？ - After eating
+      ice cream and chocolate, you even ate a pumpkin pie!?
+- quantity + も
+  * to show that it was an impressive amount
+  * examples
+    + ハンバーガーを６個`も`食べちゃった。 - I ate six hamburgers.
+    + ５キロ`も`太った。 - I gained five kilograms.
+    + ３時間`も`待った。 - I waited for three hours.
+- question word + も
+  * examples
+    + `どれも`おいしそう！ - Everthing looks delicious!
+    + ここのパンは`いつも`おいしい。 - Bread here is always delicious.
+    + `何も`食べたくない。 - I don't want to eat anything.
+    + どれでも - no matter which one
+    + いつでも - no matter when
+    + 何でも - no matter what
+- て form + も + いい
+  * to express or ask for permission or concession
+  * examples
+    + テレビ観てもいい？ - Is it all right if I watch TV?
+      + otherwise the question can be written directly as テレビ観ますか？
 
 ## か
 
