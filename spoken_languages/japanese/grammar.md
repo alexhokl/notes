@@ -66,14 +66,14 @@ ____
 
 ## Simple sentence
 
-| item | examples | example sentence | translation |
-| --- | --- | --- | --- |
-| verb | 作る | 作る (tsukuru) | make |
-| object marker | を | お寿司`を`作る (osushi o tsukuru) | make sushi |
-| subject marker | が | お父さん`が`お寿司お作る (otōsan ga osushi o tsukuru) | dad makes sushi |
-| topic | は | 毎週日曜日`は`お父さんがお寿司を作る。 (maishū nichiyōbi wa otōsan ga osushi o tsukuru) | Every Sunday, dad makes sushi. |
-| adverbials | に、で | 毎週日曜日はお父さんが台所`で`お寿司を作る。 (maishū nichiyōbi wa otōsan ga daidokoro de osushi o tsukuru) | Every Sunday, dad makes sushi in the kitchen. |
-| final particle | の、よ、ね | 毎週日曜日はお父さんが台所でお寿司を作る`の`。 (maishū nichiyōbi wa otōsan ga daidokoro de osushi o tsukuru no) | Every Sunday, dad makes sushi in the kitchen. |
+ | item           | examples   | example sentence                               | translation                                   |
+ | ---            | ---        | ---                                            | ---                                           |
+ | verb           | 作る       | 作る                                           | make                                          |
+ | object marker  | を         | お寿司`を`作る                                 | make sushi                                    |
+ | subject marker | が         | お父さん`が`お寿司お作る                       | dad makes sushi                               |
+ | topic          | は         | 毎週日曜日`は`お父さんがお寿司を作る。         | Every Sunday, dad makes sushi.                |
+ | adverbials     | に、で     | 毎週日曜日はお父さんが台所`で`お寿司を作る。   | Every Sunday, dad makes sushi in the kitchen. |
+ | final particle | の、よ、ね | 毎週日曜日はお父さんが台所でお寿司を作る`の`。 | Every Sunday, dad makes sushi in the kitchen. |
 
 - `は` marks the topic. However, unlike `が`, it carries to subsequent sentences
   until another topic is introduced.
@@ -87,28 +87,27 @@ ____
 
 ## Complex sentence
 
-| item | examples | example sentence | translation |
-| --- | --- | --- | --- |
-| - | - | 今日は忙しい。ストレスが溜まっている。 (kyō wa isogashii. sutoresu ga tamatte iru) | Today is busy. I'm feeling stressed out. |
-| conjunction | から、ので、けと、なら | 今日は忙しい`から`、ストレスが溜まっている。 (kyō wa isogashii kara, sutoresu ga tamatte iru) | Today is busy, so I'm feeling stressed out. |
-| conjugation | い | 今日は`忙しくて`、ストレスが溜まっている。 (kyō wa isogashikute, sutoresu ga tamatte iru) | Today I'm busy, so I'm feeling stressed out.|
-| quotation | 「」 | 弟は「火星に住みたい」と言いました。 (otōto wa "kasei ni sumitai" to iimashita) | My little brother said, "I want to live on Mars." |
-| spoken quotation | と | 人間は火星に住めない`と`思う。 (ningen wa kasei ni sumenai to omou) | I think humans can't live on Mars. |
+ | item             | examples               | example sentence                             | translation                                       |
+ | ---              | ---                    | ---                                          | ---                                               |
+ | -                | -                      | 今日は忙しい。ストレスが溜まっている。       | Today is busy. I'm feeling stressed out.          |
+ | conjunction      | から、ので、けと、なら | 今日は忙しい`から`、ストレスが溜まっている。 | Today is busy, so I'm feeling stressed out.       |
+ | conjugation      | い                     | 今日は`忙しくて`、ストレスが溜まっている。   | Today I'm busy, so I'm feeling stressed out.      |
+ | quotation        | 「」                   | 弟は「火星に住みたい」と言いました。         | My little brother said, "I want to live on Mars." |
+ | spoken quotation | と                     | 人間は火星に住めない`と`思う。               | I think humans can't live on Mars.                |
 
 - `から` makes it clear that the first clause is the reason for the second
 - `忙しくて` is `て` form of adjective `忙しい`
 
 ### Noun modification
 
-- `可愛い`猫 (kawaii neko) - cute cat
-- `スーパーの前で拾った`猫 (sūpā no mae de hirotta neko) - the cat that I found
+- `可愛い`猫 - cute cat
+- `スーパーの前で拾った`猫 - the cat that I found
   in front of the supermarket
-- 残念ながら、`スーパーの前で拾った`猫が逃げたんだ。 (zannen nagara, sūpā no mae
-  de hirotta neko ga nigetan da) - Unfortunately, the cat that I found in front
-  of the supermarket ran away.
-- `スーパーの前で拾った`猫が`お母さんからもらった`ランプを壊した。 (sūpā no mae
-  de hirotta neko ga okāsan kara moratta ranpu o kowashita) - The cat that
-  I found in front of the supermarket broke the lamp that I got from my mother.
+- 残念ながら、`スーパーの前で拾った`猫が逃げたんだ。 - Unfortunately, the cat
+  that I found in front of the supermarket ran away.
+- `スーパーの前で拾った`猫が`お母さんからもらった`ランプを壊した。 - The cat
+  that I found in front of the supermarket broke the lamp that I got from my
+  mother.
 
 ### Politeness markers
 
@@ -116,12 +115,13 @@ ____
 - `ます`
 - in complex sentences with multiple politeness markers, only the last one needs
   to be kept and others can be replaced `です` by `だ`
-  * example: 桜が満開`だ`から、お花見に行き`ます`。 (sakura ga mankai da kara,
-    ohanami ni ikimasu) - The cherry blossoms are in full bloom, so I'm going to
+  * example: 桜が満開`だ`から、お花見に行き`ます`。 (さくらがまんかいだから、お
+    はなみにいきます。) - The cherry blossoms are in full bloom, so I'm going to
     see them.
-- in spoken quotation, `です`っっ and `ます` cannot be used and `だ` is used instead
-  * example: 近所の人から桜が満開`だ`と教えてもらった。 (kinjo no hito kara
-    sakura ga mankai da to oshiete moratta) - A neighbor told me that the cherry
+- in spoken quotation, `です`っっ and `ます` cannot be used and `だ` is used
+  instead
+  * example: 近所の人から桜が満開`だ`と教えてもらった。 (きんじょのひとからさくら
+    がまんかいだとおしえてもらった。) - A neighbor told me that the cherry
     blossoms were in full bloom.
 
 # Auxiliary verbs
@@ -201,34 +201,34 @@ ____
 - express present, habitual and future actions
 - ends with `u` sound (such as 飲む、使う、する)
 - examples
-  * 兄は毎日パスタを`食べる`。 (My brother eats pasta everyday.)
-  * 兄は明日パスタを`食べる`。 (My brother will eat pasta tomorrow.)
+  * 兄は毎日パスタを`食べる`。 - My brother eats pasta everyday.
+  * 兄は明日パスタを`食べる`。 - My brother will eat pasta tomorrow.
 - if there are no context clues, more often than not the plain present form is
   used to talk about the future
   * examples
-    + パーティーをする。 (I will throw a party.)
-    + 飲む？ (Will you drink it?)
-      + 飲む！ (I will drink it!)
+    + パーティーをする。 - I will throw a party.
+    + 飲む？ - Will you drink it?
+      + 飲む！ - I will drink it!
 - hibits, facts or generalisations
   * if the speaker believes it is a fact, whether it is actually true or false
     does not really matter
   * examples
-    + 朝は、いつもサンドイッチを`食べる`。 (I always eat sandwiches in the
-      morning.)
-    + 水は100度で`沸騰する`。 (Water boils at 100 celsius.)
-    + ラブラドールはよく`食べる`。 (Labradors eat well.)
+    + 朝は、いつもサンドイッチを`食べる`。 - I always eat sandwiches in the
+      morning.
+    + 水は100度で`沸騰する`。 - Water boils at 100 celsius.
+    + ラブラドールはよく`食べる`。 - Labradors eat well.
   * if the fact or generalization is something that is continuously happening,
     it is more common to think of it as a repeated action with the focus on its
     continuity using the `ている` form of the verb
-    + 月は地球の周りを`回っている`。 (The moon revolves around the earth.)
-    + 兄はパソコンを三台も`持つ`。 (My brother has three computers from now on.)
-    + 兄はパソコンを三台も`持っている`。 (My brother has three computers.)
+    + 月は地球の周りを`回っている`。 - The moon revolves around the earth.
+    + 兄はパソコンを三台も`持つ`。 - My brother has three computers from now on.
+    + 兄はパソコンを三台も`持っている`。 - My brother has three computers.
 - politness
   * examples
     + non-polite
-      + クッキー`食べる`？ (Will you eat some cookies?)
+      + クッキー`食べる`？ - Will you eat some cookies?
     + polite
-      + クッキー`食べますか`？ (Would you like to eat some cookies?)
+      + クッキー`食べますか`？ - Would you like to eat some cookies?
 - types
   * 他動詞 (たどうし) - transitive verb
   * 自動詞 (じどうし) - intransitive verb
@@ -240,13 +240,14 @@ ____
   * take a varierty of endings
   * convey verb in the present or past, positive or negative, and more
 - types
-  * 五段動詞 (godan dōshi)
+  * 五段動詞 (ごだんどうし)
     + aka うverbs, Group I verbs or consonant-root verbs
     + as these verbs conjugate, the う-line character will shift through the
       five vowel sounds in the hiragana chart (あ, い, う, え, お)
-  * 一段動詞 (ichidan dōshi)
+  * 一段動詞 (いちだんどうし)
     + aka るverbs, Group II verbs or vowel-root verbs
-  * 変格動詞 (henkaku dōshi) - irregular verbs
+  * 変格動詞 (へんかくどうし)
+    + aka irregular verbs
 
 ## 五段動詞
 
@@ -569,16 +570,13 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 ## Examples
 
-- 大坂`に`行きした (ōsaka ni ikimashita) - I went to Osaka
-- 大坂`で`寿司`を`食べました (ōsaka de sushi o tabemashita) - I ate sushi in Osaka
-- 大坂`に`料理店`が`あります (ōsaka ni ryōriten ga arimasu) - There are restaurants
-  in Osaka
-- 大坂`が`好きです (ōsaka ga suki desu) - I like Osaka
-- 大坂`や`京都`に`行きたいです (ōsaka ya kyōto ni ikitai desu) - I want to go to
-Osaka and Kyoto, for example
-- 日本`は`大坂`が`有名です (nihon wa ōsaka ga yūmei desu) - As for Japan, Osaka
-  is famous
-- 大坂`を`知っていますか？ (ōsaka o shitteimasu ka?) - Do you know Osaka?
+- 大坂`に`行きした - I went to Osaka
+- 大坂`で`寿司`を`食べました - I ate sushi in Osaka
+- 大坂`に`料理店`が`あります - There are restaurants in Osaka
+- 大坂`が`好きです - I like Osaka
+- 大坂`や`京都`に`行きたいです - I want to go to Osaka and Kyoto, for example
+- 日本`は`大坂`が`有名です - As for Japan, Osaka is famous
+- 大坂`を`知っていますか？ - Do you know Osaka?
 
 ## の
 
@@ -612,9 +610,9 @@ Osaka and Kyoto, for example
   * person
   * thing
 - basics
-  * どの方`が`トーフグの社長さんですか？ (Which person is the president of
-    Tofugu?)
-    + 私`が`社長です。 (I am the president.)
+  * どの方`が`トーフグの社長さんですか？ - Which person is the president of
+    Tofugu?
+    + 私`が`社長です。 - I am the president.
 - subject omission is extremely common in Japanese when we know what that
   subject is from context
 - even when the subject is included, it is really common to omit が in informal
@@ -628,15 +626,15 @@ Osaka and Kyoto, for example
     + in Japanese, however, they can be considered subjects, because they are
       the ones that are desirable, or detestable.
   * examples
-    + 梅干`が`大好き。 (Umeboshi is loveable.)
-    + 小犬`が`欲しい。 (A puppy is desired.)
-    + そういうの`が`嫌いだよ。 (That sort of thing is detestable.)
+    + 梅干`が`大好き。 - Umeboshi is loveable.
+    + 小犬`が`欲しい。 - A puppy is desired.
+    + そういうの`が`嫌いだよ。 - That sort of thing is detestable.
   * in English, "want" is a verb that generally takes an object. You want
     something. That thing is the object, and you are the subject.
     * in Japanese, to say that you want to do something in Japanese, you can
       change the verb into the たい form, as in 食べたい (I want to eat)
     * examples
-      + 梅干`が`食べたい。 (I want to eat umeboshi.)
+      + 梅干`が`食べたい。 - I want to eat umeboshi.
         + い is the clue that is form has basically "become" an い adjective
         + it is totally possible to say 梅干`を`食べたい
           + if を you are not craving pickled plums, but you are more
@@ -646,36 +644,36 @@ Osaka and Kyoto, for example
             fulfilled
 - が with verbs that describe states
   * examples
-    + 日本語`が`分かる。 (Japanese is comprehensible to me.)
-    + それ`が`できる。 (That is doable for me.)
-    + その人`が`見える。 (That person is visible to me.)
-    + 音楽`が`聞こえる。 (Music is audible to me.)
+    + 日本語`が`分かる。 - Japanese is comprehensible to me.
+    + それ`が`できる。 - That is doable for me.
+    + その人`が`見える。 - That person is visible to me.
+    + 音楽`が`聞こえる。 - Music is audible to me.
 - が with verbs for "exist"
   * ある (to exist) (for a non-living thing)
   * いる (to exist) (for a living thing)
   * examples
-    + 私（に）は夢`が`ある。 (A dream exists for me.)
-    + かなえ（に）は可愛い犬`が`いる。 (Kanae has a cute dog.)
-    + まみ（に）は素敵な子供`が`二人いる。 (Mami has two lovely kids.)
+    + 私（に）は夢`が`ある。 - A dream exists for me.
+    + かなえ（に）は可愛い犬`が`いる。 - Kanae has a cute dog.
+    + まみ（に）は素敵な子供`が`二人いる。 - Mami has two lovely kids.
 - が in relative clauses
   * examples
-    + スミスさん`は`お金を見つけた。 (Mr Smith found some money.)
-      + (スミスさん`が`見つけた)お金だ。 (That is the money (that Mr Smith
-        found).)
-      + (スミスさん`の`見つけた)お金だ。 (That is the money (that Mr Smith
-        found).)
-    + スイス`は`物価が高い。 (As for Switzerland, the prices are high.)
-      + スイス`は`(物価`が`高い)国だ。 (As for Switzerland, it is a country that
-        has high prices.)
-      + スイス`は`(物価`の`高い国)だ。 (As for Switzerland, it is a country that
+    + スミスさん`は`お金を見つけた。 - Mr Smith found some money.
+      + (スミスさん`が`見つけた)お金だ。 - That is the money (that Mr Smith
+        found).
+      + (スミスさん`の`見つけた)お金だ。 - That is the money (that Mr Smith
+        found).
+    + スイス`は`物価が高い。 - As for Switzerland, the prices are high.
+      + スイス`は`(物価`が`高い)国だ。 - As for Switzerland, it is a country that
+        has high prices.
+      + スイス`は`(物価`の`高い国)だ。 - (As for Switzerland, it is a country that
         has high prices.m
 - が in embedded clauses
   * examples
-    + 犬`は`吠えました。 (The dog barked.)
-      + 犬`が`吠えたと言いました。 (They said that the dog had barked.)
+    + 犬`は`吠えました。 - The dog barked.
+      + 犬`が`吠えたと言いました。 - They said that the dog had barked.
 - two subjects with が
   * examples
-    + スイスが物価が高い。 (It is Switzerland that has a high cost of living.)
+    + スイスが物価が高い。 - It is Switzerland that has a high cost of living.
       + the examples streses Switzerland
 
 ## を
@@ -715,8 +713,8 @@ Osaka and Kyoto, for example
   * を can also be used with movement verbs that express departure (usually
     without stating a destination)
     + with verbs
-      + 出る (to leave)
-      + 下りる (to disembark)
+      + 出る - to leave
+      + 下りる - to disembark
   * マミが家`を`出た。 - Mami left the house.
     + マミが家`から`出た。 - Mami left from the house
     + マミが家から`庭に`出た。 - Mami left the house into the garden
@@ -724,6 +722,44 @@ Osaka and Kyoto, for example
     his/her time in anime industry is over)
     + アニメ`から`卒業しました。 - I moved on (graduated) from anime. (implies
       to another industry)
+
+## か
+
+- a marker of the unknown
+- for asking questions
+  * simple adding it to the end of a sentence
+- to mark two or more elements as alternatives
+  * examples
+    + 誕生日はお母さん`か`お父さん (`か` / `が`) ケーキを作ってくれる。 - On my
+      birthday, either my mom or my dad will make me a cake.
+    + 今日はカレー`か`パスタ (`か` / `を`) 作ると思う。 - I think I'll make
+      either curry or pasta today.
+- for indefinite pronouns
+  * by adding it to the end of a question word to transform it into an indefinite
+    pronoun; an indefinite pronoun is a word that replaces a noun, and leaves
+    the identity of that noun unknown
+  * examples
+    + 誰か - someone
+    + 何か - something
+    + いつか - sometime
+    + どこか - somewhere
+    + 誰かがいると思う。 - I think someone is here.
+    + 誕生日だから、何か買ってあげようよ。 - It's their birthday, so let's buy
+      something for them.
+- to mark embedded questions
+  * examples
+    + キャメロンがウェイターに`グラスワインはいくら(か)`と聞きました。 - Cameron
+      asked the waiter how much a glass of wine is.
+      + since both か and と are used to mark embedded clause, either one of
+        them can be dropped in this case
+- to mark embedded alternatives
+  * examples
+    + 今日は`赤ワインにするか` `白ワインにするか`まだ決まってない。 - I haven't
+      decided whether I'll have red wine or I'll have white wine today.
+    + 今日は`まみさんも来るか`知ってる？ - Do you know if Mami is coming today?
+    + 今日は`まみさんも来るか`どうか知ってる？ - Do you know if Mami is coming
+      today or not?
+
 
 ## に and で
 
