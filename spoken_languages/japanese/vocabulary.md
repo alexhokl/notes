@@ -573,6 +573,7 @@ ____
 - 卒業 (そつぎょう) - graduation
 - 退院 (たいいん) - discharge from hospital
 - 戻る (もどる) - to return
+- 落ちる (おちる) - to fall; to disappear; to fail; to lose
 
 ### Verbs (Transitive)
 

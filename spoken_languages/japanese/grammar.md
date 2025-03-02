@@ -33,13 +33,15 @@
   * [を](#%E3%82%92)
   * [も](#%E3%82%82)
   * [か](#%E3%81%8B)
+  * [と](#%E3%81%A8-1)
+  * [や](#%E3%82%84)
   * [ね](#%E3%81%AD)
+  * [わ](#%E3%82%8F)
   * [に and で](#%E3%81%AB-and-%E3%81%A7)
   * [に](#%E3%81%AB)
   * [で](#%E3%81%A7)
   * [へ](#%E3%81%B8)
   * [まで](#%E3%81%BE%E3%81%A7)
-  * [と](#%E3%81%A8-1)
   * [から](#%E3%81%8B%E3%82%89)
   * [より](#%E3%82%88%E3%82%8A)
   * [だけ](#%E3%81%A0%E3%81%91)
@@ -969,6 +971,87 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 今日は`まみさんも来るか`どうか知ってる？ - Do you know if Mami is coming
       today or not?
 
+## と
+
+- as in "and"
+  * examples
+    + ペン太`と`ペン子は友達だ。 - Penta and Penko are friends.
+    + トマト`と`バナナを食べる。 - I am going to eat tomatoes and bananas.
+    + トマト`と`バナナ`と`ケーキ`と`ラーメン`と`すしを食べる。
+- as in "with"
+  * examples
+    + 妹`と`トマトを食べた。 - I ate tomatoes with my sister.
+    + 妹`と`弟`と`トマトを食べた。 - I ate tomatoes with my younger sister and my
+      younger brother.
+    + 妹`と`弟`と`お父さん`と`お母さん`と`トマト`と`バナナ`と`ケーキ`と`ラーメン
+      `と`すしを食べた。- I ate tomatoes, bananas, cake, ramen, and sushi with
+      my younger sister, my younger brother, my father, and my mother.
+- for listing options
+  * examples
+    + 牛乳`と`ジュース`と`紅茶`と`コーヒー(`と`)、どれがいいですか？ - Which
+      would you like: milk, juice, tea, or coffee?
+- for interactive actions
+  * the Japanese idea of "with" is quite different from the English one
+  * examples
+    + 彼女`と`キスをした。 - I kissed with my girlfriend.
+      + 彼女`に`キスをした。 - I kissed to my girlfriend. (and this indicates
+        the directionality)
+    + 彼女`と`電話をした。 - I have a call with my girlfriend.
+      + 彼女`に`電話をした。 - I called my girlfriend.
+    + 彼女`と`結婚をした。 - I married my girlfriend.
+      + と cannot be replaced に in this case
+- for different interpretations
+  * examples
+    + 第一次世界対戦では、日本はイギリス`と`戦いました。 - In the First World
+      War, Japan and Great Britain fought (together).
+    + 第二次世界対戦では、日本はイギリス`と`戦いました。 - In the Second World
+      War, Japan and Great Britain fought (each other).
+    + 第一次世界対戦では、日本はイギリス`と`一緒に戦いました。 - In the First
+      World War, Japan and Great Britain fought together.
+      + note the use of 一緒に (together) to clarify the meaning of と
+    + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
+    + タケシはマサル`と` 一緒にケンカをした。 - Takeshi and Masaru fought
+      together (against someone else).
+- for marking quotations
+  * examples
+    + キャメロンが「おはよう」`と`言った。 - Cameron said "good morning."
+      + note that quoatation marks can be omitted in this case
+      + in casual conversation, と can be replaced by って
+        + キャメロンがおはよう`って`言った。 - Cameron said "good morning."
+    + 難しい質問だ`と`思う。 - I think it is a difficult question.
+    + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
+    + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
+
+## や
+
+- to list multiple items
+  * implies that there are more items on the list that the speaker have not
+    mentioned
+- it carries a somewhat formal tone and it is more commonly used in writing
+  * in speaking, it is often replaced with the colloquial とか
+- noun + や + noun
+  * examples
+    + 野菜`や`果物`や`肉を買いました。 - I bought vegetables, fruits, meat, etc.
+    + 野菜`とか`果物`とか`肉を買いました。 - I bought vegetables, fruits, meat,
+      etc.
+- noun phrase + や + noun phrase
+  * examples
+    + 私は本を読むこと`や`音楽を聴くことが好きだ。 - I like things like reading
+      books and listening to music.
+      + note the noun phrase of 本を読むこと and 音楽を聴くこと
+      + if noun phrase is not used, たり should be used instead
+        + 日曜日は、私は本を読ん`だり`音楽を聴い`たり`していた。 - On Sundays,
+          I spent my time reading books and listening to music.
+        + 子供達は、静かだっ`たり`うるさかっ`たり`する。 - Sometimes kids are
+          quiet and sometimes they are noisy.
+- quantity + や + quantity
+  * to express an approximate amount of something like "one or two"
+  * examples
+    + 本の一冊`や`二冊なら1日で読めちゃう。 - I can read one or two books in a
+      day.
+    + 今の時代、外国語の一つ`や`二つは勉強しておいた方がいい。 - In this day and
+      age, it is better to learn a foreign language or two.
+
 ## ね
 
 - a sentence ending particle
@@ -1037,6 +1120,20 @@ Note that all other conjugations of 買う use hiragana characters on the
     + それ？マッカラン・ラリックの62年だね。 - That? It's a 62-year-old
       Macallan, right?
     + できないね。 - I can't, clearly.
+
+## わ
+
+- a sentence ending particle
+- reflects your perception or sentiment based on personal observation and/or
+  experience
+  * signals your emotional investment in something
+  * its nuance is often altered depending on intonation
+- it usually follows a statement that express your realisation of something,
+  reflecting your view or attitude or event; it indicates that you came to
+  a conclusion, felt a certain way, or are making a sudden observation based on
+  personal experience
+- examples
+  * 落ちたと思うわ。 - I think I failed.
 
 ## に and で
 
@@ -1368,57 +1465,6 @@ Note that all other conjugations of 買う use hiragana characters on the
   * examples
     + 言う`までもない` - needless to say / it goes without saying
       + verb + までもない usually means it can be effortlessly carried out
-
-## と
-
-- as in "and"
-  * examples
-    + ペン太`と`ペン子は友達だ。 - Penta and Penko are friends.
-    + トマト`と`バナナを食べる。 - I am going to eat tomatoes and bananas.
-    + トマト`と`バナナ`と`ケーキ`と`ラーメン`と`すしを食べる。
-- as in "with"
-  * examples
-    + 妹`と`トマトを食べた。 - I ate tomatoes with my sister.
-    + 妹`と`弟`と`トマトを食べた。 - I ate tomatoes with my younger sister and my
-      younger brother.
-    + 妹`と`弟`と`お父さん`と`お母さん`と`トマト`と`バナナ`と`ケーキ`と`ラーメン
-      `と`すしを食べた。- I ate tomatoes, bananas, cake, ramen, and sushi with
-      my younger sister, my younger brother, my father, and my mother.
-- for listing options
-  * examples
-    + 牛乳`と`ジュース`と`紅茶`と`コーヒー(`と`)、どれがいいですか？ - Which
-      would you like: milk, juice, tea, or coffee?
-- for interactive actions
-  * the Japanese idea of "with" is quite different from the English one
-  * examples
-    + 彼女`と`キスをした。 - I kissed with my girlfriend.
-      + 彼女`に`キスをした。 - I kissed to my girlfriend. (and this indicates
-        the directionality)
-    + 彼女`と`電話をした。 - I have a call with my girlfriend.
-      + 彼女`に`電話をした。 - I called my girlfriend.
-    + 彼女`と`結婚をした。 - I married my girlfriend.
-      + と cannot be replaced に in this case
-- for different interpretations
-  * examples
-    + 第一次世界対戦では、日本はイギリス`と`戦いました。 - In the First World
-      War, Japan and Great Britain fought (together).
-    + 第二次世界対戦では、日本はイギリス`と`戦いました。 - In the Second World
-      War, Japan and Great Britain fought (each other).
-    + 第一次世界対戦では、日本はイギリス`と`一緒に戦いました。 - In the First
-      World War, Japan and Great Britain fought together.
-      + note the use of 一緒に (together) to clarify the meaning of と
-    + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
-    + タケシはマサル`と` 一緒にケンカをした。 - Takeshi and Masaru fought
-      together (against someone else).
-- for marking quotations
-  * examples
-    + キャメロンが「おはよう」`と`言った。 - Cameron said "good morning."
-      + note that quoatation marks can be omitted in this case
-      + in casual conversation, と can be replaced by って
-        + キャメロンがおはよう`って`言った。 - Cameron said "good morning."
-    + 難しい質問だ`と`思う。 - I think it is a difficult question.
-    + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
-    + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
 
 ## から
 
