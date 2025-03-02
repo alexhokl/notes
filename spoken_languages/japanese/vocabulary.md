@@ -33,6 +33,7 @@
     + [Conjunctions](#conjunctions-1)
     + [Verbs (Intransitive)](#verbs-intransitive-1)
     + [Verbs (Transitive)](#verbs-transitive-1)
+    + [Common word](#common-word-1)
     + [Expressions](#expressions-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
@@ -41,9 +42,10 @@
     + [Adjectives (な)](#adjectives-%E3%81%AA-2)
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
+    + [Conjunctions](#conjunctions-2)
     + [Verbs (Intransitive)](#verbs-intransitive-2)
     + [Verbs (Transitive)](#verbs-transitive-2)
-    + [Common word](#common-word-1)
+    + [Common word](#common-word-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
     + [Adjectives](#adjectives-1)
@@ -51,11 +53,12 @@
     + [Verbs](#verbs)
     + [Expressions](#expressions-2)
   * [N1](#n1)
+    + [Particles](#particles)
     + [Nouns](#nouns-4)
     + [Adjectives](#adjectives-2)
     + [Adverb](#adverb)
     + [Verbs](#verbs-1)
-    + [Common word](#common-word-2)
+    + [Common word](#common-word-3)
 ____
 
 # Vocabulary
@@ -172,6 +175,7 @@ ____
 - 結婚 (けっこん) - marriage
 - 色 (いろ) - color
 - 絵 (え) - picture; drawing; painting; sketch
+- 次 (つぎ) - next
 
 ### Nouns (family)
 
@@ -395,13 +399,15 @@ ____
 - 悪い (わるい) - bad; at fault
 - 弱い (よわい) - weak
 - 丸い (まるい) - round / circular
-- 暑い (あつい) - hot / warm
+- 暑い (あつい) - hot
 - 寒い (さむい) - cold
 - 甘い (あまい) - sweet
 - 早い (はやい) - early / fast / quick
 - 遅い (おそい) - late / slow
 - 楽しい (たのしい) - fun; happy
 - 忙しい (いそがしい) - busy
+- 暖かい (あたたかい) - warm
+- 辛い (つらい) - spicy
 
 ### Adjectives (な)
 
@@ -438,9 +444,11 @@ ____
 
 ### Conjunctions
 
-- 然し (しかし) - however / but
+- 然し (しかし) - however; but
 - でも - but
 - では - then
+- 其れから (それから) - and then
+- 而して (そして) - thus
 
 ### Verbs (Transitive)
 
@@ -459,6 +467,7 @@ ____
 - 買う (かう) - to buy
 - 話す (はなす) - to speak
 - 書く (かく) - to write
+- 上げる (あげる) - to raise; to fly; to launch
 
 ### Verbs (Intransitive)
 
@@ -482,6 +491,9 @@ ____
 - 休む (やすむ) - to rest
 - 降る (ふる) - to fall (rain, snow)
 - 出来る (できる) - to be able to do; to be good at
+- 生まれる (うまれる) - to be born
+- 要る (いる) - to be needed; to want
+- 会う (あう) - to meet
 
 ### Verbs (Direction Intransitive)
 
@@ -547,6 +559,7 @@ ____
 
 - 親切 (しんせつ) - kind
 - 残念 (ざんねん) - regrettable; disappointing; unfortunate
+- 変 (へん) - strange; odd; change
 
 ### Pronouns (person)
 
@@ -564,6 +577,9 @@ ____
 
 - けど - but / however (usually at the end of the sentence in a phone call, and
   expect a response)
+- 其れで (それで) - therefore; then
+- だから - therefore
+- 又は (または) - or
 
 ### Verbs (Intransitive)
 
@@ -574,6 +590,7 @@ ____
 - 退院 (たいいん) - discharge from hospital
 - 戻る (もどる) - to return
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose
+- 変わる (かわる) - to change
 
 ### Verbs (Transitive)
 
@@ -581,6 +598,7 @@ ____
 - 考える (かんがえる) - to think (on a specific topic)
 - 受ける (うける) - to receive / to take (an exam)
 - くれる - to give
+- 変える (かえる) - to change
 
 ### Common word
 
@@ -609,6 +627,7 @@ ____
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 - お昼 (おひる) - lunch / noon / midday
 - 酒 (さけ) - alcohol
+- ワイン - wine
 - お皿 (おさら) - plate
 - 頃 (ころ) - (approximate) time
 - ドラマ - drama
@@ -622,6 +641,8 @@ ____
 - 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
 - 滞在 (たいざい) - sta
 - 土産 (みやげ) - local specialty; souvenir
+- 事 (こと) - thing; matter
+- 記事 (きじ) - article; news story; report; account
 
 ### Nouns (animals)
 
@@ -651,17 +672,25 @@ ____
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
 
+### Conjunctions
+
+- 何故なら (なぜなら) - because
+- だって - after all; because; but
+- だけど - however; but; although
+
 ### Verbs (Intransitive)
 
 - [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
 - 怪我 (けが) - injury / mistake
 - 運転 (うんてん) - driving / operating
 - 運動 (うんどう) - exercise
+- 届く (とどく) - to reach; to be delivered
 
 ### Verbs (Transitive)
 
 - 心配 (しんぱい) - care / help
 - 頂く (いただく) - to receive; to take (humble)
+- お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 
 ### Common word
 

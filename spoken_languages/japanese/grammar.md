@@ -659,11 +659,68 @@ Note that all other conjugations of 買う use hiragana characters on the
     + it is like gerund in English
   * usages
     + relative clause + の
+      + plain form should be used instead of polite form
+      + if a clause ended with な-adjective, な should be added as well
       + examples
-        + 走るのは楽しいです。 - Running is fun.
-        + 走るのは明日だよ。 - (The time for) running is tomorrow.
-        + 走るのは海子だよ。 - (The person) running is Umiko.
-        + お父さんが買ったのは、時計です。 - What dad bought is a clock.
+        + 走る`の`は楽しいです。 - Running is fun.
+        + 走る`の`は明日だよ。 - (The time for) running is tomorrow.
+        + 走る`の`は海子だよ。 - (The person) running is Umiko.
+        + お父さんが買った`の`は、時計です。 - What dad bought is a clock.
+        + 大切な`の`はやさしさだ。 - What is important is kindness.
+    + 連体詞 + の
+      + examples
+        + こんな`の`要らないよ。 - I don't need this kind of thing.
+        + そういう`の`は、前もって教えてください。 - Please tell me about that
+          kind of thing in advance.
+    + used at the end of sentences
+      + it can add an explanatory feel
+      + often used in strong commands
+      + examples
+        + 授業中は、おしゃべりしない`の`！
+        + まずは、洗う`の`。それで、きれいになったら、こうやって切る`の`。
+          First, clean it. Then, once it is clean, cut it like this.
+        + まずは、洗う`の`？ - Do you clean first?
+    + non-physical things (事)
+      + examples
+        + I can't really remember having gone to the bathroom by myself.
+          + 一人でトイレに行った`の`が、よく思い出せない。
+          + 一人でトイレに行った`事`が、よく思い出せない。
+        + I'm frustrated about not being able to ride a bicycle.
+          + 自転車に乗れない`の`が、悔しい。
+          + 自転車に乗れない`事`が、悔しい。
+    + material things (物)
+      + examples
+        + 甘い`の`が食べたい。 - I want to eat sweet things.
+        + 昔飼っていた`の`は、犬です。 - What I used to have as a pet was a dog.
+        + そこにいる`の`は、誰ですか？ - Who is that over there?
+    + time and place
+      + examples
+        + 自転車が届く`の`は明日です。 - It is tomorrow that the bicycle will
+          be delivered.
+        + この町が美しかった`の`は、五十年前です。 - When this city was
+          beautiful is fifty years ago.
+        + 次のオリンピックが開催される`の`は東京です。 - It is Tokyo where the
+          next Olympics will be held.
+        + 生まれた`の`は京都です。 - I was born in Kyoto.
+    + reason
+      + examples
+        + アメリカに住みたい`の`は、英語の勉強がしたいからです。 - Why I want to
+          live in the U.S. is because I want to study English.
+        + そう思った`の`は、なぜですか。 - Why did you think so?
+    + for listing
+      + it can be used to list a couple of things that contrast with each other,
+        or for things that are similar to each other
+        + it carries a negative connotation and may sound like complaining
+      + examples
+        + レストランに行く`の`行かないのでもめた。 - We argued about whether to
+          go to a restaurant or not.
+        + 試験勉強だ`の`部活だ`の`で忙しいよ。 - I'm busy with things like
+          studying for exams and club activities at school.
+      + example on special case where it is to enthusiastically say that
+        something is extraordinary
+        + ポートランドのビール、そりゃ美味しいの、美味しくないのって！ - Beer in
+          Portland is not even a matter of delicious or not delicious. (Beer in
+          Portland is beyond delicious!)
 
 ## は
 
@@ -1637,6 +1694,10 @@ Note that all other conjugations of 買う use hiragana characters on the
   * it ends with い
 - な-adjectives
   * it does not end with な
+
+## ので
+
+- because of
 
 ## い形容詞 (いけいようし) - い-adjectives
 

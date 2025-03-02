@@ -89,19 +89,7 @@ ____
 
 ## Conjunctions
 
-- 而して (そして) - thus
-- 又は (または) - or
-- 然し (しかし) - however / but
-- 然 (さ) - so
-- だけど - however
-- だから - therefore
-- 其れで (それで) - therefore
-- 其れから (それから) - and then
-- 何故なら (なぜなら) - because
-- だって - because
-- ので - because of
 - 為に (ために) - for
-- では - then
 
 ## Pronouns
 
@@ -192,6 +180,12 @@ ____
 | そいつ          | そいつ供  | そいつ等 | そいつ達  |           |
 | あいつ          | あいつ供  | あいつ等 | あいつ達  |           |
 
+## 連体詞
+
+- こう言う (こういう) - this kind of
+- そう言う (そういう) - that kind of
+- ああ言う (ああいう) - that kind of
+- どう言う (どういう) - what kind of
 
 ## Adverb
 
@@ -265,6 +259,10 @@ ____
 - エビフライ - fried shrimp
 - ビュッフェ - buffet
 - チルド - chilled
+- チョコ - chocolate
+- チョコレート - chocolate
+- アイス - ice; ice cream
+- アイスクリーム - ice cream
 
 ### Fish
 
@@ -580,6 +578,7 @@ ____
 - えっど - used before answering a question
 - 頑張りましょう - let's do our best
 - あ、分かりました - ah, I understood
+- じゃない - is not; isn't it?
 
 ## Sites
 
@@ -901,6 +900,9 @@ ____
 
 - 残業 (ざんぎょう) - overtime
 - 職場 (しょくば) - workplace
+- 弁護士 (べんごし) - lawyer
+- ソフトウェアエンジニア - software engineer
+- ソフトウェア工学 - software engineering
 
 # Verbs
 
