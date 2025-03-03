@@ -422,6 +422,7 @@ ____
 - 好き (すき) - like
 - 嫌い (きらい) - dislike
 - 大好き (だいすき) - liking very much / love
+- 大変 (たいへん) - difficult; hard; challenging; immense; great
 
 ### Adverbs
 
@@ -441,6 +442,7 @@ ____
 - 幾つ (いくつ) - how many
 - 時々 (ときどき) - sometimes / occasionally
 - 良く (よく) - nicely; often
+- 大変 (たいへん) - very; greatly; terribly
 
 ### Conjunctions
 
@@ -599,6 +601,7 @@ ____
 - 受ける (うける) - to receive / to take (an exam)
 - くれる - to give
 - 変える (かえる) - to change
+- 止める (とめる) - to stop; to cancel
 
 ### Common word
 
@@ -691,6 +694,7 @@ ____
 - 心配 (しんぱい) - care / help
 - 頂く (いただく) - to receive; to take (humble)
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
+- 辞める (やめる) - to resign; to retire; to quit; to leave
 
 ### Common word
 

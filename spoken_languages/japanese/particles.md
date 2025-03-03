@@ -650,8 +650,59 @@ ____
   reflecting your view or attitude or event; it indicates that you came to
   a conclusion, felt a certain way, or are making a sudden observation based on
   personal experience
-- examples
+- basic examples
   * 落ちたと思うわ。 - I think I failed.
+  * 次の試験、頑張るわ。
+- verb + わ
+  * examples
+    + 辞めるわ - I will quit. (plain form)
+    + 辞めたわ - I quit. (past tense)
+    + 辞めないわ - I would not quit. (negative form)
+    + 辞めたいわ - I want to quit. (desire form)
+    + 辞めれるわ - I can quit. (potential form)
+- い-adjective + わ
+  * examples
+    + 暑いわ - It is hot. (plain form)
+    + 暑かったわ - It was hot. (past tense)
+    + 暑くないわ - It is not hot. (negative form)
+- な-adjective + わ
+  * examples
+    + 静かだわ - It is quiet. (plain form)
+    + 静かだったわ - It was quiet. (past tense)
+    + 静かじゃないわ - It is not quiet. (negative form)
+- for causally telling someone about your avavilability
+  * an exameple usage is that the speaker confirms after checking their schedule
+    + similar to "It looks like..." in English
+  * examples
+    + あ、行けるわ。 - Ah, I can go.
+    + ごめん、行けないわ。 - Sorry, I can't go.
+- for casually telling someone "I'll do it"
+  * よ is the strongest; it is a declaration of intent and inform the listener
+    + ね is a softer than よ and it signals a confirmation with the listener;
+      "I'll do it, alright?"
+    + わ is more mild; it signals the speaker is volunteering to help and it is
+      self-directed
+  * used of falling intonation is important
+  * examples
+    + 私、拭くわ。- I'll wipe it up.
+- self-directed sentences
+  * find out a new piece of information
+  * examples
+    + あ、雨だわ。 - Ah, it is going to rain.
+    + えっと、どこだっけな。あ、GAPのだわ。
+      + note that "GAPのだわ。" cannot be used if the speaker knew this
+        information without checking; "GAPのだよ。" should be used otherwise
+- faminine usages
+  * examples
+    + A: これ、すごく甘いわよ。 (after eating a cake)
+      B: 甘いわね。 (after eating a cake)
+      C: 甘いわよね。 (without eating a cake but agree)
+- with です or ます
+  * to sound polite and friendly
+    + when speaker is has a higher or equal social status to the listener
+  * examples
+    + いやー、大変ですわ。 - Well, it is tough.
+    + でも、まあ、頑張りますわ。 - But, well, I'll do my best.
 
 ## に and で
 
