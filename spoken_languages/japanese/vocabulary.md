@@ -492,7 +492,7 @@ ____
 - 止まる (とまる) - to stop; to come to a halt
 - 休む (やすむ) - to rest
 - 降る (ふる) - to fall (rain, snow)
-- 出来る (できる) - to be able to do; to be good at
+- 出来る (できる) - to be able to do; to be good at; to be ready
 - 生まれる (うまれる) - to be born
 - 要る (いる) - to be needed; to want
 - 会う (あう) - to meet
@@ -544,6 +544,7 @@ ____
 - 形 (かたち) - shape; form
 - テニス - tennis
 - アルバイト - part-time job
+- 訳 (わけ) - meaning; reason
 
 ### Nouns (position)
 
@@ -556,6 +557,7 @@ ____
 - 硬い (かたい) - hard
 - 固い (かたい) - solid
 - 珍しい (めずらしい) - rare
+- 凄い (すごい) - amazing; wonderful; terrible; dreadful
 
 ### Adjectives (な)
 
@@ -674,6 +676,7 @@ ____
 - つまり - that is to say / in other words
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
+- そろそろ - soon
 
 ### Conjunctions
 
