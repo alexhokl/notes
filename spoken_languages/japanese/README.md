@@ -862,6 +862,10 @@ ____
 - 携帯電話 (けいたいでんわ) - mobile phone
 - スマートフォン (スマホ) - smartphone
 
+## Home appliances
+
+- 電子レンジ (でんしレンジ) - microwave oven
+
 ## Internet
 
 - インスタ (insuta) - Instagram

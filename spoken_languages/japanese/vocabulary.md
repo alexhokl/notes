@@ -693,6 +693,7 @@ ____
 - 運動 (うんどう) - exercise
 - 届く (とどく) - to reach; to be delivered
 - 出発 (しゅっぱつ) - departure
+- 空く (あく) - to become empty
 
 ### Verbs (Transitive)
 
