@@ -593,6 +593,7 @@ ____
 - 戻る (もどる) - to return
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose
 - 変わる (かわる) - to change
+- 参る (まいる) - to go; to come; to call
 
 ### Verbs (Transitive)
 
@@ -687,6 +688,7 @@ ____
 - 運転 (うんてん) - driving / operating
 - 運動 (うんどう) - exercise
 - 届く (とどく) - to reach; to be delivered
+- 出発 (しゅっぱつ) - departure
 
 ### Verbs (Transitive)
 

@@ -192,6 +192,7 @@ ____
 - 迚も (とても) - very
 - 結構 (けっこう) - quite
 - 滅茶 (めっちゃ) - extremely / very
+- 未明 (みめい) - early morning
 
 # Situation and vocabulary
 

@@ -1319,6 +1319,41 @@ ____
     + 歩く`より`仕様がない。 - There is no other choice but to walk.
     + 歩く`より`他にがない。 - There is no other choice but to walk.
 - to be used as starting point
+- used as a formal version of から
+  * usage examples
+    + official signs
+    + formal documents
+    + business greeting
+  * seldom used in everyday speech
+  * for a starting point in space
+    + examples
+      + ここ`より`先、立入禁止。
+      + 一行は成田空港`より`出発した。 - The group departed from Narita Airport.
+      + 京都支店`より`参りました。 - I came here from the Kyoto branch.
+        + note the usage of 参る instead of 来る to make it formal due to the
+          usage of より
+  * for a starting point in time
+    + examples
+      + 卒業式は午前十時`より`執り行われる。
+      + １１時`より`会議開始
+      + 未明`より`雪が降り続いていますが、午後には止むでしょう。 - It's been
+        snowing since dawn, but it will stop in the afternoon.
+  * for sources
+    + examples
+      + 映画、『千と千尋の神隠し』`より`、『いつも何度でも』。 - From the film
+        Spirited Away, "Always With Me."
+      + 心`より`ご成功をお祈り申し上げます。 - I sincerely wish you success.
+      + 田中先生より「パカ」と怒鳴られる。 - Yelled at bya Mr Tanaka for being
+        "stupid". (assuming this is written in a report)
+  * in casual letters
+    + examples
+      + 海子より - From Umiko
+  * in business writing
+    + used with 日頃 (ひごろ) or 平素 (へいそ)
+    + examples
+      + Thank you very much for your continued support.
+        + 日頃`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
+        + 平素`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
 
 ## だけ
 
