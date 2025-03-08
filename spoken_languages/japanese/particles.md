@@ -21,6 +21,8 @@
   * [より](#%E3%82%88%E3%82%8A)
   * [だけ](#%E3%81%A0%E3%81%91)
   * [ので](#%E3%81%AE%E3%81%A7)
+  * [のに](#%E3%81%AE%E3%81%AB)
+  * [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
 ____
 
 # Particles (助詞)
@@ -1359,5 +1361,130 @@ ____
 
 ## ので
 
-- because of
+- a conjunctive particle
+- used to explain reasoning and such
+- it has a polite feel
+- it is て form of のだ
+- for connecting sentences
+  * if it involves な-adjectives or nouns, な should be added
+  * examples
+    + お腹が空いた`ので`レストランに行きました。
+    + 二十歳な`ので`お酒が飲めます。
+    + このシャツはきれいな`ので`洗濯する必要はありません。
+    + このシャツはきれいな`ので`洗濯する必要はありません。
+- it could be just a simple combination of の and で
+  * which has nothing to do with ので
+  * examples
+    + うーん、じゃあ赤いのでお願いします。 - Um, then the red one, please.
+- used at the end of a sentence
+  * examples
+    + 課題があるので・・・。 - I have some assignments to do, so...
+- compared to から
+  * から is often used in casual situations or for people who you are close with
+  * ので is generally used in formal situations
+  * examples
+    + 熱い`ので`、気をつけてください。 - It is hot, so please be careful.
+    + 熱い`から`、気をつけてね。 - It is hot, so be careful.
+
+ ## のに
+
+- a conjunctive particle
+- similar to "but" or "though"
+- to show that something has deviated from the expectation
+- it focuses on the unexpectedness of the situation and expresses surprise or
+  frustration
+- used in connecting sentences
+  * examples
+    + クーラーをつけた`のに`全然涼しくならなかった。 - I turned on the AC but it
+      wasn't getting any cooler.
+    + レモンな`のに`すごく甘い。 - It's a lemon but it's very sweet.
+    + 静かな`のに`眠れない。
+- it could be just a simple combination of の and に
+  * which has nothing to do with のに
+  * examples
+    + 牛乳は私のに入れないでね。 - Don't put milk into mine.
+- for expressing surprises
+  * examples
+    + 海子ちゃんはまだ五才な`のに`三ヶ国語も喋れるんだって。 - Even though Umiko
+      is only five years old, but she can speak three languages.
+    + 夜中の三時な`のに`、こんなに人がいる。 - It's three in the morning, but
+      there are this many people here.
+- for complaint and frustration
+  * examples
+    + せっかく掃除した`のに`、すぐにまた汚くなった。 - I made an effort to clean,
+      but right away it became cluttered again.
+      + せっかく or わざわざ is often used with it to emphasize the trouble the
+        speaker has been throguh
+    + あんなに勉強した`のに`、不合格だった。
+- used at the end of a sentence
+  * examples
+    + 夜中の三時な`のに`...。
+    + あんなに勉強したのに...。
+- for counterfactual wishes
+  * paired up with the conditional form たら and placed at the end of a sentence
+    + to express the wish or desire for things to be different from what they
+      are or were
+  * examples
+    + 電子レンジがあっ`たら`楽な`のに`（電子レンジはない）。 - If we had
+      a microwave, it would be easy, but (there's no microwave).
+- for "on top of that"
+  * examples
+    + 夕飯をご馳走して頂いたのにタクシー代まで出して頂いて、ありがとうございます。
+      Thank you for treating me to dinner, and on top of that, paying for the
+      cab.
+    + 田中さんは会社が倒産した`のに`泥棒にも入られて可哀想だ。 - I feel bad for
+      Tanaka as his company went bankrupt, and on top of that, he got broken
+      into as well.
+- for purposes
+  * examples
+    + 海に行く`のに`水着を買った。 - For going to the beach, I bought swimwear.
+
+## が and けど
+
+- both are conjective particles
+- both have similar usage to "but"
+- が carries a more formal nuance, while けど feels more colloquial
+  * が is overall more suitable for writing, but is still used in conversation,
+    combined with the polite form です/ます
+- used in connecting sentences
+  * examples
+    + 白ワインは好きです`が`、赤ワインはあまり好きではないです。 - I like white
+      wine but I am not a big fan of red wine.
+    + I lit candles but the kitchen is still dark.
+      + ロウソクを付けた`が`キッチンはまだ暗い。
+      + ロウソクを付けた`けど`キッチンはまだ暗い。
+    + It's summer but it's cool today.
+      + 夏です`が`今日は涼しいです。
+      + 夏です`けど`今日は涼しいです。
+      + 夏だ`が`今日は涼しい。
+      + 夏だ`けど`今日は涼しい。
+    + It is quiet at night but it is loud during the day.
+      + 夜は静かです`が`昼はうるさいです。
+      + 夜は静かです`けど`昼はうるさいです。
+      + 夜は静かだ`けど`昼はうるさい。
+      + 夜は静かだ`が`昼はうるさい。
+- for constrast
+  * examples
+    + 母さんはコンサートに来た`が`、姉は来なかった。 - My mother came to the
+      concert, but my older sister didn't.
+    + 雨が降っている`けど`、子供たちは外で遊んでいる。 - It's raining, but the
+      children are playing outside.
+- for providing context
+  * が and けど follow んです or んだ are used for providing explanations
+  * examples
+    + 財布を忘れてしまったんです`が`、５００円貸してもらえませんか？ - I forgot
+      to bring my wallet. Would you lend me 500 yen?
+    + ペン持ってないんだ`けど`、貸してくれない？ - I don't have a pen with me.
+      Can you lend me one?
+- variations but different levels of formality
+  * けれども
+  * けども
+  * けれど
+- used at the end of sentences
+  * it can create different effects like giving the listener flexibility in how
+    to respond, or making what speaker said sounds like an afterthought,
+    sounding less confrontational, expressing uncertainty, etc
+  * examples
+    + もしもし。予約したいんです`けど`...。 - Hello. I'd like to make a
+      reservation...
 

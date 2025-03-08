@@ -542,6 +542,7 @@ ____
 - テニス - tennis
 - アルバイト - part-time job
 - 訳 (わけ) - meaning; reason
+- 泥棒 (どろぼう) - thief; burglar; robber
 
 ### Nouns (position)
 
@@ -554,6 +555,8 @@ ____
 - 固い (かたい) - solid
 - 珍しい (めずらしい) - rare
 - 凄い (すごい) - amazing; wonderful; terrible; dreadful
+- 美しい (うつくしい) - beautiful; pure
+- 優しい (やさしい) - gentle; kind
 
 ### Adjectives (な)
 
@@ -604,6 +607,7 @@ ____
 - 変える (かえる) - to change
 - 止める (とめる) - to stop; to cancel
 - 落とす (おろす) - to drop; to lose; to leave behind
+- 片付ける (かたづける) - to tidy up; to put in order
 
 ### Common word
 
@@ -743,6 +747,7 @@ ____
 - 区 (く) - ward / district
 - ぐらい - about / approximately
 - 製 (せい) - -made; -manufactured
+- 課題 (かだい) - subject; theme; task; homework
 
 ### Adjectives
 

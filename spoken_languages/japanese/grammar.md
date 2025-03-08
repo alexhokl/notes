@@ -26,9 +26,12 @@
   * [と](#%E3%81%A8)
 - [て form](#%E3%81%A6-form)
 - [Adjectives](#adjectives)
-  * [い形容詞 (いけいようし) - い-adjectives](#%E3%81%84%E5%BD%A2%E5%AE%B9%E8%A9%9E-%E3%81%84%E3%81%91%E3%81%84%E3%82%88%E3%81%86%E3%81%97---%E3%81%84-adjectives)
-  * [な形容詞 (なけいようし) - な-adjectives](#%E3%81%AA%E5%BD%A2%E5%AE%B9%E8%A9%9E-%E3%81%AA%E3%81%91%E3%81%84%E3%82%88%E3%81%86%E3%81%97---%E3%81%AA-adjectives)
-  * [Conjugation](#conjugation)
+  * [い-adjectives](#%E3%81%84-adjectives)
+    + [Conjugation](#conjugation)
+    + [そう](#%E3%81%9D%E3%81%86)
+  * [な-adjectives](#%E3%81%AA-adjectives)
+    + [Conjugation](#conjugation-1)
+    + [そう](#%E3%81%9D%E3%81%86-1)
 - [Honorific prefixes](#honorific-prefixes)
   * [御](#%E5%BE%A1)
 - [Plural suffixes and prefixes](#plural-suffixes-and-prefixes)
@@ -543,37 +546,111 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 # Adjectives
 
-- it must be followed by a noun
-- adjective + です
 - い-adjectives
   * it ends with い
 - な-adjectives
   * it does not end with な
 
-## い形容詞 (いけいようし) - い-adjectives
+## い-adjectives
 
-- 新しい (あたらしい) - new
-- 美味しい (おいしい) - delicious
-- 太い (ふとい) - thick
-  * fat for person; wide for things
+- fun facts
+  * it was the very first type of adjective to appear in Japan
+  * almost always wago rather than kango or other origin
+- types
+  * ending with しい
+    + used for more personal, emotive or "internal" characteristics
+  * ending with い
+    + generally describe physical characteristics
+- weird stem forms
+  * いい - good
+    + よい
+  * かっこいい - cool; stylish
+    + かっこよい
+- used at the end of a sentence
+  * examples
+    + お母さんの料理はおいしい。
+- used before a noun
+  * examples
+    + 古い車
+- used as an adverb
+  * replace い with く
+  * examples
+    + 彼らは`楽しく`暮らしていました。 - They lived happily.
 
-## な形容詞 (なけいようし) - な-adjectives
+### Conjugation
 
-- 静か (しずか) - quiet
-- 賑やか (にぎやか) - lively / busy / noisy
-- 綺麗 (きれい) - beautiful / clean
-  * this is not a い-adjective
-- 有名 (ゆうめい) - famous
-  * this is not a い-adjective
-- 嫌い (きらい) - dislike
-  * this is not a い-adjective
+|          | Affirmative  | Negative         |
+| ---      | ---          | ---              |
+| non-past | 新し`い`     | 新し`くない`     |
+| past     | 新し`かった` | 新し`くなかった` |
 
-## Conjugation
+### そう
 
-|          | Affirmative | Negative       |
-| ---      | ---         | ---            |
-| non-past | 新しい      | 新しくない     |
-| past     | 新しかった  | 新しくなかった |
+- it can be added to adjectives to mark them as speculative
+  * similar to "looks"
+- formatting
+  * affirmative
+    + replace い with そう
+    + examples
+      + 美味しそう - looks delicious
+      + 美味しそうだ。 - It looks delicious. (stronger)
+      + 美味しそうです。 - It looks delicious. (polite)
+      + あのアパート、狭そう。 - That apartment looks small.
+      + あの人、優しそう。 - That person looks kind.
+      + エアコン持ってないの？ええ〜、部屋暑そう。 - You don't have an air
+        conditioner? Wow, your room must get hot.
+    + exception
+      + いい -> よさそう
+  * negative
+    + replace ＜ない with <なさそう
+    + examples
+      + 美味しくなさそう - does not look delicious
+      + 美味しそうじゃない。 - It does not look delicious. (a softer version)
+- used like an な-adjective
+  * examples
+    + 美味しそうなケーキだね。 - That looks like a delicious cake.
+- used like an adverb
+  * examples
+    + おいしそうに食べています。 - They are eating it in a way that looks
+      delicious.
+- tricky case
+  * instead of replacing い with そう, appending そう to the い-adjective means
+    you have heard something
+  * examples
+    + あのケーキ、美味しいそうです。- I heard that cake is delicious.
+
+## な-adjectives
+
+- it can be used to describe a noun
+- it can also function as a noun
+- it can be used as an adverb
+  * by combining with に
+  * examples
+    + 私は静かにドアを閉めた。
+    + 桜が綺麗に咲いていた。 - The cherry blossoms were blooming beautifully.
+    + 部屋が綺麗に片付いていた。 - The room was beautifully tidy.
+
+### Conjugation
+
+|                 | Affirmative  | Negative                   |
+| ---             | ---          | ---                        |
+| non-past        | 便利`だ`     | 便利`じゃない`             |
+| non-past polite | 便利`です`   | 便利`ではありません`       |
+| past            | 便利`だった` | 便利`じゃなかった`         |
+| past polite     | 便利`でした` | 便利`ではありませんでした` |
+
+### そう
+
+- see explanation in [そう](#%E3%81%9D%E3%81%86)
+- formatting
+  * affirmative
+    + append そう to the adjective
+    + examples
+      + 便利そう - looks convenient
+  * negative
+    + append じゃなさそう to the adjective
+    + examples
+      + 便利じゃなさそう - does not look convenient
 
 # Honorific prefixes
 
