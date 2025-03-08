@@ -67,7 +67,6 @@ ____
 
 ### Nouns
 
-- [list](https://jisho.org/search/%23jlpt-n5%20%23noun)
 - 男 (おとこ) - male
 - 女 (おんな) - female
 - 男の人 (おとこのひと) - man
@@ -362,7 +361,6 @@ ____
 
 ### Adjectives (い)
 
-- [list](https://jisho.org/search/%23jlpt-n5%20%23adjective)
 - 高い (たかい) - high
 - 低い (ひくい) - low
 - 長い (ながい) - long
@@ -426,7 +424,6 @@ ____
 
 ### Adverbs
 
-- [list](https://jisho.org/search/%23jlpt-n5%20%23adverb)
 - 少し (すこし) - a little
 - ちょっと - a little
 - 迚も (とても) - very
@@ -454,7 +451,6 @@ ____
 
 ### Verbs (Transitive)
 
-- [list](https://jisho.org/search/%23jlpt-n5%20%23verb)
 - 作る (つくる) - to make
 - 為る (する) - to do
 - 教える (おしえる) - to teach
@@ -470,6 +466,8 @@ ____
 - 話す (はなす) - to speak
 - 書く (かく) - to write
 - 上げる (あげる) - to raise; to fly; to launch
+- 借りる (かりる) - to borrow
+- 言う (いう) - to say
 
 ### Verbs (Intransitive)
 
@@ -516,7 +514,6 @@ ____
 
 ### Nouns
 
-- [list](https://jisho.org/search/%23jlpt-n4%20%23noun)
 - オートバイ - motorcycle
 - 試験 (しけん) - exam
 - 復習 (ふくしゅう) - review (of learned material)
@@ -552,7 +549,6 @@ ____
 
 ### Adjectives (い)
 
-- [list](https://jisho.org/search/%23jlpt-n4%20%23adjective)
 - 正しい (ただしい) - correct
 - 硬い (かたい) - hard
 - 固い (かたい) - solid
@@ -564,6 +560,8 @@ ____
 - 親切 (しんせつ) - kind
 - 残念 (ざんねん) - regrettable; disappointing; unfortunate
 - 変 (へん) - strange; odd; change
+- 無理 (むり) - unreasonable; impossible
+- 確か (たしか) - certain; sure; reliable
 
 ### Pronouns (person)
 
@@ -576,6 +574,7 @@ ____
 - 些とも (ちっとも) - not at all
 - 最近 (さいきん) - recently; lately
 - 昔 (むかし) - old times; old days
+- 先 (さっき) - a moment ago
 
 ### Conjunctions
 
@@ -587,7 +586,6 @@ ____
 
 ### Verbs (Intransitive)
 
-- [list](https://jisho.org/search/%23jlpt-n4%20%23verb)
 - 入学 (にゅうがく) - admission to school
 - 入院 (にゅういん) - hospitalization
 - 卒業 (そつぎょう) - graduation
@@ -604,10 +602,11 @@ ____
 - くれる - to give
 - 変える (かえる) - to change
 - 止める (とめる) - to stop; to cancel
+- 落とす (おろす) - to drop; to lose; to leave behind
 
 ### Common word
 
-- 久しぶり - a long time
+- 久しぶり (ひさしぶり) - a long time
 
 ### Expressions
 
@@ -617,7 +616,6 @@ ____
 
 ### Nouns
 
-- [list](https://jisho.org/search/%23jlpt-n3%20%23noun)
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
 - 我慢 (がまん) - patience
@@ -655,9 +653,9 @@ ____
 - 象 (ぞう) - elephant
 - 虎 (とら) - tiger
 
-### Adjectives
+### Adjectives (い)
 
-- [list](https://jisho.org/search/%23jlpt-n3%20%23adjective)
+- 嬉しい (うれしい) - happy; glad; pleased
 
 ### Adjectives (な)
 
@@ -672,7 +670,6 @@ ____
 
 ### Adverbs
 
-- [list](https://jisho.org/search/%23jlpt-n3%20%23adverb)
 - つまり - that is to say / in other words
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
@@ -686,7 +683,6 @@ ____
 
 ### Verbs (Intransitive)
 
-- [list](https://jisho.org/search/%23jlpt-n3%20%23verb)
 - 怪我 (けが) - injury / mistake
 - 運転 (うんてん) - driving / operating
 - 運動 (うんどう) - exercise
@@ -702,12 +698,12 @@ ____
 ### Common word
 
 - クリスマス - Christmas
+- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
 
 ## N2
 
 ### Nouns
 
-- [list](https://jisho.org/search/%23jlpt-n2%20%23noun)
 - 彫刻 (ちょうこく) - sculpture
 - 国立 (こくりつ) - national
 - ロビー - lobby
@@ -719,7 +715,6 @@ ____
 
 ### Adjectives
 
-- [list](https://jisho.org/search/%23jlpt-n2%20%23adjective)
 - 勿体ない (もったいない) - wasteful / too good / more than one deserves
 
 ### Adverbs
@@ -728,7 +723,6 @@ ____
 
 ### Verbs
 
-- [list](https://jisho.org/search/%23jlpt-n2%20%23verb)
 
 ### Expressions
 
@@ -742,7 +736,6 @@ ____
 
 ### Nouns
 
-- [list](https://jisho.org/search/%23jlpt-n1%20%23noun)
 - 階 (かい) - floor
 - インフォメーション - information
 - 区 (く) - ward / district
@@ -751,7 +744,6 @@ ____
 
 ### Adjectives
 
-- [list](https://jisho.org/search/%23jlpt-n1%20%23adjective)
 - 的 (てき) - -ish / -wise / -like
 
 ### Adverb
@@ -760,7 +752,6 @@ ____
 
 ### Verbs
 
-- [list](https://jisho.org/search/%23jlpt-n1%20%23verb)
 
 ### Common word
 

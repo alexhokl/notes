@@ -579,6 +579,10 @@ ____
 - 頑張りましょう - let's do our best
 - あ、分かりました - ah, I understood
 - じゃない - is not; isn't it?
+- やばい - oh crap!
+- だっけ。 - was it?
+- 言わないことではない - I told you so
+- そうだよね - sure; yeah; I know
 
 ## Sites
 

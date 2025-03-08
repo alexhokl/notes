@@ -10,6 +10,8 @@
   * [や](#%E3%82%84)
   * [ね](#%E3%81%AD)
   * [わ](#%E3%82%8F)
+  * [よ](#%E3%82%88)
+  * [よね](#%E3%82%88%E3%81%AD)
   * [に and で](#%E3%81%AB-and-%E3%81%A7)
   * [に](#%E3%81%AB)
   * [で](#%E3%81%A7)
@@ -703,6 +705,128 @@ ____
   * examples
     + いやー、大変ですわ。 - Well, it is tough.
     + でも、まあ、頑張りますわ。 - But, well, I'll do my best.
+
+## よ
+
+- a sentence ending particle
+- offering new information or a new perspective to the listener
+- intented for someone else
+- place pressure on the listener to respond
+- it can be overly friendly or conversational in a formal context
+- used directly after a verb
+  * examples
+    + あ、雨が降ってるよ。 - Oh, it's raining.
+      + avoid using this to higher up in the social hierarchy
+    + 食べるよ。
+- used directly after an い-adjective
+  * examples
+    + 暑いよ。
+- used directly after a な-adjective or noun
+  * it is common to add affirmatives だ or politness marker です before よ
+  * examples
+    + 静かだよ。 (affirmative)
+    + 静かですよ。 (polite)
+    + 静かよ。 (faminine)
+    + 犬だよ。 (affirmative)
+    + 犬ですよ。 (polite)
+    + 犬よ。 (faminine)
+    + 犬もだよ。 (affirmative)
+    + 犬もですよ。 (polite)
+    + 犬もよ。 (faminine)
+- for altering
+  * examples
+    + 携帯落としましたよ。 - You dropped your cell phone.
+    + 晩ご飯できたよ！ - Dinner is ready!
+- for giving opinions
+  * examples
+    + めっちゃ良かったよ。 - It was super good.
+    + すごく勉強になると思うよ。 - I think you will learn a lot from it.
+- for being pushy
+  * examples
+    + そろそろ何か食べようよ。 - Let's get something to eat.
+      + そろそろ何か食べない。 (a less pushy version)
+    + そんなに食べたら会議で眠くなるよ。 - You will get sleepy if you keep
+      eating that much.
+      + そんなに食べたら会議で眠くなっちゃうよ。 (a less pushy version)
+      + そんなに食べたら会議で眠くなると思うよ。 (a less pushy version)
+- for contradicting
+  * examples
+    + いらいらしてる訳じゃないよ。 - It is not that I am annoyed.
+- for agreement
+  * offering an affirmative answer to question asked
+  * examples
+    + A: これ借りてもいいですか？ - Can I borrow this?
+      B: いいですよ。 - Sure.
+    + A: 日曜日、ピクニックに行きませんか？ - Why don't we go on a picnic on
+      Sunday?
+      B: 良いですよ。 - Sure. (it could sound a bit cold; 良いですね。 is more
+         friendly)
+- for declining
+  * best to avoid adding it to strongly negative words such as 嫌 or 無理
+  * examples
+    + A: 日曜日、ピクニックに行きませんか？ - Why don't we go on a picnic on
+      Sunday?
+      B: すいません。その日は忙しいんですよ。 - Sorry, I'm a little busy that
+         day.
+    + 絶対貸さないよ！ - No way I'm lending you that! (to indicate a firm
+      answer)
+- for emphasising feelings
+  * examples
+    + お腹すいたよ。 (it is more like talking to yourself)
+      + お腹すいた。 (it is common to skip よ in this case)
+    + うれしいよ。
+    + 楽しいよ。
+
+## よね
+
+- a sentence ending particle
+- used for conformation when the speaker is pretty sure but not certain, that
+  the listener agrees
+  * generally used when trying to dobul check something with the listener
+  * it also leaves more leeway for the listener to say "no" than if only ね was
+    used
+  * it creates a lively, conversational feel, while also implying modesty and
+    empathy towards the listener; this fits in perfectly with Japanese
+    communication styles and is, therefore, very popular to use in conversation
+- used at the end of sentences
+  * examples
+    + あ、雨が降ってるよね。 - Oh, it's raining, right?
+    + 食べるよね。 -  You will eat it, right?
+    + 暑いよね。 - It is hot, isn't it?
+    + 静かだよね。 (affirmative)
+    + 静かですよね。 (polite)
+    + 静かよね。 (faminine)
+    + 犬だよね。 (affirmative)
+    + 犬ですよね。 (polite)
+    + 犬よね。 (faminine)
+    + 犬もだよね。 (affirmative)
+    + 犬もですよね。 (polite)
+    + 犬もよね。 (faminine)
+    + A: やばい、明日試験だっけ？ - Oh no, is the exam tomorrow?
+      B: そうだよ。 - That's right.
+      A: だよね。ああ、どうしよ。 (or ですよね。ああ、どうしよ。) - Right,
+         right. Oh, what should I do...
+- for confirmation
+  * one of the usages is a double-checking is a good devices to begin a small
+    talk
+  * examples
+    + トーフグのポッドキャストの最新エピソード、もう聴いたよね？ - You've
+      already listened to the latest episode of the Tofugu podcast, right?
+    + 最近日本語の勉強始めたんだよね？ - You started learning Japanese recently,
+      right?
+- for seeking agreement
+  * for soft orders or refusals
+  * examples
+    + 私も日本語の勉強始めたの。でも、漢字が難しいよね。 - I've also started
+      learning Japanese, yet kanji is difficult, huh?
+    + 誰にも言わないでよね。 - Don't tell anyone, okay? (soft order)
+      + 誰にも言うなよ。- Do not tell anyone else! (strong order)
+- for showing argreement
+  * repeat whatever the other said and add よね to the end
+  * examples
+    + そうだよね。数学は難しいよね。 - I agree. Math is difficult, huh?
+    + 確かさっき鞄の中に入れたよね。 - You put it in your bag a little while
+      ago, didn't you?
 
 ## に and で
 
