@@ -55,6 +55,7 @@ ____
 
 - [mergestat/scribe](https://github.com/mergestat/scribe) - a CLI tool for
   translating natural language prompts into SQL queries using the OpenAI API
+- [LLM Visualization](https://bbycroft.net/llm)
 
 # Concepts
 
