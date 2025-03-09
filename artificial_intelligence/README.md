@@ -1,5 +1,6 @@
 - [Links](#links)
   * [People](#people)
+  * [Courses](#courses)
   * [Services](#services)
   * [Tools](#tools)
 - [Concepts](#concepts)
@@ -30,6 +31,13 @@ ____
 
 - [Sam Witteveen](https://www.youtube.com/@samwitteveenai)
 - [Matt Williams](https://www.youtube.com/@technovangelist)
+
+## Courses
+
+- [MIT Computer Science Class 6.S184: Generative AI with Stochastic Differential
+  Equations](https://www.youtube.com/watch?v=GCoP2w-Cqtg&list=PL57nT7tSGAAUDnli1LhTOoCxlEPGS19vH)
+- [Stanford CS229: Machine
+  Learning](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
 
 ## Services
 
