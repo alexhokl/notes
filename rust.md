@@ -1,5 +1,6 @@
 - [References](#references)
 - [Libraries](#libraries)
+  * [Linux](#linux)
   * [GUI](#gui)
 - [Commands](#commands)
 - [Language](#language)
@@ -46,8 +47,13 @@ ____
   training course
 - [rust-embedded/rust-raspberrypi-OS-tutorials](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
   learn to write an embedded OS in Rust (on Raspberry Pi)
+- [Rust for Linux](https://rust-for-linux.com/)
 
 ## Libraries
+
+### Linux
+
+- [Crate](https://rust.docs.kernel.org/kernel/)
 
 ### GUI
 
