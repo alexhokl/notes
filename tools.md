@@ -5,6 +5,7 @@
   * [Audio books](#audio-books)
   * [Auth](#auth)
   * [CLI](#cli)
+  * [Cloud](#cloud)
   * [Continuous Integration / Continuous Deployment (CI/CD)](#continuous-integration--continuous-deployment-cicd)
   * [Course](#course)
   * [Cron](#cron)
@@ -194,6 +195,11 @@ ____
   a command in different operating systems
 - [explainshell.com](https://explainshell.com/) - explain shell commands and its
   options
+
+### Cloud
+
+- [European alternatives for digital
+  products](https://european-alternatives.eu/)
 
 ### Continuous Integration / Continuous Deployment (CI/CD)
 
