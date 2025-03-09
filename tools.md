@@ -159,6 +159,8 @@ ____
   log expenses
 - [posting.sh](https://posting.sh/) - a CLI tool like Postman GUI
 - [meli](https://meli-email.org/) - a terminal email client
+- [11ty/eleventy](https://www.11ty.dev/) - a static site generator like Jekyll
+  or Hugo but it is written in Node.js
 
 ### git
 
