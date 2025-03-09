@@ -64,6 +64,7 @@
   * [Postgres](#postgres)
   * [Application Identity management](#application-identity-management)
   * [Kueue](#kueue)
+  * [subtrace](#subtrace)
 - [GKE](#gke)
   * [Security posture](#security-posture)
 - [kind](#kind)
@@ -1748,6 +1749,12 @@ image.
 - [kubernetes-sigs/kueue](https://github.com/kubernetes-sigs/kueue) - enables
   queuing of Kubernetes jobs; beta version at the time of writing;
   [docs](https://kueue.sigs.k8s.io/)
+
+### subtrace
+
+- [subtrace/subtrace](https://github.com/subtrace/subtrace) - Wireshark for
+  Docker containers ([docs](https://docs.subtrace.dev/quickstart))
+  * it has a Chrome-like UI for showing network traffic
 
 ## GKE
 
