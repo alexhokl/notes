@@ -38,7 +38,7 @@
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Nouns (animals)](#nouns-animals-1)
-    + [Adjectives](#adjectives)
+    + [Adjectives (い)](#adjectives-%E3%81%84-2)
     + [Adjectives (な)](#adjectives-%E3%81%AA-2)
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
@@ -48,16 +48,17 @@
     + [Common word](#common-word-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
-    + [Adjectives](#adjectives-1)
+    + [Adjectives](#adjectives)
     + [Adverbs](#adverbs-3)
     + [Verbs](#verbs)
     + [Expressions](#expressions-2)
   * [N1](#n1)
     + [Particles](#particles)
     + [Nouns](#nouns-4)
-    + [Adjectives](#adjectives-2)
+    + [Adjectives](#adjectives-1)
     + [Adverb](#adverb)
-    + [Verbs](#verbs-1)
+    + [Verbs (Intransitive)](#verbs-intransitive-3)
+    + [Verbs (Transitive)](#verbs-transitive-3)
     + [Common word](#common-word-3)
 ____
 
@@ -758,7 +759,11 @@ ____
 
 - 直ぐ (すぐ) - immediately / soon / easily
 
-### Verbs
+### Verbs (Intransitive)
+
+### Verbs (Transitive)
+
+- 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 
 
 ### Common word
