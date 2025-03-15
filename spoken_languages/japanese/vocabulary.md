@@ -469,6 +469,7 @@ ____
 - 上げる (あげる) - to raise; to fly; to launch
 - 借りる (かりる) - to borrow
 - 言う (いう) - to say
+- 知る (しる) - to know; to be aware of; to find out; to discover
 
 ### Verbs (Intransitive)
 
@@ -544,6 +545,7 @@ ____
 - アルバイト - part-time job
 - 訳 (わけ) - meaning; reason
 - 泥棒 (どろぼう) - thief; burglar; robber
+- 地震 (じしん) - earthquake
 
 ### Nouns (position)
 
@@ -652,6 +654,7 @@ ____
 - 土産 (みやげ) - local specialty; souvenir
 - 事 (こと) - thing; matter
 - 記事 (きじ) - article; news story; report; account
+- 屋根 (やね) - roof
 
 ### Nouns (animals)
 

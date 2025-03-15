@@ -766,6 +766,7 @@ ____
 - 苗字 (みょうじ) - last name
 - マル - circle
 - バツ - cross
+- メールアドレス - email address
 
 ## Home
 
@@ -850,6 +851,7 @@ ____
 - 亀 (かめ) - turtle
 - 兎 (うさぎ) - rabbit
 - 山羊 (やぎ) - goat
+- 毛繕い (けづくろい) - grooming
 
 ## Funiture
 
