@@ -1,3 +1,8 @@
+- [.NET 9](#net-9)
+  * [Hybrid cache](#hybrid-cache)
+  * [SLNX](#slnx)
+___
+
 # .NET 9
 
 ## Hybrid cache
@@ -10,3 +15,12 @@
     time but the data is not in the cache initially
 - it allows cache invalidation by using a tag
   * data can be tagged with multiple tags
+
+## SLNX
+
+- [introduction](https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/)
+- solution file in XML
+- `dotnet sln migrate` to convert SLN to SLNX
+- `dotnet sln .\example.slnx list` to list projects in the solution
+- `dotnet sln .\example.slnx remove .\my-lib\` to remove a project from the
+  solution
