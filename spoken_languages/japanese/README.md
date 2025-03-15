@@ -6,6 +6,7 @@
     + [First person pronouns and its plural form](#first-person-pronouns-and-its-plural-form)
     + [Second person pronouns and its plural form](#second-person-pronouns-and-its-plural-form)
     + [Third person pronouns and its plural form](#third-person-pronouns-and-its-plural-form)
+  * [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
   * [Adverb](#adverb)
 - [Situation and vocabulary](#situation-and-vocabulary)
   * [Restaurant](#restaurant)
@@ -25,6 +26,7 @@
     + [Item conditions](#item-conditions)
   * [Payment](#payment)
   * [Conversation](#conversation)
+  * [Signs](#signs)
   * [Sites](#sites)
   * [Transportation](#transportation)
     + [Trains](#trains)
@@ -45,6 +47,7 @@
   * [Animals](#animals)
   * [Funiture](#funiture)
   * [Electronics](#electronics)
+  * [Home appliances](#home-appliances)
   * [Internet](#internet)
   * [Media](#media)
   * [Sex](#sex)
@@ -584,6 +587,12 @@ ____
 - だっけ。 - was it?
 - 言わないことではない - I told you so
 - そうだよね - sure; yeah; I know
+
+## Signs
+
+- ご注意ください (ごちゅういください) - please be careful
+- お待ちください (おまちください) - please wait
+- おまかせください (おまかせください) - please leave it to me
 
 ## Sites
 
