@@ -1,6 +1,7 @@
 - [References](#references)
 - [Libraries](#libraries)
   * [Linux](#linux)
+  * [Git](#git)
   * [GUI](#gui)
 - [Commands](#commands)
 - [Language](#language)
@@ -54,6 +55,11 @@ ____
 ### Linux
 
 - [Crate](https://rust.docs.kernel.org/kernel/)
+
+### Git
+
+- [crate libgit](https://docs.rs/libgit/latest/libgit/)
+- [crate libgit2_sys](https://docs.rs/libgit2-sys/latest/libgit2_sys/)
 
 ### GUI
 
