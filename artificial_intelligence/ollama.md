@@ -15,6 +15,8 @@ ____
   interface for Ollama
 - [alexhokl/ollama-rag](https://github.com/alexhokl/ollama-rag)
 - [alexhokl/ollama-image](https://github.com/alexhokl/ollama-image)
+- [llm-ollama](https://github.com/taketwo/llm-ollama) - a plugin for Python
+  program `llm` to interact with Ollama
 
 # Commands
 
