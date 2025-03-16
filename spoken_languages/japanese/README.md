@@ -593,6 +593,7 @@ ____
 - ご注意ください (ごちゅういください) - please be careful
 - お待ちください (おまちください) - please wait
 - おまかせください (おまかせください) - please leave it to me
+- 右に注意 (みぎにちゅうい) - caution, right
 
 ## Sites
 
@@ -615,6 +616,8 @@ ____
 - トラック (torakku) - truck
 - キロ (kiro) - kilometer
 - 切符 (きっぷ) - ticket
+- 内回り (うちまわり) - inner loop
+- 外回り (そとまわり) - outer loop
 
 ### Trains
 
