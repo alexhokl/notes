@@ -50,6 +50,7 @@ ____
 - [weaviate](https://weaviate.io/) - vector search engine
 - [Common Voice](https://commonvoice.mozilla.org/en) - a service for sharing,
   creating and curating text and speech datasets
+  * it is a source of data set
 
 ## Tools
 
