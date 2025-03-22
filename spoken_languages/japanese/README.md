@@ -55,6 +55,7 @@
   * [Stationary](#stationary)
   * [Work](#work)
 - [Verbs](#verbs)
+  * [Health](#health)
 ____
 
 # Links
@@ -330,6 +331,7 @@ ____
 - 水 (みず) - water
 - ジュース (jūsu) - juice
 - ワイン (wain) - wine
+- 緑茶ハイ (りょくちゃ) - high ball with green tea
 
 ## Convience store
 
@@ -594,6 +596,7 @@ ____
 - お待ちください (おまちください) - please wait
 - おまかせください (おまかせください) - please leave it to me
 - 右に注意 (みぎにちゅうい) - caution, right
+- 引き (ひき) - pull
 
 ## Sites
 
@@ -933,3 +936,8 @@ ____
 - バズる - to go viral (buzz)
 - サボる - to slack off (sabotage)
 - パクる - to cheat / steal (plagiarize)
+
+## Health
+
+- 整骨院 (せいこついん) - osteopathic clinic
+- 接骨院 (せっこついん) - orthopedic clinic

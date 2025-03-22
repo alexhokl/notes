@@ -600,6 +600,7 @@ ____
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose
 - 変わる (かわる) - to change
 - 参る (まいる) - to go; to come; to call
+- 込む (こむ) - to be crowded; to go into; to put into; to become (completely)
 
 ### Verbs (Transitive)
 
@@ -655,6 +656,7 @@ ____
 - 事 (こと) - thing; matter
 - 記事 (きじ) - article; news story; report; account
 - 屋根 (やね) - roof
+- ゴミ - rubbish; trash
 
 ### Nouns (animals)
 
@@ -705,6 +707,7 @@ ____
 - 頂く (いただく) - to receive; to take (humble)
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 辞める (やめる) - to resign; to retire; to quit; to leave
+- 除く (のぞく) - to remove; to exclude; to kill (opponent)
 
 ### Common word
 
