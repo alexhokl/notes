@@ -135,6 +135,14 @@ git clone --recursive https://github.com/author/repo
 git clone -b your-branch https://github.com/author/repo
 ```
 
+##### To clone a specified commit
+
+```sh
+git clone --revision your-commit https://github.com/author/repo
+```
+
+note: since `2.49`
+
 ## Rebase
 
 ##### Rebase for merge
