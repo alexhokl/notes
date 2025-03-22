@@ -26,6 +26,7 @@
   * [Certificate Authority Service](#certificate-authority-service)
   * [Compliance](#compliance)
   * [Cloud Run](#cloud-run)
+  * [Looker](#looker)
 - [APIs](#apis)
   * [Vision API](#vision-api)
 - [Tools](#tools)
@@ -1184,6 +1185,10 @@ BigQuery tables.
 ### Cloud Run
 
 - a volume mount can be created using a Cloud Storage bucket
+
+### Looker
+
+- it has Google Connectors to integrate with different data sources
 
 ## APIs
 
