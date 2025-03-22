@@ -58,6 +58,7 @@
   * [PostgreSQL](#postgresql)
   * [Testing](#testing-1)
   * [io.MultiReader](#iomultireader)
+  * [File system](#file-system)
   * [Generics](#generics)
   * [Range over function](#range-over-function)
   * [Time](#time)
@@ -1855,6 +1856,77 @@ func CreateImage(r io.Reader, filename string) error {
 	_, err = io.Copy(f, r)
 	return nil
 }
+```
+
+### File system
+
+- path traversal attacks
+  * if an attacker controls part of the filename, they may be abel to use
+    relative directory components `..` to escape the intended location
+  * on Windows
+    + this can be done by using environment variables tie to a specific location
+  * time-of-check/time-of-use TOCTOU races
+    + if the program defends against symlink traversal by first verifying that the
+      intended file does not contain any symlinks; an attacker create a symlink
+      after the program's check
+    + moving a directory that forms part of a path mid-traversal
+      + examples
+        + the attacker provides a path such as `ab/c/../../etc/passwd` and
+        renames `a/b/c` to `a/b` which the open operation is in progress
+- `path/filepath.IsLocal`
+  * since Go `1.20`
+  * path sanitization function
+  * assuming attackers do not have access to the local file system
+  * a path is considered local if
+    + it does not escape the directory in which it is evaluated; for instance,
+      `../etc/passwd` is not allowed
+    + it is not an absolute path
+    + it is not empty; for instance, `""` is not allowed
+    + on Windows, it is not a reserved name; for instance, `COM1` is not allowed
+- `path/filepath.Localize`
+  * since Go `1.23`
+  * assuming attackers do not have access to the local file system
+  * converts `/` separated path into a local (relative) operating system path
+- `os.OpenRoot`
+  * since Go `1.24`
+  * assuming attackers have access to part of the local filesystem
+    + example
+      + an unarchiving utility that extracts a tar or zip file may be included
+        to exact a symbolic link and then extract a file name that traverses
+        that link; a container runtime may give untrusted code acess to
+        a portion of the local filesystem; programs may defend against
+        unintended symlink traversal by using `path/filepath.EvalSymlinks` to
+        resolve links in untrusted names before validation; however, it is still
+        prone to TOCTOU races; library `github.com/google/safeopen` can be used
+        before Go `1.24`
+  * it does not allow escape from the root such as `..` or symlinks
+  * OS-specific considerations
+    + Unix
+      + `Root` does not prevent traversal of Linux bind mounts
+        + since bind mounts require root privileges to create
+    + Windows
+      + `Root` prevents access to reserved Windows device names such as `NUL` or
+        `COM1`
+    + js
+      + when `GOOS=js`, `os` package uses the Node.js file system API which does
+        not include `openat` family (in Unix) and so `os.Root` is vulnerable to
+        TOCTOU races in symlink validation
+      + when `GOOS=js`, a `Root` references a directotry name rather than a file
+        descripttor, and does not track directory across renames
+  * in general, `f, err := os.Open(filepath.Join(baseDirectory, filename))`
+    should be re-written as `f, err := os.OpenInRoot(baseDirectory, filename)`
+
+```go
+root, err := os.OpenRoot("/some/root/directory")
+if err != nil {
+  return err
+}
+defer root.Close()
+f, err := root.Open("path/to/file")
+```
+
+```go
+f, err := os.OpenInRoot("/some/root/directory", untrustedFilename)
 ```
 
 ### Generics
