@@ -75,6 +75,7 @@
   * [Vendoring](#vendoring)
   * [JSON marshalling](#json-marshalling)
   * [Protobuf](#protobuf-1)
+  * [WebAssembly (Wasm)](#webassembly-wasm)
 - [Charm](#charm)
   * [Bubbletea](#bubbletea)
 - [Ko](#ko)
@@ -2536,6 +2537,79 @@ pulling packages from the internet during the build process.
   although all the values can be same as another object, its state (or internal
   pointer) can be different; calling `Reset()` before comparing two objects is
   recommended
+
+### WebAssembly (Wasm)
+
+- `GOOS=wasip1`
+  * since Go `1.21`, support of WASI preview 1 syscall API
+- `go:wasmexport`
+  * since Go `1.24`
+  * a compiler directive
+  * allows developers to export Go functions to be called from outside of the
+    Wasm module, typically from a host application that runs the Wasm runtime;
+    this directive instructs the compiler to make the annotated function
+    avqailable as a Wasm export in the resulting Wasm library
+  * it is analogous to the cgo export directives
+
+```go
+//go:wasmexport add
+func add(a, b int32) int32 { return a + b }
+```
+
+- `-buildmode=c-shared`
+  * since Go `1.24`
+  * a build flag
+  * to build a WASI reactor
+    + a reactor is a WebAssembly module that operates continously, and can be
+      called upon multiple times to react on events or requests; it remians live
+      after initialisation and its exports remain accessible
+      + different from "command" which terminates after its main function
+        finishes
+  * it signals to the linker not to generate the `_start` function (the entry
+    point for a command module), and instead generate an `_initialize` function,
+    which performs runtime and package initialisation, along with any exported
+    functions and their dependencies
+
+```sh
+GOOS=wasip1 GOARCH=wasm go build -buildmode=c-shared -o reactor.wasm
+```
+
+```go
+// create a Wasm runtime, set up WASI
+r := wazero.NewRuntime(ctx)
+defer r.Close(ctx)
+wasi_snapshot_preview1.MustInstantiate(ctx, r)
+
+// configure the module to initialise the reactor
+config := wazero.NewModuleConfig().WithStartFunctions("_initialize")
+
+// instantiate the module
+wasmModule, _ := r.InstantiateWithConfig(ctx, wasmFile, config)
+
+// call the exported function
+fn := wasmModule.ExportedFunction("add")
+var a, b int32 = 1, 2
+res, _ := fn.Call(ctx, api.EncodeI32(a), api.EncodeI32(b))
+c := api.DecodeI32(res[0])
+fmt.Printf("add(%d, %d) = %d\n", a, b, c)
+
+// the instance is still alive. We can call the function again
+res, _ := fn.Call(ctx, api.EncodeI32(b), api.EncodeI32(c))
+fmt.Printf("add(%d, %d) = %d\n", b, c, api.DecodeI32(res[0]))
+```
+
+- `go:wasmimport`
+  * a compiler directive
+  * it allows passing types such as `bool`, `String`, `*int32`, or `*SomeType`
+    where `SomeType` embeds `structs.HostLayout` and contains supported field
+    types
+- limitations
+  * single-threaded architecture with no parallelism
+    + this might imply using Go routine may not be a good idea yet
+  * due to the unforunate mismatch between 64-bit architecture of client and
+    32-bit architecture of host, it is not possible to pass pointers in memory
+    + examples
+      + pointer in a `struct`
 
 ## Charm
 
