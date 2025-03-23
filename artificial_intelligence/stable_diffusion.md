@@ -1,3 +1,10 @@
+- [Stable-diffusion](#stable-diffusion)
+  * [Installation](#installation)
+  * [To download model files](#to-download-model-files)
+  * [Models](#models)
+  * [Commands](#commands)
+___
+
 # Stable-diffusion
 
 ## Installation
@@ -22,6 +29,10 @@ curl -o $HOME/.local/share/Stable-diffusion/sd-v1-4.ckpt -sSL https://huggingfac
 curl -o $HOME/.local/share/Stable-diffusion/v1-5-pruned-emaonly.safetensors -sSL https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors
 curl -o $HOME/.local/share/Stable-diffusion/v2-1_768-nonema-pruned.safetensors -sSL https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-nonema-pruned.safetensors
 ```
+
+## Models
+
+- [version 3](https://huggingface.co/stabilityai/stable-diffusion-3-medium)
 
 ## Commands
 
