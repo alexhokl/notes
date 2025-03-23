@@ -60,7 +60,15 @@ ____
 
 # Concepts
 
-## General concepts
+## Generative AI
+
+### Tools
+
+- [ollama](./ollama.md)
+- [langchain](./langchain.md)
+- [stable-diffusion](./stable-diffusion.md)
+
+### General concepts
 
 - [Embedding models](https://ollama.com/blog/embedding-models)
   * embedding models, making it possible to build RAG applications that combine
@@ -76,7 +84,7 @@ ____
     * [Local RAG agent with llama3 using
       LangChain](https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_rag_agent_llama3_local.ipynb)
 
-## Retrieval augmented generation (RAG)
+### Retrieval augmented generation (RAG)
 
 - advanced features
   * a search step to retrieve documents from vector database or a web search
@@ -101,7 +109,7 @@ ____
   * grounded generation
     + citing the source of the information in the generated text
 
-## Tricks with LLM
+### Tricks with LLM
 
 - instead of asking a direct question of selecting the best option, one can ask
   a model to ask the user with a list of yes/no questions to help narrowing the
