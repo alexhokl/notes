@@ -268,6 +268,7 @@ ____
 - チョコレート - chocolate
 - アイス - ice; ice cream
 - アイスクリーム - ice cream
+- 但馬牛 (たじまうし) - Tajima beef
 
 ### Fish
 
@@ -310,10 +311,12 @@ ____
 - 車海老 (くるまえび) - tiger prawn
 - 蝦蛄 (しゃこ) - mantis shrimp
 - 蛸 (たこ) - octopus
+- 蛸足 (たこあし) - octopus legs
 - 海胆 (ウニ) - sea urchin
 - 小柱 (こばしら) - baby scallop
 - イクラ - salmon roe
 - 朧 (おぼろ) - crumbled shrimp paste
+- 蟹 (かに) - crab
 
 ### Fruits
 
