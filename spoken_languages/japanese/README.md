@@ -847,9 +847,9 @@ ____
 ## Cycling
 
 - 自転車 (じてんしゃ) - bicycle
-- ロードバイク (rōdo baiku) - road bike
-- ライド (raido) - ride
-- サドル (sadoru) - saddle
+- ロードバイク - road bike
+- ライド - ride
+- サドル - saddle
 
 ## Driving
 
