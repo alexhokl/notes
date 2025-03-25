@@ -214,6 +214,8 @@ ___
     will perform
     + this strategy can reduce unfounded complaints to service owners about, for
       example, the service being slow
+  * it can and should be a major driver in prioritising work for SREs and
+    prouct developers because they reflect what users care about
 - SLA
   * an overloaded term and it has taken on a number of meanings depending on
     context
@@ -251,14 +253,227 @@ ___
 - statistics
   * it should not be assumed without verifying that metrics collected are
     normally distributed
+- practical strategies
+  * start by thinking about or finding out what your users care about, not what
+    you can measure
+  * defining objectives
+    + specify how indicators are measured and the conditions under which the
+      indicators are valid
+    + basic examples
+      + 99% (averaged over 1 minute) of `GET` RPC calls will complete in less
+        than 100 ms (measured across all the backend servers
+      + 99% of `GET` RPC calls will complete in less than 100 ms (this is the
+        same condition but with default SLI assumptions made)
+    + examples when shape of performance curves are important
+      + 90% of `GET` RPC calls will complete in less than 1 ms
+      + 99% of `GET` RPC calls will complete in less than 10 ms
+      + 99.9% of `GET` RPC calls will complete in less than 100 ms
+    + examples on heterogeneous workloads
+      + 95% of throughput clients’ Set RPC calls will complete in < 1 s
+      + 99% of latency clients’ Set RPC calls with payloads < 1 kB will complete
+        in < 10 ms
+  * error budgets
+    + a rate at which the SLOs can be missed and track that on a daily or weekly
+      basis
+    + upper management will probably want a monthly or quarterly assessment
+    + an error budget is just an SLO for meeting other SLOs
+  * do not pick a target based on current performance
+    + while understanding the merits and limits of a system is essential,
+      adopting values without reflection may lock you into supporting a system
+      that requires heroic efforts to meet its targets, and that cannot be
+      improved without significant redesign
+  * keep it simple
+    + complicated aggregations in SLIs can obscure changes to system
+      performance, and are also harder to reason about
+  * avoid absolutes
+    + while it is tempting to ask for a system that can scale its load
+      "infinitely" without any latency increase and that is "always" available,
+      this requirement is unrealistic; even a system that approaches such ideals
+      will probably take a long time to design and build, and will be expensive
+      to operate—and probably turn out to be unnecessarily better than what
+      users would be happy (or even delighted) to have
+  * have a few SLOs as possible
+    + choose just enough SLOs to provide good coverage of your system’s
+      attributes
+    + defend the SLOs you pick
+      + if you cannot ever win a conversation about priorities by quoting
+        a particular SLO, it is probably not worth having that SLO
+  * perfection can wait
+    + you can always refine SLO definitions and targets over time as you learn
+      about a system’s behavior
+      + it is better to start with a loose target that you tighten than to
+        choose an overly strict target that has to be relaxed when you discover
+        it is unattainable
+  * publishing SLOs
+    + publishing SLOs sets expectations for system behavior; users (and
+      potential users) often want to know what they can expect from a service in
+      order to understand whether it is appropriate for their use case
+  * keep a safety margin
+    + using a tighter internal SLO than the SLO advertised to users gives you
+      room to respond to chronic problems before they become visible externally;
+      an SLO buffer also makes it possible to accommodate reimplementations that
+      trade performance for other attributes, such as cost or ease of
+      maintenance, without having to disappoint users
+  * do not overachieve
+    + users build on the reality of what you offer, rather than what you say you
+      will supply, particularly for infrastructure services; if the actual
+      performance is much better than its stated SLO, users will come to rely on
+      its current performance; you can avoid over-dependence by throttling some
+      requests, or designing the system so that it is not faster under light
+      loads
 
 ### Chapter 5 Eliminating Toil
 
 -[text](https://sre.google/sre-book/eliminating-toil/)
+- toil
+  * to avoid using "operational work" which can be easily misinterpreted
+  * what is not toil
+    + overhead
+      + examples
+        + administrative chores
+        + team meetings
+        + team setting
+        + grading goals
+        + snippets
+        + HR paperwork
+    + grungy work which has long-term value
+      + examples
+        + cleaning up the entire alerting configuration for a service and
+          rmoving clutter
+  * not every task deemed toil has all the above characteristics, but the more
+    closely work matches one or more of the following descriptions, the more
+    likely it is to be toil
+  * characteristics
+    + manual
+      + running a script that automates some tasks
+    + repetitive
+    + automatable
+      + however, if human judgment is essentualfor the task, it is likely not
+        toil
+    + tactical
+      + interrupt-driven and reactive
+        + rather than strategy-driven and proactive
+      + examples
+        + handling pager alerts
+    + no enduring value
+      + if the service remians in the same state after a task has been
+        completed, the task was likely toil
+        + if the ask produced a permanent improvement in the service, it
+          probably was not toil
+          + even if some amount of grunt work, such as digging into legacy code
+            and configurations and straightening them out, was involved
+    + scales linearly as a service grows
+      + if the task scales up linearly with the service size, traffic volume of
+        user count
+- activities of SRE
+  * software engineering
+  * systems engineering
+    + examples
+      + monitoring setup
+      + consulting on architecture, design and productionisation for developer
+        teams
+  * toil
+  * overhead
+- some toil in SRE work is unavoidable
+  * it becomes a problem when experienced in large quantities
+  * some toil tasks can be low-risk and low-stress activities
+    + predictable and repetitive tasks can be quite calming and some people
+      gravitate toward this type of work
+- potential problems with toil
+  * career stagnation
+    + too little spend on learning and improving system
+  * creates confusion
+    + individuals or teams within SRE that engage in too much toil undermine the
+      clarity of that communication and confuse people about the SRE role
+  * slows progress
+  * sets precedent
+    + if one engineer is too willing to take on toil, the team will have
+      incentives to load the engineer with even more toil, sometimes shifting
+      operational tasks that should be rightfully be performed by developers to
+      SRE
+  * promotes attrition
+    + the best engineers to start looking elsewhere for a more rewarding job
+  * cases breach of faith
+    + new hires or transfers who joined SRE with promise of project will feel
+      cheated, which is bad for morale
 
 ### Chapter 6 Monitoring Distributed Systems
 
 -[text](https://sre.google/sre-book/monitoring-distributed-systems/)
+- reasons to monitor
+  * analysing long-term trends
+  * comparing over time or experiment groups
+  * alerting
+  * building dashboards
+  * conducting ad hoc retrospective analysis
+    + that is, debugging
+    + examples
+      + debugging for an increase of latency and to find out how other
+        components or services were behaving at the time
+- alerting
+  * it should not be done simply because "something seems a bit weird"
+  * paging
+    + it is a quite expensive user of an employee's time
+      + during office hours
+        + interrupts their workflow
+      + during non-office hours
+        + interrupts their personal time and even their sleep
+      + too frequent leads to employee second-guess, skim, or event ignore the
+        paging
+        + risk masking out the "real" page
+        + outages can be prolonged because other noises interferes with a repid
+          diagnosis and fix
+    + a good signal to very low noise is important
+  * rules that generate alerts for humans should be simple to understand and
+    represent a clear failure
+- aims of a monitoring systems
+  * addressing what is broken
+  * addressing why it is broken
+- white-box monitoring
+  * based on metrics exposed by the internals of the system (or applications
+    running on the system), including logs, or an HTTP handler that emits
+    internal statistics
+  * detection of imminent problems, failures masked by retries and so forth
+  * debugging is one of the important use-cases
+- black-box monitoring
+  * testing externally visible hebaviour as a user would see it
+  * symptom-oriented and represents active (not predicted) problems
+  * paging is one of the major use-cases
+    + as black-box monitoring covers mostly the "unexpected" problems
+- monitoring at Google
+  * heavy use of white-box monitoring
+  * modest but critical use of black-box monitoring
+- the four golden signals (for user-facing system)
+  * latency
+    + separate the latency of successful requests and that of failed requests
+  * traffic
+    + for a web service, this is usually HTTP requests per second
+    + for a key-value storage system, this might be transactions and retrievals
+      per second
+  * errors
+    + rate of requests that failed
+      + examples
+        + HTTP `500`
+        +  latency over a certain latency threshold
+  * saturation
+    + how "full" the service is
+    + most services need to use indirect signals like CPU utilisation or network
+      bandwidth that have a known upper bound
+    + measuring 99th percentile response time over a small window (for
+      instance, one minute) can give a very early signal of saturation
+    + preduction of impending saturation
+      + examples
+        + database will fill its hard drive in 4 hours
+- paging a human if one of the golden signals arises
+  * the baseline of monitoring is good
+- fundamental philosophy on paging
+  * an SRE can only react with a sense of urgency a few times a day before the
+    engineer become fatigued
+  * every page should be actionable
+  * every page response should require intelligence
+    + if a page merely merits a robotic response, it should not be a page
+  * pages should be about a novel problem or an event that has not been seen
+    before
 
 ### Chapter 7 The Evolution of Automation at Google
 
