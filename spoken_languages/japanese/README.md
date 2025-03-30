@@ -277,6 +277,8 @@ ____
 - 但馬牛 (たじまうし) - Tajima beef
 - 鴨 (かも) - duck
 - ほうれん草 (ほうれんそう) - spinach
+- アンチョビ - anchovy
+- ポテト - potato
 
 ### Fish
 
@@ -610,6 +612,8 @@ ____
 - 右に注意 (みぎにちゅうい) - caution, right
 - 引き (ひき) - pull
 - 止まれ (とまれ) - stop
+- 痴漢 (ちかん) - molester
+- ぎる - to steal
 
 ## Sites
 

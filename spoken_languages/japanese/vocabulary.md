@@ -573,6 +573,7 @@ ____
 - 変 (へん) - strange; odd; change
 - 無理 (むり) - unreasonable; impossible
 - 確か (たしか) - certain; sure; reliable
+- 普通 (ふつう) - normal; ordinary
 
 ### Pronouns (person)
 
