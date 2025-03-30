@@ -46,12 +46,14 @@
     + [Verbs (Intransitive)](#verbs-intransitive-2)
     + [Verbs (Transitive)](#verbs-transitive-2)
     + [Common word](#common-word-2)
+    + [Expressions](#expressions-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
     + [Adjectives](#adjectives)
     + [Adverbs](#adverbs-3)
     + [Verbs](#verbs)
-    + [Expressions](#expressions-2)
+    + [Common word](#common-word-3)
+    + [Expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
     + [Nouns](#nouns-4)
@@ -59,7 +61,7 @@
     + [Adverb](#adverb)
     + [Verbs (Intransitive)](#verbs-intransitive-3)
     + [Verbs (Transitive)](#verbs-transitive-3)
-    + [Common word](#common-word-3)
+    + [Common word](#common-word-4)
 ____
 
 # Vocabulary
@@ -536,6 +538,7 @@ ____
 - サンドイッチ - sandwich
 - ケーキ - cake
 - 二階建て (にかいだて) - two-storied building
+- ビル - multi-storey building (usually used in part of name of the building)
 - 試合 (しあい) - match; game
 - 着物 (きもの) - kimono
 - 席 (せき) - seat
@@ -546,6 +549,8 @@ ____
 - 訳 (わけ) - meaning; reason
 - 泥棒 (どろぼう) - thief; burglar; robber
 - 地震 (じしん) - earthquake
+- コンピュータ - computer
+- ご馳走 (ごちそう) - treat (especially food and drink)
 
 ### Nouns (position)
 
@@ -601,6 +606,7 @@ ____
 - 変わる (かわる) - to change
 - 参る (まいる) - to go; to come; to call
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely)
+- 反対 (はんたい) - opposition; resistance
 
 ### Verbs (Transitive)
 
@@ -657,6 +663,8 @@ ____
 - 記事 (きじ) - article; news story; report; account
 - 屋根 (やね) - roof
 - ゴミ - rubbish; trash
+- 違い (ちがい) - difference
+- 浴衣 (ゆかた) - bathrobe
 
 ### Nouns (animals)
 
@@ -714,6 +722,10 @@ ____
 - クリスマス - Christmas
 - 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
 
+### Expressions
+
+- 御免なさい (ごめんなさい) - I am sorry; my apologies
+
 ## N2
 
 ### Nouns
@@ -726,6 +738,7 @@ ____
 - 箪笥 (たんす) - chest of drawers
 - 後輩 (こうはい) - junior
 - 売店 (ばいてん) - stall; booth; kiosk; store
+- 複数 (ふくすう) - plural
 
 ### Adjectives
 
@@ -737,6 +750,10 @@ ____
 
 ### Verbs
 
+### Common word
+
+- ご馳走様 (ごちそうさま) - thank you (for the meal)
+- ご馳走様でした (ごちそうさまでした) - thank you (for the meal)
 
 ### Expressions
 
@@ -746,7 +763,8 @@ ____
 
 ### Particles
 
-- だけ - only; just
+- 丈 (だけ) - only; just
+- のみ - only; nothing but
 
 ### Nouns
 

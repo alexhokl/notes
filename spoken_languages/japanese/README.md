@@ -54,8 +54,9 @@
   * [Family relationships](#family-relationships)
   * [Stationary](#stationary)
   * [Work](#work)
-- [Verbs](#verbs)
+    + [Software](#software)
   * [Health](#health)
+- [Verbs](#verbs)
 ____
 
 # Links
@@ -224,19 +225,22 @@ ____
 - 朝食 (ちょうしょく) - breakfast
 - 昼食 (ちゅうしょく) - lunch
 - 夕食 (ゆうしょく) - dinner
-- 定食 (teishoku) - set meal
+- 定食 (ていしょ) - set meal
 - 放題 (ほうだい) - all you can eat
 - レストラン (resutoran) - restaurant
 - マクドナルド (makudonarudo) - McDonald's
 - お手洗い (おてあらい) - restroom
 - トイレ - toilet
 - 冷やし (ひやし) - cold
+- 割り (わり) - diluted with
 
 ## Food
 
 - ご飯 (gohan) - rice
 - 卵 (たまご) - egg
 - 玉子 (たまご) - egg
+- 黄身 (きみ) - egg yolk
+- 白身 (しろみ) - egg white
 - パスタ - pasta
 - クッキー - cookie
 - 玉ねぎ (たまねぎ) - onion
@@ -248,7 +252,8 @@ ____
 - 醤油 (しょうゆ) - soy sauce
 - 葱 (negi) - green onion
 - 鹽 (shio) - salt
-- ハラミ (harami) - skirt steak (横隔膜)
+- ステーキ - steak
+- ハラミ - skirt steak (横隔膜)
 - ホルモン - offal (內臟)
 - ベーコン - bacon
 - トマト - tomato
@@ -268,7 +273,10 @@ ____
 - チョコレート - chocolate
 - アイス - ice; ice cream
 - アイスクリーム - ice cream
+- クリーム - cream
 - 但馬牛 (たじまうし) - Tajima beef
+- 鴨 (かも) - duck
+- ほうれん草 (ほうれんそう) - spinach
 
 ### Fish
 
@@ -308,6 +316,7 @@ ____
 
 ### Other seafood
 
+- 魚介 (ぎょかい) - marine products
 - 車海老 (くるまえび) - tiger prawn
 - 蝦蛄 (しゃこ) - mantis shrimp
 - 蛸 (たこ) - octopus
@@ -600,11 +609,12 @@ ____
 - おまかせください (おまかせください) - please leave it to me
 - 右に注意 (みぎにちゅうい) - caution, right
 - 引き (ひき) - pull
+- 止まれ (とまれ) - stop
 
 ## Sites
 
 - 開放 (かいほう) - open
-- ビル (biru) - multi-floor building
+- 稲荷 (いなり) - god of harvest
 
 ## Transportation
 
@@ -624,6 +634,7 @@ ____
 - 切符 (きっぷ) - ticket
 - 内回り (うちまわり) - inner loop
 - 外回り (そとまわり) - outer loop
+- 反対側 (はんたいがわ) - opposite side
 
 ### Trains
 
@@ -850,6 +861,7 @@ ____
 - ロードバイク - road bike
 - ライド - ride
 - サドル - saddle
+- ツール - tour
 
 ## Driving
 
@@ -930,8 +942,23 @@ ____
 - 残業 (ざんぎょう) - overtime
 - 職場 (しょくば) - workplace
 - 弁護士 (べんごし) - lawyer
+
+### Software
+
 - ソフトウェアエンジニア - software engineer
 - ソフトウェア工学 - software engineering
+- バージョン - version
+- テキスト - text
+- エディター - editor
+- ファイル - file
+- ツール - tool
+- コード - code
+- プログラミング - programming
+
+## Health
+
+- 整骨院 (せいこついん) - osteopathic clinic
+- 接骨院 (せっこついん) - orthopedic clinic
 
 # Verbs
 
@@ -940,7 +967,3 @@ ____
 - サボる - to slack off (sabotage)
 - パクる - to cheat / steal (plagiarize)
 
-## Health
-
-- 整骨院 (せいこついん) - osteopathic clinic
-- 接骨院 (せっこついん) - orthopedic clinic
