@@ -14,6 +14,7 @@
 - [Concepts](#concepts)
   * [Service account](#service-account)
   * [Authentication on GCP](#authentication-on-gcp)
+  * [SAML](#saml)
   * [Logging](#logging)
   * [Monitoring](#monitoring)
   * [Cloud Trace](#cloud-trace)
@@ -40,6 +41,8 @@ ____
   | Coursera](https://www.coursera.org/google-cloud-training)
 - [Professional Cloud DevOps Engineer Certification | Google
   Cloud](https://cloud.google.com/learn/certification/cloud-devops-engineer/)
+- [Configure Slack
+  notifications](https://cloud.google.com/build/docs/configuring-notifications/configure-slack)
 
 ## gcloud Commands
 
@@ -770,6 +773,14 @@ storage service-agent`
 ### Authentication on GCP
 
 ![authentication options on GCP](./images/authentication_on_gcp.webp)
+
+### SAML
+
+- Set up SSO with Google as your identity provider
+  * [Set up your own custom SAML
+    app](https://support.google.com/a/answer/6087519?hl=en)
+  * [Maintain SAML
+    certificates](https://support.google.com/a/answer/7394709?hl=en)
 
 ### Logging
 
