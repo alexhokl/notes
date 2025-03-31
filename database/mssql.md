@@ -18,6 +18,7 @@
   * [Locks and blocking processes](#locks-and-blocking-processes)
   * [General information](#general-information)
   * [Read-only replica and snapshot isolation](#read-only-replica-and-snapshot-isolation)
+  * [Wait types](#wait-types)
   * [Jobs](#jobs)
   * [CPU and parallelism](#cpu-and-parallelism)
   * [Linked servers](#linked-servers)
@@ -1116,6 +1117,58 @@ Note that the possible `transaction_isolation_level` values are
 - `3` = Repeatable
 - `4` = Serializable
 - `5` = Snapshot
+
+### Wait types
+
+- `CMEMTHREAD`
+  * when a thread is waiting for access to a thread-safe memory object
+    (`CMemThread`)
+  * potential problems
+    + high number of this wait type may suggest excessive concurrent access to
+      the same memory object
+      + check "cost threshold for parallelism" and "max degree of parallelism"
+        (MAXDOP)
+      + queries with a high number of read count is more susceptible to this
+- `IO_QUEUE_LIMIT`
+  * potential problems
+    + it usually implies throttling by cloud provider
+- `IO_RETRY`
+  * a read or write failed due to insufficient resources, and the statement is
+    waiting for a retry
+- `LOG_RATE_GOVERNOR`
+  * potential problems
+    + it usually implies throttling by cloud provider
+      + check if the traffic of the SQL server hits the limit of storage IOPs
+        + if it is, time to use a larger instance as increasing number of CPUs
+          increases the limit of IOPs
+        + beaware that `16` cores is pretty much the limit as the throughput is
+          also limited by IOPs of transaction logs
+- `POOL_LOG_RATE_GOVERNOR`
+  * see `LOG_RATE_GOVERNOR`.
+- `PREEMPTIVE_DEBUG`
+  * probably accidentally hit the DEBUG button in SSMS rather than Execute
+- `RESMGR_THROTTLED`
+  * potential problems
+    + it usually implies throttling by cloud provider
+      + check setting `GROUP_MAX_REQUESTS`
+- `RESOURCE_SEMAPHORE`
+  * the server ran out of available memory to run queries, and queries had to
+    wait on available memory before they could even start
+- `RESOURCE_SEMAPHORE_QUERY_COMPILE`
+  * it is a lot like `RESOURCE_SEMAPHORE`, but it means SQL Server did not even
+    have enough memory to compile a query plan
+    + two position situations
+      + underpowered servers
+      + really complex queries with dozens or hundreds of joins and it is
+        possible even the server involved is powerful
+        + SQL Server does not have an easy way to find out the query with the
+          highest compilation times
+- `SE_REPL*`
+  * waiting for the secondary replicas to catch up
+- `THREADPOOL`
+  * ran out of worker threads, and new queries thought the SQL Server was frozen
+    solid
+    + the CPU usage might appear to be near zero
 
 ### Jobs
 
