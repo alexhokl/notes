@@ -24,6 +24,7 @@
   * [Location](#location)
   * [Image search](#image-search)
   * [Internet of Things (IOT)](#internet-of-things-iot)
+  * [Microsoft](#microsoft)
   * [Mobile devices](#mobile-devices)
   * [Monitoring](#monitoring)
   * [Online meeting](#online-meeting)
@@ -328,6 +329,10 @@ ____
 
 - [shodan](https://www.shodan.io/) - a search engine of internet-connected
   devices (for instance, IOT devices)
+
+### Microsoft
+
+- [sign-in methods](https://mysignins.microsoft.com/security-info)
 
 ### Mobile devices
 
