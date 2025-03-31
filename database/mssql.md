@@ -45,6 +45,8 @@ errors](https://learn.microsoft.com/en-us/sql/relational-databases/errors-events
   relief](https://www.brentozar.com/sql-critical-care/)
 - [Brent Ozar - Free How to Think Like the SQL Server Engine
   Course](https://www.brentozar.com/training/think-like-sql-server-engine/)
+- [microsoft/tigertoolbox](https://github.com/microsoft/tigertoolbox/) contains
+  useful scripts for troubleshooting SQL Server
 
 ## Tools
 
