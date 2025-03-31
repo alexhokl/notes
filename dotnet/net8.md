@@ -133,6 +133,11 @@ public SomeFunction(ILogger logger, [FromKeyedServices("key2")] ICache cache)
 }
 ```
 
+There are other method signatures such as
+
+- `AddKeyedSingleton`
+- `AddKeyedTransient`
+
 ## IHostedLifecycleService
 
 It inherits from `IHostedService` and provide more lifecycle methods.

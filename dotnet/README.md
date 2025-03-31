@@ -91,6 +91,8 @@ ____
 - [Conditional TargetFrameworks for Multi-Targeted .NET SDK Projects on
   Cross-Platform
   Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
+- [Download Visual
+  Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
 
 ### Tools
 
