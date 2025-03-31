@@ -4,6 +4,8 @@
   * [Import](#import)
   * [Removal](#removal)
   * [Refactoring](#refactoring)
+- [Recipes](#recipes)
+  * [private DNS name of a private IP on VPC of GCP](#private-dns-name-of-a-private-ip-on-vpc-of-gcp)
 ____
 
 ## Links
@@ -119,4 +121,36 @@ _CURRENT_SERIAL=$(cat ~/remote/source.tfstate | jq -r '.serial')
 _NEXT_SERIAL=$(($_CURRENT_SERIAL + 1))
 cat ~/remote/source.tfstate | jq ".serial = $_NEXT_SERIAL" > ~/remote/source_new.tfstate
 terraform state push ~/remote/source_new.tfstate
+```
+
+## Recipes
+
+### private DNS name of a private IP on VPC of GCP
+
+Note that this does not ensure encrypted traffic as certicates may not be issued
+with the private DNS name.
+
+```terraform
+resource "google_dns_managed_zone" "private_zone" {
+  name        = "private-zone"
+  dns_name    = "internal.your-domain.com."
+  description = "Internal DNS zone"
+
+  visibility = "private"
+
+  private_visibility_config {
+    networks {
+      network_url = module.vpc.network_self_link
+    }
+  }
+}
+
+resource "google_dns_record_set" "db_dns" {
+  depends_on   = [google_dns_managed_zone.private_zone]
+  managed_zone = google_dns_managed_zone.private_zone.name
+  name         = "db.${google_dns_managed_zone.private_zone.dns_name}"
+  rrdatas      = [google_sql_database_instance.instance.private_ip_address]
+  ttl          = 300
+  type         = "A"
+}
 ```
