@@ -403,6 +403,24 @@ WHERE type_desc LIKE '%CONSTRAINT'
   problems](https://docs.microsoft.com/en-us/azure/azure-sql/database/understand-resolve-blocking)
 - [Resolve blocking problems caused by lock escalation in SQL
   Server](https://docs.microsoft.com/en-GB/troubleshoot/sql/performance/resolve-blocking-problems-caused-lock-escalation)
+- [Cloud SQL - SQL Server Performance Analysis and Query
+  Tuning](https://cloud.google.com/blog/products/databases/sql-server-performance-analysis-and-query-tuning/)
+- [SQL Server Diagnostic Queries](https://glennsqlperformance.com/resources/)
+  from Glenn Berry
+  * [corresponding YouTube video](https://www.youtube.com/watch?v=mErorlpgl5k)
+- `EXEC sp_WhoIsActive @get_plans=1` can be used to view currently running
+  statements and to obtain details on the plans
+- query store should be enabled to understand bigger picture of queries ran on
+  the server
+  * to enable `ALTER DATABASE your_database SET QUERY_STORE = ON (WAIT_STATS_CAPTURE_MODE = ON);`
+  * after enabling query store, the statistics should be available via
+    Management Studio in a few minutes
+    + ![query store in Management Studio](./query_store.webp)
+- if adding `NO LOCK` to queries helps reducing contention and speeding things
+  up, it is probably a good idea to take a look at Read Committed Snapshot
+  Isolation (RCSI)
+  * when `READ_COMMITTED_SNAPSHOT` is turned on, SQL Server Engine uses row
+    versioning instead of locking
 
 ### Statistics
 
@@ -1134,6 +1152,9 @@ Note that the possible `transaction_isolation_level` values are
 - `IO_QUEUE_LIMIT`
   * potential problems
     + it usually implies throttling by cloud provider
+      + IOPs limit
+        + on GCP, add more storage space and vCPUs to increase IOPS and throughput
+        + on Azure, add more CPUs increase IOPs
 - `IO_RETRY`
   * a read or write failed due to insufficient resources, and the statement is
     waiting for a retry
