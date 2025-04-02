@@ -614,6 +614,10 @@ ____
 - 止まれ (とまれ) - stop
 - 痴漢 (ちかん) - molester
 - ぎる - to steal
+- ご迷惑 (ごめいわく) - trouble; annoyance
+- ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
+  the inconvenience
+- ご遠慮ください (ごえんりょください) - please refrain (from)
 
 ## Sites
 
