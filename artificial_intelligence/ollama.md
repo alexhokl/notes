@@ -1,4 +1,5 @@
 - [Links](#links)
+- [Characteristics](#characteristics)
 - [Commands](#commands)
 ____
 
@@ -17,6 +18,14 @@ ____
 - [alexhokl/ollama-image](https://github.com/alexhokl/ollama-image)
 - [llm-ollama](https://github.com/taketwo/llm-ollama) - a plugin for Python
   program `llm` to interact with Ollama
+
+# Characteristics
+
+- for vision models, the orientation and resolution of an image matters
+  * examples
+    + words in a rotated image cannot be recognised correctly
+    + words may not be recognised correctly if the resolution is too high
+      but the words are relative small in the image
 
 # Commands
 
