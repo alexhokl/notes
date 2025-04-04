@@ -279,6 +279,7 @@ ____
 - ほうれん草 (ほうれんそう) - spinach
 - アンチョビ - anchovy
 - ポテト - potato
+- 中華料理 (ちゅうかりょうり) - Chinese food
 
 ### Fish
 
@@ -917,6 +918,11 @@ ____
 - 雑誌 (ざっし) - magazine
 - 本 (ほん) - book
 
+## Personal care
+
+- シェービング - shaving
+- ヘッドスパ - head spa
+
 ## Sex
 
 - prefix
@@ -950,6 +956,7 @@ ____
 - 残業 (ざんぎょう) - overtime
 - 職場 (しょくば) - workplace
 - 弁護士 (べんごし) - lawyer
+- 正社員 (せいしゃいん) - full-time employee
 
 ### Software
 
@@ -967,6 +974,10 @@ ____
 
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
+
+# Pronouns
+
+- オール - all
 
 # Verbs
 
