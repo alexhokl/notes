@@ -26,6 +26,10 @@ ____
     + words in a rotated image cannot be recognised correctly
     + words may not be recognised correctly if the resolution is too high
       but the words are relative small in the image
+- `gemma3`
+  * although the context window is large, bias towards beginning of the context
+    is noticeable and it leads to wrong answer in case of question asked on
+    a specific part of context
 
 # Commands
 
