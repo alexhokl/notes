@@ -42,6 +42,7 @@
     + [Modeling for performance](#modeling-for-performance)
     + [Advanced performance topics](#advanced-performance-topics)
     + [NativeAOT Support and Precompiled Queries](#nativeaot-support-and-precompiled-queries)
+  * [Connection resiliency](#connection-resiliency)
   * [Client evaluation](#client-evaluation)
   * [Scaffolding (Reverse Engineering)](#scaffolding-reverse-engineering)
   * [Migration](#migration)
@@ -1773,6 +1774,139 @@ dotnet ef dbcontext optimize --precompile-queries
   large in terms of code size, and take a long while to generate
 - EF providers may need to build in support for precompiled queries
 - value converters that use captured state are not supported
+
+## Connection resiliency
+
+reference: [Connection
+resiliency](https://learn.microsoft.com/en-gb/ef/core/miscellaneous/connection-resiliency)
+
+- automatically retries failed database commands
+- execution strategy
+  * detect failures
+  * retry commands
+- custom strategy can be defined
+- providers of EF Core can implement their own execution strategies
+  * to provide sensible defaults such as maximum retries, delay between retries,
+    etc
+- idempotency is important as every `SaveChanges` will be retried
+- upon a connection is dropped while the transaction is being committed the
+  resulting state of the transaction is unknown
+  * the default strategy will retry the operation as if the transaction was
+    rolled back but if it is not the case this will result in an exception
+  * possible solutions
+    + do nothing
+      + assuming the likelihood of failure is low so it is acceptable
+      + this is like no `EnableRetryOnFailure`
+    + rebuild application state
+      + discard the current `DbContext`
+      + create a new `DbContext` and restore the state of your application from
+        the database
+      + inform the user that the last operation might not have been completed
+        successfully
+    + add state verification
+      + for most of the operations that change the database state it is possible
+        to add code that checks whether it succeeded
+        + see example below
+    + manually track the transaction
+      + adding a datbase table to track the transactions
+        + see example below
+
+##### Example on configuration
+
+```cs
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder
+        .UseSqlServer(
+            @"a connection string",
+            options => options.EnableRetryOnFailure());
+}
+```
+
+Note that in the above example that enabling retry on failure causes EF to
+internally buffer the resultset, which may significantly increase memory
+requirements for queries returning large resultsets.
+
+##### Example on registering a custom strategy
+
+```cs
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder
+        .UseMyProvider(
+            @"a connection string",
+            options => options.ExecutionStrategy(...));
+}
+```
+
+##### Example on using transaction
+
+```cs
+using var db = new BloggingContext();
+var strategy = db.Database.CreateExecutionStrategy();
+
+await strategy.ExecuteAsync(
+    async () =>
+    {
+        using var context = new BloggingContext();
+        await using var transaction = await context.Database.BeginTransactionAsync();
+
+        context.Blogs.Add(new Blog { Url = "http://blogs.msdn.com/dotnet" });
+        await context.SaveChangesAsync();
+
+        context.Blogs.Add(new Blog { Url = "http://blogs.msdn.com/visualstudio" });
+        await context.SaveChangesAsync();
+
+        await transaction.CommitAsync();
+    });
+```
+
+Note that default strategy from provider is used instead of custom strategy in
+case of user-defined transaction is used.
+
+##### Example on adding state verification
+
+```cs
+using var db = new BloggingContext();
+var strategy = db.Database.CreateExecutionStrategy();
+
+var blogToAdd = new Blog { Url = "http://blogs.msdn.com/dotnet" };
+db.Blogs.Add(blogToAdd);
+
+await strategy.ExecuteInTransactionAsync(
+    db,
+    operation: (context, cancellationToken) =>
+        context.SaveChangesAsync(
+            acceptAllChangesOnSuccess: false,
+            cancellationToken),
+    verifySucceeded: (context, cancellationToken) =>
+            context.Blogs.AsNoTracking().AnyAsync(b =>
+                b.BlogId == blogToAdd.BlogId,
+            cancellationToken));
+
+db.ChangeTracker.AcceptAllChanges();
+```
+
+##### Example on manual tracking of transactions
+
+```cs
+using var db = new BloggingContext();
+var strategy = db.Database.CreateExecutionStrategy();
+
+db.Blogs.Add(new Blog { Url = "http://blogs.msdn.com/dotnet" });
+
+var transaction = new TransactionRow { Id = Guid.NewGuid() };
+db.Transactions.Add(transaction);
+
+await strategy.ExecuteInTransactionAsync(
+    db,
+    operation: (context, cancellationToken) => context.SaveChangesAsync(acceptAllChangesOnSuccess: false, cancellationToken),
+    verifySucceeded: (context, cancellationToken) => context.Transactions.AsNoTracking().AnyAsync(t => t.Id == transaction.Id, cancellationToken));
+
+db.ChangeTracker.AcceptAllChanges();
+db.Transactions.Remove(transaction);
+await db.SaveChangesAsync();
+```
 
 ## Client evaluation
 
