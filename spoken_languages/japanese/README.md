@@ -957,6 +957,7 @@ ____
 ## Real estate
 
 - マンション - mansion (condominium)
+- 戸建て (こだて) - house
 
 ## Work
 
