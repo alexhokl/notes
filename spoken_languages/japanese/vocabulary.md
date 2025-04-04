@@ -178,6 +178,7 @@ ____
 - 色 (いろ) - color
 - 絵 (え) - picture; drawing; painting; sketch
 - 次 (つぎ) - next
+- 階段 (かいだん) - stairs
 
 ### Nouns (family)
 

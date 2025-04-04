@@ -472,6 +472,7 @@ ____
 - デザイン - design
 - 柄 (がら) - pattern
 - 年代 (ねんだい) - year or generation (for vintage)
+- 半袖シャツ (はんそでシャツ) - short-sleeve shirt
 
 ### Sizes
 
@@ -622,6 +623,13 @@ ____
 - ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
   the inconvenience
 - ご遠慮ください (ごえんりょください) - please refrain (from)
+- この階段は坂筋線には連絡していません
+  (このかいだんはさかすじせんにはれんらくしていません) - this stairway does not
+  connect to the Sakasuji line
+- JRへ通り抜けできません (JRへとおりぬけはできません) - you cannot pass
+  through to JR
+- 開く (ひらく) - open
+- 閉じる (とじる) - close
 
 ## Sites
 
