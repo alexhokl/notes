@@ -50,12 +50,15 @@
   * [Home appliances](#home-appliances)
   * [Internet](#internet)
   * [Media](#media)
+  * [Personal care](#personal-care)
   * [Sex](#sex)
   * [Family relationships](#family-relationships)
   * [Stationary](#stationary)
+  * [Real estate](#real-estate)
   * [Work](#work)
     + [Software](#software)
   * [Health](#health)
+- [Pronouns](#pronouns-1)
 - [Verbs](#verbs)
 ____
 
@@ -950,6 +953,10 @@ ____
 ## Stationary
 
 - 鋏 (はさみ) - scissors
+
+## Real estate
+
+- マンション - mansion (condominium)
 
 ## Work
 
