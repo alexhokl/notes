@@ -1,4 +1,5 @@
-  * [Links](#links)
+- [Links](#links)
+- [Mappings](#mappings)
   * [Basics](#basics)
   * [Navigation](#navigation)
   * [Text objects](#text-objects)
@@ -43,11 +44,14 @@ The following notes is based on my
 configuration
 files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
-### Links
+## Links
 
 - [VimConf](https://vimconf.org/)
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - a
   collections of awesome Neovim plugins
+- [LSP from neovim](https://neovim.io/doc/user/lsp.html)
+
+## Mappings
 
 ### Basics
 
@@ -347,6 +351,8 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>,</kbd><kbd>l</kbd><kbd>e</kbd> to show line diagnostics
 - <kbd>,</kbd><kbd>e</kbd><kbd>r</kbd> to show all diagnostics
 - <kbd>,</kbd><kbd>e</kbd><kbd>d</kbd> to show diagnostics of the current buffer
+- `:checkhealth vim.lsp` to check status of loaded LSP client
+- `vim.lsp.enable('luals')` to enable a LSP client
 
 ### Treesitter
 
