@@ -283,6 +283,7 @@ ____
 - アンチョビ - anchovy
 - ポテト - potato
 - 中華料理 (ちゅうかりょうり) - Chinese food
+- 生菓子 (なまがし) - fresh sweets
 
 ### Fish
 
@@ -630,6 +631,7 @@ ____
   through to JR
 - 開く (ひらく) - open
 - 閉じる (とじる) - close
+- 月極 (つきぎめ) - monthly contract
 
 ## Sites
 
@@ -985,11 +987,15 @@ ____
 - ツール - tool
 - コード - code
 - プログラミング - programming
+- パスワード - password
+- ワンタイムパスワード - one-time password
+- 二要素認証 (にようそにんしょう) - two-factor authentication
 
 ## Health
 
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
+- 風邪薬 (かぜぐすり) - remedy for a cold
 
 # Pronouns
 

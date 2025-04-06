@@ -595,7 +595,7 @@ ____
   expect a response)
 - 其れで (それで) - therefore; then
 - だから - therefore
-- 又は (または) - or
+- 又は (または) - or; either
 
 ### Verbs (Intransitive)
 
