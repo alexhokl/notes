@@ -60,10 +60,10 @@
   * [Family relationships](#family-relationships)
   * [Stationary](#stationary)
   * [Real estate](#real-estate)
+  * [Metal](#metal)
   * [Work](#work)
     + [Software](#software)
   * [Health](#health)
-- [Pronouns](#pronouns-1)
 - [Verbs](#verbs)
 ____
 
@@ -157,10 +157,13 @@ ____
 - second-person pronoun
   * it can be seen as rude and it is common to avoid it in conversations
   * it is common to use their names or social or family roles instead
-- 此方 (こちら) - this way / here / this
-  * I / me / we / us
-- 其方 (そちら) - that way / there / that
-  * you / your family / your company
+- 此方 (こちら) - this way; here; this
+  * I; me; we; us
+- 其方 (そちら) - that way; there; that
+  * you; your family; your company
+- オール - all
+- 様な (ような) - like; such as
+
 
 ### First person pronouns and its plural form
 
@@ -253,6 +256,7 @@ ____
 - 醤油 (しょうゆ) - soy sauce
 - 鹽 (shio) - salt
 - カレー - curry
+- カップメン - cup noodles
 - 豚汁 (とんじる) - pork miso soup
 - ビュッフェ - buffet
 - 中華料理 (ちゅうかりょうり) - Chinese food
@@ -997,6 +1001,10 @@ ____
 - マンション - mansion (condominium)
 - 戸建て (こだて) - house
 
+## Metal
+
+- スチール - steel
+
 ## Work
 
 - 残業 (ざんぎょう) - overtime
@@ -1029,10 +1037,6 @@ ____
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
 - 風邪薬 (かぜぐすり) - remedy for a cold
-
-# Pronouns
-
-- オール - all
 
 # Verbs
 

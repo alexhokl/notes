@@ -31,6 +31,7 @@
     + [Pronouns (person)](#pronouns-person-1)
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
+    + [Auxiliary verbs](#auxiliary-verbs)
     + [Verbs (Intransitive)](#verbs-intransitive-1)
     + [Verbs (Transitive)](#verbs-transitive-1)
     + [Common word](#common-word-1)
@@ -102,7 +103,6 @@ ____
 - 辞書 (じしょ) - dictionary
 - ノート - notebook
 - 写真 (しゃしん) - photograph
-- 切手 (きって) - stamp
 - 質問 (しつもん) - question
 - 問題 (もんだい) - problem (question)
 - 練習 (れんしゅう) - practice
@@ -178,7 +178,6 @@ ____
 - 結婚 (けっこん) - marriage
 - 色 (いろ) - color
 - 絵 (え) - picture; drawing; painting; sketch
-- 次 (つぎ) - next
 - 階段 (かいだん) - stairs
 
 ### Nouns (family)
@@ -600,6 +599,10 @@ ____
 - だから - therefore
 - 又は (または) - or; either
 
+### Auxiliary verbs
+
+- はず - should; must; expected to
+
 ### Verbs (Intransitive)
 
 - 入学 (にゅうがく) - admission to school
@@ -671,6 +674,7 @@ ____
 - 違い (ちがい) - difference
 - 浴衣 (ゆかた) - bathrobe
 - 袋 (ふくろ) - bag; sack; pouch
+- 協力 (きょうりょく) - cooperation
 
 ### Nouns (animals)
 
@@ -786,6 +790,8 @@ ____
 - ぐらい - about / approximately
 - 製 (せい) - -made; -manufactured
 - 課題 (かだい) - subject; theme; task; homework
+- 手数 (てすう) - trouble; bother
+- 共 (とも) - together; both; all
 
 ### Adjectives
 
@@ -800,7 +806,6 @@ ____
 ### Verbs (Transitive)
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
-
 
 ### Common word
 
