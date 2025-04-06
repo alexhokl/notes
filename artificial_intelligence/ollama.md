@@ -26,6 +26,7 @@ ____
     is noticeable and it leads to wrong answer in case of question asked on
     a specific part of context
   * prompts written in Japanese but response is return in English
+  * translation from Japanese Kenji to Kana is not very accurate
   * vision
     + the orientation and resolution of an image matters
       + examples
@@ -33,6 +34,7 @@ ____
         + words may not be recognised correctly if the resolution is too high
           but the words are relative small in the image
     + some Japanese words are not recognised correctly such as Kana
+    + it could not read Japanese written vertically
 
 # Commands
 
