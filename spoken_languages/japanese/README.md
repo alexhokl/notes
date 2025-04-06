@@ -14,7 +14,12 @@
     + [Fish](#fish)
     + [Shellfish](#shellfish)
     + [Other seafood](#other-seafood)
+    + [Vegetables](#vegetables)
     + [Fruits](#fruits)
+    + [Meat](#meat)
+    + [Poultry](#poultry)
+    + [Pastry](#pastry)
+    + [Dessert](#dessert)
   * [Drinks](#drinks)
   * [Convience store](#convience-store)
   * [Shopping](#shopping)
@@ -245,45 +250,14 @@ ____
 - 黄身 (きみ) - egg yolk
 - 白身 (しろみ) - egg white
 - パスタ - pasta
-- クッキー - cookie
-- 玉ねぎ (たまねぎ) - onion
-- 牡蠣 (かき) - oyster
-- 生牡蠣 (なまがき) - raw oyster
-- プリン - pudding
-- 叉焼 (チャーシュー) - roasted pork
-- 豚骨 (とんこつ) - pork bone
 - 醤油 (しょうゆ) - soy sauce
-- 葱 (negi) - green onion
 - 鹽 (shio) - salt
-- ステーキ - steak
-- ハラミ - skirt steak (横隔膜)
-- ホルモン - offal (內臟)
-- ベーコン - bacon
-- トマト - tomato
-- ピザ - pizza
-- バーガー - burger
 - カレー - curry
-- アップルパイ - apple pie
-- パンプキンパイ - pumpkin pie
-- ベジタリアン - vegetarian
-- 人参 (にんじん) - carrot
-- 朝鮮人参 (ちょうせんにんじん) - ginseng
 - 豚汁 (とんじる) - pork miso soup
-- エビフライ - fried shrimp
 - ビュッフェ - buffet
-- チルド - chilled
-- チョコ - chocolate
-- チョコレート - chocolate
-- アイス - ice; ice cream
-- アイスクリーム - ice cream
-- クリーム - cream
-- 但馬牛 (たじまうし) - Tajima beef
-- 鴨 (かも) - duck
-- ほうれん草 (ほうれんそう) - spinach
-- アンチョビ - anchovy
-- ポテト - potato
 - 中華料理 (ちゅうかりょうり) - Chinese food
-- 生菓子 (なまがし) - fresh sweets
+- チルド - chilled
+- 挽きたて (ひきたて) - freshly ground
 
 ### Fish
 
@@ -312,6 +286,7 @@ ____
 - シーバス - sea bass
 - ハドック - haddock
 - マス - trout
+- アンチョビ - anchovy
 
 ### Shellfish
 
@@ -326,6 +301,7 @@ ____
 - 魚介 (ぎょかい) - marine products
 - 車海老 (くるまえび) - tiger prawn
 - 蝦蛄 (しゃこ) - mantis shrimp
+- エビフライ - fried shrimp
 - 蛸 (たこ) - octopus
 - 蛸足 (たこあし) - octopus legs
 - 海胆 (ウニ) - sea urchin
@@ -333,6 +309,19 @@ ____
 - イクラ - salmon roe
 - 朧 (おぼろ) - crumbled shrimp paste
 - 蟹 (かに) - crab
+- 牡蠣 (かき) - oyster
+- 生牡蠣 (なまがき) - raw oyster
+
+### Vegetables
+
+- 玉ねぎ (たまねぎ) - onion
+- 葱 (negi) - green onion
+- トマト - tomato
+- ベジタリアン - vegetarian
+- 人参 (にんじん) - carrot
+- ほうれん草 (ほうれんそう) - spinach
+- ポテト - potato
+- 朝鮮人参 (ちょうせんにんじん) - ginseng
 
 ### Fruits
 
@@ -341,6 +330,41 @@ ____
 - 苺 (いちご) - strawberry
 - 林檎 (りんご) - apple
 - 蜜柑 (みかん) - mandarin orange
+
+### Meat
+
+- 叉焼 (チャーシュー) - roasted pork
+- 豚骨 (とんこつ) - pork bone
+- ステーキ - steak
+- 牛タン (ぎゅうタン) - beef tongue
+- タン - tongue (beef tongue in general)
+- ハラミ - skirt steak (横隔膜)
+- ホルモン - offal (內臟)
+- ベーコン - bacon
+- 但馬牛 (たじまうし) - Tajima beef
+
+### Poultry
+
+- 鴨 (かも) - duck
+
+### Pastry
+
+- クッキー - cookie
+- ピザ - pizza
+- バーガー - burger
+- アップルパイ - apple pie
+- パンプキンパイ - pumpkin pie
+
+### Dessert
+
+- チョコ - chocolate
+- チョコレート - chocolate
+- アイス - ice; ice cream
+- アイスクリーム - ice cream
+- クリーム - cream
+- 生菓子 (なまがし) - fresh sweets
+- ソフトクリーム - soft ice cream
+- プリン - pudding
 
 ## Drinks
 
@@ -351,6 +375,9 @@ ____
 - ジュース (jūsu) - juice
 - ワイン (wain) - wine
 - 緑茶ハイ (りょくちゃ) - high ball with green tea
+- 抹茶 (まっちゃ) - matcha
+- 煎茶 (せんちゃ) - green tea
+- 玉露 (ぎょくろ) - green tea - high quality
 
 ## Convience store
 
@@ -884,6 +911,7 @@ ____
 - ライド - ride
 - サドル - saddle
 - ツール - tour
+- ママチャリ - ladies' bicycle (especially one with a front basket)
 
 ## Driving
 
@@ -975,6 +1003,8 @@ ____
 - 職場 (しょくば) - workplace
 - 弁護士 (べんごし) - lawyer
 - 正社員 (せいしゃいん) - full-time employee
+- アルバイト - part time (from German "Arbeit")
+- 物作り (ものづくり) - craftsmanship; making things by hand
 
 ### Software
 
@@ -990,6 +1020,9 @@ ____
 - パスワード - password
 - ワンタイムパスワード - one-time password
 - 二要素認証 (にようそにんしょう) - two-factor authentication
+- パソコン - personal computer
+- パーソナルコンピュータ - personal computer
+- ウェブデザイン - web design
 
 ## Health
 

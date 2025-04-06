@@ -49,7 +49,8 @@
     + [Expressions](#expressions-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
-    + [Adjectives](#adjectives)
+    + [Adjectives (い)](#adjectives-%E3%81%84-3)
+    + [Adjectives (な)](#adjectives-%E3%81%AA-3)
     + [Adverbs](#adverbs-3)
     + [Verbs](#verbs)
     + [Common word](#common-word-3)
@@ -57,7 +58,7 @@
   * [N1](#n1)
     + [Particles](#particles)
     + [Nouns](#nouns-4)
-    + [Adjectives](#adjectives-1)
+    + [Adjectives](#adjectives)
     + [Adverb](#adverb)
     + [Verbs (Intransitive)](#verbs-intransitive-3)
     + [Verbs (Transitive)](#verbs-transitive-3)
@@ -499,6 +500,7 @@ ____
 - 生まれる (うまれる) - to be born
 - 要る (いる) - to be needed; to want
 - 会う (あう) - to meet
+- 疲れる (つかれる) - to get tired; to become exhausted
 
 ### Verbs (Direction Intransitive)
 
@@ -552,6 +554,7 @@ ____
 - 地震 (じしん) - earthquake
 - コンピュータ - computer
 - ご馳走 (ごちそう) - treat (especially food and drink)
+- 受付 (うけつけ) - reception; information desk
 
 ### Nouns (position)
 
@@ -667,6 +670,7 @@ ____
 - ゴミ - rubbish; trash
 - 違い (ちがい) - difference
 - 浴衣 (ゆかた) - bathrobe
+- 袋 (ふくろ) - bag; sack; pouch
 
 ### Nouns (animals)
 
@@ -682,6 +686,7 @@ ____
 
 - 新鮮 (しんせん) - fresh
 - 邪魔 (じゃま) - disturbance; obstruction
+- たっぷり - full of; a lot of; plenty of
 
 ### Pronouns (person)
 
@@ -741,10 +746,15 @@ ____
 - 後輩 (こうはい) - junior
 - 売店 (ばいてん) - stall; booth; kiosk; store
 - 複数 (ふくすう) - plural
+- 中身 (なかみ) - contents; interior; inside
 
-### Adjectives
+### Adjectives (い)
 
 - 勿体ない (もったいない) - wasteful / too good / more than one deserves
+
+### Adjectives (な)
+
+- 透明 (とうめい) - transparent
 
 ### Adverbs
 
