@@ -53,7 +53,8 @@
     + [Adjectives (い)](#adjectives-%E3%81%84-3)
     + [Adjectives (な)](#adjectives-%E3%81%AA-3)
     + [Adverbs](#adverbs-3)
-    + [Verbs](#verbs)
+    + [Verbs (Intransitive)](#verbs-intransitive-3)
+    + [Verbs (Transitive)](#verbs-transitive-3)
     + [Common word](#common-word-3)
     + [Expressions](#expressions-3)
   * [N1](#n1)
@@ -61,8 +62,8 @@
     + [Nouns](#nouns-4)
     + [Adjectives](#adjectives)
     + [Adverb](#adverb)
-    + [Verbs (Intransitive)](#verbs-intransitive-3)
-    + [Verbs (Transitive)](#verbs-transitive-3)
+    + [Verbs (Intransitive)](#verbs-intransitive-4)
+    + [Verbs (Transitive)](#verbs-transitive-4)
     + [Common word](#common-word-4)
 ____
 
@@ -677,6 +678,8 @@ ____
 - 浴衣 (ゆかた) - bathrobe
 - 袋 (ふくろ) - bag; sack; pouch
 - 協力 (きょうりょく) - cooperation
+- 以前 (いぜん) - before; ago
+- 俳優 (はいゆう) - actor; actress; player; performer
 
 ### Nouns (animals)
 
@@ -753,6 +756,7 @@ ____
 - 売店 (ばいてん) - stall; booth; kiosk; store
 - 複数 (ふくすう) - plural
 - 中身 (なかみ) - contents; interior; inside
+- 以降 (いこう) - on and after; since
 
 ### Adjectives (い)
 
@@ -766,7 +770,11 @@ ____
 
 - 愈々 (いよいよ) - more and more / all the more
 
-### Verbs
+### Verbs (Intransitive)
+
+### Verbs (Transitive)
+
+- 蹴る (ける) - to kick
 
 ### Common word
 
