@@ -64,6 +64,7 @@
   * [Work](#work)
     + [Software](#software)
   * [Health](#health)
+  * [Finance](#finance)
 - [Verbs](#verbs)
 ____
 
@@ -895,6 +896,8 @@ ____
 - ミッドフィルダー (midofirudā) - midfielder
 - フォワード (fowādo) - forward
 - ボランチ (boranchi) - volante (key player in the midfield)
+- 前半 (ぜんはん) - first half
+- 後半 (こうはん) - second half
 - チーム (chīmu) - team
 - ワールドカップ (wārudokappu) - World Cup
 - チャンピオンズリーグ (chanpionzurīgu) - Champions League
@@ -1037,6 +1040,12 @@ ____
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
 - 風邪薬 (かぜぐすり) - remedy for a cold
+- 抗生物質 (こうせいぶっしつ) - antibiotic
+
+## Finance
+
+- 少額投資非課税制度 (しょうがくとうしひかぜいせいど) - Nippon Individual
+  Savings Account; NISA
 
 # Verbs
 

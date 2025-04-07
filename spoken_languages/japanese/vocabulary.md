@@ -94,6 +94,7 @@ ____
 - 物 (もの) - thing
 - 鉛筆 (えんぴつ) - pencil
 - 紙 (かみ) - paper
+- 手紙 (てがみ) - letter
 - 切手 (きって) - stamp
 - 料理 (りょうり) - cooking
 - 会社 (かいしゃ) - company
@@ -615,6 +616,7 @@ ____
 - 参る (まいる) - to go; to come; to call
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely)
 - 反対 (はんたい) - opposition; resistance
+- 慣れる (なれる) - to get used to; to become familiar with
 
 ### Verbs (Transitive)
 
