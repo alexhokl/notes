@@ -1034,6 +1034,14 @@ ____
 - パソコン - personal computer
 - パーソナルコンピュータ - personal computer
 - ウェブデザイン - web design
+- デジタルフォレンジック - digital forensics
+- 暗号 (あんごう) - encryption; code; cipher
+- データ - data
+- データベース - database
+- メッセージ - message
+- 絵文字 (えもじ) - emoji
+- シグナル - signal
+- テレグラム - telegram
 
 ## Health
 
