@@ -245,6 +245,7 @@ ____
 - トイレ - toilet
 - 冷やし (ひやし) - cold
 - 割り (わり) - diluted with
+- 割烹 (かっぽう) - Japanese-style cooking
 
 ## Food
 
@@ -359,6 +360,7 @@ ____
 - バーガー - burger
 - アップルパイ - apple pie
 - パンプキンパイ - pumpkin pie
+- キャロットケーキ - carrot cake
 
 ### Dessert
 
@@ -383,6 +385,7 @@ ____
 - 抹茶 (まっちゃ) - matcha
 - 煎茶 (せんちゃ) - green tea
 - 玉露 (ぎょくろ) - green tea - high quality
+- 紅茶 (こうちゃ) - black tea
 
 ## Convience store
 
@@ -444,11 +447,14 @@ ____
 - 販売状況 (はんばいじょうきょう) - availability
 - 販売中 (はんばいちゅう) - for sale now
 - 売り切れ (うりきれ) - sold out
+- 貸し切り (かしかり) - reserving; full booking; block reservation
+- 貸し切る (かしかる) - to reserve; to book
 - 早い者勝ち方式。即購入OK。 - First come first served. Immediate purchases are
   okay.
 - いきなり購入禁止。コメントでやりとりしてから専用出品します。 - Please don't
   instantly buy this item. Comment first, and then I'll put up a reserved
   listing for you.
+- 早割 (はやわり) - early bird discount
 - username 様専用 - Reserved for username-sama
 - 使用感があるため、神経質な方はご遠慮ください。 - This item is clearly used, so
   please refrain from buying if you're picky/sensitive to wear and tear.
@@ -600,6 +606,8 @@ ____
   Japanese
 - 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
 - 皆さん (みなさん) - everyone
+- 皆様 (みなさま) - everyone (honorific)
+- 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
 - キャンセル (kyanseru) - cancel
 - 始めましょう (はじめましょう) - let's start
 - お休みなさい (おやすみなさい) - good night
@@ -641,6 +649,8 @@ ____
 - だっけ。 - was it?
 - 言わないことではない - I told you so
 - そうだよね - sure; yeah; I know
+- 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
+  from someone
 
 ## Signs
 
@@ -650,6 +660,7 @@ ____
 - 右に注意 (みぎにちゅうい) - caution, right
 - 引き (ひき) - pull
 - 止まれ (とまれ) - stop
+- 止まる (とまる) - to stop
 - 痴漢 (ちかん) - molester
 - ぎる - to steal
 - ご迷惑 (ごめいわく) - trouble; annoyance
@@ -679,6 +690,7 @@ ____
 - 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
 - 案内 (あんない) - guidance or information
 - バス (basu) - bus
+- バス停 (バスてい) - bus stop
 - タクシー (takushī) - taxi
 - 電車 (でんしゃ) - train
 - トラム (toramu) - tram
@@ -1049,6 +1061,7 @@ ____
 - 接骨院 (せっこついん) - orthopedic clinic
 - 風邪薬 (かぜぐすり) - remedy for a cold
 - 抗生物質 (こうせいぶっしつ) - antibiotic
+- アレルギー - allergy
 
 ## Finance
 

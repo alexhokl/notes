@@ -733,6 +733,7 @@ ____
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
+- 担当 (たんとう) - being in charge; being responsible
 
 ### Common word
 
