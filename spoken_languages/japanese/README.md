@@ -10,6 +10,7 @@
   * [Adverb](#adverb)
 - [Situation and vocabulary](#situation-and-vocabulary)
   * [Restaurant](#restaurant)
+  * [Convience store](#convience-store)
   * [Food](#food)
     + [Fish](#fish)
     + [Shellfish](#shellfish)
@@ -21,7 +22,6 @@
     + [Pastry](#pastry)
     + [Dessert](#dessert)
   * [Drinks](#drinks)
-  * [Convience store](#convience-store)
   * [Shopping](#shopping)
     + [Online shopping](#online-shopping)
     + [Clothing types](#clothing-types)
@@ -218,8 +218,8 @@ ____
 - どうも - not thank you but shows some kind of gratitude
 - いただきます - thank you (for the meal just served)
 - どうぞ (dōzo) - please (or go ahead)
-- 水はありますか？ (mizu wa arimasu ka?) - water, do you have?
-- お水お願いします (omizu onegaishimasu) - water, please
+- 水はありますか？ (みずはありますか) - water, do you have?
+- お水お願いします (おみずおねがいします) - water, please
 - 五名です (ごめいです) - there are 5 people
 - 二人です (ふたりです) - there are 2 people
 - いらっしゃいませ - welcome
@@ -230,33 +230,59 @@ ____
   away or about to serve a dish)
 - ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
 - 助かりました (たすかりました) - this helps alot!
-- お会計お願いします (okaikei onegaishimasu) - bill, please
+- お会計お願いします (おかいけいおねがいします) - bill please
 - ここってカード使えますか？ (ここってカードつかえますか) - can I use card here?
   (usage of って is equivalent to は)
+- クレジットカード大丈夫ですか。 (クレジットカードだいじょうぶですか) - is
+  credit card okay?
 - カードでお願いします - I'll pay by card
 - 朝食 (ちょうしょく) - breakfast
 - 昼食 (ちゅうしょく) - lunch
 - 夕食 (ゆうしょく) - dinner
 - 定食 (ていしょ) - set meal
 - 放題 (ほうだい) - all you can eat
-- レストラン (resutoran) - restaurant
-- マクドナルド (makudonarudo) - McDonald's
+- レストラン - restaurant
+- マクドナルド - McDonald's
 - お手洗い (おてあらい) - restroom
 - トイレ - toilet
 - 冷やし (ひやし) - cold
 - 割り (わり) - diluted with
 - 割烹 (かっぽう) - Japanese-style cooking
 
+## Convience store
+
+- はい、お願いします (はい、おねがいします) - yes, please
+- かしこまりました - Certainly
+- 大丈夫です (だいじゃうぶです) - it's okay
+- いえ - no
+- お箸、おつけしますか? (おはし、おつけしますか?) - chopsticks, may I add?
+- おしぼり、おつけしますか？ (おしぼり、おつけしますか?) - wet towel, may I add?
+- ポイントカードはおもちですか? (ポイントカードはおもちですか?) - point card, do
+  you have?
+- こちら温めまっすか？ (こちらあたためますか) - This, do you want to warn it
+  up?
+- 袋、ご利用おですか? (ふくろ、ごりようおですか?) - bag, will you use?
+- レジ袋いりますか？ (レジぶくろいりますか?) - cashier bag, do you need?
+- レジ袋お付けしますか？ (レジぶくろおつけしますか?) - cashier bag, may I add?
+- レジ袋わいらないです (レジぶくろわいらないです) - cashier bag, I don't need
+- 袋いらない (ふくろいらない) - no bag
+- レジ袋 (れじぶくろ) - plastic bag (literally it is "cashier bag")
+- ビニール袋 (ビにールぶくろ) - plastic bag (literally it is "vinyl bag")
+- コンビニ - convenience store
+- パック - pack
+- ハミガキ - toothpaste
+- エーティーエム - ATM
+
 ## Food
 
-- ご飯 (gohan) - rice
+- ご飯 (ごはん) - rice
 - 卵 (たまご) - egg
 - 玉子 (たまご) - egg
 - 黄身 (きみ) - egg yolk
 - 白身 (しろみ) - egg white
 - パスタ - pasta
 - 醤油 (しょうゆ) - soy sauce
-- 鹽 (shio) - salt
+- 鹽 (しお) - salt
 - カレー - curry
 - カップメン - cup noodles
 - 豚汁 (とんじる) - pork miso soup
@@ -387,31 +413,6 @@ ____
 - 玉露 (ぎょくろ) - green tea - high quality
 - 紅茶 (こうちゃ) - black tea
 
-## Convience store
-
-- はい、お願いします (hai, onegaishimasu) - Yes, please
-- かしこまりました (kashikomarimashita) - Certainly
-- 大丈夫です (だいじゃうぶです) - it's okay
-- いえ (ie) - no
-- お箸、おつけしますか? (ohashi, otsukeshimasu ka?) - chopsticks, may I add?
-- おしぼり、おつけしますか？ (oshibori, otsukeshimasu ka?) - wet towel, may
-  I add?
-- ポイントカードはおもちですか? (pointo kādo wa omochi desu ka?) - point card,
-  do you have?
-- こちら温めまっすか？ (kochira atatame masu ka?) - This, do you want to warn it
-  up?
-- 袋、ご利用おですか? (fukuro wa goriyō odesu ka?) - bag, will you use?
-- レジ袋いりますか？ (reji bukuro irimasu ka?) - cashier bag, do you need?
-- レジ袋お付けしますか？ (reji bukuro otsukeshimasu ka?) - cashier bag, may
-  I add?
-- レジ袋わいらないです (reji bukuro wa iranai desu) - cashier bag, I don't need
-- レジ袋 (reji bukuro) - plastic bag (literally it is "cashier bag")
-- ビニール袋 (binīru bukuro) - plastic bag (literally it is "vinyl bag")
-- コンビニ (konbini) - convenience store
-- パック (pakku) - pack
-- ハミガキ (hamigaki) - toothpaste
-- エーティーエム (ētīemu) - ATM
-
 ## Shopping
 
 - スーパー (sūpā) - supermarket
@@ -427,6 +428,9 @@ ____
 - 激安 (げきやす) - dirty cheap
 - 定価 (ていか) - regular retail price
 - 参考上代 (さんこうじょうだい) - MSRP (Manufacturer's Suggested Retail Price)
+- 現金 (げんきん) - cash
+- 免税 (めんぜい) - tax free
+- レジ - cash register
 
 ### Online shopping
 
@@ -597,14 +601,15 @@ ____
 - こちらこそよろしくお願いします (こちらこそよろしくおねがいします) - I'm
   pleased to meet you too
   * こちらこそ - it is me who should say so
-- ありがとう ございます (arigatō gozaimasu) - thank you
-- どう 致しまして (dō itashimashite) - you're welcome
-- おめでとう ございます somedetō gozaimasu) - congratulations
-- も一度いいですか？ (mo ichido īdesu ka?) - one more time, is it okay?
-- 日本語がわかりません (nihongo ga wakarimasen) - I don't understand Japanese
-- ちょっと日本語がわかる (chotto nihongo ga wakaru) - I understand a little
+- ありがとう ございます (ありがとう ございます) - thank you
+- どう 致しまして (どう いたしまして) - you're welcome
+- おめでとう ございます (おめでとう ございます) - congratulations
+- も一度いいですか？ (もいちどいいですか) - one more time, is it okay?
+- 日本語がわかりません (にほんごがわかりません) - Japanese, I don't
+  understand
+- ちょっと日本語がわかます (ちょっとにほんごがわかます) - I understand a little
   Japanese
-- 英語は話せますか？ (eigo wa hanasemasu ka?) - English, can you speak?
+- 英語は話せますか？ (えいごははなせますか) - English, can you speak?
 - 皆さん (みなさん) - everyone
 - 皆様 (みなさま) - everyone (honorific)
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
@@ -683,20 +688,22 @@ ____
 
 ## Transportation
 
-- 渋谷までお願いします (shibuya made onegaishimasu) - Shibuya to please
-- まもなく電車が参ります。黄色い線の内側煮立ってお待ちください (mamonaku densha
-  ga mairimasu. kiiroi sen no uchigawa ni tatte omachikudasai) - soon train is
-  coming. yellow line inside by standing wait please
+- 渋谷までお願いします (しぶやまでおねがいします) - Shibuya please
+- まもなく電車が参ります。黄色い線の内側煮立ってお待ちください
+  (まもなくでんしゃがまいります。きいろいせんのうちがわにたっておまちください) -
+  soon train is coming. yellow line inside by standing wait please
 - 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
+- ホーム - platform
 - 案内 (あんない) - guidance or information
-- バス (basu) - bus
+- バス - bus
 - バス停 (バスてい) - bus stop
-- タクシー (takushī) - taxi
+- タクシー - taxi
 - 電車 (でんしゃ) - train
-- トラム (toramu) - tram
+- トラム - tram
 - 徒歩 (とほ) - on foot
-- トラック (torakku) - truck
-- キロ (kiro) - kilometer
+- トラック - truck
+- レンタカー - rental car
+- キロ - kilometer
 - 切符 (きっぷ) - ticket
 - 内回り (うちまわり) - inner loop
 - 外回り (そとまわり) - outer loop
@@ -1061,6 +1068,7 @@ ____
 - 接骨院 (せっこついん) - orthopedic clinic
 - 風邪薬 (かぜぐすり) - remedy for a cold
 - 抗生物質 (こうせいぶっしつ) - antibiotic
+- 痛み止め (いたみどめ) - painkiller
 - アレルギー - allergy
 
 ## Finance
