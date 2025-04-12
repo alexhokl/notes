@@ -16,6 +16,7 @@
   * [Query plans](#query-plans)
   * [Indexes](#indexes)
   * [Locks and blocking processes](#locks-and-blocking-processes)
+  * [Optimistic locking](#optimistic-locking)
   * [General information](#general-information)
   * [Read-only replica and snapshot isolation](#read-only-replica-and-snapshot-isolation)
   * [Wait types](#wait-types)
@@ -1046,6 +1047,81 @@ Note that the following wait types are of more interest.
 1. `CXPACKET`
 2. `HADR_WORK_QUEUE`
 3. `SOS_SCHEDULER_YIELD`
+
+### Optimistic locking
+
+- types
+  * read commited snapshot isolation (RCSI)
+  * snapshot isolation
+- general functionalities
+  * to reduce blocking
+- use cases
+  * lots of tiny reads and writes that need to be quick
+  * mixed-used patterns
+    + lots of reads and writes and large reporting queries
+- default to disabled
+  * the default isolation level is `READ COMMITTED`
+- enable on database level
+  * `ALTER DATABASE YourDatabaseName SET READ_COMMITTED_SNAPSHOT ON`
+    + this may not work as it has to done in a database with only one active
+      user
+    + `ALTER DATABASE YourDatabaseName SET READ_COMMITTED_SNAPSHOT ON WITH ROLLBACK IMMEDIATE`
+      + this kills everyone else in the database
+        + beware that all rollback is single threaded; it may take a while
+  * `ALTER DATABASE YourDatabaseName SET ALLOW_SNAPSHOT_ISOLATION ON`
+- use cases of optimistic locking
+  * existing Online Transaction Processing (OLTP) application databases that
+    have report queries running against them
+    + RCSI
+      + Generally NO; extensive testing is required before adoption
+    + snapshot isolation
+      + yes, for reports
+  * new OLTP database with fresh code to be written
+    + RCSI
+      + yes, for new code but extensive testing is required before adoption as
+        the thinking is different from `READ COMMITTED`
+    + snapshot isolation
+      + yes, for reports that contain multiple queries and need data to be
+        consistent from a single point in time
+  * replication subscriber databases with big reporting queries or ETL scans
+    + RCSI
+      + yes
+    + snapshot isolation
+      + yes, for reports that contain multiple queries and need data to be
+        consistent from a single point in time
+  * pure data warehouses
+    * RCSI
+      + no
+    * snapshot isolation
+      + no
+- RCSI
+  * modifications start noting timestamps on the rows in your database of when
+    the changed happened; modifications where there is a "previous" version are
+    stored in the row versioning store in `tempdb` (although inserts are not
+    included)
+  * if someone else is actively changing data, the queries automatically go use
+    those versions in tempdb instead of waiting for the lock to be released
+  * readers cannot block writers, and writers cannot block readers
+- snapshot isolation
+  * the problem to solve is that some long reporting queries block little reads
+    and writes, or vice versa
+  * in case of multiple queries, if all the queries are wrapped in
+    a transaction, they will all be consistent as of the time the transaction
+    began
+  * RCSI does not help with this problem
+    + under RCSI, all individual queries are consistent with the time that query
+      began, regardless of whether they are wrapped in a larger transaction or
+      not
+  * required to be enabled on a per-query basis
+    + `SET TRANSACTION ISOLATION LEVEL SNAPSHOT`
+    + this may imply that developer may want to segment out the queries using
+      snapshot isolation into their own connection pool, because resetting
+      a connection does not reset the isolation level at the same time
+- enabling both RCSI and Snapshot Isolation against a database will not cause
+  more versions to be created against the version store
+  * they both use the same versions; the main difference will be that if your
+    SNAPSHOT multi-query transactions tend to run long, the version store in
+    your tempdb may be a bit slower to be cleaned up
 
 ### General information
 
