@@ -11,6 +11,7 @@
   * [Queries](#queries)
 - [Database performance](#database-performance)
   * [Troubleshooting perfromance issues](#troubleshooting-perfromance-issues)
+  * [Query store](#query-store)
   * [Statistics](#statistics)
   * [Memory](#memory)
   * [Query plans](#query-plans)
@@ -422,6 +423,85 @@ WHERE type_desc LIKE '%CONSTRAINT'
   Isolation (RCSI)
   * when `READ_COMMITTED_SNAPSHOT` is turned on, SQL Server Engine uses row
     versioning instead of locking
+
+### Query store
+
+- functionalities
+  * provides insights on query plan choice and performance of server
+  * find performance differences casused by query plan changes
+  * captures a history of queries, plans and runtime statistics
+- included in
+  * SQL Server
+  * Azure SQL Database
+  * Azure SQL Managed Instance
+- enabled by default
+  * Azure SQL Database
+  * Azure SQL Managed Instance
+  * SQL Server 2022 (16.x) in `READ_WRITE` mode
+- recommendations
+  * enable in all databases
+- information stored
+  * query plans
+    + plans also get evicted from the plan cache due to memory pressure; as
+      a result, query performance regressions caused by execution plan changes
+      can be non-trivial and time consuming to resolve
+    + since the Query Store retains multiple execution plans per query, it can
+      perform plan forcing; it is a mechanism similar to the `USE PLAN` query
+      hint, but it does not require any change in user applications
+  * wait stats
+    + available on query level since SQL Server 2017 (on database level
+      previously)
+    + [Wait categories mapping
+      table](https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-query-store-wait-stats-transact-sql?view=sql-server-ver15#wait-categories-mapping-table)
+    + database view `sys.query_store_wait_stats`
+  * runtime statistics
+    + execution statistics
+    + statistics are aggregated over a fixed time window
+- configurations
+  * `max_plans_per_query`
+    + the number of unique plans that can be stored for a query
+- secondary Replicas
+  * query store can be enabled but the statistics are sent to query store in
+    primary replica
+- management studio UI
+  * regressed queries
+    + use the dropdown list boxes at the top to filter queries based on various
+      criteria
+      + Duration (ms) (Default)
+      + CPU Time (ms)
+      + Logical Reads (KB)
+      + Logical Writes (KB)
+      + Physical Reads (KB)
+      + CLR Time (ms)
+      + DOP
+      + Memory Consumption (KB)
+      + Row Count
+      + Log Memory Used (KB)
+      + Temp DB Memory Used (KB)
+      + Wait Time (ms)
+- possible actions
+  * high buffer IO waits in Query Store for specific queries
+    + find the queries with a high number of physical reads in Query Store; if
+      they match the queries with high IO waits, consider introducing an index
+      on the underlying entity, in order to do seeks instead of scans, and thus
+      minimize the IO overhead of the queries
+  * high CPU waits in Query Store for specific queries
+    + there could be a plan regression, or perhaps a missing index
+
+To enable query store
+
+```sql
+ALTER DATABASE your_database_name SET QUERY_STORE = ON (OPERATION_MODE = READ_WRITE);
+ALTER DATABASE your_database_name SET QUERY_STORE = ON (WAIT_STATS_CAPTURE_MODE = ON);
+```
+
+Note that query store cannot be enabled for `master` or `tempdb` databases.
+
+To check configuration options of query store
+
+```sql
+SELECT * FROM sys.database_query_store_options
+```
 
 ### Statistics
 
