@@ -1534,6 +1534,67 @@ SELECT * FROM sys.linked_logins
   Partitioning](https://www.brentozar.com/archive/2012/08/potential-problems-partitioning/)
 - [SQL Server Table Partitioning:
   Resources](https://www.brentozar.com/sql/table-partitioning-resources/)
+- use cases
+  * a whole partition can be switched into the table or switched out, allowing
+    for extremely fast loading and removal of large amounts of data
+    + exclusive lock Schema Modification lock `SCH-M` is required; which blocks
+      all reading and writing
+    + an empty table can be created, adding minimum indexes to match the
+      partitioned table, and “switch” a whole partition of data out into the
+      empty table
+  * data warehousing
+    + a partition swap is a metadata change
+      + an entire parition can reloaded and index fragmentation can be
+        avoided
+  * if tuning is not quite possible, since table partitioning is "transparent"
+    to queries (developer only need to change queries to use the partition key)
+  * enhancing write throughput
+    + by using a hash partitioning key, writes can be spread across multiple
+      partitions to be written to at the same time
+      + this depends on how the partitioning key is defined
+      + this is limited by the transaction log where it is a single file per
+        database
+  * multi-tenacny
+    + partition by client ID
+  * OLTP systems
+    + partitioning may still be used as a way to spread write load across
+      multiple drives
+- extra efforts
+  * non-clustered indexes must be adapted to use the partition key
+- partition elimination
+  * using fewer partitions than the entire table in a query
+  * in terms of statistics, SQL Server Query optimiser may still have a very
+    hard time knowing how much data is going to be returned by a query, and this
+    difficulty will increase as the table grows; resulting in slow queries
+- partition management
+  * be rebuilt individually, for clustered and non-clustered indexes
+  * be set to read-only via their filegroup; gives an option to optimize
+    backup process
+- restrictions
+  * a single column to be used as a partitioning key
+    + a computed column can be used
+      + it may be necessary to update queries to include a search on the
+        partition key through dynamic SQL or by generating the queries in the
+        application tier
+  * once it is defined, it cannot be changed unless a new table is created
+  * Enterprise edition only
+- preparations
+  * checking query practices
+    + a scan of `sys.sql_modules` and querying a combination of
+      `sys.dm_exec_cached_plans` and `sys.dm_exec_sql_text` will reveal commonly
+      used query criteria
+  * test the partitioning to prove it really helps the problem before deploying
+    it
+- it should be last option to consider in solving performance issues
+  * it is very involved and very prone to make the current problem worst
+  * if the problem is too many small writes, another solution could be
+    implementing a queue and process the messsage in bulk to write to the
+    database
+- tricks
+  * create "extra" empty partitions
+    + keep empty partitions at both ends of the partition range to guarantee
+      that the partition split (before loading new data) and partition merge
+      (after unloading old data) do not incur any data movement
 
 ### User-defined function (UDF)
 
