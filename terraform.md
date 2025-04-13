@@ -1,4 +1,5 @@
 - [Links](#links)
+- [Concepts](#concepts)
 - [Commands](#commands)
   * [Basic](#basic)
   * [Import](#import)
@@ -13,6 +14,29 @@ ____
 - [Writing Terraform for unsupported
   resources](https://www.hashicorp.com/blog/writing-terraform-for-unsupported-resources)
 - [OpenTofu](https://opentofu.org/)
+
+## Concepts
+
+- terraform state is not encrypted and it can conntain secrets
+  * use a backend that supports encryption
+    + AWS S3
+    + GCP Cloud Storage
+    + Azure Blob Storage
+  * strict control who can access the backend
+- since version `0.14`, variables can be marked as sensitive by `sensitive
+  = true`
+- variable can be set by using environment variables with prefix `TF_VAR_`
+  * environment variables should be setup before `terraform apply`
+- key service can be used but it is not the most secured implementation
+  * examples of key services
+    + AWS KMS
+    + GCP Cloud KMS
+    + Azure Key Vault
+- secret stores should be used
+  * Hashicorp Vault
+  * AWS Secrets Manager
+  * AWS Param Store
+  * GCP Secret Manager
 
 ## Commands
 
