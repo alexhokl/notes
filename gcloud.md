@@ -27,6 +27,7 @@
   * [Certificate Authority Service](#certificate-authority-service)
   * [Compliance](#compliance)
   * [Cloud Run](#cloud-run)
+  * [Cloud SQL](#cloud-sql-1)
   * [Looker](#looker)
 - [APIs](#apis)
   * [Vision API](#vision-api)
@@ -1196,6 +1197,34 @@ BigQuery tables.
 ### Cloud Run
 
 - a volume mount can be created using a Cloud Storage bucket
+
+### Cloud SQL
+
+#### Cloud SQL Auth proxy
+
+- benefits
+  * secure connections
+    + and no management of SSL certificates is required
+  * easier connection authorization
+    + IAM service account can be used
+    + without a need for configuring Authorized networks (IP whitelisting of
+      Cloud SQL)
+- what it does not solve
+  * it does not provide a new connectivity path
+    + it relies on existing IP connectivity
+      + to connect to a Cloud SQL instance using private IP, the Cloud SQL Auth
+        Proxy must be on a resource with access to the same VPC network as the
+        instance
+  * it does not bypass SSL/TLS requirement
+    + if a SQL Server instance has "Require SSL/TLS" checked, even with Cloud
+      SQL Auth Proxy or Cloud SQL Connectors, the client application needs to
+      have TLS/SSL configured the same way as if Cloud SQL Auth Proxy or Cloud
+      SQL Connectors aren't involved, otherwise a connection attempt might fail
+- languages of Cloud SQL connector
+  * Java
+  * Python
+  * Go
+  * Node.js
 
 ### Looker
 
