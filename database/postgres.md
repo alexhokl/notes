@@ -1,11 +1,14 @@
 - [Links](#links)
-  * [Commands](#commands)
+- [Commands](#commands)
+  * [pg_dump](#pg_dump)
+  * [psql](#psql)
 - [SQL statements](#sql-statements)
   * [Management](#management)
   * [Performance](#performance)
   * [JSON](#json)
   * [User and role management](#user-and-role-management)
 - [Features](#features)
+  * [B-Tree de-duplication](#b-tree-de-duplication)
 - [Limitations](#limitations)
 ____
 
@@ -13,11 +16,11 @@ ____
 
 - [explain.dalibo.com](https://explain.dalibo.com/) - visualising query plans
 - [pganalyze](https://pganalyze.com/) - a SaaS product for tuning PostgreSQL
-  queries
+- [pganalyze index advisor](https://pganalyze.com/index-advisor)
 
-### Commands
+## Commands
 
-#### pg_dump
+### pg_dump
 
 ##### To create script with database creation
 
@@ -43,7 +46,7 @@ pg_dump -s -h host1 -U user1 -d your-db-name
 pg_dump -a -h host1 -U user1 -d your-db-name
 ```
 
-#### psql
+### psql
 
 ##### To avoid prompting for password for every psql command
 
@@ -395,6 +398,16 @@ ALTER SCHEMA your_schema OWNER TO appuser;
   * GIN (an inverted index)
     + it is like tokenized a column so that rows are indexed by the tokens
   * BRIN
+
+### B-Tree de-duplication
+
+- since version `13`
+- the same indexed value is stored only once to make the index compact
+  * examples of values
+    + status codes
+    + boolean flags
+    + timestamps
+- easier to fit the index in memory an reduce disk pressure
 
 ## Limitations
 

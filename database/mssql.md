@@ -854,6 +854,13 @@ columns or index key size.
 A detailed explanation using query plan - [SQL Server Indexes with Included
 Columns](http://www.sqlservertutorial.net/sql-server-indexes/sql-server-indexes-with-included-columns/)
 
+#### Clustered indexes
+
+- physically order data of the corresponding table by the indexed column
+  * when a clustered index is defined, the rows in the table are stored in the
+    same order as the index itself
+- limited to one clustered index per table
+
 ### Locks and blocking processes
 
 - references
