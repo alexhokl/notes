@@ -35,6 +35,7 @@
     + [Relationships](#relationships)
     + [Loading](#loading)
     + [Cyclic navigation properties](#cyclic-navigation-properties)
+    + [Non-nullable properties and initialization](#non-nullable-properties-and-initialization)
   * [Performance](#performance)
     + [Performance diagnosis](#performance-diagnosis)
     + [Effiient Querying](#effiient-querying)
@@ -1295,6 +1296,122 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 Or adding `[JsonIgnore]` to one of the navigation properties.
+
+### Non-nullable properties and initialization
+
+#### Required properties
+
+The following common way of writing entity types cannot be used.
+
+```cs
+public class Customer
+{
+    public int Id { get; set; }
+
+    // Generates CS8618, uninitialized non-nullable property:
+    public string Name { get; set; }
+}
+```
+
+The "correct" way since C# 11 is to like the following.
+
+```cs
+public required string Name { get; set; }
+```
+
+For any resons that modifier `required` cannot be used, constructor binding can
+be used. 
+
+```cs
+public class CustomerWithConstructorBinding
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+
+    public CustomerWithConstructorBinding(string name)
+    {
+        Name = name;
+    }
+}
+```
+
+Note that the above does not work with navigation property. The following is the
+best effort to mimic the `required` modifier.
+
+```cs
+public Product Product { get; set; } = null!;
+```
+
+#### Required navigation properties
+
+- use case
+  * required navigations from the dependent to the principal
+- considerations to make a navigation property `required`
+  * it should be non-nullable if it is considered a programmer error to access
+    a navigation when it is not loaded
+  * it should be nullable if it acceptable for application code to check the
+    navigation to determine whether or not the relationship is loaded
+
+To make a non-nullable property with a nullable backing field
+
+```cs
+private Address? _shippingAddress;
+
+public Address ShippingAddress
+{
+    set => _shippingAddress = value;
+    get => _shippingAddress
+           ?? throw new InvalidOperationException(
+                "Uninitialized property: " + nameof(ShippingAddress));
+}
+```
+
+#### Collection navigation properties
+
+- use cases
+  * contain references to multiple related entities
+- it should be non-nullable
+- an empty collection means that no related entities exist, but the list itself
+  should never be `null`
+
+#### DbContext and DbSet
+
+In theory, the following causes a compiler warning. But in practice, it is
+suppressed and EF automatically initializes these properties via reflection.
+
+```cs
+public class MyContext : DbContext
+{
+    public DbSet<Customer> Customers { get; set;}
+}
+```
+
+Note that the above property can also be initialised with `null!`.
+
+#### Includes
+
+When translating and executing your LINQ queries, EF Core guarantees that if an
+optional related entity does not exist, any navigation to it will simply be
+ignored, rather than throwing. However, the compiler is unaware of this EF Core
+guarantee, and produces warnings as if the LINQ query were executed in memory,
+with LINQ to Objects. As a result, it is necessary to use the null-forgiving
+operator (`!`) to inform the compiler that an actual null value is not possible.
+
+```cs
+var order = await context.Orders
+    .Where(o => o.OptionalInfo!.SomeProperty == "foo")
+    .ToListAsync();
+
+var order = await context.Orders
+    .Include(o => o.OptionalInfo!)
+    .ThenInclude(op => op.ExtraAdditionalInfo)
+    .SingleAsync();
+```
+
+Another way to make navigation properties non-nullable and to configure them as
+optional is via the Fluent API or Data Annotations. However, if your entities
+are traversed outside of EF Core, `null` values can be retrieved in non-nullable
+properties.
 
 ## Performance
 
