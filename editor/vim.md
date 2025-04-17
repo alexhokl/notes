@@ -339,15 +339,15 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 
 ### LSP
 
-- <kbd>g</kbd><kbd>r</kbd> to find usages
-- <kbd>g</kbd><kbd>i</kbd> to find implementations
+- <kbd>g</kbd><kbd>r</kbd><kbd>r</kbd> to find usages
+- <kbd>g</kbd><kbd>r</kbd><kbd>i</kbd> to find implementations
 - <kbd>K</kbd> show documentation
 - <kbd>g</kbd><kbd>d</kbd> go to definition
 - <kbd>g</kbd><kbd>D</kbd> go to declaration
 - <kbd>,</kbd><kbd>D</kbd> show type definition
-- <kbd>,</kbd><kbd>r</kbd><kbd>n</kbd> to rename
+- <kbd>g</kbd><kbd>r</kbd><kbd>n</kbd> to rename
 - <kbd>,</kbd><kbd>f</kbd><kbd>f</kbd> to format code
-- <kbd>,</kbd><kbd>c</kbd><kbd>a</kbd> to invoke code actions
+- <kbd>g</kbd><kbd>r</kbd><kbd>a</kbd> to invoke code actions
 - <kbd>,</kbd><kbd>l</kbd><kbd>e</kbd> to show line diagnostics
 - <kbd>,</kbd><kbd>e</kbd><kbd>r</kbd> to show all diagnostics
 - <kbd>,</kbd><kbd>e</kbd><kbd>d</kbd> to show diagnostics of the current buffer
