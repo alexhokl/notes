@@ -698,6 +698,7 @@ ____
 
 - 開放 (かいほう) - open
 - 稲荷 (いなり) - god of harvest
+- 旅館 (りょかん) - hotel
 
 ## Transportation
 
