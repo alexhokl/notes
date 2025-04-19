@@ -119,7 +119,7 @@ ____
 - 銀行 (ぎんこう) - bank
 - 郵便局 (ゆうびんきょく) - post office
 - 図書館 (としょかん) - library
-- 病院 (びょういん) - hospital
+- 病院 (びょういん) - hospital; clinic
 - デパート - department store
 - ホテル - hotel
 - レストラン - restaurant
@@ -446,6 +446,7 @@ ____
 - 時々 (ときどき) - sometimes / occasionally
 - 良く (よく) - nicely; often
 - 大変 (たいへん) - very; greatly; terribly
+- 早く (はやく) - quickly; early; also as 速く
 
 ### Conjunctions
 
@@ -513,6 +514,7 @@ ____
 
 - 下さい (ください) - please
 - あのう - em...
+- 就いて (ついて) - about; concerning; as to; regarding
 
 ### Common word
 
@@ -681,6 +683,7 @@ ____
 - 協力 (きょうりょく) - cooperation
 - 以前 (いぜん) - before; ago
 - 俳優 (はいゆう) - actor; actress; player; performer
+- 事実 (じじつ) - fact; truth
 
 ### Nouns (animals)
 
@@ -759,6 +762,7 @@ ____
 - 複数 (ふくすう) - plural
 - 中身 (なかみ) - contents; interior; inside
 - 以降 (いこう) - on and after; since
+- 役所 (やくしょ) - government office
 
 ### Adjectives (い)
 
@@ -804,6 +808,7 @@ ____
 - 課題 (かだい) - subject; theme; task; homework
 - 手数 (てすう) - trouble; bother
 - 共 (とも) - together; both; all
+- 手数 (てすう) - trouble
 
 ### Adjectives
 
@@ -822,3 +827,4 @@ ____
 ### Common word
 
 - ルール - rule
+- メーカー - manufacturer; maker

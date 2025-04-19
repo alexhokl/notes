@@ -35,6 +35,7 @@
   * [Sites](#sites)
   * [Transportation](#transportation)
     + [Trains](#trains)
+  * [Logistics](#logistics)
   * [Date](#date)
   * [Time](#time)
     + [Approximate time](#approximate-time)
@@ -290,6 +291,9 @@ ____
 - 中華料理 (ちゅうかりょうり) - Chinese food
 - チルド - chilled
 - 挽きたて (ひきたて) - freshly ground
+- 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
+  referring to chicken
+- 大蒜 (にんにく) - garlic
 
 ### Fish
 
@@ -331,6 +335,7 @@ ____
 ### Other seafood
 
 - 魚介 (ぎょかい) - marine products
+- 海老 (えび) - shrimp
 - 車海老 (くるまえび) - tiger prawn
 - 蝦蛄 (しゃこ) - mantis shrimp
 - エビフライ - fried shrimp
@@ -412,6 +417,7 @@ ____
 - 煎茶 (せんちゃ) - green tea
 - 玉露 (ぎょくろ) - green tea - high quality
 - 紅茶 (こうちゃ) - black tea
+- アルコール - alcohol
 
 ## Shopping
 
@@ -431,6 +437,8 @@ ____
 - 現金 (げんきん) - cash
 - 免税 (めんぜい) - tax free
 - レジ - cash register
+- 徳用 (とくよう) - family size
+- 手数料 (てすうりょう) - handling fee; commission
 
 ### Online shopping
 
@@ -656,6 +664,8 @@ ____
 - そうだよね - sure; yeah; I know
 - 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
   from someone
+- お持て成し (おもてなし) - hospitality; reception; entertainment;
+  treatment; service
 
 ## Signs
 
@@ -678,8 +688,10 @@ ____
 - JRへ通り抜けできません (JRへとおりぬけはできません) - you cannot pass
   through to JR
 - 開く (ひらく) - open
+- 開き (ひらき) - opening; gap
 - 閉じる (とじる) - close
 - 月極 (つきぎめ) - monthly contract
+- お並び列 (おならびれつ) - please line up
 
 ## Sites
 
@@ -708,6 +720,7 @@ ____
 - 内回り (うちまわり) - inner loop
 - 外回り (そとまわり) - outer loop
 - 反対側 (はんたいがわ) - opposite side
+- 扉 (とびら) - door
 
 ### Trains
 
@@ -720,6 +733,11 @@ ____
 - 特急 (tokkyū) - Limited Express
   * this train stops at the fewest stations. In most cases, you can ride limited
     express trains without paying special fares, but there are exceptions.
+
+## Logistics
+
+- ヤマト運輸 (ヤマトうんゆ) - Yamato Transport
+- 運送状 (うんそうじょう) - waybill; bill of lading
 
 ## Date
 
@@ -958,6 +976,7 @@ ____
 - 兎 (うさぎ) - rabbit
 - 山羊 (やぎ) - goat
 - 毛繕い (けづくろい) - grooming
+- 雀 (すずめ) - tree sparrow
 
 ## Funiture
 
@@ -1022,6 +1041,7 @@ ____
 
 - マンション - mansion (condominium)
 - 戸建て (こだて) - house
+- 長居 (ながい) - long stay
 
 ## Metal
 
@@ -1061,11 +1081,16 @@ ____
 - 絵文字 (えもじ) - emoji
 - シグナル - signal
 - テレグラム - telegram
+- 生成ＡＩ (せいせいＡＩ) - generative AI
+- ショートカット - shortcut
+- システムエラー - system error
+- コメント - comment
 
 ## Health
 
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
+- クリニック - clinic
 - 風邪薬 (かぜぐすり) - remedy for a cold
 - 抗生物質 (こうせいぶっしつ) - antibiotic
 - 痛み止め (いたみどめ) - painkiller
