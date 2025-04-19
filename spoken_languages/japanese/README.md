@@ -62,6 +62,7 @@
   * [Stationary](#stationary)
   * [Real estate](#real-estate)
   * [Metal](#metal)
+  * [News](#news)
   * [Work](#work)
     + [Software](#software)
   * [Health](#health)
@@ -1046,6 +1047,10 @@ ____
 ## Metal
 
 - スチール - steel
+
+## News
+
+- 事実はございません (じじつはございません) - There is no truth to this
 
 ## Work
 
