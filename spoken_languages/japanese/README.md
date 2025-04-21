@@ -1115,6 +1115,7 @@ ____
 - コメント - comment
 - プライバシーポリシー - privacy policy
 - セキュリティポリシー - security policy
+- キーポード - keyboard
 
 ## Health
 
