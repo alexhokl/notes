@@ -1113,6 +1113,7 @@ ____
 - ショートカット - shortcut
 - システムエラー - system error
 - コメント - comment
+- プライバシーポリシー - privacy policy
 
 ## Health
 
