@@ -30,6 +30,9 @@
   * [Untrusted constraints](#untrusted-constraints)
   * [Foreign keys](#foreign-keys)
   * [MERGE statements](#merge-statements)
+- [Security](#security)
+  * [Hierarchy](#hierarchy)
+  * [Permissions](#permissions)
 ____
 
 ## Links
@@ -1893,3 +1896,142 @@ exec dbo.usp_SearchFK 'dbo.YourTableName'
   * to capture the results of the `MERGE` statement
   * `INSERTED` and `DELETED` tables are available
 
+## Security
+
+### Hierarchy
+
+- principals
+  * windows level
+    + windows group
+    + windows domain login
+    + windows local login
+  * server level
+    + fixed server role
+    + SQL Server login
+    + user-defined fixed server role
+  * database level
+    + fixed database role
+    + database user
+    + application role
+    + user-defined datbase role
+- securables
+  * server level
+    + SQL Server login
+    + endpoint
+    + database
+  * database level
+    + application role
+    + assembly
+    + asymmetric key
+    + certificate
+    + contract
+    + full-text catalog
+    + message type
+    + remote service binding
+    + role
+    + route
+    + service
+    + symmetric key
+    + user
+    + schema
+      + table
+      + view
+      + function
+      + procedure
+      + queue
+      + synonym
+      + type
+      + XML schema collection
+
+### Permissions
+
+- every SQL server securable (resource) has associated permissions that can be
+  granted to a principal
+- server level permissions are assigned to logins and server roles
+- dataabase level permissions are assigned to database users and database roles
+- Azure SQL Database has the same system for the database permissions, but the
+  server level permissions are not available
+- most permission apply to all platforms but some do not
+- `sys.fn_builtin_permissions`
+- permissions
+  * `CONTROL`
+  * `ALTER`
+    + confers the ability to change the properties, execpt ownership, of
+      a particular securable
+    + when granted on a scope, `ALTER` also bestows the ability to alter,
+      create, or drop any securable that is contained within that scope
+  * `ALTER ANY`
+    + confers to ability to `CREATE`, `ALTER` or `DROP`
+    + examples
+      + `ALTER ANY LOGIN`
+      + `ALTER ANY SCHEMA`
+  * `TAKE OWNERSHIP`
+  * `IMPERSONATE`
+    + can be applied to server login and database user
+  * `CREATE`
+  * `VIEW DEFINITION`
+    + enables the grantee to access metadata
+  * `REFERENCES`
+    + required to create a `FOREIGN KEY` constraint that references that table
+    + required to create a `FUNCTION` or `VIEW` with the `WITH SCHEMABINDING`
+      clause that references that object
+  * `VIEW CHANGE TRACKING`
+  * `SELECT`
+  * `UPDATE`
+  * `DELETE`
+- [permissions applicable to specific
+  securables](https://learn.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine#permissions-applicable-to-specific-securables)
+- the default permissions that are granted to system objects at the time of
+  setup are carefully evaluated against possible threats and need not be altered
+  as part of hardening the SQL Server installation; any changes to the
+  permissions on the system objects could limit or break the functionality and
+  could potentially leave your SQL Server instsallation in an unsupported state
+- [SQL Server permissions](https://learn.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine#sql-server-permissions)
+- no users can grant, deny or revoke permission to `sa`, `dbo`, the entity
+  owner, `information_schema`, `sys`, or the user oneself
+- security context
+  * these are permissions that are related to the current login or user, unless
+    the security context was changed to another login or user using `EXECUTE AS`
+    statement
+  * principals involved
+    + login
+    + user
+    + role memberships
+    + Windows group memberships
+- permission space
+  * this is the securable entity and any securable classes that contain the
+    securable
+- required premission
+  * examples
+    + `INSERT`, `UPDATE`, `DELETE`, `SELECT`, `EXECUTE`, `ALTER`, `CONTROL`, ...
+- column level permissions
+  * example
+    + `GRANT SELECT ON OBJECT::Customer(CustomerName) To UserJoe`
+  * a `DENY` on the table is overriden by a `GRANT` on a column; however, a subsequent
+    `DENY` on the table will remove the column `GRANT`
+
+##### Return the complete list of grantable permissions
+
+```sql
+SELECT * FROM fn_builtin_permissions(default);
+```
+
+##### Return the permissions on a particular class of objects
+
+```sql
+SELECT * FROM fn_builtin_permissions('assembly');
+```
+
+##### Return the permissions granted to the executing principal on an object
+
+```sql
+SELECT * FROM fn_my_permissions('Orders55', 'object');
+```
+
+##### Return the permissions applicable to a specified object
+
+```sql
+SELECT *
+FROM sys.database_permissions
+WHERE major_id = OBJECT_ID('Yttrium');
+```
