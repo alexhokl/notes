@@ -30,6 +30,8 @@ ____
   Clauses](https://commission.europa.eu/system/files/2023-05/%28Final%29%20Joint_Guide_to_ASEAN_MCC_and_EU_SCC.pdf)
 - [ASEAN Model Contractual Clauses for Cross Border Data
   Flows](https://asean.org/wp-content/uploads/3-ASEAN-Model-Contractual-Clauses-for-Cross-Border-Data-Flows_Final.pdf)
+- [An example from Yamato
+  Transportation](https://www.kuronekoyamato.co.jp/ytc/gdpr/)
 
 ## Transferring data out of EU
 
