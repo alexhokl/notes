@@ -1114,6 +1114,7 @@ ____
 - システムエラー - system error
 - コメント - comment
 - プライバシーポリシー - privacy policy
+- セキュリティポリシー - security policy
 
 ## Health
 
