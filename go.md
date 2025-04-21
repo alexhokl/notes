@@ -38,6 +38,7 @@
   * [Array, slice, reference and range](#array-slice-reference-and-range)
   * [Maps and pointers](#maps-and-pointers)
   * [Iterator functions](#iterator-functions)
+  * [Hash](#hash)
   * [Goroutine](#goroutine)
   * [sync.WaitGroup](#syncwaitgroup)
   * [Channels](#channels)
@@ -45,8 +46,9 @@
   * [errgroup](#errgroup)
   * [pkg/group](#pkggroup)
   * [Context](#context)
-  * [SIGTERM handling](#sigterm-handling)
   * [panic](#panic)
+  * [Signal](#signal)
+  * [SIGTERM handling](#sigterm-handling)
   * [signal.NotifyContext](#signalnotifycontext)
   * [os.Exit](#osexit)
   * [cmd](#cmd)
@@ -951,6 +953,14 @@ func iterateItems(yield func(Item) bool) {
 Note that this is available after version `1.22` and `GOEXPERIMENT=rangefunc` is
 required.
 
+### Hash
+
+```go
+data := []byte("hello world")
+hash := sha256.Sum256(data)
+hexHash := hex.EncodeToString(hash[:])
+```
+
 ### Goroutine
 
 - resource management
@@ -1457,6 +1467,52 @@ func WithValue(parent Context, key interface{}, val interface{}) Context
 - for a client making HTTP requests, an HTTP request can be added with `Context`
   via `WithContext` to allow cancellation control
 
+### panic
+
+`panic` does take care of the existing `defer` calls.
+
+### Signal
+
+- examples
+  * SIGINT (ctrl-c)
+  * SIGTERM (kill)
+  * SIGINFO (ctrl-t)
+- package `os/signal`
+  * start listening for signals, either via a channel or a context
+  * stop listening for signals
+- `signal.Notify`
+  * to register a channel to receive signals
+  * it does not block so a channel is needed to buffer to received signals
+
+```go
+func main() {
+  ch := make(chan os.Signal, 1)
+  signal.Notify(ch, os.Interrupt)
+  sig := <-ch
+  fmt.Println("Received signal:", sig)
+}
+```
+
+To ensure the second signal is ignored (or bubble up to OS to handle), `Stop`
+should be called. The following example demonstrates that if ctrl-c is triggered
+for the second time, the program will exit immediately instead of waiting for
+another 10 seconds.
+
+```go
+func main() {
+  ch := make(chan os.Signal, 1)
+  signal.Notify(ch, os.Interrupt)
+  defer signal.Stop(ch)
+
+  <-ch
+  signal.Stop(ch)
+
+  fmt.Println("Received the signal to shutdown", sig)
+  time.Sleep(10 * time.Second)
+  fmt.Println("Shutdown complete")
+}
+```
+
 ### SIGTERM handling
 
 ```go
@@ -1494,11 +1550,31 @@ usually sent from an operation system.
 
 Also note that `SIGKILL` cannot be handled as it kills the process immediately.
 
-### panic
-
-`panic` does take care of the existing `defer` calls.
-
 ### signal.NotifyContext
+
+- it accepts a context and returns a new context that includes everything in
+  the old context, but this new context will receive a value from `ctx.Done()`
+  channel when a matching signal is received
+- it also returns a second argument
+  * function that can be called to stop listening for the specified signals
+- things to note
+  * no specific signal information is returned
+  * only be notified for the first signal
+    + the specified signals will still be captured but it does not notify the
+      context; thus, calling `stop` is important
+
+```go
+func main() {
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt)
+	defer stop()
+	<-ctx.Done()
+	stop() // to stop listening to subsequent signals
+
+	fmt.Println("Shutting down...")
+	time.Sleep(3 * time.Second)
+	fmt.Println("Shutdown complete")
+}
+```
 
 ```go
 package main
