@@ -809,6 +809,7 @@ ____
 - 手数 (てすう) - trouble; bother
 - 共 (とも) - together; both; all
 - 手数 (てすう) - trouble
+- ポインド - point
 
 ### Adjectives
 

@@ -693,6 +693,25 @@ ____
 - 閉じる (とじる) - close
 - 月極 (つきぎめ) - monthly contract
 - お並び列 (おならびれつ) - please line up
+- お待ちのお客様へ (おまちのおきゃくさまへ) - For waiting customers
+- お待ち帰りの方は、並ばずにお入り下さい (おまちかえりのがたは、ならばずに
+  おはいりください) - For customers returning, please enter without lining up.
+- お名前はお伺いしておりません (おなまえはおうかがいしておりません) - We do not
+  ask for your name.
+- 恐れ入りますがなるべく少人数間隔を空けてお並びいただきお待ち下さいませ。 (
+  おそれはいりますがなるべくしょうにんずうかんかくをあけておならび
+  いただきおまちくださいませ) - We apologize for the inconvenience, but please
+  line up with as much space between each person as possible.
+- ご協力の程よろしくお願い致します (ごきょうりょくのほどよろしくおねがいします) -
+  We appreciate your cooperation.
+- 自転車は降りて 通りましょう (じてんしゃはおりて とおりましょう) - Get off from
+  bike before passing through
+- 場所 (ばしょ) - place
+- 左手側より　本堂へお参りください (ひだりてがわより　ほんどうへおまいり
+  ください) - Please visit the main hall from the left side
+- この先、お支払い方法によってお並び頂くレーンが分かれます。 (このさき、おしは
+  らい ほうほうによっておならびいただくレーンがわかれます) - Beyond this point,
+  the lane to be get into will be separated due to payment method.
 
 ## Sites
 
@@ -711,6 +730,7 @@ ____
 - 案内 (あんない) - guidance or information
 - バス - bus
 - バス停 (バスてい) - bus stop
+- バス乗降所 (バスじょうこうしょ) - bus stop (get on and off)
 - タクシー - taxi
 - 電車 (でんしゃ) - train
 - トラム - tram
@@ -723,6 +743,7 @@ ____
 - 外回り (そとまわり) - outer loop
 - 反対側 (はんたいがわ) - opposite side
 - 扉 (とびら) - door
+- レーン - lane
 
 ### Trains
 
@@ -1044,6 +1065,7 @@ ____
 - マンション - mansion (condominium)
 - 戸建て (こだて) - house
 - 長居 (ながい) - long stay
+- 不動産 (不動産) - real estate
 
 ## Metal
 
