@@ -1200,6 +1200,27 @@ BigQuery tables.
 
 ### Cloud SQL
 
+#### Differences to normal editions
+
+- server role `sysadmin` is not supported nor it can be assigned to any user
+- server role `dbcreator` is not supported
+- login `sqlserver` is created by default but it does not have full
+  administrative permission like login `sa`
+- special Windows authentication user `cloudsqladmin`
+  * it has more permissions than `sqlserver` but it still does not have full
+    administrative permissions
+- permissions of endpoint management can be granted to a user
+  * `CONNECT` permission on endpoints
+- SQL Server Agent roles are not available
+  * examples
+    + `SQLAgentUserRole`
+- new users can be granted with roles such as `db_owner` or `db_ddlamin` by
+  using Windows authentication user `cloudsqladmin`
+- some server-level operations such as shrinking database files or modifying
+  server-level permissions
+- custom role `CustomerDbRootRole`
+  * assigned to login `sqlserver` by default
+
 #### Cloud SQL Auth proxy
 
 - benefits
