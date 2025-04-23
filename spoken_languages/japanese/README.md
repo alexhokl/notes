@@ -65,9 +65,11 @@
   * [News](#news)
   * [Work](#work)
     + [Software](#software)
+    + [Math](#math)
   * [Health](#health)
   * [Finance](#finance)
 - [Verbs](#verbs)
+  * [Transitive](#transitive)
 ____
 
 # Links
@@ -1116,6 +1118,14 @@ ____
 - プライバシーポリシー - privacy policy
 - セキュリティポリシー - security policy
 - キーポード - keyboard
+- 乗っ取り (のっとり) - hijacking; takeover (of a company, etc)
+- 生体認証 (せいたいにんしょう) - biometric authentication
+- 承認 (しょうにん) - approval; acknowledgment; consent
+
+### Math
+
+- 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
+  shrinking; declining
 
 ## Health
 
@@ -1138,4 +1148,8 @@ ____
 - バズる - to go viral (buzz)
 - サボる - to slack off (sabotage)
 - パクる - to cheat / steal (plagiarize)
+
+## Transitive
+
+- 見守る - to watch over; to keep an eye on
 

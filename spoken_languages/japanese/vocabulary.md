@@ -684,6 +684,7 @@ ____
 - 以前 (いぜん) - before; ago
 - 俳優 (はいゆう) - actor; actress; player; performer
 - 事実 (じじつ) - fact; truth
+- 機嫌 (きげん) - mood; temper; spirits; humour
 
 ### Nouns (animals)
 
@@ -810,6 +811,7 @@ ____
 - 共 (とも) - together; both; all
 - 手数 (てすう) - trouble
 - ポインド - point
+- 取引 (とりひき) - transaction; dealings; business
 
 ### Adjectives
 
