@@ -1232,10 +1232,8 @@ BigQuery tables.
       Cloud SQL)
 - what it does not solve
   * it does not provide a new connectivity path
-    + it relies on existing IP connectivity
-      + to connect to a Cloud SQL instance using private IP, the Cloud SQL Auth
-        Proxy must be on a resource with access to the same VPC network as the
-        instance
+    + it requires the server has a public/external IP address if the proxy is
+      not in the same VPC as the Cloud SQL instance
   * it does not bypass SSL/TLS requirement
     + if a SQL Server instance has "Require SSL/TLS" checked, even with Cloud
       SQL Auth Proxy or Cloud SQL Connectors, the client application needs to
