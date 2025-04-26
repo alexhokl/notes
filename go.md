@@ -1729,6 +1729,12 @@ replace github.com/acme/bar => /path/to/local/bar
 ### Unix socket
 
 - [alexhokl/unix-socket-test](https://github.com/alexhokl/unix-socket-test)
+- a Unix socket, which is a Posix standard mechanism for using a folder to
+  manage communication between two processes running on the same host
+  * advantages
+    + improved security
+    + lower latency
+    + it cannot be accessed from an external machine
 
 ### PostgreSQL
 
