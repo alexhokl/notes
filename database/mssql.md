@@ -937,6 +937,12 @@ columns or index key size.
 A detailed explanation using query plan - [SQL Server Indexes with Included
 Columns](http://www.sqlservertutorial.net/sql-server-indexes/sql-server-indexes-with-included-columns/)
 
+##### To find indexes of a table
+
+```sql
+EXEC sp_helpindex YourTableName
+```
+
 #### Clustered indexes
 
 - physically order data of the corresponding table by the indexed column
@@ -1685,6 +1691,94 @@ SELECT * FROM sys.linked_logins
     + keep empty partitions at both ends of the partition range to guarantee
       that the partition split (before loading new data) and partition merge
       (after unloading old data) do not incur any data movement
+    + in case of partitioning key is a date, it is advisable to create
+      multiple partitions for future dates
+- implementation
+  * partition function
+    + the following example creates a partition function that partitions the data
+      by date, with 4 partitions (with 3 boundary points)
+      + with type date, it is recommended to use `RANGE RIGHT`
+      + `RANGE RIGHT` means that the specified values will be the lower
+        boundaries of the partitions
+      + `RANGE LEFT` means that the specified values will be the upper
+        boundaries of the partitions
+    + testing can be done by calling the function with a date value
+      + `SELECT $PARTITION.DailyPF('2023-10-01')`
+
+```sql
+DECLARE @StartDay DATE=DATEADD(dd, -3, CAST(SYSUTCDATETIME() AS DATE));
+CREATE PARTITION FUNCTION [DailyPF] (DATETIME2(0)) AS
+  RANGE RIGHT FOR VALUES
+  (@StartDay,
+   DATEADD(dd, 1, @StartDay),
+   DATEADD(dd, 2, @StartDay));
+```
+  * file groups
+    + although it is possible to have multiple paritions in a single file
+      group, the usual practice is to have one partition per file group
+      + number of file groups = the number of boundry points + 1
+
+```sql
+ALTER DATABASE [YourDatabaseName] ADD FILEGROUP [DailyFG1] CONTAINS
+ALTER DATABASE [YourDatabaseName] ADD FILEGROUP [DailyFG2] CONTAINS
+ALTER DATABASE [YourDatabaseName] ADD FILEGROUP [DailyFG3] CONTAINS
+ALTER DATABASE [YourDatabaseName] ADD FILEGROUP [DailyFG4] CONTAINS
+```
+
+  * partition scheme
+    + maps the partition function to file groups
+
+```sql
+CREATE PARTITION SCHEME [DailyPS] AS
+  PARTITION [DailyPF] TO ([DailyFG1], [DailyFG2], [DailyFG3], [DailyFG4]);
+```
+
+  * partitioned table
+    + the following example creates a partitioned table with a clustered index
+      on the partitioning key
+    + note that the partition scheme is specified and the type of paritioning
+      key matches the one specified in partition function
+
+```sql
+CREATE TABLE [dbo].[YourTableName] (
+  [ID] INT NOT NULL,
+  [Date] DATETIME2(0) NOT NULL,
+  [Value] INT NOT NULL,
+  PRIMARY KEY CLUSTERED ([ID], [Date])
+) ON [DailyPS]([Date]);
+```
+
+  * clustered index
+
+```sql
+ALTER TABLE [dbo].[YourTableName] ADD CONSTRAINT [PK_YourTableName]
+  PRIMARY KEY CLUSTERED ([Date], [ID])
+```
+
+  * partitioned index
+    + the following example creates a partitioned non-clustered index on the
+      partition key
+      + since partitioning scheme is not specified, SQL server will assume
+        `DailyPS` is used; thus, `[Date]` do not have to be specified list of
+        columns
+
+```sql
+CREATE NONCLUSTERED INDEX [IX_YourTableName_Date] ON [dbo].[YourTableName] ([Date])
+  ON [DailyPS]([ID]);
+```
+
+    + note that the following index does not aligned with the partition scheme
+      as file group primary is specified
+      + non-algined indexes should be avoided as it blocks any future data table
+        switches
+
+```sql
+CREATE NONCLUSTERED INDEX [IX_YourTableName_Date] ON [dbo].[YourTableName] ([Date])
+  ON [DailyPS]([Value]) ON [PRIMARY]
+```
+
+  * [switching in](https://www.youtube.com/watch?v=MwnMd4e36Z4)
+  * [switching out](https://www.youtube.com/watch?v=aoLGMFwpdyg)
 
 ### User-defined function (UDF)
 
