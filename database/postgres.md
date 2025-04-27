@@ -7,6 +7,7 @@
   * [Performance](#performance)
   * [JSON](#json)
   * [User and role management](#user-and-role-management)
+- [Performance troubleshooting](#performance-troubleshooting)
 - [Features](#features)
   * [B-Tree de-duplication](#b-tree-de-duplication)
 - [Limitations](#limitations)
@@ -386,6 +387,33 @@ GRANT REFERENCES ON ALL TABLES IN SCHEMA your_schema TO appuser;
 
 ```sql
 ALTER SCHEMA your_schema OWNER TO appuser;
+```
+
+## Performance troubleshooting
+
+* `max_connections`
+  + it should be kept as low as possible
+  + the max < max(num_cores, parallel_io_limit) / (session_busy_ratio * avg_parallelism)
+* use `pgbouncer` if there are more than `100` connections
+
+##### To find idle transactions on PostgreSQL
+
+```sql
+select  * from
+    (select state, count(*) from pg_stat_activity  where pid <> pg_backend_pid() group by 1 order by 1) q1,
+    (select setting::int res_for_super from pg_settings where name=$$superuser_reserved_connections$$) q2,
+    (select setting::int max_conn from pg_settings where name=$$max_connections$$) q3;
+```
+
+##### To find bottlenecks in PostgreSQL
+
+```sql
+SELECT backend_type, state, wait_event_type, wait_event, count(*)
+  FROM pg_stat_activity
+    WHERE pid <> pg_backend_pid()
+      AND wait_event_type IS DISTINCT FROM 'Activity'
+  GROUP BY 1, 2, 3, 4
+  ORDER BY count(*) DESC;
 ```
 
 ## Features
