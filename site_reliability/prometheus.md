@@ -7,8 +7,10 @@
 - [Metric sources](#metric-sources)
   * [Node Exporter](#node-exporter)
     + [Examples](#examples)
-  * [cAdvisor](#cadvisor)
+  * [prometheus-nginxlog-exporter](#prometheus-nginxlog-exporter)
     + [Examples](#examples-1)
+  * [cAdvisor](#cadvisor)
+    + [Examples](#examples-2)
 - [Other topics](#other-topics)
   * [PromQL](#promql)
     + [Links](#links-1)
@@ -131,6 +133,103 @@ N/A | Node available disk size (Gb) | sum (node_filesystem_avail_bytes{job="node
 N/A | Node disk read speed (Mb/s) | (irate(node_disk_read_bytes_total{job="node-exporter",device="sda"}[1m]))/1024/1024
 N/A | Node disk write speed (Mb/s) | (irate(node_disk_written_bytes_total{job="node-exporter",device="sda"}[1m]))/1024/1024
 N/A | Node Inode available % | (1 -node_filesystem_files_free{job="node-exporter",fstype=\~"ext4\|xfs"} / node_filesystem_files{job="node-exporter",fstype=\~"ext4\|xfs"}) * 100
+
+## prometheus-nginxlog-exporter
+
+- [martin-helmich/prometheus-nginxlog-exporter](https://github.com/martin-helmich/prometheus-nginxlog-exporter)
+  * read nginx logs, extract it and expose it at `/metrics` for scrapping
+  * [list of metrics
+    exported](https://github.com/martin-helmich/prometheus-nginxlog-exporter?tab=readme-ov-file#collected-metrics)
+
+### Examples
+
+##### To get response time in the metrics
+
+Apply the following to `/etc/nginx/nginx.conf`.
+
+```nginx
+log_format with_response_time '$remote_addr - $remote_user [$time_local] '
+                              '"$request" $status $body_bytes_sent '
+                              '"$http_referer" "$http_user_agent" '
+                              'rt=$request_time urt=$upstream_response_time';
+
+access_log /var/log/nginx/<server>-access.log with_response_time;
+```
+
+The required configuration of `prometheus-nginxlog-exporter` will be
+
+```nginx
+listen {
+  port = 4040
+  metrics_endpoint = "/metrics"
+}
+
+namespace "<service-name>" {
+  source = {
+    files = [
+      "/var/log/nginx/<server>-access.log"
+    ]
+  }
+
+  format = "$remote_addr - $remote_user [$time_local] \"$request\" $status $body_bytes_sent \"$http_referer\" \"$http_user_agent\" rt=$request_time urt=$upstream_response_time"
+
+  labels {
+    app = "<service-name>"
+  }
+
+  metrics_override = { prefix = "nginxlog" }
+  namespace_label = "server"
+}
+```
+
+An example PromQL query.
+
+```promql
+max(nginxlog_http_response_time_seconds{quantile=”0.9",method=”GET”,status=~”2[0–9]*”,app=”<service-name>”})
+```
+
+##### To export metrics of a reverse proxy of storage bucket
+
+Apply the following to `/etc/nginx/nginx.conf`.
+
+```nginx
+proxy_cache_path /tmp/nginx_mstdn_media levels=1:2 keys_zone=mastodon_media:100m max_size=1g inactive=24h;
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name media.mstdn.io;
+    return 301 https://media.mstdn.io$request_uri;
+
+    access_log /dev/null;
+    error_log /dev/null;
+}
+
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+    server_name media.mstdn.io;
+
+    access_log /var/log/nginx/mstdn-media-access.log;
+    error_log /var/log/nginx/mstdn-media-error.log;
+
+    # Add your certificate and HTTPS stuff here
+
+    location /mstdn-media/ {
+        proxy_cache mastodon_media;
+        proxy_cache_revalidate on;
+        proxy_buffering on;
+        proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;
+        proxy_cache_background_update on;
+        proxy_cache_lock on;
+        proxy_cache_valid 1d;
+        proxy_cache_valid 404 1h;
+        proxy_ignore_headers Cache-Control;
+        add_header X-Cached $upstream_cache_status;
+        proxy_pass https://s3.wasabisys.com/mstdn-media/;
+    }
+}
+```
 
 ## cAdvisor
 
