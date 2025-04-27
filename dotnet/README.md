@@ -26,6 +26,9 @@
     + [Regular Expression (regex)](#regular-expression-regex)
     + [Dictionaries](#dictionaries)
     + [Workarounds](#workarounds)
+  * [Libraries](#libraries-1)
+    + [Proto.Actor](#protoactor)
+    + [Microsoft Orleans](#microsoft-orleans)
 - [.NET (Classic)](#net-classic)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
@@ -1582,6 +1585,65 @@ following steps may be needed to get the stuff compile.
 1. Set environment variable `MSBuildSDKsPath=C:\Program Files\dotnet\sdk\2.1.004771\Sdks`
 2. Run `dotnet restore` on .NET Standard projects
 3. Apply `<Reference include="netstandard" />`
+
+## Libraries
+
+### Proto.Actor
+
+- [asynkron/protoactor-dotnet](https://github.com/asynkron/protoactor-dotnet)
+  - Nuget package name as `Proto.Actor`
+- [official documentation](https://proto.actor/docs/)
+- an implementation which claims to have a good balance between features of
+  Microsoft Orleans and Akka.NET
+- an instance of actor in .NET can talk to another instance of actor written in
+  another language
+- it uses Protobuf for serialisation and GRPC for connections
+- an actor can be setup to listen to messages in a .NET Channel; similarly
+  a publisher can be attached to a channel to push messages
+- actor references (PIDs) are themselves serializable, enabling remote
+  communication between actors across nodes; PID is not related to an OS process
+  in anyway
+- channels can be used and other mediums can also be used; thus, persistence (or
+  not) is an implementation choice
+- messages are not durable by default
+- remoting and clustering is possible
+- actors can be stateful
+- comparing to messages-based services on public cloud, actors has a better
+  performance
+
+### Microsoft Orleans
+
+- sometimes known as "distributed .NET"
+- [official
+  documentation](https://learn.microsoft.com/en-us/dotnet/orleans/overview)
+- concepts
+  * actors are purely logical entities that always exist, virtually
+    + an actor cannot be explicitly created nor destroyed, and its virtual
+      existence is unaffected by the failure of a server that executes it; since
+      actors always exist, they are always addressable
+  * grain
+    + it is a virtual actor
+    + an entity consisting of
+      + user-defined identity
+        + any user-defined key
+      + behaviour
+        + a class inherits `Grain`
+      + state
+        + data either in-memory or persisted
+    + state of active grains are in memeory
+      + control of active/inactive of grains is done by the runtime
+      + configuration can be made to persist state of a grain when it is being
+        deactivated
+  * silo
+    + it hosts one or more grains
+    + a group of silos runs as a cluster for scalability and fault tolerance
+    + when run as a cluster, silos coordinate with each other to distribute work
+      and detect and recover from failures
+    + it provides grains with a set of runtime services such as timers,
+      reminders (persistent timers), persistence, transactions, streams, etc
+- features
+  * multiple grains can participate in ACID transactions together regardless of
+    where their state is ultimately stored
 
 # .NET (Classic)
 
