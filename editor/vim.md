@@ -278,6 +278,9 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 ### Buffers
 
 - <kbd>,</kbd><kbd>b</kbd> to select buffers
+  * <kbd>ctrl</kbd><kbd>d</kbd> to delete the selected buffer
+  * <kbd>ctrl</kbd><kbd>x</kbd> to delete all un-pinned buffers
+  * <kbd>ctrl</kbd><kbd>enter</kbd> to toggle pin of the selected buffer
 - <kbd>ctrl</kbd><kbd>x</kbd> or <kbd>ctrl</kbd><kbd>z</kbd> to switch between
   file buffers in a direction
 - <kbd>ctrl</kbd><kbd>^</kbd> to jump to the previous buffer
