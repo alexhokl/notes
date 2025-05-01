@@ -25,6 +25,7 @@
     + [OpenTelemetry](#opentelemetry)
     + [Regular Expression (regex)](#regular-expression-regex)
     + [Dictionaries](#dictionaries)
+    + [RecyclableMemoryStream](#recyclablememorystream)
     + [Workarounds](#workarounds)
   * [Libraries](#libraries-1)
     + [Proto.Actor](#protoactor)
@@ -1577,6 +1578,62 @@ This ignores `RegexOptions.Compiled` automatically.
 - `ImmutableDictionary`
   * poorish read speed
   * no locking required but more allocations require to update than a dictionary
+
+### RecyclableMemoryStream
+
+- benefits
+  * incur far fewer gen 2 GCs, and spend far less time paused due to GC
+  * avoid memory fragmentation
+  * provide excellent debuggability and logging
+  * provide metrics for performance tracking
+- features
+  * rather than pooling the streams themselves, the underlying buffers are
+    pooled; `Dispose` pattern to release the buffers back to the pool
+  * thread-safe (streams themselves are inherently not thread-safe)
+  * each stream can be tagged with an identifying string that is used in
+    logging; helpful when finding bugs and memory leaks relating to incorrect
+    pool use
+- how it works
+  * `RecyclableMemoryStream` improves GC performance by ensuring that the larger
+    buffers used for the streams are put into the gen 2 and stay there forever;
+    this should cause full colections to happen less frequently
+  * `RecyclableMemoryStream` maintains two separate pools objects
+    + small pool
+    + large pool
+      + linear (default)
+        + for cases of un-predictable large buffer size
+      + exponential
+        + for cases of longer stream length is unlikely and a lot of streams in
+          the smaller size
+- to avoid accidental data leakage, set `ZeroOutBuffer` to `true`
+- examples
+
+```cs
+using (var stream = manager.GetStream("Program.Main"))
+{
+    stream.Write(sourceBuffer, 0, sourceBuffer.Length);
+}
+```
+
+```cs
+// note that source buffer will be copied into a buffer owned by the pool
+var stream = manager.GetStream("Program.Main", sourceBuffer, 0, sourceBuffer.Length);
+```
+
+```cs
+var options =
+    new RecyclableMemoryStreamManager.Options()
+    {
+        BlockSize = 1024,
+        LargeBufferMultiple = 1024 * 1024,
+        MaxBufferSize = 16* 1024 * 1024,
+        GenerateCallStacks = true,
+        AggressiveBufferReturn = true,
+        MaximumLargePoolFreeBytes = 4 * 16 * 1024 * 1024,
+        MaximumSmallPoolFreeBytes = 100 * 1024,
+    };
+var manager = new RecyclableMemoryStreamManager(options);
+```
 
 ### Workarounds
 
