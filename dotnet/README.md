@@ -29,6 +29,7 @@
   * [Libraries](#libraries-1)
     + [Proto.Actor](#protoactor)
     + [Microsoft Orleans](#microsoft-orleans)
+    + [Resilience](#resilience)
 - [.NET (Classic)](#net-classic)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
@@ -1644,6 +1645,76 @@ following steps may be needed to get the stuff compile.
 - features
   * multiple grains can participate in ACID transactions together regardless of
     where their state is ultimately stored
+
+### Resilience
+
+- resiliance is the ability of an app to recover from transient failures and
+  continue to function
+- nuget packages
+  * `Microsoft.Extensions.Resilience` (general usages)
+  * `Microsoft.Extensions.Http.Resilience` (for `HttpClient`)
+  * `Microsoft.Extensions.Http.Polly` (deprecated)
+  * `Polly.Core` (core abstractions and built-in strategies)
+  * `Polly.Extensions` (telemetry and dependency injection)
+  * `Polly.RateLimiting` (integration with `System.Threading.RateLimiting`)
+  * `Polly.Testing`
+  * `Polly` (the legacy API exposed by versions of the Polly library before
+    version 8)
+- the APIs in namespace `Microsoft.Extensions` are built on top of `Polly`
+- functionalities of Polly
+  * retry
+  * circuit breaker
+    + stop trying if something is broken or busy
+  * timeout
+  * rate limiter
+    + limit how many requests you make or accept
+  * fallback
+    + do something else if something fails
+  * hedging
+    + do more than one thing at the same time and take the fastest one
+  * bulkhead isolation
+- the concept of resilience pipeline is similar to a policy
+
+```cs
+services.AddResiliencePipeline(key, static builder =>
+  {
+      builder.AddRetry(
+        new RetryStrategyOptions
+        {
+            ShouldHandle = new PredicateBuilder().Handle<TimeoutRejectedException()
+        });
+      builder.AddTimeout(TimeSpan.FromSeconds(5));
+  }
+```
+
+- the strategy executes in order of configuration
+- `builder.AddRateLimiter` allows the control of inbound load
+- `builder.AddConcurrencyLimiter` allows the control of outbound load
+- if enrichment has been added `services.AddResilienceEnricher()`, the following
+  dimensions are added to telemetry
+  * `error.type`
+  * `request.name`
+  * `request.dependency.name`
+
+- to use a resilience pipeline
+
+```cs
+using ServiceProvider provider = services.BuildServiceProvider();
+ResiliencePipelineProvider<string> pipelineProvider = provider.GetRequiredService<ResiliencePipelineProvider<string>>();
+ResiliencePipeline pipeline = pipelineProvider.GetPipeline("key");
+
+await pipeline.ExecuteAsync(static cancellationToken =>
+{
+    // do something
+    // ...
+
+    return ValueTask.CompletedTask;
+});
+```
+
+- [retry strategies in
+  Polly](https://github.com/App-vNext/Polly?tab=readme-ov-file#retry)
+
 
 # .NET (Classic)
 
