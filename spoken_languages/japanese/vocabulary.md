@@ -581,6 +581,7 @@ ____
 - 無理 (むり) - unreasonable; impossible
 - 確か (たしか) - certain; sure; reliable
 - 普通 (ふつう) - normal; ordinary
+- 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
 
 ### Pronouns (person)
 
@@ -685,6 +686,7 @@ ____
 - 俳優 (はいゆう) - actor; actress; player; performer
 - 事実 (じじつ) - fact; truth
 - 機嫌 (きげん) - mood; temper; spirits; humour
+- 笑い (わらい) - laugh; smile
 
 ### Nouns (animals)
 
@@ -701,6 +703,7 @@ ____
 - 新鮮 (しんせん) - fresh
 - 邪魔 (じゃま) - disturbance; obstruction
 - たっぷり - full of; a lot of; plenty of
+- 苦手 (にがて) - poor at; weak in; not good at
 
 ### Pronouns (person)
 
@@ -738,6 +741,7 @@ ____
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 担当 (たんとう) - being in charge; being responsible
+- 与える (あたえる) - to give (to someone of lower status); to present; to award
 
 ### Common word
 
@@ -747,6 +751,7 @@ ____
 ### Expressions
 
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
+- 実は (じつは) - as a matter of fact; to be honest; by the way
 
 ## N2
 
@@ -778,6 +783,10 @@ ____
 - 愈々 (いよいよ) - more and more / all the more
 
 ### Verbs (Intransitive)
+
+- 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
+  goods)
+- 恵まれる (めぐまれる) - to be blessed with; to be rich in
 
 ### Verbs (Transitive)
 
@@ -812,6 +821,7 @@ ____
 - 手数 (てすう) - trouble
 - ポインド - point
 - 取引 (とりひき) - transaction; dealings; business
+- 纏め (まとめ) - summary; recapitulation; aggregation
 
 ### Adjectives
 

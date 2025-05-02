@@ -69,6 +69,7 @@
   * [Health](#health)
   * [Finance](#finance)
 - [Verbs](#verbs)
+  * [Intransitive](#intransitive)
   * [Transitive](#transitive)
 ____
 
@@ -214,6 +215,7 @@ ____
 - 結構 (けっこう) - quite
 - 滅茶 (めっちゃ) - extremely / very
 - 未明 (みめい) - early morning
+- 先ずは (まずは) - first of all; probably; more or less; anyway
 
 # Situation and vocabulary
 
@@ -669,6 +671,7 @@ ____
   from someone
 - お持て成し (おもてなし) - hospitality; reception; entertainment;
   treatment; service
+- 然らば (さらば) - farewell; goodbye; if so; in that case
 
 ## Signs
 
@@ -719,7 +722,7 @@ ____
 
 - 開放 (かいほう) - open
 - 稲荷 (いなり) - god of harvest
-- 旅館 (りょかん) - hotel
+- 旅館 (りょかん) - traditional Japanese inn
 
 ## Transportation
 
@@ -972,6 +975,7 @@ ____
 - マンチェスター・U (manchesutā yū) - Manchester United
 - マンチェスター・シティ (manchesutā shiti) - Manchester City
 - マンチェスター・C (manchesutā shī) - Manchester City
+- ハイタッチ - high five
 
 ## Cycling
 
@@ -1057,6 +1061,7 @@ ____
 - 弟 (おとうと) - younger brother
 - 妹 (いもうと) - younger sister
 - 赤ちゃん - baby
+- 実家 (じっか) - home (of one's parents')
 
 ## Stationary
 
@@ -1121,11 +1126,16 @@ ____
 - 乗っ取り (のっとり) - hijacking; takeover (of a company, etc)
 - 生体認証 (せいたいにんしょう) - biometric authentication
 - 承認 (しょうにん) - approval; acknowledgment; consent
+- チャットGPT - ChatGPT
+- 初心者 (しょしんしゃ) - beginner
+- 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
+- 動画 (どうが) - video
 
 ### Math
 
 - 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
   shrinking; declining
+- 下振れ (したぶれ) - downturn; downside
 
 ## Health
 
@@ -1149,7 +1159,13 @@ ____
 - サボる - to slack off (sabotage)
 - パクる - to cheat / steal (plagiarize)
 
+## Intransitive
+
+- リベンジ - revenge; having a second go (at something)
+- 土下座 (どげざ) - to kneel down and bow
+
 ## Transitive
 
-- 見守る - to watch over; to keep an eye on
+- 見守る (みまもる) - to watch over; to keep an eye on
+- 振り切る (ふりきる) - to shake off; to break away
 
