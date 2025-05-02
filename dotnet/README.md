@@ -98,6 +98,9 @@ ____
   Builds](https://weblog.west-wind.com/posts/2017/Sep/18/Conditional-TargetFrameworks-for-MultiTargeted-NET-SDK-Projects-on-CrossPlatform-Builds)
 - [Download Visual
   Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
+- [dodyg/practical-aspnetcore](https://github.com/dodyg/practical-aspnetcore)
+  practical examples of ASP.NET Core - most examples are contained in a single
+  `Program.cs`
 
 ### Tools
 
