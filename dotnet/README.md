@@ -25,12 +25,12 @@
     + [OpenTelemetry](#opentelemetry)
     + [Regular Expression (regex)](#regular-expression-regex)
     + [Dictionaries](#dictionaries)
-    + [RecyclableMemoryStream](#recyclablememorystream)
+    + [Microsoft.IO.RecyclableMemoryStream](#microsoftiorecyclablememorystream)
     + [Workarounds](#workarounds)
   * [Libraries](#libraries-1)
     + [Proto.Actor](#protoactor)
     + [Microsoft Orleans](#microsoft-orleans)
-    + [Resilience](#resilience)
+    + [Resilience (Polly)](#resilience-polly)
 - [.NET (Classic)](#net-classic)
     + [To check which .NET framework versions are installed](#to-check-which-net-framework-versions-are-installed)
 - [C#](#c%23)
@@ -1579,9 +1579,10 @@ This ignores `RegexOptions.Compiled` automatically.
   * poorish read speed
   * no locking required but more allocations require to update than a dictionary
 
-### RecyclableMemoryStream
+### Microsoft.IO.RecyclableMemoryStream
 
 - benefits
+  * reduce the cost of garbage collection incurred by frequent large allocations
   * incur far fewer gen 2 GCs, and spend far less time paused due to GC
   * avoid memory fragmentation
   * provide excellent debuggability and logging
@@ -1633,6 +1634,48 @@ var options =
         MaximumSmallPoolFreeBytes = 100 * 1024,
     };
 var manager = new RecyclableMemoryStreamManager(options);
+```
+
+- best practices
+  * if `MaximumLargePoolFreeBytes` and `MaximumSmallPoolFreeBytes` are not set,
+    there is a possbility for unbounded memory growth
+  * always dispose each stream exactly once
+  * `ToArray` and `GetBuffer` should not be used
+    + `GetBuffer`
+      + if multiple blocks are in use, they will be converted into a single
+        large pool buffer and the data copied into it
+    + `ToArray`
+      + it wipes out many benefits of `RecyclableMemoryStream`
+        + it is implemented for completeness sake
+      + its usage should be considered as a bug
+      + `RecyclableMemoryStream.ThrowExceptionOnToArray = true` is recommended
+    + instead
+      + `GetReadOnlySequence` for reading
+      + `IBufferWriter.GetSpan` and `Advance` for writing
+      + `IBufferWriter.GetMemory` and `Advance` for writing
+  * although it is thread-safe, concurrent use of `RecyclableMemoryStream`
+    objects is not supported
+- examples
+
+```cs
+// to get a span of memory from memory manager and write bytes to it
+var bitInt = BigInteger.Parse("1234567890123456789012345678901234567890");
+using var writeStream = manager.GetStream();
+Span<byte> buffer = writeStream.GetSpan(bigInt.GetByteCount());
+bigInt.TryWriteBytes(buffer, out int bytesWritten);
+writeStream.Advance(bytesWritten);
+```
+
+```cs
+// to get a span of memory from memory manager for zero-copy stream processing
+// assuming readStream contains the data to be hashed
+using var readStream = manager.GetStream();
+using var sha256Hasher = IncrementalHash.CreateHash(HashAlgorithmName.SHA256);
+foreach (var memory in readStream.GetReadOnlySequence())
+{
+    sha256Hasher.AppendData(memory.Span);
+}
+sha256Hasher.GetHashAndReset();
 ```
 
 ### Workarounds
@@ -1703,7 +1746,7 @@ following steps may be needed to get the stuff compile.
   * multiple grains can participate in ACID transactions together regardless of
     where their state is ultimately stored
 
-### Resilience
+### Resilience (Polly)
 
 - resiliance is the ability of an app to recover from transient failures and
   continue to function
