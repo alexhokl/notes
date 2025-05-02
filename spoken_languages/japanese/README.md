@@ -717,6 +717,7 @@ ____
 - この先、お支払い方法によってお並び頂くレーンが分かれます。 (このさき、おしは
   らい ほうほうによっておならびいただくレーンがわかれます) - Beyond this point,
   the lane to be get into will be separated due to payment method.
+- 2 列にお並びください (2 れつにおならびください) - Please line up in 2 lines
 
 ## Sites
 
