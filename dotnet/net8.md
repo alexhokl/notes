@@ -85,8 +85,8 @@ ReadOnlySpan<char> remaining = bookContentString;
 var index = remaining.IndexOfAny(sv);
 ```
 
-This automatically looks for the best way (or the most optimised way) to search
-for a value in a string.
+This automatically searches for the best, or most optimized, way to find a value
+within a string.
 
 The following values use different implementations.
 
