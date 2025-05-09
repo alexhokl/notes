@@ -46,7 +46,7 @@ ___
 
 ### Chapter 1 Introduction
 
--[text](https://sre.google/sre-book/introduction/)
+- [text](https://sre.google/sre-book/introduction/)
 - historically, companies have employed systems administrators to run complex
   computing system
   * product developers and sysadmins are divided into discrete teams
@@ -188,7 +188,7 @@ ___
 
 ### Chapter 4 Service Level Objectives
 
--[text](https://sre.google/sre-book/service-level-objectives/)
+- [text](https://sre.google/sre-book/service-level-objectives/)
 - SLI
   * a carefully defined quantitative measure of some aspect of the level of
     service that is provided
@@ -324,7 +324,7 @@ ___
 
 ### Chapter 5 Eliminating Toil
 
--[text](https://sre.google/sre-book/eliminating-toil/)
+- [text](https://sre.google/sre-book/eliminating-toil/)
 - toil
   * to avoid using "operational work" which can be easily misinterpreted
   * what is not toil
@@ -399,7 +399,7 @@ ___
 
 ### Chapter 6 Monitoring Distributed Systems
 
--[text](https://sre.google/sre-book/monitoring-distributed-systems/)
+- [text](https://sre.google/sre-book/monitoring-distributed-systems/)
 - reasons to monitor
   * analysing long-term trends
   * comparing over time or experiment groups
@@ -477,15 +477,112 @@ ___
 
 ### Chapter 7 The Evolution of Automation at Google
 
--[text](https://sre.google/sre-book/automation-at-google/)
+- [text](https://sre.google/sre-book/automation-at-google/)
+- automation
+  * the main motivation is to scale
+  * other benefits
+    + better consistency
+    + easier to be extended
+    + centralises mistakes so that effort of fixing one kind of bug is lower
+    + an automated can be ran more frequently potentially or run at times that
+      are inconvenient for humans
+    + to resolve common faults in a system
+      + reduce mean time to repair (MTTR)
+    + time saving
+    + encapsulation of some tasks
+      + anyone can execute it
+        + decoupling operator from operation
+- automation is meta-software
+  * software to act on software
+- potential problems with automation
+  * turnup automation
+    + automations responsible for orchestrating the activation (turn-up) and
+      deactivation (turn-down) of network services or IT resources
+      + problematic if these automations are separated from the core system
+        + suffers from "bit rot"
+          + automation does not keep up with the underlying system changes
+  * creative use of SSH
+    + initial win
+    + those free-form scripts became a cholestrol of technical debt
+  * automation code, like unit test code, dies when the maintaining team is not
+    obsessive about keeping the code in sync with the codebase it covers
+    + a product manager whose schedule is not affected by low-quality
+      automation will always prioritise new features over simplicity and
+      automation
+- the most functional tools are usually written by those who use them; a
+  similar argument applies to why product development teams benefit from
+  keeping at least some operational awareness of their systems in production
 
 ### Chapter 8 Release Engineering
 
--[text](https://sre.google/sre-book/release-engineering/)
+- [text](https://sre.google/sre-book/release-engineering/)
+- release engineering
+  * building and delivering software
+  * skills required
+    + source code management
+    + compilers
+    + build configuration languages
+    + automated build tools
+    + package managers 
+    + installers
+  * binaries and configurations are built in a reproducible, automated way
+    + releases are repeatable and are not "unique snowflakes"
+  * work with software engineers and SREs to define all the steps required to
+    release software
+- measures
+  * release velocity
+    + how much time it takes for a code change to be deployed into production
+- philosophy
+  * teams must be self-suffient
+    + it does not scale otherwise
+  * frequent releases result in fewer changes between versions
+    + makes testing and troubleshooting easier
+    + "push on green" release model
+      + deploy every build that passes all tests
+  * ensure consistency repeatability by ensure hermetic builds
+    + builds are insensitive to the libraries and other software installed on
+      the build machine
+      + instead builds depend on known versions of build tools, such as
+        compilers, and dependencies, such as libraries
+    + the build process is self-contained and must not rely on services that
+      are external to the build environment
+    + tactic cherry-pick
+      + a project built last month would not use this month’s version of the
+        compiler if a cherry pick is required
+      + Docker can freeze the tools easily
+  * gated operations
+    + approving source code changes
+    + specifying the actions to be performed during the release process
+    + creating a new release
+    + approving the initial integration proposal and subsequent cherry picks
+    + deploying a new release
+    + making changes to a build configuration
+  * with automated release system produces a report of all changes contained in
+    a release, SREs can understand what changes are included in a new release
+    of a project; this report can expedite troubleshooting when there are
+    problems with a release
+- branching
+  * all code is checked into `main`
+  * release does not created from `main` directly
+  * a release is created by branching out from a commit in `main`
+    + changes made in the deployment branch would never be merged back into `main`.
+  * bug fixes are merged into `main` first and cherry-pick into a deployment branch 
+    + this avoids inadvertently picking up unrelated changes submitted to
+      `main` since the original build occurred; using this branch and cherry
+      pick method, we know the exact contents of each release
+- testing
+- unit tests are ran against every merge to `main`
+  * detect build and test failures quickly
+  * decrease the chance that subsequent changes made `main` will cause failures
+    during the build performed at release time
+- configuration
+  * configuration changes are a potential source of instability
+  * storing configuration in source control
+  * enforcing a strict code review requirement
 
 ### Chapter 9 Simplicity
 
--[text](https://sre.google/sre-book/simplicity/)
+- [text](https://sre.google/sre-book/simplicity/)
 
 ## Part III - Practices
 
@@ -493,64 +590,64 @@ ___
 
 ### Chapter 10 Practical Alerting
 
--[text](https://sre.google/sre-book/practical-alerting/)
+- [text](https://sre.google/sre-book/practical-alerting/)
 
 ### Chapter 11 Being On-Call
 
--[text](https://sre.google/sre-book/being-on-call/)
+- [text](https://sre.google/sre-book/being-on-call/)
 
 ### Chapter 12 Effective Troubleshooting
 
--[text](https://sre.google/sre-book/effective-troubleshooting/)
+- [text](https://sre.google/sre-book/effective-troubleshooting/)
 
 ### Chapter 13 Emergency Response
 
--[text](https://sre.google/sre-book/emergency-response/)
+- [text](https://sre.google/sre-book/emergency-response/)
 
 ### Chapter 14 Managing Incidents
 
--[text](https://sre.google/sre-book/managing-incidents/)
+- [text](https://sre.google/sre-book/managing-incidents/)
 
 ### Chapter 15 Postmortem Culture: Learning from Failure
 
 
--[text](https://sre.google/sre-book/postmortem-culture/)
+- [text](https://sre.google/sre-book/postmortem-culture/)
 
 ### Chapter 16 Tracking Outages
 
--[text](https://sre.google/sre-book/tracking-outages/)
+- [text](https://sre.google/sre-book/tracking-outages/)
 
 ### Chapter 17 Testing for Reliability
 
--[text](https://sre.google/sre-book/testing-reliability/)
+- [text](https://sre.google/sre-book/testing-reliability/)
 
 ### Chapter 18 Software Engineering in SRE
 
--[text](https://sre.google/sre-book/software-engineering-in-sre/)
+- [text](https://sre.google/sre-book/software-engineering-in-sre/)
 
 ### Chapter 19 Load Balancing at the Frontend
 
--[text](https://sre.google/sre-book/load-balancing-frontend/)
+- [text](https://sre.google/sre-book/load-balancing-frontend/)
 
 ### Chapter 20 Load Balancing in the Datacenter
 
--[text](https://sre.google/sre-book/load-balancing-datacenter/)
+- [text](https://sre.google/sre-book/load-balancing-datacenter/)
 
 ### Chapter 21 Handling Overload
 
--[text](https://sre.google/sre-book/handling-overload/)
+- [text](https://sre.google/sre-book/handling-overload/)
 
 ### Chapter 22 Addressing Cascading Failures
 
--[text](https://sre.google/sre-book/addressing-cascading-failures/)
+- [text](https://sre.google/sre-book/addressing-cascading-failures/)
 
 ### Chapter 23 Managing Critical State: Distributed Consensus for Reliability
 
--[text](https://sre.google/sre-book/managing-critical-state/)
+- [text](https://sre.google/sre-book/managing-critical-state/)
 
 ### Chapter 24 Distributed Periodic Scheduling with Cron
 
--[text](https://sre.google/sre-book/distributed-periodic-scheduling/)
+- [text](https://sre.google/sre-book/distributed-periodic-scheduling/)
 
 ### Chapter 25 Data Processing Pipelines
 
