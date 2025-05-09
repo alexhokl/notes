@@ -1056,6 +1056,28 @@ channels](https://www.campoy.cat/blog/justforfunc-26-nil-chans/)
 - a close channel does not blocks; thus, to finish the channel, it should be set
   to `nil`
 
+#### channels and select statement
+
+To wait for a message from one of multiple channels
+
+```go
+select {
+  case <-someChannel:
+    // do something
+  case <-someOtherChannel:
+    // do something else
+}
+```
+
+Note that `select` blocks until one of the channels has a message.
+
+`case` in `select` can be used to receive a value from channel
+
+```go
+case value := <-someChannel
+  // use value here...
+```
+
 #### server timeout
 
 ```go
