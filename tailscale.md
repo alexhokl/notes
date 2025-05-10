@@ -16,6 +16,7 @@
 - [Docker](#docker)
 - [Funnel](#funnel)
 - [Public DNS name for tailnet](#public-dns-name-for-tailnet)
+- [App Connectors](#app-connectors)
 ____
 
 ## Links
@@ -198,3 +199,16 @@ service2.testing.com {
   import clouddns
 }
 ```
+
+## App Connectors
+
+- it can be used to direct egress traffic for a specific application used in
+  the tailnet
+  * example
+    + an application outside tailnet receives data but it requires IP address
+      to be whitelisted
+      + a node in tailscale can be set up and have its IP address whitelisted for
+        the application
+      + an app connector can then be setup to route all traffic of the
+        application through the node
+  * [documentation](https://tailscale.com/kb/1281/app-connectors)
