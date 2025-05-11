@@ -822,6 +822,7 @@ ____
 - ポインド - point
 - 取引 (とりひき) - transaction; dealings; business
 - 纏め (まとめ) - summary; recapitulation; aggregation
+- 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 
 ### Adjectives
 

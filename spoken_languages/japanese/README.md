@@ -51,7 +51,7 @@
   * [Cycling](#cycling)
   * [Driving](#driving)
   * [Animals](#animals)
-  * [Funiture](#funiture)
+  * [Furniture](#furniture)
   * [Electronics](#electronics)
   * [Home appliances](#home-appliances)
   * [Internet](#internet)
@@ -444,6 +444,7 @@ ____
 - レジ - cash register
 - 徳用 (とくよう) - family size
 - 手数料 (てすうりょう) - handling fee; commission
+- チャック - zip (for bags)
 
 ### Online shopping
 
@@ -614,9 +615,11 @@ ____
 - こちらこそよろしくお願いします (こちらこそよろしくおねがいします) - I'm
   pleased to meet you too
   * こちらこそ - it is me who should say so
-- ありがとう ございます (ありがとう ございます) - thank you
+- ありがとう ございます - thank you
+- お疲れ様 (おつかれさま) - thank you (for your hard work); good job; much
+  appreciated; goodbye (when you finshed your day)
 - どう 致しまして (どう いたしまして) - you're welcome
-- おめでとう ございます (おめでとう ございます) - congratulations
+- おめでとう ございます - congratulations
 - も一度いいですか？ (もいちどいいですか) - one more time, is it okay?
 - 日本語がわかりません (にほんごがわかりません) - Japanese, I don't
   understand
@@ -718,6 +721,7 @@ ____
   らい ほうほうによっておならびいただくレーンがわかれます) - Beyond this point,
   the lane to be get into will be separated due to payment method.
 - 2 列にお並びください (2 れつにおならびください) - Please line up in 2 lines
+- 防災 (ぼうさい) - disaster preparedness
 
 ## Sites
 
@@ -1008,7 +1012,7 @@ ____
 - 毛繕い (けづくろい) - grooming
 - 雀 (すずめ) - tree sparrow
 
-## Funiture
+## Furniture
 
 - ソファ - sofa
 - ごみ箱 (ごみばこ) - trash can
@@ -1131,6 +1135,8 @@ ____
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
 - 動画 (どうが) - video
+- アンドロイド - Android
+- ログイン - login
 
 ### Math
 
@@ -1147,6 +1153,7 @@ ____
 - 抗生物質 (こうせいぶっしつ) - antibiotic
 - 痛み止め (いたみどめ) - painkiller
 - アレルギー - allergy
+- お襁褓 (おむつ) - diaper
 
 ## Finance
 
