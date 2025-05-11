@@ -189,6 +189,8 @@ ___
 ### PDF
 
 - [ledongthuc/pdf](https://github.com/ledongthuc/pdf) read texts from PDF file
+- [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) a library and a CLI tool to
+  manipulate PDF files
 
 ### Protobuf
 
