@@ -61,6 +61,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - <kbd>ctrl</kbd><kbd>p</kbd> to invoke fuzzy file search (in normal mode)
 - <kbd>V</kbd> to select a line visually
 - <kbd>,</kbd><kbd>m</kbd> to search for a configured mapping
+- `:messages` to show message history
 
 ### Navigation
 
