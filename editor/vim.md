@@ -50,6 +50,7 @@ files](https://github.com/alexhokl/vim-alexhokl/tree/master/plugin)
 - [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - a
   collections of awesome Neovim plugins
 - [LSP from neovim](https://neovim.io/doc/user/lsp.html)
+- [Lazy plugin spec](https://lazy.folke.io/spec)
 
 ## Mappings
 
