@@ -222,7 +222,7 @@ ____
 - 今日 (きょう) - today
 - 本日 (ほんじつ) - today
 - 明日 (あした) - tomorrow (also as あす)
-- 明後日 (あさって) - day after tomorrow
+- 明後日 (あさって) - the day after tomorrow
 - 昨夜 (ゆうべ) - last night
 - 今晩 (こんばん) - tonight
 - 今朝 (けさ) - this morning

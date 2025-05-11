@@ -6,13 +6,10 @@
     + [Politeness markers](#politeness-markers)
 - [Auxiliary verbs](#auxiliary-verbs)
 - [Verb forms](#verb-forms)
-  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
-  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
-  * [Irregular verbs](#irregular-verbs)
   * [Plain form](#plain-form)
 - [Verb conjugation](#verb-conjugation)
-  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
-  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E-1)
+  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
     + [verbs ended in う](#verbs-ended-in-%E3%81%86)
   * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
@@ -125,68 +122,6 @@ ____
 
 # Verb forms
 
-## 五段動詞
-
-| Form              | Affirmative                 | Negative                            |
-| ---               | ---                         | ---                                 |
-| Non-past          | 聞く         (きく)         | 聞かない         (きかない)         |
-| Non-past, polite  | 聞きます     (ききます)     | 聞きません       (ききません)       |
-| Non-past, formal  |                             | 聞かず           (きかず)           |
-| Past              | 聞いた       (きいた)       | 聞かなかった     (きかなかった)     |
-| Past, polite      | 聞きました   (ききました)   | 聞きませんでした (ききませんでした) |
-| Te-form           | 聞いて       (きいて)       | 聞かなくて       (きかなくて)       |
-| Potential         | 聞ける       (きける)       | 聞けない         (きけない)         |
-| Passive           | 聞かれる     (きかれる)     | 聞かれない       (きかれない)       |
-| Causative         | 聞かせる     (きかせる)     | 聞かせない       (きかせない)       |
-| Causative Passive | 聞かせられる (きかせられる) | 聞かせられない   (きかせられない)   |
-| Imperative        | 聞け         (きけ)         | 聞くな           (きくな)           |
-
-## 一段動詞
-
-| Form              | Affirmative    | Negative         |
-| ---               | ---            | ---              |
-| Non-past          | 食べる         | 食べない         |
-| Non-past, polite  | 食べます       | 食べません       |
-| Non-past, formal  |                | 食べず           |
-| Past              | 食べた         | 食べなかった     |
-| Past, polite      | 食べました     | 食べませんでした |
-| Te-form           | 食べて         | 食べなくて       |
-| Potential         | 食べられる     | 食べられない     |
-| Passive           | 食べられる     | 食べられない     |
-| Causative         | 食べさせる     | 食べさせない     |
-| Causative Passive | 食べさせられる | 食べさせられない |
-| Imperative        | 食べろ         | 食べるな         |
-
-## Irregular verbs
-
-| Form              | Affirmative            | Negative                       |
-| ---               | ---                    | ---                            |
-| Non-past          | 為る (する)            | 為ない (しない)                |
-| Non-past, polite  | 為ます (します)        | 為ません (しません)            |
-| Non-past, formal  |                        | せず                           |
-| Past              | 為た (し為た)          | 為なかった(しなかった)         |
-| Past, polite      | 為ました(しました)     | 為ませんでした(しませんでした) |
-| Te-form           | 為て(して)             | 為なくて(しなくて)             |
-| Potential         | できる                 | できない                       |
-| Passive           | 為れる (される)        | 為れない(されない)             |
-| Causative         | 為せる(させる)         | 為せない(させない)             |
-| Causative Passive | 為せられる(させられる) | 為せられない(させられない)     |
-| Imperative        | 為ろ(しろ)             | 為るな(するな)                 |
-
-| Form              | Affirmative                   | Negative                          |
-| ---               | ---                           | ---                               |
-| Non-past          | 来る (く来る)                 | 来ない (こ来ない)                 |
-| Non-past, polite  | 来ます (き来ます)             | 来ません (き来ません)             |
-| Non-past, formal  |                               | 来ず (こず)                       |
-| Past              | 来た (き来た)                 | 来なかった (こ来なかった)         |
-| Past, polite      | 来ました (き来ました)         | 来ませんでした (き来ませんでした) |
-| Te-form           | 来て (き来て)                 | 来なくて (こ来なくて)             |
-| Potential         | 来られる (こ来られる)         | 来られない (こ来られない)         |
-| Passive           | 来られる (こ来られる)         | 来られない (こ来られない)         |
-| Causative         | 来させる (こ来させる)         | 来させない (こ来させない)         |
-| Causative Passive | 来させられる (こ来させられる) | 来させられない (こ来させられない) |
-| Imperative        | 来い (こ来い)                 | 来るな (く来るな)                 |
-
 ## Plain form
 
 - aka non-past form, dictionary form る form
@@ -243,23 +178,51 @@ ____
 
 ## 五段動詞
 
- | chart line | Japanese | Romaji     | English         |
- | ---        | ---      | ---        | ---             |
- | あ         | 聞かない | ki`ka`nai  | not listen      |
- | い         | 聞きます | ki`ki`masu | listen (polite) |
- | う         | 聞く     | ki`ku`     | listen (plain)  |
- | え         | 聞ける   | ki`ke`ru   | can listen      |
- | お         | 聞こう   | ki`ko`u    | let's listen    |
+| chart line | Japanese | Romaji     | English         |
+| ---        | ---      | ---        | ---             |
+| あ         | 聞かない | ki`ka`nai  | not listen      |
+| い         | 聞きます | ki`ki`masu | listen (polite) |
+| う         | 聞く     | ki`ku`     | listen (plain)  |
+| え         | 聞ける   | ki`ke`ru   | can listen      |
+| お         | 聞こう   | ki`ko`u    | let's listen    |
+
+| Form              | Affirmative                 | Negative                            | chart line |
+| ---               | ---                         | ---                                 | ---        |
+| Non-past          | 聞く         (きく)         | 聞かない         (きかない)         | う         |
+| Non-past, polite  | 聞きます     (ききます)     | 聞きません       (ききません)       | い         |
+| Non-past, formal  |                             | 聞かず           (きかず)           |            |
+| Past              | 聞いた       (きいた)       | 聞かなかった     (きかなかった)     | い         |
+| Past, polite      | 聞きました   (ききました)   | 聞きませんでした (ききませんでした) | い         |
+| Te-form           | 聞いて       (きいて)       | 聞かなくて       (きかなくて)       | い         |
+| Potential         | 聞ける       (きける)       | 聞けない         (きけない)         | え         |
+| Passive           | 聞かれる     (きかれる)     | 聞かれない       (きかれない)       | あ         |
+| Causative         | 聞かせる     (きかせる)     | 聞かせない       (きかせない)       | あ         |
+| Causative Passive | 聞かせられる (きかせられる) | 聞かせられない   (きかせられない)   | あ         |
+| Imperative        | 聞け         (きけ)         | 聞くな           (きくな)           | え         |
 
 ## 一段動詞
 
- | Japanese   | Romaji       | English      |
- | ---        | ---          | ---          |
- | 食べたい   | `tabe`nai    | not eat      |
- | 食べます   | `tabe`masu   | eat (polite) |
- | 食べる     | `tabe`ru     | eat (plain)  |
- | 食べられる | `tabe`rareru | can eat      |
- | 食べよう   | `tabe`you    | let's eat    |
+| Japanese   | Romaji       | English      |
+| ---        | ---          | ---          |
+| 食べたい   | `tabe`nai    | not eat      |
+| 食べます   | `tabe`masu   | eat (polite) |
+| 食べる     | `tabe`ru     | eat (plain)  |
+| 食べられる | `tabe`rareru | can eat      |
+| 食べよう   | `tabe`you    | let's eat    |
+
+| Form              | Affirmative    | Negative         |
+| ---               | ---            | ---              |
+| Non-past          | 食べる         | 食べない         |
+| Non-past, polite  | 食べます       | 食べません       |
+| Non-past, formal  |                | 食べず           |
+| Past              | 食べた         | 食べなかった     |
+| Past, polite      | 食べました     | 食べませんでした |
+| Te-form           | 食べて         | 食べなくて       |
+| Potential         | 食べられる     | 食べられない     |
+| Passive           | 食べられる     | 食べられない     |
+| Causative         | 食べさせる     | 食べさせない     |
+| Causative Passive | 食べさせられる | 食べさせられない |
+| Imperative        | 食べろ         | 食べるな         |
 
 ## 五段動詞 and 一段動詞
 
@@ -296,6 +259,36 @@ ____
 - examples
   * する (suru) - to do
   * 来る (kuru) - to come
+
+| Form              | Affirmative             | Negative                        |
+| ---               | ---                     | ---                             |
+| Non-past          | 為る (する)             | 為ない (しない)                 |
+| Non-past, polite  | 為ます (します)         | 為ません (しません)             |
+| Non-past, formal  |                         | せず                            |
+| Past              | 為た (し為た)           | 為なかった (しなかった)         |
+| Past, polite      | 為ました (しました)     | 為ませんでした (しませんでした) |
+| Te-form           | 為て (して)             | 為なくて (しなくて)             |
+| Potential         | できる                  | できない                        |
+| Passive           | 為れる (される)         | 為れない (されない)             |
+| Causative         | 為せる (させる)         | 為せない (させない)             |
+| Causative Passive | 為せられる (させられる) | 為せられない (させられない)     |
+| Imperative        | 為ろ (しろ)             | 為るな (するな)                 |
+
+| Form              | Affirmative                 | Negative                        |
+| ---               | ---                         | ---                             |
+| Non-past          | 来る (くる)                 | 来ない (こない)                 |
+| Non-past, polite  | 来ます (きます)             | 来ません (きません)             |
+| Non-past, formal  |                             | 来ず (こず)                     |
+| Past              | 来た (きた)                 | 来なかった (こなかった)         |
+| Past, polite      | 来ました (きました)         | 来ませんでした (きませんでした) |
+| Te-form           | 来て (きて)                 | 来なくて (こなくて)             |
+| Potential         | 来られる (こられる)         | 来られない (こられない)         |
+| Passive           | 来られる (こられる)         | 来られない (こられない)         |
+| Causative         | 来させる (こさせる)         | 来させない (こさせない)         |
+| Causative Passive | 来させられる (こさせられる) | 来させられない (こさせられない) |
+| Imperative        | 来い (こい)                 | 来るな (くるな)                 |
+
+Note the change in sounds between く, き and こ.
 
 ## Lost of the w sound
 

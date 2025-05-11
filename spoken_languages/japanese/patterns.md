@@ -2,6 +2,14 @@
 - [Chapter 2](#chapter-2)
 - [Chapter 3](#chapter-3)
 - [Chapter 4](#chapter-4)
+  * [Negative of adjectives](#negative-of-adjectives)
+  * [Te-form](#te-form)
+  * [How is it?](#how-is-it)
+  * [not so](#not-so)
+  * [location and count things](#location-and-count-things)
+  * [How much / many](#how-much--many)
+  * [Ordering food](#ordering-food)
+  * [Like / dislike](#like--dislike)
 - [Chapter 5](#chapter-5)
 - [Chapter 6](#chapter-6)
 ____
@@ -169,40 +177,43 @@ ____
 
 ## Chapter 4
 
-- formal i-adjective in negative form
-  * い => くありません
-    + 新しくありません。
-- casual i-adjective in negative form
-  * い => くないです
-    * 新しくないです。
-- formal na-adjective in negative form
-  * adjective + ではありません
-    * 静かではありません。
-- casual na-adjective in negative form
-  * adjective + ではないです
-    * 静かではないです。
-- more casual na-adjective in negative form
-  * adjective + じゃないです
-    * 静かじゃないです。
+### Negative of adjectives
+
+|              | polite             | plain            | casual         |
+| ---          | ---                | ---              | ---            |
+| i-adjective  | い => くありません | い => くないです |                |
+| na-adjective | + ではありません   | + ではないです   | + じゃないです |
+
+#### Examples
+
+|              | polite               | plain              | casual             |
+| ---          | ---                  | ---                | ---                |
+| i-adjective  | 新しくありません。   | 新しくないです。   |                    |
+| na-adjective | 静かではありません。 | 静かではないです。 | 静かじゃないです。 |
 
 - 良いです。 (いいです。)
   * 良くありません。 (よくありません。)
 
-- te-form
-  * i-adjective
-    + い => くて
-      + 大きくて重いです。
-  * na-adjective
-    + adjective + で
-      + 丈夫で軽いです。
+### Te-form
+
+|              | transformation | example            |
+| ---          | ---            | ---                |
+| i-adjective  | い => くて     | 大きくて重いです。 |
+| na-adjective | + で           | 丈夫で軽いです。   |
+
+### How is it?
 
 - どうですか。
   * このカレーはどうですか。
     + 美味しいです。
 
+### not so
+
 - あまり + adjective in nagative form
   * このカレーはあまり美味しくないです。
   * 私の部屋はあまり綺麗じゃないです。
+
+### location and count things
 
 - location + に + thing + が + quantity + ありますか。
   * 机の上に本が三冊ありますか。
@@ -210,6 +221,8 @@ ____
 
 - location + に + thing + が + quantity + と + another thing + が + quantity + ありますか。
   * 机の上に本が三冊と鉛筆が一本ありますか。
+
+### How much / many
 
 - いくらですか。
   * この本はいくらですか。
@@ -230,6 +243,8 @@ ____
   * 辞書は何冊ありますか。
     + 五冊あります。
 
+### Ordering food
+
 - 注文
   * thing + を + ください。
     + すみません、塩をください。
@@ -241,6 +256,8 @@ ____
     + A: お客様、お飲み物は...
       B: コーヒーを三つください。
     + ハンパーグを一つと刺身定食を一つください。
+
+### Like / dislike
 
 - person + は + thing + が + 好きです。
   * A: 田中さんは何が好きですか。
