@@ -5,9 +5,11 @@
   * [Negative of adjectives](#negative-of-adjectives)
   * [Te-form](#te-form)
   * [How is it?](#how-is-it)
-  * [not so](#not-so)
-  * [location and count things](#location-and-count-things)
+  * [not very](#not-very)
+  * [location and count things or people](#location-and-count-things-or-people)
   * [How much / many](#how-much--many)
+  * [How many](#how-many)
+  * [How old](#how-old)
   * [Ordering food](#ordering-food)
   * [Like / dislike](#like--dislike)
 - [Chapter 5](#chapter-5)
@@ -207,41 +209,53 @@ ____
   * このカレーはどうですか。
     + 美味しいです。
 
-### not so
+### not very
 
 - あまり + adjective in nagative form
   * このカレーはあまり美味しくないです。
   * 私の部屋はあまり綺麗じゃないです。
 
-### location and count things
+### location and count things or people
 
-- location + に + thing + が + quantity + ありますか。
-  * 机の上に本が三冊ありますか。
+- location + に + thing + が + quantity + あります。
+  * 机の上に本が三冊あります。
   * たくさん can be used in place of quantity
 
-- location + に + thing + が + quantity + と + another thing + が + quantity + ありますか。
+- location + に + thing + が + quantity + と + another thing + が + quantity + あります。
   * 机の上に本が三冊と鉛筆が一本ありますか。
+
+- location + に + person + が + quantity + います。
+  * 教室に学生が三人います。
+
+- location + に + person + が + quantity + と + another person + が + quantity + います。
+  * 教室に学生が三人と先生が一人います。
 
 ### How much / many
 
-- いくらですか。
+- (anything) + は + いくらですか。
   * この本はいくらですか。
     + これは五百円です。
 
 - quantity + price + です。
   * 本は三つ五百円です。
 
+### How many
+
 - い＜つ
   * 玩具はいくつありますか。
     + 五つあります。
-  * あなたのお父さんはおいくつですか。
-    + 五十歳です。
 
 - 何 + counter
   * 学生は何人いますか。
     + 十人います。
   * 辞書は何冊ありますか。
     + 五冊あります。
+
+### How old
+
+- い＜つ
+  * あなたのお父さんはおいくつですか。
+    + 五十歳です。
 
 ### Ordering food
 
@@ -267,9 +281,9 @@ ____
   * A: 田中さんは何が嫌いですか。
     B: 私は魚が嫌いです。
 
-- person + は + thing + が + しいです。
-  * A: 色々な洋服がありますね。田中さんはどれがしいですか。
-    B: 私はこれがしいです。
+- person + は + thing + が + いいです。
+  * A: 色々な洋服がありますね。田中さんはどれがいいですか。
+    B: 私はこれがいいです。
 
 ## Chapter 5
 
@@ -291,9 +305,10 @@ ____
   * 十一時に寝ます
 
 - location + へ + directional intransitive verb
-  * 学校へ行きます
-  * うちへ帰ります
-  * A: 田中さんは何時にうちへきますか。
+  * 学校へ行きます。
+  * うちへ帰ります。
+  * うちへ来ます。
+  * A: 田中さんは何時にうちへ行きますか。
     B: 七時に行きます。
 
 - (subject) + (は) + time + action
@@ -329,10 +344,10 @@ ____
   * 私は毎晩八時から十時まで勉強をします。
   * 試験は十時から十二時までです。
 
-- event + の前に + ...
+- event + の前に + event
   * 私は食事の前に手を洗います。
 
-- event + の後で + ...
+- event + の後で + event
   * 私は食事の後で日本語の勉強をします。
 
 - shorten answers
@@ -360,10 +375,10 @@ ____
   * A: 田中さんは毎晩学校へ行きますか。
     B: いいえ、学校へは行きません。図書館へ行きます。
 
-- A: location + か + いますか。
+- A: location + に誰か + いますか。
   B: はい、...
   B: いいえ、...
-  * A: 教室にかいますか。
+  * A: 教室に誰かいますか。
     B: はい、田中先生がいます。
     B: いいえ、誰もいません。
 
@@ -421,8 +436,8 @@ ____
 - negative of past tense of い-adjective (replace い with くありませんでした)
   * 去年の冬はあまり寒くありませんでした。
 
-- casual negative of past tense of f い-adjective (replace い with かった)
-  * 去年の冬はあまり寒苦なかったです。
+- casual negative of past tense of い-adjective (replace くない with くなかった)
+  * 去年の冬はあまり寒くなかったです。
 
 - past tense of な-adjective (append でした)
   * 私は中学生の時英語の勉強が好きでした。
@@ -438,7 +453,7 @@ ____
     + いいえ、子供の時は野菜が好きではありませんでした。
     + いいえ、子供の時は野菜は好きではありませんでした。
 
-- casual negative of past tense of な-adjective (replace い with かった)
+- casual negative of past tense of な-adjective (replace ではない with ではなかった)
   * 私は中学生の時英語の勉強が好きではなかったです。
 
 - past tense of noun (replace です with でした)
@@ -453,7 +468,7 @@ ____
   * 私は先週の日曜日に渋谷の映画館で映画を見ました。
   * 私は2010年から2012年まで東京で日本語を勉強しました。
 
-- something + が  + 分かる
+- something + が + 分かる
   * 木村さんは英語が分かりますか。
   * 田中先生はカントン語が分かりますか。
   * 貴方はこの言葉の意味が分かりますか。
@@ -474,7 +489,7 @@ ____
 
 - どんな + noun + ... + か。
   * 貴方はどんなスポーツが好きですか。
-  * 木村さんのうちどんなうちですか。
+  * 木村さんのうちはどんなうちですか。
 
 - people + は + time + (に) + people + と + activity
   * 私は昨日友達と(一緒に)映画を見ました。
