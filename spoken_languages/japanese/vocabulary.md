@@ -572,6 +572,7 @@ ____
 - 凄い (すごい) - amazing; wonderful; terrible; dreadful
 - 美しい (うつくしい) - beautiful; pure
 - 優しい (やさしい) - gentle; kind
+- 苦い (にがい) - bitter
 
 ### Adjectives (な)
 
@@ -697,6 +698,7 @@ ____
 ### Adjectives (い)
 
 - 嬉しい (うれしい) - happy; glad; pleased
+- 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
 
 ### Adjectives (な)
 
