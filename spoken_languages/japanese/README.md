@@ -43,6 +43,7 @@
   * [Feelings](#feelings)
   * [Form filling](#form-filling)
   * [Home](#home)
+  * [Home appliances](#home-appliances)
   * [Academic](#academic)
   * [People names](#people-names)
   * [Weather](#weather)
@@ -53,7 +54,6 @@
   * [Animals](#animals)
   * [Furniture](#furniture)
   * [Electronics](#electronics)
-  * [Home appliances](#home-appliances)
   * [Internet](#internet)
   * [Media](#media)
   * [Personal care](#personal-care)
@@ -675,6 +675,7 @@ ____
 - お持て成し (おもてなし) - hospitality; reception; entertainment;
   treatment; service
 - 然らば (さらば) - farewell; goodbye; if so; in that case
+- 失礼しました (しつれいしました) - excuse me; I'm sorry; I apologize
 
 ## Signs
 
@@ -924,6 +925,11 @@ ____
 ## Home
 
 - 寝室 (しんしつ) - bedroom
+- 湯船 (ゆぶね) - bathtub
+
+## Home appliances
+
+- 電子レンジ (でんしレンジ) - microwave oven
 
 ## Academic
 
@@ -1022,10 +1028,6 @@ ____
 
 - 携帯電話 (けいたいでんわ) - mobile phone
 - スマートフォン (スマホ) - smartphone
-
-## Home appliances
-
-- 電子レンジ (でんしレンジ) - microwave oven
 
 ## Internet
 

@@ -1,0 +1,329 @@
+- [Verb forms](#verb-forms)
+  * [Plain form](#plain-form)
+- [Verb conjugation](#verb-conjugation)
+  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+    + [verbs ended in う](#verbs-ended-in-%E3%81%86)
+  * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
+  * [Lost of the w sound](#lost-of-the-w-sound)
+  * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
+    + [double consonant with Small っ](#double-consonant-with-small-%E3%81%A3)
+    + [assimilation with ん](#assimilation-with-%E3%82%93)
+    + [consonant removal](#consonant-removal)
+  * [Stem form](#stem-form)
+  * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
+___
+
+# Verb forms
+
+## Plain form
+
+- aka non-past form, dictionary form る form
+- express present, habitual and future actions
+- ends with `u` sound (such as 飲む、使う、する)
+- examples
+  * 兄は毎日パスタを`食べる`。 - My brother eats pasta everyday.
+  * 兄は明日パスタを`食べる`。 - My brother will eat pasta tomorrow.
+- if there are no context clues, more often than not the plain present form is
+  used to talk about the future
+  * examples
+    + パーティーをする。 - I will throw a party.
+    + 飲む？ - Will you drink it?
+      + 飲む！ - I will drink it!
+- hibits, facts or generalisations
+  * if the speaker believes it is a fact, whether it is actually true or false
+    does not really matter
+  * examples
+    + 朝は、いつもサンドイッチを`食べる`。 - I always eat sandwiches in the
+      morning.
+    + 水は100度で`沸騰する`。 - Water boils at 100 celsius.
+    + ラブラドールはよく`食べる`。 - Labradors eat well.
+  * if the fact or generalization is something that is continuously happening,
+    it is more common to think of it as a repeated action with the focus on its
+    continuity using the `ている` form of the verb
+    + 月は地球の周りを`回っている`。 - The moon revolves around the earth.
+    + 兄はパソコンを三台も`持つ`。 - My brother has three computers from now on.
+    + 兄はパソコンを三台も`持っている`。 - My brother has three computers.
+- politness
+  * examples
+    + non-polite
+      + クッキー`食べる`？ - Will you eat some cookies?
+    + polite
+      + クッキー`食べますか`？ - Would you like to eat some cookies?
+- types
+  * 他動詞 (たどうし) - transitive verb
+  * 自動詞 (じどうし) - intransitive verb
+    + 往来動詞 (おうらいどうし) - directional intransitive verb
+
+# Verb conjugation
+
+- conjugate
+  * take a varierty of endings
+  * convey verb in the present or past, positive or negative, and more
+- types
+  * 五段動詞 (ごだんどうし)
+    + aka うverbs, Group I verbs or consonant-root verbs
+    + as these verbs conjugate, the う-line character will shift through the
+      five vowel sounds in the hiragana chart (あ, い, う, え, お)
+  * 一段動詞 (いちだんどうし)
+    + aka るverbs, Group II verbs or vowel-root verbs
+  * 変格動詞 (へんかくどうし)
+    + aka irregular verbs
+
+## 五段動詞
+
+| chart line | Japanese | Romaji     | English         |
+| ---        | ---      | ---        | ---             |
+| あ         | 聞かない | ki`ka`nai  | not listen      |
+| い         | 聞きます | ki`ki`masu | listen (polite) |
+| う         | 聞く     | ki`ku`     | listen (plain)  |
+| え         | 聞ける   | ki`ke`ru   | can listen      |
+| お         | 聞こう   | ki`ko`u    | let's listen    |
+
+| Form              | Affirmative                 | Negative                            | chart line |
+| ---               | ---                         | ---                                 | ---        |
+| Non-past          | 聞く         (きく)         | 聞かない         (きかない)         | う         |
+| Non-past, polite  | 聞きます     (ききます)     | 聞きません       (ききません)       | い         |
+| Non-past, formal  |                             | 聞かず           (きかず)           |            |
+| Past              | 聞いた       (きいた)       | 聞かなかった     (きかなかった)     | い         |
+| Past, polite      | 聞きました   (ききました)   | 聞きませんでした (ききませんでした) | い         |
+| Te-form           | 聞いて       (きいて)       | 聞かなくて       (きかなくて)       | い         |
+| Potential         | 聞ける       (きける)       | 聞けない         (きけない)         | え         |
+| Passive           | 聞かれる     (きかれる)     | 聞かれない       (きかれない)       | あ         |
+| Causative         | 聞かせる     (きかせる)     | 聞かせない       (きかせない)       | あ         |
+| Causative Passive | 聞かせられる (きかせられる) | 聞かせられない   (きかせられない)   | あ         |
+| Imperative        | 聞け         (きけ)         | 聞くな           (きくな)           | え         |
+
+## 一段動詞
+
+| Japanese   | Romaji       | English      |
+| ---        | ---          | ---          |
+| 食べたい   | `tabe`nai    | not eat      |
+| 食べます   | `tabe`masu   | eat (polite) |
+| 食べる     | `tabe`ru     | eat (plain)  |
+| 食べられる | `tabe`rareru | can eat      |
+| 食べよう   | `tabe`you    | let's eat    |
+
+| Form              | Affirmative    | Negative         |
+| ---               | ---            | ---              |
+| Non-past          | 食べる         | 食べない         |
+| Non-past, polite  | 食べます       | 食べません       |
+| Non-past, formal  |                | 食べず           |
+| Past              | 食べた         | 食べなかった     |
+| Past, polite      | 食べました     | 食べませんでした |
+| Te-form           | 食べて         | 食べなくて       |
+| Potential         | 食べられる     | 食べられない     |
+| Passive           | 食べられる     | 食べられない     |
+| Causative         | 食べさせる     | 食べさせない     |
+| Causative Passive | 食べさせられる | 食べさせられない |
+| Imperative        | 食べろ         | 食べるな         |
+
+## 五段動詞 and 一段動詞
+
+### verbs ended in う
+
+* if the vowel sound that comes before る is `a`, `u`, or `o`, it is
+  `definitely` a 五段動詞
+  + it is likely that the verb is a combination of kanji and る
+  + examples
+    * いる (iru) - to need
+    * 入る (hairu) - to enter
+    * 走る (hashiru) - to run
+    * 帰る (kaeru) - to return
+    * 減る (heru) - to decrease
+    * 喋る (shaberu) - to chat
+* if the vowel sound that comes before る is `e` or `i`, it is `probably` a
+  一段動詞
+  + it is likely that the verb is a combination of 送り仮名 (okurigana) and る
+  + examples
+    * 起きる (おきる) - to wake up
+    * 開ける (あける) - to open
+    * 食べる (たべる) - to eat
+
+| verb group | Japanese | Romaji    | English       |
+| ---        | ---      | ---       | ---           |
+| 五段動詞   | 分かる   | wak`a`ru  | to understand |
+|            | 作る     | tsuk`u`ru | to make       |
+|            | 折る     | `o`ru     | to fold       |
+| 一段動詞   | 食べる   | tab`e`ru  | to eat        |
+|            | 起きる   | ok`i`ru   | to wake up    |
+
+## 変格動詞
+
+- examples
+  * する (suru) - to do
+  * 来る (kuru) - to come
+
+| Form              | Affirmative             | Negative                        |
+| ---               | ---                     | ---                             |
+| Non-past          | 為る (する)             | 為ない (しない)                 |
+| Non-past, polite  | 為ます (します)         | 為ません (しません)             |
+| Non-past, formal  |                         | せず                            |
+| Past              | 為た (し為た)           | 為なかった (しなかった)         |
+| Past, polite      | 為ました (しました)     | 為ませんでした (しませんでした) |
+| Te-form           | 為て (して)             | 為なくて (しなくて)             |
+| Potential         | できる                  | できない                        |
+| Passive           | 為れる (される)         | 為れない (されない)             |
+| Causative         | 為せる (させる)         | 為せない (させない)             |
+| Causative Passive | 為せられる (させられる) | 為せられない (させられない)     |
+| Imperative        | 為ろ (しろ)             | 為るな (するな)                 |
+
+| Form              | Affirmative                 | Negative                        |
+| ---               | ---                         | ---                             |
+| Non-past          | 来る (くる)                 | 来ない (こない)                 |
+| Non-past, polite  | 来ます (きます)             | 来ません (きません)             |
+| Non-past, formal  |                             | 来ず (こず)                     |
+| Past              | 来た (きた)                 | 来なかった (こなかった)         |
+| Past, polite      | 来ました (きました)         | 来ませんでした (きませんでした) |
+| Te-form           | 来て (きて)                 | 来なくて (こなくて)             |
+| Potential         | 来られる (こられる)         | 来られない (こられない)         |
+| Passive           | 来られる (こられる)         | 来られない (こられない)         |
+| Causative         | 来させる (こさせる)         | 来させない (こさせない)         |
+| Causative Passive | 来させられる (こさせられる) | 来させられない (こさせられない) |
+| Imperative        | 来い (こい)                 | 来るな (くるな)                 |
+
+Note the change in sounds between く, き and こ.
+
+## Lost of the w sound
+
+- example of pronunciation in the old times
+  * 上 (ue) pronounced as `wuwe`
+  * 田舎 (inaka) pronounced as `winawka`
+  * 買う (kau) pronounced as `kawu`
+
+| conjugation form | Japanese | Romaji     | remarks            |
+| ---              | ---      | ---        | ---                |
+| negative (plain) | 買わない | ka`wa`nai  |                    |
+| polite           | 買います | kaimasu    | normal conjugation |
+| plain            | 買う     | kau        | normal conjugation |
+| active           | 買おう   | kaiou      | normal conjugation |
+| passive          | 買われる | ka`wa`reru |                    |
+| causative        | 買わせる | ka`wa`seru |                    |
+
+Note that all other conjugations of 買う use hiragana characters on the
+あいうえお line.
+
+## Sound convenience in conjugations
+
+- there is a concept in Japanese linguistics called 音便 (おんびん), which
+  refers to changes in pronunciation that occur to make a word easier to say
+- 五段動詞
+  * て form
+  * past tense suffix た
+  * suffix たら
+  * suffix たり
+- rules
+  * double consonant
+    + when small っ pops up in a conjugation
+  * assimilation
+    + when two sounds blend together into ん
+  * consonant removal
+    + when a consonant disappears
+
+### double consonant with Small っ
+
+- the double consonant (small っ) is used when a verb root ends in `w`, `t`, or
+  `r`
+
+| verb | root     | expected て form | actual て form |
+| ---  | ---      | ---              | ---            |
+| 買う | ka(`w`)  | 買いて           | 買って         |
+| 持つ | mo`t`(s) | 持ちて           | 持って         |
+| 降る | fu`r`    | 降りて           | 降って         |
+
+### assimilation with ん
+
+- the ん character is used when a verb stem ends in `m`, `n` or `b`
+- by dropping the verb stem ending sound, replacing it with ん, and transforming
+  the `t` to a `d`
+
+| verb | root     | expected て form | actual て form |
+| ---  | ---      | ---              | ---            |
+| 飲む | no`m`    | 飲みて           | 飲んで         |
+| 死ぬ | shi`n`   | 死にて           | 死んで         |
+| 呼ぶ | yo`b`    | 呼びて           | 呼んで         |
+
+### consonant removal
+
+- if the verb root ended in `k`, the verb ending would be attached with a `t`
+  sound
+- if the verb root ended in `g`, the verb ending would be attached with a `d`
+  sound
+
+| verb | root     | expected て form | actual て form |
+| ---  | ---      | ---              | ---            |
+| 聞く | ki`k`    | 聞きて           | 聞いて         |
+| 急ぐ | iso`g`   | 急いて           | 急いで         |
+
+## Stem form
+
+- aka
+  * V-stem form
+  * ます form
+  * i-form
+  * 連用形 (れんようけい)
+  * continuative form
+  * continuative stem
+  * conjunctive form
+  * sentence-joining form
+- the fixed part in a verb conjuation
+- suffixed with い if it is a 五段動詞 (godan verb)
+- it can also stand alone as a noun at times or become at least noun-like,
+  allowing it to combine with another word to form a compound verb like 飛び込む
+  (to jump in)
+- conjugation
+  * 五段動詞
+    + replace う ending with い
+  * 一段動詞
+    + remove る ending
+  * 変格動詞
+    + する -> し
+    + 来る -> 来
+
+## Command form (imperative) ろ
+
+- it is pretty strong and not exactly super polite to use
+- conjugation
+  * 五段動詞
+    + change from う-line to え-line
+  * 一段動詞
+    + replace る ending with ろ
+    + exception
+      + くれる -> くれ
+  * 変格動詞
+    + する -> しろ
+    + 来る -> 来い
+- command form is also used in situations where relative social standing is not
+  important
+  * in moments of danger or crisis, your warning message is more important than
+    making sure you do not offend anyone
+  * examples
+    + 熊だ！逃げろー！ - A bear! Run away!
+- softening the command form with particles
+  * when using the command form in casual conversations, final particles such as
+    よ are often attached to the verb to avoid sounding too aggressive
+    + examples
+      + おい、にやにやするの止めろよ！ - Hey, stop grinning at me like that!
+        + ニヤニヤ - grinning
+  * use って or ってば
+    + it indicates that you are repeating the same command, which does a great
+      job of expressing your frustration
+    + examples
+      + やめろって！ - I said Stop it!
+      + やめろってば！ - I said stop it!
+- for motivation or encouragement
+  * keep in mind, this might not be appropriate if you are speaking face-to-face
+    with the athletes
+  * examples
+    + 自分を信じろ！ - Believe in yourself!
+    + 全力でやれ！ - Give it all you have got!
+      + やれ is the imperative form of やる (to do)
+    + 気合入れろ! - Pick it up!
+    + 頑張れ！ - Hang in there!
+- commanding not to do something
+  * examples
+    + 心配するな。 - Don't worry about it.
+    + 泣くな！男の子でしょう！ - Don't cry! You are a boy, aren't you?
+
+

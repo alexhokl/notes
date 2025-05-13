@@ -7,6 +7,7 @@
   * [も](#%E3%82%82)
   * [か](#%E3%81%8B)
   * [と](#%E3%81%A8)
+  * [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
   * [や](#%E3%82%84)
   * [ね](#%E3%81%AD)
   * [わ](#%E3%82%8F)
@@ -543,6 +544,70 @@ ____
     + 難しい質問だ`と`思う。 - I think it is a difficult question.
     + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
     + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
+
+## と (to indicate a strong casual relationship)
+
+- for things that always happen
+  * when と is used for things with inevitable results like this, it is commonly
+    used with words like 必ず (without exception), いつも (always) or よく
+    (usually)
+  * examples
+    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
+      I always crave for sweets (without exception).
+- for habits
+  * examples
+    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
+      a run.
+    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
+      a run.
+    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
+      went for a run.
+      + と and the sentence ending ものだ (or ものです) are used for recalling
+        and narrating the old days
+- for general conditions
+  * examples
+    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
+    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
+      permission, Mami always gets upset.
+- for successive actions
+  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
+    often pairs up with と in this usage
+  * examples
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+      + note the use of past tense
+    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
+      right away.
+- for "what happens if" questions
+  * examples
+    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
+- for warnings
+  * by showing an inevitable consequence of doing something (or often not doing
+    something with the negative form of verbs)
+  * examples
+    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
+- for showing a different perspective
+  * In Japanese culture, people tend to try not to sound too direct or
+    assertive. They are sensitive of providing information as a universal truth
+    unless they are 100% certain because they don't want to be "wrong"! So と is
+    used to soften the assertiveness by bringing an objective perspective as
+    a certain condition.
+  * examples
+    + はっきり言う`と`… - To be honest...
+    + そう考える`と`… - Viewed from that angle...
+    + 他と比べる`と`… - Compared to others...
+    + 一般的に見る`と`… - Generally speaking...
+- と and たら
+  * quite similar because they can both show conditions and time sequence
+  * と shows strong causal relationship whereas the focus of たら is more of the
+    condition as the trigger of the result
+  * examples
+    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
+      crave for sweets.
+    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
+      for sweets.
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
+
 
 ## や
 
