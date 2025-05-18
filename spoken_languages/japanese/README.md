@@ -927,9 +927,16 @@ ____
 - 寝室 (しんしつ) - bedroom
 - 湯船 (ゆぶね) - bathtub
 
+## Furniture
+
+- ソファ - sofa
+- ごみ箱 (ごみばこ) - trash can
+- 屑籠 (くずかご) - wastepaper basket
+
 ## Home appliances
 
 - 電子レンジ (でんしレンジ) - microwave oven
+- 洗濯機 (せんたくき) - washing machine
 
 ## Academic
 
@@ -1017,12 +1024,6 @@ ____
 - 山羊 (やぎ) - goat
 - 毛繕い (けづくろい) - grooming
 - 雀 (すずめ) - tree sparrow
-
-## Furniture
-
-- ソファ - sofa
-- ごみ箱 (ごみばこ) - trash can
-- 屑籠 (くずかご) - wastepaper basket
 
 ## Electronics
 

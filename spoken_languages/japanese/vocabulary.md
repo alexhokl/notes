@@ -181,6 +181,11 @@ ____
 - 色 (いろ) - color
 - 絵 (え) - picture; drawing; painting; sketch
 - 階段 (かいだん) - stairs
+- 新聞 (しんぶん) - newspaper
+- 音楽 (おんがく) - music
+- 掃除 (そうじ) - cleaning; sweeping
+- 箱 (はこ) - box
+- 葉書 (はがき) - postcard
 
 ### Nouns (family)
 
@@ -596,6 +601,7 @@ ____
 - 最近 (さいきん) - recently; lately
 - 昔 (むかし) - old times; old days
 - 先 (さっき) - a moment ago
+- もう直ぐ (もうすぐ) - soon; shortly; before long; nearly; almost
 
 ### Conjunctions
 
@@ -744,6 +750,8 @@ ____
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 担当 (たんとう) - being in charge; being responsible
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
+- 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
+  care); to place (in someone's custody); to entrust (someone) with; to deposit
 
 ### Common word
 
@@ -809,6 +817,8 @@ ____
 
 - 丈 (だけ) - only; just
 - のみ - only; nothing but
+- 了解 (りょうかい) - understanding; comprehension; consent; agreement; OK;
+  roger
 
 ### Nouns
 
@@ -819,8 +829,8 @@ ____
 - 製 (せい) - -made; -manufactured
 - 課題 (かだい) - subject; theme; task; homework
 - 手数 (てすう) - trouble; bother
+- 悩み (なやみ) - trouble; worry; distress
 - 共 (とも) - together; both; all
-- 手数 (てすう) - trouble
 - ポインド - point
 - 取引 (とりひき) - transaction; dealings; business
 - 纏め (まとめ) - summary; recapitulation; aggregation
