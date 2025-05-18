@@ -54,6 +54,19 @@ terraform init -reconfigure -upgrade
 terraform state list
 ```
 
+##### To list provders required by the current resources.
+
+```sh
+terraform providers
+```
+
+##### To list provders required by the current resources with their versions.
+
+```sh
+terraform init
+terraform providers
+```
+
 ### Import
 
 ##### To import existing resources
