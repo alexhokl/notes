@@ -155,6 +155,7 @@ ____
 - 靴下 (くつした) - socks
 - シャツ - shirt
 - ハンカチ - handkerchief
+- ネクタイ - necktie
 - お古 (おふる) - second-hand / old clothes
 - 時計 (とけい) - clock / watch
 - ラジオ - radio
@@ -477,7 +478,7 @@ ____
 - 買う (かう) - to buy
 - 話す (はなす) - to speak
 - 書く (かく) - to write
-- 上げる (あげる) - to raise; to fly; to launch
+- 上げる (あげる) - to raise; to give; to fly; to launch
 - 借りる (かりる) - to borrow
 - 言う (いう) - to say
 - 知る (しる) - to know; to be aware of; to find out; to discover
@@ -563,6 +564,7 @@ ____
 - コンピュータ - computer
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 受付 (うけつけ) - reception; information desk
+- プレゼント - present; gift
 
 ### Nouns (position)
 
@@ -640,6 +642,7 @@ ____
 - 止める (とめる) - to stop; to cancel
 - 落とす (おろす) - to drop; to lose; to leave behind
 - 片付ける (かたづける) - to tidy up; to put in order
+- 呉れる (くれる) - to give (to me)
 
 ### Common word
 
@@ -694,6 +697,7 @@ ____
 - 事実 (じじつ) - fact; truth
 - 機嫌 (きげん) - mood; temper; spirits; humour
 - 笑い (わらい) - laugh; smile
+- 畑 (はたけ) - field; farm
 
 ### Nouns (animals)
 
@@ -752,6 +756,8 @@ ____
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
+- 下ろす (おろす) - to take down; to drop off; to withdraw (money)
+- 貰う (もらう) - to receive; to get (from somebody)
 
 ### Common word
 

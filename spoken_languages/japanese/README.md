@@ -1089,6 +1089,7 @@ ____
 ## News
 
 - 事実はございません (じじつはございません) - There is no truth to this
+- 然だに (さだに) - were it to at least be as such
 
 ## Work
 
@@ -1140,6 +1141,8 @@ ____
 - 動画 (どうが) - video
 - アンドロイド - Android
 - ログイン - login
+- メール - email
+- 返信 (へんしん) - reply
 
 ### Math
 
