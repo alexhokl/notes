@@ -8,6 +8,9 @@
     + [Third person pronouns and its plural form](#third-person-pronouns-and-its-plural-form)
   * [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
   * [Adverb](#adverb)
+- [Verbs](#verbs)
+  * [Intransitive](#intransitive)
+  * [Transitive](#transitive)
 - [Situation and vocabulary](#situation-and-vocabulary)
   * [Restaurant](#restaurant)
   * [Convience store](#convience-store)
@@ -43,6 +46,7 @@
   * [Feelings](#feelings)
   * [Form filling](#form-filling)
   * [Home](#home)
+  * [Furniture](#furniture)
   * [Home appliances](#home-appliances)
   * [Academic](#academic)
   * [People names](#people-names)
@@ -52,7 +56,6 @@
   * [Cycling](#cycling)
   * [Driving](#driving)
   * [Animals](#animals)
-  * [Furniture](#furniture)
   * [Electronics](#electronics)
   * [Internet](#internet)
   * [Media](#media)
@@ -68,9 +71,6 @@
     + [Math](#math)
   * [Health](#health)
   * [Finance](#finance)
-- [Verbs](#verbs)
-  * [Intransitive](#intransitive)
-  * [Transitive](#transitive)
 ____
 
 # Links
@@ -109,6 +109,7 @@ ____
 ## Conjunctions
 
 - 為に (ために) - for
+- 因みに (ちなみに) - by the way; in this connection; incidentally
 
 ## Pronouns
 
@@ -216,6 +217,24 @@ ____
 - 滅茶 (めっちゃ) - extremely / very
 - 未明 (みめい) - early morning
 - 先ずは (まずは) - first of all; probably; more or less; anyway
+
+# Verbs
+
+- ググる - to google
+- バズる - to go viral (buzz)
+- サボる - to slack off (sabotage)
+- パクる - to cheat / steal (plagiarize)
+
+## Intransitive
+
+- リベンジ - revenge; having a second go (at something)
+- 土下座 (どげざ) - to kneel down and bow
+
+## Transitive
+
+- 見守る (みまもる) - to watch over; to keep an eye on
+- 振り切る (ふりきる) - to shake off; to break away
+
 
 # Situation and vocabulary
 
@@ -1160,26 +1179,10 @@ ____
 - 痛み止め (いたみどめ) - painkiller
 - アレルギー - allergy
 - お襁褓 (おむつ) - diaper
+- ウイルス - virus
 
 ## Finance
 
 - 少額投資非課税制度 (しょうがくとうしひかぜいせいど) - Nippon Individual
   Savings Account; NISA
-
-# Verbs
-
-- ググる - to google
-- バズる - to go viral (buzz)
-- サボる - to slack off (sabotage)
-- パクる - to cheat / steal (plagiarize)
-
-## Intransitive
-
-- リベンジ - revenge; having a second go (at something)
-- 土下座 (どげざ) - to kneel down and bow
-
-## Transitive
-
-- 見守る (みまもる) - to watch over; to keep an eye on
-- 振り切る (ふりきる) - to shake off; to break away
-
+- アナリスト - analyst

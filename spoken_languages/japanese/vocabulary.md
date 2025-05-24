@@ -20,6 +20,7 @@
     + [Conjunctions](#conjunctions)
     + [Verbs (Transitive)](#verbs-transitive)
     + [Verbs (Intransitive)](#verbs-intransitive)
+    + [Verbs (Transitive and intransitive)](#verbs-transitive-and-intransitive)
     + [Verbs (Direction Intransitive)](#verbs-direction-intransitive)
     + [Expressions](#expressions)
     + [Common word](#common-word)
@@ -29,6 +30,7 @@
     + [Adjectives (い)](#adjectives-%E3%81%84-1)
     + [Adjectives (な)](#adjectives-%E3%81%AA-1)
     + [Pronouns (person)](#pronouns-person-1)
+    + [Pronouns (things)](#pronouns-things)
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
     + [Auxiliary verbs](#auxiliary-verbs)
@@ -476,12 +478,15 @@ ____
 - 浴びる (あびる) - to take a shower
 - 磨く (みがく) - to brush
 - 買う (かう) - to buy
-- 話す (はなす) - to speak
+- 話す (はなす) - to talk; to speak (a language)
 - 書く (かく) - to write
 - 上げる (あげる) - to raise; to give; to fly; to launch
 - 借りる (かりる) - to borrow
 - 言う (いう) - to say
 - 知る (しる) - to know; to be aware of; to find out; to discover
+- 出す (だす) - to take out; to put out; to submit; to publish
+- 立つ (たつ) - to stand
+- 描く (えがく) - to draw; to paint
 
 ### Verbs (Intransitive)
 
@@ -509,6 +514,14 @@ ____
 - 要る (いる) - to be needed; to want
 - 会う (あう) - to meet
 - 疲れる (つかれる) - to get tired; to become exhausted
+- 死ぬ (しぬ) - to die
+- 遊ぶ (あそぶ) - to play (games, sports); to enjoy oneself; to have a good time
+- 泳ぐ (およぐ) - to swim
+- 弾く (ひく) - to play (a stringed instrument, piano, etc.)
+
+### Verbs (Transitive and intransitive)
+
+- 待つ (まつ) - to wait
 
 ### Verbs (Direction Intransitive)
 
@@ -597,6 +610,11 @@ ____
 - 彼 (かれ) - he / boyfriend
 - 彼女 (かのじょ) - she / girlfriend
 
+### Pronouns (things)
+
+- 彼方 (あちら) - that way; that direction; over there
+- 彼方 (あっち) - see 彼方 (あちら)
+
 ### Adverbs
 
 - 些とも (ちっとも) - not at all
@@ -631,6 +649,7 @@ ____
 - 反対 (はんたい) - opposition; resistance
 - 慣れる (なれる) - to get used to; to become familiar with
 - 返事 (へんじ) - reply; answer
+- 泣く (なく) - to cry; to weep
 
 ### Verbs (Transitive)
 
@@ -640,7 +659,7 @@ ____
 - くれる - to give
 - 変える (かえる) - to change
 - 止める (とめる) - to stop; to cancel
-- 落とす (おろす) - to drop; to lose; to leave behind
+- 落とす (おとす) - to drop; to lose; to leave behind
 - 片付ける (かたづける) - to tidy up; to put in order
 - 呉れる (くれる) - to give (to me)
 
@@ -855,6 +874,7 @@ ____
 ### Verbs (Transitive)
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
+- 問う (とう) - to ask; to inquire; to blame (someone) for
 
 ### Common word
 
