@@ -1,5 +1,6 @@
 - [Verb forms](#verb-forms)
   * [Plain form](#plain-form)
+- [Tenses](#tenses)
 - [Verb conjugation](#verb-conjugation)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
@@ -57,6 +58,27 @@ ____
   * 自動詞 (じどうし) - intransitive verb
     + 往来動詞 (おうらいどうし) - directional intransitive verb
 
+# Tenses
+
+- non-past
+- non-past polite
+- past
+- past polite
+- te-form
+- potential
+  * to indicate that something is possible or can be done
+  * 窓窓から山に見られます。から山に見られます。
+- passive
+  * 私の靴が犬にかまれました。
+- causative
+  * to indicate that someone makes or lets someone else do something
+  * 先生は学生に宿題をさせました。
+- causative passive
+  * 私は先生に宿題を出させられました。
+- imperative
+  * 命令形 (めいれいけい)
+  * 食べろ!
+
 # Verb conjugation
 
 - conjugate
@@ -74,37 +96,37 @@ ____
 
 ## 五段動詞
 
-| chart line | Japanese | Romaji     | English         |
-| ---        | ---      | ---        | ---             |
-| あ         | 聞かない | ki`ka`nai  | not listen      |
-| い         | 聞きます | ki`ki`masu | listen (polite) |
-| う         | 聞く     | ki`ku`     | listen (plain)  |
-| え         | 聞ける   | ki`ke`ru   | can listen      |
-| お         | 聞こう   | ki`ko`u    | let's listen    |
+| chart line | Japanese | Kana     | English         |
+| ---        | ---      | ---      | ---             |
+| あ         | 聞かない | きかない | not listen      |
+| い         | 聞きます | ききます | listen (polite) |
+| う         | 聞く     | きく     | listen (plain)  |
+| え         | 聞ける   | きける   | can listen      |
+| お         | 聞こう   | きこう   | let's listen    |
 
-| Form              | Affirmative                 | Negative                            | chart line |
-| ---               | ---                         | ---                                 | ---        |
-| Non-past          | 聞く         (きく)         | 聞かない         (きかない)         | う         |
-| Non-past, polite  | 聞きます     (ききます)     | 聞きません       (ききません)       | い         |
-| Non-past, formal  |                             | 聞かず           (きかず)           |            |
-| Past              | 聞いた       (きいた)       | 聞かなかった     (きかなかった)     | い         |
-| Past, polite      | 聞きました   (ききました)   | 聞きませんでした (ききませんでした) | い         |
-| Te-form           | 聞いて       (きいて)       | 聞かなくて       (きかなくて)       | い         |
-| Potential         | 聞ける       (きける)       | 聞けない         (きけない)         | え         |
-| Passive           | 聞かれる     (きかれる)     | 聞かれない       (きかれない)       | あ         |
-| Causative         | 聞かせる     (きかせる)     | 聞かせない       (きかせない)       | あ         |
-| Causative Passive | 聞かせられる (きかせられる) | 聞かせられない   (きかせられない)   | あ         |
-| Imperative        | 聞け         (きけ)         | 聞くな           (きくな)           | え         |
+| Form              | Affirmative  | Negative         |
+| ---               | ---          | ---              |
+| Non-past          | 聞く         | 聞かない         |
+| Non-past, polite  | 聞きます     | 聞きません       |
+| Non-past, formal  |              | 聞かず           |
+| Past              | 聞いた       | 聞かなかった     |
+| Past, polite      | 聞きました   | 聞きませんでした |
+| Te-form           | 聞いて       | 聞かなくて       |
+| Potential         | 聞ける       | 聞けない         |
+| Passive           | 聞かれる     | 聞かれない       |
+| Causative         | 聞かせる     | 聞かせない       |
+| Causative Passive | 聞かせられる | 聞かせられない   |
+| Imperative        | 聞け         | 聞くな           |
 
 ## 一段動詞
 
-| Japanese   | Romaji       | English      |
-| ---        | ---          | ---          |
-| 食べたい   | `tabe`nai    | not eat      |
-| 食べます   | `tabe`masu   | eat (polite) |
-| 食べる     | `tabe`ru     | eat (plain)  |
-| 食べられる | `tabe`rareru | can eat      |
-| 食べよう   | `tabe`you    | let's eat    |
+| Japanese   | English      |
+| ---        | ---          |
+| 食べたい   | not eat      |
+| 食べます   | eat (polite) |
+| 食べる     | eat (plain)  |
+| 食べられる | can eat      |
+| 食べよう   | let's eat    |
 
 | Form              | Affirmative    | Negative         |
 | ---               | ---            | ---              |
@@ -141,14 +163,6 @@ ____
     * 起きる (おきる) - to wake up
     * 開ける (あける) - to open
     * 食べる (たべる) - to eat
-
-| verb group | Japanese | Romaji    | English       |
-| ---        | ---      | ---       | ---           |
-| 五段動詞   | 分かる   | wak`a`ru  | to understand |
-|            | 作る     | tsuk`u`ru | to make       |
-|            | 折る     | `o`ru     | to fold       |
-| 一段動詞   | 食べる   | tab`e`ru  | to eat        |
-|            | 起きる   | ok`i`ru   | to wake up    |
 
 ## 変格動詞
 
