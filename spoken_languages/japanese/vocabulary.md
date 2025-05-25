@@ -487,6 +487,7 @@ ____
 - 出す (だす) - to take out; to put out; to submit; to publish
 - 立つ (たつ) - to stand
 - 描く (えがく) - to draw; to paint
+- 撮る (とる) - to take (a photo); to record (a video or audio); to film
 
 ### Verbs (Intransitive)
 
@@ -501,7 +502,7 @@ ____
 - 降りる (おりる) - to get off
 - 入る (はいる) - to enter
 - 乗る (のる) - to get on
-- 掛かる (かかる) - to take (time, money)
+- 掛かる (かかる) - to take (time, money); to hang
 - 走る (はしる) - to run
 - 聞こえる (きこえる) - to be heard
 - 見える (みえる) - to be seen
@@ -518,6 +519,7 @@ ____
 - 遊ぶ (あそぶ) - to play (games, sports); to enjoy oneself; to have a good time
 - 泳ぐ (およぐ) - to swim
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
+- 晴れる (はれる) - to be sunny
 
 ### Verbs (Transitive and intransitive)
 
@@ -650,6 +652,8 @@ ____
 - 慣れる (なれる) - to get used to; to become familiar with
 - 返事 (へんじ) - reply; answer
 - 泣く (なく) - to cry; to weep
+- 壊れる (こわれる) - to break; to be broken
+- 鳴る (なる) - to ring; to sound
 
 ### Verbs (Transitive)
 
@@ -662,6 +666,8 @@ ____
 - 落とす (おとす) - to drop; to lose; to leave behind
 - 片付ける (かたづける) - to tidy up; to put in order
 - 呉れる (くれる) - to give (to me)
+- 迎える (むかえる) - to welcome; to greet
+- 送る (おくる) - to send; to escort; to say goodbye to
 
 ### Common word
 
