@@ -6,6 +6,7 @@
   * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
     + [verbs ended in う](#verbs-ended-in-%E3%81%86)
   * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
+  * [する verb](#%E3%81%99%E3%82%8B-verb)
   * [Lost of the w sound](#lost-of-the-w-sound)
   * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
     + [double consonant with Small っ](#double-consonant-with-small-%E3%81%A3)
@@ -13,7 +14,7 @@
     + [consonant removal](#consonant-removal)
   * [Stem form](#stem-form)
   * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
-___
+____
 
 # Verb forms
 
@@ -160,7 +161,7 @@ ___
 | Non-past          | 為る (する)             | 為ない (しない)                 |
 | Non-past, polite  | 為ます (します)         | 為ません (しません)             |
 | Non-past, formal  |                         | せず                            |
-| Past              | 為た (し為た)           | 為なかった (しなかった)         |
+| Past              | 為た (した)             | 為なかった (しなかった)         |
 | Past, polite      | 為ました (しました)     | 為ませんでした (しませんでした) |
 | Te-form           | 為て (して)             | 為なくて (しなくて)             |
 | Potential         | できる                  | できない                        |
@@ -184,6 +185,21 @@ ___
 | Imperative        | 来い (こい)                 | 来るな (くるな)                 |
 
 Note the change in sounds between く, き and こ.
+
+## する verb
+
+| Form              | Affirmative    | Negative           |
+| ---               | ---            | ---                |
+| Non-past          | 勉強する       | 勉強しない         |
+| Non-past, polite  | 勉強します     | 勉強しません       |
+| Past              | 勉強した       | 勉強しなかった     |
+| Past, polite      | 勉強しました   | 勉強しませんでした |
+| Te-form           | 勉強して       | 勉強しなくて       |
+| Potential         | 勉強できる     | 勉強できない       |
+| Passive           | 勉強される     | 勉強されない       |
+| Causative         | 勉強させる     | 勉強させない       |
+| Causative Passive | 勉強させられる | 勉強させられない   |
+| Imperative        | 勉強しろ       | 勉強するな         |
 
 ## Lost of the w sound
 
