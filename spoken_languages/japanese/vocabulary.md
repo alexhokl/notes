@@ -623,7 +623,6 @@ ____
 - 最近 (さいきん) - recently; lately
 - 昔 (むかし) - old times; old days
 - 先 (さっき) - a moment ago
-- もう直ぐ (もうすぐ) - soon; shortly; before long; nearly; almost
 
 ### Conjunctions
 

@@ -517,3 +517,52 @@ ____
 - それは残念でしたね。
   * この前のパーティーはあまり楽しくありませんでした。
     + それは残念でしたね。
+
+## Chapter 7
+
+### plain form 
+
+- ... + plain verb + と + 思います。
+- ... + plain negative verb + と + 思います。
+  * 明日は雨が降ると思います。
+  * 明日は雨が降らないと思います。
+  * 陳さんは今日は学校へ来ないと思います。
+  * マリアさんは日本人と結婚すると思います。
+
+### directional intransitive verb
+
+- location + へ +  polite verb without ます + に + directional intransitive verb
+- location + へ + する verb without ます + に + directional intransitive verb
+  * 私は明日新宿へ靴お買いに行きます。
+  * 私は明日新宿へ買い物に行きます。
+  * 私は明日新宿へご飯お食べに行きます。
+  * 私は明日新宿へ食事に行きます。
+  * 私は日本語講座へ日本語の勉強に来ました。
+  * 私は毎朝公園へ犬の散歩に行きます。
+  * 私は新宿へ映画を見に行きました。
+  * 田中さんは昨日新宿へ何をしに行きましたか。
+
+### は and が to stress differnent part of a sentence
+
+- 誰が + ... + ますか/ましたか。
+  * someone + が + ... + ます/ました。 (stressing "someone")
+    + 誰がこの料理を作りましたか。
+      + 母が作りました。
+
+- someone + は + ... + ます/ました。 (stressing the action)
+  * 母は昨夜ハンパーグを作りました。
+
+- subject + か + ... (stressing the subject)
+  * ニュースが始まりました。
+  * 田中さんが来ました。
+  * 時計が鳴りましたよ。
+  * あっ、財布が落ちましたよ。
+
+- subject + が + ...。 someone + は + ...。 (reason and consequence)
+  * 明日母が日本へ来ます。私は成田空港へ母を迎えに行きます。
+  * もうすぐ赤ちゃんが生まれます。私はベビーベッドを買いました。
+  * 弟が大学を卒業しました。私はとても嬉しいです。
+
+### Gifting
+
+

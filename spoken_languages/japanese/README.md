@@ -695,6 +695,9 @@ ____
   treatment; service
 - 然らば (さらば) - farewell; goodbye; if so; in that case
 - 失礼しました (しつれいしました) - excuse me; I'm sorry; I apologize
+- お邪魔します (おじゃまします) - please excuse the intrusion (greeting used
+  when entering someone's place)
+- いらっしゃい - welcome
 
 ## Signs
 
