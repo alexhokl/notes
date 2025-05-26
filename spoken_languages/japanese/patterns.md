@@ -520,7 +520,7 @@ ____
 
 ## Chapter 7
 
-### plain form 
+### plain form verb
 
 - ... + plain verb + と + 思います。
 - ... + plain negative verb + と + 思います。
@@ -528,6 +528,13 @@ ____
   * 明日は雨が降らないと思います。
   * 陳さんは今日は学校へ来ないと思います。
   * マリアさんは日本人と結婚すると思います。
+  * 明日は天気がいいと思います。
+  * 昨日、東京は天気が良かったと思います。
+
+### な-adjective
+
+- ... + な-adjective + だ + と思います。
+  * 兄の彼女は綺麗だと思います。
 
 ### directional intransitive verb
 

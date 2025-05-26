@@ -1,6 +1,5 @@
+- [Verb types](#verb-types)
 - [Verb forms](#verb-forms)
-  * [Plain form](#plain-form)
-- [Tenses](#tenses)
 - [Verb conjugation](#verb-conjugation)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
@@ -17,51 +16,46 @@
   * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
 ____
 
+# Verb types
+
+- 他動詞 (たどうし) - transitive verb
+- 自動詞 (じどうし) - intransitive verb
+  * 往来動詞 (おうらいどうし) - directional intransitive verb
+
 # Verb forms
 
-## Plain form
-
-- aka non-past form, dictionary form る form
-- express present, habitual and future actions
-- ends with `u` sound (such as 飲む、使う、する)
-- examples
-  * 兄は毎日パスタを`食べる`。 - My brother eats pasta everyday.
-  * 兄は明日パスタを`食べる`。 - My brother will eat pasta tomorrow.
-- if there are no context clues, more often than not the plain present form is
-  used to talk about the future
-  * examples
-    + パーティーをする。 - I will throw a party.
-    + 飲む？ - Will you drink it?
-      + 飲む！ - I will drink it!
-- hibits, facts or generalisations
-  * if the speaker believes it is a fact, whether it is actually true or false
-    does not really matter
-  * examples
-    + 朝は、いつもサンドイッチを`食べる`。 - I always eat sandwiches in the
-      morning.
-    + 水は100度で`沸騰する`。 - Water boils at 100 celsius.
-    + ラブラドールはよく`食べる`。 - Labradors eat well.
-  * if the fact or generalization is something that is continuously happening,
-    it is more common to think of it as a repeated action with the focus on its
-    continuity using the `ている` form of the verb
-    + 月は地球の周りを`回っている`。 - The moon revolves around the earth.
-    + 兄はパソコンを三台も`持つ`。 - My brother has three computers from now on.
-    + 兄はパソコンを三台も`持っている`。 - My brother has three computers.
-- politness
+- non-past
+  * aka plain form, dictionary form, る form
+  * ends with `u` sound (such as 飲む、使う、する)
+  * express present, habitual and future actions
+    + if there are no context clues, more often than not the plain present form is
+      used to talk about the future
+      + examples
+        + 兄は毎日パスタを`食べる`。 - My brother eats pasta everyday.
+        + 兄は明日パスタを`食べる`。 - My brother will eat pasta tomorrow.
+        + パーティーをする。 - I will throw a party.
+        + 飲む？ - Will you drink it?
+          + 飲む！ - I will drink it!
+  * hibits, facts or generalisations
+    + if the speaker believes it is a fact, whether it is actually true or false
+      does not really matter
+    + examples
+      + 朝は、いつもサンドイッチを`食べる`。 - I always eat sandwiches in the
+        morning.
+      + 水は100度で`沸騰する`。 - Water boils at 100 celsius.
+      + ラブラドールはよく`食べる`。 - Labradors eat well.
+    + if the fact or generalization is something that is continuously happening,
+      it is more common to think of it as a repeated action with the focus on its
+      continuity using the `ている` form of the verb
+      + 月は地球の周りを`回っている`。 - The moon revolves around the earth.
+      + 兄はパソコンを三台も`持つ`。 - My brother has three computers from now on.
+      + 兄はパソコンを三台も`持っている`。 - My brother has three computers.
+- non-past polite
   * examples
     + non-polite
       + クッキー`食べる`？ - Will you eat some cookies?
     + polite
       + クッキー`食べますか`？ - Would you like to eat some cookies?
-- types
-  * 他動詞 (たどうし) - transitive verb
-  * 自動詞 (じどうし) - intransitive verb
-    + 往来動詞 (おうらいどうし) - directional intransitive verb
-
-# Tenses
-
-- non-past
-- non-past polite
 - past
 - past polite
 - te-form
@@ -118,6 +112,14 @@ ____
 | Causative Passive | 聞かせられる | 聞かせられない   |
 | Imperative        | 聞け         | 聞くな           |
 
+- if last kana in stem form is う, あ is not used in the conjugation but わ
+  instead
+  * examples
+    + 買う => 買わない
+- exception of ある
+  * non-past negative
+    + ない
+
 ## 一段動詞
 
 | Japanese   | English      |
@@ -150,12 +152,16 @@ ____
   `definitely` a 五段動詞
   + it is likely that the verb is a combination of kanji and る
   + examples
-    * いる (iru) - to need
-    * 入る (hairu) - to enter
-    * 走る (hashiru) - to run
-    * 帰る (kaeru) - to return
-    * 減る (heru) - to decrease
-    * 喋る (shaberu) - to chat
+    * いる (いる) - to need
+    * 入る (はいる) - to enter
+    * 走る (はしる) - to run
+    * 帰る (かえる) - to return
+    * 減る (へる) - to decrease
+    * 喋る (しゃべる) - to chat
+  + exceptions
+    + 出る (でる) - to exit
+    + 寝る (ねる) - to sleep
+    + 見る (みる) - to see
 * if the vowel sound that comes before る is `e` or `i`, it is `probably` a
   一段動詞
   + it is likely that the verb is a combination of 送り仮名 (okurigana) and る
