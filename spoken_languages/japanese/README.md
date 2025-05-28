@@ -65,6 +65,7 @@
   * [Stationary](#stationary)
   * [Real estate](#real-estate)
   * [Metal](#metal)
+  * [Flowers](#flowers)
   * [News](#news)
   * [Work](#work)
     + [Software](#software)
@@ -1107,6 +1108,10 @@ ____
 ## Metal
 
 - スチール - steel
+
+## Flowers
+
+- 薔薇 (ばら) - rose
 
 ## News
 

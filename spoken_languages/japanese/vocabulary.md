@@ -36,6 +36,7 @@
     + [Auxiliary verbs](#auxiliary-verbs)
     + [Verbs (Intransitive)](#verbs-intransitive-1)
     + [Verbs (Transitive)](#verbs-transitive-1)
+    + [Verbs (Transitive and intransitive)](#verbs-transitive-and-intransitive-1)
     + [Common word](#common-word-1)
     + [Expressions](#expressions-1)
   * [N3](#n3)
@@ -420,6 +421,7 @@ ____
 - 忙しい (いそがしい) - busy
 - 暖かい (あたたかい) - warm
 - 辛い (つらい) - spicy
+- 明るい (あかるい) - bright
 
 ### Adjectives (な)
 
@@ -472,7 +474,7 @@ ____
 - 食べる (たべる) - to eat
 - 飲む (のむ) - to drink
 - 見る (みる) - to watch/see
-- 聞く (きく) - to listen (also 聴く (きく))
+- 聞く (きく) - to listen; to ask (also 聴く (きく))
 - 読む (よむ) - to read
 - 洗う (あらう) - to wash
 - 浴びる (あびる) - to take a shower
@@ -520,6 +522,7 @@ ____
 - 泳ぐ (およぐ) - to swim
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
 - 晴れる (はれる) - to be sunny
+- 鳴く (なく) - to make sound (of an animal); to cry
 
 ### Verbs (Transitive and intransitive)
 
@@ -650,7 +653,8 @@ ____
 - 反対 (はんたい) - opposition; resistance
 - 慣れる (なれる) - to get used to; to become familiar with
 - 返事 (へんじ) - reply; answer
-- 泣く (なく) - to cry; to weep
+- 泣く (なく) - to cry (human); to weep
+- 鳴る (なる) - to sound (from a thing); to ring
 - 壊れる (こわれる) - to break; to be broken
 - 鳴る (なる) - to ring; to sound
 
@@ -667,6 +671,11 @@ ____
 - 呉れる (くれる) - to give (to me)
 - 迎える (むかえる) - to welcome; to greet
 - 送る (おくる) - to send; to escort; to say goodbye to
+
+### Verbs (Transitive and intransitive)
+
+- 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
+  congratulate; to welcome (a proposal, advice)
 
 ### Common word
 
@@ -722,6 +731,7 @@ ____
 - 機嫌 (きげん) - mood; temper; spirits; humour
 - 笑い (わらい) - laugh; smile
 - 畑 (はたけ) - field; farm
+- 見舞い (みまい) - visit (to a sick person); inquiry; expression of sympathy
 
 ### Nouns (animals)
 
@@ -782,6 +792,7 @@ ____
   care); to place (in someone's custody); to entrust (someone) with; to deposit
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
 - 貰う (もらう) - to receive; to get (from somebody)
+- 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 
 ### Common word
 

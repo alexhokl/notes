@@ -336,6 +336,13 @@ ____
   * examples
     + スイスが物価が高い。 - It is Switzerland that has a high cost of living.
       + the examples streses Switzerland
+- question identify subject using が should be answered with が to tag the
+  subject
+- to tag the subject in a relative cluase, use が but not は
+  * sometimes relative clause can be splitted into two sentences but the
+    prinicple still applies
+  * examples
+    + 私が起きる前に、父は出かけました。
 
 ## を
 
