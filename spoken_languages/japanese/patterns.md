@@ -196,7 +196,7 @@ ____
 - 良いです。 (いいです。)
   * 良くありません。 (よくありません。)
 
-### Te-form
+### Te-form of adjectives
 
 |              | transformation | example            |
 | ---          | ---            | ---                |
@@ -597,3 +597,17 @@ ____
   * 今日は日本語学校のパーティーで、ホールに学生が大勢います。
   * 昨日は四月二十日で、母の誕生日でした。
   * 父は昔ピアニストで、うちには大きいピアノがあります。
+
+## Chapter 8
+
+### multiple actions
+
+- examples
+
+### start and end
+
+- examples
+
+### continuing an action in the previous sentence
+
+- examples

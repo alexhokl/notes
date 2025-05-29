@@ -121,6 +121,17 @@ ____
 - exception of ある
   * non-past negative
     + ない
+- te-form conjugation
+  * ends with う, つ, る
+    + change to って
+  * ends with ぬ, ぶ, む
+    + change to んで
+  * ends with く
+    + change to いて
+  * ends with ぐ
+    + change to いで
+  * ends with す
+    + change to して
 
 ## 一段動詞
 
