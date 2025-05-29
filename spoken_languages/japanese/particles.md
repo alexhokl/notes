@@ -970,7 +970,6 @@ ____
   * examples
     + コウイチは宇宙人を`探しに`行きました。 - Koichi went to search for an
       alien.
-      + 探し is stem form of 探す
     + 会議の`ために`NASAに行った。 - I went to NASA for a meeting.
     + 会議をしにNASAに行った。 - I went to NASA to hold a meeting.
       + し is stem form of する
@@ -1039,6 +1038,54 @@ ____
     * examples
       + まみは`子供に`外で遊ばせた。 - Mami let/made the child play outside.
         + まみは`子供を`外で遊ばせた。 - Mami made the child play outside.
+- に for time
+  * the following time should be used with に
+    + 年
+    + 月
+    + 日
+    + 曜日
+    + 時
+    + 分
+    + 半
+    + 昼休み
+    + 夏休み
+    + 冬休み
+    + 誕生日
+  * the following should not be used with に nor with any other particle
+    + 去年
+    + 今年
+    + 来年
+    + 先月
+    + 今月
+    + 来月
+    + 先週
+    + 今週
+    + 来週
+    + 一昨日
+    + 昨日
+    + 今日
+    + 本日
+    + 明日
+    + 明後日
+    + 昨夜
+    + 今晩
+    + 今朝
+    + 今
+    + 昔
+    + 朝
+    + 夜
+    + この前
+    + この間
+    + 春
+    + 夏
+    + 秋
+    + 冬
+    + 毎日
+    + 毎晩
+    + 毎朝
+    + 毎週
+    + 毎月
+    + 毎年
 
 ## で
 

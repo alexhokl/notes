@@ -530,6 +530,7 @@ ____
   * マリアさんは日本人と結婚すると思います。
   * 明日は天気がいいと思います。
   * 昨日、東京は天気が良かったと思います。
+  * 田中さんはもうすぐ治ると私は思いました
 
 ### な-adjective
 
@@ -538,7 +539,7 @@ ____
 
 ### directional intransitive verb
 
-- location + へ +  polite verb without ます + に + directional intransitive verb
+- location + へ +  verb in stem form + に + directional intransitive verb
 - location + へ + する verb without ます + に + directional intransitive verb
   * 私は明日新宿へ靴お買いに行きます。
   * 私は明日新宿へ買い物に行きます。
@@ -548,6 +549,9 @@ ____
   * 私は毎朝公園へ犬の散歩に行きます。
   * 私は新宿へ映画を見に行きました。
   * 田中さんは昨日新宿へ何をしに行きましたか。
+- ... + verb in stem form + に + directional intransitive verb
+- ... + する verb without ます + に + directional intransitive verb
+  * 看護婦さんが熱を計りに来ました
 
 ### は and が to stress differnent part of a sentence
 

@@ -169,6 +169,7 @@ ____
 - 一緒 (いっしょ) - together / the same
 - 音楽 (おんがく) - music
 - 映画 (えいが) - movie
+- 絵 (え) - picture; drawing; painting; sketch
 - シャワー - shower
 - 物 (もの) - thing
 - 休み (やすみ) - rest / holiday
@@ -183,7 +184,6 @@ ____
 - 意味 (いみ) - meaning
 - 結婚 (けっこん) - marriage
 - 色 (いろ) - color
-- 絵 (え) - picture; drawing; painting; sketch
 - 階段 (かいだん) - stairs
 - 新聞 (しんぶん) - newspaper
 - 音楽 (おんがく) - music
@@ -265,6 +265,9 @@ ____
 - 毎週 (まいしゅう) - every week
 - 毎月 (まいつき) - every month
 - 毎年 (まいとし) - every year
+- 夏休み (なつやすみ) - summer vacation
+- 冬休み (ふゆやすみ) - winter vacation
+- 誕生日 (たんじょうび) - birthday
 
 ### Nouns (food)
 
@@ -583,6 +586,10 @@ ____
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 受付 (うけつけ) - reception; information desk
 - プレゼント - present; gift
+- 昼休み (ひるやすみ) - lunch break
+- 間 (あいだ) - interval; space; between
+- 空港 (くうこう) - airport
+- 今度 (こんど) - next time; this time; recently
 
 ### Nouns (position)
 

@@ -83,8 +83,10 @@ ____
     + aka うverbs, Group I verbs or consonant-root verbs
     + as these verbs conjugate, the う-line character will shift through the
       five vowel sounds in the hiragana chart (あ, い, う, え, お)
+    + stem form is the い-line character
   * 一段動詞 (いちだんどうし)
     + aka るverbs, Group II verbs or vowel-root verbs
+    + stem form is plain form without る
   * 変格動詞 (へんかくどうし)
     + aka irregular verbs
 
