@@ -42,10 +42,13 @@ ___
 
 ### Conjugation
 
-|          | Affirmative  | Negative         |
-| ---      | ---          | ---              |
-| non-past | 新し`い`     | 新し`くない`     |
-| past     | 新し`かった` | 新し`くなかった` |
+|                 | Affirmative  | Negative                 |
+| ---             | ---          | ---                      |
+| non-past        | 新し`い`     | 新し`くない`             |
+| non-past polite | 新し`い`     | 新し`くありません`　     |
+| past            | 新し`かった` | 新し`くなかった`         |
+| past polite     | 新し`かった` | 新し`くありませんでした` |
+| te-form         | 新し`くて`   |                          |
 
 ### そう
 
@@ -99,8 +102,11 @@ ___
 | ---             | ---          | ---                        |
 | non-past        | 便利`だ`     | 便利`じゃない`             |
 | non-past polite | 便利`です`   | 便利`ではありません`       |
+| non-past causal |              | 便利`じゃない`             |
 | past            | 便利`だった` | 便利`じゃなかった`         |
 | past polite     | 便利`でした` | 便利`ではありませんでした` |
+| past causal     |              | 便利`ではなかった`         |
+| te-form         | 便利`で`     |                            |
 
 ### そう
 

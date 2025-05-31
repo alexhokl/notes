@@ -1,19 +1,37 @@
-- [Chapter 1](#chapter-1)
-- [Chapter 2](#chapter-2)
-- [Chapter 3](#chapter-3)
-- [Chapter 4](#chapter-4)
-  * [Negative of adjectives](#negative-of-adjectives)
-  * [Te-form](#te-form)
-  * [How is it?](#how-is-it)
-  * [not very](#not-very)
-  * [location and count things or people](#location-and-count-things-or-people)
-  * [How much / many](#how-much--many)
-  * [How many](#how-many)
-  * [How old](#how-old)
-  * [Ordering food](#ordering-food)
-  * [Like / dislike](#like--dislike)
-- [Chapter 5](#chapter-5)
-- [Chapter 6](#chapter-6)
+  * [Chapter 1](#chapter-1)
+  * [Chapter 2](#chapter-2)
+  * [Chapter 3](#chapter-3)
+  * [Chapter 4](#chapter-4)
+    + [How is it?](#how-is-it%3F)
+    + [not very](#not-very)
+    + [location and count things or people](#location-and-count-things-or-people)
+    + [How much / many](#how-much-%2F-many)
+    + [How many](#how-many)
+    + [How old](#how-old)
+    + [Ordering food](#ordering-food)
+    + [Like / dislike](#like-%2F-dislike)
+  * [Chapter 5](#chapter-5)
+  * [Chapter 6](#chapter-6)
+  * [Chapter 7](#chapter-7)
+    + [plain form verb](#plain-form-verb)
+    + [な-adjective](#%E3%81%AA-adjective)
+    + [directional intransitive verb](#directional-intransitive-verb)
+    + [は and が to stress differnent part of a sentence](#%E3%81%AF-and-%E3%81%8C-to-stress-differnent-part-of-a-sentence)
+    + [Gifting](#gifting)
+    + [When](#when)
+    + [で to connect two sentences](#%E3%81%A7-to-connect-two-sentences)
+  * [Chapter 8](#chapter-8)
+    + [multiple actions](#multiple-actions)
+    + [start and end](#start-and-end)
+    + [continuing an action in the previous sentence](#continuing-an-action-in-the-previous-sentence)
+    + [linking two unrelated sentences which happen one after another](#linking-two-unrelated-sentences-which-happen-one-after-another)
+    + [an action before another action](#an-action-before-another-action)
+    + [people, time and action](#people%2C-time-and-action)
+    + [subordinate clauses](#subordinate-clauses)
+    + [gifting (me on receiving end or me as a third person)](#gifting-me-on-receiving-end-or-me-as-a-third-person)
+    + [tools or methods for an action](#tools-or-methods-for-an-action)
+    + [transportation](#transportation)
+    + [the position of time and people in a sentence can be casual](#the-position-of-time-and-people-in-a-sentence-can-be-casual)
 ____
 
 ## Chapter 1
@@ -178,30 +196,6 @@ ____
   * 田中さんはどの人ですか。田中さんはあの人です。
 
 ## Chapter 4
-
-### Negative of adjectives
-
-|              | polite             | plain            | casual         |
-| ---          | ---                | ---              | ---            |
-| i-adjective  | い => くありません | い => くないです |                |
-| na-adjective | + ではありません   | + ではないです   | + じゃないです |
-
-#### Examples
-
-|              | polite               | plain              | casual             |
-| ---          | ---                  | ---                | ---                |
-| i-adjective  | 新しくありません。   | 新しくないです。   |                    |
-| na-adjective | 静かではありません。 | 静かではないです。 | 静かじゃないです。 |
-
-- 良いです。 (いいです。)
-  * 良くありません。 (よくありません。)
-
-### Te-form of adjectives
-
-|              | transformation | example            |
-| ---          | ---            | ---                |
-| i-adjective  | い => くて     | 大きくて重いです。 |
-| na-adjective | + で           | 丈夫で軽いです。   |
 
 ### How is it?
 
@@ -430,32 +424,6 @@ ____
     + いいえ、今朝はニュースを見ませんでした。
     + いいえ、今朝はニュースは見ませんでした。
 
-- past tense of い-adjective (replace い with かった)
-  * 去年の冬はとても寒かったです。
-
-- negative of past tense of い-adjective (replace い with くありませんでした)
-  * 去年の冬はあまり寒くありませんでした。
-
-- casual negative of past tense of い-adjective (replace くない with くなかった)
-  * 去年の冬はあまり寒くなかったです。
-
-- past tense of な-adjective (append でした)
-  * 私は中学生の時英語の勉強が好きでした。
-  * 昨日は良い天気でした。
-
-- negative of past tense of な-adjective (append ではありませんでした)
-  * 私は中学生の時英語の勉強が好きではありませんでした。
-  * 貴方は子供の時野菜が好きでしたか。
-    + いいえ、好きではありませんでした。
-    + いいえ、野菜は好きではありませんでした。
-    + いいえ、子供の時は好きではありませんでした。
-    + いいえ、子供の時野菜は好きではありませんでした。
-    + いいえ、子供の時は野菜が好きではありませんでした。
-    + いいえ、子供の時は野菜は好きではありませんでした。
-
-- casual negative of past tense of な-adjective (replace ではない with ではなかった)
-  * 私は中学生の時英語の勉強が好きではなかったです。
-
 - past tense of noun (replace です with でした)
   * 昨日は良い天気でした。
 
@@ -602,12 +570,100 @@ ____
 
 ### multiple actions
 
-- examples
+- ... + て、+ ...
+  * examples
+    + 私は毎朝7時に起きて、朝ご飯を食べて、学校へ行きます。
+    + 昨夜は友達と食事をして、１１時頃うちへ帰って、シャワーを浴びて、1時に寝ました。
+    + 私は毎朝コーヒーを飲んで、パンを食べます。
+    + 昨日は会社のパーティーがありました。私は陳さんと同じテーブルで食事をして、色々な話をしました。
 
 ### start and end
 
 - examples
+  * 学校は9時に始まって、4時に終わります。
+  * 昨日は6時に起きて、10時に寝ました。
+  * 私は中野で電車に乗って、新宿で電車を降りました。
+  * 兄は2010年に大学に入学して、2014年に卒業しました。
 
 ### continuing an action in the previous sentence
 
 - examples
+  * 私は昨日スーパーへ行って、買い物をしました。
+  * 私は毎晩お風呂に入って、髪を洗います。
+  * 昨夜マリアさんがうちへ遊びに来て、一緒にお酒を飲みました。
+  * 私は昨夜ケーキを作って、田中さんに上げました。
+
+### linking two unrelated sentences which happen one after another
+
+- ... + てから、+ ...
+  * examples
+    + 私は朝歯を磨いてから、朝ご飯を食べます。
+    + 私は同僚は会社へ来てから、朝ご飯を食べます。でも、私はうちで食べてから、行きます。
+    + 私は看護師です。今日は夜勤があります。少し寝てから、仕事に行きます。
+  * wrong usages 
+    + 私は中野で電車に乗ってから、新宿で電車を降ります。
+    + 昨日スーパー行ってから、買い物をしました。
+
+### an action before another action
+
+- verb in plain form + 前に + ... + verb
+  * examples
+    + 田中さんはいつも寝る前に、歯を磨きます。
+    + 田中さんとリサさんは昨夜映画を見る前に食事をしました。
+    + あなたは毎晩寝る前にどんな事しますか。
+
+### people, time and action
+
+- people + は + timing + action
+  * examples
+    + 私は午後3時に新宿へ行きます。
+    + 私は食事の後で新宿へ行きます。
+    + 私はご飯を食べてから、新宿へ行きます。
+- timing + は + people + ... + action
+  * examples
+    + 今日は授業が終わってから、私は新宿へ行きます。
+
+### subordinate clauses
+
+- subject + は + subordinate subject + が + subordinate verb + 、 + verb。
+  * examples
+    + 私は雨が止んでから、新宿へ行きます。
+    + 店員はお客さん帰ってから、店の掃除をしました。
+    + 陳さんは昨日授業が終わってから、アルバイトに行きました。
+    + 私はチャイムが鳴る前に、教室に入りました。
+    + 父は毎朝私が起きる前に、うちを出ます。
+- subordinate subject + が + subordinate verb + 、 + subject + は + verb。
+  * examples
+    + 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
+    + 雨は降る前に、私は買い物に行きました。
+
+### gifting (me on receiving end or me as a third person)
+
+- A + は + B + に + thing + を + くれました。
+  * examples
+    + 小林さんはアナさんに花をあげました。
+    + 小林さんは私に花をくれました。(上げました cannot be used)
+    + 木村さんは私の妹にケーキをくれました。(上げました cannot be used)
+    + 木村さんはあなたに何をくれましたか。(上げました cannot be used)
+
+### tools or methods for an action
+
+- examples
+  * 今の人はみんな携帯電話を撮ります。
+  * 中国人や日本人は箸でご飯を食べます。
+  * 私はポールペンで名前を書きました。
+  * 山手線で新宿まで行きます。
+
+### transportation
+
+- examples
+  * 私は毎日地下鉄で会社へ行きます。
+  * 私は去年新幹線で北海道へ行きました。
+
+### the position of time and people in a sentence can be casual
+
+- examples
+  * 私は昨日陳さんと新宿で映画を見ました。
+  * 昨日私は新宿で陳さんと映画を見ました。
+  * 私は明日陳さんとバスで新宿へ行きます。
+  * 明日私はバスで陳さんと新宿へ行きます。
