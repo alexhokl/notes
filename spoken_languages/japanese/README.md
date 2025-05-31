@@ -1017,6 +1017,7 @@ ____
 - マンチェスター・シティ (manchesutā shiti) - Manchester City
 - マンチェスター・C (manchesutā shī) - Manchester City
 - ハイタッチ - high five
+- チケット - ticket
 
 ## Cycling
 
@@ -1117,6 +1118,10 @@ ____
 
 - 事実はございません (じじつはございません) - There is no truth to this
 - 然だに (さだに) - were it to at least be as such
+
+## Entertainment
+
+- 演奏会 (えんそうかい) - concert
 
 ## Work
 

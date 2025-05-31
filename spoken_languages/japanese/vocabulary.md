@@ -190,6 +190,11 @@ ____
 - 掃除 (そうじ) - cleaning; sweeping
 - 箱 (はこ) - box
 - 葉書 (はがき) - postcard
+- 同じ (おなじ) - same; identical; equal
+- 病気 (びょうき) - illness (usually excluding minor ailments such as common
+  cold); disease; sickness
+- プール - swimming pool; american pool (cue sport)
+- 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
 
 ### Nouns (family)
 
@@ -268,6 +273,8 @@ ____
 - 夏休み (なつやすみ) - summer vacation
 - 冬休み (ふゆやすみ) - winter vacation
 - 誕生日 (たんじょうび) - birthday
+- この前 (このまえ) - the other day; previously; recently
+- この間 (このあいだ) - the other day; recently; during this period
 
 ### Nouns (food)
 
@@ -493,6 +500,7 @@ ____
 - 立つ (たつ) - to stand
 - 描く (えがく) - to draw; to paint
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
+- 消す (けす) - to erase; to turn off; to extinguish
 
 ### Verbs (Intransitive)
 
@@ -590,6 +598,8 @@ ____
 - 間 (あいだ) - interval; space; between
 - 空港 (くうこう) - airport
 - 今度 (こんど) - next time; this time; recently
+- 交通 (こうつう) - traffic; transportation
+- 社長 (しゃちょう) - company president; manager; director
 
 ### Nouns (position)
 
@@ -664,6 +674,8 @@ ____
 - 鳴る (なる) - to sound (from a thing); to ring
 - 壊れる (こわれる) - to break; to be broken
 - 鳴る (なる) - to ring; to sound
+- 治る (なおる) - to get better; to get well; to recover (from an illness); to
+  be cured; to be restored; to heal
 
 ### Verbs (Transitive)
 
