@@ -28,7 +28,7 @@
     + [an action before another action](#an-action-before-another-action)
     + [people, time and action](#people%2C-time-and-action)
     + [subordinate clauses](#subordinate-clauses)
-    + [gifting (me on receiving end or me as a third person)](#gifting-me-on-receiving-end-or-me-as-a-third-person)
+    + [gifting (giving to in-group; speaker or listener or speaker-related)](#gifting-giving-to-in-group%3B-speaker-or-listener-or-speaker-related)
     + [tools or methods for an action](#tools-or-methods-for-an-action)
     + [transportation](#transportation)
     + [the position of time and people in a sentence can be casual](#the-position-of-time-and-people-in-a-sentence-can-be-casual)
@@ -544,7 +544,8 @@ ____
 
 ### Gifting
 
-- A + は + B + に + thing + 上げます/上げました。
+- A + は + B + に + thing + 上げます/上げました。 (giving to out-group;
+  not-speaker nor listener nor speaker-related)
   * 小林さんはアンナさんに花を上げました。
 - A + は + B + から/に + thing + を + 貰います/貰いました。 (B is being elevated)
   * アンナさんは小林さんから花を貰いました。
@@ -596,6 +597,8 @@ ____
 ### linking two unrelated sentences which happen one after another
 
 - ... + てから、+ ...
+  * the reason that it does not link two related sentences as it assumes one
+    action completes before starting another
   * examples
     + 私は朝歯を磨いてから、朝ご飯を食べます。
     + 私は同僚は会社へ来てから、朝ご飯を食べます。でも、私はうちで食べてから、行きます。
@@ -637,7 +640,7 @@ ____
     + 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
     + 雨は降る前に、私は買い物に行きました。
 
-### gifting (me on receiving end or me as a third person)
+### gifting (giving to in-group; speaker or listener or speaker-related)
 
 - A + は + B + に + thing + を + くれました。
   * examples

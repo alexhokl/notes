@@ -60,13 +60,11 @@ ____
  | spoken quotation | と                     | 人間は火星に住めない`と`思う。               | I think humans can't live on Mars.                |
 
 - `から` makes it clear that the first clause is the reason for the second
-- `忙しくて` is `て` form of adjective `忙しい`
 
 ### Noun modification
 
 - `可愛い`猫 - cute cat
-- `スーパーの前で拾った`猫 - the cat that I found
-  in front of the supermarket
+- `スーパーの前で拾った`猫 - the cat that I found in front of the supermarket
 - 残念ながら、`スーパーの前で拾った`猫が逃げたんだ。 - Unfortunately, the cat
   that I found in front of the supermarket ran away.
 - `スーパーの前で拾った`猫が`お母さんからもらった`ランプを壊した。 - The cat
@@ -79,14 +77,11 @@ ____
 - `ます`
 - in complex sentences with multiple politeness markers, only the last one needs
   to be kept and others can be replaced `です` by `だ`
-  * example: 桜が満開`だ`から、お花見に行き`ます`。 (さくらがまんかいだから、お
-    はなみにいきます。) - The cherry blossoms are in full bloom, so I'm going to
-    see them.
-- in spoken quotation, `です`っっ and `ます` cannot be used and `だ` is used
-  instead
-  * example: 近所の人から桜が満開`だ`と教えてもらった。 (きんじょのひとからさくら
-    がまんかいだとおしえてもらった。) - A neighbor told me that the cherry
-    blossoms were in full bloom.
+  * example: 桜が満開`だ`から、お花見に行き`ます`。 - The cherry blossoms are in
+    full bloom, so I'm going to see them.
+- in spoken quotation, `です` and `ます` cannot be used and `だ` is used instead
+  * example: 近所の人から桜が満開`だ`と教えてもらった。 - A neighbor told me
+    that the cherry blossoms were in full bloom.
 
 # Auxiliary verbs
 
@@ -103,26 +98,8 @@ ____
 
 - the most basic use
   * to connect simultaneous or sequential actions, events or states together
+  * note that "、" can be added after て but it is optional
 - conjugation
-  * 五段動詞
-    + replace う,つ,る with って
-    + replace ぬ,ぶ,む with んで
-    + replace す with して
-    + replace く with いて
-    + replace ぐ with いで
-    + exception
-      + 行く -> 行って
-  * 一段動詞
-    + replace る with て
-  * 変格動詞
-    + する -> して
-    + 来る -> 来て
-  * い adjectives
-    + replace い with くて
-    + exception
-      + いい -> よくて (not exactly an exception since stem form is よい
-  * な adjectives
-    + add で
   * nouns
     + add で
 - other usages

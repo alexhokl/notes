@@ -128,10 +128,18 @@ ____
     + change to んで
   * ends with く
     + change to いて
+    + exception
+      + 行く -> 行って
   * ends with ぐ
     + change to いで
   * ends with す
     + change to して
+
+| -         | -                    | -         |
+| ---       | ---                  | ---       |
+| う (って) | く (いて), ぐ (いで) | す (して) |
+| つ (って) | ぬ (んで)            | ぶ (んで) |
+| む (んで) |                      | る (って) |
 
 ## 一段動詞
 
