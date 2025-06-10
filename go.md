@@ -414,6 +414,12 @@ go mod tidy
 git tag v1.0.1 && git push --tags
 ```
 
+##### To check out-dated modules
+
+```sh
+go list -u -m all
+```
+
 ### Help
 
 ##### To help page of a command
