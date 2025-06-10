@@ -365,6 +365,7 @@ ____
 - 此処 (ここ) - here
 - 其処 (そこ) - there
 - 彼処 (あそこ) - over there
+- 何処 (どこ) - where
 - 此れ (これ) - this
 - 其れ (それ) - that
 - 彼 (あれ) - that over there

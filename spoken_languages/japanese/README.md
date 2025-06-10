@@ -82,7 +82,6 @@ ____
 - [Numbers](./numbers.md)
 - [Vocabulary](./vocabulary.md)
 - [Keyboard](./keyboard.md)
-- [Hiragana keyboard mapping](./hiragana_keyboard_mapping.md)
 - [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 - [WHAT IS けど ?](https://www.tofugu.com/japanese/kedo/)
@@ -114,23 +113,11 @@ ____
 
 ## Pronouns
 
-- used standalone
-  * これ - this
-  * それ - that
-  * あれ - that (over there)
-  * どれ - which
 - used with a noun
   * この - this
   * その - that
   * あの - that (over there)
   * どの - which
-- place
-  * 此処 (ここ) - here
-  * 其処 (そこ) - there
-  * 彼処 (あそこ) - over there
-  * 何処 (どこ) - where
-  * 何方 (どちら) - which way
-  * 何階 (なんかい) - which floor
 - 何 (なに) - what
 - どの人 (どのひと) - which person
 - 誰 (だれ) - who 何方 (どなた) - who (honorific)
