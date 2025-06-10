@@ -34,6 +34,7 @@
     + [Item conditions](#item-conditions)
   * [Payment](#payment)
   * [Conversation](#conversation)
+  * [Location](#location)
   * [Signs](#signs)
   * [Sites](#sites)
   * [Transportation](#transportation)
@@ -67,6 +68,7 @@
   * [Metal](#metal)
   * [Flowers](#flowers)
   * [News](#news)
+  * [Entertainment](#entertainment)
   * [Work](#work)
     + [Software](#software)
     + [Math](#math)
@@ -147,7 +149,7 @@ ____
 - 自分 (じぶん) - myself / oneself
   * while often associated with strict hierarchical systems, such those
     associated with military and sporting environments, it's more gender-neutral
-    than common first-person pronouns
+    than common first-person vronouns
   * it can be used as second-person pronoun in Kansai dialect
 - second-person pronoun
   * it can be seen as rude and it is common to avoid it in conversations
@@ -687,6 +689,10 @@ ____
   when entering someone's place)
 - いらっしゃい - welcome
 
+## Location
+
+- すぐ側 (すぐそば) - right beside; close to; nearby
+
 ## Signs
 
 - ご注意ください (ごちゅういください) - please be careful
@@ -748,6 +754,7 @@ ____
   soon train is coming. yellow line inside by standing wait please
 - 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
 - ホーム - platform
+- 改札口 (かいさつぐち) - ticket gate
 - 案内 (あんない) - guidance or information
 - バス - bus
 - バス停 (バスてい) - bus stop
@@ -1146,6 +1153,7 @@ ____
 - テレグラム - telegram
 - 生成ＡＩ (せいせいＡＩ) - generative AI
 - ショートカット - shortcut
+- システム - system
 - システムエラー - system error
 - コメント - comment
 - プライバシーポリシー - privacy policy
@@ -1162,6 +1170,10 @@ ____
 - ログイン - login
 - メール - email
 - 返信 (へんしん) - reply
+- デジタルトランスフォーメーション - digital transformation
+- シフト - shift or move (from one trend to another)
+- ハードウェア - hardware
+- クラウド - cloud
 
 ### Math
 

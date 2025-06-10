@@ -27,6 +27,7 @@
   * [N4](#n4)
     + [Nouns](#nouns-1)
     + [Nouns (position)](#nouns-position-1)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
     + [Adjectives (い)](#adjectives-%E3%81%84-1)
     + [Adjectives (な)](#adjectives-%E3%81%AA-1)
     + [Pronouns (person)](#pronouns-person-1)
@@ -42,6 +43,7 @@
   * [N3](#n3)
     + [Nouns](#nouns-2)
     + [Nouns (animals)](#nouns-animals-1)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
     + [Adjectives (い)](#adjectives-%E3%81%84-2)
     + [Adjectives (な)](#adjectives-%E3%81%AA-2)
     + [Pronouns (person)](#pronouns-person-2)
@@ -92,9 +94,9 @@ ____
 - 大学 (だいがく) - university
 - 教室 (きょうしつ) - classroom
 - 勉強 (べんきょう) - study
-- 授業 (じゅぎょう) - lesson / class
+- 授業 (じゅぎょう) - lesson; class
 - 試験 (しけん) - exam
-- 先生 (せんせい) - teacher / master
+- 先生 (せんせい) - teacher; master
 - 物 (もの) - thing
 - 鉛筆 (えんぴつ) - pencil
 - 紙 (かみ) - paper
@@ -127,7 +129,7 @@ ____
 - ホテル - hotel
 - レストラン - restaurant
 - 建物 (たてもの) - building
-- マンション - condominium / apartment building
+- マンション - condominium; apartment building
 - アパート - apartment
 - ビル - multi-storey building
 - 映画館 (えいがかん) - cinema
@@ -150,7 +152,7 @@ ____
 - コップ - cup
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
-- 財布 (さいふ) - wallet / purse
+- 財布 (さいふ) - wallet; purse
 - 洋袴 (ズボン) - trousers
 - 洋服 (ようふく) - Western-style clothes
 - 帽子 (ぼうし) - hat
@@ -159,20 +161,20 @@ ____
 - シャツ - shirt
 - ハンカチ - handkerchief
 - ネクタイ - necktie
-- お古 (おふる) - second-hand / old clothes
-- 時計 (とけい) - clock / watch
+- お古 (おふる) - second-hand; old clothes
+- 時計 (とけい) - clock; watch
 - ラジオ - radio
 - 花 (はな) - flower
 - 友達 (ともだち) - friend
 - 電気 (でんき) - electricity
-- 町 (まち) - town / neighborhood
-- 一緒 (いっしょ) - together / the same
+- 町 (まち) - town; neighborhood
+- 一緒 (いっしょ) - together; the same
 - 音楽 (おんがく) - music
 - 映画 (えいが) - movie
 - 絵 (え) - picture; drawing; painting; sketch
 - シャワー - shower
 - 物 (もの) - thing
-- 休み (やすみ) - rest / holiday
+- 休み (やすみ) - rest; holiday
 - 旅行 (りょこう) - travel
 - 天気 (てんき) - weather
 - 雨 (あめ) - rain
@@ -195,6 +197,14 @@ ____
   cold); disease; sickness
 - プール - swimming pool; american pool (cue sport)
 - 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
+- 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
+  negotiation; argument; rumor; tale; story
+- 箸 (はし) - chopsticks
+- 道 (みち) - road; path; street; lane; passage
+- 先 (さき) - point; tip; end; nozzle; head (of a line); front; first; before;
+  ahead (of); (the way) ahead; beyond; future; previous; prior; former; recent;
+  last
+- セーター - sweater; jumper
 
 ### Nouns (family)
 
@@ -333,6 +343,7 @@ ____
 - 南 (みなみ) - south
 - 西 (にし) - west
 - 北 (きた) - north
+- 角 (かど) - corner
 
 ### Nouns (sports)
 
@@ -535,6 +546,9 @@ ____
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
 - 晴れる (はれる) - to be sunny
 - 鳴く (なく) - to make sound (of an animal); to cry
+- 歩く (あるく) - to walk
+- 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
+  wind; to twist
 
 ### Verbs (Transitive and intransitive)
 
@@ -601,10 +615,15 @@ ____
 - 今度 (こんど) - next time; this time; recently
 - 交通 (こうつう) - traffic; transportation
 - 社長 (しゃちょう) - company president; manager; director
+- 店員 (てんいん) - shop assistant
 
 ### Nouns (position)
 
 - 隅 (すみ) - corner
+
+### する verbs
+
+- チェック - check; inspection; marking with a check
 
 ### Adjectives (い)
 
@@ -644,6 +663,7 @@ ____
 - 最近 (さいきん) - recently; lately
 - 昔 (むかし) - old times; old days
 - 先 (さっき) - a moment ago
+- 確かに (たしかに) - surely; certainly
 
 ### Conjunctions
 
@@ -677,20 +697,21 @@ ____
 - 鳴る (なる) - to ring; to sound
 - 治る (なおる) - to get better; to get well; to recover (from an illness); to
   be cured; to be restored; to heal
+- 止む (やむ) - to cease; to stop; to be over
 
 ### Verbs (Transitive)
 
 - 思う (おもう) - to consider / to plan (on a general topic)
 - 考える (かんがえる) - to think (on a specific topic)
 - 受ける (うける) - to receive / to take (an exam)
-- くれる - to give
 - 変える (かえる) - to change
 - 止める (とめる) - to stop; to cancel
 - 落とす (おとす) - to drop; to lose; to leave behind
 - 片付ける (かたづける) - to tidy up; to put in order
-- 呉れる (くれる) - to give (to me)
+- 呉れる (くれる) - to give
 - 迎える (むかえる) - to welcome; to greet
 - 送る (おくる) - to send; to escort; to say goodbye to
+- 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 
 ### Verbs (Transitive and intransitive)
 
@@ -752,12 +773,21 @@ ____
 - 笑い (わらい) - laugh; smile
 - 畑 (はたけ) - field; farm
 - 見舞い (みまい) - visit (to a sick person); inquiry; expression of sympathy
+- 同僚 (どうりょう) - colleague; co-worker
+- 事 (こと) - thing; matter
+- 弁当 (べんとう) - Japanese lunch box
+- 通り (とおり) - street; road; avenue
 
 ### Nouns (animals)
 
 - 兎 (うさぎ) - rabbit
 - 象 (ぞう) - elephant
 - 虎 (とら) - tiger
+
+### する verbs
+
+- 留学 (りゅうがく) - studying abroad
+- サービス - service; assistance; help
 
 ### Adjectives (い)
 
@@ -789,6 +819,7 @@ ____
 - 何故なら (なぜなら) - because
 - だって - after all; because; but
 - だけど - however; but; although
+- 其れとも (それとも) - or; or else
 
 ### Verbs (Intransitive)
 
@@ -840,6 +871,8 @@ ____
 - 中身 (なかみ) - contents; interior; inside
 - 以降 (いこう) - on and after; since
 - 役所 (やくしょ) - government office
+- クリーニング - cleaning; laundry service
+- ブラウス - blouse
 
 ### Adjectives (い)
 
