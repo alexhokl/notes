@@ -930,7 +930,7 @@ ____
 - 纏め (まとめ) - summary; recapitulation; aggregation
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 
-### Adjectives
+### Adjectives (な)
 
 - 的 (てき) - -ish / -wise / -like
 
