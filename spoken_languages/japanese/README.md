@@ -263,6 +263,7 @@ ____
 - 冷やし (ひやし) - cold
 - 割り (わり) - diluted with
 - 割烹 (かっぽう) - Japanese-style cooking
+- お通し (おとうし) - appetizers (Japanese)
 
 ## Convience store
 
