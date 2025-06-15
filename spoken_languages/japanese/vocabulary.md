@@ -1,77 +1,77 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
-    + [Nouns](#nouns)
-    + [Nouns (family)](#nouns-family)
-    + [Nouns (time)](#nouns-time)
-    + [Nouns (food)](#nouns-food)
-    + [Nouns (transportation)](#nouns-transportation)
-    + [Nouns (animals)](#nouns-animals)
-    + [Nouns (body parts)](#nouns-body-parts)
-    + [Nouns (position)](#nouns-position)
-    + [Nouns (sports)](#nouns-sports)
-    + [Nouns (countries)](#nouns-countries)
+    + [nouns](#nouns)
+    + [nouns (family)](#nouns-family)
+    + [nouns (time)](#nouns-time)
+    + [nouns (food)](#nouns-food)
+    + [nouns (transportation)](#nouns-transportation)
+    + [nouns (animals)](#nouns-animals)
+    + [nouns (body parts)](#nouns-body-parts)
+    + [nouns (position)](#nouns-position)
+    + [nouns (sports)](#nouns-sports)
+    + [nouns (countries)](#nouns-countries)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
-    + [Pronouns (place)](#pronouns-place)
-    + [Pronouns (time)](#pronouns-time)
-    + [Pronouns (person)](#pronouns-person)
-    + [Adjectives (い)](#adjectives-%E3%81%84)
-    + [Adjectives (な)](#adjectives-%E3%81%AA)
-    + [Adverbs](#adverbs)
-    + [Conjunctions](#conjunctions)
-    + [Verbs (transitive)](#verbs-transitive)
-    + [Verbs (intransitive)](#verbs-intransitive)
-    + [Verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
-    + [Verbs (direction intransitive)](#verbs-direction-intransitive)
-    + [Expressions](#expressions)
+    + [pronouns (place)](#pronouns-place)
+    + [pronouns (time)](#pronouns-time)
+    + [pronouns (person)](#pronouns-person)
+    + [adjectives (い)](#adjectives-%E3%81%84)
+    + [adjectives (な)](#adjectives-%E3%81%AA)
+    + [adverbs](#adverbs)
+    + [conjunctions](#conjunctions)
+    + [verbs (transitive)](#verbs-transitive)
+    + [verbs (intransitive)](#verbs-intransitive)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
+    + [verbs (direction intransitive)](#verbs-direction-intransitive)
+    + [expressions](#expressions)
   * [N4](#n4)
-    + [Nouns](#nouns-1)
-    + [Nouns (position)](#nouns-position-1)
+    + [nouns](#nouns-1)
+    + [nouns (position)](#nouns-position-1)
     + [する verbs](#%E3%81%99%E3%82%8B-verbs)
-    + [Adjectives (い)](#adjectives-%E3%81%84-1)
-    + [Adjectives (な)](#adjectives-%E3%81%AA-1)
-    + [Pronouns (person)](#pronouns-person-1)
-    + [Pronouns (things)](#pronouns-things)
-    + [Adverbs](#adverbs-1)
-    + [Conjunctions](#conjunctions-1)
+    + [adjectives (い)](#adjectives-%E3%81%84-1)
+    + [adjectives (な)](#adjectives-%E3%81%AA-1)
+    + [pronouns (person)](#pronouns-person-1)
+    + [pronouns (things)](#pronouns-things)
+    + [adverbs](#adverbs-1)
+    + [conjunctions](#conjunctions-1)
     + [Auxiliary verbs](#auxiliary-verbs)
-    + [Verbs (intransitive)](#verbs-intransitive-1)
-    + [Verbs (transitive)](#verbs-transitive-1)
-    + [Verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
-    + [Expressions](#expressions-1)
+    + [verbs (intransitive)](#verbs-intransitive-1)
+    + [verbs (transitive)](#verbs-transitive-1)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
+    + [expressions](#expressions-1)
   * [N3](#n3)
-    + [Nouns](#nouns-2)
-    + [Nouns (animals)](#nouns-animals-1)
+    + [nouns](#nouns-2)
+    + [nouns (animals)](#nouns-animals-1)
     + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
-    + [Adjectives (い)](#adjectives-%E3%81%84-2)
-    + [Adjectives (な)](#adjectives-%E3%81%AA-2)
-    + [Pronouns (person)](#pronouns-person-2)
-    + [Adverbs](#adverbs-2)
-    + [Conjunctions](#conjunctions-2)
-    + [Verbs (intransitive)](#verbs-intransitive-2)
-    + [Verbs (transitive)](#verbs-transitive-2)
-    + [Expressions](#expressions-2)
+    + [adjectives (い)](#adjectives-%E3%81%84-2)
+    + [adjectives (な)](#adjectives-%E3%81%AA-2)
+    + [pronouns (person)](#pronouns-person-2)
+    + [adverbs](#adverbs-2)
+    + [conjunctions](#conjunctions-2)
+    + [verbs (intransitive)](#verbs-intransitive-2)
+    + [verbs (transitive)](#verbs-transitive-2)
+    + [expressions](#expressions-2)
   * [N2](#n2)
-    + [Nouns](#nouns-3)
-    + [Adjectives (い)](#adjectives-%E3%81%84-3)
-    + [Adjectives (な)](#adjectives-%E3%81%AA-3)
-    + [Adverbs](#adverbs-3)
-    + [Verbs (intransitive)](#verbs-intransitive-3)
-    + [Verbs (transitive)](#verbs-transitive-3)
-    + [Expressions](#expressions-3)
+    + [nouns](#nouns-3)
+    + [adjectives (い)](#adjectives-%E3%81%84-3)
+    + [adjectives (な)](#adjectives-%E3%81%AA-3)
+    + [adverbs](#adverbs-3)
+    + [verbs (intransitive)](#verbs-intransitive-3)
+    + [verbs (transitive)](#verbs-transitive-3)
+    + [expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
-    + [Nouns](#nouns-4)
-    + [Adjectives (な)](#adjectives-%E3%81%AA-4)
-    + [Adverbs](#adverbs-4)
-    + [Verbs (intransitive)](#verbs-intransitive-4)
-    + [Verbs (transitive)](#verbs-transitive-4)
+    + [nouns](#nouns-4)
+    + [adjectives (な)](#adjectives-%E3%81%AA-4)
+    + [adverbs](#adverbs-4)
+    + [verbs (intransitive)](#verbs-intransitive-4)
+    + [verbs (transitive)](#verbs-transitive-4)
 ____
 
 # Vocabulary
 
 ## N5
 
-### Nouns
+### nouns
 
 - 男 (おとこ) - male
 - 女 (おんな) - female
@@ -202,7 +202,7 @@ ____
 - セーター - sweater; jumper
 - クラス - class
 
-### Nouns (family)
+### nouns (family)
 
 - 両親 (りょうしん) - parents
 - 父 (ちち) - father (of mine)
@@ -231,7 +231,7 @@ ____
 - お娘さん (おむすめさん) - daughter (of someone)
 - お祖母さん (おばあさん) - grandmother
 
-### Nouns (time)
+### nouns (time)
 
 - 春 (はる) - spring
 - 夏 (なつ) - summer
@@ -282,7 +282,7 @@ ____
 - この前 (このまえ) - the other day; previously; recently
 - この間 (このあいだ) - the other day; recently; during this period
 
-### Nouns (food)
+### nouns (food)
 
 - 焼き (やき) - grilled / fried
 - 牛タン (ぎゅうタン) - beef tongue
@@ -296,7 +296,7 @@ ____
 - 果物 (くだもの) - fruit
 - 水 (みず) - water
 
-### Nouns (transportation)
+### nouns (transportation)
 
 - 地下鉄 (ちかてつ) - subway / metro / underground
 - バス - bus
@@ -306,7 +306,7 @@ ____
 - 車 (くるま) - car
 - 自転車 (じてんしゃ) - bicycle
 
-### Nouns (animals)
+### nouns (animals)
 
 - 動物 (どうぶつ) - animal
 - 犬 (いぬ) - dog
@@ -314,12 +314,12 @@ ____
 - 魚 (さかな) - fish
 - パット - pet
 
-### Nouns (body parts)
+### nouns (body parts)
 
 - 口 (くち) - mouth
 - 歯 (は) - tooth
 
-### Nouns (position)
+### nouns (position)
 
 - 上 (うえ) - on top of
 - 中 (なか) - middle (inside)
@@ -341,12 +341,12 @@ ____
 - 北 (きた) - north
 - 角 (かど) - corner
 
-### Nouns (sports)
+### nouns (sports)
 
 - ジョギング - jogging
 - サッカー - soccer
 
-### Nouns (countries)
+### nouns (countries)
 
 - 国 (くに) - country
 - 外国 (がいこく) - foreign country
@@ -367,7 +367,7 @@ ____
 - あんな - that kind of (over there)
 - どんな - what kind of / any
 
-### Pronouns (place)
+### pronouns (place)
 
 - 此処 (ここ) - here
 - 其処 (そこ) - there
@@ -379,12 +379,12 @@ ____
 - どれ - which (of three or more)
 - どちら - which (of two)
 
-### Pronouns (time)
+### pronouns (time)
 
 - いつ - when
 - 何時 (なんじ) - what time
 
-### Pronouns (person)
+### pronouns (person)
 
 - 誰 (だれ) - who
 - 何方 (どなた) - who (honorific)
@@ -392,7 +392,7 @@ ____
 - 貴方 (あなた) - you
 - 自分 (じぶん) - myself / oneself
 
-### Adjectives (い)
+### adjectives (い)
 
 - 高い (たかい) - high
 - 低い (ひくい) - low
@@ -441,7 +441,7 @@ ____
 - 辛い (つらい) - spicy
 - 明るい (あかるい) - bright
 
-### Adjectives (な)
+### adjectives (な)
 
 - 賑やか (にぎやか) - lively
 - 静か (しずか) - quiet
@@ -456,7 +456,7 @@ ____
 - 大好き (だいすき) - liking very much / love
 - 大変 (たいへん) - difficult; hard; challenging; immense; great
 
-### Adverbs
+### adverbs
 
 - 少し (すこし) - a little
 - ちょっと - a little
@@ -476,7 +476,7 @@ ____
 - 大変 (たいへん) - very; greatly; terribly
 - 早く (はやく) - quickly; early; also as 速く
 
-### Conjunctions
+### conjunctions
 
 - 然し (しかし) - however; but
 - でも - but
@@ -484,7 +484,7 @@ ____
 - 其れから (それから) - and then
 - 而して (そして) - thus
 
-### Verbs (transitive)
+### verbs (transitive)
 
 - 作る (つくる) - to make
 - 為る (する) - to do
@@ -510,7 +510,7 @@ ____
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
 - 消す (けす) - to erase; to turn off; to extinguish
 
-### Verbs (intransitive)
+### verbs (intransitive)
 
 - 居る (いる) - to be (used for living things)
 - 有る (ある) - to exist (used for non-living things)
@@ -546,17 +546,17 @@ ____
 - 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
   wind; to twist
 
-### Verbs (transitive and intransitive)
+### verbs (transitive and intransitive)
 
 - 待つ (まつ) - to wait
 
-### Verbs (direction intransitive)
+### verbs (direction intransitive)
 
 - 行く (いく) - to go
 - 来る (くる) - to come
 - 帰る (かえる) - to return
 
-### Expressions
+### expressions
 
 - 下さい (ください) - please
 - あのう - em...
@@ -564,7 +564,7 @@ ____
 
 ## N4
 
-### Nouns
+### nouns
 
 - オートバイ - motorcycle
 - 試験 (しけん) - exam
@@ -609,7 +609,7 @@ ____
 - 社長 (しゃちょう) - company president; manager; director
 - 店員 (てんいん) - shop assistant
 
-### Nouns (position)
+### nouns (position)
 
 - 隅 (すみ) - corner
 
@@ -617,7 +617,7 @@ ____
 
 - チェック - check; inspection; marking with a check
 
-### Adjectives (い)
+### adjectives (い)
 
 - 正しい (ただしい) - correct
 - 硬い (かたい) - hard
@@ -628,7 +628,7 @@ ____
 - 優しい (やさしい) - gentle; kind
 - 苦い (にがい) - bitter
 
-### Adjectives (な)
+### adjectives (な)
 
 - 親切 (しんせつ) - kind
 - 残念 (ざんねん) - regrettable; disappointing; unfortunate
@@ -638,18 +638,18 @@ ____
 - 普通 (ふつう) - normal; ordinary
 - 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
 
-### Pronouns (person)
+### pronouns (person)
 
 - 君 (きみ) - you (friendly / musculine / poetic)
 - 彼 (かれ) - he / boyfriend
 - 彼女 (かのじょ) - she / girlfriend
 
-### Pronouns (things)
+### pronouns (things)
 
 - 彼方 (あちら) - that way; that direction; over there
 - 彼方 (あっち) - see 彼方 (あちら)
 
-### Adverbs
+### adverbs
 
 - 些とも (ちっとも) - not at all
 - 最近 (さいきん) - recently; lately
@@ -657,7 +657,7 @@ ____
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
 
-### Conjunctions
+### conjunctions
 
 - けど - but / however (usually at the end of the sentence in a phone call, and
   expect a response)
@@ -669,7 +669,7 @@ ____
 
 - はず - should; must; expected to
 
-### Verbs (intransitive)
+### verbs (intransitive)
 
 - 入学 (にゅうがく) - admission to school
 - 入院 (にゅういん) - hospitalization
@@ -691,7 +691,7 @@ ____
   be cured; to be restored; to heal
 - 止む (やむ) - to cease; to stop; to be over
 
-### Verbs (transitive)
+### verbs (transitive)
 
 - 思う (おもう) - to consider / to plan (on a general topic)
 - 考える (かんがえる) - to think (on a specific topic)
@@ -705,19 +705,19 @@ ____
 - 送る (おくる) - to send; to escort; to say goodbye to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 
-### Verbs (transitive and intransitive)
+### verbs (transitive and intransitive)
 
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
   congratulate; to welcome (a proposal, advice)
 
-### Expressions
+### expressions
 
 - 久しぶり (ひさしぶり) - a long time
 - もうすぐ - soon
 
 ## N3
 
-### Nouns
+### nouns
 
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
@@ -768,7 +768,7 @@ ____
 - 通り (とおり) - street; road; avenue
 - クリスマス - Christmas
 
-### Nouns (animals)
+### nouns (animals)
 
 - 兎 (うさぎ) - rabbit
 - 象 (ぞう) - elephant
@@ -780,39 +780,39 @@ ____
 - サービス - service; assistance; help
 - 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
 
-### Adjectives (い)
+### adjectives (い)
 
 - 嬉しい (うれしい) - happy; glad; pleased
 - 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
 
-### Adjectives (な)
+### adjectives (な)
 
 - 新鮮 (しんせん) - fresh
 - 邪魔 (じゃま) - disturbance; obstruction
 - たっぷり - full of; a lot of; plenty of
 - 苦手 (にがて) - poor at; weak in; not good at
 
-### Pronouns (person)
+### pronouns (person)
 
 - お前 (おまえ) - you (musculine / vulgar)
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
 
-### Adverbs
+### adverbs
 
 - つまり - that is to say / in other words
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
 - そろそろ - soon
 
-### Conjunctions
+### conjunctions
 
 - 何故なら (なぜなら) - because
 - だって - after all; because; but
 - だけど - however; but; although
 - 其れとも (それとも) - or; or else
 
-### Verbs (intransitive)
+### verbs (intransitive)
 
 - 怪我 (けが) - injury / mistake
 - 運転 (うんてん) - driving / operating
@@ -821,7 +821,7 @@ ____
 - 出発 (しゅっぱつ) - departure
 - 空く (あく) - to become empty
 
-### Verbs (transitive)
+### verbs (transitive)
 
 - 心配 (しんぱい) - care / help
 - 頂く (いただく) - to receive; to take (humble)
@@ -836,14 +836,14 @@ ____
 - 貰う (もらう) - to receive; to get (from somebody)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 
-### Expressions
+### expressions
 
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
 - 実は (じつは) - as a matter of fact; to be honest; by the way
 
 ## N2
 
-### Nouns
+### nouns
 
 - 彫刻 (ちょうこく) - sculpture
 - 国立 (こくりつ) - national
@@ -860,29 +860,29 @@ ____
 - クリーニング - cleaning; laundry service
 - ブラウス - blouse
 
-### Adjectives (い)
+### adjectives (い)
 
 - 勿体ない (もったいない) - wasteful / too good / more than one deserves
 
-### Adjectives (な)
+### adjectives (な)
 
 - 透明 (とうめい) - transparent
 
-### Adverbs
+### adverbs
 
 - 愈々 (いよいよ) - more and more / all the more
 
-### Verbs (intransitive)
+### verbs (intransitive)
 
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 
-### Verbs (transitive)
+### verbs (transitive)
 
 - 蹴る (ける) - to kick
 
-### Expressions
+### expressions
 
 - お陰様で (おかげさまで) - thankfully; fortunately
 - ご馳走様 (ごちそうさま) - thank you (for the meal)
@@ -897,7 +897,7 @@ ____
 - 了解 (りょうかい) - understanding; comprehension; consent; agreement; OK;
   roger
 
-### Nouns
+### nouns
 
 - 階 (かい) - floor
 - インフォメーション - information
@@ -915,17 +915,17 @@ ____
 - ルール - rule
 - メーカー - manufacturer; maker
 
-### Adjectives (な)
+### adjectives (な)
 
 - 的 (てき) - -ish / -wise / -like
 
-### Adverbs
+### adverbs
 
 - 直ぐ (すぐ) - immediately / soon / easily
 
-### Verbs (intransitive)
+### verbs (intransitive)
 
-### Verbs (transitive)
+### verbs (transitive)
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
