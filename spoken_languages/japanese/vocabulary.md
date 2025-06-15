@@ -18,12 +18,11 @@
     + [Adjectives (な)](#adjectives-%E3%81%AA)
     + [Adverbs](#adverbs)
     + [Conjunctions](#conjunctions)
-    + [Verbs (Transitive)](#verbs-transitive)
-    + [Verbs (Intransitive)](#verbs-intransitive)
-    + [Verbs (Transitive and intransitive)](#verbs-transitive-and-intransitive)
-    + [Verbs (Direction Intransitive)](#verbs-direction-intransitive)
+    + [Verbs (transitive)](#verbs-transitive)
+    + [Verbs (intransitive)](#verbs-intransitive)
+    + [Verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
+    + [Verbs (direction intransitive)](#verbs-direction-intransitive)
     + [Expressions](#expressions)
-    + [Common word](#common-word)
   * [N4](#n4)
     + [Nouns](#nouns-1)
     + [Nouns (position)](#nouns-position-1)
@@ -35,10 +34,9 @@
     + [Adverbs](#adverbs-1)
     + [Conjunctions](#conjunctions-1)
     + [Auxiliary verbs](#auxiliary-verbs)
-    + [Verbs (Intransitive)](#verbs-intransitive-1)
-    + [Verbs (Transitive)](#verbs-transitive-1)
-    + [Verbs (Transitive and intransitive)](#verbs-transitive-and-intransitive-1)
-    + [Common word](#common-word-1)
+    + [Verbs (intransitive)](#verbs-intransitive-1)
+    + [Verbs (transitive)](#verbs-transitive-1)
+    + [Verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
     + [Expressions](#expressions-1)
   * [N3](#n3)
     + [Nouns](#nouns-2)
@@ -49,27 +47,24 @@
     + [Pronouns (person)](#pronouns-person-2)
     + [Adverbs](#adverbs-2)
     + [Conjunctions](#conjunctions-2)
-    + [Verbs (Intransitive)](#verbs-intransitive-2)
-    + [Verbs (Transitive)](#verbs-transitive-2)
-    + [Common word](#common-word-2)
+    + [Verbs (intransitive)](#verbs-intransitive-2)
+    + [Verbs (transitive)](#verbs-transitive-2)
     + [Expressions](#expressions-2)
   * [N2](#n2)
     + [Nouns](#nouns-3)
     + [Adjectives (い)](#adjectives-%E3%81%84-3)
     + [Adjectives (な)](#adjectives-%E3%81%AA-3)
     + [Adverbs](#adverbs-3)
-    + [Verbs (Intransitive)](#verbs-intransitive-3)
-    + [Verbs (Transitive)](#verbs-transitive-3)
-    + [Common word](#common-word-3)
+    + [Verbs (intransitive)](#verbs-intransitive-3)
+    + [Verbs (transitive)](#verbs-transitive-3)
     + [Expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
     + [Nouns](#nouns-4)
-    + [Adjectives](#adjectives)
-    + [Adverb](#adverb)
-    + [Verbs (Intransitive)](#verbs-intransitive-4)
-    + [Verbs (Transitive)](#verbs-transitive-4)
-    + [Common word](#common-word-4)
+    + [Adjectives (な)](#adjectives-%E3%81%AA-4)
+    + [Adverbs](#adverbs-4)
+    + [Verbs (intransitive)](#verbs-intransitive-4)
+    + [Verbs (transitive)](#verbs-transitive-4)
 ____
 
 # Vocabulary
@@ -205,6 +200,7 @@ ____
   ahead (of); (the way) ahead; beyond; future; previous; prior; former; recent;
   last
 - セーター - sweater; jumper
+- クラス - class
 
 ### Nouns (family)
 
@@ -488,7 +484,7 @@ ____
 - 其れから (それから) - and then
 - 而して (そして) - thus
 
-### Verbs (Transitive)
+### Verbs (transitive)
 
 - 作る (つくる) - to make
 - 為る (する) - to do
@@ -514,7 +510,7 @@ ____
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
 - 消す (けす) - to erase; to turn off; to extinguish
 
-### Verbs (Intransitive)
+### Verbs (intransitive)
 
 - 居る (いる) - to be (used for living things)
 - 有る (ある) - to exist (used for non-living things)
@@ -550,11 +546,11 @@ ____
 - 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
   wind; to twist
 
-### Verbs (Transitive and intransitive)
+### Verbs (transitive and intransitive)
 
 - 待つ (まつ) - to wait
 
-### Verbs (Direction Intransitive)
+### Verbs (direction intransitive)
 
 - 行く (いく) - to go
 - 来る (くる) - to come
@@ -565,10 +561,6 @@ ____
 - 下さい (ください) - please
 - あのう - em...
 - 就いて (ついて) - about; concerning; as to; regarding
-
-### Common word
-
-- クラス - class
 
 ## N4
 
@@ -677,7 +669,7 @@ ____
 
 - はず - should; must; expected to
 
-### Verbs (Intransitive)
+### Verbs (intransitive)
 
 - 入学 (にゅうがく) - admission to school
 - 入院 (にゅういん) - hospitalization
@@ -699,7 +691,7 @@ ____
   be cured; to be restored; to heal
 - 止む (やむ) - to cease; to stop; to be over
 
-### Verbs (Transitive)
+### Verbs (transitive)
 
 - 思う (おもう) - to consider / to plan (on a general topic)
 - 考える (かんがえる) - to think (on a specific topic)
@@ -713,17 +705,14 @@ ____
 - 送る (おくる) - to send; to escort; to say goodbye to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 
-### Verbs (Transitive and intransitive)
+### Verbs (transitive and intransitive)
 
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
   congratulate; to welcome (a proposal, advice)
 
-### Common word
-
-- 久しぶり (ひさしぶり) - a long time
-
 ### Expressions
 
+- 久しぶり (ひさしぶり) - a long time
 - もうすぐ - soon
 
 ## N3
@@ -777,6 +766,7 @@ ____
 - 事 (こと) - thing; matter
 - 弁当 (べんとう) - Japanese lunch box
 - 通り (とおり) - street; road; avenue
+- クリスマス - Christmas
 
 ### Nouns (animals)
 
@@ -788,6 +778,7 @@ ____
 
 - 留学 (りゅうがく) - studying abroad
 - サービス - service; assistance; help
+- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
 
 ### Adjectives (い)
 
@@ -821,7 +812,7 @@ ____
 - だけど - however; but; although
 - 其れとも (それとも) - or; or else
 
-### Verbs (Intransitive)
+### Verbs (intransitive)
 
 - 怪我 (けが) - injury / mistake
 - 運転 (うんてん) - driving / operating
@@ -830,7 +821,7 @@ ____
 - 出発 (しゅっぱつ) - departure
 - 空く (あく) - to become empty
 
-### Verbs (Transitive)
+### Verbs (transitive)
 
 - 心配 (しんぱい) - care / help
 - 頂く (いただく) - to receive; to take (humble)
@@ -844,11 +835,6 @@ ____
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
 - 貰う (もらう) - to receive; to get (from somebody)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
-
-### Common word
-
-- クリスマス - Christmas
-- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
 
 ### Expressions
 
@@ -886,24 +872,21 @@ ____
 
 - 愈々 (いよいよ) - more and more / all the more
 
-### Verbs (Intransitive)
+### Verbs (intransitive)
 
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 
-### Verbs (Transitive)
+### Verbs (transitive)
 
 - 蹴る (ける) - to kick
-
-### Common word
-
-- ご馳走様 (ごちそうさま) - thank you (for the meal)
-- ご馳走様でした (ごちそうさまでした) - thank you (for the meal)
 
 ### Expressions
 
 - お陰様で (おかげさまで) - thankfully; fortunately
+- ご馳走様 (ごちそうさま) - thank you (for the meal)
+- ご馳走様でした (ごちそうさまでした) - thank you (for the meal)
 
 ## N1
 
@@ -929,23 +912,21 @@ ____
 - 取引 (とりひき) - transaction; dealings; business
 - 纏め (まとめ) - summary; recapitulation; aggregation
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
+- ルール - rule
+- メーカー - manufacturer; maker
 
 ### Adjectives (な)
 
 - 的 (てき) - -ish / -wise / -like
 
-### Adverb
+### Adverbs
 
 - 直ぐ (すぐ) - immediately / soon / easily
 
-### Verbs (Intransitive)
+### Verbs (intransitive)
 
-### Verbs (Transitive)
+### Verbs (transitive)
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 
-### Common word
-
-- ルール - rule
-- メーカー - manufacturer; maker
