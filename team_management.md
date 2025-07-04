@@ -1,28 +1,42 @@
-- [Managing a junior team](#managing-a-junior-team)
-- [Leading engineering teams](#leading-engineering-teams)
-- [Leading Teams](#leading-teams)
-- [Company culture](#company-culture)
-- [Planning](#planning)
-- [Recruitment](#recruitment)
-- [Meetings](#meetings)
-- [Time management](#time-management)
-- [Delegation and time management](#delegation-and-time-management)
-- [Delegating worries](#delegating-worries)
-- [Alerting](#alerting)
-- [Cost tracking](#cost-tracking)
-- [One-on-ones](#one-on-ones)
-- [Manager energy drain](#manager-energy-drain)
-- [Culture](#culture)
-- [Interview](#interview)
-- [Engineering lead, manager and product manager](#engineering-lead-manager-and-product-manager)
-- [Incompetent leaders](#incompetent-leaders)
-- [Build or buy?](#build-or-buy)
-- [Bullshit detection](#bullshit-detection)
-- [Giving feedback in remote teams](#giving-feedback-in-remote-teams)
-- [Managing unexpected work requests](#managing-unexpected-work-requests)
+  * [Managing a junior team](#managing-a-junior-team)
+  * [Leading engineering teams](#leading-engineering-teams)
+  * [Leading Teams](#leading-teams)
+  * [Company culture](#company-culture)
+    + [Find out the problem](#find-out-the-problem)
+    + [Run experiments](#run-experiments)
+    + [Successful changes](#successful-changes)
+    + [Take stock](#take-stock)
+  * [Planning](#planning)
+    + [some of the goals of planning](#some-of-the-goals-of-planning)
+    + [some rules of thumb for making planning](#some-rules-of-thumb-for-making-planning)
+  * [Recruitment](#recruitment)
+  * [Meetings](#meetings)
+  * [Time management](#time-management)
+  * [Delegation and time management](#delegation-and-time-management)
+  * [Delegating worries](#delegating-worries)
+  * [Alerting](#alerting)
+  * [Cost tracking](#cost-tracking)
+  * [One-on-ones](#one-on-ones)
+  * [Manager energy drain](#manager-energy-drain)
+  * [Culture](#culture)
+  * [Interview](#interview)
+  * [Engineering lead, manager and product manager](#engineering-lead%2C-manager-and-product-manager)
+  * [Incompetent leaders](#incompetent-leaders)
+  * [Build or buy?](#build-or-buy%3F)
+  * [Bullshit detection](#bullshit-detection)
+  * [Giving feedback in remote teams](#giving-feedback-in-remote-teams)
+  * [Managing unexpected work requests](#managing-unexpected-work-requests)
+  * [General crisis management](#general-crisis-management)
+  * [New Job](#new-job)
+  * [Getting consensus ](#getting-consensus-)
+  * [A meeting with introverts](#a-meeting-with-introverts)
+  * [A meeting with extroverts](#a-meeting-with-extroverts)
+  * [A meeting with man and women](#a-meeting-with-man-and-women)
+  * [Negotiation](#negotiation)
+  * [Making decision](#making-decision)
 ____
 
-### Managing a junior team
+## Managing a junior team
 
 Reference: [Tweet by Gergely
 Orosz](https://twitter.com/GergelyOrosz/status/1459183541682593794)
@@ -76,7 +90,7 @@ Orosz](https://twitter.com/GergelyOrosz/status/1459183541682593794)
     monitoring?
   - do celebrate progress and wins. one step at a time
 
-### Leading engineering teams
+## Leading engineering teams
 
 Reference: [An engineering leader's journey
 ](https://icecrime.net/life/technology/an-engineering-leader-journey/) by Arnaud
@@ -111,7 +125,7 @@ Porterie
     or architectural work (which could be the topic of an entire blog post
     itself) as it makes interdependencies more apparent.
 
-### Leading Teams
+## Leading Teams
 
 - implement system and rules for teams instead of depending on skills of an
   individual leader as those skills could be limited in some areas and it could
@@ -134,12 +148,12 @@ Porterie
 - if a manager can be super transparent about what his/her days and weeks look
   like to the team, it will help the team to understand the role of manager
 
-### Company culture
+## Company culture
 
 Reference: [The patient change
 agent](https://cutle.fish/blog/the-patient-change-agent)
 
-##### Find out the problem
+### Find out the problem
 
 Observe for three months and try to answer the following questions.
 
@@ -157,7 +171,7 @@ Observe for three months and try to answer the following questions.
   the future that might also meet people’s needs? Journaling helps you stay
   objective, and also gives you an outlet .
 
-##### Run experiments
+### Run experiments
 
 - The emphasis of an experiment is not on ensuring success or avoiding failure,
   but in allowing ideas that are not useful to fail in small, contained and
@@ -168,7 +182,7 @@ Observe for three months and try to answer the following questions.
   you put your job/career/well-being/sanity/relationships/enthusiasm in
   jeopardy. Never. It’s not worth it
 
-##### Successful changes
+### Successful changes
 
 - People will invite you to meetings to talk about it, and learn more about it
 - Other parts of the organization will adopt it
@@ -178,17 +192,17 @@ Observe for three months and try to answer the following questions.
 - It will grow organically and virally. You will sense the momentum and
   excitement. It will be palpable. No momentum... then it isn’t working.
 
-##### Take stock
+### Take stock
 
 - Set a concrete stay/leave goal…if your “score” remains undecided (or less) for
   an extended period of time (e.g three months), consider leaving at your twelve
   month mark
 
-### Planning
+## Planning
 
 Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 
-#### some of the goals of planning
+### some of the goals of planning
 
 - communicate a shared goal and vision for everyone to pull towards
   * our vast and endless sea to yearn for
@@ -199,9 +213,9 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
   capabilities, etc)
 - give leadership a venue to provide feedback, set direction and course correct
 
-#### some rules of thumb for making planning
+### some rules of thumb for making planning
 
-##### bottom up processes do not work
+#### bottom up processes do not work
 
 - there are a ton of critical insights we need from the people on the
   front lines doing the work, but bottom up planning is not how to get them
@@ -224,7 +238,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
   to do it. They naturally emotionally invest in that outcome.  This now
   becomes the floor for their expectations.
 
-##### planning is the wrong time to introduce anything new
+#### planning is the wrong time to introduce anything new
 
 - most organizations have a formal period of time annually
 - leadership often feels like Planning is their opportunity to introduce the new
@@ -253,7 +267,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
     knowing that you will probably fail and be ready to back out your changes
     and throw it away. That is a great alternative to doing a real plan
 
-##### provide frameworks and constraints
+#### provide frameworks and constraints
 
 - doing top-down planning without micro-managing
 - metrics are perennially popular constraints
@@ -276,7 +290,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - top down planning comes with a risk
   * teams need to be willing to give feedback to higher management
 
-##### project planning has an inflection point
+#### project planning has an inflection point
 
 - as the complexity of what you are trying to accomplish increases and Planning
   becomes more about coordination and communication, Project Planning is no
@@ -291,7 +305,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
   Strategic Planning with the expectations of Project Planning still firmly in
   place
 
-##### do not wait to kill bad ideas
+#### do not wait to kill bad ideas
 
 - instead emphasize with each team that you believe that their plans are
   hypotheses, and that you see their job as testing those hypotheses
@@ -302,7 +316,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - so make it easier to kill bad ideas, and make it easy to talk about killing
   bad ideas sooner
 
-##### minimize dependencies
+#### minimize dependencies
 
 - as the person designing Planning, encourage people to build their plans on the
   foundation of things that are already working and shipped
@@ -310,18 +324,18 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
     and excitement for them should be done via Funding Proposals outside this
     process
 
-##### headcount planning would not map to your plans
+#### headcount planning would not map to your plans
 
 - shifting the high stakes nature of headcount planning by moving towards off
   cycle funding proposals
 
-##### Environment with less restrictions on resources
+#### Environment with less restrictions on resources
 
 - especially in a hyper-growth environment or when money and headcount are no
   object, you need to be better at planning, because the only constraints are
   the quality of your thinking
 
-##### purposes of planning
+#### purposes of planning
 
 - it acts as a point in time to synchronize our multi-threaded company
   * all year we operate with different teams and functions loosely coupled;
@@ -333,7 +347,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
   * we are all busy and sometimes things just don’t get done without a deadline
     and a person asking for them
 
-### Recruitment
+## Recruitment
 
 - the decision should not be based on intuition as even experienced interviewer
   could get it wrong; thus, a more objective methods should be used
@@ -346,7 +360,7 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - writing things down is an important attribute/skill with higher management
   recruitments
 
-### Meetings
+## Meetings
 
 - disclose agenda of a meeting such as the type of meeting
   * making a decision
@@ -367,12 +381,12 @@ Reference: [How to plan?](https://kellanem.com/notes/how-to-plan)
 - dis-associate idea from the people who suggests it
   * list out the ideas without people's name
 
-### Time management
+## Time management
 
 - managers can start practising concentration periods of 20 minutes and continue
   to lengthen the time once getting used to the concentration period
 
-### Delegation and time management
+## Delegation and time management
 
 reference: [Delegation and Time Management - When being “helpful” is actually
 hurting](https://skamille.medium.com/delegation-and-time-management-6cb326a880d3)
@@ -415,7 +429,7 @@ hurting](https://skamille.medium.com/delegation-and-time-management-6cb326a880d3
   give your feedback, and let them bring the follow-ups to you in the next
   appropriate touch base
 
-### Delegating worries
+## Delegating worries
 
 reference: [Worring](https://www.onebigfluke.com/2018/01/worrying.html)
 
@@ -437,7 +451,7 @@ reference: [Worring](https://www.onebigfluke.com/2018/01/worrying.html)
     other way around
   * ask teammates many questions to fully understand issues and their severity
 
-### Alerting
+## Alerting
 
 A regular (usually every 2 weeks) alert review meeting to go over all the alerts.
 
@@ -445,13 +459,13 @@ A regular (usually every 2 weeks) alert review meeting to go over all the alerts
 - for non-critical alerts, iterate the alerts and discuss what can be done to clear out
   * it can be tweaking the threshold or creating some automation
 
-### Cost tracking
+## Cost tracking
 
 - monthly review meeting
   * not reviewed from a purely finance perspective
   * to understand if cost of an item sounds right
 
-### One-on-ones
+## One-on-ones
 
 reference: [Dear Manager — How to make time for
 1-on-1s](https://medium.com/absadesign/dear-manager-how-to-make-time-for-1-on-1s-f3831b2c77a3)
@@ -479,7 +493,7 @@ reference: [Dear Manager — How to make time for
   * be positive
   * take notes during the meeting
 
-### Manager energy drain
+## Manager energy drain
 
 reference: [Manager Energy
 Drain](https://larahogan.me/blog/manager-energy-drain/)
@@ -530,7 +544,7 @@ Drain](https://larahogan.me/blog/manager-energy-drain/)
     + write down draft emails you can copy and paste from to say “no” clearly
       and gracefully every time you need to and feel hesitation
 
-### Culture
+## Culture
 
 - it is not about free food, nice Christmas parties or other perks.
 - it is about shared values and beliefs, the common ground of every discussion
@@ -540,7 +554,7 @@ Drain](https://larahogan.me/blog/manager-energy-drain/)
 - a leader is to facilitate discussions, offer a vision and set the guard rails;
   nothing defines culture more than actions
 
-### Interview
+## Interview
 
 - the better you are at convincing people to join your team and in selling your
   vision, the better they eventually work for you
@@ -549,7 +563,7 @@ Drain](https://larahogan.me/blog/manager-energy-drain/)
 - design a hiring process that involves your team and gives the candidate a lot
   of opportunity to evaluate you as well
 
-### Engineering lead, manager and product manager
+## Engineering lead, manager and product manager
 
 - engineering lead
   * owns the story of "how"
@@ -562,7 +576,7 @@ Drain](https://larahogan.me/blog/manager-energy-drain/)
 - product manager
   * owns the story of "what"
 
-### Incompetent leaders
+## Incompetent leaders
 
 - characteristics
   * moving away behaviours
@@ -580,7 +594,7 @@ Drain](https://larahogan.me/blog/manager-energy-drain/)
 - reserach shows that being ignored by one's boss is more alienating than being
   treated poorly
 
-### Build or buy?
+## Build or buy?
 
 Reference: [Why is it so hard to decide to
 buy?](https://skamille.medium.com/why-is-it-so-hard-to-decide-to-buy-d86fee98e88e)
@@ -669,7 +683,7 @@ buy?](https://skamille.medium.com/why-is-it-so-hard-to-decide-to-buy-d86fee98e88
     + you will need to look at your rewards structure if you want to encourage
       a move towards buying more and building less
 
-### Bullshit detection
+## Bullshit detection
 
 Reference: [Introductory bullshit detection for non-technical
 managers](https://itsyourturnblog.com/introductory-bullshit-detection-for-non-technical-managers-7c7a9e54afee)
@@ -728,7 +742,7 @@ managers](https://itsyourturnblog.com/introductory-bullshit-detection-for-non-te
     change. Does this project need to stop? Do other projects need to move? “I
     can make up the time” is not a realistic response.
 
-### Giving feedback in remote teams
+## Giving feedback in remote teams
 
 Reference: [The importance of small, positive interactions - How to give regular
 positive feedback in
@@ -745,7 +759,7 @@ remotely](https://leaddev.com/culture/importance-small-positive-interactions)
 - take time in 1:1s to talk about things other than work, to check in on them as
   people, and to share some of your own life
 
-### Managing unexpected work requests
+## Managing unexpected work requests
 
 Reference: [Managing unexpected work requests when your team is
 busy](https://leaddev.com/management/managing-unexpected-work-requests-when-your-team-busy)
@@ -763,3 +777,65 @@ busy](https://leaddev.com/management/managing-unexpected-work-requests-when-your
 - use the request as evidence to bolster support for other unscheduled projects
   * use the request to prioritize work of "important but not urgent"
     + for example, automation or monitoring
+
+## General crisis management
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- people work in shifts to keep the energy of the team; not using all the human
+  resources at the same time
+- do not just respond to short term crisis; think of a longer term plan (urgency
+  pushes importance away)
+
+## New Job
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- ask people in the organisation to understand the strengths and weaknesses
+  before jumping into any plans
+
+## Getting consensus 
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- if there are multiple parties involved in a meeting, it is best to arrage the
+  onces who would moan/complain in the middle of the sequence
+
+## A meeting with introverts
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- use one-on-one more and tempt them with food (for example)
+
+## A meeting with extroverts
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- let them talk but also manage the group dynamics
+- in an ideal world, the chair does not have to say anything; members should be
+  able to figure out most of the problems by themselves
+
+## A meeting with man and women
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- try to call a women to speak first before a man dominate the conversation
+
+## Negotiation
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- shut up and listen; to let others make mistakes when they talk
+- in the context of negotiating a number, ask the other party for how they come
+  up with the numbers; in this way, there is a good chance that the number can
+  be lowered by the other side before our side suggesting anything
+- in the context of negotiating a number and the number is too high, simply
+  explaining the reason of why the number cannot be achieved.
+
+## Making decision
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- be very self-aware of biases
+- take myself out of the decision process if the team should be able to handle
+  it
