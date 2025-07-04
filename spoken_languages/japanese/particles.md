@@ -264,6 +264,11 @@ ____
       + は cannot be used in this case as it is not a contrast
 - something `は`・・・。 something else `は`・・・。
   * "something else" can be used as an additional context to "something"
+- in giving negative answers, は should be used in place of particles such as 
+  が
+  * examples
+    + A: パーティーは田中さんが来ますか。
+      B: いいえ、田中さん`は`来ません。
 
 ## が
 
