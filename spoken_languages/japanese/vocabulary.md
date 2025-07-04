@@ -656,6 +656,8 @@ ____
 - 昔 (むかし) - old times; old days
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
+- 偶に (たまに) - occasionally; once in a while; now and then
+- 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
 
 ### conjunctions
 
@@ -767,6 +769,7 @@ ____
 - 弁当 (べんとう) - Japanese lunch box
 - 通り (とおり) - street; road; avenue
 - クリスマス - Christmas
+- 相手 (あいて) - companion; partner; opponent
 
 ### nouns (animals)
 

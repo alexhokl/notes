@@ -309,6 +309,7 @@ ____
 - 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
   referring to chicken
 - 大蒜 (にんにく) - garlic
+- 豆腐 (とうふ) - tofu
 
 ### Fish
 
