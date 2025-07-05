@@ -606,6 +606,17 @@ git revert <sha-1 of the commit>
 git revert -m 1 <sha-1 of the merge commit>
 ```
 
+## Merge
+
+##### To check if a branch can be merged
+
+```sh
+git merge-tree --quiet parent_branch feature_branch
+```
+
+It shows SHA of a commit if the branch can be merged and `--quiet` option is not
+used, or an error message if it cannot. 
+
 ## Rerere
 
 - reuse recorded resolution
@@ -779,6 +790,22 @@ To show only a particular file
 ```sh
 git show :/'search term' -- path/to/file
 ```
+
+##### To show a commit relative to a branch
+
+```sh
+git show main@{2}
+```
+
+and this is eqivalent to git show HEAD~2 if the current branch is `main`.
+
+##### To show a commit in relative time
+
+```sh
+git show main@{1.week.ago}
+```
+
+and this shows the first commit on or after 1 week ago.
 
 ##### Showing commits excluding merge commits
 
