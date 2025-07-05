@@ -34,6 +34,8 @@
   * [A meeting with man and women](#a-meeting-with-man-and-women)
   * [Negotiation](#negotiation)
   * [Making decision](#making-decision)
+  * [Team size](#team-size)
+  * [Replicating fixes across teams](#replicating-fixes-across-teams)
 ____
 
 ## Managing a junior team
@@ -839,3 +841,21 @@ Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
 - be very self-aware of biases
 - take myself out of the decision process if the team should be able to handle
   it
+
+## Team size
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- since 4 is the maximum number of people can involved in a conversation without
+  spliting into two conversations, this should constraint team size
+
+## Replicating fixes across teams
+
+Reference: [Boss Class](https://www.economist.com/audio/podcasts/boss-class)
+
+- fixes to the process or machines are bottom-up; workers on the line escalate a
+  solution to the team lead; the fix is then tested; if it works, it is
+  replicated across the teams
+  * this is also an opposite to the "if it is not broken, do not fix it"
+    mentality
+
