@@ -1,23 +1,27 @@
 - [Mail Server](#mail-server)
-    + [SPF](#spf)
-    + [DKIM](#dkim)
-    + [DMARC](#dmarc)
+  * [SPF](#spf)
+  * [DKIM](#dkim)
+  * [DMARC](#dmarc)
+    + [Adding DNS records](#adding-dns-records)
+    + [Interpretation of reports](#interpretation-of-reports)
+    + [References](#references)
+  * [MTA-STS](#mta-sts)
 - [G Suite](#g-suite)
-    + [Migrate from other webmail providers to G Suite](#migrate-from-other-webmail-providers-to-g-suite)
-    + [G Suite Toolbox](#g-suite-toolbox)
-    + [GMail](#gmail)
+  * [Migrate from other webmail providers to G Suite](#migrate-from-other-webmail-providers-to-g-suite)
+  * [G Suite Toolbox](#g-suite-toolbox)
+  * [GMail](#gmail)
 - [Microsoft Exchange](#microsoft-exchange)
-    + [Migration](#migration)
-    + [DKIM](#dkim-1)
-    + [Spam management](#spam-management)
-    + [PST and OST](#pst-and-ost)
-    + [Configuration](#configuration)
+  * [Migration](#migration)
+  * [DKIM](#dkim-1)
+  * [Spam management](#spam-management)
+  * [PST and OST](#pst-and-ost)
+  * [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 ____
 
 # Mail Server
 
-### SPF
+## SPF
 
 Sender Policy Framework (SPF) is an email validation protocol designed to
 detect and block email spoofing by providing a mechanism to allow receiving
@@ -46,7 +50,7 @@ verify the email’s content.
 See [Configure SPF records to work with
 G Suite](https://support.google.com/a/answer/33786?hl=en).
 
-### DKIM
+## DKIM
 
 Use the DomainKeys Identified Mail (DKIM) standard to help prevent email
 spoofing on outgoing messages.
@@ -70,7 +74,7 @@ See
 - [3. Turn on DKIM signing](https://support.google.com/a/answer/180504)
 - [Update DNS records for a subdomain](https://support.google.com/a/answer/177063)
 
-### DMARC
+## DMARC
 
 Domain-based Message Authentication, Reporting and Conformance (DMARC) is an
 email-validation system designed to detect and prevent email spoofing. DMARC
@@ -85,7 +89,7 @@ results of DKIM and SPF and specifies under which circumstances the From:
 header field, which is often visible to end users, should be considered
 legitimate.
 
-#### Adding DNS records
+### Adding DNS records
 
 The DNS record to add is of type `TXT`, host as `_dmarc` and value of
 `"v=DMARC1; p=none; rua=mailto:someone@test.com"`.
@@ -95,11 +99,11 @@ the above record is tied to `example.com`, an extra DNS record on domain
 `test.com` is required. It is of type `TXT`, host as
 `example.com._report._dmarc` and value of `v=DMARC1;`.
 
-#### Interpretation of reports
+### Interpretation of reports
 
 - [Aggregate DMARC reports explained](https://www.dmarcanalyzer.com/dmarc-aggregate-reports/)
 
-#### References
+### References
 
 - [About DMARC](https://support.google.com/a/answer/2466580)
 - [Add a DMARC record](https://support.google.com/a/answer/2466563)
@@ -109,26 +113,64 @@ the above record is tied to `example.com`, an extra DNS record on domain
   Policy](https://dmarc.org/2015/10/yahoo-to-expand-use-of-strict-dmarc-policy/)
 - [Email Security Check by gov.uk](https://emailsecuritycheck.service.ncsc.gov.uk/check)
 
+## MTA-STS
+
+- reference [Email security and
+  anti-spoofing](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails)
+- aka Mail Transfer Agent Strict Transport Security
+- attacking vector
+  * a person-in-the-middle can trick incoming connections to send to another
+    server and/or send information in the clear
+- methodology
+  * advertise the mail server hostname on a separate secure web page, which
+    means an attacker cannot just subvert the DNS entries (specifically MX
+    records)
+  * publish an ‘MTA-STS enforce policy’, which tells any server sending you
+    emails to always send with TLS encryption, and to not allow connections to
+    be downgraded
+- each domain and subdomain will require separate configuration
+- policy
+  * example
+    + [https://mta-sts.ncsc.gov.uk/.well-known/mta-sts.txt](https://mta-sts.ncsc.gov.uk/.well-known/mta-sts.txt)
+  ```
+  version: STSv1
+  mode: enforce
+  mx: ncsc-gov-uk.mail.protection.outlook.com
+  max_age: 1209600
+  ```
+  * `mode` can be `enforce` or `testing`
+  * multiple MX records are listed in multiple lines
+- discovery DNS record
+  * [example](https://toolbox.googleapps.com/apps/dig/#TXT/_mta-sts.ncsc.gov.uk)
+  * `id` can be anything but it must be changed when there is a change in the
+    policy
+    + it is recommended to use a timestamp
+- TLS-Reporting (TLS-RPT)
+  * TXT DNS record
+    + examples
+      + domain `_smtp._tls.example.gov.uk` and value
+        `v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk`
+
 # G Suite
 
-### Migrate from other webmail providers to G Suite
+## Migrate from other webmail providers to G Suite
 
 See section *Migrate email from IMAP-based webmail providers* in [Migrate email
 to G Suite with the data migration
 service](https://support.google.com/a/answer/9476255?hl=en&visit_id=637218572306271204-135647162&rd=1).
 
-### G Suite Toolbox
+## G Suite Toolbox
 
 - [Check MX](https://toolbox.googleapps.com/apps/checkmx/)
 - [messageheader](https://toolbox.googleapps.com/apps/messageheader/)
 
-### GMail
+## GMail
 
 - [Apply aliases to recipient addresses](https://support.google.com/a/answer/4524505)
 
 # Microsoft Exchange
 
-### Migration
+## Migration
 
 ##### Connect to exchange service and download the remote module
 
@@ -212,7 +254,7 @@ To check mailbox usage
 Get-EXOMailboxStatistics -Identity someone@test.com
 ```
 
-### DKIM
+## DKIM
 
 Once email migration has been done, setup custom domain in
 https://admin.microsoft.com/ in section `Setup` (and select `Set up email
@@ -261,7 +303,7 @@ Set-DkimSigningConfig -Identity your-domain.com -Enabled $true
 To verify if it is working properly, check the headers of a newly sent mail and
 look for `DKIM=pass` or `DKIM=ok`.
 
-### Spam management
+## Spam management
 
 - [Spoof Intelligence Insight](https://security.microsoft.com/spoofintelligence)
   where it shows a list of suspected spoofed users.
@@ -271,14 +313,14 @@ look for `DKIM=pass` or `DKIM=ok`.
 - [Configure outbound spam policies in Exchange Online Protection
   (EOP)](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-configure)
 
-### PST and OST
+## PST and OST
 
 - [MS-PST: Outlook Personal Folders (.pst) File
   Format](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546)
 - [How to configure the size limit for both (.pst) and (.ost) files in
   Outlook](https://support.microsoft.com/en-us/topic/how-to-configure-the-size-limit-for-both-pst-and-ost-files-in-outlook-2f13f558-d40e-9c2a-e3b6-02806fa535f4)
 
-### Configuration
+## Configuration
 
 - [Enable-OrganizationCustomization](https://learn.microsoft.com/en-us/powershell/module/exchange/enable-organizationcustomization)
 
