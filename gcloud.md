@@ -1,37 +1,38 @@
-- [Links](#links)
-- [gcloud Commands](#gcloud-commands)
-  * [Basics](#basics)
-  * [Kubernetes](#kubernetes)
-  * [Compute](#compute)
-  * [CI/CD Builds](#cicd-builds)
-  * [DNS](#dns)
-  * [Pub/Sub](#pubsub)
-  * [Cloud SQL](#cloud-sql)
-  * [IAM](#iam)
-  * [Commitments](#commitments)
-- [gsutil commands](#gsutil-commands)
-  * [Bucket](#bucket)
-- [Concepts](#concepts)
-  * [Service account](#service-account)
-  * [Authentication on GCP](#authentication-on-gcp)
-  * [SAML](#saml)
-  * [Logging](#logging)
-  * [Monitoring](#monitoring)
-  * [Cloud Trace](#cloud-trace)
-  * [Pub/Sub](#pubsub-1)
-  * [Cloud Storage (Bucket)](#cloud-storage-bucket)
-  * [VPC](#vpc)
-  * [Cloud NAT](#cloud-nat)
-  * [Security Command Center (SCC)](#security-command-center-scc)
-  * [Duet AI](#duet-ai)
-  * [Certificate Authority Service](#certificate-authority-service)
-  * [Compliance](#compliance)
-  * [Cloud Run](#cloud-run)
-  * [Cloud SQL](#cloud-sql-1)
-  * [Looker](#looker)
-- [APIs](#apis)
-  * [Vision API](#vision-api)
-- [Tools](#tools)
+  * [Links](#links)
+  * [gcloud Commands](#gcloud-commands)
+    + [Basics](#basics)
+    + [Kubernetes](#kubernetes)
+    + [Compute](#compute)
+    + [CI/CD Builds](#ci%2Fcd-builds)
+    + [DNS](#dns)
+    + [Pub/Sub](#pub%2Fsub)
+    + [Cloud SQL](#cloud-sql)
+    + [IAM](#iam)
+    + [Commitments](#commitments)
+  * [gsutil commands](#gsutil-commands)
+    + [Bucket](#bucket)
+  * [Concepts](#concepts)
+    + [Service account](#service-account)
+    + [Authentication on GCP](#authentication-on-gcp)
+    + [SAML](#saml)
+    + [Logging](#logging)
+    + [Monitoring](#monitoring)
+    + [Cloud Trace](#cloud-trace)
+    + [Pub/Sub](#pub%2Fsub-1)
+    + [Cloud Storage (Bucket)](#cloud-storage-bucket)
+    + [VPC](#vpc)
+    + [Cloud NAT](#cloud-nat)
+    + [Security Command Center (SCC)](#security-command-center-scc)
+    + [Duet AI](#duet-ai)
+    + [Vertex AI](#vertex-ai)
+    + [Certificate Authority Service](#certificate-authority-service)
+    + [Compliance](#compliance)
+    + [Cloud Run](#cloud-run)
+    + [Cloud SQL](#cloud-sql-1)
+    + [Looker](#looker)
+  * [APIs](#apis)
+    + [Vision API](#vision-api)
+  * [Tools](#tools)
 ____
 
 ## Links
@@ -1183,6 +1184,38 @@ storage service-agent`
 It is a GitHub Copilot Chat-like product where it help suggesting how BigQuery
 can be used, suggesting and explaining BigQuery queries, explaining select
 BigQuery tables.
+
+### Vertex AI
+
+- it can be used to do traditional ML
+- tools can be used (non-exhausive)
+  * JAX
+    + a high-performance numerical computing library especially favored for ML
+  * Karas
+    + a high-level neural networks API written in Python where it can be used
+      for buildinbg and training deep leaning models
+  * PyTorch
+    + a popular open-source deep learning framework
+    + native support in Vertex AI
+- models
+  * Chirp3 
+    + text-to-speech and speech-to-text
+  * Gemini 
+    + one of the group of models
+- Live API
+  * can take input from camera of a connected device
+- grounding
+  * Google Search
+  * custom documents (where it can be uploads of PDF files)
+  * Google Maps
+- ease of deployment to Cloud Run
+- Agent Engine can incorporate LangChain and friends
+- ADK 
+  * it can be used with VS Code and the testing interface is just a browser
+  * the API is very similar to Ollama
+  * it provides an interface similar to LangSmith
+- using query window in SQL Studio, queries can include integration with
+  generative AI to refine keyword search (as an example)
 
 ### Certificate Authority Service
 
