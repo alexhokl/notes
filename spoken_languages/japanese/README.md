@@ -339,6 +339,7 @@ ____
 - ハドック - haddock
 - マス - trout
 - アンチョビ - anchovy
+- 伊佐木 (いさき) - chicken grunt
 
 ### Shellfish
 
@@ -871,6 +872,7 @@ ____
 - 毎朝 (まいあさ) - every morning
 - 毎晩 (まいばん) - every night
 - 昨夜 (ゆうべ) - last night
+- 翌朝 (よくあさ) - next morning
 - そちらは何時から何時までですか？ What is the opening hours?
 
 ### Approximate time
@@ -1046,6 +1048,7 @@ ____
 - 山羊 (やぎ) - goat
 - 毛繕い (けづくろい) - grooming
 - 雀 (すずめ) - tree sparrow
+- 鯨 (くじら) - whale
 
 ## Electronics
 

@@ -218,6 +218,8 @@ ____
 - 医者 (いしゃ) - doctor; physician
 - 伯母さん (おばさん) - aunt
 - 薬 (くすり) - medicine
+- 花瓶 (かびん) - vase
+- 荷物 (にもつ) - luggage; baggage; package; payload
 
 ### nouns (family)
 
@@ -474,7 +476,7 @@ ____
 - 暑い (あつい) - hot
 - 寒い (さむい) - cold
 - 甘い (あまい) - sweet
-- 早い (はやい) - early / fast / quick
+- 早い (はやい) - early / fast / quick (also 速い)
 - 遅い (おそい) - late / slow
 - 楽しい (たのしい) - fun; happy
 - 忙しい (いそがしい) - busy
@@ -598,6 +600,8 @@ ____
 - 飛ぶ (とぶ) - to fly
 - 渡る (わたる) - to cross over; to go across; to extend
 - 着く (つく) - to arrive at; to reach; to sit on
+- 作文 (さくぶん) - writing; composition; formal writing with little real
+  meaning
 
 ### verbs (transitive and intransitive)
 
@@ -672,6 +676,8 @@ ____
 - 看護師 (かんごし) - nurse
 - 警察 (けいさつ) - police
 - 人形 (にんぎょう) - doll
+- 売り場 (うりば) - selling area; sales counter; department (in a store); sales
+  floor
 
 ### nouns (position)
 
@@ -760,6 +766,8 @@ ____
   road; to take (a route); to go via
 - 上がる (あがる) - to rise; to go up; to come up; to ascend; to climb; to stop
   (of rain); to clear up (of weather)
+- 踊る (おどる) - to dance; to be manipulated
+- 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 
 ### verbs (transitive)
 
@@ -938,6 +946,8 @@ ____
 - クリーニング - cleaning; laundry service
 - ブラウス - blouse
 - 火山 (かざん) - volcano
+- センチ - centimeter
+- 虹 (にじ) - rainbow
 
 ### adjectives (い)
 
@@ -1016,4 +1026,6 @@ ____
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
+- 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
+  lower status)
 
