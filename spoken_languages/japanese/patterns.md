@@ -32,6 +32,20 @@
     + [tools or methods for an action](#tools-or-methods-for-an-action)
     + [transportation](#transportation)
     + [the position of time and people in a sentence can be casual](#the-position-of-time-and-people-in-a-sentence-can-be-casual)
+  * [Chapter 9](#chapter-9)
+    + [present continuous](#present-continuous)
+    + [past continuous](#past-continuous)
+    + [action as an habit](#action-as-an-habit)
+    + [describe a work location](#describe-a-work-location)
+    + [describe an occupation](#describe-an-occupation)
+    + [describe a work type](#describe-a-work-type)
+    + [what do you do](#what-do-you-do)
+    + [は plus が](#%E3%81%AF-plus-%E3%81%8C)
+    + [like most](#like-most)
+    + [motion verbs](#motion-verbs)
+    + [how old](#how-old)
+    + [use of の for the same rank](#use-of-%E3%81%AE-for-the-same-rank)
+    + [how long / far / much](#how-long-%2F-far-%2F-much)
 ____
 
 ## Chapter 1
@@ -628,14 +642,14 @@ ____
 
 ### subordinate clauses
 
-- subject + は + subordinate subject + が + subordinate verb + 、 + verb。
+- subject + は + subordinate subject + が + subordinate verb + 前に、 + verb。
   * examples
     + 私は雨が止んでから、新宿へ行きます。
     + 店員はお客さん帰ってから、店の掃除をしました。
     + 陳さんは昨日授業が終わってから、アルバイトに行きました。
     + 私はチャイムが鳴る前に、教室に入りました。
     + 父は毎朝私が起きる前に、うちを出ます。
-- subordinate subject + が + subordinate verb + 、 + subject + は + verb。
+- subordinate subject + が + subordinate verb + 前に、 + subject + は + verb。
   * examples
     + 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
     + 雨は降る前に、私は買い物に行きました。
@@ -670,3 +684,93 @@ ____
   * 昨日私は新宿で陳さんと映画を見ました。
   * 私は明日陳さんとバスで新宿へ行きます。
   * 明日私はバスで陳さんと新宿へ行きます。
+
+## Chapter 9
+
+### present continuous
+
+- verb in te-form + います
+  * 私は今ご飯を食べています。
+  * 私は今、勉強しています。
+
+### past continuous
+
+- verb in te-form + いました
+  * 朝から雨が降っていました。
+
+### action as an habit
+
+- verb in te-form + います
+  * 私は毎朝コーヒーを飲んでいます。
+  * 私は毎晩お風呂に入っています。
+
+### describe a work location
+
+- location + に + 勤めています。
+  * 私の母は看護師です。今、大坂の病院に勤めています。
+
+### describe an occupation
+
+- occupation + を + しています。
+  * 小林さんは公務員をしています。
+  * 海子さんのお父さんは寿司屋をしています。
+  * 数学の先生をしています。
+
+### describe a work type
+
+- ... + verb in te-form + います。
+  * 私の母は看護師です。今、大坂の病院で働いています。
+  * 海子さんのお父さんは寿司屋を経営しています。
+  * 中学校で数学を教えています。
+
+### what do you do
+
+- あなたは何をしていますか。
+
+### は plus が
+
+- ... + は + ... + が + ...
+  * 象は鼻が長いです。
+  * うさぎは耳が長いです。
+  * 猿はしっぼが長いです。
+  * 私の先生は頭がいいです。
+  * 日本語は助詞が難しいです。
+
+### like most
+
+- あなたは果物の中で何が一番好きですか。
+  * りんごが一番好きです。
+
+### motion verbs
+
+- location + を + motion verb
+  * 鳥は空を飛びます。
+  * 鳥が空を飛んでいます。
+  * 魚は水の中を泳ぎます。
+  * 人は道を歩きます。
+- but the following example is not applicable since 泳ぐ is not a motion
+  behaviour
+  * 小林さんがプールで泳いでいます。
+
+### how old
+
+- 何歳ですか。
+- いくつですか。
+  * 弟さんはいくつですか。
+  * お姉さんはおいくつですか。
+
+### use of の for the same rank
+
+- examples
+  * この人は僕の友達です。この人は山田君です。友達の山田は今大学二年です。
+  * 私のクラスには李さんが二人います。香港人の李さんは二十歳です。台湾人の李さんは二十五歳です。
+  * お姉さんの海子さんは元気ですか。
+  * 公務員の小林さんは毎日電話を受けています。
+  * 九歳の友子さんは虫が大好きです。
+
+### how long / far / much
+
+- どのくらい
+  * どのくらい日本語を勉強していますか。
+  * 入門のクラスはどのくらい続きますか。
+  * どのくらい東京にいますか。

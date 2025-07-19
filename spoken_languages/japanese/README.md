@@ -981,6 +981,8 @@ ____
 ## Sports
 
 - 野球 (やきゅう) - baseball
+- バレーボール - volleyball
+- バスケットボール - basketball
 
 ## Football
 
@@ -1194,6 +1196,7 @@ ____
 - アレルギー - allergy
 - お襁褓 (おむつ) - diaper
 - ウイルス - virus
+- 体調 (たいちょう) - physical condition; state of health
 
 ## Finance
 

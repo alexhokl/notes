@@ -61,6 +61,7 @@
   * [N1](#n1)
     + [Particles](#particles)
     + [nouns](#nouns-4)
+    + [adjectives (い)](#adjectives-%E3%81%84-4)
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
     + [adverbs](#adverbs-4)
     + [verbs (intransitive)](#verbs-intransitive-4)
@@ -144,6 +145,7 @@ ____
 - 窓 (まど) - window
 - テレビ - television
 - 冷蔵庫 (れいぞうこ) - refrigerator
+- 冷凍庫 (れいとうこ) - freezer
 - コップ - cup
 - 傘 (かさ) - umbrella
 - 鞄 (かばん) - bag
@@ -174,7 +176,7 @@ ____
 - 天気 (てんき) - weather
 - 雨 (あめ) - rain
 - 海 (うみ) - sea
-- 声 (こえ) - voice
+- 声 (こえ) - voice; sound
 - 音 (おと) - sound; noise
 - 次 (つぎ) - next
 - 言葉 (ことば) - word; language
@@ -201,6 +203,21 @@ ____
   last
 - セーター - sweater; jumper
 - クラス - class
+- フォーク - fork
+- スプーン - spoon
+- 空 (そら) - sky; the air
+- 散歩 (さんぽ) - walk; stroll
+- 橋 (はし) - bridge
+- 歌 (うた) - song; singing; classical Japanese poem
+- 高校 (こうこう) - high school
+- 小学 (しょうがく) - elementary school
+- 中学 (ちゅうがく) - junior high school
+- 大学 (だいがく) - university; college
+- 昼 (ひる) - noon / midday
+- ギター - guitar
+- 医者 (いしゃ) - doctor; physician
+- 伯母さん (おばさん) - aunt
+- 薬 (くすり) - medicine
 
 ### nouns (family)
 
@@ -292,9 +309,27 @@ ____
 - 卵 (たまご) - egg
 - ご飯 (ごはん) - meal / cooked rice
 - パン - bread
-- 野菜 (やさい) - vegetable
-- 果物 (くだもの) - fruit
+- 蜂蜜 (はちみつ) - honey
 - 水 (みず) - water
+- 野菜 (やさい) - vegetable
+- ほうれん草 (ほうれんそう) - spinach
+- 人参 (にんじん) - carrot
+- 玉ねぎ (たまねぎ) - onion
+- 葱 (ねぎ) - green onion / spring onion
+- 茄子 (なす) - eggplant
+- じゃが芋 (じゃがいも) - potato
+- ピーマン - bell pepper
+- 果物 (くだもの) - fruit
+- バナナ - banana
+- パイナップル - pineapple
+- 苺 (いちご) - strawberry
+- 葡萄 (ぶどう) - grape
+- 蜜柑 (みかん) - mandarin orange
+- 西瓜 (すいか) - watermelon
+- 林檎 (りんご) - apple
+- メロン - melon
+- レモン - lemon
+- 桃 (もも) - peach
 
 ### nouns (transportation)
 
@@ -305,6 +340,7 @@ ____
 - 電車 (でんしゃ) - train
 - 車 (くるま) - car
 - 自転車 (じてんしゃ) - bicycle
+- 飛行機 (ひこうき) - airplane
 
 ### nouns (animals)
 
@@ -318,6 +354,10 @@ ____
 
 - 口 (くち) - mouth
 - 歯 (は) - tooth
+- 耳 (みみ) - ear
+- 鼻 (はな) - nose
+- 頭 (あたま) - head
+- 顔 (かお) - face
 
 ### nouns (position)
 
@@ -340,6 +380,7 @@ ____
 - 西 (にし) - west
 - 北 (きた) - north
 - 角 (かど) - corner
+- 向こう (むこう) - over there; opposite side; the other side
 
 ### nouns (sports)
 
@@ -440,6 +481,7 @@ ____
 - 暖かい (あたたかい) - warm
 - 辛い (つらい) - spicy
 - 明るい (あかるい) - bright
+- 痛い (いたい) - painful; sore
 
 ### adjectives (な)
 
@@ -455,6 +497,7 @@ ____
 - 嫌い (きらい) - dislike
 - 大好き (だいすき) - liking very much / love
 - 大変 (たいへん) - difficult; hard; challenging; immense; great
+- 上手 (じょうず) - skillful; good (at)
 
 ### adverbs
 
@@ -483,6 +526,7 @@ ____
 - では - then
 - 其れから (それから) - and then
 - 而して (そして) - thus
+- 次に (つぎに) - next; then; after that
 
 ### verbs (transitive)
 
@@ -509,6 +553,10 @@ ____
 - 描く (えがく) - to draw; to paint
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
 - 消す (けす) - to erase; to turn off; to extinguish
+- 勤める (つとめる) - to work for; to be employed at; to serve in
+- 吸う (すう) - to inhale; to breathe in; to suck; to smoke
+- 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
+- 頼む (たのむ) - to entrust to
 
 ### verbs (intransitive)
 
@@ -520,7 +568,7 @@ ____
 - 始まる (はじまる) - to start
 - 終わる (おわる) - to end
 - 出る (でる) - to leave / to appear / to attend
-- 降りる (おりる) - to get off
+- 降りる (おりる) - to get off (also 下りる); to descend; to go down
 - 入る (はいる) - to enter
 - 乗る (のる) - to get on
 - 掛かる (かかる) - to take (time, money); to hang
@@ -545,10 +593,16 @@ ____
 - 歩く (あるく) - to walk
 - 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
   wind; to twist
+- 働く (はたらく) - to work; to labour
+- 上る (のぼる) - to ascend; to go up; to climb; to rise
+- 飛ぶ (とぶ) - to fly
+- 渡る (わたる) - to cross over; to go across; to extend
+- 着く (つく) - to arrive at; to reach; to sit on
 
 ### verbs (transitive and intransitive)
 
 - 待つ (まつ) - to wait
+- 歌う (うたう) - to sing
 
 ### verbs (direction intransitive)
 
@@ -608,6 +662,16 @@ ____
 - 交通 (こうつう) - traffic; transportation
 - 社長 (しゃちょう) - company president; manager; director
 - 店員 (てんいん) - shop assistant
+- 指輪 (ゆびわ) - ring
+- 手袋 (てぶくろ) - gloves
+- 船 (ふね) - ship; boat
+- 湖 (みずうみ) - lake
+- 美術館 (びじゅつかん) - art museum; art gallery
+- 公務員 (こうむいん) - civil servant
+- 品物 (しなもの) - goods; article; thing; item
+- 看護師 (かんごし) - nurse
+- 警察 (けいさつ) - police
+- 人形 (にんぎょう) - doll
 
 ### nouns (position)
 
@@ -662,7 +726,7 @@ ____
 ### conjunctions
 
 - けど - but / however (usually at the end of the sentence in a phone call, and
-  expect a response)
+  expect a response); also as けれど, けれども
 - 其れで (それで) - therefore; then
 - だから - therefore
 - 又は (または) - or; either
@@ -692,6 +756,10 @@ ____
 - 治る (なおる) - to get better; to get well; to recover (from an illness); to
   be cured; to be restored; to heal
 - 止む (やむ) - to cease; to stop; to be over
+- 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
+  road; to take (a route); to go via
+- 上がる (あがる) - to rise; to go up; to come up; to ascend; to climb; to stop
+  (of rain); to clear up (of weather)
 
 ### verbs (transitive)
 
@@ -706,6 +774,7 @@ ____
 - 迎える (むかえる) - to welcome; to greet
 - 送る (おくる) - to send; to escort; to say goodbye to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
+- 送る (おくる) - to send; to dispatch
 
 ### verbs (transitive and intransitive)
 
@@ -733,7 +802,6 @@ ____
 - 心配 (しんぱい) - worry / concern / anxiety
 - 世話 (せわ) - care / looking after / help / support
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
-- お昼 (おひる) - lunch / noon / midday
 - 酒 (さけ) - alcohol
 - ワイン - wine
 - お皿 (おさら) - plate
@@ -770,6 +838,12 @@ ____
 - 通り (とおり) - street; road; avenue
 - クリスマス - Christmas
 - 相手 (あいて) - companion; partner; opponent
+- 黒板 (こくばん) - blackboard
+- 道路 (どうろ) - road; highway
+- 鼠 (ねずみ) - rat; mouse
+- 観光 (かんこう) - sightseeing
+- 煙 (けむり) - smoke
+- 礼 (れい) - thanks; gratitude; bow
 
 ### nouns (animals)
 
@@ -807,6 +881,7 @@ ____
 - まあ - well / I mean
 - 全然 (ぜんぜん) - totally
 - そろそろ - soon
+- 勿論 (もちろん) - of course; certainly; naturally
 
 ### conjunctions
 
@@ -862,6 +937,7 @@ ____
 - 役所 (やくしょ) - government office
 - クリーニング - cleaning; laundry service
 - ブラウス - blouse
+- 火山 (かざん) - volcano
 
 ### adjectives (い)
 
@@ -917,6 +993,14 @@ ____
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - ルール - rule
 - メーカー - manufacturer; maker
+
+### noun suffixes
+
+- 過ぎ (すぎ) - past; after; over-;
+
+### adjectives (い)
+
+- 相応しい (ふさわしい) - ideal; perfect
 
 ### adjectives (な)
 
