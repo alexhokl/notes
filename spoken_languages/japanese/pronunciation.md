@@ -269,11 +269,20 @@ d (t)   | z (s)
 
 ## 何
 
-- 何で (なんで)
-- 何か (なんか)
-- 何の (なんの)
-- 何と (なんと)
-- 何 (as quantifier) + counter
-  * 何人 (なんにん)
-  * 何個 (なんこ)
-- otherwise 何 + particle (なに)
+- readinngs
+  * なん
+    + followed by sounds starting with `d`, `t`, or `n`
+      + 何ですか。
+      + 何で。
+      + 何と...
+      + 何の...
+    + asking how many with counters
+      + 何歳
+      + 何人
+      + 何時
+    + set expressions
+      + これは何だ。
+      + 何だろう
+      + 何か...
+  * なに
+    + otherwise
