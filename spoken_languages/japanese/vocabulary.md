@@ -966,6 +966,7 @@ ____
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
+- 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 
 ### verbs (transitive)
 
