@@ -310,6 +310,7 @@ ____
   referring to chicken
 - 大蒜 (にんにく) - garlic
 - 豆腐 (とうふ) - tofu
+- 天ぷら (てんぷら) - tempura (battered and deep-fried food)
 
 ### Fish
 
@@ -985,6 +986,7 @@ ____
 - 野球 (やきゅう) - baseball
 - バレーボール - volleyball
 - バスケットボール - basketball
+- ゴルフ - golf
 
 ## Football
 
@@ -1049,6 +1051,7 @@ ____
 - 毛繕い (けづくろい) - grooming
 - 雀 (すずめ) - tree sparrow
 - 鯨 (くじら) - whale
+- 麒麟 (きりん) - giraffe
 
 ## Electronics
 
@@ -1190,6 +1193,7 @@ ____
 
 ## Health
 
+- 薬屋 (くすりや) - pharmacy
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
 - クリニック - clinic

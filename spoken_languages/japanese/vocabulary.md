@@ -81,9 +81,9 @@ ____
 - 男の子 (おとこのこ) - boy
 - 女の子 (おんなのこ) - girl
 - 人 (ひと) - person
-- 皆 (みな) - everyone / everything
+- 皆 (みな) - everyone; everything
 - 皆さん (みなさん) - everyone (honorific)
-- 主人 (しゅじん) - husband / head of household / landlord / employer /
+- 主人 (しゅじん) - husband; head of household; landlord; employer;
   restaurant owner
 - 名前 (なまえ) - first name
 - 学校 (がっこう) - school
@@ -213,7 +213,7 @@ ____
 - 小学 (しょうがく) - elementary school
 - 中学 (ちゅうがく) - junior high school
 - 大学 (だいがく) - university; college
-- 昼 (ひる) - noon / midday
+- 昼 (ひる) - noon; midday
 - ギター - guitar
 - 医者 (いしゃ) - doctor; physician
 - 伯母さん (おばさん) - aunt
@@ -223,31 +223,6 @@ ____
 
 ### nouns (family)
 
-- 両親 (りょうしん) - parents
-- 父 (ちち) - father (of mine)
-- お父さん (おとうさん) - father (of someone)
-- 母 (はは) - mother (of mine)
-- お母さん (おかあさん) - mother (of someone)
-- 兄弟 (きょうだい) - siblings
-- 兄 (あに) - older brother (of mine)
-- お兄さん (おにいさん) - older brother (of someone)
-- 姉 (あね) - older sister (of mine)
-- お姉さん (おねえさん) - older sister (of someone)
-- 弟 (おとうと) - younger brother (of mine)
-- 弟さん (おとうとさん) - younger brother (of someone)
-- 妹 (いもうと) - younger sister (of mine)
-- 妹さん (いもうとさん) - younger sister
-- 夫婦 (ふうふ) - married couple
-- 夫 (おっと) / 主人 (しゅじん) - husband
-- さん / ご主人 (ごしゅじん) - husband (of someone)
-- 妻 (つま) - wife
-- 奥さん (おくさん) - wife (of someone)
-- 子供 (こども) - children
-- お子さん (おこさん) - child (of someone)
-- 息子 (むすこ) - son (of mine)
-- 息子さん (むすこさん) - son (of someone)
-- 娘 (むすめ) - daughter (of mine)
-- お娘さん (おむすめさん) - daughter (of someone)
 - お祖母さん (おばあさん) - grandmother
 
 ### nouns (time)
@@ -303,13 +278,13 @@ ____
 
 ### nouns (food)
 
-- 焼き (やき) - grilled / fried
+- 焼き (やき) - grilled; fried
 - 牛タン (ぎゅうタン) - beef tongue
 - 牛乳 (ぎゅうにゅう) - milk
 - 鶏 (にわとり) - chicken
 - 軟骨 (なんこつ) - cartilage
 - 卵 (たまご) - egg
-- ご飯 (ごはん) - meal / cooked rice
+- ご飯 (ごはん) - meal; cooked rice
 - パン - bread
 - 蜂蜜 (はちみつ) - honey
 - 水 (みず) - water
@@ -317,7 +292,7 @@ ____
 - ほうれん草 (ほうれんそう) - spinach
 - 人参 (にんじん) - carrot
 - 玉ねぎ (たまねぎ) - onion
-- 葱 (ねぎ) - green onion / spring onion
+- 葱 (ねぎ) - green onion; spring onion
 - 茄子 (なす) - eggplant
 - じゃが芋 (じゃがいも) - potato
 - ピーマン - bell pepper
@@ -335,7 +310,7 @@ ____
 
 ### nouns (transportation)
 
-- 地下鉄 (ちかてつ) - subway / metro / underground
+- 地下鉄 (ちかてつ) - subway; metro; underground
 - バス - bus
 - バス停 (バスてい) - bus stop
 - 駅 (えき) - train station
@@ -354,12 +329,16 @@ ____
 
 ### nouns (body parts)
 
+- 体 (からだ) - body
 - 口 (くち) - mouth
 - 歯 (は) - tooth
 - 耳 (みみ) - ear
 - 鼻 (はな) - nose
 - 頭 (あたま) - head
 - 顔 (かお) - face
+- 足 (あし) - foot; leg
+- 手 (て) - hand; arm
+- 目 (め) - eye
 
 ### nouns (position)
 
@@ -375,7 +354,7 @@ ____
 - 後ろ (うしろ) - behind
 - 外 (そと) - outside
 - 内 (うち) - inside
-- 近く (ちかく) - near / recently / soon
+- 近く (ちかく) - near; recently; soon
 - 遠く (とおく) - far
 - 東 (ひがし) - east
 - 南 (みなみ) - south
@@ -408,7 +387,7 @@ ____
 - こんな - this kind of
 - そんな - that kind of
 - あんな - that kind of (over there)
-- どんな - what kind of / any
+- どんな - what kind of; any
 
 ### pronouns (place)
 
@@ -431,9 +410,9 @@ ____
 
 - 誰 (だれ) - who
 - 何方 (どなた) - who (honorific)
-- 私 (わたし) - I / me (slight femininity)
+- 私 (わたし) - I; me (slight femininity)
 - 貴方 (あなた) - you
-- 自分 (じぶん) - myself / oneself
+- 自分 (じぶん) - myself; oneself
 
 ### adjectives (い)
 
@@ -472,12 +451,12 @@ ____
 - いい - good (casual)
 - 悪い (わるい) - bad; at fault
 - 弱い (よわい) - weak
-- 丸い (まるい) - round / circular
+- 丸い (まるい) - round; circular
 - 暑い (あつい) - hot
 - 寒い (さむい) - cold
 - 甘い (あまい) - sweet
-- 早い (はやい) - early / fast / quick (also 速い)
-- 遅い (おそい) - late / slow
+- 早い (はやい) - early; fast; quick (also 速い)
+- 遅い (おそい) - late; slow
 - 楽しい (たのしい) - fun; happy
 - 忙しい (いそがしい) - busy
 - 暖かい (あたたかい) - warm
@@ -489,7 +468,7 @@ ____
 
 - 賑やか (にぎやか) - lively
 - 静か (しずか) - quiet
-- 綺麗 (きれい) - beautiful / clean
+- 綺麗 (きれい) - beautiful; clean
 - 有名 (ゆうめい) - famous
 - 大切 (たいせつ) - important
 - 便利 (べんり) - convenient
@@ -497,9 +476,10 @@ ____
 - 丈夫 (じょうぶ) - strong
 - 好き (すき) - like
 - 嫌い (きらい) - dislike
-- 大好き (だいすき) - liking very much / love
+- 大好き (だいすき) - liking very much; love
 - 大変 (たいへん) - difficult; hard; challenging; immense; great
 - 上手 (じょうず) - skillful; good (at)
+- 下手 (へた) - unskillful; poor (at)
 
 ### adverbs
 
@@ -507,16 +487,16 @@ ____
 - ちょっと - a little
 - 迚も (とても) - very
 - 何時も (いつも) - always
-- たくさん - a lot / too many (on countables)
+- たくさん - a lot; too many (on countables)
 - 大勢 (おおぜい) - many (people)
 - なぜ - why
-- また - also / again
-- 未だ (まだ) - still / yet / only
-- 多分 (たぶん) - maybe / probably
-- 余り (あまり) - not very / not much
+- また - also; again
+- 未だ (まだ) - still; yet; only
+- 多分 (たぶん) - maybe; probably
+- 余り (あまり) - not very; not much
 - 些とも (ちっとも) - not at all
 - 幾つ (いくつ) - how many
-- 時々 (ときどき) - sometimes / occasionally
+- 時々 (ときどき) - sometimes; occasionally
 - 良く (よく) - nicely; often
 - 大変 (たいへん) - very; greatly; terribly
 - 早く (はやく) - quickly; early; also as 速く
@@ -537,7 +517,7 @@ ____
 - 教える (おしえる) - to teach
 - 食べる (たべる) - to eat
 - 飲む (のむ) - to drink
-- 見る (みる) - to watch/see
+- 見る (みる) - to watch; to see
 - 聞く (きく) - to listen; to ask (also 聴く (きく))
 - 読む (よむ) - to read
 - 洗う (あらう) - to wash
@@ -559,6 +539,7 @@ ____
 - 吸う (すう) - to inhale; to breathe in; to suck; to smoke
 - 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
 - 頼む (たのむ) - to entrust to
+- 渡す (わたす) - to ferry across; to hand over; to pass; to transfer
 
 ### verbs (intransitive)
 
@@ -569,7 +550,7 @@ ____
 - 寝る (ねる) - to sleep
 - 始まる (はじまる) - to start
 - 終わる (おわる) - to end
-- 出る (でる) - to leave / to appear / to attend
+- 出る (でる) - to leave; to appear; to attend
 - 降りる (おりる) - to get off (also 下りる); to descend; to go down
 - 入る (はいる) - to enter
 - 乗る (のる) - to get on
@@ -636,7 +617,7 @@ ____
 - エスカレーター - escalator
 - 漫画 (まんが) - manga
 - 寺 (てら) - temple
-- 値段 (ねだん) - price / cost
+- 値段 (ねだん) - price; cost
 - うち - home
 - 先輩 (せんぱい) - senior
 - 市 (し) - city
@@ -675,9 +656,12 @@ ____
 - 品物 (しなもの) - goods; article; thing; item
 - 看護師 (かんごし) - nurse
 - 警察 (けいさつ) - police
+- 警察官 (けいさつかん) - police officer
 - 人形 (にんぎょう) - doll
 - 売り場 (うりば) - selling area; sales counter; department (in a store); sales
   floor
+- 空気 (くうき) - air; atmosphere; mood
+- 新聞社 (しんぶんしゃ) - newspaper company
 
 ### nouns (position)
 
@@ -686,6 +670,7 @@ ____
 ### する verbs
 
 - チェック - check; inspection; marking with a check
+- 交通 (こうつう) - traffic; transportation
 
 ### adjectives (い)
 
@@ -710,9 +695,9 @@ ____
 
 ### pronouns (person)
 
-- 君 (きみ) - you (friendly / musculine / poetic)
-- 彼 (かれ) - he / boyfriend
-- 彼女 (かのじょ) - she / girlfriend
+- 君 (きみ) - you (friendly; musculine; poetic)
+- 彼 (かれ) - he; boyfriend
+- 彼女 (かのじょ) - she; girlfriend
 
 ### pronouns (things)
 
@@ -731,9 +716,10 @@ ____
 
 ### conjunctions
 
-- けど - but / however (usually at the end of the sentence in a phone call, and
+- けど - but; however (usually at the end of the sentence in a phone call, and
   expect a response); also as けれど, けれども
 - 其れで (それで) - therefore; then
+- 其れに (それに) - moreover; besides; in addition
 - だから - therefore
 - 又は (または) - or; either
 
@@ -768,12 +754,13 @@ ____
   (of rain); to clear up (of weather)
 - 踊る (おどる) - to dance; to be manipulated
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
+- 笑う (わらう) - to laugh; to smile
 
 ### verbs (transitive)
 
-- 思う (おもう) - to consider / to plan (on a general topic)
+- 思う (おもう) - to consider; to plan (on a general topic)
 - 考える (かんがえる) - to think (on a specific topic)
-- 受ける (うける) - to receive / to take (an exam)
+- 受ける (うける) - to receive; to take (an exam)
 - 変える (かえる) - to change
 - 止める (とめる) - to stop; to cancel
 - 落とす (おとす) - to drop; to lose; to leave behind
@@ -807,8 +794,8 @@ ____
 - スタンド - stand
 - 城 (しろ) - castle
 - ソファー - sofa
-- 心配 (しんぱい) - worry / concern / anxiety
-- 世話 (せわ) - care / looking after / help / support
+- 心配 (しんぱい) - worry; concern; anxiety
+- 世話 (せわ) - care; looking after; help; support
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 - 酒 (さけ) - alcohol
 - ワイン - wine
@@ -816,10 +803,10 @@ ____
 - 頃 (ころ) - (approximate) time
 - ドラマ - drama
 - クラシック - classical music
-- 生 (なま) - raw / uncooked
-- 世話 (せわ) - care / looking after / help / support
+- 生 (なま) - raw; uncooked
+- 世話 (せわ) - care; looking after; help; support
 - 支払い (しはらい) - payment
-- 暮らし (くらし) - life / living
+- 暮らし (くらし) - life; living
 - ケース - case
 - 結果 (けっか) - result
 - 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
@@ -852,6 +839,8 @@ ____
 - 観光 (かんこう) - sightseeing
 - 煙 (けむり) - smoke
 - 礼 (れい) - thanks; gratitude; bow
+- 建築 (けんちく) - architecture; construction
+- 背 (せい) - height; stature
 
 ### nouns (animals)
 
@@ -864,6 +853,7 @@ ____
 - 留学 (りゅうがく) - studying abroad
 - サービス - service; assistance; help
 - 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
+- 経営 (けいえい) - running (a business)
 
 ### adjectives (い)
 
@@ -879,14 +869,14 @@ ____
 
 ### pronouns (person)
 
-- お前 (おまえ) - you (musculine / vulgar)
+- お前 (おまえ) - you (musculine; vulgar)
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
 
 ### adverbs
 
-- つまり - that is to say / in other words
-- まあ - well / I mean
+- つまり - that is to say; in other words
+- まあ - well; I mean
 - 全然 (ぜんぜん) - totally
 - そろそろ - soon
 - 勿論 (もちろん) - of course; certainly; naturally
@@ -900,8 +890,8 @@ ____
 
 ### verbs (intransitive)
 
-- 怪我 (けが) - injury / mistake
-- 運転 (うんてん) - driving / operating
+- 怪我 (けが) - injury; mistake
+- 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
 - 届く (とどく) - to reach; to be delivered
 - 出発 (しゅっぱつ) - departure
@@ -909,7 +899,7 @@ ____
 
 ### verbs (transitive)
 
-- 心配 (しんぱい) - care / help
+- 心配 (しんぱい) - care; help
 - 頂く (いただく) - to receive; to take (humble)
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 辞める (やめる) - to resign; to retire; to quit; to leave
@@ -948,10 +938,13 @@ ____
 - 火山 (かざん) - volcano
 - センチ - centimeter
 - 虹 (にじ) - rainbow
+- 刺身 (さしみ) - sashimi
+- 役所 (やくしょ) - government office
+- 理科 (りか) - science
 
 ### adjectives (い)
 
-- 勿体ない (もったいない) - wasteful / too good / more than one deserves
+- 勿体ない (もったいない) - wasteful; too good; more than one deserves
 
 ### adjectives (な)
 
@@ -959,7 +952,7 @@ ____
 
 ### adverbs
 
-- 愈々 (いよいよ) - more and more / all the more
+- 愈々 (いよいよ) - more and more; all the more
 
 ### verbs (intransitive)
 
@@ -991,8 +984,8 @@ ____
 
 - 階 (かい) - floor
 - インフォメーション - information
-- 区 (く) - ward / district
-- ぐらい - about / approximately
+- 区 (く) - ward; district
+- ぐらい - about; approximately
 - 製 (せい) - -made; -manufactured
 - 課題 (かだい) - subject; theme; task; homework
 - 手数 (てすう) - trouble; bother
@@ -1015,11 +1008,11 @@ ____
 
 ### adjectives (な)
 
-- 的 (てき) - -ish / -wise / -like
+- 的 (てき) - -ish; -wise; -like
 
 ### adverbs
 
-- 直ぐ (すぐ) - immediately / soon / easily
+- 直ぐ (すぐ) - immediately; soon; easily
 
 ### verbs (intransitive)
 
