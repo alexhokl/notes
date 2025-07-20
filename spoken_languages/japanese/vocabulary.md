@@ -161,7 +161,7 @@ ____
 - 靴下 (くつした) - socks
 - シャツ - shirt
 - ハンカチ - handkerchief
-- ネクタイ - necktie
+- ネクタイ - necktie; tie
 - お古 (おふる) - second-hand; old clothes
 - 時計 (とけい) - clock; watch
 - ラジオ - radio
@@ -223,6 +223,7 @@ ____
 - 薬 (くすり) - medicine
 - 花瓶 (かびん) - vase
 - 荷物 (にもつ) - luggage; baggage; package; payload
+- 所 (ところ) - place; site
 
 ### nouns (family)
 
@@ -388,6 +389,7 @@ ____
 ### する verbs
 
 - 掃除 (そうじ) - cleaning; sweeping
+- 洗濯 (せんたく) - laundry; washing
 
 ### 連体詞
 
@@ -547,6 +549,8 @@ ____
 - 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
 - 頼む (たのむ) - to entrust to
 - 渡す (わたす) - to ferry across; to hand over; to pass; to transfer
+- 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
+  call); to spend (time, money)
 
 ### verbs (intransitive)
 
