@@ -385,6 +385,7 @@ ____
 - 苺 (いちご) - strawberry
 - 林檎 (りんご) - apple
 - 蜜柑 (みかん) - mandarin orange
+- 西瓜 (すいか) - watermelon
 
 ### Meat
 
@@ -1184,6 +1185,7 @@ ____
 - シフト - shift or move (from one trend to another)
 - ハードウェア - hardware
 - クラウド - cloud
+- 電子工学 (でんしこうがく) - electronics
 
 ### Math
 

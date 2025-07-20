@@ -93,8 +93,6 @@ ____
 - 学校 (がっこう) - school
 - 大学 (だいがく) - university
 - 教室 (きょうしつ) - classroom
-- 勉強 (べんきょう) - study
-- 授業 (じゅぎょう) - lesson; class
 - 試験 (しけん) - exam
 - 先生 (せんせい) - teacher; master
 - 物 (もの) - thing
@@ -185,7 +183,6 @@ ____
 - 次 (つぎ) - next
 - 言葉 (ことば) - word; language
 - 意味 (いみ) - meaning
-- 結婚 (けっこん) - marriage
 - 色 (いろ) - color
 - 階段 (かいだん) - stairs
 - 新聞 (しんぶん) - newspaper
@@ -322,6 +319,7 @@ ____
 - 車 (くるま) - car
 - 自転車 (じてんしゃ) - bicycle
 - 飛行機 (ひこうき) - airplane
+- タクシー - taxi
 
 ### nouns (animals)
 
@@ -390,6 +388,7 @@ ____
 
 - 掃除 (そうじ) - cleaning; sweeping
 - 洗濯 (せんたく) - laundry; washing
+- 結婚 (けっこん) - marriage
 
 ### 連体詞
 
@@ -515,6 +514,7 @@ ____
 - 然し (しかし) - however; but
 - でも - but
 - では - then
+- じゃあ - then
 - 其れから (それから) - and then
 - 而して (そして) - thus
 - 次に (つぎに) - next; then; after that
@@ -534,12 +534,13 @@ ____
 - 磨く (みがく) - to brush
 - 買う (かう) - to buy
 - 話す (はなす) - to talk; to speak (a language)
-- 書く (かく) - to write
+- 書く (かく) - to write; to draw
 - 上げる (あげる) - to raise; to give; to fly; to launch
 - 借りる (かりる) - to borrow
 - 言う (いう) - to say
 - 知る (しる) - to know; to be aware of; to find out; to discover
-- 出す (だす) - to take out; to put out; to submit; to publish
+- 出す (だす) - to take out; to put out; to submit; to publish; to send (a
+  letter)
 - 立つ (たつ) - to stand
 - 描く (えがく) - to draw; to paint
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
@@ -594,11 +595,13 @@ ____
 - 着く (つく) - to arrive at; to reach; to sit on
 - 作文 (さくぶん) - writing; composition; formal writing with little real
   meaning
+- 授業 (じゅぎょう) - lesson; class
 
 ### verbs (transitive and intransitive)
 
 - 待つ (まつ) - to wait
 - 歌う (うたう) - to sing
+- 勉強 (べんきょう) - study
 
 ### verbs (direction intransitive)
 
@@ -654,7 +657,6 @@ ____
 - 昼休み (ひるやすみ) - lunch break
 - 間 (あいだ) - interval; space; between
 - 空港 (くうこう) - airport
-- 今度 (こんど) - next time; this time; recently
 - 交通 (こうつう) - traffic; transportation
 - 社長 (しゃちょう) - company president; manager; director
 - 店員 (てんいん) - shop assistant
@@ -673,6 +675,8 @@ ____
   floor
 - 空気 (くうき) - air; atmosphere; mood
 - 新聞社 (しんぶんしゃ) - newspaper company
+- 経済 (けいざい) - economy; economics
+- 神社 (じんじゃ) - Shinto shrine
 
 ### nouns (position)
 
@@ -719,6 +723,8 @@ ____
 
 - 些とも (ちっとも) - not at all
 - 最近 (さいきん) - recently; lately
+- この間 (このあいだ) - the other day; recently; during this period
+- 今度 (こんど) - next time; this time; recently
 - 昔 (むかし) - old times; old days
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
@@ -760,7 +766,7 @@ ____
 - 卒業 (そつぎょう) - graduation
 - 退院 (たいいん) - discharge from hospital
 - 戻る (もどる) - to return
-- 落ちる (おちる) - to fall; to disappear; to fail; to lose
+- 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
 - 変わる (かわる) - to change
 - 参る (まいる) - to go; to come; to call
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely)
@@ -769,7 +775,7 @@ ____
 - 返事 (へんじ) - reply; answer
 - 泣く (なく) - to cry (human); to weep
 - 鳴る (なる) - to sound (from a thing); to ring
-- 壊れる (こわれる) - to break; to be broken
+- 壊れる (こわれる) - to break; to be broken; to be damaged
 - 鳴る (なる) - to ring; to sound
 - 治る (なおる) - to get better; to get well; to recover (from an illness); to
   be cured; to be restored; to heal
@@ -1010,6 +1016,7 @@ ____
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - ルール - rule
 - メーカー - manufacturer; maker
+- チャイム - chime; bell
 
 ### noun suffixes
 
