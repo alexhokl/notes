@@ -10,6 +10,7 @@
     + [nouns (position)](#nouns-position)
     + [nouns (sports)](#nouns-sports)
     + [nouns (countries)](#nouns-countries)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [pronouns (place)](#pronouns-place)
     + [pronouns (time)](#pronouns-time)
@@ -26,7 +27,7 @@
   * [N4](#n4)
     + [nouns](#nouns-1)
     + [nouns (position)](#nouns-position-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
     + [adjectives (い)](#adjectives-%E3%81%84-1)
     + [adjectives (な)](#adjectives-%E3%81%AA-1)
     + [pronouns (person)](#pronouns-person-1)
@@ -34,38 +35,41 @@
     + [adverbs](#adverbs-1)
     + [conjunctions](#conjunctions-1)
     + [Auxiliary verbs](#auxiliary-verbs)
-    + [verbs (intransitive)](#verbs-intransitive-1)
     + [verbs (transitive)](#verbs-transitive-1)
+    + [verbs (intransitive)](#verbs-intransitive-1)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
     + [expressions](#expressions-1)
   * [N3](#n3)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
     + [adjectives (い)](#adjectives-%E3%81%84-2)
     + [adjectives (な)](#adjectives-%E3%81%AA-2)
     + [pronouns (person)](#pronouns-person-2)
     + [adverbs](#adverbs-2)
     + [conjunctions](#conjunctions-2)
-    + [verbs (intransitive)](#verbs-intransitive-2)
     + [verbs (transitive)](#verbs-transitive-2)
+    + [verbs (intransitive)](#verbs-intransitive-2)
     + [expressions](#expressions-2)
   * [N2](#n2)
     + [nouns](#nouns-3)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-3)
     + [adjectives (い)](#adjectives-%E3%81%84-3)
     + [adjectives (な)](#adjectives-%E3%81%AA-3)
     + [adverbs](#adverbs-3)
-    + [verbs (intransitive)](#verbs-intransitive-3)
     + [verbs (transitive)](#verbs-transitive-3)
+    + [verbs (intransitive)](#verbs-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
     + [nouns](#nouns-4)
+    + [noun suffixes](#noun-suffixes)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-4)
     + [adjectives (い)](#adjectives-%E3%81%84-4)
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
     + [adverbs](#adverbs-4)
-    + [verbs (intransitive)](#verbs-intransitive-4)
     + [verbs (transitive)](#verbs-transitive-4)
+    + [verbs (intransitive)](#verbs-intransitive-4)
 ____
 
 # Vocabulary
@@ -186,7 +190,6 @@ ____
 - 階段 (かいだん) - stairs
 - 新聞 (しんぶん) - newspaper
 - 音楽 (おんがく) - music
-- 掃除 (そうじ) - cleaning; sweeping
 - 箱 (はこ) - box
 - 葉書 (はがき) - postcard
 - 同じ (おなじ) - same; identical; equal
@@ -380,7 +383,11 @@ ____
 - 瑞西 (スイス) - Switzerland
 - 亜米利加 (アメリカ) - United States
 - 仏蘭西 (フランス) - France
-- 欧米 (おうべい) - Europe and America
+- 欧米 (おうべい) - Europe and american
+
+### する verbs
+
+- 掃除 (そうじ) - cleaning; sweeping
 
 ### 連体詞
 
@@ -942,6 +949,8 @@ ____
 - 役所 (やくしょ) - government office
 - 理科 (りか) - science
 
+### する verbs
+
 ### adjectives (い)
 
 - 勿体ない (もったいない) - wasteful; too good; more than one deserves
@@ -1001,6 +1010,8 @@ ____
 ### noun suffixes
 
 - 過ぎ (すぎ) - past; after; over-;
+
+### する verbs
 
 ### adjectives (い)
 
