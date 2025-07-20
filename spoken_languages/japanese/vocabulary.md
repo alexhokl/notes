@@ -748,7 +748,7 @@ ____
 
 - 思う (おもう) - to consider; to plan (on a general topic)
 - 考える (かんがえる) - to think (on a specific topic)
-- 受ける (うける) - to receive; to take (an exam)
+- 受ける (うける) - to receive; to take (an exam / a lesson)
 - 変える (かえる) - to change
 - 止める (とめる) - to stop; to cancel
 - 落とす (おとす) - to drop; to lose; to leave behind
@@ -858,6 +858,7 @@ ____
 - 礼 (れい) - thanks; gratitude; bow
 - 建築 (けんちく) - architecture; construction
 - 背 (せい) - height; stature
+- 調子 (ちょうし) - condition; state of health; tune
 
 ### nouns (animals)
 

@@ -35,7 +35,7 @@
   * [Chapter 9](#chapter-9)
     + [present continuous](#present-continuous)
     + [past continuous](#past-continuous)
-    + [action as an habit](#action-as-an-habit)
+    + [action as a short-term habit](#action-as-a-short-term-habit)
     + [describe a work location](#describe-a-work-location)
     + [describe an occupation](#describe-an-occupation)
     + [describe a work type](#describe-a-work-type)
@@ -698,7 +698,7 @@ ____
 - verb in te-form + いました
   * 朝から雨が降っていました。
 
-### action as an habit
+### action as a short-term habit
 
 - verb in te-form + います
   * 私は毎朝コーヒーを飲んでいます。
@@ -748,8 +748,10 @@ ____
   * 鳥が空を飛んでいます。
   * 魚は水の中を泳ぎます。
   * 人は道を歩きます。
+  * 日本を旅行します。
+- most of the motion verbs are intransitive verbs
 - but the following example is not applicable since 泳ぐ is not a motion
-  behaviour
+  behaviour but an activity/event
   * 小林さんがプールで泳いでいます。
 
 ### how old

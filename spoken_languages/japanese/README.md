@@ -988,6 +988,7 @@ ____
 - バレーボール - volleyball
 - バスケットボール - basketball
 - ゴルフ - golf
+- トレイルランニング - trail running
 
 ## Football
 
