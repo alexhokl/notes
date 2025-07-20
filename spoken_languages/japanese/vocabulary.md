@@ -727,6 +727,21 @@ ____
 
 - はず - should; must; expected to
 
+### verbs (transitive)
+
+- 思う (おもう) - to consider; to plan (on a general topic)
+- 考える (かんがえる) - to think (on a specific topic)
+- 受ける (うける) - to receive; to take (an exam)
+- 変える (かえる) - to change
+- 止める (とめる) - to stop; to cancel
+- 落とす (おとす) - to drop; to lose; to leave behind
+- 片付ける (かたづける) - to tidy up; to put in order
+- 呉れる (くれる) - to give
+- 迎える (むかえる) - to welcome; to greet
+- 送る (おくる) - to send; to escort; to say goodbye to
+- 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
+- 送る (おくる) - to send; to dispatch
+
 ### verbs (intransitive)
 
 - 入学 (にゅうがく) - admission to school
@@ -755,21 +770,6 @@ ____
 - 踊る (おどる) - to dance; to be manipulated
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 - 笑う (わらう) - to laugh; to smile
-
-### verbs (transitive)
-
-- 思う (おもう) - to consider; to plan (on a general topic)
-- 考える (かんがえる) - to think (on a specific topic)
-- 受ける (うける) - to receive; to take (an exam)
-- 変える (かえる) - to change
-- 止める (とめる) - to stop; to cancel
-- 落とす (おとす) - to drop; to lose; to leave behind
-- 片付ける (かたづける) - to tidy up; to put in order
-- 呉れる (くれる) - to give
-- 迎える (むかえる) - to welcome; to greet
-- 送る (おくる) - to send; to escort; to say goodbye to
-- 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
-- 送る (おくる) - to send; to dispatch
 
 ### verbs (transitive and intransitive)
 
@@ -888,15 +888,6 @@ ____
 - だけど - however; but; although
 - 其れとも (それとも) - or; or else
 
-### verbs (intransitive)
-
-- 怪我 (けが) - injury; mistake
-- 運転 (うんてん) - driving; operating
-- 運動 (うんどう) - exercise
-- 届く (とどく) - to reach; to be delivered
-- 出発 (しゅっぱつ) - departure
-- 空く (あく) - to become empty
-
 ### verbs (transitive)
 
 - 心配 (しんぱい) - care; help
@@ -911,6 +902,15 @@ ____
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
 - 貰う (もらう) - to receive; to get (from somebody)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
+
+### verbs (intransitive)
+
+- 怪我 (けが) - injury; mistake
+- 運転 (うんてん) - driving; operating
+- 運動 (うんどう) - exercise
+- 届く (とどく) - to reach; to be delivered
+- 出発 (しゅっぱつ) - departure
+- 空く (あく) - to become empty
 
 ### expressions
 
@@ -954,16 +954,16 @@ ____
 
 - 愈々 (いよいよ) - more and more; all the more
 
+### verbs (transitive)
+
+- 蹴る (ける) - to kick
+
 ### verbs (intransitive)
 
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
-
-### verbs (transitive)
-
-- 蹴る (ける) - to kick
 
 ### expressions
 
@@ -1014,12 +1014,12 @@ ____
 
 - 直ぐ (すぐ) - immediately; soon; easily
 
-### verbs (intransitive)
-
 ### verbs (transitive)
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
   lower status)
+
+### verbs (intransitive)
 
