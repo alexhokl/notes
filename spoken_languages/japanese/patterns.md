@@ -749,6 +749,7 @@ ____
   * 魚は水の中を泳ぎます。
   * 人は道を歩きます。
   * 日本を旅行します。
+  * 私は三十分ぐらい森の中を歩く。
 - most of the motion verbs are intransitive verbs
 - but the following example is not applicable since 泳ぐ is not a motion
   behaviour but an activity/event

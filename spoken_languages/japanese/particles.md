@@ -3,6 +3,7 @@
   * [の](#%E3%81%AE)
   * [は](#%E3%81%AF)
   * [が](#%E3%81%8C)
+  * [は and が](#%E3%81%AF-and-%E3%81%8C)
   * [を](#%E3%82%92)
   * [も](#%E3%82%82)
   * [か](#%E3%81%8B)
@@ -28,15 +29,8 @@ ____
 
 # Particles (助詞)
 
-- は (wa) - as for
-- が (ga) - subject marker
-- を (wo) - object marker
-- で (de) - place of action
-- に (ni) - destination or place of existence
-- と (to) - and (between nouns)
-- か (ka) - or (between nouns)
-- や (ya) - for example (between nouns)
 - almost all particles follows a noun
+- in general, particle to be used depends on the verb
 
 ## Examples
 
@@ -348,6 +342,11 @@ ____
     prinicple still applies
   * examples
     + 私が起きる前に、父は出かけました。
+
+## は and が
+
+- … は …(something important)…
+- …(something important)… が …
 
 ## を
 

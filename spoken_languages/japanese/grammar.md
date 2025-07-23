@@ -6,6 +6,7 @@
     + [Politeness markers](#politeness-markers)
 - [Auxiliary verbs](#auxiliary-verbs)
 - [て form](#%E3%81%A6-form)
+- [Noun and verb](#noun-and-verb)
 - [Honorific prefixes](#honorific-prefixes)
   * [御](#%E5%BE%A1)
 - [Plural suffixes and prefixes](#plural-suffixes-and-prefixes)
@@ -122,6 +123,15 @@ ____
   * share the same subject
     + このベーコンはカリカリ`で`おいしい。 - This bacon is crispy and it is
       delicious.
+
+# Noun and verb
+
+- in general, verbs can be converted to nouns by writing a verb in ます form and
+  remove ます
+  * examples
+    + 作る => 作ります => 作り
+    + 飲む => 飲みます => 飲み
+    + 聞く => 聞きます => 聞き
 
 # Honorific prefixes
 
