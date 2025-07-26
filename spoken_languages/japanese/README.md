@@ -138,8 +138,6 @@ ____
 - こいつ - this person
 - そいつ - that person
 - あいつ - the person over there
-- 私達 (わたしたち) - we
-- 僕たち (ぼくたち) - we
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
 - it is common to use the name of a person rather than a third person pronoun
@@ -160,7 +158,6 @@ ____
   * you; your family; your company
 - オール - all
 - 様な (ような) - like; such as
-
 
 ### First person pronouns and its plural form
 
@@ -202,29 +199,25 @@ ____
 
 ## Adverb
 
-- 迚も (とても) - very
-- 結構 (けっこう) - quite
-- 滅茶 (めっちゃ) - extremely / very
+- 滅茶 (めっちゃ) - extremely; very
 - 未明 (みめい) - early morning
 - 先ずは (まずは) - first of all; probably; more or less; anyway
 
 # Verbs
 
-- ググる - to google
-- バズる - to go viral (buzz)
-- サボる - to slack off (sabotage)
-- パクる - to cheat / steal (plagiarize)
-
 ## Intransitive
 
 - リベンジ - revenge; having a second go (at something)
 - 土下座 (どげざ) - to kneel down and bow
+- バズる - to go viral (buzz)
+- サボる - to slack off (sabotage)
+- パクる - to cheat / steal (plagiarize)
 
 ## Transitive
 
 - 見守る (みまもる) - to watch over; to keep an eye on
 - 振り切る (ふりきる) - to shake off; to break away
-
+- ググる - to google
 
 # Situation and vocabulary
 
@@ -426,11 +419,11 @@ ____
 ## Drinks
 
 - コーラ - cola
-- お茶 (ocha) - tea
-- コーヒー (kōhī) - coffee
+- お茶 (おちゃ) - tea
+- コーヒー - coffee
 - 水 (みず) - water
-- ジュース (jūsu) - juice
-- ワイン (wain) - wine
+- ジュース - juice
+- ワイン - wine
 - 緑茶ハイ (りょくちゃ) - high ball with green tea
 - 抹茶 (まっちゃ) - matcha
 - 煎茶 (せんちゃ) - green tea
@@ -440,7 +433,7 @@ ____
 
 ## Shopping
 
-- スーパー (sūpā) - supermarket
+- スーパー - supermarket
 - 本屋 (ほんや) - bookstore
 - 洋書 (ようしょ) - book in foreign language
 - 腕時計 (うでどけい) - wristwatch
@@ -582,15 +575,15 @@ ____
 - 古本屋 (ふるほんや) - used book store
 - 古書店 (こしょてん) - used book store
 - 中古本 (ちゅうこほん) - secondhand book
-- 古本 (furuhon) - secondhand book
-- 古書 (kosho) - secondhand book
+- 古本 (ふるほん) - secondhand book
+- 古書 (こしょ) - secondhand book
 - 単行本 (たんこうぼん) - single volume book
 - 中古漫画 (ちゅうこまんが) - secondhand manga
 - 中古コミック(ちゅうこコミック) - secondhand manga
 - 買い取り / 買取 (かいとり) - buyback/resell service
 - 買取センター (かいとりセンター) - buyback/resell service center
 - お売りください (おうりください) - please sell
-- 不用品 (ふようひん) - - unneeded item
+- 不用品 (ふようひん) - unneeded item
 - 勿体ない (もったいない) - a waste (usually people leaving a place and do not
   want to keep the item)
 - フリーマーケット - flea market
@@ -616,10 +609,10 @@ ____
 
 ## Payment
 
-- カードでお願いします (kādo de onegaishimasu) - Card by I'll pay
-- カード使えますか？ (kādo tsukaemasu ka?) - Card, can I use?
-- アップルペイ使えますか? (appurupai tsukaemasu ka?) - Apple pay, can I use?
-- いくらですか？ (ikura desu ka?) - how much is it?
+- カードでお願いします (カードでおねがいします) - Card by I'll pay
+- カード使えますか？ (カードつかえますか) - Card, can I use?
+- アップルペイ使えますか? (アップルペイつかえますか) - Apple pay, can I use?
+- いくらですか？ - how much is it?
 - ドル - dollar
 
 ## Conversation
@@ -643,7 +636,7 @@ ____
 - 皆さん (みなさん) - everyone
 - 皆様 (みなさま) - everyone (honorific)
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
-- キャンセル (kyanseru) - cancel
+- キャンセル - cancel
 - 始めましょう (はじめましょう) - let's start
 - お休みなさい (おやすみなさい) - good night
 - 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
@@ -780,13 +773,13 @@ ____
 
 ### Trains
 
-- 快速 (kaisoku) - Rapid
-- 新快速 (shin kaisoku) - Special Rapid
-- 急行 (kyūkō) - Express
+- 快速 (かいそく) - Rapid
+- 新快速 (しんかいそく) - Special Rapid
+- 急行 (きゅうこう) - Express
   * These trains stop at fewer stations than rapid trains, and typically run
     more frequently than limited express trains. In most cases, you can ride
     express trains without paying special fares, but there are exceptions.
-- 特急 (tokkyū) - Limited Express
+- 特急 (とっきゅう) - Limited Express
   * this train stops at the fewest stations. In most cases, you can ride limited
     express trains without paying special fares, but there are exceptions.
 
@@ -799,17 +792,7 @@ ____
 
 - format
   * year month day (weekday)
-- 年 (ねん)
-- 月 (がつ)
-- 日 (にち)
-- 曜日 (ようび)
-- 何年 (なんねん) - what year
-- 何月 (なんがつ) - what month
-- 何日 (なんにち) - what day
-- 何曜日 (なんようび) - what day of the week
 - 西暦 (せいれき) - Western calendar
-- counting months ケ月
-  * 五ケ月 - 5 months
 
 | 年号 (ねんごう)   | Year |
 | ---               | ---  |
@@ -819,42 +802,11 @@ ____
 | 大正 (たいしょう) | 1912 |
 | 明治 (めいじ)     | 1868 |
 
-| 月 (がつ)                      | Month     |
-| ---                            | ---       |
-| 四月 (`し`がつ)                | April     |
-| 七月 (`しち`がつ / `なな`がつ) | July      |
-| 九月 (`く`がつ)                | September |
-| 十月 (`じゅう`がつ)            | October   |
-| 十一月 (`じゅういち`がつ)      | November  |
-| 十二月 (`じゅうに`がつ)        | December  |
-
- | 日 (にち) | Reading               |
- | ---       | ---                   |
- | 一日      | `つい`たち / `いっぴ` |
- | 二日      | `ふつか`              |
- | 三日      | `みっか`              |
- | 四日      | `よっか`              |
- | 五日      | `いつか`              |
- | 六日      | `むいか`              |
- | 七日      | `なのか`              |
- | 八日      | `ようか`              |
- | 九日      | `ここのか`            |
- | 十日      | `とおか`              |
- | 十一日    | `じゅういち`にち      |
- | 十四日    | `じゅうよっか`        |
- | 十九日    | `じゅうく`にち        |
- | 二十日    | `はつか`              |
- | 二十四日  | `にじゅうよっか`      |
- | 二十九日  | `にじゅうく`にち      |
- | 三十日    | `さんじゅう`にち      |
-
 ## Time
 
 - 分 (ふん) - minute
   * it can be pronounced as ぷん due to 連濁 (れんだく)
-- 八時四十分(はちじよんじゅっぷん) - 8:40
 - 10時五分前 (じゅじごふんまえ) - 9:55
-- 2時間40分 (にじかんよんじゅっぷん) - 2 hours and 40 minutes
 - 午前 (ごぜん) - AM
 - 午後 (ごご) - PM
 - Interestingly, times beyond midnight after the 24-hour mark can also be
@@ -870,10 +822,6 @@ ____
 - 八時前 (はちじまえ) - before 8
 - 八時後 (はちじご) - after 8
 - 今 (いま) - now
-- 毎日 (まいにち) - every day
-- 毎朝 (まいあさ) - every morning
-- 毎晩 (まいばん) - every night
-- 昨夜 (ゆうべ) - last night
 - 翌朝 (よくあさ) - next morning
 - そちらは何時から何時までですか？ What is the opening hours?
 
@@ -927,7 +875,6 @@ ____
 - 美しい (うつくしい) - beautiful
 - 素晴らしい (すばらしい) - wonderful
 - 素敵 (すてき) - lovely; wonderful; nice
-- 結構 (けっこう) - nice / sufficient / fine
 - 疲れる (つかれる) - to get tired
 - やった - yay!
 - 残念 (ざんねん) - unfortunate
@@ -961,16 +908,7 @@ ____
 - 電子レンジ (でんしレンジ) - microwave oven
 - 洗濯機 (せんたくき) - washing machine
 
-## Academic
-
-- 勉強する (べんきょうする) - to study
-- 読み (よみ) - reading
-- 読む (よむ) - to read
-- 解読 (かいどく) - deciphering
-- クラス (kurasu) - class
-- 中学生 (ちゅうがくせい) - junior high school student
-
-## People names
+## English names
 
 - アレックス (arekkusu) - Alex
 
@@ -1187,6 +1125,7 @@ ____
 - ハードウェア - hardware
 - クラウド - cloud
 - 電子工学 (でんしこうがく) - electronics
+- 解読 (かいどく) - deciphering
 
 ### Math
 

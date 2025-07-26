@@ -488,6 +488,8 @@ ____
 - 大変 (たいへん) - difficult; hard; challenging; immense; great
 - 上手 (じょうず) - skillful; good (at)
 - 下手 (へた) - unskillful; poor (at)
+- 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
+  also as adverb) quite
 
 ### adverbs
 
