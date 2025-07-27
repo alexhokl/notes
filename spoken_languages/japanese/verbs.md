@@ -1,4 +1,4 @@
-- [Verb types](#verb-types)
+- [Verb transitivity](#verb-transitivity)
 - [Verb forms](#verb-forms)
 - [Verb conjugation](#verb-conjugation)
   * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
@@ -16,11 +16,51 @@
   * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
 ____
 
-# Verb types
+# Verb transitivity
 
-- 他動詞 (たどうし) - transitive verb
-- 自動詞 (じどうし) - intransitive verb
-  * 往来動詞 (おうらいどうし) - directional intransitive verb
+- types
+  * 他動詞 (たどうし) - transitive verb
+  * 自動詞 (じどうし) - intransitive verb
+    + 往来動詞 (おうらいどうし) - directional intransitive verb
+- transitivity in Japanese operates differently than in English
+- object of a transitive verb is marked by を, while intransitive verbs will
+  only take a subject and it is marked by が
+  * exceptions of intransitive verbs takes を
+    + verbs with intention
+      + なる
+        + アンナさんが日本語が分かるようになった。
+        + アンナさんが日本語を分かるようになった。
+      + たい - want to (auxiliary adjective; intransitive suffix)
+        + 寿司が食べたい。 - I want to eat sushi. (maybe not now)
+        + 寿司を食べたい。 - I want to eat sushi. (now and act!)
+    + movement verbs
+      + where を is used to mark a path of the movement
+      + 去年、私は熊野古道を歩いた。
+      + 毎年、私はビクトリア・ハーバーを泳いだ。
+      + 私は坂を上がった。
+        + 最近、卵の値段が上がった。
+- there are a large number of verbs that come in pairs, with each side of the
+  pair having a transitive or intransitive meaning
+  * examples
+    + 開ける (あける) and 開く (あく)
+    + 閉める (しめる) and 閉まる (しまる)
+  * [examples from Meguro Langauge
+    Center](https://www.mlcjapanese.co.jp/Download/ViVt.pdf)
+- intransitive verb examples
+  * 田中さんは日本語が分かる。
+    + since the language is not affected by 田中さん, a intransitive verb is
+      used
+  * 田中さんは日本語の教科書があります。
+    + 教科書 is not being affected
+- transitive and intransitive verbs are not the same as active and passive
+  voices
+  * active voice
+    + 田中さんはドアを開ける。
+    + ドアが開きました。
+  * passive voice
+    + ドアは田中さんに開けられました。
+- there are no simple patterns to memorise transitive and intransitive pairs
+  based on okurigana
 
 # Verb forms
 

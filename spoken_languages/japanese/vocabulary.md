@@ -165,7 +165,7 @@ ____
 - ラジオ - radio
 - 花 (はな) - flower
 - 友達 (ともだち) - friend
-- 電気 (でんき) - electricity
+- 電気 (でんき) - electricity; light
 - 町 (まち) - town; neighborhood
 - 一緒 (いっしょ) - together; the same
 - 音楽 (おんがく) - music
@@ -524,7 +524,6 @@ ____
 ### verbs (transitive)
 
 - 作る (つくる) - to make
-- 為る (する) - to do
 - 教える (おしえる) - to teach
 - 食べる (たべる) - to eat
 - 飲む (のむ) - to drink
@@ -601,6 +600,7 @@ ____
 
 ### verbs (transitive and intransitive)
 
+- 為る (する) - to do
 - 待つ (まつ) - to wait
 - 歌う (うたう) - to sing
 - 勉強 (べんきょう) - study
@@ -679,6 +679,7 @@ ____
 - 新聞社 (しんぶんしゃ) - newspaper company
 - 経済 (けいざい) - economy; economics
 - 神社 (じんじゃ) - Shinto shrine
+- 坂 (さか) - slope; hill; incline
 
 ### nouns (position)
 

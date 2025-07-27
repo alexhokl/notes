@@ -42,7 +42,7 @@
     + [what do you do](#what-do-you-do)
     + [は plus が](#%E3%81%AF-plus-%E3%81%8C)
     + [like most](#like-most)
-    + [motion verbs](#motion-verbs)
+    + [movement verbs](#movement-verbs)
     + [how old](#how-old)
     + [use of の for the same rank](#use-of-%E3%81%AE-for-the-same-rank)
     + [how long / far / much](#how-long-%2F-far-%2F-much)
@@ -741,17 +741,17 @@ ____
 - あなたは果物の中で何が一番好きですか。
   * りんごが一番好きです。
 
-### motion verbs
+### movement verbs
 
-- location + を + motion verb
+- location + を + movement verb
   * 鳥は空を飛びます。
   * 鳥が空を飛んでいます。
   * 魚は水の中を泳ぎます。
   * 人は道を歩きます。
   * 日本を旅行します。
   * 私は三十分ぐらい森の中を歩く。
-- most of the motion verbs are intransitive verbs
-- but the following example is not applicable since 泳ぐ is not a motion
+- most of the movement verbs are intransitive verbs
+- but the following example is not applicable since 泳ぐ is not a movement
   behaviour but an activity/event
   * 小林さんがプールで泳いでいます。
 
