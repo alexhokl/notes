@@ -36,6 +36,7 @@ ____
 ### tabs
 
 - `T` to list tabs
+- `d` to close the current tab
 
 ### scrolling
 
