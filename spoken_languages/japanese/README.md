@@ -108,11 +108,6 @@ ____
 
 # Grammatical words
 
-## Conjunctions
-
-- 為に (ために) - for
-- 因みに (ちなみに) - by the way; in this connection; incidentally
-
 ## Pronouns
 
 - used with a noun
@@ -190,70 +185,22 @@ ____
 | そいつ          | そいつ供  | そいつ等 | そいつ達  |           |
 | あいつ          | あいつ供  | あいつ等 | あいつ達  |           |
 
-## 連体詞
-
-- こう言う (こういう) - this kind of
-- そう言う (そういう) - that kind of
-- ああ言う (ああいう) - that kind of
-- どう言う (どういう) - what kind of
-
-## Adverb
-
-- 滅茶 (めっちゃ) - extremely; very
-- 未明 (みめい) - early morning
-- 先ずは (まずは) - first of all; probably; more or less; anyway
-
-# Verbs
-
-## Intransitive
-
-- リベンジ - revenge; having a second go (at something)
-- 土下座 (どげざ) - to kneel down and bow
-- バズる - to go viral (buzz)
-- サボる - to slack off (sabotage)
-- パクる - to cheat / steal (plagiarize)
-
-## Transitive
-
-- 見守る (みまもる) - to watch over; to keep an eye on
-- 振り切る (ふりきる) - to shake off; to break away
-- ググる - to google
-
 # Situation and vocabulary
 
 ## Restaurant
 
-- どうも - not thank you but shows some kind of gratitude
-- いただきます - thank you (for the meal just served)
-- どうぞ (dōzo) - please (or go ahead)
 - 水はありますか？ (みずはありますか) - water, do you have?
 - お水お願いします (おみずおねがいします) - water, please
 - 五名です (ごめいです) - there are 5 people
 - 二人です (ふたりです) - there are 2 people
-- いらっしゃいませ - welcome
-- かしこまりました - certainly
 - お下げしてもよろしいですか。 (おさげしてもよろしいですか) - can I take it
   away? (usually by restaurant staff)
-- 失礼します (しつれいします) - excuse me (usually after staff take a plate
-  away or about to serve a dish)
-- ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
-- 助かりました (たすかりました) - this helps alot!
 - お会計お願いします (おかいけいおねがいします) - bill please
 - ここってカード使えますか？ (ここってカードつかえますか) - can I use card here?
   (usage of って is equivalent to は)
 - クレジットカード大丈夫ですか。 (クレジットカードだいじょうぶですか) - is
   credit card okay?
 - カードでお願いします - I'll pay by card
-- 朝食 (ちょうしょく) - breakfast
-- 昼食 (ちゅうしょく) - lunch
-- 夕食 (ゆうしょく) - dinner
-- 定食 (ていしょ) - set meal
-- 放題 (ほうだい) - all you can eat
-- レストラン - restaurant
-- マクドナルド - McDonald's
-- お手洗い (おてあらい) - restroom
-- トイレ - toilet
-- 冷やし (ひやし) - cold
 - 割り (わり) - diluted with
 - 割烹 (かっぽう) - Japanese-style cooking
 - お通し (おとうし) - appetizers (Japanese)
@@ -261,7 +208,6 @@ ____
 ## Convience store
 
 - はい、お願いします (はい、おねがいします) - yes, please
-- かしこまりました - Certainly
 - 大丈夫です (だいじゃうぶです) - it's okay
 - いえ - no
 - お箸、おつけしますか? (おはし、おつけしますか?) - chopsticks, may I add?

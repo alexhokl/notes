@@ -84,6 +84,138 @@ ____
 
 ## N5
 
+### conjunctions
+
+- 然し (しかし) - however; but
+- でも - but
+- では - then
+- じゃあ - then
+- 其れから (それから) - and then
+- 而して (そして) - thus
+- 次に (つぎに) - next; then; after that
+
+### adverbs
+
+- 少し (すこし) - a little
+- ちょっと - a little
+- 迚も (とても) - very
+- 何時も (いつも) - always
+- たくさん - a lot; too many (on countables)
+- 大勢 (おおぜい) - many (people)
+- なぜ - why
+- また - also; again
+- 未だ (まだ) - still; yet; only
+- 多分 (たぶん) - maybe; probably
+- 余り (あまり) - not very; not much
+- 些とも (ちっとも) - not at all
+- 幾つ (いくつ) - how many
+- 時々 (ときどき) - sometimes; occasionally
+- 良く (よく) - nicely; often
+- 大変 (たいへん) - very; greatly; terribly
+- 早く (はやく) - quickly; early; also as 速く
+- どうぞ - please; go ahead
+
+### adjectives (い)
+
+- 高い (たかい) - high
+- 低い (ひくい) - low
+- 長い (ながい) - long
+- 短い (みじかい) - short
+- 太い (ふとい) - thick (in radius)
+- 細い (ほそい) - thin (in radius)
+- 厚い (あつい) - thick
+- 薄い (うすい) - thin
+- 広い (ひろい) - wide
+- 狭い (せまい) - narrow
+- 重い (おもい) - heavy
+- 軽い (かるい) - light
+- 高い (たかい) - expensive
+- 安い (やすい) - cheap
+- 易しい (やさしい) - easy
+- 難しい (むずかしい) - difficult
+- 面白い (おもしろい) - interesting
+- 詰まらない (つまらない) - boring
+- 新しい (あたらしい) - new
+- 古い (ふるい) - old
+- 大きい (おおきい) - big
+- 小さい (ちいさい) - small
+- 美味しい (おいしい) - delicious
+- 不味い (まずい) - bad tasting
+- 汚い (きたない) - dirty
+- 白い (しろい) - white
+- 黒い (くろい) - black
+- 赤い (あかい) - red
+- 青い (あおい) - azure or green
+- 黄色い (きいろい) - yellow
+- 茶色い (ちゃいろい) - brown
+- 良い (よい) - good (formal)
+- いい - good (casual)
+- 悪い (わるい) - bad; at fault
+- 弱い (よわい) - weak
+- 丸い (まるい) - round; circular
+- 暑い (あつい) - hot
+- 寒い (さむい) - cold
+- 甘い (あまい) - sweet
+- 早い (はやい) - early; fast; quick (also 速い)
+- 遅い (おそい) - late; slow
+- 楽しい (たのしい) - fun; happy
+- 忙しい (いそがしい) - busy
+- 暖かい (あたたかい) - warm
+- 辛い (つらい) - spicy
+- 明るい (あかるい) - bright
+- 痛い (いたい) - painful; sore
+
+### adjectives (な)
+
+- 賑やか (にぎやか) - lively
+- 静か (しずか) - quiet
+- 綺麗 (きれい) - beautiful; clean
+- 有名 (ゆうめい) - famous
+- 大切 (たいせつ) - important
+- 便利 (べんり) - convenient
+- 色々 (いろいろ) - various
+- 丈夫 (じょうぶ) - strong
+- 好き (すき) - like
+- 嫌い (きらい) - dislike
+- 大好き (だいすき) - liking very much; love
+- 大変 (たいへん) - difficult; hard; challenging; immense; great
+- 上手 (じょうず) - skillful; good (at)
+- 下手 (へた) - unskillful; poor (at)
+- 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
+  also as adverb) quite
+
+### 連体詞
+
+- こんな - this kind of
+- そんな - that kind of
+- あんな - that kind of (over there)
+- どんな - what kind of; any
+
+### pronouns (place)
+
+- 此処 (ここ) - here
+- 其処 (そこ) - there
+- 彼処 (あそこ) - over there
+- 何処 (どこ) - where
+- 此れ (これ) - this
+- 其れ (それ) - that
+- 彼 (あれ) - that over there
+- どれ - which (of three or more)
+- どちら - which (of two)
+
+### pronouns (time)
+
+- いつ - when
+- 何時 (なんじ) - what time
+
+### pronouns (person)
+
+- 誰 (だれ) - who
+- 何方 (どなた) - who (honorific)
+- 私 (わたし) - I; me (slight femininity)
+- 貴方 (あなた) - you
+- 自分 (じぶん) - myself; oneself
+
 ### nouns
 
 - 男 (おとこ) - male
@@ -115,27 +247,6 @@ ____
 - ノート - notebook
 - 写真 (しゃしん) - photograph
 - 問題 (もんだい) - problem (question)
-- 所 (ところ) - place; site
-- トイレ - toilet
-- お手洗い (おてあらい) - restroom
-- 庭 (にわ) - garden
-- 池 (いけ) - pond
-- 喫茶店 (きっさてん) - teahouse
-- 店 (みせ) - shop
-- 食堂 (しょくどう) - canteen
-- 銀行 (ぎんこう) - bank
-- 郵便局 (ゆうびんきょく) - post office
-- 図書館 (としょかん) - library
-- 病院 (びょういん) - hospital; clinic
-- デパート - department store
-- ホテル - hotel
-- レストラン - restaurant
-- 建物 (たてもの) - building
-- マンション - condominium; apartment building
-- アパート - apartment
-- ビル - multi-storey building
-- 映画館 (えいがかん) - cinema
-- 公園 (こうえん) - park
 - 山 (やま) - mountain
 - 部屋 (へや) - room
 - 台所 (だいどころ) - kitchen
@@ -221,6 +332,30 @@ ____
 - 花瓶 (かびん) - vase
 - 荷物 (にもつ) - luggage; baggage; package; payload
 - 所 (ところ) - place; site
+
+### nouns (location)
+
+- レストラン - restaurant
+- お手洗い (おてあらい) - restroom
+- 所 (ところ) - place; site
+- トイレ - toilet
+- 庭 (にわ) - garden
+- 池 (いけ) - pond
+- 喫茶店 (きっさてん) - teahouse
+- 店 (みせ) - shop
+- 食堂 (しょくどう) - canteen
+- 銀行 (ぎんこう) - bank
+- 郵便局 (ゆうびんきょく) - post office
+- 図書館 (としょかん) - library
+- 病院 (びょういん) - hospital; clinic
+- デパート - department store
+- ホテル - hotel
+- 建物 (たてもの) - building
+- マンション - condominium; apartment building
+- アパート - apartment
+- ビル - multi-storey building
+- 映画館 (えいがかん) - cinema
+- 公園 (こうえん) - park
 
 ### nouns (family)
 
@@ -384,137 +519,6 @@ ____
 - 仏蘭西 (フランス) - France
 - 欧米 (おうべい) - Europe and american
 
-### 連体詞
-
-- こんな - this kind of
-- そんな - that kind of
-- あんな - that kind of (over there)
-- どんな - what kind of; any
-
-### pronouns (place)
-
-- 此処 (ここ) - here
-- 其処 (そこ) - there
-- 彼処 (あそこ) - over there
-- 何処 (どこ) - where
-- 此れ (これ) - this
-- 其れ (それ) - that
-- 彼 (あれ) - that over there
-- どれ - which (of three or more)
-- どちら - which (of two)
-
-### pronouns (time)
-
-- いつ - when
-- 何時 (なんじ) - what time
-
-### pronouns (person)
-
-- 誰 (だれ) - who
-- 何方 (どなた) - who (honorific)
-- 私 (わたし) - I; me (slight femininity)
-- 貴方 (あなた) - you
-- 自分 (じぶん) - myself; oneself
-
-### adjectives (い)
-
-- 高い (たかい) - high
-- 低い (ひくい) - low
-- 長い (ながい) - long
-- 短い (みじかい) - short
-- 太い (ふとい) - thick (in radius)
-- 細い (ほそい) - thin (in radius)
-- 厚い (あつい) - thick
-- 薄い (うすい) - thin
-- 広い (ひろい) - wide
-- 狭い (せまい) - narrow
-- 重い (おもい) - heavy
-- 軽い (かるい) - light
-- 高い (たかい) - expensive
-- 安い (やすい) - cheap
-- 易しい (やさしい) - easy
-- 難しい (むずかしい) - difficult
-- 面白い (おもしろい) - interesting
-- 詰まらない (つまらない) - boring
-- 新しい (あたらしい) - new
-- 古い (ふるい) - old
-- 大きい (おおきい) - big
-- 小さい (ちいさい) - small
-- 美味しい (おいしい) - delicious
-- 不味い (まずい) - bad tasting
-- 汚い (きたない) - dirty
-- 白い (しろい) - white
-- 黒い (くろい) - black
-- 赤い (あかい) - red
-- 青い (あおい) - azure or green
-- 黄色い (きいろい) - yellow
-- 茶色い (ちゃいろい) - brown
-- 良い (よい) - good (formal)
-- いい - good (casual)
-- 悪い (わるい) - bad; at fault
-- 弱い (よわい) - weak
-- 丸い (まるい) - round; circular
-- 暑い (あつい) - hot
-- 寒い (さむい) - cold
-- 甘い (あまい) - sweet
-- 早い (はやい) - early; fast; quick (also 速い)
-- 遅い (おそい) - late; slow
-- 楽しい (たのしい) - fun; happy
-- 忙しい (いそがしい) - busy
-- 暖かい (あたたかい) - warm
-- 辛い (つらい) - spicy
-- 明るい (あかるい) - bright
-- 痛い (いたい) - painful; sore
-
-### adjectives (な)
-
-- 賑やか (にぎやか) - lively
-- 静か (しずか) - quiet
-- 綺麗 (きれい) - beautiful; clean
-- 有名 (ゆうめい) - famous
-- 大切 (たいせつ) - important
-- 便利 (べんり) - convenient
-- 色々 (いろいろ) - various
-- 丈夫 (じょうぶ) - strong
-- 好き (すき) - like
-- 嫌い (きらい) - dislike
-- 大好き (だいすき) - liking very much; love
-- 大変 (たいへん) - difficult; hard; challenging; immense; great
-- 上手 (じょうず) - skillful; good (at)
-- 下手 (へた) - unskillful; poor (at)
-- 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
-  also as adverb) quite
-
-### adverbs
-
-- 少し (すこし) - a little
-- ちょっと - a little
-- 迚も (とても) - very
-- 何時も (いつも) - always
-- たくさん - a lot; too many (on countables)
-- 大勢 (おおぜい) - many (people)
-- なぜ - why
-- また - also; again
-- 未だ (まだ) - still; yet; only
-- 多分 (たぶん) - maybe; probably
-- 余り (あまり) - not very; not much
-- 些とも (ちっとも) - not at all
-- 幾つ (いくつ) - how many
-- 時々 (ときどき) - sometimes; occasionally
-- 良く (よく) - nicely; often
-- 大変 (たいへん) - very; greatly; terribly
-- 早く (はやく) - quickly; early; also as 速く
-
-### conjunctions
-
-- 然し (しかし) - however; but
-- でも - but
-- では - then
-- じゃあ - then
-- 其れから (それから) - and then
-- 而して (そして) - thus
-- 次に (つぎに) - next; then; after that
-
 ### する transitive verbs
 
 - 試験 (しけん) - exam
@@ -627,11 +631,65 @@ ____
 
 ### expressions
 
+- どうも - not exactly thank you but shows some kind of gratitude
 - 下さい (ください) - please
 - あのう - em...
 - 就いて (ついて) - about; concerning; as to; regarding
 
 ## N4
+
+### conjunctions
+
+- けど - but; however (usually at the end of the sentence in a phone call, and
+  expect a response); also as けれど, けれども
+- 其れで (それで) - therefore; then
+- 其れに (それに) - moreover; besides; in addition
+- だから - therefore
+- 又は (または) - or; either
+
+### adverbs
+
+- 些とも (ちっとも) - not at all
+- 最近 (さいきん) - recently; lately
+- この間 (このあいだ) - the other day; recently; during this period
+- 今度 (こんど) - next time; this time; recently
+- 昔 (むかし) - old times; old days
+- 先 (さっき) - a moment ago
+- 確かに (たしかに) - surely; certainly
+- 偶に (たまに) - occasionally; once in a while; now and then
+- 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
+
+### adjectives (い)
+
+- 正しい (ただしい) - correct
+- 硬い (かたい) - hard
+- 固い (かたい) - solid
+- 珍しい (めずらしい) - rare
+- 凄い (すごい) - amazing; wonderful; terrible; dreadful
+- 美しい (うつくしい) - beautiful; pure
+- 優しい (やさしい) - gentle; kind
+- 苦い (にがい) - bitter
+
+### adjectives (な)
+
+- 親切 (しんせつ) - kind
+- 残念 (ざんねん) - regrettable; disappointing; unfortunate
+- 変 (へん) - strange; odd; change
+- 無理 (むり) - unreasonable; impossible
+- 確か (たしか) - certain; sure; reliable
+- 普通 (ふつう) - normal; ordinary
+- 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
+
+### pronouns (person)
+
+- 君 (きみ) - you (friendly; musculine; poetic)
+- 彼 (かれ) - he; boyfriend
+- 彼女 (かのじょ) - she; girlfriend
+
+### pronouns (things)
+
+- 彼方 (あちら) - that way; that direction; over there
+- 彼方 (あっち) - see 彼方 (あちら)
 
 ### nouns
 
@@ -688,59 +746,6 @@ ____
 ### nouns (position)
 
 - 隅 (すみ) - corner
-
-### adjectives (い)
-
-- 正しい (ただしい) - correct
-- 硬い (かたい) - hard
-- 固い (かたい) - solid
-- 珍しい (めずらしい) - rare
-- 凄い (すごい) - amazing; wonderful; terrible; dreadful
-- 美しい (うつくしい) - beautiful; pure
-- 優しい (やさしい) - gentle; kind
-- 苦い (にがい) - bitter
-
-### adjectives (な)
-
-- 親切 (しんせつ) - kind
-- 残念 (ざんねん) - regrettable; disappointing; unfortunate
-- 変 (へん) - strange; odd; change
-- 無理 (むり) - unreasonable; impossible
-- 確か (たしか) - certain; sure; reliable
-- 普通 (ふつう) - normal; ordinary
-- 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
-
-### pronouns (person)
-
-- 君 (きみ) - you (friendly; musculine; poetic)
-- 彼 (かれ) - he; boyfriend
-- 彼女 (かのじょ) - she; girlfriend
-
-### pronouns (things)
-
-- 彼方 (あちら) - that way; that direction; over there
-- 彼方 (あっち) - see 彼方 (あちら)
-
-### adverbs
-
-- 些とも (ちっとも) - not at all
-- 最近 (さいきん) - recently; lately
-- この間 (このあいだ) - the other day; recently; during this period
-- 今度 (こんど) - next time; this time; recently
-- 昔 (むかし) - old times; old days
-- 先 (さっき) - a moment ago
-- 確かに (たしかに) - surely; certainly
-- 偶に (たまに) - occasionally; once in a while; now and then
-- 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
-
-### conjunctions
-
-- けど - but; however (usually at the end of the sentence in a phone call, and
-  expect a response); also as けれど, けれども
-- 其れで (それで) - therefore; then
-- 其れに (それに) - moreover; besides; in addition
-- だから - therefore
-- 又は (または) - or; either
 
 ### Auxiliary verbs
 
@@ -822,6 +827,39 @@ ____
 
 ## N3
 
+### conjunctions
+
+- 何故なら (なぜなら) - because
+- だって - after all; because; but
+- だけど - however; but; although
+- 其れとも (それとも) - or; or else
+
+### adverbs
+
+- つまり - that is to say; in other words
+- まあ - well; I mean
+- 全然 (ぜんぜん) - totally
+- そろそろ - soon
+- 勿論 (もちろん) - of course; certainly; naturally
+
+### adjectives (い)
+
+- 嬉しい (うれしい) - happy; glad; pleased
+- 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
+
+### adjectives (な)
+
+- 新鮮 (しんせん) - fresh
+- 邪魔 (じゃま) - disturbance; obstruction
+- たっぷり - full of; a lot of; plenty of
+- 苦手 (にがて) - poor at; weak in; not good at
+
+### pronouns (person)
+
+- お前 (おまえ) - you (musculine; vulgar)
+- 彼ら (かれら) - they (mixed sex group)
+- 彼女ら (かのじょら) - they (females)
+
 ### nouns
 
 - 教科書 (きょうかしょ) - textbook
@@ -839,7 +877,6 @@ ____
 - 頃 (ころ) - (approximate) time
 - ドラマ - drama
 - クラシック - classical music
-- 生 (なま) - raw; uncooked
 - 支払い (しはらい) - payment
 - 暮らし (くらし) - life; living
 - ケース - case
@@ -866,7 +903,6 @@ ____
 - 相手 (あいて) - companion; partner; opponent
 - 黒板 (こくばん) - blackboard
 - 道路 (どうろ) - road; highway
-- 鼠 (ねずみ) - rat; mouse
 - 煙 (けむり) - smoke
 - 礼 (れい) - thanks; gratitude; bow
 - 背 (せい) - height; stature
@@ -877,39 +913,12 @@ ____
 - 兎 (うさぎ) - rabbit
 - 象 (ぞう) - elephant
 - 虎 (とら) - tiger
+- 鼠 (ねずみ) - rat; mouse
 
-### adjectives (い)
+### nouns (food)
 
-- 嬉しい (うれしい) - happy; glad; pleased
-- 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
-
-### adjectives (な)
-
-- 新鮮 (しんせん) - fresh
-- 邪魔 (じゃま) - disturbance; obstruction
-- たっぷり - full of; a lot of; plenty of
-- 苦手 (にがて) - poor at; weak in; not good at
-
-### pronouns (person)
-
-- お前 (おまえ) - you (musculine; vulgar)
-- 彼ら (かれら) - they (mixed sex group)
-- 彼女ら (かのじょら) - they (females)
-
-### adverbs
-
-- つまり - that is to say; in other words
-- まあ - well; I mean
-- 全然 (ぜんぜん) - totally
-- そろそろ - soon
-- 勿論 (もちろん) - of course; certainly; naturally
-
-### conjunctions
-
-- 何故なら (なぜなら) - because
-- だって - after all; because; but
-- だけど - however; but; although
-- 其れとも (それとも) - or; or else
+- 昼食 (ちゅうしょく) - lunch
+- 生 (なま) - raw; uncooked
 
 ### する verbs
 
@@ -959,6 +968,7 @@ ____
 
 ### expressions
 
+- いただきます - thank you (for the mean just served, not finished)
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
 - 実は (じつは) - as a matter of fact; to be honest; by the way
 
@@ -1015,12 +1025,14 @@ ____
   goods)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
+- 助かる (たすかる) - to be saved; to be rescued; to be helped
 
 ### expressions
 
 - お陰様で (おかげさまで) - thankfully; fortunately
 - ご馳走様 (ごちそうさま) - thank you (for the meal)
 - ご馳走様でした (ごちそうさまでした) - thank you (for the meal)
+- かしこまりました - certainly
 
 ## N1
 
@@ -1047,6 +1059,10 @@ ____
 - ルール - rule
 - メーカー - manufacturer; maker
 - チャイム - chime; bell
+
+### nouns (food)
+
+- 定食 (ていしょ) - set meal
 
 ### noun suffixes
 
@@ -1081,3 +1097,101 @@ ____
 
 ### verbs (intransitive)
 
+## N0
+
+### particles
+
+### conjunctions
+
+- 為に (ために) - for
+- 因みに (ちなみに) - by the way; in this connection; incidentally
+
+### adverbs
+
+- 滅茶 (めっちゃ) - extremely; very
+- 未明 (みめい) - early morning
+- 先ずは (まずは) - first of all; probably; more or less; anyway
+
+### adjectives (い)
+
+### adjectives (な)
+
+### 連体詞
+
+- こう言う (こういう) - this sort of
+- そう言う (そういう) - that sort of
+- ああ言う (ああいう) - that sort of
+- どう言う (どういう) - what sort of
+
+### pronouns (place)
+
+### pronouns (time)
+
+### pronouns (person)
+
+### nouns
+
+### nouns (family)
+
+### nouns (time)
+
+### nouns (food)
+
+- 朝食 (ちょうしょく) - breakfast
+- 夕食 (ゆうしょく) - dinner
+
+### nouns (location)
+
+- マクドナルド - McDonald's
+
+### nouns (transportation)
+
+### nouns (animals)
+
+### nouns (body parts)
+
+### nouns (position)
+
+### nouns (sports)
+
+### nouns (countries)
+
+### noun prefixes
+
+- 冷やし (ひやし) - cold; chilled
+
+### noun suffixes
+
+- 放題 (ほうだい) - (doing) as one pleases
+
+### する transitive verbs
+
+### する intransitive verbs
+
+- リベンジ - revenge; having a second go (at something)
+- 土下座 (どげざ) - to kneel down and bow
+
+### する transitive and intransitive verbs
+
+### verbs (transitive)
+
+- パクる - to cheat; steal (plagiarize)
+- 見守る (みまもる) - to watch over; to keep an eye on
+- 振り切る (ふりきる) - to shake off; to break away
+- ググる - to google
+
+### verbs (intransitive)
+
+- バズる - to go viral (buzz)
+- サボる - to slack off (sabotage)
+
+### verbs (transitive and intransitive)
+
+### verbs (direction intransitive)
+
+### expressions
+
+- いらっしゃいませ - welcome
+- 失礼します (しつれいします) - excuse me (usually after staff take a plate
+  away or about to serve a dish)
+- ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
