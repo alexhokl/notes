@@ -10,7 +10,6 @@
     + [nouns (position)](#nouns-position)
     + [nouns (sports)](#nouns-sports)
     + [nouns (countries)](#nouns-countries)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [pronouns (place)](#pronouns-place)
     + [pronouns (time)](#pronouns-time)
@@ -19,6 +18,9 @@
     + [adjectives (な)](#adjectives-%E3%81%AA)
     + [adverbs](#adverbs)
     + [conjunctions](#conjunctions)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
     + [verbs (transitive)](#verbs-transitive)
     + [verbs (intransitive)](#verbs-intransitive)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
@@ -27,7 +29,6 @@
   * [N4](#n4)
     + [nouns](#nouns-1)
     + [nouns (position)](#nouns-position-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
     + [adjectives (い)](#adjectives-%E3%81%84-1)
     + [adjectives (な)](#adjectives-%E3%81%AA-1)
     + [pronouns (person)](#pronouns-person-1)
@@ -35,6 +36,9 @@
     + [adverbs](#adverbs-1)
     + [conjunctions](#conjunctions-1)
     + [Auxiliary verbs](#auxiliary-verbs)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-1)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
     + [verbs (transitive)](#verbs-transitive-1)
     + [verbs (intransitive)](#verbs-intransitive-1)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
@@ -42,18 +46,21 @@
   * [N3](#n3)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
     + [adjectives (い)](#adjectives-%E3%81%84-2)
     + [adjectives (な)](#adjectives-%E3%81%AA-2)
     + [pronouns (person)](#pronouns-person-2)
     + [adverbs](#adverbs-2)
     + [conjunctions](#conjunctions-2)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-2)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
     + [verbs (transitive)](#verbs-transitive-2)
     + [verbs (intransitive)](#verbs-intransitive-2)
     + [expressions](#expressions-2)
   * [N2](#n2)
     + [nouns](#nouns-3)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-3)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
+    + [する transitive and intransitiive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitiive-verbs)
     + [adjectives (い)](#adjectives-%E3%81%84-3)
     + [adjectives (な)](#adjectives-%E3%81%AA-3)
     + [adverbs](#adverbs-3)
@@ -64,7 +71,8 @@
     + [Particles](#particles)
     + [nouns](#nouns-4)
     + [noun suffixes](#noun-suffixes)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-4)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
     + [adjectives (い)](#adjectives-%E3%81%84-4)
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
     + [adverbs](#adverbs-4)
@@ -93,14 +101,12 @@ ____
 - 学校 (がっこう) - school
 - 大学 (だいがく) - university
 - 教室 (きょうしつ) - classroom
-- 試験 (しけん) - exam
 - 先生 (せんせい) - teacher; master
 - 物 (もの) - thing
 - 鉛筆 (えんぴつ) - pencil
 - 紙 (かみ) - paper
 - 手紙 (てがみ) - letter
 - 切手 (きって) - stamp
-- 料理 (りょうり) - cooking
 - 会社 (かいしゃ) - company
 - 英語 (えいご) - English
 - 雑誌 (ざっし) - magazine
@@ -108,9 +114,7 @@ ____
 - 辞書 (じしょ) - dictionary
 - ノート - notebook
 - 写真 (しゃしん) - photograph
-- 質問 (しつもん) - question
 - 問題 (もんだい) - problem (question)
-- 練習 (れんしゅう) - practice
 - 所 (ところ) - place; site
 - トイレ - toilet
 - お手洗い (おてあらい) - restroom
@@ -174,7 +178,6 @@ ____
 - シャワー - shower
 - 物 (もの) - thing
 - 休み (やすみ) - rest; holiday
-- 旅行 (りょこう) - travel
 - 天気 (てんき) - weather
 - 雨 (あめ) - rain
 - 海 (うみ) - sea
@@ -182,7 +185,6 @@ ____
 - 音 (おと) - sound; noise
 - 次 (つぎ) - next
 - 言葉 (ことば) - word; language
-- 意味 (いみ) - meaning
 - 色 (いろ) - color
 - 階段 (かいだん) - stairs
 - 新聞 (しんぶん) - newspaper
@@ -193,7 +195,6 @@ ____
 - 病気 (びょうき) - illness (usually excluding minor ailments such as common
   cold); disease; sickness
 - プール - swimming pool; american pool (cue sport)
-- 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
 - 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
   negotiation; argument; rumor; tale; story
 - 箸 (はし) - chopsticks
@@ -206,7 +207,6 @@ ____
 - フォーク - fork
 - スプーン - spoon
 - 空 (そら) - sky; the air
-- 散歩 (さんぽ) - walk; stroll
 - 橋 (はし) - bridge
 - 歌 (うた) - song; singing; classical Japanese poem
 - 高校 (こうこう) - high school
@@ -384,12 +384,6 @@ ____
 - 仏蘭西 (フランス) - France
 - 欧米 (おうべい) - Europe and american
 
-### する verbs
-
-- 掃除 (そうじ) - cleaning; sweeping
-- 洗濯 (せんたく) - laundry; washing
-- 結婚 (けっこん) - marriage
-
 ### 連体詞
 
 - こんな - this kind of
@@ -521,6 +515,26 @@ ____
 - 而して (そして) - thus
 - 次に (つぎに) - next; then; after that
 
+### する transitive verbs
+
+- 試験 (しけん) - exam
+- 料理 (りょうり) - cooking
+- 練習 (れんしゅう) - practice
+- 意味 (いみ) - meaning
+- 掃除 (そうじ) - cleaning; sweeping
+- 洗濯 (せんたく) - laundry; washing
+
+### する intransitive verbs
+
+- 旅行 (りょこう) - travel
+- 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
+- 散歩 (さんぽ) - walk; stroll
+- 結婚 (けっこん) - marriage
+
+### する transitive and intransitive verbs
+
+- 質問 (しつもん) - question
+
 ### verbs (transitive)
 
 - 作る (つくる) - to make
@@ -622,9 +636,6 @@ ____
 ### nouns
 
 - オートバイ - motorcycle
-- 試験 (しけん) - exam
-- 復習 (ふくしゅう) - review (of learned material)
-- 予習 (よしゅう) - preparation for a lesson
 - 消しゴム (けしゴム) - eraser
 - 髪 (かみ) - hair
 - 引き出し (ひきだし) - drawer
@@ -642,24 +653,17 @@ ____
 - ケーキ - cake
 - 二階建て (にかいだて) - two-storied building
 - ビル - multi-storey building (usually used in part of name of the building)
-- 試合 (しあい) - match; game
 - 着物 (きもの) - kimono
 - 席 (せき) - seat
 - 乗り物 (のりもの) - vehicle; (means of) transport
 - 形 (かたち) - shape; form
 - テニス - tennis
-- アルバイト - part-time job
 - 訳 (わけ) - meaning; reason
-- 泥棒 (どろぼう) - thief; burglar; robber
 - 地震 (じしん) - earthquake
 - コンピュータ - computer
-- ご馳走 (ごちそう) - treat (especially food and drink)
-- 受付 (うけつけ) - reception; information desk
-- プレゼント - present; gift
 - 昼休み (ひるやすみ) - lunch break
 - 間 (あいだ) - interval; space; between
 - 空港 (くうこう) - airport
-- 交通 (こうつう) - traffic; transportation
 - 社長 (しゃちょう) - company president; manager; director
 - 店員 (てんいん) - shop assistant
 - 指輪 (ゆびわ) - ring
@@ -684,11 +688,6 @@ ____
 ### nouns (position)
 
 - 隅 (すみ) - corner
-
-### する verbs
-
-- チェック - check; inspection; marking with a check
-- 交通 (こうつう) - traffic; transportation
 
 ### adjectives (い)
 
@@ -746,6 +745,26 @@ ____
 ### Auxiliary verbs
 
 - はず - should; must; expected to
+
+### する verbs
+
+- 交通 (こうつう) - traffic; transportation
+
+### する transitive verbs
+
+- チェック - check; inspection; marking with a check
+- 試験 (しけん) - exam
+- 復習 (ふくしゅう) - review (of learned material)
+- 予習 (よしゅう) - preparation for a lesson
+- 試合 (しあい) - match; game
+- 泥棒 (どろぼう) - thief; burglar; robber
+- ご馳走 (ごちそう) - treat (especially food and drink)
+- 受付 (うけつけ) - reception; information desk
+- プレゼント - present; gift
+
+### する intransitive verbs
+
+- アルバイト - part-time job
 
 ### verbs (transitive)
 
@@ -807,15 +826,12 @@ ____
 
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
-- 我慢 (がまん) - patience
 - 居間 (いま) - living room
 - 恋人 (こいびと) - lover
 - 保証人 (ほしょうにん) - guarantor
 - スタンド - stand
 - 城 (しろ) - castle
 - ソファー - sofa
-- 心配 (しんぱい) - worry; concern; anxiety
-- 世話 (せわ) - care; looking after; help; support
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 - 酒 (さけ) - alcohol
 - ワイン - wine
@@ -824,13 +840,9 @@ ____
 - ドラマ - drama
 - クラシック - classical music
 - 生 (なま) - raw; uncooked
-- 世話 (せわ) - care; looking after; help; support
 - 支払い (しはらい) - payment
 - 暮らし (くらし) - life; living
 - ケース - case
-- 結果 (けっか) - result
-- 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
-- 滞在 (たいざい) - sta
 - 土産 (みやげ) - local specialty; souvenir
 - 事 (こと) - thing; matter
 - 記事 (きじ) - article; news story; report; account
@@ -839,7 +851,6 @@ ____
 - 違い (ちがい) - difference
 - 浴衣 (ゆかた) - bathrobe
 - 袋 (ふくろ) - bag; sack; pouch
-- 協力 (きょうりょく) - cooperation
 - 以前 (いぜん) - before; ago
 - 俳優 (はいゆう) - actor; actress; player; performer
 - 事実 (じじつ) - fact; truth
@@ -856,10 +867,8 @@ ____
 - 黒板 (こくばん) - blackboard
 - 道路 (どうろ) - road; highway
 - 鼠 (ねずみ) - rat; mouse
-- 観光 (かんこう) - sightseeing
 - 煙 (けむり) - smoke
 - 礼 (れい) - thanks; gratitude; bow
-- 建築 (けんちく) - architecture; construction
 - 背 (せい) - height; stature
 - 調子 (ちょうし) - condition; state of health; tune
 
@@ -868,13 +877,6 @@ ____
 - 兎 (うさぎ) - rabbit
 - 象 (ぞう) - elephant
 - 虎 (とら) - tiger
-
-### する verbs
-
-- 留学 (りゅうがく) - studying abroad
-- サービス - service; assistance; help
-- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
-- 経営 (けいえい) - running (a business)
 
 ### adjectives (い)
 
@@ -909,6 +911,28 @@ ____
 - だけど - however; but; although
 - 其れとも (それとも) - or; or else
 
+### する verbs
+
+- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
+
+### する transitive verbs
+
+- 我慢 (がまん) - patience
+- 心配 (しんぱい) - worry; concern; anxiety
+- 世話 (せわ) - care; looking after; help; support
+- 観光 (かんこう) - sightseeing
+- 建築 (けんちく) - architecture; construction
+
+### する intransitive verbs
+
+- 留学 (りゅうがく) - studying abroad
+- サービス - service; assistance; help
+- 経営 (けいえい) - running (a business)
+- 結果 (けっか) - result
+- 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
+- 滞在 (たいざい) - stay
+- 協力 (きょうりょく) - cooperation
+
 ### verbs (transitive)
 
 - 心配 (しんぱい) - care; help
@@ -942,7 +966,6 @@ ____
 
 ### nouns
 
-- 彫刻 (ちょうこく) - sculpture
 - 国立 (こくりつ) - national
 - ロビー - lobby
 - 広場 (ひろば) - square
@@ -954,7 +977,6 @@ ____
 - 中身 (なかみ) - contents; interior; inside
 - 以降 (いこう) - on and after; since
 - 役所 (やくしょ) - government office
-- クリーニング - cleaning; laundry service
 - ブラウス - blouse
 - 火山 (かざん) - volcano
 - センチ - centimeter
@@ -963,7 +985,13 @@ ____
 - 役所 (やくしょ) - government office
 - 理科 (りか) - science
 
-### する verbs
+### する transitive verbs
+
+- クリーニング - cleaning; laundry service
+
+### する transitive and intransitiive verbs
+
+- 彫刻 (ちょうこく) - sculpture
 
 ### adjectives (い)
 
@@ -1015,9 +1043,7 @@ ____
 - 悩み (なやみ) - trouble; worry; distress
 - 共 (とも) - together; both; all
 - ポインド - point
-- 取引 (とりひき) - transaction; dealings; business
 - 纏め (まとめ) - summary; recapitulation; aggregation
-- 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - ルール - rule
 - メーカー - manufacturer; maker
 - チャイム - chime; bell
@@ -1026,7 +1052,13 @@ ____
 
 - 過ぎ (すぎ) - past; after; over-;
 
-### する verbs
+### する transitive verbs
+
+- 取引 (とりひき) - transaction; dealings; business
+- 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
+
+### する intransitive verbs
+
 
 ### adjectives (い)
 
