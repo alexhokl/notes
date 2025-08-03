@@ -329,24 +329,75 @@ ____
 - 主人 (しゅじん) - husband; head of household; landlord; employer;
   restaurant owner
 - 名前 (なまえ) - first name
-- 学校 (がっこう) - school
-- 大学 (だいがく) - university
-- 教室 (きょうしつ) - classroom
-- 先生 (せんせい) - teacher; master
 - 物 (もの) - thing
 - 鉛筆 (えんぴつ) - pencil
 - 紙 (かみ) - paper
 - 手紙 (てがみ) - letter
 - 切手 (きって) - stamp
 - 会社 (かいしゃ) - company
-- 英語 (えいご) - English
 - 雑誌 (ざっし) - magazine
-- 本 (ほん) - book
-- 辞書 (じしょ) - dictionary
-- ノート - notebook
 - 写真 (しゃしん) - photograph
 - 問題 (もんだい) - problem (question)
 - 山 (やま) - mountain
+- 傘 (かさ) - umbrella
+- 鞄 (かばん) - bag
+- 財布 (さいふ) - wallet; purse
+- 花 (はな) - flower
+- 友達 (ともだち) - friend
+- 町 (まち) - town; neighborhood
+- 一緒 (いっしょ) - together; the same
+- 音楽 (おんがく) - music
+- 映画 (えいが) - movie
+- 絵 (え) - picture; drawing; painting; sketch
+- 物 (もの) - thing
+- 休み (やすみ) - rest; holiday
+- 海 (うみ) - sea
+- 声 (こえ) - voice; sound
+- 音 (おと) - sound; noise
+- 次 (つぎ) - next
+- 色 (いろ) - color
+- 階段 (かいだん) - stairs
+- 新聞 (しんぶん) - newspaper
+- 音楽 (おんがく) - music
+- 葉書 (はがき) - postcard
+- 同じ (おなじ) - same; identical; equal
+- プール - swimming pool; american pool (cue sport)
+- 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
+  negotiation; argument; rumor; tale; story
+- 道 (みち) - road; path; street; lane; passage
+- 先 (さき) - point; tip; end; nozzle; head (of a line); front; first; before;
+  ahead (of); (the way) ahead; beyond; future; previous; prior; former; recent;
+  last
+- 空 (そら) - sky; the air
+- 橋 (はし) - bridge
+- 歌 (うた) - song; singing; classical Japanese poem
+- ギター - guitar
+- 医者 (いしゃ) - doctor; physician
+- 伯母さん (おばさん) - aunt
+- 荷物 (にもつ) - luggage; baggage; package; payload
+- 所 (ところ) - place; site
+- キロ - kilometer
+- 本当 (ほんとう) - real; proper
+
+### nouns (academic)
+
+- 学校 (がっこう) - school
+- 大学 (だいがく) - university
+- 教室 (きょうしつ) - classroom
+- 先生 (せんせい) - teacher; master
+- 英語 (えいご) - English
+- 辞書 (じしょ) - dictionary
+- ノート - notebook
+- クラス - class
+- 本 (ほん) - book
+- 高校 (こうこう) - high school
+- 小学 (しょうがく) - elementary school
+- 中学 (ちゅうがく) - junior high school
+- 大学 (だいがく) - university; college
+- 言葉 (ことば) - word; language
+
+### nouns (home)
+
 - 部屋 (へや) - room
 - 台所 (だいどころ) - kitchen
 - 風呂 (ふろ) - bath
@@ -363,76 +414,15 @@ ____
 - 冷蔵庫 (れいぞうこ) - refrigerator
 - 冷凍庫 (れいとうこ) - freezer
 - コップ - cup
-- 傘 (かさ) - umbrella
-- 鞄 (かばん) - bag
-- 財布 (さいふ) - wallet; purse
-- 洋袴 (ズボン) - trousers
-- 洋服 (ようふく) - Western-style clothes
-- 帽子 (ぼうし) - hat
-- 靴 (くつ) - shoes
-- 靴下 (くつした) - socks
-- シャツ - shirt
-- ハンカチ - handkerchief
-- ネクタイ - necktie; tie
-- お古 (おふる) - second-hand; old clothes
 - 時計 (とけい) - clock; watch
 - ラジオ - radio
-- 花 (はな) - flower
-- 友達 (ともだち) - friend
 - 電気 (でんき) - electricity; light
-- 町 (まち) - town; neighborhood
-- 一緒 (いっしょ) - together; the same
-- 音楽 (おんがく) - music
-- 映画 (えいが) - movie
-- 絵 (え) - picture; drawing; painting; sketch
-- シャワー - shower
-- 物 (もの) - thing
-- 休み (やすみ) - rest; holiday
-- 天気 (てんき) - weather
-- 雨 (あめ) - rain
-- 海 (うみ) - sea
-- 声 (こえ) - voice; sound
-- 音 (おと) - sound; noise
-- 次 (つぎ) - next
-- 言葉 (ことば) - word; language
-- 色 (いろ) - color
-- 階段 (かいだん) - stairs
-- 新聞 (しんぶん) - newspaper
-- 音楽 (おんがく) - music
-- 箱 (はこ) - box
-- 葉書 (はがき) - postcard
-- 同じ (おなじ) - same; identical; equal
-- 病気 (びょうき) - illness (usually excluding minor ailments such as common
-  cold); disease; sickness
-- プール - swimming pool; american pool (cue sport)
-- 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
-  negotiation; argument; rumor; tale; story
-- 箸 (はし) - chopsticks
-- 道 (みち) - road; path; street; lane; passage
-- 先 (さき) - point; tip; end; nozzle; head (of a line); front; first; before;
-  ahead (of); (the way) ahead; beyond; future; previous; prior; former; recent;
-  last
-- セーター - sweater; jumper
-- クラス - class
 - フォーク - fork
 - スプーン - spoon
-- 空 (そら) - sky; the air
-- 橋 (はし) - bridge
-- 歌 (うた) - song; singing; classical Japanese poem
-- 高校 (こうこう) - high school
-- 小学 (しょうがく) - elementary school
-- 中学 (ちゅうがく) - junior high school
-- 大学 (だいがく) - university; college
-- 昼 (ひる) - noon; midday
-- ギター - guitar
-- 医者 (いしゃ) - doctor; physician
-- 伯母さん (おばさん) - aunt
-- 薬 (くすり) - medicine
 - 花瓶 (かびん) - vase
-- 荷物 (にもつ) - luggage; baggage; package; payload
-- 所 (ところ) - place; site
-- キロ - kilometer
-- 本当 (ほんとう) - real; proper
+- シャワー - shower
+- 箱 (はこ) - box
+- 箸 (はし) - chopsticks
 
 ### nouns (location)
 
@@ -466,6 +456,7 @@ ____
 
 - 午前 (ごぜん) - AM
 - 午後 (ごご) - PM
+- 昼 (ひる) - noon; midday
 - 今 (いま) - now
 - 春 (はる) - spring
 - 夏 (なつ) - summer
@@ -569,9 +560,18 @@ ____
 
 ### nouns (clothing)
 
+- 洋袴 (ズボン) - trousers
+- 洋服 (ようふく) - Western-style clothes
+- 帽子 (ぼうし) - hat
+- 靴 (くつ) - shoes
+- 靴下 (くつした) - socks
+- シャツ - shirt
+- ハンカチ - handkerchief
+- ネクタイ - necktie; tie
+- お古 (おふる) - second-hand; old clothes
 - コート - coat
-- セーター - sweater
 - 上着 (うわぎ) - outerwear
+- セーター - sweater; jumper
 
 ### nouns (transportation)
 
@@ -633,6 +633,8 @@ ____
 
 ### nouns (weather)
 
+- 天気 (てんき) - weather
+- 雨 (あめ) - rain
 - 晴れ (はれ) - sunny
 - 曇り (くもり) - cloudy
 - 雨 (あめ) - rain
@@ -645,6 +647,12 @@ ____
 ### nouns (colours)
 
 - 緑 (みどり) - green
+
+### nouns (health)
+
+- 薬 (くすり) - medicine
+- 病気 (びょうき) - illness (usually excluding minor ailments such as common
+  cold); disease; sickness
 
 ### nouns (countries)
 
@@ -834,27 +842,21 @@ ____
 
 ### nouns
 
-- オートバイ - motorcycle
+- 先輩 (せんぱい) - senior
+- 社長 (しゃちょう) - company president; manager; director
+- 店員 (てんいん) - shop assistant
+- 公務員 (こうむいん) - civil servant
+- 看護師 (かんごし) - nurse
+- 警察 (けいさつ) - police
+- 警察官 (けいさつかん) - police officer
 - 消しゴム (けしゴム) - eraser
 - 髪 (かみ) - hair
 - 引き出し (ひきだし) - drawer
 - 字 (じ) - character; kanji
-- 数学 (すうがく) - mathematics
 - エスカレーター - escalator
 - 漫画 (まんが) - manga
-- 寺 (てら) - temple
 - 値段 (ねだん) - price; cost
-- うち - home
-- 先輩 (せんぱい) - senior
-- 市 (し) - city
-- 工場 (こうじょう) - factory
-- サンドイッチ - sandwich
-- ケーキ - cake
-- 二階建て (にかいだて) - two-storied building
-- ビル - multi-storey building (usually used in part of name of the building)
-- 着物 (きもの) - kimono
 - 席 (せき) - seat
-- 乗り物 (のりもの) - vehicle; (means of) transport
 - 形 (かたち) - shape; form
 - テニス - tennis
 - 訳 (わけ) - meaning; reason
@@ -862,28 +864,18 @@ ____
 - コンピュータ - computer
 - 昼休み (ひるやすみ) - lunch break
 - 間 (あいだ) - interval; space; between
-- 空港 (くうこう) - airport
-- 社長 (しゃちょう) - company president; manager; director
-- 店員 (てんいん) - shop assistant
 - 指輪 (ゆびわ) - ring
 - 手袋 (てぶくろ) - gloves
-- 船 (ふね) - ship; boat
-- 湖 (みずうみ) - lake
-- 美術館 (びじゅつかん) - art museum; art gallery
-- 公務員 (こうむいん) - civil servant
 - 品物 (しなもの) - goods; article; thing; item
-- 看護師 (かんごし) - nurse
-- 警察 (けいさつ) - police
-- 警察官 (けいさつかん) - police officer
 - 人形 (にんぎょう) - doll
-- 売り場 (うりば) - selling area; sales counter; department (in a store); sales
-  floor
 - 空気 (くうき) - air; atmosphere; mood
 - 新聞社 (しんぶんしゃ) - newspaper company
 - 経済 (けいざい) - economy; economics
-- 神社 (じんじゃ) - Shinto shrine
 - 坂 (さか) - slope; hill; incline
-- 場所 (ばしょ) - place
+
+### nouns (academic)
+
+- 数学 (すうがく) - mathematics
 
 ### nouns (position)
 
@@ -893,8 +885,10 @@ ____
 
 - 昼間 (ひるま) - daytime
 
-### nouns (meat)
+### nouns (food)
 
+- サンドイッチ - sandwich
+- ケーキ - cake
 - ステーキ - steak
 
 ### nouns (fruits)
@@ -907,7 +901,20 @@ ____
 
 ### nouns (location)
 
+- 場所 (ばしょ) - place
 - 旅館 (りょかん) - traditional Japanese inn
+- 神社 (じんじゃ) - Shinto shrine
+- 売り場 (うりば) - selling area; sales counter; department (in a store); sales
+  floor
+- うち - home
+- 市 (し) - city
+- 寺 (てら) - temple
+- 工場 (こうじょう) - factory
+- 二階建て (にかいだて) - two-storied building
+- ビル - multi-storey building (usually used in part of name of the building)
+- 空港 (くうこう) - airport
+- 湖 (みずうみ) - lake
+- 美術館 (びじゅつかん) - art museum; art gallery
 
 ### nouns (shopping)
 
@@ -916,11 +923,15 @@ ____
 ### nouns (clothing)
 
 - 下着 (したぎ) - underwear
+- 着物 (きもの) - kimono
 
 ### nouns (transportation)
 
 - 急行 (きゅうこう) - express
 - 特急 (とっきゅう) - limited express
+- 船 (ふね) - ship; boat
+- オートバイ - motorcycle
+- 乗り物 (のりもの) - vehicle; (means of) transport
 
 ### nouns (family)
 
@@ -1047,17 +1058,16 @@ ____
 
 ### nouns
 
+- 俳優 (はいゆう) - actor; actress; player; performer
+- 同僚 (どうりょう) - colleague; co-worker
+- 恋人 (こいびと) - lover
+- 保証人 (ほしょうにん) - guarantor
 - 教科書 (きょうかしょ) - textbook
 - 桜 (さくら) - cherry blossom
 - 居間 (いま) - living room
-- 恋人 (こいびと) - lover
-- 保証人 (ほしょうにん) - guarantor
 - スタンド - stand
-- 城 (しろ) - castle
 - ソファー - sofa
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
-- 酒 (さけ) - alcohol
-- ワイン - wine
 - お皿 (おさら) - plate
 - 頃 (ころ) - (approximate) time
 - ドラマ - drama
@@ -1074,20 +1084,14 @@ ____
 - 浴衣 (ゆかた) - bathrobe
 - 袋 (ふくろ) - bag; sack; pouch
 - 以前 (いぜん) - before; ago
-- 俳優 (はいゆう) - actor; actress; player; performer
 - 事実 (じじつ) - fact; truth
 - 機嫌 (きげん) - mood; temper; spirits; humour
 - 笑い (わらい) - laugh; smile
-- 畑 (はたけ) - field; farm
 - 見舞い (みまい) - visit (to a sick person); inquiry; expression of sympathy
-- 同僚 (どうりょう) - colleague; co-worker
 - 事 (こと) - thing; matter
-- 弁当 (べんとう) - Japanese lunch box
-- 通り (とおり) - street; road; avenue
 - クリスマス - Christmas
 - 相手 (あいて) - companion; partner; opponent
 - 黒板 (こくばん) - blackboard
-- 道路 (どうろ) - road; highway
 - 煙 (けむり) - smoke
 - 礼 (れい) - thanks; gratitude; bow
 - 背 (せい) - height; stature
@@ -1115,6 +1119,7 @@ ____
 
 - 昼食 (ちゅうしょく) - lunch
 - 生 (なま) - raw; uncooked
+- 弁当 (べんとう) - Japanese lunch box
 
 ### nouns (dessert)
 
@@ -1125,6 +1130,7 @@ ____
 
 - ジュース - juice
 - ワイン - wine
+- 酒 (さけ) - alcohol
 
 ### nouns (home)
 
@@ -1138,6 +1144,9 @@ ____
 ### nouns (location)
 
 - センター - center; centre
+- 畑 (はたけ) - field; farm
+- 通り (とおり) - street; road; avenue
+- 城 (しろ) - castle
 
 ### nouns (shopping)
 
@@ -1148,6 +1157,7 @@ ____
 
 - ホーム - platform
 - トラック - truck
+- 道路 (どうろ) - road; highway
 
 ### nouns (technology)
 
@@ -1233,15 +1243,12 @@ ____
 ### nouns
 
 - 国立 (こくりつ) - national
-- ロビー - lobby
 - 苗字 (みょうじ) - surname
 - 箪笥 (たんす) - chest of drawers
 - 後輩 (こうはい) - junior
 - 複数 (ふくすう) - plural
 - 中身 (なかみ) - contents; interior; inside
 - 以降 (いこう) - on and after; since
-- 役所 (やくしょ) - government office
-- 火山 (かざん) - volcano
 - センチ - centimeter
 - 虹 (にじ) - rainbow
 - 役所 (やくしょ) - government office
@@ -1258,6 +1265,9 @@ ____
 
 - 広場 (ひろば) - square
 - 売店 (ばいてん) - stall; booth; kiosk; store
+- 火山 (かざん) - volcano
+- ロビー - lobby
+- 役所 (やくしょ) - government office
 
 ### nouns (shopping)
 
