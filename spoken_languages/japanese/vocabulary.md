@@ -884,7 +884,6 @@ ____
 - 神社 (じんじゃ) - Shinto shrine
 - 坂 (さか) - slope; hill; incline
 - 場所 (ばしょ) - place
-- アルバイト - part time (from German "Arbeit")
 
 ### nouns (position)
 
@@ -950,7 +949,7 @@ ____
 
 ### する intransitive verbs
 
-- アルバイト - part-time job
+- アルバイト - part-time job (from German "Arbeit")
 
 ### verbs (transitive)
 
