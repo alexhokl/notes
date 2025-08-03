@@ -2,14 +2,17 @@
   * [People](#people)
   * [Courses](#courses)
   * [Services](#services)
+    + [Google Gemini](#google-gemini)
   * [Tools](#tools)
 - [Concepts](#concepts)
-  * [General concepts](#general-concepts)
-  * [Retrieval augmented generation (RAG)](#retrieval-augmented-generation-rag)
-  * [Tricks with LLM](#tricks-with-llm)
+  * [Generative AI](#generative-ai)
+    + [Tools](#tools-1)
+    + [General concepts](#general-concepts)
+    + [Retrieval augmented generation (RAG)](#retrieval-augmented-generation-rag)
+    + [Tricks with LLM](#tricks-with-llm)
 - [Machine Learning](#machine-learning)
   * [Links](#links-1)
-- [Tools](#tools-1)
+- [Tools](#tools-2)
   * [GitHub Copilot](#github-copilot)
   * [Continue](#continue)
   * [yt-dlp](#yt-dlp)
@@ -51,6 +54,11 @@ ____
 - [Common Voice](https://commonvoice.mozilla.org/en) - a service for sharing,
   creating and curating text and speech datasets
   * it is a source of data set
+
+### Google Gemini
+
+- API key can be obrained from [Get API key in AI
+  Studio](https://ai.google.dev/gemini-api/docs/api-key)
 
 ## Tools
 
