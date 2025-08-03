@@ -9,13 +9,14 @@
     + [pronouns (time)](#pronouns-time)
     + [pronouns (person)](#pronouns-person)
     + [nouns](#nouns)
+    + [nouns (academic)](#nouns-academic)
+    + [nouns (home)](#nouns-home)
     + [nouns (location)](#nouns-location)
     + [nouns (family)](#nouns-family)
     + [nouns (time)](#nouns-time)
     + [nouns (food)](#nouns-food)
-    + [nouns (meat)](#nouns-meat)
     + [nouns (vegetables)](#nouns-vegetables)
-    + [nouns (fruit)](#nouns-fruit)
+    + [nouns (fruits)](#nouns-fruits)
     + [nouns (drinks)](#nouns-drinks)
     + [nouns (clothing)](#nouns-clothing)
     + [nouns (transportation)](#nouns-transportation)
@@ -25,6 +26,7 @@
     + [nouns (weather)](#nouns-weather)
     + [nouns (sports)](#nouns-sports)
     + [nouns (colours)](#nouns-colours)
+    + [nouns (health)](#nouns-health)
     + [nouns (countries)](#nouns-countries)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
@@ -42,10 +44,11 @@
     + [pronouns (person)](#pronouns-person-1)
     + [pronouns (things)](#pronouns-things)
     + [nouns](#nouns-1)
+    + [nouns (academic)](#nouns-academic-1)
     + [nouns (position)](#nouns-position-1)
     + [nouns (time)](#nouns-time-1)
-    + [nouns (meat)](#nouns-meat-1)
-    + [nouns (fruits)](#nouns-fruits)
+    + [nouns (food)](#nouns-food-1)
+    + [nouns (fruits)](#nouns-fruits-1)
     + [nouns (drinks)](#nouns-drinks-1)
     + [nouns (location)](#nouns-location-1)
     + [nouns (shopping)](#nouns-shopping)
@@ -68,10 +71,9 @@
     + [pronouns (person)](#pronouns-person-2)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
-    + [nouns (food)](#nouns-food-1)
-    + [nouns (dessert)](#nouns-dessert)
+    + [nouns (food)](#nouns-food-2)
     + [nouns (drinks)](#nouns-drinks-2)
-    + [nouns (home)](#nouns-home)
+    + [nouns (home)](#nouns-home-1)
     + [nouns (sports)](#nouns-sports-1)
     + [nouns (location)](#nouns-location-2)
     + [nouns (shopping)](#nouns-shopping-1)
@@ -89,7 +91,7 @@
     + [adjectives (い)](#adjectives-%E3%81%84-3)
     + [adjectives (な)](#adjectives-%E3%81%AA-3)
     + [nouns](#nouns-3)
-    + [nouns (food)](#nouns-food-2)
+    + [nouns (food)](#nouns-food-3)
     + [nouns (location)](#nouns-location-3)
     + [nouns (shopping)](#nouns-shopping-2)
     + [nouns (clothing)](#nouns-clothing-2)
@@ -107,13 +109,13 @@
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
     + [nouns](#nouns-4)
     + [nouns (clothing)](#nouns-clothing-3)
-    + [nouns (food)](#nouns-food-3)
+    + [nouns (food)](#nouns-food-4)
     + [nouns (web)](#nouns-web)
     + [nouns (transportation)](#nouns-transportation-3)
     + [nouns (colours)](#nouns-colours-2)
     + [nouns (sports)](#nouns-sports-2)
     + [nouns (technology)](#nouns-technology-2)
-    + [nouns (health)](#nouns-health)
+    + [nouns (health)](#nouns-health-1)
     + [noun suffixes](#noun-suffixes)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
@@ -132,16 +134,11 @@
     + [nouns](#nouns-5)
     + [nouns (family)](#nouns-family-2)
     + [nouns (time)](#nouns-time-2)
-    + [nouns (food)](#nouns-food-4)
+    + [nouns (food)](#nouns-food-5)
     + [nouns (fish)](#nouns-fish)
-    + [nouns (shellfish)](#nouns-shellfish)
     + [nouns (seafood)](#nouns-seafood)
     + [nouns (vegetables)](#nouns-vegetables-1)
-    + [nouns (fruits)](#nouns-fruits-1)
-    + [nouns (meat)](#nouns-meat-2)
-    + [nouns (poultry)](#nouns-poultry)
-    + [nouns (pastry)](#nouns-pastry)
-    + [nouns (dessert)](#nouns-dessert-1)
+    + [nouns (fruits)](#nouns-fruits-2)
     + [nouns (drinks)](#nouns-drinks-3)
     + [nouns (location)](#nouns-location-4)
     + [nouns (shopping)](#nouns-shopping-3)
@@ -150,7 +147,7 @@
     + [nouns (animals)](#nouns-animals-3)
     + [nouns (body parts)](#nouns-body-parts-1)
     + [nouns (position)](#nouns-position-2)
-    + [nouns (home)](#nouns-home-1)
+    + [nouns (home)](#nouns-home-2)
     + [nouns (sports)](#nouns-sports-3)
     + [nouns (countries)](#nouns-countries-1)
     + [nouns (work)](#nouns-work)
@@ -158,7 +155,7 @@
     + [nouns (technology)](#nouns-technology-3)
     + [nouns (signs)](#nouns-signs)
     + [nouns (logistics)](#nouns-logistics)
-    + [nouns (health)](#nouns-health-1)
+    + [nouns (health)](#nouns-health-2)
     + [nouns (finance)](#nouns-finance)
     + [noun prefixes](#noun-prefixes)
     + [noun suffixes](#noun-suffixes-1)
@@ -519,9 +516,6 @@ ____
 - 水 (みず) - water
 - 醤油 (しょうゆ) - soy sauce
 - 塩 (しお) - salt
-
-### nouns (meat)
-
 - 牛タン (ぎゅうタン) - beef tongue
 - 鶏 (にわとり) - chicken
 - 軟骨 (なんこつ) - cartilage
@@ -537,7 +531,7 @@ ____
 - じゃが芋 (じゃがいも) - potato
 - ピーマン - bell pepper
 
-### nouns (fruit)
+### nouns (fruits)
 
 - 果物 (くだもの) - fruit
 - バナナ - banana
@@ -1120,9 +1114,6 @@ ____
 - 昼食 (ちゅうしょく) - lunch
 - 生 (なま) - raw; uncooked
 - 弁当 (べんとう) - Japanese lunch box
-
-### nouns (dessert)
-
 - アイスクリーム - ice cream
 - クリーム - cream; ice cream
 
@@ -1532,6 +1523,27 @@ ____
 - 大蒜 (にんにく) - garlic
 - 豆腐 (とうふ) - tofu
 - 天ぷら (てんぷら) - tempura (battered and deep-fried food)
+- 叉焼 (チャーシュー) - roasted pork
+- 豚骨 (とんこつ) - pork bone
+- 牛タン (ぎゅうタン) - beef tongue
+- タン - tongue (beef tongue in general)
+- ハラミ - skirt steak (横隔膜)
+- ホルモン - offal (內臟)
+- ベーコン - bacon
+- 但馬牛 (たじまうし) - Tajima beef
+- 鴨 (かも) - duck
+- クッキー - cookie
+- ピザ - pizza
+- バーガー - burger
+- アップルパイ - apple pie
+- パンプキンパイ - pumpkin pie
+- キャロットケーキ - carrot cake
+- チョコ - chocolate
+- チョコレート - chocolate
+- アイス - ice; ice cream
+- 生菓子 (なまがし) - fresh sweets
+- ソフトクリーム - soft ice cream
+- プリン - pudding
 
 ### nouns (fish)
 
@@ -1563,16 +1575,13 @@ ____
 - アンチョビー - anchovy
 - 伊佐木 (いさき) - chicken grunt
 
-### nouns (shellfish)
+### nouns (seafood)
 
 - 鳥貝 (とりがい) - cockle
 - 赤貝 (あかがい) - red clam
 - 鮑 (あわび) - abalone
 - 蛤 (はまぐり) - clam
 - クラム (kuramu) - clam
-
-### nouns (seafood)
-
 - 魚介 (ぎょかい) - marine products
 - 海老 (えび) - shrimp
 - 車海老 (くるまえび) - tiger prawn
@@ -1606,39 +1615,6 @@ ____
 - 林檎 (りんご) - apple
 - 蜜柑 (みかん) - mandarin orange
 - 西瓜 (すいか) - watermelon
-
-### nouns (meat)
-
-- 叉焼 (チャーシュー) - roasted pork
-- 豚骨 (とんこつ) - pork bone
-- 牛タン (ぎゅうタン) - beef tongue
-- タン - tongue (beef tongue in general)
-- ハラミ - skirt steak (横隔膜)
-- ホルモン - offal (內臟)
-- ベーコン - bacon
-- 但馬牛 (たじまうし) - Tajima beef
-
-### nouns (poultry)
-
-- 鴨 (かも) - duck
-
-### nouns (pastry)
-
-- クッキー - cookie
-- ピザ - pizza
-- バーガー - burger
-- アップルパイ - apple pie
-- パンプキンパイ - pumpkin pie
-- キャロットケーキ - carrot cake
-
-### nouns (dessert)
-
-- チョコ - chocolate
-- チョコレート - chocolate
-- アイス - ice; ice cream
-- 生菓子 (なまがし) - fresh sweets
-- ソフトクリーム - soft ice cream
-- プリン - pudding
 
 ### nouns (drinks)
 
