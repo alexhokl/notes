@@ -977,7 +977,9 @@ ____
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
 - 変わる (かわる) - to change
 - 参る (まいる) - to go; to come; to call
-- 込む (こむ) - to be crowded; to go into; to put into; to become (completely)
+- 込む (こむ) - to be crowded; to go into; to put into; to become (completely);
+  included (in case of compound verb); to go deeper into (in case of compound
+  verb)
 - 反対 (はんたい) - opposition; resistance
 - 慣れる (なれる) - to get used to; to become familiar with
 - 返事 (へんじ) - reply; answer
@@ -1201,6 +1203,7 @@ ____
 - 届く (とどく) - to reach; to be delivered
 - 出発 (しゅっぱつ) - departure
 - 空く (あく) - to become empty
+- 申し込む (もうしこむ) - to apply for
 
 ### verbs (transitive and intransitive)
 
