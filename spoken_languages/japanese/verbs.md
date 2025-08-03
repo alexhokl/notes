@@ -16,6 +16,21 @@
   * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
 ____
 
+# Auxiliary verbs (助動詞)
+
+- です - be; is (polite form)
+- だ - be; is (plain form)
+- ます - politeness
+- ない - not
+- た - did; (pleaes) do
+- たい - want to
+- べき - should; must
+- はず - should; must
+- れる - passive voice; potential form
+- せる - causative voice; granting of permission; honorific for other's actions
+- でございます - polite form of です (usually used in shops to address to
+  customers)
+
 # Verb transitivity
 
 - types

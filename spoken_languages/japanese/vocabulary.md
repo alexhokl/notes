@@ -1,23 +1,31 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
-    + [nouns](#nouns)
-    + [nouns (family)](#nouns-family)
-    + [nouns (time)](#nouns-time)
-    + [nouns (food)](#nouns-food)
-    + [nouns (transportation)](#nouns-transportation)
-    + [nouns (animals)](#nouns-animals)
-    + [nouns (body parts)](#nouns-body-parts)
-    + [nouns (position)](#nouns-position)
-    + [nouns (sports)](#nouns-sports)
-    + [nouns (countries)](#nouns-countries)
+    + [conjunctions](#conjunctions)
+    + [adverbs](#adverbs)
+    + [adjectives (い)](#adjectives-%E3%81%84)
+    + [adjectives (な)](#adjectives-%E3%81%AA)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [pronouns (place)](#pronouns-place)
     + [pronouns (time)](#pronouns-time)
     + [pronouns (person)](#pronouns-person)
-    + [adjectives (い)](#adjectives-%E3%81%84)
-    + [adjectives (な)](#adjectives-%E3%81%AA)
-    + [adverbs](#adverbs)
-    + [conjunctions](#conjunctions)
+    + [nouns](#nouns)
+    + [nouns (location)](#nouns-location)
+    + [nouns (family)](#nouns-family)
+    + [nouns (time)](#nouns-time)
+    + [nouns (food)](#nouns-food)
+    + [nouns (meat)](#nouns-meat)
+    + [nouns (vegetables)](#nouns-vegetables)
+    + [nouns (fruit)](#nouns-fruit)
+    + [nouns (drinks)](#nouns-drinks)
+    + [nouns (clothing)](#nouns-clothing)
+    + [nouns (transportation)](#nouns-transportation)
+    + [nouns (animals)](#nouns-animals)
+    + [nouns (body parts)](#nouns-body-parts)
+    + [nouns (position)](#nouns-position)
+    + [nouns (weather)](#nouns-weather)
+    + [nouns (sports)](#nouns-sports)
+    + [nouns (colours)](#nouns-colours)
+    + [nouns (countries)](#nouns-countries)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
@@ -27,15 +35,24 @@
     + [verbs (direction intransitive)](#verbs-direction-intransitive)
     + [expressions](#expressions)
   * [N4](#n4)
-    + [nouns](#nouns-1)
-    + [nouns (position)](#nouns-position-1)
+    + [conjunctions](#conjunctions-1)
+    + [adverbs](#adverbs-1)
     + [adjectives (い)](#adjectives-%E3%81%84-1)
     + [adjectives (な)](#adjectives-%E3%81%AA-1)
     + [pronouns (person)](#pronouns-person-1)
     + [pronouns (things)](#pronouns-things)
-    + [adverbs](#adverbs-1)
-    + [conjunctions](#conjunctions-1)
-    + [Auxiliary verbs](#auxiliary-verbs)
+    + [nouns](#nouns-1)
+    + [nouns (position)](#nouns-position-1)
+    + [nouns (time)](#nouns-time-1)
+    + [nouns (meat)](#nouns-meat-1)
+    + [nouns (fruits)](#nouns-fruits)
+    + [nouns (drinks)](#nouns-drinks-1)
+    + [nouns (location)](#nouns-location-1)
+    + [nouns (shopping)](#nouns-shopping)
+    + [nouns (clothing)](#nouns-clothing-1)
+    + [nouns (transportation)](#nouns-transportation-1)
+    + [nouns (family)](#nouns-family-1)
+    + [nouns (technology)](#nouns-technology)
     + [する verbs](#%E3%81%99%E3%82%8B-verbs)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-1)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
@@ -44,40 +61,116 @@
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
     + [expressions](#expressions-1)
   * [N3](#n3)
-    + [nouns](#nouns-2)
-    + [nouns (animals)](#nouns-animals-1)
+    + [conjunctions](#conjunctions-2)
+    + [adverbs](#adverbs-2)
     + [adjectives (い)](#adjectives-%E3%81%84-2)
     + [adjectives (な)](#adjectives-%E3%81%AA-2)
     + [pronouns (person)](#pronouns-person-2)
-    + [adverbs](#adverbs-2)
-    + [conjunctions](#conjunctions-2)
+    + [nouns](#nouns-2)
+    + [nouns (animals)](#nouns-animals-1)
+    + [nouns (food)](#nouns-food-1)
+    + [nouns (dessert)](#nouns-dessert)
+    + [nouns (drinks)](#nouns-drinks-2)
+    + [nouns (home)](#nouns-home)
+    + [nouns (sports)](#nouns-sports-1)
+    + [nouns (location)](#nouns-location-2)
+    + [nouns (shopping)](#nouns-shopping-1)
+    + [nouns (transportation)](#nouns-transportation-2)
+    + [nouns (technology)](#nouns-technology-1)
     + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-2)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
     + [verbs (transitive)](#verbs-transitive-2)
     + [verbs (intransitive)](#verbs-intransitive-2)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-2)
     + [expressions](#expressions-2)
   * [N2](#n2)
-    + [nouns](#nouns-3)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
-    + [する transitive and intransitiive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitiive-verbs)
+    + [adverbs](#adverbs-3)
     + [adjectives (い)](#adjectives-%E3%81%84-3)
     + [adjectives (な)](#adjectives-%E3%81%AA-3)
-    + [adverbs](#adverbs-3)
+    + [nouns](#nouns-3)
+    + [nouns (food)](#nouns-food-2)
+    + [nouns (location)](#nouns-location-3)
+    + [nouns (shopping)](#nouns-shopping-2)
+    + [nouns (clothing)](#nouns-clothing-2)
+    + [nouns (animals)](#nouns-animals-2)
+    + [nouns (colours)](#nouns-colours-1)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
     + [verbs (transitive)](#verbs-transitive-3)
     + [verbs (intransitive)](#verbs-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
+    + [adverbs](#adverbs-4)
+    + [adjectives (い)](#adjectives-%E3%81%84-4)
+    + [adjectives (な)](#adjectives-%E3%81%AA-4)
     + [nouns](#nouns-4)
+    + [nouns (clothing)](#nouns-clothing-3)
+    + [nouns (food)](#nouns-food-3)
+    + [nouns (web)](#nouns-web)
+    + [nouns (transportation)](#nouns-transportation-3)
+    + [nouns (colours)](#nouns-colours-2)
+    + [nouns (sports)](#nouns-sports-2)
+    + [nouns (technology)](#nouns-technology-2)
+    + [nouns (health)](#nouns-health)
     + [noun suffixes](#noun-suffixes)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
-    + [adjectives (い)](#adjectives-%E3%81%84-4)
-    + [adjectives (な)](#adjectives-%E3%81%AA-4)
-    + [adverbs](#adverbs-4)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
     + [verbs (transitive)](#verbs-transitive-4)
     + [verbs (intransitive)](#verbs-intransitive-4)
+  * [N0](#n0)
+    + [particles](#particles)
+    + [conjunctions](#conjunctions-3)
+    + [adverbs](#adverbs-5)
+    + [adjectives (い)](#adjectives-%E3%81%84-5)
+    + [adjectives (な)](#adjectives-%E3%81%AA-5)
+    + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E-1)
+    + [pronouns (time)](#pronouns-time-1)
+    + [pronouns (person)](#pronouns-person-3)
+    + [nouns](#nouns-5)
+    + [nouns (family)](#nouns-family-2)
+    + [nouns (time)](#nouns-time-2)
+    + [nouns (food)](#nouns-food-4)
+    + [nouns (fish)](#nouns-fish)
+    + [nouns (shellfish)](#nouns-shellfish)
+    + [nouns (seafood)](#nouns-seafood)
+    + [nouns (vegetables)](#nouns-vegetables-1)
+    + [nouns (fruits)](#nouns-fruits-1)
+    + [nouns (meat)](#nouns-meat-2)
+    + [nouns (poultry)](#nouns-poultry)
+    + [nouns (pastry)](#nouns-pastry)
+    + [nouns (dessert)](#nouns-dessert-1)
+    + [nouns (drinks)](#nouns-drinks-3)
+    + [nouns (location)](#nouns-location-4)
+    + [nouns (shopping)](#nouns-shopping-3)
+    + [nouns (clothing)](#nouns-clothing-4)
+    + [nouns (transportation)](#nouns-transportation-4)
+    + [nouns (animals)](#nouns-animals-3)
+    + [nouns (body parts)](#nouns-body-parts-1)
+    + [nouns (position)](#nouns-position-2)
+    + [nouns (home)](#nouns-home-1)
+    + [nouns (sports)](#nouns-sports-3)
+    + [nouns (countries)](#nouns-countries-1)
+    + [nouns (work)](#nouns-work)
+    + [nouns (web)](#nouns-web-1)
+    + [nouns (technology)](#nouns-technology-3)
+    + [nouns (signs)](#nouns-signs)
+    + [nouns (logistics)](#nouns-logistics)
+    + [nouns (health)](#nouns-health-1)
+    + [nouns (finance)](#nouns-finance)
+    + [noun prefixes](#noun-prefixes)
+    + [noun suffixes](#noun-suffixes-1)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
+    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-5)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-4)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
+    + [verbs (transitive)](#verbs-transitive-5)
+    + [verbs (intransitive)](#verbs-intransitive-5)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
+    + [verbs (direction intransitive)](#verbs-direction-intransitive-1)
+    + [expressions](#expressions-4)
 ____
 
 # Vocabulary
@@ -114,6 +207,8 @@ ____
 - 大変 (たいへん) - very; greatly; terribly
 - 早く (はやく) - quickly; early; also as 速く
 - どうぞ - please; go ahead
+- 丁度 (ちょうど) - just; exactly; right
+- 未だ (まだ) - still; as yet; (more) still; at least; comparatively
 
 ### adjectives (い)
 
@@ -164,6 +259,10 @@ ____
 - 辛い (つらい) - spicy
 - 明るい (あかるい) - bright
 - 痛い (いたい) - painful; sore
+- 可愛い (かわいい) - cute
+- 欲しい (ほしい) - wanting (to have); desiring; I want (someone) to (do)
+- 熱い (あつい) - hot
+- 寒い (さむい) - cold
 
 ### adjectives (な)
 
@@ -332,6 +431,8 @@ ____
 - 花瓶 (かびん) - vase
 - 荷物 (にもつ) - luggage; baggage; package; payload
 - 所 (ところ) - place; site
+- キロ - kilometer
+- 本当 (ほんとう) - real; proper
 
 ### nouns (location)
 
@@ -363,6 +464,9 @@ ____
 
 ### nouns (time)
 
+- 午前 (ごぜん) - AM
+- 午後 (ごご) - PM
+- 今 (いま) - now
 - 春 (はる) - spring
 - 夏 (なつ) - summer
 - 秋 (あき) - autumn
@@ -415,15 +519,24 @@ ____
 ### nouns (food)
 
 - 焼き (やき) - grilled; fried
-- 牛タン (ぎゅうタン) - beef tongue
 - 牛乳 (ぎゅうにゅう) - milk
-- 鶏 (にわとり) - chicken
-- 軟骨 (なんこつ) - cartilage
-- 卵 (たまご) - egg
+- 卵 (たまご) - egg (aka 玉子)
 - ご飯 (ごはん) - meal; cooked rice
 - パン - bread
 - 蜂蜜 (はちみつ) - honey
+- カレー - curry
 - 水 (みず) - water
+- 醤油 (しょうゆ) - soy sauce
+- 塩 (しお) - salt
+
+### nouns (meat)
+
+- 牛タン (ぎゅうタン) - beef tongue
+- 鶏 (にわとり) - chicken
+- 軟骨 (なんこつ) - cartilage
+
+### nouns (vegetables)
+
 - 野菜 (やさい) - vegetable
 - ほうれん草 (ほうれんそう) - spinach
 - 人参 (にんじん) - carrot
@@ -432,6 +545,9 @@ ____
 - 茄子 (なす) - eggplant
 - じゃが芋 (じゃがいも) - potato
 - ピーマン - bell pepper
+
+### nouns (fruit)
+
 - 果物 (くだもの) - fruit
 - バナナ - banana
 - パイナップル - pineapple
@@ -444,6 +560,19 @@ ____
 - レモン - lemon
 - 桃 (もも) - peach
 
+### nouns (drinks)
+
+- お茶 (おちゃ) - tea
+- コーヒー - coffee
+- 水 (みず) - water
+- 紅茶 (こうちゃ) - black tea
+
+### nouns (clothing)
+
+- コート - coat
+- セーター - sweater
+- 上着 (うわぎ) - outerwear
+
 ### nouns (transportation)
 
 - 地下鉄 (ちかてつ) - subway; metro; underground
@@ -455,6 +584,7 @@ ____
 - 自転車 (じてんしゃ) - bicycle
 - 飛行機 (ひこうき) - airplane
 - タクシー - taxi
+- 切符 (きっぷ) - ticket
 
 ### nouns (animals)
 
@@ -462,6 +592,7 @@ ____
 - 犬 (いぬ) - dog
 - 猫 (ねこ) - cat
 - 魚 (さかな) - fish
+- 鳥 (とり) - bird
 - パット - pet
 
 ### nouns (body parts)
@@ -500,10 +631,20 @@ ____
 - 角 (かど) - corner
 - 向こう (むこう) - over there; opposite side; the other side
 
+### nouns (weather)
+
+- 晴れ (はれ) - sunny
+- 曇り (くもり) - cloudy
+- 雨 (あめ) - rain
+
 ### nouns (sports)
 
 - ジョギング - jogging
 - サッカー - soccer
+
+### nouns (colours)
+
+- 緑 (みどり) - green
 
 ### nouns (countries)
 
@@ -633,8 +774,8 @@ ____
 
 - どうも - not exactly thank you but shows some kind of gratitude
 - 下さい (ください) - please
-- あのう - em...
 - 就いて (ついて) - about; concerning; as to; regarding
+- あのう - em... (aka あの); usually used before asking a question
 
 ## N4
 
@@ -742,14 +883,54 @@ ____
 - 経済 (けいざい) - economy; economics
 - 神社 (じんじゃ) - Shinto shrine
 - 坂 (さか) - slope; hill; incline
+- 場所 (ばしょ) - place
+- アルバイト - part time (from German "Arbeit")
 
 ### nouns (position)
 
 - 隅 (すみ) - corner
 
-### Auxiliary verbs
+### nouns (time)
 
-- はず - should; must; expected to
+- 昼間 (ひるま) - daytime
+
+### nouns (meat)
+
+- ステーキ - steak
+
+### nouns (fruits)
+
+- 葡萄 (ぶどう) - grape
+
+### nouns (drinks)
+
+- アルコール - alcohol
+
+### nouns (location)
+
+- 旅館 (りょかん) - traditional Japanese inn
+
+### nouns (shopping)
+
+- レジ - cash register
+
+### nouns (clothing)
+
+- 下着 (したぎ) - underwear
+
+### nouns (transportation)
+
+- 急行 (きゅうこう) - express
+- 特急 (とっきゅう) - limited express
+
+### nouns (family)
+
+- 赤ちゃん - baby
+
+### nouns (technology)
+
+- テキスト - text; textbook
+- パソコン - personal computer
 
 ### する verbs
 
@@ -819,6 +1000,7 @@ ____
 
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
   congratulate; to welcome (a proposal, advice)
+- 開く (ひらく) - open
 
 ### expressions
 
@@ -846,6 +1028,7 @@ ____
 
 - 嬉しい (うれしい) - happy; glad; pleased
 - 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
+- 素晴らしい (すばらしい) - wonderful
 
 ### adjectives (な)
 
@@ -853,6 +1036,7 @@ ____
 - 邪魔 (じゃま) - disturbance; obstruction
 - たっぷり - full of; a lot of; plenty of
 - 苦手 (にがて) - poor at; weak in; not good at
+- 素敵 (すてき) - lovely; wonderful; nice
 
 ### pronouns (person)
 
@@ -907,6 +1091,15 @@ ____
 - 礼 (れい) - thanks; gratitude; bow
 - 背 (せい) - height; stature
 - 調子 (ちょうし) - condition; state of health; tune
+- 順番 (じゅんばん) - order; turn
+- 自身 (じしん) - oneself; yourself; himself; herself
+- 旧 (きゅう) - old; former; ex-
+- 状況 (じょうきょう) - state of affairs; situation; conditions
+- 柄 (がら) - pattern
+- 年代 (ねんだい) - year or generation (for vintage)
+- 幅 (はば) - width
+- 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
+- 丸 (まる) - circle
 
 ### nouns (animals)
 
@@ -914,11 +1107,50 @@ ____
 - 象 (ぞう) - elephant
 - 虎 (とら) - tiger
 - 鼠 (ねずみ) - rat; mouse
+- 牛 (うし) - cow
+- 馬 (うま) - horse
 
 ### nouns (food)
 
 - 昼食 (ちゅうしょく) - lunch
 - 生 (なま) - raw; uncooked
+
+### nouns (dessert)
+
+- アイスクリーム - ice cream
+- クリーム - cream; ice cream
+
+### nouns (drinks)
+
+- ジュース - juice
+- ワイン - wine
+
+### nouns (home)
+
+- ソファ - sofa
+
+### nouns (sports)
+
+- ゴール (gōru) - goal
+- チーム - team
+
+### nouns (location)
+
+- センター - center; centre
+
+### nouns (shopping)
+
+- 現金 (げんきん) - cash
+- 中古 (ちゅうこ) - used
+
+### nouns (transportation)
+
+- ホーム - platform
+- トラック - truck
+
+### nouns (technology)
+
+- コード - code
 
 ### する verbs
 
@@ -931,6 +1163,10 @@ ____
 - 世話 (せわ) - care; looking after; help; support
 - 観光 (かんこう) - sightseeing
 - 建築 (けんちく) - architecture; construction
+- 販売 (はんばい) - selling
+- 案内 (あんない) - guidance; information
+- パス - passing
+- 承認 (しょうにん) - approval; acknowledgment; consent
 
 ### する intransitive verbs
 
@@ -966,58 +1202,94 @@ ____
 - 出発 (しゅっぱつ) - departure
 - 空く (あく) - to become empty
 
+### verbs (transitive and intransitive)
+
+- 閉じる (とじる) - close
+
 ### expressions
 
 - いただきます - thank you (for the mean just served, not finished)
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
 - 実は (じつは) - as a matter of fact; to be honest; by the way
+- いらっしゃい - welcome
 
 ## N2
-
-### nouns
-
-- 国立 (こくりつ) - national
-- ロビー - lobby
-- 広場 (ひろば) - square
-- 苗字 (みょうじ) - surname
-- 箪笥 (たんす) - chest of drawers
-- 後輩 (こうはい) - junior
-- 売店 (ばいてん) - stall; booth; kiosk; store
-- 複数 (ふくすう) - plural
-- 中身 (なかみ) - contents; interior; inside
-- 以降 (いこう) - on and after; since
-- 役所 (やくしょ) - government office
-- ブラウス - blouse
-- 火山 (かざん) - volcano
-- センチ - centimeter
-- 虹 (にじ) - rainbow
-- 刺身 (さしみ) - sashimi
-- 役所 (やくしょ) - government office
-- 理科 (りか) - science
-
-### する transitive verbs
-
-- クリーニング - cleaning; laundry service
-
-### する transitive and intransitiive verbs
-
-- 彫刻 (ちょうこく) - sculpture
-
-### adjectives (い)
-
-- 勿体ない (もったいない) - wasteful; too good; more than one deserves
-
-### adjectives (な)
-
-- 透明 (とうめい) - transparent
 
 ### adverbs
 
 - 愈々 (いよいよ) - more and more; all the more
 
+### adjectives (い)
+
+- 勿体ない (もったいない) - wasteful; too good; more than one deserves; a waste
+  (usually people leaving a place and do not want to keep the item)
+
+### adjectives (な)
+
+- 透明 (とうめい) - transparent
+
+### nouns
+
+- 国立 (こくりつ) - national
+- ロビー - lobby
+- 苗字 (みょうじ) - surname
+- 箪笥 (たんす) - chest of drawers
+- 後輩 (こうはい) - junior
+- 複数 (ふくすう) - plural
+- 中身 (なかみ) - contents; interior; inside
+- 以降 (いこう) - on and after; since
+- 役所 (やくしょ) - government office
+- 火山 (かざん) - volcano
+- センチ - centimeter
+- 虹 (にじ) - rainbow
+- 役所 (やくしょ) - government office
+- 理科 (りか) - science
+- カラー - color
+- 西暦 (せいれき) - Western calendar
+- バツ - cross
+
+### nouns (food)
+
+- 刺身 (さしみ) - sashimi
+
+### nouns (location)
+
+- 広場 (ひろば) - square
+- 売店 (ばいてん) - stall; booth; kiosk; store
+
+### nouns (shopping)
+
+- 定価 (ていか) - regular retail price
+- 免税 (めんぜい) - tax free
+- 売り切れ (うりきれ) - sold out
+- 貸出 (かしだし) - lending; loaning; renting out
+
+### nouns (clothing)
+
+- ブラウス - blouse
+
+### nouns (animals)
+
+- 蚊 (か) - mosquito
+
+### nouns (colours)
+
+- 紫 (むらさき) - purple
+- ピンク - pink
+
+### する transitive verbs
+
+- クリーニング - cleaning; laundry service
+
+### する transitive and intransitive verbs
+
+- 彫刻 (ちょうこく) - sculpture
+
 ### verbs (transitive)
 
 - 蹴る (ける) - to kick
+- 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
+- 開放 (かいほう) - open
 
 ### verbs (intransitive)
 
@@ -1029,10 +1301,15 @@ ____
 
 ### expressions
 
+- 初めまして (はじめまして) - nice to meet you
 - お陰様で (おかげさまで) - thankfully; fortunately
 - ご馳走様 (ごちそうさま) - thank you (for the meal)
 - ご馳走様でした (ごちそうさまでした) - thank you (for the meal)
 - かしこまりました - certainly
+- 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
+  leaves)
+- お邪魔します (おじゃまします) - please excuse the intrusion (greeting used
+  when entering someone's place)
 
 ## N1
 
@@ -1042,6 +1319,18 @@ ____
 - のみ - only; nothing but
 - 了解 (りょうかい) - understanding; comprehension; consent; agreement; OK;
   roger
+
+### adverbs
+
+- 直ぐ (すぐ) - immediately; soon; easily
+
+### adjectives (い)
+
+- 相応しい (ふさわしい) - ideal; perfect
+
+### adjectives (な)
+
+- 的 (てき) - -ish; -wise; -like
 
 ### nouns
 
@@ -1059,10 +1348,50 @@ ____
 - ルール - rule
 - メーカー - manufacturer; maker
 - チャイム - chime; bell
+- サイズ - size
+- 丈 (たけ) - height; length (of clothing)
+- 汚れ (よごれ) - dirt, stains, spots
+- 皺 (しわ) - wrinkle, crease (aka シワ)
+
+### nouns (clothing)
+
+- パジャマ - pajamas
 
 ### nouns (food)
 
 - 定食 (ていしょ) - set meal
+
+### nouns (web)
+
+- カテゴリ - category
+
+### nouns (transportation)
+
+- 徒歩 (とほ) - on foot
+- レンタカー - rental car
+- 扉 (とびら) - door
+- オートマチック - automatic transmission
+
+### nouns (colours)
+
+- オレンジ - orange
+- グレー - grey
+
+### nouns (sports)
+
+- ポジション - position
+
+### nouns (technology)
+
+- ファイル - file
+- データ - data
+- メッセージ - message
+- システム - system
+
+### nouns (health)
+
+- お襁褓 (おむつ) - diaper
+- ウイルス - virus
 
 ### noun suffixes
 
@@ -1072,21 +1401,15 @@ ____
 
 - 取引 (とりひき) - transaction; dealings; business
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
+- デザイン - design
 
 ### する intransitive verbs
 
+- 日焼け (ひやけ) - sun damage/fading
 
-### adjectives (い)
+### する transitive and intransitive verbs
 
-- 相応しい (ふさわしい) - ideal; perfect
-
-### adjectives (な)
-
-- 的 (てき) - -ish; -wise; -like
-
-### adverbs
-
-- 直ぐ (すぐ) - immediately; soon; easily
+- コメント - comment
 
 ### verbs (transitive)
 
@@ -1111,10 +1434,16 @@ ____
 - 滅茶 (めっちゃ) - extremely; very
 - 未明 (みめい) - early morning
 - 先ずは (まずは) - first of all; probably; more or less; anyway
+- だらだら - leisurely
 
 ### adjectives (い)
 
+- やばい - oh crap!; dangerous; risky; awful; terrible; amazing
+- 気持ちいい (きもちいい) - feeling good
+
 ### adjectives (な)
+
+- ご迷惑 (ごめいわく) - trouble; annoyance
 
 ### 連体詞
 
@@ -1123,55 +1452,476 @@ ____
 - ああ言う (ああいう) - that sort of
 - どう言う (どういう) - what sort of
 
-### pronouns (place)
-
 ### pronouns (time)
 
 ### pronouns (person)
 
 ### nouns
 
+- 歯磨き粉 (はみがきこ) - toothpaste
+- エーティーエム - ATM
+- 洋書 (ようしょ) - book in foreign language
+- 腕時計 (うでどけい) - wristwatch
+- サングラス - sunglasses
+- チャック - zip (for bags)
+- 綻び (ほころび) - tear; open seam; seam that has come apart
+- 皆様 (みなさま) - everyone (honorific)
+- 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
+- お持て成し (おもてなし) - hospitality; reception; entertainment;
+  treatment; service
+- 痴漢 (ちかん) - molester; pervert
+- 月極 (つきぎめ) - monthly contract (aka 月極め)
+- 防災 (ぼうさい) - disaster preparedness
+- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
+- 携帯電話 (けいたいでんわ) - mobile phone
+- スマートフォン (スマホ) - smartphone
+- シェービング - shaving
+- ヘッドスパ - head spa
+- 戸建て (こだて) - house
+- 不動産 (不動産) - real estate
+- スチール - steel
+- 薔薇 (ばら) - rose
+- 演奏会 (えんそうかい) - concert
+- 初心者 (しょしんしゃ) - beginner
+- 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
+- 下振れ (したぶれ) - downturn; downside
+- 女 (おんな) - women (used as prefix)
+- 女 (じょ) - woman (used as suffix)
+- 女の人 (おんなのひと) - woman
+- 男 (おとこ) - man (used as prefix)
+- 男 (なん) - man (used as suffix)
+- 男の人 (おとこのひと) - man
+
 ### nouns (family)
 
+- 実家 (じっか) - home (of one's parents')
+
 ### nouns (time)
+
+- 午前零時 - midnight
+- 午後零時 - noon
+- 翌朝 (よくあさ) - next morning
 
 ### nouns (food)
 
 - 朝食 (ちょうしょく) - breakfast
 - 夕食 (ゆうしょく) - dinner
+- 割烹 (かっぽう) - Japanese-style cooking
+- お通し (おとうし) - appetizers (Japanese)
+- 黄身 (きみ) - egg yolk
+- 白身 (しろみ) - egg white; white-fleshed fish; white meat
+- パスタ - pasta
+- カップメン - cup noodles
+- 豚汁 (とんじる) - pork miso soup
+- ビュッフェ - buffet
+- 中華料理 (ちゅうかりょうり) - Chinese food
+- チルド - chilled
+- 挽きたて (ひきたて) - freshly ground
+- 大蒜 (にんにく) - garlic
+- 豆腐 (とうふ) - tofu
+- 天ぷら (てんぷら) - tempura (battered and deep-fried food)
+
+### nouns (fish)
+
+- 鯖 (さば) - mackerel
+- 鮪 (まぐろ) - tuna
+- 本鮪 (ほんまぐろ) - bluefin tuna
+- とろ - fatty cut of tuna
+- 中トロ (ちゅうとろ) - medium fatty cut of tuna
+- 大トロ (おおとろ) - fatty cut of tuna
+- 鮃 (ひらめ) - flounder
+- 新烏賊 (しんいか) - squid
+- 墨烏賊 (すみいか) - cuttlefish
+- 鰤 (ぶり) - amberjack / yellowtail
+- 魬 (はまち) - young amberjack / yellowtail
+- 平政 (ひらまさ) - yellowtail amberjack
+- 間八 (かまはち) - greater amberjack
+- 縞鯵 (しまあじ) - striped jack (striped horse mackerel)
+- 鯵 (あじ) - horse mackerel
+- 鰯 (いわし) - sardine
+- 新子 (しんこ) - juvenile gizzard shad
+- 小鰭 (こびれ) - mid-sized konoshiro gizzard shad
+- 鰹 (かつお) - bonito (skipjack tuna)
+- 真子鰈 (まこがれい) - marbled sole
+- 針魚 (さより) - halfbeak
+- 穴子 (あなご) - conger eel
+- シーバス - sea bass
+- ハドック - haddock
+- マス - trout
+- アンチョビー - anchovy
+- 伊佐木 (いさき) - chicken grunt
+
+### nouns (shellfish)
+
+- 鳥貝 (とりがい) - cockle
+- 赤貝 (あかがい) - red clam
+- 鮑 (あわび) - abalone
+- 蛤 (はまぐり) - clam
+- クラム (kuramu) - clam
+
+### nouns (seafood)
+
+- 魚介 (ぎょかい) - marine products
+- 海老 (えび) - shrimp
+- 車海老 (くるまえび) - tiger prawn
+- 蝦蛄 (しゃこ) - mantis shrimp
+- エビフライ - fried shrimp
+- 蛸 (たこ) - octopus
+- 蛸足 (たこあし) - octopus legs
+- 海胆 (ウニ) - sea urchin
+- 小柱 (こばしら) - baby scallop
+- イクラ - salted salmon roe
+- 朧 (おぼろ) - crumbled shrimp paste
+- 蟹 (かに) - crab
+- 牡蠣 (かき) - oyster
+- 生牡蠣 (なまがき) - raw oyster
+
+### nouns (vegetables)
+
+- 玉ねぎ (たまねぎ) - onion
+- 葱 (negi) - green onion
+- トマト - tomato
+- ベジタリアン - vegetarian
+- 人参 (にんじん) - carrot
+- ほうれん草 (ほうれんそう) - spinach
+- ポテト - potato
+- 朝鮮人参 (ちょうせんにんじん) - ginseng
+
+### nouns (fruits)
+
+- バナナ (banana) - banana
+- 苺 (いちご) - strawberry
+- 林檎 (りんご) - apple
+- 蜜柑 (みかん) - mandarin orange
+- 西瓜 (すいか) - watermelon
+
+### nouns (meat)
+
+- 叉焼 (チャーシュー) - roasted pork
+- 豚骨 (とんこつ) - pork bone
+- 牛タン (ぎゅうタン) - beef tongue
+- タン - tongue (beef tongue in general)
+- ハラミ - skirt steak (横隔膜)
+- ホルモン - offal (內臟)
+- ベーコン - bacon
+- 但馬牛 (たじまうし) - Tajima beef
+
+### nouns (poultry)
+
+- 鴨 (かも) - duck
+
+### nouns (pastry)
+
+- クッキー - cookie
+- ピザ - pizza
+- バーガー - burger
+- アップルパイ - apple pie
+- パンプキンパイ - pumpkin pie
+- キャロットケーキ - carrot cake
+
+### nouns (dessert)
+
+- チョコ - chocolate
+- チョコレート - chocolate
+- アイス - ice; ice cream
+- 生菓子 (なまがし) - fresh sweets
+- ソフトクリーム - soft ice cream
+- プリン - pudding
+
+### nouns (drinks)
+
+- コーラ - cola
+- 緑茶ハイ (りょくちゃ) - high ball with green tea
+- 抹茶 (まっちゃ) - matcha
+- 煎茶 (せんちゃ) - green tea
+- 玉露 (ぎょくろ) - green tea - high quality
 
 ### nouns (location)
 
 - マクドナルド - McDonald's
+- コンビニ - convenience store
+- スーパー - supermarket
+- 本屋 (ほんや) - bookstore
+- 地下街 (ちかがい) - underground shopping street
+- 風呂場 (ふろば) - bathroom
+
+### nouns (shopping)
+
+- 新入荷 (しんにゅうか) - new arrival
+- 激安 (げきやす) - dirty cheap
+- 参考上代 (さんこうじょうだい) - MSRP (Manufacturer's Suggested Retail Price)
+- 免税 (めんぜい) - tax free
+- レジ - cash register
+- 徳用 (とくよう) - family size
+- 手数料 (てすうりょう) - handling fee; commission
+- 通販 (つうはん) - online shopping
+- 新品 (しんぴん) - new
+- 未使用 (みしよう) - unused
+- 貸し切り (かしかり) - reserving (for exclusing use); full booking; block
+  reservation
+- 早割 (はやわり) - early bird discount
+- 着払い (ちゃくばらい) - cash on delivery
+- 送料込み (そうりょうこみ) - free shipping; shipping included
+- 宅配 (たくはい) - home delivery
+- 宅配便 (たくはいびん) - express home delivery service
+- 手作り (てずくり) - handmade
+- ハンドメイド - handmade
+- ブランド - brand
+- リサイクルショップ - recycle shop (store that sells used goods)
+- リユース - resue
+- 中古品 (ちゅうこひん) - used item
+- 中古商品 (ちゅうこしょうひん) - used product
+- 古着屋 (ふるぎや) - thrift store for clothing
+- 古本屋 (ふるほんや) - used book store
+- 古書店 (こしょてん) - used book store
+- 中古本 (ちゅうこほん) - secondhand book
+- 古本 (ふるほん) - secondhand book
+- 古書 (こしょ) - secondhand book
+- 単行本 (たんこうぼん) - single volume book
+- コミック - comic book
+- 不用品 (ふようひん) - unneeded item
+- フリーマーケット - flea market (aka フリマ)
+- コンディション - condition
+- 色褪せ (いろあせ) - fading, discoloration
+- 使用感 (しようかん) - wear and tear, signs of use
+- 未使用品 (みしようひん) - unused item
+- ドル - dollar
+
+### nouns (clothing)
+
+- ショーツ - shorts
+- ショートパンツ - shorts
+- 半ズボン (はんずぼん) - (knee) breeches
+- ジャケット - jacket
+- デニムジャケット - jean jacket
+- レザージャケット - leather jacket
+- 革ジャケット (かわジャケット) - leather jacket
+- テーラードジャケット - tailored jacket
+- ニット - knit
+- アウターウエア - outerwear
+- パンツ - pants (underwear)
+- ルームウエア - roomwear; loungewear
+- レディース - womenswear
+- メンズ - menswear
+- ユニセックス - unisex
+- ジェンダーレス - genderless
+- キッズ - kidswear
+- 半袖シャツ (はんそでシャツ) - short-sleeve shirt
+- 大きめ (おおきめ) - on the large side
+- 小さめ (ちさめ) - on the small side
+- フリーサイズ - one size fits all
+- 身丈 (みたけ) - length (of clothing)
+- 身幅 (みはば) - width of a garment
+- 肩幅 (かたはば) - shoulder width
+- 袖丈 (そでたけ) - sleeve length
+- ウエスト - waist width
+- 胴幅 (どうはば) - waist width
+- 腰幅 (こしはば) - waist width
+- 股上 (またがみ) - front rise (crotch to waist, for pants)
+- 股下 (またした) - inseam (crotch to hem, for pants)
+- 裾幅 (すそはば) - hem width
+- 総丈 (そうたけ) - total length
+- 古着 (ふるぎ) - secondhand clothing
+- 染み (しみ) - stain, spot, smudge, discoloration (aka シミ)
+- 毛玉 (けだま) - pilling, fuzz balls
 
 ### nouns (transportation)
 
+- 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
+- 改札口 (かいさつぐち) - ticket gate
+- バス乗降所 (バスじょうこうしょ) - bus stop (get on and off)
+- トラム - tram
+- 内回り (うちまわり) - inner loop
+- 外回り (そとまわり) - outer loop
+- 反対側 (はんたいがわ) - opposite side
+- レーン - lane
+- 快速 (かいそく) - rapid
+- 新快速 (しんかいそく) - special rapid
+- マニュアル - manual transmission
+
 ### nouns (animals)
+
+- 猪 (いのしし) - boar
+- 豚 (ぶた) - pig
+- ラブラドール - Labrador
+- 亀 (かめ) - turtle
+- 山羊 (やぎ) - goat
+- 雀 (すずめ) - tree sparrow
+- 鯨 (くじら) - whale
+- 麒麟 (きりん) - giraffe
 
 ### nouns (body parts)
 
 ### nouns (position)
 
+- すぐ側 (すぐそば) - right beside; close to; nearby
+
+### nouns (home)
+
+- 寝室 (しんしつ) - bedroom
+- 湯船 (ゆぶね) - bathtub
+- ごみ箱 (ごみばこ) - trash can
+- 屑籠 (くずかご) - wastepaper basket
+- 電子レンジ (でんしレンジ) - microwave oven
+- 洗濯機 (せんたくき) - washing machine
+
 ### nouns (sports)
 
+- 野球 (やきゅう) - baseball
+- バレーボール - volleyball
+- バスケットボール - basketball
+- ゴルフ - golf
+- トレイルランニング - trail running
+- ドリブル - dribble
+- タックル - tackle
+- オフサイド - offside
+- フリーキック - free kick
+- ペナルティーキック - penalty kick
+- ゴールキーパー - goalkeeper
+- ディフェンダー - defender
+- ミッドフィルダー - midfielder
+- フォワード - forward
+- ボランチ - volante (key player in the midfield)
+- 前半 (ぜんはん) - first half
+- 後半 (こうはん) - second half
+- ワールドカップ - World Cup
+- チャンピオンズリーグ - Champions League
+- プレミアリーグ - Premier League
+- ラ・リーガ - La Liga
+- セリエA - Serie A
+- ブンデスリーガ - Bundesliga
+- ハイライト - highlihts
+- マンチェスター・ユナイテッド - Manchester United
+- マンチェスター・U - Manchester United
+- マンチェスター・シティ - Manchester City
+- マンチェスター・C - Manchester City
+- ハイタッチ - high five
+- チケット - ticket
+- ロードバイク - road bike
+- ライド - ride
+- サドル - saddle
+- ツール - tour
+- ママチャリ - ladies' bicycle (especially one with a front basket)
+
 ### nouns (countries)
+
+### nouns (work)
+
+- 職場 (しょくば) - workplace
+- 弁護士 (べんごし) - lawyer
+- 正社員 (せいしゃいん) - full-time employee
+- 物作り (ものづくり) - craftsmanship; making things by hand
+
+### nouns (web)
+
+- 絞り込み (しぼりこみ) - search filters
+- インスタ - Instagram
+- ポッドキャスト - podcast
+- 絵文字 (えもじ) - emoji
+- シグナル - signal
+- テレグラム - telegram
+- 動画 (どうが) - video
+- アンドロイド - Android
+
+### nouns (technology)
+
+- ソフトウェアエンジニア - software engineer
+- ソフトウェア工学 - software engineering
+- 電子工学 (でんしこうがく) - electronics
+- バージョン - version
+- エディター - editor
+- ツール - tool
+- パスワード - password
+- メールアドレス - email address
+- ワンタイムパスワード - one-time password
+- 二要素認証 (にようそにんしょう) - two-factor authentication
+- パーソナルコンピュータ - personal computer
+- ウェブデザイン - web design
+- デジタルフォレンジック - digital forensics
+- 暗号 (あんごう) - encryption; code; cipher
+- データベース - database
+- 生成ＡＩ (せいせいＡＩ) - generative AI
+- システムエラー - system error
+- プライバシーポリシー - privacy policy
+- セキュリティポリシー - security policy
+- キーボード - keyboard
+- 乗っ取り (のっとり) - hijacking; takeover (of a company, etc)
+- 生体認証 (せいたいにんしょう) - biometric authentication
+- チャットGPT - ChatGPT
+- デジタルトランスフォーメーション - digital transformation
+- ハードウェア - hardware
+- クラウド - cloud
+
+### nouns (signs)
+
+- 引き (ひき) - pull
+- 止まれ (とまれ) - stop
+- 開き (ひらき) - opening; gap
+
+### nouns (logistics)
+
+- ヤマト運輸 (ヤマトうんゆ) - Yamato Transport
+- 運送状 (うんそうじょう) - waybill; bill of lading
+
+### nouns (health)
+
+- 薬屋 (くすりや) - pharmacy
+- 整骨院 (せいこついん) - osteopathic clinic
+- 接骨院 (せっこついん) - orthopedic clinic
+- クリニック - clinic
+- 風邪薬 (かぜぐすり) - remedy for a cold
+- 抗生物質 (こうせいぶっしつ) - antibiotic
+- 痛み止め (いたみどめ) - painkiller
+- アレルギー - allergy
+- 体調 (たいちょう) - physical condition; state of health
+
+### nouns (finance)
+
+- 少額投資非課税制度 (しょうがくとうしひかぜいせいど) - Nippon Individual
+  Savings Account; NISA
+- アナリスト - analyst
 
 ### noun prefixes
 
 - 冷やし (ひやし) - cold; chilled
+- 割り (わり) - ratio; one tenth (used as prefix); diluted with (of drinks)
 
 ### noun suffixes
 
 - 放題 (ほうだい) - (doing) as one pleases
 
+### する verbs
+
+- 毛繕い (けづくろい) - grooming oneself (espsecially for animals)
+
 ### する transitive verbs
+
+- 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
+  referring to chicken
+- 買取 (かいとり) - buying used articles as a company
+- キャンセル - cancel
+- シュート (shūto) - shoot
+- 解読 (かいどく) - deciphering
 
 ### する intransitive verbs
 
 - リベンジ - revenge; having a second go (at something)
 - 土下座 (どげざ) - to kneel down and bow
+- パック - pack
+- 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
+  from someone; reply; revenge
+- 長居 (ながい) - long stay
+- 残業 (ざんぎょう) - overtime
+- ショートカット - shortcut
+- ログイン - login
+- ログアウト - logout
+- メール - email
+- シフト - shift or move (from one trend to another)
 
 ### する transitive and intransitive verbs
+
+- プログラミング - programming
+- 返信 (へんしん) - reply
 
 ### verbs (transitive)
 
@@ -1179,11 +1929,15 @@ ____
 - 見守る (みまもる) - to watch over; to keep an eye on
 - 振り切る (ふりきる) - to shake off; to break away
 - ググる - to google
+- 貸し切る (かしかる) - to reserve; to book
+- ぎる - to steal
 
 ### verbs (intransitive)
 
 - バズる - to go viral (buzz)
-- サボる - to slack off (sabotage)
+- サボt - to slack off (sabotage)
+- 毛羽立つ (けばたつ) - fuzzing, fraying
+- 浸かる (つかる) - to be submerged; to be soaked
 
 ### verbs (transitive and intransitive)
 
@@ -1195,3 +1949,22 @@ ____
 - 失礼します (しつれいします) - excuse me (usually after staff take a plate
   away or about to serve a dish)
 - ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
+- お疲れ様 (おつかれさま) - thank you (for your hard work); good job; much
+  appreciated; goodbye (when you finshed your day)
+- お休みなさい (おやすみなさい) - good night
+- 行ってきます (いってきます) - I'll go and come back (when I'm leaving from
+  some place)
+- じゃない - is not; isn't it?
+- だっけ。 - was it?
+- 言わないことではない - I told you so
+- そうだね - sure; yeah; I know (aka そうだよね)
+- 失礼しました (しつれいしました) - my apologies; excuse me
+- ご注意ください (ごちゅういください) - please be careful
+- ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
+  the inconvenience
+- ご遠慮ください (ごえんりょください) - please refrain (from)
+- いいね - that's nice
+- やった - yay!
+- 然だに (さだに) - still; even now
+- 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
+  shrinking; declining
