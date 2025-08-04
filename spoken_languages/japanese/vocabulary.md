@@ -1169,6 +1169,7 @@ ____
 - 案内 (あんない) - guidance; information
 - パス - passing
 - 承認 (しょうにん) - approval; acknowledgment; consent
+- 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
 
 ### する intransitive verbs
 
