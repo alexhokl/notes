@@ -1482,7 +1482,7 @@ ____
 - シェービング - shaving
 - ヘッドスパ - head spa
 - 戸建て (こだて) - house
-- 不動産 (不動産) - real estate
+- 不動産 (ふどうさん) - real estate
 - スチール - steel
 - 薔薇 (ばら) - rose
 - 演奏会 (えんそうかい) - concert
@@ -1582,7 +1582,7 @@ ____
 - 赤貝 (あかがい) - red clam
 - 鮑 (あわび) - abalone
 - 蛤 (はまぐり) - clam
-- クラム (kuramu) - clam
+- クラム - clam
 - 魚介 (ぎょかい) - marine products
 - 海老 (えび) - shrimp
 - 車海老 (くるまえび) - tiger prawn
@@ -1601,7 +1601,7 @@ ____
 ### nouns (vegetables)
 
 - 玉ねぎ (たまねぎ) - onion
-- 葱 (negi) - green onion
+- 葱 (ねぎ) - green onion
 - トマト - tomato
 - ベジタリアン - vegetarian
 - 人参 (にんじん) - carrot
@@ -1611,7 +1611,7 @@ ____
 
 ### nouns (fruits)
 
-- バナナ (banana) - banana
+- バナナ - banana
 - 苺 (いちご) - strawberry
 - 林檎 (りんご) - apple
 - 蜜柑 (みかん) - mandarin orange
@@ -1889,7 +1889,7 @@ ____
   referring to chicken
 - 買取 (かいとり) - buying used articles as a company
 - キャンセル - cancel
-- シュート (shūto) - shoot
+- シュート - shoot
 - 解読 (かいどく) - deciphering
 
 ### する intransitive verbs

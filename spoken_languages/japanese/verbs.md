@@ -22,7 +22,7 @@ ____
 - だ - be; is (plain form)
 - ます - politeness
 - ない - not
-- た - did; (pleaes) do
+- た - did; (please) do
 - たい - want to
 - べき - should; must
 - はず - should; must
@@ -248,10 +248,6 @@ ____
 
 ## 変格動詞
 
-- examples
-  * する (suru) - to do
-  * 来る (kuru) - to come
-
 | Form              | Affirmative             | Negative                        |
 | ---               | ---                     | ---                             |
 | Non-past          | 為る (する)             | 為ない (しない)                 |
@@ -300,18 +296,18 @@ Note the change in sounds between く, き and こ.
 ## Lost of the w sound
 
 - example of pronunciation in the old times
-  * 上 (ue) pronounced as `wuwe`
-  * 田舎 (inaka) pronounced as `winawka`
-  * 買う (kau) pronounced as `kawu`
+  * 上 pronounced as `wuwe`
+  * 田舎 pronounced as `winawka`
+  * 買う pronounced as `kawu`
 
-| conjugation form | Japanese | Romaji     | remarks            |
-| ---              | ---      | ---        | ---                |
-| negative (plain) | 買わない | ka`wa`nai  |                    |
-| polite           | 買います | kaimasu    | normal conjugation |
-| plain            | 買う     | kau        | normal conjugation |
-| active           | 買おう   | kaiou      | normal conjugation |
-| passive          | 買われる | ka`wa`reru |                    |
-| causative        | 買わせる | ka`wa`seru |                    |
+| conjugation form | Japanese | remarks            |
+| ---              | ---      | ---                |
+| negative (plain) | 買わない |                    |
+| polite           | 買います | normal conjugation |
+| plain            | 買う     | normal conjugation |
+| active           | 買おう   | normal conjugation |
+| passive          | 買われる |                    |
+| causative        | 買わせる |                    |
 
 Note that all other conjugations of 買う use hiragana characters on the
 あいうえお line.

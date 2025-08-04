@@ -16,8 +16,8 @@ ____
 
 ## 清音 (seion) - clear sound
 
-- ら (ra), り (ri), る (ru), れ (re), ろ (ro) - `r` is pronounced as `l`
-- を (wo) - `wo` is pronounced as `o`
+- ら, り, る, れ, ろ - `r` is pronounced as `l`
+- を - `wo` is pronounced as `o`
 
 ## 濁音 (dakuon) - voiced sound
 
@@ -35,17 +35,17 @@ d (t)   | z (s)
 
 ## 拗音 (yōon)
 
-* xxi + や (ya) => xxya
+* xxi + や => xxya
   + example きゃ (kya)
-* xxi + ゆ (yu) => xxyu
+* xxi + ゆ => xxyu
   + example きゅ (kyu)
-* xxi + よ (yo) => xxyo
+* xxi + よ => xxyo
   + example きょ (kyo)
-* xxi + ヤ (ya) => xxya
+* xxi + ヤ => xxya
   + example キャ (kya)
-* xxi + ユ (yu) => xxyu
+* xxi + ユ => xxyu
   + example キュ (kyu)
-* xxi + ヨ (yo) => xxyo
+* xxi + ヨ => xxyo
   + example キョ (kyo)
 * ツァ => tsa
 * ファ => fa
@@ -91,7 +91,7 @@ d (t)   | z (s)
   + 氷 こおり (kōri) - ice
   + 遠く とおく (tōku) - far
 
-## 鼻濁音 (bidadakuon) - nasal sound
+## 鼻濁音 (びだだくおん) - nasal sound
 
 * が (nga)
 * ぎ (ngi)
@@ -118,10 +118,10 @@ d (t)   | z (s)
 - samples
   * [sigure.tw](https://www.sigure.tw/learn-japanese/basic/pronunciation/vowel#聆聽發音)
 
-## 音読み and 訓読み (onyomi and kunyomi)
+## 音読み and 訓読み
 
-- 音読み (onyomi) - Chinese reading
-- 訓読み (kunyomi) - Japanese reading
+- 音読み (おんよみ) - Chinese reading
+- 訓読み (くんよみ) - Japanese reading
 - Japan had their own language, and while it is not the same as Japanese today,
   it was not Chinese either
   * Japan had their own words for things like water, fire, food, and all the
@@ -135,7 +135,7 @@ d (t)   | z (s)
   hiragana
 - there are also kanji characters that only have kunyomi readings because they
   are kanji created in Japan
-  * 国字 (kokuji)
+  * 国字 (こくじ)
     + This means Japanese elite/scholars/priests took pieces of kanji characters
       and put them together to create a new kanji, for a concept that was native
       to Japan.
@@ -181,8 +181,8 @@ d (t)   | z (s)
 - un-related facts
   * `k` and `s` are unvoiced consonants
   * `m` and `r` are voiced consonants
-  * ` ゛` is 濁点 (dakuten)
-  * ` ゜` is 半濁点 (handakuten)
+  * ` ゛` is 濁点 (だくてん)
+  * ` ゜` is 半濁点 (はんだくてん)
 - rendaku conversion
   * `k` => `g`
   * `s` => `z`

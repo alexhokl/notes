@@ -19,10 +19,6 @@ ____
 - 12 keys on mobile
   * consonants are listed from left to right and from top to bottom
   * on pressing and drag
-    + left い (i)
-    + up う (u)
-    + right え (e)
-    + down お (o)
   * <kbd>space</kbd> to select options
   * <kbd>enter</kbd> to confirm
   * button at bottom left to add ` ゛` (濁点) or ` ゜` (半濁点) or convert to
@@ -37,15 +33,15 @@ ____
 | ま  | や  | ら  |
 | -   | わ  | -   |
 
-| -     | -     | -     |
-| ---   | ---   | ---   |
-|       | う(u) |       |
-| い(i) | あ(a) | え(e) |
-|       | お(o) |       |
+| -   | -   | -   |
+| --- | --- | --- |
+|     | う  |     |
+| い  | あ  | え  |
+|     | お  |     |
 
-| -   | -      | -   |
-| --- | ---    | --- |
-|     | ん(n)  |     |
-| (o) | わ(wa) | ー  |
-|     | 〜     |     |
+| -   | -   | -   |
+| --- | --- | --- |
+|     | ん  |     |
+| を  | わ  | ー  |
+|     | 〜  |     |
 
