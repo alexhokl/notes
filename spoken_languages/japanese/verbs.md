@@ -147,14 +147,6 @@ ____
 
 ## 五段動詞
 
-| chart line | Japanese | Kana     | English         |
-| ---        | ---      | ---      | ---             |
-| あ         | 聞かない | きかない | not listen      |
-| い         | 聞きます | ききます | listen (polite) |
-| う         | 聞く     | きく     | listen (plain)  |
-| え         | 聞ける   | きける   | can listen      |
-| お         | 聞こう   | きこう   | let's listen    |
-
 | Form              | Affirmative  | Negative         |
 | ---               | ---          | ---              |
 | Non-past          | 聞く         | 聞かない         |
@@ -190,21 +182,7 @@ ____
   * ends with す
     + change to して
 
-| -         | -                    | -         |
-| ---       | ---                  | ---       |
-| う (って) | く (いて), ぐ (いで) | す (して) |
-| つ (って) | ぬ (んで)            | ぶ (んで) |
-| む (んで) |                      | る (って) |
-
 ## 一段動詞
-
-| Japanese   | English      |
-| ---        | ---          |
-| 食べたい   | not eat      |
-| 食べます   | eat (polite) |
-| 食べる     | eat (plain)  |
-| 食べられる | can eat      |
-| 食べよう   | let's eat    |
 
 | Form              | Affirmative    | Negative         |
 | ---               | ---            | ---              |
