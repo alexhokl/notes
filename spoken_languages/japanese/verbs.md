@@ -20,6 +20,7 @@ ____
 
 - です - be; is (polite form)
 - だ - be; is (plain form)
+- である - be; is (formal form)
 - ます - politeness
 - ない - not
 - た - did; (please) do
@@ -128,7 +129,7 @@ ____
   * 命令形 (めいれいけい)
   * 食べろ!
 
-# Verb conjugation
+# Conjugation
 
 - conjugate
   * take a varierty of endings

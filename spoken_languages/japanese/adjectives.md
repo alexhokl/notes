@@ -42,13 +42,13 @@ ___
 
 ### Conjugation
 
-|                 | Affirmative  | Negative                 |
-| ---             | ---          | ---                      |
-| non-past        | 新し`い`     | 新し`くない`             |
-| non-past polite | 新し`い`     | 新し`くありません`　     |
-| past            | 新し`かった` | 新し`くなかった`         |
-| past polite     | 新し`かった` | 新し`くありませんでした` |
-| te-form         | 新し`くて`   |                          |
+|                 | Affirmative    | Negative               |
+| ---             | ---            | ---                    |
+| non-past        | 新しいだ       | 新しくない             |
+| non-past polite | 新しいです     | 新しくありません　     |
+| past            | 新しかった     | 新しくなかった         |
+| past polite     | 新しかったです | 新しくありませんでした |
+| te-form         | 新しくて       | 新しくなくて           |
 
 ### そう
 
@@ -98,15 +98,13 @@ ___
 
 ### Conjugation
 
-|                 | Affirmative  | Negative                   |
-| ---             | ---          | ---                        |
-| non-past        | 便利`だ`     | 便利`じゃない`             |
-| non-past polite | 便利`です`   | 便利`ではありません`       |
-| non-past causal |              | 便利`じゃない`             |
-| past            | 便利`だった` | 便利`じゃなかった`         |
-| past polite     | 便利`でした` | 便利`ではありませんでした` |
-| past causal     |              | 便利`ではなかった`         |
-| te-form         | 便利`で`     |                            |
+|                 | Affirmative | Negative                 |
+| ---             | ---         | ---                      |
+| non-past        | 便利だ      | 便利じゃない             |
+| non-past polite | 便利です    | 便利ではありません       |
+| past            | 便利だった  | 便利じゃなかった         |
+| past polite     | 便利でした  | 便利ではありませんでした |
+| te-form         | 便利で      | 便利じゃなくて           |
 
 ### そう
 
