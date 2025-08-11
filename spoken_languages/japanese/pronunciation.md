@@ -179,18 +179,26 @@ d (t)   | z (s)
 - when two or more words join together to form one word, and the initial
   consonant of the second word becomes voiced
 - un-related facts
-  * `k` and `s` are unvoiced consonants
-  * `m` and `r` are voiced consonants
+  * `k`, `s`, `t`, `h` are unvoiced consonants
+  * `g`, `z`, `d`, `b`, `p`, `m`, `r` are voiced consonants
   * ` ゛` is 濁点 (だくてん)
   * ` ゜` is 半濁点 (はんだくてん)
+  * compound word
+    + both words exist on their own separately, but when they come together they
+      create a new, unique word
 - rendaku conversion
   * `k` => `g`
   * `s` => `z`
   * `t` => `d`
   * `h` => `b` or `p`
-- compound word
-  * both words exist on their own separately, but when they come together they
-    create a new, unique word
+- examples
+  * 手 (て) + 紙 (かみ) = 手紙 (てがみ)
+  * 人 (ひと) + 人 (ひと) = 人々 (ひとびと)
+  * 青 (あお) + 空 (そら) = 青空 (あおぞら)
+  * 平 (ひら) + 仮名 (かな) = 平仮名 (ひらがな)
+  * 山 (やま) + 桜 (さくら) = 山桜 (やまざくら)
+  * 鼻 (はな) + 血 (ち) = 鼻血 (はなぢ)
+  * 花 (はな) + 火 (ひ) = 花火 (はなび)
 - basic necessary conditions
   * two words come together to form a compound word
   * the first consonant of the second word is unvoiced
@@ -203,13 +211,14 @@ d (t)   | z (s)
   `p`; otherwise, `b`
   * `つ` will be converted to small `っ` as well
   * examples
+    * 鉛 (えん) + 筆 (ひつ) = 鉛筆 (えんぴつ)
     * 出 (しゅつ) + 発 (はつ) = 出発 (しゅっぱつ)
 - general guidelines
   * 和語 (大和言葉) wago words do rendaku
     + it almost never start with a dakuten or handakuten voiced consonant
-  * 漢語 kango loanwords do not rendaku
+  * 漢語 (かんご) loanwords do not rendaku
     + stopping rendaku even when they are in a compound with a wago word
-  * 外来語 gairaigo loanwords do not rendaku
+  * 外来語 (がいらいご) loanwords do not rendaku
     + exceptions are mostly imported words from Dutch and Portuguese during the
       Edo period
       + it is trickier to spot as they usually appear in kanji or katakana
