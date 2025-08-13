@@ -603,10 +603,10 @@ ____
 
 ### Gifting
 
-- A + は + B + に + thing + 上げます/上げました。 (giving to out-group;
-  not-speaker nor listener nor speaker-related)
+- A + は + B + に + thing + を + 上げる。 (giving to out-group; not-speaker nor
+  listener nor speaker-related)
   * 小林さんはアンナさんに花を上げました。
-- A + は + B + から/に + thing + を + 貰います/貰いました。 (B is being elevated)
+- A + は + B + から/に + thing + を + 貰う。 (B is being elevated)
   * アンナさんは小林さんから花を貰いました。
 
 ### When
@@ -701,7 +701,7 @@ ____
 
 ### gifting (giving to in-group; speaker or listener or speaker-related)
 
-- A + は + B + に + thing + を + くれました。
+- A + は + B + に + thing + を + くれる。
   * examples
     + 小林さんはアナさんに花をあげました。
     + 小林さんは私に花をくれました。(上げました cannot be used)
