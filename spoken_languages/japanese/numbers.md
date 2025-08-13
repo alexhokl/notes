@@ -257,6 +257,7 @@ ____
 - it counts small or medium-sized animals; if you can pick the animal
 - [Japanese Counter 匹: Animals, Bugs, Wild Children,
   & More](https://www.tofugu.com/japanese/japanese-counter-hiki/)
+- it uses counting method similar to 本
 - Counts: dogs, cats, monkeys, fish, prawns, shrimps, lobsters, wolves,
   rabbits, mosquitoes, shellfish, deer, worms, caterpillars, silkworms,
   earthworms, frogs, snails, crabs, tortoises, turtles, octopuses, animals,
@@ -276,7 +277,7 @@ ____
 | 九匹     | きゅうひき |
 | 十匹     | じゅっぴき |
 | 百匹     | ひゃっぴき |
-| 千匹     | せんぴき   |
+| 千匹     | せんびき   |
 | 何匹     | なんびき   |
 
 #### 頭 (とう)
@@ -284,27 +285,29 @@ ____
 - 頭 (とう) counts larger animals
 - [Japanese Counter 頭: For Big, Smart, Professional
   Animals](https://www.tofugu.com/japanese/japanese-counter-tou/)
+- it uses counting method similar to 本 except 6
 - Counts: cows, horses, livestock, elephants, gorillas, whales, camels,
   tigers, "professional" animals, insects on display, animals for sale
 
-| Japanese | Reading      |
-| ---      | ---          |
-| 一頭     | `いっとう`   |
-| 二頭     | にとう       |
-| 三頭     | さんとう     |
-| 四頭     | よんとう     |
-| 五頭     | ごとう       |
-| 六頭     | ろくとう     |
-| 七頭     | ななとう     |
-| 八頭     | `はっとう`   |
-| 九頭     | きゅうとう   |
-| 十頭     | `じゅっとう` |
+| Japanese | Reading    |
+| ---      | ---        |
+| 一頭     | いっとう   |
+| 二頭     | にとう     |
+| 三頭     | さんとう   |
+| 四頭     | よんとう   |
+| 五頭     | ごとう     |
+| 六頭     | `ろく`とう |
+| 七頭     | ななとう   |
+| 八頭     | はっとう   |
+| 九頭     | きゅうとう |
+| 十頭     | じゅっとう |
 
 #### 羽 (わ)
 
 - it counts birds; the exception is rabbit
 - [Japanese Counter 羽 (WA): For Birds, Bats, and
   Bunnies](https://www.tofugu.com/japanese/japanese-counter-wa/)
+- it uses kango counting method
 - Counts: chickens, ostriches, peacocks, penguins, other birds, also rabbits,
   origami cranes
 
@@ -313,22 +316,23 @@ ____
 - it counts books
 - [Japanese Counter 冊 (SATSU): Count Your
   Books](https://www.tofugu.com/japanese/japanese-counter-satsu/)
+- it uses counting method similar to 本 except 6
 - Counts: books, book collections, albums, notebooks, memo pads, musical
   scores, catalogs, magazines, dictionaries, publications, documents, booklet
 - 私は毎日７冊本を読みます。
 
-| Japanese | Reading      |
-| ---      | ---          |
-| 一冊     | `いっさつ`   |
-| 二冊     | にさつ       |
-| 三冊     | さんさつ     |
-| 四冊     | よんさつ     |
-| 五冊     | ごさつ       |
-| 六冊     | ろくさつ     |
-| 七冊     | ななさつ     |
-| 八冊     | `はっさつ`   |
-| 九冊     | きゅうさつ   |
-| 十冊     | `じゅっさつ` |
+| Japanese | Reading    |
+| ---      | ---        |
+| 一冊     | いっさつ   |
+| 二冊     | にさつ     |
+| 三冊     | さんさつ   |
+| 四冊     | よんさつ   |
+| 五冊     | ごさつ     |
+| 六冊     | `ろく`さつ |
+| 七冊     | ななさつ   |
+| 八冊     | はっさつ   |
+| 九冊     | きゅうさつ |
+| 十冊     | じゅっさつ |
 
 #### 台 (だい)
 
@@ -336,7 +340,7 @@ ____
   can stand or put things on, machines, cars, large instruments
 - [Japanese Counter 台: Machines, Furniture,
   & More](https://www.tofugu.com/japanese/japanese-counter-dai/)
-- it counts in kango
+- it uses kango counting method
 - Counts: playground slides, beds, tables, couches, harps, pianos, cellos,
   cars, trucks, motors, washing machines, dryers, ovens, air conditioners,
   microwaves, cellular phones, keyboards
@@ -346,13 +350,14 @@ ____
 - it counts minutes
 - [Japanese Counter 分: For Minutes and Ancient
   Money](https://www.tofugu.com/japanese/japanese-counter-fun/)
+- it uses counting method similar to 本 except 3 and 4 連濁 to ぷん
 
 | Japanese | Reading          |
 | ---      | ---              |
 | 1分      | いっぷん         |
 | 2分      | にふん           |
-| 3分      | さんぷん         |
-| 4分      | よんぷん         |
+| 3分      | さん`ぷん`       |
+| 4分      | よん`ぷん`       |
 | 5分      | ごふん           |
 | 6分      | ろっぷん         |
 | 7分      | ななふん         |
@@ -463,12 +468,14 @@ ____
 - it counts years
 - [A Guide to the Japanese Counter-ish Word:
   年 (Years)](https://www.tofugu.com/japanese/japanese-counters-nen/)
+- it uses kango counting method
 
 #### 回 (かい)
 
 - it counts the number of times something happens, or frequency
 - [Japanese Counter 回: Repetitive Actions
   (Times)](https://www.tofugu.com/japanese/japanese-counter-kai-times/)
+- it uses kango counting method
 - Counts: the number of times something happens, chances, opportunities,
   revolutions
 
@@ -507,6 +514,8 @@ ____
 
 ##### counting months
 
+- it uses wago counting method
+
 | Japanese | Reading    |
 | ---      | ---        |
 | 一月     | ひとつき   |
@@ -521,23 +530,27 @@ ____
 | 十月     | とおつき   |
 | 何月     | なんつき   |
 
-| Japanese | Reading            |
-| ---      | ---                |
-| 一箇月   | `いっ`かげつ       |
-| 二箇月   | にかげつ           |
-| 三箇月   | さんかげつ         |
-| 四箇月   | よんかげつ         |
-| 五箇月   | ごかげつ           |
-| 六箇月   | `ろっ`かげつ       |
-| 七箇月   | ななかげつ         |
-| 八箇月   | `はっ`かげつ       |
-| 九箇月   | きゅうかげつ       |
-| 十箇月   | じゅっかげつ       |
-| 十一箇月 | じゅう`いっ`かげつ |
-| 十二箇月 | じゅうにかげつ     |
-| 何箇月   | なんかげつ         |
+- it can also use counting method similar to 本
+
+| Japanese | Reading          |
+| ---      | ---              |
+| 一箇月   | いっかげつ       |
+| 二箇月   | にかげつ         |
+| 三箇月   | さんかげつ       |
+| 四箇月   | よんかげつ       |
+| 五箇月   | ごかげつ         |
+| 六箇月   | ろっかげつ       |
+| 七箇月   | ななかげつ       |
+| 八箇月   | はっかげつ       |
+| 九箇月   | きゅうかげつ     |
+| 十箇月   | じゅっかげつ     |
+| 十一箇月 | じゅういっかげつ |
+| 十二箇月 | じゅうにかげつ   |
+| 何箇月   | なんかげつ       |
 
 ##### calendar months
+
+- it uses kango counting method except 4, 7, 9
 
 | English     | Japanese | Reading        |
 | ---         | ---      | ---            |
@@ -560,6 +573,7 @@ ____
 - it is a unit for hour of the day
 - [Japanese Counters 時 and 時間: Time and
   Hours](https://www.tofugu.com/japanese/japanese-counter-ji-jikan/)
+- it uses kango counting method except 4, 7, 9, 14, 17, 19, 24
 - 午前 (ごぜん)
 - 午後 (ごご)
 - 半 (はん)
@@ -597,6 +611,7 @@ ____
 - it counts number of hours
 - [Japanese Counters 時 and 時間: Time and
   Hours](https://www.tofugu.com/japanese/japanese-counter-ji-jikan/)
+- it uses kango counting method except 4, 7, 9, 14
 - 学校の昼休みは２時間もある。
 - 二時間後に会いましょう。
 
@@ -632,45 +647,50 @@ ____
 - it counts building floors
 - [Japanese Counter 階: Floors of
   a Building](https://www.tofugu.com/japanese/japanese-counter-kai-floors/)
+- it uses counting method similar to 本 
+- 3 can have 連濁 to がい
 
-| Japanese | Reading      |
-| ---      | ---          |
-| 一階     | `いっ`かい   |
-| 二階     | にかい       |
-| 三階     | さんがい     |
-| 四階     | よんかい     |
-| 五階     | ごかい       |
-| 六階     | `ろっ`かい   |
-| 七階     | ななかい     |
-| 八階     | はちかい     |
-| 九階     | きゅうかい   |
-| 十階     | `じゅっ`かい |
+| Japanese | Reading    |
+| ---      | ---        |
+| 一階     | いっかい   |
+| 二階     | にかい     |
+| 三階     | さんかい   |
+| 四階     | よんかい   |
+| 五階     | ごかい     |
+| 六階     | ろっかい   |
+| 七階     | ななかい   |
+| 八階     | はっかい   |
+| 九階     | きゅうかい |
+| 十階     | じゅっかい |
 
 #### 歳 (さい)
 
 - it counts age
 - 才 (さい) is for the same thing
+- it uses counting method similar to 本 except 6
 
-| Japanese | Reading          |
-| ---      | ---              |
-| 一歳     | `いっ`さい       |
-| 二歳     | にさい           |
-| 三歳     | さんさい         |
-| 四歳     | よんさい         |
-| 五歳     | ごさい           |
-| 六歳     | ろくさい         |
-| 七歳     | ななさい         |
-| 八歳     | `はっ`さい       |
-| 九歳     | きゅうさい       |
-| 十歳     | `じっ`さい       |
-| 十一歳   | じゅう`いっ`さい |
-| 十二歳   | じゅうにさい     |
-| 十三歳   | じゅうさんさい   |
-| 二十歳   | に`じゅっ`さい   |
-| 三十歳   | さん`じゅっ`さい |
-| 何歳     | なんさい         |
+| Japanese | Reading        |
+| ---      | ---            |
+| 一歳     | いっさい       |
+| 二歳     | にさい         |
+| 三歳     | さんさい       |
+| 四歳     | よんさい       |
+| 五歳     | ごさい         |
+| 六歳     | `ろく`さい     |
+| 七歳     | ななさい       |
+| 八歳     | はっさい       |
+| 九歳     | きゅうさい     |
+| 十歳     | じゅっさい     |
+| 十一歳   | じゅういっさい |
+| 十二歳   | じゅうにさい   |
+| 十三歳   | じゅうさんさい |
+| 二十歳   | にじゅっさい   |
+| 三十歳   | さんじゅっさい |
+| 何歳     | なんさい       |
 
 #### 円 (えん)
+
+- it uses kango counting method except 4
 
 | Japanese | Reading    |
 | ---      | ---        |

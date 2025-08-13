@@ -346,7 +346,13 @@ ____
 ## は and が
 
 - … は …(something important)…
-- …(something important)… が …
+  * 私は学生です。 - For me, I'm a student.
+- …(something important) が …
+  * 私が学生です。 - I am the one who is a student.
+- 何故、あなたが時計をチラッと見るたび、泣くそうな気分になるの？ - why? when you 
+  glance at your watch, I feel like crying (as assuming 私は)
+  * 何故、あなたは時計をチラッと見るたび、泣くそうな気分になるの？ - why? when
+    you glance at your watch, you feel like crying
 
 ## を
 

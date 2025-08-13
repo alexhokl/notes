@@ -579,6 +579,7 @@ ____
 - ... + verb in stem form + に + directional intransitive verb
 - ... + する verb without ます + に + directional intransitive verb
   * 看護婦さんが熱を計りに来ました
+- に in the above examples marks the aim of action of the movement verb
 
 ### は and が to stress differnent part of a sentence
 
@@ -710,14 +711,16 @@ ____
 
 ### tools or methods for an action
 
+- ... + tool/method + で + ...
 - examples
-  * 今の人はみんな携帯電話を撮ります。
+  * 今の人はみんな携帯電話で写真を撮ります。
   * 中国人や日本人は箸でご飯を食べます。
   * 私はポールペンで名前を書きました。
   * 山手線で新宿まで行きます。
 
 ### transportation
 
+- ... + transportation + で + ...
 - examples
   * 私は毎日地下鉄で会社へ行きます。
   * 私は去年新幹線で北海道へ行きました。

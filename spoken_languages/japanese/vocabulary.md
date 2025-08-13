@@ -723,7 +723,6 @@ ____
 - 起きる (おきる) - to wake up
 - 寝る (ねる) - to sleep
 - 始まる (はじまる) - to start
-- 終わる (おわる) - to end
 - 出る (でる) - to leave; to appear; to attend
 - 降りる (おりる) - to get off (also 下りる); to descend; to go down
 - 入る (はいる) - to enter
@@ -761,6 +760,7 @@ ____
 
 ### verbs (transitive and intransitive)
 
+- 終わる (おわる) - to end
 - 為る (する) - to do
 - 待つ (まつ) - to wait
 - 歌う (うたう) - to sing

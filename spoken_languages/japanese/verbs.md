@@ -183,6 +183,16 @@ ____
   * ends with す
     + change to して
 
+### exception in conjugation
+
+| Form             | Affirmative    | Negative         |
+| ---              | ---            | ---              |
+| Non-past         | ある           | ない             |
+| Non-past, polite | あります       | ありません       |
+| Past             | あった         | なかった         |
+| Past, polite     | ありますました | ありませんでした |
+| Te-form          | あって         | なくて           |
+
 ## 一段動詞
 
 | Form              | Affirmative    | Negative         |
@@ -205,7 +215,7 @@ ____
 
 * if the vowel sound that comes before る is `a`, `u`, or `o`, it is
   `definitely` a 五段動詞
-  + it is likely that the verb is a combination of kanji and る
+* a combination of kanji and る is `likely` a 五段動詞
   + examples
     * いる (いる) - to need
     * 入る (はいる) - to enter
@@ -213,10 +223,13 @@ ____
     * 帰る (かえる) - to return
     * 減る (へる) - to decrease
     * 喋る (しゃべる) - to chat
+    * 知る (しる) - to know
   + exceptions
     + 出る (でる) - to exit
     + 寝る (ねる) - to sleep
     + 見る (みる) - to see
+    + 着る (きる) - to wear
+    + 煮る (にる) - to boil
 * if the vowel sound that comes before る is `e` or `i`, it is `probably` a
   一段動詞
   + it is likely that the verb is a combination of 送り仮名 (okurigana) and る
