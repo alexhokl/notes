@@ -64,9 +64,8 @@ d (t)   | z (s)
 ## 促音 (sokuon) - (小さいつ) (small tsu)
 
 * stop for a short while before pronouncing the next sound
-* 学校 がっこう (gakkō)
-* 学生 がくせい (gaksē)
-* 学ぶ まなぶ (manabu) (not an example for small tsu)
+* examples
+  + 学校 がっこう (gakkō)
 
 ## 長音 (chōon) - long vowel
 
@@ -104,8 +103,10 @@ d (t)   | z (s)
 ## 母音の無声化 - vowel devoicing
 
 - consonant without sound such as `k`, `s`, `t`, `h`, `p`, `kya`, `sha`, `cha`,
-  `hya`, `pya` comes before `i` or `u`
+  `hya`, `pya` sandwiched between `i` or `u`
 - examples
+  * 学生 (がくせい) (gaksē)
+  * 好き (すき) (ski)
   * `き`し (kshi)
   * `し`き (ski)
   * `し`た (sta)
