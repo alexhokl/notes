@@ -194,7 +194,7 @@ ____
 - 大勢 (おおぜい) - many (people)
 - なぜ - why
 - また - also; again
-- 未だ (まだ) - still; yet; only
+- 未だ (まだ) - still; as yet; (more) still; at least; comparatively
 - 多分 (たぶん) - maybe; probably
 - 余り (あまり) - not very; not much
 - 些とも (ちっとも) - not at all
@@ -205,7 +205,6 @@ ____
 - 早く (はやく) - quickly; early; also as 速く
 - どうぞ - please; go ahead
 - 丁度 (ちょうど) - just; exactly; right
-- 未だ (まだ) - still; as yet; (more) still; at least; comparatively
 
 ### adjectives (い)
 
