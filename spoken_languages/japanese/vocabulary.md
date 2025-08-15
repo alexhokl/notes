@@ -1431,6 +1431,7 @@ ____
 
 - 為に (ために) - for
 - 因みに (ちなみに) - by the way; in this connection; incidentally
+- とは言え (とはいえ) - though; although; nonetheless
 
 ### adverbs
 
