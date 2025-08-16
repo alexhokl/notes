@@ -1,3 +1,3 @@
+______________________________________________________________________
 
-____
 Notes on various topics on software development.
