@@ -104,6 +104,7 @@
     + [expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
+    + [conjunctions](#conjunctions-3)
     + [adverbs](#adverbs-4)
     + [adjectives (い)](#adjectives-%E3%81%84-4)
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
@@ -124,7 +125,7 @@
     + [verbs (intransitive)](#verbs-intransitive-4)
   * [N0](#n0)
     + [particles](#particles)
-    + [conjunctions](#conjunctions-3)
+    + [conjunctions](#conjunctions-4)
     + [adverbs](#adverbs-5)
     + [adjectives (い)](#adjectives-%E3%81%84-5)
     + [adjectives (な)](#adjectives-%E3%81%AA-5)
@@ -205,6 +206,8 @@ ____
 - 早く (はやく) - quickly; early; also as 速く
 - どうぞ - please; go ahead
 - 丁度 (ちょうど) - just; exactly; right
+- 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
+  somewhat
 
 ### adjectives (い)
 
@@ -600,6 +603,7 @@ ____
 - 足 (あし) - foot; leg
 - 手 (て) - hand; arm
 - 目 (め) - eye
+- お腹 (おなか) - stomach; belly
 
 ### nouns (position)
 
@@ -713,6 +717,7 @@ ____
 - 渡す (わたす) - to ferry across; to hand over; to pass; to transfer
 - 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
   call); to spend (time, money)
+- 使う (つかう) - to use; to make use of
 
 ### verbs (intransitive)
 
@@ -950,6 +955,7 @@ ____
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 受付 (うけつけ) - reception; information desk
 - プレゼント - present; gift
+- 思い出す (おもいだす) - to recall; to remember
 
 ### する intransitive verbs
 
@@ -1020,6 +1026,7 @@ ____
 - だって - after all; because; but
 - だけど - however; but; although
 - 其れとも (それとも) - or; or else
+- 偖 (さて) - well; now; then
 
 ### adverbs
 
@@ -1028,6 +1035,8 @@ ____
 - 全然 (ぜんぜん) - totally
 - そろそろ - soon
 - 勿論 (もちろん) - of course; certainly; naturally
+- 既に (すでに) - already; previously; before; undeniably
+- 是非 (ぜひ) - certainly
 
 ### adjectives (い)
 
@@ -1042,6 +1051,7 @@ ____
 - たっぷり - full of; a lot of; plenty of
 - 苦手 (にがて) - poor at; weak in; not good at
 - 素敵 (すてき) - lovely; wonderful; nice
+- 僅か (わずか) - a little; a few; small; slight
 
 ### pronouns (person)
 
@@ -1301,6 +1311,7 @@ ____
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 - 助かる (たすかる) - to be saved; to be rescued; to be helped
+- 涼む (すずむ) - to cool oneself
 
 ### expressions
 
@@ -1322,6 +1333,11 @@ ____
 - のみ - only; nothing but
 - 了解 (りょうかい) - understanding; comprehension; consent; agreement; OK;
   roger
+- くらい - approximately; about; around
+
+### conjunctions
+
+- 且つ (かつ) - and; moreover; besides; as well as
 
 ### adverbs
 
@@ -1355,6 +1371,7 @@ ____
 - 丈 (たけ) - height; length (of clothing)
 - 汚れ (よごれ) - dirt, stains, spots
 - 皺 (しわ) - wrinkle, crease (aka シワ)
+- 地元 (じもと) - home area; home town; local
 
 ### nouns (clothing)
 
@@ -1444,6 +1461,7 @@ ____
 
 - やばい - oh crap!; dangerous; risky; awful; terrible; amazing
 - 気持ちいい (きもちいい) - feeling good
+- したい - want to do
 
 ### adjectives (な)
 
@@ -1495,6 +1513,7 @@ ____
 - 男 (おとこ) - man (used as prefix)
 - 男 (なん) - man (used as suffix)
 - 男の人 (おとこのひと) - man
+- ねた - information; news; proof; evidence
 
 ### nouns (family)
 
@@ -1957,3 +1976,5 @@ ____
 - 然だに (さだに) - still; even now
 - 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
   shrinking; declining
+- 様な (ような) - like; similar to; feels like
+- だけでなく - not only; not just; as well as
