@@ -79,10 +79,8 @@ ____
   * 0.15 is read as れんてんいちご
 - 20 years old is read as Wago はたち (or in Kango にじゅっさい)
 - 三十路 (みそじ) is a term for someone who is in their 30s
-  * it uses Wago counting method
   * however, it carries a negative nuance that you are getting old
 - 四十路 (よそじ) is a term for someone who is in their 40s
-  * Wago counting method is not used after 40
 - 四円 (よえん)
 - 4人 (よにん)
 - 四時 (よじ)
@@ -130,7 +128,7 @@ ____
 - 国々 (くにぐに) - countries
 - 山々 (やまやま) - mountains
 - 木々 (きぎ) - trees
-- 花々 (はなばな) - flowwers
+- 花々 (はなばな) - flowers
 - 神々 (かみがみ) - gods
 
 ## Counters
@@ -165,16 +163,16 @@ ____
 
 | Japanese | Reading          |
 | ---      | ---              |
-| 一個     | `いっこ`         |
+| 一個     | `いっ`こ         |
 | 二個     | にこ             |
 | 三個     | さんこ           |
 | 四個     | よんこ           |
 | 五個     | ごこ             |
-| 六個     | `ろっこ`         |
+| 六個     | `ろっ`こ         |
 | 七個     | ななこ           |
-| 八個     | `はっこ`         |
+| 八個     | `はっ`こ         |
 | 九個     | きゅうこ         |
-| 十個     | `じゅっこ`       |
+| 十個     | `じゅっ`こ       |
 | 何個     | なんこ           |
 
 #### 本 (ほん)
@@ -647,7 +645,7 @@ ____
 - it counts building floors
 - [Japanese Counter 階: Floors of
   a Building](https://www.tofugu.com/japanese/japanese-counter-kai-floors/)
-- it uses counting method similar to 本 
+- it uses counting method similar to 本
 - 3 can have 連濁 to がい
 
 | Japanese | Reading    |
@@ -867,9 +865,13 @@ ____
     + number of times (the most common use)
     + degree angle
     + degrees of temperature
-  * １度２人で話をしませんか？
   * Counts: the number of times something happens, chances, opportunities,
     experiences, series of actions, divided actions, degrees, temperature
+  * examples
+    + １度２人で話をしませんか？
+    + 三十六度九分 (さんじゅうろくどきゅうふん)
+    + 熱が３９度ある。(ねつがさんじゅう＜どある) - I have a fever of 39
+      degrees.
 
 - 杯 (はい) counts liquids in cups or bowls
 
@@ -934,3 +936,6 @@ ____
 
 - 割 (わり) counts of 10%
   * 2割引き is equivalent to 20% off
+  * 8割 is equivalent to 80%
+  * 8割5分 is equivalent to 85%
+  * 8割5分5厘 is equivalent to 85.5%
