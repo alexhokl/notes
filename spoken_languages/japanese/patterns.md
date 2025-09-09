@@ -827,3 +827,43 @@ ____
   * どのくらい日本語を勉強していますか。
   * 入門のクラスはどのくらい続きますか。
   * どのくらい東京にいますか。
+
+## Chapter 10
+
+### please
+
+- verb in te-form + ください
+  * 書いてください。
+
+- verb in plain negative form + で + ください
+  * 書かないでください。
+
+### decorating verbs
+
+- adverb + verb
+  * ご飯を楽しく作る
+  * 静かに勉強する
+  * 医者になる
+
+### I think
+
+- plain verb + と思う
+  * 明日映画を見ると思います。
+
+- plain past verb + と思う
+  * 昨日映画を見たと思います。
+
+- い-adjective + と思う
+  * この本は面白いと思います。
+
+- な-adjective + だ + と思う
+  * 田中さんは親切だと思います。
+
+- noun + だ + と思う
+  * これは辞書だと思います。
+
+### someone thinks
+
+- subordinate clause + と思っている
+  * 田中さんは明日雨が降ると思っています。
+  * 家内は私か戻ってこないと思っています。

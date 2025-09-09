@@ -98,6 +98,7 @@
     + [nouns (animals)](#nouns-animals-2)
     + [nouns (colours)](#nouns-colours-1)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
     + [verbs (transitive)](#verbs-transitive-3)
     + [verbs (intransitive)](#verbs-intransitive-3)
@@ -119,7 +120,7 @@
     + [nouns (health)](#nouns-health-1)
     + [noun suffixes](#noun-suffixes)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-4)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
     + [verbs (transitive)](#verbs-transitive-4)
     + [verbs (intransitive)](#verbs-intransitive-4)
@@ -162,7 +163,7 @@
     + [noun suffixes](#noun-suffixes-1)
     + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-5)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-4)
+    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-5)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
     + [verbs (transitive)](#verbs-transitive-5)
     + [verbs (intransitive)](#verbs-intransitive-5)
@@ -247,8 +248,9 @@ ____
 - 悪い (わるい) - bad; at fault
 - 弱い (よわい) - weak
 - 丸い (まるい) - round; circular
-- 暑い (あつい) - hot
+- 暑い (あつい) - hot (also 熱い)
 - 寒い (さむい) - cold
+- 涼しい (すずしい) - cool
 - 甘い (あまい) - sweet
 - 早い (はやい) - early; fast; quick (also 速い)
 - 遅い (おそい) - late; slow
@@ -260,8 +262,7 @@ ____
 - 痛い (いたい) - painful; sore
 - 可愛い (かわいい) - cute
 - 欲しい (ほしい) - wanting (to have); desiring; I want (someone) to (do)
-- 熱い (あつい) - hot
-- 寒い (さむい) - cold
+- 強い (つよい) - strong
 
 ### adjectives (な)
 
@@ -718,6 +719,8 @@ ____
 - 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
   call); to spend (time, money)
 - 使う (つかう) - to use; to make use of
+- 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
+  instrument) to catch (a cold); to look up (a word in a dictionary)
 
 ### verbs (intransitive)
 
@@ -782,6 +785,7 @@ ____
 - 下さい (ください) - please
 - 就いて (ついて) - about; concerning; as to; regarding
 - あのう - em... (aka あの); usually used before asking a question
+- それから - and then
 
 ## N4
 
@@ -816,6 +820,7 @@ ____
 - 美しい (うつくしい) - beautiful; pure
 - 優しい (やさしい) - gentle; kind
 - 苦い (にがい) - bitter
+- 眠い (ねむい) - sleepy; drowsy (aka 睡い)
 
 ### adjectives (な)
 
@@ -1017,6 +1022,7 @@ ____
 
 - 久しぶり (ひさしぶり) - a long time
 - もうすぐ - soon
+- これから - from now on; in the future
 
 ## N3
 
@@ -1037,6 +1043,7 @@ ____
 - 勿論 (もちろん) - of course; certainly; naturally
 - 既に (すでに) - already; previously; before; undeniably
 - 是非 (ぜひ) - certainly
+- 矢張り (やはり) - as expected; after all (aka やっぱり)
 
 ### adjectives (い)
 
@@ -1293,6 +1300,10 @@ ____
 ### する transitive verbs
 
 - クリーニング - cleaning; laundry service
+
+### する intransitive verbs
+
+- お辞儀 (おじぎ) - bowing
 
 ### する transitive and intransitive verbs
 
@@ -1978,3 +1989,4 @@ ____
   shrinking; declining
 - 様な (ような) - like; similar to; feels like
 - だけでなく - not only; not just; as well as
+- かも知れません (かもしれません) - maybe; might; perhaps

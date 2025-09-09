@@ -35,10 +35,11 @@ ___
 - used before a noun
   * examples
     + 古い車
-- used as an adverb
+- convert to an adverb
   * replace い with く
   * examples
     + 彼らは`楽しく`暮らしていました。 - They lived happily.
+    + 新しく
 
 ### Conjugation
 
@@ -89,8 +90,8 @@ ___
 
 - it can be used to describe a noun
 - it can also function as a noun
-- it can be used as an adverb
-  * by combining with に
+- it can be converted to an adverb
+  * by adding に
   * examples
     + 私は静かにドアを閉めた。
     + 桜が綺麗に咲いていた。 - The cherry blossoms were blooming beautifully.
@@ -98,13 +99,13 @@ ___
 
 ### Conjugation
 
-|                 | Affirmative | Negative                 |
-| ---             | ---         | ---                      |
-| non-past        | 便利だ      | 便利じゃない             |
-| non-past polite | 便利です    | 便利ではありません       |
-| past            | 便利だった  | 便利じゃなかった         |
-| past polite     | 便利でした  | 便利ではありませんでした |
-| te-form         | 便利で      | 便利じゃなくて           |
+|                 | Affirmative | Negative                                       |
+| ---             | ---         | ---                                            |
+| non-past        | 便利だ      | 便利ではない (便利じゃない for spoken)         |
+| non-past polite | 便利です    | 便利ではありません                             |
+| past            | 便利だった  | 便利ではなかった (便利じゃなかった for spoken) |
+| past polite     | 便利でした  | 便利ではありませんでした                       |
+| te-form         | 便利で      | 便利じゃなくて                                 |
 
 ### そう
 
