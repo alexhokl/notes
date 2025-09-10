@@ -45,7 +45,7 @@ ___
 
 |                 | Affirmative    | Negative               |
 | ---             | ---            | ---                    |
-| non-past        | 新しいだ       | 新しくない             |
+| non-past        | 新しい         | 新しくない             |
 | non-past polite | 新しいです     | 新しくありません　     |
 | past            | 新しかった     | 新しくなかった         |
 | past polite     | 新しかったです | 新しくありませんでした |
