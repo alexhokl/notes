@@ -651,6 +651,7 @@ ____
 - 薬 (くすり) - medicine
 - 病気 (びょうき) - illness (usually excluding minor ailments such as common
   cold); disease; sickness
+- 風邪 (かぜ) - common cold
 
 ### nouns (countries)
 
@@ -1423,6 +1424,7 @@ ____
 
 - お襁褓 (おむつ) - diaper
 - ウイルス - virus
+- レントゲン - x-ray
 
 ### noun suffixes
 

@@ -61,6 +61,16 @@
     + [how old](#how-old)
     + [use of の for the same rank](#use-of-%E3%81%AE-for-the-same-rank)
     + [how long / far / much](#how-long-%2F-far-%2F-much)
+  * [Chapter 10](#chapter-10)
+    + [please](#please)
+    + [decorating verbs](#decorating-verbs)
+    + [I think](#i-think)
+    + [someone thinks](#someone-thinks)
+    + [because](#because)
+    + [someone said](#someone-said)
+    + [explaining a thing](#explaining-a-thing)
+    + [what's wrong?](#what%27s-wrong%3F)
+    + [about](#about)
 ____
 
 ## Chapter 1
@@ -840,10 +850,19 @@ ____
 
 ### decorating verbs
 
+- conversion to adverb
+  * い-adjective: drop い + く
+    + 早く
+  * な-adjective
+    + 静かに
+  * noun
+    + 大学生に
+
 - adverb + verb
   * ご飯を楽しく作る
   * 静かに勉強する
   * 医者になる
+  * 六時半になる
 
 ### I think
 
@@ -881,7 +900,32 @@ ____
 - ... + と + 言う
   * 先生は「来週試験をします。」と言いました。
   * 先生は来週試験をすると言いました。
+
+- someone + は + someone else + に + ... + と + 言う
   * 先生は学生達に「来週試験をします。」と言いました。
+
+### explaining a thing
+
+- replace を with は
+  * A: 水野さんはいつも素敵ですね。いつもどこで買い物をしますか。
+    + B: このバッグは東京で書いました。この靴は姉から貰いました。
+  * A: おいしい天ぶらですね。水野さんは料理が上手ですね。
+    + B: ああ、この天ぷらは母か作りました。私は下手ですよ。
+  * A: 息子さんは中学何年生ですか。
+    + B: 中学？中学校は去年卒業しました。今高校一年生です。
+
+- には
+  * ここは動物園です。この動物園にはパンダが三頭います。
+
+- へは
+  * 私は今年イギリスとタイへ行きます。イギリスへは六月に行って、タイへは八月に行きます。
+
+- では
+  * アメリカの車は左ハンドルです。日本では右ハンドルです。
+
+- とは
+  * A: こ主人の田中さんはお元気ですか。
+    + B: 田中さんとは二年前に離婚しました。
 
 ### what's wrong?
 
