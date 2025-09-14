@@ -378,6 +378,7 @@ ____
 - 所 (ところ) - place; site
 - キロ - kilometer
 - 本当 (ほんとう) - real; proper
+- 他 (ほか) - other; another
 
 ### nouns (academic)
 
@@ -447,6 +448,7 @@ ____
 - ビル - multi-storey building
 - 映画館 (えいがかん) - cinema
 - 公園 (こうえん) - park
+- 所 (ところ) - place; site
 
 ### nouns (family)
 
@@ -636,6 +638,7 @@ ____
 - 晴れ (はれ) - sunny
 - 曇り (くもり) - cloudy
 - 雨 (あめ) - rain
+- 雪 (ゆき) - snow
 
 ### nouns (sports)
 
@@ -722,6 +725,7 @@ ____
 - 使う (つかう) - to use; to make use of
 - 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
   instrument) to catch (a cold); to look up (a word in a dictionary)
+- 持つ (もつ) - to hold; to carry; to possess
 
 ### verbs (intransitive)
 
@@ -832,6 +836,7 @@ ____
 - 確か (たしか) - certain; sure; reliable
 - 普通 (ふつう) - normal; ordinary
 - 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
+- 急 (きゅう) - sudden; urgent
 
 ### pronouns (person)
 
@@ -876,6 +881,8 @@ ____
 - 新聞社 (しんぶんしゃ) - newspaper company
 - 経済 (けいざい) - economy; economics
 - 坂 (さか) - slope; hill; incline
+- 鏡 (かがみ) - mirror
+- 火事 (かじ) - fire
 
 ### nouns (academic)
 
@@ -962,6 +969,7 @@ ____
 - 受付 (うけつけ) - reception; information desk
 - プレゼント - present; gift
 - 思い出す (おもいだす) - to recall; to remember
+- 約束 (やくそく) - promise; agreement; arrangement; contract
 
 ### する intransitive verbs
 
@@ -981,6 +989,8 @@ ____
 - 送る (おくる) - to send; to escort; to say goodbye to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 送る (おくる) - to send; to dispatch
+- 知らせる (しらせる) - to notify; to advise
+- 捜す (さがす) - to search; to look for; to seek (aka 探す)
 
 ### verbs (intransitive)
 
@@ -1012,6 +1022,8 @@ ____
 - 踊る (おどる) - to dance; to be manipulated
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 - 笑う (わらう) - to laugh; to smile
+- 集まる (あつまる) - to gather; to collect; to assemble
+- 泊まる (とまる) - to stay (e.g. hotel)
 
 ### verbs (transitive and intransitive)
 
@@ -1116,6 +1128,8 @@ ____
 - 幅 (はば) - width
 - 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
 - 丸 (まる) - circle
+- 夜中 (よなか) - middle of the night
+- 姿 (すがた) - figure; shape; appearance; form
 
 ### nouns (animals)
 
@@ -1212,6 +1226,7 @@ ____
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
 - 貰う (もらう) - to receive; to get (from somebody)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
+- 覚ます (さます) - to waken; to arouse from sleep
 
 ### verbs (intransitive)
 
@@ -1315,6 +1330,7 @@ ____
 - 蹴る (ける) - to kick
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 開放 (かいほう) - open
+- 拭く (ふく) - to wipe; to dry
 
 ### verbs (intransitive)
 
@@ -1384,6 +1400,7 @@ ____
 - 汚れ (よごれ) - dirt, stains, spots
 - 皺 (しわ) - wrinkle, crease (aka シワ)
 - 地元 (じもと) - home area; home town; local
+- 幽霊 (ゆうれい) - ghost
 
 ### nouns (clothing)
 
@@ -1469,6 +1486,9 @@ ____
 - 未明 (みめい) - early morning
 - 先ずは (まずは) - first of all; probably; more or less; anyway
 - だらだら - leisurely
+- 其れ丈 (それだけ) - that alone
+- 今でも (いまでも) - even now; still
+- 如何か (どうか) - would you mind; please
 
 ### adjectives (い)
 
@@ -1527,6 +1547,8 @@ ____
 - 男 (なん) - man (used as suffix)
 - 男の人 (おとこのひと) - man
 - ねた - information; news; proof; evidence
+- お化け (おばけ) - ghost
+- 電話帳 (でんわちょう) - telephone directory
 
 ### nouns (family)
 
@@ -1785,6 +1807,7 @@ ____
 - 屑籠 (くずかご) - wastepaper basket
 - 電子レンジ (でんしレンジ) - microwave oven
 - 洗濯機 (せんたくき) - washing machine
+- 洗面台 (せんめんだい) - washbasin
 
 ### nouns (sports)
 
