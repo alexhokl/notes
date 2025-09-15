@@ -1130,6 +1130,7 @@ ____
 - 丸 (まる) - circle
 - 夜中 (よなか) - middle of the night
 - 姿 (すがた) - figure; shape; appearance; form
+- 息 (いき) - breath
 
 ### nouns (animals)
 
