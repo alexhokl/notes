@@ -1024,6 +1024,7 @@ ____
 - 笑う (わらう) - to laugh; to smile
 - 集まる (あつまる) - to gather; to collect; to assemble
 - 泊まる (とまる) - to stay (e.g. hotel)
+- 動く (うごく) - to move; to operate; to work; to be touched; be transferred
 
 ### verbs (transitive and intransitive)
 
@@ -1057,6 +1058,7 @@ ____
 - 既に (すでに) - already; previously; before; undeniably
 - 是非 (ぜひ) - certainly
 - 矢張り (やはり) - as expected; after all (aka やっぱり)
+- ずっと - continuously; the whole time; much (more); far (away); long (ago)
 
 ### adjectives (い)
 
@@ -1131,6 +1133,8 @@ ____
 - 夜中 (よなか) - middle of the night
 - 姿 (すがた) - figure; shape; appearance; form
 - 息 (いき) - breath
+- 咳 (せき) - cough
+- 種類 (しゅるい) - kind; variety; type; category; class
 
 ### nouns (animals)
 
@@ -1293,6 +1297,7 @@ ____
 - 火山 (かざん) - volcano
 - ロビー - lobby
 - 役所 (やくしょ) - government office
+- 寮 (りょう) - dormitory; hostel
 
 ### nouns (shopping)
 
@@ -1317,6 +1322,7 @@ ____
 ### する transitive verbs
 
 - クリーニング - cleaning; laundry service
+- 撮影 (さつえい) - photographing; filming
 
 ### する intransitive verbs
 
