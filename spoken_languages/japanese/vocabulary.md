@@ -183,8 +183,10 @@ ____
 - では - then
 - じゃあ - then
 - 其れから (それから) - and then
+- それでは - well; right; then
 - 而して (そして) - thus
 - 次に (つぎに) - next; then; after that
+
 
 ### adverbs
 
@@ -209,6 +211,7 @@ ____
 - 丁度 (ちょうど) - just; exactly; right
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat
+- 如何して (どうして) - why; how
 
 ### adjectives (い)
 
@@ -726,6 +729,9 @@ ____
 - 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
   instrument) to catch (a cold); to look up (a word in a dictionary)
 - 持つ (もつ) - to hold; to carry; to possess
+- 閉める (しめる) - to close; to shut
+- 付ける (つける) - to attach; to join; to wear; to put on; to turn ona (a
+  light)
 
 ### verbs (intransitive)
 
@@ -769,6 +775,7 @@ ____
 - 作文 (さくぶん) - writing; composition; formal writing with little real
   meaning
 - 授業 (じゅぎょう) - lesson; class
+- 答える (こたえる) - to answer; to reply
 
 ### verbs (transitive and intransitive)
 
@@ -837,6 +844,7 @@ ____
 - 普通 (ふつう) - normal; ordinary
 - 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
 - 急 (きゅう) - sudden; urgent
+- 丁寧 (ていねい) - polite
 
 ### pronouns (person)
 
@@ -883,6 +891,9 @@ ____
 - 坂 (さか) - slope; hill; incline
 - 鏡 (かがみ) - mirror
 - 火事 (かじ) - fire
+- 医学 (いがく) - medical science; medicine
+- 気分 (きぶん) - feeling; mood; mood (psychology)
+- 電灯 (でんとう) - electric light
 
 ### nouns (academic)
 
@@ -991,6 +1002,8 @@ ____
 - 送る (おくる) - to send; to dispatch
 - 知らせる (しらせる) - to notify; to advise
 - 捜す (さがす) - to search; to look for; to seek (aka 探す)
+- 開ける (あける) - to open (something); to unwrap (a package)
+- 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 
 ### verbs (intransitive)
 
@@ -1496,6 +1509,7 @@ ____
 - 其れ丈 (それだけ) - that alone
 - 今でも (いまでも) - even now; still
 - 如何か (どうか) - would you mind; please
+- どうやって - how; in what way
 
 ### adjectives (い)
 
