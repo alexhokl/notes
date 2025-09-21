@@ -266,6 +266,7 @@ ____
 - 可愛い (かわいい) - cute
 - 欲しい (ほしい) - wanting (to have); desiring; I want (someone) to (do)
 - 強い (つよい) - strong
+- 若い (わかい) - young; youthful
 
 ### adjectives (な)
 
@@ -732,6 +733,7 @@ ____
 - 閉める (しめる) - to close; to shut
 - 付ける (つける) - to attach; to join; to wear; to put on; to turn ona (a
   light)
+- 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
 
 ### verbs (intransitive)
 
@@ -894,6 +896,7 @@ ____
 - 医学 (いがく) - medical science; medicine
 - 気分 (きぶん) - feeling; mood; mood (psychology)
 - 電灯 (でんとう) - electric light
+- 普通 (ふつう) - normal; ordinary
 
 ### nouns (academic)
 
@@ -1148,6 +1151,8 @@ ____
 - 息 (いき) - breath
 - 咳 (せき) - cough
 - 種類 (しゅるい) - kind; variety; type; category; class
+- 喉 (のど) - throat
+- 胸 (むね) - chest
 
 ### nouns (animals)
 
@@ -1570,6 +1575,7 @@ ____
 - ねた - information; news; proof; evidence
 - お化け (おばけ) - ghost
 - 電話帳 (でんわちょう) - telephone directory
+- ドラス - drama; TV drama
 
 ### nouns (family)
 
