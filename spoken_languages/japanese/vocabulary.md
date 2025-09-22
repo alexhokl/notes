@@ -1499,6 +1499,8 @@ ____
 
 ### particles
 
+なので - because; as; since; so
+
 ### conjunctions
 
 - 為に (ために) - for
