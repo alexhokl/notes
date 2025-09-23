@@ -71,17 +71,17 @@
     + [explaining a thing](#explaining-a-thing)
     + [what's wrong?](#what%27s-wrong%3F)
     + [about](#about)
+  * [Chapter 11](#chapter-11)
+    + [noun phrase](#noun-phrase)
+    + [it seems](#it-seems)
+    + [while](#while)
 ____
 
 ## Chapter 1
 
 ### noun (affirmative and negative)
 
-- noun + は + noun + です。
-  * これは猫です。
-
-- noun + は + noun + ではありません。
-  * これは犬ではありません。
+- [noun conjugations](https://github.com/alexhokl/notes/blob/master/spoken_languages/japanese/nouns.md#conjugations)
 
 - A: noun + は + noun + ですか。
   B: はい、noun + は + noun + です。
@@ -186,9 +186,9 @@ ____
 
 ### there is
 
-- location + に + thing + が + あります
-  location + に + animal + が + います
-  location + に + person + が + います
+- location + に + thing + が + ある
+  location + に + animal + が + いる
+  location + に + person + が + いる
   * 教室に机があります。
   * 教室に田中さんがいます。
 
@@ -205,7 +205,7 @@ ____
 ### location
 
 - location + に + 誰が + いますか。 (person)
-  location + に + 何が + りますか。 (animal)
+  location + に + 何が + いますか。 (animal)
   location + に + 何が + ありますか。 (thing)
   * A: 部屋の中に誰がいますか。
     B: 田中さんがいます。
@@ -274,7 +274,7 @@ ____
 
 ### not very
 
-- あまり + adjective in nagative form
+- あまり + adjective in negative form
   * このカレーはあまり美味しくないです。
   * 私の部屋はあまり綺麗じゃないです。
 
@@ -936,3 +936,29 @@ ____
 ### about
 
 - 教室に学生が三、四人います。
+
+## Chapter 11
+
+### noun phrase
+
+- phrase ends with plain form verb + noun
+  * `あそこで本を読んでいる人`は誰ですか。
+  * 私は昨日`田中さんがいつも行くレストラン`へ行きました。
+  * `リサさんの作った料理`はとても美味しいです。
+
+### it seems
+
+- noun + でしょう
+- な-adjective + でしょう
+- plain form verb + でしょう
+  * 私は多分雨が降るでしょう。
+  * 今日は日曜日ですから、あの公園は多分賑やかでしょう。
+  * 田中さんのお父さんは多分五十歳ぐらいでしょう。
+
+- plain form verb + だろうと思います。
+  * 私は多分雨が降るだろうと思います。
+
+### while
+
+- verb in stem form + ながら + ...
+  * 私はいつもテレビを見ながら朝ご飯を食べます。

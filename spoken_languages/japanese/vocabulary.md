@@ -1,5 +1,6 @@
 - [Vocabulary](#vocabulary)
   * [N5](#n5)
+    + [particles](#particles)
     + [conjunctions](#conjunctions)
     + [adverbs](#adverbs)
     + [adjectives (い)](#adjectives-%E3%81%84)
@@ -102,6 +103,7 @@
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
     + [verbs (transitive)](#verbs-transitive-3)
     + [verbs (intransitive)](#verbs-intransitive-3)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
     + [Particles](#particles)
@@ -125,7 +127,7 @@
     + [verbs (transitive)](#verbs-transitive-4)
     + [verbs (intransitive)](#verbs-intransitive-4)
   * [N0](#n0)
-    + [particles](#particles)
+    + [particles](#particles-1)
     + [conjunctions](#conjunctions-4)
     + [adverbs](#adverbs-5)
     + [adjectives (い)](#adjectives-%E3%81%84-5)
@@ -167,7 +169,7 @@
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
     + [verbs (transitive)](#verbs-transitive-5)
     + [verbs (intransitive)](#verbs-intransitive-5)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
     + [verbs (direction intransitive)](#verbs-direction-intransitive-1)
     + [expressions](#expressions-4)
 ____
@@ -175,6 +177,10 @@ ____
 # Vocabulary
 
 ## N5
+
+### particles
+
+- 等 (など) - etc.; or something
 
 ### conjunctions
 
@@ -186,7 +192,6 @@ ____
 - それでは - well; right; then
 - 而して (そして) - thus
 - 次に (つぎに) - next; then; after that
-
 
 ### adverbs
 
@@ -1345,6 +1350,9 @@ ____
 ### する intransitive verbs
 
 - お辞儀 (おじぎ) - bowing
+- 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
+  goods)
+- 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 
 ### する transitive and intransitive verbs
 
@@ -1359,12 +1367,14 @@ ____
 
 ### verbs (intransitive)
 
-- 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
-  goods)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
-- 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 - 助かる (たすかる) - to be saved; to be rescued; to be helped
 - 涼む (すずむ) - to cool oneself
+- 依る (よる) - to depend on; to be caused by; to be cased on
+
+### verbs (transitive and intransitive)
+
+- 思いつく (おもいつく) - to think of; to remember; to recall
 
 ### expressions
 
@@ -1499,7 +1509,9 @@ ____
 
 ### particles
 
-なので - because; as; since; so
+- なので - because; as; since; so
+- しか - nothing but; except; no more than
+- ながら - while; during; as
 
 ### conjunctions
 
@@ -2044,3 +2056,4 @@ ____
 - 様な (ような) - like; similar to; feels like
 - だけでなく - not only; not just; as well as
 - かも知れません (かもしれません) - maybe; might; perhaps
+- だろう - seems
