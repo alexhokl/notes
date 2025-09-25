@@ -26,6 +26,19 @@
     + [Ordering food](#ordering-food)
     + [Like / dislike](#like-%2F-dislike)
   * [Chapter 5](#chapter-5)
+    + [transitive verbs](#transitive-verbs)
+    + [intransitive verbs](#intransitive-verbs)
+    + [directional intransitive verbs](#directional-intransitive-verbs)
+    + [indicating time](#indicating-time)
+    + [entering](#entering)
+    + [leaving](#leaving)
+    + [approximate time](#approximate-time)
+    + [approximate quantities](#approximate-quantities)
+    + [from ... to](#from-...-to)
+    + [before](#before)
+    + [after](#after)
+    + [shortening with the existing context](#shortening-with-the-existing-context)
+    + [negative answers with は](#negative-answers-with-%E3%81%AF)
   * [Chapter 6](#chapter-6)
   * [Chapter 7](#chapter-7)
     + [plain form verb](#plain-form-verb)
@@ -350,6 +363,8 @@ ____
 
 ## Chapter 5
 
+### transitive verbs
+
 - (subject) + (は) + object + を + transitive verb
   * ご飯を食べます
   * テレビを見ます
@@ -363,9 +378,13 @@ ____
   * 勉強をしますお
   * 日本語の勉強をします
 
+### intransitive verbs
+
 - anything + intransitive verb
   * 六時に起きます
   * 十一時に寝ます
+
+### directional intransitive verbs
 
 - location + へ + directional intransitive verb
   * 学校へ行きます。
@@ -374,9 +393,13 @@ ____
   * A: 田中さんは何時にうちへ行きますか。
     B: 七時に行きます。
 
+### indicating time
+
 - (subject) + (は) + time + action
   * 田中さんは毎晩日本語の勉強をします。
   * 私は毎朝六時に起きます。
+
+### entering
 
 - location (to be entered) + に + verb
   * お風呂に入ります
@@ -386,6 +409,8 @@ ____
   * 大学に入学します
   * 病院に入院します
 
+### leaving
+
 - location (to be exited) + を + verb
   * うちを出ます
   * 教室を出ます
@@ -393,48 +418,62 @@ ____
   * 大学を卒業します
   * 病院を退院します
 
+### approximate time
+
 - ごろ (in place of に)
   * A: 貴方は毎朝何時にうちを出ますか。
     B: 九時ごろ出ます。
 
-- quantifiers + ぐらい
-  * 教室に学生が五十人ぐらいいます。
-  * A: あなたは毎日何時間ぐらい寝ますか。
-    B: 七時間ぐらい寝ます。
+### approximate quantities
+
+- quantifiers + くらい
+  * 教室に学生が五十人くらいいます。
+  * A: あなたは毎日何時間くらい寝ますか。
+    B: 七時間くらい寝ます。
+
+### from ... to
 
 - location A + から + location B + まで + event
   * 香港から東京まで四時間ぐらいかかります。
   * 私は毎晩八時から十時まで勉強をします。
   * 試験は十時から十二時までです。
 
+### before
+
 - event + の前に + event
   * 私は食事の前に手を洗います。
+
+### after
 
 - event + の後で + event
   * 私は食事の後で日本語の勉強をします。
 
+### shortening with the existing context
+
 - shorten answers
   * A: あなたは毎朝何を飲みますか。
-    B: ~あなたは毎朝~コーヒーを飲みますか。
+    B: ~私は毎朝~コーヒーを飲みます。
   * A: あなたは明日どこへ行きますか。
     B: ~あなたは明日~新宿へ行きます。
   * A: 田中さんは何曜日にここへ来ますか。
     B: ~田中さんは~月曜日に~ここへ~来ます。
   * A: あなたは授業の後で何をしますか。
-    B: ~あなたは授業の後で~晩ご飯を食べます。
+    B: ~私は授業の後で~晩ご飯を食べます。
+
+### negative answers with は
 
 - A: thing + を + verb + か。
-  B: いいえ、thing + は + verb + ません。
+  B: いいえ、thing + は + negative form of verb。
   * A: お茶を飲みますか。
     B: いいえ、お茶は飲みません。コーヒーを飲みます。
 
 - A: location + に + verb + か。
-  B: いいえ、location + には + verb + ません。
+  B: いいえ、location + には + negative form of verb。
   * A: 貴方は毎朝バスに乗りますか。
     B: いいえ、バスには乗りません。電車に乗ります。
 
 - A: location + へ + verb + か。
-  B: いいえ、location + へは + verb + ません。
+  B: いいえ、location + へは + negative form of verb。
   * A: 田中さんは毎晩学校へ行きますか。
     B: いいえ、学校へは行きません。図書館へ行きます。
 
