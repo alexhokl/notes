@@ -39,7 +39,15 @@
     + [after](#after)
     + [shortening with the existing context](#shortening-with-the-existing-context)
     + [negative answers with は](#negative-answers-with-%E3%81%AF)
+    + [anyone](#anyone)
+    + [anything](#anything)
   * [Chapter 6](#chapter-6)
+    + [location and activities](#location-and-activities)
+    + [understand](#understand)
+    + [can be seen or heard](#can-be-seen-or-heard)
+    + [anywhere](#anywhere)
+    + [what kind of](#what-kind-of)
+    + [that thing / person / place](#that-thing-%2F-person-%2F-place)
   * [Chapter 7](#chapter-7)
     + [plain form verb](#plain-form-verb)
     + [な-adjective](#%E3%81%AA-adjective)
@@ -477,12 +485,16 @@ ____
   * A: 田中さんは毎晩学校へ行きますか。
     B: いいえ、学校へは行きません。図書館へ行きます。
 
+### anyone
+
 - A: location + に誰か + いますか。
   B: はい、...
   B: いいえ、...
   * A: 教室に誰かいますか。
     B: はい、田中先生がいます。
     B: いいえ、誰もいません。
+
+### anything
 
 - A: thing + か + verb + か。
   B: はい、...
@@ -497,52 +509,23 @@ ____
     B: はい、何でも飲みます。
     B: いいえ、何も飲みません。
 
-- A: location + かへ + verb + か。
-  B: はい、...
-  B: いいえ、location + へか + negative verb
-  * A: どこかへ行きますか。
-    B: はい、図書館へ行きます。
-    B: いいえ、どこへも行きません。
-
 ## Chapter 6
 
-- meaning of past tense
-  * simple past tense
-  * result of a current action
-    + よかったです。
-
-- past tense of verb
-  * 私は昨夜映画を見ました。
-  * 私は今朝はパンを食べました。
-
-- negative past tense of verb (append でした)
-  * 私は去年は旅行をしませんでした。
-  * 貴方は昨夜予習をしましたか。
-    + いいえ、しませんでした。
-    + いいえ、予習はしませんでした。
-    + いいえ、昨夜はしませんでした。
-    + いいえ、昨夜予習はしませんでした。
-    + いいえ、昨夜は予習をしませんでした。
-    + いいえ、昨夜は予習はしませんでした。
-  * 貴方は今朝ニュースを見ましたか。
-    + いいえ、見ませんでした。
-    + いいえ、ニュースは見ませんでした。
-    + いいえ、今朝は見ませんでした。
-    + いいえ、今朝ニュースを見ませんでした。
-    + いいえ、今朝はニュースを見ませんでした。
-    + いいえ、今朝はニュースは見ませんでした。
-
-- past tense of noun (replace です with でした)
-  * 昨日は良い天気でした。
-
-- negative of past tense of noun (append でした)
-  * 昨日は良い天気ではありませんでした。
+### location and activities
 
 - person + は + time + (に) + location + で + activity
   * 私は昨夜レストランでハンバーグを食べました。
   * 私は昨日デパートで新しい靴を買いました。
   * 私は先週の日曜日に渋谷の映画館で映画を見ました。
   * 私は2010年から2012年まで東京で日本語を勉強しました。
+
+- people + は + time + (に) + people + と + activity
+  * 私は昨日友達と(一緒に)映画を見ました。
+  * 私は先週の日曜日にアナさんと(一緒に)新宿へ行きました。
+  * 私は昨日渋谷で田中さんと(一緒に)食事をしました。
+  * 田中さんは来月海子さんと結婚します。
+
+### understand
 
 - something + が + 分かる
   * 木村さんは英語が分かりますか。
@@ -551,27 +534,34 @@ ____
     + はい、分かります。
     + いいえ、これは分かりません。
 
-- location + から + thing + が + 見えます
+### can be seen or heard
+
+- location + から + thing + が + 見える
   * 私はうちから公園が見えます。
   * 私の席から先生の字がよく見えません。
 
-- location + から + thing + が + 聞こえます
+- location + から + thing + が + 聞こえる
   * 私はうちから車の音が聞こえます。
 
-- ... + かへ + directional intransitive verb
+### anywhere
+
+- A: location + かへ + verb + か。
+  B: はい、...
+  B: いいえ、location + へも + negative verb
+  * A: どこかへ行きますか。
+    B: はい、図書館へ行きます。
+    B: いいえ、どこへも行きません。
   * 貴方は昨日どこかへ行きましたか。
     + はい、渋谷へ行きました。
     + いいえ、どこへも行きませんでした。
+
+### what kind of
 
 - どんな + noun + ... + か。
   * 貴方はどんなスポーツが好きですか。
   * 木村さんのうちはどんなうちですか。
 
-- people + は + time + (に) + people + と + activity
-  * 私は昨日友達と(一緒に)映画を見ました。
-  * 私は先週の日曜日にアナさんと(一緒に)新宿へ行きました。
-  * 私は昨日渋谷で田中さんと(一緒に)食事をしました。
-  * 田中さんは来月海子さんと結婚します。
+### that thing / person / place
 
 - それ / その / そこ
   * 私は昨日姉と109へ行きました。
@@ -582,13 +572,15 @@ ____
       + フランス人です。
   * 私は先週弟と東京ドームへ行きました。そこで、野球の試合を見ました。
 
+### that is good
+
 - それはいいですね。
   * 私は来月田中さんと一緒に京都行きます。
     + それはいいですね。
-
-- それはよかったですね。
   * お陰様で、入学試験の結果は合格しました。
     + それはよかったですね。
+
+### that is unfortunate
 
 - それは残念でしたね。
   * この前のパーティーはあまり楽しくありませんでした。

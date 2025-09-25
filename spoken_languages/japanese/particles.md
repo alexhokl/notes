@@ -258,7 +258,7 @@ ____
       + は cannot be used in this case as it is not a contrast
 - something `は`・・・。 something else `は`・・・。
   * "something else" can be used as an additional context to "something"
-- in giving negative answers, は should be used in place of particles such as 
+- in giving negative answers, は should be used in place of particles such as
   が
   * examples
     + A: パーティーは田中さんが来ますか。
@@ -349,7 +349,7 @@ ____
   * 私は学生です。 - For me, I'm a student.
 - …(something important) が …
   * 私が学生です。 - I am the one who is a student.
-- 何故、あなたが時計をチラッと見るたび、泣くそうな気分になるの？ - why? when you 
+- 何故、あなたが時計をチラッと見るたび、泣くそうな気分になるの？ - why? when you
   glance at your watch, I feel like crying (as assuming 私は)
   * 何故、あなたは時計をチラッと見るたび、泣くそうな気分になるの？ - why? when
     you glance at your watch, you feel like crying
@@ -1061,6 +1061,9 @@ ____
     + 夏休み
     + 冬休み
     + 誕生日
+    + クリスマス
+    + 午前に
+    + 午後に
   * the following should not be used with に nor with any other particle
     + 去年
     + 今年
