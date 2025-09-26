@@ -369,18 +369,19 @@ Note that all other conjugations of 買う use hiragana characters on the
   * conjunctive form
   * sentence-joining form
 - the fixed part in a verb conjuation
-- suffixed with い if it is a 五段動詞 (godan verb)
 - it can also stand alone as a noun at times or become at least noun-like,
   allowing it to combine with another word to form a compound verb like 飛び込む
   (to jump in)
 - conjugation
   * 五段動詞
-    + replace う ending with い
+    + remove ます in ます form
   * 一段動詞
     + remove る ending
   * 変格動詞
     + する -> し
     + 来る -> 来
+  * する verb
+    + remove する
 
 ## Command form (imperative) ろ
 

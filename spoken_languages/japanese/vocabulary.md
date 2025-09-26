@@ -458,6 +458,7 @@ ____
 - 映画館 (えいがかん) - cinema
 - 公園 (こうえん) - park
 - 所 (ところ) - place; site
+- 辺 (へん) - area; region; side (mathematics)
 
 ### nouns (family)
 
@@ -1068,6 +1069,7 @@ ____
 - だけど - however; but; although
 - 其れとも (それとも) - or; or else
 - 偖 (さて) - well; now; then
+- 何処か (どこか) - somewhere
 
 ### adverbs
 
@@ -1255,6 +1257,7 @@ ____
 - 貰う (もらう) - to receive; to get (from somebody)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 覚ます (さます) - to waken; to arouse from sleep
+- 仕舞う (しまう) - to end up
 
 ### verbs (intransitive)
 
@@ -1529,6 +1532,7 @@ ____
 - 今でも (いまでも) - even now; still
 - 如何か (どうか) - would you mind; please
 - どうやって - how; in what way
+- いつ頃 (いつごろ) - about when; about what time; how soon
 
 ### adjectives (い)
 
