@@ -674,32 +674,26 @@ ____
 
 ### multiple actions
 
-- ... + て、+ ...
-  * examples
+- ... + verb in te-form + 、 + ...
+  * multiple actions happening in sequence
     + 私は毎朝7時に起きて、朝ご飯を食べて、学校へ行きます。
     + 昨夜は友達と食事をして、１１時頃うちへ帰って、シャワーを浴びて、1時に寝ました。
     + 私は毎朝コーヒーを飲んで、パンを食べます。
     + 昨日は会社のパーティーがありました。私は陳さんと同じテーブルで食事をして、色々な話をしました。
+  * start and end
+    + 学校は9時に始まって、4時に終わります。
+    + 昨日は6時に起きて、10時に寝ました。
+    + 私は中野で電車に乗って、新宿で電車を降りました。
+    + 兄は2010年に大学に入学して、2014年に卒業しました。
+  * continuing an action in the previous sentence
+    + 私は昨日スーパーへ行って、買い物をしました。
+    + 私は毎晩お風呂に入って、髪を洗います。
+    + 昨夜マリアさんがうちへ遊びに来て、一緒にお酒を飲みました。
+    + 私は昨夜ケーキを作って、田中さんに上げました。
 
-### start and end
+### linking two unrelated actions which happen one after another
 
-- examples
-  * 学校は9時に始まって、4時に終わります。
-  * 昨日は6時に起きて、10時に寝ました。
-  * 私は中野で電車に乗って、新宿で電車を降りました。
-  * 兄は2010年に大学に入学して、2014年に卒業しました。
-
-### continuing an action in the previous sentence
-
-- examples
-  * 私は昨日スーパーへ行って、買い物をしました。
-  * 私は毎晩お風呂に入って、髪を洗います。
-  * 昨夜マリアさんがうちへ遊びに来て、一緒にお酒を飲みました。
-  * 私は昨夜ケーキを作って、田中さんに上げました。
-
-### linking two unrelated sentences which happen one after another
-
-- ... + てから、+ ...
+- ... + verb in te-form + から、+ ...
   * the reason that it does not link two related sentences as it assumes one
     action completes before starting another
   * examples
@@ -713,60 +707,46 @@ ____
 ### an action before another action
 
 - verb in plain form + 前に + ... + verb
-  * examples
-    + 田中さんはいつも寝る前に、歯を磨きます。
-    + 田中さんとリサさんは昨夜映画を見る前に食事をしました。
-    + あなたは毎晩寝る前にどんな事しますか。
+  * 田中さんはいつも寝る前に、歯を磨きます。
+  * 田中さんとリサさんは昨夜映画を見る前に食事をしました。
+  * あなたは毎晩寝る前にどんな事しますか。
+- subject + は + subordinate subject + が + verb in plain form + 前に、 + verb。
+  * 私はチャイムが鳴る前に、教室に入りました。
+  * 父は毎朝私が起きる前に、うちを出ます。
+- subordinate subject + が + verb in plain form + 前に、 + subject + は + verb。
+  * 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
+  * 雨は降る前に、私は買い物に行きました。
 
 ### people, time and action
 
 - people + は + timing + action
-  * examples
-    + 私は午後3時に新宿へ行きます。
-    + 私は食事の後で新宿へ行きます。
-    + 私はご飯を食べてから、新宿へ行きます。
+  * 私は午後3時に新宿へ行きます。
+  * 私は食事の後で新宿へ行きます。
+  * 私はご飯を食べてから、新宿へ行きます。
 - timing + は + people + ... + action
-  * examples
-    + 今日は授業が終わってから、私は新宿へ行きます。
-
-### subordinate clauses
-
-- subject + は + subordinate subject + が + subordinate verb + 前に、 + verb。
-  * examples
-    + 私は雨が止んでから、新宿へ行きます。
-    + 店員はお客さん帰ってから、店の掃除をしました。
-    + 陳さんは昨日授業が終わってから、アルバイトに行きました。
-    + 私はチャイムが鳴る前に、教室に入りました。
-    + 父は毎朝私が起きる前に、うちを出ます。
-- subordinate subject + が + subordinate verb + 前に、 + subject + は + verb。
-  * examples
-    + 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
-    + 雨は降る前に、私は買い物に行きました。
+  * 今日は授業が終わってから、私は新宿へ行きます。
 
 ### gifting (giving to in-group; speaker or listener or speaker-related)
 
 - A + は + B + に + thing + を + くれる。
-  * examples
-    + 小林さんはアナさんに花をあげました。
-    + 小林さんは私に花をくれました。(上げました cannot be used)
-    + 木村さんは私の妹にケーキをくれました。(上げました cannot be used)
-    + 木村さんはあなたに何をくれましたか。(上げました cannot be used)
+  * 小林さんはアナさんに花を上げました。
+  * 小林さんは私に花をくれました。(上げる cannot be used)
+  * 木村さんは私の妹にケーキをくれました。(上げる cannot be used)
+  * 木村さんはあなたに何をくれましたか。(上げる cannot be used)
 
 ### tools or methods for an action
 
 - ... + tool/method + で + ...
-- examples
   * 今の人はみんな携帯電話で写真を撮ります。
   * 中国人や日本人は箸でご飯を食べます。
   * 私はポールペンで名前を書きました。
-  * 山手線で新宿まで行きます。
 
 ### transportation
 
 - ... + transportation + で + ...
-- examples
   * 私は毎日地下鉄で会社へ行きます。
   * 私は去年新幹線で北海道へ行きました。
+  * 山手線で新宿まで行きます。
 
 ### the position of time and people in a sentence can be casual
 
@@ -780,15 +760,14 @@ ____
 
 ### present continuous
 
-- verb in te-form + います
+- verb in te-form + いる
   * 私は今ご飯を食べています。
   * 私は今、勉強しています。
 
 ### past continuous
 
-- verb in te-form + いました
-  * 朝から雨が降っていました。
 - verb in te-form + いた
+  * 朝から雨が降っていました。
   * 朝から雨が降っていた。
 
 ### action as a short-term habit
