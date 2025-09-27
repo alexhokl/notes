@@ -1047,6 +1047,7 @@ ____
 - 集まる (あつまる) - to gather; to collect; to assemble
 - 泊まる (とまる) - to stay (e.g. hotel)
 - 動く (うごく) - to move; to operate; to work; to be touched; be transferred
+- 続く (つづく) - to continue
 
 ### verbs (transitive and intransitive)
 

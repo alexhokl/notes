@@ -772,28 +772,31 @@ ____
 
 ### action as a short-term habit
 
-- verb in te-form + います
+- verb in te-form + いる
   * 私は毎朝コーヒーを飲んでいます。
   * 私は毎晩お風呂に入っています。
 
 ### describe a work location
 
-- location + に + 勤めています。
+- location + に + 勤めている
   * 私の母は看護師です。今、大坂の病院に勤めています。
+- location + で + 働いている
+  * 私の母は看護師です。今、大坂の病院で働いています。
 
 ### describe an occupation
 
-- occupation + を + しています。
+- occupation + を + している
   * 小林さんは公務員をしています。
   * 海子さんのお父さんは寿司屋をしています。
   * 数学の先生をしています。
+  * ソフドウェアエンジニアをしています。
 
 ### describe a work type
 
-- ... + verb in te-form + います。
-  * 私の母は看護師です。今、大坂の病院で働いています。
+- ... + verb in te-form + いる
   * 海子さんのお父さんは寿司屋を経営しています。
   * 中学校で数学を教えています。
+  * ソフトウェアを書いています。
 
 ### what do you do
 
@@ -810,22 +813,23 @@ ____
 
 ### like most
 
-- あなたは果物の中で何が一番好きですか。
-  * りんごが一番好きです。
+- a kind of things + の中で + 何が一番 + adjective + ですか。
+  * あなたは果物の中で何が一番好きですか。
+    + りんごが一番好きです。
 
 ### movement verbs
 
 - location + を + movement verb
-  * 鳥は空を飛びます。
-  * 鳥が空を飛んでいます。
-  * 魚は水の中を泳ぎます。
-  * 人は道を歩きます。
-  * 日本を旅行します。
+  * 鳥は空を飛ぶ。
+  * 鳥が空を飛んでいる。
+  * 魚は水の中を泳ぐ。
+  * 人は道を歩く。
+  * 日本を旅行する。
   * 私は三十分ぐらい森の中を歩く。
 - most of the movement verbs are intransitive verbs
 - but the following example is not applicable since 泳ぐ is not a movement
   behaviour but an activity/event
-  * 小林さんがプールで泳いでいます。
+  * 小林さんがプールで泳いでいる。
 
 ### how old
 
@@ -836,14 +840,14 @@ ____
 
 ### use of の for the same rank
 
-- examples
+- group + の + one of the group
   * この人は僕の友達です。この人は山田君です。友達の山田は今大学二年です。
   * 私のクラスには李さんが二人います。香港人の李さんは二十歳です。台湾人の李さんは二十五歳です。
   * お姉さんの海子さんは元気ですか。
   * 公務員の小林さんは毎日電話を受けています。
   * 九歳の友子さんは虫が大好きです。
 
-### how long / far / much
+### how long
 
 - どのくらい
   * どのくらい日本語を勉強していますか。
