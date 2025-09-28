@@ -867,12 +867,15 @@ ____
 ### decorating verbs
 
 - conversion to adverb
-  * い-adjective: drop い + く
-    + 早く
+  * い-adjective
+    + replace い with く
+      + 早く
   * な-adjective
-    + 静かに
+    + add に
+      + 静かに
   * noun
-    + 大学生に
+    + add に
+      + 大学生に
 
 - adverb + verb
   * ご飯を楽しく作る
@@ -899,13 +902,14 @@ ____
 
 ### someone thinks
 
-- subordinate clause + と思っている
+- someone + は + subordinate clause (with plain form verb) + と思っている
   * 田中さんは明日雨が降ると思っています。
-  * 家内は私か戻ってこないと思っています。
+  * 家内は私か戻って来ないと思っています。
 
 ### because
 
 - (reason) + から + (consequence)
+  * it is not a must but best to write the reason with plain form sentence
   * 私は学校が休みですから、友達と映画を見に行きます。
   * 私は学校が休みだから、友達と映画を見に行きます。
   * 映画が始まりますから、ホールに入ってください。
@@ -913,14 +917,14 @@ ____
 
 ### someone said
 
-- ... + と + 言う
+- someone + は + audience + に + 「 + things said + 」 + と + 言う
   * 先生は「来週試験をします。」と言いました。
   * 「来週試験をします。」と先生は言いました。
   * 先生は「来週試験をします。」と私達に言いました。
-  * 先生は来週試験をすると言いました。
-
-- someone + は + someone else + に + ... + と + 言う
   * 先生は学生達に「来週試験をします。」と言いました。
+
+- someone + は + audience + に + subordinate clause (with plain form verb) + と + 言う
+  * 先生は来週試験をすると言いました。
 
 ### explaining a thing
 
@@ -928,7 +932,7 @@ ____
   * A: 水野さんはいつも素敵ですね。いつもどこで買い物をしますか。
     + B: このバッグは東京で書いました。この靴は姉から貰いました。
   * A: おいしい天ぶらですね。水野さんは料理が上手ですね。
-    + B: ああ、この天ぷらは母か作りました。私は下手ですよ。
+    + B: ああ、この天ぷらは母が作りました。私は下手ですよ。
   * A: 息子さんは中学何年生ですか。
     + B: 中学？中学校は去年卒業しました。今高校一年生です。
 

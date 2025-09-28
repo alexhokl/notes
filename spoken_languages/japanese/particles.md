@@ -1062,8 +1062,9 @@ ____
     + 冬休み
     + 誕生日
     + クリスマス
-    + 午前に
-    + 午後に
+    + 午前
+    + 午後
+    + 二年前
   * the following should not be used with に nor with any other particle
     + 去年
     + 今年

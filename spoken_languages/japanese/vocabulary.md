@@ -72,6 +72,7 @@
     + [pronouns (person)](#pronouns-person-2)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
+    + [nouns (body parts)](#nouns-body-parts-1)
     + [nouns (food)](#nouns-food-2)
     + [nouns (drinks)](#nouns-drinks-2)
     + [nouns (home)](#nouns-home-1)
@@ -149,7 +150,7 @@
     + [nouns (clothing)](#nouns-clothing-4)
     + [nouns (transportation)](#nouns-transportation-4)
     + [nouns (animals)](#nouns-animals-3)
-    + [nouns (body parts)](#nouns-body-parts-1)
+    + [nouns (body parts)](#nouns-body-parts-2)
     + [nouns (position)](#nouns-position-2)
     + [nouns (home)](#nouns-home-2)
     + [nouns (sports)](#nouns-sports-3)
@@ -388,6 +389,9 @@ ____
 - キロ - kilometer
 - 本当 (ほんとう) - real; proper
 - 他 (ほか) - other; another
+- 風 (かぜ) - wind; manner; behaviour; cold; influenza
+- 鍵 (かぎ) - key; lock
+- カレンダー - calendar
 
 ### nouns (academic)
 
@@ -433,6 +437,7 @@ ____
 - シャワー - shower
 - 箱 (はこ) - box
 - 箸 (はし) - chopsticks
+- ストーブ - stove
 
 ### nouns (location)
 
@@ -740,6 +745,11 @@ ____
 - 付ける (つける) - to attach; to join; to wear; to put on; to turn ona (a
   light)
 - 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
+- 忘れる (わすれる) - to forget
+- 入れる (いれる) - to put in; to accept; to include
+- 置く (おく) - to place
+- 覚える (おぼえる) - to memorise; to learn
+- 締める (しめる) - to tie; to fasten; to tighten
 
 ### verbs (intransitive)
 
@@ -753,7 +763,7 @@ ____
 - 降りる (おりる) - to get off (also 下りる); to descend; to go down
 - 入る (はいる) - to enter
 - 乗る (のる) - to get on
-- 掛かる (かかる) - to take (time, money); to hang
+- 掛かる (かかる) - to take (time, money); to hang; to be fastened
 - 走る (はしる) - to run
 - 聞こえる (きこえる) - to be heard
 - 見える (みえる) - to be seen
@@ -784,11 +794,19 @@ ____
   meaning
 - 授業 (じゅぎょう) - lesson; class
 - 答える (こたえる) - to answer; to reply
+- 困る (こまる) - to be troubled; to have difficulty
+- 咲く (さく) - to bloom; to blossom
+- 開く (あく) - to open
+- 消える (きえる) - to disappear; to turn off
+- 曇る (くもる) - to get cloudy
+- 閉まる (しまる) - to be closed
+- 住む (すむ) - to live; to reside
+- 座る (すわる) - to be seated
 
 ### verbs (transitive and intransitive)
 
 - 終わる (おわる) - to end
-- 為る (する) - to do
+- 為る (する) - to do; to wear
 - 待つ (まつ) - to wait
 - 歌う (うたう) - to sing
 - 勉強 (べんきょう) - study
@@ -829,6 +847,7 @@ ____
 - 確かに (たしかに) - surely; certainly
 - 偶に (たまに) - occasionally; once in a while; now and then
 - 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
+- 一度 (いちど) - once; one time
 
 ### adjectives (い)
 
@@ -946,6 +965,7 @@ ____
 - 空港 (くうこう) - airport
 - 湖 (みずうみ) - lake
 - 美術館 (びじゅつかん) - art museum; art gallery
+- ガソリンスタンド - gas station
 
 ### nouns (shopping)
 
@@ -955,6 +975,7 @@ ____
 
 - 下着 (したぎ) - underwear
 - 着物 (きもの) - kimono
+- スーツ - suit
 
 ### nouns (transportation)
 
@@ -1013,6 +1034,7 @@ ____
 - 捜す (さがす) - to search; to look for; to seek (aka 探す)
 - 開ける (あける) - to open (something); to unwrap (a package)
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
+- 飾る (かざる) - to decorate; to display
 
 ### verbs (intransitive)
 
@@ -1048,6 +1070,10 @@ ____
 - 泊まる (とまる) - to stay (e.g. hotel)
 - 動く (うごく) - to move; to operate; to work; to be touched; be transferred
 - 続く (つづく) - to continue
+- 遅れる (おくれる) - to be late
+- 乾く (かわく) - to get dry
+- 濡れる (ぬれる) - to get wet
+- 済む (すむ) - to be completed
 
 ### verbs (transitive and intransitive)
 
@@ -1143,7 +1169,6 @@ ____
 - 黒板 (こくばん) - blackboard
 - 煙 (けむり) - smoke
 - 礼 (れい) - thanks; gratitude; bow
-- 背 (せい) - height; stature
 - 調子 (ちょうし) - condition; state of health; tune
 - 順番 (じゅんばん) - order; turn
 - 自身 (じしん) - oneself; yourself; himself; herself
@@ -1159,8 +1184,8 @@ ____
 - 息 (いき) - breath
 - 咳 (せき) - cough
 - 種類 (しゅるい) - kind; variety; type; category; class
-- 喉 (のど) - throat
-- 胸 (むね) - chest
+- 度 (ど) - degree; counter for occurrences; strength
+- アルバム - album
 
 ### nouns (animals)
 
@@ -1170,6 +1195,12 @@ ____
 - 鼠 (ねずみ) - rat; mouse
 - 牛 (うし) - cow
 - 馬 (うま) - horse
+
+### nouns (body parts)
+
+- 背 (せい) - height; stature
+- 喉 (のど) - throat
+- 胸 (むね) - chest
 
 ### nouns (food)
 
@@ -1184,10 +1215,12 @@ ____
 - ジュース - juice
 - ワイン - wine
 - 酒 (さけ) - alcohol
+- ウイスキー - whisky
 
 ### nouns (home)
 
 - ソファ - sofa
+- スイッチ - switch
 
 ### nouns (sports)
 
@@ -1312,6 +1345,7 @@ ____
 - カラー - color
 - 西暦 (せいれき) - Western calendar
 - バツ - cross
+- 定期券 (ていきけん) - commuter pass
 
 ### nouns (food)
 
@@ -1368,6 +1402,7 @@ ____
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 開放 (かいほう) - open
 - 拭く (ふく) - to wipe; to dry
+- 干す (ほす) - to air; to dry; to hang dry
 
 ### verbs (intransitive)
 
@@ -1409,6 +1444,7 @@ ____
 ### adverbs
 
 - 直ぐ (すぐ) - immediately; soon; easily
+- 先に (さきに) - previously; before
 
 ### adjectives (い)
 
@@ -1485,6 +1521,7 @@ ____
 ### noun suffixes
 
 - 過ぎ (すぎ) - past; after; over-;
+- 側 (がわ) - side
 
 ### する transitive verbs
 
@@ -1495,6 +1532,7 @@ ____
 ### する intransitive verbs
 
 - 日焼け (ひやけ) - sun damage/fading
+- 朝寝坊 (あさねぼう) - sleeping in
 
 ### する transitive and intransitive verbs
 
@@ -1595,6 +1633,8 @@ ____
 - お化け (おばけ) - ghost
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
+- 洗濯物 (せんたくもの) - laundry
+- 掲示板 (けいじばん) - notice board
 
 ### nouns (family)
 
@@ -1733,6 +1773,7 @@ ____
 - 本屋 (ほんや) - bookstore
 - 地下街 (ちかがい) - underground shopping street
 - 風呂場 (ふろば) - bathroom
+- コインランドリー - coin laundry
 
 ### nouns (shopping)
 
@@ -1853,6 +1894,7 @@ ____
 - 屑籠 (くずかご) - wastepaper basket
 - 電子レンジ (でんしレンジ) - microwave oven
 - 洗濯機 (せんたくき) - washing machine
+- 乾燥機 (かんそうき) - dryer
 - 洗面台 (せんめんだい) - washbasin
 
 ### nouns (sports)
