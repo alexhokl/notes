@@ -392,6 +392,7 @@ ____
 - 風 (かぜ) - wind; manner; behaviour; cold; influenza
 - 鍵 (かぎ) - key; lock
 - カレンダー - calendar
+- 地図 (ちず) - map
 
 ### nouns (academic)
 
@@ -750,6 +751,8 @@ ____
 - 置く (おく) - to place
 - 覚える (おぼえる) - to memorise; to learn
 - 締める (しめる) - to tie; to fasten; to tighten
+- 並べる (ならべる) - to line up; to set up; to arrange in a line
+- 張る (はる) - to stick; to paste
 
 ### verbs (intransitive)
 
@@ -802,6 +805,7 @@ ____
 - 閉まる (しまる) - to be closed
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
+- 並ぶ (ならぶ) - to line up; to stand in a line
 
 ### verbs (transitive and intransitive)
 
@@ -922,6 +926,8 @@ ____
 - 気分 (きぶん) - feeling; mood; mood (psychology)
 - 電灯 (でんとう) - electric light
 - 普通 (ふつう) - normal; ordinary
+- ハンドバック - handbag
+- 星 (ほし) - star
 
 ### nouns (academic)
 
@@ -930,6 +936,7 @@ ____
 ### nouns (position)
 
 - 隅 (すみ) - corner
+- 真ん中 (まんなか) - centre; middle
 
 ### nouns (time)
 
@@ -1074,6 +1081,9 @@ ____
 - 乾く (かわく) - to get dry
 - 濡れる (ぬれる) - to get wet
 - 済む (すむ) - to be completed
+- 付く (つく) - to be turned on; to be attachedd
+- 太る (ふとる) - to gain weight
+- 痩せる (やせる) - to lose weight
 
 ### verbs (transitive and intransitive)
 
@@ -1186,6 +1196,8 @@ ____
 - 種類 (しゅるい) - kind; variety; type; category; class
 - 度 (ど) - degree; counter for occurrences; strength
 - アルバム - album
+- 独身 (どくしん) - single
+- ベルト - belt
 
 ### nouns (animals)
 
@@ -1244,6 +1256,7 @@ ____
 - ホーム - platform
 - トラック - truck
 - 道路 (どうろ) - road; highway
+- 停留所 (ていりゅうじょ) - stopping place
 
 ### nouns (technology)
 
@@ -1292,6 +1305,7 @@ ____
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 覚ます (さます) - to waken; to arouse from sleep
 - 仕舞う (しまう) - to end up
+- 履く (はく) - to wear (lower body clothing, footwear)
 
 ### verbs (intransitive)
 
@@ -1302,6 +1316,7 @@ ____
 - 出発 (しゅっぱつ) - departure
 - 空く (あく) - to become empty
 - 申し込む (もうしこむ) - to apply for
+- 積もる (つもる) - to pile up; to accumulate
 
 ### verbs (transitive and intransitive)
 
@@ -1346,6 +1361,10 @@ ____
 - 西暦 (せいれき) - Western calendar
 - バツ - cross
 - 定期券 (ていきけん) - commuter pass
+- 手続き (てつづき) - procedure; formalities
+- ネックレス - necklace
+- 両側 (りょうがわ) - both sides
+- 蝋燭 (ろうそく) - candle
 
 ### nouns (food)
 
@@ -1370,6 +1389,8 @@ ____
 ### nouns (clothing)
 
 - ブラウス - blouse
+- レインコート - raincoat
+- ワンピース - dress (one-piece)
 
 ### nouns (animals)
 
@@ -1476,6 +1497,7 @@ ____
 - 皺 (しわ) - wrinkle, crease (aka シワ)
 - 地元 (じもと) - home area; home town; local
 - 幽霊 (ゆうれい) - ghost
+- ハンガー - hanger
 
 ### nouns (clothing)
 
@@ -1572,6 +1594,7 @@ ____
 - 如何か (どうか) - would you mind; please
 - どうやって - how; in what way
 - いつ頃 (いつごろ) - about when; about what time; how soon
+- 然う然う (そうそう) - oh yes
 
 ### adjectives (い)
 
@@ -1896,6 +1919,7 @@ ____
 - 洗濯機 (せんたくき) - washing machine
 - 乾燥機 (かんそうき) - dryer
 - 洗面台 (せんめんだい) - washbasin
+- 電気スタンド (でんきスタンド) - desk lamp
 
 ### nouns (sports)
 
