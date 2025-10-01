@@ -929,6 +929,8 @@ ____
 
 - someone + は + audience + に + subordinate clause (with plain form verb) + と + 言う
   * 先生は来週試験をすると言いました。
+  * 田中さんは木村さんに誕生日おめでとうと言いました。
+    + 田中さんは木村さんに「木村さん、お誕生日おめでとうございます。」と言いました。
 
 ### explaining a thing
 
