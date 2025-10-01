@@ -48,22 +48,21 @@
     + [anywhere](#anywhere)
     + [what kind of](#what-kind-of)
     + [that thing / person / place](#that-thing-%2F-person-%2F-place)
+    + [that is good](#that-is-good)
+    + [that is unfortunate](#that-is-unfortunate)
   * [Chapter 7](#chapter-7)
-    + [plain form verb](#plain-form-verb)
-    + [な-adjective](#%E3%81%AA-adjective)
-    + [directional intransitive verb](#directional-intransitive-verb)
+    + [I think](#i-think)
+    + [move to do something](#move-to-do-something)
     + [は and が to stress differnent part of a sentence](#%E3%81%AF-and-%E3%81%8C-to-stress-differnent-part-of-a-sentence)
-    + [Gifting](#gifting)
+    + [gifting](#gifting)
+    + [receiving](#receiving)
     + [When](#when)
     + [で to connect two sentences](#%E3%81%A7-to-connect-two-sentences)
   * [Chapter 8](#chapter-8)
     + [multiple actions](#multiple-actions)
-    + [start and end](#start-and-end)
-    + [continuing an action in the previous sentence](#continuing-an-action-in-the-previous-sentence)
-    + [linking two unrelated sentences which happen one after another](#linking-two-unrelated-sentences-which-happen-one-after-another)
+    + [linking two unrelated actions which happen one after another](#linking-two-unrelated-actions-which-happen-one-after-another)
     + [an action before another action](#an-action-before-another-action)
     + [people, time and action](#people%2C-time-and-action)
-    + [subordinate clauses](#subordinate-clauses)
     + [gifting (giving to in-group; speaker or listener or speaker-related)](#gifting-giving-to-in-group%3B-speaker-or-listener-or-speaker-related)
     + [tools or methods for an action](#tools-or-methods-for-an-action)
     + [transportation](#transportation)
@@ -81,21 +80,26 @@
     + [movement verbs](#movement-verbs)
     + [how old](#how-old)
     + [use of の for the same rank](#use-of-%E3%81%AE-for-the-same-rank)
-    + [how long / far / much](#how-long-%2F-far-%2F-much)
+    + [how long](#how-long)
   * [Chapter 10](#chapter-10)
     + [please](#please)
     + [decorating verbs](#decorating-verbs)
-    + [I think](#i-think)
+    + [I think](#i-think-1)
     + [someone thinks](#someone-thinks)
     + [because](#because)
     + [someone said](#someone-said)
     + [explaining a thing](#explaining-a-thing)
-    + [what's wrong?](#what%27s-wrong%3F)
+    + [what happened (and why?)](#what-happened-and-why%3F)
     + [about](#about)
   * [Chapter 11](#chapter-11)
     + [noun phrase](#noun-phrase)
     + [it seems](#it-seems)
     + [while](#while)
+    + [ends up](#ends-up)
+    + [but](#but)
+  * [Chapter 12](#chapter-12)
+    + [wearing](#wearing)
+    + [containing](#containing)
 ____
 
 ## Chapter 1
@@ -936,22 +940,27 @@ ____
   * A: 息子さんは中学何年生ですか。
     + B: 中学？中学校は去年卒業しました。今高校一年生です。
 
-- には
+- には/にも
   * ここは動物園です。この動物園にはパンダが三頭います。
 
-- へは
+- へは/へも
   * 私は今年イギリスとタイへ行きます。イギリスへは六月に行って、タイへは八月に行きます。
 
-- では
+- では/でも
   * アメリカの車は左ハンドルです。日本では右ハンドルです。
 
-- とは
+- とは/とも
   * A: こ主人の田中さんはお元気ですか。
     + B: 田中さんとは二年前に離婚しました。
 
-### what's wrong?
+### what happened (and why?)
 
-- あなたは昨日学校へ来ませんでしたね。どうしたのですか。
+- どうしたのですか。
+  * it shows a concerned tone
+    + normal tone would be どうしましたか。
+  * あなたは昨日学校へ来ませんでしたね。どうしたのですか。
+  * another variation is どうしたんですか。
+  * another casual variation is どうしたの。 or どうしたんだ。
 
 ### about
 
