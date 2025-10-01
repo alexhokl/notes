@@ -1050,12 +1050,17 @@ ____
   * 鞄
   * ハンドバッグ
 
-### containing
+### continuing state
 
-- container + に + thing + が + 入っている
+- location + に + thing + が + verb in te-form + いる
   * 冷蔵庫の中にジュースが入っています。
 
-- テーブルの上に花が飾ってあります。
+### resulting state
+
+- location + に + thing + が + verb in te-form + ある
+  * テーブルの上に花が飾ってあります。
+
+### already
 
 - もうご飯を食べましたか。
   * はい、もう食べました。

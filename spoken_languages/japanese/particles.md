@@ -1065,6 +1065,8 @@ ____
     + 午前
     + 午後
     + 二年前
+    + action (verb in plain form) + 前
+      + 出掛ける前
   * the following should not be used with に nor with any other particle
     + 去年
     + 今年
