@@ -1050,14 +1050,14 @@ ____
   * 鞄
   * ハンドバッグ
 
-### continuing state
+### current state regardless of state change previously
 
-- location + に + thing + が + verb in te-form + いる
+- thing + が + intransitive verb in te-form + いる
   * 冷蔵庫の中にジュースが入っています。
 
-### resulting state
+### current state after a state change
 
-- location + に + thing + が + verb in te-form + ある
+- thing + が + transitive verb in te-form + ある
   * テーブルの上に花が飾ってあります。
 
 ### already
@@ -1065,6 +1065,9 @@ ____
 - もうご飯を食べましたか。
   * はい、もう食べました。
   * いいえ、まだ食べていません。
+
+### did you know
+
 - あなたはこのニュースを知っていましたか。
   * はい、知っていました。
   * いいえ、知りませんでした。
