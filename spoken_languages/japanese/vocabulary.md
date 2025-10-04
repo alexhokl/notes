@@ -706,14 +706,54 @@ ____
 
 - 質問 (しつもん) - question
 
+### verb pairs
+
+- 開く (あく) - to open
+  * 開ける (あける) - to open (something); to unwrap (a package)
+- 閉まる (しまる) - to be closed
+  * 閉める (しめる) - to close; to shut
+- 出る (でる) - to leave; to appear; to attend
+  * 出す (だす) - to take out; to put out; to submit; to publish; to send (a
+    letter)
+- 付く (つく) - to be turned on; to be attachedd
+  * 付ける (つける) - to attach; to join; to wear; to put on; to turn ona (a
+    light)
+- 消える (きえる) - to disappear; to turn off
+  * 消す (けす) - to erase; to turn off; to extinguish
+- 始まる (はじまる) - to start
+  * 始める (はじめる) - to start (something); to begin
+- 聞こえる (きこえる) - to be heard
+  * 聞く (きく) - to listen; to ask (also 聴く)
+- 見える (みえる) - to be seen
+  * 見る (みる) - to watch; to see
+- 入る (はいる) - to enter
+  * 入れる (いれる) - to put in; to accept; to include
+- 上がる (あがる) - to rise; to go up; to come up; to ascend; to climb; to stop
+  (of rain); to clear up (of weather)
+  * 上げる (あげる) - to raise; to give; to fly; to launch
+- 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
+  wind; to twist
+  * 曲げる (まげる) - to bend
+- 並ぶ (ならぶ) - to line up; to stand in a line
+  * 並べる (ならべる) - to line up; to set up; to arrange in a line
+- 生まれる (うまれる) - to be born
+  * 生む (うむ) - to give birth; to produce; to yield
+- 起きる (おきる) - to wake up
+  * 起こす (おこす) - to wake (someone) up
+- 寝る (ねる) - to sleep
+  * 寝かせる (ねかせる) - to put (someone) to bed; to lay (something) down
+- 降りる (おりる) - to get off; to descend; to go down; aka 下りる
+  * 降ろす (おろす) - to take down; to lower; to drop off (a passenger); to unload
+    (goods), to withdraw (money); aka 下ろす
+- 乗る (のる) - to get on
+  * 乗せる (のせる) - to place on (something); to give (someone) a ride
+
 ### verbs (transitive)
 
 - 作る (つくる) - to make
 - 教える (おしえる) - to teach
 - 食べる (たべる) - to eat
 - 飲む (のむ) - to drink
-- 見る (みる) - to watch; to see
-- 聞く (きく) - to listen; to ask (also 聴く (きく))
 - 読む (よむ) - to read
 - 洗う (あらう) - to wash
 - 浴びる (あびる) - to take a shower
@@ -721,16 +761,12 @@ ____
 - 買う (かう) - to buy
 - 話す (はなす) - to talk; to speak (a language)
 - 書く (かく) - to write; to draw
-- 上げる (あげる) - to raise; to give; to fly; to launch
 - 借りる (かりる) - to borrow
 - 言う (いう) - to say
 - 知る (しる) - to know; to be aware of; to find out; to discover
-- 出す (だす) - to take out; to put out; to submit; to publish; to send (a
-  letter)
 - 立つ (たつ) - to stand
 - 描く (えがく) - to draw; to paint
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
-- 消す (けす) - to erase; to turn off; to extinguish
 - 勤める (つとめる) - to work for; to be employed at; to serve in
 - 吸う (すう) - to inhale; to breathe in; to suck; to smoke
 - 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
@@ -742,40 +778,27 @@ ____
 - 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
   instrument) to catch (a cold); to look up (a word in a dictionary)
 - 持つ (もつ) - to hold; to carry; to possess
-- 閉める (しめる) - to close; to shut
-- 付ける (つける) - to attach; to join; to wear; to put on; to turn ona (a
-  light)
 - 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
 - 忘れる (わすれる) - to forget
-- 入れる (いれる) - to put in; to accept; to include
 - 置く (おく) - to place
 - 覚える (おぼえる) - to memorise; to learn
 - 締める (しめる) - to tie; to fasten; to tighten
-- 並べる (ならべる) - to line up; to set up; to arrange in a line
 - 張る (はる) - to stick; to paste
+- 着る (きる) - to wear (clothes above the waist)
 
 ### verbs (intransitive)
 
 - 居る (いる) - to be (used for living things)
 - 有る (ある) - to exist (used for non-living things)
 - 成る (なる) - to become
-- 起きる (おきる) - to wake up
-- 寝る (ねる) - to sleep
-- 始まる (はじまる) - to start
-- 出る (でる) - to leave; to appear; to attend
-- 降りる (おりる) - to get off (also 下りる); to descend; to go down
-- 入る (はいる) - to enter
 - 乗る (のる) - to get on
 - 掛かる (かかる) - to take (time, money); to hang; to be fastened
 - 走る (はしる) - to run
-- 聞こえる (きこえる) - to be heard
-- 見える (みえる) - to be seen
 - 分かる (わかる) - to understand
 - 止まる (とまる) - to stop; to come to a halt
 - 休む (やすむ) - to rest
 - 降る (ふる) - to fall (rain, snow)
 - 出来る (できる) - to be able to do; to be good at; to be ready
-- 生まれる (うまれる) - to be born
 - 要る (いる) - to be needed; to want
 - 会う (あう) - to meet
 - 疲れる (つかれる) - to get tired; to become exhausted
@@ -786,8 +809,6 @@ ____
 - 晴れる (はれる) - to be sunny
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 歩く (あるく) - to walk
-- 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
-  wind; to twist
 - 働く (はたらく) - to work; to labour
 - 上る (のぼる) - to ascend; to go up; to climb; to rise
 - 飛ぶ (とぶ) - to fly
@@ -799,13 +820,9 @@ ____
 - 答える (こたえる) - to answer; to reply
 - 困る (こまる) - to be troubled; to have difficulty
 - 咲く (さく) - to bloom; to blossom
-- 開く (あく) - to open
-- 消える (きえる) - to disappear; to turn off
 - 曇る (くもる) - to get cloudy
-- 閉まる (しまる) - to be closed
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
-- 並ぶ (ならぶ) - to line up; to stand in a line
 
 ### verbs (transitive and intransitive)
 
@@ -1023,14 +1040,37 @@ ____
 
 - アルバイト - part-time job (from German "Arbeit")
 
+### verb pairs
+
+- 動く (うごく) - to move; to operate; to work; to be touched; be transferred
+  * 動かす (うごかす) - to move
+- 止む (やむ) - to cease; to stop; to be over
+  * 止める (とめる) - to stop; to cancel
+- 変わる (かわる) - to change
+  * 変える (かえる) - to change
+- 治る (なおる) - to get better; to get well; to recover (from an illness); to
+  be cured; to be restored; to heal
+  * 治す (なおす) - to cure; to heal
+- 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
+  * 落とす (おとす) - to drop; to lose; to leave behind
+- 壊れる (こわれる) - to break; to be broken; to be damaged
+  * 壊す (こわす) - to break; to destory
+- 下がる (さがる) - to come down; to go down; to fall; to hang; to move back
+  * 下げる (さげる) - to hang; to lower; to reduce; to move back
+- 続く (つづく) - to continue
+  * 続ける (つづける) - to continue
+- 集まる (あつまる) - to gather; to collect; to assemble
+  * 集める (あつめる) - to collect; to gather; to assemble
+- 済む (すむ) - to be finished; to be completed; to feel at ease
+  * 済ませる (すませる) - to finish; to get it over with; to make an end of
+- 乾く (かわく) - to get dry
+  * 乾かす (かわかす) - to dry
+
 ### verbs (transitive)
 
 - 思う (おもう) - to consider; to plan (on a general topic)
 - 考える (かんがえる) - to think (on a specific topic)
 - 受ける (うける) - to receive; to take (an exam / a lesson)
-- 変える (かえる) - to change
-- 止める (とめる) - to stop; to cancel
-- 落とす (おとす) - to drop; to lose; to leave behind
 - 片付ける (かたづける) - to tidy up; to put in order
 - 呉れる (くれる) - to give
 - 迎える (むかえる) - to welcome; to greet
@@ -1039,7 +1079,6 @@ ____
 - 送る (おくる) - to send; to dispatch
 - 知らせる (しらせる) - to notify; to advise
 - 捜す (さがす) - to search; to look for; to seek (aka 探す)
-- 開ける (あける) - to open (something); to unwrap (a package)
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 飾る (かざる) - to decorate; to display
 
@@ -1050,8 +1089,6 @@ ____
 - 卒業 (そつぎょう) - graduation
 - 退院 (たいいん) - discharge from hospital
 - 戻る (もどる) - to return
-- 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
-- 変わる (かわる) - to change
 - 参る (まいる) - to go; to come; to call
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely);
   included (in case of compound verb); to go deeper into (in case of compound
@@ -1061,27 +1098,16 @@ ____
 - 返事 (へんじ) - reply; answer
 - 泣く (なく) - to cry (human); to weep
 - 鳴る (なる) - to sound (from a thing); to ring
-- 壊れる (こわれる) - to break; to be broken; to be damaged
 - 鳴る (なる) - to ring; to sound
-- 治る (なおる) - to get better; to get well; to recover (from an illness); to
-  be cured; to be restored; to heal
-- 止む (やむ) - to cease; to stop; to be over
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
   road; to take (a route); to go via
-- 上がる (あがる) - to rise; to go up; to come up; to ascend; to climb; to stop
-  (of rain); to clear up (of weather)
 - 踊る (おどる) - to dance; to be manipulated
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 - 笑う (わらう) - to laugh; to smile
-- 集まる (あつまる) - to gather; to collect; to assemble
 - 泊まる (とまる) - to stay (e.g. hotel)
-- 動く (うごく) - to move; to operate; to work; to be touched; be transferred
-- 続く (つづく) - to continue
 - 遅れる (おくれる) - to be late
-- 乾く (かわく) - to get dry
 - 濡れる (ぬれる) - to get wet
 - 済む (すむ) - to be completed
-- 付く (つく) - to be turned on; to be attachedd
 - 太る (ふとる) - to gain weight
 - 痩せる (やせる) - to lose weight
 
@@ -1417,6 +1443,11 @@ ____
 
 - 彫刻 (ちょうこく) - sculpture
 
+### verb pairs
+
+- 助かる (たすかる) - to be saved; to be rescued; to be helped
+  * 助ける (たすける) - to help; to save; to assist; to rescue
+
 ### verbs (transitive)
 
 - 蹴る (ける) - to kick
@@ -1428,7 +1459,6 @@ ____
 ### verbs (intransitive)
 
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
-- 助かる (たすかる) - to be saved; to be rescued; to be helped
 - 涼む (すずむ) - to cool oneself
 - 依る (よる) - to depend on; to be caused by; to be cased on
 

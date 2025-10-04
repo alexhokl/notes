@@ -84,22 +84,27 @@
   * [Chapter 10](#chapter-10)
     + [please](#please)
     + [decorating verbs](#decorating-verbs)
+    + [subordinate clauses (従属節)](#subordinate-clauses-%E5%BE%93%E5%B1%9E%E7%AF%80)
     + [I think](#i-think-1)
     + [someone thinks](#someone-thinks)
     + [because](#because)
     + [someone said](#someone-said)
     + [explaining a thing](#explaining-a-thing)
     + [what happened (and why?)](#what-happened-and-why%3F)
-    + [about](#about)
+    + [a few](#a-few)
   * [Chapter 11](#chapter-11)
-    + [noun phrase](#noun-phrase)
-    + [it seems](#it-seems)
+    + [relative clause](#relative-clause)
+    + [perhaps / I assume / right?](#perhaps-%2F-i-assume-%2F-right%3F)
     + [while](#while)
     + [ends up](#ends-up)
     + [but](#but)
   * [Chapter 12](#chapter-12)
     + [wearing](#wearing)
-    + [containing](#containing)
+    + [current state regardless of state change previously](#current-state-regardless-of-state-change-previously)
+    + [current state after a state change](#current-state-after-a-state-change)
+    + [already and still](#already-and-still)
+    + [did you know](#did-you-know)
+    + [isn't it?](#isn%27t-it%3F)
 ____
 
 ## Chapter 1
@@ -887,26 +892,26 @@ ____
   * 医者になる
   * 六時半になる
 
+### subordinate clauses (従属節)
+
+- ... + plain form verb
+- ... + plain past form verb
+- ... + い-adjective
+- ... + な-adjective + だ
+- ... + noun + だ
+
 ### I think
 
-- plain verb + と思う
+- subordinate clause + と思う
   * 明日映画を見ると思います。
-
-- plain past verb + と思う
   * 昨日映画を見たと思います。
-
-- い-adjective + と思う
   * この本は面白いと思います。
-
-- な-adjective + だ + と思う
   * 田中さんは親切だと思います。
-
-- noun + だ + と思う
   * これは辞書だと思います。
 
 ### someone thinks
 
-- someone + は + subordinate clause (with plain form verb) + と思っている
+- someone + は + subordinate clause + と思っている
   * 田中さんは明日雨が降ると思っています。
   * 家内は私か戻って来ないと思っています。
 
@@ -927,14 +932,14 @@ ____
   * 先生は「来週試験をします。」と私達に言いました。
   * 先生は学生達に「来週試験をします。」と言いました。
 
-- someone + は + audience + に + subordinate clause (with plain form verb) + と + 言う
+- someone + は + audience + に + thing said in form of subordinate clause + と + 言う
   * 先生は来週試験をすると言いました。
   * 田中さんは木村さんに誕生日おめでとうと言いました。
     + 田中さんは木村さんに「木村さん、お誕生日おめでとうございます。」と言いました。
 
 ### explaining a thing
 
-- replace を with は
+- replace を with は and move the object to the beginning of the sentence
   * A: 水野さんはいつも素敵ですね。いつもどこで買い物をしますか。
     + B: このバッグは東京で書いました。この靴は姉から貰いました。
   * A: おいしい天ぶらですね。水野さんは料理が上手ですね。
@@ -964,31 +969,38 @@ ____
   * another variation is どうしたんですか。
   * another casual variation is どうしたの。 or どうしたんだ。
 
-### about
+### a few
 
 - 教室に学生が三、四人います。
 
 ## Chapter 11
 
-### noun phrase
+### relative clause
 
 - phrase ends with plain form verb + noun
   * `あそこで本を読んでいる人`は誰ですか。
   * 私は昨日`田中さんがいつも行くレストラン`へ行きました。
   * `リサさんの作った料理`はとても美味しいです。
 
-### it seems
+### perhaps / I assume / right?
 
-- noun + でしょう
-- い-adjective + でしょう
-- な-adjective + でしょう
-- plain form verb + でしょう
+- conjugation
+
+ | item         | affirmative                   | negative                               |
+ | ---          | ---                           | ---                                    |
+ | noun         | noun + でしょう               | noun + ではないでしょう                |
+ | な-adjective | adjective + でしょう          | adjective + ではないでしょう           |
+ | い-adjective | adjective + でしょう          | adjective + くないでしょう             |
+ | verb         | verb in plain form + でしょう | verb in plain negative form + でしょう |
+
+- examples
   * 私は多分雨が降るでしょう。
   * 今日は日曜日ですから、あの公園は多分賑やかでしょう。
   * 田中さんのお父さんは多分五十歳ぐらいでしょう。
-
-- plain form verb + だろうと思います。
-  * 私は多分雨が降るだろうと思います。
+- to make past tense, change the form of the words that come before でしょう
+- plain of でしょう is だろう
+  - ... + だろうと思います。
+    * 私は多分雨が降るだろうと思います。
 
 ### while
 
