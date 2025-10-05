@@ -50,6 +50,7 @@ ___
 | past            | 新しかった     | 新しくなかった         |
 | past polite     | 新しかったです | 新しくありませんでした |
 | te-form         | 新しくて       | 新しくなくて           |
+| probably        | 新しいでしょう | 新しくないでしょう     |
 
 ### そう
 
@@ -99,13 +100,14 @@ ___
 
 ### Conjugation
 
-|                 | Affirmative | Negative                                       |
-| ---             | ---         | ---                                            |
-| non-past        | 便利だ      | 便利ではない (便利じゃない for spoken)         |
-| non-past polite | 便利です    | 便利ではありません                             |
-| past            | 便利だった  | 便利ではなかった (便利じゃなかった for spoken) |
-| past polite     | 便利でした  | 便利ではありませんでした                       |
-| te-form         | 便利で      | 便利じゃなくて                                 |
+|                 | Affirmative  | Negative                                               |
+| ---             | ---          | ---                                                    |
+| non-past        | 便利だ       | 便利ではない (便利じゃない for spoken)                 |
+| non-past polite | 便利です     | 便利ではありません                                     |
+| past            | 便利だった   | 便利ではなかった (便利じゃなかった for spoken)         |
+| past polite     | 便利でした   | 便利ではありませんでした                               |
+| te-form         | 便利で       | 便利じゃなくて                                         |
+| probably        | 便利でしょう | 便利ではないでしょう (便利じゃないでしょう for spoken) |
 
 ### そう
 

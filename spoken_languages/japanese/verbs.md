@@ -1,19 +1,21 @@
+- [Auxiliary verbs (助動詞)](#auxiliary-verbs-%E5%8A%A9%E5%8B%95%E8%A9%9E)
 - [Verb transitivity](#verb-transitivity)
 - [Verb forms](#verb-forms)
-- [Verb conjugation](#verb-conjugation)
-  * [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
-  * [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
-  * [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
-    + [verbs ended in う](#verbs-ended-in-%E3%81%86)
-  * [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
-  * [する verb](#%E3%81%99%E3%82%8B-verb)
-  * [Lost of the w sound](#lost-of-the-w-sound)
-  * [Sound convenience in conjugations](#sound-convenience-in-conjugations)
-    + [double consonant with Small っ](#double-consonant-with-small-%E3%81%A3)
-    + [assimilation with ん](#assimilation-with-%E3%82%93)
-    + [consonant removal](#consonant-removal)
-  * [Stem form](#stem-form)
-  * [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
+- [Conjugation](#conjugation)
+- [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [exception in conjugation](#exception-in-conjugation)
+- [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+- [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
+  * [verbs ended in う](#verbs-ended-in-%E3%81%86)
+- [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
+- [する verb](#%E3%81%99%E3%82%8B-verb)
+- [Lost of the w sound](#lost-of-the-w-sound)
+- [Sound convenience in conjugations](#sound-convenience-in-conjugations)
+  * [double consonant with Small っ](#double-consonant-with-small-%E3%81%A3)
+  * [assimilation with ん](#assimilation-with-%E3%82%93)
+  * [consonant removal](#consonant-removal)
+- [Stem form](#stem-form)
+- [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -146,7 +148,7 @@ ____
   * 変格動詞 (へんかくどうし)
     + aka irregular verbs
 
-## 五段動詞
+# 五段動詞
 
 | Form              | Affirmative  | Negative         |
 | ---               | ---          | ---              |
@@ -183,7 +185,7 @@ ____
   * ends with す
     + change to して
 
-### exception in conjugation
+## exception in conjugation
 
 | Form             | Affirmative    | Negative         |
 | ---              | ---            | ---              |
@@ -193,7 +195,7 @@ ____
 | Past, polite     | ありますました | ありませんでした |
 | Te-form          | あって         | なくて           |
 
-## 一段動詞
+# 一段動詞
 
 | Form              | Affirmative    | Negative         |
 | ---               | ---            | ---              |
@@ -209,9 +211,9 @@ ____
 | Causative Passive | 食べさせられる | 食べさせられない |
 | Imperative        | 食べろ         | 食べるな         |
 
-## 五段動詞 and 一段動詞
+# 五段動詞 and 一段動詞
 
-### verbs ended in う
+## verbs ended in う
 
 * if the vowel sound that comes before る is `a`, `u`, or `o`, it is
   `definitely` a 五段動詞
@@ -239,7 +241,7 @@ ____
     * 開ける (あける) - to open
     * 食べる (たべる) - to eat
 
-## 変格動詞
+# 変格動詞
 
 | Form              | Affirmative             | Negative                        |
 | ---               | ---                     | ---                             |
@@ -271,7 +273,7 @@ ____
 
 Note the change in sounds between く, き and こ.
 
-## する verb
+# する verb
 
 | Form              | Affirmative    | Negative           |
 | ---               | ---            | ---                |
@@ -286,7 +288,7 @@ Note the change in sounds between く, き and こ.
 | Causative Passive | 勉強させられる | 勉強させられない   |
 | Imperative        | 勉強しろ       | 勉強するな         |
 
-## Lost of the w sound
+# Lost of the w sound
 
 - example of pronunciation in the old times
   * 上 pronounced as `wuwe`
@@ -305,7 +307,7 @@ Note the change in sounds between く, き and こ.
 Note that all other conjugations of 買う use hiragana characters on the
 あいうえお line.
 
-## Sound convenience in conjugations
+# Sound convenience in conjugations
 
 - there is a concept in Japanese linguistics called 音便 (おんびん), which
   refers to changes in pronunciation that occur to make a word easier to say
@@ -322,7 +324,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * consonant removal
     + when a consonant disappears
 
-### double consonant with Small っ
+## double consonant with Small っ
 
 - the double consonant (small っ) is used when a verb root ends in `w`, `t`, or
   `r`
@@ -333,7 +335,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 | 持つ | mo`t`(s) | 持ちて           | 持って         |
 | 降る | fu`r`    | 降りて           | 降って         |
 
-### assimilation with ん
+## assimilation with ん
 
 - the ん character is used when a verb stem ends in `m`, `n` or `b`
 - by dropping the verb stem ending sound, replacing it with ん, and transforming
@@ -345,7 +347,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 | 死ぬ | shi`n`   | 死にて           | 死んで         |
 | 呼ぶ | yo`b`    | 呼びて           | 呼んで         |
 
-### consonant removal
+## consonant removal
 
 - if the verb root ended in `k`, the verb ending would be attached with a `t`
   sound
@@ -357,7 +359,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 | 聞く | ki`k`    | 聞きて           | 聞いて         |
 | 急ぐ | iso`g`   | 急いて           | 急いで         |
 
-## Stem form
+# Stem form
 
 - aka
   * V-stem form
@@ -383,7 +385,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * する verb
     + remove する
 
-## Command form (imperative) ろ
+# Command form (imperative) ろ
 
 - it is pretty strong and not exactly super polite to use
 - conjugation
@@ -428,4 +430,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 心配するな。 - Don't worry about it.
     + 泣くな！男の子でしょう！ - Don't cry! You are a boy, aren't you?
 
+# Probably form でしょう
+
+- plain form + でしょう
 
