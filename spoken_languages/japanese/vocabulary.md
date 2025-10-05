@@ -705,6 +705,7 @@ ____
 ### する transitive and intransitive verbs
 
 - 質問 (しつもん) - question
+- 勉強 (べんきょう) - study
 
 ### verb pairs
 
@@ -830,7 +831,6 @@ ____
 - 為る (する) - to do; to wear
 - 待つ (まつ) - to wait
 - 歌う (うたう) - to sing
-- 勉強 (べんきょう) - study
 
 ### verbs (direction intransitive)
 
