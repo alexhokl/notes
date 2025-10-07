@@ -51,7 +51,6 @@
     + [that is good](#that-is-good)
     + [that is unfortunate](#that-is-unfortunate)
   * [Chapter 7](#chapter-7)
-    + [I think](#i-think)
     + [move to do something](#move-to-do-something)
     + [は and が to stress differnent part of a sentence](#%E3%81%AF-and-%E3%81%8C-to-stress-differnent-part-of-a-sentence)
     + [gifting](#gifting)
@@ -85,7 +84,7 @@
     + [please](#please)
     + [decorating verbs](#decorating-verbs)
     + [subordinate clauses (従属節)](#subordinate-clauses-%E5%BE%93%E5%B1%9E%E7%AF%80)
-    + [I think](#i-think-1)
+    + [I think](#i-think)
     + [someone thinks](#someone-thinks)
     + [because](#because)
     + [someone said](#someone-said)
@@ -597,20 +596,6 @@ ____
 
 ## Chapter 7
 
-### I think
-
-- ... + plain verb + と + 思います。
-  * 明日は雨が降ると思います。
-  * 明日は雨が降らないと思います。
-  * 陳さんは今日は学校へ来ないと思います。
-  * マリアさんは日本人と結婚すると思います。
-  * 田中さんはもうすぐ治ると私は思いました
-- ... + い-adjective + い + と思います。
-  * 明日は天気がいいと思います。
-  * 昨日、東京は天気が良かったと思います。
-- ... + な-adjective + だ + と思います。
-  * 兄の彼女は綺麗だと思います。
-
 ### move to do something
 
 - location + へ +  verb in stem form + に + directional intransitive verb
@@ -905,8 +890,16 @@ ____
 - subordinate clause + と思う
   * 明日映画を見ると思います。
   * 昨日映画を見たと思います。
+  * 明日は雨が降ると思います。
+  * 明日は雨が降らないと思います。
+  * 陳さんは今日は学校へ来ないと思います。
+  * マリアさんは日本人と結婚すると思います。
+  * 田中さんはもうすぐ治ると私は思いました
   * この本は面白いと思います。
+  * 明日は天気がいいと思います。
+  * 昨日、東京は天気が良かったと思います。
   * 田中さんは親切だと思います。
+  * 兄の彼女は綺麗だと思います。
   * これは辞書だと思います。
 
 ### someone thinks
