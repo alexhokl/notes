@@ -50,7 +50,8 @@ ___
 | past            | 新しかった     | 新しくなかった         |
 | past polite     | 新しかったです | 新しくありませんでした |
 | te-form         | 新しくて       | 新しくなくて           |
-| probably        | 新しいでしょう | 新しくないでしょう     |
+| probably        | 新しいだろう   | 新しくないだろう       |
+| probably polite | 新しいでしょう | 新しくないでしょう     |
 
 ### そう
 
@@ -106,8 +107,9 @@ ___
 | non-past polite | 便利です     | 便利ではありません                                     |
 | past            | 便利だった   | 便利ではなかった (便利じゃなかった for spoken)         |
 | past polite     | 便利でした   | 便利ではありませんでした                               |
-| te-form         | 便利で       | 便利じゃなくて                                         |
-| probably        | 便利でしょう | 便利ではないでしょう (便利じゃないでしょう for spoken) |
+| te-form         | 便利で       | 便利ではなくて (便利じゃなくて for spoken)             |
+| probably        | 便利だろう   | 便利ではないだろう (便利じゃないだろう for spoken)     |
+| probably polite | 便利でしょう | 便利ではないでしょう (便利じゃないでしょう for spoken) |
 
 ### そう
 

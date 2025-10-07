@@ -9,7 +9,8 @@ ____
 | non-past polite | 山です      | 山ではありません                                   |
 | past            | 山だった    | 山ではなかった (山じゃなかった for spoken)         |
 | past polite     | 山でした    | 山ではありませんでした                             |
-| te-form         | 山で        | 山じゃなくて                                       |
-| probably        | 山でしょう  | 山ではないでしょう (山じゃないでしょう for spoken) |
+| te-form         | 山で        | 山ではなくて (山じゃなくて for spoken)             |
+| probably        | 山だろう    | 山ではないだろう (山じゃないだろう for spoken)     |
+| probably polite | 山でしょう  | 山ではないでしょう (山じゃないでしょう for spoken) |
 
 
