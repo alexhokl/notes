@@ -214,7 +214,7 @@ ____
 - 大変 (たいへん) - very; greatly; terribly
 - 早く (はやく) - quickly; early; also as 速く
 - どうぞ - please; go ahead
-- 丁度 (ちょうど) - just; exactly; right
+- 丁度 (ちょうど) - exactly
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat
 - 如何して (どうして) - why; how
@@ -292,6 +292,7 @@ ____
 - 下手 (へた) - unskillful; poor (at)
 - 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
   also as adverb) quite
+- 暇 (ひま) - spare time; free time; leisure; free; not busy
 
 ### 連体詞
 
@@ -1078,7 +1079,8 @@ ____
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 送る (おくる) - to send; to dispatch
 - 知らせる (しらせる) - to notify; to advise
-- 捜す (さがす) - to search; to look for; to seek (aka 探す)
+- 捜す (さがす) - to search for (something unknown)
+- 探す (さがす) - to search for (something known)
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 飾る (かざる) - to decorate; to display
 
@@ -1332,6 +1334,7 @@ ____
 - 覚ます (さます) - to waken; to arouse from sleep
 - 仕舞う (しまう) - to end up
 - 履く (はく) - to wear (lower body clothing, footwear)
+- 願う (ねがう) - to wish; to hope; to request; to beg
 
 ### verbs (intransitive)
 
@@ -1369,6 +1372,7 @@ ____
 ### adjectives (な)
 
 - 透明 (とうめい) - transparent
+- お洒落 (おしゃれ) - fashionable; stylish; trendy
 
 ### nouns
 
@@ -1455,6 +1459,7 @@ ____
 - 開放 (かいほう) - open
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
+- 探る (さぐる) - to feel around for; to grope for
 
 ### verbs (intransitive)
 
@@ -2108,6 +2113,13 @@ ____
 
 - プログラミング - programming
 - 返信 (へんしん) - reply
+
+### verb pairs
+
+- 目が覚める (めがさめる) - to wake up
+  * 目を覚ます (めをさます) - to wake up
+- 腹が立つ (はらがたつ) - to get angry
+  * 腹を立てる (はらをたてる) - to get angry
 
 ### verbs (transitive)
 

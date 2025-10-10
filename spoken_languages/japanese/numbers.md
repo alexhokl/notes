@@ -110,6 +110,8 @@ ____
 - 一部 (いちぶ) - partially
 - 全部 (ぜんぶ) - all
 - いくつか - a few
+- 何匹か - a few (animals)
+- 何人か - a few (people)
 
 ## Suffixes
 
