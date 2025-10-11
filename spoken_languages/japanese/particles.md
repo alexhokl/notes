@@ -1064,7 +1064,8 @@ ____
     + クリスマス
     + 午前
     + 午後
-    + 二年前
+    + time quantifier + 前
+      + 二年前
     + action (verb in plain form) + 前
       + 出掛ける前
   * the following should not be used with に nor with any other particle
@@ -1102,6 +1103,9 @@ ____
     + 毎週
     + 毎月
     + 毎年
+    + time reference + 時
+      + 子供の時
+      + 分からない時
 
 ## で
 

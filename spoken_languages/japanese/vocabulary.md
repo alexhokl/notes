@@ -725,7 +725,7 @@ ____
 - 始まる (はじまる) - to start
   * 始める (はじめる) - to start (something); to begin
 - 聞こえる (きこえる) - to be heard
-  * 聞く (きく) - to listen; to ask (also 聴く)
+  * 聞く (きく) - to listen to; to ask; aka 聴く; to smell
 - 見える (みえる) - to be seen
   * 見る (みる) - to watch; to see
 - 入る (はいる) - to enter
@@ -2158,6 +2158,7 @@ ____
 - そうだね - sure; yeah; I know (aka そうだよね)
 - 失礼しました (しつれいしました) - my apologies; excuse me
 - ご注意ください (ごちゅういください) - please be careful
+- 気をつけてください (きをつけてください) - please be careful
 - ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
   the inconvenience
 - ご遠慮ください (ごえんりょください) - please refrain (from)
