@@ -914,6 +914,7 @@ ____
   * it is not a must but best to write the reason with plain form sentence
   * 私は学校が休みですから、友達と映画を見に行きます。
   * 私は学校が休みだから、友達と映画を見に行きます。
+  * 私は学校が休みだから、友達と映画を見に行く。
   * 映画が始まりますから、ホールに入ってください。
   * 映画が始まるから、ホールに入ってください。
 
@@ -1031,7 +1032,7 @@ ____
   * 着物
   * レインコート
 
-- はく
+- 履く (はく)
   * ズボン
   * スカート
   * 靴
@@ -1039,24 +1040,24 @@ ____
 
 - する
   * 時計
-  * ネクタイ
+  * ネックレス
   * 指輪
 
-- 締める
+- 締める (しめる)
   * ネクタイ
   * ベルト
 
-- 被る
+- 被る (かぶる)
   * 帽子
 
-- 掛ける
+- 掛ける (かける)
   * 眼鏡
 
-- 持つ
+- 持つ (もつ)
   * 鞄
   * ハンドバッグ
 
-### current state regardless of state change previously
+### resultant state regardless of state change previously
 
 - thing + が + intransitive verb in te-form + いる
   * 冷蔵庫の中にジュースが入っています。
