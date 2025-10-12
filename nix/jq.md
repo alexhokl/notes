@@ -67,7 +67,16 @@ jq -r '.[] | .property-name'
 jq 'keys'
 ```
 
-Note that the result is a json array
+The above command show keys of the root level.
+
+Note that the result is a json array.
+
+
+To show keys of the first item in an array of objects
+
+```sh
+cat logs.json | jq '.[0] | keys'
+```
 
 ##### To count an json array
 
