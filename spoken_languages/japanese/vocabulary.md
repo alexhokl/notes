@@ -766,7 +766,6 @@ ____
 - 借りる (かりる) - to borrow
 - 言う (いう) - to say
 - 知る (しる) - to know; to be aware of; to find out; to discover
-- 立つ (たつ) - to stand
 - 描く (えがく) - to draw; to paint
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
 - 勤める (つとめる) - to work for; to be employed at; to serve in
@@ -825,6 +824,7 @@ ____
 - 曇る (くもる) - to get cloudy
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
+- 立つ (たつ) - to stand
 
 ### verbs (transitive and intransitive)
 
@@ -841,7 +841,8 @@ ____
 
 ### expressions
 
-- どうも - not exactly thank you but shows some kind of gratitude
+- どうも - not exactly thank you but shows some kind of gratitude; a greeting
+  (usually used after the first greeting)
 - 下さい (ください) - please
 - 就いて (ついて) - about; concerning; as to; regarding
 - あのう - em... (aka あの); usually used before asking a question

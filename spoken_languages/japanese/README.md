@@ -18,6 +18,8 @@
     + [Approximate time](#approximate-time)
   * [English names](#english-names)
   * [News](#news)
+- [Patterns](#patterns)
+  * [commands](#commands)
 ____
 
 # Links
@@ -362,3 +364,11 @@ ____
 
 - 事実はございません (じじつはございません) - There is no truth to this
 
+# Patterns
+
+## commands
+
+- verb in stem form + なさい
+  * 勉強しなさい
+  * 早く寝なさい
+  * ここに座りなさい

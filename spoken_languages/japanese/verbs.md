@@ -226,7 +226,6 @@ ____
     * 減る (へる) - to decrease
     * 喋る (しゃべる) - to chat
     * 知る (しる) - to know
-    * 切る (きる) - to cut
   + exceptions
     + 出る (でる) - to exit
     + 寝る (ねる) - to sleep
