@@ -1068,6 +1068,10 @@ ____
       + 二年前
     + action (verb in plain form) + 前
       + 出掛ける前
+  * に is optional
+    + time reference + 時
+      + 子供の時
+      + 分からない時
   * the following should not be used with に nor with any other particle
     + 去年
     + 今年
@@ -1103,9 +1107,6 @@ ____
     + 毎週
     + 毎月
     + 毎年
-    + time reference + 時
-      + 子供の時
-      + 分からない時
 
 ## で
 

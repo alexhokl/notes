@@ -193,6 +193,7 @@ ____
 - それでは - well; right; then
 - 而して (そして) - thus
 - 次に (つぎに) - next; then; after that
+- また - and; or
 
 ### adverbs
 
@@ -311,7 +312,7 @@ ____
 - 其れ (それ) - that
 - 彼 (あれ) - that over there
 - どれ - which (of three or more)
-- どちら - which (of two)
+- どちら - which one (of two)
 
 ### pronouns (time)
 
@@ -394,6 +395,7 @@ ____
 - 鍵 (かぎ) - key; lock
 - カレンダー - calendar
 - 地図 (ちず) - map
+- メガネ - glasses
 
 ### nouns (academic)
 
@@ -1040,6 +1042,13 @@ ____
 
 ### する intransitive verbs
 
+- 入学 (にゅうがく) - admission to school
+- 入院 (にゅういん) - hospitalization
+- 卒業 (そつぎょう) - graduation
+- 退院 (たいいん) - discharge from hospital
+- 反対 (はんたい) - opposition; resistance
+- 返事 (へんじ) - reply; answer
+- 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 - アルバイト - part-time job (from German "Arbeit")
 
 ### verb pairs
@@ -1087,25 +1096,18 @@ ____
 
 ### verbs (intransitive)
 
-- 入学 (にゅうがく) - admission to school
-- 入院 (にゅういん) - hospitalization
-- 卒業 (そつぎょう) - graduation
-- 退院 (たいいん) - discharge from hospital
 - 戻る (もどる) - to return
 - 参る (まいる) - to go; to come; to call
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely);
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
-- 反対 (はんたい) - opposition; resistance
 - 慣れる (なれる) - to get used to; to become familiar with
-- 返事 (へんじ) - reply; answer
 - 泣く (なく) - to cry (human); to weep
 - 鳴る (なる) - to sound (from a thing); to ring
 - 鳴る (なる) - to ring; to sound
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
   road; to take (a route); to go via
 - 踊る (おどる) - to dance; to be manipulated
-- 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 - 笑う (わらう) - to laugh; to smile
 - 泊まる (とまる) - to stay (e.g. hotel)
 - 遅れる (おくれる) - to be late
@@ -1297,6 +1299,7 @@ ____
 
 ### する transitive verbs
 
+- 心配 (しんぱい) - care; help
 - 我慢 (がまん) - patience
 - 心配 (しんぱい) - worry; concern; anxiety
 - 世話 (せわ) - care; looking after; help; support
@@ -1307,6 +1310,7 @@ ____
 - パス - passing
 - 承認 (しょうにん) - approval; acknowledgment; consent
 - 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
+- お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 
 ### する intransitive verbs
 
@@ -1317,12 +1321,14 @@ ____
 - 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
 - 滞在 (たいざい) - stay
 - 協力 (きょうりょく) - cooperation
+- 怪我 (けが) - injury; mistake
+- 運転 (うんてん) - driving; operating
+- 運動 (うんどう) - exercise
+- 出発 (しゅっぱつ) - departure
 
 ### verbs (transitive)
 
-- 心配 (しんぱい) - care; help
 - 頂く (いただく) - to receive; to take (humble)
-- お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 担当 (たんとう) - being in charge; being responsible
@@ -1336,16 +1342,12 @@ ____
 - 仕舞う (しまう) - to end up
 - 履く (はく) - to wear (lower body clothing, footwear)
 - 願う (ねがう) - to wish; to hope; to request; to beg
+- 申し込む (もうしこむ) - to apply for
 
 ### verbs (intransitive)
 
-- 怪我 (けが) - injury; mistake
-- 運転 (うんてん) - driving; operating
-- 運動 (うんどう) - exercise
 - 届く (とどく) - to reach; to be delivered
-- 出発 (しゅっぱつ) - departure
 - 空く (あく) - to become empty
-- 申し込む (もうしこむ) - to apply for
 - 積もる (つもる) - to pile up; to accumulate
 
 ### verbs (transitive and intransitive)
@@ -1436,6 +1438,7 @@ ____
 
 - クリーニング - cleaning; laundry service
 - 撮影 (さつえい) - photographing; filming
+- 開放 (かいほう) - open
 
 ### する intransitive verbs
 
@@ -1457,7 +1460,6 @@ ____
 
 - 蹴る (ける) - to kick
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
-- 開放 (かいほう) - open
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
 - 探る (さぐる) - to feel around for; to grope for
@@ -2172,3 +2174,4 @@ ____
 - だけでなく - not only; not just; as well as
 - かも知れません (かもしれません) - maybe; might; perhaps
 - だろう - seems
+- 電話に出る (でんわにでる) - to answer the phone

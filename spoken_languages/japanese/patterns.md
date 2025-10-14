@@ -975,7 +975,10 @@ ____
 - phrase ends with plain form verb + noun
   * `あそこで本を読んでいる人`は誰ですか。
   * 私は昨日`田中さんがいつも行くレストラン`へ行きました。
+    + が is used in the cluase
+- noun + の + plain form verb + noun
   * `リサさんの作った料理`はとても美味しいです。
+    + が can be used in-place of の
 
 ### perhaps / I assume / right?
 

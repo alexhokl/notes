@@ -118,6 +118,9 @@ ____
       taking sleeping pills.
   * ending a sentence (polite form)
     + 起きてください。- Please wake up.
+    + casual please
+      + 見てて - please watch
+        + which is is short for 見ていてください
   * ending a sentence (command form)
     + 起きて。 - Wake up.
   * share the same subject
