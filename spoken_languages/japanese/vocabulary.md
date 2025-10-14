@@ -219,6 +219,7 @@ ____
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat
 - 如何して (どうして) - why; how
+- 全部 (ぜんぶ) - all
 
 ### adjectives (い)
 
@@ -1150,6 +1151,7 @@ ____
 - 是非 (ぜひ) - certainly
 - 矢張り (やはり) - as expected; after all (aka やっぱり)
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
+- 突然 (とつぜん) - suddenly
 
 ### adjectives (い)
 
@@ -1349,6 +1351,7 @@ ____
 - 届く (とどく) - to reach; to be delivered
 - 空く (あく) - to become empty
 - 積もる (つもる) - to pile up; to accumulate
+- 広がる (ひろがる) - to spread
 
 ### verbs (transitive and intransitive)
 
@@ -1366,6 +1369,7 @@ ____
 ### adverbs
 
 - 愈々 (いよいよ) - more and more; all the more
+- 忽ち (たちまち) - in an instant; right away
 
 ### adjectives (い)
 

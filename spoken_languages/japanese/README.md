@@ -286,7 +286,8 @@ ____
 
 ## Transportation
 
-- 渋谷までお願いします (しぶやまでおねがいします) - Shibuya please
+- 渋谷までお願いします。
+- 新宿で通るバスは何番ですか？
 - まもなく電車が参ります。黄色い線の内側煮立ってお待ちください
   (まもなくでんしゃがまいります。きいろいせんのうちがわにたっておまちください) -
   soon train is coming. yellow line inside by standing wait please

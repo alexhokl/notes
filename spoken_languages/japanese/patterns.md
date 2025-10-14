@@ -912,6 +912,7 @@ ____
 
 - (reason) + から + (consequence)
   * it is not a must but best to write the reason with plain form sentence
+    + unless the audience demands respect
   * 私は学校が休みですから、友達と映画を見に行きます。
   * 私は学校が休みだから、友達と映画を見に行きます。
   * 私は学校が休みだから、友達と映画を見に行く。
@@ -970,7 +971,7 @@ ____
 
 ## Chapter 11
 
-### relative clause
+### relative clause (修飾節)
 
 - phrase ends with plain form verb + noun
   * `あそこで本を読んでいる人`は誰ですか。
@@ -1002,14 +1003,15 @@ ____
 
 ### while
 
-- verb in stem form + ながら + ...
+- sub action (verb in stem form) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
 
-### ends up
+### ends up / completely done
 
 - verb in te-form + しまう
   * 私は風邪を引いてしまいました。
   * 私は昨夜この本を全部読んでしまいました。
+  * この古い雑誌を全部捨ててしまってください。
 
 ### but
 
