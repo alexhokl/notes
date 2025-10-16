@@ -213,6 +213,8 @@ ____
 - こちらこそよろしくお願いします (こちらこそよろしくおねがいします) - I'm
   pleased to meet you too
   * こちらこそ - it is me who should say so
+- 初めまして。アレックスといいます。よろしく。- Nice to meet you. My name is
+  Alex. Pleased to meet you.
 - ありがとう ございます - thank you
 - どう 致しまして (どう いたしまして) - you're welcome
 - おめでとう ございます - congratulations
