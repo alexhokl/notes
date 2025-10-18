@@ -789,6 +789,7 @@ ____
 - 締める (しめる) - to tie; to fasten; to tighten
 - 張る (はる) - to stick; to paste
 - 着る (きる) - to wear (clothes above the waist)
+- 貸す (かす) - to lend; to rent out
 
 ### verbs (intransitive)
 
@@ -1022,6 +1023,7 @@ ____
 
 - テキスト - text; textbook
 - パソコン - personal computer
+- スクリーン - screen
 
 ### する verbs
 
@@ -1094,6 +1096,7 @@ ____
 - 探す (さがす) - to search for (something known)
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 飾る (かざる) - to decorate; to display
+- 払う (はらう) - to pay; to wipe away
 
 ### verbs (intransitive)
 
@@ -1540,6 +1543,7 @@ ____
 - 地元 (じもと) - home area; home town; local
 - 幽霊 (ゆうれい) - ghost
 - ハンガー - hanger
+- 嘘つき (うそつき) - liar
 
 ### nouns (clothing)
 
@@ -1581,6 +1585,7 @@ ____
 - お襁褓 (おむつ) - diaper
 - ウイルス - virus
 - レントゲン - x-ray
+- ストレス - stress
 
 ### noun suffixes
 
@@ -1700,6 +1705,8 @@ ____
 - ドラス - drama; TV drama
 - 洗濯物 (せんたくもの) - laundry
 - 掲示板 (けいじばん) - notice board
+- 縫いぐるみ (ぬいぐるみ) - stuffed toy
+- 厚生労働省 (こうせいろうどうしょう) - Ministry of Health, Labour and Welfare
 
 ### nouns (family)
 
@@ -2179,3 +2186,5 @@ ____
 - かも知れません (かもしれません) - maybe; might; perhaps
 - だろう - seems
 - 電話に出る (でんわにでる) - to answer the phone
+- 手を挙げる (てをあげる) - to raise one's hand
+- 嘘をつく (うそをつく) - to tell a lie
