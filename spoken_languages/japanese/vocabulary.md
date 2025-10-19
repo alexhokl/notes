@@ -1348,6 +1348,7 @@ ____
 - 履く (はく) - to wear (lower body clothing, footwear)
 - 願う (ねがう) - to wish; to hope; to request; to beg
 - 申し込む (もうしこむ) - to apply for
+- 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 
 ### verbs (intransitive)
 
@@ -2122,6 +2123,7 @@ ____
 - ログアウト - logout
 - メール - email
 - シフト - shift or move (from one trend to another)
+- 猫吸い (ねこすい) - cat sniffing
 
 ### する transitive and intransitive verbs
 
