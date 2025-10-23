@@ -1119,6 +1119,7 @@ ____
 - 済む (すむ) - to be completed
 - 太る (ふとる) - to gain weight
 - 痩せる (やせる) - to lose weight
+- 光る (ひかる) - to shine
 
 ### verbs (transitive and intransitive)
 
@@ -1477,6 +1478,7 @@ ____
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - 涼む (すずむ) - to cool oneself
 - 依る (よる) - to depend on; to be caused by; to be cased on
+- 渇く (かわく) - to be thirsty
 
 ### verbs (transitive and intransitive)
 
@@ -1545,6 +1547,7 @@ ____
 - 幽霊 (ゆうれい) - ghost
 - ハンガー - hanger
 - 嘘つき (うそつき) - liar
+- ニュアンス - nuance
 
 ### nouns (clothing)
 
@@ -1598,6 +1601,7 @@ ____
 - 取引 (とりひき) - transaction; dealings; business
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - デザイン - design
+- デッサン - rough sketch (from French "dessin")
 
 ### する intransitive verbs
 
@@ -2145,6 +2149,7 @@ ____
 - ググる - to google
 - 貸し切る (かしかる) - to reserve; to book
 - ぎる - to steal
+- 見上げる (みあげる) - to look up at
 
 ### verbs (intransitive)
 
