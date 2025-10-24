@@ -32,6 +32,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
+    + [verb pairs](#verb-pairs)
     + [verbs (transitive)](#verbs-transitive)
     + [verbs (intransitive)](#verbs-intransitive)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
@@ -60,6 +61,7 @@
     + [する verbs](#%E3%81%99%E3%82%8B-verbs)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-1)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
+    + [verb pairs](#verb-pairs-1)
     + [verbs (transitive)](#verbs-transitive-1)
     + [verbs (intransitive)](#verbs-intransitive-1)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
@@ -84,6 +86,7 @@
     + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-2)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
+    + [verb pairs](#verb-pairs-2)
     + [verbs (transitive)](#verbs-transitive-2)
     + [verbs (intransitive)](#verbs-intransitive-2)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-2)
@@ -102,6 +105,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
+    + [verb pairs](#verb-pairs-3)
     + [verbs (transitive)](#verbs-transitive-3)
     + [verbs (intransitive)](#verbs-intransitive-3)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
@@ -168,6 +172,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-5)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-5)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
+    + [verb pairs](#verb-pairs-4)
     + [verbs (transitive)](#verbs-transitive-5)
     + [verbs (intransitive)](#verbs-intransitive-5)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
@@ -789,6 +794,7 @@ ____
 - 締める (しめる) - to tie; to fasten; to tighten
 - 張る (はる) - to stick; to paste
 - 着る (きる) - to wear (clothes above the waist)
+- 切る (きる) - to cut
 - 貸す (かす) - to lend; to rent out
 
 ### verbs (intransitive)
@@ -1332,6 +1338,11 @@ ____
 - 運動 (うんどう) - exercise
 - 出発 (しゅっぱつ) - departure
 
+### verb pairs
+
+- 広がる (ひろがる) - to spread
+  * 広げる (ひろげる) - to spread
+
 ### verbs (transitive)
 
 - 頂く (いただく) - to receive; to take (humble)
@@ -1356,7 +1367,6 @@ ____
 - 届く (とどく) - to reach; to be delivered
 - 空く (あく) - to become empty
 - 積もる (つもる) - to pile up; to accumulate
-- 広がる (ひろがる) - to spread
 
 ### verbs (transitive and intransitive)
 
@@ -2195,3 +2205,11 @@ ____
 - 電話に出る (でんわにでる) - to answer the phone
 - 手を挙げる (てをあげる) - to raise one's hand
 - 嘘をつく (うそをつく) - to tell a lie
+- 話をしています (はなしをしています) - chatting
+- 話しています (はなしています) - chatting
+- ゲームをする - to play a game
+- ゲームをやる - to play a game
+- メールに返信する (メールにへんしんする) - to reply to an email
+- 授業に遅れる (じゅぎょうにおくれる) - to be late for class
+- 時間になる (じかんになる) - to be time for
+- コーヒーにする - choose to have coffee

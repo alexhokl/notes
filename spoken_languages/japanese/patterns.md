@@ -1005,6 +1005,7 @@ ____
 
 - sub action (verb in stem form) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
+  * 車を運転しながら携帯電話を使ってはいでください。
 
 ### ends up / completely done
 
@@ -1013,10 +1014,21 @@ ____
   * 私は昨夜この本を全部読んでしまいました。
   * この古い雑誌を全部捨ててしまってください。
 
+- verb in plain form + ちゃう (casual)
+  * 私は風邪を引いちゃった。
+  * 昨夜この本を全部読んじゃった。
+  * この古い雑誌を全部捨てちゃって。
+  * やっちゃった
+
 ### but
 
 - clause + が、+ another clause
+  * if polite form is used in one of the clauses, both of them should be in
+    polite form
   * 私の部屋は狭いですが、明るくて綺麗です。
+
+- clause + 。しかし + another clause
+  * 私の部屋は狭いです。しかし、明るくて綺麗です。
 
 ## Chapter 12
 
