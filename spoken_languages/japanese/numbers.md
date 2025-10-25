@@ -550,23 +550,11 @@ ____
 
 ##### calendar months
 
+- reading as がつ
 - it uses kango counting method except 4, 7, 9
-
-| English     | Japanese | Reading        |
-| ---         | ---      | ---            |
-| January     | 一月     | いちがつ       |
-| February    | 二月     | にがつ         |
-| March       | 三月     | さんがつ       |
-| April       | 四月     | `し`がつ       |
-| May         | 五月     | ごがつ         |
-| June        | 六月     | ろくがつ       |
-| July        | 七月     | `しち`がつ     |
-| August      | 八月     | はちがつ       |
-| September   | 九月     | `く`がつ       |
-| October     | 十月     | じゅうがつ     |
-| November    | 十一月   | じゅういちがつ |
-| December    | 十二月   | じゅうにがつ   |
-| which month | 何月     | なんがつ       |
+  * 四月 (しがつ) - April
+  * 七月 (しちがつ) - July
+  * 九月 (くがつ) - September
 
 #### 時 (じ)
 

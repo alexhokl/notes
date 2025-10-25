@@ -92,15 +92,15 @@
     + [what happened (and why?)](#what-happened-and-why%3F)
     + [a few](#a-few)
   * [Chapter 11](#chapter-11)
-    + [relative clause](#relative-clause)
+    + [relative clause (修飾節)](#relative-clause-%E4%BF%AE%E9%A3%BE%E7%AF%80)
     + [perhaps / I assume / right?](#perhaps-%2F-i-assume-%2F-right%3F)
     + [while](#while)
-    + [ends up](#ends-up)
+    + [ends up / completely done](#ends-up-%2F-completely-done)
     + [but](#but)
   * [Chapter 12](#chapter-12)
-    + [wearing](#wearing)
+    + [current state with transitive verb](#current-state-with-transitive-verb)
     + [current state regardless of state change previously](#current-state-regardless-of-state-change-previously)
-    + [current state after a state change](#current-state-after-a-state-change)
+    + [current state after a state change by an agent](#current-state-after-a-state-change-by-an-agent)
     + [already and still](#already-and-still)
     + [did you know](#did-you-know)
     + [isn't it?](#isn%27t-it%3F)
@@ -975,6 +975,7 @@ ____
 
 - phrase ends with plain form verb + noun
   * `あそこで本を読んでいる人`は誰ですか。
+  * `アンナさんが今聴いている物`はニュースです。
   * 私は昨日`田中さんがいつも行くレストラン`へ行きました。
     + が is used in the cluase
 - noun + の + plain form verb + noun
@@ -1032,57 +1033,72 @@ ____
 
 ## Chapter 12
 
-### wearing
+### current state with transitive verb
 
-- clothing + を + 着ている
-  * 田中さんは白いセーターを着ています。
+- transitive verb in te-form + いる
+  - clothing + を + 着ている
+    * 田中さんは白いセーターを着ています。
+  - 着る
+    * シャツ
+    * プラウス
+    * セーター
+    * スーツ
+    * ワンピース
+    * ドレス
+    * コート
+    * 上着 (うわぎ)
+    * 洋服 (ようふく)
+    * 着物
+    * レインコート
+  - 履く (はく)
+    * ズボン
+    * スカート
+    * 靴
+    * 靴下
+  - する
+    * 時計
+    * ネックレス
+    * 指輪 (ゆびわ)
+  - 締める (しめる)
+    * ネクタイ
+    * ベルト
+  - 被る (かぶる)
+    * 帽子 (ぼうし)
+  - 掛ける (かける)
+    * 眼鏡 (めがね)
+    * マスク
+  - 持つ (もつ)
+    * 鞄
+    * ハンドバッグ
 
-- 着る
-  * シャツ
-  * プラウス
-  * セーター
-  * スーツ
-  * ワンピース
-  * コート
-  * 上着
-  * 洋服
-  * 着物
-  * レインコート
-
-- 履く (はく)
-  * ズボン
-  * スカート
-  * 靴
-  * 靴下
-
-- する
-  * 時計
-  * ネックレス
-  * 指輪
-
-- 締める (しめる)
-  * ネクタイ
-  * ベルト
-
-- 被る (かぶる)
-  * 帽子
-
-- 掛ける (かける)
-  * 眼鏡
-
-- 持つ (もつ)
-  * 鞄
-  * ハンドバッグ
-
-### resultant state regardless of state change previously
+### current state regardless of state change previously
 
 - thing + が + intransitive verb in te-form + いる
   * 冷蔵庫の中にジュースが入っています。
+  * 窓が開いている。
+  * 電気がついていません。
 
-### current state after a state change
+### current state after a state change by an agent
 
 - thing + が + transitive verb in te-form + ある
   * テーブルの上に花が飾ってあります。
+  * うちは猫いるから、いつも窓が開けてある。
+- note that the agent could be unknown
+
+### to show kindness by using intransitive verb for a kind act
+
+- thing + が + intransitive verb
+  * あなた、お茶が入りましたよ。
+    + instead of あなた、お茶を入れましたよ。
+  * 蓋が開いたよ。
+    + instead of 蓋を開けたよ。
+
+### an action has not been done and cannot be controlled
+
+- thing + が + intransitive verb in negative form
+  * 犬のハチが一歩も動きません。
+  * 瓶の蓋が開きません。
+  * エアコンがつきません。
 
 ### already and still
 
