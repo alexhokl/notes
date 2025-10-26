@@ -1241,6 +1241,7 @@ ____
 - アルバム - album
 - 独身 (どくしん) - single
 - ベルト - belt
+- 瓶 (びん) - bottle; jar
 
 ### nouns (animals)
 
@@ -1417,6 +1418,7 @@ ____
 - ネックレス - necklace
 - 両側 (りょうがわ) - both sides
 - 蝋燭 (ろうそく) - candle
+- 蓋 (ふた) - lid; cap; cover
 
 ### nouns (food)
 

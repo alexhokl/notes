@@ -1006,7 +1006,7 @@ ____
 
 - sub action (verb in stem form) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
-  * 車を運転しながら携帯電話を使ってはいでください。
+  * 車を運転しながら携帯電話を使っていないでください。
 
 ### ends up / completely done
 
