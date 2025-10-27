@@ -216,7 +216,7 @@ ____
 - 些とも (ちっとも) - not at all
 - 幾つ (いくつ) - how many
 - 時々 (ときどき) - sometimes; occasionally
-- 良く (よく) - nicely; often
+- 良く (よく) - nicely; often; properly; well
 - 大変 (たいへん) - very; greatly; terribly
 - 早く (はやく) - quickly; early; also as 速く
 - どうぞ - please; go ahead
@@ -1257,6 +1257,7 @@ ____
 - 背 (せい) - height; stature
 - 喉 (のど) - throat
 - 胸 (むね) - chest
+- 尻 (しり) - buttocks; bottom; rear; behind; hips
 
 ### nouns (food)
 
@@ -1774,6 +1775,9 @@ ____
 - 生菓子 (なまがし) - fresh sweets
 - ソフトクリーム - soft ice cream
 - プリン - pudding
+- 南瓜 (かぼちゃ) - pumpkin
+- すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
+  table-top cast-iron pan
 
 ### nouns (fish)
 
@@ -1804,6 +1808,7 @@ ____
 - マス - trout
 - アンチョビー - anchovy
 - 伊佐木 (いさき) - chicken grunt
+- 鮎 (あゆ) - sweetfish
 
 ### nouns (seafood)
 
