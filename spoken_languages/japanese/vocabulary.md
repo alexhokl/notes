@@ -270,7 +270,7 @@ ____
 - 甘い (あまい) - sweet
 - 早い (はやい) - early; fast; quick (also 速い)
 - 遅い (おそい) - late; slow
-- 楽しい (たのしい) - fun; happy
+- 楽しい (たのしい) - fun
 - 忙しい (いそがしい) - busy
 - 暖かい (あたたかい) - warm
 - 辛い (つらい) - spicy
@@ -1165,7 +1165,7 @@ ____
 
 ### adjectives (い)
 
-- 嬉しい (うれしい) - happy; glad; pleased
+- 嬉しい (うれしい) - glad; pleased
 - 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
 - 素晴らしい (すばらしい) - wonderful
 
