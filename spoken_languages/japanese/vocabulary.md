@@ -1502,7 +1502,6 @@ ____
 - 初めまして (はじめまして) - nice to meet you
 - お陰様で (おかげさまで) - thankfully; fortunately
 - ご馳走様 (ごちそうさま) - thank you (for the meal)
-- ご馳走様でした (ごちそうさまでした) - thank you (for the meal)
 - かしこまりました - certainly
 - 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
   leaves)
@@ -1858,6 +1857,7 @@ ____
 - 抹茶 (まっちゃ) - matcha
 - 煎茶 (せんちゃ) - green tea
 - 玉露 (ぎょくろ) - green tea - high quality
+- ノンアルコール - non-alcoholic
 
 ### nouns (location)
 
