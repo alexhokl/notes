@@ -710,6 +710,8 @@ ____
 - 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
 - 散歩 (さんぽ) - walk; stroll
 - 結婚 (けっこん) - marriage
+- 作文 (さくぶん) - writing; composition; formal writing with little real
+  meaning
 
 ### する transitive and intransitive verbs
 
@@ -720,134 +722,132 @@ ____
 
 - 開く (あく) - to open
   * 開ける (あける) - to open (something); to unwrap (a package)
-- 閉まる (しまる) - to be closed
-  * 閉める (しめる) - to close; to shut
-- 出る (でる) - to leave; to appear; to attend
-  * 出す (だす) - to take out; to put out; to submit; to publish; to send (a
-    letter)
-- 付く (つく) - to be turned on; to be attachedd
-  * 付ける (つける) - to attach; to join; to wear; to put on; to turn ona (a
-    light)
-- 消える (きえる) - to disappear; to turn off
-  * 消す (けす) - to erase; to turn off; to extinguish
-- 始まる (はじまる) - to start
-  * 始める (はじめる) - to start (something); to begin
-- 聞こえる (きこえる) - to be heard
-  * 聞く (きく) - to listen to; to ask; aka 聴く; to smell
-- 見える (みえる) - to be seen
-  * 見る (みる) - to watch; to see
-- 入る (はいる) - to enter
-  * 入れる (いれる) - to put in; to accept; to include
 - 上がる (あがる) - to rise; to go up; to come up; to ascend; to climb; to stop
   (of rain); to clear up (of weather)
   * 上げる (あげる) - to raise; to give; to fly; to launch
-- 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
-  wind; to twist
-  * 曲げる (まげる) - to bend
-- 並ぶ (ならぶ) - to line up; to stand in a line
-  * 並べる (ならべる) - to line up; to set up; to arrange in a line
 - 生まれる (うまれる) - to be born
   * 生む (うむ) - to give birth; to produce; to yield
 - 起きる (おきる) - to wake up
   * 起こす (おこす) - to wake (someone) up
-- 寝る (ねる) - to sleep
-  * 寝かせる (ねかせる) - to put (someone) to bed; to lay (something) down
 - 降りる (おりる) - to get off; to descend; to go down; aka 下りる
   * 降ろす (おろす) - to take down; to lower; to drop off (a passenger); to unload
     (goods), to withdraw (money); aka 下ろす
+- 消える (きえる) - to disappear; to turn off
+  * 消す (けす) - to erase; to turn off; to extinguish
+- 聞こえる (きこえる) - to be heard
+  * 聞く (きく) - to listen to; to ask; aka 聴く; to smell
+- 閉まる (しまる) - to be closed
+  * 閉める (しめる) - to close; to shut
+- 付く (つく) - to be turned on; to be attachedd
+  * 付ける (つける) - to attach; to join; to wear; to put on; to turn on (a
+    light)
+- 出る (でる) - to leave; to appear; to attend
+  * 出す (だす) - to take out; to put out; to submit; to publish; to send (a
+    letter)
+- 並ぶ (ならぶ) - to line up; to stand in a line
+  * 並べる (ならべる) - to line up; to set up; to arrange in a line
+- 寝る (ねる) - to sleep
+  * 寝かせる (ねかせる) - to put (someone) to bed; to lay (something) down
 - 乗る (のる) - to get on
   * 乗せる (のせる) - to place on (something); to give (someone) a ride
+- 入る (はいる) - to enter
+  * 入れる (いれる) - to put in; to accept; to include
+- 始まる (はじまる) - to start
+  * 始める (はじめる) - to start (something); to begin
+- 曲がる (まがる) - to turn (in a direction); to bend; to curve; to warp; to
+  wind; to twist
+  * 曲げる (まげる) - to bend
+- 見える (みえる) - to be seen
+  * 見る (みる) - to watch; to see
 
 ### verbs (transitive)
 
-- 作る (つくる) - to make
-- 教える (おしえる) - to teach
-- 食べる (たべる) - to eat
-- 飲む (のむ) - to drink
-- 読む (よむ) - to read
-- 洗う (あらう) - to wash
 - 浴びる (あびる) - to take a shower
-- 磨く (みがく) - to brush
-- 買う (かう) - to buy
-- 話す (はなす) - to talk; to speak (a language)
-- 書く (かく) - to write; to draw
-- 借りる (かりる) - to borrow
+- 洗う (あらう) - to wash
 - 言う (いう) - to say
-- 知る (しる) - to know; to be aware of; to find out; to discover
 - 描く (えがく) - to draw; to paint
-- 撮る (とる) - to take (a photo); to record (a video or audio); to film
-- 勤める (つとめる) - to work for; to be employed at; to serve in
-- 吸う (すう) - to inhale; to breathe in; to suck; to smoke
-- 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
-- 頼む (たのむ) - to entrust to
-- 渡す (わたす) - to ferry across; to hand over; to pass; to transfer
+- 置く (おく) - to place
+- 教える (おしえる) - to teach
+- 覚える (おぼえる) - to memorise; to learn
+- 買う (かう) - to buy
+- 書く (かく) - to write; to draw
 - 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
   call); to spend (time, money)
-- 使う (つかう) - to use; to make use of
-- 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
-  instrument) to catch (a cold); to look up (a word in a dictionary)
-- 持つ (もつ) - to hold; to carry; to possess
-- 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
-- 忘れる (わすれる) - to forget
-- 置く (おく) - to place
-- 覚える (おぼえる) - to memorise; to learn
-- 締める (しめる) - to tie; to fasten; to tighten
-- 張る (はる) - to stick; to paste
+- 借りる (かりる) - to borrow
+- 貸す (かす) - to lend; to rent out
 - 着る (きる) - to wear (clothes above the waist)
 - 切る (きる) - to cut
-- 貸す (かす) - to lend; to rent out
+- 締める (しめる) - to tie; to fasten; to tighten
+- 知る (しる) - to know; to be aware of; to find out; to discover
+- 吸う (すう) - to inhale; to breathe in; to suck; to smoke
+- 頼む (たのむ) - to entrust to
+- 食べる (たべる) - to eat
+- 使う (つかう) - to use; to make use of
+- 作る (つくる) - to make
+- 勤める (つとめる) - to work for; to be employed at; to serve in
+- 撮る (とる) - to take (a photo); to record (a video or audio); to film
+- 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
+- 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
+- 飲む (のむ) - to drink
+- 話す (はなす) - to talk; to speak (a language)
+- 張る (はる) - to stick; to paste
+- 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
+  instrument) to catch (a cold); to look up (a word in a dictionary)
+- 磨く (みがく) - to brush
+- 持つ (もつ) - to hold; to carry; to possess
+- 読む (よむ) - to read
+- 忘れる (わすれる) - to forget
+- 渡す (わたす) - to ferry across; to hand over; to pass; to transfer
 
 ### verbs (intransitive)
 
-- 居る (いる) - to be (used for living things)
-- 有る (ある) - to exist (used for non-living things)
-- 成る (なる) - to become
-- 乗る (のる) - to get on
-- 掛かる (かかる) - to take (time, money); to hang; to be fastened
-- 走る (はしる) - to run
-- 分かる (わかる) - to understand
-- 止まる (とまる) - to stop; to come to a halt
-- 休む (やすむ) - to rest
-- 降る (ふる) - to fall (rain, snow)
-- 出来る (できる) - to be able to do; to be good at; to be ready
-- 要る (いる) - to be needed; to want
 - 会う (あう) - to meet
-- 疲れる (つかれる) - to get tired; to become exhausted
-- 死ぬ (しぬ) - to die
 - 遊ぶ (あそぶ) - to play (games, sports); to enjoy oneself; to have a good time
-- 泳ぐ (およぐ) - to swim
-- 弾く (ひく) - to play (a stringed instrument, piano, etc.)
-- 晴れる (はれる) - to be sunny
-- 鳴く (なく) - to make sound (of an animal); to cry
+- 有る (ある) - to exist (used for non-living things)
 - 歩く (あるく) - to walk
-- 働く (はたらく) - to work; to labour
-- 上る (のぼる) - to ascend; to go up; to climb; to rise
-- 飛ぶ (とぶ) - to fly
-- 渡る (わたる) - to cross over; to go across; to extend
-- 着く (つく) - to arrive at; to reach; to sit on
-- 作文 (さくぶん) - writing; composition; formal writing with little real
-  meaning
-- 授業 (じゅぎょう) - lesson; class
+- 居る (いる) - to be (used for living things)
+- 要る (いる) - to be needed; to want
+- 泳ぐ (およぐ) - to swim
+- 掛かる (かかる) - to take (time, money); to hang; to be fastened
+- 曇る (くもる) - to get cloudy
 - 答える (こたえる) - to answer; to reply
 - 困る (こまる) - to be troubled; to have difficulty
 - 咲く (さく) - to bloom; to blossom
-- 曇る (くもる) - to get cloudy
+- 死ぬ (しぬ) - to die
+- 授業 (じゅぎょう) - lesson; class
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
 - 立つ (たつ) - to stand
+- 疲れる (つかれる) - to get tired; to become exhausted
+- 着く (つく) - to arrive at; to reach; to sit on
+- 飛ぶ (とぶ) - to fly
+- 止まる (とまる) - to stop; to come to a halt
+- 出来る (できる) - to be able to do; to be good at; to be ready
+- 鳴く (なく) - to make sound (of an animal); to cry
+- 成る (なる) - to become
+- 上る (のぼる) - to ascend; to go up; to climb; to rise
+- 乗る (のる) - to get on
+- 走る (はしる) - to run
+- 働く (はたらく) - to work; to labour
+- 晴れる (はれる) - to be sunny
+- 弾く (ひく) - to play (a stringed instrument, piano, etc.)
+- 降る (ふる) - to fall (rain, snow)
+- 休む (やすむ) - to rest
+- 分かる (わかる) - to understand
+- 渡る (わたる) - to cross over; to go across; to extend
 
 ### verbs (transitive and intransitive)
 
+- 歌う (うたう) - to sing
 - 終わる (おわる) - to end
 - 為る (する) - to do; to wear
 - 待つ (まつ) - to wait
-- 歌う (うたう) - to sing
 
 ### verbs (direction intransitive)
 
 - 行く (いく) - to go
-- 来る (くる) - to come
 - 帰る (かえる) - to return
+- 来る (くる) - to come
 
 ### expressions
 
@@ -1103,6 +1103,7 @@ ____
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 飾る (かざる) - to decorate; to display
 - 払う (はらう) - to pay; to wipe away
+- 尋ねる (たずねる) - to ask; to inquire
 
 ### verbs (intransitive)
 
@@ -1242,6 +1243,7 @@ ____
 - 独身 (どくしん) - single
 - ベルト - belt
 - 瓶 (びん) - bottle; jar
+- 被害 (ひがい) - damage; injury
 
 ### nouns (animals)
 
@@ -1841,6 +1843,8 @@ ____
 - ほうれん草 (ほうれんそう) - spinach
 - ポテト - potato
 - 朝鮮人参 (ちょうせんにんじん) - ginseng
+- 冷奴　(ひややっこ) - chilled tofu
+- 茸 (きのこ) - mushroom
 
 ### nouns (fruits)
 
