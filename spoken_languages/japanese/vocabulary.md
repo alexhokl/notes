@@ -1726,6 +1726,7 @@ ____
 - 掲示板 (けいじばん) - notice board
 - 縫いぐるみ (ぬいぐるみ) - stuffed toy
 - 厚生労働省 (こうせいろうどうしょう) - Ministry of Health, Labour and Welfare
+- 県 (あがた) - territory (historical term); countryside
 
 ### nouns (family)
 
