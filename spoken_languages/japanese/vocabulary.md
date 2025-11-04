@@ -2109,6 +2109,7 @@ ____
 - アレルギー - allergy
 - 体調 (たいちょう) - physical condition; state of health
 - うつ病 (うつびょう) - depression
+- パニック障害 (パニックしょうがい) - panic disorder
 
 ### nouns (finance)
 
