@@ -858,6 +858,10 @@ ____
 - verb in plain negative form + で + ください
   * 書かないでください。
 
+- in casual speech ください can be skipped
+  * 書いて。
+  * 書かないで。
+
 ### decorating verbs
 
 - conversion to adverb

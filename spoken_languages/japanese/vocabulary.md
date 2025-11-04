@@ -1780,6 +1780,8 @@ ____
 - 南瓜 (かぼちゃ) - pumpkin
 - すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
   table-top cast-iron pan
+- 大盛り (おおもり) - large serving; extra portion
+- 並盛 (なみもり) - normal serving
 
 ### nouns (fish)
 
@@ -2106,6 +2108,7 @@ ____
 - 痛み止め (いたみどめ) - painkiller
 - アレルギー - allergy
 - 体調 (たいちょう) - physical condition; state of health
+- うつ病 (うつびょう) - depression
 
 ### nouns (finance)
 

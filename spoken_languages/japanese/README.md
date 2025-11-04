@@ -20,6 +20,9 @@
   * [News](#news)
 - [Patterns](#patterns)
   * [commands](#commands)
+  * [can / may / mind](#can-%2F-may-%2F-mind)
+  * [cannot / must not](#cannot-%2F-must-not)
+  * [try to](#try-to)
 ____
 
 # Links
@@ -375,3 +378,26 @@ ____
   * 勉強しなさい
   * 早く寝なさい
   * ここに座りなさい
+
+## can / may / mind
+
+- verb in て form + もいい
+  * 食べてもいいですか。 - may I eat?
+  * 食べてもいいです。 - you can eat.
+  * 食べてもいいです。 - I don't mind to eat it.
+  * 入ってもいいですか。 - may I enter?
+  * 見てもいいですか。 - may I see?
+
+## cannot / must not
+
+- verb in て form + はいけない
+  * 食べてはいけません。 - you must not eat.
+  * 入ってはいけません。 - you must not enter.
+  * 見てはいけません。 - you must not see.
+
+## try to
+
+- verb in て form + みる
+  * 食べてみる - try to eat
+  * 行ってみる - try to go
+  * 見てみる - try to see
