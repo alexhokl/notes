@@ -1107,26 +1107,27 @@ ____
 
 ### verbs (intransitive)
 
-- 戻る (もどる) - to return
-- 参る (まいる) - to go; to come; to call
+- 遅れる (おくれる) - to be late
+- 踊る (おどる) - to dance; to be manipulated
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely);
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
-- 慣れる (なれる) - to get used to; to become familiar with
+- 過ぎる (すぎる) - to pass through; to exceed
+- 済む (すむ) - to be completed
+- 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
+  road; to take (a route); to go via
+- 泊まる (とまる) - to stay (e.g. hotel)
+- 太る (ふとる) - to gain weight
+- 光る (ひかる) - to shine
 - 泣く (なく) - to cry (human); to weep
 - 鳴る (なる) - to sound (from a thing); to ring
 - 鳴る (なる) - to ring; to sound
-- 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
-  road; to take (a route); to go via
-- 踊る (おどる) - to dance; to be manipulated
-- 笑う (わらう) - to laugh; to smile
-- 泊まる (とまる) - to stay (e.g. hotel)
-- 遅れる (おくれる) - to be late
+- 慣れる (なれる) - to get used to; to become familiar with
 - 濡れる (ぬれる) - to get wet
-- 済む (すむ) - to be completed
-- 太る (ふとる) - to gain weight
+- 参る (まいる) - to go; to come; to call
+- 戻る (もどる) - to return
 - 痩せる (やせる) - to lose weight
-- 光る (ひかる) - to shine
+- 笑う (わらう) - to laugh; to smile
 
 ### verbs (transitive and intransitive)
 
@@ -2085,6 +2086,10 @@ ____
 - デジタルトランスフォーメーション - digital transformation
 - ハードウェア - hardware
 - クラウド - cloud
+
+### nouns (science)
+
+- エビデンス - evidence
 
 ### nouns (signs)
 
