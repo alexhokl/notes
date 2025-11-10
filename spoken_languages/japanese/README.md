@@ -257,6 +257,8 @@ ____
 - 頑張りましょう - let's do our best
 - あ、分かりました - ah, I understood
 - 然らば (さらば) - farewell; goodbye; if so; in that case
+- ゆっくりで大丈夫ですよ - take your time. it's okay.
+- ゆっくりしてください - please take your time
 
 ## Signs
 

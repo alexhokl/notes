@@ -202,29 +202,29 @@ ____
 
 ### adverbs
 
-- 少し (すこし) - a little
-- ちょっと - a little
-- 迚も (とても) - very
-- 何時も (いつも) - always
-- たくさん - a lot; too many (on countables)
-- 大勢 (おおぜい) - many (people)
-- なぜ - why
-- また - also; again
-- 未だ (まだ) - still; as yet; (more) still; at least; comparatively
-- 多分 (たぶん) - maybe; probably
 - 余り (あまり) - not very; not much
-- 些とも (ちっとも) - not at all
+- 何時も (いつも) - always
 - 幾つ (いくつ) - how many
-- 時々 (ときどき) - sometimes; occasionally
-- 良く (よく) - nicely; often; properly; well
+- 大勢 (おおぜい) - many (people)
+- 少し (すこし) - a little
+- 全部 (ぜんぶ) - all
 - 大変 (たいへん) - very; greatly; terribly
-- 早く (はやく) - quickly; early; also as 速く
-- どうぞ - please; go ahead
+- たくさん - a lot; too many (on countables)
+- 多分 (たぶん) - maybe; probably
 - 丁度 (ちょうど) - exactly
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat
+- 些とも (ちっとも) - not at all
+- 時々 (ときどき) - sometimes; occasionally
+- 迚も (とても) - very
 - 如何して (どうして) - why; how
-- 全部 (ぜんぶ) - all
+- どうぞ - please; go ahead
+- なぜ - why
+- 早く (はやく) - quickly; early; also as 速く
+- また - also; again
+- 未だ (まだ) - still; as yet; (more) still; at least; comparatively
+- 良く (よく) - nicely; often; properly; well
+- ゆっくり - slowly; unhurriedly; leisurely
 
 ### adjectives (い)
 
@@ -1245,6 +1245,8 @@ ____
 - ベルト - belt
 - 瓶 (びん) - bottle; jar
 - 被害 (ひがい) - damage; injury
+- 無料 (むりょう) - free of charge
+- 給料 (きゅうりょう) - salary; wages
 
 ### nouns (animals)
 
@@ -1423,6 +1425,7 @@ ____
 - 両側 (りょうがわ) - both sides
 - 蝋燭 (ろうそく) - candle
 - 蓋 (ふた) - lid; cap; cover
+- 有料 (ゆうりょう) - fee-charging; not free
 
 ### nouns (food)
 
@@ -1533,6 +1536,7 @@ ____
 ### adjectives (い)
 
 - 相応しい (ふさわしい) - ideal; perfect
+- 物足りない (ものたりない) - unsatisfactory
 
 ### adjectives (な)
 
@@ -1728,6 +1732,7 @@ ____
 - 縫いぐるみ (ぬいぐるみ) - stuffed toy
 - 厚生労働省 (こうせいろうどうしょう) - Ministry of Health, Labour and Welfare
 - 県 (あがた) - territory (historical term); countryside
+- 幅員 (ふくいん) - width (of a road, bridge, etc.)
 
 ### nouns (family)
 
@@ -1876,6 +1881,7 @@ ____
 - 地下街 (ちかがい) - underground shopping street
 - 風呂場 (ふろば) - bathroom
 - コインランドリー - coin laundry
+- 処 (ところ) - (specialist) resturant
 
 ### nouns (shopping)
 
@@ -1981,6 +1987,7 @@ ____
 - 雀 (すずめ) - tree sparrow
 - 鯨 (くじら) - whale
 - 麒麟 (きりん) - giraffe
+- 栗鼠 (りす) - squirrel
 
 ### nouns (body parts)
 
