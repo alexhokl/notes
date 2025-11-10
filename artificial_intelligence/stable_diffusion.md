@@ -12,8 +12,6 @@ ___
 ```sh
 git clone --recursive https://github.com/leejet/stable-diffusion.cpp
 cd stable-diffusion.cpp
-git submodule init
-git submodule update
 mkdir build
 cd build
 cmake ..
