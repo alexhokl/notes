@@ -72,6 +72,7 @@
     + [adjectives (い)](#adjectives-%E3%81%84-2)
     + [adjectives (な)](#adjectives-%E3%81%AA-2)
     + [pronouns (person)](#pronouns-person-2)
+    + [pronouns (location)](#pronouns-location)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
     + [nouns (body parts)](#nouns-body-parts-1)
@@ -162,6 +163,7 @@
     + [nouns (work)](#nouns-work)
     + [nouns (web)](#nouns-web-1)
     + [nouns (technology)](#nouns-technology-3)
+    + [nouns (science)](#nouns-science)
     + [nouns (signs)](#nouns-signs)
     + [nouns (logistics)](#nouns-logistics)
     + [nouns (health)](#nouns-health-2)
@@ -1164,6 +1166,7 @@ ____
 - 矢張り (やはり) - as expected; after all (aka やっぱり)
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
 - 突然 (とつぜん) - suddenly
+- 全て (すべて) - entirely; wholly; completely; all
 
 ### adjectives (い)
 
@@ -1185,6 +1188,11 @@ ____
 - お前 (おまえ) - you (musculine; vulgar)
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
+
+### pronouns (location)
+
+- 彼方此方 (あちこち) - here and there; everywhere; various places (aka
+  あちらこちら, あっちこっち)
 
 ### nouns
 
@@ -1371,9 +1379,11 @@ ____
 
 ### verbs (intransitive)
 
-- 届く (とどく) - to reach; to be delivered
 - 空く (あく) - to become empty
 - 積もる (つもる) - to pile up; to accumulate
+- 届く (とどく) - to reach; to be delivered
+- 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
+  or fire)
 
 ### verbs (transitive and intransitive)
 
@@ -1567,6 +1577,7 @@ ____
 - ハンガー - hanger
 - 嘘つき (うそつき) - liar
 - ニュアンス - nuance
+- ジャズ - jazz
 
 ### nouns (clothing)
 
