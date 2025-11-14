@@ -1115,7 +1115,7 @@ ____
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
 - 過ぎる (すぎる) - to pass through; to exceed
-- 済む (すむ) - to be completed
+- 済む (すむ) - to be completed; to finish
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
   road; to take (a route); to go via
 - 泊まる (とまる) - to stay (e.g. hotel)
@@ -1167,6 +1167,7 @@ ____
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
 - 突然 (とつぜん) - suddenly
 - 全て (すべて) - entirely; wholly; completely; all
+- すで - already
 
 ### adjectives (い)
 
@@ -2114,6 +2115,8 @@ ____
 - 引き (ひき) - pull
 - 止まれ (とまれ) - stop
 - 開き (ひらき) - opening; gap
+- 右回り (みぎまわり) - clockwise
+- 左回り (ひだりまわり) - counter-clockwise
 
 ### nouns (logistics)
 
