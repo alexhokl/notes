@@ -33,6 +33,8 @@ ____
 - [Implicit animations](https://docs.flutter.dev/codelabs/implicit-animations)
 - [gRPC with Dart](https://grpc.io/docs/languages/dart/quickstart/)
 - [Flutter AppAuth Plugin](https://pub.dev/packages/flutter_appauth)
+- [Android Asset
+  Studio](https://www.perplexity.ai/search/list-tools-to-generate-applica-017ZWGmUTkCmP9fBztPvEQ)
 
 ## Libraries
 
