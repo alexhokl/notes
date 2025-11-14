@@ -1,24 +1,24 @@
-- [Links](#links)
-- [Libraries](#libraries)
-- [Files](#files)
-- [Commands](#commands)
-  * [Setup](#setup)
-  * [Packges](#packges)
-  * [Build and run](#build-and-run)
-- [Widgets](#widgets)
-  * [SteamBuilder](#steambuilder)
-  * [Expanded](#expanded)
-  * [Adaptive layout](#adaptive-layout)
-- [Concepts](#concepts)
-- [State management](#state-management)
-  * [Riverpod](#riverpod)
+  * [Links](#links)
+  * [Libraries](#libraries)
+  * [Icons](#icons)
+  * [Files](#files)
+  * [Commands](#commands)
+    + [Setup](#setup)
+    + [Packges](#packges)
+    + [Build and run](#build-and-run)
+  * [Widgets](#widgets)
+    + [SteamBuilder<T>](#steambuildert)
+    + [Expanded](#expanded)
+    + [Adaptive layout](#adaptive-layout)
+  * [Concepts](#concepts)
+  * [State management](#state-management)
+    + [Riverpod](#riverpod)
 ____
 
 ## Links
 
 - [DartPad](https://dartpad.dev/)
 - [Material design](https://m3.material.io/)
-- [Icons of Material design](https://fonts.google.com/icons)
 - [Components of Material design](https://m3.material.io/components)
 - [Codelabs on Flutter](https://docs.flutter.dev/codelabs)
 - [Flutter Samples](https://flutter.github.io/samples/)
@@ -34,11 +34,17 @@ ____
 - [gRPC with Dart](https://grpc.io/docs/languages/dart/quickstart/)
 - [Flutter AppAuth Plugin](https://pub.dev/packages/flutter_appauth)
 - [Android Asset
-  Studio](https://www.perplexity.ai/search/list-tools-to-generate-applica-017ZWGmUTkCmP9fBztPvEQ)
+  Studio](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=addchart&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(0%2C%20150%2C%20136)&crop=0&backgroundShape=circle&effects=elevate&name=ic_launcher)
 
 ## Libraries
 
 - [flutter_animate](https://pub.dev/packages/flutter_animate)
+
+## Icons
+
+- Image Asset Studio within Android Studio can be used to generate app icons
+  from material icons
+- [Material icons](https://fonts.google.com/icons)
 
 ## Files
 
