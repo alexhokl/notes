@@ -80,7 +80,13 @@ ____
   * passive voice
     + ドアは田中さんに開けられました。
 - there are no simple patterns to memorise transitive and intransitive pairs
-  based on okurigana
+  based on okurigana (送り仮名)
+  * common patterns (but not definite rules)
+    + transitive verbs often have an extra syllable in okurigana
+      + intransitive verb <=> transitive verb
+        + く　<=> ける
+        + まる <=> める
+        + がる <=> げる
 
 # Verb forms
 

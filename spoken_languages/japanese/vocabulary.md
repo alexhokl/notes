@@ -47,6 +47,7 @@
     + [pronouns (things)](#pronouns-things)
     + [nouns](#nouns-1)
     + [nouns (academic)](#nouns-academic-1)
+    + [nouns (home)](#nouns-home-1)
     + [nouns (position)](#nouns-position-1)
     + [nouns (time)](#nouns-time-1)
     + [nouns (food)](#nouns-food-1)
@@ -78,7 +79,7 @@
     + [nouns (body parts)](#nouns-body-parts-1)
     + [nouns (food)](#nouns-food-2)
     + [nouns (drinks)](#nouns-drinks-2)
-    + [nouns (home)](#nouns-home-1)
+    + [nouns (home)](#nouns-home-2)
     + [nouns (sports)](#nouns-sports-1)
     + [nouns (location)](#nouns-location-2)
     + [nouns (shopping)](#nouns-shopping-1)
@@ -151,13 +152,14 @@
     + [nouns (fruits)](#nouns-fruits-2)
     + [nouns (drinks)](#nouns-drinks-3)
     + [nouns (location)](#nouns-location-4)
+    + [nouns (restaurants)](#nouns-restaurants)
     + [nouns (shopping)](#nouns-shopping-3)
     + [nouns (clothing)](#nouns-clothing-4)
     + [nouns (transportation)](#nouns-transportation-4)
     + [nouns (animals)](#nouns-animals-3)
     + [nouns (body parts)](#nouns-body-parts-2)
     + [nouns (position)](#nouns-position-2)
-    + [nouns (home)](#nouns-home-2)
+    + [nouns (home)](#nouns-home-3)
     + [nouns (sports)](#nouns-sports-3)
     + [nouns (countries)](#nouns-countries-1)
     + [nouns (work)](#nouns-work)
@@ -959,10 +961,15 @@ ____
 - 普通 (ふつう) - normal; ordinary
 - ハンドバック - handbag
 - 星 (ほし) - star
+- 両方 (りょうほう) - both; both sides
 
 ### nouns (academic)
 
 - 数学 (すうがく) - mathematics
+
+### nouns (home)
+
+- 壁 (かべ) - wall
 
 ### nouns (position)
 
@@ -1121,7 +1128,9 @@ ____
 - 泊まる (とまる) - to stay (e.g. hotel)
 - 太る (ふとる) - to gain weight
 - 光る (ひかる) - to shine
+- 引っ越す (ひっこす) - to move (residence)
 - 泣く (なく) - to cry (human); to weep
+- なくなる - to be lost (e.g. luggage); to be used up; to disappear (e.g. pain)
 - 鳴る (なる) - to sound (from a thing); to ring
 - 鳴る (なる) - to ring; to sound
 - 慣れる (なれる) - to get used to; to become familiar with
@@ -1129,6 +1138,7 @@ ____
 - 参る (まいる) - to go; to come; to call
 - 戻る (もどる) - to return
 - 痩せる (やせる) - to lose weight
+- 汚れる (よごれる) - to get dirty
 - 笑う (わらう) - to laugh; to smile
 
 ### verbs (transitive and intransitive)
@@ -1256,6 +1266,8 @@ ____
 - 被害 (ひがい) - damage; injury
 - 無料 (むりょう) - free of charge
 - 給料 (きゅうりょう) - salary; wages
+- マスター - owner
+- 餌 (えさ) - feed (for animals); pet food
 
 ### nouns (animals)
 
@@ -1280,6 +1292,7 @@ ____
 - 弁当 (べんとう) - Japanese lunch box
 - アイスクリーム - ice cream
 - クリーム - cream; ice cream
+- チーズ - cheese
 
 ### nouns (drinks)
 
@@ -1361,22 +1374,23 @@ ____
 
 ### verbs (transitive)
 
-- 頂く (いただく) - to receive; to take (humble)
-- 辞める (やめる) - to resign; to retire; to quit; to leave
-- 除く (のぞく) - to remove; to exclude; to kill (opponent)
-- 担当 (たんとう) - being in charge; being responsible
-- 与える (あたえる) - to give (to someone of lower status); to present; to award
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
+- 与える (あたえる) - to give (to someone of lower status); to present; to award
+- 頂く (いただく) - to receive; to take (humble)
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
-- 貰う (もらう) - to receive; to get (from somebody)
-- 計る (はかる) - to measure; to weigh; to survey; to time; to infer
+- 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 - 覚ます (さます) - to waken; to arouse from sleep
 - 仕舞う (しまう) - to end up
-- 履く (はく) - to wear (lower body clothing, footwear)
+- 過ごす (すごす) - to spend (time)
+- 担当 (たんとう) - being in charge; being responsible
 - 願う (ねがう) - to wish; to hope; to request; to beg
+- 除く (のぞく) - to remove; to exclude; to kill (opponent)
+- 計る (はかる) - to measure; to weigh; to survey; to time; to infer
+- 履く (はく) - to wear (lower body clothing, footwear)
 - 申し込む (もうしこむ) - to apply for
-- 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
+- 貰う (もらう) - to receive; to get (from somebody)
+- 辞める (やめる) - to resign; to retire; to quit; to leave
 
 ### verbs (intransitive)
 
@@ -1411,8 +1425,9 @@ ____
 
 ### adjectives (な)
 
-- 透明 (とうめい) - transparent
 - お洒落 (おしゃれ) - fashionable; stylish; trendy
+- 透明 (とうめい) - transparent
+- 真っ白 (まっしろ) - pure white; snowy white
 
 ### nouns
 
@@ -1494,6 +1509,8 @@ ____
 
 - 助かる (たすかる) - to be saved; to be rescued; to be helped
   * 助ける (たすける) - to help; to save; to assist; to rescue
+- 点く (つく) - to turn on; to light up
+  * 点ける (つける) - to turn on; to light up
 
 ### verbs (transitive)
 
@@ -1587,6 +1604,7 @@ ____
 ### nouns (food)
 
 - 定食 (ていしょ) - set meal
+- ゼリー - jelly
 
 ### nouns (web)
 
@@ -1878,6 +1896,7 @@ ____
 ### nouns (drinks)
 
 - コーラ - cola
+- コーヒー豆 (コーヒーまめ) - coffee beans
 - 緑茶ハイ (りょくちゃ) - high ball with green tea
 - 抹茶 (まっちゃ) - matcha
 - 煎茶 (せんちゃ) - green tea
@@ -1894,6 +1913,10 @@ ____
 - 風呂場 (ふろば) - bathroom
 - コインランドリー - coin laundry
 - 処 (ところ) - (specialist) resturant
+
+### nouns (restaurants)
+
+- カウンター - counter
 
 ### nouns (shopping)
 

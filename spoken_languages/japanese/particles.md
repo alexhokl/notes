@@ -1002,6 +1002,7 @@ ____
         + but not 今日はNASA`に`歩いた。
         + verb 歩く is converted to て form 歩いて
         + verb 行く is converted to past tense 行った
+      + メニューには甘い物はあまりありません。
 - に for attachment
   * examples
     + `自転車に`乗るのが大好きだ。 - I love riding my bike.

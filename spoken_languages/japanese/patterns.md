@@ -98,9 +98,11 @@
     + [ends up / completely done](#ends-up-%2F-completely-done)
     + [but](#but)
   * [Chapter 12](#chapter-12)
-    + [current state with transitive verb](#current-state-with-transitive-verb)
+    + [progressive state with transitive verb](#progressive-state-with-transitive-verb)
     + [current state regardless of state change previously](#current-state-regardless-of-state-change-previously)
     + [current state after a state change by an agent](#current-state-after-a-state-change-by-an-agent)
+    + [to show kindness by using intransitive verb for a kind act](#to-show-kindness-by-using-intransitive-verb-for-a-kind-act)
+    + [an action has not been done and cannot be controlled](#an-action-has-not-been-done-and-cannot-be-controlled)
     + [already and still](#already-and-still)
     + [did you know](#did-you-know)
     + [isn't it?](#isn%27t-it%3F)
@@ -1037,7 +1039,7 @@ ____
 
 ## Chapter 12
 
-### current state with transitive verb
+### progressive state with transitive verb
 
 - transitive verb in te-form + いる
   - clothing + を + 着ている
@@ -1054,6 +1056,7 @@ ____
     * 洋服 (ようふく)
     * 着物
     * レインコート
+    * ブラジャー
   - 履く (はく)
     * ズボン
     * スカート
@@ -1063,6 +1066,7 @@ ____
     * 時計
     * ネックレス
     * 指輪 (ゆびわ)
+    * エプロン
   - 締める (しめる)
     * ネクタイ
     * ベルト
@@ -1081,6 +1085,7 @@ ____
   * 冷蔵庫の中にジュースが入っています。
   * 窓が開いている。
   * 電気がついていません。
+- usually は would not be used in place of が
 
 ### current state after a state change by an agent
 
@@ -1111,6 +1116,7 @@ ____
   * もうご飯を食べましたか。
     + はい、もう食べました。
     + いいえ、まだ食べていません。
+    + いいえ、まだです。
 
 ### did you know
 
