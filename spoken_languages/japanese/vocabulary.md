@@ -195,13 +195,13 @@ ____
 ### conjunctions
 
 - 然し (しかし) - however; but
-- でも - but
-- では - then
-- じゃあ - then
+- 而して (そして) - thus
 - 其れから (それから) - and then
 - それでは - well; right; then
-- 而して (そして) - thus
+- じゃあ - then
 - 次に (つぎに) - next; then; after that
+- では - then
+- でも - but
 - また - and; or
 
 ### adverbs
@@ -232,97 +232,96 @@ ____
 
 ### adjectives (い)
 
-- 高い (たかい) - high
+- 青い (あおい) - azure or green
+- 赤い (あかい) - red
+- 明るい (あかるい) - bright
+- 暖かい (あたたかい) - warm
+- 新しい (あたらしい) - new
+- 厚い (あつい) - thick
+- 暑い (あつい) - hot (also 熱い)
+- 甘い (あまい) - sweet
+- いい - good (casual)
+- 忙しい (いそがしい) - busy
+- 痛い (いたい) - painful; sore
+- 薄い (うすい) - thin
+- 美味しい (おいしい) - delicious
+- 大きい (おおきい) - big
+- 遅い (おそい) - late; slow
+- 重い (おもい) - heavy
+- 面白い (おもしろい) - interesting
+- 軽い (かるい) - light
+- 可愛い (かわいい) - cute
+- 黄色い (きいろい) - yellow
+- 汚い (きたない) - dirty
+- 黒い (くろい) - black
+- 寒い (さむい) - cold
+- 白い (しろい) - white
+- 涼しい (すずしい) - cool
+- 狭い (せまい) - narrow
+- 高い (たかい) - high; expensive
+- 楽しい (たのしい) - fun
+- 小さい (ちいさい) - small
+- 茶色い (ちゃいろい) - brown
+- 詰まらない (つまらない) - boring
+- 強い (つよい) - strong
+- 辛い (つらい) - spicy
 - 低い (ひくい) - low
 - 長い (ながい) - long
-- 短い (みじかい) - short
-- 太い (ふとい) - thick (in radius)
-- 細い (ほそい) - thin (in radius)
-- 厚い (あつい) - thick
-- 薄い (うすい) - thin
+- 早い (はやい) - early; fast; quick (also 速い)
 - 広い (ひろい) - wide
-- 狭い (せまい) - narrow
-- 重い (おもい) - heavy
-- 軽い (かるい) - light
-- 高い (たかい) - expensive
+- 太い (ふとい) - thick (in radius)
+- 古い (ふるい) - old
+- 欲しい (ほしい) - wanting (to have); desiring; I want (someone) to (do)
+- 細い (ほそい) - thin (in radius)
+- 不味い (まずい) - bad tasting
+- 丸い (まるい) - round; circular
+- 短い (みじかい) - short
+- 難しい (むずかしい) - difficult
 - 安い (やすい) - cheap
 - 易しい (やさしい) - easy
-- 難しい (むずかしい) - difficult
-- 面白い (おもしろい) - interesting
-- 詰まらない (つまらない) - boring
-- 新しい (あたらしい) - new
-- 古い (ふるい) - old
-- 大きい (おおきい) - big
-- 小さい (ちいさい) - small
-- 美味しい (おいしい) - delicious
-- 不味い (まずい) - bad tasting
-- 汚い (きたない) - dirty
-- 白い (しろい) - white
-- 黒い (くろい) - black
-- 赤い (あかい) - red
-- 青い (あおい) - azure or green
-- 黄色い (きいろい) - yellow
-- 茶色い (ちゃいろい) - brown
 - 良い (よい) - good (formal)
-- いい - good (casual)
-- 悪い (わるい) - bad; at fault
 - 弱い (よわい) - weak
-- 丸い (まるい) - round; circular
-- 暑い (あつい) - hot (also 熱い)
-- 寒い (さむい) - cold
-- 涼しい (すずしい) - cool
-- 甘い (あまい) - sweet
-- 早い (はやい) - early; fast; quick (also 速い)
-- 遅い (おそい) - late; slow
-- 楽しい (たのしい) - fun
-- 忙しい (いそがしい) - busy
-- 暖かい (あたたかい) - warm
-- 辛い (つらい) - spicy
-- 明るい (あかるい) - bright
-- 痛い (いたい) - painful; sore
-- 可愛い (かわいい) - cute
-- 欲しい (ほしい) - wanting (to have); desiring; I want (someone) to (do)
-- 強い (つよい) - strong
 - 若い (わかい) - young; youthful
+- 悪い (わるい) - bad; at fault
 
 ### adjectives (な)
 
-- 賑やか (にぎやか) - lively
-- 静か (しずか) - quiet
-- 綺麗 (きれい) - beautiful; clean
-- 有名 (ゆうめい) - famous
-- 大切 (たいせつ) - important
-- 便利 (べんり) - convenient
 - 色々 (いろいろ) - various
-- 丈夫 (じょうぶ) - strong
-- 好き (すき) - like
+- 綺麗 (きれい) - beautiful; clean
 - 嫌い (きらい) - dislike
-- 大好き (だいすき) - liking very much; love
-- 大変 (たいへん) - difficult; hard; challenging; immense; great
-- 上手 (じょうず) - skillful; good (at)
-- 下手 (へた) - unskillful; poor (at)
 - 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
   also as adverb) quite
+- 静か (しずか) - quiet
+- 丈夫 (じょうぶ) - strong
+- 上手 (じょうず) - skillful; good (at)
+- 好き (すき) - like
+- 大切 (たいせつ) - important
+- 大変 (たいへん) - difficult; hard; challenging; immense; great
+- 大好き (だいすき) - liking very much; love
+- 賑やか (にぎやか) - lively
 - 暇 (ひま) - spare time; free time; leisure; free; not busy
+- 下手 (へた) - unskillful; poor (at)
+- 便利 (べんり) - convenient
+- 有名 (ゆうめい) - famous
 
 ### 連体詞
 
+- あんな - that kind of (over there)
 - こんな - this kind of
 - そんな - that kind of
-- あんな - that kind of (over there)
 - どんな - what kind of; any
 
 ### pronouns (place)
 
-- 此処 (ここ) - here
-- 其処 (そこ) - there
 - 彼処 (あそこ) - over there
-- 何処 (どこ) - where
-- 此れ (これ) - this
-- 其れ (それ) - that
 - 彼 (あれ) - that over there
-- どれ - which (of three or more)
+- 此処 (ここ) - here
+- 此れ (これ) - this
+- 其処 (そこ) - there
+- 其れ (それ) - that
+- 何処 (どこ) - where
 - どちら - which one (of two)
+- どれ - which (of three or more)
 
 ### pronouns (time)
 
@@ -331,11 +330,11 @@ ____
 
 ### pronouns (person)
 
+- 貴方 (あなた) - you
+- 自分 (じぶん) - myself; oneself
 - 誰 (だれ) - who
 - 何方 (どなた) - who (honorific)
 - 私 (わたし) - I; me (slight femininity)
-- 貴方 (あなた) - you
-- 自分 (じぶん) - myself; oneself
 
 ### nouns
 
@@ -701,21 +700,21 @@ ____
 
 ### する transitive verbs
 
+- 意味 (いみ) - meaning
 - 試験 (しけん) - exam
+- 洗濯 (せんたく) - laundry; washing
+- 掃除 (そうじ) - cleaning; sweeping
 - 料理 (りょうり) - cooking
 - 練習 (れんしゅう) - practice
-- 意味 (いみ) - meaning
-- 掃除 (そうじ) - cleaning; sweeping
-- 洗濯 (せんたく) - laundry; washing
 
 ### する intransitive verbs
 
-- 旅行 (りょこう) - travel
-- 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
-- 散歩 (さんぽ) - walk; stroll
 - 結婚 (けっこん) - marriage
 - 作文 (さくぶん) - writing; composition; formal writing with little real
   meaning
+- 散歩 (さんぽ) - walk; stroll
+- 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
+- 旅行 (りょこう) - travel
 
 ### する transitive and intransitive verbs
 
@@ -831,7 +830,7 @@ ____
 - 成る (なる) - to become
 - 上る (のぼる) - to ascend; to go up; to climb; to rise
 - 乗る (のる) - to get on
-- 走る (はしる) - to run
+- 走る (はしる) - to run; moving car
 - 働く (はたらく) - to work; to labour
 - 晴れる (はれる) - to be sunny
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
@@ -875,40 +874,40 @@ ____
 
 ### adverbs
 
-- 些とも (ちっとも) - not at all
-- 最近 (さいきん) - recently; lately
+- 一度 (いちど) - once; one time
 - この間 (このあいだ) - the other day; recently; during this period
 - 今度 (こんど) - next time; this time; recently
-- 昔 (むかし) - old times; old days
+- 最近 (さいきん) - recently; lately
+- 些とも (ちっとも) - not at all
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
 - 偶に (たまに) - occasionally; once in a while; now and then
 - 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
-- 一度 (いちど) - once; one time
+- 昔 (むかし) - old times; old days
 
 ### adjectives (い)
 
-- 正しい (ただしい) - correct
+- 美しい (うつくしい) - beautiful; pure
 - 硬い (かたい) - hard
 - 固い (かたい) - solid
-- 珍しい (めずらしい) - rare
 - 凄い (すごい) - amazing; wonderful; terrible; dreadful
-- 美しい (うつくしい) - beautiful; pure
-- 優しい (やさしい) - gentle; kind
+- 正しい (ただしい) - correct
 - 苦い (にがい) - bitter
 - 眠い (ねむい) - sleepy; drowsy (aka 睡い)
+- 珍しい (めずらしい) - rare
+- 優しい (やさしい) - gentle; kind
 
 ### adjectives (な)
 
-- 親切 (しんせつ) - kind
-- 残念 (ざんねん) - regrettable; disappointing; unfortunate
-- 変 (へん) - strange; odd; change
-- 無理 (むり) - unreasonable; impossible
-- 確か (たしか) - certain; sure; reliable
-- 普通 (ふつう) - normal; ordinary
 - 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
 - 急 (きゅう) - sudden; urgent
+- 親切 (しんせつ) - kind
+- 残念 (ざんねん) - regrettable; disappointing; unfortunate
+- 確か (たしか) - certain; sure; reliable
 - 丁寧 (ていねい) - polite
+- 普通 (ふつう) - normal; ordinary
+- 変 (へん) - strange; odd; change
+- 無理 (むり) - unreasonable; impossible
 
 ### pronouns (person)
 
@@ -1046,28 +1045,28 @@ ____
 
 ### する transitive verbs
 
-- チェック - check; inspection; marking with a check
-- 試験 (しけん) - exam
-- 復習 (ふくしゅう) - review (of learned material)
-- 予習 (よしゅう) - preparation for a lesson
-- 試合 (しあい) - match; game
-- 泥棒 (どろぼう) - thief; burglar; robber
-- ご馳走 (ごちそう) - treat (especially food and drink)
 - 受付 (うけつけ) - reception; information desk
-- プレゼント - present; gift
 - 思い出す (おもいだす) - to recall; to remember
+- ご馳走 (ごちそう) - treat (especially food and drink)
+- 試合 (しあい) - match; game
+- 試験 (しけん) - exam
+- チェック - check; inspection; marking with a check
+- 泥棒 (どろぼう) - thief; burglar; robber
+- 復習 (ふくしゅう) - review (of learned material)
+- プレゼント - present; gift
 - 約束 (やくそく) - promise; agreement; arrangement; contract
+- 予習 (よしゅう) - preparation for a lesson
 
 ### する intransitive verbs
 
-- 入学 (にゅうがく) - admission to school
-- 入院 (にゅういん) - hospitalization
+- アルバイト - part-time job (from German "Arbeit")
 - 卒業 (そつぎょう) - graduation
 - 退院 (たいいん) - discharge from hospital
+- 入学 (にゅうがく) - admission to school
+- 入院 (にゅういん) - hospitalization
 - 反対 (はんたい) - opposition; resistance
 - 返事 (へんじ) - reply; answer
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
-- アルバイト - part-time job (from German "Arbeit")
 
 ### verb pairs
 
@@ -1097,22 +1096,21 @@ ____
 
 ### verbs (transitive)
 
-- 思う (おもう) - to consider; to plan (on a general topic)
-- 考える (かんがえる) - to think (on a specific topic)
 - 受ける (うける) - to receive; to take (an exam / a lesson)
+- 送る (おくる) - to send; to escort; to say goodbye to; to dispatch
+- 思う (おもう) - to consider; to plan (on a general topic)
+- 飾る (かざる) - to decorate; to display
 - 片付ける (かたづける) - to tidy up; to put in order
+- 考える (かんがえる) - to think (on a specific topic)
 - 呉れる (くれる) - to give
-- 迎える (むかえる) - to welcome; to greet
-- 送る (おくる) - to send; to escort; to say goodbye to
-- 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
-- 送る (おくる) - to send; to dispatch
-- 知らせる (しらせる) - to notify; to advise
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
+- 知らせる (しらせる) - to notify; to advise
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
-- 飾る (かざる) - to decorate; to display
-- 払う (はらう) - to pay; to wipe away
 - 尋ねる (たずねる) - to ask; to inquire
+- 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
+- 払う (はらう) - to pay; to wipe away
+- 迎える (むかえる) - to welcome; to greet
 
 ### verbs (intransitive)
 
@@ -1143,9 +1141,9 @@ ____
 
 ### verbs (transitive and intransitive)
 
+- 開く (ひらく) - open
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
   congratulate; to welcome (a proposal, advice)
-- 開く (ひらく) - open
 
 ### expressions
 
@@ -1157,27 +1155,27 @@ ____
 
 ### conjunctions
 
-- 何故なら (なぜなら) - because
-- だって - after all; because; but
-- だけど - however; but; although
-- 其れとも (それとも) - or; or else
 - 偖 (さて) - well; now; then
+- 其れとも (それとも) - or; or else
+- だけど - however; but; although
+- だって - after all; because; but
 - 何処か (どこか) - somewhere
+- 何故なら (なぜなら) - because
 
 ### adverbs
 
-- つまり - that is to say; in other words
-- まあ - well; I mean
+- すで - already
+- 既に (すでに) - already; previously; before; undeniably
+- 全て (すべて) - entirely; wholly; completely; all
+- ずっと - continuously; the whole time; much (more); far (away); long (ago)
+- 是非 (ぜひ) - certainly
 - 全然 (ぜんぜん) - totally
 - そろそろ - soon
-- 勿論 (もちろん) - of course; certainly; naturally
-- 既に (すでに) - already; previously; before; undeniably
-- 是非 (ぜひ) - certainly
-- 矢張り (やはり) - as expected; after all (aka やっぱり)
-- ずっと - continuously; the whole time; much (more); far (away); long (ago)
+- つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
-- 全て (すべて) - entirely; wholly; completely; all
-- すで - already
+- まあ - well; I mean
+- 勿論 (もちろん) - of course; certainly; naturally
+- 矢張り (やはり) - as expected; after all (aka やっぱり)
 
 ### adjectives (い)
 
@@ -1189,16 +1187,16 @@ ____
 
 - 新鮮 (しんせん) - fresh
 - 邪魔 (じゃま) - disturbance; obstruction
+- 素敵 (すてき) - lovely; wonderful; nice
 - たっぷり - full of; a lot of; plenty of
 - 苦手 (にがて) - poor at; weak in; not good at
-- 素敵 (すてき) - lovely; wonderful; nice
 - 僅か (わずか) - a little; a few; small; slight
 
 ### pronouns (person)
 
 - お前 (おまえ) - you (musculine; vulgar)
-- 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
+- 彼ら (かれら) - they (mixed sex group)
 
 ### pronouns (location)
 
@@ -1340,32 +1338,31 @@ ____
 
 ### する transitive verbs
 
-- 心配 (しんぱい) - care; help
-- 我慢 (がまん) - patience
-- 心配 (しんぱい) - worry; concern; anxiety
-- 世話 (せわ) - care; looking after; help; support
-- 観光 (かんこう) - sightseeing
-- 建築 (けんちく) - architecture; construction
-- 販売 (はんばい) - selling
 - 案内 (あんない) - guidance; information
-- パス - passing
-- 承認 (しょうにん) - approval; acknowledgment; consent
-- 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
+- 観光 (かんこう) - sightseeing
+- 我慢 (がまん) - patience
+- 建築 (けんちく) - architecture; construction
+- 承認 (しょうにん) - approval; acknowledgment; consent
+- 心配 (しんぱい) - worry; concern; anxiety; care; help
+- 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
+- 世話 (せわ) - care; looking after; help; support
+- 販売 (はんばい) - selling
+- パス - passing
 
 ### する intransitive verbs
 
-- 留学 (りゅうがく) - studying abroad
-- サービス - service; assistance; help
-- 経営 (けいえい) - running (a business)
-- 結果 (けっか) - result
-- 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
-- 滞在 (たいざい) - stay
-- 協力 (きょうりょく) - cooperation
-- 怪我 (けが) - injury; mistake
 - 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
+- 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
+- 協力 (きょうりょく) - cooperation
+- 経営 (けいえい) - running (a business)
+- 怪我 (けが) - injury; mistake
+- 結果 (けっか) - result
+- サービス - service; assistance; help
 - 出発 (しゅっぱつ) - departure
+- 滞在 (たいざい) - stay
+- 留学 (りゅうがく) - studying abroad
 
 ### verb pairs
 
@@ -1384,13 +1381,13 @@ ____
 - 仕舞う (しまう) - to end up
 - 過ごす (すごす) - to spend (time)
 - 担当 (たんとう) - being in charge; being responsible
-- 願う (ねがう) - to wish; to hope; to request; to beg
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 履く (はく) - to wear (lower body clothing, footwear)
 - 申し込む (もうしこむ) - to apply for
 - 貰う (もらう) - to receive; to get (from somebody)
 - 辞める (やめる) - to resign; to retire; to quit; to leave
+- 願う (ねがう) - to wish; to hope; to request; to beg
 
 ### verbs (intransitive)
 
@@ -1490,9 +1487,9 @@ ____
 
 ### する transitive verbs
 
+- 開放 (かいほう) - open
 - クリーニング - cleaning; laundry service
 - 撮影 (さつえい) - photographing; filming
-- 開放 (かいほう) - open
 
 ### する intransitive verbs
 
@@ -1514,18 +1511,18 @@ ____
 
 ### verbs (transitive)
 
-- 蹴る (ける) - to kick
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
+- 蹴る (ける) - to kick
+- 探る (さぐる) - to feel around for; to grope for
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
-- 探る (さぐる) - to feel around for; to grope for
 
 ### verbs (intransitive)
 
-- 恵まれる (めぐまれる) - to be blessed with; to be rich in
-- 涼む (すずむ) - to cool oneself
-- 依る (よる) - to depend on; to be caused by; to be cased on
 - 渇く (かわく) - to be thirsty
+- 涼む (すずむ) - to cool oneself
+- 恵まれる (めぐまれる) - to be blessed with; to be rich in
+- 依る (よる) - to depend on; to be caused by; to be cased on
 
 ### verbs (transitive and intransitive)
 
@@ -1546,11 +1543,11 @@ ____
 
 ### Particles
 
+- くらい - approximately; about; around
 - 丈 (だけ) - only; just
 - のみ - only; nothing but
 - 了解 (りょうかい) - understanding; comprehension; consent; agreement; OK;
   roger
-- くらい - approximately; about; around
 
 ### conjunctions
 
@@ -1647,15 +1644,15 @@ ____
 
 ### する transitive verbs
 
+- デッサン - rough sketch (from French "dessin")
+- デザイン - design
 - 取引 (とりひき) - transaction; dealings; business
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
-- デザイン - design
-- デッサン - rough sketch (from French "dessin")
 
 ### する intransitive verbs
 
-- 日焼け (ひやけ) - sun damage/fading
 - 朝寝坊 (あさねぼう) - sleeping in
+- 日焼け (ひやけ) - sun damage/fading
 
 ### する transitive and intransitive verbs
 
@@ -1663,8 +1660,8 @@ ____
 
 ### verbs (transitive)
 
-- 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
+- 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
   lower status)
 
@@ -1674,9 +1671,9 @@ ____
 
 ### particles
 
-- なので - because; as; since; so
 - しか - nothing but; except; no more than
 - ながら - while; during; as
+- なので - because; as; since; so
 
 ### conjunctions
 
@@ -1686,22 +1683,22 @@ ____
 
 ### adverbs
 
-- 滅茶 (めっちゃ) - extremely; very
-- 未明 (みめい) - early morning
-- 先ずは (まずは) - first of all; probably; more or less; anyway
-- だらだら - leisurely
-- 其れ丈 (それだけ) - that alone
+- いつ頃 (いつごろ) - about when; about what time; how soon
 - 今でも (いまでも) - even now; still
+- 然う然う (そうそう) - oh yes
+- 其れ丈 (それだけ) - that alone
+- だらだら - leisurely
 - 如何か (どうか) - would you mind; please
 - どうやって - how; in what way
-- いつ頃 (いつごろ) - about when; about what time; how soon
-- 然う然う (そうそう) - oh yes
+- 先ずは (まずは) - first of all; probably; more or less; anyway
+- 未明 (みめい) - early morning
+- 滅茶 (めっちゃ) - extremely; very
 
 ### adjectives (い)
 
-- やばい - oh crap!; dangerous; risky; awful; terrible; amazing
 - 気持ちいい (きもちいい) - feeling good
 - したい - want to do
+- やばい - oh crap!; dangerous; risky; awful; terrible; amazing
 
 ### adjectives (な)
 
@@ -1709,9 +1706,9 @@ ____
 
 ### 連体詞
 
+- ああ言う (ああいう) - that sort of
 - こう言う (こういう) - this sort of
 - そう言う (そういう) - that sort of
-- ああ言う (ああいう) - that sort of
 - どう言う (どういう) - what sort of
 
 ### pronouns (time)
@@ -2184,25 +2181,25 @@ ____
 - 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
   referring to chicken
 - 買取 (かいとり) - buying used articles as a company
+- 解読 (かいどく) - deciphering
 - キャンセル - cancel
 - シュート - shoot
-- 解読 (かいどく) - deciphering
 
 ### する intransitive verbs
 
-- リベンジ - revenge; having a second go (at something)
-- 土下座 (どげざ) - to kneel down and bow
-- パック - pack
 - 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
   from someone; reply; revenge
-- 長居 (ながい) - long stay
-- 残業 (ざんぎょう) - overtime
+- シフト - shift or move (from one trend to another)
 - ショートカット - shortcut
+- 残業 (ざんぎょう) - overtime
+- 土下座 (どげざ) - to kneel down and bow
+- 長居 (ながい) - long stay
+- 猫吸い (ねこすい) - cat sniffing
+- パック - pack
+- メール - email
+- リベンジ - revenge; having a second go (at something)
 - ログイン - login
 - ログアウト - logout
-- メール - email
-- シフト - shift or move (from one trend to another)
-- 猫吸い (ねこすい) - cat sniffing
 
 ### する transitive and intransitive verbs
 
@@ -2211,27 +2208,27 @@ ____
 
 ### verb pairs
 
-- 目が覚める (めがさめる) - to wake up
-  * 目を覚ます (めをさます) - to wake up
 - 腹が立つ (はらがたつ) - to get angry
   * 腹を立てる (はらをたてる) - to get angry
+- 目が覚める (めがさめる) - to wake up
+  * 目を覚ます (めをさます) - to wake up
 
 ### verbs (transitive)
 
-- パクる - to cheat; steal (plagiarize)
-- 見守る (みまもる) - to watch over; to keep an eye on
-- 振り切る (ふりきる) - to shake off; to break away
-- ググる - to google
 - 貸し切る (かしかる) - to reserve; to book
 - ぎる - to steal
+- ググる - to google
+- パクる - to cheat; steal (plagiarize)
+- 振り切る (ふりきる) - to shake off; to break away
 - 見上げる (みあげる) - to look up at
+- 見守る (みまもる) - to watch over; to keep an eye on
 
 ### verbs (intransitive)
 
-- バズる - to go viral (buzz)
-- サボt - to slack off (sabotage)
 - 毛羽立つ (けばたつ) - fuzzing, fraying
+- サボt - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
+- バズる - to go viral (buzz)
 
 ### verbs (transitive and intransitive)
 
