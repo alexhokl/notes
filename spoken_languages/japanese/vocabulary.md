@@ -825,6 +825,7 @@ ____
 - 着く (つく) - to arrive at; to reach; to sit on
 - 飛ぶ (とぶ) - to fly
 - 止まる (とまる) - to stop; to come to a halt
+- 出かける (でかける) - to go out; to leave
 - 出来る (できる) - to be able to do; to be good at; to be ready
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 成る (なる) - to become
@@ -961,6 +962,7 @@ ____
 - ハンドバック - handbag
 - 星 (ほし) - star
 - 両方 (りょうほう) - both; both sides
+- 味 (あじ) - taste; flavour
 
 ### nouns (academic)
 
@@ -1138,6 +1140,7 @@ ____
 - 痩せる (やせる) - to lose weight
 - 汚れる (よごれる) - to get dirty
 - 笑う (わらう) - to laugh; to smile
+- 割れる (われる) - to break; to be smashed; to split; to be divided (opinion)
 
 ### verbs (transitive and intransitive)
 
@@ -1717,49 +1720,50 @@ ____
 
 ### nouns
 
-- 歯磨き粉 (はみがきこ) - toothpaste
-- エーティーエム - ATM
-- 洋書 (ようしょ) - book in foreign language
+- 県 (あがた) - territory (historical term); countryside
+- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
 - 腕時計 (うでどけい) - wristwatch
-- サングラス - sunglasses
-- チャック - zip (for bags)
-- 綻び (ほころび) - tear; open seam; seam that has come apart
-- 皆様 (みなさま) - everyone (honorific)
-- 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
+- エーティーエム - ATM
+- 演奏会 (えんそうかい) - concert
+- 推し活 (おしかつ) - activities to support one's favorite celebrity, idol, etc.
+- 男 (おとこ) - man (used as prefix)
+- 男の人 (おとこのひと) - man
+- お化け (おばけ) - ghost
 - お持て成し (おもてなし) - hospitality; reception; entertainment;
   treatment; service
-- 痴漢 (ちかん) - molester; pervert
-- 月極 (つきぎめ) - monthly contract (aka 月極め)
-- 防災 (ぼうさい) - disaster preparedness
-- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
+- 女 (おんな) - women (used as prefix)
+- 女の人 (おんなのひと) - woman
+- 掲示板 (けいじばん) - notice board
 - 携帯電話 (けいたいでんわ) - mobile phone
-- スマートフォン (スマホ) - smartphone
-- シェービング - shaving
-- ヘッドスパ - head spa
+- 厚生労働省 (こうせいろうどうしょう) - Ministry of Health, Labour and Welfare
 - 戸建て (こだて) - house
-- 不動産 (ふどうさん) - real estate
-- スチール - steel
-- 薔薇 (ばら) - rose
-- 演奏会 (えんそうかい) - concert
+- サングラス - sunglasses
+- シェービング - shaving
+- 下振れ (したぶれ) - downturn; downside
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
-- 下振れ (したぶれ) - downturn; downside
-- 女 (おんな) - women (used as prefix)
 - 女 (じょ) - woman (used as suffix)
-- 女の人 (おんなのひと) - woman
-- 男 (おとこ) - man (used as prefix)
-- 男 (なん) - man (used as suffix)
-- 男の人 (おとこのひと) - man
-- ねた - information; news; proof; evidence
-- お化け (おばけ) - ghost
+- スチール - steel
+- スマートフォン (スマホ) - smartphone
+- 洗濯物 (せんたくもの) - laundry
+- 痴漢 (ちかん) - molester; pervert
+- チャック - zip (for bags)
+- 月極 (つきぎめ) - monthly contract (aka 月極め)
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
-- 洗濯物 (せんたくもの) - laundry
-- 掲示板 (けいじばん) - notice board
-- 縫いぐるみ (ぬいぐるみ) - stuffed toy
-- 厚生労働省 (こうせいろうどうしょう) - Ministry of Health, Labour and Welfare
-- 県 (あがた) - territory (historical term); countryside
+- 男 (なん) - man (used as suffix)
+- 歯磨き粉 (はみがきこ) - toothpaste
+- 薔薇 (ばら) - rose
 - 幅員 (ふくいん) - width (of a road, bridge, etc.)
+- 不動産 (ふどうさん) - real estate
+- ヘッドスパ - head spa
+- 綻び (ほころび) - tear; open seam; seam that has come apart
+- 防災 (ぼうさい) - disaster preparedness
+- 縫いぐるみ (ぬいぐるみ) - stuffed toy
+- 皆様 (みなさま) - everyone (honorific)
+- 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
+- 洋書 (ようしょ) - book in foreign language
+- ねた - information; news; proof; evidence
 
 ### nouns (family)
 
@@ -2275,3 +2279,7 @@ ____
 - 授業に遅れる (じゅぎょうにおくれる) - to be late for class
 - 時間になる (じかんになる) - to be time for
 - コーヒーにする - choose to have coffee
+- スイッチを入れる (スイッチをいれる) - to switch on
+- お茶を入れる (おちゃをいれる) - to make tea
+- 鍵をかける (かぎをかける) - to lock (a door)
+- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
