@@ -1,8 +1,15 @@
 - [SQLite](#sqlite)
+  * [Schema](#schema)
   * [Json](#json)
 ____
 
 # SQLite
+
+## Schema
+
+```sql
+.schema your_table_name
+```
 
 ## Json
 
