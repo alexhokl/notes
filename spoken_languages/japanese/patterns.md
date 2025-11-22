@@ -1046,17 +1046,17 @@ ____
     * 田中さんは白いセーターを着ています。
   - 着る
     * シャツ
-    * ブラウス
-    * セーター
     * スーツ
-    * ワンピース
+    * セーター
+    * ブラウス
     * ドレス
+    * ワンピース
     * コート
+    * レインコート
+    * ブラジャー
     * 上着 (うわぎ)
     * 洋服 (ようふく)
     * 着物
-    * レインコート
-    * ブラジャー
   - 履く (はく)
     * ズボン
     * スカート
@@ -1079,7 +1079,7 @@ ____
     * 鞄
     * ハンドバッグ
 
-### current state regardless of state change previously
+### current state of a thing or matter regardless of state change previously
 
 - thing + が + intransitive verb in te-form + いる
   * 冷蔵庫の中にジュースが入っています。
@@ -1087,12 +1087,13 @@ ____
   * 電気がついていません。
 - usually は would not be used in place of が
 
-### current state after a state change by an agent
+### current state of a thing or matter after a state change by an agent
 
 - thing + が + transitive verb in te-form + ある
   * テーブルの上に花が飾ってあります。
   * うちは猫いるから、いつも窓が開けてある。
 - note that the agent could be unknown
+- usualy the sentence does not involve a person as the subject
 
 ### to show kindness by using intransitive verb for a kind act
 
