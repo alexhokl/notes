@@ -986,6 +986,7 @@ ____
 - サンドイッチ - sandwich
 - ケーキ - cake
 - ステーキ - steak
+- 湯 (ゆ) - hot water; hot bath
 
 ### nouns (fruits)
 
@@ -2222,6 +2223,7 @@ ____
 - 貸し切る (かしかる) - to reserve; to book
 - ぎる - to steal
 - ググる - to google
+- 取り置く (とりおく) - to set aside; to keep it in reserve
 - パクる - to cheat; steal (plagiarize)
 - 振り切る (ふりきる) - to shake off; to break away
 - 見上げる (みあげる) - to look up at
