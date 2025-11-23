@@ -2231,6 +2231,7 @@ ____
 
 ### verbs (intransitive)
 
+- いなくなる - to disappear
 - 毛羽立つ (けばたつ) - fuzzing, fraying
 - サボt - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
