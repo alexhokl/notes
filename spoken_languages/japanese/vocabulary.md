@@ -2043,6 +2043,7 @@ ____
 - 乾燥機 (かんそうき) - dryer
 - 洗面台 (せんめんだい) - washbasin
 - 電気スタンド (でんきスタンド) - desk lamp
+- 焜炉 (こんろ) - cooking stove
 
 ### nouns (sports)
 
