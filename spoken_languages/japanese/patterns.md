@@ -99,12 +99,13 @@
     + [but](#but)
   * [Chapter 12](#chapter-12)
     + [progressive state with transitive verb](#progressive-state-with-transitive-verb)
-    + [current state regardless of state change previously](#current-state-regardless-of-state-change-previously)
-    + [current state after a state change by an agent](#current-state-after-a-state-change-by-an-agent)
+    + [current state of a thing or matter regardless of state change previously](#current-state-of-a-thing-or-matter-regardless-of-state-change-previously)
+    + [current state of a thing or matter after a state change by an agent](#current-state-of-a-thing-or-matter-after-a-state-change-by-an-agent)
     + [to show kindness by using intransitive verb for a kind act](#to-show-kindness-by-using-intransitive-verb-for-a-kind-act)
     + [an action has not been done and cannot be controlled](#an-action-has-not-been-done-and-cannot-be-controlled)
     + [already and still](#already-and-still)
-    + [did you know](#did-you-know)
+    + [do you know (a fact)](#do-you-know-a-fact)
+    + [do you remember](#do-you-remember)
     + [isn't it?](#isn%27t-it%3F)
 ____
 
@@ -1119,7 +1120,7 @@ ____
     + いいえ、まだ食べていません。
     + いいえ、まだです。
 
-### did you know
+### do you know (a fact)
 
 - ... + を + 知っているか。
   * はい、知っている。
@@ -1131,6 +1132,14 @@ ____
     + あなたはこのニュースを知っていましたか。
       + はい、知っていました。
       + いいえ、知りませんでした。
+- this should not be used for an opinion or something will be happened in the
+  future; use 分かる instead
+
+### do you remember
+
+- ... + を + 覚えているか。
+  * はい、覚えている。
+  * いいえ、覚えていない。
 
 ### isn't it?
 
