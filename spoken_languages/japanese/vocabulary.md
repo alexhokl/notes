@@ -771,7 +771,7 @@ ____
 - 描く (えがく) - to draw; to paint
 - 置く (おく) - to place
 - 教える (おしえる) - to teach
-- 覚える (おぼえる) - to memorise; to learn
+- 覚える (おぼえる) - to memorise; to learn; to remember
 - 買う (かう) - to buy
 - 書く (かく) - to write; to draw
 - 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
@@ -1370,6 +1370,10 @@ ____
 
 ### verb pairs
 
+- 流れる (ながれる) - to flow; to disappear
+  or fire)
+  * 流す (ながす) - to drain; to pour; to wash away; to broadcast; to circulate;
+    to cancel (a plan or meeting); to exile
 - 広がる (ひろがる) - to spread
   * 広げる (ひろげる) - to spread
 
@@ -2028,6 +2032,8 @@ ____
 
 ### nouns (body parts)
 
+- 口ひげ (くちひげ) - mustache
+
 ### nouns (position)
 
 - すぐ側 (すぐそば) - right beside; close to; nearby
@@ -2285,5 +2291,6 @@ ____
 - コーヒーにする - choose to have coffee
 - スイッチを入れる (スイッチをいれる) - to switch on
 - お茶を入れる (おちゃをいれる) - to make tea
+- コーヒーを入れる - to make or brew coffee
 - 鍵をかける (かぎをかける) - to lock (a door)
 - 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
