@@ -665,7 +665,6 @@ ____
 - 雨 (あめ) - rain
 - 晴れ (はれ) - sunny
 - 曇り (くもり) - cloudy
-- 雨 (あめ) - rain
 - 雪 (ゆき) - snow
 
 ### nouns (sports)
@@ -829,12 +828,13 @@ ____
 - 出来る (できる) - to be able to do; to be good at; to be ready
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 成る (なる) - to become
-- 上る (のぼる) - to ascend; to go up; to climb; to rise
+- 上る (のぼる) - to ascend; to go up; to climb; to rise; aka 昇る
 - 乗る (のる) - to get on
 - 走る (はしる) - to run; moving car
 - 働く (はたらく) - to work; to labour
 - 晴れる (はれる) - to be sunny
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
+- 吹く (ふく) - to blow (wind)
 - 降る (ふる) - to fall (rain, snow)
 - 休む (やすむ) - to rest
 - 分かる (わかる) - to understand
@@ -963,6 +963,8 @@ ____
 - 星 (ほし) - star
 - 両方 (りょうほう) - both; both sides
 - 味 (あじ) - taste; flavour
+- 玩具 (おもちゃ) - toy
+- 雲 (くも) - cloud
 
 ### nouns (academic)
 
@@ -1270,6 +1272,9 @@ ____
 - 給料 (きゅうりょう) - salary; wages
 - マスター - owner
 - 餌 (えさ) - feed (for animals); pet food
+- 月 (つき) - moon
+- 太陽 (たいよう) - sun
+- 雷 (かみなり) - thunder; lightning
 
 ### nouns (animals)
 
@@ -1400,6 +1405,10 @@ ____
 ### verbs (intransitive)
 
 - 空く (あく) - to become empty
+- 現れる (あらわれる) - to appear; to be expressed (e.g. emotions); to become
+  apparent
+- 隠れる (かくれる) - to hide; to disappear; to be unknown
+- 沈む (しずむ) - to sink; to go down (e.g. sun); to descend; to feel depressed
 - 積もる (つもる) - to pile up; to accumulate
 - 届く (とどく) - to reach; to be delivered
 - 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
