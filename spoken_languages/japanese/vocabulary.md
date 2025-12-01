@@ -2247,6 +2247,7 @@ ____
 
 ### verbs (intransitive)
 
+- 頂ける (いただける) - to be able to receive/take/accept
 - いなくなる - to disappear
 - 毛羽立つ (けばたつ) - fuzzing, fraying
 - サボt - to slack off (sabotage)

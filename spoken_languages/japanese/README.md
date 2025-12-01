@@ -150,6 +150,7 @@ ____
 - クレジットカード大丈夫ですか。 (クレジットカードだいじょうぶですか) - is
   credit card okay?
 - カードでお願いします - I'll pay by card
+- お水をいただけますか。 (おみずをいただけますか) - may I have some water?
 
 ## Convience store
 
