@@ -788,6 +788,8 @@ ____
 - 作る (つくる) - to make
 - 勤める (つとめる) - to work for; to be employed at; to serve in
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
+- 取る (とる) - to take; to pick up; to pass; to hand; to give; to get; to adopt
+  (a method, proposal); to remove; to reserve; to record; to subscribe to
 - 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
 - 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
 - 飲む (のむ) - to drink
@@ -1075,29 +1077,33 @@ ____
 
 ### verb pairs
 
+- 集まる (あつまる) - to gather; to collect; to assemble
+  * 集める (あつめる) - to collect; to gather; to assemble
 - 動く (うごく) - to move; to operate; to work; to be touched; be transferred
   * 動かす (うごかす) - to move
-- 止む (やむ) - to cease; to stop; to be over
-  * 止める (とめる) - to stop; to cancel
-- 変わる (かわる) - to change
-  * 変える (かえる) - to change
-- 治る (なおる) - to get better; to get well; to recover (from an illness); to
-  be cured; to be restored; to heal
-  * 治す (なおす) - to cure; to heal
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
   * 落とす (おとす) - to drop; to lose; to leave behind
+- 乾く (かわく) - to get dry
+  * 乾かす (かわかす) - to dry
+- 変わる (かわる) - to change
+  * 変える (かえる) - to change
 - 壊れる (こわれる) - to break; to be broken; to be damaged
   * 壊す (こわす) - to break; to destory
 - 下がる (さがる) - to come down; to go down; to fall; to hang; to move back
   * 下げる (さげる) - to hang; to lower; to reduce; to move back
-- 続く (つづく) - to continue
-  * 続ける (つづける) - to continue
-- 集まる (あつまる) - to gather; to collect; to assemble
-  * 集める (あつめる) - to collect; to gather; to assemble
 - 済む (すむ) - to be finished; to be completed; to feel at ease
   * 済ませる (すませる) - to finish; to get it over with; to make an end of
-- 乾く (かわく) - to get dry
-  * 乾かす (かわかす) - to dry
+- 倒れる (たおれる) - to fall; to be destroyed; to be killed; to go bankrupt; to
+  be defeated
+  * 倒す (たおす) - to throw down; to recline (e.g. a seat); to kill; to defeat;
+    to overthrow; to leave unpaid; to do completely
+- 続く (つづく) - to continue
+  * 続ける (つづける) - to continue
+- 治る (なおる) - to get better; to get well; to recover (from an illness); to
+  be cured; to be restored; to heal
+  * 治す (なおす) - to cure; to heal
+- 止む (やむ) - to cease; to stop; to be over
+  * 止める (とめる) - to stop; to cancel
 
 ### verbs (transitive)
 
@@ -1379,6 +1385,13 @@ ____
   or fire)
   * 流す (ながす) - to drain; to pour; to wash away; to broadcast; to circulate;
     to cancel (a plan or meeting); to exile
+- 外れる (はずれる) - to be disconnected; to get out of place; to miss the mark;
+  to get it wrong (e.g. guess, expectation); to be removed; to be exclueded; to
+  go against
+  get out of (a schedule); to miss (a target)
+  * 外す (はずす) - to remove; to take off; to undo; to drop (e.g. from a team);
+    to remove (from a position); to leave (e.g. one's seat); to dodge (a
+    question or blow)
 - 広がる (ひろがる) - to spread
   * 広げる (ひろげる) - to spread
 
@@ -2237,6 +2250,7 @@ ____
 ### verbs (transitive)
 
 - 貸し切る (かしかる) - to reserve; to book
+- 気になる - to weigh on one's mind; to be interested (in)
 - ぎる - to steal
 - ググる - to google
 - 取り置く (とりおく) - to set aside; to keep it in reserve
