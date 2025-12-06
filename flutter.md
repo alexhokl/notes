@@ -45,6 +45,7 @@ ____
 - Image Asset Studio within Android Studio can be used to generate app icons
   from material icons
 - [Material icons](https://fonts.google.com/icons)
+- [IconKitchen](https://icon.kitchen/) - a web based tool to generate app icons
 
 ## Files
 
