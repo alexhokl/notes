@@ -1571,7 +1571,7 @@ ____
 
 ## N1
 
-### Particles
+### particles
 
 - くらい - approximately; about; around
 - 丈 (だけ) - only; just

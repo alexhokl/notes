@@ -866,7 +866,7 @@ ____
   * 書いて。
   * 書かないで。
 
-### decorating verbs
+### decorating a verb
 
 - conversion to adverb
   * い-adjective
@@ -943,12 +943,12 @@ ____
 ### explaining a thing
 
 - replace を with は and move the object to the beginning of the sentence
-  * A: 水野さんはいつも素敵ですね。いつもどこで買い物をしますか。
-    + B: このバッグは東京で書いました。この靴は姉から貰いました。
-  * A: おいしい天ぶらですね。水野さんは料理が上手ですね。
-    + B: ああ、この天ぷらは母が作りました。私は下手ですよ。
-  * A: 息子さんは中学何年生ですか。
-    + B: 中学？中学校は去年卒業しました。今高校一年生です。
+  * このバッグは東京で買いました。この靴は姉から貰いました。
+    + 東京でこのバックを買いました。姉からこの靴を貰いました。
+  * この天ぷらは母が作りました。
+    + 母がこの天ぷらを作りました。
+  * 中学校は去年卒業しました。
+    + 去年中学校を卒業しました。
 
 - には/にも
   * ここは動物園です。この動物園にはパンダが三頭います。
@@ -1094,6 +1094,8 @@ ____
 - thing + が + transitive verb in te-form + ある
   * テーブルの上に花が飾ってあります。
   * うちは猫いるから、いつも窓が開けてある。
+  * 靴下は全部この引き出しに入れてありますよ。
+  * 引き出しに全部の靴下が入れてありますよ。
 - note that the agent could be unknown
 - usualy the sentence does not involve a person as the subject
 

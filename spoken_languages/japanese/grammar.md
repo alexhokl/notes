@@ -181,6 +181,7 @@ ____
     + お姉さん
     + お兄さん
     + but not to 弟 or 妹
+  * it is more likely to be attached to wago
 - ご
   * generally attached to nouns that consisted of kango words and the nouns are
     generally abstract which are not related to physical objects
