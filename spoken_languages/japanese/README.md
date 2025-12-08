@@ -32,6 +32,7 @@ ____
 - [Grammar](./grammar.md)
 - [Numbers](./numbers.md)
 - [Vocabulary](./vocabulary.md)
+- [Conjugations](./conjugations.md)
 - [Keyboard](./keyboard.md)
 - [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)

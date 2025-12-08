@@ -2,9 +2,6 @@
 - [Verb transitivity](#verb-transitivity)
 - [Verb forms](#verb-forms)
 - [Conjugation](#conjugation)
-- [五段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E)
-  * [exception in conjugation](#exception-in-conjugation)
-- [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
 - [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [verbs ended in う](#verbs-ended-in-%E3%81%86)
 - [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
@@ -16,6 +13,7 @@
   * [consonant removal](#consonant-removal)
 - [Stem form](#stem-form)
 - [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
+- [Probably form でしょう](#probably-form-%E3%81%A7%E3%81%97%E3%82%87%E3%81%86)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -159,69 +157,6 @@ ____
     + stem form is plain form without る
   * 変格動詞 (へんかくどうし)
     + aka irregular verbs
-
-# 五段動詞
-
-| Form              | Affirmative  | Negative         |
-| ---               | ---          | ---              |
-| Non-past          | 聞く         | 聞かない         |
-| Non-past, polite  | 聞きます     | 聞きません       |
-| Non-past, formal  |              | 聞かず           |
-| Past              | 聞いた       | 聞かなかった     |
-| Past, polite      | 聞きました   | 聞きませんでした |
-| Te-form           | 聞いて       | 聞かなくて       |
-| Potential         | 聞ける       | 聞けない         |
-| Passive           | 聞かれる     | 聞かれない       |
-| Causative         | 聞かせる     | 聞かせない       |
-| Causative Passive | 聞かせられる | 聞かせられない   |
-| Imperative        | 聞け         | 聞くな           |
-
-- if last kana in stem form is う, あ is not used in the conjugation but わ
-  instead
-  * examples
-    + 買う => 買わない
-- exception of ある
-  * non-past negative
-    + ない
-- te-form conjugation
-  * ends with う, つ, る
-    + change to って
-  * ends with ぬ, ぶ, む
-    + change to んで
-  * ends with く
-    + change to いて
-    + exception
-      + 行く -> 行って
-  * ends with ぐ
-    + change to いで
-  * ends with す
-    + change to して
-
-## exception in conjugation
-
-| Form             | Affirmative    | Negative         |
-| ---              | ---            | ---              |
-| Non-past         | ある           | ない             |
-| Non-past, polite | あります       | ありません       |
-| Past             | あった         | なかった         |
-| Past, polite     | ありますました | ありませんでした |
-| Te-form          | あって         | なくて           |
-
-# 一段動詞
-
-| Form              | Affirmative    | Negative         |
-| ---               | ---            | ---              |
-| Non-past          | 食べる         | 食べない         |
-| Non-past, polite  | 食べます       | 食べません       |
-| Non-past, formal  |                | 食べず           |
-| Past              | 食べた         | 食べなかった     |
-| Past, polite      | 食べました     | 食べませんでした |
-| Te-form           | 食べて         | 食べなくて       |
-| Potential         | 食べられる     | 食べられない     |
-| Passive           | 食べられる     | 食べられない     |
-| Causative         | 食べさせる     | 食べさせない     |
-| Causative Passive | 食べさせられる | 食べさせられない |
-| Imperative        | 食べろ         | 食べるな         |
 
 # 五段動詞 and 一段動詞
 

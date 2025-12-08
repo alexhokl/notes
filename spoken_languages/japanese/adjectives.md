@@ -1,11 +1,14 @@
+- [Links](#links)
 - [Adjectives](#adjectives)
   * [い-adjectives](#%E3%81%84-adjectives)
-    + [Conjugation](#conjugation)
     + [そう](#%E3%81%9D%E3%81%86)
   * [な-adjectives](#%E3%81%AA-adjectives)
-    + [Conjugation](#conjugation-1)
     + [そう](#%E3%81%9D%E3%81%86-1)
-___
+____
+
+# Links
+
+- [Conjugations](./conjugations.md)
 
 # Adjectives
 
@@ -40,18 +43,6 @@ ___
   * examples
     + 彼らは`楽しく`暮らしていました。 - They lived happily.
     + 新しく
-
-### Conjugation
-
-|                 | Affirmative    | Negative               |
-| ---             | ---            | ---                    |
-| non-past        | 新しい         | 新しくない             |
-| non-past polite | 新しいです     | 新しくありません　     |
-| past            | 新しかった     | 新しくなかった         |
-| past polite     | 新しかったです | 新しくありませんでした |
-| te-form         | 新しくて       | 新しくなくて           |
-| probably        | 新しいだろう   | 新しくないだろう       |
-| probably polite | 新しいでしょう | 新しくないでしょう     |
 
 ### そう
 
@@ -98,18 +89,6 @@ ___
     + 私は静かにドアを閉めた。
     + 桜が綺麗に咲いていた。 - The cherry blossoms were blooming beautifully.
     + 部屋が綺麗に片付いていた。 - The room was beautifully tidy.
-
-### Conjugation
-
-|                 | Affirmative  | Negative                                               |
-| ---             | ---          | ---                                                    |
-| non-past        | 便利だ       | 便利ではない (便利じゃない for spoken)                 |
-| non-past polite | 便利です     | 便利ではありません                                     |
-| past            | 便利だった   | 便利ではなかった (便利じゃなかった for spoken)         |
-| past polite     | 便利でした   | 便利ではありませんでした                               |
-| te-form         | 便利で       | 便利ではなくて (便利じゃなくて for spoken)             |
-| probably        | 便利だろう   | 便利ではないだろう (便利じゃないだろう for spoken)     |
-| probably polite | 便利でしょう | 便利ではないでしょう (便利じゃないでしょう for spoken) |
 
 ### そう
 
