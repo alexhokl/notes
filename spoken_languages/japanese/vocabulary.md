@@ -732,8 +732,11 @@ ____
 - 起きる (おきる) - to wake up
   * 起こす (おこす) - to wake (someone) up
 - 降りる (おりる) - to get off; to descend; to go down; aka 下りる
-  * 降ろす (おろす) - to take down; to lower; to drop off (a passenger); to unload
-    (goods), to withdraw (money); aka 下ろす
+  * 降ろす (おろす) - to take down; to lower; to drop off (a passenger); to
+    unload (goods), to withdraw (money); aka 下ろす
+- 掛かる (かかる) - to take (time, money); to hang; to be fastened
+  * 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
+    call); to spend (time, money)
 - 消える (きえる) - to disappear; to turn off
   * 消す (けす) - to erase; to turn off; to extinguish
 - 聞こえる (きこえる) - to be heard
@@ -746,6 +749,8 @@ ____
 - 出る (でる) - to leave; to appear; to attend
   * 出す (だす) - to take out; to put out; to submit; to publish; to send (a
     letter)
+- 止まる (とまる) - to stop; to come to a halt
+  * 止める (とめる) - to stop; to cancel
 - 並ぶ (ならぶ) - to line up; to stand in a line
   * 並べる (ならべる) - to line up; to set up; to arrange in a line
 - 寝る (ねる) - to sleep
@@ -773,8 +778,6 @@ ____
 - 覚える (おぼえる) - to memorise; to learn; to remember
 - 買う (かう) - to buy
 - 書く (かく) - to write; to draw
-- 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
-  call); to spend (time, money)
 - 借りる (かりる) - to borrow
 - 貸す (かす) - to lend; to rent out
 - 着る (きる) - to wear (clothes above the waist)
@@ -812,7 +815,6 @@ ____
 - 居る (いる) - to be (used for living things)
 - 要る (いる) - to be needed; to want
 - 泳ぐ (およぐ) - to swim
-- 掛かる (かかる) - to take (time, money); to hang; to be fastened
 - 曇る (くもる) - to get cloudy
 - 答える (こたえる) - to answer; to reply
 - 困る (こまる) - to be troubled; to have difficulty
@@ -825,7 +827,6 @@ ____
 - 疲れる (つかれる) - to get tired; to become exhausted
 - 着く (つく) - to arrive at; to reach; to sit on
 - 飛ぶ (とぶ) - to fly
-- 止まる (とまる) - to stop; to come to a halt
 - 出かける (でかける) - to go out; to leave
 - 出来る (できる) - to be able to do; to be good at; to be ready
 - 鳴く (なく) - to make sound (of an animal); to cry
@@ -1102,8 +1103,6 @@ ____
 - 治る (なおる) - to get better; to get well; to recover (from an illness); to
   be cured; to be restored; to heal
   * 治す (なおす) - to cure; to heal
-- 止む (やむ) - to cease; to stop; to be over
-  * 止める (とめる) - to stop; to cancel
 
 ### verbs (transitive)
 
@@ -1131,6 +1130,7 @@ ____
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
 - 過ぎる (すぎる) - to pass through; to exceed
+- 滑る (すべる) - to slip; to slide; to ski
 - 済む (すむ) - to be completed; to finish
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
   road; to take (a route); to go via
@@ -1147,6 +1147,7 @@ ____
 - 参る (まいる) - to go; to come; to call
 - 戻る (もどる) - to return
 - 痩せる (やせる) - to lose weight
+- 止む (やむ) - to cease; to stop; to be over
 - 汚れる (よごれる) - to get dirty
 - 笑う (わらう) - to laugh; to smile
 - 割れる (われる) - to break; to be smashed; to split; to be divided (opinion)
@@ -1479,6 +1480,7 @@ ____
 - 蝋燭 (ろうそく) - candle
 - 蓋 (ふた) - lid; cap; cover
 - 有料 (ゆうりょう) - fee-charging; not free
+- 水素 (すいそ) - hydrogen
 
 ### nouns (food)
 
@@ -1544,6 +1546,7 @@ ____
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 蹴る (ける) - to kick
 - 探る (さぐる) - to feel around for; to grope for
+- 取り入れる (とりいれる) - to take in; to adopt (an idea); to harvest
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
 
@@ -1702,6 +1705,7 @@ ____
 ### particles
 
 - しか - nothing but; except; no more than
+- ても - even if; even though
 - ながら - while; during; as
 - なので - because; as; since; so
 
@@ -1791,6 +1795,7 @@ ____
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
 - 洋書 (ようしょ) - book in foreign language
 - ねた - information; news; proof; evidence
+- 気に入り (きにいり) - favourite
 
 ### nouns (family)
 
@@ -2110,6 +2115,7 @@ ____
 - サドル - saddle
 - ツール - tour
 - ママチャリ - ladies' bicycle (especially one with a front basket)
+- リカバリー - recovery
 
 ### nouns (countries)
 
@@ -2318,3 +2324,4 @@ ____
 - コーヒーを入れる - to make or brew coffee
 - 鍵をかける (かぎをかける) - to lock (a door)
 - 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
+- お陰で (おかげで) - thanks to; owing to; because of
