@@ -766,6 +766,8 @@ ____
   * 曲げる (まげる) - to bend
 - 見える (みえる) - to be seen
   * 見る (みる) - to watch; to see
+- 渡る (わたる) - to cross over; to go across; to extend
+  * 渡す (わたす) - to ferry across; to hand out; to give
 
 ### verbs (transitive)
 
@@ -804,7 +806,6 @@ ____
 - 持つ (もつ) - to hold; to carry; to possess
 - 読む (よむ) - to read
 - 忘れる (わすれる) - to forget
-- 渡す (わたす) - to ferry across; to hand over; to pass; to transfer
 
 ### verbs (intransitive)
 
@@ -841,7 +842,6 @@ ____
 - 降る (ふる) - to fall (rain, snow)
 - 休む (やすむ) - to rest
 - 分かる (わかる) - to understand
-- 渡る (わたる) - to cross over; to go across; to extend
 
 ### verbs (transitive and intransitive)
 
@@ -1403,6 +1403,7 @@ ____
   care); to place (in someone's custody); to entrust (someone) with; to deposit
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
 - 頂く (いただく) - to receive; to take (humble)
+- 受け取る (うけとる) - to receive
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
 - 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 - 覚ます (さます) - to waken; to arouse from sleep
@@ -2256,6 +2257,7 @@ ____
 
 ### verbs (transitive)
 
+- 押し付ける (おしつける) - to force against
 - 貸し切る (かしかる) - to reserve; to book
 - 気になる - to weigh on one's mind; to be interested (in)
 - ぎる - to steal
