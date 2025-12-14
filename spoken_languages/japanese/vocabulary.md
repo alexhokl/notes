@@ -968,6 +968,7 @@ ____
 - 味 (あじ) - taste; flavour
 - 玩具 (おもちゃ) - toy
 - 雲 (くも) - cloud
+- 積もり (つもり) - intention; plan; belief; estimate
 
 ### nouns (academic)
 

@@ -33,6 +33,7 @@ ____
   customers)
 - ちゃう - contraction of てしまう (to do something completely; to end up with)
 - なさい - do (to someone equal or lower standing; used after ます-form)
+- 貰える (もらえる) - to be able to receive; could you (give me)
 
 # Verb transitivity
 
