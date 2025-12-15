@@ -53,8 +53,9 @@
   * [Chapter 7](#chapter-7)
     + [move to do something](#move-to-do-something)
     + [は and が to stress differnent part of a sentence](#%E3%81%AF-and-%E3%81%8C-to-stress-differnent-part-of-a-sentence)
-    + [gifting](#gifting)
+    + [give to (from giver's perspective)](#give-to-from-giver%27s-perspective)
     + [receiving](#receiving)
+    + [give to (from receiver's perspective)](#give-to-from-receiver%27s-perspective)
     + [When](#when)
     + [で to connect two sentences](#%E3%81%A7-to-connect-two-sentences)
   * [Chapter 8](#chapter-8)
@@ -62,7 +63,6 @@
     + [linking two unrelated actions which happen one after another](#linking-two-unrelated-actions-which-happen-one-after-another)
     + [an action before another action](#an-action-before-another-action)
     + [people, time and action](#people%2C-time-and-action)
-    + [gifting (giving to in-group; speaker or listener or speaker-related)](#gifting-giving-to-in-group%3B-speaker-or-listener-or-speaker-related)
     + [tools or methods for an action](#tools-or-methods-for-an-action)
     + [transportation](#transportation)
     + [the position of time and people in a sentence can be casual](#the-position-of-time-and-people-in-a-sentence-can-be-casual)
@@ -82,7 +82,7 @@
     + [how long](#how-long)
   * [Chapter 10](#chapter-10)
     + [please](#please)
-    + [decorating verbs](#decorating-verbs)
+    + [decorating a verb](#decorating-a-verb)
     + [subordinate clauses (従属節)](#subordinate-clauses-%E5%BE%93%E5%B1%9E%E7%AF%80)
     + [I think](#i-think)
     + [someone thinks](#someone-thinks)
@@ -640,16 +640,38 @@ ____
     + もうすぐ赤ちゃんが生まれます。私はベビーベッドを買いました。
     + 弟が大学を卒業しました。私はとても嬉しいです。
 
-### gifting
+### give to (from giver's perspective)
 
 - A + は + B + に + thing + を + 上げる。 (giving to out-group; not-speaker nor
   listener nor speaker-related)
   * 小林さんはアンナさんに花を上げました。
+- it is generaly assumed that receiver is happy about that is being given
+  * otherwise
+    + 渡す (neutral)
+    + 押し付ける (negative)
+- 差し上げる (humble)
 
 ### receiving
 
 - A + は + B + から/に + thing + を + 貰う。
   * アンナさんは小林さんから花を貰いました。
+- から should be used when the giver is a non-human (an organisation for
+  instance)
+- it is generaly assumed that receiver is happy about that is being given
+  * otherwise
+    + 受け取る (neutral)
+- いただく (humble)
+
+### give to (from receiver's perspective)
+
+- A + は + B + に + thing + を + くれる。
+  * 小林さんはアナさんに花を上げました。
+  * 小林さんは私に花をくれました。(上げる cannot be used)
+  * 木村さんは私の妹にケーキをくれました。(上げる cannot be used)
+  * 木村さんはあなたに何をくれましたか。(上げる cannot be used)
+- it can only be used when receiver is speaker's in-group 内 (うち)
+- くださる (honorific)
+  * note that the polite form is くださいます
 
 ### When
 
@@ -723,14 +745,6 @@ ____
   * 私はご飯を食べてから、新宿へ行きます。
 - timing + は + people + ... + action
   * 今日は授業が終わってから、私は新宿へ行きます。
-
-### gifting (giving to in-group; speaker or listener or speaker-related)
-
-- A + は + B + に + thing + を + くれる。
-  * 小林さんはアナさんに花を上げました。
-  * 小林さんは私に花をくれました。(上げる cannot be used)
-  * 木村さんは私の妹にケーキをくれました。(上げる cannot be used)
-  * 木村さんはあなたに何をくれましたか。(上げる cannot be used)
 
 ### tools or methods for an action
 
