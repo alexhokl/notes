@@ -670,7 +670,7 @@ ____
   * 木村さんは私の妹にケーキをくれました。(上げる cannot be used)
   * 木村さんはあなたに何をくれましたか。(上げる cannot be used)
 - it can only be used when receiver is speaker's in-group 内 (うち)
-- くださる (honorific)
+- くださる (keigo)
   * note that the polite form is くださいます
 
 ### When

@@ -67,7 +67,8 @@ ____
   * どの - which
 - 何 (なに) - what
 - どの人 (どのひと) - which person
-- 誰 (だれ) - who 何方 (どなた) - who (honorific)
+- 誰 (だれ) - who
+- 何方 (どなた) - who (keigo)
 - 私 (わたし) - I / me (slight femininity)
 - 私 (わたくし) - I (formal)
 - 僕 (ぼく) - I (polite masculine / boyish)
@@ -106,7 +107,7 @@ ____
 
 ### First person pronouns and its plural form
 
-|               | honorific | causal  | neutral   | polite (humble) |
+|               | keigo     | causal  | neutral   | polite (humble) |
 | ---           | ---       | ---     | ---       | ---             |
 |               | 方 (がた) | 等 (ら) | 達 (たち) | 供 (ども)       |
 | 私 (わたし)   |           | 私等    | 私達      | 私供            |

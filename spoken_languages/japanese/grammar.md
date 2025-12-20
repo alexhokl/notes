@@ -7,7 +7,7 @@
 - [Auxiliary verbs](#auxiliary-verbs)
 - [て form](#%E3%81%A6-form)
 - [Noun and verb](#noun-and-verb)
-- [Honorific prefixes](#honorific-prefixes)
+- [keigo prefixes](#keigo-prefixes)
   * [御](#%E5%BE%A1)
 - [Plural suffixes and prefixes](#plural-suffixes-and-prefixes)
   * [Suffixes](#suffixes)
@@ -137,7 +137,7 @@ ____
     + 聞く => 聞きます => 聞き
     + 焼く => 焼きます => 焼き
 
-# Honorific prefixes
+# keigo prefixes
 
 ## 御
 

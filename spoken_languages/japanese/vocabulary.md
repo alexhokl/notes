@@ -333,7 +333,7 @@ ____
 - 貴方 (あなた) - you
 - 自分 (じぶん) - myself; oneself
 - 誰 (だれ) - who
-- 何方 (どなた) - who (honorific)
+- 何方 (どなた) - who (keigo)
 - 私 (わたし) - I; me (slight femininity)
 
 ### nouns
@@ -346,7 +346,7 @@ ____
 - 女の子 (おんなのこ) - girl
 - 人 (ひと) - person
 - 皆 (みな) - everyone; everything
-- 皆さん (みなさん) - everyone (honorific)
+- 皆さん (みなさん) - everyone (keigo)
 - 主人 (しゅじん) - husband; head of household; landlord; employer;
   restaurant owner
 - 名前 (なまえ) - first name
@@ -1793,8 +1793,8 @@ ____
 - 綻び (ほころび) - tear; open seam; seam that has come apart
 - 防災 (ぼうさい) - disaster preparedness
 - 縫いぐるみ (ぬいぐるみ) - stuffed toy
-- 皆様 (みなさま) - everyone (honorific)
-- 皆様方 (みなさまがた) - everyone; ladies and gentlement (honorific language)
+- 皆様 (みなさま) - everyone (keigo)
+- 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
 - ねた - information; news; proof; evidence
 - 気に入り (きにいり) - favourite

@@ -28,7 +28,7 @@ ____
 - べき - should; must
 - はず - should; must
 - れる - passive voice; potential form
-- せる - causative voice; granting of permission; honorific for other's actions
+- せる - causative voice; granting of permission; keigo for other's actions
 - でございます - polite form of です (usually used in shops to address to
   customers)
 - ちゃう - contraction of てしまう (to do something completely; to end up with)
