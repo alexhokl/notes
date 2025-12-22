@@ -1059,6 +1059,7 @@ ____
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 試合 (しあい) - match; game
 - 試験 (しけん) - exam
+- 楽しむ (たのしむ) - to enjoy; to have fun
 - チェック - check; inspection; marking with a check
 - 泥棒 (どろぼう) - thief; burglar; robber
 - 復習 (ふくしゅう) - review (of learned material)
@@ -1258,6 +1259,7 @@ ____
 - 調子 (ちょうし) - condition; state of health; tune
 - 順番 (じゅんばん) - order; turn
 - 自身 (じしん) - oneself; yourself; himself; herself
+- 自慢 (じまん) - pride
 - 旧 (きゅう) - old; former; ex-
 - 状況 (じょうきょう) - state of affairs; situation; conditions
 - 柄 (がら) - pattern
