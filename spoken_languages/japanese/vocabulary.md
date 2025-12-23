@@ -888,6 +888,7 @@ ____
 - 偶に (たまに) - occasionally; once in a while; now and then
 - 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
 - 昔 (むかし) - old times; old days
+- 若し (もし) - if
 
 ### adjectives (い)
 
@@ -969,6 +970,7 @@ ____
 - 玩具 (おもちゃ) - toy
 - 雲 (くも) - cloud
 - 積もり (つもり) - intention; plan; belief; estimate
+- 喧嘩 (けんか) - quarrel; fight; brawl; argument
 
 ### nouns (academic)
 
@@ -1122,6 +1124,7 @@ ____
 - 尋ねる (たずねる) - to ask; to inquire
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 払う (はらう) - to pay; to wipe away
+- 間違える (まちがえる) - to make a mistake
 - 迎える (むかえる) - to welcome; to greet
 
 ### verbs (intransitive)
@@ -1186,6 +1189,7 @@ ____
 - 是非 (ぜひ) - certainly
 - 全然 (ぜんぜん) - totally
 - そろそろ - soon
+- ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
 - まあ - well; I mean
@@ -1197,6 +1201,7 @@ ____
 - 嬉しい (うれしい) - glad; pleased
 - 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
 - 素晴らしい (すばらしい) - wonderful
+- 違いない (ちがいない) - without a doubt; for sure; certainly
 
 ### adjectives (な)
 
@@ -1285,6 +1290,8 @@ ____
 - 月 (つき) - moon
 - 太陽 (たいよう) - sun
 - 雷 (かみなり) - thunder; lightning
+- 書類 (しょるい) - documents; papers
+- 間違い (まちがい) - mistake; error
 
 ### nouns (animals)
 
@@ -1439,6 +1446,7 @@ ____
 ### expressions
 
 - いただきます - thank you (for the mean just served, not finished)
+- かも知れない (かもしれない) - may; might
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
 - 実は (じつは) - as a matter of fact; to be honest; by the way
 - いらっしゃい - welcome
@@ -1452,6 +1460,7 @@ ____
 
 ### adjectives (い)
 
+- 面倒くさい (めんどうくさい) - bothersome; annoying
 - 勿体ない (もったいない) - wasteful; too good; more than one deserves; a waste
   (usually people leaving a place and do not want to keep the item)
 
@@ -1485,6 +1494,7 @@ ____
 - 蓋 (ふた) - lid; cap; cover
 - 有料 (ゆうりょう) - fee-charging; not free
 - 水素 (すいそ) - hydrogen
+- 看板 (かんばん) - sign; billboard
 
 ### nouns (food)
 
@@ -1581,7 +1591,7 @@ ____
 ### particles
 
 - くらい - approximately; about; around
-- 丈 (だけ) - only; just
+- 丈 (だけ) - only; just; as much as
 - のみ - only; nothing but
 - 了解 (りょうかい) - understanding; comprehension; consent; agreement; OK;
   roger
@@ -2228,6 +2238,7 @@ ____
 - 解読 (かいどく) - deciphering
 - キャンセル - cancel
 - シュート - shoot
+- 満喫 (まんきつ) - to fully enjoy
 
 ### する intransitive verbs
 
@@ -2330,3 +2341,5 @@ ____
 - 鍵をかける (かぎをかける) - to lock (a door)
 - 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
 - お陰で (おかげで) - thanks to; owing to; because of
+- 好きなだけ - as much as one wants
+- ありがたい事に (ありがたいことに) - thankfully
