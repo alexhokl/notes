@@ -4,7 +4,6 @@
 - [Conjugation](#conjugation)
 - [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [verbs ended in う](#verbs-ended-in-%E3%81%86)
-- [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
 - [する verb](#%E3%81%99%E3%82%8B-verb)
 - [Lost of the w sound](#lost-of-the-w-sound)
 - [Sound convenience in conjugations](#sound-convenience-in-conjugations)
@@ -14,6 +13,12 @@
 - [Stem form](#stem-form)
 - [Command form (imperative) ろ](#command-form-imperative-%E3%82%8D)
 - [Probably form でしょう](#probably-form-%E3%81%A7%E3%81%97%E3%82%87%E3%81%86)
+- [Passive form られる](#passive-form-%E3%82%89%E3%82%8C%E3%82%8B)
+- [Potential form られる](#potential-form-%E3%82%89%E3%82%8C%E3%82%8B)
+- [Conditional form ば](#conditional-form-%E3%81%B0)
+- [Command form (imperative) 〜なさい](#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
+- [Causative form させる](#causative-form-%E3%81%95%E3%81%9B%E3%82%8B)
+- [While 〜ながら](#while-%E3%80%9C%E3%81%AA%E3%81%8C%E3%82%89)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -129,10 +134,7 @@ ____
 - past polite
 - te-form
 - potential
-  * to indicate that something is possible or can be done
-  * 窓窓から山に見られます。から山に見られます。
 - passive
-  * 私の靴が犬にかまれました。
 - causative
   * to indicate that someone makes or lets someone else do something
   * 先生は学生に宿題をさせました。
@@ -187,38 +189,6 @@ ____
     * 起きる (おきる) - to wake up
     * 開ける (あける) - to open
     * 食べる (たべる) - to eat
-
-# 変格動詞
-
-| Form              | Affirmative             | Negative                        |
-| ---               | ---                     | ---                             |
-| Non-past          | 為る (する)             | 為ない (しない)                 |
-| Non-past, polite  | 為ます (します)         | 為ません (しません)             |
-| Non-past, formal  |                         | せず                            |
-| Past              | 為た (した)             | 為なかった (しなかった)         |
-| Past, polite      | 為ました (しました)     | 為ませんでした (しませんでした) |
-| Te-form           | 為て (して)             | 為なくて (しなくて)             |
-| Potential         | できる                  | できない                        |
-| Passive           | 為れる (される)         | 為れない (されない)             |
-| Causative         | 為せる (させる)         | 為せない (させない)             |
-| Causative Passive | 為せられる (させられる) | 為せられない (させられない)     |
-| Imperative        | 為ろ (しろ)             | 為るな (するな)                 |
-
-| Form              | Affirmative                 | Negative                        |
-| ---               | ---                         | ---                             |
-| Non-past          | 来る (くる)                 | 来ない (こない)                 |
-| Non-past, polite  | 来ます (きます)             | 来ません (きません)             |
-| Non-past, formal  |                             | 来ず (こず)                     |
-| Past              | 来た (きた)                 | 来なかった (こなかった)         |
-| Past, polite      | 来ました (きました)         | 来ませんでした (きませんでした) |
-| Te-form           | 来て (きて)                 | 来なくて (こなくて)             |
-| Potential         | 来られる (こられる)         | 来られない (こられない)         |
-| Passive           | 来られる (こられる)         | 来られない (こられない)         |
-| Causative         | 来させる (こさせる)         | 来させない (こさせない)         |
-| Causative Passive | 来させられる (こさせられる) | 来させられない (こさせられない) |
-| Imperative        | 来い (こい)                 | 来るな (くるな)                 |
-
-Note the change in sounds between く, き and こ.
 
 # する verb
 
@@ -381,3 +351,159 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - plain form + でしょう
 
+# Passive form られる
+
+- pattern
+  * experiencer + は + doer + に + verb (passive form)
+- basic examples
+  * （私は）蜂に刺された。
+- direct passive
+  * as in action was done directly to the experiencer
+  * ピカソにキスされた。
+- indirect passive
+  * as in someone did something and this somehow has an effect on the experiencer
+  * (あのおじさんに)タバコを吸われた。
+- note that the doer is usually a person rather than a thing
+  * the exception is weather related verbs
+    + 突然雨に降られた。
+- if both doer and experiencer are people and the action is done directly to the
+  experiencer, から can be used in place of に
+- if the doer is not a person, only に can be used
+  * animals are not considered a person
+- if it is indirect passive, に should be used
+- if it about something that is made from something, から should be used
+  * このお酒は芋から作られている。
+- for formal settings (especially in writing), によって can be used in place of
+  に
+  * この落書きはピカソによって描かれた。
+
+# Potential form られる
+
+- ability or possibility to do the action described by the verb
+  * similar to "can" in English
+- for 一段動詞, there is a new trend that, instead of 食べられる, 食べれる is
+  used instead
+  * ら抜き言葉
+- for skill and ability
+  * 日本語が読める。
+- for possibilities
+  * そのカフェでは村上春樹の本が読める。
+  * 日本では公園でお酒が飲める。
+- for "-bility" attributes
+  * この消しゴムは食べられる。
+  * note that は is used instead of が or を in these scenarios
+- when something can happen without volition (someone's will)
+  * ⭕️ロボットも間違えることがある。
+    + There are times robots make mistakes.
+  * it would be weird when simple potential form is used here
+    + ❌ロボットも間違えられる。
+      + Robots have the ability to make mistakes if they try to do so.
+  * ⭕️かなえはめんどくさい時がある。
+    + There are times when Kanae is annoying.
+    + it would be weird when simple potential form is used here
+      - ❌かなえはめんどくされられる。
+        + Kanae has the ability to be annoying if she tries to do so.
+- asking for permission
+  * ❌トイレに行ける？
+    + Are you able to go to the bathroom?
+  * ⭕️トイレに行ってもいい？
+    + Is it okay if I go to the bathroom?
+- making requests
+  * ❌五時に来れる？
+    + note that this asks for a fact but it does not have the nuance of asking
+      for a favor
+    + ⭕️五時に来てくれる？
+- intransitive verbs with potential nuance
+  * such that the potential form is seldom used
+  * 見える
+  * 聞こえる
+  * the usage of potential form has a nuance of "do you have a chance"
+    + この書類明日までに見られる？
+      + Will you be able to take a look at this document by tomorrow?
+
+# Conditional form ば
+
+- when or if
+- basic example
+  * 時間があれば、クッキーを作るよ。
+- for general truths (when)
+  * ３に２をかければ、６になる。
+  * お金があれば、何でもできる。
+  * と and 〜たら can also be used
+  * past tense is never used
+  * old-fashioned Japanese ものだ at the end of the result clause
+    + 信じていれば夢は叶うものだ。
+  * proverbs
+    + 塵も積もれば山となる。
+    + 薬も過ぎれば毒となる。
+- for habits
+  * for repeated actions that happen under a certain condition
+  * 札幌に行けば、スープカレーを食べる。
+    + Whenever I go to Sapporo, I eat soup curry.
+  * 札幌に行けば、いつもスープカレーを食べていた。
+    + Whenever I went to Sapporo, I used to eat soup curry.
+    + only result part of the sentence changes to past tense
+  * 札幌に行けば、スープカレーを食べたものだ。
+  * 高校生のとき、暇があれば、友達と遊びに行ったものだ。
+  * いつも, 絶対 and 必ず are often used together with 〜ば when talking about
+    habits
+- for future (which we are not sure about)
+  * もし, たろう, でしょう, に違いない, はずだ and かもしれない are often used
+    when talking about future events
+  * もし雨が降れば、遠足は中止になる。
+  * もし雨が降れば、遠足は中止になるかもしれない。
+  * 本当にそう思えば、直接に言うでしょう。
+- for hypothetical situations
+  * もし札幌に住んでいれば、毎日スープカレーを食べる。
+  * to talk about an alternative reality in the past
+    + 札幌に行けば、スープカレーを食べられたのに。
+    + 自転車に乗って来れば、間に合った。
+      + If I'd come by bicycle, I would have been in time.
+    + 私に聞いてくれれば、ちゃんと説明してあげたのに。
+    + the use of のに at the end indicates the result did not happen
+- for questions
+  * この緑色の薬を飲めば、治りますか。
+    + If I take this green medicine, will I get better?
+  * どこに行けばスープカレーが食べられるかな。
+    + I wonder where I can eat soup curry.
+
+# Command form (imperative) 〜なさい
+
+- 〜なさい is the politer of two ways to form a command in Japanese
+- stem form is used for conjugation (similar to なから)
+- avoid using it with anyone who is in a higher social standing
+  * use 〜てください or 〜てくれませんか instead
+    + 先輩、書類の書き方を教えてくれませんか。
+- basic example
+  * ちょっと、静かにしなさい！
+  * 選択肢の中なら、正解を一つ選びなさい。
+- for showing care
+  * やめなさい！
+  * おやすみなさい。
+  * for making suggestions
+    + 遠慮しないで、たくさん食べなさい。
+      + raising intonation at the end is needed
+
+# Causative form させる
+
+- someone is forced to do an action or allowed to do an action
+- the subject of the sentence somehow causes someone else to carry out the
+  action
+- casual speech or dialets like Kansai-ben (関西弁)
+  * conjugation of 〜さす instead of 〜させる
+  * independent verbs which have some causative or permissive meaning bulit-in
+    + 泳がす (transitive)
+    + 寝かす (transitive)
+    + 沸かす (transitive)
+
+# While 〜ながら
+
+- [basic patterns](./patterns.md#while)
+- two possible meanings in some scenarios
+  * コウイチは働きながら勉強している。
+    + Koichi is currently studying while at work.
+    + Koichi is working while also going to school and studying.
+- it cannot be used to describe simultaneous actions that are carried out by different
+  people
+  * ❌ 私はテレビを見ながら、姉は料理をした。
+  * ⭕️ 私がテレビを見ている間に、姉は料理をした。
