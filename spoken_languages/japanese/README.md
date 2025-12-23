@@ -375,6 +375,18 @@ ____
 
 - 事実はございません (じじつはございません) - There is no truth to this
 
+## 内 (うち) and 外 (そと)
+
+- references
+  * [Uchi and Soto](https://www.tofugu.com/japanese/uchi-soto/)
+- 内 is referred to in-group and 外 is referred to out-group
+  * the boundary is relative and can be different in different situations
+- calling someone by their name without a name ender (such as さん) is called
+  呼び捨て; it is often considered as rude unless you have an intimate relation
+  with the person
+- title 部長 (manager)
+  * a social role can work as an honorific name ender as well
+
 # Patterns
 
 ## commands

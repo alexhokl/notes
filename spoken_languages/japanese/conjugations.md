@@ -5,6 +5,7 @@
   * [exceptions](#exceptions)
 - [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
 - [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
+- [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
 ____
 
 # noun
@@ -172,4 +173,11 @@ ____
 
 Note the change in sounds between く, き and こ.
 
+# ながら Although
 
+| Form         | Affirmative  |
+| ---          | ---          |
+| noun         | 初心者ながら |
+| な-adjective | きれいながら |
+| い-adjective | 小さいながら |
+| verb         | 言いながら   |

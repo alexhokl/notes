@@ -17,6 +17,10 @@
     + [供 (ども)](#%E4%BE%9B-%E3%81%A9%E3%82%82)
     + [諸 (しょ)](#%E8%AB%B8-%E3%81%97%E3%82%87)
     + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
+- [Conjunctions](#conjunctions)
+  * [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- [Nouns](#nouns)
+  * [事 (こと)](#%E4%BA%8B-%E3%81%93%E3%81%A8)
 ____
 
 # References
@@ -299,3 +303,93 @@ ____
   * そのパーティーには弁護士などが来ました。- People like lawyers came to the
     party. (it implies that there are other professionals besides lawyers)
 - in the Kansai area, やら is common used instead
+
+# Conjunctions
+
+## ながら Although
+
+- [Conjugations](#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- basic examples
+  * 小さいながら甘いいちご。
+  * 未完成ながらきれいな作品。
+  * 彼は初心者ながらよくやった。
+- when feelings contradict actions
+  * 誠に勝手ながら、欠席いたします。
+    + Even though it's very selfish, I'm not going to make it.
+  * 残念ながら、負けてしまいました。
+    + Although it's a shame, I lost.
+- formal expressions that add a feeling of humbleness
+  * 僭越ながら、乾杯の音頭を取らせていただきます。
+    + While I don't deserve this honor, I will lead us in a toast.
+
+# Nouns
+
+## 事 (こと)
+
+- basic examples
+  * 小さい事で、友達と喧嘩をした。
+  * 謝りたい事がたくさんある。
+    + I have a lot of things I want to apologize for.
+  * 面白い事を言われた。
+  * 嫌な事を言われた。
+  * やる事がたくさんある。
+  * やる事がない。
+  * 昨日の事は、何も覚えてない。
+- to refer to a certain activity or action
+  * 運動をする事は、大切だ。
+  * の can be used in place of 事
+    + 運動をするのは、大切だ。
+    + While mostly interchangeable, there is a slight difference in nuance
+      between 事 and の. While 事 is used to talk about broad, abstract
+      concepts, の is used to talk about more concrete actions or something
+      familiar. Thus, using the particle の here sounds more casual.
+- to refer to a fact
+  * ジェニーがお肉を食べない事
+  * ジェニーがお肉を食べない事を知っていますか。
+  * ジェニーがお肉を食べないという事を知っていますか。
+    + という is an expression used to define things. It consists of the particle
+      と, which marks quotations, and the verb 言う (to say). Those two combined
+      literally mean "to be called…" or "to be said that…"
+  * ジェニーがお肉を食べないのを知っていますか。
+- to refer to someone or something
+  * 花子の事が好きなんだよね。
+    + although 花子が好きなんだよね can be used, using の事 implies the speaker
+      likes everything about 花子
+  * 誕生日会の事、もう花子にも言った？
+    + similarly, using の事 implies the speaker is referring to everything about
+      the birthday party
+    + あー、悪いけど、花子の事は、誘わないよ。
+      + by adding 〜の事, the reply made a more ambiguous reference to all sorts
+        of things related to Hanako. Here, the 〜の事 softens the seemingly
+        harsh comment by making sound a bit more indirect, and adds the nuance
+        "given that,” — whatever "that" unspoken thing is — "I won't invite
+        Hanako."
+- to talk about past experiences
+  * ~た事がある
+  * 日本に行った事がある。
+    + I have been to Japan. (Literally: I have had the experience of going to
+      Japan.)
+  * でも、お寿司を食べた事がない。
+    + But, I have never eaten sushi.
+  * 日本に行ったのがある。
+  * でも、お寿司を食べたのがない。
+- to talk about occasional experiences
+  * ~事がある
+  * it indicates that the activity or event happens only occasionally
+  * 時々、喧嘩をする事がある。
+  * 一週間ぐらい喋らない事もある。
+    + We also sometimes don't talk with each other for about a week.
+  * 事 cannot be replaced with の in this usage
+- for giving rules or directions
+  * by ending a sentence with 事, it conveys rules or directions to be observed
+  * writing in kana is common in this use case
+  * 友達には、意地悪しないこと。
+    + Don't be mean to your friends.
+  * this kind of sentences usually can be found in form of a bullet point
+- to talk about ability
+  * 〜事ができる
+  * 日本語で歌う事ができます。
+    + while 歌える reflects the speaker's view, 〜事ができる objectively
+      describes the fact that someone can do something; hence, it is more suited
+      to formal settings
+  * due to the specificity, 事 cannot be replaced with の in this usage

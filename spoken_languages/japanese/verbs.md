@@ -495,6 +495,69 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 泳がす (transitive)
     + 寝かす (transitive)
     + 沸かす (transitive)
+- for forcing someone to do something (based on context)
+  * お母さんは弟を学校に行かせた。
+- for allowing someone to do something (based on context)
+  * コウイチはマミにベーコンを好きなだけ食べさせた。
+- to emphasize letting someone to do something (and be grateful about it)
+  * when the speaker is the actor, くれる or くださる can be used
+    + 両親は私を大学に行かせてくれた。
+    + 大学に行かせてくださって、有難うございます。
+  * to ask for permission
+    + 私にもやらせてくれる？
+      + Can you let me do that too?
+    + もう少し考えさせてくれますか。
+      + Can you let me think about it for a little longer?
+    + 大学に行かせてくれませんか？
+      + Would you please allow me to go to university?
+      + changing the verb to its negative form adds a touch more politeness
+  * when the speaker is the causer, あげる or やる (rougher, masculine) can be
+    used
+    + 大学に行かせてあげるつもりだ。
+    + いい子にしてないと、パーティに行かせてあげないよ。
+    + 宝くじが当たったら、ハワイに行かせてやるよ。
+  * when the speaker is being allowed to to do something, もらう or
+    いただく (more polite) can be used
+    + それでは、ちょっと自己紹介させてもらいます。
+    + 有り難いことに、まだトーフグで仕事をさせてもらっています。
+      + Thankfully, I'm still working at Tofugu.
+    + 商品の紹介をさせていただきます。
+    + to ask for permission
+      + 私にもやらせてもらえない？
+      + 大学に行かせてもらえませんか？
+      + questions formed with もらう are usually more polite than those
+        formed with くれる
+- particles に and を
+  * intransitive verb
+    + if actor carries out an action willingly, both に and を can be used
+      + ⭕️ 両親は私を好きなだけ泳がせた。
+      + ⭕️ 両親は私に好きなだけ泳がせた。
+    + if an action is carried out unwillingly, only を can be used
+      + ⭕️ 両親は私を無理矢理泳がせた。
+      + ❌ 両親は私に無理矢理泳がせた。
+    + if action is uncontrollable (such as to surprise or to laugh), regardless of
+      willingness, only を can be used
+      + ⭕️ 両親は私を笑わせた。
+      + ❌ 両親は私に笑わせた。
+    + if the actor is a thing, regardless of willingness, only を can be used
+      + ⭕️ 雪でバナナを凍らせた。
+      + ❌ 雪でバナナに凍らせた。
+  * transitive verb
+    + only に can be used
+      + 両親は私に好きなだけベーコンを食べさせた。
+      + 両親は私に無理矢理ベーコンを食べさせた。
+- causative passive 〜させられる
+  * someone were forced against their will to do something by someone else
+  * it does not have the meaning of "to let someone do something"
+  * 毎日、母に納豆を食べさせられます。
+  * 私は父にスクワットを百回させられた。
+- idiomatic uses
+  * 二人は思い出話に花を咲かせた。
+    + The two had a lively conversation about their past.
+  * 今日子は「さよなら」と言った後、言葉を詰まらせた。
+    + Kyouko could only say "goodbye" and then she was too choked up to talk.
+  * 水は生活に欠かせないものだ。
+    + Water is essential for life.
 
 # While 〜ながら
 
@@ -507,3 +570,4 @@ Note that all other conjugations of 買う use hiragana characters on the
   people
   * ❌ 私はテレビを見ながら、姉は料理をした。
   * ⭕️ 私がテレビを見ている間に、姉は料理をした。
+- [although 〜ながら](./grammar.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
