@@ -19,6 +19,8 @@
     + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
 - [Conjunctions](#conjunctions)
   * [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- [Pronouns](#pronouns)
+  * [自分 (じぶん)](#%E8%87%AA%E5%88%86-%E3%81%98%E3%81%B6%E3%82%93)
 - [Nouns](#nouns)
   * [事 (こと)](#%E4%BA%8B-%E3%81%93%E3%81%A8)
 ____
@@ -321,6 +323,80 @@ ____
 - formal expressions that add a feeling of humbleness
   * 僭越ながら、乾杯の音頭を取らせていただきます。
     + While I don't deserve this honor, I will lead us in a toast.
+
+# Pronouns
+
+## 自分 (じぶん)
+
+- it has an introspective nuance
+- grammatically not very diffrent from other pronouns and nouns in general
+- it can be used like English reflexive pronouns (*self) such as myself,
+  himeself, herself, themselves, etc.
+  * 京子は自分を信じている。
+    + Kyoko believes in herself.
+  * 京子は自分が正しいと思っている。
+- although grammatically 彼 or 彼女 can be used to refer to a third person,
+  自分 is more commonly used in such cases since 彼 and 彼女 can mean
+  "boyfriend" and "girlfriend" respectively
+- for things you do yourself
+  * ❌京子は家を建てた。
+    + Kyoko built a house.
+      + it is unclear whether she built it herself or hired professionals
+  * ⭕️京子は家を自分で建てた。
+    + Kyoko built the house herself.
+      + it emphasizes that she built it by herself but does not necessarily mean
+        she did it alone without any help
+  * ⭕️京子は家を一人で建てた。
+    + Kyoko built a house all by herself.
+- for things of one's own
+  * 京子は自分の家を自分で建てた。
+    + Kyoko built her own house by herself.
+- for an unspecified person
+  * referring to people in general and themselves
+  * 自分を信じて。
+    + Believe in yourself.
+  * 自分のやったことは自分に返ってくる。
+    + What you've done comes back to you.
+- without subject
+  * due to subject can be omitted depending on the context
+  * 自分に自信がないんです。
+    + I lack confidence in myself.
+  * 自分のことで精一杯そうだよね。
+    + She seems occupied with her own business.
+      + assuming the conversation is about Kyoko
+- refer to a subject in a different clause
+  * マミは、カナエが自分を責めてるって言ってた。
+    + Mami was saying that Kanae blames 自分.
+      + where 自分 could refer to either Kanae or Mami
+  * Your friend: マミは何で泣いてるの？
+    You: カナエが自分を責めてるって言ってた。
+    + Your friend: Why is Mami crying?
+      You: She said that Kanae blames 自分.
+    + grammatically 自分 could refer to either Kanae or Mami, but from the
+      context it has a higher chance that 自分 refers to Kanae
+- used as first-person pronoun
+  * 自分も、そう思います。
+- used as second-person pronoun
+  * in Kansai dialect, 自分 is often used as a first-person pronoun
+  * it carries a "carring" nuance, as if you are approaching someone while
+    trying to step into their shoes
+  * 自分、何してんの？
+- modifying (decorating) 自分
+  * シャイな自分にはカラオケはできない。
+  * 本当の自分を探す旅に出る。
+  * 告白できなかった自分が情けない。
+- plural
+  * 自分たちでビザの申請をした。
+  * 自分らには関係ない。
+    + It's got nothing to do with us.
+- idiomatic expressions
+  * usually with the meaning of identity
+  * 自分を殺す
+    + Suppressing one's self (Literally: Killing one's identity)
+  * 自分を持つ
+    + Being self-assured (Literally: Having one's identity)
+  * 自分を見失う
+    + Feeling lost (Literally: Losing one's identity)
 
 # Nouns
 

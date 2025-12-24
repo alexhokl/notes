@@ -1417,6 +1417,7 @@ ____
 - 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 - 覚ます (さます) - to waken; to arouse from sleep
 - 仕舞う (しまう) - to end up
+- 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
 - 担当 (たんとう) - being in charge; being responsible
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
