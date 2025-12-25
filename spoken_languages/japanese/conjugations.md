@@ -6,6 +6,7 @@
 - [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
 - [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
 - [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- [なら if](#%E3%81%AA%E3%82%89-if)
 ____
 
 # noun
@@ -181,3 +182,17 @@ Note the change in sounds between く, き and こ.
 | な-adjective | きれいながら |
 | い-adjective | 小さいながら |
 | verb         | 言いながら   |
+
+# なら if
+
+| Form                | Affirmative    | Negative             |
+| ---                 | ---            | ---                  |
+| noun                | 夏なら         | 夏じゃないなら       |
+| な-adjective        | 静かなら       | 静かじゃないなら     |
+| い-adjective        | 高いなら       | 高くないなら         |
+| verb                | 行くなら       | 行かないなら         |
+| noun (past)         | 夏だったなら   | 夏じゃなかったなら   |
+| な-adjective (past) | 静かだったなら | 静かじゃなかったなら |
+| い-adjective (past) | 高かったなら   | 高くなかったなら     |
+| verb (past)         | 行ったなら     | 行かなかったなら     |
+

@@ -308,7 +308,7 @@ ____
 
 - あんな - that kind of (over there)
 - こんな - this kind of
-- そんな - that kind of
+- そんな - that kind of; such
 - どんな - what kind of; any
 
 ### pronouns (place)
@@ -1123,6 +1123,7 @@ ____
 - 知らせる (しらせる) - to notify; to advise
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 尋ねる (たずねる) - to ask; to inquire
+- 伝える (つたえる) - to convey
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 払う (はらう) - to pay; to wipe away
 - 間違える (まちがえる) - to make a mistake

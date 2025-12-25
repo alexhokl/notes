@@ -19,6 +19,7 @@
     + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
 - [Conjunctions](#conjunctions)
   * [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
+  * [なら if](#%E3%81%AA%E3%82%89-if)
 - [Pronouns](#pronouns)
   * [自分 (じぶん)](#%E8%87%AA%E5%88%86-%E3%81%98%E3%81%B6%E3%82%93)
 - [Nouns](#nouns)
@@ -310,7 +311,7 @@ ____
 
 ## ながら Although
 
-- [Conjugations](#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- [Conjugations](./conjugations.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
 - basic examples
   * 小さいながら甘いいちご。
   * 未完成ながらきれいな作品。
@@ -323,6 +324,59 @@ ____
 - formal expressions that add a feeling of humbleness
   * 僭越ながら、乾杯の音頭を取らせていただきます。
     + While I don't deserve this honor, I will lead us in a toast.
+
+## なら if
+
+- attach to the end a condition clause
+-
+- [conjugations](./conjugations.md#%E3%81%AA%E3%82%89-if)
+- for describing conditions and the possibility that it might not happen
+  * 寒いならこれを着てください。
+  * あなたが嬉しいなら、私も嬉しいです。
+  * it cannot be used if the condition will definitely happen
+    + ❌ 春になるなら、お花見をしましょう。
+  * ⭕️コウイチに会うなら、メールを見るよう伝えてください。
+    + If you meet with Koichi, please tell him to check his email.
+  * ⭕️外に行くなら、ゴミ捨てて来て。
+  * ❌ 私が行くなら、コウイチも行きたい。
+    + it is incorrect as the speaker is sure whether the condition is true or
+      not
+  * ⭕️ 私が行くなら、コウイチも行きたがると思う。
+    + If I go there, I think Koichi wants to come with me.
+      + it is correct as action itself is an undertain assumption from the
+        speaker
+  * ❌ 走るなら先生に怒られるよ。
+    + it is incorrect as it is used to claim subjective opinions based on the
+      speakers' assumption of a certain condition
+  * ⭕️ 走るなら人にぶつからないようにしなよ。
+    + Try not to run into other people if you run.
+- for describing counterfactual conditions
+  * 私があなたならそんなことはしない。
+    + If I were you, I wouldn't do something like that.
+  * 今日が晴れなら、キャンプへ行けたのに。
+    + If it were sunny today, we could have gone camping.
+  * use of past tense to emphasize the situation describing is not real
+    + it is often used in writing rather than in speech
+    + 私が鳥だったなら、あなたのところへ飛んでいけるのに。
+      + If I were a bird, I could fly to your place.
+  * in speech, to emphasize the speaker's regret or wish about the
+    counterfactual situation
+    + 今日が金曜日ならなあ。
+      + I wish today were Friday.
+- to refer to someone or something that is mentinoed in other people's speech
+  * You: あの、緑の帽子を見ませんでしたか？
+    Man: その帽子なら、さっき誰かが持って行きましたよ。
+    + You: Excuse me, did you see a green hat?
+      Man: If it's the hat I'm thinking of, someone took it with them a while ago.
+  * Moe: マミ、仕事大変そうだね。大丈夫かな。
+    Jen: マミなら大丈夫でしょ。
+    + Moe: Mami looks busy. Do you think she is okay?
+      Jen: (If it's Mami), she can handle it.
+- to suggest an alternative
+  * A: 金曜日出かけない？
+    B: うーん、土曜日ならいいよ。
+    + A: Do you want to go out with me on Friday?
+      B: Well, I'll go if it's Saturday.
 
 # Pronouns
 
