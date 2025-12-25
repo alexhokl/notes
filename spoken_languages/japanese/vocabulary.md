@@ -971,6 +971,7 @@ ____
 - 雲 (くも) - cloud
 - 積もり (つもり) - intention; plan; belief; estimate
 - 喧嘩 (けんか) - quarrel; fight; brawl; argument
+- 以上 (いじょう) - above; note less than; that is all
 
 ### nouns (academic)
 
