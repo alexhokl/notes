@@ -1717,14 +1717,18 @@ ____
 
 ### verbs (intransitive)
 
+- 受かる (うかる) - to pass (e.g. exam)
+
 ## N0
 
 ### particles
 
 - しか - nothing but; except; no more than
+- じゃん - isn't it?; don't you think?
 - ても - even if; even though
 - ながら - while; during; as
 - なので - because; as; since; so
+- なんて - things like; someone like; to think that
 
 ### conjunctions
 
@@ -1813,6 +1817,7 @@ ____
 - 洋書 (ようしょ) - book in foreign language
 - ねた - information; news; proof; evidence
 - 気に入り (きにいり) - favourite
+- 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
 
 ### nouns (family)
 

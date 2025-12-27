@@ -18,6 +18,7 @@
 - [Conditional form ば](#conditional-form-%E3%81%B0)
 - [Command form (imperative) 〜なさい](#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
 - [Causative form させる](#causative-form-%E3%81%95%E3%81%9B%E3%82%8B)
+- [Voliltional form 〜よう](#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
 - [While 〜ながら](#while-%E3%80%9C%E3%81%AA%E3%81%8C%E3%82%89)
 ____
 
@@ -558,6 +559,40 @@ Note that all other conjugations of 買う use hiragana characters on the
     + Kyouko could only say "goodbye" and then she was too choked up to talk.
   * 水は生活に欠かせないものだ。
     + Water is essential for life.
+
+# Voliltional form 〜よう
+
+- to have will or purpose or intention
+- [conjugations](./conjugations.md)
+- it is a plain form and the polite form is ましょう
+- for proposing or inviting someone to do something
+  * let's or shall we
+  * 動物園に行こう！
+- to express speaker's will
+  * to clarify that speaker will carry out an action being discussed
+  * 私がカレーを作ろう。
+  * 私がカレーを作ろうと思う。
+    + I think I will make curry.
+      + use of と思う softens the tone
+- to express "let's not do something"
+  * plain negative verb + で　+ volitional form of おく (〜おこう)
+    + やっぱり動物園には行かないでおこう。
+      + Let's actually not go to the zoo.
+  * using こと or の with volitional form of やめる (to quit) or よす (to stop)
+    + やっぱり動物園に行くのはやめよう。
+    + やっぱり動物園に行くのはよそう。
+  * using こと or の with plain negative verb + で　+ volitional form of おく
+    + やっぱり動物園に行くのはやめておこう。
+    + やっぱり動物園に行くのはよしておこう。
+- for guesses or assumptions
+  * use of volitional form of ある
+  * 彼女の方にも色々と文句があろう。
+    + I suppose she has many complaints on her side too.
+  * it can sound literary
+    + あるだろう is more common in spoken language
+  * idomatic usages
+    + こんなこともあろう(か)と思って、これを持ってきたんだよ。
+      + I guessed this might be the case, so I've brought this.
 
 # While 〜ながら
 

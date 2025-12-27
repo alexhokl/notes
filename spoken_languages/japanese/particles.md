@@ -562,69 +562,71 @@ ____
     + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
     + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
 
-## と (to indicate a strong casual relationship)
+## と (conditional)
 
-- for things that always happen
-  * when と is used for things with inevitable results like this, it is commonly
-    used with words like 必ず (without exception), いつも (always) or よく
-    (usually)
-  * examples
-    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
-      I always crave for sweets (without exception).
+- to show a strong causal relationship
+  * "when X happens, the result is always Y"
+  * "as soon as X happens, Y happens"
+- basic examples
+  * 勝手にベーコンを食べると、マミは怒る。
+    + If you eat bacon without her permission, Mami always gets upset.
+- for things always happen
+  * お酒を飲む`と`、(必ず) スイーツが食べたくなる。
+    + When I drink alcohol, I always crave for sweets (without exception).
+  * it is commonly used with words like 必ず (without exception), いつも
+    (always) or よく (usually)
 - for habits
-  * examples
-    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
-      a run.
-    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
-      a run.
-    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
-      went for a run.
+  * 晴れる`と`よくランニングをする。
+    + When it is sunny, I usually go for a run.
+  * 晴れる`と`よくランニングをした。
+    + When it was sunny, I usually went for a run. (for old habits)
+  * 晴れる`と`よくランニングをした`ものだ`。
+    + When it was sunny, I usually went for a run.
       + と and the sentence ending ものだ (or ものです) are used for recalling
         and narrating the old days
 - for general conditions
-  * examples
-    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
-    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
-      permission, Mami always gets upset.
+  * when X happens, the result is always Y
+  * ボタンを押すと、店員が来る。
+  * present tense is used for this usage
 - for successive actions
-  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
-    often pairs up with と in this usage
-  * examples
-    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
-      + note the use of past tense
-    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
-      right away.
+  * the usage is similar to て form for linking actions, but と emphasizes the
+    immediacy
+  * ボタンを押す`と`、店員が来た。
+  * past tense is used for this usage
+  * すぐに (right away) is often used add a strong nuance of immediacy
+    + ボタンを押す`と`、すぐに店員が来た。
 - for "what happens if" questions
-  * examples
-    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
+  * このボタンを押す`と`どうなりますか？
+    + What happens if I push this button?
 - for warnings
   * by showing an inevitable consequence of doing something (or often not doing
     something with the negative form of verbs)
-  * examples
-    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
+  * 早く起きない`と`遅刻するよ。
 - for showing a different perspective
   * In Japanese culture, people tend to try not to sound too direct or
-    assertive. They are sensitive of providing information as a universal truth
-    unless they are 100% certain because they don't want to be "wrong"! So と is
-    used to soften the assertiveness by bringing an objective perspective as
-    a certain condition.
+    assertive. と is used to soften the assertiveness by bringing an objective
+    perspective as a certain condition.
   * examples
-    + はっきり言う`と`… - To be honest...
-    + そう考える`と`… - Viewed from that angle...
-    + 他と比べる`と`… - Compared to others...
-    + 一般的に見る`と`… - Generally speaking...
+    + はっきり言う`と`…
+      + To be honest...
+    + そう考える`と`…
+      + Viewed from that angle...
+    + 他と比べる`と`…
+      + Compared to others...
+    + 一般的に見る`と`…
+      + Generally speaking...
 - と and たら
-  * quite similar because they can both show conditions and time sequence
   * と shows strong causal relationship whereas the focus of たら is more of the
     condition as the trigger of the result
   * examples
-    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
-      crave for sweets.
-    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
-      for sweets.
-    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
-    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
-
+    + お酒を飲む`と`、スイーツが食べたくなる。
+      + When I drink alcohol, I always crave for sweets.
+    + お酒を飲ん`だら`、スイーツが食べたくなる。
+      + If I drink alcohol, I crave for sweets.
+    + ボタンを押す`と`、店員が来た。
+      + Once I pushed a button, staff came.
+    + ボタンを押し`たら`、店員が来た。
+      + When I pushed a button, staff came.
 
 ## や
 
@@ -1499,6 +1501,72 @@ ____
         + 平素`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
 
 ## だけ
+
+- just or only
+- basic examples
+  * 最近は、漢字だけ勉強している。
+  * 毎日、一時間だけ勉強している。
+  * 朝ごはんはジュースだけだった。
+  * 朝ごはんはジュース１杯だけだった。
+  * サウナなんて、暑いだけじゃん。
+  * 有名なだけでしょ？
+  * 行くだけだよ？
+  * ちょっと見るだけだよ。
+  * 親が有名だっただけ。
+  * あんたが知らないだけで、みんな知ってることだよ。
+  * 朝はジュースを飲むだけで十分です。
+    + Just drinking some juice in the morning is sufficient for me.
+  * 朝はジュースを飲むだけ。
+    + In the morning, I just drink some juice, and that's all.
+  * 朝はジュースだけを飲む。
+    + In the morning, I drink only juice.
+  * これだけは聞いて！
+    + Listen to me just on this one!
+  * それだけがんばってれば、受かるでしょ！
+    + If you're working that much, you should pass the exam!
+- for "just by"
+  * ５分チンするだけで食べれます。
+    + Just by microwaving it for five minutes, it'll be ready to eat.
+- for "not only, but also"
+  * ... + だけでなく + ... + も + ...
+  * お肉だけでなく野菜も食べましょう。
+  * since でなく or ではなく is a little format, じゃ can be used in more casual
+    speech
+    + お肉じゃなく野菜も食べましょう。
+- compare to しか
+  * しか is always used with a negative ending while だけ can be used in both
+    positive and negative endings
+  * しか has a more subjective nuance while だけ is more objective and neutral
+  * ⭕️チョコレートが一つだけある。
+    + There is only one chocolate. (with a tone of describing a fact)
+  * ⭕️チョコレートが一つしかない。
+    + There is only one chocolate. (with a tone of being disappointed)
+  * 駅まで歩いて５分しかかからない。
+    + It's only a five-minute walk to the station.
+    + ❌駅まで歩いて５分だけかかる。
+      + although it is grammatically correct, it sounds unnatural as this
+        sentence does not describe a fact but rather expresses a subjective
+        feeling
+  * ⭕️ううん、これとこれだけ買う。 (with a tone of describing a fact)
+  * ⭕️ううん、これとこれしか買わない。 (with a tone of being restrictive)
+  * ⭕️これとこれだけしか買わない。 (with a tone of being very restrictive)
+- for quantity
+  * たったの to emphasize how small the quantity is compared to the usual or
+    expected amount
+  * ⭕️この鞄、たったの百円だったんだよ。
+  * ❌この鞄、百円だけだったんだよ。
+    + although it is grammatically correct, it sounds unnatural as this
+      sentence does not describe a fact but rather expresses "how inexpensive it
+      is"
+  * ⭕️この鞄、百円だけしかかからなかったんだよ。 (with emphasis on how much the
+    bag cost and how inexpensive it is)
+  * ⭕️この鞄、たったの百円しかかからなかったんだよ。(with a tone of stressing
+    ONLY)
+- compare to のみ
+  * ⭕️修正するのはこの部分だけでよろしいでしょうか。
+  * ⭕️修正するのはこの部分のみでよろしいでしょうか。
+    + Is this the only part that needs to be corrected?
+  * while だけ is sort of neutral, のみ carries a more professional tone.
 
 ## ので
 

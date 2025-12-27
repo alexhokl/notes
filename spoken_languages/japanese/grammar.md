@@ -17,6 +17,7 @@
     + [供 (ども)](#%E4%BE%9B-%E3%81%A9%E3%82%82)
     + [諸 (しょ)](#%E8%AB%B8-%E3%81%97%E3%82%87)
     + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
+- [Auxiliary verbs](#auxiliary-verbs-1)
 - [Conjunctions](#conjunctions)
   * [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
   * [なら if](#%E3%81%AA%E3%82%89-if)
@@ -306,6 +307,48 @@ ____
   * そのパーティーには弁護士などが来ました。- People like lawyers came to the
     party. (it implies that there are other professionals besides lawyers)
 - in the Kansai area, やら is common used instead
+
+# Auxiliary verbs
+
+- [conjugations](./conjugations.md#)
+- used when the speak is Pretty sure about whatever they are saying
+- it emphasise the feeling that the speaker has a reason to make their claim
+- it is a derivative of だ
+- it carries an assertive tone when used in conversations
+- basic examples
+  * a 田中さんは金持ちだろう。
+  * A: どのチームが優勝すると思う？
+    B: ジャイアンツだろうね。
+- to indicate that the speculation is about the future
+  * for nouns and adjectives, add word that indicates time
+    + 明日
+    + 来週
+    + 来月
+  * for verbs, use ている form
+    + 彼は会社を休んでいるだろう。
+      + I assume he is taking a day off.
+- to manipulate the level of certainty
+  * きっと > 多分 > 恐らく
+  * 明日はきっと寒いだろう。
+    + It will definitely be cold tomorrow.
+  * 明日は多分寒いだろう。
+    + It will probably be cold tomorrow.
+  * もしかして and もしかしたら cannot be used with だろう due to those words
+    are too low in certainty level
+- to seek confirmation
+  * 僕のプリン、食べただろう。
+  * 僕の彼女、可愛いだろう。
+  * in this use case, だろう is often shorten to だ or
+  * for a more masuline speech, だろ is also used
+- to seek information
+  * あれ、なんだろう？
+    + What do you think that is?
+  * コウイチはどこだろう？
+    + I wonder where Koichi is.
+  * いつ田中さんは来るだろう？
+    + I wonder when Tanaka will come.
+  * A: 一番好きな動物はなに？
+    B: うーん、なんだろう。猫か犬？
 
 # Conjunctions
 
