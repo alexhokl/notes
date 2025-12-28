@@ -887,9 +887,14 @@ ____
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
 - 偶に (たまに) - occasionally; once in a while; now and then
+- はっきり - clearly
 - 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
 - 昔 (むかし) - old times; old days
-- 若し (もし) - if
+- 若し (もし) - if (aka 若しも)
+
+### onomatopoeia
+
+- そろそろ - soon; slowly
 
 ### adjectives (い)
 
@@ -1185,6 +1190,7 @@ ____
 
 ### adverbs
 
+- こんなに - this much
 - すで - already
 - 既に (すでに) - already; previously; before; undeniably
 - 全て (すべて) - entirely; wholly; completely; all
@@ -1295,6 +1301,7 @@ ____
 - 雷 (かみなり) - thunder; lightning
 - 書類 (しょるい) - documents; papers
 - 間違い (まちがい) - mistake; error
+- 文句 (もんく) - complaint
 
 ### nouns (animals)
 
@@ -1730,6 +1737,7 @@ ____
 - ながら - while; during; as
 - なので - because; as; since; so
 - なんて - things like; someone like; to think that
+- ものの - although
 
 ### conjunctions
 
@@ -2247,6 +2255,7 @@ ____
 - 解読 (かいどく) - deciphering
 - キャンセル - cancel
 - シュート - shoot
+- チン - heating in a microwave
 - 満喫 (まんきつ) - to fully enjoy
 
 ### する intransitive verbs

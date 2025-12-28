@@ -9,6 +9,7 @@
   * [か](#%E3%81%8B)
   * [と](#%E3%81%A8)
   * [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
+  * [たら](#%E3%81%9F%E3%82%89)
   * [や](#%E3%82%84)
   * [ね](#%E3%81%AD)
   * [わ](#%E3%82%8F)
@@ -22,8 +23,8 @@
   * [から](#%E3%81%8B%E3%82%89)
   * [より](#%E3%82%88%E3%82%8A)
   * [だけ](#%E3%81%A0%E3%81%91)
-  * [ので](#%E3%81%AE%E3%81%A7)
   * [のに](#%E3%81%AE%E3%81%AB)
+  * [ので](#%E3%81%AE%E3%81%A7)
   * [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
 ____
 
@@ -624,6 +625,64 @@ ____
       for sweets.
     + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
     + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
+
+## たら
+
+- a conjugation to express a casual relationship
+  * A: 勉強しなさい。
+    B: ご飯食べたらする。
+  * A: 勉強しなさい。
+    B: おこづかいくれたらする。
+    + A: Do your homework.
+      B: I'll do it if you give me allowance.
+- patterns
+  * convert to past tense + ら
+    + both plain and polite forms can be used
+      + exception is for nagative form where only plain form should be used
+  * 食べたら
+  * 夏だったら
+  * 不安だったら
+  * 難しかったら
+  * 食べましたら
+  * 夏でしたら
+  * 不安でしたら
+  * 食べなかったら
+  * 夏じゃなかったら
+  * 不安じゃなかったら
+  * 難しくなかったら
+- for when or after
+  * to provide the condiition that needs to be fulfilled for other events or
+    situations to take place
+  * this usage cannot be used to describe something the speaker has control over
+    + exception is for future events
+  * 走ったらストレッチをします。
+    + I stretch after running.
+  * for an event happens while another event is progressively happening, rather
+    than completely done
+    + 走っていたら友達に会った。
+      + I ran into my friend when I was running.
+  * ⭕️ 勉強をしたら、疲れた。
+  * ❌ 勉強をしたら、遊んだ。
+  * ⭕️ 卒業したら、留学する。
+- for if
+  * multiple meanings
+    + このプリン食べたら、帰ります。
+      + I'll go back home after eating this pudding
+      + I'll go back home if you eat this pudding.
+  * もし is often combined with たら to explicitly express the "if" meaning
+    + もしこのプリン食べたら帰ります。
+  * in combination with のに
+    + お金があったら留学するのに。
+    + 雨じゃなかったら出かけたのに。
+- for reference
+  * to refer to someone or something
+  * コウイチだったら、外にいますよ。
+    + (If it's Koichi who you are looking for), he is outside.
+- for suggestion
+  * Koichi: お腹空いた。
+    Kanae: このプリン食べたら？
+    + Koichi: I'm hungry.
+      Kanae: How about eating this pudding?
 
 ## や
 
@@ -1572,7 +1631,7 @@ ____
 
 - a conjunctive particle
 - similar to "but" or "though"
-  * similar to けれど or ものの
+  * similar to けれど, けれども, けれ or ものの
 - to show that something has deviated from the expectation
 - it focuses on the unexpectedness of the situation and expresses surprise or
   frustration
