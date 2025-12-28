@@ -825,6 +825,7 @@ ____
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
 - 立つ (たつ) - to stand
+- 違う (ちがう) - to be different; to be incorrect
 - 疲れる (つかれる) - to get tired; to become exhausted
 - 着く (つく) - to arrive at; to reach; to sit on
 - 飛ぶ (とぶ) - to fly

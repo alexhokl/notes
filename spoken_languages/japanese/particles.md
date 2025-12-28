@@ -1572,6 +1572,7 @@ ____
 
 - a conjunctive particle
 - similar to "but" or "though"
+  * similar to けれど or ものの
 - to show that something has deviated from the expectation
 - it focuses on the unexpectedness of the situation and expresses surprise or
   frustration
@@ -1613,6 +1614,7 @@ ____
       cab.
   * 田中さんは会社が倒産した`のに`泥棒にも入られて可哀想だ。
 - for purposes
+  * it has nothing to do with contradictions
   * 海に行く`のに`水着を買った。
     + For going to the beach, I bought swimwear.
 

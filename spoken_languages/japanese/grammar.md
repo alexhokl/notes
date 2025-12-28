@@ -18,6 +18,8 @@
     + [諸 (しょ)](#%E8%AB%B8-%E3%81%97%E3%82%87)
     + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
 - [Auxiliary verbs](#auxiliary-verbs-1)
+- [Compounds](#compounds)
+  * [のだ](#%E3%81%AE%E3%81%A0)
 - [Conjunctions](#conjunctions)
   * [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
   * [なら if](#%E3%81%AA%E3%82%89-if)
@@ -350,6 +352,80 @@ ____
   * A: 一番好きな動物はなに？
     B: うーん、なんだろう。猫か犬？
 
+# Compounds
+
+## のだ
+
+- variants
+  * のです
+  * んだ
+  * んです
+- added to the end of a sentence
+- to add an explanatory feel to the sentence
+  - "it is because"
+  - "actually"
+- の often changes to ん in spoken Japanese
+- patterns
+  * noun + な + のだ
+  * な-adjective + な + のだ
+  * い-adjective + のだ
+  * verb in plain form + のだ
+- basic examples
+  * 実はイタリアで育ったんだ。
+  * 勉強するんだ。
+  * 勉強したんだ。
+  * 勉強させられたんだ。
+  * 勉強するんです。
+  * 悲しいんだ。
+  * 悲しくないんだ。
+  * 悲しくなかったんだ。
+  * ベジタリアンなんだ。
+  * 簡単なんだ。
+  * ベジタリアンだったんだ。
+  * 簡単じゃないんだ。
+- for verbs, it does not work with command form or volitional form
+  * ❌ 勉強しろんだ。
+  * ❌ 勉強しますんだ。
+- for explanation
+  * 同じレストランで働いてたんだ。
+    + We worked at the same restaurant. (to explain why speaker talked to a
+      "stranger")
+- for resolving misunderstandings
+  * 違うよ、お母さんが食べたんだよ。
+    + No, mom ate it. (to explain it was not the speaker who ate it)
+- for realisation
+  * it is like explaining something to the speaker's self
+  * indicates the speaker was not previously aware of the information
+  * 昇進したんだ。おめでとう！
+    + You got promoted. Congrats!
+  * 昇進したんですか。おめでとうございます！
+    + as a confirmation question to the listener rather than realisation of the
+      speaker
+    + not used for the speaker to talk to themself
+- for seeking explanation
+  * 何かあったの？
+    + Has something happened?
+    + ゴキブリが出たんだ。
+      + There is a cockroach.
+  * 何かあったんですか?
+    + Has something happened?
+    + ゴキブリが出たんです。
+      + There is a cockroach.
+- for introducing a new topic
+  * 今日は会えない。風邪ひいちゃったんだ。ごめんね。
+  * 風邪ひいちゃったんだ。 だから今日は会えない。ごめんね。
+    + ordering of the sentences can be switched
+- for commands
+  * this usage not common
+  * it is used instead of simple command form when the listener needs an
+    explanation to the command
+  * 逃げるんだ！
+    + instead of 逃げろ！, it has the naunce of "You need to run away (because
+      something dangerous is coming)!"
+  * ちゃんと毎日朝ごはん食べるんだよ。
+    + in the context of the listener probably does not have the habit of eating
+      breakfast every day
+
 # Conjunctions
 
 ## ながら Although
@@ -371,7 +447,6 @@ ____
 ## なら if
 
 - attach to the end a condition clause
--
 - [conjugations](./conjugations.md#%E3%81%AA%E3%82%89-if)
 - for describing conditions and the possibility that it might not happen
   * 寒いならこれを着てください。
