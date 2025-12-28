@@ -562,71 +562,68 @@ ____
     + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
     + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
 
-## と (conditional)
+## と (to indicate a strong casual relationship)
 
-- to show a strong causal relationship
-  * "when X happens, the result is always Y"
-  * "as soon as X happens, Y happens"
-- basic examples
-  * 勝手にベーコンを食べると、マミは怒る。
-    + If you eat bacon without her permission, Mami always gets upset.
-- for things always happen
-  * お酒を飲む`と`、(必ず) スイーツが食べたくなる。
-    + When I drink alcohol, I always crave for sweets (without exception).
-  * it is commonly used with words like 必ず (without exception), いつも
-    (always) or よく (usually)
+- for things that always happen
+  * when と is used for things with inevitable results like this, it is commonly
+    used with words like 必ず (without exception), いつも (always) or よく
+    (usually)
+  * examples
+    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
+      I always crave for sweets (without exception).
 - for habits
-  * 晴れる`と`よくランニングをする。
-    + When it is sunny, I usually go for a run.
-  * 晴れる`と`よくランニングをした。
-    + When it was sunny, I usually went for a run. (for old habits)
-  * 晴れる`と`よくランニングをした`ものだ`。
-    + When it was sunny, I usually went for a run.
+  * examples
+    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
+      a run.
+    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
+      a run.
+    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
+      went for a run.
       + と and the sentence ending ものだ (or ものです) are used for recalling
         and narrating the old days
 - for general conditions
-  * when X happens, the result is always Y
-  * ボタンを押すと、店員が来る。
-  * present tense is used for this usage
+  * examples
+    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
+    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
+      permission, Mami always gets upset.
 - for successive actions
-  * the usage is similar to て form for linking actions, but と emphasizes the
-    immediacy
-  * ボタンを押す`と`、店員が来た。
-  * past tense is used for this usage
-  * すぐに (right away) is often used add a strong nuance of immediacy
-    + ボタンを押す`と`、すぐに店員が来た。
+  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
+    often pairs up with と in this usage
+  * examples
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+      + note the use of past tense
+    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
+      right away.
 - for "what happens if" questions
-  * このボタンを押す`と`どうなりますか？
-    + What happens if I push this button?
+  * examples
+    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
 - for warnings
   * by showing an inevitable consequence of doing something (or often not doing
     something with the negative form of verbs)
-  * 早く起きない`と`遅刻するよ。
+  * examples
+    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
 - for showing a different perspective
   * In Japanese culture, people tend to try not to sound too direct or
-    assertive. と is used to soften the assertiveness by bringing an objective
-    perspective as a certain condition.
+    assertive. They are sensitive of providing information as a universal truth
+    unless they are 100% certain because they don't want to be "wrong"! So と is
+    used to soften the assertiveness by bringing an objective perspective as
+    a certain condition.
   * examples
-    + はっきり言う`と`…
-      + To be honest...
-    + そう考える`と`…
-      + Viewed from that angle...
-    + 他と比べる`と`…
-      + Compared to others...
-    + 一般的に見る`と`…
-      + Generally speaking...
+    + はっきり言う`と`… - To be honest...
+    + そう考える`と`… - Viewed from that angle...
+    + 他と比べる`と`… - Compared to others...
+    + 一般的に見る`と`… - Generally speaking...
 - と and たら
+  * quite similar because they can both show conditions and time sequence
   * と shows strong causal relationship whereas the focus of たら is more of the
     condition as the trigger of the result
   * examples
-    + お酒を飲む`と`、スイーツが食べたくなる。
-      + When I drink alcohol, I always crave for sweets.
-    + お酒を飲ん`だら`、スイーツが食べたくなる。
-      + If I drink alcohol, I crave for sweets.
-    + ボタンを押す`と`、店員が来た。
-      + Once I pushed a button, staff came.
-    + ボタンを押し`たら`、店員が来た。
-      + When I pushed a button, staff came.
+    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
+      crave for sweets.
+    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
+      for sweets.
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
 
 ## や
 
@@ -1560,13 +1557,64 @@ ____
       is"
   * ⭕️この鞄、百円だけしかかからなかったんだよ。 (with emphasis on how much the
     bag cost and how inexpensive it is)
-  * ⭕️この鞄、たったの百円しかかからなかったんだよ。(with a tone of stressing
-    ONLY)
+  * ⭕️この鞄、たったの百円しかかからなかったんだよ。
 - compare to のみ
   * ⭕️修正するのはこの部分だけでよろしいでしょうか。
   * ⭕️修正するのはこの部分のみでよろしいでしょうか。
     + Is this the only part that needs to be corrected?
   * while だけ is sort of neutral, のみ carries a more professional tone.
+    + if it is an official statement
+      + 当日券は現金購入のみとなります。
+    + if it is one friend talking to another friend
+      + 当日券は現金購入だけなんだって。
+
+ ## のに
+
+- a conjunctive particle
+- similar to "but" or "though"
+- to show that something has deviated from the expectation
+- it focuses on the unexpectedness of the situation and expresses surprise or
+  frustration
+- patterns
+  * noun + な + のに
+  * な-adjective + な + のに
+  * い-adjective + のに
+  * verb (plain form) + のに
+- used in connecting sentences
+  * クーラーをつけた`のに`全然涼しくならなかった。
+  * レモンな`のに`すごく甘い。
+  * 静かな`のに`眠れない。
+- it could be just a simple combination of の and に
+  * which has nothing to do with のに
+  * 牛乳は私のに入れないでね。
+    + Don't put milk into mine.
+- for expressing surprises
+  * 海子ちゃんはまだ五才な`のに`三ヶ国語も喋れるんだって。
+  * 夜中の三時な`のに`、こんなに人がいる。
+- for complaint and frustration
+  * せっかく掃除した`のに`、すぐにまた汚くなった。
+    + せっかく or わざわざ is often used with it to emphasize the trouble the
+      speaker has been throguh
+  * あんなに勉強した`のに`、不合格だった。
+- used at the end of a sentence
+  * this usage expects the listener can undertand the unexpected things that was
+    not mentioned explicitly
+  * 夜中の三時な`のに`。
+  * あんなに勉強した`のに`。
+- for counterfactual wishes
+  * paired up with the conditional form たら and placed at the end of a sentence
+    + to express the wish or desire for things to be different from what they
+      are or were
+  * 電子レンジがあったら楽な`のに`。
+    + If we had a microwave, it would be easy, but.
+- for "on top of that"
+  * 夕飯をご馳走して頂いたのにタクシー代まで出して頂いて、ありがとうございます。
+    + Thank you for treating me to dinner, and on top of that, paying for the
+      cab.
+  * 田中さんは会社が倒産した`のに`泥棒にも入られて可哀想だ。
+- for purposes
+  * 海に行く`のに`水着を買った。
+    + For going to the beach, I bought swimwear.
 
 ## ので
 
@@ -1594,59 +1642,6 @@ ____
   * examples
     + 熱い`ので`、気をつけてください。 - It is hot, so please be careful.
     + 熱い`から`、気をつけてね。 - It is hot, so be careful.
-
- ## のに
-
-- a conjunctive particle
-- similar to "but" or "though"
-- to show that something has deviated from the expectation
-- it focuses on the unexpectedness of the situation and expresses surprise or
-  frustration
-- used in connecting sentences
-  * examples
-    + クーラーをつけた`のに`全然涼しくならなかった。 - I turned on the AC but it
-      wasn't getting any cooler.
-    + レモンな`のに`すごく甘い。 - It's a lemon but it's very sweet.
-    + 静かな`のに`眠れない。
-- it could be just a simple combination of の and に
-  * which has nothing to do with のに
-  * examples
-    + 牛乳は私のに入れないでね。 - Don't put milk into mine.
-- for expressing surprises
-  * examples
-    + 海子ちゃんはまだ五才な`のに`三ヶ国語も喋れるんだって。 - Even though Umiko
-      is only five years old, but she can speak three languages.
-    + 夜中の三時な`のに`、こんなに人がいる。 - It's three in the morning, but
-      there are this many people here.
-- for complaint and frustration
-  * examples
-    + せっかく掃除した`のに`、すぐにまた汚くなった。 - I made an effort to clean,
-      but right away it became cluttered again.
-      + せっかく or わざわざ is often used with it to emphasize the trouble the
-        speaker has been throguh
-    + あんなに勉強した`のに`、不合格だった。
-- used at the end of a sentence
-  * examples
-    + 夜中の三時な`のに`...。
-    + あんなに勉強したのに...。
-- for counterfactual wishes
-  * paired up with the conditional form たら and placed at the end of a sentence
-    + to express the wish or desire for things to be different from what they
-      are or were
-  * examples
-    + 電子レンジがあっ`たら`楽な`のに`（電子レンジはない）。 - If we had
-      a microwave, it would be easy, but (there's no microwave).
-- for "on top of that"
-  * examples
-    + 夕飯をご馳走して頂いたのにタクシー代まで出して頂いて、ありがとうございます。
-      Thank you for treating me to dinner, and on top of that, paying for the
-      cab.
-    + 田中さんは会社が倒産した`のに`泥棒にも入られて可哀想だ。 - I feel bad for
-      Tanaka as his company went bankrupt, and on top of that, he got broken
-      into as well.
-- for purposes
-  * examples
-    + 海に行く`のに`水着を買った。 - For going to the beach, I bought swimwear.
 
 ## が and けど
 
