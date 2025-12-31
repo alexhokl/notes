@@ -20,6 +20,9 @@
 - [Causative form させる](#causative-form-%E3%81%95%E3%81%9B%E3%82%8B)
 - [Voliltional form 〜よう](#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
 - [While 〜ながら](#while-%E3%80%9C%E3%81%AA%E3%81%8C%E3%82%89)
+- [Specific verbs](#specific-verbs)
+  * [する](#%E3%81%99%E3%82%8B)
+  * [なる](#%E3%81%AA%E3%82%8B)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -193,18 +196,8 @@ ____
 
 # する verb
 
-| Form              | Affirmative    | Negative           |
-| ---               | ---            | ---                |
-| Non-past          | 勉強する       | 勉強しない         |
-| Non-past, polite  | 勉強します     | 勉強しません       |
-| Past              | 勉強した       | 勉強しなかった     |
-| Past, polite      | 勉強しました   | 勉強しませんでした |
-| Te-form           | 勉強して       | 勉強しなくて       |
-| Potential         | 勉強できる     | 勉強できない       |
-| Passive           | 勉強される     | 勉強されない       |
-| Causative         | 勉強させる     | 勉強させない       |
-| Causative Passive | 勉強させられる | 勉強させられない   |
-| Imperative        | 勉強しろ       | 勉強するな         |
+- if a word is made of multiple kanji with on'yomi readings, it is likely it can
+be attached to する
 
 # Lost of the w sound
 
@@ -606,3 +599,159 @@ Note that all other conjugations of 買う use hiragana characters on the
   * ❌ 私はテレビを見ながら、姉は料理をした。
   * ⭕️ 私がテレビを見ている間に、姉は料理をした。
 - [although 〜ながら](./grammar.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
+
+# Specific verbs
+
+## する
+
+- to do
+  * 買い物をする
+  * 料理をする
+  * 掃除をする
+  * 洗濯をする
+  * 洗い物をする
+    + to do the dishes
+  * 宿題をする
+  * 仕事をする
+  * 腕立て伏せをする
+    + to do push-up
+  * 腹筋をする
+    + to do sit-up
+  * スクワットをする
+    + to do squats
+- to have
+  * 話しをする
+  * 議論をする
+  * 口論をする
+    + to have an argument
+  * 会議をする
+  * 経験をする
+    + to have an experience
+  * お茶をする
+  * パーティーをする
+  * 飲み会をする
+    + to have a drinking party
+  * 休憩をする
+  * 散歩をする
+  * 食事をする
+  * 旅行をする
+- to make
+  * commonly used when preparing something or makeing a public announcement
+  * 準備をする
+  * 予約をする
+  * 発表をする
+  * スピーチをする
+  * プレゼンをする
+    + to make (give) a presentation
+- to play
+  * ゲームをする
+  * かくれんぼをする
+    + to play hide-and-seek
+  * おにごっこをする
+    + to play tag
+  * ポーカーをする
+  * バスケットをする
+    + to play basketball
+  * テニスをする
+  * ハムレットをする
+    + to play Hamlet
+  * ハムレットの役をする
+    + to play the role of Hamlet
+  * exception is to play instruments
+    + ギターを弾く
+    + ピアノを弾く
+    + ピアノを演奏する
+    + exception is practicing music habitually
+      + え、ピアノしてるの？
+        + Oh, you're taking piano lessons?
+  * を is often dropped in casual conversation
+- to wear accessories
+  * 今日は赤いネクタイをしている。
+  * アクセサリーをする
+    + to wear accessories
+  * イヤリングをする
+    + to wear earrings
+  * ネックレスをする
+  * 指輪をする
+  * 腕時計をする
+  * メガネをする
+  * サングラスをする
+    + to wear sunglasses
+  * コンタクト（レンズ）をする
+  * to wear contact lenses
+  * スカーフをする
+  * ネクタイをする
+- to select something
+  * これにする。
+    + I'll go with this one.
+  * どれにする？
+    + Which one are you going to pick?
+  * ケーキセットにする。
+    + I'm gonna do the cake set.
+  * そろそろランチにする？
+    + Want to do lunch soon?
+    + it implies that the action in question can be taken at your discretion or
+      the listener's and it kind of suggesting options available
+- to indicate how much something costs (especially it is too expensive)
+  * げ、一万円する！
+  * げ、一万円もする！
+    + も helps to emphasize the high price
+- for someone do for a living
+  * チームリーダーをすることになった。
+    + It turns out that I will be the team leader.
+  * 兄は警察官をしている。
+    + My older brother works as a police officer.
+  * マネージャーをしています。
+    + I work as a manager.
+- for turning one thing into another
+  * use を to mark thing being changed and に to mark the result
+  * カナエを社長にする。
+    + I'll make Kanae the company president.
+  * テストを簡単にする。
+    + I'll make the test easy.
+  * if the result is an い-adjective に should not be used
+    + 髪型をかわいくする。
+- to use with adverbs forms of adjectives
+  * to indicate the act of doing something in a certain manner
+  * 早くしなさい！
+  * ゆっくりしてくださいね。
+    + although ゆっくり means slowly, it implies "to enjoy doing something at your
+      own pace", "make themselves at home", "enjoy their stay", or "take it
+      easy"
+  * 彼女のこと、大事にするんだぞ！
+    + You should look after your girlfriend.
+    + 大事にする indicates the act of "treating something with care"
+  * 冷房、もうちょっと強くしてくれない？
+    + Can you turn up the A/C a little more?
+- to use with onomatopoeia
+  * ドキドキする
+    + ドキドキ is onomatopoeia for heartbeats
+  * ドキッとする
+    + to feel shocked
+  * はっとする
+    + to be stunned
+  * びくりとする
+    + to get startled
+    + と is used if the unrepeated onomatopoeia has 3 or more syllables
+- to report on sensations
+  * including smell, taste, or on feelings the speaker experiences
+  * use が to mark the sensation
+  * コーヒーのにおいがする。
+  * 味がする。
+  * においがする。
+  * イチゴの味がする。
+  * いいにおいがする。
+  * 悲しい気持ちがする。
+  * あの郵便屋さんが犯人な気がする。
+    + I have a feeling that mailman is the bad guy.
+  * 今年は日本に行ける気がする。
+    + I have a feeling that I can go to Japan this year.
+- する verbs
+  * besides kanji, loanwords can be used as well
+  * ドライブする
+    + to drive
+  * the difference between 旅行する and 旅行をする
+    + when を is used, it puts a little more focus is on the specific action
+      (travelling) rather than on the doing itself
+
+## なる

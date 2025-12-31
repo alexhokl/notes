@@ -882,7 +882,9 @@ ____
 - 一度 (いちど) - once; one time
 - この間 (このあいだ) - the other day; recently; during this period
 - 今度 (こんど) - next time; this time; recently
+- 屹度 (きっと) - surely
 - 最近 (さいきん) - recently; lately
+- 暫く (しばらく) - for a moment; for a while; for the time being
 - 些とも (ちっとも) - not at all
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
@@ -978,6 +980,8 @@ ____
 - 積もり (つもり) - intention; plan; belief; estimate
 - 喧嘩 (けんか) - quarrel; fight; brawl; argument
 - 以上 (いじょう) - above; note less than; that is all
+- 男性 (だんせい) - male
+- 女性 (じょせい) - female
 
 ### nouns (academic)
 
@@ -1202,6 +1206,7 @@ ____
 - つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
 - まあ - well; I mean
+- 先ず (まず) - first (of all)
 - 勿論 (もちろん) - of course; certainly; naturally
 - 矢張り (やはり) - as expected; after all (aka やっぱり)
 
@@ -1302,6 +1307,7 @@ ____
 - 書類 (しょるい) - documents; papers
 - 間違い (まちがい) - mistake; error
 - 文句 (もんく) - complaint
+- 匂い (におい) - smell; odour; scent
 
 ### nouns (animals)
 
