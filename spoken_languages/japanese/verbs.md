@@ -23,6 +23,7 @@
 - [Specific verbs](#specific-verbs)
   * [する](#%E3%81%99%E3%82%8B)
   * [なる](#%E3%81%AA%E3%82%8B)
+  * [すぎる](#%E3%81%99%E3%81%8E%E3%82%8B)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -755,3 +756,115 @@ Note that all other conjugations of 買う use hiragana characters on the
       (travelling) rather than on the doing itself
 
 ## なる
+
+- patterns
+  * noun + に + なる
+  * な-adjective + に + なる
+  * い-adjective + く + なる
+  * に can be replaced with と
+    + と indicates that the thing/state/event has reached its ultimate stage,
+      and it sounds formal and literary
+  * negative patterns
+    + noun/な-adjective/い-adjective + なく + なる
+    + 人気じゃなくなる
+    + 嬉しくなくなる
+- to become
+  * モデルになる
+  * 有名になる。
+  * いそがしくなる。
+  * ここはアイスクリーム屋さんになる。
+  * きっと人気になる。
+  * このアイスクリーム屋さんは人気のお店となった。
+  * 嬉しくなった。
+- to begin to do something
+  * verb + よう + に + なる
+  * it is rare but よう can be written as 様
+  * ブロッコリーを食べるようになった。
+    + He began to eat broccoli.
+  * ブロッコリーを食べられるようになった。
+    + He began to be able to eat broccoli.
+  * in a negative statement, よう would be dropped
+    + またブロッコリーを食べなくなった。
+      + He stopped eating broccoli again.
+- looks like someone or something is going to do
+  * verb in stem form + そう + に + なる
+  * 泣きそうになった。
+    + I almost cried.
+  * 遅れそうになった。
+    + I was almost late.
+- to talk about plans that have been decided on, or about situations and
+  circumstances that have turned out a certain way
+  * it implies that the conclusion or outcome emerged naturally or
+    unintentionally
+  * it can also be used to describe the current state of a situation that the
+    speaker have confirmed
+  * ... + こと + に + なる
+  * 日本旅行、キャンセルすることになった。
+    + We had to cancel the trip to Japan.
+  * 日本旅行、来月行くことになった。
+    + We decided to travel to Japan next month.
+  * やばいことになった。
+    + I'm in trouble.
+  * する should be used instead of なる when the outcome is the result of a
+    deliberate decision
+  * こと can be dropped in casual conversations
+    + 日本旅行、キャンセルになった。
+    + 日本旅行、来月になった。
+- for natural consequences that follow a certain change
+  * ... + にもなる
+  * it usually refers to time, age, a role, or an event
+  * 六才にもなると、こんなことも出来るんだね。
+    + When a kid turns six years old, they can do this kind of thing, huh?
+- for based on that
+  * となると + , + ...
+  * となると、しばらく会社には来れませんね。
+- to be composed of
+  * generally used in formal writing
+  * 日本の議会は衆議院と参議院からなる。
+  * 日本の議会は衆議院と参議院からなっている。
+
+## すぎる
+
+- derived from the verb 過ぎる (to pass)
+- it has a relatively netural tone
+- patterns
+  * verb in stem form + すぎる
+  * い-adjective without い + すぎる
+  * な-adjective + すぎる
+  * noun + の + すぎる
+- too much
+  * 食べすぎた。
+  * 安すぎる！
+  * お得すぎる！
+    + It's SUCH a good deal!
+- for not ... at all
+  * verb/adjective in plain negative form and replace い with さ + すぎる
+  * 面白くなさすぎる！
+    + It's not funny at all!
+    + it carries a more subjective tone and it more expressive and humorous than
+      全然面白くない！
+  * うちの子は 野菜を食べなさすぎる！
+    + it does not necessarily mean the kid would not eat vegetables at all;
+      rather, it suggests that the speaker have a sort of baseline for not
+      eating enough vegetables, and the amount of vegetables the child does not
+      eat goes beyond that threshold
+- using すぎる as a noun
+  * 食べすぎは体に良くない。
+  * 飲みすぎで頭が痛い。
+  * いつも食べすぎだよ。
+- 〜すぎです vs 〜すぎます
+  * 食べすぎ vs  食べすぎる
+    + 食べすぎ is a noun that refers to a specific state whereas 食べすぎる is a
+      verb that refers to what someone does
+  * 日本の夏は暑すぎです。
+    日本の夏は暑すぎます。
+    + meaning is the same
+    + noun form is regarded as more informal and colloquial
+- for it is never too ...
+  * ... + ても + ... + すぎることはない
+  * 運転中は、注意しても、しすぎることはない。
+    + While driving, you can never be too careful.
+    + to convey "the more careful, the better"
+  * お客様へのメールの返信は、どんなに早くても、早すぎることはないですからね。
+    + It's never too soon to respond to our clients' emails.
+

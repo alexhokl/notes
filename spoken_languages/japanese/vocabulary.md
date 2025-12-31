@@ -1888,6 +1888,7 @@ ____
   table-top cast-iron pan
 - 大盛り (おおもり) - large serving; extra portion
 - 並盛 (なみもり) - normal serving
+- 飯 (まんま) - food (children's language)
 
 ### nouns (fish)
 
