@@ -289,10 +289,6 @@ done
 Note that to generate another set of subkeys, run the above `for` loop for
 another time.
 
-```sh
-gpg --expert --edit-key $KEYID
-```
-
 Once all sets of new [subkeys](https://github.com/drduh/YubiKey-Guide#sub-keys)
 are generated, the [master key](./gpg.md#to-export-private-key),
 [subkeys](./gpg.md#to-export-sub-keys) and public key should be exported.
@@ -307,6 +303,10 @@ The master key and subkeys should be stored offline. Since the private key of
 subkeys are still on machine, the subkeys can then be transferred to Yubikey(s)
 (see [Transfer
 Subkeys](https://github.com/drduh/YubiKey-Guide#transfer-subkeys)).
+
+```sh
+gpg --expert --edit-key $KEYID
+```
 
 To transfer the set of subkeys to another YubiKey, the keygrips on the machine
 has to be removed first (and only the key grips that has been transferred
