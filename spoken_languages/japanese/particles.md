@@ -714,6 +714,76 @@ ____
     + 今の時代、外国語の一つ`や`二つは勉強しておいた方がいい。 - In this day and
       age, it is better to learn a foreign language or two.
 
+## し
+
+- patterns
+  * noun + だ + し
+  * な-adjective + だ + し
+  * い-adjective + し
+  * vreb in plain form + し
+- and what's more
+  * usage is very similar to や
+  * 花子は優しいし、かしこい。
+    + Hanako is generous and smart.
+    + although grammatically て can also be used, し places extra emphasis on
+      the fact that 花子 has multiple desirable qualities
+  * 花子は優しいし、かしこいし、かわいらしい。
+  * 花子は優しいし、かしこいし、かわいらしいし…。
+  * この道は暗いし、危ない。
+  * この道はもう暗くないし、危なくない。
+  * この道は暗かったし、危なかった。
+    + This street was dark and dangerous.
+  * この道は暗いし、危なかった。
+    + This street was dark and dangerous.
+  * 私の彼氏は、有名だし、モデルだし、かっこいい。
+  * 私の彼氏は、有名だったし、モデルだったし、かっこよかった。
+  * うちの犬は、テレビも見るし、新聞も読む。
+  * うちの犬は、テレビも見れるし、新聞も読める。
+  * うちの犬は、テレビも見れたし、新聞も読めた。
+  * うちの犬は、テレビも見ますし、新聞も読みます。
+    + Our dog watches TV and reads the newspaper.
+  * うちの犬は、テレビも見るし、新聞も読みます。
+    + Our dog watches TV and reads the newspaper.
+  * この靴は、デザインも可愛いし、値段も安い。
+    + note the use of も
+  * アイツは、お金もないし、才能もない。
+- to mark a reason or cause
+  * so
+  * it adds some abiguity by suggesting there are more reasons
+    + if it is used in a negative sentence, it has functionality to soften the
+      tone as a sign of politeness
+  * 天気もいいし、ピクニックに行かない？
+    + も and し hint that the good weather is not the only reason for the invite
+  * 雨が降るみたいだし、違う日にしない？
+  * it should not be used when the reasons are certain and needs to be
+    communicated
+    + から or ので should be used instead
+  * to use し and から or ので at the same time
+    + 雨が降るみたいだから、違う日にしない？(casual)
+    + 雨が降るみたいなので、違う日にしませんか？ (formal)
+- to use with んだ
+  * to add a sense of providing an explanation when giving someone advice
+  * もうすぐ二十歳になるんだし、もう少ししっかりしたら？
+    + Now that you're almost twenty, why don't you get a little more organized?
+- to list reasons or causes for unfavourable situations
+  * it is often used with で
+  * 長いし、面白くないしで、ほんと、帰りたかったよ。
+    + It was long and uninteresting, and I really wanted to leave.
+  * こっちは、子供は生まれるし、仕事はクビになるしで、ほんとやばいよ。
+    + I'm having a baby, but I got fired from my job. I'm in a really terrible
+      situation.
+  * こっちは、子供も生まれるし、仕事もクビになるしで、ホントやばいよ。
+- to end a sentence with し
+  * to give a hint that "the list goes on"
+  * often used ub casyak settings to share the speaker's personal stance and it
+    can sound a bit slangy
+  * 次の日試験があるし…。
+    + I have an exam the next day, so….
+  * マジで嫌だし！
+    + I really hate it!
+  * やばい、赤ちゃんめっちゃ可愛いし！
+    + Oh man, the baby is so cute!
+
 ## ね
 
 - a sentence ending particle

@@ -19,11 +19,15 @@
 - [Command form (imperative) 〜なさい](#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
 - [Causative form させる](#causative-form-%E3%81%95%E3%81%9B%E3%82%8B)
 - [Voliltional form 〜よう](#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
+- [そう](#%E3%81%9D%E3%81%86)
 - [While 〜ながら](#while-%E3%80%9C%E3%81%AA%E3%81%8C%E3%82%89)
 - [Specific verbs](#specific-verbs)
   * [する](#%E3%81%99%E3%82%8B)
   * [なる](#%E3%81%AA%E3%82%8B)
+  * [ことがある](#%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B)
   * [すぎる](#%E3%81%99%E3%81%8E%E3%82%8B)
+  * [ている](#%E3%81%A6%E3%81%84%E3%82%8B)
+  * [ていた](#%E3%81%A6%E3%81%84%E3%81%9F)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -588,6 +592,37 @@ Note that all other conjugations of 買う use hiragana characters on the
     + こんなこともあろう(か)と思って、これを持ってきたんだよ。
       + I guessed this might be the case, so I've brought this.
 
+# そう
+
+- looks like someone or something is going to
+- patterns
+  * verb in stem form + そう
+- in grammatical terms, it behaves like a な-adjective
+- for interpreting thing we can see
+  * 今にも雨が降りそうです。
+  * あの木、倒れそうだよ！
+  * 雨が降りそうな空
+- to talk about things that you thin you ar going to do based on the way you
+  feel
+  * usually without wanting to do them
+  * a sense of picturing yourself feeling a certain feeling or emotion
+  * つらい。泣きそう。
+    + This is tough. I think I'm going to cry.
+  * 残念ながら、この美味しいケーキを残しそうなんです。
+  * A: マラソンに一緒に出ない？
+    B: やだよ、すごい疲れそう。
+    * B is imagining themselves being tired from running the marathon
+- scenarios そう should not be used
+  * to give your interpretation of something that happened in the past
+    + そう is based on the current feelings
+    + 〜らしい or 〜よう should be used instead
+- past tense of そう has a different meaning
+  * to report something the speaker heard
+  * あの木倒れたそうだよ！
+    + I heard that that tree fell down!
+  * 昨日は雨が降りそうだったが、結局降らなかった。
+  * 昨日は雨が降りそうでしたが、結局降りませんでした。
+
 # While 〜ながら
 
 - [basic patterns](./patterns.md#while)
@@ -823,6 +858,72 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 日本の議会は衆議院と参議院からなる。
   * 日本の議会は衆議院と参議院からなっている。
 
+## ことがある
+
+- to talk about things you do only on occasion
+- こと has the meaning of "times" or "occasions"
+  * "There are time I do ..."
+- patterns
+  * verb in plain form + ことがある
+  * い-adjective + ことがある
+  * な-adjective + な + ことがある
+  * noun + の + ことがある
+  * noun + である + ことがある (more formal)
+- basic examples
+  * 日本語で話す事がある。
+    + There are times I speak in Japanese.
+  * このフレーズを使う事がある
+    + There are times I use this phrase.
+  * 出張で日本に行くことがある。
+    + I sometimes go to Japan on business.
+  * 飛行機の中は、臭いことがある。
+  * 飛行機の中は、静かなことがある。
+  * ダブルブッキングのことがある。
+    + There's sometimes a double-booking.
+  * ダブルブッキングであることがある。
+    + There's sometimes a double-booking.
+  * 時々、紙の辞書を使うことがある。
+- there are times it combines with よく (often) or 結構よく (quite often)
+  * but it never works with いつも
+- が can be dropped or be replaced with は or も
+  * 日本語の文法は、面白いこともある。
+    + using が would lose the implication of it also sometimes being challenging
+      as が　does not imply a comparison
+  * 割れていることもあるから、いつも中身をチェックする。
+    + Sometimes they're cracked, so I always check inside.
+    + the nuance of も is that most of the time the eggs are all fine, but there
+      are also times when some eggs are broken
+- for things that never happen
+  * ここのラーメンは、まずいことがない。
+  * 私はクッキーを作ることがない。
+    + I never make cookies.
+  * 私はクッキーを作ることが全然ない。
+    + I don't make cookies at all.
+  * 私はクッキーを作ることがほとんどない。
+    + I rarely make cookies.
+- to ask if someone ever has any occasion to do something
+  * アニメを見ることがありますか？ (dramatic)
+  * アニメを見ることはある？
+  * アニメを見ることってある？ (colloquial)
+  * アニメを見ること、ある？ (colloquial)
+  * 日本に行ったことはありますか？
+  * 日本に行ったことってありますか？ (colloquial)
+  * 日本に行ったこと、ありますか？ (colloquial)
+- for "sometimes this, sometimes that"
+  * combine with usage of こともあれば
+  * オレから彼女に電話することもあれば、彼女からかかってくることもある。
+    + Sometimes I call my girlfriend, and sometimes she calls me.
+  * 彼女は優しいこともあれば、怖いこともある。
+  * 本当のこともあれば、ウソのこともある。
+    + Some things are true, but some are false.
+- double negative
+  * お風呂に入らないことがない。
+    + He never misses a bath.
+  * note that, if switching from が to は, it changes the meaning significantly
+    + お風呂に入らないことはないけど、嫌がるんだよね。
+      + It's not that he doesn't take a bath, but he resists it.
+      + it is also common to simply end the sentence with けど
+
 ## すぎる
 
 - derived from the verb 過ぎる (to pass)
@@ -868,3 +969,66 @@ Note that all other conjugations of 買う use hiragana characters on the
   * お客様へのメールの返信は、どんなに早くても、早すぎることはないですからね。
     + It's never too soon to respond to our clients' emails.
 
+## ている
+
+- in casual situations it can become てる (dropping い)
+- 住む
+  * 私は東京に住んでいる。
+- 死ぬ
+  * 虫が死んでいる。
+    + The bug is dead.
+  * 虫が死にかけている。
+    + The bug is dying.
+    + かける means "half-done" or "not yet finished"
+- 落ちる
+  * 財布が落ちている。
+    + There is a wallet on the ground.
+  * 財布が落ちかけている
+    + The wallet is falling.
+- 疲れる
+  * 今日はとても疲れている。
+    + I'm very tired today.
+- use with もう and まだ
+  * このカフェはもう開いている。
+    + This coffee shop is already open.
+  * このカフェはまだ開いていない。
+    + This coffee shop isn't open yet.
+  * そのカフェはまだ開かない。
+    + The coffee shop still won't open.
+    + without using ている to describe the current state, it sounds like the
+      coffee shop would not open anytime soon
+- 知る
+  * it has the meaning of the change in the state from "not knowing" to "knowing"
+  * the scenarios when ている is not used
+    + トーフグというウェブサイトで、知った。
+      + I learned about it on the Tofugu website.
+- Kansai dialect
+  * いてる to describe existence for a temporary period
+    + 待ってる間、あそこのカフェにいてるわ！
+      + I'll be at that cafe while waiting for you.
+      + standard Japanese: 待ってる間、あそこのカフェにいるよ！
+- when two interpretations are possible
+  * generally only possible when the subject is plural
+  * the actual meaning can only be interpreted correctly with the context
+  * この戦争では、多くの戦士が死んでいる。
+    + In this war, many soldiers have died.
+    + In this war, many soldiers are dying.
+  * うわぁ、葉っぱがたくさん落ちている。
+    + Wow, tons of leaves are on the ground.
+    + Wow, tons of leaves are falling.
+    + うわぁ、葉っぱがたくさん舞い落ちている。
+      + Wow, tons of leaves are fluttering down.
+
+## ていた
+
+- for results of actions
+  * 朝起きたら、お母さんがもう出ていた。
+    + When I woke up in the morning, my mom had left already.
+    + 朝起きたら、お母さんが出た。
+      + Exactly the moment when I woke up in the morning, my mom was leaving.
+- for casual conversations, ていた is often contracted to てた
+- it is sometime interchangeable with ている if it is used in the middle of a
+  sentence
+  * ⭕️日本に住んでいる時に、日本語を習った。
+  * ⭕️日本に住んでいた時に、日本語を習った。
+-
