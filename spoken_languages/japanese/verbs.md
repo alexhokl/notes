@@ -31,6 +31,7 @@
   * [すぎる](#%E3%81%99%E3%81%8E%E3%82%8B)
   * [ている](#%E3%81%A6%E3%81%84%E3%82%8B)
   * [ていた](#%E3%81%A6%E3%81%84%E3%81%9F)
+  * [ておく](#%E3%81%A6%E3%81%8A%E3%81%8F)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -1096,4 +1097,80 @@ Note that all other conjugations of 買う use hiragana characters on the
   sentence
   * ⭕️日本に住んでいる時に、日本語を習った。
   * ⭕️日本に住んでいた時に、日本語を習った。
--
+
+## ておく
+
+- 置く means to put or to place
+- it is written in kana
+- ランチを食べておく
+- conjugation
+  * verb in て form + おく
+  * in casual speech, ておく or でおく often becomes とく or どく respectively
+- for doing something in advance
+  * 来年日本に行くので、日本語を勉強しておく。
+  * 今のうちに、勉強しておこう。
+    + While I have time, I should get some studying done.
+      + it implies the speaker is aware that there is no guarantee that they will
+        have time later
+  * じゃあ、私が予約しておくよ！
+    + comparing to じゃあ、私が予約するよ！, it has nuance that "I've got it
+      covered"
+  * 悪いんだけど、予約しておいてくれないかな？
+    + I'm sorry (to ask you this), but can you make a reservation for us?
+    + it has a naunce of "when you get a chance"
+- for doing something as a temporary or tentative solution
+  * どうしよ？ とりあえず、なんか頼んでおく？
+    + What should we do? Should we order something to get started?
+    + とりあえず (for the time being)
+  * ここに置いておくね！
+    + I'll put it here, alright?
+      + when you place the towel somewhere in the bathroom for them
+  * このトピックは、この辺で終わりにしておきましょう。
+    + Let's wrap up this topic right around here.
+- for leaving something or someone as-is
+  * 店の前に自転車をとめておいたら、盗まれた。
+    + the focus of the sentence is on the abandoned state of the bike
+  * 〜のままにしておく (to leave it as 〜) can also be used
+  * それ、そのままにしておくのは、危ないと思うよ。
+    + I think it's dangerous if you leave it like that.
+    + compare to それ、そのままに[する]のは、危ないと思うよ。, the speaker
+      assumes the listener would neglect and leave it that way if the speaker
+      did not say anything
+  * 電気をつけっぱなしにしておいたら、怒られた。
+    + I left the light on and got scolded.
+  * 電気をつけっぱなしにしておく
+    + for security purpose perhaps
+- for a mix of above meanings
+  * 分かりました。返却しておきますね。
+    + Okay, I'll return them for you.
+    + "getting things done in advance" and "doing something for now"
+  * 電話をして、謝罪はしておいたよ。
+    + I called them and apologized. (Your manager said)
+    + "getting things done in advance" and "doing something for now"
+  * とりあえず、ここに停めておこうかな。
+    + I think I'll just park here for now. (assume that the parking only have
+      one-hour limit and it is not long enough)
+    + leaving the car as-is and also doing it as a temporary solution
+  * うわっ、三十年前に買っておいた缶詰じゃん。すっかり忘れてた！
+    + Wow, that's the canned food I bought and left there thirty years ago. I
+      forgot all about it!
+    + "getting things done in advance" and "leaving something as-is"
+- for letting someone continue to do
+  * 〜させておく
+  * このまま寝かせておいてあげよう。
+    + I should just let her sleep.
+  * アイツはもう少し泳がせておこう。
+    + Let's let him swim a little longer. (assuming a detective let the bad guys
+      be free for a little longer before the eventual arrest)
+      + swim means "cat and mouse"
+- compare to 〜てある
+  * てある is object-centered whereas ておく is person-centered
+  * 出かける前に、夕飯を作っておくから。
+    + I'll make dinner before I go out.
+    + てある cannot be used as the dinner has not been perpared yet
+  * ⭕️夕飯、作っておいたからね！
+    + The dinner is already made, okay?
+  * ⭕️夕飯、作ってあるからね！
+    + The dinner is already made, okay?
+      + the focus is on the dinner; the person who made is present as a
+        background information
