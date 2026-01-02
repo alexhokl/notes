@@ -7,6 +7,7 @@
 - [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
 - [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
 - [なら if](#%E3%81%AA%E3%82%89-if)
+- [かも知れない](#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
 ____
 
 # noun
@@ -201,3 +202,13 @@ Note the change in sounds between く, き and こ.
 | い-adjective (past) | 高かったなら   | 高くなかったなら     |
 | verb (past)         | 行ったなら     | 行かなかったなら     |
 
+# かも知れない
+
+| Form            | Affirmative          |
+| ---             | ---                  |
+| non-past        | かもしれない         |
+| non-past polite | かもしれません       |
+| non-past polite | かもしれないです     |
+| past            | かもしれなかった     |
+| past polite     | かもしれませんでした |
+| past polite     | かもしれなかったです |

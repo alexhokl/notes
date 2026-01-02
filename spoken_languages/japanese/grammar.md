@@ -20,6 +20,7 @@
 - [Auxiliary verbs](#auxiliary-verbs-1)
 - [Compounds](#compounds)
   * [のだ](#%E3%81%AE%E3%81%A0)
+  * [かも知れない](#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
 - [Conjunctions](#conjunctions)
   * [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
   * [なら if](#%E3%81%AA%E3%82%89-if)
@@ -425,6 +426,85 @@ ____
   * ちゃんと毎日朝ごはん食べるんだよ。
     + in the context of the listener probably does not have the habit of eating
       breakfast every day
+
+## かも知れない
+
+- may or might
+- similar to と思う or だろう but かもしれない shows the weakest degree of
+  confidence towards the assumption
+- patterns
+  * attach to a plain form
+  * noun + かもしれない
+  * な-adjective + かもしれない
+  * い-adjective + かもしれない
+  * verb in plain form + かもしれない
+- it is usually followed by から or けど
+- [conjugations](./conjugations.md#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
+- in casual conversations, it is often contracted to かも
+- basic examples
+  * ピザ屋さんかもしれない。
+  * 雨が降るかもしれない。
+  * 猫かもしれない。
+    + It might be a cat.
+  * 猫だったかもしれない。
+    + It might have been a cat.
+  * 猫じゃないかもしれない。
+  * 猫ではないかもしれない。
+  * 有名かもしれない。
+  * 有名だったかもしれない。
+  * 有名じゃないかもしれない。
+  * 有名ではないかもしれない。
+  * 面白いかもしれない。
+  * 面白かったかもしれない。
+  * 面白くないかもしれない。
+  * 食べるかもしれない。
+  * 食べたかもしれない。
+  * 食べないかもしれない。
+  * 雨が降るかもしれないから、傘を持っていったら？
+  * 雨が降るかもしれないけど、傘はいらない。
+  * 来年の春、日本に行くかも。
+  * 春だったら、桜が満開かも。
+  * 春だったら、桜が満開かもだから、写真撮ってきてね。
+- common expressions
+  * もしかしたら、バズるかもしれない。
+    + Perhaps, it might go viral.
+  * もしうまくいけば、バズるかもしれない。
+    + If it goes well, it might go viral.
+  * もしうまくいったら、バズるかもしれない。
+    + If it goes well, it might go viral.
+  * 確かに、バズるかもしれない。
+    + this is correct as 確かに is not expressing the likelihood but agreeing
+      with the previous statement
+- it does not work with adverbs with high certainty
+  * 多分
+  * きっと
+  * 必ず
+- for adding ambiguity to how speaker feel
+  * めっちゃ楽しみかもしれない。
+    + this is used as Japanese people have a tendency to avoid expressing their
+      feelings in a direct way
+  * すきかも。
+    + I might be in love with you.
+  * このアイディア、面白いかもしれません。
+    + This idea might be interesting.
+- use with の
+  * 生魚は食べないのかもしれない。
+    + without の, the first sentence seems like the speaker is purely guessing
+    + with の, it appears that something occurred prior to the speech, and the
+      speaker is making a hypothesis based on the incident
+  * 明日は雪なのかもしれない。
+  * 金が必要なのかもしれない。
+    + They may need money.
+- to sound more archaic or authoritative
+  * replace ない with め
+  * no one would use it this way in real life nowadays
+  * アイツは来ないかもしれぬ。
+    + That guy might not show up.
+- for casual conversations
+  * replace ない with ん
+  * this is common in Kansei dialect
+  * アイツ、まだ寝てんのかもしれん。
+    + That guy might still be sleeping.
 
 # Conjunctions
 

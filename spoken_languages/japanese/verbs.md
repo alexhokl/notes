@@ -19,6 +19,9 @@
 - [Command form (imperative) 〜なさい](#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
 - [Causative form させる](#causative-form-%E3%81%95%E3%81%9B%E3%82%8B)
 - [Voliltional form 〜よう](#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
+- [たりする](#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
+- [たい](#%E3%81%9F%E3%81%84)
+- [たがる](#%E3%81%9F%E3%81%8C%E3%82%8B)
 - [そう](#%E3%81%9D%E3%81%86)
 - [While 〜ながら](#while-%E3%80%9C%E3%81%AA%E3%81%8C%E3%82%89)
 - [Specific verbs](#specific-verbs)
@@ -591,6 +594,68 @@ Note that all other conjugations of 買う use hiragana characters on the
   * idomatic usages
     + こんなこともあろう(か)と思って、これを持ってきたんだよ。
       + I guessed this might be the case, so I've brought this.
+
+# たりする
+
+- links things together to create a list of actions of states of being
+- kind of like や
+- it works with verbs, adjectives and nouns
+  * や only works with nouns
+- conjugation
+  * past form
+    + purely functional and does not indicate past tense
+- pattern
+  * ... + たり + ... + たりする
+- compare to て
+  * it does not imply there is more than what is listed
+- examples
+  * 公園で自転車に乗ったりバレーボールしたりした。
+  * この辺は暑かったり寒かったりします。
+  * その図書館は静かだったりうるさかったりします。
+  * お昼ごはんはサラダだったりおにぎりだったりする。
+    + Sometimes, my lunch is salad, and other times it is onigiri (and sometimes
+      is something else).
+    + たり lists a few possible scenraios; や lists a few items in a scenario
+  * お昼ごはんはサラダやおにぎりだったりします。
+    + Sometimes, my lunch is salad, onigiri, etc.
+
+# たい
+
+- speaker's desire to do something
+  * not someone else's desire
+- conjugation
+  * verb in stem form + たい
+- for expressing spkeaker's desire
+  * トイレに行きたい。
+  * パイロットになりたい。
+    + I want to become a pilot.
+- to express someone else's desire
+  * use と言っていた
+    + 木村さんはお好み焼きを食べたいと言っていた。
+  * use そうだ (I heard that)
+    + 田中さんは木村さんと飲みに行きたいそうだ。
+  * use そうだ (it looks like)
+    + 田中さんは帰りたそうだ。
+  * use らしい (it seems that)
+    + 木村さんは喧嘩したいらしい。
+  * use のです
+    + 木村さんはお好み焼きを食べたいんです。
+      + (The situation is) Kimura-san wants to eat okonomiyaki.
+
+# たがる
+
+- to express someone else's desire to do something
+- がる means showing signs of
+- conjugation
+  * verb in stem form + たがる
+- present tense
+  * うちの犬はいつも外に出たがる！
+- continuous form for current desires
+  * 木村さんは食べたがっている。
+  * 木村さんは走りたがっている。
+  * 木村さんは喧嘩したがっている。
+- negative desires
+  * 木村さんは走りたがらない。
 
 # そう
 
