@@ -32,6 +32,7 @@
   * [ている](#%E3%81%A6%E3%81%84%E3%82%8B)
   * [ていた](#%E3%81%A6%E3%81%84%E3%81%9F)
   * [ておく](#%E3%81%A6%E3%81%8A%E3%81%8F)
+  * [てほしい](#%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -1133,7 +1134,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 〜のままにしておく (to leave it as 〜) can also be used
   * それ、そのままにしておくのは、危ないと思うよ。
     + I think it's dangerous if you leave it like that.
-    + compare to それ、そのままに[する]のは、危ないと思うよ。, the speaker
+    + compare to それ、そのままにするのは、危ないと思うよ。, the speaker
       assumes the listener would neglect and leave it that way if the speaker
       did not say anything
   * 電気をつけっぱなしにしておいたら、怒られた。
@@ -1174,3 +1175,85 @@ Note that all other conjugations of 買う use hiragana characters on the
     + The dinner is already made, okay?
       + the focus is on the dinner; the person who made is present as a
         background information
+
+## てほしい
+
+- 欲しい (ほしい) means wanting, desiring or whishing for
+- to express the speeker's desire for something
+  * 掃除機がほしい
+- to express the speaker's desire for someone to do something
+  * 掃除機をかけてほしい。
+    + I want you to vacuum.
+    + it sounds pretty strong and possibly rude
+- to express the speaker's for something to happen
+  * 早く終わってほしい。
+    + I want this to end quickly.
+- conjugation
+  * verb in て form + ほしい
+- it behaves like an い-adjective
+- the information about who the speaker wants to do the thing is often omitted
+  when it is clear from the context or not critical
+  * に is used to mark the person when it is necessary to specify
+    + 母に掃除機をかけてほしい。
+      + I want my mom to vacuum.
+    + use も or にも to express a stronger desire
+      + 母にも掃除機をかけてほしい。
+        + I want my mom to vacuum too.
+  * が is used to mark the thing when it is necessary to specify
+    + Wi-Fiがあってほしい。
+      + I hope there's Wi-Fi.
+    + 雪が降ってほしい。
+      + I want snow to fall.
+    + exceptions when the speaker is very attached to the thing
+      + ふわふわの雪に降ってほしい
+        + I want fluffy snow to fall
+      + この曲に売れてほしい。
+        + I want this song to sell well.
+- to talk about things that the speaker wish had happened but did not
+  * use past tense
+  * もっと早く教えてほしかったよ。
+    + I wish someone had taught me that way earlier.
+  * もっと上がってほしかったなぁ。
+    + I wanted it to go up more. (assuming price of a company did not raise
+      further)
+- for not wanting someone to do something
+  * two ways to express
+    + そういうことは言ってほしくない。
+      + I don't want you to say things like that.
+    + そういうことは言わないでほしい。
+    + I want you not to say things like that.
+      + it has a stronger tone as it has 言わない
+- for do you want me to
+  * needs to be done in a raising tone (question tone)
+  * 一緒に勉強してほしい。
+    + I want you to study with me. (normal tone)
+  * 一緒に勉強してほしい？
+    + Do you want me to study with you? (raising tone)
+  * おもしろい情報ゲットしたんだけど、教えてほしい？
+    + I got some interesting information. Do you want me to tell you about it?
+- 〜させてほしい
+  * to express the speaker's desire for someone to give the speaker permission
+    to do something
+    + 留学させてほしい。
+      + I want you to let me study abroad.
+    + アメリカに行かせてほしい。
+      + I want you to let me go to the US.
+  * to express the speaker's desire for someone to force someone else to do
+    something
+    + ６時までに夕食を食べさせてほしい。
+      + I want you to have dinner by six o'clock.
+- to talk about someone else's desire
+  * 〜てほしがる
+  * 子供たち、ずっと遊んでほしがるんだよ。
+    + The kids always want me to play with them.
+  * 子供がお菓子を買ってほしがる。
+- to make request in a more polite way
+  * adding polite elements to make it slightly less direct
+    + it should only be used to talk to people on friendly terms
+  * リビングを掃除してほしいんだけど、お願いできるかな？
+    + I want you to clean the living room. If you don't mind, can I ask you to
+      do it?
+  * この資料を確認してほしいんですが、お願いしてもいいですか？
+  * more polite versions
+    + この資料を確認してもらいたいんですが、お願いしてもいいですか？
+    + この資料を確認していただきたいんですが、お願いしてもよろしいでしょうか？
