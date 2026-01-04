@@ -28,6 +28,7 @@
   * [自分 (じぶん)](#%E8%87%AA%E5%88%86-%E3%81%98%E3%81%B6%E3%82%93)
 - [Nouns](#nouns)
   * [事 (こと)](#%E4%BA%8B-%E3%81%93%E3%81%A8)
+  * [方 (かた)](#%E6%96%B9-%E3%81%8B%E3%81%9F)
 ____
 
 # References
@@ -721,3 +722,13 @@ ____
       describes the fact that someone can do something; hence, it is more suited
       to formal settings
   * due to the specificity, 事 cannot be replaced with の in this usage
+
+## 方 (かた)
+
+- way of doing something
+- patterns
+  * verb in stem form + 方
+- basic examples
+  * 食べ方
+  * 飲み方
+  * 使い方

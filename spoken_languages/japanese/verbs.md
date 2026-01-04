@@ -627,8 +627,10 @@ Note that all other conjugations of 買う use hiragana characters on the
   * not someone else's desire
 - conjugation
   * verb in stem form + たい
+- it behaves like an い-adjective
 - for expressing spkeaker's desire
   * トイレに行きたい。
+  * トイレに行きたいです。
   * パイロットになりたい。
     + I want to become a pilot.
 - to express someone else's desire
