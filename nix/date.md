@@ -1,7 +1,24 @@
-
+- [Installation](#installation)
+- [Formatting](#formatting)
+  * [Week of year](#week-of-year)
+  * [RFC-3339](#rfc-3339)
+  * [ISO-8601](#iso-8601)
+  * [Some day](#some-day)
 ____
 
-#### Week of year
+# Installation
+
+On MacOS, install coreutils via homebrew:
+
+```sh
+brew install coreutils
+```
+
+The command will be installed as `gdate`.
+
+# Formatting
+
+## Week of year
 
 ```sh
 date +"%Y %V"
@@ -14,7 +31,7 @@ date +"%Y %U"
 where `%U` uses Sunday as first day of week and `%V` (ISO) uses Monday as first
 day of week.
 
-#### RFC-3339
+## RFC-3339
 
 ##### Date only
 
@@ -41,7 +58,7 @@ date --rfc-3339=ns
 
 returns `2019-10-06 14:12:09.755158129+08:00`
 
-#### ISO-8601
+## ISO-8601
 
 ##### Date
 
@@ -74,3 +91,24 @@ date -u +%FT%TZ
 ```
 
 returns `2019-10-06T06:48:05Z`
+
+## Some day
+
+##### Tomorrow
+
+```sh
+date -d 'tomorrow'
+```
+
+##### Next friday
+
+```sh
+date -d 'next friday'
+```
+
+##### Two days ago
+
+```sh
+date -d '2 days ago'
+```
+
