@@ -28,6 +28,7 @@
   * [する](#%E3%81%99%E3%82%8B)
   * [なる](#%E3%81%AA%E3%82%8B)
   * [ことがある](#%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B)
+  * [たことがある](#%E3%81%9F%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B)
   * [すぎる](#%E3%81%99%E3%81%8E%E3%82%8B)
   * [ている](#%E3%81%A6%E3%81%84%E3%82%8B)
   * [ていた](#%E3%81%A6%E3%81%84%E3%81%9F)
@@ -992,6 +993,61 @@ Note that all other conjugations of 買う use hiragana characters on the
     + お風呂に入らないことはないけど、嫌がるんだよね。
       + It's not that he doesn't take a bath, but he resists it.
       + it is also common to simply end the sentence with けど
+
+## たことがある
+
+- to talk about type of situation experienced in the past
+- patterns
+  * verb in plain past tense + ことがある
+- が can often be omitted in conversations
+- patterns
+  * verb in plain past tense + ことがある
+  * い-adjective in past tense + ことがある
+  * な-adjective in past tense + ことがある
+  * noun in past tense + ことがある
+- for past experience
+  * 聞いたことがある。
+  * 見たことがある。
+  * 日本に行ったことがある。
+  * 日本行きのチケットが安かったことがある。
+  * 日本で有名だったことがある。
+    + There was a time when I was famous in Japan.
+  * 日本でモデルだったこともある。
+    + There was also a time when I was a model in Japan.
+  * 日本語を教えたことがある。
+  * ❌ 昨日、日本語を教えたことがある。
+    + definite timining cannot be used
+  * ⭕ 昨日、日本語を教えた。
+  * 日本語を教えていたことがある。
+    + I've taught Japanese for a while before.
+    + ている to indicate "for a while"
+  * 東京に住んだことがある。
+    + I've lived in Tokyo before.
+  * 東京に住んでいたことがある。
+    + I've lived in Tokyo for a while before.
+- for things that never experienced
+  * が is often dropped in this use case
+  * まだ食べたことがないです。
+    + I haven't eaten it yet.
+  * まだ食べたことはないです。
+    + は gives a sense of "I heard of it before"
+  * 納豆、まだ食べたことがないんです。
+    + んです adds a sense of explanation
+- for asking about past experiences
+  * for yes-no questions, が is often replaced by は
+  * for open ended questions, が is usually kept
+  * 日本に行ったことはありますか？
+  * 日本に行ったことってありますか？
+  * 日本に行ったこと、ありますか？
+  * どこの国に行ったことがありますか？
+- to describe the state of something in the past
+  * この店は、寿司屋だったことがある。
+    + This place used to be a sushi restaurant.
+  * しゃりが硬かったことがある。
+    + There was this time when the rice was hard.
+    + しゃり is sushi rice
+    + implies there were one or two times the rice was hard but not always
+  * しゃりが硬かったこともある。
 
 ## すぎる
 
