@@ -41,6 +41,7 @@
   * [N4](#n4)
     + [conjunctions](#conjunctions-1)
     + [adverbs](#adverbs-1)
+    + [onomatopoeia](#onomatopoeia)
     + [adjectives (い)](#adjectives-%E3%81%84-1)
     + [adjectives (な)](#adjectives-%E3%81%AA-1)
     + [pronouns (person)](#pronouns-person-1)
@@ -56,6 +57,7 @@
     + [nouns (location)](#nouns-location-1)
     + [nouns (shopping)](#nouns-shopping)
     + [nouns (clothing)](#nouns-clothing-1)
+    + [nouns (body parts)](#nouns-body-parts-1)
     + [nouns (transportation)](#nouns-transportation-1)
     + [nouns (family)](#nouns-family-1)
     + [nouns (technology)](#nouns-technology)
@@ -76,7 +78,7 @@
     + [pronouns (location)](#pronouns-location)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
-    + [nouns (body parts)](#nouns-body-parts-1)
+    + [nouns (body parts)](#nouns-body-parts-2)
     + [nouns (food)](#nouns-food-2)
     + [nouns (drinks)](#nouns-drinks-2)
     + [nouns (home)](#nouns-home-2)
@@ -113,7 +115,7 @@
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
-    + [Particles](#particles)
+    + [particles](#particles-1)
     + [conjunctions](#conjunctions-3)
     + [adverbs](#adverbs-4)
     + [adjectives (い)](#adjectives-%E3%81%84-4)
@@ -134,9 +136,10 @@
     + [verbs (transitive)](#verbs-transitive-4)
     + [verbs (intransitive)](#verbs-intransitive-4)
   * [N0](#n0)
-    + [particles](#particles-1)
+    + [particles](#particles-2)
     + [conjunctions](#conjunctions-4)
     + [adverbs](#adverbs-5)
+    + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [adjectives (い)](#adjectives-%E3%81%84-5)
     + [adjectives (な)](#adjectives-%E3%81%AA-5)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E-1)
@@ -157,7 +160,7 @@
     + [nouns (clothing)](#nouns-clothing-4)
     + [nouns (transportation)](#nouns-transportation-4)
     + [nouns (animals)](#nouns-animals-3)
-    + [nouns (body parts)](#nouns-body-parts-2)
+    + [nouns (body parts)](#nouns-body-parts-3)
     + [nouns (position)](#nouns-position-2)
     + [nouns (home)](#nouns-home-3)
     + [nouns (sports)](#nouns-sports-3)
@@ -244,6 +247,7 @@ ____
 - 忙しい (いそがしい) - busy
 - 痛い (いたい) - painful; sore
 - 薄い (うすい) - thin
+- 煩い (うるさい) - noisy; annoying
 - 美味しい (おいしい) - delicious
 - 大きい (おおきい) - big
 - 遅い (おそい) - late; slow
@@ -256,6 +260,7 @@ ____
 - 黒い (くろい) - black
 - 寒い (さむい) - cold
 - 白い (しろい) - white
+- 少ない (すくない) - few; little; seldom; rare
 - 涼しい (すずしい) - cool
 - 狭い (せまい) - narrow
 - 高い (たかい) - high; expensive
@@ -263,6 +268,7 @@ ____
 - 小さい (ちいさい) - small
 - 茶色い (ちゃいろい) - brown
 - 詰まらない (つまらない) - boring
+- 冷たい (つめたい) - cold (to the touch or emotionally)
 - 強い (つよい) - strong
 - 辛い (つらい) - spicy
 - 低い (ひくい) - low
@@ -322,6 +328,7 @@ ____
 - 何処 (どこ) - where
 - どちら - which one (of two)
 - どれ - which (of three or more)
+- 此方 (こちら) - this way; here; this; this person; aka こっち
 
 ### pronouns (time)
 
@@ -405,6 +412,7 @@ ____
 - カレンダー - calendar
 - 地図 (ちず) - map
 - メガネ - glasses
+- 方 (かた) - person (polite); way; direction; method of
 
 ### nouns (academic)
 
@@ -884,7 +892,9 @@ ____
 - 今度 (こんど) - next time; this time; recently
 - 屹度 (きっと) - surely
 - 最近 (さいきん) - recently; lately
+- 確り (しっかり) - tightly; strongly; properly; reliably
 - 暫く (しばらく) - for a moment; for a while; for the time being
+- 将来 (しょうらい) - future; prospects
 - 些とも (ちっとも) - not at all
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
@@ -982,6 +992,8 @@ ____
 - 以上 (いじょう) - above; note less than; that is all
 - 男性 (だんせい) - male
 - 女性 (じょせい) - female
+- 一杯 (いっぱい) - one cup; one glass; full
+- 都合 (つごう) - convenience; circumstances
 
 ### nouns (academic)
 
@@ -1042,6 +1054,10 @@ ____
 - 下着 (したぎ) - underwear
 - 着物 (きもの) - kimono
 - スーツ - suit
+
+### nouns (body parts)
+
+- 首 (くび) - neck
 
 ### nouns (transportation)
 
@@ -1201,6 +1217,7 @@ ____
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
 - 是非 (ぜひ) - certainly
 - 全然 (ぜんぜん) - totally
+- そのまま - as is; without change; just like
 - そろそろ - soon
 - ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
@@ -1212,10 +1229,12 @@ ____
 
 ### adjectives (い)
 
+- 上手い (うまい) - skillful; clever; tasty; delicious
 - 嬉しい (うれしい) - glad; pleased
 - 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
 - 素晴らしい (すばらしい) - wonderful
 - 違いない (ちがいない) - without a doubt; for sure; certainly
+- 辛い (つらい) - painful; tough; difficult (emotionally)
 
 ### adjectives (な)
 
@@ -1327,6 +1346,7 @@ ____
 
 ### nouns (food)
 
+- 菓子 (かし) - confectionery; sweets
 - 昼食 (ちゅうしょく) - lunch
 - 生 (なま) - raw; uncooked
 - 弁当 (べんとう) - Japanese lunch box
@@ -1349,6 +1369,7 @@ ____
 ### nouns (sports)
 
 - ゴール (gōru) - goal
+- スキー - skiing
 - チーム - team
 
 ### nouns (location)
@@ -1402,6 +1423,7 @@ ____
 - 怪我 (けが) - injury; mistake
 - 結果 (けっか) - result
 - サービス - service; assistance; help
+- 参加 (さんか) - participation
 - 出発 (しゅっぱつ) - departure
 - 滞在 (たいざい) - stay
 - 留学 (りゅうがく) - studying abroad
@@ -1474,6 +1496,7 @@ ____
 
 - 愈々 (いよいよ) - more and more; all the more
 - 忽ち (たちまち) - in an instant; right away
+- もしかしたら - perhaps
 
 ### adjectives (い)
 
@@ -1559,6 +1582,7 @@ ____
 - お辞儀 (おじぎ) - bowing
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
+- 出張 (しゅっちょう) - business trip
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 
 ### する transitive and intransitive verbs
@@ -1764,6 +1788,10 @@ ____
 - 未明 (みめい) - early morning
 - 滅茶 (めっちゃ) - extremely; very
 
+### rentaishi (連体詞)
+
+- そういう - such; like that; that sort of
+
 ### adjectives (い)
 
 - 気持ちいい (きもちいい) - feeling good
@@ -1773,6 +1801,7 @@ ____
 ### adjectives (な)
 
 - ご迷惑 (ごめいわく) - trouble; annoyance
+- まじ - serious; not joking
 
 ### 連体詞
 
@@ -1833,6 +1862,8 @@ ____
 - ねた - information; news; proof; evidence
 - 気に入り (きにいり) - favourite
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
+- この辺 (このへん) - this area; this point
+- 顔色 (かおいろ) - facial expression
 
 ### nouns (family)
 
@@ -2300,6 +2331,7 @@ ____
 - 気になる - to weigh on one's mind; to be interested (in)
 - ぎる - to steal
 - ググる - to google
+- 連れる (つれる) - to be accompanied by
 - 取り置く (とりおく) - to set aside; to keep it in reserve
 - パクる - to cheat; steal (plagiarize)
 - 振り切る (ふりきる) - to shake off; to break away
@@ -2368,3 +2400,5 @@ ____
 - お陰で (おかげで) - thanks to; owing to; because of
 - 好きなだけ - as much as one wants
 - ありがたい事に (ありがたいことに) - thankfully
+- このまま - as it is
+- 今のうち (いまのうち) - while one still can

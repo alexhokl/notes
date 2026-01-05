@@ -18,6 +18,7 @@
     + [Approximate time](#approximate-time)
   * [English names](#english-names)
   * [News](#news)
+  * [内 (うち) and 外 (そと)](#%E5%86%85-%E3%81%86%E3%81%A1-and-%E5%A4%96-%E3%81%9D%E3%81%A8)
 - [Patterns](#patterns)
   * [commands](#commands)
   * [can / may / mind](#can-%2F-may-%2F-mind)
@@ -48,6 +49,7 @@ ____
 - [NHK World Easy Japanese](https://www.nhk.or.jp/lesson/en/lessons/) - lessons
 - [Western calendar year convert to Japanese
   year](https://www.sljfaq.org/afaq/dates.html)
+- [モジナビ (Mojinavi)](https://mojinavi.com/) - kanji dictionary
 
 # 約物 Punctuation
 
