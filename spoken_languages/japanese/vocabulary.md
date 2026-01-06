@@ -205,6 +205,7 @@ ____
 - 次に (つぎに) - next; then; after that
 - では - then
 - でも - but
+- どうして - why; how
 - また - and; or
 
 ### adverbs
@@ -1784,6 +1785,8 @@ ____
 - だらだら - leisurely
 - 如何か (どうか) - would you mind; please
 - どうやって - how; in what way
+- 他に (ほかに) - else; in addition; besides
+- ほかにも - furthermore
 - 先ずは (まずは) - first of all; probably; more or less; anyway
 - 未明 (みめい) - early morning
 - 滅茶 (めっちゃ) - extremely; very
