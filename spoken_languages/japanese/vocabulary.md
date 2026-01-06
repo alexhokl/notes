@@ -548,19 +548,20 @@ ____
 
 ### nouns (food)
 
-- 焼き (やき) - grilled; fried
-- 牛乳 (ぎゅうにゅう) - milk
-- 卵 (たまご) - egg (aka 玉子)
-- ご飯 (ごはん) - meal; cooked rice
-- パン - bread
-- 蜂蜜 (はちみつ) - honey
 - カレー - curry
-- 水 (みず) - water
-- 醤油 (しょうゆ) - soy sauce
-- 塩 (しお) - salt
 - 牛タン (ぎゅうタン) - beef tongue
-- 鶏 (にわとり) - chicken
+- 牛乳 (ぎゅうにゅう) - milk
+- ご飯 (ごはん) - meal; cooked rice
+- 塩 (しお) - salt
+- 醤油 (しょうゆ) - soy sauce
+- 卵 (たまご) - egg (aka 玉子)
+- 蜂蜜 (はちみつ) - honey
+- パン - bread
+- 豚肉 (ぶたにく) - pork
 - 軟骨 (なんこつ) - cartilage
+- 鶏 (にわとり) - chicken
+- 水 (みず) - water
+- 焼き (やき) - grilled; fried
 
 ### nouns (vegetables)
 
@@ -900,6 +901,7 @@ ____
 - 先 (さっき) - a moment ago
 - 確かに (たしかに) - surely; certainly
 - 偶に (たまに) - occasionally; once in a while; now and then
+- 特に (とくに) - especially; particularly
 - はっきり - clearly
 - 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
 - 昔 (むかし) - old times; old days
@@ -929,7 +931,9 @@ ____
 - 残念 (ざんねん) - regrettable; disappointing; unfortunate
 - 確か (たしか) - certain; sure; reliable
 - 丁寧 (ていねい) - polite
+- 特別 (とくべつ) - special; particular
 - 普通 (ふつう) - normal; ordinary
+- 不便 (ふべん) - inconvenience
 - 変 (へん) - strange; odd; change
 - 無理 (むり) - unreasonable; impossible
 
@@ -995,6 +999,8 @@ ____
 - 女性 (じょせい) - female
 - 一杯 (いっぱい) - one cup; one glass; full
 - 都合 (つごう) - convenience; circumstances
+- 用事 (ようじ) - business; things to do; errand
+- 為 (ため) - sake; purpose; objective; aim
 
 ### nouns (academic)
 
@@ -1179,6 +1185,7 @@ ____
 - 慣れる (なれる) - to get used to; to become familiar with
 - 濡れる (ぬれる) - to get wet
 - 参る (まいる) - to go; to come; to call
+- 間に合う (まにあう) - to be in time (for); to serve the purpose
 - 戻る (もどる) - to return
 - 痩せる (やせる) - to lose weight
 - 止む (やむ) - to cease; to stop; to be over
@@ -1328,6 +1335,7 @@ ____
 - 間違い (まちがい) - mistake; error
 - 文句 (もんく) - complaint
 - 匂い (におい) - smell; odour; scent
+- 費用 (ひよう) - cost
 
 ### nouns (animals)
 
@@ -1496,6 +1504,7 @@ ____
 ### adverbs
 
 - 愈々 (いよいよ) - more and more; all the more
+- 流石 (さすが) - as one would expect
 - 忽ち (たちまち) - in an instant; right away
 - もしかしたら - perhaps
 
@@ -1751,6 +1760,7 @@ ____
 
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
+- 見合わせる (みあわせる) - to exchange glances; to postpone
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
   lower status)
 
