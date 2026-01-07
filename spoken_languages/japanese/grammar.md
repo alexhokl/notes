@@ -28,6 +28,8 @@
   * [自分 (じぶん)](#%E8%87%AA%E5%88%86-%E3%81%98%E3%81%B6%E3%82%93)
 - [Nouns](#nouns)
   * [事 (こと)](#%E4%BA%8B-%E3%81%93%E3%81%A8)
+  * [前・後](#%E5%89%8D%E3%83%BB%E5%BE%8C)
+  * [時 (とき)](#%E6%99%82-%E3%81%A8%E3%81%8D)
   * [方 (かた)](#%E6%96%B9-%E3%81%8B%E3%81%9F)
 ____
 
@@ -722,6 +724,126 @@ ____
       describes the fact that someone can do something; hence, it is more suited
       to formal settings
   * due to the specificity, 事 cannot be replaced with の in this usage
+
+## 前・後
+
+- space
+  * 前 (まえ)
+  * 後ろ (うしろ)
+- time
+  * 前 (まえ)
+  * 後 (あと)
+- patterns
+  * space
+    + noun + の + 前
+    + noun + の + 後ろ
+    + の can be ommitted except when 後ろ is used
+    + 車の前
+    + 車の後ろ
+    + 駅の前
+    + 駅前
+    + 駅の後ろ
+  * time
+    + noun + の + 前
+    + noun + の + 後
+    + 会議の前
+    + 会議の後
+    + 朝食の前
+    + 朝食前
+    + 朝食の後
+    + 朝食後
+  * verb in plain non-past tense + 前
+    + 朝ごはんを食べる前に、着替えます。
+  * verb in plain past tense + 後
+    + 朝ごはんを食べた後に、歯を磨いた。
+  * space
+    + に pinpoints a location
+      + ホテルの前に来た。
+      + ホテルの後ろに来た。
+    + で an area for an event or activity
+      + ホテルの前で踊った。
+      + ホテルの後ろで踊った。
+  * time
+    + 前に
+    + 後に (less common)
+    + 後で
+    + 勉強する前に寝た。
+    + 勉強した後に寝た。
+    + 勉強した後で寝た。
+    + 後にする。
+      + I'll do it after my other tasks.
+    + 後でする。
+      + I'll do it later.
+  * space
+    + 前から
+      + someone or something is approaching the speaker
+      + 子犬が前から走って来た。
+        + A puppy was running towards me. (from in front of me).
+    + 後ろから
+      + someone or something comes at the speaker from behind
+      + 子犬に後ろから飛びつかれた。
+      + 子犬が後ろからついて来た。
+        + A puppy followed after me.
+  * time
+    + 前から
+      + for a while
+      + このお菓子、前から気になってたんだ。
+        + I've had my eye on this candy for a while.
+    + 後から
+      + highlights that something starts or happens later than it is supposed to
+        + it is often some issue appears to have been resolved, but something
+          later that affects it or reverse the outcome
+      + 一回オッケーしたけど、後から気が変わったんだ。
+        + I okayed it once, but later changed my mind.
+
+## 時 (とき)
+
+- it is a noun
+  * rules of noun phrases applies
+- tense
+  * tense used in とき clause does not have to match the main clause
+  * tense used in とき clause depends on speaker's perspective
+    + from the viewpoint the speaker is picturing the moment in question
+    + in English, the tense are matching
+  * ⭕️あれ、家を出たとき、鍵閉めたよね？
+    + the perspective of the present moment
+  * ⭕️あれ、家を出るとき、鍵閉めたよね？
+    + the perspective of the moment leaving the house
+  * ⭕️日本に着いたとき、すぐにWi-Fi使えるかな？
+  * ❌日本に着くとき、すぐにWi-Fi使えるかな？
+    + it does not make sense to ask if WiFi is available when the plane is
+      landing
+- 時に
+  * に is this usage is optional but adding it helps emphasising the time
+  * 好きなときに来て。
+    + Come whenever you like.
+    + に is needed as the time information requires emphasis
+  * あーっ、もう！この忙しいときに！
+    + Oh, God! When I'm this busy…!
+- 時も
+  * 小さいときも、日本に住んでいました。
+    + When I was little, I lived in Japan too.
+  * 小さいときにも、日本に住んでいました。
+    + When I was little, I lived in Japan too.
+- 時から and 時まで
+  * 五才のときから、日本に住んでいます。
+    + Since I was five, I've lived in Japan.
+  * 五才のときから七才のときまで、日本に住んでいました。
+    + shorter alternative 五才から七才まで、日本に住んでいました。
+- ている時
+  * 私が料理をしていたとき、あなたは何をしていたの？
+    + When I was cooking, what were you doing?
+  * 私が料理をしているとき、あなたは何をしていたの？
+    + When I was cooking, what were you doing?
+- viewpoints
+  * いつもの先生じゃないとき、私たちはちょっと緊張した。
+    + there are two ways to read this sentence
+      + the speaker re-experiencing the specific occasion in their head as they
+        recall it
+      + the speaker simply referring to the general instances of when a
+        different teacher showed up
+        + it is common when the speaker discussing certain recurring events or a
+          time period where it is not possible to recall a specific moment
 
 ## 方 (かた)
 
