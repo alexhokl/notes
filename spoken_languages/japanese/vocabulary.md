@@ -1150,7 +1150,7 @@ ____
 - 飾る (かざる) - to decorate; to display
 - 片付ける (かたづける) - to tidy up; to put in order
 - 考える (かんがえる) - to think (on a specific topic)
-- 呉れる (くれる) - to give
+- 呉れる (くれる) - to give (from inner circle perspective)
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
 - 知らせる (しらせる) - to notify; to advise
@@ -1471,7 +1471,7 @@ ____
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 履く (はく) - to wear (lower body clothing, footwear)
 - 申し込む (もうしこむ) - to apply for
-- 貰う (もらう) - to receive; to get (from somebody)
+- 貰う (もらう) - to receive (appreciatively)
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 - 願う (ねがう) - to wish; to hope; to request; to beg
 
@@ -1691,6 +1691,7 @@ ____
 - 嘘つき (うそつき) - liar
 - ニュアンス - nuance
 - ジャズ - jazz
+- 徒歩 (とほ) - on foot
 
 ### nouns (clothing)
 

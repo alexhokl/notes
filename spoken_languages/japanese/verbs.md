@@ -27,6 +27,7 @@
 - [Specific verbs](#specific-verbs)
   * [する](#%E3%81%99%E3%82%8B)
   * [なる](#%E3%81%AA%E3%82%8B)
+  * [行く・来る](#%E8%A1%8C%E3%81%8F%E3%83%BB%E6%9D%A5%E3%82%8B)
   * [ことがある](#%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B)
   * [たことがある](#%E3%81%9F%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B)
   * [すぎる](#%E3%81%99%E3%81%8E%E3%82%8B)
@@ -927,6 +928,134 @@ Note that all other conjugations of 買う use hiragana characters on the
   * generally used in formal writing
   * 日本の議会は衆議院と参議院からなる。
   * 日本の議会は衆議院と参議院からなっている。
+
+## 行く・来る
+
+- 来る
+  * when the movement is toward the speaker's current location
+- 行く
+  * when the movement is away from the speaker's current location
+- particles
+  * に
+    + to mark the location where someone is going to or coming to
+      + 学校に行く。
+    + with a verb in stem form, it can indicate purpose of movement
+      + 勉強しに行く。
+  * へ
+    + to mark the location where someone is going to or coming to
+    + it sounds more formal
+    + 学校へ行く。
+  * まで
+    + to mark the endpoint of a movement
+    + 学校まで行く。
+  * で
+    + to mark the way coming or going somewhere
+      + バスで行く。
+      + 電車で来る。
+      + 徒歩で来る。
+- to come/go to do something
+  * 映画館に『となりのトトロ』を見に行く。
+  * いつか会いに来てね。
+    + Come visit me someday!
+  * コーヒーを買いに行く
+  * 寿司を食べに来る
+- ていく and てくる
+  * it is commonly written in kana only
+  * position of verb in term comes before いく or くる is not definite
+    + 学校に歩いていく
+    + 学校に歩いてくる
+    + 歩いて学校にいく
+    + 歩いて学校にくる
+  * general action
+    + 買ってくる
+      + buy, and then come
+    + 食べていく
+      + eat, and then go
+    + ドーナツを買っていくよ！
+      + I'll buy some donuts and then go there.
+    + ドーナツを買ってきたよ！
+      + I bought some donuts and then came here.
+    + 昼ごはんを食べていく。
+      + I'll eat lunch and then go there
+    + 昼ごはんを食べてきた。
+      + I ate lunch and then came here
+      + this has a nuance of less direct than 食べた。
+    + 夕飯、食べていく？
+      + Would you like to have supper here?
+      + this is kind of culture specific
+  * accompaniment
+    + 学校に宿題を持っていくのを忘れた。
+      + I forgot to take my homework to school.
+    + 学校に宿題を持ってくるのを忘れた。
+      + I forgot to bring my homework to school.
+    + 学校に猫を連れていったの！？
+      + Did you take a cat to school!?
+    + 学校に猫を連れてきたの！？
+      + Did you bring a cat to school!?
+    + パーティーに赤いドレスを着ていく
+      + go to a party in a red dress
+    + ハイキングにパンプスをはいていく
+      + go to the hike wearing pumps
+  * movement
+    + 会社に歩いていく。
+      + I'm going to the office on foot.
+      + 会社に歩く is not exactly correct as 歩く (to walk) just describes the
+        physical act of walking without a directional meaning; to complement the
+        meaning, an additional word that carries the directional nuance is
+        needed; that word can be a particle or preposition, like まで (up to) or
+        向（む）かって (toward), but it can also be a verb, like いく or くる.
+    + 会社に歩いてきた。
+    + 会社に走っていく
+    + 会社に泳いでいく
+    + 会社に飛んでいく
+  * motion
+    + adding ていく or てくる add a sense of speaker's perspective on the motion
+    + motion verbs
+      + 入る
+      + 出る
+      + 帰る
+      + 戻る
+    + 先生が教室に入ってきた。
+    + 先生が教室から出ていった。
+    + 花子は日本に帰った。
+    + 花子は日本に帰っていった。
+      + it emphasizes the motion from the speaker's perspective
+    + 花子は来月日本に帰る。
+    + 花子は来月日本に帰ってくる。
+  * going and coming back
+    + 友達とランチ食べてくる。
+      + I'm going out for lunch with my friends and coming back.
+      + it is a nice gesture to inform the listeners what's going on from their
+        perspective
+    + 行ってきます。
+      + I'm going and coming back.
+      + in the old days, people risked their lives to travel, so saying
+        行ってきます was like making a vow that they would return
+    + どうしたのかな？ ちょっと電話してくるよ。
+      + I wonder what happened. I'm going to go out and call him and come back.
+  * for gradual processes in time
+    + ていく focuses on the initial point of the process
+    + てくる focuses on the endpoint of the process
+    + 一緒に頑張っていきましょう。
+      + Let's work on this together!
+    + 一緒に頑張ってきた仲間のおかげです。
+      + It's thanks to my friends who have worked hard with me.
+- emphasising pushy actions by using てくる
+  * when someone offers unsolicited or unwelcome action
+  * 聞いてもないのに色々教えてくるんだよね。
+    + They lecture me on things I don't even ask about.
+  * if gratitude is implied, てくれる or てもらう should be used instead of
+    てくる
+- 行っている
+  * when someone has gone somewhere
+  * うちの娘はニューヨークに留学に行ってるんです。
+    + My daughter has gone to New York to study.
+  * 母は今、買い物に行っています。
+    + Mom is out shopping now.
+- 来ている
+  * currently visiting somewhere
+  * 今ニューヨークに来ているんです。
+    + I'm in New York now.
 
 ## ことがある
 
