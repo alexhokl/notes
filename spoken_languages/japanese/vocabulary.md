@@ -1810,12 +1810,14 @@ ____
 
 - 気持ちいい (きもちいい) - feeling good
 - したい - want to do
+- らしい - seeming
 - やばい - oh crap!; dangerous; risky; awful; terrible; amazing
 
 ### adjectives (な)
 
 - ご迷惑 (ごめいわく) - trouble; annoyance
 - まじ - serious; not joking
+- みたい - -like; sort of; similar to
 
 ### 連体詞
 

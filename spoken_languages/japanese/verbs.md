@@ -21,6 +21,7 @@
 - [Voliltional form 〜よう](#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
 - [たりする](#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
 - [たい](#%E3%81%9F%E3%81%84)
+- [がる](#%E3%81%8C%E3%82%8B)
 - [たがる](#%E3%81%9F%E3%81%8C%E3%82%8B)
 - [そう](#%E3%81%9D%E3%81%86)
 - [While 〜ながら](#while-%E3%80%9C%E3%81%AA%E3%81%8C%E3%82%89)
@@ -647,6 +648,49 @@ Note that all other conjugations of 買う use hiragana characters on the
   * use のです
     + 木村さんはお好み焼きを食べたいんです。
       + (The situation is) Kimura-san wants to eat okonomiyaki.
+
+# がる
+
+- to describe how someone else is feeling
+- functionalities
+  * to express speaker's interpretation of someone's inner thoughts or state
+    based on visible clues, such as facial expressions or behaviours
+  * to express "that person is pretending to be ..."
+- conjectural language
+  * similar to
+    + らしい
+    + そう
+    + という
+    + みたい
+- conjugation
+  * い-adjective without い + がる
+  * 嬉しがる
+  * 怖がる
+  * 痛がる
+  * 寒がる
+- different tenses can be used
+  * 松本さんは羨ましがっている。
+    + Matsumoto seems to be jealous.
+  * 私が勝った時、松本さんは羨ましがっていた。
+  * お兄ちゃんが家を出たらお母さんが寂しがる。
+    + If my brother moves out of the house, our mom will feel lonely.
+    + non-past tense is used for hypothetical situations
+- to talk about speaker's show of their feelings
+  * it is not describing speaker's internal state but describing speaker's
+    behaviour and how it affects others
+  * 私がお菓子をほしがると、姉はいつもわけてくれる。
+    + When I show that I want snacks, my sister always shares her snacks with
+      me.
+- pattern
+  * を marks the thing that is being felt
+  * 松本さんは僕を羨ましがっている。
+    + Matsumoto is jealous of me.
+- がり as noun
+  * turns い-adjective into a noun
+  * 寂しがり屋
+  * 暑がり
+  * 寒がり
+  * 怖がり
 
 # たがる
 
