@@ -749,7 +749,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   people
   * ❌ 私はテレビを見ながら、姉は料理をした。
   * ⭕️ 私がテレビを見ている間に、姉は料理をした。
-- [although 〜ながら](./grammar.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- [ながら](./particles.md#%E3%81%AA%E3%81%8C%E3%82%89)
 
 # Specific verbs
 
