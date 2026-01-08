@@ -33,17 +33,6 @@ ____
 # Particles (助詞)
 
 - almost all particles follows a noun
-- in general, particle to be used depends on the verb
-
-## Examples
-
-- 大坂`に`行きした - I went to Osaka
-- 大坂`で`寿司`を`食べました - I ate sushi in Osaka
-- 大坂`に`料理店`が`あります - There are restaurants in Osaka
-- 大坂`が`好きです - I like Osaka
-- 大坂`や`京都`に`行きたいです - I want to go to Osaka and Kyoto, for example
-- 日本`は`大坂`が`有名です - As for Japan, Osaka is famous
-- 大坂`を`知っていますか？ - Do you know Osaka?
 
 ## の
 
@@ -54,136 +43,111 @@ ____
       + 山田さん`の`本です can be written as 山田さん`の`
   * particle + の + noun
     + へ
-      + examples
-        + 日本への飛行機 - airplane to Japan
-        + 日本からの飛行機 - airplane from Japan
+      + 日本への飛行機
+      + 日本からの飛行機
     + だけ
-      + examples
-        + 寝るだけの人生 - a life of only sleeping
+      + 寝るだけの人生 - a life of only sleeping
     + と
-      + examples
-        + お母さんとの会話 - conversation with mother
-        + 「早く帰ってきてね！」とのメッセージ - a message saying "Come home
-          soon!"
+      + お母さんとの会話
+      + 「早く帰ってきてね！」とのメッセージ
   * non-noun + の
-    + examples
-      + 食べるのが好きだ。 - I like eating.
+    + 食べるのが好きだ。 - I like eating.
   * non-possessive nature
     + the reason of thinking の as label but not possessive
-    + examples
-      + バナナの本、面白いよ。 - Books about bananas are interesting.
-      + バナナの本、面白いよ。 - Banana-shaped books are interesting.
-      + バナナの本、面白いよ。 - Banana's book is interesting.
+    + バナナの本、面白いよ。 - Books about bananas are interesting.
+    + バナナの本、面白いよ。 - Banana-shaped books are interesting.
+    + バナナの本、面白いよ。 - Banana's book is interesting.
   * usages
     + ownership
     + affiliation
-      + examples
-        + 東京大学の教授 - a professor at Tokyo University
+      + 東京大学の教授
     + topic
-      + examples
-        + 日本語の知識 - knowledge of Japanese
-        + 猫の研究 - research on cats
-          + to ensure it does not mean "research by cats"
-            + 猫`について`の研究
+      + 日本語の知識
+      + 猫の研究
+        + to ensure it does not mean "research by cats"
+          + 猫についての研究
     + location
-      + examples
-        + ニューヨークの自由の女神 - the New York Statue of Liberty
+      + ニューヨークの自由の女神
     + time
-      + examples
-        + 朝五時のアラーム - the 5 o'clock alarm
+      + 朝五時のアラーム
     + degree (amount, quantity, price, size and more)
-      + examples
-        + 五十人のアメリカ人
-        + 四千円のりんご
+      + 五十人のアメリカ人
+      + 四千円のりんご
     + order and rank
-      + examples
-        + 最初の試験
-        + 三人目の孫 - the third grandchild
-        + 世界一の温泉
+      + 最初の試験
+      + 三人目の孫 - the third grandchild
+      + 世界一の温泉
     + apposition
-      + examples
-        + フルーツのバナナ - banana, the fruit
-        + 校長の山田先生
+      + フルーツのバナナ - banana, the fruit
+      + 校長の山田先生
     + materials and ingredients
-      + examples
-        + 木の机
-        + アサリの味噌汁 - miso soup with clams
+      + 木の机
+      + アサリの味噌汁 - miso soup with clams
     + adjective-like nouns
-      + examples
-        + 普通の車
-        + 久しぶりの再会 - reunion for the first time in a long time
+      + 普通の車
+      + 久しぶりの再会 - reunion for the first time in a long time
   * replacing が in relative clauses
-    + examples
-      + the bouquet that the florist made
-        + 花屋の店員`が`作った花束
-        + 花屋の店員`の`作った花束
+    + if the verb does not have any decorations before it
+    + 花屋の店員の作った花束
+      + 花屋の店員が作った花束
 - as nominalizer
   * turns non-nouns into nouns
-    + it is like gerund in English
   * usages
     + relative clause + の
-      + plain form should be used instead of polite form
-      + if a clause ended with な-adjective, な should be added as well
-      + examples
-        + 走る`の`は楽しいです。 - Running is fun.
-        + 走る`の`は明日だよ。 - (The time for) running is tomorrow.
-        + 走る`の`は海子だよ。 - (The person) running is Umiko.
-        + お父さんが買った`の`は、時計です。 - What dad bought is a clock.
-        + 大切な`の`はやさしさだ。 - What is important is kindness.
+      + conjugation
+        + verb in plain form + の
+        + い-adjective + の
+        + な-adjective + な + の
+        + noun + の
+      + 走る`の`は楽しいです。 - Running is fun.
+      + 走る`の`は明日だよ。 - (The time for) running is tomorrow.
+      + 走る`の`は海子だよ。 - (The person) running is Umiko.
+      + お父さんが買った`の`は、時計です。
+      + 大切な`の`はやさしさだ。 - What is important is kindness.
     + 連体詞 + の
-      + examples
-        + こんな`の`要らないよ。 - I don't need this kind of thing.
-        + そういう`の`は、前もって教えてください。 - Please tell me about that
-          kind of thing in advance.
+      + こんな`の`要らないよ。 - I don't need this kind of thing.
+      + そういう`の`は、前もって教えてください。 - Please tell me about that
+        kind of thing in advance.
     + used at the end of sentences
       + it can add an explanatory feel
       + often used in strong commands
-      + examples
-        + 授業中は、おしゃべりしない`の`！
-        + まずは、洗う`の`。それで、きれいになったら、こうやって切る`の`。
-          First, clean it. Then, once it is clean, cut it like this.
-        + まずは、洗う`の`？ - Do you clean first?
-    + non-physical things (事)
-      + examples
+      + 授業中は、おしゃべりしない`の`！
+      + まずは、洗う`の`。それで、きれいになったら、こうやって切る`の`。
+        First, clean it. Then, once it is clean, cut it like this.
+      + まずは、洗う`の`？ - Do you clean first?
+    + non-physical things
+      + 一人でトイレに行った`の`が、よく思い出せない。
         + I can't really remember having gone to the bathroom by myself.
-          + 一人でトイレに行った`の`が、よく思い出せない。
-          + 一人でトイレに行った`事`が、よく思い出せない。
-        + I'm frustrated about not being able to ride a bicycle.
-          + 自転車に乗れない`の`が、悔しい。
-          + 自転車に乗れない`事`が、悔しい。
-    + material things (物)
-      + examples
-        + 甘い`の`が食べたい。 - I want to eat sweet things.
-        + 昔飼っていた`の`は、犬です。 - What I used to have as a pet was a dog.
-        + そこにいる`の`は、誰ですか？ - Who is that over there?
+      + 一人でトイレに行った`事`が、よく思い出せない。
+      + 自転車に乗れない`の`が、悔しい。
+      + 自転車に乗れない`事`が、悔しい。
+    + material things
+      + 甘い`の`が食べたい。
+      + 昔飼っていた`の`は、犬です。
+      + そこにいる`の`は、誰ですか？
     + time and place
-      + examples
-        + 自転車が届く`の`は明日です。 - It is tomorrow that the bicycle will
-          be delivered.
-        + この町が美しかった`の`は、五十年前です。 - When this city was
-          beautiful is fifty years ago.
-        + 次のオリンピックが開催される`の`は東京です。 - It is Tokyo where the
-          next Olympics will be held.
-        + 生まれた`の`は京都です。 - I was born in Kyoto.
+      + 自転車が届く`の`は明日です。 - It is tomorrow that the bicycle will
+        be delivered.
+      + この町が美しかった`の`は、五十年前です。
+      + 次のオリンピックが開催される`の`は東京です。
+        + オリンピック - Olympics
+      + 生まれた`の`は京都です。
     + reason
-      + examples
-        + アメリカに住みたい`の`は、英語の勉強がしたいからです。 - Why I want to
-          live in the U.S. is because I want to study English.
-        + そう思った`の`は、なぜですか。 - Why did you think so?
+      + アメリカに住みたい`の`は、英語の勉強がしたいからです。
+      + そう思った`の`は、なぜですか。 - Why did you think so?
     + for listing
       + it can be used to list a couple of things that contrast with each other,
         or for things that are similar to each other
         + it carries a negative connotation and may sound like complaining
-      + examples
-        + レストランに行く`の`行かないのでもめた。 - We argued about whether to
-          go to a restaurant or not.
-        + 試験勉強だ`の`部活だ`の`で忙しいよ。 - I'm busy with things like
-          studying for exams and club activities at school.
+      + レストランに行く`の`行かないのでもめた。 - We argued about whether to
+        go to a restaurant or not.
+        + 揉める (もめる) - to argue
+      + 試験勉強だ`の`部活だ`の`で忙しいよ。 - I'm busy with things like
+        studying for exams and club activities at school.
       + example on special case where it is to enthusiastically say that
         something is extraordinary
         + ポートランドのビール、そりゃ美味しいの、美味しくないのって！ - Beer in
-          Portland is not even a matter of delicious or not delicious. (Beer in
-          Portland is beyond delicious!)
+          Portland is not even a matter of delicious or not delicious.
 
 ## は
 
@@ -191,81 +155,61 @@ ____
   topcis in the dark
 - as a topic marker
   * it is the rough equivalent of "as for"
-  * it is a special feature of Japanese, as there are very few languages in the
-    world that have a specific grammatical way to pick out a topic
 - for constrasting two topics
-  * examples
-    + 東京`は`物価が高いけど、田舎`は`物価が安い。
+  * 東京`は`物価が高いけど、田舎`は`物価が安い。
 - with い-adjectives
-  * examples
-    + 難しく`は`ないけど、ただ時間がかかる。 - It is not (exactly) difficult, it
-      is just time-consuming.
-    + 難しく`は`ありませんが、時間がかかります。
-    + 難しく`は`あるけど、おもしろい。 - It is difficult, but it is also fun.
+  * 難しく`は`ないけど、ただ時間がかかる。
+  * 難しく`は`ありませんが、時間がかかります。
+  * 難しく`は`あるけど、おもしろい。
 - with nouns and な-adjectives
-  * examples
-    + 有名で`は`ないが、人気はある。 - They are not (exactly) famous, but they
-      are popular.
-    + 先生で`は`ありませんが、説明が上手な人です。 - They are not a teacher, but
-      they are good at explaining.
+  * 有名で`は`ないが、人気はある。
+  * 先生で`は`ありませんが、説明が上手な人です。
 - questions words may be following by が, を, etc, but almost never は
 - it cannot be combined with が, を or も
 - either replace に or become には
-  * examples
-    + I've been to Japan.
-      + 日本`に`行ったことがある。
-      + 日本`には`行ったことがある。
-      + 日本`は`行ったことがある。
-    + The dog is barking in the kitchen.
-      + 台所`で`犬が吠えています。
-      + 台所`では`犬が吠えています。
-    + I went to the movies with my younger brother.
-      + 弟`と`映画館に行きました。
-      + 弟`とは`映画館に行きました。
+  * 日本`に`行ったことがある。
+  * 日本`には`行ったことがある。
+  * 日本`は`行ったことがある。
+  * 台所`で`犬が吠えています。
+  * 台所`では`犬が吠えています。
+  * 弟`と`映画館に行きました。
+  * 弟`とは`映画館に行きました。
 - for contrast
-  * examples
-    + 日本語が好きです。 - I like Japanese.
-    + 日本語`は`好きですが - I like Japanese (but maybe I don't like other
-      languages/subjects).
-    + お肉を食べない。 - I don't eat meat.
-    + お肉`は`食べない。 - I don't eat meat (but I eat other things).
-    + お肉`は`食べないけど魚は食べるよ。
+  * 日本語`は`好きですが - I like Japanese (but maybe I don't like other
+    languages/subjects).
+  * お肉`は`食べない。 - I don't eat meat (but I eat other things).
+  * お肉`は`食べないけど魚は食べるよ。
   * the feeling of constrast can also be increased with a pause
-    + examples
-      + 日本語は、好き。
+    + 日本語は、好き。
+  * in giving negative answers, は should be used in place of particles such as
+    が
+    + A: パーティーは田中さんが来ますか。
+      B: いいえ、田中さん`は`来ません。
 - for hesitating when speaking
-  * examples
-    + お寿司は好きですか。
+  * お寿司は好きですか。
     + お寿司はね…
     + お寿司は…
 - it can be replaced by a comma
   * any notion of comparison (or other nuance) is softened
   * very common with time phrases such as 来週, 先月 or 今年
-  * examples
-    + 今年、日本に行くんです。
-    + 日本語、面白い。
-    + 少し、食べました。
+  * 今年、日本に行くんです。
+  * 日本語、面白い。
+  * 少し、食べました。
 - for changing scenes
 - used in relative clauses
-  * examples
-    + 蜂蜜の瓶を籠に入れていますした。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
-      The bear put a jar of honey into basket and left. Unaware of all this, the
+  * 蜂蜜の瓶を籠に入れていますした。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
+    + The bear put a jar of honey into basket and left. Unaware of all this, the
       donkey kept on his afternoon nap.
-    + I was accepted by the school that Jenny failed to get into.
-      + ジェニー`の`落ちた学校に私は受かった。
-      + ジェニー`が`落ちた学校に私は受かった。
-      + ジェニー`は`落ちた学校に私は受かった。
-    + I also failed to get into the school that Jenny failed to get into.
-      + ジェニー`の`落ちた学校に私も落ちた。
-      + ジェニー`が`落ちた学校に私も落ちた。
-      + は cannot be used in this case as it is not a contrast
+  * I was accepted by the school that Jenny failed to get into.
+    + ジェニー`の`落ちた学校に私は受かった。
+    + ジェニー`が`落ちた学校に私は受かった。
+    + ジェニー`は`落ちた学校に私は受かった。
+  * I also failed to get into the school that Jenny failed to get into.
+    + ジェニー`の`落ちた学校に私も落ちた。
+    + ジェニー`が`落ちた学校に私も落ちた。
+    + は cannot be used in this case as it is not a contrast
 - something `は`・・・。 something else `は`・・・。
   * "something else" can be used as an additional context to "something"
-- in giving negative answers, は should be used in place of particles such as
-  が
-  * examples
-    + A: パーティーは田中さんが来ますか。
-      B: いいえ、田中さん`は`来ません。
 
 ## が
 
