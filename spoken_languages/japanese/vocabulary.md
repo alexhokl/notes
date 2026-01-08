@@ -1218,6 +1218,7 @@ ____
 
 ### adverbs
 
+- 恐らく (おそらく) - probably; I'm afraid
 - こんなに - this much
 - すで - already
 - 既に (すでに) - already; previously; before; undeniably

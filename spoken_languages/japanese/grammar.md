@@ -1,11 +1,4 @@
 - [References](#references)
-- [Sentence structure](#sentence-structure)
-  * [Simple sentence](#simple-sentence)
-  * [Complex sentence](#complex-sentence)
-    + [Noun modification](#noun-modification)
-    + [Politeness markers](#politeness-markers)
-- [Auxiliary verbs](#auxiliary-verbs)
-- [て form](#%E3%81%A6-form)
 - [Noun and verb](#noun-and-verb)
 - [keigo prefixes](#keigo-prefixes)
   * [御](#%E5%BE%A1)
@@ -17,7 +10,6 @@
     + [供 (ども)](#%E4%BE%9B-%E3%81%A9%E3%82%82)
     + [諸 (しょ)](#%E8%AB%B8-%E3%81%97%E3%82%87)
     + [等 (など)](#%E7%AD%89-%E3%81%AA%E3%81%A9)
-- [Auxiliary verbs](#auxiliary-verbs-1)
 - [Compounds](#compounds)
   * [のだ](#%E3%81%AE%E3%81%A0)
   * [かも知れない](#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
@@ -37,119 +29,14 @@ ____
 
 - [Sentence and
   clauses](https://www.tofugu.com/japanese-grammar/sentences-and-clauses/)
-- [Particles](./particles.md)
-- [Verbs](./verbs.md)
-- [Adjectives](./adjectives.md)
-
-# Sentence structure
-
-## Simple sentence
-
- | item           | examples   | example sentence                               | translation                                   |
- | ---            | ---        | ---                                            | ---                                           |
- | verb           | 作る       | 作る                                           | make                                          |
- | object marker  | を         | お寿司`を`作る                                 | make sushi                                    |
- | subject marker | が         | お父さん`が`お寿司お作る                       | dad makes sushi                               |
- | topic          | は         | 毎週日曜日`は`お父さんがお寿司を作る。         | Every Sunday, dad makes sushi.                |
- | adverbials     | に、で     | 毎週日曜日はお父さんが台所`で`お寿司を作る。   | Every Sunday, dad makes sushi in the kitchen. |
- | final particle | の、よ、ね | 毎週日曜日はお父さんが台所でお寿司を作る`の`。 | Every Sunday, dad makes sushi in the kitchen. |
-
-- `は` marks the topic. However, unlike `が`, it carries to subsequent sentences
-  until another topic is introduced.
-- adverbials give information about the circumstances surrounding a sentence,
-  such as when, where, why or how
-- Japanese is in general a "SOV" language
-  * however, the order can be switched up due to particles marking the subject
-    and object
-  * sentence order can be manipulated to highlight information at the beginning
-    of the sentence, or tuck it awat at the end like an afterthought
-
-## Complex sentence
-
- | item             | examples               | example sentence                             | translation                                       |
- | ---              | ---                    | ---                                          | ---                                               |
- | -                | -                      | 今日は忙しい。ストレスが溜まっている。       | Today is busy. I'm feeling stressed out.          |
- | conjunction      | から、ので、けと、なら | 今日は忙しい`から`、ストレスが溜まっている。 | Today is busy, so I'm feeling stressed out.       |
- | conjugation      | い                     | 今日は`忙しくて`、ストレスが溜まっている。   | Today I'm busy, so I'm feeling stressed out.      |
- | quotation        | 「」                   | 弟は「火星に住みたい」と言いました。         | My little brother said, "I want to live on Mars." |
- | spoken quotation | と                     | 人間は火星に住めない`と`思う。               | I think humans can't live on Mars.                |
-
-- `から` makes it clear that the first clause is the reason for the second
-
-### Noun modification
-
-- `可愛い`猫 - cute cat
-- `スーパーの前で拾った`猫 - the cat that I found in front of the supermarket
-- 残念ながら、`スーパーの前で拾った`猫が逃げたんだ。 - Unfortunately, the cat
-  that I found in front of the supermarket ran away.
-- `スーパーの前で拾った`猫が`お母さんからもらった`ランプを壊した。 - The cat
-  that I found in front of the supermarket broke the lamp that I got from my
-  mother.
-
-### Politeness markers
-
-- `です`
-- `ます`
-- in complex sentences with multiple politeness markers, only the last one needs
-  to be kept and others can be replaced `です` by `だ`
-  * example: 桜が満開`だ`から、お花見に行き`ます`。 - The cherry blossoms are in
-    full bloom, so I'm going to see them.
-- in spoken quotation, `です` and `ます` cannot be used and `だ` is used instead
-  * example: 近所の人から桜が満開`だ`と教えてもらった。 - A neighbor told me
-    that the cherry blossoms were in full bloom.
-
-# Auxiliary verbs
-
-- noun + `です`
-- adjective + `です`
-- verb + ます (non-example)
-
-| Form             | Affirmative | Negative       |
-| ---              | ---         | ---            |
-| Non-past         | だ          | ではない       |
-| Non-past, polite | です        | ではありません |
-
-# て form
-
-- the most basic use
-  * to connect simultaneous or sequential actions, events or states together
-  * note that "、" can be added after て but it is optional
-- conjugation
-  * nouns
-    + add で
-- other usages
-  * and
-    + `走って`シャワーをする。 - I run and take a shower.
-  * by
-    + `走って`駅に行く。 - I go to the station by running.
-  * multiple actions
-    + `走って`シャワーを`浴びて`、朝ご飯を食べる。 - I run, take a shower, and
-      eat breakfast.
-  * so
-    + このケーキ`甘くて`おいしい。 - This cake is sweet so it is delicious.
-    + 頭痛で眠れなかった。 - I had a headache so I couldn't sleep.
-    + 睡眠薬を飲んで眠った。 - I took sleeping pills so I slept. / I slept by
-      taking sleeping pills.
-  * ending a sentence (polite form)
-    + 起きてください。- Please wake up.
-    + casual please
-      + 見てて - please watch
-        + which is is short for 見ていてください
-  * ending a sentence (command form)
-    + 起きて。 - Wake up.
-  * share the same subject
-    + このベーコンはカリカリ`で`おいしい。 - This bacon is crispy and it is
-      delicious.
 
 # Noun and verb
 
-- in general, verbs can be converted to nouns by writing a verb in ます form and
-  remove ます
-  * examples
-    + 作る => 作ります => 作り
-    + 飲む => 飲みます => 飲み
-    + 聞く => 聞きます => 聞き
-    + 焼く => 焼きます => 焼き
+- in general, verbs can be converted to nouns by writing a verb in stem form
+  * 作る => 作ります => 作り
+  * 飲む => 飲みます => 飲み
+  * 聞く => 聞きます => 聞き
+  * 焼く => 焼きます => 焼き
 
 # keigo prefixes
 
@@ -313,48 +200,6 @@ ____
   * そのパーティーには弁護士などが来ました。- People like lawyers came to the
     party. (it implies that there are other professionals besides lawyers)
 - in the Kansai area, やら is common used instead
-
-# Auxiliary verbs
-
-- [conjugations](./conjugations.md#)
-- used when the speak is Pretty sure about whatever they are saying
-- it emphasise the feeling that the speaker has a reason to make their claim
-- it is a derivative of だ
-- it carries an assertive tone when used in conversations
-- basic examples
-  * a 田中さんは金持ちだろう。
-  * A: どのチームが優勝すると思う？
-    B: ジャイアンツだろうね。
-- to indicate that the speculation is about the future
-  * for nouns and adjectives, add word that indicates time
-    + 明日
-    + 来週
-    + 来月
-  * for verbs, use ている form
-    + 彼は会社を休んでいるだろう。
-      + I assume he is taking a day off.
-- to manipulate the level of certainty
-  * きっと > 多分 > 恐らく
-  * 明日はきっと寒いだろう。
-    + It will definitely be cold tomorrow.
-  * 明日は多分寒いだろう。
-    + It will probably be cold tomorrow.
-  * もしかして and もしかしたら cannot be used with だろう due to those words
-    are too low in certainty level
-- to seek confirmation
-  * 僕のプリン、食べただろう。
-  * 僕の彼女、可愛いだろう。
-  * in this use case, だろう is often shorten to だ or
-  * for a more masuline speech, だろ is also used
-- to seek information
-  * あれ、なんだろう？
-    + What do you think that is?
-  * コウイチはどこだろう？
-    + I wonder where Koichi is.
-  * いつ田中さんは来るだろう？
-    + I wonder when Tanaka will come.
-  * A: 一番好きな動物はなに？
-    B: うーん、なんだろう。猫か犬？
 
 # Compounds
 
