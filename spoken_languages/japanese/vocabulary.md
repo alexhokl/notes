@@ -1511,6 +1511,7 @@ ____
 
 ### adjectives (い)
 
+- 羨ましい (うらやましい) - envious; jealous
 - 面倒くさい (めんどうくさい) - bothersome; annoying
 - 勿体ない (もったいない) - wasteful; too good; more than one deserves; a waste
   (usually people leaving a place and do not want to keep the item)
@@ -1656,6 +1657,7 @@ ____
 
 - 直ぐ (すぐ) - immediately; soon; easily
 - 先に (さきに) - previously; before
+- 若しかして (もしかして) - perhaps
 
 ### adjectives (い)
 
@@ -1769,6 +1771,7 @@ ____
 ### verbs (intransitive)
 
 - 受かる (うかる) - to pass (e.g. exam)
+- 揉める (もめる) - to disagree; to dispute; to fight (over)
 
 ## N0
 
@@ -2419,3 +2422,4 @@ ____
 - ありがたい事に (ありがたいことに) - thankfully
 - このまま - as it is
 - 今のうち (いまのうち) - while one still can
+- ちゃった - finished doing; did completely
