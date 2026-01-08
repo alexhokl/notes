@@ -1,40 +1,48 @@
 - [Particles (助詞)](#particles-%E5%8A%A9%E8%A9%9E)
-  * [Examples](#examples)
-  * [の](#%E3%81%AE)
-  * [は](#%E3%81%AF)
-  * [が](#%E3%81%8C)
-  * [は and が](#%E3%81%AF-and-%E3%81%8C)
-  * [を](#%E3%82%92)
-  * [も](#%E3%82%82)
-  * [か](#%E3%81%8B)
-  * [と](#%E3%81%A8)
-  * [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
-  * [たら](#%E3%81%9F%E3%82%89)
-  * [や](#%E3%82%84)
-  * [し](#%E3%81%97)
-  * [ね](#%E3%81%AD)
-  * [わ](#%E3%82%8F)
-  * [よ](#%E3%82%88)
-  * [よね](#%E3%82%88%E3%81%AD)
-  * [に and で](#%E3%81%AB-and-%E3%81%A7)
-  * [に](#%E3%81%AB)
-  * [で](#%E3%81%A7)
-  * [へ](#%E3%81%B8)
-  * [まで](#%E3%81%BE%E3%81%A7)
-  * [から](#%E3%81%8B%E3%82%89)
-  * [より](#%E3%82%88%E3%82%8A)
-  * [だけ](#%E3%81%A0%E3%81%91)
-  * [のに](#%E3%81%AE%E3%81%AB)
-  * [ので](#%E3%81%AE%E3%81%A7)
-  * [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
-  * [ながら](#%E3%81%AA%E3%81%8C%E3%82%89)
+  * [格助詞 case-marking particles](#%E6%A0%BC%E5%8A%A9%E8%A9%9E-case-marking-particles)
+    + [の](#%E3%81%AE)
+    + [が](#%E3%81%8C)
+    + [を](#%E3%82%92)
+    + [に and で](#%E3%81%AB-and-%E3%81%A7)
+    + [に](#%E3%81%AB)
+    + [で](#%E3%81%A7)
+    + [へ](#%E3%81%B8)
+    + [まで](#%E3%81%BE%E3%81%A7)
+    + [から](#%E3%81%8B%E3%82%89)
+    + [より](#%E3%82%88%E3%82%8A)
+  * [並列助詞 parallel particles](#%E4%B8%A6%E5%88%97%E5%8A%A9%E8%A9%9E-parallel-particles)
+    + [か](#%E3%81%8B)
+    + [と](#%E3%81%A8)
+    + [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
+    + [や](#%E3%82%84)
+    + [し](#%E3%81%97)
+  * [連続助詞 conjunctive particles](#%E9%80%A3%E7%B6%9A%E5%8A%A9%E8%A9%9E-conjunctive-particles)
+    + [たら](#%E3%81%9F%E3%82%89)
+  * [副助詞 adverbial particles](#%E5%89%AF%E5%8A%A9%E8%A9%9E-adverbial-particles)
+    + [は](#%E3%81%AF)
+    + [は and が](#%E3%81%AF-and-%E3%81%8C)
+    + [も](#%E3%82%82)
+  * [終助詞 sendence-ending particles](#%E7%B5%82%E5%8A%A9%E8%A9%9E-sendence-ending-particles)
+    + [ね](#%E3%81%AD)
+    + [わ](#%E3%82%8F)
+    + [よ](#%E3%82%88)
+    + [よね](#%E3%82%88%E3%81%AD)
+  * [複合助詞 compound particles](#%E8%A4%87%E5%90%88%E5%8A%A9%E8%A9%9E-compound-particles)
+    + [だけ](#%E3%81%A0%E3%81%91)
+    + [のに](#%E3%81%AE%E3%81%AB)
+    + [ので](#%E3%81%AE%E3%81%A7)
+    + [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
+    + [ながら](#%E3%81%AA%E3%81%8C%E3%82%89)
+    + [なら](#%E3%81%AA%E3%82%89)
 ____
 
 # Particles (助詞)
 
 - almost all particles follows a noun
 
-## の
+## 格助詞 case-marking particles
+
+### の
 
 - as noun modifier
   * to give extra information about a noun
@@ -149,69 +157,7 @@ ____
         + ポートランドのビール、そりゃ美味しいの、美味しくないのって！ - Beer in
           Portland is not even a matter of delicious or not delicious.
 
-## は
-
-- it is like a spotlight that shines on the topic and leaving other potential
-  topcis in the dark
-- as a topic marker
-  * it is the rough equivalent of "as for"
-- for constrasting two topics
-  * 東京`は`物価が高いけど、田舎`は`物価が安い。
-- with い-adjectives
-  * 難しく`は`ないけど、ただ時間がかかる。
-  * 難しく`は`ありませんが、時間がかかります。
-  * 難しく`は`あるけど、おもしろい。
-- with nouns and な-adjectives
-  * 有名で`は`ないが、人気はある。
-  * 先生で`は`ありませんが、説明が上手な人です。
-- questions words may be following by が, を, etc, but almost never は
-- it cannot be combined with が, を or も
-- either replace に or become には
-  * 日本`に`行ったことがある。
-  * 日本`には`行ったことがある。
-  * 日本`は`行ったことがある。
-  * 台所`で`犬が吠えています。
-  * 台所`では`犬が吠えています。
-  * 弟`と`映画館に行きました。
-  * 弟`とは`映画館に行きました。
-- for contrast
-  * 日本語`は`好きですが - I like Japanese (but maybe I don't like other
-    languages/subjects).
-  * お肉`は`食べない。 - I don't eat meat (but I eat other things).
-  * お肉`は`食べないけど魚は食べるよ。
-  * the feeling of constrast can also be increased with a pause
-    + 日本語は、好き。
-  * in giving negative answers, は should be used in place of particles such as
-    が
-    + A: パーティーは田中さんが来ますか。
-      B: いいえ、田中さん`は`来ません。
-- for hesitating when speaking
-  * お寿司は好きですか。
-    + お寿司はね…
-    + お寿司は…
-- it can be replaced by a comma
-  * any notion of comparison (or other nuance) is softened
-  * very common with time phrases such as 来週, 先月 or 今年
-  * 今年、日本に行くんです。
-  * 日本語、面白い。
-  * 少し、食べました。
-- for changing scenes
-- used in relative clauses
-  * 蜂蜜の瓶を籠に入れていますした。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
-    + The bear put a jar of honey into basket and left. Unaware of all this, the
-      donkey kept on his afternoon nap.
-  * I was accepted by the school that Jenny failed to get into.
-    + ジェニー`の`落ちた学校に私は受かった。
-    + ジェニー`が`落ちた学校に私は受かった。
-    + ジェニー`は`落ちた学校に私は受かった。
-  * I also failed to get into the school that Jenny failed to get into.
-    + ジェニー`の`落ちた学校に私も落ちた。
-    + ジェニー`が`落ちた学校に私も落ちた。
-    + は cannot be used in this case as it is not a contrast
-- something `は`・・・。 something else `は`・・・。
-  * "something else" can be used as an additional context to "something"
-
-## が
+### が
 
 - marks the subject of a sentence
   * person
@@ -290,18 +236,7 @@ ____
   * examples
     + 私が起きる前に、父は出かけました。
 
-## は and が
-
-- … は …(something important)…
-  * 私は学生です。 - For me, I'm a student.
-- …(something important) が …
-  * 私が学生です。 - I am the one who is a student.
-- 何故、あなたが時計をチラッと見るたび、泣くそうな気分になるの？ - why? when you
-  glance at your watch, I feel like crying (as assuming 私は)
-  * 何故、あなたは時計をチラッと見るたび、泣くそうな気分になるの？ - why? when
-    you glance at your watch, you feel like crying
-
-## を
+### を
 
 - marks the direct object of a sentence
 - marks the thing that affected by the verb
@@ -348,645 +283,7 @@ ____
     + アニメ`から`卒業しました。 - I moved on (graduated) from anime. (implies
       to another industry)
 
-## も
-
-- marker for a part of a set
-  * when it goes after a word, it indicates that the word is a member of the
-    group
-  * examples
-    + 鈴木さん`も`日本語の先生です。
-    + 鈴木さんは先生です。鈴木さんはゲーマーで`も`あります。 - Suzuki is
-      a teacher. Suzuki is also a gamer.
-- noun + も
-  * it is more like used in place of は
-- used at the end of a sentence
-  * for noun or な-adjective
-    + it is added between て form and ある
-      + examples
-        + ジェニーは先生である。 - Jenny is a teacher.
-        + ジェニーは先生で`も`ある。 - Jenny is also a teacher.
-        + ここは静かである。 - Here is quiet.
-        + ここは静かで`も`ある。 - Here is also quiet.
-  * for い-adjective
-    + it is added between く form and ある
-      + examples
-        + 猫は可愛い。
-        + 猫は可愛く`も`ある。
--  combined with other particles
-  * it combines the same was as は
-    + にも
-    + でも
-    + とも
-    + へも
-  * examples
-    + ジェニー`にも`あげる。 - I'll also give it to Jenny.
-- used as in "also"
-  * examples
-    + Hayashi is a student. Mori and Yamada are also students.
-      + 林さんは学生です。森さん`も`山田さん`も`学生です。
-      + 林さんは学生です。森さん`と`山田さん`も`学生です。
-    + らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif
-      is a student, too.
-    + 私はマレーシア人です。貴方`も`マレーシア人ですか。 - I am Malaysian. Are
-      you Malaysian, too?
-      + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
-      + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
-- used as in "either"
-  * examples
-    + 林さんは学生じゃありません。森さん`も`山田さん`も`学生じゃありません。
-    + 林さんは学生じゃありません。森さん`と`山田さん`も`学生じゃありません。
-    + らヒムさんわ先ではありません。アリフさん`も`先生ではありません。 - Rahim
-      is not a teacher. Arif is not a teacher, either.
-- for emphasis
-  * examples
-    + アイスとチョコを食べた後に、パンプキンパイ`も`食べたの！？ - After eating
-      ice cream and chocolate, you even ate a pumpkin pie!?
-- quantity + も
-  * to show that it was an impressive amount
-  * examples
-    + ハンバーガーを６個`も`食べちゃった。 - I ate six hamburgers.
-    + ５キロ`も`太った。 - I gained five kilograms.
-    + ３時間`も`待った。 - I waited for three hours.
-- question word + も
-  * examples
-    + `どれも`おいしそう！ - Everthing looks delicious!
-    + ここのパンは`いつも`おいしい。 - Bread here is always delicious.
-    + `何も`食べたくない。 - I don't want to eat anything.
-    + どれでも - no matter which one
-    + いつでも - no matter when
-    + 何でも - no matter what
-- て form + も + いい
-  * to express or ask for permission or concession
-  * examples
-    + テレビ観てもいい？ - Is it all right if I watch TV?
-      + otherwise the question can be written directly as テレビ観ますか？
-
-## か
-
-- a marker of the unknown
-- for asking questions
-  * simple adding it to the end of a sentence
-- to mark two or more elements as alternatives
-  * examples
-    + 誕生日はお母さん`か`お父さん (`か` / `が`) ケーキを作ってくれる。 - On my
-      birthday, either my mom or my dad will make me a cake.
-    + 今日はカレー`か`パスタ (`か` / `を`) 作ると思う。 - I think I'll make
-      either curry or pasta today.
-- for indefinite pronouns
-  * by adding it to the end of a question word to transform it into an indefinite
-    pronoun; an indefinite pronoun is a word that replaces a noun, and leaves
-    the identity of that noun unknown
-  * examples
-    + 誰か - someone
-    + 何か - something
-    + いつか - sometime
-    + どこか - somewhere
-    + 誰かがいると思う。 - I think someone is here.
-    + 誕生日だから、何か買ってあげようよ。 - It's their birthday, so let's buy
-      something for them.
-- to mark embedded questions
-  * examples
-    + キャメロンがウェイターに`グラスワインはいくら(か)`と聞きました。 - Cameron
-      asked the waiter how much a glass of wine is.
-      + since both か and と are used to mark embedded clause, either one of
-        them can be dropped in this case
-- to mark embedded alternatives
-  * examples
-    + 今日は`赤ワインにするか` `白ワインにするか`まだ決まってない。 - I haven't
-      decided whether I'll have red wine or I'll have white wine today.
-    + 今日は`まみさんも来るか`知ってる？ - Do you know if Mami is coming today?
-    + 今日は`まみさんも来るか`どうか知ってる？ - Do you know if Mami is coming
-      today or not?
-
-## と
-
-- as in "and"
-  * examples
-    + ペン太`と`ペン子は友達だ。 - Penta and Penko are friends.
-    + トマト`と`バナナを食べる。 - I am going to eat tomatoes and bananas.
-    + トマト`と`バナナ`と`ケーキ`と`ラーメン`と`すしを食べる。
-- as in "with"
-  * examples
-    + 妹`と`トマトを食べた。 - I ate tomatoes with my sister.
-    + 妹`と`弟`と`トマトを食べた。 - I ate tomatoes with my younger sister and my
-      younger brother.
-    + 妹`と`弟`と`お父さん`と`お母さん`と`トマト`と`バナナ`と`ケーキ`と`ラーメン
-      `と`すしを食べた。- I ate tomatoes, bananas, cake, ramen, and sushi with
-      my younger sister, my younger brother, my father, and my mother.
-- for listing options
-  * examples
-    + 牛乳`と`ジュース`と`紅茶`と`コーヒー(`と`)、どれがいいですか？ - Which
-      would you like: milk, juice, tea, or coffee?
-- for interactive actions
-  * the Japanese idea of "with" is quite different from the English one
-  * examples
-    + 彼女`と`キスをした。 - I kissed with my girlfriend.
-      + 彼女`に`キスをした。 - I kissed to my girlfriend. (and this indicates
-        the directionality)
-    + 彼女`と`電話をした。 - I have a call with my girlfriend.
-      + 彼女`に`電話をした。 - I called my girlfriend.
-    + 彼女`と`結婚をした。 - I married my girlfriend.
-      + と cannot be replaced に in this case
-- for different interpretations
-  * examples
-    + 第一次世界対戦では、日本はイギリス`と`戦いました。 - In the First World
-      War, Japan and Great Britain fought (together).
-    + 第二次世界対戦では、日本はイギリス`と`戦いました。 - In the Second World
-      War, Japan and Great Britain fought (each other).
-    + 第一次世界対戦では、日本はイギリス`と`一緒に戦いました。 - In the First
-      World War, Japan and Great Britain fought together.
-      + note the use of 一緒に (together) to clarify the meaning of と
-    + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
-    + タケシはマサル`と` 一緒にケンカをした。 - Takeshi and Masaru fought
-      together (against someone else).
-- for marking quotations
-  * examples
-    + キャメロンが「おはよう」`と`言った。 - Cameron said "good morning."
-      + note that quoatation marks can be omitted in this case
-      + in casual conversation, と can be replaced by って
-        + キャメロンがおはよう`って`言った。 - Cameron said "good morning."
-    + 難しい質問だ`と`思う。 - I think it is a difficult question.
-    + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
-    + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
-
-## と (to indicate a strong casual relationship)
-
-- for things that always happen
-  * when と is used for things with inevitable results like this, it is commonly
-    used with words like 必ず (without exception), いつも (always) or よく
-    (usually)
-  * examples
-    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
-      I always crave for sweets (without exception).
-- for habits
-  * examples
-    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
-      a run.
-    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
-      a run.
-    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
-      went for a run.
-      + と and the sentence ending ものだ (or ものです) are used for recalling
-        and narrating the old days
-- for general conditions
-  * examples
-    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
-    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
-      permission, Mami always gets upset.
-- for successive actions
-  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
-    often pairs up with と in this usage
-  * examples
-    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
-      + note the use of past tense
-    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
-      right away.
-- for "what happens if" questions
-  * examples
-    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
-- for warnings
-  * by showing an inevitable consequence of doing something (or often not doing
-    something with the negative form of verbs)
-  * examples
-    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
-- for showing a different perspective
-  * In Japanese culture, people tend to try not to sound too direct or
-    assertive. They are sensitive of providing information as a universal truth
-    unless they are 100% certain because they don't want to be "wrong"! So と is
-    used to soften the assertiveness by bringing an objective perspective as
-    a certain condition.
-  * examples
-    + はっきり言う`と`… - To be honest...
-    + そう考える`と`… - Viewed from that angle...
-    + 他と比べる`と`… - Compared to others...
-    + 一般的に見る`と`… - Generally speaking...
-- と and たら
-  * quite similar because they can both show conditions and time sequence
-  * と shows strong causal relationship whereas the focus of たら is more of the
-    condition as the trigger of the result
-  * examples
-    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
-      crave for sweets.
-    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
-      for sweets.
-    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
-    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
-
-## たら
-
-- a conjugation to express a casual relationship
-  * A: 勉強しなさい。
-    B: ご飯食べたらする。
-  * A: 勉強しなさい。
-    B: おこづかいくれたらする。
-    + A: Do your homework.
-      B: I'll do it if you give me allowance.
-- patterns
-  * convert to past tense + ら
-    + both plain and polite forms can be used
-      + exception is for nagative form where only plain form should be used
-  * 食べたら
-  * 夏だったら
-  * 不安だったら
-  * 難しかったら
-  * 食べましたら
-  * 夏でしたら
-  * 不安でしたら
-  * 食べなかったら
-  * 夏じゃなかったら
-  * 不安じゃなかったら
-  * 難しくなかったら
-- for when or after
-  * to provide the condiition that needs to be fulfilled for other events or
-    situations to take place
-  * this usage cannot be used to describe something the speaker has control over
-    + exception is for future events
-  * 走ったらストレッチをします。
-    + I stretch after running.
-  * for an event happens while another event is progressively happening, rather
-    than completely done
-    + 走っていたら友達に会った。
-      + I ran into my friend when I was running.
-  * ⭕️ 勉強をしたら、疲れた。
-  * ❌ 勉強をしたら、遊んだ。
-  * ⭕️ 卒業したら、留学する。
-- for if
-  * multiple meanings
-    + このプリン食べたら、帰ります。
-      + I'll go back home after eating this pudding
-      + I'll go back home if you eat this pudding.
-  * もし is often combined with たら to explicitly express the "if" meaning
-    + もしこのプリン食べたら帰ります。
-  * in combination with のに
-    + お金があったら留学するのに。
-    + 雨じゃなかったら出かけたのに。
-- for reference
-  * to refer to someone or something
-  * コウイチだったら、外にいますよ。
-    + (If it's Koichi who you are looking for), he is outside.
-- for suggestion
-  * Koichi: お腹空いた。
-    Kanae: このプリン食べたら？
-    + Koichi: I'm hungry.
-      Kanae: How about eating this pudding?
-
-## や
-
-- to list multiple items
-  * implies that there are more items on the list that the speaker have not
-    mentioned
-- it carries a somewhat formal tone and it is more commonly used in writing
-  * in speaking, it is often replaced with the colloquial とか
-- noun + や + noun
-  * examples
-    + 野菜`や`果物`や`肉を買いました。 - I bought vegetables, fruits, meat, etc.
-    + 野菜`とか`果物`とか`肉を買いました。 - I bought vegetables, fruits, meat,
-      etc.
-- noun phrase + や + noun phrase
-  * examples
-    + 私は本を読むこと`や`音楽を聴くことが好きだ。 - I like things like reading
-      books and listening to music.
-      + note the noun phrase of 本を読むこと and 音楽を聴くこと
-      + if noun phrase is not used, たり should be used instead
-        + 日曜日は、私は本を読ん`だり`音楽を聴い`たり`していた。 - On Sundays,
-          I spent my time reading books and listening to music.
-        + 子供達は、静かだっ`たり`うるさかっ`たり`する。 - Sometimes kids are
-          quiet and sometimes they are noisy.
-- quantity + や + quantity
-  * to express an approximate amount of something like "one or two"
-  * examples
-    + 本の一冊`や`二冊なら1日で読めちゃう。 - I can read one or two books in a
-      day.
-    + 今の時代、外国語の一つ`や`二つは勉強しておいた方がいい。 - In this day and
-      age, it is better to learn a foreign language or two.
-
-## し
-
-- patterns
-  * noun + だ + し
-  * な-adjective + だ + し
-  * い-adjective + し
-  * vreb in plain form + し
-- and what's more
-  * usage is very similar to や
-  * 花子は優しいし、かしこい。
-    + Hanako is generous and smart.
-    + although grammatically て can also be used, し places extra emphasis on
-      the fact that 花子 has multiple desirable qualities
-  * 花子は優しいし、かしこいし、かわいらしい。
-  * 花子は優しいし、かしこいし、かわいらしいし…。
-  * この道は暗いし、危ない。
-  * この道はもう暗くないし、危なくない。
-  * この道は暗かったし、危なかった。
-    + This street was dark and dangerous.
-  * この道は暗いし、危なかった。
-    + This street was dark and dangerous.
-  * 私の彼氏は、有名だし、モデルだし、かっこいい。
-  * 私の彼氏は、有名だったし、モデルだったし、かっこよかった。
-  * うちの犬は、テレビも見るし、新聞も読む。
-  * うちの犬は、テレビも見れるし、新聞も読める。
-  * うちの犬は、テレビも見れたし、新聞も読めた。
-  * うちの犬は、テレビも見ますし、新聞も読みます。
-    + Our dog watches TV and reads the newspaper.
-  * うちの犬は、テレビも見るし、新聞も読みます。
-    + Our dog watches TV and reads the newspaper.
-  * この靴は、デザインも可愛いし、値段も安い。
-    + note the use of も
-  * アイツは、お金もないし、才能もない。
-- to mark a reason or cause
-  * so
-  * it adds some abiguity by suggesting there are more reasons
-    + if it is used in a negative sentence, it has functionality to soften the
-      tone as a sign of politeness
-  * 天気もいいし、ピクニックに行かない？
-    + も and し hint that the good weather is not the only reason for the invite
-  * 雨が降るみたいだし、違う日にしない？
-  * it should not be used when the reasons are certain and needs to be
-    communicated
-    + から or ので should be used instead
-  * to use し and から or ので at the same time
-    + 雨が降るみたいだから、違う日にしない？(casual)
-    + 雨が降るみたいなので、違う日にしませんか？ (formal)
-- to use with んだ
-  * to add a sense of providing an explanation when giving someone advice
-  * もうすぐ二十歳になるんだし、もう少ししっかりしたら？
-    + Now that you're almost twenty, why don't you get a little more organized?
-- to list reasons or causes for unfavourable situations
-  * it is often used with で
-  * 長いし、面白くないしで、ほんと、帰りたかったよ。
-    + It was long and uninteresting, and I really wanted to leave.
-  * こっちは、子供は生まれるし、仕事はクビになるしで、ほんとやばいよ。
-    + I'm having a baby, but I got fired from my job. I'm in a really terrible
-      situation.
-  * こっちは、子供も生まれるし、仕事もクビになるしで、ホントやばいよ。
-- to end a sentence with し
-  * to give a hint that "the list goes on"
-  * often used ub casyak settings to share the speaker's personal stance and it
-    can sound a bit slangy
-  * 次の日試験があるし…。
-    + I have an exam the next day, so….
-  * マジで嫌だし！
-    + I really hate it!
-  * やばい、赤ちゃんめっちゃ可愛いし！
-    + Oh man, the baby is so cute!
-
-## ね
-
-- a sentence ending particle
-- to imply that the listener agrees with what speaker is saying, or give the
-  impression that they are both on the same page
-- basic examples
-  * あ、雨が降ってるね。 - Oh, it's raining, isn't it?
-  * 食べるね。 - I'll eat, okay?
-  * 暑いね。 - It's hot, isn't it?
-  * A: 今日、暖かいね。
-    B: うん、暖かいね。 - yeah, it is warm.
-    C: え、暖かくないよ。 - what? It is not warm.
-- used with な-adjectives or nouns
-  * with a feminine tone
-    + 静かね。
-    + 犬ね。
-    + 犬もね。
-  * with a affirmative and neutral tone
-    + 静かだね。
-    + 犬だね。
-    + 犬もだね。
-  * with a polite neutral tone
-    + 静かですね。
-    + 犬ですね。
-    + 犬もですね。
-- hey
-  * only used in this way between people who are on friendly terms
-  * examples
-    + ね！
-    + ねえ！
-    + ねえねえ！
-- used as saying "like" over and over
-  * examples
-    + なんかね、やっぱね、今日はね、お風呂はね、入りたくないんだよね。 - Well,
-      like, turns out, today, like, I don't wanna take a bath, okay?
-- for confirmation
-  * examples
-    + ご予約の佐藤さんですね。こちらへどうぞ。 - You are Mr. Satou who made the
-      reservation, correct? This way, please.
-    + 佐藤フグ男さんですね。署までご同行願います。 - You're Fuguo Satou, right?
-      Please come with us to the police station.
-  * with less confidence
-    + examples
-      + あの、日本のアイドルのフグ男さんです`よね`？ - Hi, you're the Japanese
-        idol Fuguo, right?
-- used in requests
-  * to soften the request
-  * て form + ね
-    + examples
-      + この記事を読んでね。 - Read this article.
-      + 食べ終わったらお皿洗ってね。 - After you eat, can you make sure you do
-        the dishes?
-- used in suggestions
-  * to soften the suggestion
-  * 〜よう + ね
-    + a way to be both nurturing and slightly assertive at the same time
-      + examples
-        + そろそろ宿題しようね。 - It is time for you to do your homework, okay?
-    + to make a promise
-      + examples
-        + また会おうね。 - Let's be sure to meet again, ok?
-- being sarcastic
-  * add it to a statement that contains information the listener is clearly not
-    aware of
-  * examples
-    + それ？マッカラン・ラリックの62年だね。 - That? It's a 62-year-old
-      Macallan, right?
-    + できないね。 - I can't, clearly.
-
-## わ
-
-- a sentence ending particle
-- reflects your perception or sentiment based on personal observation and/or
-  experience
-  * signals your emotional investment in something
-  * its nuance is often altered depending on intonation
-- it usually follows a statement that express your realisation of something,
-  reflecting your view or attitude or event; it indicates that you came to
-  a conclusion, felt a certain way, or are making a sudden observation based on
-  personal experience
-- basic examples
-  * 落ちたと思うわ。 - I think I failed.
-  * 次の試験、頑張るわ。
-- verb + わ
-  * examples
-    + 辞めるわ - I will quit. (plain form)
-    + 辞めたわ - I quit. (past tense)
-    + 辞めないわ - I would not quit. (negative form)
-    + 辞めたいわ - I want to quit. (desire form)
-    + 辞めれるわ - I can quit. (potential form)
-- い-adjective + わ
-  * examples
-    + 暑いわ - It is hot. (plain form)
-    + 暑かったわ - It was hot. (past tense)
-    + 暑くないわ - It is not hot. (negative form)
-- な-adjective + わ
-  * examples
-    + 静かだわ - It is quiet. (plain form)
-    + 静かだったわ - It was quiet. (past tense)
-    + 静かじゃないわ - It is not quiet. (negative form)
-- for causally telling someone about your avavilability
-  * an exameple usage is that the speaker confirms after checking their schedule
-    + similar to "It looks like..." in English
-  * examples
-    + あ、行けるわ。 - Ah, I can go.
-    + ごめん、行けないわ。 - Sorry, I can't go.
-- for casually telling someone "I'll do it"
-  * よ is the strongest; it is a declaration of intent and inform the listener
-    + ね is a softer than よ and it signals a confirmation with the listener;
-      "I'll do it, alright?"
-    + わ is more mild; it signals the speaker is volunteering to help and it is
-      self-directed
-  * used of falling intonation is important
-  * examples
-    + 私、拭くわ。- I'll wipe it up.
-- self-directed sentences
-  * find out a new piece of information
-  * examples
-    + あ、雨だわ。 - Ah, it is going to rain.
-    + えっと、どこだっけな。あ、GAPのだわ。
-      + note that "GAPのだわ。" cannot be used if the speaker knew this
-        information without checking; "GAPのだよ。" should be used otherwise
-- faminine usages
-  * examples
-    + A: これ、すごく甘いわよ。 (after eating a cake)
-      B: 甘いわね。 (after eating a cake)
-      C: 甘いわよね。 (without eating a cake but agree)
-- with です or ます
-  * to sound polite and friendly
-    + when speaker is has a higher or equal social status to the listener
-  * examples
-    + いやー、大変ですわ。 - Well, it is tough.
-    + でも、まあ、頑張りますわ。 - But, well, I'll do my best.
-
-## よ
-
-- a sentence ending particle
-- offering new information or a new perspective to the listener
-- intented for someone else
-- place pressure on the listener to respond
-- it can be overly friendly or conversational in a formal context
-- used directly after a verb
-  * examples
-    + あ、雨が降ってるよ。 - Oh, it's raining.
-      + avoid using this to higher up in the social hierarchy
-    + 食べるよ。
-- used directly after an い-adjective
-  * examples
-    + 暑いよ。
-- used directly after a な-adjective or noun
-  * it is common to add affirmatives だ or politness marker です before よ
-  * examples
-    + 静かだよ。 (affirmative)
-    + 静かですよ。 (polite)
-    + 静かよ。 (faminine)
-    + 犬だよ。 (affirmative)
-    + 犬ですよ。 (polite)
-    + 犬よ。 (faminine)
-    + 犬もだよ。 (affirmative)
-    + 犬もですよ。 (polite)
-    + 犬もよ。 (faminine)
-- for altering
-  * examples
-    + 携帯落としましたよ。 - You dropped your cell phone.
-    + 晩ご飯できたよ！ - Dinner is ready!
-- for giving opinions
-  * examples
-    + めっちゃ良かったよ。 - It was super good.
-    + すごく勉強になると思うよ。 - I think you will learn a lot from it.
-- for being pushy
-  * examples
-    + そろそろ何か食べようよ。 - Let's get something to eat.
-      + そろそろ何か食べない。 (a less pushy version)
-    + そんなに食べたら会議で眠くなるよ。 - You will get sleepy if you keep
-      eating that much.
-      + そんなに食べたら会議で眠くなっちゃうよ。 (a less pushy version)
-      + そんなに食べたら会議で眠くなると思うよ。 (a less pushy version)
-- for contradicting
-  * examples
-    + いらいらしてる訳じゃないよ。 - It is not that I am annoyed.
-- for agreement
-  * offering an affirmative answer to question asked
-  * examples
-    + A: これ借りてもいいですか？ - Can I borrow this?
-      B: いいですよ。 - Sure.
-    + A: 日曜日、ピクニックに行きませんか？ - Why don't we go on a picnic on
-      Sunday?
-      B: 良いですよ。 - Sure. (it could sound a bit cold; 良いですね。 is more
-         friendly)
-- for declining
-  * best to avoid adding it to strongly negative words such as 嫌 or 無理
-  * examples
-    + A: 日曜日、ピクニックに行きませんか？ - Why don't we go on a picnic on
-      Sunday?
-      B: すいません。その日は忙しいんですよ。 - Sorry, I'm a little busy that
-         day.
-    + 絶対貸さないよ！ - No way I'm lending you that! (to indicate a firm
-      answer)
-- for emphasising feelings
-  * examples
-    + お腹すいたよ。 (it is more like talking to yourself)
-      + お腹すいた。 (it is common to skip よ in this case)
-    + うれしいよ。
-    + 楽しいよ。
-
-## よね
-
-- a sentence ending particle
-- used for conformation when the speaker is pretty sure but not certain, that
-  the listener agrees
-  * generally used when trying to dobul check something with the listener
-  * it also leaves more leeway for the listener to say "no" than if only ね was
-    used
-  * it creates a lively, conversational feel, while also implying modesty and
-    empathy towards the listener; this fits in perfectly with Japanese
-    communication styles and is, therefore, very popular to use in conversation
-- used at the end of sentences
-  * examples
-    + あ、雨が降ってるよね。 - Oh, it's raining, right?
-    + 食べるよね。 -  You will eat it, right?
-    + 暑いよね。 - It is hot, isn't it?
-    + 静かだよね。 (affirmative)
-    + 静かですよね。 (polite)
-    + 静かよね。 (faminine)
-    + 犬だよね。 (affirmative)
-    + 犬ですよね。 (polite)
-    + 犬よね。 (faminine)
-    + 犬もだよね。 (affirmative)
-    + 犬もですよね。 (polite)
-    + 犬もよね。 (faminine)
-    + A: やばい、明日試験だっけ？ - Oh no, is the exam tomorrow?
-      B: そうだよ。 - That's right.
-      A: だよね。ああ、どうしよ。 (or ですよね。ああ、どうしよ。) - Right,
-         right. Oh, what should I do...
-- for confirmation
-  * one of the usages is a double-checking is a good devices to begin a small
-    talk
-  * examples
-    + トーフグのポッドキャストの最新エピソード、もう聴いたよね？ - You've
-      already listened to the latest episode of the Tofugu podcast, right?
-    + 最近日本語の勉強始めたんだよね？ - You started learning Japanese recently,
-      right?
-- for seeking agreement
-  * for soft orders or refusals
-  * examples
-    + 私も日本語の勉強始めたの。でも、漢字が難しいよね。 - I've also started
-      learning Japanese, yet kanji is difficult, huh?
-    + 誰にも言わないでよね。 - Don't tell anyone, okay? (soft order)
-      + 誰にも言うなよ。- Do not tell anyone else! (strong order)
-- for showing argreement
-  * repeat whatever the other said and add よね to the end
-  * examples
-    + そうだよね。数学は難しいよね。 - I agree. Math is difficult, huh?
-    + 確かさっき鞄の中に入れたよね。 - You put it in your bag a little while
-      ago, didn't you?
-
-## に and で
+### に and で
 
 - に and で are both used to indicate a location
 - に
@@ -1046,7 +343,7 @@ ____
       + まだゲームしてるの？学校が９時で始まるよ！ - Are you still playing
         games? The school starts at 9!
 
-## に
+### に
 
 - verb (stem form) + に
   * or ため + に
@@ -1183,7 +480,7 @@ ____
     + 毎月
     + 毎年
 
-## で
+### で
 
   - it specifies where or how an activity or event takes place
   - the places that it specifies does not necessarily have to be a physical space
@@ -1235,7 +532,7 @@ ____
     + 今日は`三時で`仕事を終わります。 - I will finish work at 3 today.
     + 今日は`三時で`帰ります。 - I will leave at 3 today.
 
-## へ
+### へ
 
 - it is always pronunced as え when it is used as a particle
 - indicates a destination or the direction that something is heading
@@ -1299,7 +596,7 @@ ____
     + `ホテルへは`、15分くらいです。 - As for getting to the hotel, it takes
       about 15 minutes.
 
-## まで
+### まで
 
 - indicates the end point in space, time and numbers
 - examples
@@ -1376,7 +673,7 @@ ____
     + 言う`までもない` - needless to say / it goes without saying
       + verb + までもない usually means it can be effortlessly carried out
 
-## から
+### から
 
 - to indicate the beginning point of something, or where something is coming
   from
@@ -1468,7 +765,7 @@ ____
       it's been one year.
       + `大学を卒業して`1年が過ぎた。 - I graduated from university a year ago.
 
-## より
+### より
 
 - to be used as "than"
   * examples
@@ -1572,7 +869,612 @@ ____
         + 日頃`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
         + 平素`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
 
-## だけ
+## 並列助詞 parallel particles
+
+### か
+
+- a marker of the unknown
+- for asking questions
+  * simple adding it to the end of a sentence
+- to mark two or more elements as alternatives
+  * examples
+    + 誕生日はお母さん`か`お父さん (`か` / `が`) ケーキを作ってくれる。 - On my
+      birthday, either my mom or my dad will make me a cake.
+    + 今日はカレー`か`パスタ (`か` / `を`) 作ると思う。 - I think I'll make
+      either curry or pasta today.
+- for indefinite pronouns
+  * by adding it to the end of a question word to transform it into an indefinite
+    pronoun; an indefinite pronoun is a word that replaces a noun, and leaves
+    the identity of that noun unknown
+  * examples
+    + 誰か - someone
+    + 何か - something
+    + いつか - sometime
+    + どこか - somewhere
+    + 誰かがいると思う。 - I think someone is here.
+    + 誕生日だから、何か買ってあげようよ。 - It's their birthday, so let's buy
+      something for them.
+- to mark embedded questions
+  * examples
+    + キャメロンがウェイターに`グラスワインはいくら(か)`と聞きました。 - Cameron
+      asked the waiter how much a glass of wine is.
+      + since both か and と are used to mark embedded clause, either one of
+        them can be dropped in this case
+- to mark embedded alternatives
+  * examples
+    + 今日は`赤ワインにするか` `白ワインにするか`まだ決まってない。 - I haven't
+      decided whether I'll have red wine or I'll have white wine today.
+    + 今日は`まみさんも来るか`知ってる？ - Do you know if Mami is coming today?
+    + 今日は`まみさんも来るか`どうか知ってる？ - Do you know if Mami is coming
+      today or not?
+
+### と
+
+- as in "and"
+  * examples
+    + ペン太`と`ペン子は友達だ。 - Penta and Penko are friends.
+    + トマト`と`バナナを食べる。 - I am going to eat tomatoes and bananas.
+    + トマト`と`バナナ`と`ケーキ`と`ラーメン`と`すしを食べる。
+- as in "with"
+  * examples
+    + 妹`と`トマトを食べた。 - I ate tomatoes with my sister.
+    + 妹`と`弟`と`トマトを食べた。 - I ate tomatoes with my younger sister and my
+      younger brother.
+    + 妹`と`弟`と`お父さん`と`お母さん`と`トマト`と`バナナ`と`ケーキ`と`ラーメン
+      `と`すしを食べた。- I ate tomatoes, bananas, cake, ramen, and sushi with
+      my younger sister, my younger brother, my father, and my mother.
+- for listing options
+  * examples
+    + 牛乳`と`ジュース`と`紅茶`と`コーヒー(`と`)、どれがいいですか？ - Which
+      would you like: milk, juice, tea, or coffee?
+- for interactive actions
+  * the Japanese idea of "with" is quite different from the English one
+  * examples
+    + 彼女`と`キスをした。 - I kissed with my girlfriend.
+      + 彼女`に`キスをした。 - I kissed to my girlfriend. (and this indicates
+        the directionality)
+    + 彼女`と`電話をした。 - I have a call with my girlfriend.
+      + 彼女`に`電話をした。 - I called my girlfriend.
+    + 彼女`と`結婚をした。 - I married my girlfriend.
+      + と cannot be replaced に in this case
+- for different interpretations
+  * examples
+    + 第一次世界対戦では、日本はイギリス`と`戦いました。 - In the First World
+      War, Japan and Great Britain fought (together).
+    + 第二次世界対戦では、日本はイギリス`と`戦いました。 - In the Second World
+      War, Japan and Great Britain fought (each other).
+    + 第一次世界対戦では、日本はイギリス`と`一緒に戦いました。 - In the First
+      World War, Japan and Great Britain fought together.
+      + note the use of 一緒に (together) to clarify the meaning of と
+    + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
+    + タケシはマサル`と` 一緒にケンカをした。 - Takeshi and Masaru fought
+      together (against someone else).
+- for marking quotations
+  * examples
+    + キャメロンが「おはよう」`と`言った。 - Cameron said "good morning."
+      + note that quoatation marks can be omitted in this case
+      + in casual conversation, と can be replaced by って
+        + キャメロンがおはよう`って`言った。 - Cameron said "good morning."
+    + 難しい質問だ`と`思う。 - I think it is a difficult question.
+    + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
+    + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
+
+### と (to indicate a strong casual relationship)
+
+- for things that always happen
+  * when と is used for things with inevitable results like this, it is commonly
+    used with words like 必ず (without exception), いつも (always) or よく
+    (usually)
+  * examples
+    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
+      I always crave for sweets (without exception).
+- for habits
+  * examples
+    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
+      a run.
+    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
+      a run.
+    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
+      went for a run.
+      + と and the sentence ending ものだ (or ものです) are used for recalling
+        and narrating the old days
+- for general conditions
+  * examples
+    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
+    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
+      permission, Mami always gets upset.
+- for successive actions
+  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
+    often pairs up with と in this usage
+  * examples
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+      + note the use of past tense
+    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
+      right away.
+- for "what happens if" questions
+  * examples
+    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
+- for warnings
+  * by showing an inevitable consequence of doing something (or often not doing
+    something with the negative form of verbs)
+  * examples
+    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
+- for showing a different perspective
+  * In Japanese culture, people tend to try not to sound too direct or
+    assertive. They are sensitive of providing information as a universal truth
+    unless they are 100% certain because they don't want to be "wrong"! So と is
+    used to soften the assertiveness by bringing an objective perspective as
+    a certain condition.
+  * examples
+    + はっきり言う`と`… - To be honest...
+    + そう考える`と`… - Viewed from that angle...
+    + 他と比べる`と`… - Compared to others...
+    + 一般的に見る`と`… - Generally speaking...
+- と and たら
+  * quite similar because they can both show conditions and time sequence
+  * と shows strong causal relationship whereas the focus of たら is more of the
+    condition as the trigger of the result
+  * examples
+    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
+      crave for sweets.
+    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
+      for sweets.
+    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
+    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
+
+### や
+
+- to list multiple items
+  * implies that there are more items on the list that the speaker have not
+    mentioned
+- it carries a somewhat formal tone and it is more commonly used in writing
+  * in speaking, it is often replaced with the colloquial とか
+- noun + や + noun
+  * examples
+    + 野菜`や`果物`や`肉を買いました。 - I bought vegetables, fruits, meat, etc.
+    + 野菜`とか`果物`とか`肉を買いました。 - I bought vegetables, fruits, meat,
+      etc.
+- noun phrase + や + noun phrase
+  * examples
+    + 私は本を読むこと`や`音楽を聴くことが好きだ。 - I like things like reading
+      books and listening to music.
+      + note the noun phrase of 本を読むこと and 音楽を聴くこと
+      + if noun phrase is not used, たり should be used instead
+        + 日曜日は、私は本を読ん`だり`音楽を聴い`たり`していた。 - On Sundays,
+          I spent my time reading books and listening to music.
+        + 子供達は、静かだっ`たり`うるさかっ`たり`する。 - Sometimes kids are
+          quiet and sometimes they are noisy.
+- quantity + や + quantity
+  * to express an approximate amount of something like "one or two"
+  * examples
+    + 本の一冊`や`二冊なら1日で読めちゃう。 - I can read one or two books in a
+      day.
+    + 今の時代、外国語の一つ`や`二つは勉強しておいた方がいい。 - In this day and
+      age, it is better to learn a foreign language or two.
+
+### し
+
+- patterns
+  * noun + だ + し
+  * な-adjective + だ + し
+  * い-adjective + し
+  * vreb in plain form + し
+- and what's more
+  * usage is very similar to や
+  * 花子は優しいし、かしこい。
+    + Hanako is generous and smart.
+    + although grammatically て can also be used, し places extra emphasis on
+      the fact that 花子 has multiple desirable qualities
+  * 花子は優しいし、かしこいし、かわいらしい。
+  * 花子は優しいし、かしこいし、かわいらしいし…。
+  * この道は暗いし、危ない。
+  * この道はもう暗くないし、危なくない。
+  * この道は暗かったし、危なかった。
+    + This street was dark and dangerous.
+  * この道は暗いし、危なかった。
+    + This street was dark and dangerous.
+  * 私の彼氏は、有名だし、モデルだし、かっこいい。
+  * 私の彼氏は、有名だったし、モデルだったし、かっこよかった。
+  * うちの犬は、テレビも見るし、新聞も読む。
+  * うちの犬は、テレビも見れるし、新聞も読める。
+  * うちの犬は、テレビも見れたし、新聞も読めた。
+  * うちの犬は、テレビも見ますし、新聞も読みます。
+    + Our dog watches TV and reads the newspaper.
+  * うちの犬は、テレビも見るし、新聞も読みます。
+    + Our dog watches TV and reads the newspaper.
+  * この靴は、デザインも可愛いし、値段も安い。
+    + note the use of も
+  * アイツは、お金もないし、才能もない。
+- to mark a reason or cause
+  * so
+  * it adds some abiguity by suggesting there are more reasons
+    + if it is used in a negative sentence, it has functionality to soften the
+      tone as a sign of politeness
+  * 天気もいいし、ピクニックに行かない？
+    + も and し hint that the good weather is not the only reason for the invite
+  * 雨が降るみたいだし、違う日にしない？
+  * it should not be used when the reasons are certain and needs to be
+    communicated
+    + から or ので should be used instead
+  * to use し and から or ので at the same time
+    + 雨が降るみたいだから、違う日にしない？(casual)
+    + 雨が降るみたいなので、違う日にしませんか？ (formal)
+- to use with んだ
+  * to add a sense of providing an explanation when giving someone advice
+  * もうすぐ二十歳になるんだし、もう少ししっかりしたら？
+    + Now that you're almost twenty, why don't you get a little more organized?
+- to list reasons or causes for unfavourable situations
+  * it is often used with で
+  * 長いし、面白くないしで、ほんと、帰りたかったよ。
+    + It was long and uninteresting, and I really wanted to leave.
+  * こっちは、子供は生まれるし、仕事はクビになるしで、ほんとやばいよ。
+    + I'm having a baby, but I got fired from my job. I'm in a really terrible
+      situation.
+  * こっちは、子供も生まれるし、仕事もクビになるしで、ホントやばいよ。
+- to end a sentence with し
+  * to give a hint that "the list goes on"
+  * often used ub casyak settings to share the speaker's personal stance and it
+    can sound a bit slangy
+  * 次の日試験があるし…。
+    + I have an exam the next day, so….
+  * マジで嫌だし！
+    + I really hate it!
+  * やばい、赤ちゃんめっちゃ可愛いし！
+    + Oh man, the baby is so cute!
+
+## 連続助詞 conjunctive particles
+
+### たら
+
+- a conjugation to express a casual relationship
+  * A: 勉強しなさい。
+    B: ご飯食べたらする。
+  * A: 勉強しなさい。
+    B: おこづかいくれたらする。
+    + A: Do your homework.
+      B: I'll do it if you give me allowance.
+- patterns
+  * convert to past tense + ら
+    + both plain and polite forms can be used
+      + exception is for nagative form where only plain form should be used
+  * 食べたら
+  * 夏だったら
+  * 不安だったら
+  * 難しかったら
+  * 食べましたら
+  * 夏でしたら
+  * 不安でしたら
+  * 食べなかったら
+  * 夏じゃなかったら
+  * 不安じゃなかったら
+  * 難しくなかったら
+- for when or after
+  * to provide the condiition that needs to be fulfilled for other events or
+    situations to take place
+  * this usage cannot be used to describe something the speaker has control over
+    + exception is for future events
+  * 走ったらストレッチをします。
+    + I stretch after running.
+  * for an event happens while another event is progressively happening, rather
+    than completely done
+    + 走っていたら友達に会った。
+      + I ran into my friend when I was running.
+  * ⭕️ 勉強をしたら、疲れた。
+  * ❌ 勉強をしたら、遊んだ。
+  * ⭕️ 卒業したら、留学する。
+- for if
+  * multiple meanings
+    + このプリン食べたら、帰ります。
+      + I'll go back home after eating this pudding
+      + I'll go back home if you eat this pudding.
+  * もし is often combined with たら to explicitly express the "if" meaning
+    + もしこのプリン食べたら帰ります。
+  * in combination with のに
+    + お金があったら留学するのに。
+    + 雨じゃなかったら出かけたのに。
+- for reference
+  * to refer to someone or something
+  * コウイチだったら、外にいますよ。
+    + (If it's Koichi who you are looking for), he is outside.
+- for suggestion
+  * Koichi: お腹空いた。
+    Kanae: このプリン食べたら？
+    + Koichi: I'm hungry.
+      Kanae: How about eating this pudding?
+
+### ので
+
+- a conjunctive particle
+- used to explain reasoning and such
+- it has a polite feel
+- it is て form of のだ
+- for connecting sentences
+  * if it involves な-adjectives or nouns, な should be added
+  * examples
+    + お腹が空いた`ので`レストランに行きました。
+    + 二十歳な`ので`お酒が飲めます。
+    + このシャツはきれいな`ので`洗濯する必要はありません。
+    + このシャツはきれいな`ので`洗濯する必要はありません。
+- it could be just a simple combination of の and で
+  * which has nothing to do with ので
+  * examples
+    + うーん、じゃあ赤いのでお願いします。 - Um, then the red one, please.
+- used at the end of a sentence
+  * examples
+    + 課題があるので・・・。 - I have some assignments to do, so...
+- compared to から
+  * から is often used in casual situations or for people who you are close with
+  * ので is generally used in formal situations
+  * examples
+    + 熱い`ので`、気をつけてください。 - It is hot, so please be careful.
+    + 熱い`から`、気をつけてね。 - It is hot, so be careful.
+
+### が and けど
+
+- both are conjective particles
+- both have similar usage to "but"
+- が carries a more formal nuance, while けど feels more colloquial
+  * が is overall more suitable for writing, but is still used in conversation,
+    combined with the polite form です/ます
+- used in connecting sentences
+  * examples
+    + 白ワインは好きです`が`、赤ワインはあまり好きではないです。 - I like white
+      wine but I am not a big fan of red wine.
+    + I lit candles but the kitchen is still dark.
+      + ロウソクを付けた`が`キッチンはまだ暗い。
+      + ロウソクを付けた`けど`キッチンはまだ暗い。
+    + It's summer but it's cool today.
+      + 夏です`が`今日は涼しいです。
+      + 夏です`けど`今日は涼しいです。
+      + 夏だ`が`今日は涼しい。
+      + 夏だ`けど`今日は涼しい。
+    + It is quiet at night but it is loud during the day.
+      + 夜は静かです`が`昼はうるさいです。
+      + 夜は静かです`けど`昼はうるさいです。
+      + 夜は静かだ`けど`昼はうるさい。
+      + 夜は静かだ`が`昼はうるさい。
+- for constrast
+  * examples
+    + 母さんはコンサートに来た`が`、姉は来なかった。 - My mother came to the
+      concert, but my older sister didn't.
+    + 雨が降っている`けど`、子供たちは外で遊んでいる。 - It's raining, but the
+      children are playing outside.
+- for providing context
+  * が and けど follow んです or んだ are used for providing explanations
+  * examples
+    + 財布を忘れてしまったんです`が`、５００円貸してもらえませんか？ - I forgot
+      to bring my wallet. Would you lend me 500 yen?
+    + ペン持ってないんだ`けど`、貸してくれない？ - I don't have a pen with me.
+      Can you lend me one?
+- variations but different levels of formality
+  * けれども
+  * けども
+  * けれど
+- used at the end of sentences
+  * it can create different effects like giving the listener flexibility in how
+    to respond, or making what speaker said sounds like an afterthought,
+    sounding less confrontational, expressing uncertainty, etc
+  * examples
+    + もしもし。予約したいんです`けど`...。 - Hello. I'd like to make a
+      reservation...
+
+### ながら
+
+- [Conjugations](./conjugations.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
+- basic examples
+  * 小さいながら甘いいちご。
+  * 未完成ながらきれいな作品。
+  * 彼は初心者ながらよくやった。
+- when feelings contradict actions
+  * 誠に勝手ながら、欠席いたします。
+    + Even though it's very selfish, I'm not going to make it.
+  * 残念ながら、負けてしまいました。
+    + Although it's a shame, I lost.
+- formal expressions that add a feeling of humbleness
+  * 僭越ながら、乾杯の音頭を取らせていただきます。
+    + While I don't deserve this honor, I will lead us in a toast.
+
+### なら
+
+- attach to the end a condition clause
+- [conjugations](./conjugations.md#%E3%81%AA%E3%82%89-if)
+- for describing conditions and the possibility that it might not happen
+  * 寒いならこれを着てください。
+  * あなたが嬉しいなら、私も嬉しいです。
+  * it cannot be used if the condition will definitely happen
+    + ❌ 春になるなら、お花見をしましょう。
+  * ⭕️コウイチに会うなら、メールを見るよう伝えてください。
+    + If you meet with Koichi, please tell him to check his email.
+  * ⭕️外に行くなら、ゴミ捨てて来て。
+  * ❌ 私が行くなら、コウイチも行きたい。
+    + it is incorrect as the speaker is sure whether the condition is true or
+      not
+  * ⭕️ 私が行くなら、コウイチも行きたがると思う。
+    + If I go there, I think Koichi wants to come with me.
+      + it is correct as action itself is an undertain assumption from the
+        speaker
+  * ❌ 走るなら先生に怒られるよ。
+    + it is incorrect as it is used to claim subjective opinions based on the
+      speakers' assumption of a certain condition
+  * ⭕️ 走るなら人にぶつからないようにしなよ。
+    + Try not to run into other people if you run.
+- for describing counterfactual conditions
+  * 私があなたならそんなことはしない。
+    + If I were you, I wouldn't do something like that.
+  * 今日が晴れなら、キャンプへ行けたのに。
+    + If it were sunny today, we could have gone camping.
+  * use of past tense to emphasize the situation describing is not real
+    + it is often used in writing rather than in speech
+    + 私が鳥だったなら、あなたのところへ飛んでいけるのに。
+      + If I were a bird, I could fly to your place.
+  * in speech, to emphasize the speaker's regret or wish about the
+    counterfactual situation
+    + 今日が金曜日ならなあ。
+      + I wish today were Friday.
+- to refer to someone or something that is mentinoed in other people's speech
+  * You: あの、緑の帽子を見ませんでしたか？
+    Man: その帽子なら、さっき誰かが持って行きましたよ。
+    + You: Excuse me, did you see a green hat?
+      Man: If it's the hat I'm thinking of, someone took it with them a while ago.
+  * Moe: マミ、仕事大変そうだね。大丈夫かな。
+    Jen: マミなら大丈夫でしょ。
+    + Moe: Mami looks busy. Do you think she is okay?
+      Jen: (If it's Mami), she can handle it.
+- to suggest an alternative
+  * A: 金曜日出かけない？
+    B: うーん、土曜日ならいいよ。
+    + A: Do you want to go out with me on Friday?
+      B: Well, I'll go if it's Saturday.
+
+## 副助詞 adverbial particles
+
+### は
+
+- it is like a spotlight that shines on the topic and leaving other potential
+  topcis in the dark
+- as a topic marker
+  * it is the rough equivalent of "as for"
+- for constrasting two topics
+  * 東京`は`物価が高いけど、田舎`は`物価が安い。
+- with い-adjectives
+  * 難しく`は`ないけど、ただ時間がかかる。
+  * 難しく`は`ありませんが、時間がかかります。
+  * 難しく`は`あるけど、おもしろい。
+- with nouns and な-adjectives
+  * 有名で`は`ないが、人気はある。
+  * 先生で`は`ありませんが、説明が上手な人です。
+- questions words may be following by が, を, etc, but almost never は
+- it cannot be combined with が, を or も
+- either replace に or become には
+  * 日本`に`行ったことがある。
+  * 日本`には`行ったことがある。
+  * 日本`は`行ったことがある。
+  * 台所`で`犬が吠えています。
+  * 台所`では`犬が吠えています。
+  * 弟`と`映画館に行きました。
+  * 弟`とは`映画館に行きました。
+- for contrast
+  * 日本語`は`好きですが - I like Japanese (but maybe I don't like other
+    languages/subjects).
+  * お肉`は`食べない。 - I don't eat meat (but I eat other things).
+  * お肉`は`食べないけど魚は食べるよ。
+  * the feeling of constrast can also be increased with a pause
+    + 日本語は、好き。
+  * in giving negative answers, は should be used in place of particles such as
+    が
+    + A: パーティーは田中さんが来ますか。
+      B: いいえ、田中さん`は`来ません。
+- for hesitating when speaking
+  * お寿司は好きですか。
+    + お寿司はね…
+    + お寿司は…
+- it can be replaced by a comma
+  * any notion of comparison (or other nuance) is softened
+  * very common with time phrases such as 来週, 先月 or 今年
+  * 今年、日本に行くんです。
+  * 日本語、面白い。
+  * 少し、食べました。
+- for changing scenes
+- used in relative clauses
+  * 蜂蜜の瓶を籠に入れていますした。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
+    + The bear put a jar of honey into basket and left. Unaware of all this, the
+      donkey kept on his afternoon nap.
+  * I was accepted by the school that Jenny failed to get into.
+    + ジェニー`の`落ちた学校に私は受かった。
+    + ジェニー`が`落ちた学校に私は受かった。
+    + ジェニー`は`落ちた学校に私は受かった。
+  * I also failed to get into the school that Jenny failed to get into.
+    + ジェニー`の`落ちた学校に私も落ちた。
+    + ジェニー`が`落ちた学校に私も落ちた。
+    + は cannot be used in this case as it is not a contrast
+- something `は`・・・。 something else `は`・・・。
+  * "something else" can be used as an additional context to "something"
+
+### は and が
+
+- … は …(something important)…
+  * 私は学生です。 - For me, I'm a student.
+- …(something important) が …
+  * 私が学生です。 - I am the one who is a student.
+- 何故、あなたが時計をチラッと見るたび、泣くそうな気分になるの？ - why? when you
+  glance at your watch, I feel like crying (as assuming 私は)
+  * 何故、あなたは時計をチラッと見るたび、泣くそうな気分になるの？ - why? when
+    you glance at your watch, you feel like crying
+
+### も
+
+- marker for a part of a set
+  * when it goes after a word, it indicates that the word is a member of the
+    group
+  * examples
+    + 鈴木さん`も`日本語の先生です。
+    + 鈴木さんは先生です。鈴木さんはゲーマーで`も`あります。 - Suzuki is
+      a teacher. Suzuki is also a gamer.
+- noun + も
+  * it is more like used in place of は
+- used at the end of a sentence
+  * for noun or な-adjective
+    + it is added between て form and ある
+      + examples
+        + ジェニーは先生である。 - Jenny is a teacher.
+        + ジェニーは先生で`も`ある。 - Jenny is also a teacher.
+        + ここは静かである。 - Here is quiet.
+        + ここは静かで`も`ある。 - Here is also quiet.
+  * for い-adjective
+    + it is added between く form and ある
+      + examples
+        + 猫は可愛い。
+        + 猫は可愛く`も`ある。
+-  combined with other particles
+  * it combines the same was as は
+    + にも
+    + でも
+    + とも
+    + へも
+  * examples
+    + ジェニー`にも`あげる。 - I'll also give it to Jenny.
+- used as in "also"
+  * examples
+    + Hayashi is a student. Mori and Yamada are also students.
+      + 林さんは学生です。森さん`も`山田さん`も`学生です。
+      + 林さんは学生です。森さん`と`山田さん`も`学生です。
+    + らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif
+      is a student, too.
+    + 私はマレーシア人です。貴方`も`マレーシア人ですか。 - I am Malaysian. Are
+      you Malaysian, too?
+      + はい、私`も`マレーシア人です。 - Yes, I am Malaysian, too.
+      + いいえ、私はマレーシア人ではありません。 - No, I am not Malaysian.
+- used as in "either"
+  * examples
+    + 林さんは学生じゃありません。森さん`も`山田さん`も`学生じゃありません。
+    + 林さんは学生じゃありません。森さん`と`山田さん`も`学生じゃありません。
+    + らヒムさんわ先ではありません。アリフさん`も`先生ではありません。 - Rahim
+      is not a teacher. Arif is not a teacher, either.
+- for emphasis
+  * examples
+    + アイスとチョコを食べた後に、パンプキンパイ`も`食べたの！？ - After eating
+      ice cream and chocolate, you even ate a pumpkin pie!?
+- quantity + も
+  * to show that it was an impressive amount
+  * examples
+    + ハンバーガーを６個`も`食べちゃった。 - I ate six hamburgers.
+    + ５キロ`も`太った。 - I gained five kilograms.
+    + ３時間`も`待った。 - I waited for three hours.
+- question word + も
+  * examples
+    + `どれも`おいしそう！ - Everthing looks delicious!
+    + ここのパンは`いつも`おいしい。 - Bread here is always delicious.
+    + `何も`食べたくない。 - I don't want to eat anything.
+    + どれでも - no matter which one
+    + いつでも - no matter when
+    + 何でも - no matter what
+- て form + も + いい
+  * to express or ask for permission or concession
+  * examples
+    + テレビ観てもいい？ - Is it all right if I watch TV?
+      + otherwise the question can be written directly as テレビ観ますか？
+
+### だけ
 
 - just or only
 - basic examples
@@ -1643,7 +1545,267 @@ ____
     + if it is one friend talking to another friend
       + 当日券は現金購入だけなんだって。
 
- ## のに
+## 終助詞 sendence-ending particles
+
+### ね
+
+- a sentence ending particle
+- to imply that the listener agrees with what speaker is saying, or give the
+  impression that they are both on the same page
+- basic examples
+  * あ、雨が降ってるね。 - Oh, it's raining, isn't it?
+  * 食べるね。 - I'll eat, okay?
+  * 暑いね。 - It's hot, isn't it?
+  * A: 今日、暖かいね。
+    B: うん、暖かいね。 - yeah, it is warm.
+    C: え、暖かくないよ。 - what? It is not warm.
+- used with な-adjectives or nouns
+  * with a feminine tone
+    + 静かね。
+    + 犬ね。
+    + 犬もね。
+  * with a affirmative and neutral tone
+    + 静かだね。
+    + 犬だね。
+    + 犬もだね。
+  * with a polite neutral tone
+    + 静かですね。
+    + 犬ですね。
+    + 犬もですね。
+- hey
+  * only used in this way between people who are on friendly terms
+  * examples
+    + ね！
+    + ねえ！
+    + ねえねえ！
+- used as saying "like" over and over
+  * examples
+    + なんかね、やっぱね、今日はね、お風呂はね、入りたくないんだよね。 - Well,
+      like, turns out, today, like, I don't wanna take a bath, okay?
+- for confirmation
+  * examples
+    + ご予約の佐藤さんですね。こちらへどうぞ。 - You are Mr. Satou who made the
+      reservation, correct? This way, please.
+    + 佐藤フグ男さんですね。署までご同行願います。 - You're Fuguo Satou, right?
+      Please come with us to the police station.
+  * with less confidence
+    + examples
+      + あの、日本のアイドルのフグ男さんです`よね`？ - Hi, you're the Japanese
+        idol Fuguo, right?
+- used in requests
+  * to soften the request
+  * て form + ね
+    + examples
+      + この記事を読んでね。 - Read this article.
+      + 食べ終わったらお皿洗ってね。 - After you eat, can you make sure you do
+        the dishes?
+- used in suggestions
+  * to soften the suggestion
+  * 〜よう + ね
+    + a way to be both nurturing and slightly assertive at the same time
+      + examples
+        + そろそろ宿題しようね。 - It is time for you to do your homework, okay?
+    + to make a promise
+      + examples
+        + また会おうね。 - Let's be sure to meet again, ok?
+- being sarcastic
+  * add it to a statement that contains information the listener is clearly not
+    aware of
+  * examples
+    + それ？マッカラン・ラリックの62年だね。 - That? It's a 62-year-old
+      Macallan, right?
+    + できないね。 - I can't, clearly.
+
+### わ
+
+- a sentence ending particle
+- reflects your perception or sentiment based on personal observation and/or
+  experience
+  * signals your emotional investment in something
+  * its nuance is often altered depending on intonation
+- it usually follows a statement that express your realisation of something,
+  reflecting your view or attitude or event; it indicates that you came to
+  a conclusion, felt a certain way, or are making a sudden observation based on
+  personal experience
+- basic examples
+  * 落ちたと思うわ。 - I think I failed.
+  * 次の試験、頑張るわ。
+- verb + わ
+  * examples
+    + 辞めるわ - I will quit. (plain form)
+    + 辞めたわ - I quit. (past tense)
+    + 辞めないわ - I would not quit. (negative form)
+    + 辞めたいわ - I want to quit. (desire form)
+    + 辞めれるわ - I can quit. (potential form)
+- い-adjective + わ
+  * examples
+    + 暑いわ - It is hot. (plain form)
+    + 暑かったわ - It was hot. (past tense)
+    + 暑くないわ - It is not hot. (negative form)
+- な-adjective + わ
+  * examples
+    + 静かだわ - It is quiet. (plain form)
+    + 静かだったわ - It was quiet. (past tense)
+    + 静かじゃないわ - It is not quiet. (negative form)
+- for causally telling someone about your avavilability
+  * an exameple usage is that the speaker confirms after checking their schedule
+    + similar to "It looks like..." in English
+  * examples
+    + あ、行けるわ。 - Ah, I can go.
+    + ごめん、行けないわ。 - Sorry, I can't go.
+- for casually telling someone "I'll do it"
+  * よ is the strongest; it is a declaration of intent and inform the listener
+    + ね is a softer than よ and it signals a confirmation with the listener;
+      "I'll do it, alright?"
+    + わ is more mild; it signals the speaker is volunteering to help and it is
+      self-directed
+  * used of falling intonation is important
+  * examples
+    + 私、拭くわ。- I'll wipe it up.
+- self-directed sentences
+  * find out a new piece of information
+  * examples
+    + あ、雨だわ。 - Ah, it is going to rain.
+    + えっと、どこだっけな。あ、GAPのだわ。
+      + note that "GAPのだわ。" cannot be used if the speaker knew this
+        information without checking; "GAPのだよ。" should be used otherwise
+- faminine usages
+  * examples
+    + A: これ、すごく甘いわよ。 (after eating a cake)
+      B: 甘いわね。 (after eating a cake)
+      C: 甘いわよね。 (without eating a cake but agree)
+- with です or ます
+  * to sound polite and friendly
+    + when speaker is has a higher or equal social status to the listener
+  * examples
+    + いやー、大変ですわ。 - Well, it is tough.
+    + でも、まあ、頑張りますわ。 - But, well, I'll do my best.
+
+### よ
+
+- a sentence ending particle
+- offering new information or a new perspective to the listener
+- intented for someone else
+- place pressure on the listener to respond
+- it can be overly friendly or conversational in a formal context
+- used directly after a verb
+  * examples
+    + あ、雨が降ってるよ。 - Oh, it's raining.
+      + avoid using this to higher up in the social hierarchy
+    + 食べるよ。
+- used directly after an い-adjective
+  * examples
+    + 暑いよ。
+- used directly after a な-adjective or noun
+  * it is common to add affirmatives だ or politness marker です before よ
+  * examples
+    + 静かだよ。 (affirmative)
+    + 静かですよ。 (polite)
+    + 静かよ。 (faminine)
+    + 犬だよ。 (affirmative)
+    + 犬ですよ。 (polite)
+    + 犬よ。 (faminine)
+    + 犬もだよ。 (affirmative)
+    + 犬もですよ。 (polite)
+    + 犬もよ。 (faminine)
+- for altering
+  * examples
+    + 携帯落としましたよ。 - You dropped your cell phone.
+    + 晩ご飯できたよ！ - Dinner is ready!
+- for giving opinions
+  * examples
+    + めっちゃ良かったよ。 - It was super good.
+    + すごく勉強になると思うよ。 - I think you will learn a lot from it.
+- for being pushy
+  * examples
+    + そろそろ何か食べようよ。 - Let's get something to eat.
+      + そろそろ何か食べない。 (a less pushy version)
+    + そんなに食べたら会議で眠くなるよ。 - You will get sleepy if you keep
+      eating that much.
+      + そんなに食べたら会議で眠くなっちゃうよ。 (a less pushy version)
+      + そんなに食べたら会議で眠くなると思うよ。 (a less pushy version)
+- for contradicting
+  * examples
+    + いらいらしてる訳じゃないよ。 - It is not that I am annoyed.
+- for agreement
+  * offering an affirmative answer to question asked
+  * examples
+    + A: これ借りてもいいですか？ - Can I borrow this?
+      B: いいですよ。 - Sure.
+    + A: 日曜日、ピクニックに行きませんか？ - Why don't we go on a picnic on
+      Sunday?
+      B: 良いですよ。 - Sure. (it could sound a bit cold; 良いですね。 is more
+         friendly)
+- for declining
+  * best to avoid adding it to strongly negative words such as 嫌 or 無理
+  * examples
+    + A: 日曜日、ピクニックに行きませんか？ - Why don't we go on a picnic on
+      Sunday?
+      B: すいません。その日は忙しいんですよ。 - Sorry, I'm a little busy that
+         day.
+    + 絶対貸さないよ！ - No way I'm lending you that! (to indicate a firm
+      answer)
+- for emphasising feelings
+  * examples
+    + お腹すいたよ。 (it is more like talking to yourself)
+      + お腹すいた。 (it is common to skip よ in this case)
+    + うれしいよ。
+    + 楽しいよ。
+
+### よね
+
+- a sentence ending particle
+- used for conformation when the speaker is pretty sure but not certain, that
+  the listener agrees
+  * generally used when trying to dobul check something with the listener
+  * it also leaves more leeway for the listener to say "no" than if only ね was
+    used
+  * it creates a lively, conversational feel, while also implying modesty and
+    empathy towards the listener; this fits in perfectly with Japanese
+    communication styles and is, therefore, very popular to use in conversation
+- used at the end of sentences
+  * examples
+    + あ、雨が降ってるよね。 - Oh, it's raining, right?
+    + 食べるよね。 -  You will eat it, right?
+    + 暑いよね。 - It is hot, isn't it?
+    + 静かだよね。 (affirmative)
+    + 静かですよね。 (polite)
+    + 静かよね。 (faminine)
+    + 犬だよね。 (affirmative)
+    + 犬ですよね。 (polite)
+    + 犬よね。 (faminine)
+    + 犬もだよね。 (affirmative)
+    + 犬もですよね。 (polite)
+    + 犬もよね。 (faminine)
+    + A: やばい、明日試験だっけ？ - Oh no, is the exam tomorrow?
+      B: そうだよ。 - That's right.
+      A: だよね。ああ、どうしよ。 (or ですよね。ああ、どうしよ。) - Right,
+         right. Oh, what should I do...
+- for confirmation
+  * one of the usages is a double-checking is a good devices to begin a small
+    talk
+  * examples
+    + トーフグのポッドキャストの最新エピソード、もう聴いたよね？ - You've
+      already listened to the latest episode of the Tofugu podcast, right?
+    + 最近日本語の勉強始めたんだよね？ - You started learning Japanese recently,
+      right?
+- for seeking agreement
+  * for soft orders or refusals
+  * examples
+    + 私も日本語の勉強始めたの。でも、漢字が難しいよね。 - I've also started
+      learning Japanese, yet kanji is difficult, huh?
+    + 誰にも言わないでよね。 - Don't tell anyone, okay? (soft order)
+      + 誰にも言うなよ。- Do not tell anyone else! (strong order)
+- for showing argreement
+  * repeat whatever the other said and add よね to the end
+  * examples
+    + そうだよね。数学は難しいよね。 - I agree. Math is difficult, huh?
+    + 確かさっき鞄の中に入れたよね。 - You put it in your bag a little while
+      ago, didn't you?
+
+## 複合助詞 compound particles
+
+ ### のに
 
 - a conjunctive particle
 - similar to "but" or "though"
@@ -1692,149 +1854,4 @@ ____
   * it has nothing to do with contradictions
   * 海に行く`のに`水着を買った。
     + For going to the beach, I bought swimwear.
-
-## ので
-
-- a conjunctive particle
-- used to explain reasoning and such
-- it has a polite feel
-- it is て form of のだ
-- for connecting sentences
-  * if it involves な-adjectives or nouns, な should be added
-  * examples
-    + お腹が空いた`ので`レストランに行きました。
-    + 二十歳な`ので`お酒が飲めます。
-    + このシャツはきれいな`ので`洗濯する必要はありません。
-    + このシャツはきれいな`ので`洗濯する必要はありません。
-- it could be just a simple combination of の and で
-  * which has nothing to do with ので
-  * examples
-    + うーん、じゃあ赤いのでお願いします。 - Um, then the red one, please.
-- used at the end of a sentence
-  * examples
-    + 課題があるので・・・。 - I have some assignments to do, so...
-- compared to から
-  * から is often used in casual situations or for people who you are close with
-  * ので is generally used in formal situations
-  * examples
-    + 熱い`ので`、気をつけてください。 - It is hot, so please be careful.
-    + 熱い`から`、気をつけてね。 - It is hot, so be careful.
-
-## が and けど
-
-- both are conjective particles
-- both have similar usage to "but"
-- が carries a more formal nuance, while けど feels more colloquial
-  * が is overall more suitable for writing, but is still used in conversation,
-    combined with the polite form です/ます
-- used in connecting sentences
-  * examples
-    + 白ワインは好きです`が`、赤ワインはあまり好きではないです。 - I like white
-      wine but I am not a big fan of red wine.
-    + I lit candles but the kitchen is still dark.
-      + ロウソクを付けた`が`キッチンはまだ暗い。
-      + ロウソクを付けた`けど`キッチンはまだ暗い。
-    + It's summer but it's cool today.
-      + 夏です`が`今日は涼しいです。
-      + 夏です`けど`今日は涼しいです。
-      + 夏だ`が`今日は涼しい。
-      + 夏だ`けど`今日は涼しい。
-    + It is quiet at night but it is loud during the day.
-      + 夜は静かです`が`昼はうるさいです。
-      + 夜は静かです`けど`昼はうるさいです。
-      + 夜は静かだ`けど`昼はうるさい。
-      + 夜は静かだ`が`昼はうるさい。
-- for constrast
-  * examples
-    + 母さんはコンサートに来た`が`、姉は来なかった。 - My mother came to the
-      concert, but my older sister didn't.
-    + 雨が降っている`けど`、子供たちは外で遊んでいる。 - It's raining, but the
-      children are playing outside.
-- for providing context
-  * が and けど follow んです or んだ are used for providing explanations
-  * examples
-    + 財布を忘れてしまったんです`が`、５００円貸してもらえませんか？ - I forgot
-      to bring my wallet. Would you lend me 500 yen?
-    + ペン持ってないんだ`けど`、貸してくれない？ - I don't have a pen with me.
-      Can you lend me one?
-- variations but different levels of formality
-  * けれども
-  * けども
-  * けれど
-- used at the end of sentences
-  * it can create different effects like giving the listener flexibility in how
-    to respond, or making what speaker said sounds like an afterthought,
-    sounding less confrontational, expressing uncertainty, etc
-  * examples
-    + もしもし。予約したいんです`けど`...。 - Hello. I'd like to make a
-      reservation...
-
-## ながら
-
-- [Conjugations](./conjugations.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
-- basic examples
-  * 小さいながら甘いいちご。
-  * 未完成ながらきれいな作品。
-  * 彼は初心者ながらよくやった。
-- when feelings contradict actions
-  * 誠に勝手ながら、欠席いたします。
-    + Even though it's very selfish, I'm not going to make it.
-  * 残念ながら、負けてしまいました。
-    + Although it's a shame, I lost.
-- formal expressions that add a feeling of humbleness
-  * 僭越ながら、乾杯の音頭を取らせていただきます。
-    + While I don't deserve this honor, I will lead us in a toast.
-
-## なら
-
-- attach to the end a condition clause
-- [conjugations](./conjugations.md#%E3%81%AA%E3%82%89-if)
-- for describing conditions and the possibility that it might not happen
-  * 寒いならこれを着てください。
-  * あなたが嬉しいなら、私も嬉しいです。
-  * it cannot be used if the condition will definitely happen
-    + ❌ 春になるなら、お花見をしましょう。
-  * ⭕️コウイチに会うなら、メールを見るよう伝えてください。
-    + If you meet with Koichi, please tell him to check his email.
-  * ⭕️外に行くなら、ゴミ捨てて来て。
-  * ❌ 私が行くなら、コウイチも行きたい。
-    + it is incorrect as the speaker is sure whether the condition is true or
-      not
-  * ⭕️ 私が行くなら、コウイチも行きたがると思う。
-    + If I go there, I think Koichi wants to come with me.
-      + it is correct as action itself is an undertain assumption from the
-        speaker
-  * ❌ 走るなら先生に怒られるよ。
-    + it is incorrect as it is used to claim subjective opinions based on the
-      speakers' assumption of a certain condition
-  * ⭕️ 走るなら人にぶつからないようにしなよ。
-    + Try not to run into other people if you run.
-- for describing counterfactual conditions
-  * 私があなたならそんなことはしない。
-    + If I were you, I wouldn't do something like that.
-  * 今日が晴れなら、キャンプへ行けたのに。
-    + If it were sunny today, we could have gone camping.
-  * use of past tense to emphasize the situation describing is not real
-    + it is often used in writing rather than in speech
-    + 私が鳥だったなら、あなたのところへ飛んでいけるのに。
-      + If I were a bird, I could fly to your place.
-  * in speech, to emphasize the speaker's regret or wish about the
-    counterfactual situation
-    + 今日が金曜日ならなあ。
-      + I wish today were Friday.
-- to refer to someone or something that is mentinoed in other people's speech
-  * You: あの、緑の帽子を見ませんでしたか？
-    Man: その帽子なら、さっき誰かが持って行きましたよ。
-    + You: Excuse me, did you see a green hat?
-      Man: If it's the hat I'm thinking of, someone took it with them a while ago.
-  * Moe: マミ、仕事大変そうだね。大丈夫かな。
-    Jen: マミなら大丈夫でしょ。
-    + Moe: Mami looks busy. Do you think she is okay?
-      Jen: (If it's Mami), she can handle it.
-- to suggest an alternative
-  * A: 金曜日出かけない？
-    B: うーん、土曜日ならいいよ。
-    + A: Do you want to go out with me on Friday?
-      B: Well, I'll go if it's Saturday.
-
 
