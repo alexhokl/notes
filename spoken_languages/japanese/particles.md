@@ -18,22 +18,22 @@
     + [し](#%E3%81%97)
   * [連続助詞 conjunctive particles](#%E9%80%A3%E7%B6%9A%E5%8A%A9%E8%A9%9E-conjunctive-particles)
     + [たら](#%E3%81%9F%E3%82%89)
+    + [ので](#%E3%81%AE%E3%81%A7)
+    + [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
+    + [ながら](#%E3%81%AA%E3%81%8C%E3%82%89)
+    + [なら](#%E3%81%AA%E3%82%89)
   * [副助詞 adverbial particles](#%E5%89%AF%E5%8A%A9%E8%A9%9E-adverbial-particles)
     + [は](#%E3%81%AF)
     + [は and が](#%E3%81%AF-and-%E3%81%8C)
     + [も](#%E3%82%82)
+    + [だけ](#%E3%81%A0%E3%81%91)
   * [終助詞 sendence-ending particles](#%E7%B5%82%E5%8A%A9%E8%A9%9E-sendence-ending-particles)
     + [ね](#%E3%81%AD)
     + [わ](#%E3%82%8F)
     + [よ](#%E3%82%88)
     + [よね](#%E3%82%88%E3%81%AD)
   * [複合助詞 compound particles](#%E8%A4%87%E5%90%88%E5%8A%A9%E8%A9%9E-compound-particles)
-    + [だけ](#%E3%81%A0%E3%81%91)
     + [のに](#%E3%81%AE%E3%81%AB)
-    + [ので](#%E3%81%AE%E3%81%A7)
-    + [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
-    + [ながら](#%E3%81%AA%E3%81%8C%E3%82%89)
-    + [なら](#%E3%81%AA%E3%82%89)
 ____
 
 # Particles (助詞)
@@ -1805,7 +1805,7 @@ ____
 
 ## 複合助詞 compound particles
 
- ### のに
+### のに
 
 - a conjunctive particle
 - similar to "but" or "though"
