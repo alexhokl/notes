@@ -1153,6 +1153,7 @@ ____
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 尋ねる (たずねる) - to ask; to inquire
 - 伝える (つたえる) - to convey
+- 手伝う (てつだう) - to help; to contribute to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 払う (はらう) - to pay; to wipe away
 - 間違える (まちがえる) - to make a mistake
@@ -1400,6 +1401,7 @@ ____
 ### する verbs
 
 - 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
+- メモ - note
 
 ### する transitive verbs
 
