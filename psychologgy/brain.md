@@ -1,6 +1,7 @@
 - [Brain studies](#brain-studies)
   * [Following a rhythm and reading ability](#following-a-rhythm-and-reading-ability)
   * [Episodic memory](#episodic-memory)
+- [Curiosity](#curiosity)
 ____
 
 # Brain studies
@@ -23,3 +24,18 @@ ____
   * semantic memory does not decay much as we age but episodic memory does
   * general world knowledge that humans have accumulated throughout their lives
 - long term memory comprises of episodic and semantic memory
+
+# Curiosity
+
+- trait curiosity
+  * the desire to
+    + seek out new experiences (exploration)
+    + become fully engaged in these experiences (absorption)
+  * it fades as people grow older in general
+  * it is good for older age but just to be sure not looking for quick answers
+    so that it makes prone to scams (based on simple false facts)
+- state curiosity
+  * a temporary, context-specific desire to acquire particular information at a
+    specific moment in time
+  * when individuals recognize a discrepancy between their existing knowledge
+    and the information they seek
