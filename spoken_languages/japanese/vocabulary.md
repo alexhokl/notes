@@ -1689,6 +1689,7 @@ ____
 - 汚れ (よごれ) - dirt, stains, spots
 - 幽霊 (ゆうれい) - ghost
 - ルール - rule
+- お負け (おまけ) - addition; something extra; (giving a) discount
 
 ### nouns (clothing)
 
@@ -1831,6 +1832,7 @@ ____
 ### nouns
 
 - 県 (あがた) - territory (historical term); countryside
+- 圧力 (あつりょく) - pressure
 - 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
 - 腕時計 (うでどけい) - wristwatch
 - エーティーエム - ATM
