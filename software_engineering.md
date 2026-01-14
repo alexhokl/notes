@@ -1,27 +1,28 @@
-- [Technical debts](#technical-debts)
-  * [From Ward Cunningham](#from-ward-cunningham)
-  * [From researchers from Google](#from-researchers-from-google)
-  * [From other sources](#from-other-sources)
-- [Web App](#web-app)
-  * [12-Factor App](#12-factor-app)
-- [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time-partitioning-complexity)
-- [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
-- [Product / Project Management](#product--project-management)
-- [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
-- [Analysis Paralysis](#analysis-paralysis)
-- [Command and Query Responsibility Segregation (CQRS)](#command-and-query-responsibility-segregation-cqrs)
-  * [with event sourcing](#with-event-sourcing)
-- [Event Sourcing](#event-sourcing)
-- [Messaging](#messaging)
-- [Deployment](#deployment)
-  * [Canary](#canary)
-- [Microservices](#microservices)
-- [Integration Testing](#integration-testing)
-- [Garbage Collection](#garbage-collection)
-- [System migration](#system-migration)
-- [Function as a service (FaaS)](#function-as-a-service-faas)
-- [Writing a library](#writing-a-library)
-- [Others](#others-1)
+  * [Technical debts](#technical-debts)
+    + [From Ward Cunningham](#from-ward-cunningham)
+    + [From researchers from Google](#from-researchers-from-google)
+    + [From other sources](#from-other-sources)
+  * [Web App](#web-app)
+    + [12-Factor App](#12-factor-app)
+  * [One Bite At A Time: Partitioning Complexity](#one-bite-at-a-time%3A-partitioning-complexity)
+  * [10 ways to accelerate software development from Dave Thomas](#10-ways-to-accelerate-software-development-from-dave-thomas)
+  * [Product / Project Management](#product-%2F-project-management)
+  * [Quality Assurance and quality specialist](#quality-assurance-and-quality-specialist)
+  * [Analysis Paralysis](#analysis-paralysis)
+  * [Command and Query Responsibility Segregation (CQRS)](#command-and-query-responsibility-segregation-cqrs)
+    + [with event sourcing](#with-event-sourcing)
+  * [Event Sourcing](#event-sourcing)
+  * [Messaging](#messaging)
+  * [Deployment](#deployment)
+    + [Canary](#canary)
+  * [Microservices](#microservices)
+  * [Integration Testing](#integration-testing)
+  * [Garbage Collection](#garbage-collection)
+  * [System migration](#system-migration)
+  * [Function as a service (FaaS)](#function-as-a-service-faas)
+  * [Writing a library](#writing-a-library)
+  * [Large Language Models (LLM)](#large-language-models-llm)
+  * [Others](#others)
 ____
 
 ## Technical debts
@@ -785,6 +786,13 @@ Realizations](https://cbloomrants.blogspot.com/2015/09/library-writing-realizati
   * evaluators will trigger lots of errors and get failures with no messages
   * do some amount of error checking and logging so that evaluators can figure
     things out
+
+## Large Language Models (LLM)
+
+- more custom software in the next couple years due to LLMs and coding agents
+  (as of early 2026)
+- unit tests are important as LLM agents can keep iterating by checking with
+  unit tests
 
 ## Others
 
