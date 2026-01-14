@@ -1,7 +1,7 @@
 - [Attacks](#attacks)
 - [Sign-up and Sign-in](#sign-up-and-sign-in)
 - [WebAuthn](#webauthn)
-- [OAuth 2.0](#oauth-20)
+- [OAuth 2.0](#oauth-2.0)
     + [Links](#links)
     + [Specifics](#specifics)
     + [Tools](#tools)
@@ -22,20 +22,20 @@
   * [PKI](#pki)
     + [Web PKI](#web-pki)
     + [Internal PKI](#internal-pki)
-  * [Trust & Trustworthiness](#trust--trustworthiness)
+  * [Trust & Trustworthiness](#trust-%26-trustworthiness)
   * [Certificate Authority](#certificate-authority)
   * [Key and Certificate Lifecycle](#key-and-certificate-lifecycle)
   * [Using Certificates](#using-certificates)
   * [TLS](#tls)
 - [File types](#file-types)
-    + [.csr (Certificate Signing Request)](#csr-certificate-signing-request)
-    + [.pem (Privacy Enhanced Mail)](#pem-privacy-enhanced-mail)
-    + [.key](#key)
-    + [.pkcs12 .pfx .p12](#pkcs12-pfx-p12)
-    + [.der](#der)
-    + [.cert .cer .crt](#cert-cer-crt)
-    + [.p7b](#p7b)
-    + [.crl (Certificate revocation list)](#crl-certificate-revocation-list)
+    + [.csr (Certificate Signing Request)](#.csr-certificate-signing-request)
+    + [.pem (Privacy Enhanced Mail)](#.pem-privacy-enhanced-mail)
+    + [.key](#.key)
+    + [.pkcs12 .pfx .p12](#.pkcs12-.pfx-.p12)
+    + [.der](#.der)
+    + [.cert .cer .crt](#.cert-.cer-.crt)
+    + [.p7b](#.p7b)
+    + [.crl (Certificate revocation list)](#.crl-certificate-revocation-list)
     + [PKCS #8](#pkcs-%238)
 - [RBAC](#rbac)
 - [Front-end](#front-end)
@@ -53,6 +53,7 @@
     + [data](#data)
   * [detection](#detection)
   * [response](#response)
+- [Infrastructure](#infrastructure)
 ____
 
 # Attacks
@@ -837,3 +838,8 @@ Technology](https://www.youtube.com/playlist?list=PLOspHqNVtKADkWLFt9OcziQF7Eatu
   * triage
   * remediate
 - security orchestration automation and response (SOAR)
+
+# Infrastructure
+
+- endpoint Detection and Response (EDR) is kind of like anti-virus for cloud
+  infrastructure
