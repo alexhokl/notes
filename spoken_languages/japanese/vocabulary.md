@@ -1091,13 +1091,14 @@ ____
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 試合 (しあい) - match; game
 - 試験 (しけん) - exam
+- 楽しむ (たのしむ) - to enjoy; to have fun
 - チェック - check; inspection; marking with a check
 - 泥棒 (どろぼう) - thief; burglar; robber
 - 復習 (ふくしゅう) - review (of learned material)
 - プレゼント - present; gift
 - 約束 (やくそく) - promise; agreement; arrangement; contract
+- 用意 (ようい) - preparation; arrangements
 - 予習 (よしゅう) - preparation for a lesson
-- 楽しむ (たのしむ) - to enjoy; to have fun
 
 ### する intransitive verbs
 
@@ -1146,6 +1147,7 @@ ____
 - 片付ける (かたづける) - to tidy up; to put in order
 - 飾る (かざる) - to decorate; to display
 - 考える (かんがえる) - to think (on a specific topic)
+- 決める (きめる) - to decide
 - 呉れる (くれる) - to give (from inner circle perspective)
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
@@ -1401,6 +1403,7 @@ ____
 ### する verbs
 
 - 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
+- 関する (かんする) - to concern; to be related
 - メモ - note
 
 ### する transitive verbs
@@ -1651,6 +1654,7 @@ ____
 
 - 先に (さきに) - previously; before
 - 直ぐ (すぐ) - immediately; soon; easily
+- 手元 (てもと) - at hand; on hand; nearby
 - 若しかして (もしかして) - perhaps
 
 ### adjectives (い)
@@ -1759,6 +1763,7 @@ ____
 
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
+- 控える (ひかえる) - to refrain
 - 見合わせる (みあわせる) - to exchange glances; to postpone
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
   lower status)
@@ -2366,6 +2371,7 @@ ____
 - サボt - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
 - バズる - to go viral (buzz)
+- 含まれる (ふくまれる) - to be included; to be composed of
 
 ### verbs (transitive and intransitive)
 
