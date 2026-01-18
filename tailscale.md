@@ -1,6 +1,4 @@
-- [Links](#links)
-- [NAS](#nas)
-  * [QNAP NAS](#qnap-nas)
+- [Links](#links) [NAS](#nas) [QNAP NAS](#qnap-nas)
 - [CLI](#cli)
   * [To show routes of Tailscale](#to-show-routes-of-tailscale)
   * [To enable subnet routes on other nodes on Linux](#to-enable-subnet-routes-on-other-nodes-on-linux)
@@ -41,6 +39,7 @@ ____
 - [Kubernetes Operator](https://tailscale.com/kb/1236/kubernetes-operator)
 - [Easy Guide to Exposing a Kubernetes Service with
   Tailscale](https://www.youtube.com/watch?v=INdZOBnUBl4)
+- [Terraform module](https://tailscale.com/blog/open-source-terraform-module)
 
 ## NAS
 
