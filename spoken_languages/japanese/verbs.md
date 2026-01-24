@@ -631,6 +631,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - conjugation
   * verb in stem form + たい
 - it behaves like an い-adjective
+  * it is an auxiliary adjective
 - for expressing spkeaker's desire
   * トイレに行きたい。
   * トイレに行きたいです。
