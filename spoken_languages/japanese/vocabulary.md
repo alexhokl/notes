@@ -1171,6 +1171,7 @@ ____
 - 過ぎる (すぎる) - to pass through; to exceed
 - 滑る (すべる) - to slip; to slide; to ski
 - 済む (すむ) - to be completed; to finish
+- 足りる (たりる) - to be sufficient; to be enough
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
   road; to take (a route); to go via
 - 泊まる (とまる) - to stay (e.g. hotel)
