@@ -112,3 +112,10 @@ date -d 'next friday'
 date -d '2 days ago'
 ```
 
+## Timezone conversion
+
+##### Convert to local time
+
+```sh
+date -d '2019-10-06 12:00:00 UTC'
+```
