@@ -388,8 +388,10 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - ability or possibility to do the action described by the verb
   * similar to "can" in English
-- for 一段動詞, there is a new trend that, instead of 食べられる, 食べれる is
-  used instead
+- conjugation
+  * [conjugation](./conjugations.md)
+  * for 一段動詞, there is a new trend that, instead of 食べられる, 食べれる is
+    used instead
   * ら抜き言葉
 - for skill and ability
   * 日本語が読める。
