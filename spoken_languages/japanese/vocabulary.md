@@ -899,7 +899,7 @@ ____
 - 些とも (ちっとも) - not at all
 - 特に (とくに) - especially; particularly
 - はっきり - clearly
-- 殆ど (ほとん) - almost; nearly; mostly; hardly; barely
+- 殆ど (ほとんど) - almost; nearly; mostly; hardly; barely
 - 昔 (むかし) - old times; old days
 - 若し (もし) - if (aka 若しも)
 
