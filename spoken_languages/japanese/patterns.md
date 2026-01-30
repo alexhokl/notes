@@ -125,6 +125,21 @@
     + [an ability to do something](#an-ability-to-do-something)
     + [ability to do something](#ability-to-do-something)
     + [permission to do something](#permission-to-do-something)
+    + [ability to do something (potential form)](#ability-to-do-something-potential-form)
+    + [permission to do something (potential form)](#permission-to-do-something-potential-form)
+    + [embedded questions](#embedded-questions)
+    + [whether or not](#whether-or-not)
+    + [like or dislike of an action](#like-or-dislike-of-an-action)
+    + [an interest](#an-interest)
+    + [contrast between two things](#contrast-between-two-things)
+    + [to reach the point where ... / to come to ...](#to-reach-the-point-where-...-%2F-to-come-to-...)
+    + [list of actions of states of being](#list-of-actions-of-states-of-being)
+    + [only ... and nothing more](#only-...-and-nothing-more)
+    + [something / someone + adjective + noun](#something-%2F-someone-%2B-adjective-%2B-noun)
+    + [any ... / every ...](#any-...-%2F-every-...)
+    + [someone said](#someone-said-1)
+    + [area or range](#area-or-range)
+    + [either one out of two](#either-one-out-of-two)
 ____
 
 ## Chapter 1
@@ -445,6 +460,7 @@ ____
   * 電車に乗る
   * 大学に入学する
   * 病院に入院する
+  * パーティーに參加する
 
 ### leaving
 
@@ -1261,6 +1277,7 @@ ____
 - どうして + ... + のですか/んですか
   * ... + から + ... のです/んです。
   * ... + からです。
+- it should be used when the question is asking about factual things
 - どうしてこのアパートは部屋代が安いのですか。
   * 駅から遠いからです。
   * 駅から遠いから部屋代が安いのです。
@@ -1273,6 +1290,8 @@ ____
 
 - ... + ませんか。
   * ... + ましょう。
+- the question has a 一緒に feeling in this use case
+- the answer requires a variant of はい or いいえ
 - 明日映画を見に行きませんか。
   * ええ、行きましょう。
   * 明日はちょっと都合が悪いのですが、・・・・・・。
@@ -1309,19 +1328,27 @@ ____
 - どのアイスクリがいいですか。
   * 抹茶のがいいです。
 
-### for or for the sake of
+### for
 
-- noun (person) + の + ために + verb
 - noun (person) + の + ための + noun
 - これは外国人のための日本語の辞書です。
+- このレストランには小さい子供のための椅子が用意してあります。
+- この飛行機にはイスラム教の乗客のための特別の料理があります。
+- 今はバスや地下鉄にお年寄りのための席があります。
+- この大学に外国人のための日本語コースがあります。
+
+### for (conjunction)
+
+- noun (person) + の + ために + verb
+- for the benefit (or non-negative)
 - 日本語がわからない人のために、英語で話します。
 - この洋服は奥さんにあげるプレゼントですか。
   * いいえ、娘のために買ったんです。
 - 母は私たちのために20年間働いています。
 - 大勢のフィリッピン人が家族のために海外で働いています
-- このレストランには小さい子供のための椅子が用意してあります。
-- この飛行機にはイスラム教の乗客のための特別の料理があります。
-- 今はバスや地下鉄にお年寄りのための席があります。
+- 健康のために毎朝ジョギングをしています。
+- 会議の準備のために毎朝く家をでました。
+- 日本では、外国人のために駅名はローマ字でも書いてあります。
 
 ### selecting one from many
 
@@ -1341,6 +1368,7 @@ ____
 - ... + は + ... + ませんか。
   * ええ、+ ... + ません。
   * いいえ、+ ... + ます。
+- the one ask the question expects a negative answer
 - このクラスにマレーシアの学生はいませんか。
   * ええ、いません。
   * いいえ、います。ラヒムさんがいます。
@@ -1353,9 +1381,9 @@ ____
 
 ### only
 
-- noun + だけ
+- noun + だけ + positive verb
 - あの大学の試験は日本語だけです。
-- あなたの会社に日本人は大勢ですか。
+- あなたの会社に日本人は大勢いますか。
   * いいえ、二人だけです。
 - 陳さんはどのくらい日本語を勉強しましたか。
   * 3か月勉強しました。
@@ -1363,7 +1391,7 @@ ____
 - このレストランは夜だけ営業します。
 - 日本の幼稚園では英語も勉強しますか。
   * いいえ、日本語だけです。
-- 今日は女性だけ入場料が無料です。
+- 今日は女性だけが入場料が無料です。
 
 ### total number of people or things
 
