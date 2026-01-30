@@ -1560,10 +1560,8 @@ ____
 
 ### someone said
 
-- noun + と言っていました
-- な-adjective + と言っていました
-- い-adjective + と言っていました
-- verb in plain form + と言っていました
+- [subordinate clauses (従属節)](#subordinate-clauses-%E5%BE%93%E5%B1%9E%E7%AF%80)
+- suboardinate clause + と言っていました
 - 先生は来週の試験はあまり難しくないと言っていました。
   * from 来週の試験はあまり難しくないです。
 - 山田さん、松本さんは明日の会議は2時からだと言っていました。
