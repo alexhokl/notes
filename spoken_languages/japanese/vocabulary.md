@@ -250,6 +250,7 @@ ____
 - 薄い (うすい) - thin
 - 煩い (うるさい) - noisy; annoying
 - 美味しい (おいしい) - delicious
+- 多い (おおい) - many; much; a lot of
 - 大きい (おおきい) - big
 - 遅い (おそい) - late; slow
 - 重い (おもい) - heavy

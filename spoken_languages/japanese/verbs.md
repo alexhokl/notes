@@ -393,6 +393,11 @@ Note that all other conjugations of 買う use hiragana characters on the
   * for 一段動詞, there is a new trend that, instead of 食べられる, 食べれる is
     used instead
   * ら抜き言葉
+- for transitive verbs
+  * most of the time を would be replaced by が
+    + except stressing a subject
+      + 彼は妻を引き止められませんでした。 (to stress the person)
+      + 料理をできる人はいますか。 (noun phrase)
 - for skill and ability
   * 日本語が読める。
 - for possibilities
@@ -426,6 +431,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * such that the potential form is seldom used
   * 見える
   * 聞こえる
+  * 分かる
   * the usage of potential form has a nuance of "do you have a chance"
     + この書類明日までに見られる？
       + Will you be able to take a look at this document by tomorrow?

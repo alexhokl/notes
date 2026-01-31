@@ -27,6 +27,9 @@
     + [は and が](#%E3%81%AF-and-%E3%81%8C)
     + [も](#%E3%82%82)
     + [だけ](#%E3%81%A0%E3%81%91)
+    + [しか](#%E3%81%97%E3%81%8B)
+    + [さえ](#%E3%81%95%E3%81%88)
+    + [すら](#%E3%81%99%E3%82%89)
   * [終助詞 sendence-ending particles](#%E7%B5%82%E5%8A%A9%E8%A9%9E-sendence-ending-particles)
     + [ね](#%E3%81%AD)
     + [わ](#%E3%82%8F)
@@ -1544,6 +1547,55 @@ ____
       + 当日券は現金購入のみとなります。
     + if it is one friend talking to another friend
       + 当日券は現金購入だけなんだって。
+
+### しか
+
+- only ... and nothing more
+- focuses on quantity
+- conjugation
+  * noun + しか
+  * verb in plain form + しか
+- used in both written and spoken Japanese
+- 私はローマ字しか読めない。
+  * I can only read romaji.
+- 君しか見ていない。
+  * All I can see is you.
+
+### さえ
+
+- meaning
+  * only
+    + when it is used in a condition
+    + 君さえいれば、ほかに何もいらない。
+      + If only you’re here, I don’t need anything else.
+  * even
+    + when it is not used a condition
+    + １２月でさえ暖かった。
+      + It was even warm in December.
+    + ローマ字さえ読めない。
+      + I can’t even read romaji.
+    + メアリーさんはなっとうさえ食べた。
+- focuses on expectation of speaker where things fall outside the realm of
+  expectations
+- conjugation
+  * noun + さえ
+  * い-adjective + さえ
+  * な-adjective + で + さえ
+  * vern in stem form + さえ
+
+### すら
+
+- even
+- focuses on expectation of speaker where things fall outside the realm of
+  expectations
+- 彼女は自分の名前すら書く事が出来ない。
+  * She can’t even write her own name.
+- メアリーさんはなっとうさえ食べなかった。
+- conjugation
+  * noun + すら
+  * い-adjective + すら
+  * な-adjective + で + すら
+  * vern in stem form + すら
 
 ## 終助詞 sendence-ending particles
 

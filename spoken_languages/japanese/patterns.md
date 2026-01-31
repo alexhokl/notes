@@ -461,6 +461,7 @@ ____
   * 大学に入学する
   * 病院に入院する
   * パーティーに參加する
+  * 電車に間に合う
 
 ### leaving
 
@@ -1424,6 +1425,7 @@ ____
 ### ability to do something
 
 - verb in plain form + ことができる
+- slightly more formal than the potential form
 - 私は日本料理を作ることができます。
 - あなたは日本語の新聞を読むことができますか。
   * いいえ、漢字があまりわかりませんから、読むことはできません。
@@ -1431,8 +1433,9 @@ ____
   * ええ、できますが、あまり上手ではありません。
 - 私は自転車に乗ることができます。
 - 私は日本語を話すことができます。
+  * 私は日本語ができます。
 
-### permission to do something
+### someone gives permission or sitation allows to do something
 
 - verb in plain form + ことができる
 - 朝10時から午後4時の間は学校の前に車を止めることができます。
@@ -1450,8 +1453,12 @@ ____
   * 水泳の選手でしたから、1000メートルぐらい泳げると思います。
 - 私は自転車に乗れます。
 - 私は日本語が話せます。
+- ❌彼は妻が引き止められませんでした。
+  * ⭕️彼は妻を引き止められませんでした。 (to stress the person)
+- ❌料理ができる人はいますか。
+  * ⭕️料理をできる人はいますか。 (noun phrase)
 
-### permission to do something (potential form)
+### someone gives permission or sitation allows to do something (potential form)
 
 - [Potential form られる](./verbs.md#potential-form-%E3%82%89%E3%82%8C%E3%82%8B)
 - このカードで新幹線に乗れますか。
