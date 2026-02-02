@@ -1153,6 +1153,7 @@ ____
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
 - 知らせる (しらせる) - to notify; to advise
+- 調べる (しらべる) - to examine; to look up; to investigate
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 尋ねる (たずねる) - to ask; to inquire
 - 伝える (つたえる) - to convey
