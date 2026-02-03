@@ -243,6 +243,7 @@ ____
 - 新しい (あたらしい) - new
 - 厚い (あつい) - thick
 - 暑い (あつい) - hot (also 熱い)
+- 危ない (あぶない) - dangerous; risky
 - 甘い (あまい) - sweet
 - いい - good (casual)
 - 忙しい (いそがしい) - busy
@@ -781,6 +782,7 @@ ____
 - 浴びる (あびる) - to take a shower
 - 洗う (あらう) - to wash
 - 言う (いう) - to say
+- 売る (うる) - to sell; to betray
 - 描く (えがく) - to draw; to paint
 - 置く (おく) - to place
 - 教える (おしえる) - to teach
@@ -889,6 +891,7 @@ ____
 - 一度 (いちど) - once; one time
 - 屹度 (きっと) - surely
 - この間 (このあいだ) - the other day; recently; during this period
+- この頃 (このごろ) - these days; recently; nowadays
 - 今度 (こんど) - next time; this time; recently
 - 最近 (さいきん) - recently; lately
 - 先 (さっき) - a moment ago
@@ -970,9 +973,11 @@ ____
 - 公務員 (こうむいん) - civil servant
 - コンピュータ - computer
 - 坂 (さか) - slope; hill; incline
+- 趣味 (しゅみ) - hobby; pastime
 - 字 (じ) - character; kanji
 - 地震 (じしん) - earthquake
 - 社長 (しゃちょう) - company president; manager; director
+- 住所 (じゅうしょ) - address
 - 女性 (じょせい) - female
 - 品物 (しなもの) - goods; article; thing; item
 - 新聞社 (しんぶんしゃ) - newspaper company
@@ -988,6 +993,7 @@ ____
 - 値段 (ねだん) - price; cost
 - 人形 (にんぎょう) - doll
 - ハンドバック - handbag
+- 番組 (ばんぐみ) - programme
 - 引き出し (ひきだし) - drawer
 - 昼休み (ひるやすみ) - lunch break
 - 普通 (ふつう) - normal; ordinary
@@ -1159,6 +1165,7 @@ ____
 - 伝える (つたえる) - to convey
 - 手伝う (てつだう) - to help; to contribute to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
+- 運ぶ (はこぶ) - to carry; to transport; to move
 - 払う (はらう) - to pay; to wipe away
 - 間違える (まちがえる) - to make a mistake
 - 迎える (むかえる) - to welcome; to greet
@@ -1317,10 +1324,13 @@ ____
 - 年代 (ねんだい) - year or generation (for vintage)
 - 俳優 (はいゆう) - actor; actress; player; performer
 - 幅 (はば) - width
+- バイオリン - violin
 - 被害 (ひがい) - damage; injury
 - 費用 (ひよう) - cost
 - 瓶 (びん) - bottle; jar
 - 袋 (ふくろ) - bag; sack; pouch
+- 文 (ぶん) - sentence; composition; text; writings; literature; statement
+  (computing)
 - ベルト - belt
 - 保証人 (ほしょうにん) - guarantor
 - 間違い (まちがい) - mistake; error
@@ -1378,6 +1388,7 @@ ____
 
 - ゴール (gōru) - goal
 - スキー - skiing
+- スケート - skating
 - チーム - team
 
 ### nouns (location)
@@ -1419,6 +1430,7 @@ ____
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
 - 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
 - 世話 (せわ) - care; looking after; help; support
+- 相談 (そうだん) - consultation; discussion; asking (someone) for advice
 - パス - passing
 - 販売 (はんばい) - selling
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
@@ -1436,6 +1448,8 @@ ____
 - 参加 (さんか) - participation
 - 出発 (しゅっぱつ) - departure
 - 滞在 (たいざい) - stay
+- ダンス - dance
+- 遅刻 (ちこく) - lateness
 - 留学 (りゅうがく) - studying abroad
 
 ### verb pairs
@@ -1588,6 +1602,7 @@ ____
 - 開放 (かいほう) - open
 - クリーニング - cleaning; laundry service
 - 撮影 (さつえい) - photographing; filming
+- 受験 (じゅけん) - taking an exam
 
 ### する intransitive verbs
 
@@ -1599,6 +1614,7 @@ ____
 
 ### する transitive and intransitive verbs
 
+- 工事 (こうじ) - construction work
 - 彫刻 (ちょうこく) - sculpture
 
 ### verb pairs
@@ -1677,6 +1693,7 @@ ____
 - 課題 (かだい) - subject; theme; task; homework
 - 区 (く) - ward; district
 - ぐらい - about; approximately
+- 工学 (こうがく) - engineering
 - サイズ - size
 - 皺 (しわ) - wrinkle, crease (aka シワ)
 - ジャズ - jazz
@@ -1864,6 +1881,7 @@ ____
 - サングラス - sunglasses
 - シェービング - shaving
 - 下振れ (したぶれ) - downturn; downside
+- 商学 (しょうがく) - commercial science
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
 - 女 (じょ) - woman (used as suffix)
@@ -1885,6 +1903,8 @@ ____
 - ヘッドスパ - head spa
 - 綻び (ほころび) - tear; open seam; seam that has come apart
 - 防災 (ぼうさい) - disaster preparedness
+- ポート - port; harbour
+- ホームステイ - homestay
 - 皆様 (みなさま) - everyone (keigo)
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
@@ -2216,6 +2236,10 @@ ____
 
 ### nouns (countries)
 
+- イタリア - Italy
+- スペイン - Spain
+- フランス - France
+
 ### nouns (work)
 
 - 正社員 (せいしゃいん) - full-time employee
@@ -2370,6 +2394,7 @@ ____
 
 - 頂ける (いただける) - to be able to receive/take/accept
 - いなくなる - to disappear
+- 頑張る (がんばる) - to presevere; to do one's best
 - 毛羽立つ (けばたつ) - fuzzing, fraying
 - サボt - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
