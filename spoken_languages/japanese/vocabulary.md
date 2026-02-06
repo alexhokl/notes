@@ -1155,6 +1155,7 @@ ____
 - 飾る (かざる) - to decorate; to display
 - 考える (かんがえる) - to think (on a specific topic)
 - 決める (きめる) - to decide
+- 比べる (くらべる) - to compare
 - 呉れる (くれる) - to give (from inner circle perspective)
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
@@ -1937,6 +1938,7 @@ ____
 - すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
   table-top cast-iron pan
 - ソフトクリーム - soft ice cream
+- たこ焼き (たこやき) - octopus balls
 - 但馬牛 (たじまうし) - Tajima beef
 - タン - tongue (beef tongue in general)
 - 叉焼 (チャーシュー) - roasted pork
@@ -2396,7 +2398,8 @@ ____
 - いなくなる - to disappear
 - 頑張る (がんばる) - to presevere; to do one's best
 - 毛羽立つ (けばたつ) - fuzzing, fraying
-- サボt - to slack off (sabotage)
+- 転ける (こける) - to fall down
+- サボる - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
 - バズる - to go viral (buzz)
 - 含まれる (ふくまれる) - to be included; to be composed of
