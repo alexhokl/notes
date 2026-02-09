@@ -963,6 +963,7 @@ ____
 - 髪 (かみ) - hair
 - 看護師 (かんごし) - nurse
 - 気分 (きぶん) - feeling; mood; mood (psychology)
+- 興味 (きょうみ) - interest (in something); curiosity (about something); (not used for hobbies)
 - 空気 (くうき) - air; atmosphere; mood
 - 雲 (くも) - cloud
 - 経済 (けいざい) - economy; economics
@@ -1160,7 +1161,8 @@ ____
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
 - 知らせる (しらせる) - to notify; to advise
-- 調べる (しらべる) - to examine; to look up; to investigate
+- 調べる (しらべる) - to examine; to look up; to investigate; to search (on
+  Google)
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 尋ねる (たずねる) - to ask; to inquire
 - 伝える (つたえる) - to convey
@@ -1314,6 +1316,7 @@ ____
 - スタンド - stand
 - ソファー - sofa
 - 太陽 (たいよう) - sun
+- ただ - free of charge; only (adverb); but (conjunction)
 - 違い (ちがい) - difference
 - 調子 (ちょうし) - condition; state of health; tune
 - 月 (つき) - moon
@@ -1540,6 +1543,7 @@ ____
 ### nouns
 
 - 以降 (いこう) - on and after; since
+- 海水浴 (かいすいよく) - sea bathing; swimming in the sea
 - カラー - color
 - 看板 (かんばん) - sign; billboard
 - 国立 (こくりつ) - national
@@ -1562,6 +1566,12 @@ ____
 - 理科 (りか) - science
 - 両側 (りょうがわ) - both sides
 - 蝋燭 (ろうそく) - candle
+
+### nouns (time)
+
+- 下旬 (げじゅん) - last third of a month
+- 上旬 (じょうじゅん) - first third of a month
+- 中旬 (ちゅうじゅん) - middle third of a month
 
 ### nouns (food)
 
