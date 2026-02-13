@@ -2277,6 +2277,7 @@ ____
 - エディター - editor
 - キーボード - keyboard
 - クラウド - cloud
+- サムネ - thumbnail
 - 生成ＡＩ (せいせいＡＩ) - generative AI
 - 生体認証 (せいたいにんしょう) - biometric authentication
 - セキュリティポリシー - security policy
