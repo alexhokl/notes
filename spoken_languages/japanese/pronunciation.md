@@ -2,14 +2,15 @@
   * [清音 (seion) - clear sound](#%E6%B8%85%E9%9F%B3-seion---clear-sound)
   * [濁音 (dakuon) - voiced sound](#%E6%BF%81%E9%9F%B3-dakuon---voiced-sound)
   * [撥音 (hatsuon) - nasal sound](#%E6%92%A5%E9%9F%B3-hatsuon---nasal-sound)
-  * [拗音 (yōon)](#%E6%8B%97%E9%9F%B3-yoon)
+  * [拗音 (yōon)](#%E6%8B%97%E9%9F%B3-y%C5%8Don)
   * [促音 (sokuon) - (小さいつ) (small tsu)](#%E4%BF%83%E9%9F%B3-sokuon---%E5%B0%8F%E3%81%95%E3%81%84%E3%81%A4-small-tsu)
-  * [長音 (chōon) - long vowel](#%E9%95%B7%E9%9F%B3-choon---long-vowel)
-  * [鼻濁音 (bidadakuon) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-bidadakuon---nasal-sound)
+  * [長音 (chōon) - long vowel](#%E9%95%B7%E9%9F%B3-ch%C5%8Don---long-vowel)
+  * [鼻濁音 (びだだくおん) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-%E3%81%B3%E3%81%A0%E3%81%A0%E3%81%8F%E3%81%8A%E3%82%93---nasal-sound)
   * [母音の無声化 - vowel devoicing](#%E6%AF%8D%E9%9F%B3%E3%81%AE%E7%84%A1%E5%A3%B0%E5%8C%96---vowel-devoicing)
-  * [音読み and 訓読み (onyomi and kunyomi)](#%E9%9F%B3%E8%AA%AD%E3%81%BF-and-%E8%A8%93%E8%AA%AD%E3%81%BF-onyomi-and-kunyomi)
+  * [音読み and 訓読み](#%E9%9F%B3%E8%AA%AD%E3%81%BF-and-%E8%A8%93%E8%AA%AD%E3%81%BF)
   * [連濁 (Rendaku)](#%E9%80%A3%E6%BF%81-rendaku)
-  * [pronunciation of さん](#pronunciation-of-%E3%81%95%E3%82%93)
+  * [さん](#%E3%81%95%E3%82%93)
+  * [何](#%E4%BD%95)
 ____
 
 # Pronunciation
