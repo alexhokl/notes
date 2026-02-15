@@ -115,7 +115,8 @@
     + [asking for and giving a reason](#asking-for-and-giving-a-reason)
     + [invitation](#invitation)
     + [の to reference an understood noun from the context](#%E3%81%AE-to-reference-an-understood-noun-from-the-context)
-    + [for or for the sake of](#for-or-for-the-sake-of)
+    + [for](#for)
+    + [for (conjunction)](#for-conjunction)
     + [selecting one from many](#selecting-one-from-many)
     + [no?](#no%3F)
     + [only](#only)
@@ -124,19 +125,23 @@
   * [Chapter 14](#chapter-14)
     + [an ability to do something](#an-ability-to-do-something)
     + [ability to do something](#ability-to-do-something)
-    + [permission to do something](#permission-to-do-something)
+    + [someone gives permission or sitation allows to do something](#someone-gives-permission-or-sitation-allows-to-do-something)
     + [ability to do something (potential form)](#ability-to-do-something-potential-form)
-    + [permission to do something (potential form)](#permission-to-do-something-potential-form)
+    + [someone gives permission or sitation allows to do something (potential form)](#someone-gives-permission-or-sitation-allows-to-do-something-potential-form)
     + [embedded questions](#embedded-questions)
     + [whether or not](#whether-or-not)
     + [like or dislike of an action](#like-or-dislike-of-an-action)
     + [an interest](#an-interest)
     + [contrast between two things](#contrast-between-two-things)
-    + [to reach the point where ... / to come to ...](#to-reach-the-point-where-...-%2F-to-come-to-...)
-    + [list of actions of states of being](#list-of-actions-of-states-of-being)
+    + [gaining an ability or situation/permission allows to do something](#gaining-an-ability-or-situation%2Fpermission-allows-to-do-something)
+    + [new habit](#new-habit)
+    + [losing an ability or situation/permission allows to do something](#losing-an-ability-or-situation%2Fpermission-allows-to-do-something)
+    + [lossing a habit](#lossing-a-habit)
+    + [non-exhuastive list of actions](#non-exhuastive-list-of-actions)
+    + [opposite actions](#opposite-actions)
     + [only ... and nothing more](#only-...-and-nothing-more)
-    + [something / someone + adjective + noun](#something-%2F-someone-%2B-adjective-%2B-noun)
-    + [any ... / every ...](#any-...-%2F-every-...)
+    + [anything/anyone/somewhere](#anything%2Fanyone%2Fsomewhere)
+    + [any ... / every ... / all ...](#any-...-%2F-every-...-%2F-all-...)
     + [someone said](#someone-said-1)
     + [area or range](#area-or-range)
     + [either one out of two](#either-one-out-of-two)
@@ -1519,35 +1524,62 @@ ____
 - このことは母には話しましたが、父にはまだ話していません。
 - ハッピーバレーへはトランで行けますが、地下鉄では行けません。
 - 私は肉は好きですが、魚は嫌いです。
+- ❌この猫は尻尾は長いですが、手足は短いです。
 
-### to reach the point where ... / to come to ...
+### gaining an ability or situation/permission allows to do something
 
 - verb in plain potential form + ようになる
 - verb has potential meaning in plain form + ようになる
-- verb in plain negative + なくなる
+- verbs has potential meanings
+  * できる
+  * 分かる
+  * 見える
+  * 聞こえる
 - 1997年にチェンマ大橋ができました。昔は香港島からランタオ島まで1時間以上かかりましたが、今は30分ぐらいで行けるようになりました。チェンマ大橋が通れるようになって、とても便利になりました。
 - 早く日本のテレビ番組の内容がわかるようになりたいです。
 - 私は日本に来る前にはぜんぜん日本語ができませんでしたが、今は少し話せるようになりました。
+- 私は日本語が話せるようになりました。
+- ⭕️近年は癌が治るようになりました。
+  * ⭕️私は風邪が治った。
+  * ❌私は風邪が治るようになりました。
+- すぐスキーが滑れるようになるでしょうか。
+
+### new habit
+
+- verb in plain non-potential form + ようになる
 - 私は昔はニガウリを食べませんでしたが、今は食べるようになりました。
 - 日本では昔は働くときも寝るときも着物を着ていましたが、今は洋服を着るようになりました。
-- あの人は遅刻しなくなりました。
-- 風邪を引きました。それで旅行に行けなくなりました。
-- 大学を卒業してから、あまり運動しなくなりました。
-- 狭い家に引っ越ししましたから、大きい家具が置けなくなりました。
-- 私は日本語が話せるようになりました。
 - あの人はこのごろよく勉強するようになりました。
-- あの人は遅刻をしなくなりました。
 
-### list of actions of states of being
+### losing an ability or situation/permission allows to do something
+
+- verb in plain potential negative form + なる
+- 風邪を引きました。それで旅行に行けなくなりました。
+- 狭い家に引っ越ししましたから、大きい家具が置けなくなりました。
+- お酒を飲めなくなりました。
+
+### lossing a habit
+
+- verb in plain negative non-potential form + なる
+- あの人は遅刻しなくなりました。
+- 大学を卒業してから、あまり運動しなくなりました。
+- お酒を飲まなくなりました。
+
+### non-exhuastive list of actions
 
 - [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
 - verb in plain past tense + たり + verb in plain past tense + たり + する
 - 日曜日には本を読んだり、メールを送ったりします。
 - 会社でどんな仕事をしていますか。
   * お客さんに電話をしたり、メールを書いて送ったりしています。
+- 夏休みは海へ行ったり山へ行ったりしました。
+
+### opposite actions
+
+- [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
+- verb in plain past tense + たり + verb in plain past tense + たり + する
 - 勉強に集中できませんから、部屋に入ったり、出たりしないでください。
 - テレビをつけたり、消したりしないでください。壊れてしまいますよ。
-- 夏休みは海へ行ったり山へ行ったりしました。
 - 雨が降ったりやんだりしています。
 
 ### only ... and nothing more
@@ -1566,7 +1598,7 @@ ____
 - あの人は英語しか分かりません。
 - 私のクラスには女の学生が二人しかいません。
 
-### something / someone + adjective + noun
+### anything/anyone/somewhere
 
 - 何か + adjective + 物
 - 何か + adjective + こと
@@ -1581,7 +1613,7 @@ ____
 - だれかタイ語のできる人を教えてください。
 - どこかきれいな所へ行きたいです。
 
-### any ... / every ...
+### any ... / every ... / all ...
 
 - question word + でも
 - 私は果物は何でも食べます。
