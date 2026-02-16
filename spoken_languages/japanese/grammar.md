@@ -13,10 +13,10 @@
 - [Compounds](#compounds)
   * [のだ](#%E3%81%AE%E3%81%A0)
   * [かも知れない](#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
-- [Conjunctions](#conjunctions)
-  * [なら if](#%E3%81%AA%E3%82%89-if)
 - [Pronouns](#pronouns)
   * [自分 (じぶん)](#%E8%87%AA%E5%88%86-%E3%81%98%E3%81%B6%E3%82%93)
+- [Adverb](#adverb)
+  * [もう](#%E3%82%82%E3%81%86)
 - [Nouns](#nouns)
   * [事 (こと)](#%E4%BA%8B-%E3%81%93%E3%81%A8)
   * [前・後](#%E5%89%8D%E3%83%BB%E5%BE%8C)
@@ -427,6 +427,39 @@ ____
     + Being self-assured (Literally: Having one's identity)
   * 自分を見失う
     + Feeling lost (Literally: Losing one's identity)
+
+# Adverb
+
+## もう
+
+- indicating a little more than the existing quantity
+- もう一つ買おう。
+- もう一回言ってもらえませんか？
+- もう少し大きい声で言ってもらえませんか？
+  * もう conveys your request for a slight increase in the volume from their
+    current volume
+    + without もう, it can sound like you are requesting that they talk in a
+      little louder volume than the normal volume of their speech in general
+- もうすぐ cannot be used to talk about something in the past
+  * ⭕️ほらね、すぐできたでしょ。
+    + ❌ほらね、もうすぐできたでしょ。
+- patterns
+  * もう + quantity
+    + ビール、もう一本ください。
+    + もう二、三個ほしいな。
+  * もう + adverb
+    + used with 少し, ちょっと, すぐ, しばらく
+      + もうちょっとで届く。
+      + もうすぐ着くよ。
+        + すぐ can be omitted if it means "almost"
+      + もうすぐ頂上だよ。
+        + すぐ can be omitted for similar reason
+- almost did
+  * もう少しで + ... + ところだった
+  * もう少しでこけるところだった。
+    + I almost fell.
+  * もう少しで溺れ死ぬところだった。
+    + I almost drowned.
 
 # Nouns
 

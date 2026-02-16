@@ -36,6 +36,8 @@
   * [ていた](#%E3%81%A6%E3%81%84%E3%81%9F)
   * [ておく](#%E3%81%A6%E3%81%8A%E3%81%8F)
   * [てほしい](#%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84)
+  * [てみる](#%E3%81%A6%E3%81%BF%E3%82%8B)
+  * [てもいい](#%E3%81%A6%E3%82%82%E3%81%84%E3%81%84)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -1497,3 +1499,93 @@ Note that all other conjugations of 買う use hiragana characters on the
   * more polite versions
     + この資料を確認してもらいたいんですが、お願いしてもいいですか？
     + この資料を確認していただきたいんですが、お願いしてもよろしいでしょうか？
+
+## てみる
+
+- indicates the act of actually trying and seeing
+  * completing an attempt
+  * it cannot be used for unsuccessful attempts
+  * if no attempt is made, ようとする should be used instead
+    + ❌ 食べてみたけど、食べられなかった。
+    + ⭕️ 食べようとしたけど、食べられなかった。
+      + I tried to eat it, but I couldn't.
+- basic
+  * 食べてみるよ。
+    + I'll eat it and see what it's like.
+- want to try
+  * てみたい
+  * 私もやってみたい！
+    + I want to try that too!
+  * いつか火星に行ってみたい。
+- let's try
+  * てみよう
+  * よし、開けてみよう。
+  * よし、開けてみよっか。 (casual)
+- triggering of a discovery
+  * てみたら
+  * 飲んでみたら、結構美味しかった。
+  * そう言われてみたら、そんな気もしてきた。
+    + Now that you put it that way, it's starting to seem that way.
+  * てみると as the same meaning but slightly more formal
+- what if or why don't you
+  * てみたら with raising intonation
+  * 行ってみたら?
+    + Why don't you try going?
+  * 行ってみたらどうですか?
+- discover or learn something after a certain circumstances occurs
+  * てみて
+  * 親になってみて、はじめて子育ての大変さを理解した。
+  * 大病を患ってみて、やっと健康でいることの有り難さが分かった。
+  * it cannot be used when the speaker intentionally try something
+- not event try
+  * てもみない
+  * 絶対無理だと思ったから、やってもみなかったんだ。
+    + I thought it would never work, so I didn't even try.
+  * やってもみないうちから、無理だって決めつけるなよ！
+    + Don't assume it's impossible before you've even tried it!
+  * でも、やる前はこんなに簡単だって思ってもみなかったんだよ。
+
+## てもいい
+
+- express permission, consession, or approval
+- patterns
+  * verb + てもいい
+    + express permission
+  * い-adjective with ending い replaced by く + てもいい
+    + express compromise
+  * な-adjective + でもいい
+    + express compromise
+  * noun + でもいい
+    + express compromise
+- basics
+  * 食べてもいい？
+  * 飲んでもいいよ。
+  * テレビ見てもいい？
+    + 見てもいいよ。
+  * 小さくてもいい？
+  * 大きくてもいいよ。
+  * 下手でもいい？
+  * 同じでもいいよ。
+  * カレーでもいい？
+  * 一個でもいいよ。
+  * 熱くてもいいですか？
+  * 熱くてもいいですよ。
+  * 熱くても構いませんか？
+  * 熱くてもよろしいですよ。
+- indicates that it is not necessary to do or be something
+  * なくてもいい
+  * 洗わなくてもいいよ。
+    + You don't need to wash them.
+  * 甘くなくてもいいよ。
+  * 上手じゃなくてもいいよ。
+  * コーヒーじゃなくてもいいよ。
+- も in てもいい can be skipped
+  * it is slightly more casual
+  * ママのケーキ、食べて(も)いいよ。
+- if 〜てもいい is used to give consent to do something the speaker's self, it
+  adds the nuance that it is not something the speaker want to do but that the
+  speaker is willing to do it for the person speaker is talking to. As a result,
+  it can generate a patronizing tone. Also note that when 〜てもいい is used
+  this way, you cannot drop も.
+  * デートしてもいいよ。
+    + I'm okay with going on a date with you.
