@@ -145,6 +145,26 @@
     + [someone said](#someone-said-1)
     + [area or range](#area-or-range)
     + [either one out of two](#either-one-out-of-two)
+  * [Chapter 15](#chapter-15)
+    + [intention or expectation](#intention-or-expectation)
+    + [no intention](#no-intention)
+    + [to express will or intention](#to-express-will-or-intention)
+    + [to express a certain plan or intention](#to-express-a-certain-plan-or-intention)
+    + [to express thinking of a certain plan or intention](#to-express-thinking-of-a-certain-plan-or-intention)
+    + [to express someone's intention or plan](#to-express-someone%27s-intention-or-plan)
+    + [apparently / they say that](#apparently-%2F-they-say-that)
+    + [may or might](#may-or-might)
+    + [and then](#and-then)
+    + [Command form](#command-form)
+    + [try (and completed attempt)](#try-and-completed-attempt)
+    + [time before an action](#time-before-an-action)
+    + [time during an action](#time-during-an-action)
+    + [time after an action](#time-after-an-action)
+    + [convert verb to noun](#convert-verb-to-noun)
+    + [something to happen at a location](#something-to-happen-at-a-location)
+    + [to firmly reject a suggested fact](#to-firmly-reject-a-suggested-fact)
+    + [polite way to respond to a praise](#polite-way-to-respond-to-a-praise)
+    + [to give more context to avoid sounding too direct](#to-give-more-context-to-avoid-sounding-too-direct)
 ____
 
 ## Chapter 1
@@ -1650,3 +1670,176 @@ ____
 - 毎日電車かバスで会社へ行きます。
 - 私は毎週日曜日にサッカーか野球をしています。
 - わたしは毎朝コーヒーか紅茶を飲みます。
+
+## Chapter 15
+
+### intention or expectation
+
+- verb in plain form + つもり + だ
+- verb in negative plain form + つもり + だ
+- つもり is a noun
+- 私は大学院でアジア経済を勉強するつもりです。
+- 彼女は25歳までには結婚しないつもりだと言っています。
+- あなたは日本語の先生になるつもりですか。
+  * はい、そのつもりです。
+
+### no intention
+
+- verb in plain form + つもり + は + ない
+- 買い物するつもりはありませんでしたが、結局たくさん買ってきました。
+
+### to express will or intention
+
+- [Conjugations](./conjugations.md)
+- [Voliltional form 〜よう](./verbs.md#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
+- 今晩は授業がないから、どこかへ食べに行こうか。
+  * いいね。スーパーの隣の店にしようか。
+- 今度の旅行はどこに行こうか。
+  * 九州に行こうよ。いい温泉があるから、温泉に入ろうよ。
+
+### to express a certain plan or intention
+
+- verb in voliltional form + と思う
+- お年玉の5万円は何に使いますか。
+  * そうですね。スマホゲームに課金しようと思います。
+- わたしはこんな服を着ようとは思いません。
+
+### to express thinking of a certain plan or intention
+
+- verb in voliltional form + と思っている
+- もうすぐ二十歳の誕生日ですね。
+  * ええ、うちでパーティーをしようと思っています。
+- わたしは彼女が好きですが、結婚しようとは思っていません。
+
+### to express someone's intention or plan
+
+- verb in voliltional form + と思っている
+- ⭕️リーさんは土曜日の選択コースを取ろうと思っています。
+  * ❌リーさんは土曜日の選択コースを取ろうと思います。
+- ⭕️藤田さんはほかの人に仕事を頼もうとは思っていません。
+  * ❌藤田さんはほかの人に仕事を頼もうとは思いません。
+
+### apparently / they say that
+
+- (noun + によると +) noun + だそうだ
+- (noun + によると +) な-adjective + だそうだ
+- (noun + によると +) い-adjective + そうだ
+- (noun + によると +) verb in plain form + そうだ
+- there is no negative form of そうだ
+  * ❌今年の冬は寒いそうではない。
+- it cannot be used talk about something in the past
+  * ❌去年の冬は寒いそうだった。
+- によると means according to
+- ラジオの放送によると今朝学校の前で交通事故があったそうです。
+- 天気予報によると今夜九州にも雪が降るそうです。
+- 天気予報では今夜九州にも雪が降るそうです。
+- 昨日李さんが見た映画は面白くなかったそうです。
+- 真子さんの妹さんもとてもきれいだったそうです。
+- 昨日のパーティーはとてもにぎやかだったそうです。
+
+### may or might
+
+- [かも知れない](./grammar.md/#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
+- 先生もヤンさんの結婚式に出られるかもしれません。
+- 上田さんは7時半の電車に間に合わなかったかもしれません。7時15分に家を出たそう
+  ですから。
+- 今日の飲み会、田中さんも来ますか。
+  * いや、来られないかもしれませんよ。今日はちょっと忙しいと言っていましたから。
+- ヤンさんも韓国の映画が好きかもしれません。
+- あそこはまだ地下鉄がないから、交通があまり便利ではないかもしれません。
+- 山口さんも昔警察官だったかもしれません。
+
+### and then
+
+- verb in て-form + verb
+- verb in plain negative form + で + verb
+- キムさんは電気を消して寝ますか。
+  * いいえ、私は電気を消さないで寝ます。
+- これは醤油をつけて食べるんですか。
+  * いいえ、何もつけないで食べてください。
+- 最近少し細くなりましたね。ダイエットしたんですか。
+  * いいえ、バスに乗らないで、毎日駅まで歩いているんです。
+- 明日は日曜日ですね。どこかへ行きますか。
+  * いいえ、どこへも行かないで、ゆっくり休もうと思っています。
+
+### Command form
+
+- [Command form (imperative) 〜なさい](./verbs.md#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
+- 先生「今日習った語彙は試験に出ますから、ちゃんと覚えなさい。」
+- 母「あやちゃん、学校に遅れちゃうねよ。早く起きなさい。」
+
+### try (and completed attempt)
+
+* [てみる](./verbs.md#%E3%81%A6%E3%81%BF%E3%82%8B)
+- 靴を買う前に、必ず履いてみます。
+- 和牛を食べたことがないから、どんな味か一度食べてみたいです。
+- いつかヨーロッパへ行ってみたいです。
+
+### time before an action
+
+- verb in plain form + とき
+- 食事をするとき、手を洗います。
+- 京都へ行くとき、新幹線で行きます。
+- うちへ帰るとき、パンを買いました。
+
+### time during an action
+
+- verb in て-form + いるとき
+- noun + のとき
+- な-adjective + なとき
+- い-adjective + とき
+- 昨日わたしが勉強しているとき、友達が遊びに来ました。
+- 数学が分からないとき、いつも兄に聞きます。
+- 母は若いとき、水泳の選手でした。
+- 昼なとき、父はよく散歩に行きます。
+- 私は中学生のとき、テニスをしていました。
+- 妻が病気のとき、会社を休みました。
+
+### time after an action
+
+- verb in plain past tense + とき
+- 病気になったとき、病院へ行きます。
+
+### convert verb to noun
+
+- verb in plain form + の
+- 友達と話をするのは楽しいです。
+- 日本語で手紙を書くのは難しいです。
+- みんなの前でスビーチをするのは恥ずかしいです。
+- 私は星を見るのが好きです。
+- 香港人は歩くのが速いです。
+
+### something to happen at a location
+
+- location + で + noun + がある
+- 日曜日に友達のうちでパーティーがあります。
+- 歴史の資料によると昔この地方で大地震があったそうです。
+- 今日会議はどこでありますか。
+  * 2階の会議室であります。
+- 2028年にロサンゼルスでオリンピックがあります。
+
+### to firmly reject a suggested fact
+
+- 男は外、女は内という役割分担は時代遅れですよ。
+  * そんなことはありませんよ。
+- 日本人はみんなマスクをして歩いているそうですね。
+  * いえいえ、そんなことはありませんよ。
+
+### polite way to respond to a praise
+
+- お宅のお子さん達はみんな頭がいいんですね。
+  * そんなことはありませんよ。
+- 日本語はお上手ですね。
+  * いえいえ、そんなことはありませんよ。
+
+### to give more context to avoid sounding too direct
+
+- ... + が + ...
+- ... んですが + ...
+- ちょっとすみませんが、この近くに薬屋がありますか。
+- ちょっと相談したいことがあるんですが、今いいでしょうか。
+- 先生、ちょっと聞きたいことがあるんですが…
+  * はい、何ですか。
+- 私の机の上にこんなものが置いてあるんですが、これは何ですか。
+- まだ知らない人もいるかもしれませんが、カラオケは日本人が発明したものです。
+- 生け花を習いたいんですが、いい先生を紹介してくださいませんか。
