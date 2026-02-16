@@ -30,6 +30,7 @@
     + [しか](#%E3%81%97%E3%81%8B)
     + [さえ](#%E3%81%95%E3%81%88)
     + [すら](#%E3%81%99%E3%82%89)
+    + [くらい](#%E3%81%8F%E3%82%89%E3%81%84)
   * [終助詞 sendence-ending particles](#%E7%B5%82%E5%8A%A9%E8%A9%9E-sendence-ending-particles)
     + [ね](#%E3%81%AD)
     + [わ](#%E3%82%8F)
@@ -1648,6 +1649,37 @@ ____
   * い-adjective + すら
   * な-adjective + で + すら
   * vern in stem form + すら
+
+### くらい
+
+- almost the same as
+  * ケンと同じくらい。
+    + About the same as Ken.
+  * ケンくらいだよ。
+  * ボールの大きさは、アボカドくらいだよ。
+    + The size of the ball is basically the same as an avocado.
+  * マヤくらい日本語が話せたらいいのにな。
+    + I wish I could speak Japanese as well as Maya.
+  * 日本（と同じ）くらいの物価だともっと暮らしやすいだろう。
+    + It would be more liveable if the cost of living were (about) the same as in Japan.
+- at least
+  * パンケーキくらいなら作れるよ。
+    + I can at least make pancakes.
+  * 自分の洗い物くらいは自分でしてよ！
+  * パンケーキくらいしか作れないんだよね。
+    + The best I can do is pancakes.
+- ほど is formal version of くらい
+  * クッキー５０個くらいなら作れると思う。
+    + to talk to a friend
+  * クッキー５０個ほどなら作れると思います。
+    + to talk as a professional baker
+  * it is not always interchangeable
+    + くらい express an approximate lower bound
+    + ほど express an approximate uppper bound
+    + これくらいなら作れると思う。
+      + I think I can make them if it's about this much.
+      + ❌ これほどなら作れると思います。
+    + これほどの量が作れるんですか！？
 
 ## 終助詞 sendence-ending particles
 
