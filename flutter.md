@@ -33,7 +33,7 @@ ____
 - [Implicit animations](https://docs.flutter.dev/codelabs/implicit-animations)
 - [gRPC with Dart](https://grpc.io/docs/languages/dart/quickstart/)
 - [Flutter AppAuth Plugin](https://pub.dev/packages/flutter_appauth)
-- [Android Asset
+- [IconKitchen](https://icon.kitchen/) - a successor of [Android Asset
   Studio](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=addchart&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(0%2C%20150%2C%20136)&crop=0&backgroundShape=circle&effects=elevate&name=ic_launcher)
 
 ## Libraries
