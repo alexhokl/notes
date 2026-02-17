@@ -1907,6 +1907,7 @@ ____
 - 男 (なん) - man (used as suffix)
 - 縫いぐるみ (ぬいぐるみ) - stuffed toy
 - ねた - information; news; proof; evidence
+- 話し手 (はなして) - speaker
 - 歯磨き粉 (はみがきこ) - toothpaste
 - 薔薇 (ばら) - rose
 - 幅員 (ふくいん) - width (of a road, bridge, etc.)
@@ -2068,6 +2069,7 @@ ____
 - スーパー - supermarket
 - 地下街 (ちかがい) - underground shopping street
 - 処 (ところ) - (specialist) resturant
+- ファミマ - Family Mart
 - 風呂場 (ふろば) - bathroom
 - 本屋 (ほんや) - bookstore
 - マクドナルド - McDonald's
@@ -2421,53 +2423,54 @@ ____
 
 ### expressions
 
+- ありがたい事に (ありがたいことに) - thankfully
+- いいね - that's nice
+- 行ってきます (いってきます) - I'll go and come back (when I'm leaving from
+  some place)
+- 今のうち (いまのうち) - while one still can
 - いらっしゃいませ - welcome
-- 失礼します (しつれいします) - excuse me (usually after staff take a plate
-  away or about to serve a dish)
-- ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
+- 言わないことではない - I told you so
+- 嘘をつく (うそをつく) - to tell a lie
+- お陰で (おかげで) - thanks to; owing to; because of
+- お茶を入れる (おちゃをいれる) - to make tea
 - お疲れ様 (おつかれさま) - thank you (for your hard work); good job; much
   appreciated; goodbye (when you finshed your day)
 - お休みなさい (おやすみなさい) - good night
-- 行ってきます (いってきます) - I'll go and come back (when I'm leaving from
-  some place)
-- じゃない - is not; isn't it?
-- だっけ。 - was it?
-- 言わないことではない - I told you so
-- そうだね - sure; yeah; I know (aka そうだよね)
-- 失礼しました (しつれいしました) - my apologies; excuse me
-- ご注意ください (ごちゅういください) - please be careful
+- 鍵をかける (かぎをかける) - to lock (a door)
 - 気をつけてください (きをつけてください) - please be careful
-- ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
-  the inconvenience
-- ご遠慮ください (ごえんりょください) - please refrain (from)
-- いいね - that's nice
-- やった - yay!
-- 然だに (さだに) - still; even now
-- 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
-  shrinking; declining
-- 様な (ような) - like; similar to; feels like
-- だけでなく - not only; not just; as well as
-- かも知れません (かもしれません) - maybe; might; perhaps
-- だろう - seems
-- 電話に出る (でんわにでる) - to answer the phone
-- 手を挙げる (てをあげる) - to raise one's hand
-- 嘘をつく (うそをつく) - to tell a lie
-- 話をしています (はなしをしています) - chatting
-- 話しています (はなしています) - chatting
 - ゲームをする - to play a game
 - ゲームをやる - to play a game
-- メールに返信する (メールにへんしんする) - to reply to an email
-- 授業に遅れる (じゅぎょうにおくれる) - to be late for class
-- 時間になる (じかんになる) - to be time for
 - コーヒーにする - choose to have coffee
-- スイッチを入れる (スイッチをいれる) - to switch on
-- お茶を入れる (おちゃをいれる) - to make tea
 - コーヒーを入れる - to make or brew coffee
-- 鍵をかける (かぎをかける) - to lock (a door)
-- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
-- お陰で (おかげで) - thanks to; owing to; because of
-- 好きなだけ - as much as one wants
-- ありがたい事に (ありがたいことに) - thankfully
 - このまま - as it is
-- 今のうち (いまのうち) - while one still can
+- ご遠慮ください (ごえんりょください) - please refrain (from)
+- ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
+- ご注意ください (ごちゅういください) - please be careful
+- ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
+  the inconvenience
+- 然だに (さだに) - still; even now
+- 失礼します (しつれいします) - excuse me (usually after staff take a plate
+  away or about to serve a dish)
+- 失礼しました (しつれいしました) - my apologies; excuse me
+- 時間になる (じかんになる) - to be time for
+- じゃない - is not; isn't it?
+- 授業に遅れる (じゅぎょうにおくれる) - to be late for class
+- スイッチを入れる (スイッチをいれる) - to switch on
+- 好きなだけ - as much as one wants
+- そうだね - sure; yeah; I know (aka そうだよね)
+- だけでなく - not only; not just; as well as
+- だっけ。 - was it?
+- だろう - seems
+- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
 - ちゃった - finished doing; did completely
+- 手を挙げる (てをあげる) - to raise one's hand
+- 電話に出る (でんわにでる) - to answer the phone
+- 話しています (はなしています) - chatting
+- 話をしています (はなしをしています) - chatting
+- に於ける (における) - in; at; on; as for; regarding
+- に依ると (によると) - according to
+- 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
+  shrinking; declining
+- メールに返信する (メールにへんしんする) - to reply to an email
+- やった - yay!
+- 様な (ような) - like; similar to; feels like
