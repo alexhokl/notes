@@ -1777,6 +1777,7 @@ ____
 
 ### time before an action
 
+- [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
 - verb in plain form + とき
 - 食事をするとき、手を洗います。
 - 京都へ行くとき、新幹線で行きます。
@@ -1784,6 +1785,7 @@ ____
 
 ### time during an action
 
+- [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
 - verb in て-form + いるとき
 - noun + のとき
 - な-adjective + なとき
@@ -1797,6 +1799,7 @@ ____
 
 ### time after an action
 
+- [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
 - verb in plain past tense + とき
 - 病気になったとき、病院へ行きます。
 
