@@ -1195,6 +1195,7 @@ ____
 - 光る (ひかる) - to shine
 - 引っ越す (ひっこす) - to move (residence)
 - 太る (ふとる) - to gain weight
+- 似る (にる) - to look like; to be alike
 - 参る (まいる) - to go; to come; to call
 - 間に合う (まにあう) - to be in time (for); to serve the purpose
 - 戻る (もどる) - to return
@@ -1481,6 +1482,8 @@ ____
 - 受け取る (うけとる) - to receive
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
 - 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
+- 誘う (さそう) - to invite; to ask (someone to do); to tempt; to induce (tears,
+  laughter, etc.)
 - 覚ます (さます) - to waken; to arouse from sleep
 - 仕舞う (しまう) - to end up
 - 信じる (しんじる) - to believe
@@ -1657,6 +1660,7 @@ ____
 
 ### expressions
 
+- 行ってまいります (いってまいります) - goodbye; I'm off; see you later
 - 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
   leaves)
 - お陰様で (おかげさまで) - thankfully; fortunately
