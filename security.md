@@ -54,6 +54,11 @@
   * [detection](#detection)
   * [response](#response)
 - [Infrastructure](#infrastructure)
+  * [Security Operations Center (SOC)](#security-operations-center-soc)
+  * [Security Information and Event Management (SEIM)](#security-information-and-event-management-seim)
+  * [Endpoint Detection and Response (EDR)](#endpoint-detection-and-response-edr)
+  * [Intrusion Detection System (IDS) and Intrusion Prevention System (IPS)](#intrusion-detection-system-ids-and-intrusion-prevention-system-ips)
+  * [Security Orchestration, Automation, and Response (SOAR)](#security-orchestration%2C-automation%2C-and-response-soar)
 ____
 
 # Attacks
@@ -841,5 +846,65 @@ Technology](https://www.youtube.com/playlist?list=PLOspHqNVtKADkWLFt9OcziQF7Eatu
 
 # Infrastructure
 
-- endpoint Detection and Response (EDR) is kind of like anti-virus for cloud
-  infrastructure
+## Security Operations Center (SOC)
+
+- tools can include
+  * SEIM
+  * EDR
+  * IDS/IPS
+  * firewalls
+  * SOAR
+  * threat intelligence platforms
+  * IR systems
+- products from Google
+  * Google Security Operations (Google SecOps, fromerly Chronicle)
+  * Security Command Center (SCC)
+    + misconfiguration/vulnerbility detection
+    + premium subscription
+      + threat detection
+        + event threat detection
+        + anomaly detection
+        + attack path analysis
+
+## Security Information and Event Management (SEIM)
+
+- a platform that ingests, normalizes, and correlates logs and security events
+  from many sources
+  * source such as OS logs, firewalls, IDS/IPS, apps, cloud services, identity
+    systems
+- it is not only presenting the logs but also correlates different sources of
+  logs to detect a potention attack
+- it usually has reporting functionalities for compliance such as ISO27001
+- responses are limited as it is not
+- products from Google
+  * Google Security Operations (Google SecOps, fromerly Chronicle)
+
+## Endpoint Detection and Response (EDR)
+
+- it is kind of like anti-virus for cloud infrastructure
+- it focuses on individual endpoints
+  * such as servers, laptops, and mobile devices
+- it focuses deeply on detecting and responding to threats
+- threat detection includes spoting malware, ransomware, fileless attacks, and
+  suspicious behavior on hosts
+- active response capabilities
+  * isolate an endpoint from the network, kill processes, quarantine/delete
+    files, roll back changes, or block activity automatically
+- investigation and forensics
+  * timeline reconstruction, scope analysis of affected endpoints, and support
+    for threat hunting on endpoint data
+- alerting and reporting focused on endpoint incidents and posture
+- it can be one of the data source for SEIM
+- Google does not offer a product in this area
+  * CrowdStrike is one of the many sources
+
+## Intrusion Detection System (IDS) and Intrusion Prevention System (IPS)
+
+- products from Google
+  * Cloud IDS
+
+## Security Orchestration, Automation, and Response (SOAR)
+
+- it focuses on playbook side of things
+- products from Google
+  * Google Security Operations (Google SecOps, fromerly Chronicle)
