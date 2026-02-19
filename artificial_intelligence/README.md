@@ -3,6 +3,7 @@
   * [Courses](#courses)
   * [Services](#services)
     + [Google Gemini](#google-gemini)
+    + [GitHub Copilot](#github-copilot)
   * [Tools](#tools)
 - [Concepts](#concepts)
   * [Generative AI](#generative-ai)
@@ -13,7 +14,6 @@
 - [Machine Learning](#machine-learning)
   * [Links](#links-1)
 - [Tools](#tools-2)
-  * [GitHub Copilot](#github-copilot)
   * [Continue](#continue)
   * [yt-dlp](#yt-dlp)
   * [whisper](#whisper)
@@ -59,6 +59,10 @@ ____
 
 - API key can be obrained from [Get API key in AI
   Studio](https://ai.google.dev/gemini-api/docs/api-key)
+
+### GitHub Copilot
+
+- [model-multipliers](https://docs.github.com/en/copilot/concepts/billing/copilot-requests#model-multipliers)
 
 ## Tools
 
@@ -143,10 +147,6 @@ ____
   Google](https://developers.google.com/machine-learning/crash-course/)
 
 # Tools
-
-## GitHub Copilot
-
-- the opened tabs will be sent as context to the model
 
 ## Continue
 
