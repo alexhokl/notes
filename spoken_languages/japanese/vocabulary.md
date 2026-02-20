@@ -296,6 +296,7 @@ ____
 ### adjectives (な)
 
 - 色々 (いろいろ) - various
+- 嫌 (いや) - dislike; not wanting
 - 嫌い (きらい) - dislike
 - 綺麗 (きれい) - beautiful; clean
 - 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
@@ -550,6 +551,7 @@ ____
 - 牛タン (ぎゅうタン) - beef tongue
 - 牛乳 (ぎゅうにゅう) - milk
 - ご飯 (ごはん) - meal; cooked rice
+- 砂糖 (さとう) - sugar
 - 塩 (しお) - salt
 - 醤油 (しょうゆ) - soy sauce
 - 卵 (たまご) - egg (aka 玉子)
@@ -829,6 +831,9 @@ ____
 - 答える (こたえる) - to answer; to reply
 - 困る (こまる) - to be troubled; to have difficulty
 - 咲く (さく) - to bloom; to blossom
+- 差す (さす) - to shine; to be visible; to rise (of water levels); to be felt
+  (as an emotion); to hold up (an umbrella); to put on (lipstick); to light (a
+  fire)
 - 死ぬ (しぬ) - to die
 - 授業 (じゅぎょう) - lesson; class
 - 住む (すむ) - to live; to reside
@@ -889,6 +894,7 @@ ____
 ### adverbs
 
 - 一度 (いちど) - once; one time
+- 必ず (かならず) - always; certainly; invariably
 - 屹度 (きっと) - surely
 - この間 (このあいだ) - the other day; recently; during this period
 - この頃 (このごろ) - these days; recently; nowadays
@@ -902,6 +908,7 @@ ____
 - 偶に (たまに) - occasionally; once in a while; now and then
 - 些とも (ちっとも) - not at all
 - 特に (とくに) - especially; particularly
+- 途中 (とちゅう) - on the way; en route
 - はっきり - clearly
 - 殆ど (ほとんど) - almost; nearly; mostly; hardly; barely
 - 昔 (むかし) - old times; old days
@@ -916,8 +923,11 @@ ____
 - 美しい (うつくしい) - beautiful; pure
 - 硬い (かたい) - hard
 - 固い (かたい) - solid
+- 悲しい (かなしい) - sad
+- 寂しい (さびしい) - lonely
 - 凄い (すごい) - amazing; wonderful; terrible; dreadful
 - 正しい (ただしい) - correct
+- 恥ずかしい (はずかしい) - embarrassed; ashamed; humiliated
 - 苦い (にがい) - bitter
 - 眠い (ねむい) - sleepy; drowsy (aka 睡い)
 - 珍しい (めずらしい) - rare
@@ -932,6 +942,7 @@ ____
 - 確か (たしか) - certain; sure; reliable
 - 丁寧 (ていねい) - polite
 - 特別 (とくべつ) - special; particular
+- 必要 (ひつよう) - necessary
 - 普通 (ふつう) - normal; ordinary
 - 不便 (ふべん) - inconvenience
 - 変 (へん) - strange; odd; change
@@ -976,6 +987,7 @@ ____
 - 坂 (さか) - slope; hill; incline
 - 趣味 (しゅみ) - hobby; pastime
 - 字 (じ) - character; kanji
+- 事故 (じこ) - accident
 - 地震 (じしん) - earthquake
 - 社長 (しゃちょう) - company president; manager; director
 - 住所 (じゅうしょ) - address
@@ -1102,6 +1114,7 @@ ____
 - 楽しむ (たのしむ) - to enjoy; to have fun
 - チェック - check; inspection; marking with a check
 - 泥棒 (どろぼう) - thief; burglar; robber
+- 発音 (はつおん) - pronunciation
 - 復習 (ふくしゅう) - review (of learned material)
 - プレゼント - present; gift
 - 約束 (やくそく) - promise; agreement; arrangement; contract
@@ -1202,6 +1215,10 @@ ____
 - 痩せる (やせる) - to lose weight
 - 止む (やむ) - to cease; to stop; to be over
 - 汚れる (よごれる) - to get dirty
+- 寄る (よる) - to approach; to gather (in one place); to grow old; to grow high
+  (number)
+- 別れる (わかれる) - to part(usually of people); to separate (of a couple); to
+  break up
 - 笑う (わらう) - to laugh; to smile
 - 割れる (われる) - to break; to be smashed; to split; to be divided (opinion)
 
@@ -1263,6 +1280,7 @@ ____
 - 邪魔 (じゃま) - disturbance; obstruction
 - 素敵 (すてき) - lovely; wonderful; nice
 - たっぷり - full of; a lot of; plenty of
+- 駄目 (だめ) - no good
 - 苦手 (にがて) - poor at; weak in; not good at
 - 僅か (わずか) - a little; a few; small; slight
 
@@ -1285,7 +1303,9 @@ ____
 - 居間 (いま) - living room
 - 以前 (いぜん) - before; ago
 - 餌 (えさ) - feed (for animals); pet food
+- 大家 (おおや) - landlord; landlady
 - 柄 (がら) - pattern
+- 皮 (かわ) - skin
 - 雷 (かみなり) - thunder; lightning
 - 機嫌 (きげん) - mood; temper; spirits; humour
 - 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
@@ -1315,9 +1335,11 @@ ____
 - 順番 (じゅんばん) - order; turn
 - 姿 (すがた) - figure; shape; appearance; form
 - スタンド - stand
+- スピーチ - speech
 - ソファー - sofa
 - 太陽 (たいよう) - sun
 - ただ - free of charge; only (adverb); but (conjunction)
+- 大統領 (だいとうりょう) - president
 - 違い (ちがい) - difference
 - 調子 (ちょうし) - condition; state of health; tune
 - 月 (つき) - moon
@@ -1376,6 +1398,7 @@ ____
 - 昼食 (ちゅうしょく) - lunch
 - 生 (なま) - raw; uncooked
 - 弁当 (べんとう) - Japanese lunch box
+- ミルク - milk
 
 ### nouns (drinks)
 
@@ -1428,8 +1451,10 @@ ____
 ### する transitive verbs
 
 - 案内 (あんない) - guidance; information
+- お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 我慢 (がまん) - patience
 - 観光 (かんこう) - sightseeing
+- 経験 (けいけん) - experience
 - 建築 (けんちく) - architecture; construction
 - 承認 (しょうにん) - approval; acknowledgment; consent
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
@@ -1438,7 +1463,7 @@ ____
 - 相談 (そうだん) - consultation; discussion; asking (someone) for advice
 - パス - passing
 - 販売 (はんばい) - selling
-- お喋り (おしゃべり) - chattering; talk; chitchat; gossip
+- 予報 (よほう) - forecast
 
 ### する intransitive verbs
 
@@ -1456,6 +1481,7 @@ ____
 - ダンス - dance
 - 遅刻 (ちこく) - lateness
 - 留学 (りゅうがく) - studying abroad
+- 優勝 (ゆうしょう) - championship; victory
 
 ### verb pairs
 
@@ -1480,7 +1506,9 @@ ____
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
 - 頂く (いただく) - to receive; to take (humble)
 - 受け取る (うけとる) - to receive
+- 贈る (おくる) - to give; to present; to award
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
+- 飼う (かう) - to keep (a pet or other animal); to raise; to feed
 - 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 - 誘う (さそう) - to invite; to ask (someone to do); to tempt; to induce (tears,
   laughter, etc.)
@@ -1504,6 +1532,7 @@ ____
   apparent
 - 隠れる (かくれる) - to hide; to disappear; to be unknown
 - 沈む (しずむ) - to sink; to go down (e.g. sun); to descend; to feel depressed
+- 黙る (だまる) - to be silent; to say nothing
 - 積もる (つもる) - to pile up; to accumulate
 - 届く (とどく) - to reach; to be delivered
 - 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
@@ -1546,9 +1575,11 @@ ____
 ### nouns
 
 - 以降 (いこう) - on and after; since
+- 生け花 (いけばな) - Japanese flower arrangement
 - 海水浴 (かいすいよく) - sea bathing; swimming in the sea
 - カラー - color
 - 看板 (かんばん) - sign; billboard
+- 原稿 (げんこう) - manuscript
 - 国立 (こくりつ) - national
 - 後輩 (こうはい) - junior
 - 西暦 (せいれき) - Western calendar
@@ -1646,13 +1677,14 @@ ____
 - 取り入れる (とりいれる) - to take in; to adopt (an idea); to harvest
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
+- 剥く (むく) - to peel; to skin
 
 ### verbs (intransitive)
 
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
-- 依る (よる) - to depend on; to be caused by; to be cased on
+- 依る (よる) - to depend on; to be caused by; to be based on
 
 ### verbs (transitive and intransitive)
 
@@ -1706,9 +1738,11 @@ ____
 - 嘘つき (うそつき) - liar
 - 階 (かい) - floor
 - 課題 (かだい) - subject; theme; task; homework
+- 願書 (がんしょ) - written application
 - 区 (く) - ward; district
 - ぐらい - about; approximately
 - 工学 (こうがく) - engineering
+- コンテスト - contest
 - サイズ - size
 - 皺 (しわ) - wrinkle, crease (aka シワ)
 - ジャズ - jazz
@@ -1828,6 +1862,8 @@ ____
 
 ### adverbs
 
+- いかが - how
+- 一日中 (いちにちじゅう) - all day long; all the day
 - いつ頃 (いつごろ) - about when; about what time; how soon
 - 今でも (いまでも) - even now; still
 - 然う然う (そうそう) - oh yes
@@ -1877,17 +1913,20 @@ ____
 - 腕時計 (うでどけい) - wristwatch
 - エーティーエム - ATM
 - 演奏会 (えんそうかい) - concert
+- お客様 (おきゃくさま) - customer; guest
 - 推し活 (おしかつ) - activities to support one's favorite celebrity, idol, etc.
 - 男 (おとこ) - man (used as prefix)
 - 男の人 (おとこのひと) - man
 - お化け (おばけ) - ghost
 - お持て成し (おもてなし) - hospitality; reception; entertainment;
   treatment; service
+- オリンピック - Olympics
 - 女 (おんな) - women (used as prefix)
 - 女の人 (おんなのひと) - woman
 - 顔色 (かおいろ) - facial expression
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
 - 気に入り (きにいり) - favourite
+- 区役所 (くやくしょ) - ward office
 - 掲示板 (けいじばん) - notice board
 - 携帯電話 (けいたいでんわ) - mobile phone
 - 厚生労働省 (こうせいろうどうしょう) - Ministry of Health, Labour and Welfare
@@ -1897,6 +1936,7 @@ ____
 - シェービング - shaving
 - 下振れ (したぶれ) - downturn; downside
 - 商学 (しょうがく) - commercial science
+- 証明書 (しょうめいしょ) - certificate; credentials; identification
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
 - 女 (じょ) - woman (used as suffix)
@@ -1931,8 +1971,9 @@ ____
 
 ### nouns (time)
 
-- 午後零時 - noon
-- 午前零時 - midnight
+- お正月 (おしょうがつ) - New Year
+- 午後零時(ごごれいじ) - noon
+- 午前零時(ごぜんれいじ) - midnight
 - 翌朝 (よくあさ) - next morning
 
 ### nouns (food)
@@ -2255,6 +2296,8 @@ ____
 ### nouns (countries)
 
 - イタリア - Italy
+- オーストラリア - Australia
+- オランダ - Netherlands
 - スペイン - Spain
 - フランス - France
 
@@ -2462,6 +2505,7 @@ ____
 - スイッチを入れる (スイッチをいれる) - to switch on
 - 好きなだけ - as much as one wants
 - そうだね - sure; yeah; I know (aka そうだよね)
+- ただいま - I'm home
 - だけでなく - not only; not just; as well as
 - だっけ。 - was it?
 - だろう - seems
