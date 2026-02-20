@@ -1198,9 +1198,9 @@ BigQuery tables.
     + a popular open-source deep learning framework
     + native support in Vertex AI
 - models
-  * Chirp3 
+  * Chirp3
     + text-to-speech and speech-to-text
-  * Gemini 
+  * Gemini
     + one of the group of models
 - Live API
   * can take input from camera of a connected device
@@ -1210,7 +1210,7 @@ BigQuery tables.
   * Google Maps
 - ease of deployment to Cloud Run
 - Agent Engine can incorporate LangChain and friends
-- ADK 
+- ADK
   * it can be used with VS Code and the testing interface is just a browser
   * the API is very similar to Ollama
   * it provides an interface similar to LangSmith
@@ -1230,6 +1230,15 @@ BigQuery tables.
 ### Cloud Run
 
 - a volume mount can be created using a Cloud Storage bucket
+- billing
+  * request-based (default)
+    + CPU and memory time includes startup time of an instance
+  * instance-based
+    + overlapped time of multiple requests is only counted once
+    + best for responses which requires further processing after the response is
+      sent back to the client
+    + usually if an instance is underload a load more than 75% of the time, it
+      is more cost effective
 
 ### Cloud SQL
 
