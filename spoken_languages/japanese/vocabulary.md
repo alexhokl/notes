@@ -1162,6 +1162,7 @@ ____
 
 ### verbs (transitive)
 
+- 致す (いたす) - to do (humble language)
 - 受ける (うける) - to receive; to take (an exam / a lesson)
 - 送る (おくる) - to send; to escort; to say goodbye to; to dispatch
 - 思う (おもう) - to consider; to plan (on a general topic)
@@ -1521,6 +1522,7 @@ ____
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 履く (はく) - to wear (lower body clothing, footwear)
+- 向ける (むける) - to turn (towards); to aim for
 - 申し込む (もうしこむ) - to apply for
 - 貰う (もらう) - to receive (appreciatively)
 - 辞める (やめる) - to resign; to retire; to quit; to leave
@@ -2482,6 +2484,7 @@ ____
 - お茶を入れる (おちゃをいれる) - to make tea
 - お疲れ様 (おつかれさま) - thank you (for your hard work); good job; much
   appreciated; goodbye (when you finshed your day)
+- お願いいたします (おねがいいたします) - please
 - お休みなさい (おやすみなさい) - good night
 - 鍵をかける (かぎをかける) - to lock (a door)
 - 気をつけてください (きをつけてください) - please be careful
