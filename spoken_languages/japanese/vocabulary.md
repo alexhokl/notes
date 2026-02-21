@@ -2235,6 +2235,7 @@ ____
 
 ### nouns (body parts)
 
+- 足首 (あしくび) - ankle
 - 口ひげ (くちひげ) - mustache
 
 ### nouns (position)
