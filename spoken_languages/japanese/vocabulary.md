@@ -1348,6 +1348,7 @@ ____
 - 独身 (どくしん) - single
 - 同僚 (どうりょう) - colleague; co-worker
 - ドラマ - drama
+- 仲間 (なかま) - companion; fellow; mate; friend
 - 匂い (におい) - smell; odour; scent
 - 年代 (ねんだい) - year or generation (for vintage)
 - 俳優 (はいゆう) - actor; actress; player; performer
@@ -1694,6 +1695,8 @@ ____
 
 ### expressions
 
+- お大事に (おだいじに) - take care of yourself (when someone is sick); get well
+  soon
 - 行ってまいります (いってまいります) - goodbye; I'm off; see you later
 - 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
   leaves)
@@ -1838,6 +1841,7 @@ ____
 - 見合わせる (みあわせる) - to exchange glances; to postpone
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
   lower status)
+- 予想 (よそう) - xpectation; anticipation; prediction; forecast
 
 ### verbs (intransitive)
 
@@ -1909,6 +1913,8 @@ ____
 
 ### nouns
 
+- 相槌 (あいづち) - backchanneling; interjections indicating that one is paying
+  attention
 - 県 (あがた) - territory (historical term); countryside
 - 圧力 (あつりょく) - pressure
 - 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
@@ -1951,8 +1957,8 @@ ____
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
 - 男 (なん) - man (used as suffix)
+- 怠け者 (なまけもの) - lazy person
 - 縫いぐるみ (ぬいぐるみ) - stuffed toy
-- ねた - information; news; proof; evidence
 - 話し手 (はなして) - speaker
 - 歯磨き粉 (はみがきこ) - toothpaste
 - 薔薇 (ばら) - rose
@@ -1966,6 +1972,7 @@ ____
 - 皆様 (みなさま) - everyone (keigo)
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
+- ねた - information; news; proof; evidence
 
 ### nouns (family)
 
@@ -1995,6 +2002,7 @@ ____
 - 白身 (しろみ) - egg white; white-fleshed fish; white meat
 - すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
   table-top cast-iron pan
+- スナック - snack
 - ソフトクリーム - soft ice cream
 - たこ焼き (たこやき) - octopus balls
 - 但馬牛 (たじまうし) - Tajima beef
@@ -2226,6 +2234,7 @@ ____
 - 馬 (うま) - horse
 - 亀 (かめ) - turtle
 - 麒麟 (きりん) - giraffe
+- キャット - cat
 - 鯨 (くじら) - whale
 - 雀 (すずめ) - tree sparrow
 - 豚 (ぶた) - pig

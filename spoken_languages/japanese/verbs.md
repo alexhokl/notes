@@ -487,6 +487,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 # Command form (imperative) 〜なさい
 
 - 〜なさい is the politer of two ways to form a command in Japanese
+  * compared to [ろ](#command-form-imperative-%E3%82%8D)
 - stem form is used for conjugation (similar to なから)
 - avoid using it with anyone who is in a higher social standing
   * use 〜てください or 〜てくれませんか instead
