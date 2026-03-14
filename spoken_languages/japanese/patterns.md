@@ -146,7 +146,7 @@
     + [area or range](#area-or-range)
     + [either one out of two](#either-one-out-of-two)
   * [Chapter 15](#chapter-15)
-    + [intention or expectation](#intention-or-expectation)
+    + [to express speaker's intention or expectation](#to-express-speaker%27s-intention-or-expectation)
     + [no intention](#no-intention)
     + [to express will or intention](#to-express-will-or-intention)
     + [to express speaker's plan intention which comes up during the conversation](#to-express-speaker%27s-plan-intention-which-comes-up-during-the-conversation)
@@ -1677,15 +1677,24 @@ ____
 
 ## Chapter 15
 
-### intention or expectation
+### to express speaker's intention or expectation
 
 - verb in plain form + つもり + だ
 - verb in negative plain form + つもり + だ
 - つもり is a noun
+- it can only be used in question for asking listener's intention
+- it cannot be used to describe someone's (third person) intention
 - 私は大学院でアジア経済を勉強するつもりです。
 - 彼女は25歳までには結婚しないつもりだと言っています。
 - あなたは日本語の先生になるつもりですか。
   * はい、そのつもりです。
+- 来月日本へ行きます。
+- 来月日本へ行くつもりです。
+- 来月日本へ行かないつもりです。
+- 来月日本へ行くつもりではありません。
+- 先月日本へ行くつもりでした。
+- 先月日本へ行かないつもりでした。
+- ❌先月日本へ行くつもりではありません。
 
 ### no intention
 
@@ -1700,6 +1709,13 @@ ____
   * いいね。スーパーの隣の店にしようか。
 - 今度の旅行はどこに行こうか。
   * 九州に行こうよ。いい温泉があるから、温泉に入ろうよ。
+- 明日から、ダイエットしよう。
+- 明日から、水をたくさん飲もう。
+- 今晩は授業がないから、どこかへ食べに行こうか。
+  * 今晩は授業がないから、どこかへ食べに行きましょうか。
+  * 今晩は授業がないから、どこかへ食べに行きませんか。
+- 今晩は授業がないから、どこかへ食べに行こう。
+  * 今晩は授業がないから、どこかへ食べに行きましょう。
 
 ### to express speaker's plan intention which comes up during the conversation
 
