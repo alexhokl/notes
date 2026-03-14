@@ -1598,6 +1598,7 @@ ____
 
 - [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
 - verb in plain past tense + たり + verb in plain past tense + たり + する
+- verb in plain past tense + たり + verb in plain past tense + たり + している
 - 勉強に集中できませんから、部屋に入ったり、出たりしないでください。
 - テレビをつけたり、消したりしないでください。壊れてしまいますよ。
 - 雨が降ったりやんだりしています。
