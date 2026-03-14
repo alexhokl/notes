@@ -142,16 +142,17 @@
     + [only ... and nothing more](#only-...-and-nothing-more)
     + [anything/anyone/somewhere](#anything%2Fanyone%2Fsomewhere)
     + [any ... / every ... / all ...](#any-...-%2F-every-...-%2F-all-...)
-    + [someone said](#someone-said-1)
+    + [someone said something](#someone-said-something)
     + [area or range](#area-or-range)
     + [either one out of two](#either-one-out-of-two)
   * [Chapter 15](#chapter-15)
     + [intention or expectation](#intention-or-expectation)
     + [no intention](#no-intention)
     + [to express will or intention](#to-express-will-or-intention)
-    + [to express a certain plan or intention](#to-express-a-certain-plan-or-intention)
-    + [to express thinking of a certain plan or intention](#to-express-thinking-of-a-certain-plan-or-intention)
+    + [to express speaker's plan intention which comes up during the conversation](#to-express-speaker%27s-plan-intention-which-comes-up-during-the-conversation)
+    + [to express speaker's plan intention which has been decided before the conversation](#to-express-speaker%27s-plan-intention-which-has-been-decided-before-the-conversation)
     + [to express someone's intention or plan](#to-express-someone%27s-intention-or-plan)
+    + [to express speaker's guess](#to-express-speaker%27s-guess)
     + [apparently / they say that](#apparently-%2F-they-say-that)
     + [may or might](#may-or-might)
     + [and then](#and-then)
@@ -1646,10 +1647,12 @@ ____
 - わたしは日本料理は何でも食べられます。
 - この料理は簡単だから、だれでも作れます。
 
-### someone said
+### someone said something
 
 - [subordinate clauses (従属節)](#subordinate-clauses-%E5%BE%93%E5%B1%9E%E7%AF%80)
 - suboardinate clause + と言っていました
+  * compared to と言う, と言っている focuses on the content rather than the
+    people involved in the conversation
 - 先生は来週の試験はあまり難しくないと言っていました。
   * from 来週の試験はあまり難しくないです。
 - 山田さん、松本さんは明日の会議は2時からだと言っていました。
@@ -1698,14 +1701,14 @@ ____
 - 今度の旅行はどこに行こうか。
   * 九州に行こうよ。いい温泉があるから、温泉に入ろうよ。
 
-### to express a certain plan or intention
+### to express speaker's plan intention which comes up during the conversation
 
 - verb in voliltional form + と思う
 - お年玉の5万円は何に使いますか。
   * そうですね。スマホゲームに課金しようと思います。
 - わたしはこんな服を着ようとは思いません。
 
-### to express thinking of a certain plan or intention
+### to express speaker's plan intention which has been decided before the conversation
 
 - verb in voliltional form + と思っている
 - もうすぐ二十歳の誕生日ですね。
@@ -1719,6 +1722,12 @@ ____
   * ❌リーさんは土曜日の選択コースを取ろうと思います。
 - ⭕️藤田さんはほかの人に仕事を頼もうとは思っていません。
   * ❌藤田さんはほかの人に仕事を頼もうとは思いません。
+
+### to express speaker's guess
+
+- い-adjective + と思う
+- な-adjective + と思う
+- verb in plain form + と思う
 
 ### apparently / they say that
 
@@ -1735,7 +1744,7 @@ ____
 - 天気予報によると今夜九州にも雪が降るそうです。
 - 天気予報では今夜九州にも雪が降るそうです。
 - 昨日李さんが見た映画は面白くなかったそうです。
-- 真子さんの妹さんもとてもきれいだったそうです。
+- 真子さんの妹さんもとてもきれいだそうです。
 - 昨日のパーティーはとてもにぎやかだったそうです。
 
 ### may or might
