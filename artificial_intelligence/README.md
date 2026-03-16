@@ -14,6 +14,7 @@
 - [Machine Learning](#machine-learning)
   * [Links](#links-1)
 - [Tools](#tools-2)
+  * [opencode](#opencode)
   * [Continue](#continue)
   * [yt-dlp](#yt-dlp)
   * [whisper](#whisper)
@@ -147,6 +148,11 @@ ____
   Google](https://developers.google.com/machine-learning/crash-course/)
 
 # Tools
+
+## opencode
+
+- `opencode agent create` to create a primary agent or sub-agent
+- `opencode web` to open the web interface of opencode
 
 ## Continue
 
