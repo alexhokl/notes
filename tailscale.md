@@ -40,6 +40,8 @@ ____
 - [Easy Guide to Exposing a Kubernetes Service with
   Tailscale](https://www.youtube.com/watch?v=INdZOBnUBl4)
 - [Terraform module](https://tailscale.com/blog/open-source-terraform-module)
+- [Let Non-Tailscale Devices Access Your Tailnet with this Subnet Router
+  Trick](https://www.youtube.com/watch?v=ZrAoPvFot7c)
 
 ## NAS
 
