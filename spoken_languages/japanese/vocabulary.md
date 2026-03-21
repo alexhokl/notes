@@ -1333,6 +1333,7 @@ ____
 - 書類 (しょるい) - documents; papers
 - 種類 (しゅるい) - kind; variety; type; category; class
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
+- 順 (じゅん) - order; sorting
 - 順番 (じゅんばん) - order; turn
 - 姿 (すがた) - figure; shape; appearance; form
 - スタンド - stand
@@ -1896,6 +1897,7 @@ ____
 
 ### adjectives (な)
 
+- お得 (おとく) - bargain; good value
 - ご迷惑 (ごめいわく) - trouble; annoyance
 - まじ - serious; not joking
 - みたい - -like; sort of; similar to
@@ -2236,6 +2238,7 @@ ____
 - 麒麟 (きりん) - giraffe
 - キャット - cat
 - 鯨 (くじら) - whale
+- 鹿 (しか) - deer
 - 雀 (すずめ) - tree sparrow
 - 豚 (ぶた) - pig
 - 山羊 (やぎ) - goat
@@ -2456,6 +2459,7 @@ ____
 - 貸し切る (かしかる) - to reserve; to book
 - 気になる - to weigh on one's mind; to be interested (in)
 - ぎる - to steal
+- 下す (くだす) - to make a decision; to draw a conclusion
 - ググる - to google
 - 取り置く (とりおく) - to set aside; to keep it in reserve
 - 連れる (つれる) - to be accompanied by
@@ -2525,6 +2529,7 @@ ____
 - 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
 - ちゃった - finished doing; did completely
 - 手を挙げる (てをあげる) - to raise one's hand
+- での - at; in; with; by; of
 - 電話に出る (でんわにでる) - to answer the phone
 - 話しています (はなしています) - chatting
 - 話をしています (はなしをしています) - chatting
