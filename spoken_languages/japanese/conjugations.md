@@ -72,15 +72,15 @@ ____
 | non-past           | 買う         | 買わない         |
 | non-past, polite   | 買います     | 買いません       |
 | non-past, formal   |              | 買わず           |
-| Past               | 買った       | 買わなかった     |
-| Past, polite       | 買いました   | 買いませんでした |
-| Te-form            | 買って       | 買わなくて       |
-| Potential          | 買える       | 買えない         |
-| Passive            | 買われる     | 買われない       |
-| Causative          | 買わせる     | 買わせない       |
-| Causative (casual) | 買わす       | 買わさない       |
-| Causative Passive  | 買わせられる | 買わせられない   |
-| Imperative         | 買え         | 買うな           |
+| past               | 買った       | 買わなかった     |
+| past, polite       | 買いました   | 買いませんでした |
+| te-form            | 買って       | 買わなくて       |
+| potential          | 買える       | 買えない         |
+| passive            | 買われる     | 買われない       |
+| causative          | 買わせる     | 買わせない       |
+| causative (casual) | 買わす       | 買わさない       |
+| causative passive  | 買わせられる | 買わせられない   |
+| imperative         | 買え         | 買うな           |
 | probably           | 買うだろう   | 買わないだろう   |
 | probably polite    | 買うでしょう | 買わないでしょう |
 | conditional        | 買えば       | 買わなければ     |
@@ -113,9 +113,9 @@ ____
 | ---              | ---            | ---              |
 | non-past         | ある           | ない             |
 | non-past, polite | あります       | ありません       |
-| Past             | あった         | なかった         |
-| Past, polite     | ありますました | ありませんでした |
-| Te-form          | あって         | なくて           |
+| past             | あった         | なかった         |
+| past, polite     | ありますました | ありませんでした |
+| te-form          | あって         | なくて           |
 
 # 一段動詞
 
@@ -137,6 +137,7 @@ ____
 | probably polite    | 食べるでしょう | 食べないでしょう |
 | conditional        | 食べれば       | 食べなければ     |
 | volitional         | 食べよう       |                  |
+| volitional polite  | 食べましょう   |                  |
 
 # 変格動詞
 
@@ -158,6 +159,7 @@ ____
 | probably polite    | 為るでしょう (するでしょう) | 為ないでしょう (しないでしょう) |
 | conditional        | 為れば (すれば)             | 為なければ (しなければ)         |
 | volitional         | 為よう (しよう)             |                                 |
+| volitional polite  | 為ましょう (しましょう)     |                                 |
 
 | Form               | Affirmative                 | Negative                        |
 | ---                | ---                         | ---                             |
@@ -171,12 +173,13 @@ ____
 | passive            | 来られる (こられる)         | 来られない (こられない)         |
 | causative          | 来させる (こさせる)         | 来させない (こさせない)         |
 | causative (casual) | 来さす (こさす)             | 来ささない (こささない)         |
-| causative Passive  | 来させられる (こさせられる) | 来させられない (こさせられない) |
+| causative passive  | 来させられる (こさせられる) | 来させられない (こさせられない) |
 | imperative         | 来い (こい)                 | 来るな (くるな)                 |
 | probably           | 来るだろう (くるだろう)     | 来ないだろう (こないだろう)     |
 | probably polite    | 来るでしょう (くるでしょう) | 来ないでしょう (こないでしょう) |
 | conditional        | 来れば (くれば)             | 来なければ (こなければ)         |
 | volitional         | 来よう (こよう)             |                                 |
+| volitional polite  | 来ましょう (きましょう)     |                                 |
 
 Note the change in sounds between く, き and こ.
 

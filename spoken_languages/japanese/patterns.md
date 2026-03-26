@@ -1685,8 +1685,10 @@ ____
 - verb in plain form + つもり + だ
 - verb in negative plain form + つもり + だ
 - つもり is a noun
-- it can only be used in question for asking listener's intention
-- it cannot be used to describe someone's (third person) intention
+- it can be used in
+  * describing speaker's intention
+  * questions asking listener's intention
+  * ❌ describe listener's or someones' (third person) intention
 - 私は大学院でアジア経済を勉強するつもりです。
 - 彼女は25歳までには結婚しないつもりだと言っています。
 - あなたは日本語の先生になるつもりですか。
@@ -1694,10 +1696,7 @@ ____
 - 来月日本へ行きます。
 - 来月日本へ行くつもりです。
 - 来月日本へ行かないつもりです。
-- 来月日本へ行くつもりではありません。
 - 先月日本へ行くつもりでした。
-- 先月日本へ行かないつもりでした。
-- ❌先月日本へ行くつもりではありません。
 - 私は明日映画を見に行くつもりです。
 - 私は今度の日曜日はどこへも行かないつもりです。
 
@@ -1705,6 +1704,9 @@ ____
 
 - verb in plain form + つもり + は + ない
 - 買い物するつもりはありませんでしたが、結局たくさん買ってきました。
+- 来月日本へ行くつもりではありません。
+- 先月日本へ行かないつもりでした。
+- ❌先月日本へ行くつもりではありません。
 
 ### to express will or intention
 
@@ -1727,17 +1729,18 @@ ____
 - verb in voliltional form + と思う
 - お年玉の5万円は何に使いますか。
   * そうですね。スマホゲームに課金しようと思います。
-- わたしはこんな服を着ようとは思いません。
+- 私はこんな服を着ようとは思いません。
 
 ### to express speaker's plan intention which has been decided before the conversation
 
 - verb in voliltional form + と思っている
 - もうすぐ二十歳の誕生日ですね。
   * ええ、うちでパーティーをしようと思っています。
-- わたしは彼女が好きですが、結婚しようとは思っていません。
+- 私は彼女が好きですが、結婚しようとは思っていません。
 - 私は夏休みに北海道へ行こうと思っています。
 - 母の誕生日におあげるケーキは買わないで、自分で作ろうと思っています。
-  * ❌母の誕生日におあげるケーキは買わないで、自分で作ると思っています。
+  * ❌母の誕生日におあげるケーキは買わないで、自分で作ると思っています。 (it
+    cannot be a prediction of speaker's own action)
 
 ### to express someone's intention or plan
 

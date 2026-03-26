@@ -76,6 +76,7 @@
     + [adjectives (な)](#adjectives-%E3%81%AA-2)
     + [pronouns (person)](#pronouns-person-2)
     + [pronouns (location)](#pronouns-location)
+    + [pronouns (things)](#pronouns-things-1)
     + [nouns](#nouns-2)
     + [nouns (animals)](#nouns-animals-1)
     + [nouns (body parts)](#nouns-body-parts-2)
@@ -100,6 +101,7 @@
     + [adjectives (い)](#adjectives-%E3%81%84-3)
     + [adjectives (な)](#adjectives-%E3%81%AA-3)
     + [nouns](#nouns-3)
+    + [nouns (time)](#nouns-time-2)
     + [nouns (food)](#nouns-food-3)
     + [nouns (location)](#nouns-location-3)
     + [nouns (shopping)](#nouns-shopping-2)
@@ -147,7 +149,7 @@
     + [pronouns (person)](#pronouns-person-3)
     + [nouns](#nouns-5)
     + [nouns (family)](#nouns-family-2)
-    + [nouns (time)](#nouns-time-2)
+    + [nouns (time)](#nouns-time-3)
     + [nouns (food)](#nouns-food-5)
     + [nouns (fish)](#nouns-fish)
     + [nouns (seafood)](#nouns-seafood)
@@ -402,7 +404,7 @@ ____
 - 花 (はな) - flower
 - 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
   negotiation; argument; rumor; tale; story
-- 人 (ひと) - person
+- 人 (ひと) - person; someone
 - プール - swimming pool; american pool (cue sport)
 - 他 (ほか) - other; another
 - 本当 (ほんとう) - real; proper
@@ -1296,6 +1298,10 @@ ____
 - 彼方此方 (あちこち) - here and there; everywhere; various places (aka
   あちらこちら, あっちこっち)
 
+### pronouns (things)
+
+- 何か (なにか) - something; anything
+
 ### nouns
 
 - 相手 (あいて) - companion; partner; opponent
@@ -1590,6 +1596,7 @@ ____
 - センチ - centimeter
 - 水素 (すいそ) - hydrogen
 - 箪笥 (たんす) - chest of drawers
+- 大学院 (だいがくいん) - graduate school
 - 定期券 (ていきけん) - commuter pass
 - 手続き (てつづき) - procedure; formalities
 - 中身 (なかみ) - contents; interior; inside
