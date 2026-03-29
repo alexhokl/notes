@@ -5,30 +5,45 @@
     + [adverbs](#adverbs)
     + [adjectives (い)](#adjectives-%E3%81%84)
     + [adjectives (な)](#adjectives-%E3%81%AA)
+    + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [pronouns (place)](#pronouns-place)
     + [pronouns (time)](#pronouns-time)
     + [pronouns (person)](#pronouns-person)
     + [nouns](#nouns)
     + [nouns (academic)](#nouns-academic)
-    + [nouns (home)](#nouns-home)
-    + [nouns (location)](#nouns-location)
     + [nouns (family)](#nouns-family)
     + [nouns (time)](#nouns-time)
     + [nouns (food)](#nouns-food)
+    + [nouns (fish)](#nouns-fish)
+    + [nouns (seafood)](#nouns-seafood)
     + [nouns (vegetables)](#nouns-vegetables)
     + [nouns (fruits)](#nouns-fruits)
     + [nouns (drinks)](#nouns-drinks)
+    + [nouns (location)](#nouns-location)
+    + [nouns (restaurants)](#nouns-restaurants)
+    + [nouns (shopping)](#nouns-shopping)
     + [nouns (clothing)](#nouns-clothing)
     + [nouns (transportation)](#nouns-transportation)
     + [nouns (animals)](#nouns-animals)
     + [nouns (body parts)](#nouns-body-parts)
     + [nouns (position)](#nouns-position)
-    + [nouns (weather)](#nouns-weather)
+    + [nouns (home)](#nouns-home)
     + [nouns (sports)](#nouns-sports)
-    + [nouns (colours)](#nouns-colours)
-    + [nouns (health)](#nouns-health)
     + [nouns (countries)](#nouns-countries)
+    + [nouns (work)](#nouns-work)
+    + [nouns (web)](#nouns-web)
+    + [nouns (technology)](#nouns-technology)
+    + [nouns (science)](#nouns-science)
+    + [nouns (signs)](#nouns-signs)
+    + [nouns (logistics)](#nouns-logistics)
+    + [nouns (health)](#nouns-health)
+    + [nouns (finance)](#nouns-finance)
+    + [nouns (weather)](#nouns-weather)
+    + [nouns (colours)](#nouns-colours)
+    + [noun prefixes](#noun-prefixes)
+    + [noun suffixes](#noun-suffixes)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
@@ -39,12 +54,14 @@
     + [verbs (direction intransitive)](#verbs-direction-intransitive)
     + [expressions](#expressions)
   * [N4](#n4)
+    + [particles](#particles-1)
     + [conjunctions](#conjunctions-1)
     + [adverbs](#adverbs-1)
     + [onomatopoeia](#onomatopoeia)
     + [adjectives (い)](#adjectives-%E3%81%84-1)
     + [adjectives (な)](#adjectives-%E3%81%AA-1)
     + [pronouns (person)](#pronouns-person-1)
+    + [pronouns (location)](#pronouns-location)
     + [pronouns (things)](#pronouns-things)
     + [nouns](#nouns-1)
     + [nouns (academic)](#nouns-academic-1)
@@ -55,139 +72,201 @@
     + [nouns (fruits)](#nouns-fruits-1)
     + [nouns (drinks)](#nouns-drinks-1)
     + [nouns (location)](#nouns-location-1)
-    + [nouns (shopping)](#nouns-shopping)
+    + [nouns (shopping)](#nouns-shopping-1)
     + [nouns (clothing)](#nouns-clothing-1)
     + [nouns (body parts)](#nouns-body-parts-1)
     + [nouns (transportation)](#nouns-transportation-1)
     + [nouns (family)](#nouns-family-1)
-    + [nouns (technology)](#nouns-technology)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
+    + [nouns (technology)](#nouns-technology-1)
+    + [nouns (animals)](#nouns-animals-1)
+    + [nouns (sports)](#nouns-sports-1)
+    + [nouns (colours)](#nouns-colours-1)
+    + [nouns (health)](#nouns-health-1)
+    + [nouns (web)](#nouns-web-1)
+    + [noun suffixes](#noun-suffixes-1)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-1)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
     + [verb pairs](#verb-pairs-1)
     + [verbs (transitive)](#verbs-transitive-1)
     + [verbs (intransitive)](#verbs-intransitive-1)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
     + [expressions](#expressions-1)
   * [N3](#n3)
+    + [particles](#particles-2)
     + [conjunctions](#conjunctions-2)
     + [adverbs](#adverbs-2)
+    + [onomatopoeia](#onomatopoeia-1)
     + [adjectives (い)](#adjectives-%E3%81%84-2)
     + [adjectives (な)](#adjectives-%E3%81%AA-2)
     + [pronouns (person)](#pronouns-person-2)
-    + [pronouns (location)](#pronouns-location)
+    + [pronouns (location)](#pronouns-location-1)
     + [pronouns (things)](#pronouns-things-1)
     + [nouns](#nouns-2)
-    + [nouns (animals)](#nouns-animals-1)
+    + [nouns (academic)](#nouns-academic-2)
+    + [nouns (animals)](#nouns-animals-2)
     + [nouns (body parts)](#nouns-body-parts-2)
+    + [nouns (position)](#nouns-position-2)
+    + [nouns (time)](#nouns-time-2)
     + [nouns (food)](#nouns-food-2)
+    + [nouns (fruits)](#nouns-fruits-2)
     + [nouns (drinks)](#nouns-drinks-2)
+    + [nouns (clothing)](#nouns-clothing-2)
+    + [nouns (family)](#nouns-family-2)
     + [nouns (home)](#nouns-home-2)
-    + [nouns (sports)](#nouns-sports-1)
+    + [nouns (sports)](#nouns-sports-2)
     + [nouns (location)](#nouns-location-2)
-    + [nouns (shopping)](#nouns-shopping-1)
+    + [nouns (shopping)](#nouns-shopping-2)
     + [nouns (transportation)](#nouns-transportation-2)
-    + [nouns (technology)](#nouns-technology-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
+    + [nouns (technology)](#nouns-technology-2)
+    + [nouns (colours)](#nouns-colours-2)
+    + [nouns (health)](#nouns-health-2)
+    + [nouns (web)](#nouns-web-2)
+    + [noun suffixes](#noun-suffixes-2)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-2)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
     + [verb pairs](#verb-pairs-2)
     + [verbs (transitive)](#verbs-transitive-2)
     + [verbs (intransitive)](#verbs-intransitive-2)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-2)
     + [expressions](#expressions-2)
   * [N2](#n2)
+    + [particles](#particles-3)
+    + [conjunctions](#conjunctions-3)
     + [adverbs](#adverbs-3)
+    + [onomatopoeia](#onomatopoeia-2)
     + [adjectives (い)](#adjectives-%E3%81%84-3)
     + [adjectives (な)](#adjectives-%E3%81%AA-3)
+    + [pronouns (person)](#pronouns-person-3)
+    + [pronouns (location)](#pronouns-location-2)
+    + [pronouns (things)](#pronouns-things-2)
     + [nouns](#nouns-3)
-    + [nouns (time)](#nouns-time-2)
+    + [nouns (academic)](#nouns-academic-3)
+    + [nouns (home)](#nouns-home-3)
+    + [nouns (position)](#nouns-position-3)
+    + [nouns (time)](#nouns-time-3)
     + [nouns (food)](#nouns-food-3)
+    + [nouns (fruits)](#nouns-fruits-3)
+    + [nouns (drinks)](#nouns-drinks-3)
     + [nouns (location)](#nouns-location-3)
-    + [nouns (shopping)](#nouns-shopping-2)
-    + [nouns (clothing)](#nouns-clothing-2)
-    + [nouns (animals)](#nouns-animals-2)
-    + [nouns (colours)](#nouns-colours-1)
+    + [nouns (shopping)](#nouns-shopping-3)
+    + [nouns (clothing)](#nouns-clothing-3)
+    + [nouns (animals)](#nouns-animals-3)
+    + [nouns (body parts)](#nouns-body-parts-3)
+    + [nouns (transportation)](#nouns-transportation-3)
+    + [nouns (family)](#nouns-family-3)
+    + [nouns (technology)](#nouns-technology-3)
+    + [nouns (sports)](#nouns-sports-3)
+    + [nouns (colours)](#nouns-colours-3)
+    + [nouns (health)](#nouns-health-3)
+    + [nouns (web)](#nouns-web-3)
+    + [noun suffixes](#noun-suffixes-3)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-3)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
     + [verb pairs](#verb-pairs-3)
     + [verbs (transitive)](#verbs-transitive-3)
     + [verbs (intransitive)](#verbs-intransitive-3)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
-    + [particles](#particles-1)
-    + [conjunctions](#conjunctions-3)
+    + [particles](#particles-4)
+    + [conjunctions](#conjunctions-4)
     + [adverbs](#adverbs-4)
+    + [onomatopoeia](#onomatopoeia-3)
     + [adjectives (い)](#adjectives-%E3%81%84-4)
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
+    + [pronouns (person)](#pronouns-person-4)
+    + [pronouns (location)](#pronouns-location-3)
+    + [pronouns (things)](#pronouns-things-3)
     + [nouns](#nouns-4)
-    + [nouns (academic)](#nouns-academic-2)
-    + [nouns (clothing)](#nouns-clothing-3)
+    + [nouns (academic)](#nouns-academic-4)
+    + [nouns (home)](#nouns-home-4)
+    + [nouns (position)](#nouns-position-4)
+    + [nouns (time)](#nouns-time-4)
+    + [nouns (clothing)](#nouns-clothing-4)
     + [nouns (food)](#nouns-food-4)
-    + [nouns (web)](#nouns-web)
-    + [nouns (transportation)](#nouns-transportation-3)
-    + [nouns (colours)](#nouns-colours-2)
-    + [nouns (sports)](#nouns-sports-2)
-    + [nouns (technology)](#nouns-technology-2)
-    + [nouns (health)](#nouns-health-1)
-    + [noun suffixes](#noun-suffixes)
+    + [nouns (fruits)](#nouns-fruits-4)
+    + [nouns (drinks)](#nouns-drinks-4)
+    + [nouns (location)](#nouns-location-4)
+    + [nouns (shopping)](#nouns-shopping-4)
+    + [nouns (web)](#nouns-web-4)
+    + [nouns (transportation)](#nouns-transportation-4)
+    + [nouns (body parts)](#nouns-body-parts-4)
+    + [nouns (family)](#nouns-family-4)
+    + [nouns (animals)](#nouns-animals-4)
+    + [nouns (colours)](#nouns-colours-4)
+    + [nouns (sports)](#nouns-sports-4)
+    + [nouns (technology)](#nouns-technology-4)
+    + [nouns (health)](#nouns-health-4)
+    + [noun suffixes](#noun-suffixes-4)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-4)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-4)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-4)
     + [verbs (transitive)](#verbs-transitive-4)
     + [verbs (intransitive)](#verbs-intransitive-4)
+    + [verb pairs](#verb-pairs-4)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
+    + [expressions](#expressions-4)
   * [N0](#n0)
-    + [particles](#particles-2)
-    + [conjunctions](#conjunctions-4)
+    + [particles](#particles-5)
+    + [conjunctions](#conjunctions-5)
     + [adverbs](#adverbs-5)
-    + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E)
+    + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E-1)
     + [adjectives (い)](#adjectives-%E3%81%84-5)
     + [adjectives (な)](#adjectives-%E3%81%AA-5)
     + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E-1)
     + [pronouns (time)](#pronouns-time-1)
-    + [pronouns (person)](#pronouns-person-3)
+    + [pronouns (person)](#pronouns-person-5)
+    + [pronouns (place)](#pronouns-place-1)
     + [nouns](#nouns-5)
-    + [nouns (family)](#nouns-family-2)
-    + [nouns (time)](#nouns-time-3)
+    + [nouns (academic)](#nouns-academic-5)
+    + [nouns (family)](#nouns-family-5)
+    + [nouns (time)](#nouns-time-5)
     + [nouns (food)](#nouns-food-5)
-    + [nouns (fish)](#nouns-fish)
-    + [nouns (seafood)](#nouns-seafood)
+    + [nouns (fish)](#nouns-fish-1)
+    + [nouns (seafood)](#nouns-seafood-1)
     + [nouns (vegetables)](#nouns-vegetables-1)
-    + [nouns (fruits)](#nouns-fruits-2)
-    + [nouns (drinks)](#nouns-drinks-3)
-    + [nouns (location)](#nouns-location-4)
-    + [nouns (restaurants)](#nouns-restaurants)
-    + [nouns (shopping)](#nouns-shopping-3)
-    + [nouns (clothing)](#nouns-clothing-4)
-    + [nouns (transportation)](#nouns-transportation-4)
-    + [nouns (animals)](#nouns-animals-3)
-    + [nouns (body parts)](#nouns-body-parts-3)
-    + [nouns (position)](#nouns-position-2)
-    + [nouns (home)](#nouns-home-3)
-    + [nouns (sports)](#nouns-sports-3)
+    + [nouns (fruits)](#nouns-fruits-5)
+    + [nouns (drinks)](#nouns-drinks-5)
+    + [nouns (location)](#nouns-location-5)
+    + [nouns (restaurants)](#nouns-restaurants-1)
+    + [nouns (shopping)](#nouns-shopping-5)
+    + [nouns (clothing)](#nouns-clothing-5)
+    + [nouns (transportation)](#nouns-transportation-5)
+    + [nouns (animals)](#nouns-animals-5)
+    + [nouns (body parts)](#nouns-body-parts-5)
+    + [nouns (position)](#nouns-position-5)
+    + [nouns (home)](#nouns-home-5)
+    + [nouns (sports)](#nouns-sports-5)
     + [nouns (countries)](#nouns-countries-1)
-    + [nouns (work)](#nouns-work)
-    + [nouns (web)](#nouns-web-1)
-    + [nouns (technology)](#nouns-technology-3)
-    + [nouns (science)](#nouns-science)
-    + [nouns (signs)](#nouns-signs)
-    + [nouns (logistics)](#nouns-logistics)
-    + [nouns (health)](#nouns-health-2)
-    + [nouns (finance)](#nouns-finance)
-    + [noun prefixes](#noun-prefixes)
-    + [noun suffixes](#noun-suffixes-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
+    + [nouns (work)](#nouns-work-1)
+    + [nouns (web)](#nouns-web-5)
+    + [nouns (technology)](#nouns-technology-5)
+    + [nouns (science)](#nouns-science-1)
+    + [nouns (signs)](#nouns-signs-1)
+    + [nouns (logistics)](#nouns-logistics-1)
+    + [nouns (health)](#nouns-health-5)
+    + [nouns (finance)](#nouns-finance-1)
+    + [nouns (weather)](#nouns-weather-1)
+    + [nouns (colours)](#nouns-colours-5)
+    + [noun prefixes](#noun-prefixes-1)
+    + [noun suffixes](#noun-suffixes-5)
+    + [する verbs](#%E3%81%99%E3%82%8B-verbs-5)
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-5)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-5)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
-    + [verb pairs](#verb-pairs-4)
+    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-5)
+    + [verb pairs](#verb-pairs-5)
     + [verbs (transitive)](#verbs-transitive-5)
     + [verbs (intransitive)](#verbs-intransitive-5)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
+    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-5)
     + [verbs (direction intransitive)](#verbs-direction-intransitive-1)
-    + [expressions](#expressions-4)
+    + [expressions](#expressions-5)
 ____
 
 # Vocabulary
@@ -317,6 +396,8 @@ ____
 - 便利 (べんり) - convenient
 - 有名 (ゆうめい) - famous
 
+### rentaishi (連体詞)
+
 ### 連体詞
 
 - あんな - that kind of (over there)
@@ -435,60 +516,6 @@ ____
 - ノート - notebook
 - 本 (ほん) - book
 
-### nouns (home)
-
-- 椅子 (いす) - chair
-- 花瓶 (かびん) - vase
-- 玄関 (げんかん) - front door
-- コップ - cup
-- シャワー - shower
-- ストーブ - stove
-- スプーン - spoon
-- 台所 (だいどころ) - kitchen
-- 机 (つくえ) - desk
-- テーブル - table
-- テレビ - television
-- 電気 (でんき) - electricity; light
-- ドア - door
-- 時計 (とけい) - clock; watch
-- 箱 (はこ) - box
-- 箸 (はし) - chopsticks
-- ベッド - bed
-- 部屋 (へや) - room
-- 本棚 (ほんだな) - bookshelf
-- フォーク - fork
-- 風呂 (ふろ) - bath
-- 窓 (まど) - window
-- ラジオ - radio
-- 冷凍庫 (れいとうこ) - freezer
-- 冷蔵庫 (れいぞうこ) - refrigerator
-- 廊下 (ろうか) - corridor
-
-### nouns (location)
-
-- アパート - apartment
-- 池 (いけ) - pond
-- 映画館 (えいがかん) - cinema
-- お手洗い (おてあらい) - restroom
-- 銀行 (ぎんこう) - bank
-- 喫茶店 (きっさてん) - teahouse
-- 公園 (こうえん) - park
-- 食堂 (しょくどう) - canteen
-- 建物 (たてもの) - building
-- 所 (ところ) - place; site
-- トイレ - toilet
-- 図書館 (としょかん) - library
-- 庭 (にわ) - garden
-- 病院 (びょういん) - hospital; clinic
-- ビル - multi-storey building
-- 辺 (へん) - area; region; side (mathematics)
-- ホテル - hotel
-- マンション - condominium; apartment building
-- 店 (みせ) - shop
-- 郵便局 (ゆうびんきょく) - post office
-- レストラン - restaurant
-- デパート - department store
-
 ### nouns (family)
 
 - お祖母さん (おばあさん) - grandmother
@@ -566,6 +593,10 @@ ____
 - 水 (みず) - water
 - 焼き (やき) - grilled; fried
 
+### nouns (fish)
+
+### nouns (seafood)
+
 ### nouns (vegetables)
 
 - じゃが芋 (じゃがいも) - potato
@@ -597,6 +628,35 @@ ____
 - 紅茶 (こうちゃ) - black tea
 - コーヒー - coffee
 - 水 (みず) - water
+
+### nouns (location)
+
+- アパート - apartment
+- 池 (いけ) - pond
+- 映画館 (えいがかん) - cinema
+- お手洗い (おてあらい) - restroom
+- 銀行 (ぎんこう) - bank
+- 喫茶店 (きっさてん) - teahouse
+- 公園 (こうえん) - park
+- 食堂 (しょくどう) - canteen
+- 建物 (たてもの) - building
+- 所 (ところ) - place; site
+- トイレ - toilet
+- 図書館 (としょかん) - library
+- 庭 (にわ) - garden
+- 病院 (びょういん) - hospital; clinic
+- ビル - multi-storey building
+- 辺 (へん) - area; region; side (mathematics)
+- ホテル - hotel
+- マンション - condominium; apartment building
+- 店 (みせ) - shop
+- 郵便局 (ゆうびんきょく) - post office
+- レストラン - restaurant
+- デパート - department store
+
+### nouns (restaurants)
+
+### nouns (shopping)
 
 ### nouns (clothing)
 
@@ -672,29 +732,39 @@ ____
 - 向こう (むこう) - over there; opposite side; the other side
 - 横 (よこ) - horizontally beside (left or right) (of different types of things)
 
-### nouns (weather)
+### nouns (home)
 
-- 雨 (あめ) - rain
-- 曇り (くもり) - cloudy
-- 天気 (てんき) - weather
-- 晴れ (はれ) - sunny
-- 雪 (ゆき) - snow
+- 椅子 (いす) - chair
+- 花瓶 (かびん) - vase
+- 玄関 (げんかん) - front door
+- コップ - cup
+- シャワー - shower
+- ストーブ - stove
+- スプーン - spoon
+- 台所 (だいどころ) - kitchen
+- 机 (つくえ) - desk
+- テーブル - table
+- テレビ - television
+- 電気 (でんき) - electricity; light
+- ドア - door
+- 時計 (とけい) - clock; watch
+- 箱 (はこ) - box
+- 箸 (はし) - chopsticks
+- ベッド - bed
+- 部屋 (へや) - room
+- 本棚 (ほんだな) - bookshelf
+- フォーク - fork
+- 風呂 (ふろ) - bath
+- 窓 (まど) - window
+- ラジオ - radio
+- 冷凍庫 (れいとうこ) - freezer
+- 冷蔵庫 (れいぞうこ) - refrigerator
+- 廊下 (ろうか) - corridor
 
 ### nouns (sports)
 
 - サッカー - soccer
 - ジョギング - jogging
-
-### nouns (colours)
-
-- 緑 (みどり) - green
-
-### nouns (health)
-
-- 風邪 (かぜ) - common cold
-- 薬 (くすり) - medicine
-- 病気 (びょうき) - illness (usually excluding minor ailments such as common
-  cold); disease; sickness
 
 ### nouns (countries)
 
@@ -709,6 +779,45 @@ ____
 - 中国 (ちゅうごく) - China
 - 独逸 (ドイツ) - Germany
 - 仏蘭西 (フランス) - France
+
+### nouns (work)
+
+### nouns (web)
+
+### nouns (technology)
+
+### nouns (science)
+
+### nouns (signs)
+
+### nouns (logistics)
+
+### nouns (health)
+
+- 風邪 (かぜ) - common cold
+- 薬 (くすり) - medicine
+- 病気 (びょうき) - illness (usually excluding minor ailments such as common
+  cold); disease; sickness
+
+### nouns (finance)
+
+### nouns (weather)
+
+- 雨 (あめ) - rain
+- 曇り (くもり) - cloudy
+- 天気 (てんき) - weather
+- 晴れ (はれ) - sunny
+- 雪 (ゆき) - snow
+
+### nouns (colours)
+
+- 緑 (みどり) - green
+
+### noun prefixes
+
+### noun suffixes
+
+### する verbs
 
 ### する transitive verbs
 
@@ -885,6 +994,8 @@ ____
 
 ## N4
 
+### particles
+
 ### conjunctions
 
 - けど - but; however (usually at the end of the sentence in a phone call, and
@@ -956,6 +1067,8 @@ ____
 - 彼 (かれ) - he; boyfriend
 - 彼女 (かのじょ) - she; girlfriend
 - 君 (きみ) - you (friendly; musculine; poetic)
+
+### pronouns (location)
 
 ### pronouns (things)
 
@@ -1103,6 +1216,18 @@ ____
 - テキスト - text; textbook
 - パソコン - personal computer
 
+### nouns (animals)
+
+### nouns (sports)
+
+### nouns (colours)
+
+### nouns (health)
+
+### nouns (web)
+
+### noun suffixes
+
 ### する verbs
 
 - 交通 (こうつう) - traffic; transportation
@@ -1134,6 +1259,8 @@ ____
 - 反対 (はんたい) - opposition; resistance
 - 返事 (へんじ) - reply; answer
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
+
+### する transitive and intransitive verbs
 
 ### verb pairs
 
@@ -1240,6 +1367,8 @@ ____
 
 ## N3
 
+### particles
+
 ### conjunctions
 
 - 偖 (さて) - well; now; then
@@ -1268,6 +1397,8 @@ ____
 - 先ず (まず) - first (of all)
 - 勿論 (もちろん) - of course; certainly; naturally
 - 矢張り (やはり) - as expected; after all (aka やっぱり)
+
+### onomatopoeia
 
 ### adjectives (い)
 
@@ -1382,6 +1513,8 @@ ____
 - 礼 (れい) - thanks; gratitude; bow
 - 笑い (わらい) - laugh; smile
 
+### nouns (academic)
+
 ### nouns (animals)
 
 - 牛 (うし) - cow
@@ -1399,6 +1532,10 @@ ____
 - 喉 (のど) - throat
 - 胸 (むね) - chest
 
+### nouns (position)
+
+### nouns (time)
+
 ### nouns (food)
 
 - アイスクリーム - ice cream
@@ -1410,12 +1547,18 @@ ____
 - 弁当 (べんとう) - Japanese lunch box
 - ミルク - milk
 
+### nouns (fruits)
+
 ### nouns (drinks)
 
 - ウイスキー - whisky
 - 酒 (さけ) - alcohol
 - ジュース - juice
 - ワイン - wine
+
+### nouns (clothing)
+
+### nouns (family)
 
 ### nouns (home)
 
@@ -1451,6 +1594,14 @@ ____
 ### nouns (technology)
 
 - コード - code
+
+### nouns (colours)
+
+### nouns (health)
+
+### nouns (web)
+
+### noun suffixes
 
 ### する verbs
 
@@ -1492,6 +1643,8 @@ ____
 - 遅刻 (ちこく) - lateness
 - 留学 (りゅうがく) - studying abroad
 - 優勝 (ゆうしょう) - championship; victory
+
+### する transitive and intransitive verbs
 
 ### verb pairs
 
@@ -1563,12 +1716,18 @@ ____
 
 ## N2
 
+### particles
+
+### conjunctions
+
 ### adverbs
 
 - 愈々 (いよいよ) - more and more; all the more
 - 流石 (さすが) - as one would expect
 - 忽ち (たちまち) - in an instant; right away
 - もしかしたら - perhaps
+
+### onomatopoeia
 
 ### adjectives (い)
 
@@ -1582,6 +1741,12 @@ ____
 - お洒落 (おしゃれ) - fashionable; stylish; trendy
 - 透明 (とうめい) - transparent
 - 真っ白 (まっしろ) - pure white; snowy white
+
+### pronouns (person)
+
+### pronouns (location)
+
+### pronouns (things)
 
 ### nouns
 
@@ -1613,6 +1778,12 @@ ____
 - 両側 (りょうがわ) - both sides
 - 蝋燭 (ろうそく) - candle
 
+### nouns (academic)
+
+### nouns (home)
+
+### nouns (position)
+
 ### nouns (time)
 
 - 下旬 (げじゅん) - last third of a month
@@ -1622,6 +1793,10 @@ ____
 ### nouns (food)
 
 - 刺身 (さしみ) - sashimi
+
+### nouns (fruits)
+
+### nouns (drinks)
 
 ### nouns (location)
 
@@ -1649,10 +1824,28 @@ ____
 
 - 蚊 (か) - mosquito
 
+### nouns (body parts)
+
+### nouns (transportation)
+
+### nouns (family)
+
+### nouns (technology)
+
+### nouns (sports)
+
 ### nouns (colours)
 
 - ピンク - pink
 - 紫 (むらさき) - purple
+
+### nouns (health)
+
+### nouns (web)
+
+### noun suffixes
+
+### する verbs
 
 ### する transitive verbs
 
@@ -1737,6 +1930,8 @@ ____
 - 手元 (てもと) - at hand; on hand; nearby
 - 若しかして (もしかして) - perhaps
 
+### onomatopoeia
+
 ### adjectives (い)
 
 - 相応しい (ふさわしい) - ideal; perfect
@@ -1745,6 +1940,12 @@ ____
 ### adjectives (な)
 
 - 的 (てき) - -ish; -wise; -like
+
+### pronouns (person)
+
+### pronouns (location)
+
+### pronouns (things)
 
 ### nouns
 
@@ -1782,6 +1983,12 @@ ____
 
 - クイズ - quiz
 
+### nouns (home)
+
+### nouns (position)
+
+### nouns (time)
+
 ### nouns (clothing)
 
 - パジャマ - pajamas
@@ -1790,6 +1997,14 @@ ____
 
 - ゼリー - jelly
 - 定食 (ていしょ) - set meal
+
+### nouns (fruits)
+
+### nouns (drinks)
+
+### nouns (location)
+
+### nouns (shopping)
 
 ### nouns (web)
 
@@ -1801,6 +2016,12 @@ ____
 - 扉 (とびら) - door
 - 徒歩 (とほ) - on foot
 - レンタカー - rental car
+
+### nouns (body parts)
+
+### nouns (family)
+
+### nouns (animals)
 
 ### nouns (colours)
 
@@ -1829,6 +2050,8 @@ ____
 
 - 側 (がわ) - side
 - 過ぎ (すぎ) - past; after; over-;
+
+### する verbs
 
 ### する transitive verbs
 
@@ -1860,6 +2083,12 @@ ____
 
 - 受かる (うかる) - to pass (e.g. exam)
 - 揉める (もめる) - to disagree; to dispute; to fight (over)
+
+### verb pairs
+
+### verbs (transitive and intransitive)
+
+### expressions
 
 ## N0
 
@@ -1925,6 +2154,8 @@ ____
 
 ### pronouns (person)
 
+### pronouns (place)
+
 ### nouns
 
 - 相槌 (あいづち) - backchanneling; interjections indicating that one is paying
@@ -1987,6 +2218,8 @@ ____
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
 - ねた - information; news; proof; evidence
+
+### nouns (academic)
 
 ### nouns (family)
 
@@ -2412,6 +2645,10 @@ ____
 - アナリスト - analyst
 - 少額投資非課税制度 (しょうがくとうしひかぜいせいど) - Nippon Individual
   Savings Account; NISA
+
+### nouns (weather)
+
+### nouns (colours)
 
 ### noun prefixes
 
