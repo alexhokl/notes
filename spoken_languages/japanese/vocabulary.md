@@ -123,6 +123,7 @@
     + [adjectives (い)](#adjectives-%E3%81%84-4)
     + [adjectives (な)](#adjectives-%E3%81%AA-4)
     + [nouns](#nouns-4)
+    + [nouns (academic)](#nouns-academic-2)
     + [nouns (clothing)](#nouns-clothing-3)
     + [nouns (food)](#nouns-food-4)
     + [nouns (web)](#nouns-web)
@@ -1312,7 +1313,6 @@ ____
 - 餌 (えさ) - feed (for animals); pet food
 - 大家 (おおや) - landlord; landlady
 - 柄 (がら) - pattern
-- 皮 (かわ) - skin
 - 雷 (かみなり) - thunder; lightning
 - 機嫌 (きげん) - mood; temper; spirits; humour
 - 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
@@ -1393,6 +1393,7 @@ ____
 
 ### nouns (body parts)
 
+- 皮 (かわ) - skin
 - 尻 (しり) - buttocks; bottom; rear; behind; hips
 - 背 (せい) - height; stature
 - 喉 (のど) - throat
@@ -1776,6 +1777,10 @@ ____
 - 幽霊 (ゆうれい) - ghost
 - ルール - rule
 - お負け (おまけ) - addition; something extra; (giving a) discount
+
+### nouns (academic)
+
+- クイズ - quiz
 
 ### nouns (clothing)
 
