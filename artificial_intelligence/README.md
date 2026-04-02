@@ -60,6 +60,7 @@ ____
 
 - API key can be obrained from [Get API key in AI
   Studio](https://ai.google.dev/gemini-api/docs/api-key)
+- [Settings page](https://gemini.google.com/saved-info)
 
 ### GitHub Copilot
 
