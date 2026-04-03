@@ -1,42 +1,43 @@
-- [Links](#links)
-- [Mappings](#mappings)
-  * [Basics](#basics)
-  * [Navigation](#navigation)
-  * [Text objects](#text-objects)
-  * [Editing](#editing)
-  * [Search and replace](#search-and-replace)
-  * [Indentation](#indentation)
-  * [Uppercases/Lowercases](#uppercaseslowercases)
-  * [Undo/Redo](#undoredo)
-  * [Surround](#surround)
-  * [Commenting](#commenting)
-  * [Multicursors](#multicursors)
-  * [Buffers](#buffers)
-  * [Macro and registers](#macro-and-registers)
-  * [LSP](#lsp)
-  * [Treesitter](#treesitter)
-  * [C#](#c%23)
-  * [Go](#go)
-  * [Markdown](#markdown)
-  * [SQL](#sql)
-  * [Git](#git)
-  * [Scripting](#scripting)
-  * [Folding](#folding)
-  * [File search](#file-search)
-  * [File explorer (nvim-tree.lua)](#file-explorer-nvim-treelua)
-  * [Terminal](#terminal)
-  * [Quickfix list](#quickfix-list)
-  * [Location list](#location-list)
-  * [Errors](#errors)
-  * [Twilight](#twilight)
-  * [Debugging](#debugging)
-  * [Snippets](#snippets)
-  * [vimrc](#vimrc)
-  * [Database](#database)
-  * [Help pages](#help-pages)
-  * [Starting vim](#starting-vim)
-- [Scripting](#scripting-1)
-  * [References](#references)
+  * [Links](#links)
+  * [Mappings](#mappings)
+    + [Basics](#basics)
+    + [Navigation](#navigation)
+    + [Text objects](#text-objects)
+    + [Editing](#editing)
+    + [Search and replace](#search-and-replace)
+    + [Indentation](#indentation)
+    + [Uppercases/Lowercases](#uppercases%2Flowercases)
+    + [Undo/Redo](#undo%2Fredo)
+    + [Surround](#surround)
+    + [Commenting](#commenting)
+    + [Multicursors](#multicursors)
+    + [Buffers](#buffers)
+    + [Macro and registers](#macro-and-registers)
+    + [LSP](#lsp)
+    + [Treesitter](#treesitter)
+    + [C#](#c%23)
+    + [Go](#go)
+    + [Markdown](#markdown)
+    + [SQL](#sql)
+    + [Git](#git)
+    + [Scripting](#scripting)
+    + [Folding](#folding)
+    + [File search](#file-search)
+    + [File explorer (nvim-tree.lua)](#file-explorer-nvim-tree.lua)
+    + [Terminal](#terminal)
+    + [Quickfix list](#quickfix-list)
+    + [Location list](#location-list)
+    + [Errors](#errors)
+    + [Twilight](#twilight)
+    + [Debugging](#debugging)
+    + [Snippets](#snippets)
+    + [vimrc](#vimrc)
+    + [Database](#database)
+    + [Help pages](#help-pages)
+    + [Starting vim](#starting-vim)
+  * [Scripting](#scripting-1)
+    + [References](#references)
+    + [Neovim API examples](#neovim-api-examples)
 ____
 
 The following notes is based on my
@@ -737,3 +738,18 @@ vim -O src/hello.js src/world.js
   a collections of awesome Neovim plugins
 - [Getting started using Lua in
   Neovim](https://github.com/nanotee/nvim-lua-guide)
+
+### Neovim API examples
+
+#### echo
+
+```lua
+vim.api.nvim_echo({ { "Something might be wrong", "WarningMsg" } }, true, {
+ 	kind = "warning",
+})
+
+vim.api.nvim_echo({ { "An error occurred!", "ErrorMsg" } }, true, {
+	err = true,
+})
+```
+
