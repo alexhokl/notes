@@ -1667,7 +1667,7 @@ ____
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
-- 頂く (いただく) - to receive; to take (humble)
+- 頂く (いただく) - to receive; to take (kenjougo form of 貰う)
 - 受け取る (うけとる) - to receive
 - 贈る (おくる) - to give; to present; to award
 - 下ろす (おろす) - to take down; to drop off; to withdraw (money)
@@ -1889,6 +1889,7 @@ ____
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
+- 凭れる (もたれる) - to lean against; to lean on
 - 依る (よる) - to depend on; to be caused by; to be based on
 
 ### verbs (transitive and intransitive)
@@ -2258,6 +2259,7 @@ ____
 - チョコ - chocolate
 - チョコレート - chocolate
 - チルド - chilled
+- 青梗菜 (チンゲンサイ) - bok choy
 - 朝食 (ちょうしょく) - breakfast
 - 中華料理 (ちゅうかりょうり) - Chinese food
 - 天ぷら (てんぷら) - tempura (battered and deep-fried food)
@@ -2356,11 +2358,13 @@ ____
 
 ### nouns (drinks)
 
+- 浅煎り (あさいり) - light roast (coffee)
 - 玉露 (ぎょくろ) - green tea - high quality
 - コーヒー豆 (コーヒーまめ) - coffee beans
 - コーラ - cola
 - 煎茶 (せんちゃ) - green tea
 - ノンアルコール - non-alcoholic
+- 深煎り (ふかいり) - dark roast (coffee)
 - 抹茶 (まっちゃ) - matcha
 - 緑茶ハイ (りょくちゃ) - high ball with green tea
 
@@ -2678,6 +2682,7 @@ ____
 
 - 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
   from someone; reply; revenge
+- 散策 (さんさく) - strolling; wandering; roaming
 - 残業 (ざんぎょう) - overtime
 - シフト - shift or move (from one trend to another)
 - ショートカット - shortcut
@@ -2784,6 +2789,7 @@ ____
 - 話をしています (はなしをしています) - chatting
 - に於ける (における) - in; at; on; as for; regarding
 - に依ると (によると) - according to
+- 平素より (へいそより) - always; usually
 - 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
   shrinking; declining
 - メールに返信する (メールにへんしんする) - to reply to an email
