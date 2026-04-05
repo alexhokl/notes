@@ -2767,9 +2767,9 @@ ____
 - ご迷惑をおかけいたします (ごめいわくをおかけいたします) - I apologize for
   the inconvenience
 - 然だに (さだに) - still; even now
+- 失礼しました (しつれいしました) - my apologies; excuse me
 - 失礼します (しつれいします) - excuse me (usually after staff take a plate
   away or about to serve a dish)
-- 失礼しました (しつれいしました) - my apologies; excuse me
 - 時間になる (じかんになる) - to be time for
 - じゃない - is not; isn't it?
 - 授業に遅れる (じゅぎょうにおくれる) - to be late for class
@@ -2780,18 +2780,19 @@ ____
 - だけでなく - not only; not just; as well as
 - だっけ。 - was it?
 - だろう - seems
-- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
 - ちゃった - finished doing; did completely
+- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
 - 手を挙げる (てをあげる) - to raise one's hand
 - での - at; in; with; by; of
 - 電話に出る (でんわにでる) - to answer the phone
-- 話しています (はなしています) - chatting
-- 話をしています (はなしをしています) - chatting
 - に於ける (における) - in; at; on; as for; regarding
 - に依ると (によると) - according to
+- 話しています (はなしています) - chatting
+- 話をしています (はなしをしています) - chatting
 - 平素より (へいそより) - always; usually
 - 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
   shrinking; declining
 - メールに返信する (メールにへんしんする) - to reply to an email
+- 申し訳ありません (もうしわけありません) - I'm sorry; it's inexcusable
 - やった - yay!
 - 様な (ような) - like; similar to; feels like
