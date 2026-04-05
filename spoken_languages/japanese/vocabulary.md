@@ -1828,6 +1828,8 @@ ____
 
 ### nouns (transportation)
 
+- 片道 (かたみち) - one way (trip); one-way ticket
+
 ### nouns (family)
 
 ### nouns (technology)
@@ -1860,6 +1862,7 @@ ____
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
 - 出張 (しゅっちょう) - business trip
+- 仲良し (なかよし) - close friendship; intimate relations
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 
 ### する transitive and intransitive verbs
@@ -1973,6 +1976,7 @@ ____
 - ニュアンス - nuance
 - ハンガー - hanger
 - ポインド - point
+- 誠 (まこと) - truth; reality; sincerity; good faith
 - 纏め (まとめ) - summary; recapitulation; aggregation
 - メーカー - manufacturer; maker
 - 汚れ (よごれ) - dirt, stains, spots
@@ -2072,6 +2076,7 @@ ____
 
 ### verbs (transitive)
 
+- 切り替える (きりかえる) - to switch; to change; に to indicate the new state
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 - 控える (ひかえる) - to refrain
@@ -2180,6 +2185,7 @@ ____
 - 顔色 (かおいろ) - facial expression
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
 - 気に入り (きにいり) - favourite
+- 浄め (きよめ) - purification
 - 区役所 (くやくしょ) - ward office
 - 掲示板 (けいじばん) - notice board
 - 携帯電話 (けいたいでんわ) - mobile phone
@@ -2245,6 +2251,7 @@ ____
 - 割烹 (かっぽう) - Japanese-style cooking
 - キャロットケーキ - carrot cake
 - 牛タン (ぎゅうタン) - beef tongue
+- 栗まんじゅう (くりまんじゅう) - chestnut bun
 - クッキー - cookie
 - 黄身 (きみ) - egg yolk
 - 白身 (しろみ) - egg white; white-fleshed fish; white meat
@@ -2467,6 +2474,8 @@ ____
 
 ### nouns (transportation)
 
+- 青切符 (あおきっぷ) - blue traffic violation ticket (for minor traffic violations)
+- 赤切符 (あかきっぷ) - red traffic violation ticket (for designating a serious violation)
 - 内回り (うちまわり) - inner loop
 - 改札口 (かいさつぐち) - ticket gate
 - 快速 (かいそく) - rapid
