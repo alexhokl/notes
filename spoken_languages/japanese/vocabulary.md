@@ -1036,7 +1036,7 @@ ____
 
 - 美しい (うつくしい) - beautiful; pure
 - 硬い (かたい) - hard
-- 固い (かたい) - solid
+- 固い (かたい) - solid; aka 硬い, 堅い, 緊い
 - 悲しい (かなしい) - sad
 - 寂しい (さびしい) - lonely
 - 凄い (すごい) - amazing; wonderful; terrible; dreadful
@@ -1463,6 +1463,7 @@ ____
 - 桜 (さくら) - cherry blossom
 - 咳 (せき) - cough
 - 支払い (しはらい) - payment
+- 事件 (じけん) - incident; affair; event
 - 自身 (じしん) - oneself; yourself; himself; herself
 - 事実 (じじつ) - fact; truth
 - 自慢 (じまん) - pride
@@ -2068,6 +2069,7 @@ ____
 ### する intransitive verbs
 
 - 朝寝坊 (あさねぼう) - sleeping in
+- 浮気 (うわき) - extramarital sex; affair
 - 日焼け (ひやけ) - sun damage/fading
 
 ### する transitive and intransitive verbs
@@ -2140,6 +2142,7 @@ ____
 - 気持ちいい (きもちいい) - feeling good
 - したい - want to do
 - やばい - oh crap!; dangerous; risky; awful; terrible; amazing
+- 柔い (やわい) - soft
 - らしい - seeming
 
 ### adjectives (な)
@@ -2199,6 +2202,7 @@ ____
 - 証明書 (しょうめいしょ) - certificate; credentials; identification
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
+- 事故物件 (じこぶっけん) - stigmatized property; real estate where a crime, death, etc. has occurred
 - 女 (じょ) - woman (used as suffix)
 - スチール - steel
 - スマートフォン (スマホ) - smartphone
@@ -2242,6 +2246,7 @@ ____
 ### nouns (food)
 
 - アイス - ice; ice cream
+- 厚切り (あつぎり) - thick slice
 - アップルパイ - apple pie
 - お通し (おとうし) - appetizers (Japanese)
 - 大盛り (おおもり) - large serving; extra portion
@@ -2251,6 +2256,7 @@ ____
 - 割烹 (かっぽう) - Japanese-style cooking
 - キャロットケーキ - carrot cake
 - 牛タン (ぎゅうタン) - beef tongue
+- 餃子 (ぎょうざ) - gyoza
 - 栗まんじゅう (くりまんじゅう) - chestnut bun
 - クッキー - cookie
 - 黄身 (きみ) - egg yolk
@@ -2258,11 +2264,13 @@ ____
 - すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
   table-top cast-iron pan
 - スナック - snack
+- ソースカツ - breaded cutlet (e.g. tonkatsu) covered in Worcester sauce
 - ソフトクリーム - soft ice cream
 - たこ焼き (たこやき) - octopus balls
 - 但馬牛 (たじまうし) - Tajima beef
 - タン - tongue (beef tongue in general)
 - 叉焼 (チャーシュー) - roasted pork
+- 炒飯 (チャーハン) - fried rice
 - チョコ - chocolate
 - チョコレート - chocolate
 - チルド - chilled
@@ -2685,6 +2693,7 @@ ____
 - キャンセル - cancel
 - シュート - shoot
 - チン - heating in a microwave
+- 追加 (ついか) - addition; supplement; appending
 - 満喫 (まんきつ) - to fully enjoy
 
 ### する intransitive verbs
