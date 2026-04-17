@@ -1702,6 +1702,7 @@ ____
 - 届く (とどく) - to reach; to be delivered
 - 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
   or fire)
+- 燃える (もえる) - to burn
 
 ### verbs (transitive and intransitive)
 
@@ -1880,6 +1881,8 @@ ____
 
 ### verbs (transitive)
 
+- 温める (あたためる) - to warm (up); to heat (up); to sit on (an idea, plan,
+  etc.)
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 蹴る (ける) - to kick
 - 探る (さぐる) - to feel around for; to grope for
