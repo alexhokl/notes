@@ -2352,6 +2352,7 @@ ____
 - 鳥貝 (とりがい) - cockle
 - 生牡蠣 (なまがき) - raw oyster
 - 蛤 (はまぐり) - clam
+- 明太子 (めんたいこ) - roe
 
 ### nouns (vegetables)
 
@@ -2382,6 +2383,7 @@ ____
 - コーラ - cola
 - 煎茶 (せんちゃ) - green tea
 - ノンアルコール - non-alcoholic
+- ハイボール - whisky and soda
 - 深煎り (ふかいり) - dark roast (coffee)
 - 抹茶 (まっちゃ) - matcha
 - 緑茶ハイ (りょくちゃ) - high ball with green tea
@@ -2694,6 +2696,7 @@ ____
 - 解読 (かいどく) - deciphering
 - 買取 (かいとり) - buying used articles as a company
 - キャンセル - cancel
+- 試着 (しちゃく) - trying on clothes
 - シュート - shoot
 - チン - heating in a microwave
 - 追加 (ついか) - addition; supplement; appending
