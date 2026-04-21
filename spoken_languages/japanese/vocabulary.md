@@ -301,6 +301,7 @@ ____
 - 大変 (たいへん) - very; greatly; terribly
 - たくさん - a lot; too many (on countables)
 - 多分 (たぶん) - maybe; probably
+- 段々 (だんだん) - gradually
 - 些とも (ちっとも) - not at all
 - 丁度 (ちょうど) - exactly
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
@@ -1304,6 +1305,7 @@ ____
 - 呉れる (くれる) - to give (from inner circle perspective)
 - 捜す (さがす) - to search for (something unknown)
 - 探す (さがす) - to search for (something known)
+- 触る (さわる) - to touch
 - 知らせる (しらせる) - to notify; to advise
 - 調べる (しらべる) - to examine; to look up; to investigate; to search (on
   Google)
@@ -1616,6 +1618,7 @@ ____
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 我慢 (がまん) - patience
 - 観光 (かんこう) - sightseeing
+- 計画 (けいかく) - plan; project; schedule
 - 経験 (けいけん) - experience
 - 建築 (けんちく) - architecture; construction
 - 承認 (しょうにん) - approval; acknowledgment; consent
@@ -1712,9 +1715,10 @@ ____
 
 - いただきます - thank you (for the mean just served, not finished)
 - いらっしゃい - welcome
+- かも知れない (かもしれない) - may; might
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
 - 実は (じつは) - as a matter of fact; to be honest; by the way
-- かも知れない (かもしれない) - may; might
+- 大変ごめんなさい - I am very sorry
 
 ## N2
 
@@ -2084,6 +2088,7 @@ ____
 - 切り替える (きりかえる) - to switch; to change; に to indicate the new state
 - 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
+- 舐める (なめる) - to lick; to taste; to experience (hardship)
 - 控える (ひかえる) - to refrain
 - 見合わせる (みあわせる) - to exchange glances; to postpone
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
@@ -2092,6 +2097,7 @@ ____
 
 ### verbs (intransitive)
 
+- 甘える (あまえる) - to behave like a spoiled child
 - 受かる (うかる) - to pass (e.g. exam)
 - 揉める (もめる) - to disagree; to dispute; to fight (over)
 
@@ -2251,8 +2257,9 @@ ____
 - アイス - ice; ice cream
 - 厚切り (あつぎり) - thick slice
 - アップルパイ - apple pie
-- お通し (おとうし) - appetizers (Japanese)
 - 大盛り (おおもり) - large serving; extra portion
+- お好み焼き (おこのみやき) - savory pancake with various ingredients
+- お通し (おとうし) - appetizers (Japanese)
 - 鴨 (かも) - duck
 - 南瓜 (かぼちゃ) - pumpkin
 - カップメン - cup noodles
@@ -2516,6 +2523,15 @@ ____
 - ラブラドール - Labrador
 - 栗鼠 (りす) - squirrel
 
+### nouns (cats)
+
+- 飼い猫 (かいねこ) - pet cat
+- 地域猫 (ちいきねこ) - community cat
+- 爪研ぎ (つめとぎ) - scratching post
+- 肉球 (にくきゅう) - paw pad
+- 野良猫 (のらねこ) - stray cat
+- 三毛猫 (みけねこ) - calico cat
+
 ### nouns (body parts)
 
 - 足首 (あしくび) - ankle
@@ -2761,6 +2777,10 @@ ____
 ### verbs (transitive and intransitive)
 
 ### verbs (direction intransitive)
+
+### onomatopoeic
+
+- ゴロゴロ - rumbling (of thunder, one's stomach, etc.); purring (of a cat)
 
 ### expressions
 

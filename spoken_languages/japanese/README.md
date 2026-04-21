@@ -177,6 +177,9 @@ ____
 
 ## Shopping
 
+- これを見せてください - please show me this
+- 他の色はありますか。 (ほかのいろはありますか) - do you have other colors?
+- 他のサイズはありますか。 (ほかのサイズはありますか) - do you have other sizes?
 - さらに絞り込んで探す (さらにしぼりこんでさがす) - filter your search further
 - 未使用に近い (みしようにちかい) - close to unused
 - 目立った傷や汚れなし (めだったきずやよごれなし) - no noticeable imperfections
