@@ -611,7 +611,6 @@ ____
 
 ### nouns (fruits)
 
-- 苺 (いちご) - strawberry
 - 果物 (くだもの) - fruit
 - 西瓜 (すいか) - watermelon
 - バナナ - banana
@@ -1090,6 +1089,7 @@ ____
 - 形 (かたち) - shape; form
 - 髪 (かみ) - hair
 - 看護師 (かんごし) - nurse
+- 季節 (きせつ) - season
 - 気分 (きぶん) - feeling; mood; mood (psychology)
 - 興味 (きょうみ) - interest (in something); curiosity (about something); (not used for hobbies)
 - 空気 (くうき) - air; atmosphere; mood
@@ -1107,6 +1107,7 @@ ____
 - 事故 (じこ) - accident
 - 地震 (じしん) - earthquake
 - 社長 (しゃちょう) - company president; manager; director
+- 習慣 (しゅうかん) - habit
 - 住所 (じゅうしょ) - address
 - 女性 (じょせい) - female
 - 品物 (しなもの) - goods; article; thing; item
@@ -2093,7 +2094,7 @@ ____
 - 見合わせる (みあわせる) - to exchange glances; to postpone
 - 遣る (やる) - to do; to send; to put; to move; to give (to someone of equal or
   lower status)
-- 予想 (よそう) - xpectation; anticipation; prediction; forecast
+- 予想 (よそう) - expectation; anticipation; prediction; forecast
 
 ### verbs (intransitive)
 
@@ -2150,6 +2151,7 @@ ____
 
 - 気持ちいい (きもちいい) - feeling good
 - したい - want to do
+- にくい - hard to ...; difficult to ...
 - やばい - oh crap!; dangerous; risky; awful; terrible; amazing
 - 柔い (やわい) - soft
 - らしい - seeming
@@ -2751,6 +2753,7 @@ ____
 
 - 押し付ける (おしつける) - to force against
 - 貸し切る (かしかる) - to reserve; to book
+- 狩る (かる) - to hunt; to pick (barries)
 - 気になる - to weigh on one's mind; to be interested (in)
 - ぎる - to steal
 - 下す (くだす) - to make a decision; to draw a conclusion

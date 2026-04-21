@@ -1162,6 +1162,7 @@ ____
   * 冷蔵庫の中にジュースが入っています。
   * 窓が開いている。
   * 電気がついていません。
+  * 結婚していません。
 - usually は would not be used in place of が
 
 ### current state of a thing or matter after a state change by an agent
@@ -1355,7 +1356,7 @@ ____
 - どのアイスクリがいいですか。
   * 抹茶のがいいです。
 
-### for a thing
+### a thing for a purpose or a person
 
 - noun (person) + の + ための + noun
 - これは外国人のための日本語の辞書です。
@@ -1364,9 +1365,10 @@ ____
 - 今はバスや地下鉄にお年寄りのための席があります。
 - この大学に外国人のための日本語コースがあります。
 
-### for an action
+### an action for a purpose or a person
 
 - noun (person) + の + ために + verb
+- noun (purpose) + の + ために + verb
 - for the benefit (or non-negative)
 - 日本語がわからない人のために、英語で話します。
 - この洋服は奥さんにあげるプレゼントですか。
@@ -1374,6 +1376,7 @@ ____
 - 母は私たちのために20年間働いています。
 - 大勢のフィリッピン人が家族のために海外で働いています
 - 健康のために毎朝ジョギングをしています。
+- デイエットのために毎朝走っています。
 - 会議の準備のために毎朝く家をでました。
 - 日本では、外国人のために駅名はローマ字でも書いてあります。
 
