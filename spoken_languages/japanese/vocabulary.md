@@ -281,7 +281,7 @@ ____
 
 - じゃあ - then
 - 然し (しかし) - however; but
-- 而して (そして) - thus
+- 而して (そして) - thus; and then
 - 其れから (それから) - and then
 - それでは - well; right; then
 - 次に (つぎに) - next; then; after that
@@ -1388,6 +1388,7 @@ ____
 
 - 恐らく (おそらく) - probably; I'm afraid
 - こんなに - this much
+- 少々 (しょうしょう) - a little
 - すで - already
 - 既に (すでに) - already; previously; before; undeniably
 - 全て (すべて) - entirely; wholly; completely; all
@@ -1642,6 +1643,7 @@ ____
 
 - 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
+- 感動 (かんどう) - being deeply moved emotionally
 - 怪我 (けが) - injury; mistake
 - 経営 (けいえい) - running (a business)
 - 結果 (けっか) - result
@@ -1786,6 +1788,7 @@ ____
 - 複数 (ふくすう) - plural
 - 蓋 (ふた) - lid; cap; cover
 - 苗字 (みょうじ) - surname
+- 名物 (めいぶつ) - famous product
 - 役所 (やくしょ) - government office
 - 有料 (ゆうりょう) - fee-charging; not free
 - 理科 (りか) - science
@@ -2229,6 +2232,8 @@ ____
 - 洗濯物 (せんたくもの) - laundry
 - 痴漢 (ちかん) - molester; pervert
 - チャック - zip (for bags)
+- 使い方 (つかいがた) - way of using; way of handling (employees, subordinates,
+  etc.); management
 - 月極 (つきぎめ) - monthly contract (aka 月極め)
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
@@ -2410,6 +2415,7 @@ ____
 - ハイボール - whisky and soda
 - 深煎り (ふかいり) - dark roast (coffee)
 - 抹茶 (まっちゃ) - matcha
+- 無脂肪ミルク (むしぼうミルク) - low fat milk
 - 緑茶ハイ (りょくちゃ) - high ball with green tea
 
 ### nouns (location)
@@ -2527,8 +2533,11 @@ ____
 
 ### nouns (animals)
 
+- 海驢 (あしか) - sea lion; eared seal
 - 猪 (いのしし) - boar
+- 海豚 (いるか) - dolphin
 - 馬 (うま) - horse
+- 海がめ (うみかめ) - sea turtle
 - 亀 (かめ) - turtle
 - 麒麟 (きりん) - giraffe
 - キャット - cat
