@@ -29,6 +29,7 @@
     + [Compliance](#compliance)
     + [Cloud Run](#cloud-run)
     + [Cloud SQL](#cloud-sql-1)
+    + [BigQuery](#bigquery)
     + [Looker](#looker)
   * [APIs](#apis)
     + [Vision API](#vision-api)
@@ -1286,6 +1287,233 @@ BigQuery tables.
   * Python
   * Go
   * Node.js
+
+### BigQuery
+
+- pricing
+  * compute
+    + on-demand
+      + `6.25 USD per TB` of data scanned (as of April 2026, the first 1 TB per
+        month is free)
+        + the number of columns selected in a query affects the amount of data scanned
+    + capacity pricing
+      + charged per slot-hour (slots correspond to virtual CPUs and memory)
+        + each slot roughly corresponds to 1 virtual CPU and a specific amount
+          of memory
+        + the preciseness is down to a minute
+          + one minut is charged if only 10 seconds is used
+        + charged by slots made available by autoscaler (not the exact slots
+          that used to process data)
+        + slot types
+          + baseline - always hot and pays for it regardless of whether it is
+            used or not
+          + max - the maximum when BigQuery autoscales to meet a sudden workload
+            spike
+      + standard (`0.04 USD per slot-hour`)
+      + enterprise (`0.06 USD per slot-hour`)
+      + enterprise plus (`0.10 USD per slot-hour`)
+      + enterprise and enterprise plus allows 1-year or 3-year commitment with
+        discounted price
+      + enterprise has a higher up-time guarantee than standard and enterprise
+        plus has a higher up-time guarantee than enterprise
+      + enterprise has regional backup whereas enterprise plus has cross-region
+        failover
+      + enterprise plus has advanced data residency and geo-partitioning
+      + enterprise and enterprise plus have VPC Service Controls support
+        + standard edition does allow firewall rules to be set up
+      + standard editition allows granting access to a column
+        + enterprise and enterprise plus allows a number of ways to mark data
+          and it can be configured per user role basis
+  * storage
+    + storage type
+      + logical storage (default)
+      + physical storage (charged on compressed size)
+    + data type
+      + active
+        + `0.02 GiB per month` for logical storage
+        + `0.04 GiB per month` for physical storage
+      + long-term (after 90 days of no modification)
+        + half of the active storage price
+  * streaming inserts
+    + `0.025 USD per GiB` (the first 2 TB per month is free)
+- materialized view
+  * user can run a query against a raw table and query optimizer can choose to
+    use the materialized view instead
+    + `Execution Details` contains message such as `Query was rewritten to use
+      materialized view`
+  * it supports incremental updates upon new data is streamed or loaded into the
+    base table
+  * if incremental update has not been completed yet, query optimizer will
+  combine the data from materialized view and the base table to answer the query
+  * complex `JOIN` should not be used
+  * updates are charged as compute time
+  * materialized view over BigLake tables (on Cloud Storage) is also available
+  * partitioning and clustering is encouraged to make the materialized view more
+    efficient
+  * standard edition does not support joins between two large tables; enterprise
+    and enterprise plus do support for specific star-schema patterns
+  * only deterministic functions are allowed in the materialized view definition
+    + `CURRENT_TIMESTAMP()` is not allowed
+
+```sql
+CREATE MATERIALIZED VIEW `project_id.dataset.daily_summary_mv`
+OPTIONS (
+  enable_refresh = true,
+  refresh_interval_ms = 3600000, -- 1 hour in milliseconds
+  max_staleness = INTERVAL "15" MINUTE
+)
+AS
+SELECT
+  transaction_date,
+  store_id,
+  SUM(amount) as total_revenue,
+  COUNT(*) as transaction_count
+FROM
+  `project_id.dataset.raw_transactions`
+GROUP BY
+  1, 2;
+```
+
+- partitioning
+  * types
+    + time-unit column
+      + column of type `DATE`, `TIMESTAMP` or `DATETIME`
+    + ingestion time
+      + upon arrival of data
+    + integer range
+      + `customer_id`
+  * only partition matches filter will be scanned (the process of selecting
+    partitions is called pruning)
+  * it helps reduce cost as the charge of compute is based on the amount of data
+    scanned
+  * it divides data into separate physical files
+  * the maximum number of partitions is `4000` per table
+  * it allows cost estimation before running a query
+- clustering
+  * sort data within a partition or table based on at most `4` columns
+  * it helps both filtering and aggregation as more data can be skipped
+  * it improves join permformance if two tables are clustered on the same join
+    keys
+
+```sql
+CREATE TABLE `project.dataset.sales_data`
+(
+  transaction_id STRING,
+  customer_id INT64,
+  order_date DATE,
+  region STRING
+)
+-- 1. Partition by date to segment by time
+PARTITION BY order_date
+-- 2. Cluster by region and customer_id to sort within the dates
+CLUSTER BY region, customer_id;
+```
+
+- BI Engine
+  * it is a in-memory analysis service designed to provide sub-second query
+    response times for interactive dashboards and data exploration
+  * it serves as a caching layer
+  * native looker intergation
+  * it also supports Power BI or Tableau via ODBC or JDBC connectors
+  * no building of "cubes" required
+  * preferred tables is allowed such that one can "pin" critical tables to
+    memory
+  * pricing is separated from BigQuery and it is capacity-based where a
+    reservation of memory is required
+    + 1-year or 3-year commitments are available with discounted price
+  * it can be used to reduce the cost of high-frequency, repetitive queries from
+    BI tools
+- BigQuery ML
+  * to build, train and deploy ML models using standard SQL
+  * it uses slots (a compute cost unit) to train models
+  * once trained, the model is stored as a first-class object in your BigQuery
+    dataset, just like a table or view.
+    + queries can be made using `ML.PREDICT` function.
+  * model types
+    + linear regression
+    + k-means clustering
+    + time series forecasting (ARIMA_PLUS, TimesFM)
+  * remotes models via Vertex AI can be used (such as `ML.GENERATE_TEXT`)
+  * trained model is a snapshot of the data at the time of training
+    + scheduled retraining is recommended to keep the model up-to-date with the
+      latest data and this can be done using BigQuery Scheduled Query
+    + continuous training is available enterprise plus where the model gets
+      re-trained after a configured number of new rows added
+
+```sql
+-- predict the sale price of a house based on its square footage, age, and neighborhood
+
+CREATE OR REPLACE MODEL `real_estate.price_prediction_model`
+OPTIONS(
+  model_type='linear_reg',
+  input_label_cols=['sale_price'], -- What we are predicting
+  ls_init_learn_rate=0.15,         -- Hyperparameter tuning
+  data_split_method='random',
+  data_split_eval_fraction=0.2
+i) AS
+SELECT
+  sale_price,
+  sq_ft,
+  bedroom_count,
+  bathroom_count,
+  EXTRACT(YEAR FROM CURRENT_DATE()) - year_built AS house_age,
+  neighborhood_id
+FROM
+  `real_estate.historical_listings`
+WHERE
+  sale_price IS NOT NULL;
+```
+
+```sql
+-- group customers into 5 distinct "personas" based on their buying behavior
+
+CREATE OR REPLACE MODEL `marketing.customer_segments`
+OPTIONS(
+  model_type='kmeans',
+  num_clusters=5,                 -- You choose the number of segments
+  standardize_features=TRUE,       -- CRITICAL: keeps $1,000 from outweighing 2 visits
+  distance_type='cosine'           -- Better for high-dimensional behavior data
+) AS
+SELECT
+  total_spend,
+  avg_order_value,
+  days_since_last_purchase,
+  total_sessions_count
+FROM
+  `marketing.customer_behavior_metrics`;
+```
+
+```sql
+- predict the next 30 days of sales for 500 different grocery stores
+
+CREATE OR REPLACE MODEL `retail.daily_sales_forecast`
+OPTIONS(
+  model_type='arima_plus',
+  time_series_timestamp_col='sale_date',
+  time_series_data_col='total_revenue',
+  time_series_id_col='store_id',   -- Forecasts for each store individually
+  holiday_region='US',             -- Auto-adjusts for Black Friday/Christmas
+  clean_spikes_and_dips=TRUE       -- Ignores one-time data glitches
+) AS
+SELECT
+  sale_date,
+  total_revenue,
+  store_id
+FROM
+  `retail.sales_history`;```
+
+```sql
+-- predict the next 30 days of sales for 500 different grocery stores
+-- only available in enterprise and enterprise plus editions
+
+SELECT * FROM AI.FORECAST(
+  TABLE `retail.sales_history`,
+  horizon => 30,
+  time_col => 'sale_date',
+  value_col => 'total_revenue',
+  id_col => 'store_id'
+);
+```
 
 ### Looker
 
