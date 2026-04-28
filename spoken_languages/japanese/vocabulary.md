@@ -900,6 +900,7 @@ ____
 - 描く (えがく) - to draw; to paint
 - 置く (おく) - to place
 - 教える (おしえる) - to teach
+- 押す (おす) - to push; to press
 - 覚える (おぼえる) - to memorise; to learn; to remember
 - 買う (かう) - to buy
 - 書く (かく) - to write; to draw
@@ -1312,6 +1313,7 @@ ____
   Google)
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 尋ねる (たずねる) - to ask; to inquire
+- 楽しむ (たのしむ) - to enjoy
 - 伝える (つたえる) - to convey
 - 手伝う (てつだう) - to help; to contribute to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
@@ -1342,6 +1344,7 @@ ____
 - 光る (ひかる) - to shine
 - 引っ越す (ひっこす) - to move (residence)
 - 太る (ふとる) - to gain weight
+- 逃げる (にげる) - to escape
 - 似る (にる) - to look like; to be alike
 - 参る (まいる) - to go; to come; to call
 - 間に合う (まにあう) - to be in time (for); to serve the purpose
@@ -1393,6 +1396,7 @@ ____
 - 全然 (ぜんぜん) - totally
 - そのまま - as is; without change; just like
 - そろそろ - soon
+- たっぷり - plentifully; a lot; a good (e.g. two weeks, ten kilometres); a full; at least; no less than
 - ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
@@ -1414,6 +1418,7 @@ ____
 
 ### adjectives (な)
 
+- 幸せ (しあわせ) - happiness; good fortune; luck; blessing
 - 新鮮 (しんせん) - fresh
 - 邪魔 (じゃま) - disturbance; obstruction
 - 素敵 (すてき) - lovely; wonderful; nice
@@ -1602,6 +1607,8 @@ ____
 ### nouns (colours)
 
 ### nouns (health)
+
+- 不安 (ふあん) - anxiety; worry
 
 ### nouns (web)
 
@@ -2197,6 +2204,7 @@ ____
 - 女 (おんな) - women (used as prefix)
 - 女の人 (おんなのひと) - woman
 - 顔色 (かおいろ) - facial expression
+- 替え玉 (かえだま) - second serving of noodles; substitute
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
 - 気に入り (きにいり) - favourite
 - 浄め (きよめ) - purification
@@ -2214,6 +2222,7 @@ ____
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
 - 事故物件 (じこぶっけん) - stigmatized property; real estate where a crime, death, etc. has occurred
+- 順路 (じゅんろ) - route
 - 女 (じょ) - woman (used as suffix)
 - スチール - steel
 - スマートフォン (スマホ) - smartphone
@@ -2259,6 +2268,7 @@ ____
 - アイス - ice; ice cream
 - 厚切り (あつぎり) - thick slice
 - アップルパイ - apple pie
+- 芋 (いも) - potato
 - 大盛り (おおもり) - large serving; extra portion
 - お好み焼き (おこのみやき) - savory pancake with various ingredients
 - お通し (おとうし) - appetizers (Japanese)
@@ -2266,7 +2276,9 @@ ____
 - 南瓜 (かぼちゃ) - pumpkin
 - カップメン - cup noodles
 - 割烹 (かっぽう) - Japanese-style cooking
+- 茸 (きのこ) - mushroom
 - キャロットケーキ - carrot cake
+- 牛すじ (ぎゅうすじ) - beef tendon
 - 牛タン (ぎゅうタン) - beef tongue
 - 餃子 (ぎょうざ) - gyoza
 - 栗まんじゅう (くりまんじゅう) - chestnut bun
@@ -2295,6 +2307,8 @@ ____
 - 豚汁 (とんじる) - pork miso soup
 - 生菓子 (なまがし) - fresh sweets
 - 並盛 (なみもり) - normal serving
+- 軟骨 (なんこつ) - cartilage
+- 煮込む (にこむ) - to simmer; to stew
 - 大蒜 (にんにく) - garlic
 - ハラミ - skirt steak (横隔膜)
 - バーガー - burger
@@ -2307,6 +2321,7 @@ ____
 - ベーコン - bacon
 - ホルモン - offal (內臟)
 - 飯 (まんま) - food (children's language)
+- 焼き飯 (やきめし) - fried rice
 - 夕食 (ゆうしょく) - dinner
 
 ### nouns (fish)
@@ -2764,6 +2779,8 @@ ____
 - 振り切る (ふりきる) - to shake off; to break away
 - 見上げる (みあげる) - to look up at
 - 見守る (みまもる) - to watch over; to keep an eye on
+- 召す (めす) - to eat; to drink; to wear; to buy; to call; to summon; to
+invite; to ride
 
 ### verbs (intransitive)
 
@@ -2775,6 +2792,7 @@ ____
 - サボる - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
 - バズる - to go viral (buzz)
+- 引き続く (ひきつづく) - to continue (for a long time); to occur in succession
 - 含まれる (ふくまれる) - to be included; to be composed of
 
 ### verbs (transitive and intransitive)
