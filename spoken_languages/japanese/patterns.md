@@ -994,13 +994,16 @@ ____
 ### because
 
 - (reason) + から + (consequence)
-  * it is not a must but best to write the reason with plain form sentence
-    + unless the audience demands respect
+  * although using plain form for reason is acceptable, it is better use polite
+    form to avoid situations demands respect (which may be hard to guess as a
+  beginner
   * 私は学校が休みですから、友達と映画を見に行きます。
   * 私は学校が休みだから、友達と映画を見に行きます。
   * 私は学校が休みだから、友達と映画を見に行く。
   * 映画が始まりますから、ホールに入ってください。
   * 映画が始まるから、ホールに入ってください。
+  * どうして日本語勉強しますか。
+    + よく日本へ来ますから、日本語を勉強したいです。
 
 ### someone said
 
