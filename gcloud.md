@@ -1592,6 +1592,13 @@ ON
     s.store_id = t.store_id;
 ```
 
+- data structure
+  * flatten table is preferred to normalised tables to avoid table joins
+  * nested and repeated fields are supported where it is considered storing data
+    in the same row
+    + it may not be preferred when the table needs to work with Looker or Tableau
+      + use materialised view to flatten the data for Looker or Tableau
+
 ### Looker
 
 - it has Google Connectors to integrate with different data sources
