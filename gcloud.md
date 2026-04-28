@@ -1515,6 +1515,83 @@ SELECT * FROM AI.FORECAST(
 );
 ```
 
+- data ingestion
+  * Pub/Sub
+    + set up subscription to push to BigQuery directly
+      + CDC is supported where if message contains field `_CHANGE_TYPE` (with
+        value `INSERT`, `UPDATE` or `DELETE`), the corresponding action will be
+        taken in BigQuery
+
+```sh
+gcloud pubsub subscriptions create "sales-export-sub" \
+    --topic="mobile-events" \
+    --bigquery-table="my-project:analytics.sales" \
+    --use-table-schema \
+    --message-transforms-file="transform.js" \
+    --write-metadata
+```
+    + via Dataflow
+      + python, javascript or SQL-based approach is available for transformation
+
+```py
+import json
+
+def process(input_json):
+    # Dataflow passes the message as a JSON string
+    data = json.loads(input_json)
+
+    # 1. Rename field
+    sensor_id = data.get('s_id')
+
+    # 2. Complex Python calculation (F to C)
+    temp_f = data.get('temp_f', 0)
+    temp_c = (temp_f - 32) * 5.0/9.0
+
+    # 3. Add logic
+    status = "ALARM" if temp_c > 35 else "NORMAL"
+
+    # Return a JSON string that matches the BigQuery schema
+    result = {
+        "sensor_id": sensor_id,
+        "temp_c": round(temp_c, 2),
+        "status": status
+    }
+
+    return json.dumps(result)
+```
+
+```sh
+gcloud dataflow flex-template run "iot-ingestion-job" \
+    --project="my-project-id" \
+    --region="us-central1" \
+    --template-file-gcs-location="gs://dataflow-templates-us-central1/latest/flex/PubSub_to_BigQuery_Xlang" \
+    --parameters \
+inputTopic="projects/my-project-id/topics/iot-raw-data",\
+outputTableSpec="my-project-id:dataset.sensor_readings",\
+outputDeadletterTable="my-project-id:dataset.failed_sensor_data",\ ## used when the python script throws an error
+pythonExternalTextTransformGcsPath="gs://my-bucket/scripts/transform.py",\
+pythonExternalTextTransformFunctionName="process"
+```
+
+```sql
+-- This query runs as a permanent Dataflow job
+INSERT INTO `project.dataset.enriched_sales`
+SELECT
+    s.sale_id,
+    s.amount,
+    s.timestamp,
+    t.region_name,
+    t.manager_email
+FROM
+    -- The streaming source
+    pubsub.topic.`my-project`.`sales-topic` AS s
+INNER JOIN
+    -- The static reference table
+    `my-project.reference_data.stores` AS t
+ON
+    s.store_id = t.store_id;
+```
+
 ### Looker
 
 - it has Google Connectors to integrate with different data sources
