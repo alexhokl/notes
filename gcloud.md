@@ -1409,6 +1409,30 @@ PARTITION BY order_date
 CLUSTER BY region, customer_id;
 ```
 
+```sql
+CREATE MATERIALIZED VIEW `my_project.my_dataset.daily_revenue_mv`
+-- 1. PARTITIONING: Aligned with the base table's date column
+PARTITION BY sale_date
+-- 2. CLUSTERING: Optimized for the most common dashboard filters
+CLUSTER BY region_id, store_status
+OPTIONS (
+  enable_refresh = true,
+  refresh_interval_ms = 3600000, -- Refresh every hour
+  max_staleness = INTERVAL "30" MINUTE -- Use cached data up to 30m old
+)
+AS
+SELECT
+  sale_date,
+  region_id,
+  store_status,
+  SUM(amount) as daily_total,
+  COUNT(*) as order_count
+FROM
+  `my_project.my_dataset.raw_sales`
+GROUP BY
+  1, 2, 3;
+```
+
 - BI Engine
   * it is a in-memory analysis service designed to provide sub-second query
     response times for interactive dashboards and data exploration
