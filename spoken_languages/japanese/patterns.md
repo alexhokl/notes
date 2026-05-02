@@ -663,7 +663,7 @@ ____
 
 ### move to do something
 
-- location + へ +  verb in stem form + に + directional intransitive verb
+- location + へ +  V + に + directional intransitive verb
   * see [stem form](../verbs.md#stem-form)
   * に in the above examples marks the aim of action of the movement verb
   * 私は明日新宿へ靴お買いに行きます。
@@ -755,7 +755,7 @@ ____
 
 ### multiple actions
 
-- ... + verb in te-form + 、 + ...
+- ... + Vて + 、 + ...
   * multiple actions happening in sequence
     + 私は毎朝7時に起きて、朝ご飯を食べて、学校へ行きます。
     + 昨夜は友達と食事をして、１１時頃うちへ帰って、シャワーを浴びて、1時に寝ました。
@@ -774,7 +774,7 @@ ____
 
 ### linking two unrelated actions which happen one after another
 
-- ... + verb in te-form + から、+ ...
+- ... + Vて + から、+ ...
   * the reason that it does not link two related sentences as it assumes one
     action completes before starting another
   * examples
@@ -787,14 +787,14 @@ ____
 
 ### an action before another action
 
-- verb in plain form + 前に + ... + verb
+- Vる + 前に + ...
   * 田中さんはいつも寝る前に、歯を磨きます。
   * 田中さんとリサさんは昨夜映画を見る前に食事をしました。
   * あなたは毎晩寝る前にどんな事しますか。
-- subject + は + subordinate subject + が + verb in plain form + 前に、 + verb。
+- subject + は + subordinate subject + が + Vる + 前に、 + ...
   * 私はチャイムが鳴る前に、教室に入りました。
   * 父は毎朝私が起きる前に、うちを出ます。
-- subordinate subject + が + verb in plain form + 前に、 + subject + は + verb。
+- subordinate subject + が + Vる + 前に、 + subject + は + ...
   * 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
   * 雨は降る前に、私は買い物に行きました。
 
@@ -1072,12 +1072,12 @@ ____
 
 - conjugation
 
- | item         | affirmative                   | negative                               |
- | ---          | ---                           | ---                                    |
- | noun         | noun + でしょう               | noun + ではないでしょう                |
- | な-adjective | adjective + でしょう          | adjective + ではないでしょう           |
- | い-adjective | adjective + でしょう          | adjective + くないでしょう             |
- | verb         | verb in plain form + でしょう | verb in plain negative form + でしょう |
+| item         | affirmative          | negative                               |
+| ---          | ---                  | ---                                    |
+| noun         | noun + でしょう      | noun + ではないでしょう                |
+| な-adjective | adjective + でしょう | adjective + ではないでしょう           |
+| い-adjective | adjective + でしょう | adjective + くないでしょう             |
+| verb         | Vる + でしょう       | verb in plain negative form + でしょう |
 
 - examples
   * 私は多分雨が降るでしょう。
@@ -1090,7 +1090,7 @@ ____
 
 ### while
 
-- sub action (verb in stem form) + ながら + ...(main action)
+- V (sub action) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
   * 車を運転しながら携帯電話を使っていないでください。
 
@@ -1101,7 +1101,7 @@ ____
   * 私は昨夜この本を全部読んでしまいました。
   * この古い雑誌を全部捨ててしまってください。
 
-- verb in plain form + ちゃう (casual)
+- Vる + ちゃう (casual)
   * 私は風邪を引いちゃった。
   * 昨夜この本を全部読んじゃった。
   * この古い雑誌を全部捨てちゃって。
@@ -1236,6 +1236,7 @@ ____
 ### I want
 
 - non-する noun + が + 欲しい
+  * 欲しい is an adjective
   * 私は日本語の辞書が欲しいです。
   * マリアさんは誕生日に何が欲しいですか。
     + そうですね。ダイヤモンドの指輪が欲しいですね。
@@ -1250,7 +1251,7 @@ ____
 ### I want to do
 
 - [たい](./verbs.md#%E3%81%9F%E3%81%84)
-- verb in stem form + たい
+- V + たい
   * 私は辞書を買いたいです。
   * 私はビールが飲みたいです。
   * ヤンソン、冬休みはどこへ行きたいですか。
@@ -1266,7 +1267,7 @@ ____
 ### things experienced in the past
 
 - [たことがある](./verbs.md#%E3%81%9F%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B)
-- verb in plain past tense + ことがある
+- Vた + ことがある
   * あなたはアメリカへ行ったことがありますか。
     + はい、一度行ったことがあります。
     + はい、何度も行ったことがあります。
@@ -1280,17 +1281,17 @@ ____
 
 ### explanatory sentence
 
-- ... + のですか
-- ... + のです
-- ... + んですか
-- ... + んです
+- Vる + のです/んです
+- い-adjective + のです/んです
+- な-adjective + な + のです/んです
+- noun + の + です/んです
 - [のだ](./grammar.md#%E3%81%AE%E3%81%A0)
 - 昨日、家にいませんでしたね。どこへ行ったのですか。
   * 保証人のうちへ行ったのです。
-- あなたはお寿司を食べないのですか。
-  * ええ、嫌いなのです。
 - 昨日、家にいませんでしたね。どこへ行ったんですか。
   * 保証人のうちへ行ったんです。
+- あなたはお寿司を食べないのですか。
+  * ええ、嫌いなのです。
 - 元気がありませんね。どうしたんですか。
   * 頭が痛いんです。
 - 何をしているんですか。
@@ -1298,7 +1299,7 @@ ____
 - どうして彼と別れたんですか。
   * 彼、たばこをやめないんです。
 - とてもいい教科書ですね。
-  * ええ。私は大学の先生が書いたんです。
+  * ええ。私の大学の先生が書いたんです。
 - 素敵な時計ですね。
   * 友達にもらったんです。
 - 私は一度もカラオケに行ったことがありません。嫌いなのです。
@@ -1456,7 +1457,7 @@ ____
 
 ### ability to do something
 
-- verb in plain form + ことができる
+- Vる + ことができる
 - slightly more formal than the potential form
 - 私は日本料理を作ることができます。
 - あなたは日本語の新聞を読むことができますか。
@@ -1469,7 +1470,7 @@ ____
 
 ### someone gives permission or sitation allows to do something
 
-- verb in plain form + ことができる
+- Vる + ことができる
 - 朝10時から午後4時の間は学校の前に車を止めることができます。
 - 未成年はお酒を飲むことができません。
 - この道は工事中ですから、通ることはできません。
@@ -1506,7 +1507,7 @@ ____
 - question word + noun + か + ...
 - question word + な-adjective + か + ...
 - question word + い-adjective + か + ...
-- question word + verb in plain form + か + ...
+- question word + Vる + か + ...
 - この薬の研究はもう10年間続けていますが、いつ成功するか、分かりません。
 - この電子辞書の値段はいくらか、インターネットで調べましょう。
 - 去年の卒業式でスピーチをした人はどなただったか、もう忘れました。
@@ -1518,7 +1519,7 @@ ____
 - noun + かどうか + ...
 - な-adjective + かどうか + ...
 - い-adjective + かどうか + ...
-- verb in plain form + かどうか + ...
+- Vる + かどうか + ...
 - この牛乳は日本産ですか。
   * 日本産かどうか、店員に聞きましょう。
 - その仕事は今日中に完成できますか。
@@ -1529,7 +1530,7 @@ ____
 
 ### like or dislike of an action
 
-- subject + は + verb in plain form + こと + が + 好き/嫌い + です
+- subject + は + Vる + こと + が + 好き/嫌い + です
 - 森田先生はサッカーが好きです。
 - 森田先生はサッカーを見ることが好きです。
 - 私は絵をかくことが嫌いです。
@@ -1538,7 +1539,7 @@ ____
 
 ### an interest
 
-- 趣味 + は + verb in plain form + こと + です
+- 趣味 + は + Vる + こと + です
 - 私の趣味はコンピューターで日本麻雀をすることです。
 - アリフさんの趣味は何ですか。
   * 私の趣味はいろいろな国の切手を集めることです。
@@ -1555,9 +1556,8 @@ ____
 
 ### gaining an ability or situation/permission allows to do something
 
-- verb in plain potential form + ようになる
-- verb has potential meaning in plain form + ようになる
-- verbs has potential meanings
+- Vられる + ようになる
+- Vる (which has potential meaning) + ようになる
   * できる
   * 分かる
   * 見える
@@ -1573,21 +1573,21 @@ ____
 
 ### new habit
 
-- verb in plain non-potential form + ようになる
+- Vる + ようになる
 - 私は昔はニガウリを食べませんでしたが、今は食べるようになりました。
 - 日本では昔は働くときも寝るときも着物を着ていましたが、今は洋服を着るようになりました。
 - あの人はこのごろよく勉強するようになりました。
 
 ### losing an ability or situation/permission allows to do something
 
-- verb in plain potential negative form + なる
+- Vられなく + なる
 - 風邪を引きました。それで旅行に行けなくなりました。
 - 狭い家に引っ越ししましたから、大きい家具が置けなくなりました。
 - お酒を飲めなくなりました。
 
 ### lossing a habit
 
-- verb in plain negative non-potential form + なる
+- Vなく + なる
 - あの人は遅刻しなくなりました。
 - 大学を卒業してから、あまり運動しなくなりました。
 - お酒を飲まなくなりました。
@@ -1595,7 +1595,7 @@ ____
 ### non-exhuastive list of actions
 
 - [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
-- verb in plain past tense + たり + verb in plain past tense + たり + する
+- Vた + たり + Vた + たり + する
 - 日曜日には本を読んだり、メールを送ったりします。
 - 会社でどんな仕事をしていますか。
   * お客さんに電話をしたり、メールを書いて送ったりしています。
@@ -1604,8 +1604,8 @@ ____
 ### opposite actions
 
 - [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
-- verb in plain past tense + たり + verb in plain past tense + たり + する
-- verb in plain past tense + たり + verb in plain past tense + たり + している
+- Vた + たり + Vた + たり + する
+- Vた + たり + Vた + たり + している
 - 勉強に集中できませんから、部屋に入ったり、出たりしないでください。
 - テレビをつけたり、消したりしないでください。壊れてしまいますよ。
 - 雨が降ったりやんだりしています。
@@ -1688,8 +1688,8 @@ ____
 
 ### to express speaker's intention or expectation
 
-- verb in plain form + つもり + だ
-- verb in negative plain form + つもり + だ
+- Vる + つもり + だ
+- Vない + つもり + だ
 - つもり is a noun
 - it can be used in
   * describing speaker's intention
@@ -1708,7 +1708,7 @@ ____
 
 ### no intention
 
-- verb in plain form + つもり + は + ない
+- Vる + つもり + は + ない
 - 買い物するつもりはありませんでしたが、結局たくさん買ってきました。
 - 来月日本へ行くつもりではありません。
 - 先月日本へ行かないつもりでした。
@@ -1760,14 +1760,14 @@ ____
 
 - い-adjective + と思う
 - な-adjective + と思う
-- verb in plain form + と思う
+- Vる + と思う
 
 ### apparently / they say that
 
 - (noun + によると +) noun + だそうだ
 - (noun + によると +) な-adjective + だそうだ
 - (noun + によると +) い-adjective + そうだ
-- (noun + によると +) verb in plain form + そうだ
+- (noun + によると +) Vる + そうだ
 - there is no negative form of そうだ
   * ❌今年の冬は寒いそうではない。
   * ⭕️今年の冬は寒くないそうだ。
@@ -1840,7 +1840,7 @@ ____
 ### time before or during an action
 
 - [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
-- verb in plain form + とき
+- Vる + とき
 - 食事をするとき、手を洗います。
 - 京都へ行くとき、新幹線で行きます。
 - うちへ帰るとき、パンを買いました。
@@ -1849,7 +1849,7 @@ ____
 ### time during an action
 
 - [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
-- verb in て-form + いるとき
+- Vて + いるとき
 - noun + のとき
 - な-adjective + なとき
 - い-adjective + とき
@@ -1866,7 +1866,7 @@ ____
 ### time after an action
 
 - [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
-- verb in plain past tense + とき
+- Vた + とき
 - 病気になったとき、病院へ行きます。
   * 病気になったとき、病院へ行きました。
 - うちへ帰った時「ただいま」と言います。
@@ -1875,7 +1875,7 @@ ____
 
 ### convert verb to noun
 
-- verb in plain form + の
+- Vる + の
 - in most cases, こと can be used in-place of の
 - 友達と話をするのは楽しいです。
   * ⭕️友達と話をするのは楽しいです。
