@@ -1306,8 +1306,9 @@ ____
 
 ### asking for and giving a reason
 
-- どうして + ... + のですか/んですか
-  * ... + から + ... のです/んです。
+- どうして + の/ん + ですか。
+- どうして + ... + (は) + ... + の/ん + ですか。
+  * ... + から + ... の/ん + です。
   * ... + からです。
 - it should be used when the question is asking about factual things
 - どうしてこのアパートは部屋代が安いのですか。
