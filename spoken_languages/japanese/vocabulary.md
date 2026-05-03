@@ -1140,6 +1140,7 @@ ____
 ### nouns (academic)
 
 - 数学 (すうがく) - mathematics
+- 文化 (ぶんか) - culture
 
 ### nouns (home)
 
@@ -1273,6 +1274,8 @@ ____
   * 動かす (うごかす) - to move
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
   * 落とす (おとす) - to drop; to lose; to leave behind
+- 変わる (かわる) - to change
+  * 変える (かえる) - to change
 - 乾く (かわく) - to get dry
   * 乾かす (かわかす) - to dry
 - 変わる (かわる) - to change
@@ -1345,7 +1348,7 @@ ____
 - 引っ越す (ひっこす) - to move (residence)
 - 太る (ふとる) - to gain weight
 - 逃げる (にげる) - to escape
-- 似る (にる) - to look like; to be alike
+- 似る (にる) - to look like; to be alike; to be similar
 - 参る (まいる) - to go; to come; to call
 - 間に合う (まにあう) - to be in time (for); to serve the purpose
 - 戻る (もどる) - to return
@@ -1506,6 +1509,7 @@ ____
 - 費用 (ひよう) - cost
 - 瓶 (びん) - bottle; jar
 - 袋 (ふくろ) - bag; sack; pouch
+- 普段 (ふだん) - usual
 - 文 (ぶん) - sentence; composition; text; writings; literature; statement
   (computing)
 - ベルト - belt
@@ -1513,6 +1517,7 @@ ____
 - 間違い (まちがい) - mistake; error
 - 丸 (まる) - circle
 - マスター - owner
+- 間違い (まちがい) - mistake; error
 - 見舞い (みまい) - visit (to a sick person); inquiry; expression of sympathy
 - 土産 (みやげ) - local specialty; souvenir
 - 無料 (むりょう) - free of charge
@@ -1524,6 +1529,8 @@ ____
 - 笑い (わらい) - laugh; smile
 
 ### nouns (academic)
+
+- 文字 (もんじ) - character
 
 ### nouns (animals)
 
@@ -1637,10 +1644,12 @@ ____
 - 相談 (そうだん) - consultation; discussion; asking (someone) for advice
 - パス - passing
 - 販売 (はんばい) - selling
+- 変更 (へんこう) - change; modification
 - 予報 (よほう) - forecast
 
 ### する intransitive verbs
 
+- 安定 (あんてい) - stability; consistency
 - 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
 - 感動 (かんどう) - being deeply moved emotionally
@@ -1655,6 +1664,7 @@ ____
 - 滞在 (たいざい) - stay
 - ダンス - dance
 - 遅刻 (ちこく) - lateness
+- びっくり - to be surprised; to be amazed
 - 留学 (りゅうがく) - studying abroad
 - 優勝 (ゆうしょう) - championship; victory
 
@@ -1712,6 +1722,7 @@ ____
 - 沈む (しずむ) - to sink; to go down (e.g. sun); to descend; to feel depressed
 - 黙る (だまる) - to be silent; to say nothing
 - 積もる (つもる) - to pile up; to accumulate
+- 飛び出す (とびだす) - to jump out
 - 届く (とどく) - to reach; to be delivered
 - 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
   or fire)
@@ -1774,6 +1785,7 @@ ____
 - 原稿 (げんこう) - manuscript
 - 国立 (こくりつ) - national
 - 後輩 (こうはい) - junior
+- 紅葉 (こうよう) - red leaves
 - 西暦 (せいれき) - Western calendar
 - センチ - centimeter
 - 水素 (すいそ) - hydrogen
@@ -1875,6 +1887,7 @@ ____
 
 ### する intransitive verbs
 
+- 往復 (おうふく) - making a round trip
 - お辞儀 (おじぎ) - bowing
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
@@ -2192,8 +2205,7 @@ ____
   attention
 - 県 (あがた) - territory (historical term); countryside
 - 圧力 (あつりょく) - pressure
-- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
-- 腕時計 (うでどけい) - wristwatch
+- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari) 腕時計 (うでどけい) - wristwatch
 - エーティーエム - ATM
 - 演奏会 (えんそうかい) - concert
 - お客様 (おきゃくさま) - customer; guest
@@ -2224,12 +2236,14 @@ ____
 - 証明書 (しょうめいしょ) - certificate; credentials; identification
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
+- 神道(しんとう) - shinto
 - 事故物件 (じこぶっけん) - stigmatized property; real estate where a crime, death, etc. has occurred
 - 順路 (じゅんろ) - route
 - 女 (じょ) - woman (used as suffix)
 - スチール - steel
 - スマートフォン (スマホ) - smartphone
 - 洗濯物 (せんたくもの) - laundry
+- 段ボール (だんボール) - cardboard
 - 痴漢 (ちかん) - molester; pervert
 - チャック - zip (for bags)
 - 使い方 (つかいがた) - way of using; way of handling (employees, subordinates,
@@ -2372,6 +2386,7 @@ ____
 - 牡蠣 (かき) - oyster
 - 蟹 (かに) - crab
 - 魚介 (ぎょかい) - marine products
+- 魚介類 (ぎょかいるい) - seafood
 - クラム - clam
 - 車海老 (くるまえび) - tiger prawn
 - 小柱 (こばしら) - baby scallop
