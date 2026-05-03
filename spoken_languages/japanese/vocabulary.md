@@ -1514,10 +1514,9 @@ ____
   (computing)
 - ベルト - belt
 - 保証人 (ほしょうにん) - guarantor
-- 間違い (まちがい) - mistake; error
-- 丸 (まる) - circle
 - マスター - owner
 - 間違い (まちがい) - mistake; error
+- 丸 (まる) - circle
 - 見舞い (みまい) - visit (to a sick person); inquiry; expression of sympathy
 - 土産 (みやげ) - local specialty; souvenir
 - 無料 (むりょう) - free of charge
@@ -2001,6 +2000,7 @@ ____
 - 製 (せい) - -made; -manufactured
 - 丈 (たけ) - height; length (of clothing)
 - チャイム - chime; bell
+- 定年 (ていねん) - retirement age
 - 手数 (てすう) - trouble; bother
 - 徒歩 (とほ) - on foot
 - 共 (とも) - together; both; all
