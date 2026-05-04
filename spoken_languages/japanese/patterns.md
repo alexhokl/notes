@@ -115,8 +115,8 @@
     + [asking for and giving a reason](#asking-for-and-giving-a-reason)
     + [invitation](#invitation)
     + [の to reference an understood noun from the context](#%E3%81%AE-to-reference-an-understood-noun-from-the-context)
-    + [for](#for)
-    + [for (conjunction)](#for-conjunction)
+    + [a thing for a purpose or a person](#a-thing-for-a-purpose-or-a-person)
+    + [an action for a purpose or a person](#an-action-for-a-purpose-or-a-person)
     + [selecting one from many](#selecting-one-from-many)
     + [no?](#no%3F)
     + [only](#only)
@@ -140,8 +140,9 @@
     + [non-exhuastive list of actions](#non-exhuastive-list-of-actions)
     + [opposite actions](#opposite-actions)
     + [only ... and nothing more](#only-...-and-nothing-more)
-    + [anything/anyone/somewhere](#anything%2Fanyone%2Fsomewhere)
+    + [something / someone / somewhere](#something-%2F-someone-%2F-somewhere)
     + [any ... / every ... / all ...](#any-...-%2F-every-...-%2F-all-...)
+    + [nothing / no one / nowhere](#nothing-%2F-no-one-%2F-nowhere)
     + [someone said something](#someone-said-something)
     + [area or range](#area-or-range)
     + [either one out of two](#either-one-out-of-two)
@@ -158,7 +159,7 @@
     + [and then](#and-then)
     + [Command form](#command-form)
     + [try (and completed attempt)](#try-and-completed-attempt)
-    + [time before an action](#time-before-an-action)
+    + [time before or during an action](#time-before-or-during-an-action)
     + [time during an action](#time-during-an-action)
     + [time after an action](#time-after-an-action)
     + [convert verb to noun](#convert-verb-to-noun)
@@ -1638,7 +1639,7 @@ ____
 - あの人は英語しか分かりません。
 - 私のクラスには女の学生が二人しかいません。
 
-### something/someone/somewhere
+### something / someone / somewhere
 
 - 何か + adjective + 物
 - 何か + adjective + こと
@@ -1660,6 +1661,15 @@ ____
 - 日曜日は暇ですから、いつでも遊びに来てください。
 - 私は日本料理は何でも食べられます。
 - この料理は簡単だから、誰でも作れます。
+
+### nothing / no one / nowhere
+
+- 何も + Vない
+- 誰も + Vない
+- どこ + (particle) + も + Vない
+- 何も食べたくありません。
+- 誰も来ませんでした。
+- 私は今度の日曜日はどこへも行かないです。
 
 ### someone said something
 
