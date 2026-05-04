@@ -1750,14 +1750,14 @@ ____
 
 ### to express speaker's plan intention which comes up during the conversation
 
-- verb in voliltional form + と思う
+- Vよう + と思う
 - お年玉の5万円は何に使いますか。
   * そうですね。スマホゲームに課金しようと思います。
 - 私はこんな服を着ようとは思いません。
 
 ### to express speaker's plan intention which has been decided before the conversation
 
-- verb in voliltional form + と思っている
+- Vよう + と思っている
 - もうすぐ二十歳の誕生日ですね。
   * ええ、うちでパーティーをしようと思っています。
 - 私は彼女が好きですが、結婚しようとは思っていません。
@@ -1768,7 +1768,7 @@ ____
 
 ### to express someone's intention or plan
 
-- verb in voliltional form + と思っている
+- Vよう + と思っている
 - ⭕️リーさんは土曜日の選択コースを取ろうと思っています。
   * ❌リーさんは土曜日の選択コースを取ろうと思います。
 - ⭕️藤田さんはほかの人に仕事を頼もうとは思っていません。
