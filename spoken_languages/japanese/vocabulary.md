@@ -1429,6 +1429,7 @@ ____
 - たっぷり - full of; a lot of; plenty of
 - 駄目 (だめ) - no good
 - 苦手 (にがて) - poor at; weak in; not good at
+- 面倒 (めんどう) - trouble; bother
 - 僅か (わずか) - a little; a few; small; slight
 
 ### pronouns (person)
