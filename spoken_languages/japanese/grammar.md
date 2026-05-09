@@ -273,6 +273,12 @@ ____
   * ちゃんと毎日朝ごはん食べるんだよ。
     + in the context of the listener probably does not have the habit of eating
       breakfast every day
+- differences between んです and のです
+  * the general usage is that んです is usually ends a sentence where listener
+    expect outcome (another sentence) to follow のです
+  * reason + ので、+ result
+  * reason + んです。
+    + 電車が遅れたので、テストに間(ま)に合(あ)いませんでした。
 
 ## かも知れない
 
