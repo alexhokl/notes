@@ -1590,3 +1590,19 @@ Note that all other conjugations of 買う use hiragana characters on the
   this way, you cannot drop も.
   * デートしてもいいよ。
     + I'm okay with going on a date with you.
+
+## たて
+
+- Vたて + (の) + noun
+- requirements
+  * indicating a change of state
+  * an intentional action
+- freshly done
+  * 焼きたてチースケーキ
+  * 揚げたての天ぷら
+  * 炊きたてのご飯
+- fresh physical sensation
+  * 洗いたての髪
+  * お風呂上がりたて
+- usage is different from たばかり where one focuses on freshness and the other
+  focuses on the fact that something just happened
