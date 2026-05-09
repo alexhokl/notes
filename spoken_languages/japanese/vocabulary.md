@@ -1028,6 +1028,7 @@ ____
 - 殆ど (ほとんど) - almost; nearly; mostly; hardly; barely
 - 昔 (むかし) - old times; old days
 - 若し (もし) - if (aka 若しも)
+- やっと - at last; finally; barely
 
 ### onomatopoeia
 
@@ -1547,6 +1548,7 @@ ____
 - 尻 (しり) - buttocks; bottom; rear; behind; hips
 - 背 (せい) - height; stature
 - 喉 (のど) - throat
+- 膝 (ひざ) - knee
 - 胸 (むね) - chest
 
 ### nouns (position)
@@ -1855,6 +1857,8 @@ ____
 
 ### nouns (body parts)
 
+- 肘 (ひじ) - elbow
+
 ### nouns (transportation)
 
 - 片道 (かたみち) - one way (trip); one-way ticket
@@ -2093,6 +2097,7 @@ ____
 
 ### する transitive verbs
 
+- 手配 (てはい) - arrangements; preparations; search (by police)
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - 取引 (とりひき) - transaction; dealings; business
 - デザイン - design
@@ -2360,6 +2365,7 @@ ____
 - 針魚 (さより) - halfbeak
 - シーバス - sea bass
 - 縞鯵 (しまあじ) - striped jack (striped horse mackerel)
+- 白身魚 (しろみざかな) - white fish
 - 新烏賊 (しんいか) - squid
 - 新子 (しんこ) - juvenile gizzard shad
 - 墨烏賊 (すみいか) - cuttlefish
@@ -2798,6 +2804,8 @@ ____
 - ぎる - to steal
 - 下す (くだす) - to make a decision; to draw a conclusion
 - ググる - to google
+- 立ち食い (たちぐい) - eating while standing
+- 立ち飲み (たちのみ) - drinking while standing; aka 立ち呑み
 - 取り置く (とりおく) - to set aside; to keep it in reserve
 - 連れる (つれる) - to be accompanied by
 - パクる - to cheat; steal (plagiarize)
