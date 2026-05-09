@@ -1859,7 +1859,8 @@ ____
 - 部屋にいるかどうか、マリアさんに電話をかけてみます。
 - 美味しいかどうか食べてみます。
 - 日本旅行は楽しかったです。また、行きたいです。
-  * ❌日本旅行は楽しかったです。また、行ってみたいです。
+  * ❌日本旅行は楽しかったです。また、行ってみたいです。 (The speaker has
+    already been to Japan, so it is not a "try" anymore.)
 
 ### time before or during an action
 
