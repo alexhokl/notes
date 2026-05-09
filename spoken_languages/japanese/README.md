@@ -19,11 +19,12 @@
   * [English names](#english-names)
   * [News](#news)
   * [内 (うち) and 外 (そと)](#%E5%86%85-%E3%81%86%E3%81%A1-and-%E5%A4%96-%E3%81%9D%E3%81%A8)
+  * [Small ヶ](#small-%E3%83%B6)
+  * [近く](#%E8%BF%91%E3%81%8F)
+  * [って](#%E3%81%A3%E3%81%A6)
 - [Patterns](#patterns)
-  * [commands](#commands)
   * [can / may / mind](#can-%2F-may-%2F-mind)
   * [cannot / must not](#cannot-%2F-must-not)
-  * [try to](#try-to)
 ____
 
 # Links
@@ -392,14 +393,36 @@ ____
 - title 部長 (manager)
   * a social role can work as an honorific name ender as well
 
+## Small ヶ
+
+- pronounced as か or が
+- functionalities
+  * replacement for 箇
+    + 3ヶ所の場所 for 3箇所の場所
+    + 2ヶ月 for 2箇月
+  * substitute for the particle が
+    + used in older or more stylzed Japanese
+    + used in location names
+
+## 近く
+
+- location + の + 近く + で + ...
+  * 大濠公園の近くで桜を見ました。
+- location + の + 近くの + thing + で + ...
+  * Canal City の近くの店で食べました。
+
+## って
+
+- replacement of topic marker は
+  * 田中さんって、優しいね。
+- replacement of definition marker という
+  * グゴルって何
+- replacement of quotation marker と
+  * 彼は来ないって言ってた。
+- replacement of と言っている
+  * 明日、雨だって。
+
 # Patterns
-
-## commands
-
-- verb in stem form + なさい
-  * 勉強しなさい
-  * 早く寝なさい
-  * ここに座りなさい
 
 ## can / may / mind
 
@@ -407,8 +430,6 @@ ____
   * 食べてもいいですか。 - may I eat?
   * 食べてもいいです。 - you can eat.
   * 食べてもいいです。 - I don't mind to eat it.
-  * 入ってもいいですか。 - may I enter?
-  * 見てもいいですか。 - may I see?
 
 ## cannot / must not
 
@@ -417,9 +438,3 @@ ____
   * 入ってはいけません。 - you must not enter.
   * 見てはいけません。 - you must not see.
 
-## try to
-
-- verb in て form + みる
-  * 食べてみる - try to eat
-  * 行ってみる - try to go
-  * 見てみる - try to see
