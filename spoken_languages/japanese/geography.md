@@ -14,6 +14,7 @@ ____
 
 - [List of regions of
   Japan](https://en.wikipedia.org/wiki/List_of_regions_of_Japan)
+- [都道府県](https://ja.wikipedia.org/wiki/Template:%E6%97%A5%E6%9C%AC%E3%81%AE%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C_imagemap)
 
 ## 北海道 (ほっかいどう)
 
@@ -89,3 +90,4 @@ ____
 # Major areas
 
 - アルプス - Alps
+- 瀬戸 (せと)
