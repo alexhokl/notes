@@ -1253,6 +1253,7 @@ ____
 - 約束 (やくそく) - promise; agreement; arrangement; contract
 - 用意 (ようい) - preparation; arrangements
 - 予習 (よしゅう) - preparation for a lesson
+- 予定 (よてい) - plans; arrangement; schedule
 
 ### する intransitive verbs
 
@@ -1824,6 +1825,7 @@ ____
 ### nouns (food)
 
 - 刺身 (さしみ) - sashimi
+- 汁 (しる) - soup; juice; broth
 
 ### nouns (fruits)
 
@@ -2001,6 +2003,7 @@ ____
 - サイズ - size
 - 皺 (しわ) - wrinkle, crease (aka シワ)
 - ジャズ - jazz
+- 地獄(じごく) - hell
 - 地元 (じもと) - home area; home town; local
 - 製 (せい) - -made; -manufactured
 - 丈 (たけ) - height; length (of clothing)
@@ -2671,6 +2674,8 @@ ____
 
 ### nouns (technology)
 
+- アプリ - application
+- アップル - Apple Inc.
 - 暗号 (あんごう) - encryption; code; cipher
 - ウェブデザイン - web design
 - エディター - editor
@@ -2883,6 +2888,7 @@ invite; to ride
 - 手を挙げる (てをあげる) - to raise one's hand
 - での - at; in; with; by; of
 - 電話に出る (でんわにでる) - to answer the phone
+- どちらも - both
 - に於ける (における) - in; at; on; as for; regarding
 - に依ると (によると) - according to
 - 話しています (はなしています) - chatting
