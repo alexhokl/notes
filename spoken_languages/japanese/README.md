@@ -16,7 +16,6 @@
   * [Date](#date)
   * [Time](#time)
     + [Approximate time](#approximate-time)
-  * [English names](#english-names)
   * [News](#news)
   * [内 (うち) and 外 (そと)](#%E5%86%85-%E3%81%86%E3%81%A1-and-%E5%A4%96-%E3%81%9D%E3%81%A8)
   * [Small ヶ](#small-%E3%83%B6)
@@ -27,6 +26,7 @@
   * [can / may / mind](#can-%2F-may-%2F-mind)
   * [not necessary](#not-necessary)
   * [cannot / must not](#cannot-%2F-must-not)
+  * [must](#must)
 ____
 
 # Links
@@ -375,10 +375,6 @@ ____
 - after a certain time
   * 二時間`後`にバスが来た。 - The bus came 2 hours later.
 
-## English names
-
-- アレックス (arekkusu) - Alex
-
 ## News
 
 - 事実はございません (じじつはございません) - There is no truth to this
@@ -431,6 +427,10 @@ ____
 - 大阪にどのぐらいいる予定ですか。
   * 二週間大阪にいる予定です。
 
+## the best
+
+- noun + が + 一番いいです。
+
 # Patterns
 
 ## can / may / mind
@@ -453,3 +453,21 @@ ____
   * 入ってはいけません。 - you must not enter.
   * 見てはいけません。 - you must not see.
 
+## must
+
+- Vな + ければなりません (must)
+- Vない + といけません　(must, slight less formal)
+  * Vない + と (must, very casual)
+- kind of "cannot not doing" something
+- 毎日仕事で何をしなければないませんか。
+  * コーディングしたり、会議(かいぎ)したり、リサーチしたりしなければなりません。
+- ご飯を作らなければなりませんか。
+  * はい、作らなければなりません。
+  * いいえ、作らなくてもいいです。
+
+## than
+
+- noun A は noun B より + A/ナ + だ。 (A is adjective than B)
+  * ClaudeはChatGPTよりいいです。 (Claude is better than ChatGPT)
+- noun B は noun A ほど + A＜ない/ナではない + だ。 (B is not as adjective as A)
+  * ChatGPTはClaudeほどよくないです。
