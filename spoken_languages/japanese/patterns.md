@@ -849,6 +849,7 @@ ____
 - verb in te-form + いる
   * 私は毎朝コーヒーを飲んでいます。
   * 私は毎晩お風呂に入っています。
+  * 問題を考える時、Remarkableを使っています。
 
 ### describe a work location
 
