@@ -197,6 +197,7 @@ ____
     * 知る (しる) - to know
   + exceptions
     + 出る (でる) - to exit
+    + 似る (にる) - to be alike
     + 寝る (ねる) - to sleep
     + 見る (みる) - to see
     + 着る (きる) - to wear
