@@ -22,8 +22,10 @@
   * [Small ヶ](#small-%E3%83%B6)
   * [近く](#%E8%BF%91%E3%81%8F)
   * [って](#%E3%81%A3%E3%81%A6)
+  * [予定](#%E4%BA%88%E5%AE%9A)
 - [Patterns](#patterns)
   * [can / may / mind](#can-%2F-may-%2F-mind)
+  * [not necessary](#not-necessary)
   * [cannot / must not](#cannot-%2F-must-not)
 ____
 
@@ -422,6 +424,13 @@ ____
 - replacement of と言っている
   * 明日、雨だって。
 
+## 予定
+
+- Vる + 予定(よてい)です (booked)
+- noun + の + 予定です
+- 大阪にどのぐらいいる予定ですか。
+  * 二週間大阪にいる予定です。
+
 # Patterns
 
 ## can / may / mind
@@ -430,6 +439,12 @@ ____
   * 食べてもいいですか。 - may I eat?
   * 食べてもいいです。 - you can eat.
   * 食べてもいいです。 - I don't mind to eat it.
+
+## not necessary
+
+- V + なくてもいいです。 (not necessary)
+- noun + じゃなくてもいいです。
+- ウィンテージじゃなくてもいいです。 (Not necessarily vintage)
 
 ## cannot / must not
 
