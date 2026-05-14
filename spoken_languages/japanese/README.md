@@ -22,11 +22,13 @@
   * [近く](#%E8%BF%91%E3%81%8F)
   * [って](#%E3%81%A3%E3%81%A6)
   * [予定](#%E4%BA%88%E5%AE%9A)
+  * [the best](#the-best)
 - [Patterns](#patterns)
-  * [can / may / mind](#can-%2F-may-%2F-mind)
+  * [don't mind](#don%27t-mind)
   * [not necessary](#not-necessary)
   * [cannot / must not](#cannot-%2F-must-not)
   * [must](#must)
+  * [than](#than)
 ____
 
 # Links
@@ -433,11 +435,9 @@ ____
 
 # Patterns
 
-## can / may / mind
+## don't mind
 
-- verb in て form + もいい
-  * 食べてもいいですか。 - may I eat?
-  * 食べてもいいです。 - you can eat.
+- Vて + もいい
   * 食べてもいいです。 - I don't mind to eat it.
 
 ## not necessary
@@ -448,7 +448,7 @@ ____
 
 ## cannot / must not
 
-- verb in て form + はいけない
+- Vて + はいけない
   * 食べてはいけません。 - you must not eat.
   * 入ってはいけません。 - you must not enter.
   * 見てはいけません。 - you must not see.
