@@ -167,6 +167,16 @@
     + [to firmly reject a suggested fact](#to-firmly-reject-a-suggested-fact)
     + [polite way to respond to a praise](#polite-way-to-respond-to-a-praise)
     + [to give more context to avoid sounding too direct](#to-give-more-context-to-avoid-sounding-too-direct)
+  * [Chapter 16](#chapter-16)
+    + [may I? allow or disallow](#may-i%3F-allow-or-disallow)
+    + [not a must? allow or disallow](#not-a-must%3F-allow-or-disallow)
+    + [a must due to legal or social rules](#a-must-due-to-legal-or-social-rules)
+    + [action to prepare for another action](#action-to-prepare-for-another-action)
+    + [return to original state](#return-to-original-state)
+    + [to leave the state as it is](#to-leave-the-state-as-it-is)
+    + [stressing part of a sentence](#stressing-part-of-a-sentence)
+    + [asking if a state or condition is sufficient](#asking-if-a-state-or-condition-is-sufficient)
+    + [do it oneself](#do-it-oneself)
 ____
 
 ## Chapter 1
@@ -834,19 +844,19 @@ ____
 
 ### present continuous
 
-- verb in te-form + いる
+- Vて + いる
   * 私は今ご飯を食べています。
   * 私は今、勉強しています。
 
 ### past continuous
 
-- verb in te-form + いた
+- Vて + いた
   * 朝から雨が降っていました。
   * 朝から雨が降っていた。
 
 ### action as a short-term habit
 
-- verb in te-form + いる
+- Vて + いる
   * 私は毎朝コーヒーを飲んでいます。
   * 私は毎晩お風呂に入っています。
   * 問題を考える時、Remarkableを使っています。
@@ -868,7 +878,7 @@ ____
 
 ### describe a work type
 
-- ... + verb in te-form + いる
+- ... + Vて + いる
   * 海子さんのお父さんは寿司屋を経営しています。
   * 中学校で数学を教えています。
   * ソフトウェアを書いています。
@@ -933,10 +943,10 @@ ____
 
 ### please
 
-- verb in te-form + ください
+- Vて + ください
   * 書いてください。
 
-- verb in plain negative form + で + ください
+- Vない + で + ください
   * 書かないでください。
 
 - in casual speech ください can be skipped
@@ -964,11 +974,11 @@ ____
 
 ### subordinate clauses (従属節)
 
-- ... + plain form verb
-- ... + plain past form verb
-- ... + い-adjective
-- ... + な-adjective + だ
-- ... + noun + だ
+- ... + Vる
+- ... + Vた
+- ... + A
+- ... + ナだ
+- ... + Nだ
 
 ### I think
 
@@ -1076,12 +1086,12 @@ ____
 
 - conjugation
 
-| item         | affirmative          | negative                               |
-| ---          | ---                  | ---                                    |
-| noun         | noun + でしょう      | noun + ではないでしょう                |
-| な-adjective | adjective + でしょう | adjective + ではないでしょう           |
-| い-adjective | adjective + でしょう | adjective + くないでしょう             |
-| verb         | Vる + でしょう       | verb in plain negative form + でしょう |
+| item         | affirmative    | negative              |
+| ---          | ---            | ---                   |
+| noun         | N + でしょう   | N + ではないでしょう  |
+| な-adjective | ナ + でしょう  | ナ + ではないでしょう |
+| い-adjective | A + でしょう   | A + くないでしょう    |
+| verb         | Vる + でしょう | Vない + でしょう      |
 
 - examples
   * 私は多分雨が降るでしょう。
@@ -1100,7 +1110,7 @@ ____
 
 ### ends up / completely done
 
-- verb in te-form + しまう
+- Vて + しまう
   * 私は風邪を引いてしまいました。
   * 私は昨夜この本を全部読んでしまいました。
   * この古い雑誌を全部捨ててしまってください。
@@ -1125,7 +1135,7 @@ ____
 
 ### progressive state with transitive verb
 
-- transitive verb in te-form + いる
+- transitive Vて + いる
   - clothing + を + 着ている
     * 田中さんは白いセーターを着ています。
   - 着る
@@ -1165,7 +1175,7 @@ ____
 
 ### current state of a thing or matter regardless of state change previously
 
-- thing + が + intransitive verb in te-form + いる
+- thing + が + intransitive Vて + いる
   * 冷蔵庫の中にジュースが入っています。
   * 窓が開いている。
   * 電気がついていません。
@@ -1174,7 +1184,7 @@ ____
 
 ### current state of a thing or matter after a state change by an agent
 
-- thing + が + transitive verb in te-form + ある
+- thing + が + transitive Vて + ある
   * テーブルの上に花が飾ってあります。
   * うちは猫いるから、いつも窓が開けてある。
   * 靴下は全部この引き出しに入れてありますよ。
@@ -1192,15 +1202,15 @@ ____
 
 ### an action has not been done and cannot be controlled
 
-- thing + が + intransitive verb in negative form
+- thing + が + intransitive Vない/Vません
   * 犬のハチが一歩も動きません。
   * 瓶の蓋が開きません。
   * エアコンがつきません。
 
 ### already and still
 
-- もう + ... + verb in past form
-- まだ + ... + verb in te-form + いない
+- もう + ... + Vた/Vました
+- まだ + ... + Vて + いない
   * もうご飯を食べましたか。
     + はい、もう食べました。
     + いいえ、まだ食べていません。
@@ -1964,3 +1974,110 @@ ____
 - まだ知らない人もいるかもしれませんが、カラオケは日本人が発明したものです。
 - 生け花を習いたいんですが、いい先生を紹介してくださいませんか。
 - あそこに高いビルが見えますが、あれはなんですか。
+
+## Chapter 16
+
+### may I? allow or disallow
+
+- ... + Vて + もいいですか。
+  * はい、... + Vて + もいいです。
+  * いいえ、... + Vて + は + いけません。
+- 答えをボールペンで書いてもいいですか。
+  * はい、ボールペンで書いてもいいです。
+- （社長が社員に）今日は「冬至」ですから、早く帰ってもいいです。
+- 芝生で写真を撮りましょう。
+  * だめですよ。芝生に入ってはいけません。「立たないでください。」と書いてありますよ。
+- 試験の時、隣の人と話してはいけません。静かにしてください。
+- すみません。ここでたばこを吸ってもいいですか。
+  * ええ、どうぞ。
+- ここに荷物を置いてもいいですか。
+  * すみません。ここには置かないでください。
+- まだお酒を飲んではいけませんか。
+  * はい、飲んではいけません。もう少し我慢してください。
+
+### not a must? allow or disallow
+
+- ... + Vな + くてもいいですか。
+  * はい、... + Vな + くてもいいです。
+  * いいえ、... + Vな + ければいけません。
+- このドアはどうやってかぎをかけますか。
+  * このドアはオートロックです。かぎをかけなくてもいいです。
+- もう病院に来なくてもいいですか。
+  * はい、来なくてもいいですよ。
+- 私たちはもう帰ってもいいですか。
+  * いいえ、12時までここにいなければいけません。
+- 道を渡るとき、右と左をよく見なければいけないよ。
+  * うん、分かった。
+- 中村さんは土曜日も会社へ行かなければいけませんか。
+  * いいえ、土曜日は行かなくてもいいです。
+- 先生、辞書は買わなくてもいいですか。
+  * いいえ、辞書も買わなければいけません。
+
+### a must due to legal or social rules
+
+- Vな + ければなりません。
+- ATMでお金を下ろすとき、暗証番号を入れなければなりません。
+- 日本ではゴミは分別して、捨てなければなりません。香港ではどうですか。
+  * 香港もだんだんゴミを分別して捨てるようになっています。
+- アメリカに留学する人はこの試験を受けなければなりません。
+- 日本人は家を買うとき、消費税を払わなくてもいいですか。
+  * いいえ、払わなければなりません。
+- ３歳の子も入場料を払わなければなりませんか。
+  * いいえ、払わなくてもいいです。
+
+### action to prepare for another action
+
+- Vて + おきる
+- 明日海洋公園へ行きますから、早く宿題をしておきなさい。
+  * はい、今します。
+- 扇風機を買うんですか。
+  * ええ、もうすぐ夏ですから、買っておこうと思います。
+- 旅行する前に列車の時間を調べておきましょう。
+- 試験が始まる前に、解答用紙に受験番号を書いておいてください。
+- この寿司屋は平日はそんなに込んでいませんが、休日は必ず予約しておいてください。
+
+### return to original state
+
+- Vて + おきる
+- 財布やパスポートは、いつも引き出しにしまっておきます。
+- 教室を出るとき、電気と冷房を消しておかなければなりません。
+- 授業が終わった後で、誰がホワイトボードの字を消しておきますか。
+  * 私の学校ではそれは生徒の仕事です。
+- コップを洗っておきましょうか。
+
+### to leave the state as it is
+
+- Vて + おきる
+- 窓を開けてもいいですか。
+  * 寒いですから、閉めておいてください。
+- コップを洗っておきましょうか。
+  * 私がやりますから、そこに置いておいてください。
+
+### stressing part of a sentence
+
+- part to be stressed + のは + ... + です。
+- V + のは + ... + です。
+- Aい + のは + ... + です。
+- ナな + のは + ... + です。
+- 陳さんが住んでいるのはあのアパートです。
+- あのアパートに住んでいるのは陳さんです。
+- 私が日本へ来たのは3月です。
+- 高尾山は日本の山で一番高いですか。
+  * いいえ、日本の山で一番高いのは富士山です。
+- 鏡よ、鏡。世界で一番美しいのは誰？
+  * それは白雪姫様です。
+- マリアさんは歌が上手でしょう。
+  * いいえ、私は下手です。上手なのはリサさんですよ。
+
+### asking if a state or condition is sufficient
+
+- ... + でいいですか。
+- 答えはこれでいいですか。
+  * はい、それでいいです。
+- 次の予約は５月２４日の１０時でいいですか。
+
+### do it oneself
+
+- 自分で + ...
+- 人に聞かないで自分で考えなさい。
+- 自分のことは自分でしなさい。
