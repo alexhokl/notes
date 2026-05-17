@@ -674,7 +674,7 @@ ____
 
 ### move to do something
 
-- location + へ +  V + に + directional intransitive verb
+- location + へ +  R + に + directional intransitive verb
   * see [stem form](../verbs.md#stem-form)
   * に in the above examples marks the aim of action of the movement verb
   * 私は明日新宿へ靴お買いに行きます。
@@ -1104,7 +1104,7 @@ ____
 
 ### while
 
-- V-stem (sub action) + ながら + ...(main action)
+- R (sub action) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
   * 車を運転しながら携帯電話を使っていないでください。
 
