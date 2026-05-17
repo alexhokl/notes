@@ -674,7 +674,7 @@ ____
 
 ### move to do something
 
-- location + へ +  R + に + directional intransitive verb
+- location + へ +  R- + に + directional intransitive verb
   * see [stem form](../verbs.md#stem-form)
   * に in the above examples marks the aim of action of the movement verb
   * 私は明日新宿へ靴お買いに行きます。
@@ -977,8 +977,8 @@ ____
 - ... + Vる
 - ... + Vた
 - ... + A
-- ... + ナだ
-- ... + Nだ
+- ... + Naだ
+- ... + nounだ
 
 ### I think
 
@@ -1089,7 +1089,7 @@ ____
 | item         | affirmative    | negative              |
 | ---          | ---            | ---                   |
 | noun         | N + でしょう   | N + ではないでしょう  |
-| な-adjective | ナ + でしょう  | ナ + ではないでしょう |
+| な-adjective | Na + でしょう  | Na + ではないでしょう |
 | い-adjective | A + でしょう   | A + くないでしょう    |
 | verb         | Vる + でしょう | Vない + でしょう      |
 
@@ -2058,7 +2058,7 @@ ____
 - part to be stressed + のは + ... + です。
 - V + のは + ... + です。
 - Aい + のは + ... + です。
-- ナな + のは + ... + です。
+- Naな + のは + ... + です。
 - 陳さんが住んでいるのはあのアパートです。
 - あのアパートに住んでいるのは陳さんです。
 - 私が日本へ来たのは3月です。

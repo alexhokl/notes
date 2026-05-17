@@ -62,8 +62,8 @@ ____
   * ごもっとも - you are right
 - with verbs
   * patterns
-    + お/ご + verb stem / verbal noun + する
-    + お + verb stem / verbal noun + になる
+    + お/ご + R- / verbal noun + する
+    + お + R- / verbal noun + になる
   * examples
     + お預かりする - to look after
     + ご活躍する - to be active
@@ -663,7 +663,7 @@ ____
 
 - way of doing something
 - patterns
-  * verb in stem form + 方
+  * R- + 方
 - basic examples
   * 食べ方
   * 飲み方

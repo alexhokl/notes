@@ -350,7 +350,7 @@ ____
 
 ### に
 
-- verb (stem form) + に
+- R- + に
   * or ため + に
   * indicates the purpose of the verb
   * examples
@@ -1648,7 +1648,7 @@ ____
   * noun + さえ
   * い-adjective + さえ
   * な-adjective + で + さえ
-  * vern in stem form + さえ
+  * R- + さえ
 
 ### すら
 
@@ -1680,7 +1680,7 @@ ____
   * noun + すら
   * い-adjective + すら
   * な-adjective + で + すら
-  * vern in stem form + すら
+  * R- + すら
 
 ### くらい
 

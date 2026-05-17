@@ -641,7 +641,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - speaker's desire to do something
   * not someone else's desire
 - conjugation
-  * verb in stem form + たい
+  * R- + たい
 - it behaves like an い-adjective
   * it is an auxiliary adjective
 - for expressing spkeaker's desire
@@ -710,7 +710,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - to express someone else's desire to do something
 - がる means showing signs of
 - conjugation
-  * verb in stem form + たがる
+  * R- + たがる
 - present tense
   * うちの犬はいつも外に出たがる！
 - continuous form for current desires
@@ -724,7 +724,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - looks like someone or something is going to
 - patterns
-  * verb in stem form + そう
+  * R- + そう
 - in grammatical terms, it behaves like a な-adjective
 - for interpreting thing we can see
   * 今にも雨が降りそうです。
@@ -950,7 +950,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + またブロッコリーを食べなくなった。
       + He stopped eating broccoli again.
 - looks like someone or something is going to do
-  * verb in stem form + そう + に + なる
+  * R- + そう + に + なる
   * 泣きそうになった。
     + I almost cried.
   * 遅れそうになった。
@@ -1240,7 +1240,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - derived from the verb 過ぎる (to pass)
 - it has a relatively netural tone
 - patterns
-  * verb in stem form + すぎる
+  * R- + すぎる
   * い-adjective without い + すぎる
   * な-adjective + すぎる
   * noun + の + すぎる
@@ -1349,7 +1349,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - it is written in kana
 - ランチを食べておく
 - conjugation
-  * verb in て form + おく
+  * Vて + おく
   * in casual speech, ておく or でおく often becomes とく or どく respectively
 - for doing something in advance
   * 来年日本に行くので、日本語を勉強しておく。
@@ -1433,7 +1433,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 早く終わってほしい。
     + I want this to end quickly.
 - conjugation
-  * verb in て form + ほしい
+  * Vて + ほしい
 - it behaves like an い-adjective
 - the information about who the speaker wants to do the thing is often omitted
   when it is clear from the context or not critical
@@ -1594,7 +1594,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 ## たて
 
-- Vたて + (の) + noun
+- R- + たて + (の) + noun
 - requirements
   * indicating a change of state
   * an intentional action
