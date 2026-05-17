@@ -48,8 +48,8 @@
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
     + [verb pairs](#verb-pairs)
-    + [verbs (transitive)](#verbs-transitive)
-    + [verbs (intransitive)](#verbs-intransitive)
+    + [transitive verbs](#transitive-verbs)
+    + [intransitive verbs](#intransitive-verbs)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
     + [verbs (direction intransitive)](#verbs-direction-intransitive)
     + [expressions](#expressions)
@@ -89,8 +89,8 @@
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
     + [verb pairs](#verb-pairs-1)
-    + [verbs (transitive)](#verbs-transitive-1)
-    + [verbs (intransitive)](#verbs-intransitive-1)
+    + [transitive verbs](#transitive-verbs-1)
+    + [intransitive verbs](#intransitive-verbs-1)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
     + [expressions](#expressions-1)
   * [N3](#n3)
@@ -129,8 +129,8 @@
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
     + [verb pairs](#verb-pairs-2)
-    + [verbs (transitive)](#verbs-transitive-2)
-    + [verbs (intransitive)](#verbs-intransitive-2)
+    + [transitive verbs](#transitive-verbs-2)
+    + [intransitive verbs](#intransitive-verbs-2)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-2)
     + [expressions](#expressions-2)
   * [N2](#n2)
@@ -169,8 +169,8 @@
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
     + [verb pairs](#verb-pairs-3)
-    + [verbs (transitive)](#verbs-transitive-3)
-    + [verbs (intransitive)](#verbs-intransitive-3)
+    + [transitive verbs](#transitive-verbs-3)
+    + [intransitive verbs](#intransitive-verbs-3)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
@@ -208,8 +208,8 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-4)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-4)
-    + [verbs (transitive)](#verbs-transitive-4)
-    + [verbs (intransitive)](#verbs-intransitive-4)
+    + [transitive verbs](#transitive-verbs-4)
+    + [intransitive verbs](#intransitive-verbs-4)
     + [verb pairs](#verb-pairs-4)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
     + [expressions](#expressions-4)
@@ -240,6 +240,7 @@
     + [nouns (clothing)](#nouns-clothing-5)
     + [nouns (transportation)](#nouns-transportation-5)
     + [nouns (animals)](#nouns-animals-5)
+    + [nouns (cats)](#nouns-cats)
     + [nouns (body parts)](#nouns-body-parts-5)
     + [nouns (position)](#nouns-position-5)
     + [nouns (home)](#nouns-home-5)
@@ -262,10 +263,11 @@
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-5)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-5)
     + [verb pairs](#verb-pairs-5)
-    + [verbs (transitive)](#verbs-transitive-5)
-    + [verbs (intransitive)](#verbs-intransitive-5)
+    + [transitive verbs](#transitive-verbs-5)
+    + [intransitive verbs](#intransitive-verbs-5)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-5)
     + [verbs (direction intransitive)](#verbs-direction-intransitive-1)
+    + [onomatopoeic](#onomatopoeic)
     + [expressions](#expressions-5)
 ____
 
@@ -279,11 +281,11 @@ ____
 
 ### conjunctions
 
-- じゃあ - then
 - 然し (しかし) - however; but
 - 而して (そして) - thus; and then
 - 其れから (それから) - and then
 - それでは - well; right; then
+- じゃあ - then
 - 次に (つぎに) - next; then; after that
 - では - then
 - でも - but
@@ -301,13 +303,13 @@ ____
 - 大変 (たいへん) - very; greatly; terribly
 - たくさん - a lot; too many (on countables)
 - 多分 (たぶん) - maybe; probably
-- 段々 (だんだん) - gradually
-- 些とも (ちっとも) - not at all
 - 丁度 (ちょうど) - exactly
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat
+- 些とも (ちっとも) - not at all
 - 時々 (ときどき) - sometimes; occasionally
 - 迚も (とても) - very
+- 段々 (だんだん) - gradually
 - 如何して (どうして) - why; how
 - どうぞ - please; go ahead
 - なぜ - why
@@ -378,16 +380,16 @@ ____
 
 ### adjectives (な)
 
-- 色々 (いろいろ) - various
 - 嫌 (いや) - dislike; not wanting
+- 色々 (いろいろ) - various
 - 嫌い (きらい) - dislike
 - 綺麗 (きれい) - beautiful; clean
 - 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
   also as adverb) quite
 - 静か (しずか) - quiet
+- 好き (すき) - like
 - 上手 (じょうず) - skillful; good (at)
 - 丈夫 (じょうぶ) - strong
-- 好き (すき) - like
 - 大切 (たいせつ) - important
 - 大変 (たいへん) - difficult; hard; challenging; immense; great
 - 大好き (だいすき) - liking very much; love
@@ -410,8 +412,8 @@ ____
 
 - 彼処 (あそこ) - over there
 - 彼 (あれ) - that over there
-- 此方 (こちら) - this way; here; this; this person; aka こっち
 - 此処 (ここ) - here
+- 此方 (こちら) - this way; here; this; this person; aka こっち
 - 此れ (これ) - this
 - 其処 (そこ) - there
 - 其れ (それ) - that
@@ -435,46 +437,46 @@ ____
 ### nouns
 
 - 医者 (いしゃ) - doctor; physician
-- 一緒 (いっしょ) - together; the same
 - 色 (いろ) - color
+- 一緒 (いっしょ) - together; the same
 - 歌 (うた) - song; singing; classical Japanese poem
 - 海 (うみ) - sea
 - 絵 (え) - picture; drawing; painting; sketch
 - 映画 (えいが) - movie
 - 鉛筆 (えんぴつ) - pencil
+- 音 (おと) - sound; noise
 - 男 (おとこ) - male
 - 男の子 (おとこのこ) - boy
 - 男の人 (おとこのひと) - man
-- 音 (おと) - sound; noise
+- 同じ (おなじ) - same; identical; equal
 - 伯母さん (おばさん) - aunt
+- 音楽 (おんがく) - music
 - 女 (おんな) - female
 - 女の子 (おんなのこ) - girl
 - 女の人 (おんなのひと) - woman
-- 音楽 (おんがく) - music
-- 同じ (おなじ) - same; identical; equal
 - 会社 (かいしゃ) - company
 - 階段 (かいだん) - stairs
 - 鍵 (かぎ) - key; lock
 - 傘 (かさ) - umbrella
+- 風 (かぜ) - wind; manner; behaviour; cold; influenza
 - 方 (かた) - person (polite); way; direction; method of
 - 鞄 (かばん) - bag
 - 紙 (かみ) - paper
 - カレンダー - calendar
-- 風 (かぜ) - wind; manner; behaviour; cold; influenza
-- ギター - guitar
 - キロ - kilometer
 - 切手 (きって) - stamp
 - 声 (こえ) - voice; sound
+- ギター - guitar
 - 財布 (さいふ) - wallet; purse
 - 先 (さき) - point; tip; end; nozzle; head (of a line); front; first; before;
   ahead (of); (the way) ahead; beyond; future; previous; prior; former; recent;
   last
-- 雑誌 (ざっし) - magazine
+- 新聞 (しんぶん) - newspaper
 - 写真 (しゃしん) - photograph
 - 主人 (しゅじん) - husband; head of household; landlord; employer;
   restaurant owner
-- 新聞 (しんぶん) - newspaper
 - 空 (そら) - sky; the air
+- 雑誌 (ざっし) - magazine
 - 地図 (ちず) - map
 - 次 (つぎ) - next
 - 手紙 (てがみ) - letter
@@ -488,9 +490,9 @@ ____
 - 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
   negotiation; argument; rumor; tale; story
 - 人 (ひと) - person; someone
-- プール - swimming pool; american pool (cue sport)
 - 他 (ほか) - other; another
 - 本当 (ほんとう) - real; proper
+- プール - swimming pool; american pool (cue sport)
 - 町 (まち) - town; neighborhood
 - 道 (みち) - road; path; street; lane; passage
 - 皆 (みな) - everyone; everything
@@ -498,22 +500,22 @@ ____
 - メガネ - glasses
 - 物 (もの) - thing
 - 問題 (もんだい) - problem (question)
-- 山 (やま) - mountain
 - 休み (やすみ) - rest; holiday
+- 山 (やま) - mountain
 
 ### nouns (academic)
 
 - 英語 (えいご) - English
-- 学校 (がっこう) - school
 - 教室 (きょうしつ) - classroom
 - クラス - class
 - 高校 (こうこう) - high school
 - 言葉 (ことば) - word; language
+- 学校 (がっこう) - school
 - 小学 (しょうがく) - elementary school
-- 辞書 (じしょ) - dictionary
 - 先生 (せんせい) - teacher; master
-- 大学 (だいがく) - university; college
+- 辞書 (じしょ) - dictionary
 - 中学 (ちゅうがく) - junior high school
+- 大学 (だいがく) - university; college
 - ノート - notebook
 - 本 (ほん) - book
 
@@ -531,14 +533,18 @@ ____
 - 一昨日 (おととい) - day before yesterday
 - 一昨年 (おととし) - year before last
 - 火曜日 (かようび) - Tuesday
+- 昨日 (きのう) - yesterday
+- 金曜日 (きんようび) - Friday
+- 今日 (きょう) - today
+- 去年 (きょねん) - last year
 - 今朝 (けさ) - this morning
-- 月曜日 (げつようび) - Monday
+- 今年 (ことし) - this year
+- この間 (このあいだ) - the other day; recently; during this period
+- この前 (このまえ) - the other day; previously; recently
 - 今月 (こんげつ) - this month
 - 今週 (こんしゅう) - this week
 - 今晩 (こんばん) - tonight
-- この間 (このあいだ) - the other day; recently; during this period
-- この前 (このまえ) - the other day; previously; recently
-- 今年 (ことし) - this year
+- 月曜日 (げつようび) - Monday
 - 午後 (ごご) - PM
 - 午前 (ごぜん) - AM
 - 再来月 (さらいげつ) - month after next
@@ -571,10 +577,6 @@ ____
 - 来月 (らいげつ) - next month
 - 来週 (らいしゅう) - next week
 - 来年 (らいねん) - next year
-- 金曜日 (きんようび) - Friday
-- 昨日 (きのう) - yesterday
-- 今日 (きょう) - today
-- 去年 (きょねん) - last year
 
 ### nouns (food)
 
@@ -589,8 +591,8 @@ ____
 - 軟骨 (なんこつ) - cartilage
 - 鶏 (にわとり) - chicken
 - 蜂蜜 (はちみつ) - honey
-- パン - bread
 - 豚肉 (ぶたにく) - pork
+- パン - bread
 - 水 (みず) - water
 - 焼き (やき) - grilled; fried
 
@@ -605,8 +607,8 @@ ____
 - 茄子 (なす) - eggplant
 - 人参 (にんじん) - carrot
 - 葱 (ねぎ) - green onion; spring onion
-- ピーマン - bell pepper
 - ほうれん草 (ほうれんそう) - spinach
+- ピーマン - bell pepper
 - 野菜 (やさい) - vegetable
 
 ### nouns (fruits)
@@ -614,13 +616,13 @@ ____
 - 果物 (くだもの) - fruit
 - 西瓜 (すいか) - watermelon
 - バナナ - banana
-- パイナップル - pineapple
 - 葡萄 (ぶどう) - grape
+- パイナップル - pineapple
 - 蜜柑 (みかん) - mandarin orange
 - メロン - melon
 - 桃 (もも) - peach
-- レモン - lemon
 - 林檎 (りんご) - apple
+- レモン - lemon
 
 ### nouns (drinks)
 
@@ -635,24 +637,24 @@ ____
 - 池 (いけ) - pond
 - 映画館 (えいがかん) - cinema
 - お手洗い (おてあらい) - restroom
-- 銀行 (ぎんこう) - bank
 - 喫茶店 (きっさてん) - teahouse
 - 公園 (こうえん) - park
+- 銀行 (ぎんこう) - bank
 - 食堂 (しょくどう) - canteen
 - 建物 (たてもの) - building
-- 所 (ところ) - place; site
 - トイレ - toilet
+- 所 (ところ) - place; site
 - 図書館 (としょかん) - library
+- デパート - department store
 - 庭 (にわ) - garden
-- 病院 (びょういん) - hospital; clinic
-- ビル - multi-storey building
 - 辺 (へん) - area; region; side (mathematics)
 - ホテル - hotel
+- ビル - multi-storey building
+- 病院 (びょういん) - hospital; clinic
 - マンション - condominium; apartment building
 - 店 (みせ) - shop
 - 郵便局 (ゆうびんきょく) - post office
 - レストラン - restaurant
-- デパート - department store
 
 ### nouns (restaurants)
 
@@ -666,8 +668,8 @@ ____
 - 靴下 (くつした) - socks
 - コート - coat
 - シャツ - shirt
-- 洋袴 (ズボン) - trousers
 - セーター - sweater; jumper
+- 洋袴 (ズボン) - trousers
 - ネクタイ - necktie; tie
 - ハンカチ - handkerchief
 - 帽子 (ぼうし) - hat
@@ -682,16 +684,16 @@ ____
 - タクシー - taxi
 - 地下鉄 (ちかてつ) - subway; metro; underground
 - 電車 (でんしゃ) - train
+- 飛行機 (ひこうき) - airplane
 - バス - bus
 - バス停 (バスてい) - bus stop
-- 飛行機 (ひこうき) - airplane
 
 ### nouns (animals)
 
 - 犬 (いぬ) - dog
 - 魚 (さかな) - fish
-- 動物 (どうぶつ) - animal
 - 鳥 (とり) - bird
+- 動物 (どうぶつ) - animal
 - 猫 (ねこ) - cat
 - パット - pet
 
@@ -706,8 +708,8 @@ ____
 - 手 (て) - hand; arm
 - 歯 (は) - tooth
 - 鼻 (はな) - nose
-- 目 (め) - eye
 - 耳 (みみ) - ear
+- 目 (め) - eye
 
 ### nouns (position)
 
@@ -720,8 +722,8 @@ ____
 - 外 (そと) - outside
 - 側 (そば) - beside
 - 近く (ちかく) - near; recently; soon
-- 隣 (となり) - next to
 - 遠く (とおく) - far
+- 隣 (となり) - next to
 - 中 (なか) - middle (inside)
 - 西 (にし) - west
 - 東 (ひがし) - east
@@ -736,29 +738,29 @@ ____
 
 - 椅子 (いす) - chair
 - 花瓶 (かびん) - vase
-- 玄関 (げんかん) - front door
 - コップ - cup
+- 玄関 (げんかん) - front door
 - シャワー - shower
 - ストーブ - stove
 - スプーン - spoon
-- 台所 (だいどころ) - kitchen
 - 机 (つくえ) - desk
-- テーブル - table
 - テレビ - television
+- テーブル - table
+- 時計 (とけい) - clock; watch
+- 台所 (だいどころ) - kitchen
 - 電気 (でんき) - electricity; light
 - ドア - door
-- 時計 (とけい) - clock; watch
 - 箱 (はこ) - box
 - 箸 (はし) - chopsticks
-- ベッド - bed
+- 風呂 (ふろ) - bath
+- フォーク - fork
 - 部屋 (へや) - room
 - 本棚 (ほんだな) - bookshelf
-- フォーク - fork
-- 風呂 (ふろ) - bath
+- ベッド - bed
 - 窓 (まど) - window
 - ラジオ - radio
-- 冷凍庫 (れいとうこ) - freezer
 - 冷蔵庫 (れいぞうこ) - refrigerator
+- 冷凍庫 (れいとうこ) - freezer
 - 廊下 (ろうか) - corridor
 
 ### nouns (sports)
@@ -771,9 +773,9 @@ ____
 - 亜米利加 (アメリカ) - United States
 - 英吉利 (イギリス) - England
 - 欧米 (おうべい) - Europe and american
-- 外国 (がいこく) - foreign country
 - 韓国 (かんこく) - Korea
 - 国 (くに) - country
+- 外国 (がいこく) - foreign country
 - 瑞西 (スイス) - Switzerland
 - 西班牙 (スペイン) - Spain
 - 中国 (ちゅうごく) - China
@@ -868,11 +870,11 @@ ____
 - 付く (つく) - to be turned on; to be attachedd
   * 付ける (つける) - to attach; to join; to wear; to put on; to turn on (a
     light)
+- 止まる (とまる) - to stop; to come to a halt
+  * 止める (とめる) - to stop; to cancel
 - 出る (でる) - to leave; to appear; to attend
   * 出す (だす) - to take out; to put out; to submit; to publish; to send (a
     letter)
-- 止まる (とまる) - to stop; to come to a halt
-  * 止める (とめる) - to stop; to cancel
 - 並ぶ (ならぶ) - to line up; to stand in a line
   * 並べる (ならべる) - to line up; to set up; to arrange in a line
 - 寝る (ねる) - to sleep
@@ -891,7 +893,7 @@ ____
 - 渡る (わたる) - to cross over; to go across; to extend
   * 渡す (わたす) - to ferry across; to hand out; to give
 
-### verbs (transitive)
+### transitive verbs
 
 - 浴びる (あびる) - to take a shower
 - 洗う (あらう) - to wash
@@ -902,6 +904,7 @@ ____
 - 教える (おしえる) - to teach
 - 押す (おす) - to push; to press
 - 覚える (おぼえる) - to memorise; to learn; to remember
+- 返す (かえす) - to return (something); to restore; to respond (with)
 - 買う (かう) - to buy
 - 書く (かく) - to write; to draw
 - 貸す (かす) - to lend; to rent out
@@ -911,8 +914,8 @@ ____
 - 締める (しめる) - to tie; to fasten; to tighten
 - 知る (しる) - to know; to be aware of; to find out; to discover
 - 吸う (すう) - to inhale; to breathe in; to suck; to smoke
-- 食べる (たべる) - to eat
 - 頼む (たのむ) - to entrust to
+- 食べる (たべる) - to eat
 - 使う (つかう) - to use; to make use of
 - 作る (つくる) - to make
 - 勤める (つとめる) - to work for; to be employed at; to serve in
@@ -931,7 +934,7 @@ ____
 - 読む (よむ) - to read
 - 忘れる (わすれる) - to forget
 
-### verbs (intransitive)
+### intransitive verbs
 
 - 会う (あう) - to meet
 - 遊ぶ (あそぶ) - to play (games, sports); to enjoy oneself; to have a good time
@@ -948,16 +951,16 @@ ____
   (as an emotion); to hold up (an umbrella); to put on (lipstick); to light (a
   fire)
 - 死ぬ (しぬ) - to die
-- 授業 (じゅぎょう) - lesson; class
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
+- 授業 (じゅぎょう) - lesson; class
 - 立つ (たつ) - to stand
 - 違う (ちがう) - to be different; to be incorrect
 - 疲れる (つかれる) - to get tired; to become exhausted
 - 着く (つく) - to arrive at; to reach; to sit on
+- 飛ぶ (とぶ) - to fly
 - 出かける (でかける) - to go out; to leave
 - 出来る (できる) - to be able to do; to be good at; to be ready
-- 飛ぶ (とぶ) - to fly
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 成る (なる) - to become
 - 上る (のぼる) - to ascend; to go up; to climb; to rise; aka 昇る
@@ -1016,9 +1019,9 @@ ____
 - 今度 (こんど) - next time; this time; recently
 - 最近 (さいきん) - recently; lately
 - 先 (さっき) - a moment ago
-- 確り (しっかり) - tightly; strongly; properly; reliably
 - 暫く (しばらく) - for a moment; for a while; for the time being
 - 将来 (しょうらい) - future; prospects
+- 確り (しっかり) - tightly; strongly; properly; reliably
 - 確かに (たしかに) - surely; certainly
 - 偶に (たまに) - occasionally; once in a while; now and then
 - 些とも (ちっとも) - not at all
@@ -1043,9 +1046,9 @@ ____
 - 寂しい (さびしい) - lonely
 - 凄い (すごい) - amazing; wonderful; terrible; dreadful
 - 正しい (ただしい) - correct
-- 恥ずかしい (はずかしい) - embarrassed; ashamed; humiliated
 - 苦い (にがい) - bitter
 - 眠い (ねむい) - sleepy; drowsy (aka 睡い)
+- 恥ずかしい (はずかしい) - embarrassed; ashamed; humiliated
 - 珍しい (めずらしい) - rare
 - 優しい (やさしい) - gentle; kind
 
@@ -1053,8 +1056,8 @@ ____
 
 - 一生懸命 (いっしょうけんめい) - with utmost effort; very hard; for dear life
 - 急 (きゅう) - sudden; urgent
-- 残念 (ざんねん) - regrettable; disappointing; unfortunate
 - 親切 (しんせつ) - kind
+- 残念 (ざんねん) - regrettable; disappointing; unfortunate
 - 確か (たしか) - certain; sure; reliable
 - 丁寧 (ていねい) - polite
 - 特別 (とくべつ) - special; particular
@@ -1066,8 +1069,8 @@ ____
 
 ### pronouns (person)
 
-- 彼 (かれ) - he; boyfriend
 - 彼女 (かのじょ) - she; girlfriend
+- 彼 (かれ) - he; boyfriend
 - 君 (きみ) - you (friendly; musculine; poetic)
 
 ### pronouns (location)
@@ -1082,8 +1085,8 @@ ____
 - 間 (あいだ) - interval; space; between
 - 味 (あじ) - taste; flavour
 - 医学 (いがく) - medical science; medicine
-- 一杯 (いっぱい) - one cup; one glass; full
 - 以上 (いじょう) - above; note less than; that is all
+- 一杯 (いっぱい) - one cup; one glass; full
 - エスカレーター - escalator
 - 玩具 (おもちゃ) - toy
 - 鏡 (かがみ) - mirror
@@ -1096,47 +1099,47 @@ ____
 - 興味 (きょうみ) - interest (in something); curiosity (about something); (not used for hobbies)
 - 空気 (くうき) - air; atmosphere; mood
 - 雲 (くも) - cloud
-- 経済 (けいざい) - economy; economics
 - 警察 (けいさつ) - police
 - 警察官 (けいさつかん) - police officer
+- 経済 (けいざい) - economy; economics
 - 消しゴム (けしゴム) - eraser
 - 喧嘩 (けんか) - quarrel; fight; brawl; argument
 - 公務員 (こうむいん) - civil servant
 - コンピュータ - computer
 - 坂 (さか) - slope; hill; incline
+- 品物 (しなもの) - goods; article; thing; item
+- 新聞社 (しんぶんしゃ) - newspaper company
+- 社長 (しゃちょう) - company president; manager; director
+- 習慣 (しゅうかん) - habit
 - 趣味 (しゅみ) - hobby; pastime
+- 席 (せき) - seat
+- 先輩 (せんぱい) - senior
 - 字 (じ) - character; kanji
 - 事故 (じこ) - accident
 - 地震 (じしん) - earthquake
-- 社長 (しゃちょう) - company president; manager; director
-- 習慣 (しゅうかん) - habit
 - 住所 (じゅうしょ) - address
 - 女性 (じょせい) - female
-- 品物 (しなもの) - goods; article; thing; item
-- 新聞社 (しんぶんしゃ) - newspaper company
-- 席 (せき) - seat
-- 先輩 (せんぱい) - senior
-- 男性 (だんせい) - male
-- 積もり (つもり) - intention; plan; belief; estimate
+- 為 (ため) - sake; purpose; objective; aim
 - 都合 (つごう) - convenience; circumstances
-- 手袋 (てぶくろ) - gloves
+- 積もり (つもり) - intention; plan; belief; estimate
 - テニス - tennis
+- 手袋 (てぶくろ) - gloves
 - 店員 (てんいん) - shop assistant
+- 男性 (だんせい) - male
 - 電灯 (でんとう) - electric light
-- 値段 (ねだん) - price; cost
 - 人形 (にんぎょう) - doll
+- 値段 (ねだん) - price; cost
 - ハンドバック - handbag
-- 番組 (ばんぐみ) - programme
 - 引き出し (ひきだし) - drawer
 - 昼休み (ひるやすみ) - lunch break
 - 普通 (ふつう) - normal; ordinary
 - 星 (ほし) - star
+- 番組 (ばんぐみ) - programme
 - 漫画 (まんが) - manga
-- 訳 (わけ) - meaning; reason
-- 用事 (ようじ) - business; things to do; errand
 - 指輪 (ゆびわ) - ring
+- 用事 (ようじ) - business; things to do; errand
 - 両方 (りょうほう) - both; both sides
-- 為 (ため) - sake; purpose; objective; aim
+- 訳 (わけ) - meaning; reason
 
 ### nouns (academic)
 
@@ -1176,11 +1179,11 @@ ____
 - うち - home
 - 売り場 (うりば) - selling area; sales counter; department (in a store); sales
   floor
-- ガソリンスタンド - gas station
 - 空港 (くうこう) - airport
 - 工場 (こうじょう) - factory
-- 神社 (じんじゃ) - Shinto shrine
+- ガソリンスタンド - gas station
 - 市 (し) - city
+- 神社 (じんじゃ) - Shinto shrine
 - 寺 (てら) - temple
 - 二階建て (にかいだて) - two-storied building
 - 場所 (ばしょ) - place
@@ -1260,8 +1263,8 @@ ____
 - アルバイト - part-time job (from German "Arbeit")
 - 卒業 (そつぎょう) - graduation
 - 退院 (たいいん) - discharge from hospital
-- 入学 (にゅうがく) - admission to school
 - 入院 (にゅういん) - hospitalization
+- 入学 (にゅうがく) - admission to school
 - 反対 (はんたい) - opposition; resistance
 - 返事 (へんじ) - reply; answer
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
@@ -1276,8 +1279,6 @@ ____
   * 動かす (うごかす) - to move
 - 落ちる (おちる) - to fall; to disappear; to fail; to lose; to drop
   * 落とす (おとす) - to drop; to lose; to leave behind
-- 変わる (かわる) - to change
-  * 変える (かえる) - to change
 - 乾く (かわく) - to get dry
   * 乾かす (かわかす) - to dry
 - 変わる (かわる) - to change
@@ -1294,18 +1295,20 @@ ____
     to overthrow; to leave unpaid; to do completely
 - 続く (つづく) - to continue
   * 続ける (つづける) - to continue
+- 泊まる (とまる) - to stay (e.g. hotel)
+  * 泊める (とめる) - to give shelter to; to accommodate
 - 治る (なおる) - to get better; to get well; to recover (from an illness); to
   be cured; to be restored; to heal
   * 治す (なおす) - to cure; to heal
 
-### verbs (transitive)
+### transitive verbs
 
 - 致す (いたす) - to do (humble language)
 - 受ける (うける) - to receive; to take (an exam / a lesson)
 - 送る (おくる) - to send; to escort; to say goodbye to; to dispatch
 - 思う (おもう) - to consider; to plan (on a general topic)
-- 片付ける (かたづける) - to tidy up; to put in order
 - 飾る (かざる) - to decorate; to display
+- 片付ける (かたづける) - to tidy up; to put in order
 - 考える (かんがえる) - to think (on a specific topic)
 - 決める (きめる) - to decide
 - 比べる (くらべる) - to compare
@@ -1327,7 +1330,7 @@ ____
 - 間違える (まちがえる) - to make a mistake
 - 迎える (むかえる) - to welcome; to greet
 
-### verbs (intransitive)
+### intransitive verbs
 
 - 遅れる (おくれる) - to be late
 - 踊る (おどる) - to dance; to be manipulated
@@ -1340,17 +1343,16 @@ ____
 - 足りる (たりる) - to be sufficient; to be enough
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
   road; to take (a route); to go via
-- 泊まる (とまる) - to stay (e.g. hotel)
 - 泣く (なく) - to cry (human); to weep
 - なくなる - to be lost (e.g. luggage); to be used up; to disappear (e.g. pain)
 - 鳴る (なる) - to sound (from a thing); to ring
 - 慣れる (なれる) - to get used to; to become familiar with
+- 逃げる (にげる) - to escape
+- 似る (にる) - to look like; to be alike; to be similar
 - 濡れる (ぬれる) - to get wet
 - 光る (ひかる) - to shine
 - 引っ越す (ひっこす) - to move (residence)
 - 太る (ふとる) - to gain weight
-- 逃げる (にげる) - to escape
-- 似る (にる) - to look like; to be alike; to be similar
 - 参る (まいる) - to go; to come; to call
 - 間に合う (まにあう) - to be in time (for); to serve the purpose
 - 戻る (もどる) - to return
@@ -1392,20 +1394,22 @@ ____
 ### adverbs
 
 - 恐らく (おそらく) - probably; I'm afraid
+- かなり - considerably; quite; fairly; pretty
 - こんなに - this much
 - 少々 (しょうしょう) - a little
 - すで - already
 - 既に (すでに) - already; previously; before; undeniably
 - 全て (すべて) - entirely; wholly; completely; all
+- そのまま - as is; without change; just like
+- そろそろ - soon
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
 - 是非 (ぜひ) - certainly
 - 全然 (ぜんぜん) - totally
-- そのまま - as is; without change; just like
-- そろそろ - soon
 - たっぷり - plentifully; a lot; a good (e.g. two weeks, ten kilometres); a full; at least; no less than
 - ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
+- のんびり - at leisure
 - まあ - well; I mean
 - 先ず (まず) - first (of all)
 - 勿論 (もちろん) - of course; certainly; naturally
@@ -1421,13 +1425,14 @@ ____
 - 素晴らしい (すばらしい) - wonderful
 - 違いない (ちがいない) - without a doubt; for sure; certainly
 - 辛い (つらい) - painful; tough; difficult (emotionally)
+- とんでもない - unthinkable; unexpected; absolutely not; no way
 
 ### adjectives (な)
 
 - 幸せ (しあわせ) - happiness; good fortune; luck; blessing
 - 新鮮 (しんせん) - fresh
-- 邪魔 (じゃま) - disturbance; obstruction
 - 素敵 (すてき) - lovely; wonderful; nice
+- 邪魔 (じゃま) - disturbance; obstruction
 - たっぷり - full of; a lot of; plenty of
 - 駄目 (だめ) - no good
 - 苦手 (にがて) - poor at; weak in; not good at
@@ -1454,69 +1459,69 @@ ____
 - 相手 (あいて) - companion; partner; opponent
 - アルバム - album
 - 息 (いき) - breath
-- 居間 (いま) - living room
 - 以前 (いぜん) - before; ago
+- 居間 (いま) - living room
 - 餌 (えさ) - feed (for animals); pet food
 - 大家 (おおや) - landlord; landlady
-- 柄 (がら) - pattern
 - 雷 (かみなり) - thunder; lightning
 - 機嫌 (きげん) - mood; temper; spirits; humour
-- 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
 - 記事 (きじ) - article; news story; report; account
+- 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
 - 旧 (きゅう) - old; former; ex-
 - 給料 (きゅうりょう) - salary; wages
 - 教科書 (きょうかしょ) - textbook
-- クラシック - classical music
 - 暮らし (くらし) - life; living
+- クラシック - classical music
 - クリスマス - Christmas
-- ケース - case
 - 煙 (けむり) - smoke
+- ケース - case
 - 恋人 (こいびと) - lover
 - 黒板 (こくばん) - blackboard
-- 頃 (ころ) - (approximate) time
 - 事 (こと) - thing; matter
+- 頃 (ころ) - (approximate) time
+- 柄 (がら) - pattern
 - 桜 (さくら) - cherry blossom
-- 咳 (せき) - cough
 - 支払い (しはらい) - payment
+- 種類 (しゅるい) - kind; variety; type; category; class
+- 出身 (しゅっしん) - one's origin (city, country, school, etc.)
+- 書類 (しょるい) - documents; papers
+- 姿 (すがた) - figure; shape; appearance; form
+- スタンド - stand
+- スピーチ - speech
+- 咳 (せき) - cough
+- ソファー - sofa
 - 事件 (じけん) - incident; affair; event
 - 自身 (じしん) - oneself; yourself; himself; herself
 - 事実 (じじつ) - fact; truth
 - 自慢 (じまん) - pride
-- 状況 (じょうきょう) - state of affairs; situation; conditions
-- 書類 (しょるい) - documents; papers
-- 種類 (しゅるい) - kind; variety; type; category; class
-- 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 - 順 (じゅん) - order; sorting
 - 順番 (じゅんばん) - order; turn
-- 姿 (すがた) - figure; shape; appearance; form
-- スタンド - stand
-- スピーチ - speech
-- ソファー - sofa
+- 状況 (じょうきょう) - state of affairs; situation; conditions
 - 太陽 (たいよう) - sun
 - ただ - free of charge; only (adverb); but (conjunction)
-- 大統領 (だいとうりょう) - president
 - 違い (ちがい) - difference
 - 調子 (ちょうし) - condition; state of health; tune
 - 月 (つき) - moon
+- 大統領 (だいとうりょう) - president
 - 度 (ど) - degree; counter for occurrences; strength
-- 独身 (どくしん) - single
 - 同僚 (どうりょう) - colleague; co-worker
+- 独身 (どくしん) - single
 - ドラマ - drama
 - 仲間 (なかま) - companion; fellow; mate; friend
 - 匂い (におい) - smell; odour; scent
 - 年代 (ねんだい) - year or generation (for vintage)
 - 俳優 (はいゆう) - actor; actress; player; performer
 - 幅 (はば) - width
-- バイオリン - violin
 - 被害 (ひがい) - damage; injury
 - 費用 (ひよう) - cost
-- 瓶 (びん) - bottle; jar
 - 袋 (ふくろ) - bag; sack; pouch
 - 普段 (ふだん) - usual
+- 保証人 (ほしょうにん) - guarantor
+- バイオリン - violin
+- 瓶 (びん) - bottle; jar
 - 文 (ぶん) - sentence; composition; text; writings; literature; statement
   (computing)
 - ベルト - belt
-- 保証人 (ほしょうにん) - guarantor
 - マスター - owner
 - 間違い (まちがい) - mistake; error
 - 丸 (まる) - circle
@@ -1536,8 +1541,8 @@ ____
 
 ### nouns (animals)
 
-- 牛 (うし) - cow
 - 兎 (うさぎ) - rabbit
+- 牛 (うし) - cow
 - 馬 (うま) - horse
 - 象 (ぞう) - elephant
 - 虎 (とら) - tiger
@@ -1561,8 +1566,8 @@ ____
 - アイスクリーム - ice cream
 - 菓子 (かし) - confectionery; sweets
 - クリーム - cream; ice cream
-- チーズ - cheese
 - 昼食 (ちゅうしょく) - lunch
+- チーズ - cheese
 - 生 (なま) - raw; uncooked
 - 弁当 (べんとう) - Japanese lunch box
 - ミルク - milk
@@ -1607,8 +1612,8 @@ ____
 ### nouns (transportation)
 
 - 停留所 (ていりゅうじょ) - stopping place
-- 道路 (どうろ) - road; highway
 - トラック - truck
+- 道路 (どうろ) - road; highway
 - ホーム - platform
 
 ### nouns (technology)
@@ -1635,19 +1640,19 @@ ____
 
 - 案内 (あんない) - guidance; information
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
-- 我慢 (がまん) - patience
 - 観光 (かんこう) - sightseeing
 - 計画 (けいかく) - plan; project; schedule
 - 経験 (けいけん) - experience
 - 建築 (けんちく) - architecture; construction
-- 承認 (しょうにん) - approval; acknowledgment; consent
+- 我慢 (がまん) - patience
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
-- 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
+- 承認 (しょうにん) - approval; acknowledgment; consent
 - 世話 (せわ) - care; looking after; help; support
 - 相談 (そうだん) - consultation; discussion; asking (someone) for advice
-- パス - passing
+- 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
 - 販売 (はんばい) - selling
 - 変更 (へんこう) - change; modification
+- パス - passing
 - 予報 (よほう) - forecast
 
 ### する intransitive verbs
@@ -1656,27 +1661,27 @@ ____
 - 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
 - 感動 (かんどう) - being deeply moved emotionally
-- 怪我 (けが) - injury; mistake
-- 経営 (けいえい) - running (a business)
-- 結果 (けっか) - result
 - 協力 (きょうりょく) - cooperation
+- 経営 (けいえい) - running (a business)
+- 怪我 (けが) - injury; mistake
+- 結果 (けっか) - result
 - 合格 (ごうかく) - passing (an exam); meeting (specifications, standards)
-- サービス - service; assistance; help
 - 参加 (さんか) - participation
+- サービス - service; assistance; help
 - 出発 (しゅっぱつ) - departure
 - 滞在 (たいざい) - stay
-- ダンス - dance
 - 遅刻 (ちこく) - lateness
+- ダンス - dance
 - びっくり - to be surprised; to be amazed
-- 留学 (りゅうがく) - studying abroad
 - 優勝 (ゆうしょう) - championship; victory
+- 留学 (りゅうがく) - studying abroad
 
 ### する transitive and intransitive verbs
 
 ### verb pairs
 
-- 流れる (ながれる) - to flow; to disappear
-  or fire)
+- 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
+  or fire); to disappear
   * 流す (ながす) - to drain; to pour; to wash away; to broadcast; to circulate;
     to cancel (a plan or meeting); to exile
 - 外れる (はずれる) - to be disconnected; to get out of place; to miss the mark;
@@ -1689,7 +1694,7 @@ ____
 - 広がる (ひろがる) - to spread
   * 広げる (ひろげる) - to spread
 
-### verbs (transitive)
+### transitive verbs
 
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
@@ -1716,19 +1721,17 @@ ____
 - 貰う (もらう) - to receive (appreciatively)
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 
-### verbs (intransitive)
+### intransitive verbs
 
 - 空く (あく) - to become empty
 - 現れる (あらわれる) - to appear; to be expressed (e.g. emotions); to become
   apparent
 - 隠れる (かくれる) - to hide; to disappear; to be unknown
 - 沈む (しずむ) - to sink; to go down (e.g. sun); to descend; to feel depressed
-- 黙る (だまる) - to be silent; to say nothing
 - 積もる (つもる) - to pile up; to accumulate
-- 飛び出す (とびだす) - to jump out
 - 届く (とどく) - to reach; to be delivered
-- 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
-  or fire)
+- 飛び出す (とびだす) - to jump out
+- 黙る (だまる) - to be silent; to say nothing
 - 燃える (もえる) - to burn
 
 ### verbs (transitive and intransitive)
@@ -1762,9 +1765,9 @@ ____
 ### adjectives (い)
 
 - 羨ましい (うらやましい) - envious; jealous
+- 面倒くさい (めんどうくさい) - bothersome; annoying
 - 勿体ない (もったいない) - wasteful; too good; more than one deserves; a waste
   (usually people leaving a place and do not want to keep the item)
-- 面倒くさい (めんどうくさい) - bothersome; annoying
 
 ### adjectives (な)
 
@@ -1780,28 +1783,28 @@ ____
 
 ### nouns
 
-- 以降 (いこう) - on and after; since
 - 生け花 (いけばな) - Japanese flower arrangement
+- 以降 (いこう) - on and after; since
 - 海水浴 (かいすいよく) - sea bathing; swimming in the sea
 - カラー - color
 - 看板 (かんばん) - sign; billboard
-- 原稿 (げんこう) - manuscript
-- 国立 (こくりつ) - national
 - 後輩 (こうはい) - junior
 - 紅葉 (こうよう) - red leaves
+- 国立 (こくりつ) - national
+- 原稿 (げんこう) - manuscript
+- 水素 (すいそ) - hydrogen
 - 西暦 (せいれき) - Western calendar
 - センチ - centimeter
-- 水素 (すいそ) - hydrogen
 - 箪笥 (たんす) - chest of drawers
-- 大学院 (だいがくいん) - graduate school
 - 定期券 (ていきけん) - commuter pass
 - 手続き (てつづき) - procedure; formalities
+- 大学院 (だいがくいん) - graduate school
 - 中身 (なかみ) - contents; interior; inside
-- ネックレス - necklace
 - 虹 (にじ) - rainbow
-- バツ - cross
+- ネックレス - necklace
 - 複数 (ふくすう) - plural
 - 蓋 (ふた) - lid; cap; cover
+- バツ - cross
 - 苗字 (みょうじ) - surname
 - 名物 (めいぶつ) - famous product
 - 役所 (やくしょ) - government office
@@ -1834,8 +1837,8 @@ ____
 ### nouns (location)
 
 - 火山 (かざん) - volcano
-- 売店 (ばいてん) - stall; booth; kiosk; store
 - 広場 (ひろば) - square
+- 売店 (ばいてん) - stall; booth; kiosk; store
 - 役所 (やくしょ) - government office
 - 寮 (りょう) - dormitory; hostel
 - ロビー - lobby
@@ -1850,8 +1853,8 @@ ____
 ### nouns (clothing)
 
 - ブラウス - blouse
-- ワンピース - dress (one-piece)
 - レインコート - raincoat
+- ワンピース - dress (one-piece)
 
 ### nouns (animals)
 
@@ -1897,6 +1900,7 @@ ____
 - お辞儀 (おじぎ) - bowing
 - 回転 (かいてん) - rotation; revolution; working (of one's mind); turnover (of
   goods)
+- 見学 (けんがく) - field trip; tour; inspection
 - 出張 (しゅっちょう) - business trip
 - 仲良し (なかよし) - close friendship; intimate relations
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
@@ -1913,7 +1917,7 @@ ____
 - 点く (つく) - to turn on; to light up
   * 点ける (つける) - to turn on; to light up
 
-### verbs (transitive)
+### transitive verbs
 
 - 温める (あたためる) - to warm (up); to heat (up); to sit on (an idea, plan,
   etc.)
@@ -1925,7 +1929,7 @@ ____
 - 干す (ほす) - to air; to dry; to hang dry
 - 剥く (むく) - to peel; to skin
 
-### verbs (intransitive)
+### intransitive verbs
 
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
@@ -1939,14 +1943,14 @@ ____
 
 ### expressions
 
-- お大事に (おだいじに) - take care of yourself (when someone is sick); get well
-  soon
 - 行ってまいります (いってまいります) - goodbye; I'm off; see you later
 - 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
   leaves)
 - お陰様で (おかげさまで) - thankfully; fortunately
 - お邪魔します (おじゃまします) - please excuse the intrusion (greeting used
   when entering someone's place)
+- お大事に (おだいじに) - take care of yourself (when someone is sick); get well
+  soon
 - かしこまりました - certainly
 - ご馳走様 (ごちそうさま) - thank you (for the meal)
 - 初めまして (はじめまして) - nice to meet you
@@ -1993,19 +1997,20 @@ ____
 
 - インフォメーション - information
 - 嘘つき (うそつき) - liar
+- お負け (おまけ) - addition; something extra; (giving a) discount
 - 階 (かい) - floor
 - 課題 (かだい) - subject; theme; task; homework
-- 願書 (がんしょ) - written application
 - 区 (く) - ward; district
-- ぐらい - about; approximately
 - 工学 (こうがく) - engineering
 - コンテスト - contest
+- 願書 (がんしょ) - written application
+- ぐらい - about; approximately
 - サイズ - size
 - 皺 (しわ) - wrinkle, crease (aka シワ)
-- ジャズ - jazz
+- 製 (せい) - -made; -manufactured
 - 地獄(じごく) - hell
 - 地元 (じもと) - home area; home town; local
-- 製 (せい) - -made; -manufactured
+- ジャズ - jazz
 - 丈 (たけ) - height; length (of clothing)
 - チャイム - chime; bell
 - 定年 (ていねん) - retirement age
@@ -2019,10 +2024,9 @@ ____
 - 誠 (まこと) - truth; reality; sincerity; good faith
 - 纏め (まとめ) - summary; recapitulation; aggregation
 - メーカー - manufacturer; maker
-- 汚れ (よごれ) - dirt, stains, spots
 - 幽霊 (ゆうれい) - ghost
+- 汚れ (よごれ) - dirt, stains, spots
 - ルール - rule
-- お負け (おまけ) - addition; something extra; (giving a) discount
 
 ### nouns (academic)
 
@@ -2058,8 +2062,8 @@ ____
 ### nouns (transportation)
 
 - オートマチック - automatic transmission
-- 扉 (とびら) - door
 - 徒歩 (とほ) - on foot
+- 扉 (とびら) - door
 - レンタカー - rental car
 
 ### nouns (body parts)
@@ -2101,10 +2105,10 @@ ____
 ### する transitive verbs
 
 - 手配 (てはい) - arrangements; preparations; search (by police)
-- 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - 取引 (とりひき) - transaction; dealings; business
 - デザイン - design
 - デッサン - rough sketch (from French "dessin")
+- 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 
 ### する intransitive verbs
 
@@ -2116,11 +2120,11 @@ ____
 
 - コメント - comment
 
-### verbs (transitive)
+### transitive verbs
 
 - 切り替える (きりかえる) - to switch; to change; に to indicate the new state
-- 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 問う (とう) - to ask; to inquire; to blame (someone) for
+- 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 舐める (なめる) - to lick; to taste; to experience (hardship)
 - 控える (ひかえる) - to refrain
 - 見合わせる (みあわせる) - to exchange glances; to postpone
@@ -2128,7 +2132,7 @@ ____
   lower status)
 - 予想 (よそう) - expectation; anticipation; prediction; forecast
 
-### verbs (intransitive)
+### intransitive verbs
 
 - 甘える (あまえる) - to behave like a spoiled child
 - 受かる (うかる) - to pass (e.g. exam)
@@ -2215,8 +2219,8 @@ ____
 - 県 (あがた) - territory (historical term); countryside
 - 圧力 (あつりょく) - pressure
 - 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari) 腕時計 (うでどけい) - wristwatch
-- エーティーエム - ATM
 - 演奏会 (えんそうかい) - concert
+- エーティーエム - ATM
 - お客様 (おきゃくさま) - customer; guest
 - 推し活 (おしかつ) - activities to support one's favorite celebrity, idol, etc.
 - 男 (おとこ) - man (used as prefix)
@@ -2227,8 +2231,8 @@ ____
 - オリンピック - Olympics
 - 女 (おんな) - women (used as prefix)
 - 女の人 (おんなのひと) - woman
-- 顔色 (かおいろ) - facial expression
 - 替え玉 (かえだま) - second serving of noodles; substitute
+- 顔色 (かおいろ) - facial expression
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
 - 気に入り (きにいり) - favourite
 - 浄め (きよめ) - purification
@@ -2239,44 +2243,44 @@ ____
 - 戸建て (こだて) - house
 - この辺 (このへん) - this area; this point
 - サングラス - sunglasses
-- シェービング - shaving
 - 下振れ (したぶれ) - downturn; downside
+- 神道(しんとう) - shinto
 - 商学 (しょうがく) - commercial science
 - 証明書 (しょうめいしょ) - certificate; credentials; identification
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
-- 神道(しんとう) - shinto
-- 事故物件 (じこぶっけん) - stigmatized property; real estate where a crime, death, etc. has occurred
-- 順路 (じゅんろ) - route
-- 女 (じょ) - woman (used as suffix)
+- シェービング - shaving
 - スチール - steel
 - スマートフォン (スマホ) - smartphone
 - 洗濯物 (せんたくもの) - laundry
-- 段ボール (だんボール) - cardboard
+- 事故物件 (じこぶっけん) - stigmatized property; real estate where a crime, death, etc. has occurred
+- 順路 (じゅんろ) - route
+- 女 (じょ) - woman (used as suffix)
 - 痴漢 (ちかん) - molester; pervert
 - チャック - zip (for bags)
 - 使い方 (つかいがた) - way of using; way of handling (employees, subordinates,
   etc.); management
 - 月極 (つきぎめ) - monthly contract (aka 月極め)
+- 段ボール (だんボール) - cardboard
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
-- 男 (なん) - man (used as suffix)
 - 怠け者 (なまけもの) - lazy person
+- 男 (なん) - man (used as suffix)
 - 縫いぐるみ (ぬいぐるみ) - stuffed toy
+- ねた - information; news; proof; evidence
 - 話し手 (はなして) - speaker
 - 歯磨き粉 (はみがきこ) - toothpaste
-- 薔薇 (ばら) - rose
 - 幅員 (ふくいん) - width (of a road, bridge, etc.)
 - 不動産 (ふどうさん) - real estate
 - ヘッドスパ - head spa
 - 綻び (ほころび) - tear; open seam; seam that has come apart
+- ホームステイ - homestay
+- 薔薇 (ばら) - rose
 - 防災 (ぼうさい) - disaster preparedness
 - ポート - port; harbour
-- ホームステイ - homestay
 - 皆様 (みなさま) - everyone (keigo)
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
-- ねた - information; news; proof; evidence
 
 ### nouns (academic)
 
@@ -2300,35 +2304,35 @@ ____
 - 大盛り (おおもり) - large serving; extra portion
 - お好み焼き (おこのみやき) - savory pancake with various ingredients
 - お通し (おとうし) - appetizers (Japanese)
-- 鴨 (かも) - duck
 - 南瓜 (かぼちゃ) - pumpkin
+- 鴨 (かも) - duck
 - カップメン - cup noodles
 - 割烹 (かっぽう) - Japanese-style cooking
 - 茸 (きのこ) - mushroom
+- 黄身 (きみ) - egg yolk
 - キャロットケーキ - carrot cake
+- 栗まんじゅう (くりまんじゅう) - chestnut bun
+- クッキー - cookie
 - 牛すじ (ぎゅうすじ) - beef tendon
 - 牛タン (ぎゅうタン) - beef tongue
 - 餃子 (ぎょうざ) - gyoza
-- 栗まんじゅう (くりまんじゅう) - chestnut bun
-- クッキー - cookie
-- 黄身 (きみ) - egg yolk
 - 白身 (しろみ) - egg white; white-fleshed fish; white meat
 - すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
   table-top cast-iron pan
 - スナック - snack
-- ソースカツ - breaded cutlet (e.g. tonkatsu) covered in Worcester sauce
 - ソフトクリーム - soft ice cream
+- ソースカツ - breaded cutlet (e.g. tonkatsu) covered in Worcester sauce
 - たこ焼き (たこやき) - octopus balls
 - 但馬牛 (たじまうし) - Tajima beef
 - タン - tongue (beef tongue in general)
-- 叉焼 (チャーシュー) - roasted pork
-- 炒飯 (チャーハン) - fried rice
-- チョコ - chocolate
-- チョコレート - chocolate
 - チルド - chilled
 - 青梗菜 (チンゲンサイ) - bok choy
-- 朝食 (ちょうしょく) - breakfast
+- 叉焼 (チャーシュー) - roasted pork
+- 炒飯 (チャーハン) - fried rice
 - 中華料理 (ちゅうかりょうり) - Chinese food
+- 朝食 (ちょうしょく) - breakfast
+- チョコ - chocolate
+- チョコレート - chocolate
 - 天ぷら (てんぷら) - tempura (battered and deep-fried food)
 - 豆腐 (とうふ) - tofu
 - 豚骨 (とんこつ) - pork bone
@@ -2339,15 +2343,15 @@ ____
 - 煮込む (にこむ) - to simmer; to stew
 - 大蒜 (にんにく) - garlic
 - ハラミ - skirt steak (横隔膜)
+- 挽きたて (ひきたて) - freshly ground
+- ホルモン - offal (內臟)
 - バーガー - burger
+- ビュッフェ - buffet
+- ベーコン - bacon
 - パスタ - pasta
 - パンプキンパイ - pumpkin pie
-- 挽きたて (ひきたて) - freshly ground
-- ビュッフェ - buffet
 - ピザ - pizza
 - プリン - pudding
-- ベーコン - bacon
-- ホルモン - offal (內臟)
 - 飯 (まんま) - food (children's language)
 - 焼き飯 (やきめし) - fried rice
 - 夕食 (ゆうしょく) - dinner
@@ -2356,33 +2360,33 @@ ____
 
 - 鯵 (あじ) - horse mackerel
 - 穴子 (あなご) - conger eel
-- アンチョビー - anchovy
 - 鮎 (あゆ) - sweetfish
+- アンチョビー - anchovy
 - 伊佐木 (いさき) - chicken grunt
 - 鰯 (いわし) - sardine
 - 大トロ (おおとろ) - fatty cut of tuna
-- 間八 (かまはち) - greater amberjack
 - 鰹 (かつお) - bonito (skipjack tuna)
+- 間八 (かまはち) - greater amberjack
 - 小鰭 (こびれ) - mid-sized konoshiro gizzard shad
 - 鯖 (さば) - mackerel
 - 針魚 (さより) - halfbeak
-- シーバス - sea bass
 - 縞鯵 (しまあじ) - striped jack (striped horse mackerel)
 - 白身魚 (しろみざかな) - white fish
 - 新烏賊 (しんいか) - squid
 - 新子 (しんこ) - juvenile gizzard shad
+- シーバス - sea bass
 - 墨烏賊 (すみいか) - cuttlefish
 - 中トロ (ちゅうとろ) - medium fatty cut of tuna
 - とろ - fatty cut of tuna
 - ハドック - haddock
 - 魬 (はまち) - young amberjack / yellowtail
-- 鮃 (ひらめ) - flounder
 - 平政 (ひらまさ) - yellowtail amberjack
-- 鰤 (ぶり) - amberjack / yellowtail
+- 鮃 (ひらめ) - flounder
 - 本鮪 (ほんまぐろ) - bluefin tuna
+- 鰤 (ぶり) - amberjack / yellowtail
 - 真子鰈 (まこがれい) - marbled sole
-- マス - trout
 - 鮪 (まぐろ) - tuna
+- マス - trout
 
 ### nouns (seafood)
 
@@ -2395,11 +2399,11 @@ ____
 - 朧 (おぼろ) - crumbled shrimp paste
 - 牡蠣 (かき) - oyster
 - 蟹 (かに) - crab
-- 魚介 (ぎょかい) - marine products
-- 魚介類 (ぎょかいるい) - seafood
 - クラム - clam
 - 車海老 (くるまえび) - tiger prawn
 - 小柱 (こばしら) - baby scallop
+- 魚介 (ぎょかい) - marine products
+- 魚介類 (ぎょかいるい) - seafood
 - 蝦蛄 (しゃこ) - mantis shrimp
 - 蛸 (たこ) - octopus
 - 蛸足 (たこあし) - octopus legs
@@ -2411,15 +2415,15 @@ ____
 ### nouns (vegetables)
 
 - 茸 (きのこ) - mushroom
+- 玉ねぎ (たまねぎ) - onion
 - 朝鮮人参 (ちょうせんにんじん) - ginseng
 - トマト - tomato
-- 葱 (ねぎ) - green onion
 - 人参 (にんじん) - carrot
+- 葱 (ねぎ) - green onion
 - 冷奴　(ひややっこ) - chilled tofu
-- ベジタリアン - vegetarian
 - ほうれん草 (ほうれんそう) - spinach
+- ベジタリアン - vegetarian
 - ポテト - potato
-- 玉ねぎ (たまねぎ) - onion
 
 ### nouns (fruits)
 
@@ -2432,9 +2436,9 @@ ____
 ### nouns (drinks)
 
 - 浅煎り (あさいり) - light roast (coffee)
-- 玉露 (ぎょくろ) - green tea - high quality
 - コーヒー豆 (コーヒーまめ) - coffee beans
 - コーラ - cola
+- 玉露 (ぎょくろ) - green tea - high quality
 - 煎茶 (せんちゃ) - green tea
 - ノンアルコール - non-alcoholic
 - ハイボール - whisky and soda
@@ -2450,8 +2454,8 @@ ____
 - スーパー - supermarket
 - 地下街 (ちかがい) - underground shopping street
 - 処 (ところ) - (specialist) resturant
-- ファミマ - Family Mart
 - 風呂場 (ふろば) - bathroom
+- ファミマ - Family Mart
 - 本屋 (ほんや) - bookstore
 - マクドナルド - McDonald's
 
@@ -2464,11 +2468,11 @@ ____
 - 色褪せ (いろあせ) - fading, discoloration
 - 貸し切り (かしかり) - reserving (for exclusing use); full booking; block
   reservation
-- 激安 (げきやす) - dirty cheap
 - 古書 (こしょ) - secondhand book
 - 古書店 (こしょてん) - used book store
 - コミック - comic book
 - コンディション - condition
+- 激安 (げきやす) - dirty cheap
 - 参考上代 (さんこうじょうだい) - MSRP (Manufacturer's Suggested Retail Price)
 - 使用感 (しようかん) - wear and tear, signs of use
 - 新入荷 (しんにゅうか) - new arrival
@@ -2478,57 +2482,58 @@ ____
 - 宅配便 (たくはいびん) - express home delivery service
 - 単行本 (たんこうぼん) - single volume book
 - 着払い (ちゃくばらい) - cash on delivery
-- 中古品 (ちゅうこひん) - used item
 - 中古商品 (ちゅうこしょうひん) - used product
+- 中古品 (ちゅうこひん) - used item
 - 中古本 (ちゅうこほん) - secondhand book
 - 通販 (つうはん) - online shopping
 - 手数料 (てすうりょう) - handling fee; commission
 - 手作り (てずくり) - handmade
 - 徳用 (とくよう) - family size
 - ドル - dollar
-- ハンドメイド - handmade
 - 早割 (はやわり) - early bird discount
-- ブランド - brand
+- ハンドメイド - handmade
+- 不用品 (ふようひん) - unneeded item
 - フリーマーケット - flea market (aka フリマ)
 - 古着屋 (ふるぎや) - thrift store for clothing
 - 古本 (ふるほん) - secondhand book
 - 古本屋 (ふるほんや) - used book store
-- 不用品 (ふようひん) - unneeded item
-- 免税 (めんぜい) - tax free
+- ブランド - brand
 - 未使用 (みしよう) - unused
 - 未使用品 (みしようひん) - unused item
+- 免税 (めんぜい) - tax free
 - リサイクルショップ - recycle shop (store that sells used goods)
 - リユース - resue
 - レジ - cash register
 
 ### nouns (clothing)
 
-- ウエスト - waist width
 - アウターウエア - outerwear
+- ウエスト - waist width
 - 大きめ (おおきめ) - on the large side
 - 肩幅 (かたはば) - shoulder width
 - 革ジャケット (かわジャケット) - leather jacket
+- キッズ - kidswear
 - 毛玉 (けだま) - pilling, fuzz balls
 - 腰幅 (こしはば) - waist width
-- ジェンダーレス - genderless
-- ジャケット - jacket
+- 染み (しみ) - stain, spot, smudge, discoloration (aka シミ)
 - ショーツ - shorts
 - ショートパンツ - shorts
-- 染み (しみ) - stain, spot, smudge, discoloration (aka シミ)
-- スーツ - suit
 - 裾幅 (すそはば) - hem width
+- スーツ - suit
 - 総丈 (そうたけ) - total length
 - 袖丈 (そでたけ) - sleeve length
+- ジャケット - jacket
+- ジェンダーレス - genderless
 - 小さめ (ちさめ) - on the small side
 - テーラードジャケット - tailored jacket
 - デニムジャケット - jean jacket
 - 胴幅 (どうはば) - waist width
 - ニット - knit
-- パンツ - pants (underwear)
-- 半ズボン (はんずぼん) - (knee) breeches
 - 半袖シャツ (はんそでシャツ) - short-sleeve shirt
+- 半ズボン (はんずぼん) - (knee) breeches
 - フリーサイズ - one size fits all
 - 古着 (ふるぎ) - secondhand clothing
+- パンツ - pants (underwear)
 - 股上 (またがみ) - front rise (crotch to waist, for pants)
 - 股下 (またした) - inseam (crotch to hem, for pants)
 - 身丈 (みたけ) - length (of clothing)
@@ -2538,7 +2543,6 @@ ____
 - ルームウエア - roomwear; loungewear
 - レザージャケット - leather jacket
 - レディース - womenswear
-- キッズ - kidswear
 
 ### nouns (transportation)
 
@@ -2551,8 +2555,8 @@ ____
 - 外回り (そとまわり) - outer loop
 - トラム - tram
 - 乗り場 (のりば) - bus stop or train platform or taxi stand or boarding area
-- バス乗降所 (バスじょうこうしょ) - bus stop (get on and off)
 - 反対側 (はんたいがわ) - opposite side
+- バス乗降所 (バスじょうこうしょ) - bus stop (get on and off)
 - マニュアル - manual transmission
 - レーン - lane
 
@@ -2596,8 +2600,8 @@ ____
 
 - 乾燥機 (かんそうき) - dryer
 - 屑籠 (くずかご) - wastepaper basket
-- ごみ箱 (ごみばこ) - trash can
 - 焜炉 (こんろ) - cooking stove
+- ごみ箱 (ごみばこ) - trash can
 - 寝室 (しんしつ) - bedroom
 - 洗濯機 (せんたくき) - washing machine
 - 洗面台 (せんめんだい) - washbasin
@@ -2608,10 +2612,10 @@ ____
 ### nouns (sports)
 
 - オフサイド - offside
+- 後半 (こうはん) - second half
+- ゴルフ - golf
 - ゴール - goal
 - ゴールキーパー - goalkeeper
-- ゴルフ - golf
-- 後半 (こうはん) - second half
 - サドル - saddle
 - サッカー - soccer
 - セリエA - Serie A
@@ -2620,19 +2624,19 @@ ____
 - チケット - ticket
 - チャンピオンズリーグ - Champions League
 - ツール - tour
+- トレイルランニング - trail running
 - ディフェンダー - defender
 - ドリブル - dribble
-- トレイルランニング - trail running
 - ハイタッチ - high five
 - ハイライト - highlihts
+- フリーキック - free kick
+- フォワード - forward
 - バスケットボール - basketball
 - バレーボール - volleyball
-- フォワード - forward
 - ブンデスリーガ - Bundesliga
-- フリーキック - free kick
+- ボランチ - volante (key player in the midfield)
 - プレミアリーグ - Premier League
 - ペナルティーキック - penalty kick
-- ボランチ - volante (key player in the midfield)
 - ママチャリ - ladies' bicycle (especially one with a front basket)
 - マンチェスター・U - Manchester United
 - マンチェスター・ユナイテッド - Manchester United
@@ -2649,20 +2653,21 @@ ____
 ### nouns (countries)
 
 - イタリア - Italy
-- オーストラリア - Australia
 - オランダ - Netherlands
+- オーストラリア - Australia
 - スペイン - Spain
 - フランス - France
 
 ### nouns (work)
 
-- 正社員 (せいしゃいん) - full-time employee
 - 職場 (しょくば) - workplace
+- 正社員 (せいしゃいん) - full-time employee
 - 弁護士 (べんごし) - lawyer
 - 物作り (ものづくり) - craftsmanship; making things by hand
 
 ### nouns (web)
 
+- アンドロイド - Android
 - インスタ - Instagram
 - 絵文字 (えもじ) - emoji
 - シグナル - signal
@@ -2670,39 +2675,38 @@ ____
 - テレグラム - telegram
 - 動画 (どうが) - video
 - ポッドキャスト - podcast
-- アンドロイド - Android
 
 ### nouns (technology)
 
 - アプリ - application
-- アップル - Apple Inc.
 - 暗号 (あんごう) - encryption; code; cipher
+- アップル - Apple Inc.
 - ウェブデザイン - web design
 - エディター - editor
 - キーボード - keyboard
 - クラウド - cloud
 - サムネ - thumbnail
-- 生成ＡＩ (せいせいＡＩ) - generative AI
+- システムエラー - system error
 - 生体認証 (せいたいにんしょう) - biometric authentication
 - セキュリティポリシー - security policy
-- ソフトウェアエンジニア - software engineer
 - ソフトウェア工学 - software engineering
+- ソフトウェアエンジニア - software engineer
 - チャットGPT - ChatGPT
 - ツール - tool
-- データベース - database
 - デジタルトランスフォーメーション - digital transformation
 - デジタルフォレンジック - digital forensics
 - 電子工学 (でんしこうがく) - electronics
+- データベース - database
+- 二要素認証 (にようそにんしょう) - two-factor authentication
 - 乗っ取り (のっとり) - hijacking; takeover (of a company, etc)
-- バージョン - version
-- パーソナルコンピュータ - personal computer
-- パスワード - password
 - ハードウェア - hardware
+- バージョン - version
+- パスワード - password
+- パーソナルコンピュータ - personal computer
 - プライバシーポリシー - privacy policy
 - メールアドレス - email address
 - ワンタイムパスワード - one-time password
-- 二要素認証 (にようそにんしょう) - two-factor authentication
-- システムエラー - system error
+- 生成ＡＩ (せいせいＡＩ) - generative AI
 
 ### nouns (science)
 
@@ -2710,11 +2714,11 @@ ____
 
 ### nouns (signs)
 
-- 開き (ひらき) - opening; gap
+- 止まれ (とまれ) - stop
 - 引き (ひき) - pull
 - 左回り (ひだりまわり) - counter-clockwise
+- 開き (ひらき) - opening; gap
 - 右回り (みぎまわり) - clockwise
-- 止まれ (とまれ) - stop
 
 ### nouns (logistics)
 
@@ -2727,9 +2731,9 @@ ____
 - 痛み止め (いたみどめ) - painkiller
 - うつ病 (うつびょう) - depression
 - 風邪薬 (かぜぐすり) - remedy for a cold
+- 薬屋 (くすりや) - pharmacy
 - クリニック - clinic
 - 抗生物質 (こうせいぶっしつ) - antibiotic
-- 薬屋 (くすりや) - pharmacy
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
 - 体調 (たいちょう) - physical condition; state of health
@@ -2760,25 +2764,25 @@ ____
 
 ### する transitive verbs
 
-- 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
-  referring to chicken
-- 解読 (かいどく) - deciphering
 - 買取 (かいとり) - buying used articles as a company
+- 解読 (かいどく) - deciphering
 - キャンセル - cancel
 - 試着 (しちゃく) - trying on clothes
 - シュート - shoot
 - チン - heating in a microwave
 - 追加 (ついか) - addition; supplement; appending
 - 満喫 (まんきつ) - to fully enjoy
+- 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
+  referring to chicken
 
 ### する intransitive verbs
 
 - 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
   from someone; reply; revenge
 - 散策 (さんさく) - strolling; wandering; roaming
-- 残業 (ざんぎょう) - overtime
 - シフト - shift or move (from one trend to another)
 - ショートカット - shortcut
+- 残業 (ざんぎょう) - overtime
 - 土下座 (どげざ) - to kneel down and bow
 - 長居 (ながい) - long stay
 - 猫吸い (ねこすい) - cat sniffing
@@ -2790,8 +2794,8 @@ ____
 
 ### する transitive and intransitive verbs
 
-- プログラミング - programming
 - 返信 (へんしん) - reply
+- プログラミング - programming
 
 ### verb pairs
 
@@ -2800,38 +2804,38 @@ ____
 - 目が覚める (めがさめる) - to wake up
   * 目を覚ます (めをさます) - to wake up
 
-### verbs (transitive)
+### transitive verbs
 
 - 押し付ける (おしつける) - to force against
 - 貸し切る (かしかる) - to reserve; to book
 - 狩る (かる) - to hunt; to pick (barries)
-- 気になる - to weigh on one's mind; to be interested (in)
-- ぎる - to steal
 - 下す (くだす) - to make a decision; to draw a conclusion
+- ぎる - to steal
 - ググる - to google
 - 立ち食い (たちぐい) - eating while standing
 - 立ち飲み (たちのみ) - drinking while standing; aka 立ち呑み
-- 取り置く (とりおく) - to set aside; to keep it in reserve
 - 連れる (つれる) - to be accompanied by
-- パクる - to cheat; steal (plagiarize)
+- 取り置く (とりおく) - to set aside; to keep it in reserve
 - 振り切る (ふりきる) - to shake off; to break away
+- パクる - to cheat; steal (plagiarize)
 - 見上げる (みあげる) - to look up at
 - 見守る (みまもる) - to watch over; to keep an eye on
 - 召す (めす) - to eat; to drink; to wear; to buy; to call; to summon; to
 invite; to ride
+- 気になる - to weigh on one's mind; to be interested (in)
 
-### verbs (intransitive)
+### intransitive verbs
 
 - 頂ける (いただける) - to be able to receive/take/accept
 - いなくなる - to disappear
-- 頑張る (がんばる) - to presevere; to do one's best
 - 毛羽立つ (けばたつ) - fuzzing, fraying
 - 転ける (こける) - to fall down
+- 頑張る (がんばる) - to presevere; to do one's best
 - サボる - to slack off (sabotage)
 - 浸かる (つかる) - to be submerged; to be soaked
-- バズる - to go viral (buzz)
 - 引き続く (ひきつづく) - to continue (for a long time); to occur in succession
 - 含まれる (ふくまれる) - to be included; to be composed of
+- バズる - to go viral (buzz)
 
 ### verbs (transitive and intransitive)
 
@@ -2845,11 +2849,10 @@ invite; to ride
 
 - ありがたい事に (ありがたいことに) - thankfully
 - いいね - that's nice
-- 行ってきます (いってきます) - I'll go and come back (when I'm leaving from
-  some place)
 - 今のうち (いまのうち) - while one still can
 - いらっしゃいませ - welcome
-- 言わないことではない - I told you so
+- 行ってきます (いってきます) - I'll go and come back (when I'm leaving from
+  some place)
 - 嘘をつく (うそをつく) - to tell a lie
 - お陰で (おかげで) - thanks to; owing to; because of
 - お茶を入れる (おちゃをいれる) - to make tea
@@ -2859,11 +2862,11 @@ invite; to ride
 - お休みなさい (おやすみなさい) - good night
 - 鍵をかける (かぎをかける) - to lock (a door)
 - 気をつけてください (きをつけてください) - please be careful
-- ゲームをする - to play a game
-- ゲームをやる - to play a game
+- このまま - as it is
 - コーヒーにする - choose to have coffee
 - コーヒーを入れる - to make or brew coffee
-- このまま - as it is
+- ゲームをする - to play a game
+- ゲームをやる - to play a game
 - ご遠慮ください (ごえんりょください) - please refrain (from)
 - ご馳走様でした (ごちそうさまでした) - I enjoyed the dishes
 - ご注意ください (ごちゅういください) - please be careful
@@ -2873,19 +2876,17 @@ invite; to ride
 - 失礼しました (しつれいしました) - my apologies; excuse me
 - 失礼します (しつれいします) - excuse me (usually after staff take a plate
   away or about to serve a dish)
+- スイッチを入れる (スイッチをいれる) - to switch on
+- そうだね - sure; yeah; I know (aka そうだよね)
 - 時間になる (じかんになる) - to be time for
 - じゃない - is not; isn't it?
 - 授業に遅れる (じゅぎょうにおくれる) - to be late for class
-- スイッチを入れる (スイッチをいれる) - to switch on
-- 好きなだけ - as much as one wants
-- そうだね - sure; yeah; I know (aka そうだよね)
 - ただいま - I'm home
-- だけでなく - not only; not just; as well as
-- だっけ。 - was it?
-- だろう - seems
 - ちゃった - finished doing; did completely
-- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
 - 手を挙げる (てをあげる) - to raise one's hand
+- だけでなく - not only; not just; as well as
+- だろう - seems
+- だっけ。 - was it?
 - での - at; in; with; by; of
 - 電話に出る (でんわにでる) - to answer the phone
 - どちらも - both
@@ -2900,3 +2901,6 @@ invite; to ride
 - 申し訳ありません (もうしわけありません) - I'm sorry; it's inexcusable
 - やった - yay!
 - 様な (ような) - like; similar to; feels like
+- 言わないことではない - I told you so
+- 好きなだけ - as much as one wants
+- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
