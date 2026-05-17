@@ -1293,6 +1293,10 @@ ____
   be defeated
   * 倒す (たおす) - to throw down; to recline (e.g. a seat); to kill; to defeat;
     to overthrow; to leave unpaid; to do completely
+- 伝わる (つたわる) - to spread (of a rumour, news, etc.); to become known; to
+  be handed down (from generation to generation); to be introduced (to a
+  country, region, etc.)
+  * 伝える (つたえる) - to convey; to teach
 - 続く (つづく) - to continue
   * 続ける (つづける) - to continue
 - 泊まる (とまる) - to stay (e.g. hotel)
@@ -1322,7 +1326,6 @@ ____
 - 捨てる (すてる) - to throw away; to discard; to abandon; to give up
 - 尋ねる (たずねる) - to ask; to inquire
 - 楽しむ (たのしむ) - to enjoy
-- 伝える (つたえる) - to convey
 - 手伝う (てつだう) - to help; to contribute to
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 運ぶ (はこぶ) - to carry; to transport; to move
