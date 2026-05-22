@@ -47,7 +47,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
-    + [verb pairs](#verb-pairs)
+    + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive)
     + [transitive verbs](#transitive-verbs)
     + [intransitive verbs](#intransitive-verbs)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
@@ -88,7 +88,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-1)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
-    + [verb pairs](#verb-pairs-1)
+    + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-1)
     + [transitive verbs](#transitive-verbs-1)
     + [intransitive verbs](#intransitive-verbs-1)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
@@ -128,7 +128,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-2)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
-    + [verb pairs](#verb-pairs-2)
+    + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-2)
     + [transitive verbs](#transitive-verbs-2)
     + [intransitive verbs](#intransitive-verbs-2)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-2)
@@ -168,7 +168,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
-    + [verb pairs](#verb-pairs-3)
+    + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-3)
     + [transitive verbs](#transitive-verbs-3)
     + [intransitive verbs](#intransitive-verbs-3)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
@@ -210,7 +210,7 @@
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-4)
     + [transitive verbs](#transitive-verbs-4)
     + [intransitive verbs](#intransitive-verbs-4)
-    + [verb pairs](#verb-pairs-4)
+    + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-4)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
     + [expressions](#expressions-4)
   * [N0](#n0)
@@ -262,7 +262,7 @@
     + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-5)
     + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-5)
     + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-5)
-    + [verb pairs](#verb-pairs-5)
+    + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-5)
     + [transitive verbs](#transitive-verbs-5)
     + [intransitive verbs](#intransitive-verbs-5)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-5)
@@ -844,7 +844,7 @@ ____
 - 質問 (しつもん) - question
 - 勉強 (べんきょう) - study
 
-### verb pairs
+### verb pairs (intransitive and transitive)
 
 - 開く (あく) - to open
   * 開ける (あける) - to open (something); to unwrap (a package)
@@ -1271,7 +1271,7 @@ ____
 
 ### する transitive and intransitive verbs
 
-### verb pairs
+### verb pairs (intransitive and transitive)
 
 - 集まる (あつまる) - to gather; to collect; to assemble
   * 集める (あつめる) - to collect; to gather; to assemble
@@ -1416,6 +1416,7 @@ ____
 - まあ - well; I mean
 - 先ず (まず) - first (of all)
 - 勿論 (もちろん) - of course; certainly; naturally
+- 最も (もっとも) - most; extremely
 - 矢張り (やはり) - as expected; after all (aka やっぱり)
 
 ### onomatopoeia
@@ -1681,7 +1682,7 @@ ____
 
 ### する transitive and intransitive verbs
 
-### verb pairs
+### verb pairs (intransitive and transitive)
 
 - 流れる (ながれる) - to flow; to stream; to be washed away; to sweep (a rumour
   or fire); to disappear
@@ -1913,7 +1914,7 @@ ____
 - 工事 (こうじ) - construction work
 - 彫刻 (ちょうこく) - sculpture
 
-### verb pairs
+### verb pairs (intransitive and transitive)
 
 - 助かる (たすかる) - to be saved; to be rescued; to be helped
   * 助ける (たすける) - to help; to save; to assist; to rescue
@@ -2073,6 +2074,8 @@ ____
 
 ### nouns (family)
 
+- 旦那 (だんな) - husband; master (of a house, shop, etc.)
+
 ### nouns (animals)
 
 ### nouns (colours)
@@ -2141,7 +2144,7 @@ ____
 - 受かる (うかる) - to pass (e.g. exam)
 - 揉める (もめる) - to disagree; to dispute; to fight (over)
 
-### verb pairs
+### verb pairs (intransitive and transitive)
 
 ### verbs (transitive and intransitive)
 
@@ -2800,7 +2803,7 @@ ____
 - 返信 (へんしん) - reply
 - プログラミング - programming
 
-### verb pairs
+### verb pairs (intransitive and transitive)
 
 - 腹が立つ (はらがたつ) - to get angry
   * 腹を立てる (はらをたてる) - to get angry
