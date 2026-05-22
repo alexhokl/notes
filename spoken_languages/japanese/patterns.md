@@ -189,6 +189,14 @@
     + [thing called ... what is that?](#thing-called-...-what-is-that%3F)
     + [indicating the period of life](#indicating-the-period-of-life)
   * [Chapter 18](#chapter-18)
+    + [indicating general conditions](#indicating-general-conditions)
+    + [even if](#even-if)
+    + [doing everything](#doing-everything)
+    + [describing physical traits](#describing-physical-traits)
+    + [like / as](#like-%2F-as)
+    + [too much](#too-much)
+    + [impressive or unexpectedly large amount](#impressive-or-unexpectedly-large-amount)
+    + [that much](#that-much)
   * [Chapter 19](#chapter-19)
 ____
 
@@ -2170,6 +2178,7 @@ ____
 
 ### also
 
++ [し](./particles.md#%E3%81%97)
 - noun + だし、...
 - Na + だし、...
 - A + し、...
@@ -2199,7 +2208,79 @@ ____
 
 ## Chapter 18
 
+### indicating general conditions
 
+- [と (to indicate a strong casual relationship)](./particles.md#%E3%81%A8-to-indicate-a-strong-casual-relationship)
+- indicates a strong causal relationship
+- noun + だ + と + ...
+- Na + だ + と + ...
+- A + と + ...
+- V + と + ...
+- 春になると桜が咲きます。
+- 春にならないと桜は咲きません。
+- 駅に近いと便利です。
+- 駅に近くないと不便です。
+- 果物は新鮮だとおいしいです。
+- 果物は新鮮でないとおいしくありません。
+- いい天気だと富士山が見えます。
+- いい天気でないと富士山は見えません。
+
+### even if
+
+- nounで(condition) + も、 + ...
+- nounでなくて(condition) + も、 + ...
+- Naで(condition) + も、 + ...
+- Naでなくて(condition) + も、 + ...
+- Aくて(condition) + も、 + ...
+- Aくなくて(condition) + も、 + ...
+- Vて(condition) + も、 + ...
+- Vなくて(condition) + も、 + ...
+- この薬(くすり)を飲むと、眠くなりますか。
+  * いいえ、この薬を飲んでも、眠くなりません。
+- あなたは静かでないと、寝られませんか。
+  * いいえ、私は静かでなくても、寝られます。
+
+### doing everything
+
+- ... + どんな + noun + でも + verb
+- あの人はどんなスポーツでもできます。
+
+### describing physical traits
+
+- ... + をしている
+- あの人は長い髪をしています。
+
+### like / as
+
+- noun + のように + V/A/Na
+- noun + のような + noun
+- noun + のようだ
+- この川の水は氷(こおり)のように冷(つめ)たいです。
+- 正男さんは女の子のような声(こえ)をしています。
+- あの雲(くも)の形(かたち)は象(ぞう)のようです。
+
+### too much
+
+- noun + 過ぎる
+- Na + 過ぎる
+- A- + 過ぎる
+- R- + 過ぎる
+- 私は昨夜お酒を飲み過(す)ぎました。
+- この靴は大き過ぎます。
+- この問題は簡単過ぎます。
+- たばこの吸(す)い過ぎは良くありません。
+
+### impressive or unexpectedly large amount
+
+- counter + も + verb
+- 私のうちから学校まで二時間もかかります。
+- たしは靴を2足しか持っていませんが、姉は20足も持っています。
+
+### that much
+
+- そんなに + ... + のですか。
+- 私のうちには猫が五匹います。
+  * そんなにたくさんいるのですか。
 
 ## Chapter 19
 
