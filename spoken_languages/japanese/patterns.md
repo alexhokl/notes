@@ -177,6 +177,19 @@
     + [stressing part of a sentence](#stressing-part-of-a-sentence)
     + [asking if a state or condition is sufficient](#asking-if-a-state-or-condition-is-sufficient)
     + [do it oneself](#do-it-oneself)
+  * [Chapter 17](#chapter-17)
+    + [since](#since)
+    + [seems like](#seems-like)
+    + [does not seem like](#does-not-seem-like)
+    + [seem (in sub-clauses)](#seem-in-sub-clauses)
+    + [than](#than)
+    + [for the purpose of](#for-the-purpose-of)
+    + [also](#also-1)
+    + [What is that called?](#what-is-that-called%3F)
+    + [thing called ... what is that?](#thing-called-...-what-is-that%3F)
+    + [indicating the period of life](#indicating-the-period-of-life)
+  * [Chapter 18](#chapter-18)
+  * [Chapter 19](#chapter-19)
 ____
 
 ## Chapter 1
@@ -225,9 +238,9 @@ ____
 
 ### adjective alone
 
-- noun + は + い-adjective + です。
+- noun + は + A + です。
   * 富士山は高いです。
-- noun + は + な-adjective + です。
+- noun + は + Na + です。
   * 大坂はにぎやかです。
 
 - noun + は + adjective + ですか、 + opposite adjective + ですか。
@@ -278,11 +291,11 @@ ____
 
 ### adjective types
 
-- い-adjective + noun = noun
+- A + noun = noun
   * あれは大きい病院です。
   * この白い帽子は誰のですか。
 
-- な-adjective + な + noun = noun
+- Na + な + noun = noun
   * あれは有名な学校です。
   * あの賑やかな教室は誰の教室ですか。
 
@@ -956,10 +969,10 @@ ____
 ### decorating a verb
 
 - conversion to adverb
-  * い-adjective
+  * A
     + replace い with く
       + 早く
-  * な-adjective
+  * Na
     + add に
       + 静かに
   * noun
@@ -1086,12 +1099,12 @@ ____
 
 - conjugation
 
-| item         | affirmative    | negative              |
-| ---          | ---            | ---                   |
-| noun         | N + でしょう   | N + ではないでしょう  |
-| な-adjective | Na + でしょう  | Na + ではないでしょう |
-| い-adjective | A + でしょう   | A + くないでしょう    |
-| verb         | Vる + でしょう | Vない + でしょう      |
+| item | affirmative    | negative              |
+| ---  | ---            | ---                   |
+| noun | N + でしょう   | N + ではないでしょう  |
+| Na   | Na + でしょう  | Na + ではないでしょう |
+| A    | A + でしょう   | Aくない + でしょう    |
+| verb | Vる + でしょう | Vない + でしょう      |
 
 - examples
   * 私は多分雨が降るでしょう。
@@ -1297,8 +1310,8 @@ ____
 ### explanatory sentence
 
 - Vる + のです/んです
-- い-adjective + のです/んです
-- な-adjective + な + のです/んです
+- A + のです/んです
+- Na + な + のです/んです
 - noun + の + です/んです
 - [のだ](./grammar.md#%E3%81%AE%E3%81%A0)
 - 昨日、家にいませんでしたね。どこへ行ったのですか。
@@ -1527,8 +1540,8 @@ ____
 
 - [か](./particles.md#%E3%81%8B)
 - question word + noun + か + ...
-- question word + な-adjective + か + ...
-- question word + い-adjective + か + ...
+- question word + Na + か + ...
+- question word + A + か + ...
 - question word + Vる + か + ...
 - question word + か + ...
 - この薬の研究はもう10年間続けていますが、いつ成功するか、分かりません。
@@ -1540,8 +1553,8 @@ ____
 ### whether or not
 
 - noun + かどうか + ...
-- な-adjective + かどうか + ...
-- い-adjective + かどうか + ...
+- Na + かどうか + ...
+- A + かどうか + ...
 - Vる + かどうか + ...
 - この牛乳は日本産ですか。
   * 日本産かどうか、店員に聞きましょう。
@@ -1794,15 +1807,15 @@ ____
 
 ### to express speaker's guess
 
-- い-adjective + と思う
-- な-adjective + と思う
+- A + と思う
+- Na + と思う
 - Vる + と思う
 
 ### apparently / they say that
 
 - (noun + によると +) noun + だそうだ
-- (noun + によると +) な-adjective + だそうだ
-- (noun + によると +) い-adjective + そうだ
+- (noun + によると +) Na + だそうだ
+- (noun + によると +) Aい + そうだ
 - (noun + によると +) Vる + そうだ
 - there is no negative form of そうだ
   * ❌今年の冬は寒いそうではない。
@@ -1826,8 +1839,8 @@ ____
 
 - [かも知れない](./grammar.md/#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
 - noun + かもしれない
-- な-adjective + かもしれない
-- い-adjective + かもしれない
+- Na + かもしれない
+- A + かもしれない
 - Vる + かもしれない
 - 先生も海子さんの結婚式に出られるかもしれません。
 - 上田さんは7時半の電車に間に合わなかったかもしれません。7時15分に家を出たそう
@@ -1895,8 +1908,8 @@ ____
 - [時 (とき)](./grammar.md#%E6%99%82-%E3%81%A8%E3%81%8D)
 - Vて + いるとき
 - noun + のとき
-- な-adjective + なとき
-- い-adjective + とき
+- Na + なとき
+- A + とき
 - 昨日私が勉強しているとき、友達が遊びに来ました。
 - 数学が分からないとき、いつも兄に聞きます。
 - 母は若いとき、水泳の選手でした。
@@ -2102,3 +2115,93 @@ ____
 - 自分で + ...
 - 人に聞かないで自分で考えなさい。
 - 自分のことは自分でしなさい。
+
+## Chapter 17
+
+### since
+
+- [ので](./particles.md#%E3%81%AE%E3%81%A7)
+- noun + な + ので
+- Na + な + ので
+- V + ので
+- 昨日は雨が降っていたので、一日中うちにいました。
+- 図書館は静かなので、私はいつも図書館で勉強します。
+- 今日は日曜日なので、学校は休みです。
+
+### seems like
+
+- Na + そうだ
+- A- + そうだ
+- R- + そうだ
+- 雨が降りそうです。
+- このケーキはおいしそうですね。
+- あの人はとても元気そうです。
+
+### does not seem like
+
+- noun + ではなさそうだ
+- Na + ではなさそうだ
+- Aくな + さそうだ
+- R- + そうもない
+- 雨はやみそうもありません。
+- このケーキはおいしくなさそうです。
+- あの人は元気ではなさそうです。
+
+### seem (in sub-clauses)
+
+- ... + そうだ + から + ...
+- ... + そうな + noun + ...
+- ... + そうに + verb + ...
+- 雨が降りそうだから、傘を持っていきます。
+- おいしそうなケーキですね。いただきます。
+- 田中さんはおいしそうにビールを飲んでいます。
+
+### than
+
+- A + より + B + adjective
+- あなたは肉と魚とどちらが好きですか。
+  * 私は（魚より）肉の方が好きです。
+- インドネシアは日本より暑いです。
+
+### for the purpose of
+
+- Vる + ために + ...
+- 弟はオートバイを買うためにアルバイトをしています。
+
+### also
+
+- noun + だし、...
+- Na + だし、...
+- A + し、...
+- R- + し、...
+- ... + も + ... + し、... + も + ...
+  * where も replaces が or を
+- 小林さんは頭もいいし、スポーツもできます。
+- 小林さんはテニスもできるし、サッカーもできます。
+- 小林さんはテニスもサッカーもできます。
+
+### What is that called?
+
+- 何と + いう + noun + ですか。
+- これは何という花ですか。
+  * これはひまわりです。
+
+### thing called ... what is that?
+
+- name + というのは + pronoun + ですか。
+- 東京ドームというのは何ですか。
+  * 野球場です。
+
+### indicating the period of life
+
+- time period + で + ...
+- 父は二十八歳で結婚しました。
+
+## Chapter 18
+
+
+
+## Chapter 19
+
+
+
