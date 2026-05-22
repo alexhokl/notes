@@ -1061,9 +1061,9 @@ ____
 
 - patterns
   * noun + だ + し
-  * な-adjective + だ + し
-  * い-adjective + し
-  * vreb in plain form + し
+  * Na + だ + し
+  * A + し
+  * V + し
 - and what's more
   * usage is very similar to や
   * 花子は優しいし、かしこい。
