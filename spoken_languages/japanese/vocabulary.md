@@ -2240,6 +2240,7 @@ ____
 - 替え玉 (かえだま) - second serving of noodles; substitute
 - 顔色 (かおいろ) - facial expression
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
+- カビ - mould
 - 気に入り (きにいり) - favourite
 - 浄め (きよめ) - purification
 - 区役所 (くやくしょ) - ward office
@@ -2613,6 +2614,7 @@ ____
 - 洗面台 (せんめんだい) - washbasin
 - 電気スタンド (でんきスタンド) - desk lamp
 - 電子レンジ (でんしレンジ) - microwave oven
+- リモコン - remote control; aka リモートコントロ
 - 湯船 (ゆぶね) - bathtub
 
 ### nouns (sports)
