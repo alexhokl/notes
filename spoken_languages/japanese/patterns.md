@@ -198,6 +198,14 @@
     + [impressive or unexpectedly large amount](#impressive-or-unexpectedly-large-amount)
     + [that much](#that-much)
   * [Chapter 19](#chapter-19)
+    + [if or when](#if-or-when)
+    + [if (a casual relationship)](#if-a-casual-relationship)
+    + [when](#when)
+    + [given](#given)
+    + [positive advice](#positive-advice)
+    + [negative advice](#negative-advice)
+    + [to change the state of something](#to-change-the-state-of-something)
+    + [that one (for shared memories and knowledge)](#that-one-for-shared-memories-and-knowledge)
 ____
 
 ## Chapter 1
@@ -1693,7 +1701,7 @@ ____
 - question word + (noun) + でも + ...
 - 私は果物は何でも食べます。
 - 香港の海洋公園は誰でも行ったことがあるでしょう。
-- 何時でもいいですから、あした電話をしてください。
+- 何時でもいいですから、明日電話をしてください。
 - アイフォーンのシリはどんな質問でも答えられますか。
 - 家の近くにできたスーパーは24時間開いています。いつでも買い物ができますから、とても便利です。
 - 日曜日は暇ですから、いつでも遊びに来てください。
@@ -2284,5 +2292,62 @@ ____
 
 ## Chapter 19
 
+### if or when
 
+- [Conditional form ば](./verbs.md#conditional-form-%E3%81%B0)
+- [なら](./particles.md#%E3%81%AA%E3%82%89)
+- 一生懸命練習すれば、上手になります。
+- 練習しなければ、上手になりません。
+- 天気が良ければ、行くつもりです。
+- 天気が良くなければ、行きません。
+- 日本語が上手なら、このアルバイトはできるでしょう。
+- 日本語が上手でなければ、このアルバイトはできないでしょう。
+- 明日いい天気なら、私は山に登ります。
+- 明日いい天気でなければ、私は山に登りません。
 
+### if (a casual relationship)
+
+- [たら](./particles.md#%E3%81%9F%E3%82%89)
+- 雨が降ったら、ハイキングはやめましょう。
+- 雨が降らなかったら、ハイキングに行きましょう。
+- 忙しかったら、来なくてもいいですよ。
+- 忙しくなかったら、ちょっと手伝ってください。
+- お寿司が好きだったら、たくさん食べてください。
+- お寿司が好きでなかったら、サンドイッチを持ってきます。
+- 明日いい天気だったら、散歩に行きませんか。
+- 明日いい天気でなかったら、部屋で音楽を聴きましょう。
+
+### when
+
+- ... + なったら、 + ...
+- 夏休みになったら、国へ帰るつもりです。
+
+### given
+
+- [なら](./particles.md#%E3%81%AA%E3%82%89)
+- 私は来年スペインへ行くつもりです。
+  * スペインへ行くなら、早くスペイン語の勉強を始めなさい。
+
+### positive advice
+
+- Vた + 方がいい + だ。
+- 風邪を引いたときは早く寝た方がいいですよ。
+
+### negative advice
+
+- Vない + 方がいい + だ。
+- この肉はもう古いから食べない方がいいです。
+
+### to change the state of something
+
+- Aく + する
+- Naに + する
+- ラジオの音(おと)を小さくしました。
+- 机(つくえ)の上を綺麗にしてください。
+
+### that one (for shared memories and knowledge)
+
+- 駅前のレストランは安くておいしいですね。
+  * ええ、あそこへは私もよく行きます。
+- 去年の春、一緒に鎌倉へ行きましたね。
+  * ええ、あのときは楽しかったですね。
