@@ -21,6 +21,8 @@ ____
 | te-form         | 山で        | 山ではなくて (山じゃなくて for spoken)             |
 | probably        | 山だろう    | 山ではないだろう (山じゃないだろう for spoken)     |
 | probably polite | 山でしょう  | 山ではないでしょう (山じゃないでしょう for spoken) |
+| conditional     | 山なら      | 山でなければ (山じゃなければ for spoken)           |
+| conditional     | 山だったら  | 山でなかったら (山じゃなかった for spoken)         |
 
 # な-adjective
 
@@ -33,6 +35,8 @@ ____
 | te-form         | 便利で       | 便利ではなくて (便利じゃなくて for spoken)             |
 | probably        | 便利だろう   | 便利ではないだろう (便利じゃないだろう for spoken)     |
 | probably polite | 便利でしょう | 便利ではないでしょう (便利じゃないでしょう for spoken) |
+| conditional     | 便利なら     | 便利でなければ (便利じゃなければ for spoken)           |
+| conditional     | 便利だったら | 便利でなかったら (便利じゃなかったら for spoken)       |
 
 # い-adjective
 
@@ -45,6 +49,8 @@ ____
 | te-form         | 新しくて       | 新しくなくて           |
 | probably        | 新しいだろう   | 新しくないだろう       |
 | probably polite | 新しいでしょう | 新しくないでしょう     |
+| conditional     | 新しければ     | 新しくなければ         |
+| conditional     | 新しかったら   | 新しくなかったら       |
 
 # 五段動詞
 
@@ -65,6 +71,7 @@ ____
 | probably           | 聞くだろう   | 聞かないだろう   |
 | probably polite    | 聞くでしょう | 聞かないでしょう |
 | conditional        | 聞けば       | 聞かなければ     |
+| conditional        | 聞いたら     | 聞かなかったら   |
 | volitional         | 聞こう       |                  |
 
 | Form               | Affirmative  | Negative         |
@@ -84,6 +91,7 @@ ____
 | probably           | 買うだろう   | 買わないだろう   |
 | probably polite    | 買うでしょう | 買わないでしょう |
 | conditional        | 買えば       | 買わなければ     |
+| conditional        | 買ったら     | 買わなかったら   |
 | volitional         | 買おう       |                  |
 
 - if last kana in stem form is う, あ is not used in the conjugation but わ
@@ -136,30 +144,32 @@ ____
 | probably           | 食べるだろう   | 食べないだろう   |
 | probably polite    | 食べるでしょう | 食べないでしょう |
 | conditional        | 食べれば       | 食べなければ     |
+| conditional        | 食べたら       | 食べなかったら   |
 | volitional         | 食べよう       |                  |
 | volitional polite  | 食べましょう   |                  |
 
 # 変格動詞
 
-| Form               | Affirmative                 | Negative                        |
-| ---                | ---                         | ---                             |
-| non-past           | 為る (する)                 | 為ない (しない)                 |
-| non-past, polite   | 為ます (します)             | 為ません (しません)             |
-| non-past, formal   |                             | せず                            |
-| past               | 為た (した)                 | 為なかった (しなかった)         |
-| past, polite       | 為ました (しました)         | 為ませんでした (しませんでした) |
-| te-form            | 為て (して)                 | 為なくて (しなくて)             |
-| potential          | できる                      | できない                        |
-| passive            | 為れる (される)             | 為れない (されない)             |
-| causative          | 為せる (させる)             | 為せない (させない)             |
-| causative (casual) | 為さす (さす)               | 為ささない (ささない)           |
-| causative passive  | 為せられる (させられる)     | 為せられない (させられない)     |
-| imperative         | 為ろ (しろ)                 | 為るな (するな)                 |
-| probably           | 為るだろう (するだろう)     | 為ないだろう (しないだろう)     |
-| probably polite    | 為るでしょう (するでしょう) | 為ないでしょう (しないでしょう) |
-| conditional        | 為れば (すれば)             | 為なければ (しなければ)         |
-| volitional         | 為よう (しよう)             |                                 |
-| volitional polite  | 為ましょう (しましょう)     |                                 |
+| Form               | Affirmative  | Negative       |
+| ---                | ---          | ---            |
+| non-past           | する         | しない         |
+| non-past, polite   | します       | しません       |
+| non-past, formal   |              | せず           |
+| past               | した         | しなかった     |
+| past, polite       | しました     | しませんでした |
+| te-form            | して         | しなくて       |
+| potential          | できる       | できない       |
+| passive            | される       | されない       |
+| causative          | させる       | させない       |
+| causative (casual) | さす         | ささない       |
+| causative passive  | させられる   | させられない   |
+| imperative         | しろ         | するな         |
+| probably           | するだろう   | しないだろう   |
+| probably polite    | するでしょう | しないでしょう |
+| conditional        | すれば       | しなければ     |
+| conditional        | したら       | しなかったら   |
+| volitional         | しよう       |                |
+| volitional polite  | しましょう   |                |
 
 | Form               | Affirmative                 | Negative                        |
 | ---                | ---                         | ---                             |
@@ -178,6 +188,7 @@ ____
 | probably           | 来るだろう (くるだろう)     | 来ないだろう (こないだろう)     |
 | probably polite    | 来るでしょう (くるでしょう) | 来ないでしょう (こないでしょう) |
 | conditional        | 来れば (くれば)             | 来なければ (こなければ)         |
+| conditional        | 来たら (きたら)             | 来なかったら (こなかったら)     |
 | volitional         | 来よう (こよう)             |                                 |
 | volitional polite  | 来ましょう (きましょう)     |                                 |
 
