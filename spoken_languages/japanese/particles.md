@@ -751,6 +751,8 @@ ____
     + `予定がキャンセルになったから`遊べる。 - The plans have been canceled so
       I can hang out with you.
       + キャンセル (kyanseru) - cancel
+  * comparing with ので
+    + から stress more on the reason itself
 - for continuous actions
   * it can be attached to the て form of a word when it is connecting sequential
     actions
