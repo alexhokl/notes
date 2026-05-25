@@ -31,6 +31,7 @@
     + [Cloud SQL](#cloud-sql-1)
     + [BigQuery](#bigquery)
     + [Looker](#looker)
+    + [Cloud Spanner](#cloud-spanner)
   * [APIs](#apis)
     + [Vision API](#vision-api)
   * [Tools](#tools)
@@ -1626,6 +1627,23 @@ ON
 ### Looker
 
 - it has Google Connectors to integrate with different data sources
+
+### Cloud Spanner
+
+- it has graph database capability
+- it defines a graph schema on top of a relational schema
+- in terms of scaling, it has a concept of nodes where it can provide
+  horizontal scaling
+- query can be made in GQL as well as traditional SQL
+- there is an advantage that no synchronization is needed between
+  the graph and the relational data database because it is one database
+- it does have full-text search
+  * auto-enhanced search
+    + increase the matching text variants to find similar phrases in the
+      searched text
+    + there is variety of tokenizers (like ElasticSearch)
+- search results can be rank by vector emdeddings
+- it has a PostgreSQL interface
 
 ## APIs
 
