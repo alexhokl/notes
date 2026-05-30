@@ -1020,7 +1020,7 @@ ____
 - 其れで (それで) - therefore; then
 - 其れに (それに) - moreover; besides; in addition
 - だから - therefore
-- 又は (または) - or; either
+- または - or; either
 
 ### adverbs
 
@@ -1133,7 +1133,7 @@ ____
 - 習慣 (しゅうかん) - habit
 - 趣味 (しゅみ) - hobby; pastime
 - 小説 (しょうせつ) - novel; fiction
-- 席 (せき) - seat
+- 席 (せき) - seat; area in 立ち食い
 - 世界 (せかい) - world; society
 - 先輩 (せんぱい) - senior
 - 字 (じ) - character; kanji
@@ -1460,6 +1460,7 @@ ____
 - ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
+- なかなか - very; by no means; not readily
 - のんびり - at leisure
 - 別に (べつに) - (not) particularly; (not) especially
 - まあ - well; I mean
@@ -2040,6 +2041,7 @@ ____
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
 - 散る (ちる) - to fall (e.g. blossoms, leaves); to scatter; to be dispersed
+- 外れる (はずれる) - to be disconnected
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - 凭れる (もたれる) - to lean against; to lean on
 - 依る (よる) - to depend on; to be caused by; to be based on
