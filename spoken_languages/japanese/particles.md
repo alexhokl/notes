@@ -107,11 +107,7 @@ ____
   * turns non-nouns into nouns
   * usages
     + relative clause + の
-      + conjugation
-        + verb in plain form + の
-        + い-adjective + の
-        + な-adjective + な + の
-        + noun + の
+      + conjugate in plain form (see [conjugations](./conjugations.md#%E3%81%AE)
       + 走る`の`は楽しいです。 - Running is fun.
       + 走る`の`は明日だよ。 - (The time for) running is tomorrow.
       + 走る`の`は海子だよ。 - (The person) running is Umiko.
@@ -360,7 +356,7 @@ ____
     + 会議をしにNASAに行った。 - I went to NASA to hold a meeting.
       + し is stem form of する
     + ロケットを見る`ために`NASAに走った。 - I went to NASA to watch a rocket.
-- な-adjective + に
+- Na + に
   * marks a state or condition or manner
   * the whole combination acts like an adverb
   * examples
@@ -1646,10 +1642,11 @@ ____
       + 時間通りに田中さんが来た。中村さんもきた。いつも遅刻する山田さんまで来た。
 - focuses on expectation of speaker where things fall outside the realm of
   expectations
+- [さえ](./conjugations.md#%E3%81%95%E3%81%88)
 - conjugation
   * noun + さえ
-  * い-adjective + さえ
-  * な-adjective + で + さえ
+  * Na + で + さえ
+  * Aく + さえ
   * R- + さえ
 
 ### すら
@@ -1678,10 +1675,11 @@ ____
   * 以前は自分の名前は覚えていたのに、今は自分の名前まで覚えていない。 (the
     range of things I can remember is limited, the range of things I cannot
     remember increased)
+- [すら](./conjugations.md#%E3%81%99%E3%82%89)
 - conjugation
   * noun + すら
-  * い-adjective + すら
-  * な-adjective + で + すら
+  * Na + で + すら
+  * Aく + すら
   * R- + すら
 
 ### くらい
@@ -1983,11 +1981,11 @@ ____
 - to show that something has deviated from the expectation
 - it focuses on the unexpectedness of the situation and expresses surprise or
   frustration
-- patterns
+- [conjugations of の](./conjugations.md#%E3%81%AE)
   * noun + な + のに
-  * な-adjective + な + のに
-  * い-adjective + のに
-  * verb (plain form) + のに
+  * Na + な + のに
+  * A + のに
+  * V + のに
 - used in connecting sentences
   * クーラーをつけた`のに`全然涼しくならなかった。
   * レモンな`のに`すごく甘い。

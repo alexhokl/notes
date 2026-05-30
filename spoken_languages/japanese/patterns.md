@@ -2143,6 +2143,7 @@ ____
 - [ので](./particles.md#%E3%81%AE%E3%81%A7)
 - noun + な + ので
 - Na + な + ので
+- A + ので
 - V + ので
 - 昨日は雨が降っていたので、一日中うちにいました。
 - 図書館は静かなので、私はいつも図書館で勉強します。
@@ -2160,9 +2161,23 @@ ____
   * polite form can used be used business settings
 - 漢字をしらべたいので、この辞書を借りてもいいですか。
 - 日本語があまり上手ではありませんので、英語で話してくでさいませんか。
+- どうして遅刻したんですか。
+  * 疲れていて、寝坊してしまったので、...
+  * ❌疲れていて、寝坊してしまったから、...
+    + it should not be used to explain doing something wrong
+- 聞こえませんので、少し大きい声で言っていただけますか。
+  * ❌聞こえませんから、少し大きい声で言っていただけますか。
+    + it should not be used for a request of help when it is stressing the
+      reason where it sounds like blaming the listener
+- なぜ、日本語の勉強を始めたんですか。
+  * 日本のアニメが好きだからです。
+  * ❌日本のアニメが好きだのでです。
+    + it should not be used for an answer of question of reason
 
 ### seems like
 
+- [い-adjective and そう](./adjectives.md#%E3%81%9D%E3%81%86)
+- [な-adjective and そう](./adjectives.md#%E3%81%9D%E3%81%86-1)
 - Na + そうだ
 - A- + そうだ
 - R- + そうだ
@@ -2201,6 +2216,7 @@ ____
 
 ### seem (in sub-clauses)
 
+- そう is a な-adjective
 - ... + そうだ + から + ...
 - ... + そうな + noun + ...
 - ... + そうに + verb + ...
@@ -2214,7 +2230,7 @@ ____
 
 ### which of the two?
 
-- A + と + B + どちら + が + ...
+- A + と + B + どちら + が + ... + か。
   * A/B + の方が + ...
 - あなたの国と日本とどちらが寒いですか。
   * 日本の方(ほう)が寒いです。
@@ -2262,7 +2278,7 @@ ____
 - noun + だし、...
 - Na + だし、...
 - A + し、...
-- R- + し、...
+- V + し、...
 - ... + も + ... + し、... + も + ...
   * where も replaces が or を
 - 小林さんは頭もいいし、スポーツもできます。

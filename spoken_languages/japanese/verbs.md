@@ -188,7 +188,7 @@ ____
   `definitely` a 五段動詞
 * a combination of kanji and る is `likely` a 五段動詞
   + examples
-    * いる (いる) - to need
+    * 要る (いる) - to be needed
     * 入る (はいる) - to enter
     * 走る (はしる) - to run
     * 帰る (かえる) - to return
@@ -196,12 +196,18 @@ ____
     * 喋る (しゃべる) - to chat
     * 知る (しる) - to know
   + exceptions
+    + 居る (いる) - to be; to exist
+    + 射る (いる) - to shoot
+    + 得る (える) - to get; to obtain
+    + 着る (きる) - to wear
     + 出る (でる) - to exit
     + 似る (にる) - to be alike
-    + 寝る (ねる) - to sleep
-    + 見る (みる) - to see
-    + 着る (きる) - to wear
     + 煮る (にる) - to boil
+    + 寝る (ねる) - to sleep
+    + 干る (ひる) - to dry (up)
+    + 経る (へる) - to pass; to elapse
+    + 見る (みる) - to see
+    + 診る (みる) - to examine
 * if the vowel sound that comes before る is `e` or `i`, it is `probably` a
   一段動詞
   + it is likely that the verb is a combination of 送り仮名 (okurigana) and る
@@ -676,7 +682,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + という
     + みたい
 - conjugation
-  * い-adjective without い + がる
+  * A- + がる
   * 嬉しがる
   * 怖がる
   * 痛がる
@@ -922,8 +928,8 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - patterns
   * noun + に + なる
-  * な-adjective + に + なる
-  * い-adjective + く + なる
+  * Na + に + なる
+  * Aく + なる
   * に can be replaced with と
     + と indicates that the thing/state/event has reached its ultimate stage,
       and it sounds formal and literary
@@ -1120,9 +1126,9 @@ Note that all other conjugations of 買う use hiragana characters on the
 - こと has the meaning of "times" or "occasions"
   * "There are time I do ..."
 - patterns
-  * verb in plain form + ことがある
-  * い-adjective + ことがある
-  * な-adjective + な + ことがある
+  * Vる + ことがある
+  * A + ことがある
+  * Na + な + ことがある
   * noun + の + ことがある
   * noun + である + ことがある (more formal)
 - basic examples
@@ -1187,10 +1193,10 @@ Note that all other conjugations of 買う use hiragana characters on the
   * verb in plain past tense + ことがある
 - が can often be omitted in conversations
 - patterns
-  * verb in plain past tense + ことがある
-  * い-adjective in past tense + ことがある
-  * な-adjective in past tense + ことがある
-  * noun in past tense + ことがある
+  * Vた + ことがある
+  * Aくなかった + ことがある
+  * Naだった + ことがある
+  * nounだった + ことがある
 - for past experience
   * 聞いたことがある。
   * 見たことがある。
@@ -1241,8 +1247,8 @@ Note that all other conjugations of 買う use hiragana characters on the
 - it has a relatively netural tone
 - patterns
   * R- + すぎる
-  * い-adjective without い + すぎる
-  * な-adjective + すぎる
+  * A- + すぎる
+  * Na + すぎる
   * noun + の + すぎる
 - too much
   * 食べすぎた。
@@ -1553,9 +1559,9 @@ Note that all other conjugations of 買う use hiragana characters on the
 - patterns
   * verb + てもいい
     + express permission
-  * い-adjective with ending い replaced by く + てもいい
+  * Aく + てもいい
     + express compromise
-  * な-adjective + でもいい
+  * Na + でもいい
     + express compromise
   * noun + でもいい
     + express compromise

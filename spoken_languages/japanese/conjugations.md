@@ -8,6 +8,9 @@
 - [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
 - [なら if](#%E3%81%AA%E3%82%89-if)
 - [かも知れない](#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
+- [の](#%E3%81%AE)
+- [さえ](#%E3%81%95%E3%81%88)
+- [すら](#%E3%81%99%E3%82%89)
 ____
 
 # noun
@@ -226,3 +229,41 @@ Note the change in sounds between く, き and こ.
 | past            | かもしれなかった     |
 | past polite     | かもしれませんでした |
 | past polite     | かもしれなかったです |
+
+| Form                | Affirmative            |
+| ---                 | ---                    |
+| noun                | 夏かもしれない         |
+| な-adjective        | 静かかもしれない       |
+| い-adjective        | 高いかもしれない       |
+| verb                | 行くかもしれない       |
+| noun (past)         | 夏だったかもしれない   |
+| な-adjective (past) | 静かだったかもしれない |
+| い-adjective (past) | 高かったかもしれない   |
+| verb (past)         | 行ったかもしれない     |
+
+# の
+
+| Form                | Affirmative  |
+| ---                 | ---          |
+| noun                | 夏の         |
+| な-adjective        | 静かなの     |
+| い-adjective        | 高いの       |
+| verb                | 行くの       |
+
+# さえ
+
+| Form         | Affirmative |
+| ---          | ---         |
+| noun         | 夏さえ      |
+| な-adjective | 静かでさえ  |
+| い-adjective | 高くさえ    |
+| verb         | 行きさえ    |
+
+# すら
+
+| Form         | Affirmative |
+| ---          | ---         |
+| noun         | 夏すら      |
+| な-adjective | 静かですら  |
+| い-adjective | 高くすら    |
+| verb         | 行きすら    |

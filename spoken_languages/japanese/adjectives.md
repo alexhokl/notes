@@ -12,11 +12,6 @@ ____
 
 # Adjectives
 
-- い-adjectives
-  * it ends with い
-- な-adjectives
-  * it does not end with な
-
 ## い-adjectives
 
 - fun facts

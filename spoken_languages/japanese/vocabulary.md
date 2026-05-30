@@ -938,11 +938,12 @@ ____
 - 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
 - 飲む (のむ) - to drink
 - 話す (はなす) - to talk; to speak (a language)
-- 張る (はる) - to stick; to paste
+- 張る (はる) - to stick; to paste; to post (a link, etc. online); aka 貼る
 - 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
   instrument) to catch (a cold); to look up (a word in a dictionary)
 - 磨く (みがく) - to brush
 - 持つ (もつ) - to hold; to carry; to possess
+- 呼ぶ (よぶ) - to call; to invite; to summon
 - 読む (よむ) - to read
 - 忘れる (わすれる) - to forget
 
@@ -1074,6 +1075,7 @@ ____
 - 急 (きゅう) - sudden; urgent
 - 親切 (しんせつ) - kind
 - 残念 (ざんねん) - regrettable; disappointing; unfortunate
+- そう - appearing that; seeming that; looking like
 - 確か (たしか) - certain; sure; reliable
 - 丁寧 (ていねい) - polite
 - 特別 (とくべつ) - special; particular
@@ -1233,6 +1235,7 @@ ____
 ### nouns (body parts)
 
 - 首 (くび) - neck
+- 心 (こころ) - heart; mind; spirit
 
 ### nouns (transportation)
 
@@ -1749,6 +1752,7 @@ ____
 - 出発 (しゅっぱつ) - departure
 - 滞在 (たいざい) - stay
 - 遅刻 (ちこく) - lateness
+- 駐車 (ちゅうしゃ) - parking
 - ダンス - dance
 - びっくり - to be surprised; to be amazed
 - 優勝 (ゆうしょう) - championship; victory
@@ -1779,6 +1783,7 @@ ____
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
+- 当てる (あてる) - to hit; to apply; to expose; to call on someone; to guess
 - 頂く (いただく) - to receive; to take (kenjougo form of 貰う)
 - 受け取る (うけとる) - to receive
 - 贈る (おくる) - to give; to present; to award
@@ -1790,7 +1795,7 @@ ____
 - 誘う (さそう) - to invite; to ask (someone to do); to tempt; to induce (tears,
   laughter, etc.)
 - 覚ます (さます) - to waken; to arouse from sleep
-- 仕舞う (しまう) - to end up
+- 仕舞う (しまう) - to end up; to close (a business, etc); to put away; to store
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
 - 担当 (たんとう) - being in charge; being responsible
@@ -2021,7 +2026,7 @@ ____
   etc.)
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 可愛がる (かわいがる) - to be affectionate to; to cherish; to show favoritism to
-- 蹴る (ける) - to kick
+- 蹴る (ける) - to kick; to refuse
 - 探る (さぐる) - to feel around for; to grope for
 - 溜める (ためる) - to save up (money); aka 貯める
 - 取り入れる (とりいれる) - to take in; to adopt (an idea); to harvest
@@ -2106,6 +2111,7 @@ ____
 - 課題 (かだい) - subject; theme; task; homework
 - 区 (く) - ward; district
 - 工学 (こうがく) - engineering
+- 心地 (ここち) - feeling; sensation; mood
 - コンテスト - contest
 - 願書 (がんしょ) - written application
 - ぐらい - about; approximately
@@ -2218,6 +2224,7 @@ ____
 - デッサン - rough sketch (from French "dessin")
 - 登録 (とうろく) - registration
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
+- 保護 (ほご) - protection; safeguard; conservation; preservation
 
 ### する intransitive verbs
 
@@ -2444,6 +2451,7 @@ ____
   table-top cast-iron pan
 - スパゲティ - spaghetti
 - スナック - snack
+- 煎餅 (せんべい) - rice cracker
 - ソフトクリーム - soft ice cream
 - ソースカツ - breaded cutlet (e.g. tonkatsu) covered in Worcester sauce
 - たこ焼き (たこやき) - octopus balls
@@ -2577,6 +2585,7 @@ ____
 ### nouns (location)
 
 - エベレスト - (Mount) Everest
+- 喫煙所 (きつえんじょ) - smoking area
 - コインランドリー - coin laundry
 - コンビニ - convenience store
 - 商店街 (しょうてんがい) - shopping street; shopping district
@@ -2874,6 +2883,7 @@ ____
 - 接骨院 (せっこついん) - orthopedic clinic
 - 体調 (たいちょう) - physical condition; state of health
 - パニック障害 (パニックしょうがい) - panic disorder
+- 療法 (りょうほう) - (method of) treatment or therapy
 
 ### nouns (finance)
 

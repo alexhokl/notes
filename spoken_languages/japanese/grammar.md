@@ -215,8 +215,8 @@ ____
 - の often changes to ん in spoken Japanese
 - patterns
   * noun + な + のだ
-  * な-adjective + な + のだ
-  * い-adjective + のだ
+  * Na + な + のだ
+  * A + のだ
   * Vる + のだ
 - basic examples
   * 実はイタリアで育ったんだ。
@@ -288,8 +288,8 @@ ____
 - patterns
   * attach to a plain form
   * noun + かもしれない
-  * な-adjective + かもしれない
-  * い-adjective + かもしれない
+  * Na + かもしれない
+  * A + かもしれない
   * Vる + かもしれない
 - it is usually followed by から or けど
 - [conjugations](./conjugations.md#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
