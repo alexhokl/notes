@@ -29,6 +29,9 @@
   * [used to](#used-to)
   * [in theory](#in-theory)
   * [mutiple actions](#mutiple-actions)
+  * [if or when](#if-or-when)
+  * [difficult to do](#difficult-to-do)
+  * [easy to do](#easy-to-do)
 ____
 
 # Links
@@ -52,6 +55,8 @@ ____
 - [Learn Japanese: A Ridiculous detailed
   guide](https://www.tofugu.com/learn-japanese/) - contains steps to learn
 - [NHK World Easy Japanese](https://www.nhk.or.jp/lesson/en/lessons/) - lessons
+- [NHK やさしいことばニュース](https://news.web.nhk/news/easy/) - news in easy
+  Japanese words
 - [Western calendar year convert to Japanese
   year](https://www.sljfaq.org/afaq/dates.html)
 - [モジナビ (Mojinavi)](https://mojinavi.com/) - kanji dictionary
@@ -459,3 +464,46 @@ ____
 
 - Vて + Vて + ... + そして + ... + V
   * 朝、起きて、顔を洗って、朝ご飯を食べて、そして学校へ行きます。
+
+## if or when
+
+- A- + ければ
+- Aくな + ければ
+- おいしければ、売れるでしょう。
+- usages
+  * general truths
+    + 天気がよければよく外を走ります。
+  * habits
+    + 子供のころは、天気がよければよく外を走りました。
+  * future uncertainty
+    + 天気が悪ければ、遠足は中止になる。
+    + もし天気が悪ければ、遠足は中止になるかもしれない。
+  * intentions and future wishes
+    + 質が良ければ、買うつもりです。
+    + 質が良ければ、買いましょう。
+- common mistakes
+  * verbs look like い-adjectives
+    + ❌ 違ければ、言ってください。
+    + ⭕️ 違えば、言ってください。
+      + 違う is a verb
+
+## difficult to do
+
+- R- + にくい
+- derived from an obsolete adjective 難い
+- にくい is an い-adjective
+- the difficulty it not on the person involved
+- このフォークは使いにくい。
+- 使いにくいフォーク
+- 私の姉は車酔いしにくい。
+- 歩きにくい靴
+- for non-physical difficulty, がたい should be used
+  * そのニュースは信じがたい。 - The news is difficult to believe.
+
+## easy to do
+
+- R- + やすい
+- derived from an adjective 易い
+- ジェニーは話しやすい。 - Jenny is easy to talk to.
+- 私の父は酔いやすい。
+- 私は惚れやすい。 - I fall in love easily.

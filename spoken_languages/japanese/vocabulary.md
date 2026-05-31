@@ -1828,6 +1828,7 @@ ____
 - 解ける (とける) - to be solved; to come undone; to melt away; to be resolved
   (of a dispute); aka 溶ける
 - 燃える (もえる) - to burn
+- 酔う (よう) - to get drunk; to feel sick
 
 ### verbs (transitive and intransitive)
 
