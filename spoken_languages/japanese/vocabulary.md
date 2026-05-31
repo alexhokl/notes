@@ -2617,6 +2617,7 @@ ____
 - コンディション - condition
 - 激安 (げきやす) - dirty cheap
 - 参考上代 (さんこうじょうだい) - MSRP (Manufacturer's Suggested Retail Price)
+- 品書き (しながき) - menu; catalog
 - 使用感 (しようかん) - wear and tear, signs of use
 - 新入荷 (しんにゅうか) - new arrival
 - 新品 (しんぴん) - new
