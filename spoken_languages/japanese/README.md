@@ -22,13 +22,13 @@
   * [近く](#%E8%BF%91%E3%81%8F)
   * [って](#%E3%81%A3%E3%81%A6)
   * [予定](#%E4%BA%88%E5%AE%9A)
-  * [the best](#the-best)
 - [Patterns](#patterns)
   * [don't mind](#don%27t-mind)
-  * [not necessary](#not-necessary)
-  * [cannot / must not](#cannot-%2F-must-not)
-  * [must](#must)
-  * [than](#than)
+  * [not as good as](#not-as-good-as)
+  * [how](#how)
+  * [used to](#used-to)
+  * [in theory](#in-theory)
+  * [mutiple actions](#mutiple-actions)
 ____
 
 # Links
@@ -429,10 +429,6 @@ ____
 - 大阪にどのぐらいいる予定ですか。
   * 二週間大阪にいる予定です。
 
-## the best
-
-- noun + が + 一番いいです。
-
 # Patterns
 
 ## don't mind
@@ -440,34 +436,26 @@ ____
 - Vて + もいい
   * 食べてもいいです。 - I don't mind to eat it.
 
-## not necessary
+## not as good as
 
-- V + なくてもいいです。 (not necessary)
-- noun + じゃなくてもいいです。
-- ウィンテージじゃなくてもいいです。 (Not necessarily vintage)
-
-## cannot / must not
-
-- Vて + はいけない
-  * 食べてはいけません。 - you must not eat.
-  * 入ってはいけません。 - you must not enter.
-  * 見てはいけません。 - you must not see.
-
-## must
-
-- Vな + ければなりません (must)
-- Vない + といけません　(must, slight less formal)
-  * Vない + と (must, very casual)
-- kind of "cannot not doing" something
-- 毎日仕事で何をしなければないませんか。
-  * コーディングしたり、会議(かいぎ)したり、リサーチしたりしなければなりません。
-- ご飯を作らなければなりませんか。
-  * はい、作らなければなりません。
-  * いいえ、作らなくてもいいです。
-
-## than
-
-- noun A は noun B より + A/ナ + だ。 (A is adjective than B)
-  * ClaudeはChatGPTよりいいです。 (Claude is better than ChatGPT)
-- noun B は noun A ほど + A＜ない/ナではない + だ。 (B is not as adjective as A)
+- noun B は noun A ほど + A＜ない/Naではない + だ。 (B is not as adjective as A)
   * ChatGPTはClaudeほどよくないです。
+
+## how
+
+- どうやって + V + か。
+  * どうやって行ったんですか。 - How did you get there?
+
+## used to
+
+- ... + に + 慣(な)れます。
+
+## in theory
+
+- 理論的には...
+- 理論的には、AIは人間の介入なしでコードを書くことができます。
+
+## mutiple actions
+
+- Vて + Vて + ... + そして + ... + V
+  * 朝、起きて、顔を洗って、朝ご飯を食べて、そして学校へ行きます。

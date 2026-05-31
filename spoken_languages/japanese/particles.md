@@ -294,6 +294,7 @@ ____
     + 学校`に`いる - I am at school
     + 学校`に`ジムがある。 - There is a gym at school
     + 学校`に`行く。 - I will go to school
+    + 大阪に泊まります。 - I will stay in Osaka.
   * it usually goes with いる (to be) and ある (to exist)
 - で
   * defines the place or location where an activity or event is, was, or will
@@ -301,6 +302,8 @@ ____
   * examples
     + 学校`で`勉強する。 - I study at school
     + 学校`で`チャリティーイベントがある。 - There is a charity event at school
+    + 大阪`で`泊まります。 - I will stay in Osaka area.
+    + 大阪`で`どこへ行ったんですか。 - Where did you go in Osaka?
 - に and で
   * examples
     + マグネットを冷蔵庫のドア`に`貼った。 - I put a magnet on the fridge door.

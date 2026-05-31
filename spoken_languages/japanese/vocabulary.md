@@ -1299,6 +1299,7 @@ ____
 ### する intransitive verbs
 
 - アルバイト - part-time job (from German "Arbeit")
+- 関係 (かんけい) - relationship; connection
 - 卒業 (そつぎょう) - graduation
 - 水泳 (すいえい) - swimming
 - 退院 (たいいん) - discharge from hospital
@@ -1532,6 +1533,7 @@ ____
 - 暮らし (くらし) - life; living
 - クラシック - classical music
 - クリスマス - Christmas
+- 計画 (けいかく) - plan; project; schedule
 - 煙 (けむり) - smoke
 - ケース - case
 - 恋 (こい) - (romatic) love
@@ -1589,6 +1591,7 @@ ____
 - 瓶 (びん) - bottle; jar
 - 文 (ぶん) - sentence; composition; text; writings; literature; statement
   (computing)
+- ベンチ - bench
 - ベルト - belt
 - マスター - owner
 - 間違い (まちがい) - mistake; error
@@ -1716,6 +1719,7 @@ ____
 
 - 暗記 (あんき) - memorization
 - 案内 (あんない) - guidance; information
+- 依頼 (いらい) - request; commission; entrusting (with a matter)
 - お喋り (おしゃべり) - chattering; talk; chitchat; gossip
 - 観光 (かんこう) - sightseeing
 - 許可 (きょか) - permission; approval
@@ -1880,6 +1884,7 @@ ____
 - カラー - color
 - 缶詰 (かんづめ) - canned food; being stuck in a confined space
 - 看板 (かんばん) - sign; billboard
+- 公共 (こうきょう) - public
 - 後輩 (こうはい) - junior
 - 紅葉 (こうよう) - red leaves
 - 国立 (こくりつ) - national
@@ -2490,6 +2495,8 @@ ____
 - プリン - pudding
 - 飯 (まんま) - food (children's language)
 - 焼き飯 (やきめし) - fried rice
+- やせうま - a local dish from Oita prefecture, made of fried dough covered in
+  sugar and kinako (roasted soybean flour)
 - 夕食 (ゆうしょく) - dinner
 
 ### nouns (fish)
@@ -3062,3 +3069,6 @@ invite; to ride
 - 言わないことではない - I told you so
 - 好きなだけ - as much as one wants
 - 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
+- なんと返事する。 - What to say in response?
+- 何の返事する。 - What is thing to reply to?
+- ほかには?  - anything else?
