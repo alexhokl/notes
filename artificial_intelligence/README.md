@@ -65,7 +65,7 @@ ____
 
 ### GitHub Copilot
 
-- [model-multipliers](https://docs.github.com/en/copilot/concepts/billing/copilot-requests#model-multipliers)
+- [pricing tables](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing#pricing-tables)
 
 ## Tools
 
