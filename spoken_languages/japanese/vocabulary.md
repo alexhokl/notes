@@ -1415,6 +1415,7 @@ ____
 
 ### verbs (transitive and intransitive)
 
+- 謝る (あやまる) - to apologise
 - 急ぐ (いそぐ) - to hurry; to rush
 - 開く (ひらく) - open
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
@@ -1566,6 +1567,7 @@ ____
 - 図 (ず) - map; figure; diagram; drawing
 - 太陽 (たいよう) - sun
 - ただ - free of charge; only (adverb); but (conjunction)
+- 立場 (たちば) - position; situation; point of view
 - 違い (ちがい) - difference
 - 調子 (ちょうし) - condition; state of health; tune
 - 月 (つき) - moon
@@ -1905,6 +1907,8 @@ ____
 - バツ - cross
 - 苗字 (みょうじ) - surname
 - 名物 (めいぶつ) - famous product
+- 目上 (めうえ) - superior; senior
+- 目下 (めした) - subordinate; junior
 - メニュー - menu
 - 役所 (やくしょ) - government office
 - 有料 (ゆうりょう) - fee-charging; not free
@@ -2388,6 +2392,7 @@ ____
 - 事故物件 (じこぶっけん) - stigmatized property; real estate where a crime, death, etc. has occurred
 - 順路 (じゅんろ) - route
 - 女 (じょ) - woman (used as suffix)
+- タメ口 (タメぐち) - casual speech
 - 痴漢 (ちかん) - molester; pervert
 - チャック - zip (for bags)
 - 使い方 (つかいがた) - way of using; way of handling (employees, subordinates,
@@ -2974,6 +2979,7 @@ ____
 - 下す (くだす) - to make a decision; to draw a conclusion
 - ぎる - to steal
 - ググる - to google
+- こなす - to digest; to break down; to be able to use
 - 立ち食い (たちぐい) - eating while standing
 - 立ち飲み (たちのみ) - drinking while standing; aka 立ち呑み
 - 連れていく (つれていく) - to take (someone to a place); to take (someone) with
