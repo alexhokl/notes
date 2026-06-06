@@ -18,6 +18,7 @@
     + [which one](#which-one)
   * [Chapter 4](#chapter-4)
     + [How is it?](#how-is-it%3F)
+    + [How was it?](#how-was-it%3F)
     + [not very](#not-very)
     + [location and count things or people](#location-and-count-things-or-people)
     + [How much / many](#how-much-%2F-many)
@@ -168,8 +169,8 @@
     + [polite way to respond to a praise](#polite-way-to-respond-to-a-praise)
     + [to give more context to avoid sounding too direct](#to-give-more-context-to-avoid-sounding-too-direct)
   * [Chapter 16](#chapter-16)
-    + [may I? allow or disallow](#may-i%3F-allow-or-disallow)
-    + [not a must? allow or disallow](#not-a-must%3F-allow-or-disallow)
+    + [allow or disallow](#allow-or-disallow)
+    + [must or not a must](#must-or-not-a-must)
     + [a must due to legal or social rules](#a-must-due-to-legal-or-social-rules)
     + [action to prepare for another action](#action-to-prepare-for-another-action)
     + [return to original state](#return-to-original-state)
@@ -178,15 +179,17 @@
     + [asking if a state or condition is sufficient](#asking-if-a-state-or-condition-is-sufficient)
     + [do it oneself](#do-it-oneself)
   * [Chapter 17](#chapter-17)
-    + [since](#since)
+    + [since (without stressing the reason)](#since-without-stressing-the-reason)
     + [seems like](#seems-like)
     + [does not seem like](#does-not-seem-like)
     + [seem (in sub-clauses)](#seem-in-sub-clauses)
+    + [which of the two?](#which-of-the-two%3F)
     + [than](#than)
     + [for the purpose of](#for-the-purpose-of)
     + [also](#also-1)
     + [What is that called?](#what-is-that-called%3F)
-    + [thing called ... what is that?](#thing-called-...-what-is-that%3F)
+    + [the thing called ... is ...](#the-thing-called-...-is-...)
+    + [the thing called ... what is that?](#the-thing-called-...-what-is-that%3F)
     + [indicating the period of life](#indicating-the-period-of-life)
   * [Chapter 18](#chapter-18)
     + [indicating general conditions](#indicating-general-conditions)
@@ -1749,6 +1752,7 @@ ____
 - 香港ではお年寄りは2ドルで地下鉄に乗れます。
 - 香港島では50平米のアパートは1000万ドルで買えますか。
 - あの人は六か月で日本語がとても上手になりました。
+- この仕事は今日で終わります。
 
 ### either one out of two
 
@@ -2253,8 +2257,8 @@ ____
 
 ### which of the two?
 
-- A + と + B + と/は/で/では + どちら + が + ... + か。
-  * A/B + の方が + ...
+- A + と + B + と/は/で/では + どちら + が + A/Na + か。
+  * A/B + の方が + A/Na + だ。
 - あなたの国と日本とどちらが寒いですか。
   * 日本の方(ほう)が寒いです。
 - 発音(はつおん)はフランス語と英語とどちらがやさしいと思いますか。
@@ -2287,6 +2291,17 @@ ____
 ### for the purpose of
 
 - Vる + ために + ...
+- Vる + ため、 + ...
+- Vる + ためだ。
+  * where is verb has to some action controllable which includes all transitive
+    verbs and some intransitive verbs
+    + which does not include
+      + 分かる
+      + できる
+      + 見える
+      + 聞こえる
+      + ある
+  * ため can be an adverb or noun
 - 弟はオートバイを買うためにアルバイトをしています。
 - 一緒にコンサートを見に行きませんか。
   * すみません。来年結婚するために、貯金(ちょきん)しているんです。
@@ -2294,7 +2309,8 @@ ____
   * 漫画文化を研究(けんきゅう)するために、来ました。
 - 彼女は好きな歌手(かしゅ)に会うために、毎日テレビ局(きょく)の前で待っています。
 - 大学院に入るために、会社を辞めます。
-- 大統領(だいとうりょう)は国際会議(かいぎ)に出るために、今朝アメリカへ出発(しゅっぱつ)しました。
+- 大統領(だいとうりょう)は国際会議(かいぎ)に出るために、今朝アメリカへ
+  出発(しゅっぱつ)しました。
 
 ### also
 
@@ -2303,37 +2319,50 @@ ____
 - Na + だし、...
 - A + し、...
 - V + し、...
-- ... + も + ... + し、... + も + ...
+- ... + も + ... + し、... + も + ... + し、... + も + ...
   * where も replaces が or を
+  * the usage of も depends on subject or object needs to be stated
 - 小林さんは頭もいいし、スポーツもできます。
 - 小林さんはテニスもできるし、サッカーもできます。
-- 小林さんはテニスもサッカーもできます。
-- この間(あいだ)の山田教授(きょうじゅ)の講義(こうぎ)で私はメモも取らなかったし、録音(ろくおん)もしませんでした。
-- この料理はおいしいし、作り方(かた)も簡単です。
+  * 小林さんはテニスもサッカーもできます。 (し is skipped as the verb is the
+    same)
+- この間(あいだ)の山田教授(きょうじゅ)の講義(こうぎ)で私はメモも取らなかったし、
+  録音(ろくおん)もしませんでした。
+- この料理はおいしいし、作り方(かた)も簡単です。 (existance of も is optional)
 - あの二人は趣味も同じだし、考え方も似(に)ています。
 - 祖母(そぼ)は手足(てあし)も不自由(ふじゆう)だし、目も悪いです。
-- 小林さんはテニスも(できるし、)サッカーもできます。
 - 陳さんはピアノも弾けますし、ダンスもできます。
   * 素晴らしいですね。
 - 山田さんは部長(ぶちょう)になったそうですね。
   * ええ。山田さんは英語も上手ですし、仕事の経験も豊かですから。
 - どうしてこの会社に入ったんですか。
   * この会社は有名ですし、給料(きゅうりょう)も高いですから。
+- 私も野菜が嫌いだし、妹も野菜があまり好きではありません。
+- 母からも花をもらったし、父からも花をもらいました。
+- 私は昨日も学校へ来たし、今日も学校へ来ました。
 
 ### What is that called?
 
-- 何と + いう + noun + ですか。
+- 何という + noun + ですか。
+  * note that kanji と言う should not be used as this use case is not referring
+    to someone said something
 - これは何という花ですか。
   * これはひまわりです。
 - 飛騨というところはどこにあるんですか。
-- 樋ロー葉という人は明治時代の有名な作家です。
-- 「吾輩(わがはい)は猫である」という小説(しょうせつ)を読んだことがあります。
 - これは何というお菓子ですか。
   * これは羊羹(ようかん)(というお菓子)です。
 
-### thing called ... what is that?
+### the thing called ... is ...
+
+- 樋ロー葉という人は明治時代の有名な作家です。
+- 「吾輩(わがはい)は猫である」という小説(しょうせつ)を読んだことがあります。
+
+### the thing called ... what is that?
 
 - name + というのは + pronoun + ですか。
+- name + って + noun + ですか。
+- the usage is similar to とは but not the same
+  * というのは is also used more in casual conversations
 - 東京ドームというのは何ですか。
   * 野球場です。
 - アプリというのは何ですか。
@@ -2343,12 +2372,11 @@ ____
 
 ### indicating the period of life
 
-- time period + で + ...
+- age + で + ...
 - 父は二十八歳で結婚しました。
 - 母は25歳で子供を生(う)みました。
 - 山本さんは35歳で社長(しゃちょう)になりました。
 - 祖父(そふ)は90歳で死にました。
-- この仕事は今日で終わります。
 
 ## Chapter 18
 
