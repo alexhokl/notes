@@ -16,6 +16,8 @@ ____
 - [Timeline](https://www.google.com/maps/timeline)
 - [Sign up without GMail](https://accounts.google.com/SignUpWithoutGmail)
 - [My Activity](https://myactivity.google.com/myactivity)
+- [Web and App Activity](https://myactivity.google.com/activitycontrols/webandapp)
+- [Search personalisation](https://www.google.com/search-personalization/)
 - [Make a plan for your Google Account if you pass away or stop using
   Google](https://myaccount.google.com/inactive)
 - [Recently used devices](https://myaccount.google.com/device-activity)
