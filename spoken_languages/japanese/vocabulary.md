@@ -1844,6 +1844,7 @@ ____
 - 御免なさい (ごめんなさい) - I am sorry; my apologies
 - 実は (じつは) - as a matter of fact; to be honest; by the way
 - 大変ごめんなさい - I am very sorry
+- について - regarding
 
 ## N2
 
