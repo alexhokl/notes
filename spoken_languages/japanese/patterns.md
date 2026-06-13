@@ -2384,10 +2384,17 @@ ____
 
 - [と (to indicate a strong casual relationship)](./particles.md#%E3%81%A8-to-indicate-a-strong-casual-relationship)
 - indicates a strong causal relationship
+  * meaning of "once"
+  * it does not have to be a fact, it can be an opinion
 - noun + だ + と + ...
+- noun + でない + と + ... (not ではない)
 - Na + だ + と + ...
+- Na + でない + と + ...
 - A + と + ...
+- A + くない + と + ...
 - V + と + ...
+- V + ない + と + ...
+- past tense cannot be used before と
 - 春になると桜が咲きます。
 - 春にならないと桜は咲きません。
 - 駅に近いと便利です。
@@ -2396,6 +2403,12 @@ ____
 - 果物は新鮮でないとおいしくありません。
 - いい天気だと富士山が見えます。
 - いい天気でないと富士山は見えません。
+- 私は毎年冬になると、日本へスキーに行きます。
+  * habit is acceptable
+  * ❌私は毎年冬になると、日本へスキーに行くつもりです。
+  * ❌私は毎年冬になると、日本へスキーに行きたいです。
+  * ❌私は毎年冬になると、日本へスキーに行きませんか。
+  * ❌私は毎年冬になると、日本へスキーに行きなさい。
 
 ### even if
 
