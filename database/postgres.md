@@ -1,16 +1,17 @@
-- [Links](#links)
-- [Commands](#commands)
-  * [pg_dump](#pg_dump)
-  * [psql](#psql)
-- [SQL statements](#sql-statements)
-  * [Management](#management)
-  * [Performance](#performance)
-  * [JSON](#json)
-  * [User and role management](#user-and-role-management)
-- [Performance troubleshooting](#performance-troubleshooting)
-- [Features](#features)
-  * [B-Tree de-duplication](#b-tree-de-duplication)
-- [Limitations](#limitations)
+  * [Links](#links)
+  * [Commands](#commands)
+    + [pg_dump](#pg_dump)
+    + [psql](#psql)
+  * [SQL statements](#sql-statements)
+    + [Management](#management)
+    + [Performance](#performance)
+    + [JSON](#json)
+    + [User and role management](#user-and-role-management)
+  * [Performance troubleshooting](#performance-troubleshooting)
+    + [pg_stat_statements](#pg_stat_statements)
+  * [Features](#features)
+    + [B-Tree de-duplication](#b-tree-de-duplication)
+  * [Limitations](#limitations)
 ____
 
 ## Links
@@ -414,6 +415,81 @@ SELECT backend_type, state, wait_event_type, wait_event, count(*)
       AND wait_event_type IS DISTINCT FROM 'Activity'
   GROUP BY 1, 2, 3, 4
   ORDER BY count(*) DESC;
+```
+
+### pg_stat_statements
+
+To enable `pg_stat_statements`, configure `postgresql.conf`
+
+```
+shared_preload_libraries = 'pg_stat_statements'
+```
+
+and run the following in at least one database of a server.
+
+```sql
+CREATE EXTENSION IF NOT EXISTS pg_stat_statements;
+```
+
+By default, `pg_stat_statements` tracks the execution of the most recent `5,000`
+
+```
+pg_stat_statements.max = 5000
+```
+
+By default, `pg_stat_statements` tracks only top level statement but not nested
+statements.
+
+```
+pg_stat_statements.track = top
+```
+
+To track all statements including nested statements,
+
+```
+pg_stat_statements.track = all
+```
+
+Example values from `pg_stat_statements`
+
+| Name     | Value                       |
+| ---      | ---                         |
+| userid   | 123                         |
+| dbid     | 100                         |
+| queryid  | -2528591811575489658        |
+| query    | `SELECT title FROM film...` |
+| toplevel | true                        |
+
+Workflow for diagnosing and resolving slow queries
+
+```
++-------------------------------+
+|  server performance is slow   |<-----------+
++-------------------------------+            |
+               |                             |
+               v                             |
++-------------------------------+            |
+| SELECT pg_stat_statements     |            |
+|        _reset();              |            |
++-------------------------------+            |
+               |                             |
+               v                             |
++-------------------------------+            |
+| query pg_stat_statements      |            |
+| periodically                  |            |
++-------------------------------+            |
+               |                             |
+               v                             |
++-------------------------------+            |
+| identify slow query and       |            |
+| optimise                      |            |
++-------------------------------+            |
+               |                             |
+               v                             |
++-------------------------------+            |
+| reset stats again and         |------------+
+| validate improvement          |
++-------------------------------+
 ```
 
 ## Features
