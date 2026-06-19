@@ -1403,6 +1403,7 @@ ____
 - 参る (まいる) - to go; to come; to call
 - 間に合う (まにあう) - to be in time (for); to serve the purpose
 - 戻る (もどる) - to return
+- 役に立つ (やくにたつ) - to be useful; to be helpful
 - 痩せる (やせる) - to lose weight
 - 止む (やむ) - to cease; to stop; to be over
 - 汚れる (よごれる) - to get dirty
@@ -1467,6 +1468,7 @@ ____
 - 別に (べつに) - (not) particularly; (not) especially
 - まあ - well; I mean
 - 先ず (まず) - first (of all)
+- まるで - as if; completely
 - 勿論 (もちろん) - of course; certainly; naturally
 - 最も (もっとも) - most; extremely
 - 矢張り (やはり) - as expected; after all (aka やっぱり)

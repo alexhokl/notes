@@ -13,11 +13,11 @@
   * [並列助詞 parallel particles](#%E4%B8%A6%E5%88%97%E5%8A%A9%E8%A9%9E-parallel-particles)
     + [か](#%E3%81%8B)
     + [と](#%E3%81%A8)
-    + [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
     + [や](#%E3%82%84)
     + [し](#%E3%81%97)
     + [とか](#%E3%81%A8%E3%81%8B)
-  * [連続助詞 conjunctive particles](#%E9%80%A3%E7%B6%9A%E5%8A%A9%E8%A9%9E-conjunctive-particles)
+  * [接続助詞 conjunctive particles](#%E6%8E%A5%E7%B6%9A%E5%8A%A9%E8%A9%9E-conjunctive-particles)
+    + [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
     + [たら](#%E3%81%9F%E3%82%89)
     + [ので](#%E3%81%AE%E3%81%A7)
     + [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
@@ -965,69 +965,6 @@ ____
     + 犬がワンワン`と`鳴いている。 - The dog is barking, "bow-wow".
     + 赤ちゃんがスヤスヤ`と`眠っている。 - The baby is sleeping, "zzz-zzz".
 
-### と (to indicate a strong casual relationship)
-
-- for things that always happen
-  * when と is used for things with inevitable results like this, it is commonly
-    used with words like 必ず (without exception), いつも (always) or よく
-    (usually)
-  * examples
-    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。 - When I drink alcohol,
-      I always crave for sweets (without exception).
-- for habits
-  * examples
-    + 晴れる`と`よくランニングをする。 - When it is sunny, I usually go for
-      a run.
-    + 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
-      a run.
-    + 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
-      went for a run.
-      + と and the sentence ending ものだ (or ものです) are used for recalling
-        and narrating the old days
-- for general conditions
-  * examples
-    + ボタンを押すと、店員が来る。 - When you push a button, staff come.
-    + 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
-      permission, Mami always gets upset.
-- for successive actions
-  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
-    often pairs up with と in this usage
-  * examples
-    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
-      + note the use of past tense
-    + ボタンを押す`と`、すぐに店員が来た。 - Once I pushed a button, staff came
-      right away.
-- for "what happens if" questions
-  * examples
-    + このボタンを押す`と`どうなりますか？ - What happens if I push this button?
-- for warnings
-  * by showing an inevitable consequence of doing something (or often not doing
-    something with the negative form of verbs)
-  * examples
-    + 早く起きない`と`遅刻するよ。 - If you don't get up soon, you'll be late.
-- for showing a different perspective
-  * In Japanese culture, people tend to try not to sound too direct or
-    assertive. They are sensitive of providing information as a universal truth
-    unless they are 100% certain because they don't want to be "wrong"! So と is
-    used to soften the assertiveness by bringing an objective perspective as
-    a certain condition.
-  * examples
-    + はっきり言う`と`… - To be honest...
-    + そう考える`と`… - Viewed from that angle...
-    + 他と比べる`と`… - Compared to others...
-    + 一般的に見る`と`… - Generally speaking...
-- と and たら
-  * quite similar because they can both show conditions and time sequence
-  * と shows strong causal relationship whereas the focus of たら is more of the
-    condition as the trigger of the result
-  * examples
-    + お酒を飲む`と`、スイーツが食べたくなる。 - When I drink alcohol, I always
-      crave for sweets.
-    + お酒を飲ん`だら`、スイーツが食べたくなる。 - If I drink alcohol, I crave
-      for sweets.
-    + ボタンを押す`と`、店員が来た。 - Once I pushed a button, staff came.
-    + ボタンを押し`たら`、店員が来た。 - When I pushed a button, staff came.
-
 ### や
 
 - to list multiple items
@@ -1159,7 +1096,58 @@ ____
   * 彼女が結婚するとか、友だちから聞きました。
     + ❌ 彼女が結婚するとか、興味があります。
 
-## 連続助詞 conjunctive particles
+## 接続助詞 conjunctive particles
+
+### と (to indicate a strong casual relationship)
+
+- for things that always happen
+  * when と is used for things with inevitable results like this, it is commonly
+    used with words like 必ず (without exception), いつも or よく (usually)
+  * examples
+    + お酒を飲む`と`、(必ず) スイーツが食べたくなる。
+- for habits
+  * 晴れる`と`よくランニングをする。
+  * 晴れる`と`よくランニングをした。 - When it was sunny, I usually went for
+    a run.
+  * 晴れる`と`よくランニングをした`ものだ`。 - When it was sunny, I usually
+    went for a run.
+    + と and the sentence ending ものだ (or ものです) are used for recalling
+      and narrating the old days
+- for general conditions
+  * ボタンを押すと、店員が来る。
+  * 勝手にベーコンを食べる`と`、マミは怒る。 - If you eat bacon without her
+    permission, Mami always gets upset.
+- for successive actions
+  * a word like すぐに (right away), which adds a stronger nuance of immediacy,
+    often pairs up with と in this usage
+  * ボタンを押す`と`、店員が来た。
+    + note the use of past tense
+  * ボタンを押す`と`、すぐに店員が来た。
+- for "what happens if" questions
+  * このボタンを押す`と`どうなりますか？ - What happens if I push this button?
+- for warnings
+  * by showing an inevitable consequence of doing something (or often not doing
+    something with the negative form of verbs)
+  * 早く起きない`と`遅刻するよ。
+- for showing a different perspective
+  * In Japanese culture, people tend to try not to sound too direct or
+    assertive. They are sensitive of providing information as a universal truth
+    unless they are 100% certain because they don't want to be "wrong"! So と is
+    used to soften the assertiveness by bringing an objective perspective as
+    a certain condition.
+  * examples
+    + はっきり言う`と`… - To be honest...
+    + そう考える`と`… - Viewed from that angle...
+    + 他と比べる`と`… - Compared to others...
+    + 一般的に見る`と`… - Generally speaking...
+- と and たら
+  * quite similar because they can both show conditions and time sequence
+  * と shows strong causal relationship whereas the focus of たら is more of the
+    condition as the trigger of the result
+  * お酒を飲む`と`、スイーツが食べたくなる。 (when)
+  * お酒を飲ん`だら`、スイーツが食べたくなる。 (if)
+  * ボタンを押す`と`、店員が来た。 (once)
+  * ボタンを押し`たら`、店員が来た。 (when)
 
 ### たら
 
