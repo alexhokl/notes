@@ -1812,6 +1812,7 @@ ____
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 履く (はく) - to wear (lower body clothing, footwear)
+- 含む (ふくむ) - to include; to embrace
 - 向ける (むける) - to turn (towards); to aim for
 - 申し込む (もうしこむ) - to apply for
 - 貰う (もらう) - to receive (appreciatively)
@@ -2292,7 +2293,7 @@ ____
 ### conjunctions
 
 - 為に (ために) - for
-- 因みに (ちなみに) - by the way; in this connection; incidentally
+- ちなみに - by the way
 - とは言え (とはいえ) - though; although; nonetheless
 
 ### adverbs
