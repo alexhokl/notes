@@ -151,10 +151,10 @@
     + [to express speaker's intention or expectation](#to-express-speaker%27s-intention-or-expectation)
     + [no intention](#no-intention)
     + [to express will or intention](#to-express-will-or-intention)
-    + [to express speaker's plan intention which comes up during the conversation](#to-express-speaker%27s-plan-intention-which-comes-up-during-the-conversation)
-    + [to express speaker's plan intention which has been decided before the conversation](#to-express-speaker%27s-plan-intention-which-has-been-decided-before-the-conversation)
+    + [to express speaker's intention which comes up during the conversation](#to-express-speaker%27s-intention-which-comes-up-during-the-conversation)
+    + [to express speaker's intention which has been decided before the conversation](#to-express-speaker%27s-intention-which-has-been-decided-before-the-conversation)
     + [to express someone's intention or plan](#to-express-someone%27s-intention-or-plan)
-    + [to express speaker's guess](#to-express-speaker%27s-guess)
+    + [to express speaker's expectation](#to-express-speaker%27s-expectation)
     + [apparently / they say that](#apparently-%2F-they-say-that)
     + [may or might](#may-or-might)
     + [and then](#and-then)
@@ -192,7 +192,8 @@
     + [the thing called ... what is that?](#the-thing-called-...-what-is-that%3F)
     + [indicating the period of life](#indicating-the-period-of-life)
   * [Chapter 18](#chapter-18)
-    + [indicating a strong casual relationship](#indicating-a-strong-casual-relationship)
+    + [once (as natural consequence)](#once-as-natural-consequence)
+    + [once (as a habit)](#once-as-a-habit)
     + [even if](#even-if)
     + [no matter what kind of](#no-matter-what-kind-of)
     + [describing physical traits](#describing-physical-traits)
@@ -1806,14 +1807,14 @@ ____
 - 今晩は授業がないから、どこかへ食べに行こう。
   * 今晩は授業がないから、どこかへ食べに行きましょう。
 
-### to express speaker's plan intention which comes up during the conversation
+### to express speaker's intention which comes up during the conversation
 
 - Vよう + と思う
 - お年玉の5万円は何に使いますか。
   * そうですね。スマホゲームに課金しようと思います。
 - 私はこんな服を着ようとは思いません。
 
-### to express speaker's plan intention which has been decided before the conversation
+### to express speaker's intention which has been decided before the conversation
 
 - Vよう + と思っている
 - もうすぐ二十歳の誕生日ですね。
@@ -1832,7 +1833,7 @@ ____
 - ⭕️藤田さんはほかの人に仕事を頼もうとは思っていません。
   * ❌藤田さんはほかの人に仕事を頼もうとは思いません。
 
-### to express speaker's guess
+### to express speaker's expectation
 
 - A + と思う
 - Na + と思う
@@ -2380,11 +2381,12 @@ ____
 
 ## Chapter 18
 
-### indicating a strong casual relationship
+### once (as natural consequence)
 
 - [と (to indicate a strong casual relationship)](./particles.md#%E3%81%A8-to-indicate-a-strong-casual-relationship)
-- meaning of "once"
 - it does not have to be a fact, it can be an opinion
+- this cannot be used to express speaker's intention such as commands or requests
+  * たら should be used instead
 - nounだ + と + ...
 - nounでない + と + ... (not ではない)
 - Naだ + と + ...
@@ -2393,11 +2395,11 @@ ____
 - Aくない + と + ...
 - Vる + と + ...
 - Vない + と + ...
-- past tense cannot be used before と
+- past tense cannot be used before と since it requires plain form
 - どうやってラジオの音(おと)を大きくしますか。
   * このつまみを右へ回(まわ)すと、音が大きくなります。
 - すみません。海岸(かいがん)はどの辺ですか。
-- 海岸ですか。この坂を下(お)りて、橋を渡(わた)ると、海岸に出ます。
+  * 海岸ですか。この坂を下(お)りて、橋を渡(わた)ると、海岸に出ます。
 - 洞爺湖(とうやこ)は冬(ふゆ)になると、凍(こお)ります。
 - 春にならないと、この湖(みずうみ)の氷(こおり)は解(と)けません。
 - 試験のとき、解答用紙(かいとうようし)に名前を書かないと、点(てん)がもらえません。
@@ -2415,13 +2417,9 @@ ____
 - 果物は新鮮でないとおいしくありません。
 - いい天気だと富士山が見えます。
 - いい天気でないと富士山は見えません。
-- 私は毎年冬になると、
-  * ⭕️日本へスキーに行きます。
-    + habit is acceptable
-  * ❌日本へスキーに行くつもりです。
-  * ❌日本へスキーに行きたいです。
-  * ❌日本へスキーに行きませんか。
-  * ❌日本へスキーに行きなさい。
+- 昔お酒を飲むと、頭が痛くなりました。
+- 二に三を足すと、五になります。
+- 百から一を引くと、九十九になります。
 - 北海道に行くと、
   * ⭕️カニが食べられる。
   * ❌カニを食べよう。
@@ -2432,17 +2430,32 @@ ____
   * ❌カニを食べてはいけない。
   * ❌カニを食べてもいい。
 
+### once (as a habit)
+
+- 私は毎年冬になると、
+  * ⭕️日本へスキーに行きます。
+    + habit is acceptable
+  * ❌日本へスキーに行くつもりです。
+  * ❌日本へスキーに行きたいです。
+  * ❌日本へスキーに行きませんか。
+  * ❌日本へスキーに行きなさい。
+- 家に帰ると、すぐに手を洗ってうがいをします。
+- 寒いとなかなか布団から出られません。
+
 ### even if
 
 - condition + ても、 + ...
 - nounでも、 + ...
-- nounでなくても、 + ...
+- nounでなくても、 + ... (not ではなくても)
 - Naでも、 + ...
-- Naでなくても、 + ...
+- Naでなくても、 + ... (not ではなくても)
 - Aくても、 + ...
 - Aくなくても、 + ...
 - Vても、 + ...
 - Vなくても、 + ...
+- it is not the same as のに
+  * as ても is more factual and does not have the nuance of "unexpectedness"
+- facts or expectation or action can be used
 - 天候(てんこう)が悪いとき、少し授業(じゅぎょう)に遅(おく)れてもかまいません。
 - 今から急(いそ)いでも、11時のフェリーには間に合いません。
 - お金がありませんから、いくら安くても、買えません。
@@ -2460,26 +2473,48 @@ ____
   * いいえ、この薬を飲んでも、眠くなりません。
 - あなたは静かでないと、寝られませんか。
   * いいえ、私は静かでなくても、寝られます。
+- if the follow clause is not a fact and expectation, のに cannot be used
+  * 急にでも、間に合わないでしょう。
+    + ❌急ぐのに間に合わないでしょう。
+  * 家賃が高くても、便利な場所がいいです。
+    + ❌家賃が高いのに、便利な場所がいいです。
+- 日本語で話しても大丈夫ですよ。
+- そこへは地下鉄でも行けます。
+- すみません。ちょっと質問てもいいですか。
+- 近いので、歩いても行けますよ。
 
 ### no matter what kind of
 
 - ... + どんな + noun + でも + verb
+- note that the meaning of the verb has to be positive
+- it replaces を or が
 - あの人はどんなスポーツでもできます。
   * あの人はスポーツは何でもできます。
 - この辞書にはどんな言葉でも出ています。
   * この辞書には言葉は何でも出ています。
 - デパートではどんな物でも売っています。
   * デパートでは物は何でも売っています。
+- この言葉はどんな辞書(に)でも出ています。
+- 私はどんな国(へ)でも行きたいです。
+- この本はどんな本屋ででも売っています。
+- あの人はどんな難しい本でも読めます。
+- この運動はどんな運動神経の(が)
+- あの人はどんな高いものでも買います。
 
 ### describing physical traits
 
 - noun + をしている
+  * where the noun has to be description of a physical trait
+  * subjective description of physical traits
+  * the description does not have to be positive
 - あの建物は船(ふね)の形(かたち)をしています。
 - この椅子は面白い形をしています。
 - この子は丸い顔(かお)をしています。
 - あの人はやさしそうな顔をしています。
 - みんなうちへ帰りたそうな顔をしています。
 - あの人は長い髪をしています。
+- あの人は綺麗な声(こえ)をしています。
+- ❌あの人髪をしています。
 
 ### like / as
 
