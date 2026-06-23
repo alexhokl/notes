@@ -1,9 +1,21 @@
-- [Links](#links)
-- [Characteristics](#characteristics)
-- [Commands](#commands)
+- [Large Language Models (LLMs)](#large-language-models-llms)
+  * [Links](#links)
+  * [Ollama](#ollama)
+    + [Characteristics](#characteristics)
+    + [Commands](#commands)
+  * [MLX](#mlx)
+    + [Local Agentic AI Stack](#local-agentic-ai-stack)
+  * [Paramters](#paramters)
+    + [Temperature](#temperature)
+    + [Top-K](#top-k)
+    + [Top-P](#top-p)
+  * [Prompt engineering](#prompt-engineering)
+    + [Tips](#tips)
 ____
 
-# Links
+# Large Language Models (LLMs)
+
+## Links
 
 - [ollama/ollama](https://github.com/ollama/ollama)
 - [models](https://ollama.com/library)
@@ -19,7 +31,9 @@ ____
 - [llm-ollama](https://github.com/taketwo/llm-ollama) - a plugin for Python
   program `llm` to interact with Ollama
 
-# Characteristics
+## Ollama
+
+### Characteristics
 
 - `gemma3`
   * although the context window is large, bias towards beginning of the context
@@ -36,7 +50,7 @@ ____
     + some Japanese words are not recognised correctly such as Kana
     + it could not read Japanese written vertically
 
-# Commands
+### Commands
 
 ##### To pull Docker image
 
@@ -130,4 +144,54 @@ ollama show llama3 --modelfile > llama3.modelfile
 ```sh
 ollama create custom_model --modelfile llama3.modelfile
 ```
+
+## MLX
+
+### Local Agentic AI Stack
+
+- Local agent
+  * Xcode, Opencode, Pi
+-	MLX-LM Server
+  * Ollama, LM Studio, [vLLM](https://vllm.ai/)
+-	MLX-LM
+-	MLX
+
+## Paramters
+
+### Temperature
+
+Temperature `0` implies the process creates deterministic outcomes.
+
+A higher temperature implies the process allows creation of outcomes with lower
+probabilities.
+
+### Top-K
+
+If `top-K` is set to `3`, the model picks from the first 3 choices in terms of
+probability.
+
+### Top-P
+
+If `Top-P` is set to `0.7`, the model would select words with probability of
+`0.3` and higher.
+
+## Prompt engineering
+
+In prompt engineering, ask the model to indicate if it is not sure about the
+answer (where the probability is low). Such as "Answer 'I am not sure' if you
+are not sure about answer)
+
+In prompt engineering, role playing is a way to give context to the model.
+
+### Tips
+
+- mathematical problems
+  * break it down for the model by asking the questions in smaller pieces
+- give example
+- take advantage of chat history (hence, giving more context)
+- currently, models understand programming language better than human languages
+- for a conversation requires more than the maximum number of tokens of a model,
+  a trick can be used is that to ask the model to summarise the conversation so
+  far and store the summary to database storage and replay it later.
+
 
