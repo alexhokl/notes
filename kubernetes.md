@@ -857,6 +857,35 @@ SERVICE_ACCOUNT_TOKEN=$(kubectl view-secret -n kube-system $SERVICE_ACCOUNT_SECR
 - [Gateway API
   implementations](https://gateway-api.sigs.k8s.io/implementations/)
 
+```
++--------------+
+| GatewayClass |
++------+-------+
+       |
+       v
++------+-------+
+|   Gateway    |
++---+------+---+
+    |      |
+    v      v
++---+----+ +---+-----+
+|TLSRoute| |HTTPRoute|
++---+----+ +---+-----+
+    |         |
+    v         v
++---+---+ +---+---+
+|Service| |Service|
++-------+ +-------+
+```
+
+| Role                     | Resource       |
+| ---                      | ---            |
+| Infrastructure Providers | `GatewayClass` |
+| Cluster Operators        | `Gateway`      |
+| Application Developers   | `TLSRoute`     |
+| Application Developers   | `HTTPRoute`    |
+| -                        | `Service`      |
+
 ### Ingress class
 
 `kubernetes.io/ingress.class: nginx` or `kubernetes.io/ingress.class: haproxy`
