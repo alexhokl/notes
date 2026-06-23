@@ -816,7 +816,18 @@ storage service-agent`
 ### Monitoring
 
 - metrics
-  * alignment period
+  * sampling rate
+    + how frequently a service or resource writes a metric data point to Cloud
+      Monitoring
+    + ingestion delay
+      + lag time between when an event occurs on a resource and when that data
+        point actually arrives and is processed by GCP Cloud Monitoring
+      + This can vary depending on network traffic, metric type (e.g., log-based
+        metrics take longer), or third-party integrations
+  * rolling window (alignment period)
+    + The continuous time frame over which Cloud Monitoring aggregates data
+      points (using functions like mean, sum, or max) to evaluate whether your
+      alert conditions are violated
     + it is a look-back interval from a particular point in time; the aligner is
       the function that combines the points into the look-back interval into an
       aligned value.
@@ -825,7 +836,12 @@ storage service-agent`
           period contains the samples received between 12:55 PM and 1:00 PM. At
           1:01 PM, the alignment period slides one minute and contains the
           samples received between 12:56 PM and 1:01 PM.
-  * duration (or duration window)
+    + best practice
+      + set this window to at least 3 times of sampling rate to avoid unexpected
+        incident reportings due to ingestion delays
+  * duration (or duration window, or re-test window)
+    + the amount of time an alert policy condition is violated before an
+      incident is created
     + it is used to prevent a condition from triggering due to a single
       measurement or forecast
     + metric-threshold conditions
