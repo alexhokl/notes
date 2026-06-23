@@ -15,6 +15,7 @@
   * [Messaging](#messaging)
   * [Deployment](#deployment)
     + [Canary](#canary)
+  * [Software Delivery Performance (from Goolgle)](#software-delivery-performance-from-goolgle)
   * [Microservices](#microservices)
   * [Integration Testing](#integration-testing)
   * [Garbage Collection](#garbage-collection)
@@ -684,6 +685,15 @@ what has happened in the system.
 A subset of the production environment that has a small amount of customer
 traffic. This allows testing new changes with a subset of traffic before rolling
 it out to the whole production environment.
+
+## Software Delivery Performance (from Goolgle)
+
+| Aspect of Software Delivery Performance* | Elite | High | Medium | Low |
+| :--- | :--- | :--- | :--- | :--- |
+| **Deployment frequency** | On demand (multiple deploys per day) | Between once per day and once per weekx | Between once per week and once per month | Between once per month and once every six months |
+| **Lead time for changes** | Less than one day | Between one day and one week | Between one week and one month | Between one month and six months |
+| **Time to restore service** | Less than one hour | Less than one day* | Less than one day | Between one week and one month |
+| **Change failure rate** | 0-15%ᵇ | 0-15%ᵃ | 0-15% | 46-60% |
 
 ## Microservices
 
