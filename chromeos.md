@@ -12,6 +12,7 @@
     + [pinentry](#pinentry)
 - [Chrome Browser](#chrome-browser)
   * [Bookmarks](#bookmarks)
+  * [Shortcuts](#shortcuts)
   * [Recipies](#recipies)
 ____
 
@@ -239,6 +240,12 @@ cat $HOME/Library/Application\ Support/Google/Chrome/Default/Bookmarks |\
 
 assuming the bookmarks are in folder `To Read` in `Bookmarks Bar`
 
+## Shortcuts
+
+- `@bookmarks`
+- `@history`
+- `@tabs`
+
 ## Recipies
 
 ##### To Enable blackboxing
@@ -255,7 +262,6 @@ assuming the bookmarks are in folder `To Read` in `Bookmarks Bar`
 - Open "Console" tab in develop console
 - Click on the eye-like icon and enter the expression
 
-
 ##### Storing DOM element as a variable
 
 Since Chrome 71, right click on the element tag (after clicking on "Inspect")
@@ -267,5 +273,3 @@ and that variable is available in the console.
 ```js
 monitorEvents($0);
 ```
-
-
