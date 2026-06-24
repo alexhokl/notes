@@ -319,6 +319,7 @@ ____
 - また - also; again
 - もっと - more
 - 未だ (まだ) - still; as yet; (more) still; at least; comparatively
+- 真っ直ぐ (まっすぐ) - straight (ahead)
 - ゆっくり - slowly; unhurriedly; leisurely
 - 良く (よく) - nicely; often; properly; well
 
@@ -1351,6 +1352,7 @@ ____
 
 - 致す (いたす) - to do (humble language)
 - 受ける (うける) - to receive; to take (an exam / a lesson)
+- 選ぶ (えらぶ) - to choose
 - 送る (おくる) - to send; to escort; to say goodbye to; to dispatch
 - 思う (おもう) - to consider; to plan (on a general topic)
 - 飾る (かざる) - to decorate; to display
@@ -1467,6 +1469,7 @@ ____
 - のんびり - at leisure
 - 別に (べつに) - (not) particularly; (not) especially
 - まあ - well; I mean
+- まさか - by no means; never; certainly (not)
 - 先ず (まず) - first (of all)
 - まるで - as if; completely
 - 勿論 (もちろん) - of course; certainly; naturally
@@ -1823,6 +1826,7 @@ ____
 - 現れる (あらわれる) - to appear; to be expressed (e.g. emotions); to become
   apparent
 - 隠れる (かくれる) - to hide; to disappear; to be unknown
+- 構う (かまう) - to mind; to care about; to look after
 - 沈む (しずむ) - to sink; to go down (e.g. sun); to descend; to feel depressed
 - 空く (すく) - to become less crowded; to become empty
 - 積もる (つもる) - to pile up; to accumulate
@@ -2411,6 +2415,7 @@ ____
 - ねた - information; news; proof; evidence
 - 話し手 (はなして) - speaker
 - 歯磨き粉 (はみがきこ) - toothpaste
+- 引きこもり (ひきこもり) - person who has withdrawn from society; stay-at-home
 - 向日葵 (ひまわり) - sunflower
 - ビザ - visa
 - ピラミッド - pyramid
