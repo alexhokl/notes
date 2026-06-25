@@ -185,6 +185,8 @@ mlx_audio.stt.generate --model mlx-community/whisper-large-v3-turbo-asr-fp16 --a
 mlx_audio.tts.generate --model mlx-community/Qwen3-TTS-12Hz-0.6B-Base-bf16 --text "$(cat text)" --output_path .
 ```
 
+Note that option `--output_path` is a specification of a directory.
+
 Note that most of the options highly depending on the model used. For instance,
 `gender` or `voice` may not be available for some models and will be silently
 ignored.
