@@ -5,6 +5,8 @@
     + [Commands](#commands)
   * [MLX](#mlx)
     + [Local Agentic AI Stack](#local-agentic-ai-stack)
+    + [MLX community](#mlx-community)
+    + [Libraries and servers](#libraries-and-servers)
   * [Paramters](#paramters)
     + [Temperature](#temperature)
     + [Top-K](#top-k)
@@ -155,6 +157,37 @@ ollama create custom_model --modelfile llama3.modelfile
   * Ollama, LM Studio, [vLLM](https://vllm.ai/)
 -	MLX-LM
 -	MLX
+
+### MLX community
+
+- [mlx-community on Hugging Face](https://huggingface.co/mlx-community)
+- [models from mlx-community](https://huggingface.co/mlx-community/models?sort=downloads)
+
+### Libraries and servers
+
+- [ml-explore/mlx-lm](https://github.com/ml-explore/mlx-lm) - text only
+- [Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm) - vision (VLM) and audio
+  and video (Omni models)
+- [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) - audio only
+  * not all models available from `mlx-community` on Hugging Face are supported
+
+#### Commands
+
+##### To transscribe an audio
+
+```sh
+mlx_audio.stt.generate --model mlx-community/whisper-large-v3-turbo-asr-fp16 --audio audio.wav --output-path script.txt
+```
+
+##### To generate speech from text
+
+```sh
+mlx_audio.tts.generate --model mlx-community/Qwen3-TTS-12Hz-0.6B-Base-bf16 --text "$(cat text)" --output_path .
+```
+
+Note that most of the options highly depending on the model used. For instance,
+`gender` or `voice` may not be available for some models and will be silently
+ignored.
 
 ## Paramters
 
