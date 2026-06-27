@@ -2118,7 +2118,7 @@ ____
 - 電話しておきます
   * causal forms
   * 電話しておく
-  * 電話しとく
+  * 電話しとく (〜ておく → 〜とく)
 
 ### return to original state
 
