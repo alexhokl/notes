@@ -176,8 +176,13 @@ ollama create custom_model --modelfile llama3.modelfile
 ##### To transscribe an audio
 
 ```sh
-mlx_audio.stt.generate --model mlx-community/whisper-large-v3-turbo-asr-fp16 --audio audio.wav --output-path script.txt
+mlx_audio.stt.generate --model mlx-community/whisper-large-v3-turbo-asr-fp16 --language zh-yue --audio audio.wav --output-path script
 ```
+
+and option `langauge` is only needed when there are multiple languages involved
+in the audio. Otherwise, the model will automatically detect the language.
+
+Extension `.txt` is automatically added to the output file name.
 
 ##### To generate speech from text
 
