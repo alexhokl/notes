@@ -1,6 +1,19 @@
+- [Coding](#coding)
+  * [Agents](#agents)
+    + [General tricks](#general-tricks)
+    + [Go](#go)
+____
+
 # Coding
 
 ## Agents
+
+### General tricks
+
+#### Fetching web pages
+
+HTTP header `Accept: text/markdown` should be used to fetch web pages in
+markdown format, if the server (such as cloudflare) supports it.
 
 ### Go
 
