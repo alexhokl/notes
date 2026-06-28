@@ -1496,6 +1496,7 @@ ____
 - 素敵 (すてき) - lovely; wonderful; nice
 - 邪魔 (じゃま) - disturbance; obstruction
 - たっぷり - full of; a lot of; plenty of
+- 退屈 (たいくつ) - boredom; tediousness; dullness; also as するverb
 - 駄目 (だめ) - no good
 - 苦手 (にがて) - poor at; weak in; not good at
 - 面倒 (めんどう) - trouble; bother
@@ -1977,6 +1978,7 @@ ____
 ### nouns (animals)
 
 - 蚊 (か) - mosquito
+- 金魚 (きんぎょ) - goldfish
 
 ### nouns (body parts)
 
