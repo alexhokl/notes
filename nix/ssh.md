@@ -1,14 +1,26 @@
-- [Key generation](#key-generation)
-- [Key management](#key-management)
-- [File transfer](#file-transfer)
-- [Configuration](#configuration)
-- [Tunneling](#tunneling)
-- [Agent forwarding](#agent-forwarding)
-- [Windows](#windows)
-- [Well-known resource of a domain](#well-known-resource-of-a-domain)
+- [SSH](#ssh)
+  * [Links](#links)
+  * [Key generation](#key-generation)
+  * [Key management](#key-management)
+  * [File transfer](#file-transfer)
+  * [Configuration](#configuration)
+  * [Tunneling](#tunneling)
+  * [Agent forwarding](#agent-forwarding)
+    + [SSH agent](#ssh-agent)
+    + [GPG agent](#gpg-agent)
+  * [Windows](#windows)
+  * [Well-known resource of a domain](#well-known-resource-of-a-domain)
 ____
 
-### Key generation
+# SSH
+
+## Links
+
+- [openpubkey/opkssh](https://github.com/openpubkey/opkssh/) - library
+  containing both server and client such that ssh public key sent to server
+  includes OpenID identity such that the server can verify
+
+## Key generation
 
 ###### To generate a cert for accessing a remote server via SSH
 
@@ -28,7 +40,7 @@ remote server, one can always copy the content of the public key generated and
 append it to `$HOME/.ssh/authorized_keys` on the remote server. On public cloud,
 usually there is a web UI to add these public SSH keys.
 
-### Key management
+## Key management
 
 ##### To list public keys in the currently inserted Yubikeys
 
@@ -36,7 +48,7 @@ usually there is a web UI to add these public SSH keys.
 ssh-add -L
 ```
 
-### File transfer
+## File transfer
 
 ###### To pull a file from remote server
 
@@ -50,7 +62,7 @@ scp -i cert-to-server.pem app@app-test.aws.com:/server/path/file.txt local.txt
 scp -i cert-to-server.pem -r app@app-test.aws.com:/server/path/ ./destination-path
 ```
 
-### Configuration
+## Configuration
 
 ###### To disable password loging
 
@@ -67,7 +79,7 @@ and reload sshd
 sudo systemctl reload ssh
 ```
 
-### Tunneling
+## Tunneling
 
 to map port 5601 from a remote machine to port 8080 of a local machine
 
@@ -88,9 +100,9 @@ to map port 5601 from a local machine to port 8080 of a remote machine
 ssh -R 8080:127.0.0.1:5601 username@remote-machine
 ```
 
-### Agent forwarding
+## Agent forwarding
 
-#### SSH agent
+### SSH agent
 
 ```sh
 ssh -A remote-machine
@@ -102,7 +114,7 @@ or, adding the following to `$HOME/.ssh/config`
 ForwardAgent yes
 ```
 
-#### GPG agent
+### GPG agent
 
 On the remote server, add the following line to `/etc/ssh/sshd_config`.
 
@@ -154,7 +166,7 @@ server or pull from a PKI.
 scp ~/.gnupg/pubring.kbx remote:~/.gnupg/
 ```
 
-### Windows
+## Windows
 
 To add keys to `ssh-agent`, execute the following with administrative
 privileges.
@@ -175,7 +187,7 @@ Note that ssh-agent service is disabled by default.
 Reference: [OpenSSH key management - User key
 generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation_)
 
-### Well-known resource of a domain
+## Well-known resource of a domain
 
 - reference: [SSHFP Well-Known Resource
   Identifier](https://sshfp.github.io/sshfp.html)
