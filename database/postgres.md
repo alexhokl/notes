@@ -492,6 +492,11 @@ Workflow for diagnosing and resolving slow queries
 +-------------------------------+
 ```
 
+`pg_stat_statements` is meant to be running for a certain perioid of time (in
+terms of hours) and not meant for running forever. It is a cumulative view and,
+thus, a reset is needed from time to time. The statistics would not be very
+useful then, otherwise.
+
 ## Features
 
 - [index types](https://www.postgresql.org/docs/current/indexes-types.html)
