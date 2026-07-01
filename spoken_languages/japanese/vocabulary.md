@@ -2519,9 +2519,10 @@ ____
 ### nouns (fish)
 
 - 鯵 (あじ) - horse mackerel
-- 穴子 (あなご) - conger eel
+- 穴子 (あなご) - conger (sea) eel
 - 鮎 (あゆ) - sweetfish
 - アンチョビー - anchovy
+- 鰻 (うなぎ) - eel
 - 伊佐木 (いさき) - chicken grunt
 - 鰯 (いわし) - sardine
 - 大トロ (おおとろ) - fatty cut of tuna
@@ -2530,18 +2531,17 @@ ____
 - 小鰭 (こびれ) - mid-sized konoshiro gizzard shad
 - 鯖 (さば) - mackerel
 - 針魚 (さより) - halfbeak
-- 縞鯵 (しまあじ) - striped jack (striped horse mackerel)
+- 縞鯵 (しまあじ) - striped jack (striped horse mackerel); yellow jack
 - 白身魚 (しろみざかな) - white fish
-- 新烏賊 (しんいか) - squid
 - 新子 (しんこ) - juvenile gizzard shad
 - シーバス - sea bass
-- 墨烏賊 (すみいか) - cuttlefish
+- 鯛 (たい) - red snapper; sea bream
 - 中トロ (ちゅうとろ) - medium fatty cut of tuna
 - とろ - fatty cut of tuna
 - ハドック - haddock
-- 魬 (はまち) - young amberjack / yellowtail
+- 魬 (はまち) - young amberjack; yellowtail
 - 平政 (ひらまさ) - yellowtail amberjack
-- 鮃 (ひらめ) - flounder
+- 鮃 (ひらめ) - flounder; aka 平目
 - 本鮪 (ほんまぐろ) - bluefin tuna
 - 鰤 (ぶり) - amberjack / yellowtail
 - 真子鰈 (まこがれい) - marbled sole
@@ -2551,20 +2551,26 @@ ____
 ### nouns (seafood)
 
 - 赤貝 (あかがい) - red clam
+- 甘海老 (あまえび) - sweet shrimp
 - 鮑 (あわび) - abalone
+- 烏賊 (いか) - squid
 - イクラ - salted salmon roe
-- 海胆 (ウニ) - sea urchin
+- 海胆 (ウニ) - sea urchin; aka 海栗
 - 海老 (えび) - shrimp
 - エビフライ - fried shrimp
 - 朧 (おぼろ) - crumbled shrimp paste
 - 牡蠣 (かき) - oyster
+- 数の子 (かずのこ) - herring roe
 - 蟹 (かに) - crab
 - クラム - clam
 - 車海老 (くるまえび) - tiger prawn
 - 小柱 (こばしら) - baby scallop
 - 魚介 (ぎょかい) - marine products
 - 魚介類 (ぎょかいるい) - seafood
+- げそ - squid tentacles
 - 蝦蛄 (しゃこ) - mantis shrimp
+- 新烏賊 (しんいか) - squid
+- 墨烏賊 (すみいか) - cuttlefish
 - 蛸 (たこ) - octopus
 - 蛸足 (たこあし) - octopus legs
 - 鳥貝 (とりがい) - cockle
@@ -2629,6 +2635,7 @@ ____
 ### nouns (restaurants)
 
 - カウンター - counter
+- 盛り合わせ (もりあわせ) - assortment; assorted dishes; combination platter
 
 ### nouns (shopping)
 
