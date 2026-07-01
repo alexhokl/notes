@@ -39,6 +39,7 @@
   * [than](#than)
   * [as a](#as-a)
   * [even as](#even-as)
+- [Slang](#slang)
 ____
 
 # Links
@@ -594,3 +595,28 @@ ____
 - 学長としても、教授会の意向を無視するわけにはいかないだろう。 - Even as the
   university president, I cannot very well ignore the will of the faculty, can
   I?
+
+# Slang
+
+- やばい - awesome; crap (い-adjective)
+- めっちゃ/超(ちょう) - super
+- ウケる - hilarious
+- マジで - seriously? (まじ is a な-adjective)
+- びみょう - so-so; aka 微妙 (noun or な-adjective)
+- エモい - emotional (い-adjective)
+- 神(かみ) - god-tier (noun prefix)
+- ウザい - annoying; noisy (い-adjective)
+- ワンチャン - one chance (noun)
+
+# Goodbye
+
+- またね - see you
+- また明日 - see you tomorrow
+- また会いましょう - let's meet again
+- お元気で - stay well
+- 気をつけて - take care
+- じゃあね - see ya; bye
+- お疲れ様でした - Good job today
+- 失礼します - I'll be leaving now
+- さようなら - goodbye
+
