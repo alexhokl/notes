@@ -35,6 +35,8 @@
   * [name](#name)
   * [all the](#all-the)
   * [indicating content](#indicating-content)
+  * [regarding](#regarding)
+  * [than](#than)
 ____
 
 # Links
@@ -554,3 +556,8 @@ ____
 - 車一台について五千円使用料をちょうだいします。
 - 乗客一人について三つまでの手荷物を持ち込むことができます。
 - 作業員5人について一部屋しか割り当てられなかった。
+
+## than
+
+- Aさんは Bさんより 一つしたです。
+- Bさんは Aさんより 一つうえです。

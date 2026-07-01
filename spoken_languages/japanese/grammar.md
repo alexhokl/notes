@@ -635,6 +635,10 @@ ____
   * ❌日本に着くとき、すぐにWi-Fi使えるかな？
     + it does not make sense to ask if WiFi is available when the plane is
       landing
+  * the tense is inline with how past tense is used in general
+    + ❌️ケーブルカーがありましたが歩いて登りました。
+    + ⭕️ケーブルカーがありますが歩いて登りました。 (refer to a memory, it does
+      not matter ケーブルカー exists at the time of conversation)
 - 時に
   * に is this usage is optional but adding it helps emphasising the time
   * 好きなときに来て。
