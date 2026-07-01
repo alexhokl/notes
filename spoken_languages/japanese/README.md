@@ -37,6 +37,8 @@
   * [indicating content](#indicating-content)
   * [regarding](#regarding)
   * [than](#than)
+  * [as a](#as-a)
+  * [even as](#even-as)
 ____
 
 # Links
@@ -561,3 +563,34 @@ ____
 
 - Aさんは Bさんより 一つしたです。
 - Bさんは Aさんより 一つうえです。
+
+## as a
+
+- noun + として + V/A/Na
+- nount + としての + noun
+- 研究生としてこの大学で勉強している。
+- 日本軍の行った行為は日本人として恥ずかしく思う。
+- 子供がこんなひどい目にあわされては、親として黙っているわけにはいかない。 - As
+  a parent, I cannot sit back and say nothing while children are being treated
+  so badly.
+- 彼は大学の教授としてより、むしろ作家としての方がよく知られている。
+- 趣味として書道を勉強している。
+- 学長の代理として会議に出席した。
+- 大統領を国賓として待遇する。
+- 軽井沢は古くから避暑地として人気があるところだ。
+- 文学者としては高い評価を得ている彼も、家庭人としては失格である。
+- 彼の料理の腕前はプロのコックとしても十分に通用するほどのものだ。 - His cooking
+  skills are good enough for him to make it as a professional chef.
+- 教師としてではなく、一人の人間としての立場から発言したいと思う。 - I would
+  like to speak not as a teacher but from the standpoint of a single human
+  being.
+- 日本代表としての責任を強く感じ、精一杯頑張りたいと思います。 - I feel a strong
+  sense of responsibility as a representative of Japan, and I pledge to do my
+  utmost.
+
+## even as
+
+- noun + としても + V/A/Na
+- 学長としても、教授会の意向を無視するわけにはいかないだろう。 - Even as the
+  university president, I cannot very well ignore the will of the faculty, can
+  I?
