@@ -2601,6 +2601,27 @@ ____
 
 - [Conditional form ば](./verbs.md#conditional-form-%E3%81%B0)
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
+- used to describe
+  * things that has not been happened yet
+    + it can be used to express normal conditions, wishes, intentions or guesses
+      for the speaker (and not for anyone else)
+      + requests are normally cannot be used with ば or なら
+        + exceptions are commands (due to its formality)
+  * logical consequences of a condition
+    + similar to と and と is about natural consequences
+    + most of the time と and ば can be used interchangeably
+- slightly more formal than たら
+- although なら can be used with い-adjective and verb, it is only used with
+  affirmative (positive) form of な-adjective and noun for now
+- (もし)雨が降れば、私はハイキングに行きません。
+- (もし)マーク・シックスに当(あ)たれば、私は大きい家(いえ)を買います。
+- (もし)このコンサートのチケットが買えれば、ぜひ行ってみたいです。
+- (もし)田中さんが行かなければ、私も行きません。
+- (もし)天気が悪ければ、試合は中止(ちゅうし)になるでしょう。
+- (もし)あまり高くなければ、新しいスマホを買おうと思います。
+- (もし)その車が丈夫でなければ、いくら安くても買いません。
+- (もし)その人がいい人なら、一緒に仕事をしたいです。
+- 危険だと思えば、すぐ逃げなさい。
 - 一生懸命練習すれば、上手になります。
 - 練習しなければ、上手になりません。
 - 天気が良ければ、行くつもりです。
@@ -2609,6 +2630,11 @@ ____
 - 日本語が上手でなければ、このアルバイトはできないでしょう。
 - 明日いい天気なら、私は山に登ります。
 - 明日いい天気でなければ、私は山に登りません。
+- 一所懸命練習すれば、上手になります。
+- この薬を飲めば、病気が治ります。
+- 今すぐ送れば、願書(がんしょ)の締め切りに間に合います。
+- この試験で60点取れば、あの大学に入れます。
+- 辞書を使えば、新聞が読めます。
 
 ### if (a casual relationship)
 
