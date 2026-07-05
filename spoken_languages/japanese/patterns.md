@@ -203,13 +203,14 @@
     + [that much](#that-much)
   * [Chapter 19](#chapter-19)
     + [if or when](#if-or-when)
-    + [if (a casual relationship)](#if-a-casual-relationship)
+    + [if (a casual/hypothetical relationship)](#if-a-casual%2Fhypothetical-relationship)
     + [when](#when)
     + [given](#given)
     + [positive advice](#positive-advice)
     + [negative advice](#negative-advice)
     + [to change the state of something](#to-change-the-state-of-something)
     + [that one (for shared memories and knowledge)](#that-one-for-shared-memories-and-knowledge)
+    + [that one (for things that either speaker or listener do not know)](#that-one-for-things-that-either-speaker-or-listener-do-not-know)
 ____
 
 ## Chapter 1
@@ -2621,6 +2622,14 @@ ____
 - (もし)あまり高くなければ、新しいスマホを買おうと思います。
 - (もし)その車が丈夫でなければ、いくら安くても買いません。
 - (もし)その人がいい人なら、一緒に仕事をしたいです。
+- 強(つよ)い風が吹(ふ)けば、海が荒(あ)れます。
+- 酸素(さんそ)がなければ、動物は死にます。
+- 不況(ふきょう)になれば、犯罪(はんざい)が増加(ぞうか)するそうです。
+- ちりも積(つ)もれば山となる
+- 祖母(そぼ)は天気がよければ毎朝公園を散歩します。
+- ビールは冷(つめ)たくなければ、おいしくありません。
+- 駅に近いアパートなら、家賃(やちん)が高いです。
+- この学校には男の子は入れません。女の子でなければ、入学(にゅうがく)できません。
 - 危険だと思えば、すぐ逃げなさい。
 - 一生懸命練習すれば、上手になります。
 - 練習しなければ、上手になりません。
@@ -2636,9 +2645,30 @@ ____
 - この試験で60点取れば、あの大学に入れます。
 - 辞書を使えば、新聞が読めます。
 
-### if (a casual relationship)
+### if (a casual/hypothetical relationship)
 
 - [たら](./particles.md#%E3%81%9F%E3%82%89)
+- used to describe
+  * a hypothetical condition
+  * a determined condition
+    + a condition does not happened yet but it is certain
+- (もし)急(いそ)いだら、8時の電車に間に合うでしょう。
+- (もし)この薬を飲んだら、せきはすぐとまると思います。
+- (もし)そんなにたくさん粽(ちまき)を食べたら、おなかを壊しますよ。
+- (もし)約束(やくそく)の時間に友達が来なかったら、すぐ帰ります。
+- (もし)暑(あつ)かったら、窓を開けてください。
+- (もし)翻訳機(ほんやくき)が高くなかったら、私も1台買いたいです。
+- (もし)女の子だったら、「あやか」という名前をつけましょう。
+- (もし)明日雨でなかったら、海へ遊びに行きましょう。
+- お父さんは夜(よる)8時に帰りますよ。お父さんが帰ってきたら、相談しましょう。
+- 明日の午後(ごご)ロンドンに着(つ)くと思います。
+  * 向(む)こうに着いたら、すぐ電話をください。
+- 来週の水曜日に試験が終わりますね。
+  * 試験が終わったら、キャンプに行きましょう。
+- 会議(かいぎ)はいつ始めますか。
+  * 全員がそろったら、すぐ始めます。
+- 大学を卒業(そつぎょう)したら、お父さんの仕事を手伝(てつだ)いますか。
+  * いいえ、留学して、もう少し勉強したいと思います。
 - 雨が降ったら、ハイキングはやめましょう。
 - 雨が降らなかったら、ハイキングに行きましょう。
 - 忙しかったら、来なくてもいいですよ。
@@ -2656,29 +2686,71 @@ ____
 ### given
 
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
+- plain form + なら
+- noun/nounだった + なら
+- Naだ + なら
+  * だ can be dropped if the adjective is present and affirmative
+- Naだった + なら
+- A/Aかった + なら
+- Vる/Vた + なら
+- A/Vる + のなら
+- A/Vる + んなら
+- 来週京都へ行くつもりです。
+  * 京都へ行くなら、新幹線が一番便利です。
+- ちょっと寒いよ。
+  * 寒いのなら、ストープをつけてもいいよ。
+- すみません。納豆はあまり･･･
+  * 嫌いなら、食べなくてもいいんですよ。
+- ちょっとスーパーへ行ってきます。
+  * あ、スーパーへ行くんなら、パンを買ってきてください。
 - 私は来年スペインへ行くつもりです。
   * スペインへ行くなら、早くスペイン語の勉強を始めなさい。
 
 ### positive advice
 
 - Vた + 方がいい + だ。
+- it should be used to give advice to someone requires respect
+- 雨が降りそうだから、傘を持っていった方(ほう)がいいでしょう。
+- 昨日から咳(せき)が出るんです。
+  * それはいけませんね。早く病院へ行った方がいいですよ。
 - 風邪を引いたときは早く寝た方がいいですよ。
 
 ### negative advice
 
 - Vない + 方がいい + だ。
+- it should be used to give advice to someone requires respect
+- 熱がありますね。お風呂に入らない方がいいです。
+- 日本語の授業(じゅぎょう)の時、母国語(ぼこくご)を話さない方がいいです。
 - この肉はもう古いから食べない方がいいです。
 
 ### to change the state of something
 
 - Aく + する
 - Naに + する
+- ズボンを5センチぐらい短(みじか)くしてください。
+- 甘いコーヒーが好きだから、もう少し甘くしてください。
+- カーテンを開けて部屋を明(あか)るくしましょう。
+- (母が子供に)もっと部屋をきれいにしなさい。
+- 小魚を食べて、歯を丈夫にしましょう。
 - ラジオの音(おと)を小さくしました。
 - 机(つくえ)の上を綺麗にしてください。
 
 ### that one (for shared memories and knowledge)
 
+- あれ/あの/あそこ
+- 昨日駅前の花屋で花を買ったんだけど････
+  * ああ、あの店ね。あそこは店員さんが親切だね。
+- 去年一緒に熊本へ行ったでしょう。あれは6月でしたよね。
+  * いいえ、8月ですよ。あの時はとても暑かったから、よく覚えています。
+- 夏休みに国に帰って友達に会いました。その友達も来年日本に来るそうです。
 - 駅前のレストランは安くておいしいですね。
   * ええ、あそこへは私もよく行きます。
 - 去年の春、一緒に鎌倉へ行きましたね。
   * ええ、あのときは楽しかったですね。
+
+### that one (for things that either speaker or listener do not know)
+
+- それ/その/そこ
+- 私の高校のときの友達に佐藤あきらという人がいました。
+  昨日スーパーでその人に会ったんです。
+  * へえ、その人には久(ひさ)しぶりに会ったんですか。

@@ -206,17 +206,17 @@ Note the change in sounds between く, き and こ.
 | い-adjective | 小さいながら |
 | verb         | 言いながら   |
 
-# なら if
+# なら given
 
 | Form                | Affirmative    | Negative             |
 | ---                 | ---            | ---                  |
 | noun                | 夏なら         | 夏じゃないなら       |
-| な-adjective        | 静かなら       | 静かじゃないなら     |
-| い-adjective        | 高いなら       | 高くないなら         |
-| verb                | 行くなら       | 行かないなら         |
 | noun (past)         | 夏だったなら   | 夏じゃなかったなら   |
+| な-adjective        | 静かなら       | 静かじゃないなら     |
 | な-adjective (past) | 静かだったなら | 静かじゃなかったなら |
+| い-adjective        | 高いなら       | 高くないなら         |
 | い-adjective (past) | 高かったなら   | 高くなかったなら     |
+| verb                | 行くなら       | 行かないなら         |
 | verb (past)         | 行ったなら     | 行かなかったなら     |
 
 # かも知れない

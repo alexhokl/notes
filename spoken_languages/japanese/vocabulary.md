@@ -1633,6 +1633,7 @@ ____
 
 ### nouns (body parts)
 
+- 胃 (い) - stomach
 - 皮 (かわ) - skin
 - 尻 (しり) - buttocks; bottom; rear; behind; hips
 - 背 (せい) - height; stature
