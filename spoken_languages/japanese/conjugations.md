@@ -55,6 +55,20 @@ ____
 | conditional     | 新しければ     | 新しくなければ         |
 | conditional     | 新しかったら   | 新しくなかったら       |
 
+|                 | Affirmative    | Negative               |
+| ---             | ---            | ---                    |
+| non-past        | いい           | よくない               |
+| non-past polite | いいです       | よくありません         |
+| past            | よかった       | よくなかった           |
+| past polite     | よかったです   | よくありませんでした   |
+| te-form         | よくて         | よくなくて             |
+| probably        | いいだろう     | よくないだろう         |
+| probably polite | いいでしょう   | よくないでしょう       |
+| conditional     | よければ       | よくなければ           |
+| conditional     | よかったら     | よくなかったら         |
+
+Note: いい derives from よい — non-past affirmative uses いい, but all other forms use the よ- stem.
+
 # 五段動詞
 
 | Form               | Affirmative  | Negative         |
@@ -96,6 +110,29 @@ ____
 | conditional        | 買えば       | 買わなければ     |
 | conditional        | 買ったら     | 買わなかったら   |
 | volitional         | 買おう       |                  |
+
+| Form               | Affirmative  | Negative         |
+| ---                | ---          | ---              |
+| non-past           | ある         | ない             |
+| non-past, polite   | あります     | ありません       |
+| non-past, formal   |              | あらず           |
+| past               | あった       | なかった         |
+| past, polite       | ありました   | ありませんでした |
+| te-form            | あって       | なくて           |
+| potential          | あれる       | あれない         |
+| passive            | あられる     | あられない       |
+| causative          | あらせる     | あらせない       |
+| causative (casual) | あらす       | あらさない       |
+| causative passive  | あらせられる | あらせられない   |
+| imperative         | あれ         | あるな           |
+| probably           | あるだろう   | ないだろう       |
+| probably polite    | あるでしょう | ないでしょう     |
+| conditional        | あれば       | なければ         |
+| conditional        | あったら     | なかったら       |
+| volitional         | あろう       |                  |
+
+Note: ある has no regular negative forms — negative conjugates as ない (see
+[exceptions](#exceptions)).
 
 - if last kana in stem form is う, あ is not used in the conjugation but わ
   instead

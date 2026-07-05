@@ -2784,6 +2784,7 @@ ____
 - 洗面台 (せんめんだい) - washbasin
 - 電気スタンド (でんきスタンド) - desk lamp
 - 電子レンジ (でんしレンジ) - microwave oven
+- 魔法瓶 (まほうびん) - thermos bottle; vacuum flask
 - 目覚まし時計 (めざましどけい) - alarm clock
 - リモコン - remote control; aka リモートコントロ
 - 湯船 (ゆぶね) - bathtub
