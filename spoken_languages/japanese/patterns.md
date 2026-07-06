@@ -2574,6 +2574,7 @@ ____
 - この靴は大き過ぎます。
 - この問題は簡単過ぎます。
 - 元気がなさすぎます。 (not よくない)
+- ちょっと太り過ぎなのです。
 
 ### impressive or unexpectedly large amount
 
