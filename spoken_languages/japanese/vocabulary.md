@@ -1713,6 +1713,7 @@ ____
 ### nouns (health)
 
 - 不安 (ふあん) - anxiety; worry
+- 酸素 (さんそ) - oxygen
 
 ### nouns (web)
 
@@ -1988,6 +1989,7 @@ ____
 ### nouns (transportation)
 
 - 片道 (かたみち) - one way (trip); one-way ticket
+- 突き当たり (つきあたり) - end (of a street, hallway, etc.)
 
 ### nouns (family)
 
@@ -2748,6 +2750,7 @@ ____
 - 麒麟 (きりん) - giraffe
 - キャット - cat
 - 鯨 (くじら) - whale
+- 蜘蛛 (くも) - spider
 - 鹿 (しか) - deer
 - 雀 (すずめ) - tree sparrow
 - 豚 (ぶた) - pig
