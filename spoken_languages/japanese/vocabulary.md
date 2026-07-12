@@ -2691,6 +2691,7 @@ ____
 - 肩幅 (かたはば) - shoulder width
 - 革ジャケット (かわジャケット) - leather jacket
 - キッズ - kidswear
+- グローブ - gloves
 - 毛玉 (けだま) - pilling, fuzz balls
 - 腰幅 (こしはば) - waist width
 - 染み (しみ) - stain, spot, smudge, discoloration (aka シミ)
