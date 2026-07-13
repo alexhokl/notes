@@ -1793,6 +1793,9 @@ ____
     question or blow)
 - 広がる (ひろがる) - to spread
   * 広げる (ひろげる) - to spread
+- 向く (むく) - to turn (towards); to face (e.g. east); to point (of an arrow)
+  * 向ける (むける) - to turn (towards); to face; to head to; to send; to aim
+    for
 
 ### transitive verbs
 
