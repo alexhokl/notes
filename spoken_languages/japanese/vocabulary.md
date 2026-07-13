@@ -1347,6 +1347,8 @@ ____
 - 治る (なおる) - to get better; to get well; to recover (from an illness); to
   be cured; to be restored; to heal
   * 治す (なおす) - to cure; to heal
+- 間違う (まちがう) - to be mistaken; to be wrong; to be incorrect
+  * 間違える (まちがえる) - to make a mistake
 
 ### transitive verbs
 
@@ -1375,7 +1377,6 @@ ____
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 運ぶ (はこぶ) - to carry; to transport; to move
 - 払う (はらう) - to pay; to wipe away
-- 間違える (まちがえる) - to make a mistake
 - 迎える (むかえる) - to welcome; to greet
 
 ### intransitive verbs
@@ -1916,6 +1917,7 @@ ____
 - 複数 (ふくすう) - plural
 - 蓋 (ふた) - lid; cap; cover
 - バツ - cross
+- 未満 (みまん) - less than; under; below
 - 苗字 (みょうじ) - surname
 - 名物 (めいぶつ) - famous product
 - 目上 (めうえ) - superior; senior
