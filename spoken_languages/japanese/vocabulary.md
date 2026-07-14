@@ -2664,6 +2664,7 @@ ____
 - コンビニ - convenience store
 - 商店街 (しょうてんがい) - shopping street; shopping district
 - スーパー - supermarket
+- 銭湯 (せんとう) - public bathhouse
 - 体育館 (たいいくかん) - gymnasium
 - 地下街 (ちかがい) - underground shopping street
 - ディズニーランド - Disneyland
