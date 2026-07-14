@@ -42,22 +42,12 @@ ____
 
 # Auxiliary verbs (助動詞)
 
-- です - be; is (polite form)
-- だ - be; is (plain form)
 - である - be; is (formal form)
-- ます - politeness
-- ない - not
-- た - did; (please) do
-- たい - want to
 - べき - should; must
 - はず - should; must
-- れる - passive voice; potential form
-- せる - causative voice; granting of permission; keigo for other's actions
 - でございます - polite form of です (usually used in shops to address to
   customers)
 - ちゃう - contraction of てしまう (to do something completely; to end up with)
-- なさい - do (to someone equal or lower standing; used after ます-form)
-- 貰える (もらえる) - to be able to receive; could you (give me)
 
 # Verb transitivity
 
@@ -85,35 +75,40 @@ ____
 - there are a large number of verbs that come in pairs, with each side of the
   pair having a transitive or intransitive meaning
   * examples
-    + 開ける (あける) and 開く (あく)
-    + 閉める (しめる) and 閉まる (しまる)
+    + [N5 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive)
+    + [N4 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-1)
+    + [N3 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-2)
+    + [N2 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-3)
+    + [N1 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-4)
+    + [N0 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-5)
   * [examples from Meguro Langauge
     Center](https://www.mlcjapanese.co.jp/Download/ViVt.pdf)
-- intransitive verb examples
-  * 田中さんは日本語が分かる。
-    + since the language is not affected by 田中さん, a intransitive verb is
-      used
-  * 田中さんは日本語の教科書があります。
-    + 教科書 is not being affected
-- transitive and intransitive verbs are not the same as active and passive
-  voices
-  * active voice
-    + 田中さんはドアを開ける。
-    + ドアが開きました。
-  * passive voice
-    + ドアは田中さんに開けられました。
 - there are no simple patterns to memorise transitive and intransitive pairs
   based on okurigana (送り仮名)
   * common patterns (but not definite rules)
     + transitive verbs often have an extra syllable in okurigana
       + intransitive verb <=> transitive verb
         + く　<=> ける
+        + ける　<=> く
+        + く　<=> かる
         + まる <=> める
         + がる <=> げる
+        + う <=> える
+        + わる <=> える
+        + つ <=> てる
+        + める <=> ます
+        + える <=> やす
         + -iる <=> -oす
           + 落ちる <=> 落とす
           + 降りる <=> 降ろす
           + 起きる <=> 起こす
+    + れる is usually intransitive (obvious exception is 入れる)
+    + かる is usually an intransitive verb
+    + おる is usually an intransitive verb
+    + す is uaually a transitive verb
+    + く is not always an intransitive verb
+    + む does not have a pattern
+    + える does not have a pattern
 
 # Verb forms
 
