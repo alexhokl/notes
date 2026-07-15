@@ -183,16 +183,16 @@ d (t)   | z (s)
 - un-related facts
   * `k`, `s`, `t`, `h` are unvoiced consonants
   * `g`, `z`, `d`, `b`, `p`, `m`, `r` are voiced consonants
-  * ` ゛` is 濁点 (だくてん)
-  * ` ゜` is 半濁点 (はんだくてん)
   * compound word
     + both words exist on their own separately, but when they come together they
       create a new, unique word
-- rendaku conversion
-  * `k` => `g`
-  * `s` => `z`
-  * `t` => `d`
-  * `h` => `b` or `p`
+- basic necessary conditions
+  * two words come together to form a compound word
+  * the first consonant of the second word is unvoiced (`k`, `s`, `t`, or `h`)
+  * surrounding the first consonant of the second word are voiced vowels (and
+    sometimes nasals)
+  * 和語 (大和言葉)
+    + 漢語 (かんご) and 外来語 (がいらいご) loanwords do not rendaku
 - examples
   * 手 (て) + 紙 (かみ) = 手紙 (てがみ)
   * 人 (ひと) + 人 (ひと) = 人々 (ひとびと)
@@ -201,31 +201,18 @@ d (t)   | z (s)
   * 山 (やま) + 桜 (さくら) = 山桜 (やまざくら)
   * 鼻 (はな) + 血 (ち) = 鼻血 (はなぢ)
   * 花 (はな) + 火 (ひ) = 花火 (はなび)
-- basic necessary conditions
-  * two words come together to form a compound word
-  * the first consonant of the second word is unvoiced
-  * the first consonant of the second word is one of the four sets of characters
-    that can change into a voiced consonant with dakuten or handakuten (`k`,
-    `s`, `t`, or `h`)
-  * surrounding the first consonant of the second word are voiced vowels (and
-    sometimes nasals)
-- if the first word ends in つ or ん the `h` consonant will usually rendaku to
-  `p`; otherwise, `b`
-  * `つ` will be converted to small `っ` as well
-  * examples
-    * 鉛 (えん) + 筆 (ひつ) = 鉛筆 (えんぴつ)
-    * 出 (しゅつ) + 発 (はつ) = 出発 (しゅっぱつ)
+- rendaku conversion
+  * `k` => `g`
+  * `s` => `z`
+  * `t` => `d`
+  * `h` => `b` or `p`
+    + if the first word ends in つ or ん the `h` consonant will usually rendaku to
+      `p`; otherwise, `b`
+      + `つ` will be converted to small `っ` as well
+      + examples
+        * 鉛 (えん) + 筆 (ひつ) = 鉛筆 (えんぴつ)
+        * 出 (しゅつ) + 発 (はつ) = 出発 (しゅっぱつ)
 - general guidelines
-  * 和語 (大和言葉) wago words do rendaku
-    + it almost never start with a dakuten or handakuten voiced consonant
-  * 漢語 (かんご) loanwords do not rendaku
-    + stopping rendaku even when they are in a compound with a wago word
-  * 外来語 (がいらいご) loanwords do not rendaku
-    + exceptions are mostly imported words from Dutch and Portuguese during the
-      Edo period
-      + it is trickier to spot as they usually appear in kanji or katakana
-    + exceptions: gairago + wago can cause rendaku, just like a normal wago
-      compound
   * if the second word in the compound has a voiced consonant or handakuon
     anywhere in it, rendaku does not occur
   * if voicing in the first word is too close to the second word, rendaku may
