@@ -987,7 +987,8 @@ ____
 - 着く (つく) - to arrive at; to reach; to sit on
 - 飛ぶ (とぶ) - to fly
 - 出かける (でかける) - to go out; to leave
-- 出来る (できる) - to be able to do; to be good at; to be ready
+- 出来る (できる) - to be able to do; to be good at; to be ready; to come into
+  existence
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 成る (なる) - to become
 - 上る (のぼる) - to ascend; to go up; to climb; to rise; aka 昇る
