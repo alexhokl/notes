@@ -864,7 +864,7 @@ ____
   * 開ける (あける) - to open (something); to unwrap (a package)
 - 上がる (あがる) - to rise; to go up; to come up; to ascend; to climb; to stop
   (of rain); to clear up (of weather)
-  * 上げる (あげる) - to raise; to give; to fly; to launch
+  * 上げる (あげる) - to raise; to give; to fly; to launch; aka 挙げる
 - 生まれる (うまれる) - to be born
   * 生む (うむ) - to give birth; to produce; to yield
 - 売れる (うれる) - to sell (well); to be well known
@@ -991,7 +991,7 @@ ____
   existence
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 成る (なる) - to become
-- 上る (のぼる) - to ascend; to go up; to climb; to rise; aka 昇る
+- 上る (のぼる) - to ascend; to go up; to climb; to rise; aka 登る; aka 昇る
 - 走る (はしる) - to run; moving car
 - 働く (はたらく) - to work; to labour
 - 晴れる (はれる) - to be sunny
