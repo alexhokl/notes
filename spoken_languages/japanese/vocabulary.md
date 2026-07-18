@@ -3087,6 +3087,7 @@ invite; to ride
 
 - ゲラゲラ - a loud uncontrolled laugh
 - ゴロゴロ - rumbling (of thunder, one's stomach, etc.); purring (of a cat)
+- ヘラヘラ - a foolish laugh
 
 ### expressions
 
