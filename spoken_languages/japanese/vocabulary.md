@@ -3085,6 +3085,7 @@ invite; to ride
 
 ### onomatopoeic
 
+- クスクス - a giggle
 - ゲラゲラ - a loud uncontrolled laugh
 - ゴロゴロ - rumbling (of thunder, one's stomach, etc.); purring (of a cat)
 - ヘラヘラ - a foolish laugh
