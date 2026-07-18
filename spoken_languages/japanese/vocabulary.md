@@ -1907,6 +1907,8 @@ ____
 
 ### onomatopoeia
 
+- ニコニコ - a nice bright smile
+
 ### adjectives (い)
 
 - 羨ましい (うらやましい) - envious; jealous
