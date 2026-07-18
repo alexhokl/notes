@@ -3083,6 +3083,7 @@ invite; to ride
 
 ### onomatopoeic
 
+- ゲラゲラ - a loud uncontrolled laugh
 - ゴロゴロ - rumbling (of thunder, one's stomach, etc.); purring (of a cat)
 
 ### expressions
