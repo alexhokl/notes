@@ -267,7 +267,7 @@
     + [intransitive verbs](#intransitive-verbs-5)
     + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-5)
     + [verbs (direction intransitive)](#verbs-direction-intransitive-1)
-    + [onomatopoeic](#onomatopoeic)
+    + [onomatopoeia](#onomatopoeia-4)
     + [expressions](#expressions-5)
 ____
 
@@ -3083,7 +3083,7 @@ invite; to ride
 
 ### verbs (direction intransitive)
 
-### onomatopoeic
+### onomatopoeia
 
 - クスクス - a giggle
 - ゲラゲラ - a loud uncontrolled laugh
