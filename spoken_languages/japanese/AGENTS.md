@@ -80,3 +80,19 @@ the word header, the category is in the meanings area, and the English meaning
 is in the meaning definition. Prefer the API JSON fields for parsing because
 the HTML contains presentation markup and may include unrelated sections such
 as kanji details, collocations, or Wikipedia definitions.
+
+## Git commit
+
+For changes in `vocabulary.md`, use the following commit message with any
+specifics.
+
+```
+Updated Japanese vocabulary
+```
+
+For changes in `patterns.md`, use the following commit message with any
+specifics.
+
+```
+Updated Japanese patterns
+```
