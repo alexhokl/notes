@@ -2605,7 +2605,7 @@ ____
 - [Conditional form ば](./verbs.md#conditional-form-%E3%81%B0)
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
 - used to describe
-  * things that has not been happened yet
+  * things that has not been happened yet and it is a state such as 雨が降れば
     + it can be used to express normal conditions, wishes, intentions or guesses
       for the speaker (and not for anyone else)
       + requests are normally cannot be used with ば or なら
@@ -2614,6 +2614,7 @@ ____
     + similar to と and と is about natural consequences
     + most of the time と and ば can be used interchangeably
 - slightly more formal than たら
+  * it is less used to express speaker's personal matters
 - although なら can be used with い-adjective and verb, it is only used with
   affirmative (positive) form of な-adjective and noun for now
 - (もし)雨が降れば、私はハイキングに行きません。
@@ -2646,6 +2647,8 @@ ____
 - 今すぐ送れば、願書(がんしょ)の締め切りに間に合います。
 - この試験で60点取れば、あの大学に入れます。
 - 辞書を使えば、新聞が読めます。
+- 明日暇なら、映画を見に行きませんか。
+  * invitation is acceptable due to 暇 is describing a state
 
 ### if (a casual/hypothetical relationship)
 
@@ -2690,6 +2693,8 @@ ____
 ### given
 
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
+- used in giving response
+- usage is different from ば
 - plain form + なら
 - noun/nounだった + なら
 - Naだ + なら
@@ -2715,7 +2720,7 @@ ____
 ### positive advice
 
 - Vた + 方がいい + だ。
-- it should be used to give advice to someone requires respect
+- it should not be used to give advice to someone requires respect
 - 雨が降りそうだから、傘を持っていった方(ほう)がいいでしょう。
 - 昨日から咳(せき)が出るんです。
   * それはいけませんね。早く病院へ行った方がいいですよ。
@@ -2724,7 +2729,7 @@ ____
 ### negative advice
 
 - Vない + 方がいい + だ。
-- it should be used to give advice to someone requires respect
+- it should not be used to give advice to someone requires respect
 - 熱がありますね。お風呂に入らない方がいいです。
 - 日本語の授業(じゅぎょう)の時、母国語(ぼこくご)を話さない方がいいです。
 - この肉はもう古いから食べない方がいいです。
@@ -2748,7 +2753,6 @@ ____
   * ああ、あの店ね。あそこは店員さんが親切だね。
 - 去年一緒に熊本へ行ったでしょう。あれは6月でしたよね。
   * いいえ、8月ですよ。あの時はとても暑かったから、よく覚えています。
-- 夏休みに国に帰って友達に会いました。その友達も来年日本に来るそうです。
 - 駅前のレストランは安くておいしいですね。
   * ええ、あそこへは私もよく行きます。
 - 去年の春、一緒に鎌倉へ行きましたね。
@@ -2760,3 +2764,4 @@ ____
 - 私の高校のときの友達に佐藤あきらという人がいました。
   昨日スーパーでその人に会ったんです。
   * へえ、その人には久(ひさ)しぶりに会ったんですか。
+- 夏休みに国に帰って友達に会いました。その友達も来年日本に来るそうです。
