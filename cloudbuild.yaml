@@ -9,15 +9,13 @@ timeout: "600s" # 10 minutes
 steps:
   - name: "asia-east1-docker.pkg.dev/$PROJECT_ID/public/japanese-notes-parser:1.0.2"
     id: Run parser
-    entrypoint: bash
     args:
-      - -c
-      - |
-        set -euo pipefail
-        /japanese-notes-parser create \
-          -f spoken_languages/japanese/vocabulary.md \
-          -d /workspace/japanese_vocab.db \
-          --overwrite
+      - create
+      - -f
+      - spoken_languages/japanese/vocabulary.md
+      - -d
+      - /workspace/japanese_vocab.db
+      - --overwrite
 
   - name: "gcr.io/cloud-builders/gsutil"
     id: Upload db
