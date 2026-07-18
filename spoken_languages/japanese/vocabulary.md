@@ -850,6 +850,7 @@ ____
   meaning
 - 散歩 (さんぽ) - walk; stroll
 - 仕事 (しごと) - work; job; occupation; business; task; duty; labor; employment
+- 授業 (じゅぎょう) - lesson; class
 - 旅行 (りょこう) - travel
 
 ### する transitive and intransitive verbs
@@ -981,7 +982,6 @@ ____
 - 死ぬ (しぬ) - to die
 - 住む (すむ) - to live; to reside
 - 座る (すわる) - to be seated
-- 授業 (じゅぎょう) - lesson; class
 - 違う (ちがう) - to be different; to be incorrect
 - 疲れる (つかれる) - to get tired; to become exhausted
 - 着く (つく) - to arrive at; to reach; to sit on
@@ -1444,6 +1444,7 @@ ____
 ### verbs (transitive and intransitive)
 
 - 謝る (あやまる) - to apologise
+- 怒る (おこる) - to get angry; to scold; to tell (someone) off
 - 急ぐ (いそぐ) - to hurry; to rush
 - 開く (ひらく) - open
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
@@ -2116,6 +2117,7 @@ ____
 
 ### expressions
 
+- こちらこそ - it is me who should say so
 - 行ってまいります (いってまいります) - goodbye; I'm off; see you later
 - 行ってらっしゃい (いってらっしゃい) - go and come back safely (when someone
   leaves)
@@ -2885,6 +2887,7 @@ ____
 
 ### nouns (work)
 
+- コンサルタント - consultant
 - 職場 (しょくば) - workplace
 - 正社員 (せいしゃいん) - full-time employee
 - 弁護士 (べんごし) - lawyer
@@ -2914,7 +2917,7 @@ ____
 - システムエラー - system error
 - 生体認証 (せいたいにんしょう) - biometric authentication
 - セキュリティポリシー - security policy
-- ソフトウェア工学 - software engineering
+- ソフトウェア工学 - software engineering; aka ソフトウェアエンジニアリング
 - ソフトウェアエンジニア - software engineer
 - チャットGPT - ChatGPT
 - ツール - tool
