@@ -975,7 +975,7 @@ ____
 - 曇る (くもる) - to get cloudy
 - 答える (こたえる) - to answer; to reply
 - 困る (こまる) - to be troubled; to have difficulty
-- 咲く (さく) - to bloom; to blossom
+- 咲く (さく) - to bloom
 - 差す (さす) - to shine; to be visible; to rise (of water levels); to be felt
   (as an emotion); to hold up (an umbrella); to put on (lipstick); to light (a
   fire)
