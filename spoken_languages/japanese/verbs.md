@@ -105,7 +105,7 @@ ____
     + れる is usually intransitive (obvious exception is 入れる)
     + かる is usually an intransitive verb
     + おる is usually an intransitive verb
-    + す is uaually a transitive verb
+    + す is uaually a transitive verb (obvious exception is 差す (さす))
     + く is not always an intransitive verb
     + む does not have a pattern
     + える does not have a pattern
