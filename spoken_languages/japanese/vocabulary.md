@@ -956,7 +956,9 @@ ____
 - 話す (はなす) - to talk; to speak (a language)
 - 張る (はる) - to stick; to paste; to post (a link, etc. online); aka 貼る
 - 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
-  instrument) to catch (a cold); to look up (a word in a dictionary)
+  instrument) to catch (a cold); to look up (a word in a dictionary); to
+  subtract
+- 弾く (ひく) - to play (a stringed instrument, piano, etc.)
 - 磨く (みがく) - to brush
 - 持つ (もつ) - to hold; to carry; to possess
 - 呼ぶ (よぶ) - to call; to invite; to summon
@@ -980,7 +982,7 @@ ____
   (as an emotion); to hold up (an umbrella); to put on (lipstick); to light (a
   fire)
 - 死ぬ (しぬ) - to die
-- 住む (すむ) - to live; to reside
+- 住む (すむ) - to live (a longer term); to reside
 - 座る (すわる) - to be seated
 - 違う (ちがう) - to be different; to be incorrect
 - 疲れる (つかれる) - to get tired; to become exhausted
@@ -992,10 +994,11 @@ ____
 - 鳴く (なく) - to make sound (of an animal); to cry
 - 成る (なる) - to become
 - 上る (のぼる) - to ascend; to go up; to climb; to rise; aka 登る; aka 昇る
-- 走る (はしる) - to run; moving car
+- 走る (はしる) - to run; to drive; to sail
 - 働く (はたらく) - to work; to labour
 - 晴れる (はれる) - to be sunny
-- 弾く (ひく) - to play (a stringed instrument, piano, etc.)
+- 引く (ひく) - to move back; to lessen; to resign; to be put off (by someone's
+  words or behaviour); aka 退く
 - 吹く (ふく) - to blow (wind)
 - 降る (ふる) - to fall (rain, snow)
 - 休む (やすむ) - to rest
