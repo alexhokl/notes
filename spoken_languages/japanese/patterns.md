@@ -2649,6 +2649,31 @@ ____
 - 辞書を使えば、新聞が読めます。
 - 明日暇なら、映画を見に行きませんか。
   * invitation is acceptable due to 暇 is describing a state
+  * ⭕️時間があれば、映画を見に行こう。
+  * ⭕️私がそこにいなければ、後で連絡します。
+  * ⭕️スケジュールが良ければ、明日会いましょう。
+- 北海道に行けば、
+  * ⭕️カニが食べられる。
+  * ❌カニを食べた。
+  * ❌カニを食べよう。
+  * ❌カニを食べたい。
+  * ❌カニを食べませんか。
+  * ❌カニを食べてください。
+  * ❌カニを食べろ。
+  * ❌カニを食べてはいけない。
+  * ❌カニを食べてもいい。
+- 彼が日本に行けば、彼自身も視野が広がるだろう。
+  * condition and consequence share the same subject; the result is natural or
+      non-volitional
+  * condition and consequence share the same subject; the result is volitional
+    + ❌日本に行けば、お土産を買います
+    + ❌日本に行けば、お土産を買おう。
+- あなたが日本に行けば、私はうれしいです。
+  * condition and consequence do not share the same subject; a volitional result
+    is acceptable
+- 田中さんが窓を開ければ、あなたはエアコンを消してください。
+  * condition and consequence do not share the same subject; a command as
+    result is acceptable
 
 ### if (a casual/hypothetical relationship)
 
@@ -2684,6 +2709,10 @@ ____
 - お寿司が好きでなかったら、サンドイッチを持ってきます。
 - 明日いい天気だったら、散歩に行きませんか。
 - 明日いい天気でなかったら、部屋で音楽を聴きましょう。
+- ❌海外旅行に行ったら、旅行保険に行った方がいいですよ。
+  * the result (buying insurance) has to be happened before the condition
+    (travel)
+  * ⭕️海外旅行に行くなら、旅行保険に行った方がいいですよ。
 
 ### when
 
@@ -2694,6 +2723,7 @@ ____
 
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
 - used in giving response
+  * giving personal advice or information
 - usage is different from ば
 - plain form + なら
 - noun/nounだった + なら
@@ -2716,6 +2746,10 @@ ____
   * スペインへ行くなら、早くスペイン語の勉強を始めなさい。
 - パソコンが壊れました。
   * パソコンが壊れたなら、新しいのを買うしかないね。
+- 私のスマホ見なかった？
+  * ⭕️スマホなら、キッチンのテーブルの上にあったよ。
+  * ❌スマホなら、見なかったよ。
+    + as there is not new knowledge shared
 
 ### positive advice
 
