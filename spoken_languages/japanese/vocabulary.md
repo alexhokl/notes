@@ -1204,6 +1204,7 @@ ____
 ### nouns (food)
 
 - ケーキ - cake
+- 米 (こめ) - un-cooked rice
 - サンドイッチ - sandwich
 - ステーキ - steak
 - 湯 (ゆ) - hot water; hot bath
