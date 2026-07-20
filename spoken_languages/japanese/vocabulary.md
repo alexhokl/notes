@@ -1558,6 +1558,7 @@ ____
 - 餌 (えさ) - feed (for animals); pet food
 - 大家 (おおや) - landlord; landlady
 - 歌手 (かしゅ) - singer
+- 格好 (かっこう) - shape; form; appearance; style; state; situation
 - 雷 (かみなり) - thunder; lightning
 - 缶 (かん) - can; tin
 - 気候 (きこう) - climate
@@ -2447,6 +2448,7 @@ ____
 - 収入印紙 (しゅうにゅういんし) - revenue stamp
 - 申請書 (しんせいしょ) - written application
 - 専門 (せんもん) - area of expertise; sole interest
+- スキル - skill
 - スチール - steel
 - スマートフォン (スマホ) - smartphone
 - 洗濯物 (せんたくもの) - laundry
