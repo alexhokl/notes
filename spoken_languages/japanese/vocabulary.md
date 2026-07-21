@@ -2906,6 +2906,7 @@ ____
 - アンドロイド - Android
 - インスタ - Instagram
 - 絵文字 (えもじ) - emoji
+- コピペ - copy-and-paste
 - シグナル - signal
 - 絞り込み (しぼりこみ) - search filters
 - テレグラム - telegram
