@@ -2776,8 +2776,10 @@ ____
 
 ### nouns (transportation)
 
-- 青切符 (あおきっぷ) - blue traffic violation ticket (for minor traffic violations)
-- 赤切符 (あかきっぷ) - red traffic violation ticket (for designating a serious violation)
+- 青切符 (あおきっぷ) - blue traffic violation ticket (for minor traffic
+  violations)
+- 赤切符 (あかきっぷ) - red traffic violation ticket (for designating a serious
+  violation)
 - 網棚 (あみだな) - overhead luggage rack (on a train, bus, etc.)
 - 内回り (うちまわり) - inner loop
 - 改札口 (かいさつぐち) - ticket gate
