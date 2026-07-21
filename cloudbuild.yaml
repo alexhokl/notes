@@ -7,7 +7,7 @@ options:
 timeout: "600s" # 10 minutes
 
 steps:
-  - name: "asia-east1-docker.pkg.dev/$PROJECT_ID/public/japanese-notes-parser:1.0.3"
+  - name: "asia-east1-docker.pkg.dev/$PROJECT_ID/public/japanese-notes-parser:1.0.4"
     id: Run parser
     volumes:
       - name: "db-data"
