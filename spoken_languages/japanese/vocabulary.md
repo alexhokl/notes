@@ -6,7 +6,6 @@
     + [adjectives (い)](#adjectives-%E3%81%84)
     + [adjectives (な)](#adjectives-%E3%81%AA)
     + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E)
-    + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E)
     + [pronouns (place)](#pronouns-place)
     + [pronouns (time)](#pronouns-time)
     + [pronouns (person)](#pronouns-person)
@@ -220,7 +219,6 @@
     + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E-1)
     + [adjectives (い)](#adjectives-%E3%81%84-5)
     + [adjectives (な)](#adjectives-%E3%81%AA-5)
-    + [連体詞](#%E9%80%A3%E4%BD%93%E8%A9%9E-1)
     + [pronouns (time)](#pronouns-time-1)
     + [pronouns (person)](#pronouns-person-5)
     + [pronouns (place)](#pronouns-place-1)
@@ -405,8 +403,6 @@ ____
 - 有名 (ゆうめい) - famous
 
 ### rentaishi (連体詞)
-
-### 連体詞
 
 - あんな - that kind of (over there)
 - こんな - this kind of
@@ -878,9 +874,9 @@ ____
   * 終える (おえる) - to finish; to get through with; to graduate
 - 返る (かえる) - to return; to come back
   * 返す (かえす) - to return (something); to restore; to respond (with)
-- 掛かる (かかる) - to take (time, money); to hang; to be fastened
-  * 掛ける (かける) - to hang up (something); to put on; to cover; to make (a
-    call); to spend (time, money)
+- かかる - to take (time, money); to hang; to be fastened
+  * かける - to hang up (something); to put on; to cover; to make (a call); to
+    spend (time, money)
 - 消える (きえる) - to disappear; to turn off
   * 消す (けす) - to erase; to turn off; to extinguish
 - 聞こえる (きこえる) - to be heard
@@ -2374,7 +2370,10 @@ ____
 
 ### rentaishi (連体詞)
 
-- そういう - such; like that; that sort of
+- ああ言う (ああいう) - that sort of
+- こう言う (こういう) - this sort of
+- そう言う (そういう) - that sort of
+- どう言う (どういう) - what sort of
 
 ### adjectives (い)
 
@@ -2392,13 +2391,6 @@ ____
 - ご迷惑 (ごめいわく) - trouble; annoyance
 - まじ - serious; not joking
 - みたい - -like; sort of; similar to
-
-### 連体詞
-
-- ああ言う (ああいう) - that sort of
-- こう言う (こういう) - this sort of
-- そう言う (そういう) - that sort of
-- どう言う (どういう) - what sort of
 
 ### pronouns (time)
 
