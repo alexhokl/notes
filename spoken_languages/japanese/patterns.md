@@ -952,6 +952,14 @@ ____
   * 人は道を歩く。
   * 日本を旅行する。
   * 私は三十分ぐらい森の中を歩く。
+  * 山を降りる。
+  * 川を渡る。
+  * 信号を渡る。
+  * 横断歩道を渡る。
+  * 橋を渡る。
+  * 海岸を走る。
+  * 門を通る。
+  * 角を右に曲がる。
 - most of the movement verbs are intransitive verbs
 - but the following example is not applicable since 泳ぐ is not a movement
   behaviour but an activity/event
