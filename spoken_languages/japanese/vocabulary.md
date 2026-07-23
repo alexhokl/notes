@@ -42,15 +42,14 @@
     + [nouns (colours)](#nouns-colours)
     + [noun prefixes](#noun-prefixes)
     + [noun suffixes](#noun-suffixes)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs)
+    + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive)
+    + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive)
+    + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive)
-    + [transitive verbs](#transitive-verbs)
-    + [intransitive verbs](#intransitive-verbs)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive)
-    + [verbs (direction intransitive)](#verbs-direction-intransitive)
+    + [verb (transitive)](#verb-transitive)
+    + [verb (intransitive)](#verb-intransitive)
+    + [verb (transitive and intransitive)](#verb-transitive-and-intransitive)
+    + [verb (direction intransitive)](#verb-direction-intransitive)
     + [expressions](#expressions)
   * [N4](#n4)
     + [particles](#particles-1)
@@ -83,14 +82,13 @@
     + [nouns (health)](#nouns-health-1)
     + [nouns (web)](#nouns-web-1)
     + [noun suffixes](#noun-suffixes-1)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-1)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-1)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-1)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-1)
+    + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-1)
+    + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-1)
+    + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-1)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-1)
-    + [transitive verbs](#transitive-verbs-1)
-    + [intransitive verbs](#intransitive-verbs-1)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-1)
+    + [verb (transitive)](#verb-transitive-1)
+    + [verb (intransitive)](#verb-intransitive-1)
+    + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-1)
     + [expressions](#expressions-1)
   * [N3](#n3)
     + [particles](#particles-2)
@@ -123,14 +121,13 @@
     + [nouns (health)](#nouns-health-2)
     + [nouns (web)](#nouns-web-2)
     + [noun suffixes](#noun-suffixes-2)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-2)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-2)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-2)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-2)
+    + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-2)
+    + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-2)
+    + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-2)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-2)
-    + [transitive verbs](#transitive-verbs-2)
-    + [intransitive verbs](#intransitive-verbs-2)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-2)
+    + [verb (transitive)](#verb-transitive-2)
+    + [verb (intransitive)](#verb-intransitive-2)
+    + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-2)
     + [expressions](#expressions-2)
   * [N2](#n2)
     + [particles](#particles-3)
@@ -163,14 +160,13 @@
     + [nouns (health)](#nouns-health-3)
     + [nouns (web)](#nouns-web-3)
     + [noun suffixes](#noun-suffixes-3)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-3)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-3)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-3)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-3)
+    + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-3)
+    + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-3)
+    + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-3)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-3)
-    + [transitive verbs](#transitive-verbs-3)
-    + [intransitive verbs](#intransitive-verbs-3)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-3)
+    + [verb (transitive)](#verb-transitive-3)
+    + [verb (intransitive)](#verb-intransitive-3)
+    + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-3)
     + [expressions](#expressions-3)
   * [N1](#n1)
     + [particles](#particles-4)
@@ -203,14 +199,13 @@
     + [nouns (technology)](#nouns-technology-4)
     + [nouns (health)](#nouns-health-4)
     + [noun suffixes](#noun-suffixes-4)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-4)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-4)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-4)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-4)
-    + [transitive verbs](#transitive-verbs-4)
-    + [intransitive verbs](#intransitive-verbs-4)
+    + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-4)
+    + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-4)
+    + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-4)
+    + [verb (transitive)](#verb-transitive-4)
+    + [verb (intransitive)](#verb-intransitive-4)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-4)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-4)
+    + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-4)
     + [expressions](#expressions-4)
   * [N0](#n0)
     + [particles](#particles-5)
@@ -256,15 +251,14 @@
     + [nouns (colours)](#nouns-colours-5)
     + [noun prefixes](#noun-prefixes-1)
     + [noun suffixes](#noun-suffixes-5)
-    + [する verbs](#%E3%81%99%E3%82%8B-verbs-5)
-    + [する transitive verbs](#%E3%81%99%E3%82%8B-transitive-verbs-5)
-    + [する intransitive verbs](#%E3%81%99%E3%82%8B-intransitive-verbs-5)
-    + [する transitive and intransitive verbs](#%E3%81%99%E3%82%8B-transitive-and-intransitive-verbs-5)
+    + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-5)
+    + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-5)
+    + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-5)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-5)
-    + [transitive verbs](#transitive-verbs-5)
-    + [intransitive verbs](#intransitive-verbs-5)
-    + [verbs (transitive and intransitive)](#verbs-transitive-and-intransitive-5)
-    + [verbs (direction intransitive)](#verbs-direction-intransitive-1)
+    + [verb (transitive)](#verb-transitive-5)
+    + [verb (intransitive)](#verb-intransitive-5)
+    + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-5)
+    + [verb (direction intransitive)](#verb-direction-intransitive-1)
     + [onomatopoeia](#onomatopoeia-4)
     + [expressions](#expressions-5)
 ____
@@ -827,9 +821,7 @@ ____
 
 ### noun suffixes
 
-### する verbs
-
-### する transitive verbs
+### する verb (transitive)
 
 - 意味 (いみ) - meaning
 - 試験 (しけん) - exam
@@ -839,7 +831,7 @@ ____
 - 料理 (りょうり) - cooking
 - 練習 (れんしゅう) - practice
 
-### する intransitive verbs
+### する verb (intransitive)
 
 - 結婚 (けっこん) - marriage
 - 作文 (さくぶん) - writing; composition; formal writing with little real
@@ -849,7 +841,7 @@ ____
 - 授業 (じゅぎょう) - lesson; class
 - 旅行 (りょこう) - travel
 
-### する transitive and intransitive verbs
+### する verb (transitive and intransitive)
 
 - 質問 (しつもん) - question
 - 勉強 (べんきょう) - study
@@ -923,7 +915,7 @@ ____
 - 渡る (わたる) - to cross over; to go across; to extend
   * 渡す (わたす) - to ferry across; to hand out; to give
 
-### transitive verbs
+### verb (transitive)
 
 - 浴びる (あびる) - to take a shower
 - 洗う (あらう) - to wash
@@ -961,7 +953,7 @@ ____
 - 読む (よむ) - to read
 - 忘れる (わすれる) - to forget
 
-### intransitive verbs
+### verb (intransitive)
 
 - 会う (あう) - to meet
 - 遊ぶ (あそぶ) - to play (games, sports); to enjoy oneself; to have a good time
@@ -1000,13 +992,13 @@ ____
 - 休む (やすむ) - to rest
 - 分かる (わかる) - to understand
 
-### verbs (transitive and intransitive)
+### verb (transitive and intransitive)
 
 - 歌う (うたう) - to sing
 - 為る (する) - to do; to wear
 - 待つ (まつ) - to wait
 
-### verbs (direction intransitive)
+### verb (direction intransitive)
 
 - 行く (いく) - to go
 - 帰る (かえる) - to return
@@ -1284,11 +1276,7 @@ ____
 
 ### noun suffixes
 
-### する verbs
-
-- 交通 (こうつう) - traffic; transportation
-
-### する transitive verbs
+### する verb (transitive)
 
 - 受付 (うけつけ) - reception; information desk
 - 思い出す (おもいだす) - to recall; to remember
@@ -1309,10 +1297,11 @@ ____
   subscription
 - 予定 (よてい) - plans; arrangement; schedule
 
-### する intransitive verbs
+### する verb (intransitive)
 
 - アルバイト - part-time job (from German "Arbeit")
 - 関係 (かんけい) - relationship; connection
+- 交通 (こうつう) - traffic; transportation
 - 卒業 (そつぎょう) - graduation
 - 水泳 (すいえい) - swimming
 - 退院 (たいいん) - discharge from hospital
@@ -1322,7 +1311,7 @@ ____
 - 返事 (へんじ) - reply; answer
 - 貿易 (ぼうえき) - (foreign) trade; (international) commerce
 
-### する transitive and intransitive verbs
+### する verb (transitive and intransitive)
 
 - 会議 (かいぎ) - meeting; conference
 
@@ -1388,7 +1377,7 @@ ____
 - 割れる (われる) - to break; to be smashed; to split; to be divided (opinion)
   * 割る (わる) - to divide; to cut; to break; to dilute; to discount
 
-### transitive verbs
+### verb (transitive)
 
 - 致す (いたす) - to do (humble language)
 - 受ける (うける) - to receive; to take (an exam / a lesson)
@@ -1415,7 +1404,7 @@ ____
 - 払う (はらう) - to pay; to wipe away
 - 迎える (むかえる) - to welcome; to greet
 
-### intransitive verbs
+### verb (intransitive)
 
 - 遅れる (おくれる) - to be late
 - 踊る (おどる) - to dance; to be manipulated
@@ -1441,7 +1430,7 @@ ____
   break up
 - 笑う (わらう) - to laugh; to smile
 
-### verbs (transitive and intransitive)
+### verb (transitive and intransitive)
 
 - 謝る (あやまる) - to apologise
 - 怒る (おこる) - to get angry; to scold; to tell (someone) off
@@ -1746,13 +1735,7 @@ ____
 
 ### noun suffixes
 
-### する verbs
-
-- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
-- 関する (かんする) - to concern; to be related
-- メモ - note
-
-### する transitive verbs
+### する verb (transitive)
 
 - 暗記 (あんき) - memorization
 - 案内 (あんない) - guidance; information
@@ -1775,14 +1758,17 @@ ____
 - 販売 (はんばい) - selling
 - 変更 (へんこう) - change; modification
 - パス - passing
+- メモ - note
 - 免許 (めんきょ) - license; permit
 - 予報 (よほう) - forecast
 
-### する intransitive verbs
+### する verb (intransitive)
 
 - 安定 (あんてい) - stability; consistency
+- 苛々 (いらいら) - to get irritated; to get annoyed; to lose patience
 - 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
+- 関する (かんする) - to concern; to be related
 - 感動 (かんどう) - being deeply moved emotionally
 - 協力 (きょうりょく) - cooperation
 - 経営 (けいえい) - running (a business)
@@ -1800,7 +1786,7 @@ ____
 - 優勝 (ゆうしょう) - championship; victory
 - 留学 (りゅうがく) - studying abroad
 
-### する transitive and intransitive verbs
+### する verb (transitive and intransitive)
 
 - 更新 (こうしん) - renewal; update
 
@@ -1844,7 +1830,7 @@ ____
 - 燃える (もえる) - to burn
   * 燃やす (もやす) - to burn; to burn with (emotion, feeling)
 
-### transitive verbs
+### verb (transitive)
 
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
@@ -1872,14 +1858,14 @@ ____
 - 貰う (もらう) - to receive (appreciatively)
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 
-### intransitive verbs
+### verb (intransitive)
 
 - 構う (かまう) - to mind; to care about; to look after
 - 飛び出す (とびだす) - to jump out
 - 黙る (だまる) - to be silent; to say nothing
 - 酔う (よう) - to get drunk; to feel sick
 
-### verbs (transitive and intransitive)
+### verb (transitive and intransitive)
 
 - 閉じる (とじる) - close
 
@@ -2050,9 +2036,7 @@ ____
 
 - 未満 (みまん) - less than; under (suffix)
 
-### する verbs
-
-### する transitive verbs
+### する verb (transitive)
 
 - 開放 (かいほう) - open
 - クリーニング - cleaning; laundry service
@@ -2060,7 +2044,7 @@ ____
 - 受験 (じゅけん) - taking an exam
 - マイナス - minus; negative
 
-### する intransitive verbs
+### する verb (intransitive)
 
 - 往復 (おうふく) - making a round trip
 - お辞儀 (おじぎ) - bowing
@@ -2072,7 +2056,7 @@ ____
 - 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 - 面接 (めんせつ) - interview (job or school)
 
-### する transitive and intransitive verbs
+### する verb (transitive and intransitive)
 
 - 工事 (こうじ) - construction work
 - 彫刻 (ちょうこく) - sculpture
@@ -2094,7 +2078,7 @@ ____
 - 剥ける (むける) - to peel off; to come off
   * 剥く (むく) - to peel; to skin
 
-### transitive verbs
+### verb (transitive)
 
 - 温める (あたためる) - to warm (up); to heat (up); to sit on (an idea, plan,
   etc.)
@@ -2106,7 +2090,7 @@ ____
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
 
-### intransitive verbs
+### verb (intransitive)
 
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
@@ -2114,7 +2098,7 @@ ____
 - 凭れる (もたれる) - to lean against; to lean on
 - 依る (よる) - to depend on; to be caused by; to be based on
 
-### verbs (transitive and intransitive)
+### verb (transitive and intransitive)
 
 - 思いつく (おもいつく) - to think of; to remember; to recall
 
@@ -2285,9 +2269,7 @@ ____
 - 側 (がわ) - side
 - 過ぎ (すぎ) - past; after; over-;
 
-### する verbs
-
-### する transitive verbs
+### する verb (transitive)
 
 - 手配 (てはい) - arrangements; preparations; search (by police)
 - 取引 (とりひき) - transaction; dealings; business
@@ -2297,7 +2279,7 @@ ____
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - 保護 (ほご) - protection; safeguard; conservation; preservation
 
-### する intransitive verbs
+### する verb (intransitive)
 
 - 証 (あかし) - proof; evidence; testimony
 - 朝寝坊 (あさねぼう) - sleeping in
@@ -2305,11 +2287,11 @@ ____
 - 日焼け (ひやけ) - sun damage/fading
 - 夜更かし (よふかし) - staying up late
 
-### する transitive and intransitive verbs
+### する verb (transitive and intransitive)
 
 - コメント - comment
 
-### transitive verbs
+### verb (transitive)
 
 - 切り替える (きりかえる) - to switch; to change; に to indicate the new state
 - 問う (とう) - to ask; to inquire; to blame (someone) for
@@ -2320,7 +2302,7 @@ ____
   lower status)
 - 予想 (よそう) - expectation; anticipation; prediction; forecast
 
-### intransitive verbs
+### verb (intransitive)
 
 - 甘える (あまえる) - to behave like a spoiled child
 - 受かる (うかる) - to pass (e.g. exam)
@@ -2328,7 +2310,7 @@ ____
 
 ### verb pairs (intransitive and transitive)
 
-### verbs (transitive and intransitive)
+### verb (transitive and intransitive)
 
 ### expressions
 
@@ -2995,11 +2977,7 @@ ____
   a group); the whole (family, school, etc.)
 - 放題 (ほうだい) - (doing) as one pleases
 
-### する verbs
-
-- 毛繕い (けづくろい) - grooming oneself (espsecially for animals)
-
-### する transitive verbs
+### する verb (transitive)
 
 - 買取 (かいとり) - buying used articles as a company
 - 解読 (かいどく) - deciphering
@@ -3012,7 +2990,7 @@ ____
 - 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
   referring to chicken
 
-### する intransitive verbs
+### する verb (intransitive)
 
 - 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
   from someone; reply; revenge
@@ -3030,8 +3008,9 @@ ____
 - ログアウト - logout
 - ログイン - login
 
-### する transitive and intransitive verbs
+### する verb (transitive and intransitive)
 
+- 毛繕い (けづくろい) - grooming oneself (espsecially for animals)
 - 返信 (へんしん) - reply
 - プログラミング - programming
 
@@ -3044,7 +3023,7 @@ ____
 - 目が覚める (めがさめる) - to wake up
   * 目を覚ます (めをさます) - to wake up
 
-### transitive verbs
+### verb (transitive)
 
 - 押し付ける (おしつける) - to force against
 - 貸し切る (かしかる) - to reserve; to book
@@ -3068,7 +3047,7 @@ ____
 invite; to ride
 - 気になる - to weigh on one's mind; to be interested (in)
 
-### intransitive verbs
+### verb (intransitive)
 
 - 頂ける (いただける) - to be able to receive/take/accept
 - いなくなる - to disappear
@@ -3080,9 +3059,9 @@ invite; to ride
 - 含まれる (ふくまれる) - to be included; to be composed of
 - バズる - to go viral (buzz)
 
-### verbs (transitive and intransitive)
+### verb (transitive and intransitive)
 
-### verbs (direction intransitive)
+### verb (direction intransitive)
 
 ### onomatopoeia
 
