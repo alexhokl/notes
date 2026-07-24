@@ -2087,6 +2087,8 @@ ____
 - 蹴る (ける) - to kick; to refuse
 - 探る (さぐる) - to feel around for; to grope for
 - 取り入れる (とりいれる) - to take in; to adopt (an idea); to harvest
+- 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
+  (e.g. an opportunity)
 - 拭く (ふく) - to wipe; to dry
 - 干す (ほす) - to air; to dry; to hang dry
 
@@ -2094,6 +2096,8 @@ ____
 
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
+- 伸びる (のびる) - to stretch; to extend; to lengthen; to grow (of hair, height,
+  grass, etc.); to straighten out
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - 凭れる (もたれる) - to lean against; to lean on
 - 依る (よる) - to depend on; to be caused by; to be based on
@@ -2339,6 +2343,7 @@ ____
 - 一日中 (いちにちじゅう) - all day long; all the day
 - いつ頃 (いつごろ) - about when; about what time; how soon
 - 今でも (いまでも) - even now; still
+- ぐったり - limply; exhaustedly; unenergetically
 - 然う然う (そうそう) - oh yes
 - 其れ丈 (それだけ) - that alone
 - だらだら - leisurely
@@ -2950,6 +2955,7 @@ ____
 - 抗生物質 (こうせいぶっしつ) - antibiotic
 - 整骨院 (せいこついん) - osteopathic clinic
 - 接骨院 (せっこついん) - orthopedic clinic
+- 熱中症 (ねっちゅうしょう) - heatstroke
 - 体調 (たいちょう) - physical condition; state of health
 - パニック障害 (パニックしょうがい) - panic disorder
 - 療法 (りょうほう) - (method of) treatment or therapy
