@@ -442,6 +442,21 @@ ____
 - 大阪にどのぐらいいる予定ですか。
   * 二週間大阪にいる予定です。
 
+## 気に
+
+- 気になる - (passive or natural) to care about; to be interested in
+  * あの映画が気になる。 - I'm interested about that movie.
+- 気にする - active or intention to mind (negative nuance); to care about
+  * 気にしないでください。 - Please don't worry about it
+- 気に入る(きにいる) - to like; to be pleased with
+  * この靴が気に入りました。 - I like these shoes
+- 気にかける - to be concerned about
+  * いつも気にかけてくれてありがとう。 - Thanks for always looking out for me.
+- 気に障る(きにさわる) - to hurt someone's feelings
+  * 気に障ったらすみません。 - I'm sorry if I offended you.
+- 気に留める(きにとめる) - to keep in mind; to pay attention to
+  * 彼の言ったことを気に留めないで。 - Don't pay any mind to what he said.
+
 # Patterns
 
 ## don't mind
