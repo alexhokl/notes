@@ -1466,6 +1466,7 @@ ____
 
 - うまい - skillful; clever; tasty; delicious; aka 上手い
 - 嬉しい (うれしい) - glad; pleased
+- 臭い (くさい) - stinking; smelly
 - 素晴らしい (すばらしい) - wonderful
 - 違いない (ちがいない) - without a doubt; for sure; certainly
 - つらい - painful; tough; difficult (emotionally); aka 辛い
@@ -2378,6 +2379,7 @@ ____
 - 下振れ (したぶれ) - downturn; downside
 - 神道 (しんとう) - shinto
 - 商学 (しょうがく) - commercial science
+- 小人 (しょうにん) - child
 - 証明書 (しょうめいしょ) - certificate; credentials; identification
 - 初心者 (しょしんしゃ) - beginner
 - 初心者向け (しょしんしゃむけ) - beginner-friendly; intended for beginners
@@ -3077,6 +3079,7 @@ invite; to ride
   shrinking; declining
 - メールに返信する (メールにへんしんする) - to reply to an email
 - 申し訳ありません (もうしわけありません) - I'm sorry; it's inexcusable
+- もし良かったら (もしよかったら) - if you don't mind
 - やった - yay!
 - ような - like; similar to; feels like; aka 様な
 - 言わないことではない - I told you so
