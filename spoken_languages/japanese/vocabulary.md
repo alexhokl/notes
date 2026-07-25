@@ -281,7 +281,6 @@ ____
 - 次に (つぎに) - next; then; after that
 - では - then
 - でも - but
-- どうして - why; how
 - また - and; or
 
 ### adverbs
@@ -298,11 +297,10 @@ ____
 - 丁度 (ちょうど) - exactly
 - 一寸 (ちょっと) - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat
-- 些とも (ちっとも) - not at all
 - 時々 (ときどき) - sometimes; occasionally
 - 迚も (とても) - very
 - 段々 (だんだん) - gradually
-- 如何して (どうして) - why; how
+- どうして - why; how; aka 如何して
 - どうぞ - please; go ahead
 - なぜ - why
 - 初めて (はじめて) - for the first time
@@ -443,14 +441,12 @@ ____
 - 音 (おと) - sound; noise
 - 男 (おとこ) - male
 - 男の子 (おとこのこ) - boy
-- 男の人 (おとこのひと) - man
 - 大人 (おとな) - adult
 - 同じ (おなじ) - same; identical; equal
 - 伯母さん (おばさん) - aunt
 - 音楽 (おんがく) - music
 - 女 (おんな) - female
 - 女の子 (おんなのこ) - girl
-- 女の人 (おんなのひと) - woman
 - 会社 (かいしゃ) - company
 - 階段 (かいだん) - stairs
 - 鍵 (かぎ) - key; lock
@@ -477,7 +473,6 @@ ____
 - 地図 (ちず) - map
 - 次 (つぎ) - next
 - 手紙 (てがみ) - letter
-- 所 (ところ) - place; site
 - 友達 (ともだち) - friend
 - 名前 (なまえ) - first name
 - 荷物 (にもつ) - luggage; baggage; package; payload
@@ -537,7 +532,6 @@ ____
 - 去年 (きょねん) - last year
 - 今朝 (けさ) - this morning
 - 今年 (ことし) - this year
-- この間 (このあいだ) - the other day; recently; during this period
 - この前 (このまえ) - the other day; previously; recently
 - 今月 (こんげつ) - this month
 - 今週 (こんしゅう) - this week
@@ -580,7 +574,6 @@ ____
 ### nouns (food)
 
 - カレー - curry
-- 牛タン (ぎゅうタン) - beef tongue
 - 牛肉 (ぎゅうにく) - beef
 - 牛乳 (ぎゅうにゅう) - milk
 - ご飯 (ごはん) - meal; cooked rice
@@ -588,12 +581,10 @@ ____
 - 塩 (しお) - salt
 - 醤油 (しょうゆ) - soy sauce
 - 卵 (たまご) - egg (aka 玉子)
-- 軟骨 (なんこつ) - cartilage
 - 鶏 (にわとり) - chicken
 - 蜂蜜 (はちみつ) - honey
 - 豚肉 (ぶたにく) - pork
 - パン - bread
-- 水 (みず) - water
 - 焼き (やき) - grilled; fried
 
 ### nouns (fish)
@@ -603,25 +594,16 @@ ____
 ### nouns (vegetables)
 
 - じゃが芋 (じゃがいも) - potato
-- 玉ねぎ (たまねぎ) - onion
 - 茄子 (なす) - eggplant
-- 人参 (にんじん) - carrot
-- 葱 (ねぎ) - green onion; spring onion
-- ほうれん草 (ほうれんそう) - spinach
 - ピーマン - bell pepper
 - 野菜 (やさい) - vegetable
 
 ### nouns (fruits)
 
 - 果物 (くだもの) - fruit
-- 西瓜 (すいか) - watermelon
-- バナナ - banana
-- 葡萄 (ぶどう) - grape
 - パイナップル - pineapple
-- 蜜柑 (みかん) - mandarin orange
 - メロン - melon
 - 桃 (もも) - peach
-- 林檎 (りんご) - apple
 - レモン - lemon
 
 ### nouns (drinks)
@@ -649,7 +631,6 @@ ____
 - 庭 (にわ) - garden
 - 辺 (へん) - area; region; side (mathematics)
 - ホテル - hotel
-- ビル - multi-storey building
 - 病院 (びょういん) - hospital; clinic
 - マンション - condominium; apartment building
 - 店 (みせ) - shop
@@ -766,7 +747,6 @@ ____
 
 ### nouns (sports)
 
-- サッカー - soccer
 - ジョギング - jogging
 
 ### nouns (countries)
@@ -824,7 +804,6 @@ ____
 ### する verb (transitive)
 
 - 意味 (いみ) - meaning
-- 試験 (しけん) - exam
 - 洗濯 (せんたく) - laundry; washing
 - 掃除 (そうじ) - cleaning; sweeping
 - テスト - test; exam
@@ -1058,8 +1037,7 @@ ____
 ### adjectives (い)
 
 - 美しい (うつくしい) - beautiful; pure
-- 硬い (かたい) - hard
-- 固い (かたい) - solid; aka 硬い, 堅い, 緊い
+- 固い (かたい) - hard; solid; aka 硬い, 堅い, 緊い
 - 悲しい (かなしい) - sad
 - 怖い (こわい) - scary; frightening
 - 寂しい (さびしい) - lonely
@@ -1162,7 +1140,6 @@ ____
 - 火 (ひ) - fire; flame
 - 引き出し (ひきだし) - drawer
 - 昼休み (ひるやすみ) - lunch break
-- 普通 (ふつう) - normal; ordinary
 - 星 (ほし) - star
 - 番組 (ばんぐみ) - programme
 - 漫画 (まんが) - manga
@@ -1284,7 +1261,6 @@ ____
 - 試合 (しあい) - match; game
 - 試験 (しけん) - exam
 - 紹介 (しょうかい) - introduction; presentation; referral; showcase (of a product)
-- 楽しむ (たのしむ) - to enjoy; to have fun
 - チェック - check; inspection; marking with a check
 - 泥棒 (どろぼう) - thief; burglar; robber
 - 発音 (はつおん) - pronunciation
@@ -1470,7 +1446,6 @@ ____
 - 既に (すでに) - already; previously; before; undeniably
 - 全て (すべて) - entirely; wholly; completely; all
 - そのまま - as is; without change; just like
-- そろそろ - soon
 - ずいぶん - very; extremely; terrible (as な-adjective), remarkable (as
   な-adjective)
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
@@ -1542,6 +1517,7 @@ ____
 - 嘘 (うそ) - lie
 - 餌 (えさ) - feed (for animals); pet food
 - 大家 (おおや) - landlord; landlady
+- 男の人 (おとこのひと) - man
 - 歌手 (かしゅ) - singer
 - 格好 (かっこう) - shape; form; appearance; style; state; situation
 - 雷 (かみなり) - thunder; lightning
@@ -1556,7 +1532,6 @@ ____
 - 暮らし (くらし) - life; living
 - クラシック - classical music
 - クリスマス - Christmas
-- 計画 (けいかく) - plan; project; schedule
 - 煙 (けむり) - smoke
 - ケース - case
 - 恋 (こい) - (romatic) love
@@ -1578,7 +1553,6 @@ ____
 - 成績 (せいせき) - results
 - 青年 (せいねん) - youth
 - 咳 (せき) - cough
-- ソファー - sofa
 - 事件 (じけん) - incident; affair; event
 - 自身 (じしん) - oneself; yourself; himself; herself
 - 事実 (じじつ) - fact; truth
@@ -1590,7 +1564,6 @@ ____
 - 太陽 (たいよう) - sun
 - ただ - free of charge; only (adverb); but (conjunction)
 - 立場 (たちば) - position; situation; point of view
-- 違い (ちがい) - difference
 - 調子 (ちょうし) - condition; state of health; tune
 - 月 (つき) - moon
 - 大統領 (だいとうりょう) - president
@@ -1629,7 +1602,6 @@ ____
 - 浴衣 (ゆかた) - bathrobe
 - 夜中 (よなか) - middle of the night
 - 礼 (れい) - thanks; gratitude; bow
-- 笑い (わらい) - laugh; smile
 
 ### nouns (academic)
 
@@ -1919,6 +1891,7 @@ ____
 
 - 生け花 (いけばな) - Japanese flower arrangement
 - 以降 (いこう) - on and after; since
+- 女の人 (おんなのひと) - woman
 - 海水浴 (かいすいよく) - sea bathing; swimming in the sea
 - カラー - color
 - 缶詰 (かんづめ) - canned food; being stuck in a confined space
@@ -1941,13 +1914,11 @@ ____
 - 複数 (ふくすう) - plural
 - 蓋 (ふた) - lid; cap; cover
 - バツ - cross
-- 未満 (みまん) - less than; under; below
 - 苗字 (みょうじ) - surname
 - 名物 (めいぶつ) - famous product
 - 目上 (めうえ) - superior; senior
 - 目下 (めした) - subordinate; junior
 - メニュー - menu
-- 役所 (やくしょ) - government office
 - 有料 (ゆうりょう) - fee-charging; not free
 - 理科 (りか) - science
 - 両側 (りょうがわ) - both sides
@@ -2053,7 +2024,6 @@ ____
 - 見学 (けんがく) - field trip; tour; inspection
 - 出張 (しゅっちょう) - business trip
 - 仲良し (なかよし) - close friendship; intimate relations
-- 乗り換え (のりかえ) - transfer (trains, buses, etc.); switch
 - 面接 (めんせつ) - interview (job or school)
 
 ### する verb (transitive and intransitive)
@@ -2173,19 +2143,17 @@ ____
 - 心地 (ここち) - feeling; sensation; mood
 - コンテスト - contest
 - 願書 (がんしょ) - written application
-- ぐらい - about; approximately
 - サイズ - size
 - サンタクロース - Santa Claus
 - 皺 (しわ) - wrinkle, crease (aka シワ)
 - 製 (せい) - -made; -manufactured
-- 地獄(じごく) - hell
+- 地獄 (じごく) - hell
 - 地元 (じもと) - home area; home town; local
 - ジャズ - jazz
 - 丈 (たけ) - height; length (of clothing)
 - チャイム - chime; bell
 - 定年 (ていねん) - retirement age
 - 手数 (てすう) - trouble; bother
-- 徒歩 (とほ) - on foot
 - 共 (とも) - together; both; all
 - 悩み (なやみ) - trouble; worry; distress
 - ニュアンス - nuance
@@ -2391,19 +2359,18 @@ ____
   attention
 - 県 (あがた) - territory (historical term); countryside
 - 圧力 (あつりょく) - pressure
-- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari) 腕時計 (うでどけい) - wristwatch
+- 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
+- 腕時計 (うでどけい) - wristwatch
 - 演奏会 (えんそうかい) - concert
 - エーティーエム - ATM
 - お客様 (おきゃくさま) - customer; guest
 - 推し活 (おしかつ) - activities to support one's favorite celebrity, idol, etc.
 - 男 (おとこ) - man (used as prefix)
-- 男の人 (おとこのひと) - man
 - お化け (おばけ) - ghost
 - お持て成し (おもてなし) - hospitality; reception; entertainment;
   treatment; service
 - オリンピック - Olympics
 - 女 (おんな) - women (used as prefix)
-- 女の人 (おんなのひと) - woman
 - 替え玉 (かえだま) - second serving of noodles; substitute
 - 顔色 (かおいろ) - facial expression
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
@@ -2418,7 +2385,7 @@ ____
 - この辺 (このへん) - this area; this point
 - サングラス - sunglasses
 - 下振れ (したぶれ) - downturn; downside
-- 神道(しんとう) - shinto
+- 神道 (しんとう) - shinto
 - 商学 (しょうがく) - commercial science
 - 証明書 (しょうめいしょ) - certificate; credentials; identification
 - 初心者 (しょしんしゃ) - beginner
@@ -2475,8 +2442,8 @@ ____
 ### nouns (time)
 
 - お正月 (おしょうがつ) - New Year
-- 午後零時(ごごれいじ) - noon
-- 午前零時(ごぜんれいじ) - midnight
+- 午後零時 (ごごれいじ) - noon
+- 午前零時 (ごぜんれいじ) - midnight
 - 翌朝 (よくあさ) - next morning
 
 ### nouns (food)
@@ -2559,8 +2526,8 @@ ____
 - 鰯 (いわし) - sardine
 - 大トロ (おおとろ) - fatty cut of tuna
 - 鰹 (かつお) - bonito (skipjack tuna)
-- 間八 (かまはち) - greater amberjack
-- 小鰭 (こびれ) - mid-sized konoshiro gizzard shad
+- 間八 (かんぱち) - greater amberjack
+- 小鰭 (こはだ) - mid-sized konoshiro gizzard shad
 - 鯖 (さば) - mackerel
 - 針魚 (さより) - halfbeak
 - 縞鯵 (しまあじ) - striped jack (striped horse mackerel); yellow jack
@@ -2612,7 +2579,6 @@ ____
 
 ### nouns (vegetables)
 
-- 茸 (きのこ) - mushroom
 - 玉ねぎ (たまねぎ) - onion
 - 大根 (だいこん) - variety of large white Oriental radish
 - 朝鮮人参 (ちょうせんにんじん) - ginseng
@@ -2673,8 +2639,6 @@ ____
 ### nouns (shopping)
 
 - 色褪せ (いろあせ) - fading, discoloration
-- 貸し切り (かしかり) - reserving (for exclusing use); full booking; block
-  reservation
 - 古書 (こしょ) - secondhand book
 - 古書店 (こしょてん) - used book store
 - コミック - comic book
@@ -2708,10 +2672,8 @@ ____
 - ブランド - brand
 - 未使用 (みしよう) - unused
 - 未使用品 (みしようひん) - unused item
-- 免税 (めんぜい) - tax free
 - リサイクルショップ - recycle shop (store that sells used goods)
 - リユース - resue
-- レジ - cash register
 
 ### nouns (clothing)
 
@@ -2728,7 +2690,6 @@ ____
 - ショーツ - shorts
 - ショートパンツ - shorts
 - 裾幅 (すそはば) - hem width
-- スーツ - suit
 - 総丈 (そうたけ) - total length
 - 袖丈 (そでたけ) - sleeve length
 - ジャケット - jacket
@@ -2777,7 +2738,6 @@ ____
 - 海驢 (あしか) - sea lion; eared seal
 - 猪 (いのしし) - boar
 - 海豚 (いるか) - dolphin
-- 馬 (うま) - horse
 - 海がめ (うみかめ) - sea turtle
 - 亀 (かめ) - turtle
 - 麒麟 (きりん) - giraffe
@@ -2830,7 +2790,6 @@ ____
 - オフサイド - offside
 - 後半 (こうはん) - second half
 - ゴルフ - golf
-- ゴール - goal
 - ゴールキーパー - goalkeeper
 - サドル - saddle
 - サッカー - soccer
@@ -2933,9 +2892,7 @@ ____
 ### nouns (signs)
 
 - 止まれ (とまれ) - stop
-- 引き (ひき) - pull
 - 左回り (ひだりまわり) - counter-clockwise
-- 開き (ひらき) - opening; gap
 - 右回り (みぎまわり) - clockwise
 
 ### nouns (logistics)
@@ -3032,7 +2989,7 @@ ____
 ### verb (transitive)
 
 - 押し付ける (おしつける) - to force against
-- 貸し切る (かしかる) - to reserve; to book
+- 貸し切る (かしきる) - to reserve; to book
 - 狩る (かる) - to hunt; to pick (barries)
 - 下す (くだす) - to make a decision; to draw a conclusion
 - ぎる - to steal
