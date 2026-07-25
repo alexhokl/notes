@@ -81,6 +81,10 @@ is in the meaning definition. Prefer the API JSON fields for parsing because
 the HTML contains presentation markup and may include unrelated sections such
 as kanji details, collocations, or Wikipedia definitions.
 
+When the meaning of word has indication of "Usually written using kana alone",
+the entry should represented by kana and the kanji should be presented at the
+end of English mean as "; aka <kanji>".
+
 ## Git commit
 
 For changes in `vocabulary.md`, use the following commit message with any
