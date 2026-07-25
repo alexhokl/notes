@@ -2622,9 +2622,24 @@ ____
     + similar to と and と is about natural consequences
     + most of the time と and ば can be used interchangeably
 - slightly more formal than たら
+  * used in more in written form
   * it is less used to express speaker's personal matters
 - although なら can be used with い-adjective and verb, it is only used with
   affirmative (positive) form of な-adjective and noun for now
+- [conjugations](./conjugations.md)
+  * N/Na + なら
+    + N/Na + であれば (formal)
+  * N/Na + でなければ
+  * Aければ
+  * Aくなければ
+  * Vれば
+  * Vなければ
+- casual form
+  * あれば -> ありゃ
+  * 行けば -> 行きゃ
+  * 飲めば -> 飲みゃ
+  * なければ -> なけりゃ
+  * Aければ -> A-きゃ
 - (もし)雨が降れば、私はハイキングに行きません。
 - (もし)マーク・シックスに当(あ)たれば、私は大きい家(いえ)を買います。
 - (もし)このコンサートのチケットが買えれば、ぜひ行ってみたいです。
