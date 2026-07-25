@@ -2613,14 +2613,21 @@ ____
 - [Conditional form ば](./verbs.md#conditional-form-%E3%81%B0)
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
 - used to describe
+  * logical consequences of a generic condition
+    + similar to と and と is about natural consequences
+    + most of the time と and ば can be used interchangeably
+    + not for a specific person or thing
+    + plain form is used for the condition and the result
+  * repetition or habit
+    + present tense for current habit
+    + past tense for past habit
+  * hypothetical situations
+    + general condition is applied to a particular situation
   * things that has not been happened yet and it is a state such as 雨が降れば
     + it can be used to express normal conditions, wishes, intentions or guesses
       for the speaker (and not for anyone else)
       + requests are normally cannot be used with ば or なら
         + exceptions are commands (due to its formality)
-  * logical consequences of a condition
-    + similar to と and と is about natural consequences
-    + most of the time と and ば can be used interchangeably
 - slightly more formal than たら
   * used in more in written form
   * it is less used to express speaker's personal matters
@@ -2687,7 +2694,7 @@ ____
   * ❌カニを食べてもいい。
 - 彼が日本に行けば、彼自身も視野が広がるだろう。
   * condition and consequence share the same subject; the result is natural or
-      non-volitional
+    non-volitional
   * condition and consequence share the same subject; the result is volitional
     + ❌日本に行けば、お土産を買います
     + ❌日本に行けば、お土産を買おう。
@@ -2697,6 +2704,9 @@ ____
 - 田中さんが窓を開ければ、あなたはエアコンを消してください。
   * condition and consequence do not share the same subject; a command as
     result is acceptable
+- 食事を減らせばあなたも痩せるんだろう。 (not-yet-relised condition)
+- もし私が彼の立場なら、やっばり同じように考えるだろう。 (not-yet-relised condition)
+- もし天気が悪ければ、試合は中止になるかもしれない。 (not-yet-relised condition)
 
 ### if (a casual/hypothetical relationship)
 
@@ -2705,6 +2715,7 @@ ____
   * a hypothetical condition
   * a determined condition
     + a condition does not happened yet but it is certain
+  * one time condition
 - (もし)急(いそ)いだら、8時の電車に間に合うでしょう。
 - (もし)この薬を飲んだら、せきはすぐとまると思います。
 - (もし)そんなにたくさん粽(ちまき)を食べたら、おなかを壊しますよ。
