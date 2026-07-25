@@ -49,7 +49,6 @@
     + [verb (transitive)](#verb-transitive)
     + [verb (intransitive)](#verb-intransitive)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive)
-    + [verb (direction intransitive)](#verb-direction-intransitive)
     + [expressions](#expressions)
   * [N4](#n4)
     + [particles](#particles-1)
@@ -258,7 +257,6 @@
     + [verb (transitive)](#verb-transitive-5)
     + [verb (intransitive)](#verb-intransitive-5)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-5)
-    + [verb (direction intransitive)](#verb-direction-intransitive-1)
     + [onomatopoeia](#onomatopoeia-4)
     + [expressions](#expressions-5)
 ____
@@ -352,7 +350,7 @@ ____
 - 詰まらない (つまらない) - boring
 - 冷たい (つめたい) - cold (to the touch or emotionally)
 - 強い (つよい) - strong
-- 辛い (つらい) - spicy
+- 辛い (からい) - spicy
 - 長い (ながい) - long
 - 早い (はやい) - early; fast; quick (also 速い)
 - 低い (ひくい) - low
@@ -922,9 +920,6 @@ ____
 - 飲む (のむ) - to drink
 - 話す (はなす) - to talk; to speak (a language)
 - 張る (はる) - to stick; to paste; to post (a link, etc. online); aka 貼る
-- 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
-  instrument) to catch (a cold); to look up (a word in a dictionary); to
-  subtract
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
 - 磨く (みがく) - to brush
 - 持つ (もつ) - to hold; to carry; to possess
@@ -938,10 +933,13 @@ ____
 - 遊ぶ (あそぶ) - to play (games, sports); to enjoy oneself; to have a good time
 - 有る (ある) - to exist (used for non-living things)
 - 歩く (あるく) - to walk
+- 行く (いく) - to go
 - 居る (いる) - to be (used for living things)
 - 要る (いる) - to be needed; to want
 - 泳ぐ (およぐ) - to swim
+- 帰る (かえる) - to return
 - 曇る (くもる) - to get cloudy
+- 来る (くる) - to come
 - 答える (こたえる) - to answer; to reply
 - 困る (こまる) - to be troubled; to have difficulty
 - 咲く (さく) - to bloom
@@ -964,8 +962,6 @@ ____
 - 走る (はしる) - to run; to drive; to sail
 - 働く (はたらく) - to work; to labour
 - 晴れる (はれる) - to be sunny
-- 引く (ひく) - to move back; to lessen; to resign; to be put off (by someone's
-  words or behaviour); aka 退く
 - 吹く (ふく) - to blow (wind)
 - 降る (ふる) - to fall (rain, snow)
 - 休む (やすむ) - to rest
@@ -976,12 +972,10 @@ ____
 - 歌う (うたう) - to sing
 - 為る (する) - to do; to wear
 - 待つ (まつ) - to wait
-
-### verb (direction intransitive)
-
-- 行く (いく) - to go
-- 帰る (かえる) - to return
-- 来る (くる) - to come
+- 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
+  instrument) to catch (a cold); to look up (a word in a dictionary); to
+  subtract; to move back; to lessen; to resign; to be put off (by someone's
+  words or behaviour); aka 退く
 
 ### expressions
 
@@ -1472,7 +1466,6 @@ ____
 
 - 上手い (うまい) - skillful; clever; tasty; delicious
 - 嬉しい (うれしい) - glad; pleased
-- 辛い (からい) - painful; bitter; heart-breaking; difficult (emotionally)
 - 素晴らしい (すばらしい) - wonderful
 - 違いない (ちがいない) - without a doubt; for sure; certainly
 - 辛い (つらい) - painful; tough; difficult (emotionally)
@@ -1484,7 +1477,7 @@ ____
 - 幸せ (しあわせ) - happiness; good fortune; luck; blessing
 - 新鮮 (しんせん) - fresh
 - 素敵 (すてき) - lovely; wonderful; nice
-- 邪魔 (じゃま) - disturbance; obstruction
+- 邪魔 (じゃま) - disturbance; obstruction; also as transitive する verb
 - たっぷり - full of; a lot of; plenty of
 - 退屈 (たいくつ) - boredom; tediousness; dullness; also as するverb
 - 駄目 (だめ) - no good
@@ -1722,7 +1715,6 @@ ____
 - 我慢 (がまん) - patience
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
 - 承認 (しょうにん) - approval; acknowledgment; consent
-- 邪魔 (じゃま) - hindrance; obstacle; interference; interruption; trouble
 - 準備 (じゅんび) - preparation; arrangements
 - 世話 (せわ) - care; looking after; help; support
 - 相談 (そうだん) - consultation; discussion; asking (someone) for advice
@@ -3023,8 +3015,6 @@ invite; to ride
 - バズる - to go viral (buzz)
 
 ### verb (transitive and intransitive)
-
-### verb (direction intransitive)
 
 ### onomatopoeia
 
