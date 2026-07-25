@@ -1533,7 +1533,7 @@ ____
 - 黒板 (こくばん) - blackboard
 - こと - thing; matter; aka 事
 - ころ - (approximate) time; aka 頃
-- 柄 (がら) - pattern
+- 柄 (がら) - pattern; body build
 - 桜 (さくら) - cherry blossom
 - 支払い (しはらい) - payment
 - 首相 (しゅしょう) - prime minister; chancellor
@@ -2113,6 +2113,8 @@ ____
 
 ### adjectives (な)
 
+- 大柄 (おおがら) - large build; large pattern
+- 小柄 (こがら) - small build; small stature; petite; small pattern
 - 的 (てき) - -ish; -wise; -like
 
 ### pronouns (person)
