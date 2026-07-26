@@ -1372,6 +1372,8 @@ ____
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 運ぶ (はこぶ) - to carry; to transport; to move
 - 払う (はらう) - to pay; to wipe away
+- 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
+  (a taxi);
 - 迎える (むかえる) - to welcome; to greet
 
 ### verb (intransitive)
@@ -1832,6 +1834,7 @@ ____
 
 ### verb (transitive and intransitive)
 
+- しゃべる - to talk; to chat; to chatter; aka 喋る
 - 閉じる (とじる) - close
 
 ### expressions
