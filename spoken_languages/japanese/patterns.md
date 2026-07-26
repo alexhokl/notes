@@ -2623,11 +2623,36 @@ ____
     + past tense for past habit
   * hypothetical situations
     + general condition is applied to a particular situation
-  * things that has not been happened yet and it is a state such as 雨が降れば
-    + it can be used to express normal conditions, wishes, intentions or guesses
-      for the speaker (and not for anyone else)
-      + requests are normally cannot be used with ば or なら
-        + exceptions are commands (due to its formality)
+  * intention of speaker if the condition is stative
+    + stative condition can be indicated by
+      + な-adjective
+      + い-adjective
+      + V + がある
+      + Vない
+  * intention of speaker if the verb is not stative and the subjects are
+    different
+  * commands and permission (due to its formality)
+    + stative condition is required and is indicated by
+      + ある
+      + Vない
+      + Vたい
+  * asking question for a binary answer
+  * asking question for the required condition to be met
+  * rhetorical question ends with のか, のだ or のだろう
+  * counterfactual condition
+    + the desired situation has not been realized or immpoosible to be realized
+    + usually ends with
+      + のに
+      + のだが
+      + だろう
+      + はずた
+      + ところだ
+      + Vた
+      + Vていた
+    + when past tense is used in results
+      + the usage cannot be replaced by たら
+  * introductory utterance
+  * suggestion or recommendation
 - slightly more formal than たら
   * used in more in written form
   * it is less used to express speaker's personal matters
@@ -2666,7 +2691,7 @@ ____
 - 危険だと思えば、すぐ逃げなさい。
 - 一生懸命練習すれば、上手になります。
 - 練習しなければ、上手になりません。
-- 天気が良ければ、行くつもりです。
+- 天気が良ければ、行くつもりです。 (state and intention)
 - 天気が良くなければ、行きません。
 - 日本語が上手なら、このアルバイトはできるでしょう。
 - 日本語が上手でなければ、このアルバイトはできないでしょう。
@@ -2698,15 +2723,59 @@ ____
   * condition and consequence share the same subject; the result is volitional
     + ❌日本に行けば、お土産を買います
     + ❌日本に行けば、お土産を買おう。
-- あなたが日本に行けば、私はうれしいです。
-  * condition and consequence do not share the same subject; a volitional result
-    is acceptable
-- 田中さんが窓を開ければ、あなたはエアコンを消してください。
-  * condition and consequence do not share the same subject; a command as
-    result is acceptable
-- 食事を減らせばあなたも痩せるんだろう。 (not-yet-relised condition)
-- もし私が彼の立場なら、やっばり同じように考えるだろう。 (not-yet-relised condition)
-- もし天気が悪ければ、試合は中止になるかもしれない。 (not-yet-relised condition)
+- 食事を減らせばあなたも痩せるんだろう。 (not-yet-relised result)
+- もし私が彼の立場なら、やっばり同じように考えるだろう。 (not-yet-relised result)
+- もし天気が悪ければ、試合は中止になるかもしれない。 (not-yet-relised result)
+- 手術をすれば助かるでしょう。 (not-yet-relised result)
+- こんなに安ければ、きっとたくさんおれると思う。 (not-yet-relised result)
+- それだけ成績が良ければ、どの大学にでも入学できるはずです。 (not-yet-relised
+  result)
+- 安ければ買うつもりです。 (state and intention)
+- 今度の日曜日、天気が良ければハイキングに行こうよ。 (state and intention)
+- 何か飲む。
+  * そうだな、ビールがあれば飲みたいな。 (state and intention)
+- レポートを提出しなければ、合格点はあげません。 (state and intention)
+- 田中さんが行かなければ、私も行かない。 (state and intention)
+- もし、今学期中にこの本を読み終えなければ、次にこの本を読みます。 (non-state
+and intention)
+  * ❌この本を読めば、次にこの本を読みます。 (seqeunce of events
+    cannot be used)
+  * ⭕️この本を読んだら、次にこの本を読みます。
+- やりたくなければやるな。 (command)
+- 宿題を済ませなければ遊びに行っては行けない。 (command)
+- 飲みたくなければ飲まなくれもいい。 (permission)
+- お時間があれば、も少しゆっくりしていってくださいよ。 (command)
+- 明日、天気が良ければ海に行きませんか。 (permission)
+- 七時までに仕事が終われば、来てください。 (command)
+- ❌駅に着けば迎えに来てください。 (change of state condition cannot be used
+  with command)
+  * ⭕️駅に着いたら迎えに来てください。
+- ❌お酒を飲めば運転するな。 (change of state condition cannot be used with command)
+  * ⭕️お酒を飲んだら運転するな。
+- 学生ならば、料金は安くなりますか。 (question)
+- この病気は手術をすれば治りますか。 (question)
+- どのぐらい入院すればよくなるでしょうか。 (question)
+- どこに行けばその本を見つけることができるでしょうか。 (question)
+- ❌雨が降ればどうしますか。 (non-binary question cannot be used)
+- いったいどういうふうに説明すれば分かってもらえるのか。 (rhetorical question)
+- 何年勉強すればあんなに上手に英語がしゃべれるようになるのだろう。 (rhetorical question)
+- どれだけ待てば、手紙は来るのか。 (rhetorical question)
+- 宿題がなければ熱休みはもっと楽しいのに。 (counterfactual condition)
+- お金があれば変えたんだが。 (counterfactual condition)
+- 発見がもう少し遅ければ助からなかったかもしれない。 (counterfactual condition)
+- もう少し若ければ、私が自分でいくところだ。 (counterfactual condition)
+- 安ければ買った。 (counterfactual condition)
+- ボタンを押せば、爆発した。- if I had pressed the button, it would have
+  exploded. (counterfactual condition)
+  * ボタンを推したら、爆発した。- when I pressed the button, it exploded. (actual event)
+- もし、お差し支えなければ、ご住所とお名前をお聞かせください。 (introductory utterance)
+- よろしければ、もう一杯いかがですか。 (introductory utterance)
+- これなんかどうかなあ。
+  * 着てみれば。 (suggestion or recommendation)
+- 昨夜から、すごく頭が痛いんだ。
+  * そんなに痛いの。会社休めば。 (suggestion or recommendation)
+- あ、これ間違ってる。
+  * 教えてあげれば。 (suggestion or recommendation)
 
 ### if (a casual/hypothetical relationship)
 
