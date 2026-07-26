@@ -456,6 +456,8 @@ ____
   * 気に障ったらすみません。 - I'm sorry if I offended you.
 - 気に留める(きにとめる) - to keep in mind; to pay attention to
   * 彼の言ったことを気に留めないで。 - Don't pay any mind to what he said.
+- 気をつける - to be careful; to pay attention
+  * 気をつけてください。 - Please be careful.
 
 # Patterns
 
