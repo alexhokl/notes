@@ -21,6 +21,7 @@
     + [たら](#%E3%81%9F%E3%82%89)
     + [ので](#%E3%81%AE%E3%81%A7)
     + [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
+    + [のに](#%E3%81%AE%E3%81%AB)
     + [ながら](#%E3%81%AA%E3%81%8C%E3%82%89)
     + [なら](#%E3%81%AA%E3%82%89)
   * [副助詞 adverbial particles](#%E5%89%AF%E5%8A%A9%E8%A9%9E-adverbial-particles)
@@ -37,8 +38,6 @@
     + [わ](#%E3%82%8F)
     + [よ](#%E3%82%88)
     + [よね](#%E3%82%88%E3%81%AD)
-  * [複合助詞 compound particles](#%E8%A4%87%E5%90%88%E5%8A%A9%E8%A9%9E-compound-particles)
-    + [のに](#%E3%81%AE%E3%81%AB)
 ____
 
 # Particles (助詞)
@@ -1283,6 +1282,56 @@ ____
     + もしもし。予約したいんです`けど`...。 - Hello. I'd like to make a
       reservation...
 
+### のに
+
+- a conjunctive particle
+- similar to "but" or "though"
+  * similar to けれど, けれども, けれ or ものの
+- to show that something has deviated from the expectation
+- it focuses on the unexpectedness of the situation and expresses surprise or
+  frustration
+- [conjugations of の](./conjugations.md#%E3%81%AE)
+  * noun + な + のに
+  * Na + な + のに
+  * A + のに
+  * V + のに
+- used in connecting sentences
+  * クーラーをつけた`のに`全然涼しくならなかった。
+  * レモンな`のに`すごく甘い。
+  * 静かな`のに`眠れない。
+- it could be just a simple combination of の and に
+  * which has nothing to do with のに
+  * 牛乳は私のに入れないでね。
+    + Don't put milk into mine.
+- for expressing surprises
+  * 海子ちゃんはまだ五才な`のに`三ヶ国語も喋れるんだって。
+  * 夜中の三時な`のに`、こんなに人がいる。
+- for complaint and frustration
+  * せっかく掃除した`のに`、すぐにまた汚くなった。
+    + せっかく or わざわざ is often used with it to emphasize the trouble the
+      speaker has been throguh
+  * あんなに勉強した`のに`、不合格だった。
+- used at the end of a sentence
+  * this usage expects the listener can undertand the unexpected things that was
+    not mentioned explicitly
+  * 夜中の三時な`のに`。
+  * あんなに勉強した`のに`。
+- for counterfactual wishes
+  * paired up with the conditional form たら and placed at the end of a sentence
+    + to express the wish or desire for things to be different from what they
+      are or were
+  * 電子レンジがあったら楽な`のに`。
+    + If we had a microwave, it would be easy, but.
+- for "on top of that"
+  * 夕飯をご馳走して頂いたのにタクシー代まで出して頂いて、ありがとうございます。
+    + Thank you for treating me to dinner, and on top of that, paying for the
+      cab.
+  * 田中さんは会社が倒産した`のに`泥棒にも入られて可哀想だ。
+- for purposes
+  * it has nothing to do with contradictions
+  * 海に行く`のに`水着を買った。
+    + For going to the beach, I bought swimwear.
+
 ### ながら
 
 - [Conjugations](./conjugations.md#%E3%81%AA%E3%81%8C%E3%82%89-although)
@@ -1989,56 +2038,3 @@ ____
     + そうだよね。数学は難しいよね。 - I agree. Math is difficult, huh?
     + 確かさっき鞄の中に入れたよね。 - You put it in your bag a little while
       ago, didn't you?
-
-## 複合助詞 compound particles
-
-### のに
-
-- a conjunctive particle
-- similar to "but" or "though"
-  * similar to けれど, けれども, けれ or ものの
-- to show that something has deviated from the expectation
-- it focuses on the unexpectedness of the situation and expresses surprise or
-  frustration
-- [conjugations of の](./conjugations.md#%E3%81%AE)
-  * noun + な + のに
-  * Na + な + のに
-  * A + のに
-  * V + のに
-- used in connecting sentences
-  * クーラーをつけた`のに`全然涼しくならなかった。
-  * レモンな`のに`すごく甘い。
-  * 静かな`のに`眠れない。
-- it could be just a simple combination of の and に
-  * which has nothing to do with のに
-  * 牛乳は私のに入れないでね。
-    + Don't put milk into mine.
-- for expressing surprises
-  * 海子ちゃんはまだ五才な`のに`三ヶ国語も喋れるんだって。
-  * 夜中の三時な`のに`、こんなに人がいる。
-- for complaint and frustration
-  * せっかく掃除した`のに`、すぐにまた汚くなった。
-    + せっかく or わざわざ is often used with it to emphasize the trouble the
-      speaker has been throguh
-  * あんなに勉強した`のに`、不合格だった。
-- used at the end of a sentence
-  * this usage expects the listener can undertand the unexpected things that was
-    not mentioned explicitly
-  * 夜中の三時な`のに`。
-  * あんなに勉強した`のに`。
-- for counterfactual wishes
-  * paired up with the conditional form たら and placed at the end of a sentence
-    + to express the wish or desire for things to be different from what they
-      are or were
-  * 電子レンジがあったら楽な`のに`。
-    + If we had a microwave, it would be easy, but.
-- for "on top of that"
-  * 夕飯をご馳走して頂いたのにタクシー代まで出して頂いて、ありがとうございます。
-    + Thank you for treating me to dinner, and on top of that, paying for the
-      cab.
-  * 田中さんは会社が倒産した`のに`泥棒にも入られて可哀想だ。
-- for purposes
-  * it has nothing to do with contradictions
-  * 海に行く`のに`水着を買った。
-    + For going to the beach, I bought swimwear.
-
