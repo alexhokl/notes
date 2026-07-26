@@ -1285,7 +1285,7 @@ ____
 ### のに
 
 - a conjunctive particle
-- similar to "but" or "though"
+- similar to "but" or "though" or "even though"
   * similar to けれど, けれども, けれ or ものの
 - to show that something has deviated from the expectation
 - it focuses on the unexpectedness of the situation and expresses surprise or
