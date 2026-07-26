@@ -1818,6 +1818,7 @@ ____
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 履く (はく) - to wear (lower body clothing, footwear)
 - 含む (ふくむ) - to include; to embrace
+- 減らす (へらす) - to abate; to decrease; to diminish; to shorten
 - 申し込む (もうしこむ) - to apply for
 - もらう - to receive (appreciatively); aka 貰う
 - 辞める (やめる) - to resign; to retire; to quit; to leave
@@ -2052,6 +2053,7 @@ ____
 - 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
   (e.g. an opportunity)
 - 拭く (ふく) - to wipe; to dry
+- 増やす (ふやす) - to increase; to add to; to augment; aka 殖やす
 - 干す (ほす) - to air; to dry; to hang dry
 
 ### verb (intransitive)
