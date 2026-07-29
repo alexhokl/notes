@@ -1816,6 +1816,7 @@ ____
 - しまう - to end up; to close (a business, etc); to put away; to store; aka 仕舞う
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
+- 進める (すすめる) - to advance; to move forward
 - 担当 (たんとう) - being in charge; being responsible
 - 願う (ねがう) - to wish; to hope; to request; to beg
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
