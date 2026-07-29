@@ -1027,6 +1027,7 @@ ____
 ### onomatopoeia
 
 - そろそろ - soon; slowly
+- どんどん - pounding; banging; rapidly; quickly; continuously
 
 ### adjectives (い)
 
@@ -1119,6 +1120,7 @@ ____
 - 女性 (じょせい) - female
 - 人口 (じんこう) - population
 - ため - sake; purpose; objective; aim; aka 為
+- 力 (ちから) - force; capability
 - 都合 (つごう) - convenience; circumstances
 - つもり - intention; plan; belief; estimate; aka 積もり
 - テニス - tennis
@@ -1451,7 +1453,7 @@ ____
 - ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
 - 突然 (とつぜん) - suddenly
-- なかなか - very; by no means; not readily
+- なかなか - very; by no means; not readily; aka 中々
 - のんびり - at leisure
 - 別に (べつに) - (not) particularly; (not) especially
 - まあ - well; I mean
@@ -2268,7 +2270,7 @@ ____
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 - 舐める (なめる) - to lick; to taste; to experience (hardship)
 - 控える (ひかえる) - to refrain
-- 見合わせる (みあわせる) - to exchange glances; to postpone
+- 見合わせる (みあわせる) - to exchange glances; to postpone; to compare
 - やる - to do; to send; to put; to move; to give (to someone of equal or
   lower status); aka 遣る
 - 予想 (よそう) - expectation; anticipation; prediction; forecast
@@ -3023,6 +3025,9 @@ invite; to ride
 - バズる - to go viral (buzz)
 
 ### verb (transitive and intransitive)
+
+- 見合う (みあう) - to look at each other; to correspond (to); to meet (a
+  requirement)
 
 ### onomatopoeia
 
