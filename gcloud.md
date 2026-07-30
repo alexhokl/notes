@@ -9,7 +9,6 @@
     + [Cloud SQL](#cloud-sql)
     + [IAM](#iam)
     + [Commitments](#commitments)
-  * [gsutil commands](#gsutil-commands)
     + [Bucket](#bucket)
   * [Concepts](#concepts)
     + [Service account](#service-account)
@@ -721,26 +720,18 @@ gcloud organization get-iam-policy your-organization-name
 gcloud compute commitments list
 ```
 
-## gsutil commands
-
 ### Bucket
 
 ##### To copy files recursively
 
 ```sh
-gsutil cp -R path/to/a/directory gs://$BUCKET_NAME
-```
-
-or, with multithreads,
-
-```sh
-gsutil -m cp -R path/to/a/directory gs://$BUCKET_NAME
+gcloud storage cp -R path/to/a/directory gs://$BUCKET_NAME
 ```
 
 ##### To create a bucket
 
 ```sh
-gsutil mb -l asia-east1 -c coldline gs://$BUCKET_NAME
+gcloud storage buckets create gs://$BUCKET_NAME --location=asia-east1 --default-storage-class=coldline
 ```
 
 ##### To serve a website from a bucket directly
@@ -751,7 +742,7 @@ Noie that it serves traffic in HTTP only (instead of HTTPS).
 ##### To list IAM member-role bindings
 
 ```sh
-gsutil iam get gs://$BUCKET_NAME
+gcloud storage buckets get-iam-policy gs://$BUCKET_NAME
 ```
 
 ##### To create a notification on Pub/Sub
