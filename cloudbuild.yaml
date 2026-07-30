@@ -20,7 +20,7 @@ steps:
       - /mnt/data/japanese_vocab.db
       - --overwrite
 
-  - name: "gcr.io/cloud-builders/gsutil"
+  - name: "gcr.io/cloud-builders/gcloud"
     id: Upload db
     waitFor: [Run parser]
     volumes:
@@ -31,4 +31,4 @@ steps:
       - -c
       - |
         set -euo pipefail
-        gsutil cp /mnt/data/japanese_vocab.db gs://alexhokl_public/japanese_vocab.db
+        gcloud storage cp /mnt/data/japanese_vocab.db gs://alexhokl_public/japanese_vocab.db
