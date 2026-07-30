@@ -359,6 +359,18 @@ gpg --with-keygrip --list-secret-keys $KEYID \
   | xargs -n 1 -I % rm "$CONFIG_DIR/private-keys-v1.d/%.key" 2> /dev/null
 ```
 
+> [!NOTE]
+> In case of git commit signing still trying to find the old key to sign, run
+> the following.
+>
+> ```sh
+> gpgconf --kill gpg-agent
+> gpg --card-status
+> ```
+>
+> `gpg --card-status` actually write some metadata to help finding the correct
+> key to sign.
+
 The secret key on the machine can be removed by
 
 ```sh
