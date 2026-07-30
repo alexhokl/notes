@@ -237,17 +237,46 @@ gpgconf --list-components | grep gpg-agent
 
 ### PINs
 
-The GPG interface is separate from other modules on a Yubikey such as the PIV
-interface. The GPG interface has its own PIN, Admin PIN, and Reset Code.
-
-Unblocking PIN, changing reset code, changing admin PIN should be available with
-the following steps.
+To reset admin PIN
 
 ```sh
-> gpg --card-edit
-> admin
-> passwd
+ykman openpgp access change-admin-pin
 ```
+
+To reset PIN
+
+```
+ykman openpgp access change-pin
+```
+
+Note that the deafult admin PIN is `12345678` and the default PIN is `123456`.
+
+To reset the admin PIN
+
+```sh
+ykman openpgp reset
+```
+
+To unblock the PIN using admin PIN
+
+```sh
+ykman openpgp access unblock-pin --admin-pin -
+```
+
+> [!NOTE]
+> This is old inforamtion.
+>
+> The GPG interface is separate from other modules on a Yubikey such as the PIV
+> interface. The GPG interface has its own PIN, Admin PIN, and Reset Code.
+>
+> Unblocking PIN, changing reset code, changing admin PIN should be available with
+> the following steps.
+>
+>```sh
+>> gpg --card-edit
+>> admin
+>> passwd
+>```
 
 Reference: [Change PIN in
 drduh/Yubikey-Guide](https://github.com/drduh/YubiKey-Guide?tab=readme-ov-file#change-pin)
@@ -295,7 +324,6 @@ are generated, the [master key](./gpg.md#to-export-private-key),
 
 ```sh
 gpg --export-secret-keys -a $KEYID > /mnt/encrypted-storage/key-$KEYID/mastersub.key
-gpg --export -a $KEYID > /mnt/encrypted-storage/key-$KEYID/pub.pem
 gpg --export -a $KEYID > $HOME/Desktop/pub.pem
 ```
 
