@@ -1400,6 +1400,7 @@ ____
 - 役に立つ (やくにたつ) - to be useful; to be helpful
 - 痩せる (やせる) - to lose weight
 - 止む (やむ) - to cease; to stop; to be over
+- 揺れる (ゆれる) - to shake
 - 別れる (わかれる) - to part(usually of people); to separate (of a couple); to
   break up
 - 笑う (わらう) - to laugh; to smile
