@@ -415,14 +415,28 @@ ssh-add -L
 The public keys can then be uploaded to various services and remote server
 machines.
 
-##### On a machine where Yubikey cannot be used
+#### Upload the public keys to GitHub
+
+```sh
+gh ssh-key add <(ssh-add -L) --title "yubikey $(ssh-add -L | tr -d '\n' | tail -c 3) - $(date +%Y)"
+gh gpg-key add <(gpg --export -a $KEYID) --title "yubikey-$(date +%Y)"
+```
+
+#### Upload the public keys to Bitbucket
+
+```sh
+bb create ssh-key < <(ssh-add -L) -l "yubikey $(ssh-add -L | tr -d '\n' | tail -c 3) - $(date +%Y)"
+bb create gpg-key < <(gpg --export -a $KEYID) -n "yubikey-$(date +%Y)"
+```
+
+#### On a machine where Yubikey cannot be used
 
 A set of subkeys will need to be generated for this machine. The procedures are
 the same a generating subkeys for a Yubikey. The trick is to import the secret
 subkeys exported in above steps, change the passphrase, and remove all
 non-relevant subkeys (that is, keeping only one set of subkeys).
 
-##### Tricks
+#### Tricks
 
 - In case an inserted Yubikey cannot be found, try open another terminal.
 
