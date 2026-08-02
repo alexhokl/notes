@@ -1562,6 +1562,7 @@ ____
 - 太陽 (たいよう) - sun
 - ただ - free of charge; only (adverb); but (conjunction)
 - 立場 (たちば) - position; situation; point of view
+- 知識 (ちしき) - knowledge; information
 - 調子 (ちょうし) - condition; state of health; tune
 - 月 (つき) - moon
 - 大統領 (だいとうりょう) - president
@@ -1834,6 +1835,7 @@ ____
 - かまう - to mind; to care about; to look after; aka 構う
 - 飛び出す (とびだす) - to jump out
 - 黙る (だまる) - to be silent; to say nothing
+- 悩む (なやむ) - to be worried; to be troubled
 - 酔う (よう) - to get drunk; to feel sick
 
 ### verb (transitive and intransitive)
@@ -1900,6 +1902,7 @@ ____
 - 後輩 (こうはい) - junior
 - 紅葉 (こうよう) - red leaves
 - 国立 (こくりつ) - national
+- 合流 (ごうりゅう) - confluence (of rivers); flowing together; joining
 - 原稿 (げんこう) - manuscript
 - 水素 (すいそ) - hydrogen
 - 西暦 (せいれき) - Western calendar
