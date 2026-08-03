@@ -1034,6 +1034,8 @@ ____
 - 美しい (うつくしい) - beautiful; pure
 - 固い (かたい) - hard; solid; aka 硬い, 堅い, 緊い
 - 悲しい (かなしい) - sad
+- 厳しい (きびしい) - strict; hard (to do); intense (e.g. cold); harsh
+  (weather); aka 酷しい
 - 怖い (こわい) - scary; frightening
 - 寂しい (さびしい) - lonely
 - すごい - amazing; wonderful; terrible; dreadful; aka 凄い
