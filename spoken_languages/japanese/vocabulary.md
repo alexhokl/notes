@@ -1842,6 +1842,7 @@ ____
 
 ### verb (transitive and intransitive)
 
+- 繰り返す (くりかえす) - to repeat; to do over again
 - しゃべる - to talk; to chat; to chatter; aka 喋る
 - 閉じる (とじる) - close
 
