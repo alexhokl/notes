@@ -2859,18 +2859,24 @@ and intention)
 ### given
 
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
-- used in giving response
-  * giving personal advice or information
-- usage is different from ば
-- plain form + なら
-- noun/nounだった + なら
-- Naだ + なら
-  * だ can be dropped if the adjective is present and affirmative
-- Naだった + なら
-- A/Aかった + なら
-- Vる/Vた + なら
-- A/Vる + のなら
-- A/Vる + んなら
+- usages
+  * used in giving response
+    + giving personal advice or information
+  * counter factual
+    + the usage is is different from たら or ば since the condition is realised
+      but not the result
+  * usage is different from ば
+- conjugations
+  * plain form + なら
+  * noun/nounだった + なら
+  * Naだ + なら
+    + だ can be dropped if the adjective is present and affirmative
+  * Naだった + なら
+  * A/Aかった + なら
+  * Vる/Vた + なら
+  * A/Vる + のなら (usually address to a specific opinion or situation suggested
+    by the listener)
+  * A/Vる + んなら
 - 来週京都へ行くつもりです。
   * 京都へ行くなら、新幹線が一番便利です。
 - ちょっと寒いよ。
@@ -2887,6 +2893,21 @@ and intention)
   * ⭕️スマホなら、キッチンのテーブルの上にあったよ。
   * ❌スマホなら、見なかったよ。
     + as there is not new knowledge shared
+- ⭕️何時なら都合がいいですか。
+  * ❌何時は都合がいいですか。
+- ⭕️誰となら結婚してもいいですか。
+  * ❌誰とは結婚してもいいですか。
+- ❌春が来るなら花が咲きます。 (general truth canno be used)
+  * ⭕️春が来たら、花が咲きます。
+  * ⭕️春が来れば、花が咲くでしょう。
+  * ⭕️春が来ると、花が咲きます。
+- ❌雨が降るなら道がぬかります。 (general truth canno be used)
+  * ⭕️雨が降ったら、道がぬかります。
+  * ⭕️雨が降れば、道がぬかります。
+  * ⭕️雨が降ると、道がぬかります。
+- 電話をくれるのなら、もう少し早い時間に電話して欲しかった。 (counter factual)
+- 神戸に来ていたのなら、電話してくれれば良かったのに。 (counter factual)
+- 結婚式に出席するのなら黒いスーツを買うにだが。 (counter factual)
 
 ### positive advice
 
