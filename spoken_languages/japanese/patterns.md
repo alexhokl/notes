@@ -2747,10 +2747,10 @@ and intention)
 - お時間があれば、も少しゆっくりしていってくださいよ。 (command)
 - 明日、天気が良ければ海に行きませんか。 (permission)
 - 七時までに仕事が終われば、来てください。 (command)
-- ❌駅に着けば迎えに来てください。 (change of state condition cannot be used
+- ❌駅に着けば迎えに来てください。 (change of state (or action) condition cannot be used
   with command)
   * ⭕️駅に着いたら迎えに来てください。
-- ❌お酒を飲めば運転するな。 (change of state condition cannot be used with command)
+- ❌お酒を飲めば運転するな。 (change of state (or action) condition cannot be used with command)
   * ⭕️お酒を飲んだら運転するな。
 - 学生ならば、料金は安くなりますか。 (question)
 - この病気は手術をすれば治りますか。 (question)
@@ -2781,10 +2781,21 @@ and intention)
 
 - [たら](./particles.md#%E3%81%9F%E3%82%89)
 - used to describe
+  * a particular isolated matter rather than a general condition
+    + general condition is only used in spoken language
+  * when
+    + the condition is realized
+    + indicated by a result in past tense
+    + the result has to be a discovery rather an action by the speaker
   * a hypothetical condition
   * a determined condition
     + a condition does not happened yet but it is certain
-  * one time condition
+  * introductory utterance
+  * suggestion or recommendation
+    + どうか in たらどうか is omitted
+    + although ば can be used, たら is give a more personal nuance
+- used more in spoken language
+- polite form such as N/Naでしたら, Vましたら can be used
 - (もし)急(いそ)いだら、8時の電車に間に合うでしょう。
 - (もし)この薬を飲んだら、せきはすぐとまると思います。
 - (もし)そんなにたくさん粽(ちまき)を食べたら、おなかを壊しますよ。
@@ -2812,15 +2823,38 @@ and intention)
 - お寿司が好きでなかったら、サンドイッチを持ってきます。
 - 明日いい天気だったら、散歩に行きませんか。
 - 明日いい天気でなかったら、部屋で音楽を聴きましょう。
-- ❌海外旅行に行ったら、旅行保険に行った方がいいですよ。
+- ❌海外旅行に行ったら、旅行保険に入った方がいいですよ。
   * the result (buying insurance) has to be happened before the condition
     (travel)
   * ⭕️海外旅行に行くなら、旅行保険に行った方がいいですよ。
-
-### when
-
-- ... + なったら、 + ...
-- 夏休みになったら、国へ帰るつもりです。
+- 夏休みになったら、国へ帰るつもりです。 (when)
+- ❌結婚すれば仕事を辞めたい。 (change of state (or action) condition cannot be used with intention)
+  * ⭕️結婚したら仕事を辞めたい。
+- ❌お風呂に入ればすぐ寝なさい。 (change of state (or action) condition cannot be used with command)
+  * ⭕️お風呂に入ればすぐ寝なさい。
+- 社長はただ今出かけておりますが。
+  * 何時頃出したらお帰りでしょか。
+- どうのぐらい勉強したら日本語の新聞が読めるようになりますか？
+- ❌大学を卒業すればどうしますか。
+  * ⭕️大学を卒業したらどうしますか。
+- 何度言ったらわかるんだ。
+- 何回繰り返すしたら覚えるのか。
+- あの時彼と結婚していたら、私の人生は幸せだったはずだ。 (counter factual)
+- 点数が10点高かったらこの大学に合格できるんだけど。 (counter factual)
+- 空港に着いたら友達が迎えに来ていた。 (when; a discovery rather than an action by the speaker)
+- お風呂に入っていたら、電話がかかってきた。 (when)
+- 五月に入ったら急に暑くなった。 (when)
+- 薬を飲んだら熱が下がった。 (when)
+- ❌隣の部屋に行ったら、私はわずみを見た。 (it is an action by speaker rather than a discovery)
+  * ⭕️隣の部屋に行ったら、わずみを見た。 (when)
+- ❌男は部屋に入ったら友達に電話した。 (it is not related to a discovery of speaker)
+  * ⭕️男は部屋に入ると友達に電話した。
+- もし差し支えなかったら事情を聞かせてください。 (introductory utterance)
+- よろしかったら、もう一度お電話くださいませんか。 (introductory utterance)
+- 良かったら、週末、家にいらっしゃいませんか。 (introductory utterance)
+- 立って見てないで、ちょっと手伝ってあげたら。 (suggestion or recommendation)
+- 危ないから辞めといたら。 (suggestion or recommendation)
+- こんなに疲れているなら、少し休んだら。 (suggestion or recommendation)
 
 ### given
 
