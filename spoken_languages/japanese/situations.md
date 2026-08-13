@@ -43,8 +43,18 @@
     + [Chopsticks](#chopsticks)
     + [Receipt](#receipt)
     + [Cigarettes](#cigarettes)
+  * [Clothing store](#clothing-store)
+    + [Check for size](#check-for-size)
+    + [To try on](#to-try-on)
+    + [To check price](#to-check-price)
+  * [Department store](#department-store)
+    + [Point cards](#point-cards)
+    + [Similar products](#similar-products)
+  * [Haircut](#haircut)
+    + [To ask for a skin fade with no sideburns](#to-ask-for-a-skin-fade-with-no-sideburns)
   * [Common conversations](#common-conversations)
     + [To ask for a repeat](#to-ask-for-a-repeat)
+    + [Meet for the first time](#meet-for-the-first-time)
 ____
 
 # Situations
@@ -372,4 +382,9 @@ ____
 
 - ゆっくり話してください
 - ゆっくりお願いします
+
+### Meet for the first time
+
+- 初めまして。私はアレックスです。よろしくお願いします。
+  * 山田です。こちらこそ、どうぞよろしくお願いします。
 
