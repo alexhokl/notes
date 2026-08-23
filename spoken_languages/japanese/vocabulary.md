@@ -615,6 +615,7 @@ ____
 
 - アパート - apartment
 - 池 (いけ) - pond
+- 入り口 (いりぐち) - entrance
 - 映画館 (えいがかん) - cinema
 - お手洗い (おてあらい) - restroom
 - 喫茶店 (きっさてん) - teahouse
@@ -1913,6 +1914,7 @@ ____
 - たんす - chest of drawers; aka 箪笥
 - 定期券 (ていきけん) - commuter pass
 - 手続き (てつづき) - procedure; formalities
+- テーマ - theme; topic
 - 大学院 (だいがくいん) - graduate school
 - 中身 (なかみ) - contents; interior; inside
 - 虹 (にじ) - rainbow
@@ -2624,6 +2626,7 @@ ____
 
 ### nouns (location)
 
+- 穴場 (あなば) - hidden gem of a place
 - エベレスト - (Mount) Everest
 - 喫煙所 (きつえんじょ) - smoking area
 - コインランドリー - coin laundry
