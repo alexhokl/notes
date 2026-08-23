@@ -55,6 +55,8 @@
   * [Common conversations](#common-conversations)
     + [To ask for a repeat](#to-ask-for-a-repeat)
     + [Meet for the first time](#meet-for-the-first-time)
+    + [You are welcome (Don't mention it)](#you-are-welcome-don%27t-mention-it)
+    + [Not sure](#not-sure)
 ____
 
 # Situations
@@ -380,11 +382,22 @@ ____
 
 ### To ask for a repeat
 
-- ゆっくり話してください
-- ゆっくりお願いします
+- ゆっくり話してください。
+- ゆっくりお願いします。
+- もう一度いいですか。
 
 ### Meet for the first time
 
 - 初めまして。私はアレックスです。よろしくお願いします。
   * 初めまして。山田です。こちらこそ、どうぞよろしくお願いします。
 
+### You are welcome (Don't mention it)
+
+- ありがとうございます。
+  * どういたしまして。 (Don't mention it)
+
+### Not sure
+
+- すみません。この辺には、コンビニはありますか。
+  * さあ、ちょっとわかりません。
+    + じゃ、いいです。ありがとうございます。
