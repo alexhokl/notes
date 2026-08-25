@@ -28,6 +28,8 @@ ____
 - [Chainguard images](https://www.chainguard.dev/chainguard-images)
 - [HEALTHCHECK implementation
   references](https://github.com/docker-library/healthcheck)
+- [docker buildx bake](https://docs.docker.com/build/bake/) allows specifying
+  CLI build options in a file
 
 ## Troubleshoot
 
