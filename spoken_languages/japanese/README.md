@@ -53,7 +53,6 @@ ____
 - [Keyboard](./keyboard.md)
 - [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
-- [WHAT IS けど ?](https://www.tofugu.com/japanese/kedo/)
 - [Kana quiz](https://kana-quiz.tofugu.com/)
 - [Conjugation practice](https://baileysnyder.com/jconj/)
 - [Japanese Conjunction
@@ -62,6 +61,7 @@ ____
   especially useful in checking verb forms
 - [Learn Japanese: A Ridiculous detailed
   guide](https://www.tofugu.com/learn-japanese/) - contains steps to learn
+- [The Japanese Grammar Index (Tofugu)](https://www.tofugu.com/japanese-grammar/)
 - [NHK World Easy Japanese](https://www.nhk.or.jp/lesson/en/lessons/) - lessons
 - [NHK やさしいことばニュース](https://news.web.nhk/news/easy/) - news in easy
   Japanese words
