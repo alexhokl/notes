@@ -1,5 +1,6 @@
 - [Large Language Models (LLMs)](#large-language-models-llms)
   * [Links](#links)
+  * [Skills](#skills)
   * [Ollama](#ollama)
     + [Characteristics](#characteristics)
     + [Commands](#commands)
@@ -32,6 +33,15 @@ ____
 - [alexhokl/ollama-image](https://github.com/alexhokl/ollama-image)
 - [llm-ollama](https://github.com/taketwo/llm-ollama) - a plugin for Python
   program `llm` to interact with Ollama
+
+## Skills
+
+- [The Agent Skills Directory](https://skills.sh/)
+- [Agent Skills Marketplace - Claude, Codex & ChatGPT Skills | SkillsMP](https://skillsmp.com/)
+- [google/skills: Agent Skills for Google products](https://github.com/google/skills/tree/main)
+- [flutter/skills](https://github.com/flutter/skills)
+- [dart-lang/skills](https://github.com/dart-lang/skills)
+- [google-ai-edge gallery skills README](https://github.com/google-ai-edge/gallery/blob/main/skills%2FREADME.md)
 
 ## Ollama
 
