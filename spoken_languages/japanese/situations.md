@@ -52,6 +52,7 @@
     + [Similar products](#similar-products)
   * [Haircut](#haircut)
     + [To ask for a skin fade with no sideburns](#to-ask-for-a-skin-fade-with-no-sideburns)
+  * [Ask for directions to a location](#ask-for-directions-to-a-location)
   * [Common conversations](#common-conversations)
     + [To ask for a repeat](#to-ask-for-a-repeat)
     + [Meet for the first time](#meet-for-the-first-time)
@@ -377,6 +378,17 @@ ____
 ### To ask for a skin fade with no sideburns
 
 - スキンフェードのミドルでお願いします。もみあげは無しで。
+
+## Ask for directions to a location
+
+- すみません。郵便局に行きたいんですが…
+  * あの公園の左ですよ。
+  * あの公園の近くですよ。
+  * あの公園のまっすぐですよ。
+  * あの公園のあっちですよ。
+    + 近いですか。
+      + はい、近いですよ。
+      + いいえ、ちょっと遠いですよ。
 
 ## Common conversations
 
