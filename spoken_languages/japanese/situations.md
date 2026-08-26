@@ -50,6 +50,9 @@
   * [Department store](#department-store)
     + [Point cards](#point-cards)
     + [Similar products](#similar-products)
+    + [no such product](#no-such-product)
+    + [Asking for a cheaper product](#asking-for-a-cheaper-product)
+    + [Asking for a small product](#asking-for-a-small-product)
   * [Haircut](#haircut)
     + [To ask for a skin fade with no sideburns](#to-ask-for-a-skin-fade-with-no-sideburns)
   * [Ask for directions to a location](#ask-for-directions-to-a-location)
@@ -88,6 +91,12 @@ ____
   * 私はマルゲリータピザをお願いします。
     + かしこまりました。
 
+- ご注文はお決まりですか。
+  * はい、ハンバーグをください。
+    + 以上よろしいですか。
+      + はい、以上です。
+        + かしこまりました。
+
 ### Ordering drinks
 
 - お飲み物はいかがですか。
@@ -105,6 +114,11 @@ ____
   * はい。
     + 水をください。
       + はい。
+
+- すみません。
+  * はい。
+    + これと同じものをもう一つください。
+      + かしこまりました。
 
 ### After meal
 
@@ -372,6 +386,23 @@ ____
 ### Similar products
 
 - 似ている商品はありますか？
+
+### no such product
+
+- すみません。傘はありますか。
+  * 申(もう)し訳(わけ)ありません。傘はないんです。
+    + わかりました。ありがとうございます。
+
+### Asking for a cheaper product
+
+- すみません。もうちょっと安いのはありませんか。
+  * こちらはいかがですか。(how about this one?)
+
+### Asking for a small product
+
+- すみません。もうちょっと小さいのはありませんか。
+  * すみません。これだけなんです。
+    + どうですか。じゃあ、ちょっと考えます。
 
 ## Haircut
 
