@@ -285,6 +285,10 @@ ____
 - 然らば (さらば) - farewell; goodbye; if so; in that case
 - ゆっくりで大丈夫ですよ - take your time. it's okay.
 - ゆっくりしてください - please take your time
+- そうですね。
+  * agreement
+  * let me see (just a delay to prevent dead air in conversation)
+  * a sign of actively listening
 
 ## Signs
 
