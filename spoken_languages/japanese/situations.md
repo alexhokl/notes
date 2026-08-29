@@ -68,9 +68,11 @@
     + [To ask for a repeat](#to-ask-for-a-repeat)
     + [Meet for the first time](#meet-for-the-first-time)
     + [You are welcome (Don't mention it)](#you-are-welcome-don%27t-mention-it)
+    + [Say goodbye at work place](#say-goodbye-at-work-place)
     + [Not sure](#not-sure)
     + [How long it takes](#how-long-it-takes)
     + [How much it costs](#how-much-it-costs)
+    + [When](#when)
 ____
 
 # Situations
@@ -530,6 +532,10 @@ ____
 - ありがとうございます。
   * どういたしまして。 (Don't mention it)
 
+### Say goodbye at work place
+
+- お疲れ様です。
+
 ### Not sure
 
 - すみません。この辺には、コンビニはありますか。
@@ -545,3 +551,7 @@ ____
 
 - バスでいくらかかりますか。
   * 200円ぐらいです。
+
+### When
+
+- いつ日本に来ましたが。
