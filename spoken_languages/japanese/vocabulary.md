@@ -3085,6 +3085,7 @@ invite; to ride
 - 授業に遅れる (じゅぎょうにおくれる) - to be late for class
 - ただいま - I'm home
 - ちゃった - finished doing; did completely
+- ちょっと来て - come here for a moment
 - 手を挙げる (てをあげる) - to raise one's hand
 - だけでなく - not only; not just; as well as
 - だろう - seems
