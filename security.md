@@ -40,6 +40,10 @@
 - [RBAC](#rbac)
 - [Front-end](#front-end)
 - [FIDO](#fido)
+- [Cross-site request forgery (CSRF) protection](#cross-site-request-forgery-csrf-protection)
+  * [Traditional approach](#traditional-approach)
+  * [Modern approach (2023)](#modern-approach-2023)
+    + [References](#references)
 - [Architecture](#architecture)
   * [principles](#principles)
   * [anti-patterns](#anti-patterns)
@@ -656,6 +660,56 @@ House](https://twitter.com/housecor/status/1558845973018906624)
 
 - [FIDO Promises a Life Without
   Passwords](https://www.youtube.com/watch?v=lRFeuSH9t44)
+
+# Cross-site request forgery (CSRF) protection
+
+## Traditional approach
+
+When server renders a form, it generates a random token and stores as a cookie
+and a value in a hidden field. When the form is submitted, the server checks
+that the token in the hidden field matches the cookie.
+
+This has a drawback that every form rendered requires a token and it creates
+more work to implement.
+
+## Modern approach (2023)
+
+Modern browsers include a request header `Sec-Fetch-Site` which can be used to
+determine if the request is same-origin or cross-origin (combined with `Origin`
+header).
+
+The possible values of the header are
+
+- `cross-site`
+  * `https://app.example.com/` => `https://evil.com/`
+  * `https://app.example.com/a/` => `http://app.example.com/b/` (different scheme)
+- `same-origin` - scheme, host and port are the same
+  * `https://app.example.com/a/` => `https://app.example.com/b/`
+- `same-site` - same scheme same registrable domain
+  * `https://app.example.com/` => `https://api.example.com/`
+  * `https://example.com/` => `https://example.com:8443/` (port is ignored)
+- `none` - the request is directly user-initiated (e.g. typed in the address
+  bar, opened a bookmark, drag-and-drop), not triggered by a page
+
+In process of the request on server side, if the header value is `same-origin`
+or `none`, the request is considered safe. For `cross-site`, the request is
+considered unsafe and should be rejected. For `same-site`, it is up to the
+server to decide if it is safe or not. Server can choose to
+- accept `same-site`,
+- reject `same-site`, or
+- check `Origin` header to determine if the request is cross-origin
+
+If no `Sec-Fetch-Site` header is present, the server will check the `Origin`
+header to determine if the request is cross-origin. Note that the `Origin`
+header may be absent (e.g. same-origin GET navigations do not include it), so
+the server should fall back to `Referer` or treat requests with no `Origin`
+header as safe. Alternatively (web.dev approach), the server can allow requests
+without Fetch Metadata headers for compatibility with older browsers.
+
+### References
+
+- [Fetch Metadata Request Headers spec § 2.3](https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-site-header),
+- [Protect your resources from web attacks with Fetch Metadata (web.dev)](https://web.dev/articles/fetch-metadata)
 
 # Architecture
 
