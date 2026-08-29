@@ -1,10 +1,15 @@
 - [Situations](#situations)
   * [Restaurant](#restaurant)
     + [Entering](#entering)
+    + [Asking if no reservation is acceptable](#asking-if-no-reservation-is-acceptable)
+    + [Wait for a table](#wait-for-a-table)
+    + [Table type](#table-type)
     + [Handed the menu](#handed-the-menu)
     + [Reading menu](#reading-menu)
     + [Ordering](#ordering)
+    + [Contains a kind of food](#contains-a-kind-of-food)
     + [Ordering drinks](#ordering-drinks)
+    + [Excluding something](#excluding-something)
     + [Dish arrives](#dish-arrives)
     + [Additional orders](#additional-orders)
     + [After meal](#after-meal)
@@ -14,6 +19,7 @@
     + [Ordering drinks](#ordering-drinks-1)
     + [Ordering food](#ordering-food)
     + [Additional orders](#additional-orders-1)
+    + [Change seat](#change-seat)
     + [Paying](#paying-1)
   * [博多屋台(やたい)](#%E5%8D%9A%E5%A4%9A%E5%B1%8B%E5%8F%B0%E3%82%84%E3%81%9F%E3%81%84)
     + [Entering](#entering-2)
@@ -26,6 +32,7 @@
     + [Entering](#entering-3)
     + [Ordering](#ordering-1)
     + [Paying](#paying-3)
+  * [Fast food](#fast-food)
   * [Starbucks スターバックス](#starbucks-%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9)
     + [Entering](#entering-4)
     + [Ordering](#ordering-2)
@@ -56,11 +63,14 @@
   * [Haircut](#haircut)
     + [To ask for a skin fade with no sideburns](#to-ask-for-a-skin-fade-with-no-sideburns)
   * [Ask for directions to a location](#ask-for-directions-to-a-location)
+  * [Taxi](#taxi)
   * [Common conversations](#common-conversations)
     + [To ask for a repeat](#to-ask-for-a-repeat)
     + [Meet for the first time](#meet-for-the-first-time)
     + [You are welcome (Don't mention it)](#you-are-welcome-don%27t-mention-it)
     + [Not sure](#not-sure)
+    + [How long it takes](#how-long-it-takes)
+    + [How much it costs](#how-much-it-costs)
 ____
 
 # Situations
@@ -70,8 +80,27 @@ ____
 ### Entering
 
 - いらっしゃいませ。何名様ですか。
-  * 二人です。
+  * ひとりです。
+  * ふたりです。
+  * さん人です。
     + こちらへどうぞ。
+
+### Asking if no reservation is acceptable
+
+- すみません。予約なしでいいですか。
+- すみません。予約していないんですが、大丈夫でしょうか。
+
+### Wait for a table
+
+- すみません。ただいま満席です。
+  * どのくらい待ちますか？
+    + 十五分ぐらいです。
+
+### Table type
+
+- テーブル席とカウンター席がございますか。
+  * テーブル席、お願いします。
+  * カウンター席、お願いします。
 
 ### Handed the menu
 
@@ -97,11 +126,22 @@ ____
       + はい、以上です。
         + かしこまりました。
 
+### Contains a kind of food
+
+- これは肉入ってますか？
+  * はい、入ってます。
+  * いいえ、入ってません。
+
 ### Ordering drinks
 
 - お飲み物はいかがですか。
   * アイスコーヒーをください。
   * オレンジジュースをお願いします。
+
+### Excluding something
+
+- 砂糖はいらないです。
+- 玉葱(たまねぎ)抜(ぬ)きで、お願いします。
 
 ### Dish arrives
 
@@ -132,6 +172,15 @@ ____
     + 全部で2500円です。
       + クレジットカードで払(はら)います。
 
+- すみません。お会計、お願いします。
+  * お会計はご一緒でよろしいですか。
+    + はい、一緒で。
+    + いいえ、別々(べつべつ)で。
+
+- すみません。カードでいいですか。
+  * ええ、大丈夫ですよ。
+  * 申(も)し訳(わけ)ありませんが、ちょっと...
+
 ## Izakaya 居酒屋(いざかや)
 
 ### Entering
@@ -161,6 +210,11 @@ ____
   * はい。
     + レモンサワーを一つください。
       + かしこまりました。
+
+### Change seat
+
+- すみません。席を変えてもらませんか。
+  * はい、どうぞ。
 
 ### Paying
 
@@ -250,6 +304,13 @@ ____
   * クレジットカードで払います。
     + ありがとうございます。お待(ま)たせしました。ビッグマックセットお客様。
       + ありがとうございます。
+
+## Fast food
+
+- いらっしゃいませ。こちらでお召(め)し上(あ)がりですか。
+  * はい、ここで。
+  * いいえ、持ち帰りでお願いします。
+
 
 ## Starbucks スターバックス
 
@@ -421,6 +482,35 @@ ____
       + はい、近いですよ。
       + いいえ、ちょっと遠いですよ。
 
+- 角(かど)を左(ひだり)に曲(ま)がって (turn left at the corner)
+- 信号を右に曲がって (turn right at the traffic light)
+- もうちょっとまっすぐ行って (go straight a little more)
+- その道を渡(わた)って (cross that street)
+
+- 新宿までどうやって行けばいいですか。
+  * 山手線で一本ですよ。
+  * 総武線に乗(の)って、秋葉原で山手線に乗(の)り換(か)えですよ。
+    + ありがとうございます。
+
+## Taxi
+
+- どちらまでですか。
+  * 梅田駅の近くまでお願いします。
+    + かしこまりました。
+      + approaching the destination
+        + この辺ですか。
+          + もうちょっと真っ直ぐください。あ、そのバス停です。そこで止めてください。
+
+- どちらまでですか。
+  * 梅田駅の近くまでお願いします。
+    + ご希望(きぼう)のルートがございますか。
+      + いいえ、お任せします。
+      + でも、高速(こうそく)は使わないでください。
+        + かしこまりました。
+          + approaching the destination
+            + この辺ですか。
+              + 駅の前で、止めてください。
+
 ## Common conversations
 
 ### To ask for a repeat
@@ -428,6 +518,7 @@ ____
 - ゆっくり話してください。
 - ゆっくりお願いします。
 - もう一度いいですか。
+- すみません。もうちょっとゆっくり話してもらえませんか。
 
 ### Meet for the first time
 
@@ -444,3 +535,13 @@ ____
 - すみません。この辺には、コンビニはありますか。
   * さあ、ちょっとわかりません。
     + じゃ、いいです。ありがとうございます。
+
+### How long it takes
+
+- バスでどのくらいかかりますか。
+  * 30分ぐらいです。
+
+### How much it costs
+
+- バスでいくらかかりますか。
+  * 200円ぐらいです。
