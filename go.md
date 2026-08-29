@@ -76,6 +76,7 @@
     + [Multiline string](#multiline-string)
     + [Vendoring](#vendoring)
     + [JSON marshalling](#json-marshalling)
+    + [JSON unmarshalling](#json-unmarshalling)
     + [Protobuf](#protobuf-1)
     + [WebAssembly (Wasm)](#webassembly-wasm)
   * [Charm](#charm)
@@ -2698,6 +2699,49 @@ pulling packages from the internet during the build process.
   will be initialised with its default value
   * an exception is with embbedded struct where all the fields are considered as
     exported and, thus, those embedded fields will be marshalled
+
+### JSON unmarshalling
+
+#### `encoding/json` package
+
+Keys are not case sensitive.
+
+```go
+type Thing struct {
+  ID int `json:"id"`
+}
+
+s = strings.NewReader(`{"ID": 5}"`)
+err = jsonv2.UnmarshalRead(s, &t, jsonv2.MatchCaseInsensitiveNames(true))
+fmt.Printf("ID: %d\n", t.ID)  // prints "ID: 5"
+```
+
+Keys can be duplicated.
+
+```go
+type Thing struct {
+  ID int `json:"id"`
+}
+var t Thing
+s := strings.NewReader(`{
+  "id": 1,
+  "id": 99}
+`)
+err := json.NewDecoder(s).Decode(&t)
+if err != nil { ... }
+fmt.Printf("ID: %d\n", t.ID) // prints "ID: 99"
+```
+
+#### `encoding/json/v2` package
+
+To keep the old behaviours of version 1 described above
+
+```go
+err = jsonv2.UnmarshalRead(s, &t,
+	jsonv2.MatchCaseInsensitiveNames(true),
+	jsontext.AllowDuplicateNames(true),
+)
+```
 
 ### Protobuf
 
