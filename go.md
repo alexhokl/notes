@@ -1002,6 +1002,27 @@ func notify(services ...string) {
 }
 ```
 
+or a newer syntax (version `1.25`)
+
+```go
+func notify(services ...string) {
+  var wg sync.WaitGroup
+
+  for _, service := range services {
+    wg.Go(func() {
+      fmt.Printf("Starting to notifing %s...\n", service)
+      time.Sleep(time.Duration(rand.Intn(3)) * time.Second)
+      fmt.Printf("Finished notifying %s...\n", service)
+    })
+  }
+  wg.Wait()
+  fmt.Println("All services notified!")
+}
+```
+
+- command `go vet` can be used to check for common mistakes such as forgetting
+  to call `wg.Add(1)` before `go func()`.
+
 ### Channels
 
 ```go
