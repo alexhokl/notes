@@ -144,6 +144,7 @@
     + [nouns (position)](#nouns-position-3)
     + [nouns (time)](#nouns-time-3)
     + [nouns (food)](#nouns-food-3)
+    + [nouns (seafood)](#nouns-seafood-1)
     + [nouns (fruits)](#nouns-fruits-3)
     + [nouns (drinks)](#nouns-drinks-3)
     + [nouns (location)](#nouns-location-3)
@@ -222,7 +223,7 @@
     + [nouns (time)](#nouns-time-5)
     + [nouns (food)](#nouns-food-5)
     + [nouns (fish)](#nouns-fish-1)
-    + [nouns (seafood)](#nouns-seafood-1)
+    + [nouns (seafood)](#nouns-seafood-2)
     + [nouns (vegetables)](#nouns-vegetables-1)
     + [nouns (fruits)](#nouns-fruits-5)
     + [nouns (drinks)](#nouns-drinks-5)
@@ -379,6 +380,7 @@ ____
 - 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
   also as adverb) quite
 - 元気 (げんき) - healthy; lively
+- 順調 (じゅんちょう) - doing well
 - 静か (しずか) - quiet
 - 好き (すき) - like
 - 上手 (じょうず) - skillful; good (at)
@@ -1380,6 +1382,7 @@ ____
 - 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
   (a taxi);
 - 迎える (むかえる) - to welcome; to greet
+- 焼く (やく) - to burn; to roast; to grill; to bake; to barbecue; to heat
 
 ### verb (intransitive)
 
@@ -1443,6 +1446,7 @@ ____
 - かなり - considerably; quite; fairly; pretty
 - 急に (きゅうに) - switfly; suddenly; abruptly
 - こんなに - this much
+- さっぱり - feeling refreshed; (of food) light
 - 少々 (しょうしょう) - a little
 - すで - already
 - すでに - already; previously; before; undeniably; aka 既に
@@ -1716,6 +1720,7 @@ ____
 - 依頼 (いらい) - request; commission; entrusting (with a matter)
 - おしゃべり - chattering; talk; chitchat; gossip; aka お喋り
 - 観光 (かんこう) - sightseeing
+- 記入 (きにゅう) - entry (in a form, register, diary, etc.); filling in;
 - 許可 (きょか) - permission; approval
 - 禁止 (きんし) - prohibition; ban
 - 計画 (けいかく) - plan; project; schedule
@@ -1868,6 +1873,7 @@ ____
 - いよいよ - more and more; all the more; aka 愈々
 - さすが - as one would expect; aka 流石
 - たちまち - in an instant; right away; aka 忽ち
+- まあまあ - so-so; passable; not (so) bad
 - もしかしたら - perhaps
 
 ### onomatopoeia
@@ -1877,6 +1883,8 @@ ____
 ### adjectives (い)
 
 - 羨ましい (うらやましい) - envious; jealous
+- 酸っぱい (すっぱい) - sour; acid
+- 蒸し暑い (むしあつい) - humid and hot
 - めんどうくさい - bothersome; annoying; aka 面倒くさい
 - もったいない - wasteful; too good; more than one deserves; a waste
   (usually people leaving a place and do not want to keep the item); aka 勿体ない
@@ -1954,6 +1962,10 @@ ____
 
 - 刺身 (さしみ) - sashimi
 - 汁 (しる) - soup; juice; broth
+
+### nouns (seafood)
+
+- 貝 (かい) - shellfish; seashell; shell
 
 ### nouns (fruits)
 
@@ -2084,6 +2096,7 @@ ____
 ### verb (transitive and intransitive)
 
 - 思いつく (おもいつく) - to think of; to remember; to recall
+- 蒸す (むす) - to steam (food, towel, etc.)
 
 ### expressions
 
@@ -2195,11 +2208,14 @@ ____
 ### nouns (food)
 
 - ゼリー - jelly
+- デザート - dessert
 - 定食 (ていしょ) - set meal
 
 ### nouns (fruits)
 
 ### nouns (drinks)
+
+- ストロー - drinking straw
 
 ### nouns (location)
 
@@ -2276,6 +2292,7 @@ ____
 
 ### verb (transitive)
 
+- 炒める (いためる) - to fry; to saute; to stir-fry
 - 切り替える (きりかえる) - to switch; to change; に to indicate the new state
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 - 舐める (なめる) - to lick; to taste; to experience (hardship)
@@ -2343,8 +2360,11 @@ ____
 
 ### adjectives (い)
 
+- 脂っこい (あぶらっこい) - greasy; fatty; oily
+- 甘辛い (あまからい) - salty-sweet
 - 気持ちいい (きもちいい) - feeling good
 - したい - want to do
+- 塩っぱい (しょっぱい) - salty
 - にくい - hard to ...; difficult to ...
 - 細長い (ほそながい) - long and narrow
 - やばい - oh crap!; dangerous; risky; awful; terrible; amazing
@@ -2422,6 +2442,7 @@ ____
 - だんボール - cardboard; aka 段ボール
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
+- 日替わり (ひがわり) - changing every day
 - 怠け者 (なまけもの) - lazy person
 - 男 (なん) - man (used as suffix)
 - ぬいぐるみ - stuffed toy; aka 縫いぐるみ
@@ -2492,6 +2513,7 @@ ____
 - たこ焼き (たこやき) - octopus balls
 - 但馬牛 (たじまうし) - Tajima beef
 - タン - tongue (beef tongue in general)
+- 生姜 (しょうが) - ginger
 - チルド - chilled
 - チンゲンサイ - bok choy; aka 青梗菜
 - チャーシュー - roasted pork; aka 叉焼
@@ -2506,6 +2528,7 @@ ____
 - とんこつ - pork bone; aka 豚骨
 - 豚汁 (とんじる) - pork miso soup
 - 生菓子 (なまがし) - fresh sweets
+- 生物 (なまもの) - raw food; perishables
 - 並盛 (なみもり) - normal serving
 - 軟骨 (なんこつ) - cartilage
 - 煮込む (にこむ) - to simmer; to stew
@@ -2617,6 +2640,8 @@ ____
 - コーラ - cola
 - 玉露 (ぎょくろ) - green tea - high quality
 - 煎茶 (せんちゃ) - green tea
+- ドリンク - drink
+- 生ビール (なまビール) - draft beer; draught beer
 - ノンアルコール - non-alcoholic
 - ハイボール - whisky and soda
 - 深煎り (ふかいり) - dark roast (coffee)
@@ -2646,7 +2671,11 @@ ____
 
 ### nouns (restaurants)
 
+- お絞り (おしぼり) - wet towel (supplied at table); hot, moistened hand towel
 - カウンター - counter
+- 食券 (しょっけん) - meal ticket
+- セルフサービス - self-service
+- 日替わり定食 (ひがわりていしょく) - daily set meal; daily special
 - 盛り合わせ (もりあわせ) - assortment; assorted dishes; combination platter
 
 ### nouns (shopping)
@@ -3001,6 +3030,7 @@ ____
 
 ### verb (transitive)
 
+- 揚げる (あげる) - to deep-fry; to make deep-fried food
 - 押し付ける (おしつける) - to force against
 - 貸し切る (かしきる) - to reserve; to book
 - 狩る (かる) - to hunt; to pick (barries)
