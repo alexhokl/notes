@@ -60,6 +60,8 @@
     + [no such product](#no-such-product)
     + [Asking for a cheaper product](#asking-for-a-cheaper-product)
     + [Asking for a small product](#asking-for-a-small-product)
+    + [Asking for wrapping](#asking-for-wrapping)
+    + [Ask if delivery is available](#ask-if-delivery-is-available)
   * [Haircut](#haircut)
     + [To ask for a skin fade with no sideburns](#to-ask-for-a-skin-fade-with-no-sideburns)
   * [Ask for directions to a location](#ask-for-directions-to-a-location)
@@ -67,12 +69,26 @@
   * [Common conversations](#common-conversations)
     + [To ask for a repeat](#to-ask-for-a-repeat)
     + [Meet for the first time](#meet-for-the-first-time)
+    + [Long time no see](#long-time-no-see)
     + [You are welcome (Don't mention it)](#you-are-welcome-don%27t-mention-it)
     + [Say goodbye at work place](#say-goodbye-at-work-place)
+    + [See you later](#see-you-later)
+    + [see you next time](#see-you-next-time)
+    + [have a nice day](#have-a-nice-day)
+    + [I'll be in touch](#i%27ll-be-in-touch)
+    + [I have to leave now](#i-have-to-leave-now)
     + [Not sure](#not-sure)
     + [How long it takes](#how-long-it-takes)
     + [How much it costs](#how-much-it-costs)
     + [When](#when)
+    + [What kind of](#what-kind-of)
+    + [Free or not](#free-or-not)
+    + [First time](#first-time)
+    + [Refusing](#refusing)
+    + [Responding to enquiries about health or well-being](#responding-to-enquiries-about-health-or-well-being)
+    + [how are you](#how-are-you)
+    + [Get well soon](#get-well-soon)
+    + [Tak care](#tak-care)
 ____
 
 # Situations
@@ -467,6 +483,14 @@ ____
   * すみません。これだけなんです。
     + どうですか。じゃあ、ちょっと考えます。
 
+### Asking for wrapping
+
+- すみません。ラッピングしてもらえますか。
+
+### Ask if delivery is available
+
+- すみません。これは配達(はいたつ)してもらえませんか？
+
 ## Haircut
 
 ### To ask for a skin fade with no sideburns
@@ -527,6 +551,10 @@ ____
 - 初めまして。私はアレックスです。よろしくお願いします。
   * 初めまして。山田です。こちらこそ、どうぞよろしくお願いします。
 
+### Long time no see
+
+- お久しぶりです。
+
 ### You are welcome (Don't mention it)
 
 - ありがとうございます。
@@ -535,6 +563,28 @@ ____
 ### Say goodbye at work place
 
 - お疲れ様です。
+- お先に失礼します。
+
+### See you later
+
+- 行ってきます。
+- また後で。
+
+### see you next time
+
+- また今度。
+
+### have a nice day
+
+- 行ってらっしゃい。
+
+### I'll be in touch
+
+- また連絡します。
+
+### I have to leave now
+
+- そうそう帰ります。
 
 ### Not sure
 
@@ -555,3 +605,40 @@ ____
 ### When
 
 - いつ日本に来ましたが。
+
+### What kind of
+
+- どんな味ですか。
+
+### Free or not
+
+- 無料(むりょう)ですか。
+- 有料(ゆうりょう)ですか。
+
+### First time
+
+- 初めて京都に行きました。
+- 初めての京都旅行に行きました。
+
+### Refusing
+
+- これはどうですか？
+  * 豚肉ですか。豚肉はちょっと…
+    + そうなんですか。
+      + はい、苦手何です。
+
+### Responding to enquiries about health or well-being
+
+- おかげさまで元気です。
+
+### how are you
+
+- 田中さんはいかがですか。
+
+### Get well soon
+
+- お大事にしてください。
+
+### Tak care
+
+- 気をつけて
