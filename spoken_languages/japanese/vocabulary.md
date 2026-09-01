@@ -1583,6 +1583,7 @@ ____
 - 人間 (にんげん) - human being; character (of a person)
 - 年代 (ねんだい) - year or generation (for vintage)
 - 俳優 (はいゆう) - actor; actress; player; performer
+- 花火 (はなび) - fireworks
 - 幅 (はば) - width
 - パスポート - passport
 - 被害 (ひがい) - damage; injury
@@ -2406,6 +2407,8 @@ ____
 - 顔色 (かおいろ) - facial expression
 - 勝手 (かって) - one's own convenience; one's way; selfishness; unauthorised
 - カビ - mould
+- 歌舞伎 (かぶき) - traditional form of drama and music performed by male actors
+  wearing makeup mainly in white and red
 - 気に入り (きにいり) - favourite
 - 浄め (きよめ) - purification
 - 区役所 (くやくしょ) - ward office
