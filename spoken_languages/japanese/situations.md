@@ -84,11 +84,13 @@
     + [What kind of](#what-kind-of)
     + [Free or not](#free-or-not)
     + [First time](#first-time)
+    + [invitation](#invitation)
     + [Refusing](#refusing)
     + [Responding to enquiries about health or well-being](#responding-to-enquiries-about-health-or-well-being)
     + [how are you](#how-are-you)
     + [Get well soon](#get-well-soon)
     + [Tak care](#tak-care)
+    + [Let's do it](#let%27s-do-it)
 ____
 
 # Situations
@@ -620,12 +622,24 @@ ____
 - 初めて京都に行きました。
 - 初めての京都旅行に行きました。
 
+### invitation
+
+- 日曜日に一緒に行きませんか。
+  * いいですね。行きましょう。
+    + じゃ、後で連絡しますね。
+      + わかりました。楽しみにしています。 (I'm looking forward to it.)
+
 ### Refusing
 
 - これはどうですか？
   * 豚肉ですか。豚肉はちょっと…
     + そうなんですか。
       + はい、苦手何です。
+
+- 海子さん、明日一緒に映画を見ませんか。
+  * すみません。明日はちょっと…
+    + そうですか。じゃ、また今度。
+      + はい、また誘ってください。
 
 ### Responding to enquiries about health or well-being
 
@@ -642,3 +656,7 @@ ____
 ### Tak care
 
 - 気をつけて
+
+### Let's do it
+
+- そうしましょう。
