@@ -1015,6 +1015,7 @@ ____
 - しばらく - for a moment; for a while; for the time being; aka 暫く
 - 将来 (しょうらい) - future; prospects
 - しっかり - tightly; strongly; properly; reliably; aka 確り
+- すっかり - all; completely; totally; entirely; thoroughly
 - 確かに (たしかに) - surely; certainly
 - たまに - occasionally; once in a while; now and then; aka 偶に
 - ちっとも - not at all; aka 些とも
@@ -1444,6 +1445,7 @@ ____
 - いつか - someday; one day
 - おそらく - probably; I'm afraid; aka 恐らく
 - かなり - considerably; quite; fairly; pretty
+- きちんと - properly; precisely
 - 急に (きゅうに) - switfly; suddenly; abruptly
 - こんなに - this much
 - さっぱり - feeling refreshed; (of food) light
