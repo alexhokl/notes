@@ -161,6 +161,29 @@ ____
 - [fyne-io/fyne](https://github.com/fyne-io/fyne) - purely in Go
   * [introduction](https://www.youtube.com/watch?v=sXKsyuSjJ8o)
   * cross-platform (including mobile) compilation is available
+  * example
+
+    ```go
+    package main
+
+    import (
+        "fyne.io/fyne/v2"
+        "fyne.io/fyne/v2/app"
+        "fyne.io/fyne/v2/widget"
+    )
+
+    func main() {
+        a := app.New()
+        w := a.NewWindow("Hello")
+        w.SetContent(widget.NewLabel("Whatever"))
+        w.Resize(fyne.NewSize(500, 500))
+        w.ShowAndRun()
+    }
+    ```
+
+    This creates a Fyne app with a 500x500 window titled "Hello" displaying
+    a label "Whatever"; `ShowAndRun` shows the window and blocks in the app's
+    event loop until the window is closed.
 - [wailsapp/wails](https://github.com/wailsapp/wails) - combining Go and HTML
 
 ### JSON
