@@ -1583,7 +1583,6 @@ ____
 - 人間 (にんげん) - human being; character (of a person)
 - 年代 (ねんだい) - year or generation (for vintage)
 - 俳優 (はいゆう) - actor; actress; player; performer
-- 花火 (はなび) - fireworks
 - 幅 (はば) - width
 - パスポート - passport
 - 被害 (ひがい) - damage; injury
@@ -1928,6 +1927,7 @@ ____
 - 中身 (なかみ) - contents; interior; inside
 - 虹 (にじ) - rainbow
 - ネックレス - necklace
+- 花火 (はなび) - fireworks
 - 複数 (ふくすう) - plural
 - 蓋 (ふた) - lid; cap; cover
 - バツ - cross
@@ -2428,6 +2428,9 @@ ____
 - シェービング - shaving
 - 収入印紙 (しゅうにゅういんし) - revenue stamp
 - 申請書 (しんせいしょ) - written application
+- 成人式 (せいじんしき) - coming-of-age ceremony
+- 節分 (せつぶん) - last day of winter in the traditional Japanese calendar
+  (usu. February 3 or 4) on which a bean scattering ceremony is held
 - 専門 (せんもん) - area of expertise; sole interest
 - スキル - skill
 - スチール - steel
@@ -2442,6 +2445,7 @@ ____
 - 使い方 (つかいがた) - way of using; way of handling (employees, subordinates,
   etc.); management
 - 月極 (つきぎめ) - monthly contract (aka 月極め)
+- 月見 (つきみ) - moon viewing (esp. during the eight month of the lunar calendar)
 - だんボール - cardboard; aka 段ボール
 - 電話帳 (でんわちょう) - telephone directory
 - ドラス - drama; TV drama
@@ -2450,6 +2454,7 @@ ____
 - 男 (なん) - man (used as suffix)
 - ぬいぐるみ - stuffed toy; aka 縫いぐるみ
 - ねた - information; news; proof; evidence
+- 初詣で (はつもうで) - first shrine visit of the New Year
 - 話し手 (はなして) - speaker
 - 歯磨き粉 (はみがきこ) - toothpaste
 - 引きこもり (ひきこもり) - person who has withdrawn from society; stay-at-home
