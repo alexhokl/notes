@@ -2512,17 +2512,24 @@ ____
 - 牛タン (ぎゅうタン) - beef tongue
 - 餃子 (ぎょうざ) - gyoza
 - さくらんぼ - cherry (the fruit); aka 桜ん坊
+- ささ身 (ささみ) - chicken tenderloin
 - 白身 (しろみ) - egg white; white-fleshed fish; white meat
 - すき焼き (すきやき) - thin slices of beef, cooked with various vegetables in a
   table-top cast-iron pan
 - スパゲティ - spaghetti
+- 砂肝 (すなぎも) - gizzard
 - スナック - snack
+- セセリ - meat aound the neck of a chicken
 - せんべい - rice cracker; aka 煎餅
 - ソフトクリーム - soft ice cream
 - ソースカツ - breaded cutlet (e.g. tonkatsu) covered in Worcester sauce
 - たこ焼き (たこやき) - octopus balls
 - 但馬牛 (たじまうし) - Tajima beef
 - タン - tongue (beef tongue in general)
+- 手羽 (てば) - chicken wing
+- 手羽先 (てばさき) - chicken wing tip
+- 手羽中 (てばなか) - chicken wing middle
+- 手羽元 (てばもと) - chicken wing drumette
 - 生姜 (しょうが) - ginger
 - チルド - chilled
 - チンゲンサイ - bok choy; aka 青梗菜
@@ -2543,6 +2550,7 @@ ____
 - 軟骨 (なんこつ) - cartilage
 - 煮込む (にこむ) - to simmer; to stew
 - にんにく - garlic; aka 大蒜
+- ハツ - animal heart (usually grilled on skewers)
 - ハラミ - skirt steak (横隔膜)
 - 挽きたて (ひきたて) - freshly ground
 - ホルモン - offal (內臟)
@@ -2554,11 +2562,16 @@ ____
 - パンプキンパイ - pumpkin pie
 - ピザ - pizza
 - プリン - pudding
+- ぼんじり - chicken tail
 - まんま - food (children's language); aka 飯
+- モモ - chicken thigh
 - 焼き飯 (やきめし) - fried rice
+- 薬研 (やげん) - V-shaped cartilage located at the tip of the chicken
+  breastbone
 - やせうま - a local dish from Oita prefecture, made of fried dough covered in
   sugar and kinako (roasted soybean flour)
 - 夕食 (ゆうしょく) - dinner
+- レバー - liver (food)
 
 ### nouns (fish)
 
