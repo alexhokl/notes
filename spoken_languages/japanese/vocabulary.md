@@ -156,6 +156,7 @@
     + [nouns (family)](#nouns-family-3)
     + [nouns (technology)](#nouns-technology-3)
     + [nouns (sports)](#nouns-sports-3)
+    + [nouns (weather)](#nouns-weather-1)
     + [nouns (colours)](#nouns-colours-3)
     + [nouns (health)](#nouns-health-3)
     + [nouns (web)](#nouns-web-3)
@@ -247,7 +248,7 @@
     + [nouns (logistics)](#nouns-logistics-1)
     + [nouns (health)](#nouns-health-5)
     + [nouns (finance)](#nouns-finance-1)
-    + [nouns (weather)](#nouns-weather-1)
+    + [nouns (weather)](#nouns-weather-2)
     + [nouns (colours)](#nouns-colours-5)
     + [noun prefixes](#noun-prefixes-1)
     + [noun suffixes](#noun-suffixes-5)
@@ -877,6 +878,8 @@ ____
   * 取る (とる) - to take; to pick up; to pass; to hand; to give; to get; to
     adopt (a method, proposal); to remove; to reserve; to record; to subscribe
     to
+- なくなる - to be lost; to be missing; to be used up
+  * なくす- to lose (something); to get rid of
 - 並ぶ (ならぶ) - to line up; to stand in a line
   * 並べる (ならべる) - to line up; to set up; to arrange in a line
 - 寝る (ねる) - to sleep
@@ -925,6 +928,9 @@ ____
 - 張る (はる) - to stick; to paste; to post (a link, etc. online); aka 貼る
 - 弾く (ひく) - to play (a stringed instrument, piano, etc.)
 - 磨く (みがく) - to brush
+- 見せる (みせる) - to show; to display; to have (an injury, person, etc.)
+  looked at (by a doctor); to take (someone) to a doctor (also written as
+  診せる)
 - 持つ (もつ) - to hold; to carry; to possess
 - 呼ぶ (よぶ) - to call; to invite; to summon
 - 読む (よむ) - to read
@@ -1135,6 +1141,7 @@ ____
 - 店員 (てんいん) - shop assistant
 - 男性 (だんせい) - male
 - 電灯 (でんとう) - electric light
+- 道具 (どうぐ) - tool; instrument; utensil; apparatus; device; means; furniture
 - 人形 (にんぎょう) - doll
 - 値段 (ねだん) - price; cost
 - 花見 (はなみ) - cherry blossom viewing
@@ -1377,6 +1384,9 @@ ____
 - 尋ねる (たずねる) - to ask; to inquire
 - 楽しむ (たのしむ) - to enjoy
 - 手伝う (てつだう) - to help; to contribute to
+- 直す (なおす) - to repair; to mend; to fix; to correct (a mistake, bad habit,
+  etc.); to put right; to restore; to straighten (e.g. a tie); to tidy up (one's
+  hair, make-up, etc.); to heal (usu. written as 治す)
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 運ぶ (はこぶ) - to carry; to transport; to move
 - 払う (はらう) - to pay; to wipe away
@@ -1393,10 +1403,11 @@ ____
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
 - 過ぎる (すぎる) - to pass through; to exceed
-- すべる - to slip; to slide; to ski; aka 滑る
+- 滑る (すべる) - to slip; to slide; to ski
 - 足りる (たりる) - to be sufficient; to be enough
 - 泣く (なく) - to cry (human); to weep
 - なくなる - to be lost (e.g. luggage); to be used up; to disappear (e.g. pain)
+- 亡くなる (なくなる) - to die; to pass away (euphemistic)
 - 慣れる (なれる) - to get used to; to become familiar with
 - 似る (にる) - to look like; to be alike; to be similar
 - 眠る (ねむる) - to sleep
@@ -1839,6 +1850,8 @@ ____
 - 申し込む (もうしこむ) - to apply for
 - もらう - to receive (appreciatively); aka 貰う
 - 辞める (やめる) - to resign; to retire; to quit; to leave
+- 譲る (ゆずる) - to hand over; to transfer; to give up (e.g. one's seat); to
+  give way; to yield
 
 ### verb (intransitive)
 
@@ -2016,6 +2029,10 @@ ____
 ### nouns (technology)
 
 ### nouns (sports)
+
+### nouns (weather)
+
+- 吹雪 (ふぶき) - snow storm; blizzard
 
 ### nouns (colours)
 
@@ -2331,6 +2348,7 @@ ____
 
 ### conjunctions
 
+- それなら - if that's the case; if so; that being the case; aka 其れなら
 - ために - for; aka 為に
 - ちなみに - by the way
 - とはいえ - though; although; nonetheless; aka とは言え
@@ -2811,6 +2829,7 @@ ____
 - くも - spider; aka 蜘蛛
 - 鹿 (しか) - deer
 - 雀 (すずめ) - tree sparrow
+- 蝶々 (ちょうちょう) - butterfly
 - 豚 (ぶた) - pig
 - やぎ - goat; aka 山羊
 - ラブラドール - Labrador
