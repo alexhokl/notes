@@ -3106,6 +3106,7 @@ invite; to ride
 - 引き続く (ひきつづく) - to continue (for a long time); to occur in succession
 - 含まれる (ふくまれる) - to be included; to be composed of
 - バズる - to go viral (buzz)
+- 迷う (まよう) - to loose one's way; to get lost; to be puzzled
 
 ### verb (transitive and intransitive)
 
