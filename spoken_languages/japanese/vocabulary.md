@@ -1353,6 +1353,8 @@ ____
   * 間違える (まちがえる) - to make a mistake
 - 戻る (もどる) - to return
   * 戻す (もどす) - to put back; to vomit; to recover (of a market price)
+- 焼ける (やける) - to burn; to burn down; to be sunburnt; to fade (in the sun)
+  * 焼く (やく) - to burn; to roast; to grill; to bake; to barbecue; to heat
 - 汚れる (よごれる) - to get dirty
   * 汚す (よごす) - to make dirty; to pollute; to disgrace; to dishonour
 - 寄る (よる) - to approach; to gather (in one place); to grow old; to grow high
@@ -1393,7 +1395,6 @@ ____
 - 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
   (a taxi);
 - 迎える (むかえる) - to welcome; to greet
-- 焼く (やく) - to burn; to roast; to grill; to bake; to barbecue; to heat
 
 ### verb (intransitive)
 
