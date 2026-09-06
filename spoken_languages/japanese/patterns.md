@@ -204,13 +204,22 @@
   * [Chapter 19](#chapter-19)
     + [if or when](#if-or-when)
     + [if (a casual/hypothetical relationship)](#if-a-casual%2Fhypothetical-relationship)
-    + [when](#when)
     + [given](#given)
     + [positive advice](#positive-advice)
     + [negative advice](#negative-advice)
     + [to change the state of something](#to-change-the-state-of-something)
     + [that one (for shared memories and knowledge)](#that-one-for-shared-memories-and-knowledge)
     + [that one (for things that either speaker or listener do not know)](#that-one-for-things-that-either-speaker-or-listener-do-not-know)
+  * [Chapter 20](#chapter-20)
+    + [doing something for someone](#doing-something-for-someone)
+    + [someone doing something for the speaker's in-group](#someone-doing-something-for-the-speaker%27s-in-group)
+    + [someone got some service from someone else](#someone-got-some-service-from-someone-else)
+    + [expressing reasons](#expressing-reasons)
+    + [surprise, dissatisfaction, or disappointment to a result different from expectation](#surprise%2C-dissatisfaction%2C-or-disappointment-to-a-result-different-from-expectation)
+    + [condition and consequences in the past](#condition-and-consequences-in-the-past)
+    + [ask for instruction or advice](#ask-for-instruction-or-advice)
+    + [polite way of asking](#polite-way-of-asking)
+    + [expressing hope or wish](#expressing-hope-or-wish)
 ____
 
 ## Chapter 1
@@ -2957,3 +2966,146 @@ and intention)
   昨日スーパーでその人に会ったんです。
   * へえ、その人には久(ひさ)しぶりに会ったんですか。
 - 夏休みに国に帰って友達に会いました。その友達も来年日本に来るそうです。
+
+## Chapter 20
+
+### doing something for someone
+
+- [give to (from giver's perspective)](#give-to-from-giver%27s-perspective)
+- doer + は + receiver + に + object + を + Vてあげる
+- doer + は + receiver の + object + を + Vてあげる
+- doer + は + receiver + を + Vてあげる
+- 私は山田さんに中国語を教えてあげます。
+- 私は友達に恋人の写真を見せてあげました。
+- 陳さんは友達にコンサートのチケットを買ってあげました。
+- 野村さんは李さんに言葉の意味を説明してあげました。
+- 山田さんは昨日リサさんのパソコンを直(なお)してあげました。
+- 母は妹の部屋を掃除してあげました。
+- 私は弟の宿題を見てあげました。
+- 李さんは田中さんを助(たす)けてあげました。
+- 木村さんはお客さんを空港まで送(おく)ってあげました。
+- 私は妹を学校へ連(つ)れて行ってあげました。
+- ラヒムさんはアンナさんの荷物を持ってあげました。
+
+### someone doing something for the speaker's in-group
+
+- [give to (from receiver's perspective)](#give-to-from-receiver%27s-perspective)
+- doer + は + speaker's in-group + に + object + を + Vてくれる
+- doer + は + speaker's in-group の + object + を + Vてくれる
+- doer + は + speaker's in-group + を + Vてくれる
+- 野村さんは私にパソコンの使い方を教えてくれました。
+- 警官(けいかん)は弟と妹に交通規則(こうつうきそく)を説明(せつめい)してくれました。
+- 陳さん、カメラを貸(か)してくれませんか。
+- 花子ちゃん、太郎君は漫画の本を貸(か)してくれましたか。
+  * ええ、昨日貸してくれました。
+- 兄は私の宿題を見てくれました。
+- 田中先生は私の発音を直(なお)してくれました。
+- 管理人(かんりにん)は私の荷物を部屋まで運(はこ)んでくれました。
+- 祖母(そぼ)は私をとてもかわいがってくれました。
+- 友だちは週末の旅行に私を誘(さそ)ってくれませんでした。
+- 知らない若者(わかもの)が川に落ちた妹を助(たす)けてくれました。
+- 私たちが忙しかったから、田中さんがうちの猫と遊んでくれました。
+- 父は私に時計を買ってくれました。
+
+### someone got some service from someone else
+
+- [receiving](#receiving)
+- receiver + は + doer + に + object + を + Vてもらう
+- receiver + は + doer + に + Vてもらう
+- 姉は田中さんの奥さんにスキヤキの作り方を教えてもらいました。
+- 東京へ行ったとき、友達に東京の町を案内してもらいました。
+- 李さんは野村さんに言葉の意味を説明(せつめい)してもらいました。
+- 誰に日本人の友だちを紹介してもらいましたか。
+- 私は友達に勉強会に連れていってもらいました。
+- 私は田中さんに写真を撮ってもらいました。
+
+### expressing reasons
+
+- Vて / Aくて / Naで / Nで + natural emotion expression
+- Vて / Aくて / Naで / Nで + outcome or course of events
+- Vて / Aくて / Naで / Nで + natural consequence
+- 遅(おそ)くなってすみません。
+- 昨日ビールを飲み過ぎて今日は気分が悪いです。
+- 今朝日本の地震のニュースを見てびっくりしました。
+- 恋人(こいびと)に会えなくて寂(さび)しいです。
+- 日本に行った息子から連絡がなくて心配です。
+- 質問が難しくて答えられませんでした。
+- 説明(せつめい)が複雑(ふくざつ)で全然分かりません。
+- このスープは熱くて飲めません。
+- 川の水がひどく汚れて魚が死にました。
+- 地震で古いビルが倒(たお)れました。
+- 戦争(せんそう)で人が大勢死にました。
+- ❌今日は疲れて早く寝ます。 (intension cannot be used)
+- ❌部屋が暑くて窓を開けましょう。 (command cannot be used)
+- ❌熱が高くて、病院へ行きなさい。 (command cannot be used)
+- 大学に合格(ごうかく)できてとてもうれしいです。
+- 昨夜は暑くて眠れませんでした。
+- 私は字が下手で恥ずかしいです。
+- 言葉が分からなくて困りました。
+- 私は昨日風邪で学校を休みました。
+
+### surprise, dissatisfaction, or disappointment to a result different from expectation
+
+- [のに](./particles.md#%E3%81%AE%E3%81%AB)
+- もう秋なのに、涼しくなりません。
+- 弟は歌が下手なのに、大きい声(こえ)で歌っています。
+- 彼は健康なのに、仕事をしていません。
+- 予定の時間を過ぎているのに、会議(かいぎ)はなかなか終わりません。
+- 岩本さんはパーティーに必(かなら)ず出席(しゅっせき)すると言ったのに来(こ)なかった。
+- 朝七時に太郎を起こしたのに、太郎は起きませんでした。
+- 田中さんが意見(いけん)を言っているのに、誰も聞いていません。
+- 子供が泣(な)いているのに、母親(ははおや)は何もしません。
+- 私があんなに注意したのに、息子はまたトラブルを起こしました。
+- あの人、今度結婚するんですよ。
+  * えっ、信じられませんね。あんなに独身(どくしん)のほうがいいと言っていたのに。
+- 明日試験があるのに、あの人は遊んでいます。
+- あの人は歌が上手なのに、あまり歌いません。
+- もうお昼(ひる)なのに、あの人はまだ寝ています。
+
+### condition and consequences in the past
+
+- [たら](./particles.md#%E3%81%9F%E3%82%89)
+- 宝(たから)くじを買ったら、当たりました。
+- 久(ひさ)しぶりにテニスをしたら、体(からだ)が痛くなりました。
+- 目が覚(さ)めたら、もうお昼(ひる)でした。
+- カーテンを開けたら、外は一面(いちめん)の銀世界(ぎんせかい)でした。
+- 財布を拾(ひろ)って中を見たら、5千ドルも入っていました。
+- 本を読んでいたら、窓から鳥が入ってきました。
+- 私が黙(だま)っていたら、部長(ぶちょう)は突然(とつぜん)怒(いか)り始めました。
+- 日本にいる兄のことを心配しながら地震のニュースを見ていたら、兄から「ぼくは大丈夫だよ」と電話が掛かってきました。
+- 友達に手紙を出したら、すぐ返事が来ました。
+- うちへ帰ったら、手紙が来ていました。
+
+### ask for instruction or advice
+
+- question word + Vたら + いいですか / いいでしょうか。
+- 入管へ行きたいんですが、どう行ったらいいでしょうか。
+  * この道をまっすぐに行ったらいいですよ。
+- この機械(きかい)を使いたいんですが、どうしたらいいでしょうか。
+  * その赤いボタンを押したらいいですよ。
+- この本はいつまでに返したらいいですか。
+  * 来週の水曜日までに返したらいいですよ。
+- 東京タワーへ行きたいんですが、どこで降りたらいいですか。
+  * 御成門(おなりもん)駅で降りたらいいですよ。
+- 定期券(ていきけん)を落(お)としてしまったのですが、どうしたらいいですか。
+- 定期券を落としてしまったのですが、どうしたらいいでしょうか。
+
+### polite way of asking
+
+- 何時でしょうか。
+  * 6時半です。
+- 日本留学試験の願書はいつからもらえるでしょうか。
+  * 明日からもらえますよ。
+- 先に帰ってもいいでしょうか。
+  * ええ、いいですよ。
+
+### expressing hope or wish
+
+- おじいさんの病気が早く治るといいなあ。
+- 学生がもっと積極的(せっきょくてき)だといいのだが。
+- まだ桜が散(ち)っていないといいのですが。
+- 外国へ旅行するのに面倒(めんどう)な手続(てつづ)きがないといいんだけど。
+- 赤ちゃんは男の子と女の子とどちらがいいですか。
+  * そうですねえ。今度は女の子だといいですね。
+- 明日鎌倉へ行くんです。
+  * そうですか。いい天気だといいですね。
