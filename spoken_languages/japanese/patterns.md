@@ -3006,18 +3006,23 @@ and intention)
 - 知らない若者(わかもの)が川に落ちた妹を助(たす)けてくれました。
 - 私たちが忙しかったから、田中さんがうちの猫と遊んでくれました。
 - 父は私に時計を買ってくれました。
+- 父は私の代(か)わりに時計を買ってくれました。
 
 ### someone got some service from someone else
 
 - [receiving](#receiving)
-- receiver + は + doer + に + object + を + Vてもらう
-- receiver + は + doer + に + Vてもらう
+- receiver + は + doer + に/から + object + を + Vてもらう
+- receiver + は + doer + に/から + Vてもらう
+- usually at receiver's the request or receiver gains an advantage from the action
+- if doer is an organisation, から is used instead of に
 - 姉は田中さんの奥さんにスキヤキの作り方を教えてもらいました。
 - 東京へ行ったとき、友達に東京の町を案内してもらいました。
 - 李さんは野村さんに言葉の意味を説明(せつめい)してもらいました。
-- 誰に日本人の友だちを紹介してもらいましたか。
+- ~あなたは~誰に日本人の友だちを紹介してもらいましたか。
 - 私は友達に勉強会に連れていってもらいました。
 - 私は田中さんに写真を撮ってもらいました。
+- 友達に本を貸してもらいました。
+  * 友達に本を借りました。 (stating a simple fact)
 
 ### expressing reasons
 
@@ -3089,6 +3094,14 @@ and intention)
   * 御成門(おなりもん)駅で降りたらいいですよ。
 - 定期券(ていきけん)を落(お)としてしまったのですが、どうしたらいいですか。
 - 定期券を落としてしまったのですが、どうしたらいいでしょうか。
+- 財布を落としてしまったのですが、どうしたらいいですか。
+  * こばんに行ったらいいですよ。
+  * こばんに行ったらいいと思いますよ。
+  * こばんに行ってみてください。
+  * こばんに行くんですよ。
+  * こばんに行ったら、届いているかもしれませんよ。
+- どうしますか。 is asking how would you do (which is not asking for an
+  instruction or advice)
 
 ### polite way of asking
 
