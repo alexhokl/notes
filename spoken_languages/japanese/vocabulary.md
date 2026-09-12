@@ -643,6 +643,8 @@ ____
 
 ### nouns (shopping)
 
+- お釣り (おつり) - change (for a purchase)
+
 ### nouns (clothing)
 
 - 上着 (うわぎ) - outerwear
@@ -880,6 +882,8 @@ ____
     to
 - なくなる - to be lost; to be missing; to be used up
   * なくす- to lose (something); to get rid of
+- 脱げる (ぬげる) - to come off; to slip down; to slip off
+  * 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
 - 並ぶ (ならぶ) - to line up; to stand in a line
   * 並べる (ならべる) - to line up; to set up; to arrange in a line
 - 寝る (ねる) - to sleep
@@ -922,7 +926,6 @@ ____
 - 勤める (つとめる) - to work for; to be employed at; to serve in
 - 撮る (とる) - to take (a photo); to record (a video or audio); to film
 - 習う (ならう) - to learn (from a teacher); to take lessons in; to be taught
-- 脱ぐ (ぬぐ) - to take off (clothes, shoes, etc.); to undress
 - 飲む (のむ) - to drink
 - 話す (はなす) - to talk; to speak (a language)
 - 張る (はる) - to stick; to paste; to post (a link, etc. online); aka 貼る
