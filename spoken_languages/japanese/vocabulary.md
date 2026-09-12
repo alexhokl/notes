@@ -1695,6 +1695,7 @@ ____
 
 - 城 (しろ) - castle
 - センター - center; centre
+- 頂上 (ちょうじょう) - top; summit; peak
 - 通り (とおり) - street; road; avenue
 - 博物館 (はくぶつかん) - museum
 - 畑 (はたけ) - field; farm
@@ -1816,6 +1817,11 @@ ____
     question or blow)
 - 広がる (ひろがる) - to spread
   * 広げる (ひろげる) - to spread
+- 回る (まわる) - to turn; to rotate; to circle; to orbit; aka 廻る
+  * 回す (まわす) - to turn; to rotate; to circulate; to turn on (something that
+    turns); to start up (e.g. an engine); to put (someone in a position); to
+    surround (something) with to invest (money); to lend; to dial (a telephone
+    number); to operate (e.g. business, shop); aka 廻す
 - 向く (むく) - to turn (towards); to face (e.g. east); to point (of an arrow)
   * 向ける (むける) - to turn (towards); to face; to head to; to send; to aim
     for
@@ -1898,6 +1904,7 @@ ____
 
 ### adjectives (い)
 
+- ありがたい - grateful; thankful; welcome; appreciated; aka 有難い, 有り難い
 - 羨ましい (うらやましい) - envious; jealous
 - 酸っぱい (すっぱい) - sour; acid
 - 蒸し暑い (むしあつい) - humid and hot
