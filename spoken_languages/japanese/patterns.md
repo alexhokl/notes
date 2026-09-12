@@ -3092,6 +3092,7 @@ and intention)
 
 ### polite way of asking
 
+- noun / Na / A / V + でしょうか。
 - 何時でしょうか。
   * 6時半です。
 - 日本留学試験の願書はいつからもらえるでしょうか。
