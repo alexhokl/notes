@@ -20,8 +20,10 @@
   * [GPG signature](#gpg-signature)
   * [Checkout](#checkout)
   * [Revert](#revert)
+  * [Merge](#merge)
   * [Rerere](#rerere)
   * [Subtree](#subtree)
+  * [Worktree](#worktree)
   * [LFS](#lfs)
   * [Configuration](#configuration)
   * [Operators](#operators)
@@ -33,7 +35,7 @@
     + [Remotes](#remotes)
     + [Ignore](#ignore)
     + [Others](#others)
-  * [Troubleshooting](#troubleshooting-1)
+  * [Troubleshooting](#troubleshooting)
   * [GitHub](#github)
 ____
 
@@ -615,7 +617,7 @@ git merge-tree --quiet parent_branch feature_branch
 ```
 
 It shows SHA of a commit if the branch can be merged and `--quiet` option is not
-used, or an error message if it cannot. 
+used, or an error message if it cannot.
 
 ## Rerere
 
@@ -643,6 +645,32 @@ cd ../repo2
 git checkout -b split-feature
 git remote add -f upstream https://github.com/alexhokl/repo1
 git merge --allow-unrelated-histories upstream/split-feature
+```
+
+## Worktree
+
+##### To list worktrees
+
+```sh
+git worktree list
+```
+
+Note that worktree are on by default.
+
+##### To add a worktree
+
+```sh
+git worktree add -b new-feature ../temp-web-new-feature origin/main
+```
+
+This create a new directory `../temp-web-new-feature` and creating branch
+`new-feature` from `origin/main`. Note that this does not modify anything in the
+current directory (worktree).
+
+##### To remove a worktree
+
+```sh
+git worktree remove ../temp-web-new-feature
 ```
 
 ## LFS
