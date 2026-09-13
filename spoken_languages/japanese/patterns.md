@@ -204,6 +204,7 @@
   * [Chapter 19](#chapter-19)
     + [if or when](#if-or-when)
     + [if (a casual/hypothetical relationship)](#if-a-casual%2Fhypothetical-relationship)
+    + [if something is the topic](#if-something-is-the-topic)
     + [given](#given)
     + [positive advice](#positive-advice)
     + [negative advice](#negative-advice)
@@ -2865,27 +2866,41 @@ and intention)
 - 危ないから辞めといたら。 (suggestion or recommendation)
 - こんなに疲れているなら、少し休んだら。 (suggestion or recommendation)
 
+### if something is the topic
+
+- [なら](./particles.md#%E3%81%AA%E3%82%89)
+- noun + なら + ...
+- アルバイトを雇うには金がかかりますよ。
+  * お金のことなら心配しなくていいですよ。
+- usage is similar to は (but not the same)
+- ⭕️何時なら都合がいいですか。
+  * ❌何時は都合がいいですか。
+- ⭕️誰となら結婚してもいいですか。
+  * ❌誰とは結婚してもいいですか。
+
 ### given
 
 - [なら](./particles.md#%E3%81%AA%E3%82%89)
 - usages
   * used in giving response
+    + the condition should be either mentioned in the previous sentence or can
+      be interpreted from the context
     + giving personal advice or information
   * counter factual
     + the usage is is different from たら or ば since the condition is realised
       but not the result
   * usage is different from ば
 - conjugations
-  * plain form + なら
-  * noun/nounだった + なら
+  * plain form + (の/ん) + なら
+  * noun/nounだった + (の/ん) + なら
   * Naだ + なら
     + だ can be dropped if the adjective is present and affirmative
-  * Naだった + なら
-  * A/Aかった + なら
-  * Vる/Vた + なら
-  * A/Vる + のなら (usually address to a specific opinion or situation suggested
-    by the listener)
-  * A/Vる + んなら
+  * Naだった + (の/ん) + なら
+  * A/Aかった + (の/ん) + なら
+  * Vる/Vた + (の/ん) + なら
+  * use of の/ん usually gives a sense of
+    + "if you say so"
+    + "if that is the actual situation"
 - 来週京都へ行くつもりです。
   * 京都へ行くなら、新幹線が一番便利です。
 - ちょっと寒いよ。
@@ -2902,18 +2917,15 @@ and intention)
   * ⭕️スマホなら、キッチンのテーブルの上にあったよ。
   * ❌スマホなら、見なかったよ。
     + as there is not new knowledge shared
-- ⭕️何時なら都合がいいですか。
-  * ❌何時は都合がいいですか。
-- ⭕️誰となら結婚してもいいですか。
-  * ❌誰とは結婚してもいいですか。
-- ❌春が来るなら花が咲きます。 (general truth canno be used)
+- ❌春が来るなら花が咲きます。 (general truth cannot be used)
   * ⭕️春が来たら、花が咲きます。
   * ⭕️春が来れば、花が咲くでしょう。
   * ⭕️春が来ると、花が咲きます。
-- ❌雨が降るなら道がぬかります。 (general truth canno be used)
+- ❌雨が降るなら道がぬかります。 (general truth cannot be used)
   * ⭕️雨が降ったら、道がぬかります。
   * ⭕️雨が降れば、道がぬかります。
   * ⭕️雨が降ると、道がぬかります。
+- 知っているのなら教えて欲しい。
 - 電話をくれるのなら、もう少し早い時間に電話して欲しかった。 (counter factual)
 - 神戸に来ていたのなら、電話してくれれば良かったのに。 (counter factual)
 - 結婚式に出席するのなら黒いスーツを買うにだが。 (counter factual)
