@@ -215,12 +215,20 @@
     + [doing something for someone](#doing-something-for-someone)
     + [someone doing something for the speaker's in-group](#someone-doing-something-for-the-speaker%27s-in-group)
     + [someone got some service from someone else](#someone-got-some-service-from-someone-else)
+    + [asking for a service](#asking-for-a-service)
     + [expressing reasons](#expressing-reasons)
     + [surprise, dissatisfaction, or disappointment to a result different from expectation](#surprise%2C-dissatisfaction%2C-or-disappointment-to-a-result-different-from-expectation)
     + [condition and consequences in the past](#condition-and-consequences-in-the-past)
     + [ask for instruction or advice](#ask-for-instruction-or-advice)
     + [polite way of asking](#polite-way-of-asking)
     + [expressing hope or wish](#expressing-hope-or-wish)
+  * [Chapter 21](#chapter-21)
+    + [human or animal subject being affected](#human-or-animal-subject-being-affected)
+    + [human or animal subject being affected by a request or question](#human-or-animal-subject-being-affected-by-a-request-or-question)
+    + [human or animal subject being adversely affected](#human-or-animal-subject-being-adversely-affected)
+    + [victim or affected person/animal as the subject (intransitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-intransitive-verb)
+    + [victim or affected person/animal as the subject (transitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-transitive-verb)
+    + [non-sentient subject being affected](#non-sentient-subject-being-affected)
 ____
 
 ## Chapter 1
@@ -3158,3 +3166,95 @@ and intention)
   * そうですねえ。今度は女の子だといいですね。
 - 明日鎌倉へ行くんです。
   * そうですか。いい天気だといいですね。
+
+## Chapter 21
+
+### human or animal subject being affected
+
+- A + は + B + を + V (transitive verb) -> B は + A + に + Vられる (passive verb)
+- その犬は私を追(お)いかけました。
+  * 私はその犬に追いかけられました。
+- 先生は私をしかりました。
+  * 私は先生にしかられました。
+- 警察官はあの容疑者(ようぎしゃ)をいろいろ調べました。
+  * あの容疑者は警察官にいろいろ調べられました。
+- お母さんは毎朝あやちゃんを起こします。
+  * あやちゃんは毎朝お母さんに起こされます。
+- 両親は私をかわいがっています。
+  * 私は両親にかわいがられています。
+- 友達は私を映画に誘(さそ)いました。
+  * 私は友達に映画に誘われました。
+- 私は友達を映画に誘いました。
+  * ❌友達は私に映画に誘われました。 (actioner cannot be the speaker)
+- 私は子供をほめました。
+  * ❌子供は私にほめられました。 (actioner cannot be the speaker)
+
+### human or animal subject being affected by a request or question
+
+- A + は + B + に + 「...」 + と + V (transitive verb) -> B は + A + に + 「...」 + と + Vられる (passive verb)
+- A + は + B + に + object + V (transitive verb) -> B は + A + に + object + Vられる (passive verb)
+- 田中さんは佐藤さんに「仕事を手伝ってください。」と頼(たの)みました。
+  * 佐藤さんは田中さんに「仕事を手伝ってください。」と頼まれました。
+- 生はラヒムさんに「字をきれいに書いてください。」と注意しました。
+  * ラヒムさんは先生に「字をきれいに書いてください。」と注意されました。
+- 先生は私に難しい質問をしました。
+  * は先生に難しい質問をされました。
+- 昨日、外国人が私に道を聞きました。
+  * 昨日、私は外国人に道を聞かれました。
+
+### human or animal subject being adversely affected
+
+- A + は + B + の + all things / part of body + を + V (transitive verb)
+  -> B は + A + に + all things / part of body + を + Vられる (passive verb)
+- その犬は郵便屋(ゆうびんや)さんの手をかみました。
+  * 郵便屋さんはその犬に手をかまれました。
+- 誰かが私のキャッシュカードをとりました。
+  * 私は誰かにキャッシュカードをとられました。
+- 彼氏(かれし)は私のスマホを見ました。
+  * 私は彼氏にスマホを見られました。
+- 弟は私のパソコンを壊(こわ)しました。
+  * 私は弟にパソコンを壊されました。
+- 誰かが私の足を踏みました。
+  * ❌私の足を誰かに踏まれました。 (only sentient subject can be used)
+
+### victim or affected person/animal as the subject (intransitive verb)
+
+- 今朝は突然(とつぜん)雨が降りました。(私は困りました。)
+  * (私は)今朝は突然雨に降られて、困りました。
+- 好きな女の子はほかの人と結婚しました。(私は落ち込んでいます。)
+  * (私は)好きな女の子にほかの人と結婚されて、落ち込んでいます。
+- 試験の前の日、友達が来ました。(私は勉強できませんでした。)
+  * 試験の前の日、(私は)友達に来られて、勉強できませんでした。
+- 山田さんの妻が去年死にました。(山田さんは悲しかったです。)
+  * 山田さんは去年妻に死なれて、悲しかったです。
+- 友達が私の家に一週間もいました。(私は困りました。)
+  * (私は)友達に家に一週間もいられて、困りました。
+
+### victim or affected person/animal as the subject (transitive verb)
+
+- 隣の人がピアノを弾いています。(私はうるさくて勉強できません。)
+  * (私は)隣の人にピアノを弾かれて、うるさくて勉強できません。
+- ゆうべ弟はテレビゲームをしました。(私は寝られませんでした。)
+  * (私は)ゆうべ弟にテレビゲームをされて、寝られませんでした。
+- 隣の人がたばこを吸っています。(私は気分が悪くなりました。
+  * (私は)隣の人にたばこを吸われて、気分が悪くなりました。
+
+### non-sentient subject being affected
+
+- A + を + V (intransitive verb) -> A + が + Vられる (passive verb)
+- 2024年にパリでオリンピック大会を開きました。
+  * 2024年にパリでオリンピック大会が開かれました。
+- 地方ではいろいろな伝統行事を行っています。
+  * 地方ではいろいろな伝統行事が行われています。
+- 三百年ぐらい前にこの神社を建てました。
+  * 三百年ぐらい前にこの神社が建てられました。
+- 中国の工場で日本の電子機器を組み立てています。
+  * 中国の工場で日本の電子機器が組み立てられています。
+- 日本の若い人たちはその歌を歌っています。
+  * その歌は日本の若い人たちに歌われています。
+- 国民は国の古い文化を大切にしています。
+  * 国の古い文化は国民に大切にされています。
+- 外国人は京都の金閣寺をよく知っています。
+  * 京都の金閣寺は外国人によく知られています。
+- トヨタは新型車を発売しました。
+  * トヨタから新型車が発売されました。
