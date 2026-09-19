@@ -1317,8 +1317,10 @@ ____
   * 乾かす (かわかす) - to dry
 - 変わる (かわる) - to change
   * 変える (かえる) - to change
-- 決まる (きまる) - to be decided
-  * 決める (きめる) - to decide
+- 決まる (きまる) - to be decided; to be well executed (of a manoeuvre in a
+  sport, game, etc.); to look good (of clothing)
+  * 決める (きめる) - to decide; to carry out successfully (a move in sports, a
+    pose in dance, etc.); to dress up
 - 壊れる (こわれる) - to break; to be broken; to be damaged
   * 壊す (こわす) - to break; to destory
 - 下がる (さがる) - to come down; to go down; to fall; to hang; to move back
