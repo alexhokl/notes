@@ -2987,6 +2987,8 @@ and intention)
 - doer + は + receiver + に + object + を + Vてあげる
 - doer + は + receiver の + object + を + Vてあげる
 - doer + は + receiver + を + Vてあげる
+- depending on the verb, sometimes を should be used instead of に
+  * for example 迎える
 - 私は山田さんに中国語を教えてあげます。
 - 私は友達に恋人の写真を見せてあげました。
 - 陳さんは友達にコンサートのチケットを買ってあげました。
@@ -3005,6 +3007,8 @@ and intention)
 - doer + は + speaker's in-group + に + object + を + Vてくれる
 - doer + は + speaker's in-group の + object + を + Vてくれる
 - doer + は + speaker's in-group + を + Vてくれる
+- depending on the verb, sometimes を should be used instead of に
+  * for example 迎える
 - 野村さんは私にパソコンの使い方を教えてくれました。
 - 警官(けいかん)は弟と妹に交通規則(こうつうきそく)を説明(せつめい)してくれました。
 - 陳さん、カメラを貸(か)してくれませんか。
@@ -3027,6 +3031,8 @@ and intention)
 - receiver + は + doer + に/から + Vてもらう
 - usually at receiver's the request or receiver gains an advantage from the action
 - if doer is an organisation, から is used instead of に
+- depending on the verb, sometimes を should be used instead of に
+  * for example 迎える
 - 姉は田中さんの奥さんにスキヤキの作り方を教えてもらいました。
 - 東京へ行ったとき、友達に東京の町を案内してもらいました。
 - 李さんは野村さんに言葉の意味を説明(せつめい)してもらいました。
@@ -3035,6 +3041,14 @@ and intention)
 - 私は田中さんに写真を撮ってもらいました。
 - 友達に本を貸してもらいました。
   * 友達に本を借りました。 (stating a simple fact)
+
+### asking for a service
+
+- Vて + くれませんか。 (asking subbordinate to do something)
+- Vて + もらえますか。
+- Vて + いただけますか。 (keigo)
+- 写真を撮ってもらえますか。
+- 写真を撮っていただけますか。
 
 ### expressing reasons
 
@@ -3049,7 +3063,7 @@ and intention)
 - 質問が難しくて答えられませんでした。
 - 説明(せつめい)が複雑(ふくざつ)で全然分かりません。
 - このスープは熱くて飲めません。
-- 川の水がひどく汚れて魚が死にました。
+- 川の水がひどく汚(よご)れて魚が死にました。
 - 地震で古いビルが倒(たお)れました。
 - 戦争(せんそう)で人が大勢死にました。
 - ❌今日は疲れて早く寝ます。 (intension cannot be used)
@@ -3060,6 +3074,8 @@ and intention)
 - 私は字が下手で恥ずかしいです。
 - 言葉が分からなくて困りました。
 - 私は昨日風邪で学校を休みました。
+- 風邪を引いて、学校を休みました。
+- あの漫画は面白くて、最後まで読んでしまった。
 
 ### surprise, dissatisfaction, or disappointment to a result different from expectation
 
@@ -3078,6 +3094,13 @@ and intention)
 - 明日試験があるのに、あの人は遊んでいます。
 - あの人は歌が上手なのに、あまり歌いません。
 - もうお昼(ひる)なのに、あの人はまだ寝ています。
+- ❌私の部屋は狭いのに、明るいです。
+  * ⭕️私の部屋は狭いが、明るいです。
+- お金を入れても、飲み物が出ませんでした。 (unexpected but no disappointment)
+  * お金を入れのに、飲み物が出ませんでした。 (unexpected and disappointment)
+- ❌大雨が降っているのに、私は出かけます。 (intension cannot be used)
+  * ⭕️大雨が降っていますが、私は出かけます。
+  * ⭕️大雨が降っていても、私は出かけます。
 
 ### condition and consequences in the past
 
