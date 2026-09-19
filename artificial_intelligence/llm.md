@@ -14,6 +14,8 @@
     + [Top-P](#top-p)
   * [Prompt engineering](#prompt-engineering)
     + [Tips](#tips)
+  * [Google AI Edge Gallery](#google-ai-edge-gallery)
+    + [Agent Skills](#agent-skills)
 ____
 
 # Large Language Models (LLMs)
@@ -244,4 +246,36 @@ In prompt engineering, role playing is a way to give context to the model.
   a trick can be used is that to ask the model to summarise the conversation so
   far and store the summary to database storage and replay it later.
 
+## Google AI Edge Gallery
 
+### Agent Skills
+
+- `SKILL.md` inside a kebab-case folder (`some-skill-name`)
+- skill types
+  * text-only
+  * [JavaScript](https://github.com/google-ai-edge/gallery/blob/main/skills/README.md#javascript-js-skills)
+    + logic runs in a hidden webview via `window['ai_edge_gallery_get_result']`
+      in `scripts/index.html`; can return text, base64 image or inline webview
+  * native
+    + uses `run_intent` tool (e.g. `send_email`, `send_text_message`);
+      new intents require app source code changes
+
+#### Installation
+
+##### Transfer from a local machine
+
+```sh
+adb push my-js-skill/ /sdcard/Download/
+```
+
+In Google AI Edge Gallery app,
+
+Agent Skills use case
+-> `Skills` chip
+-> `(+)` button
+-> `Import local skill`
+-> pick the folder containing `SKILL.md`
+
+##### Pull from web
+
+- host the skill folder on a URL and use `Load skill from URL`
