@@ -1399,6 +1399,7 @@ ____
 - 払う (はらう) - to pay; to wipe away
 - 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
   (a taxi);
+- 褒める (ほめる) - to praise
 - 迎える (むかえる) - to welcome; to greet
 
 ### verb (intransitive)
@@ -1848,6 +1849,7 @@ ____
 - 抱く (だく) - to hold in one's arms; to have (a thought or feeling); to hold
 - 誘う (さそう) - to invite; to ask (someone to do); to tempt; to induce (tears,
   laughter, etc.)
+- しかる - to scold; aka 叱る
 - しまう - to end up; to close (a business, etc); to put away; to store; aka 仕舞う
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
