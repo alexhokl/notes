@@ -1375,6 +1375,7 @@ ____
 - 受ける (うける) - to receive; to take (an exam / a lesson)
 - 選ぶ (えらぶ) - to choose
 - 送る (おくる) - to send; to escort; to say goodbye to; to dispatch
+- 行う (おこなう) - to perform; to do; to conduct oneself; to carry out
 - 思う (おもう) - to consider; to plan (on a general topic)
 - 飾る (かざる) - to decorate; to display
 - 考える (かんがえる) - to think (on a specific topic)
