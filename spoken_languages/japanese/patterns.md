@@ -229,6 +229,10 @@
     + [victim or affected person/animal as the subject (intransitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-intransitive-verb)
     + [victim or affected person/animal as the subject (transitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-transitive-verb)
     + [non-sentient subject being affected](#non-sentient-subject-being-affected)
+    + [to convey the content of a command, instruction, or advice](#to-convey-the-content-of-a-command%2C-instruction%2C-or-advice)
+    + [to express opinion, conclusion, or guess based on objective situations or grounds](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations-or-grounds)
+    + [to express opinion, conclusion, or guess based on information or news from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-information-or-news-from-other-people)
+    + [a more casual way of saying not exist](#a-more-casual-way-of-saying-not-exist)
 ____
 
 ## Chapter 1
@@ -3188,6 +3192,8 @@ and intention)
   * ❌友達は私に映画に誘われました。 (actioner cannot be the speaker)
 - 私は子供をほめました。
   * ❌子供は私にほめられました。 (actioner cannot be the speaker)
+- 先生は私をほめました。
+  * 私は先生にほめられました。
 
 ### human or animal subject being affected by a request or question
 
@@ -3201,6 +3207,8 @@ and intention)
   * は先生に難しい質問をされました。
 - 昨日、外国人が私に道を聞きました。
   * 昨日、私は外国人に道を聞かれました。
+- 父は私に「すぐ国へ帰りなさい。」と言いました。
+  * 私は父に「すぐ国へ帰りなさい。」と言われました。
 
 ### human or animal subject being adversely affected
 
@@ -3216,6 +3224,8 @@ and intention)
   * 私は弟にパソコンを壊されました。
 - 誰かが私の足を踏みました。
   * ❌私の足を誰かに踏まれました。 (only sentient subject can be used)
+- 隣の人がピアノを弾くと、私はうるさくて勉強できません。
+  * (私は)隣の人にピアノを弾かれると、うるさくて勉強できません。
 
 ### victim or affected person/animal as the subject (intransitive verb)
 
@@ -3229,6 +3239,8 @@ and intention)
   * 山田さんは去年妻に死なれて、悲しかったです。
 - 友達が私の家に一週間もいました。(私は困りました。)
   * (私は)友達に家に一週間もいられて、困りました。
+- 雨が降ったので、私は困りました。
+  * (私は)雨に降られて、困りました。
 
 ### victim or affected person/animal as the subject (transitive verb)
 
@@ -3238,9 +3250,12 @@ and intention)
   * (私は)ゆうべ弟にテレビゲームをされて、寝られませんでした。
 - 隣の人がたばこを吸っています。(私は気分が悪くなりました。
   * (私は)隣の人にたばこを吸われて、気分が悪くなりました。
+- 兄は私のケーキを食べてしまいました。
+  * (私は)兄にケーキを食べられてしまいました。
 
 ### non-sentient subject being affected
 
+- to state public or social matters objectively
 - A + を + V (intransitive verb) -> A + が + Vられる (passive verb)
 - 2024年にパリでオリンピック大会を開きました。
   * 2024年にパリでオリンピック大会が開かれました。
@@ -3258,3 +3273,47 @@ and intention)
   * 京都の金閣寺は外国人によく知られています。
 - トヨタは新型車を発売しました。
   * トヨタから新型車が発売されました。
+- 毎年三月に卒業式(そつぎょうしき)を行(おこな)います。
+  * 每年三月に卒業式が行われます。
+
+### to convey the content of a command, instruction, or advice
+
+- Vる + ように + (と) + ...
+- Vない + ように + (と) + ...
+- 医者に野菜をたくさん食べるようにと言われました。
+- 会社を休むときは、必ず電話で連絡するようにと課長に注意されました。
+- 子どもの時、よく先生に字をきれいに書くようにと言われました。
+- 先生は発表の時は大きい声で話すようにと生徒に言いました。
+- 先生は生徒に一週間でひらがなを全部覚えるようにと要求しました。
+- 政府は運転するなら、お酒を飲まないようにと呼びかけています。
+- 寝坊をしないようにと何回も注意していたのに、息子は今朝また授業(じゅぎょう)に遅(おく)れました。
+- 初めて1人で外国旅行をする息子にパスポートをなくさないように、何度も注意しました。
+- 先生は学生に日本語で話すようにと言いました。
+- 医者は田中さんにたばこを吸い過ぎないようにと言いました。
+- 私は弟に早くうちへ帰るように言いました。
+
+### to express opinion, conclusion, or guess based on objective situations or grounds
+
+- noun / Na / A / Vる + らしい
+- nounた / Naた / Aかった / Vた + らしい
+- あのレストランはおいしいらしいよ。いつも客がいっぱいいるから。
+- 道を歩いている人は傘をさしていません。雨はもうやんだらしいです。
+- あの仕事は大変らしいです。みんなやりたくないと言っています。
+- 病院は風邪を引いている人で込んでいます。風邪がはやっているらしいです。
+- 道がぬれています。ゆうべ雨が降ったらしいです。
+
+### to express opinion, conclusion, or guess based on information or news from other people
+
+- noun / Na / A / Vる + らしい
+- nounた / Naた / Aかった / Vた + らしい
+- 母の手紙では、国の家族はみんな元気らしいです。
+- 天気予報を見ました。大きい台風が来るらしいです。
+- 北海道はもう寒いらしいです。ストーブを使っていると聞きました。
+- 新聞で読みましたが、この新しい薬は副作用(ふくさよう)が強くてあまりよくないらしいです。
+- あの人はすしを食べません。すしが嫌いらしいです。
+- あの人はマリアさんの恋人らしいです。いつも二人は一緒にいます。
+
+### a more casual way of saying not exist
+
+- 試験は今日じゃありません。明日です。
+
