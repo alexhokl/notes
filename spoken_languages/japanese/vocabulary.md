@@ -1378,6 +1378,7 @@ ____
 - 行う (おこなう) - to perform; to do; to conduct oneself; to carry out
 - 思う (おもう) - to consider; to plan (on a general topic)
 - 飾る (かざる) - to decorate; to display
+- 噛む (かむ) - to bite; to chew
 - 考える (かんがえる) - to think (on a specific topic)
 - 比べる (くらべる) - to compare
 - くれる - to give (from inner circle perspective); aka 呉れる
@@ -1400,6 +1401,7 @@ ____
 - 払う (はらう) - to pay; to wipe away
 - 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
   (a taxi);
+- 踏む (ふむ) - to step on
 - 褒める (ほめる) - to praise
 - 迎える (むかえる) - to welcome; to greet
 
