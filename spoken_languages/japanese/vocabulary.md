@@ -2127,6 +2127,8 @@ ____
 - 涼む (すずむ) - to cool oneself
 - 伸びる (のびる) - to stretch; to extend; to lengthen; to grow (of hair, height,
   grass, etc.); to straighten out
+- ぶつかる - to bump into; to encounter; to meet with; to clash (of opinions,
+  people, or events);
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - もたれる - to lean against; to lean on; aka 凭れる
 - よる - to depend on; to be caused by; to be based on; aka 依る
