@@ -3051,7 +3051,7 @@ and intention)
 - usually at receiver's the request or receiver gains an advantage from the action
 - if doer is an organisation, から is used instead of に
 - depending on the verb, sometimes を should be used instead of に
-  * for example 迎える
+  * for example 迎える, 誘う
 - 姉は田中さんの奥さんにスキヤキの作り方を教えてもらいました。
 - 東京へ行ったとき、友達に東京の町を案内してもらいました。
 - 李さんは野村さんに言葉の意味を説明(せつめい)してもらいました。
