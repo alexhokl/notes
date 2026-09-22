@@ -233,6 +233,13 @@
     + [to express opinion, conclusion, or guess based on objective situations or grounds](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations-or-grounds)
     + [to express opinion, conclusion, or guess based on information or news from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-information-or-news-from-other-people)
     + [a more casual way of saying not exist](#a-more-casual-way-of-saying-not-exist)
+  * [Chapter 22](#chapter-22)
+    + [making someone do something](#making-someone-do-something)
+    + [to be made to do something](#to-be-made-to-do-something)
+    + [changing one thing to another](#changing-one-thing-to-another)
+    + [doing something for the first time](#doing-something-for-the-first-time)
+    + [some](#some)
+    + [regarding](#regarding)
 ____
 
 ## Chapter 1
@@ -3317,3 +3324,42 @@ and intention)
 
 - 試験は今日じゃありません。明日です。
 
+## Chapter 22
+
+### making someone do something
+
+- [conjugation](./conjugation.md)
+- A + は + B + に + Vさせる
+- 先生は私に新聞を読ませました。
+- 父は兄を銀行へ行かせました。
+- 田中さんは面白い話をして、私達を笑(わら)わせました。
+  * 田中さんは面白い話をしました。私達は笑いました。
+
+### to be made to do something
+
+- [conjugation](./conjugation.md)
+- B + は/が + A + に + Vさせられる
+- 私は母に嫌いな人参(にんじん)を食べさせられました。
+- 私は先生に立たされました。
+
+### changing one thing to another
+
+- A + を + B + に + Vる / Vて
+- 英文を日本語に訳(やく)してください。
+- 千円札(さつ)を百円玉(だま)に替えてください。
+
+### doing something for the first time
+
+- Vる + のは + ... + が + 初めてだ。
+- あの大学に合格したのはあなたが初めてです。
+- 新幹線に乗るのは今日が初めてです。
+
+### some
+
+- ... + いくつか + ...
+- 冷蔵庫に卵がいくつかあります。
+
+### regarding
+
+- ... + について + ...
+- あなたの趣味について書きなさい。
