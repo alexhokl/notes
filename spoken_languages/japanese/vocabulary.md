@@ -1396,6 +1396,7 @@ ____
 - 直す (なおす) - to repair; to mend; to fix; to correct (a mistake, bad habit,
   etc.); to put right; to restore; to straighten (e.g. a tie); to tidy up (one's
   hair, make-up, etc.); to heal (usu. written as 治す)
+- 盗む (ぬすむ) - to steal; to plagiarize
 - 乗り換える (のりかえる) - to change (trains, buses, etc.); to transfer
 - 運ぶ (はこぶ) - to carry; to transport; to move
 - 払う (はらう) - to pay; to wipe away
@@ -1857,6 +1858,9 @@ ____
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
 - 進める (すすめる) - to advance; to move forward
+- 叩く (たたく) - to strike; to hit; to beat; to knock; to pound; to bang;
+  to slap; to tap; to clap (one's hands); to play (the drums); to attack; to
+  bash; to criticize; to censure
 - 担当 (たんとう) - being in charge; being responsible
 - 願う (ねがう) - to wish; to hope; to request; to beg
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
@@ -1866,6 +1870,7 @@ ____
 - 減らす (へらす) - to abate; to decrease; to diminish; to shorten
 - 申し込む (もうしこむ) - to apply for
 - もらう - to receive (appreciatively); aka 貰う
+- 破る (やぶる) - to tear; to rip; to break; to destroy
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 - 譲る (ゆずる) - to hand over; to transfer; to give up (e.g. one's seat); to
   give way; to yield
