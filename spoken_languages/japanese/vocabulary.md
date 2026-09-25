@@ -1860,7 +1860,7 @@ ____
 - 進める (すすめる) - to advance; to move forward
 - 叩く (たたく) - to strike; to hit; to beat; to knock; to pound; to bang;
   to slap; to tap; to clap (one's hands); to play (the drums); to attack; to
-  bash; to criticize; to censure
+  bash; to criticize; to censure; 肩を叩く could mean shoulder massage
 - 担当 (たんとう) - being in charge; being responsible
 - 願う (ねがう) - to wish; to hope; to request; to beg
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
@@ -2141,6 +2141,9 @@ ____
 ### verb (transitive and intransitive)
 
 - 思いつく (おもいつく) - to think of; to remember; to recall
+- 敷く (しく) - to spread out (e.g. a futon); to lay out; to impose widely (e.g.
+  martial law); to pin down; to lay (e.g. railway tracks); to deploy (e.g.
+  troops); to spread (e.g. snow); to be propagated; aka 布く, 藉く
 - 蒸す (むす) - to steam (food, towel, etc.)
 
 ### expressions
@@ -3199,6 +3202,8 @@ invite; to ride
 - 平素より (へいそより) - always; usually
 - 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
   shrinking; declining
+- 無駄にする (むだにする) - to render futile; to bring to naught; to waste; to
+  not make good use of
 - メールに返信する (メールにへんしんする) - to reply to an email
 - 申し訳ありません (もうしわけありません) - I'm sorry; it's inexcusable
 - もし良かったら (もしよかったら) - if you don't mind
