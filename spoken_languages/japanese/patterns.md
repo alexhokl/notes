@@ -237,7 +237,7 @@
     + [making someone do something](#making-someone-do-something)
     + [to be made to do something](#to-be-made-to-do-something)
     + [changing one thing to another](#changing-one-thing-to-another)
-    + [doing something for the first time](#doing-something-for-the-first-time)
+    + [doing something for the first time or last time](#doing-something-for-the-first-time-or-last-time)
     + [some](#some)
     + [regarding](#regarding)
 ____
@@ -3329,7 +3329,8 @@ and intention)
 ### making someone do something
 
 - [conjugation](./conjugation.md)
-- A + は + B + に + Vさせる
+- A + は + B + を + Vさせる (transitve or intransitive base verbs)
+- A + は + B + に + object + を + Vさせる (transitive base verbs)
 - 先生は私に新聞を読ませました。
 - 父は兄を銀行へ行かせました。
 - 田中さんは面白い話をして、私達を笑(わら)わせました。
@@ -3348,16 +3349,19 @@ and intention)
 - 英文を日本語に訳(やく)してください。
 - 千円札(さつ)を百円玉(だま)に替えてください。
 
-### doing something for the first time
+### doing something for the first time or last time
 
-- Vる + のは + ... + が + 初めてだ。
+- Vる + のは + ... + timing + が + 初めてだ。
+- Vる + のは + ... + timing + が + 最後だ。
 - あの大学に合格したのはあなたが初めてです。
 - 新幹線に乗るのは今日が初めてです。
 
 ### some
 
 - ... + いくつか + ...
+- ... + 何 + counter + か + ...
 - 冷蔵庫に卵がいくつかあります。
+- あの大学には毎年何人か合格しています。
 
 ### regarding
 
