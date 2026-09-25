@@ -1410,6 +1410,8 @@ ____
 
 - 遅れる (おくれる) - to be late
 - 踊る (おどる) - to dance; to be manipulated
+- 驚く (おどろく) - to be surprised; to be taken aback; to be amazed; to be
+  astonished; to be shocked; to be frightened; to be startled; to be alarmed
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely);
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
@@ -1589,6 +1591,7 @@ ____
 - 順 (じゅん) - order; sorting
 - 順番 (じゅんばん) - order; turn
 - 状況 (じょうきょう) - state of affairs; situation; conditions
+- 冗談 (じょうだん) - joke; jest; funny story
 - 図 (ず) - map; figure; diagram; drawing
 - 太陽 (たいよう) - sun
 - ただ - free of charge; only (adverb); but (conjunction)
@@ -1807,6 +1810,10 @@ ____
   * 沈める (しずめる) - to sink (something); to submerge
 - 空く (すく) - to become less crowded; to become empty
   * 空ける (あける) - to empty; to make space; to vacate
+- 傷つく (きずつく) - to be wounded; to get injured; to get hurt feelings; to get
+  damaged; to get chipped; to get scratched
+  * 傷つける (きずつける) - to wound; to injure; to hurt someone's feelings
+    (pride, etc.); to damage; to chip; to scratch
 - 積もる (つもる) - to pile up; to accumulate
   * 積む (つむ) - to pile up; to accumulate
 - 解ける (とける) - to be solved; to come undone; to melt away; to be resolved
