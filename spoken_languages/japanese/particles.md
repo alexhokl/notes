@@ -30,6 +30,7 @@
     + [も](#%E3%82%82)
     + [だけ](#%E3%81%A0%E3%81%91)
     + [しか](#%E3%81%97%E3%81%8B)
+    + [のみ](#%E3%81%AE%E3%81%BF)
     + [さえ](#%E3%81%95%E3%81%88)
     + [すら](#%E3%81%99%E3%82%89)
     + [くらい](#%E3%81%8F%E3%82%89%E3%81%84)
@@ -786,6 +787,8 @@ ____
     + トムは、ベン`より`背が高い。 - Tom is taller than Ben.
     + トムは、ベン`よりも`背が高い。 - Tom is taller than Ben.
     + トムは、背が (ベン`より`) 高い。 - Tom is taller than Ben.
+    + 月は太陽(たいよう)`より`小さいです。
+    + 太陽より月は小さいです。
   * this pattern focuses on the subject marked by は
 - ...方が...より...
   * this pattern focuses on the dimension being compared
@@ -828,7 +831,7 @@ ____
       as that strawberry.
       + このイチゴは、あのイチゴ`より`大きい。 - This strawberry is bigger than
         that strawberry.
-- when it means "than" and "from"
+- when it means "from"
   * examples
   * この線`より`内側に立ってください。- Please stand inside this line.
   * 六時`より`後なら大丈夫だよ。 - It's okay if it's after six.
@@ -857,6 +860,11 @@ ____
       + １１時`より`会議開始
       + 未明`より`雪が降り続いていますが、午後には止むでしょう。 - It's been
         snowing since dawn, but it will stop in the afternoon.
+      + ⭕️試合は雨のため、定刻`より`遅れて開始された。
+        + ⭕️試合は雨のため、定刻`から`遅れて開始された。
+      + ⭕️会議は定刻`より`早く始まった。 - The meeting started earlier than
+        scheduled.
+        + ❌会議は定刻`から`早く始まった。
   * for sources
     + examples
       + 映画、『千と千尋の神隠し』`より`、『いつも何度でも』。 - From the film
@@ -867,12 +875,18 @@ ____
   * in casual letters
     + examples
       + 海子より - From Umiko
+        + ❌海子から
   * in business writing
     + used with 日頃 (ひごろ) or 平素 (へいそ)
     + examples
       + Thank you very much for your continued support.
         + 日頃`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
         + 平素`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
+  * indicating limits
+    + noun + より + ... + はない
+    + 親(おや)`より`ありがたい存在はない。 (親が一番ありがたい存在だ)
+    + 母の作る料理`より`好きな物はない。 (母の作る料理が一番好きだ)
+    + 彼女は愛情`より`他に何も求めなかった。 (彼女は愛情が一番大事だ)
 
 ## 並列助詞 parallel particles
 
@@ -1650,6 +1664,14 @@ ____
   * ここからは歩いていくしかない。
   * 後少しで完成だ。ここまで来たら、もうやるしかない。
   * 後少しで完成だ。ここまで来たら、もうやるっきゃない。
+
+### のみ
+
+- usages
+  * only
+    + it has the same meaning as だけ but it is more formal and rigid
+      + it is not usually used in casual speech
+    + お支払いは現金のみでお願いします。
 
 ### さえ
 
