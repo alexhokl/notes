@@ -3129,6 +3129,7 @@ ____
 - 振り切る (ふりきる) - to shake off; to break away
 - パクる - to cheat; steal (plagiarize)
 - 見上げる (みあげる) - to look up at
+- 見捨てる (みすてる) - to abandon; to fail; to desert; to forsake
 - 見守る (みまもる) - to watch over; to keep an eye on
 - 召す (めす) - to eat; to drink; to wear; to buy; to call; to summon; to
 invite; to ride
