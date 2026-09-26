@@ -439,7 +439,7 @@ ____
 - 絵 (え) - picture; drawing; painting; sketch
 - 映画 (えいが) - movie
 - 鉛筆 (えんぴつ) - pencil
-- 音 (おと) - sound; noise
+- 音 (おと) - sound; noise (from non-living things)
 - 男 (おとこ) - male
 - 男の子 (おとこのこ) - boy
 - 大人 (おとな) - adult
