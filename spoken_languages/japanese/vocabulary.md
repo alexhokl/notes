@@ -1540,6 +1540,7 @@ ____
 
 ### nouns
 
+- 愛情 (あいじょう) - love; affection
 - 相手 (あいて) - companion; partner; opponent
 - アルバム - album
 - 息 (いき) - breath
@@ -1784,6 +1785,7 @@ ____
 - 参加 (さんか) - participation
 - サービス - service; assistance; help
 - 出発 (しゅっぱつ) - departure
+- 存在 (そんざい) - existence; being; presence
 - 滞在 (たいざい) - stay
 - 遅刻 (ちこく) - lateness
 - 駐車 (ちゅうしゃ) - parking
@@ -1876,6 +1878,8 @@ ____
 - 含む (ふくむ) - to include; to embrace
 - 減らす (へらす) - to abate; to decrease; to diminish; to shorten
 - 申し込む (もうしこむ) - to apply for
+- 求める (もとめる) - to want; to wish for; to request; to demand ; to look for;
+  to pursue (pleasure)
 - もらう - to receive (appreciatively); aka 貰う
 - 破る (やぶる) - to tear; to rip; to break; to destroy
 - 辞める (やめる) - to resign; to retire; to quit; to leave
