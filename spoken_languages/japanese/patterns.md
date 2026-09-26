@@ -218,7 +218,7 @@
     + [asking for a service](#asking-for-a-service)
     + [expressing reasons](#expressing-reasons)
     + [surprise, dissatisfaction, or disappointment to a result different from expectation](#surprise%2C-dissatisfaction%2C-or-disappointment-to-a-result-different-from-expectation)
-    + [condition and consequences in the past](#condition-and-consequences-in-the-past)
+    + [condition and consequences (unexpected and surprise) in the past](#condition-and-consequences-unexpected-and-surprise-in-the-past)
     + [ask for instruction or advice](#ask-for-instruction-or-advice)
     + [polite way of asking](#polite-way-of-asking)
     + [expressing hope or wish](#expressing-hope-or-wish)
@@ -3121,10 +3121,11 @@ and intention)
   * ⭕️大雨が降っていますが、私は出かけます。
   * ⭕️大雨が降っていても、私は出かけます。
 
-### condition and consequences in the past
+### condition and consequences (unexpected and surprise) in the past
 
 - [たら](./particles.md#%E3%81%9F%E3%82%89)
-- 宝(たから)くじを買ったら、当たりました。
+- ... + たら、 + ... + た。
+- 宝(たから)くじを買ったら、当(あ)たりました。
 - 久(ひさ)しぶりにテニスをしたら、体(からだ)が痛くなりました。
 - 目が覚(さ)めたら、もうお昼(ひる)でした。
 - カーテンを開けたら、外は一面(いちめん)の銀世界(ぎんせかい)でした。
@@ -3134,8 +3135,10 @@ and intention)
 - 日本にいる兄のことを心配しながら地震のニュースを見ていたら、兄から「ぼくは大丈夫だよ」と電話が掛かってきました。
 - 友達に手紙を出したら、すぐ返事が来ました。
 - うちへ帰ったら、手紙が来ていました。
+- ⭕️屋上に上がったら、富士山が見えました。
+  * ❌屋上に上がったら、富士山を見ました。
 
-### ask for instruction or advice
+### ask for instruction or advice for speaker's action
 
 - question word + Vたら + いいですか / いいでしょうか。
 - 入管へ行きたいんですが、どう行ったらいいでしょうか。
@@ -3160,7 +3163,7 @@ and intention)
 ### polite way of asking
 
 - noun / Na / A / V + でしょうか。
-- 何時でしょうか。
+- 今何時でしょうか。
   * 6時半です。
 - 日本留学試験の願書はいつからもらえるでしょうか。
   * 明日からもらえますよ。
@@ -3169,6 +3172,7 @@ and intention)
 
 ### expressing hope or wish
 
+- ... + といい + ...
 - おじいさんの病気が早く治るといいなあ。
 - 学生がもっと積極的(せっきょくてき)だといいのだが。
 - まだ桜が散(ち)っていないといいのですが。
