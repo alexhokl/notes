@@ -2961,6 +2961,8 @@ ____
 - コンサルタント - consultant
 - 職場 (しょくば) - workplace
 - 正社員 (せいしゃいん) - full-time employee
+- 取引先 (とりひきさき) - customer; client; client company; business connection;
+  trade partner
 - 弁護士 (べんごし) - lawyer
 - ものづくり - craftsmanship; making things by hand; aka 物作り
 
