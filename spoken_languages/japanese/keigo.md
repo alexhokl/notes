@@ -24,6 +24,14 @@
     + [casual](#casual-3)
     + [most of the time](#most-of-the-time-3)
     + [formal](#formal-3)
+  * [expressions before making a request](#expressions-before-making-a-request)
+    + [casual](#casual-4)
+    + [most of the time](#most-of-the-time-4)
+    + [formal](#formal-4)
+  * [to accept a proposal](#to-accept-a-proposal)
+    + [casual](#casual-5)
+    + [most of the time](#most-of-the-time-5)
+    + [formal](#formal-5)
 ____
 ____
 # Keigo
@@ -168,24 +176,80 @@ ____
 
 ### casual
 
-- 〜して。
+- Vて。
   * it can sound a bit strong and commanding
   * close friends only
   * ちょっと、そこの醤油取って。
-- 〜してくれない？
+- 〜Vてくれない？
 
 ### most of the time
 
-- 〜してください。
+- 〜Vてください。
   * polite but a little forceable
-- 〜してもらえませんか。
+- 〜Vてもらえませんか。
+  * 先輩と
   * 相談にのってもらえませんか。
-- 〜してくれませんか。
+- 〜Vてくれませんか。
   * same meaning as 〜してもらえませんか
 
 ### formal
 
-- 〜していただけませんか。
+- 〜Vていただけませんか。
+  * 上司と
   * 一人で運ぶには重たくて、一緒に運んでいただけませんか。
   * 大変申し訳ないのですが、手伝ってもらえませんか。
-- 〜していただけるありがたいのですか...。
+- 〜Vていただけるありがたいのですか...。
+
+## expressions before making a request
+
+### casual
+
+- ちょっと...
+  * 友達と
+  * ちょっと、手伝ってくれない？
+- あのさ...
+- 悪いんだけど...
+
+### most of the time
+
+- あの...
+  * 知らない人と
+  * あの...ちょっと道をお聞きしてもいいですか。
+- すみませんが...
+
+### formal
+
+- 申し訳ありませんが...
+  * 申し訳ありませんが、もう少々お待ちください。
+- 恐縮(きょうしゅく)ですが...
+  * こちらの都合で恐縮ですが、日程(にってい)を変更(へんこう)していただけますか。
+- 恐(おそ)れ入(い)りますが...
+  * 店員と
+  * 恐れ入りますが、こちらの紙にお名前とお電話番号を書きください。
+  * 恐れ入りますが、こちらにお名前を書きいただけますか。
+  * お忙しいところ恐れ入りますが、お返事いただけますか。
+
+## to accept a proposal
+
+### casual
+
+- OK。
+- わかった。
+- 了解(りょうかい)。
+
+### most of the time
+
+- わかりました。
+  * most common but avoid using it with superiors
+- 了解です。
+  * 同僚や部下と
+  * 今日の会議の資料、一緒に準備してもらいたいんですが...
+    + あ、了解です。
+
+### formal
+
+- かしこまりました。
+- 承知(しょうち)しました。
+  * これ、お客さんが来る前に片付けてね。
+    + はい、承知しました。
+- 承知いたしました。
