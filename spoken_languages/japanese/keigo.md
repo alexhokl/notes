@@ -32,6 +32,30 @@
     + [casual](#casual-5)
     + [most of the time](#most-of-the-time-5)
     + [formal](#formal-5)
+  * [to confirm](#to-confirm)
+    + [casual](#casual-6)
+    + [most of the time](#most-of-the-time-6)
+    + [formal](#formal-6)
+  * [to ask for permission](#to-ask-for-permission)
+    + [casual](#casual-7)
+    + [most of the time](#most-of-the-time-7)
+    + [formal](#formal-7)
+  * [to communicate your needs](#to-communicate-your-needs)
+    + [casual](#casual-8)
+    + [most of the time](#most-of-the-time-8)
+    + [formal](#formal-8)
+  * [to give an opinion](#to-give-an-opinion)
+    + [casual](#casual-9)
+    + [most of the time](#most-of-the-time-9)
+    + [formal](#formal-9)
+  * [to say no](#to-say-no)
+    + [casual](#casual-10)
+    + [most of the time](#most-of-the-time-10)
+    + [formal](#formal-10)
+  * [to point out mistakes](#to-point-out-mistakes)
+    + [casual](#casual-11)
+    + [most of the time](#most-of-the-time-11)
+    + [formal](#formal-11)
 ____
 ____
 # Keigo
@@ -253,3 +277,147 @@ ____
   * これ、お客さんが来る前に片付けてね。
     + はい、承知しました。
 - 承知いたしました。
+
+## to confirm
+
+### casual
+
+- ？
+- でいい？
+
+### most of the time
+
+- 〜でいいですか。
+- 〜で合っていますか。
+  * すみません、森ビルってこの建物で合っていますか。
+- 〜で大丈夫ですか。
+
+### formal
+
+- 〜でお間違いないでしょうか。
+  * こちらの商品でお間違いないでしょうか。
+  * こちらのサイズでお間違いないでしょうか。
+- 〜でよろしいでしょうか。
+  * こちらの商品でよろしいでしょうか。
+  * 中は満席なので外のお席でもよろしいでしょうか。
+
+## to ask for permission
+
+### casual
+
+- Vていい？
+  * このペン、借りていい？
+
+### most of the time
+
+- Vてもいいですか。
+  * 明日のゼミ、休んでもいいですか。
+
+### formal
+
+- Vさせていただいてもよろしいでしょうか。
+- Vさせていただいても問題ないでしょうか。
+- ❌本日はこちらのセミナーに参加させていただいて、お話を聞かせていただき、たくさんのことを勉強させいただきました。 (too much keigo used)
+- ⭕本日はこちらのセミナーに参加し、お話を聞かせていただき、たくさんのことを勉強させていただきました。 (use keigo in the most important action)
+- お客様、一度カードをお預(あず)かりさせていただいてもよろしいでしょうか。
+
+## to communicate your needs
+
+### casual
+
+- Vたい。
+
+### most of the time
+
+- Vたいです。
+
+### formal
+
+- 〜できればと思います。
+- 〜で切ればと存(ぞん)じます。
+- Vさせていただければと思います。
+- Vさせていただければと存じます。
+- Vさせていただきたいと思っております。
+  * 思っております is keigo of 思っています
+  * 新商品の企画(きかく)はどう？順調(じゅんちょう)？
+    + 少し問題がありまして...その件(けん)については、来週ご相談(そうだん)させていただきたいと思っております。
+- all of the above have the meaning of asking for permission
+  * even for situations of talking to someone requires respect, Vたいです。
+    would be better
+    + 何か食べましょうか。
+      + ⭕️そばを食べたいです。
+      + ❌そばを食べられればと思います。
+
+## to give an opinion
+
+### casual
+
+- Vた方がいいよ。
+- 〜何(なん)じゃない？
+
+### most of the time
+
+- Vた方がいいと思います。
+- Vるべきだと思います。
+  * 売り上げを上げるために、もっとSNSに力を入れるべきだと思うのですが、いかがでしょうか。
+- 〜ではないですか。
+- 〜じゃありませんか。
+
+### formal
+
+- Vたらどうかと思うんですが...
+  * 毎朝、仕事を始める前にみんなで体操をしたらどうかと思うんですが。
+- Vるのはいかがでしょうか...
+- 〜が良いかと思います。
+
+## to say no
+
+### casual
+
+- 〜できない。
+- Vれない。
+- ごめん。
+
+### most of the time
+
+- 〜できないと思います。
+- すみません。 (this serves refusal already but it could be a bit too direct)
+- すみません + 理由 + お礼
+  * すみません、今日は用事があるのでいけないんです。でも誘ってくれてありがとございます。またいきましょう！
+  * すみません、今日はちょっと体調が悪くて...誘ってくださってありがとうございます。
+
+### formal
+
+- (ちょっと)難しいです。
+- (ちょっと)厳しいです。
+  * この資料、明日の朝までに完成できる？
+    + 明日の朝はちょっと...厳しいと思います。十二時までにはできます。
+  * これ、もう少し安くできないですか。
+    + いやぁ...ちょっと厳しいです。
+- both means 絶対にできない
+
+## to point out mistakes
+
+### casual
+
+- 間違ってるよ。
+  * この問題の答えは、二番かな。
+    + え？それ間違ってるよ。
+
+### most of the time
+
+- 間違っていると思います。
+- 〜だと思います。
+  * これってここに置いていいんだっけ？
+    + いや、それは左の棚だと思います。
+
+### formal
+
+- おそらく、〜かと思います。
+  * おそらく is similar to 多分
+  * か similar to だろうか (although I am not certain)
+    + which is less direct than using 〜だと思います。
+  * 〜かもしてない or 〜かなと思います can also be used
+  * 予約のお客様、18時にいらっしゃるんだっけ？
+    + いや、おそらく19時にいらっしゃるかと思います。
+  * おそらく、ここは一番が正しい答えかと思います。
