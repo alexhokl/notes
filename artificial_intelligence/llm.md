@@ -16,6 +16,7 @@
     + [Tips](#tips)
   * [Google AI Edge Gallery](#google-ai-edge-gallery)
     + [Agent Skills](#agent-skills)
+  * [Inferencing](#inferencing)
 ____
 
 # Large Language Models (LLMs)
@@ -279,3 +280,23 @@ Agent Skills use case
 ##### Pull from web
 
 - host the skill folder on a URL and use `Load skill from URL`
+
+## Inferencing
+
+- parallisms
+  * data parallelism
+  * pipeline parallelism
+  * tensor parallelism
+  * expert parallelism
+    + for MoE (Mixture of Experts) models, only a subset of experts are used for
+      each input, hence the model is more efficient and faster
+- prefill/decode disaggregation
+  * prefill
+    + process input prompt in parallel using a fixed set of model weights to
+      compute the KV cache for the decoder
+    + compute-bound
+  * decode
+    + to build a response using the whole KV cache
+    + memory-bound
+  * KV cache
+    + buffer between prefill and decode
