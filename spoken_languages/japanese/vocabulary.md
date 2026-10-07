@@ -1940,6 +1940,7 @@ ____
 
 ### adjectives (な)
 
+- 曖昧 (あいまい) - vague; ambiguous; unclear
 - おしゃれ - fashionable; stylish; trendy; aka お洒落
 - 透明 (とうめい) - transparent
 - 真っ白 (まっしろ) - pure white; snowy white
@@ -1993,6 +1994,7 @@ ____
 ### nouns (academic)
 
 - 学科 (がっか) - subject (of study); department (of a university)
+- ゼミ - seminar (abbreviation)
 
 ### nouns (home)
 
@@ -2124,18 +2126,22 @@ ____
 
 ### verb (transitive)
 
+- 預かる (あずかる) - to look after; to take care of; to keep; to hold on to;
+  to take upon oneself (to do); to settle (a matter) oneself
 - 温める (あたためる) - to warm (up); to heat (up); to sit on (an idea, plan,
   etc.)
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 可愛がる (かわいがる) - to be affectionate to; to cherish; to show favoritism to
 - 蹴る (ける) - to kick; to refuse
 - 探る (さぐる) - to feel around for; to grope for
+- 存じる (ぞんじる) - to know; to be aware (of); to be acquainted (with); to
+  think; to consider; to believe; to feel (humble language)
 - 取り入れる (とりいれる) - to take in; to adopt (an idea); to harvest
-- 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
-  (e.g. an opportunity)
 - 拭く (ふく) - to wipe; to dry
 - 増やす (ふやす) - to increase; to add to; to augment; aka 殖やす
 - 干す (ほす) - to air; to dry; to hang dry
+- 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
+  (e.g. an opportunity)
 
 ### verb (intransitive)
 
@@ -2434,6 +2440,7 @@ ____
 ### adjectives (な)
 
 - お得 (おとく) - bargain; good value
+- カジュアル - casual
 - ご迷惑 (ごめいわく) - trouble; annoyance
 - まじ - serious; not joking
 - みたい - -like; sort of; similar to
