@@ -2162,6 +2162,7 @@ ____
 - 敷く (しく) - to spread out (e.g. a futon); to lay out; to impose widely (e.g.
   martial law); to pin down; to lay (e.g. railway tracks); to deploy (e.g.
   troops); to spread (e.g. snow); to be propagated; aka 布く, 藉く
+- 迫る (せまる) - to approach
 - 蒸す (むす) - to steam (food, towel, etc.)
 
 ### expressions
@@ -2373,6 +2374,7 @@ ____
 - 甘える (あまえる) - to behave like a spoiled child
 - 受かる (うかる) - to pass (e.g. exam)
 - もめる - to disagree; to dispute; to fight (over); aka 揉める
+- 役立つ (やくだつ) - to be useful
 
 ### verb pairs (intransitive and transitive)
 
