@@ -1757,6 +1757,7 @@ ____
 - 建築 (けんちく) - architecture; construction
 - 我慢 (がまん) - patience
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
+- 招待 (しょうたい) - invitation
 - 承認 (しょうにん) - approval; acknowledgment; consent
 - 準備 (じゅんび) - preparation; arrangements
 - 世話 (せわ) - care; looking after; help; support
