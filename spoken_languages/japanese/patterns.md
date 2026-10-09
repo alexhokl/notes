@@ -217,9 +217,9 @@
     + [someone got some service from someone else](#someone-got-some-service-from-someone-else)
     + [asking for a service](#asking-for-a-service)
     + [expressing reasons](#expressing-reasons)
-    + [surprise, dissatisfaction, or disappointment to a result different from expectation](#surprise%2C-dissatisfaction%2C-or-disappointment-to-a-result-different-from-expectation)
+    + [even though](#even-though)
     + [condition and consequences (unexpected and surprise) in the past](#condition-and-consequences-unexpected-and-surprise-in-the-past)
-    + [ask for instruction or advice](#ask-for-instruction-or-advice)
+    + [ask for instruction or advice for speaker's action](#ask-for-instruction-or-advice-for-speaker%27s-action)
     + [polite way of asking](#polite-way-of-asking)
     + [expressing hope or wish](#expressing-hope-or-wish)
   * [Chapter 21](#chapter-21)
@@ -3096,7 +3096,7 @@ and intention)
 - 風邪を引いて、学校を休みました。
 - あの漫画は面白くて、最後まで読んでしまった。
 
-### surprise, dissatisfaction, or disappointment to a result different from expectation
+### even though
 
 - [のに](./particles.md#%E3%81%AE%E3%81%AB)
 - もう秋なのに、涼しくなりません。
