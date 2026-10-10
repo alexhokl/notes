@@ -225,7 +225,7 @@
   * [Chapter 21](#chapter-21)
     + [human or animal subject being affected](#human-or-animal-subject-being-affected)
     + [human or animal subject being affected by a request or question](#human-or-animal-subject-being-affected-by-a-request-or-question)
-    + [human or animal subject being adversely affected](#human-or-animal-subject-being-adversely-affected)
+    + [human or animal subject being affected](#human-or-animal-subject-being-affected-1)
     + [victim or affected person/animal as the subject (intransitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-intransitive-verb)
     + [victim or affected person/animal as the subject (transitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-transitive-verb)
     + [non-sentient subject being affected](#non-sentient-subject-being-affected)
@@ -3221,33 +3221,35 @@ and intention)
 - 父は私に「すぐ国へ帰りなさい。」と言いました。
   * 私は父に「すぐ国へ帰りなさい。」と言われました。
 
-### human or animal subject being adversely affected
+### human or animal subject being affected
 
-- A + は + B + の + all things / part of body + を + V (transitive verb)
-  -> B は + A + に + all things / part of body + を + Vられる (passive verb)
+- A + は + B + の + all things / part of body of B + を + V (transitive verb)
+  -> B は + A + に + all things / part of body of B + を + Vられる (passive verb)
 - その犬は郵便屋(ゆうびんや)さんの手をかみました。
   * 郵便屋さんはその犬に手をかまれました。
-- 誰かが私のキャッシュカードをとりました。
-  * 私は誰かにキャッシュカードをとられました。
+- 誰かが私のキャッシュカードを取りました。
+  * 私は誰かにキャッシュカードを取られました。
 - 彼氏(かれし)は私のスマホを見ました。
   * 私は彼氏にスマホを見られました。
 - 弟は私のパソコンを壊(こわ)しました。
   * 私は弟にパソコンを壊されました。
 - 誰かが私の足を踏みました。
   * ❌私の足を誰かに踏まれました。 (only sentient subject can be used)
+  * ⭕️私は誰かに足を踏まれました。
 - 隣の人がピアノを弾くと、私はうるさくて勉強できません。
   * (私は)隣の人にピアノを弾かれると、うるさくて勉強できません。
 
 ### victim or affected person/animal as the subject (intransitive verb)
 
+- (A + は +) B + に + Vられて、...
 - 今朝は突然(とつぜん)雨が降りました。(私は困りました。)
   * (私は)今朝は突然雨に降られて、困りました。
 - 好きな女の子はほかの人と結婚しました。(私は落ち込んでいます。)
   * (私は)好きな女の子にほかの人と結婚されて、落ち込んでいます。
 - 試験の前の日、友達が来ました。(私は勉強できませんでした。)
-  * 試験の前の日、(私は)友達に来られて、勉強できませんでした。
-- 山田さんの妻が去年死にました。(山田さんは悲しかったです。)
-  * 山田さんは去年妻に死なれて、悲しかったです。
+  * 試験の前の日、(私は)友達に来(こ)られて、勉強できませんでした。
+- 山田さんの妻(つま)が去年死にました。(山田さんは悲しかったです。)
+  * 山田さんは去年妻に死なれて、悲(かな)しかったです。
 - 友達が私の家に一週間もいました。(私は困りました。)
   * (私は)友達に家に一週間もいられて、困りました。
 - 雨が降ったので、私は困りました。
@@ -3255,6 +3257,7 @@ and intention)
 
 ### victim or affected person/animal as the subject (transitive verb)
 
+- (A + は +) B + に + object + を + Vられて、...
 - 隣の人がピアノを弾いています。(私はうるさくて勉強できません。)
   * (私は)隣の人にピアノを弾かれて、うるさくて勉強できません。
 - ゆうべ弟はテレビゲームをしました。(私は寝られませんでした。)
@@ -3263,6 +3266,8 @@ and intention)
   * (私は)隣の人にたばこを吸われて、気分が悪くなりました。
 - 兄は私のケーキを食べてしまいました。
   * (私は)兄にケーキを食べられてしまいました。
+- うちの前に(誰かに)高いビルを建てられて、日が当たらなくなりました。
+  * ❌うちの前に高いビルに建てられて、日が当たらなくなりました。
 
 ### non-sentient subject being affected
 
