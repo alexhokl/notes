@@ -43,10 +43,12 @@
     + [noun prefixes](#noun-prefixes)
     + [noun suffixes](#noun-suffixes)
     + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive)
+    + [sentient transitive する-verbs](#sentient-transitive-%E3%81%99%E3%82%8B-verbs)
     + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive)
     + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive)
     + [verb (transitive)](#verb-transitive)
+    + [sentient transitive verb](#sentient-transitive-verb)
     + [verb (intransitive)](#verb-intransitive)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive)
     + [expressions](#expressions)
@@ -82,10 +84,12 @@
     + [nouns (web)](#nouns-web-1)
     + [noun suffixes](#noun-suffixes-1)
     + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-1)
+    + [sentient transitive する-verbs](#sentient-transitive-%E3%81%99%E3%82%8B-verbs-1)
     + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-1)
     + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-1)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-1)
     + [verb (transitive)](#verb-transitive-1)
+    + [sentient transitive verb](#sentient-transitive-verb-1)
     + [verb (intransitive)](#verb-intransitive-1)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-1)
     + [expressions](#expressions-1)
@@ -121,10 +125,12 @@
     + [nouns (web)](#nouns-web-2)
     + [noun suffixes](#noun-suffixes-2)
     + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-2)
+    + [sentient transitive する-verbs](#sentient-transitive-%E3%81%99%E3%82%8B-verbs-2)
     + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-2)
     + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-2)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-2)
     + [verb (transitive)](#verb-transitive-2)
+    + [sentient transitive verb](#sentient-transitive-verb-2)
     + [verb (intransitive)](#verb-intransitive-2)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-2)
     + [expressions](#expressions-2)
@@ -162,10 +168,12 @@
     + [nouns (web)](#nouns-web-3)
     + [noun suffixes](#noun-suffixes-3)
     + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-3)
+    + [sentient transitive する-verbs](#sentient-transitive-%E3%81%99%E3%82%8B-verbs-3)
     + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-3)
     + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-3)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-3)
     + [verb (transitive)](#verb-transitive-3)
+    + [sentient transitive verb](#sentient-transitive-verb-3)
     + [verb (intransitive)](#verb-intransitive-3)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-3)
     + [expressions](#expressions-3)
@@ -201,9 +209,11 @@
     + [nouns (health)](#nouns-health-4)
     + [noun suffixes](#noun-suffixes-4)
     + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-4)
+    + [sentient transitive する-verbs](#sentient-transitive-%E3%81%99%E3%82%8B-verbs-4)
     + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-4)
     + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-4)
     + [verb (transitive)](#verb-transitive-4)
+    + [sentient transitive verb](#sentient-transitive-verb-4)
     + [verb (intransitive)](#verb-intransitive-4)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-4)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-4)
@@ -253,10 +263,12 @@
     + [noun prefixes](#noun-prefixes-1)
     + [noun suffixes](#noun-suffixes-5)
     + [する verb (transitive)](#%E3%81%99%E3%82%8B-verb-transitive-5)
+    + [sentient transitive する-verbs](#sentient-transitive-%E3%81%99%E3%82%8B-verbs-5)
     + [する verb (intransitive)](#%E3%81%99%E3%82%8B-verb-intransitive-5)
     + [する verb (transitive and intransitive)](#%E3%81%99%E3%82%8B-verb-transitive-and-intransitive-5)
     + [verb pairs (intransitive and transitive)](#verb-pairs-intransitive-and-transitive-5)
     + [verb (transitive)](#verb-transitive-5)
+    + [sentient transitive verb](#sentient-transitive-verb-5)
     + [verb (intransitive)](#verb-intransitive-5)
     + [verb (transitive and intransitive)](#verb-transitive-and-intransitive-5)
     + [onomatopoeia](#onomatopoeia-4)
@@ -814,6 +826,8 @@ ____
 - 料理 (りょうり) - cooking
 - 練習 (れんしゅう) - practice
 
+### sentient transitive する-verbs
+
 ### する verb (intransitive)
 
 - 結婚 (けっこん) - marriage
@@ -935,9 +949,12 @@ ____
   looked at (by a doctor); to take (someone) to a doctor (also written as
   診せる)
 - 持つ (もつ) - to hold; to carry; to possess
-- 呼ぶ (よぶ) - to call; to invite; to summon
 - 読む (よむ) - to read
 - 忘れる (わすれる) - to forget
+
+### sentient transitive verb
+
+- 呼ぶ (よぶ) - to call; to invite; to summon
 
 ### verb (intransitive)
 
@@ -1272,7 +1289,6 @@ ____
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 試合 (しあい) - match; game
 - 試験 (しけん) - exam
-- 紹介 (しょうかい) - introduction; presentation; referral; showcase (of a product)
 - チェック - check; inspection; marking with a check
 - 泥棒 (どろぼう) - thief; burglar; robber
 - 発音 (はつおん) - pronunciation
@@ -1284,6 +1300,10 @@ ____
 - 予約 (よやく) - reservation; appointment; booking; advance order; contract;
   subscription
 - 予定 (よてい) - plans; arrangement; schedule
+
+### sentient transitive する-verbs
+
+- 紹介 (しょうかい) - introduction; presentation; referral; showcase (of a product)
 
 ### する verb (intransitive)
 
@@ -1392,7 +1412,6 @@ ____
 - 足す (たす) - to add
 - 尋ねる (たずねる) - to ask; to inquire
 - 楽しむ (たのしむ) - to enjoy
-- 手伝う (てつだう) - to help; to contribute to
 - 直す (なおす) - to repair; to mend; to fix; to correct (a mistake, bad habit,
   etc.); to put right; to restore; to straighten (e.g. a tie); to tidy up (one's
   hair, make-up, etc.); to heal (usu. written as 治す)
@@ -1403,6 +1422,10 @@ ____
 - 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
   (a taxi);
 - 踏む (ふむ) - to step on
+
+### sentient transitive verb
+
+- 手伝う (てつだう) - to help; to contribute to
 - 褒める (ほめる) - to praise
 - 迎える (むかえる) - to welcome; to greet
 
@@ -1745,7 +1768,6 @@ ____
 ### する verb (transitive)
 
 - 暗記 (あんき) - memorization
-- 案内 (あんない) - guidance; information
 - 依頼 (いらい) - request; commission; entrusting (with a matter)
 - おしゃべり - chattering; talk; chitchat; gossip; aka お喋り
 - 観光 (かんこう) - sightseeing
@@ -1757,10 +1779,8 @@ ____
 - 建築 (けんちく) - architecture; construction
 - 我慢 (がまん) - patience
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
-- 招待 (しょうたい) - invitation
 - 承認 (しょうにん) - approval; acknowledgment; consent
 - 準備 (じゅんび) - preparation; arrangements
-- 世話 (せわ) - care; looking after; help; support
 - 相談 (そうだん) - consultation; discussion; asking (someone) for advice
 - 中止 (ちゅうし) - cancellation; suspension; stopping
 - 販売 (はんばい) - selling
@@ -1769,6 +1789,12 @@ ____
 - メモ - note
 - 免許 (めんきょ) - license; permit
 - 予報 (よほう) - forecast
+
+### sentient transitive する-verbs
+
+- 案内 (あんない) - guidance; information
+- 招待 (しょうたい) - invitation
+- 世話 (せわ) - care; looking after; help; support
 
 ### する verb (intransitive)
 
@@ -1857,13 +1883,9 @@ ____
 - いただく - to receive; to take (kenjougo form of 貰う); aka 頂く
 - 受け取る (うけとる) - to receive
 - 贈る (おくる) - to give; to present; to award
-- 飼う (かう) - to keep (a pet or other animal); to raise; to feed
 - 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 - 断る (ことわる) - to refuse; to decline; to turn down; to inform
 - 抱く (だく) - to hold in one's arms; to have (a thought or feeling); to hold
-- 誘う (さそう) - to invite; to ask (someone to do); to tempt; to induce (tears,
-  laughter, etc.)
-- しかる - to scold; aka 叱る
 - しまう - to end up; to close (a business, etc); to put away; to store; aka 仕舞う
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
@@ -1886,6 +1908,13 @@ ____
 - 辞める (やめる) - to resign; to retire; to quit; to leave
 - 譲る (ゆずる) - to hand over; to transfer; to give up (e.g. one's seat); to
   give way; to yield
+
+### sentient transitive verb
+
+- 飼う (かう) - to keep (a pet or other animal); to raise; to feed
+- 誘う (さそう) - to invite; to ask (someone to do); to tempt; to induce (tears,
+  laughter, etc.)
+- しかる - to scold; aka 叱る
 
 ### verb (intransitive)
 
@@ -2092,6 +2121,8 @@ ____
 - 受験 (じゅけん) - taking an exam
 - マイナス - minus; negative
 
+### sentient transitive する-verbs
+
 ### する verb (intransitive)
 
 - 往復 (おうふく) - making a round trip
@@ -2132,7 +2163,6 @@ ____
 - 温める (あたためる) - to warm (up); to heat (up); to sit on (an idea, plan,
   etc.)
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
-- 可愛がる (かわいがる) - to be affectionate to; to cherish; to show favoritism to
 - 蹴る (ける) - to kick; to refuse
 - 探る (さぐる) - to feel around for; to grope for
 - 存じる (ぞんじる) - to know; to be aware (of); to be acquainted (with); to
@@ -2143,6 +2173,10 @@ ____
 - 干す (ほす) - to air; to dry; to hang dry
 - 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
   (e.g. an opportunity)
+
+### sentient transitive verb
+
+- 可愛がる (かわいがる) - to be affectionate to; to cherish; to show favoritism to
 
 ### verb (intransitive)
 
@@ -2345,6 +2379,8 @@ ____
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - 保護 (ほご) - protection; safeguard; conservation; preservation
 
+### sentient transitive する-verbs
+
 ### する verb (intransitive)
 
 - 証 (あかし) - proof; evidence; testimony
@@ -2368,6 +2404,8 @@ ____
 - やる - to do; to send; to put; to move; to give (to someone of equal or
   lower status); aka 遣る
 - 予想 (よそう) - expectation; anticipation; prediction; forecast
+
+### sentient transitive verb
 
 ### verb (intransitive)
 
@@ -3088,6 +3126,8 @@ ____
 - 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
   referring to chicken
 
+### sentient transitive する-verbs
+
 ### する verb (intransitive)
 
 - 挨拶 (あいさつ) - greeting; polite set phrase used when meeting or parting
@@ -3133,19 +3173,22 @@ ____
 - こなす - to digest; to break down; to be able to use
 - 立ち食い (たちぐい) - eating while standing
 - 立ち飲み (たちのみ) - drinking while standing; aka 立ち呑み
-- 連れていく (つれていく) - to take (someone to a place); to take (someone) with
-  one
-- 連れてくる (つれてくる) - to bring someone along
-- 連れる (つれる) - to be accompanied by
 - 取り置く (とりおく) - to set aside; to keep it in reserve
 - 振り切る (ふりきる) - to shake off; to break away
 - パクる - to cheat; steal (plagiarize)
 - 見上げる (みあげる) - to look up at
-- 見捨てる (みすてる) - to abandon; to fail; to desert; to forsake
-- 見守る (みまもる) - to watch over; to keep an eye on
 - 召す (めす) - to eat; to drink; to wear; to buy; to call; to summon; to
 invite; to ride
 - 気になる - to weigh on one's mind; to be interested (in)
+
+### sentient transitive verb
+
+- 連れていく (つれていく) - to take (someone to a place); to take (someone) with
+  one
+- 連れてくる (つれてくる) - to bring someone along
+- 連れる (つれる) - to be accompanied by
+- 見捨てる (みすてる) - to abandon; to fail; to desert; to forsake
+- 見守る (みまもる) - to watch over; to keep an eye on
 
 ### verb (intransitive)
 
