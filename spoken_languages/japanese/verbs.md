@@ -38,6 +38,8 @@
   * [てほしい](#%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84)
   * [てみる](#%E3%81%A6%E3%81%BF%E3%82%8B)
   * [てもいい](#%E3%81%A6%E3%82%82%E3%81%84%E3%81%84)
+  * [たて](#%E3%81%9F%E3%81%A6)
+  * [込む](#%E8%BE%BC%E3%82%80)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -1608,3 +1610,52 @@ Note that all other conjugations of 買う use hiragana characters on the
   * お風呂上がりたて
 - usage is different from たばかり where one focuses on freshness and the other
   focuses on the fact that something just happened
+
+## 込む
+
+- compound verb
+  * with movement from non-inward to inward
+    + the prefix verb has no inward meaning, and 込む adds "into"
+    + みんなでプールに飛び込んだ。 (dive into)
+    + 雨が降って来たので、テントに駆け込んだ。 (rush into)
+    + 駆け込み乗車は危険ですのでお止めください。 (rush into)
+    + 寝ている田中さんの耳に牛乳を流し込んだのは誰だ！？ (pour into)
+    + こうやって、塩をお肉によく擦り込んでください。 (rub into)
+    + スパイをライバル会社に送り込んだ。 (send into)
+    + おい！割り込むなよ！ (cut into)
+    + 申し込む (to apply to)
+    + 暴れ込む (to enter someplace suddenly and violently)
+    + 怒鳴り込む (to storm into a place in a rage)
+    + 殴り込む (to make a raid on someplace)
+    + 誘い込む (to lure in)
+    + 丸め込む (to sweet-talk into)
+  * with movement moving even deeper
+    + the prefix verb already has an inward meaning, and 込む makes it extra deep
+    + often has a negative nuance of "not supposed to be doing that"
+    + ここに切り込みを入れてください。 (cut deeply)
+    + 泥棒が家に入り込んだ。 (break into)
+    + 海子はうまく敵陣に潜り込めたようです。 (sneak into)
+    + 「あと五分！」そう言って、勝男さんは布団に潜り込んだ。 (dive into)
+    + 田中さんはオフィスに泊まり込んで、レポートを書いていた。 (stay overnight)
+  * gets enriched
+    + no physical movement; the action prefix verb is emphasised, deepened or
+      made to last longer
+    + ついつい話し込んでしまった。 (talking for a long time)
+    + 知らない間に眠り込んでいた。 (fall asleep quickly)
+    + 眠り込む
+    + そんなところに座り込んで、何してるの？ (staying for a long time)
+    + うわー、ずいぶん老け込んだね。 (Wow, you got really old, huh?)
+    + そっちこそ、かなり禿げ込んでるじゃない。 (You got really bald, too!)
+    + 落ち込んでばかりはいられない。 (to feel down)
+    + 彼は詐欺師のうまい話をすっかり信じ込んでしまい、大金を払ってしまった。
+      (totally believe)
+  * repeated action
+    + the V1 action is repeated of one's own will until the result is
+      satisfactory
+      + often used with training
+    + 走り込む
+    + あのピッチャーは、毎朝五百球投げ込んでから学校に行くそうだ。
+    + この靴、かなり履き込んだからボロボロになってしまった。 (wore a lot)
+    + すごく上達してるじゃん。この曲、ずい分弾き込んだの？
+    + この詩集は子供の頃かなり読み込んだので、まだいくつか暗唱できます。
+    + 友達がしつこく保険を売り込んでくるんです。
