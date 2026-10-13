@@ -17,6 +17,7 @@
   * [Google AI Edge Gallery](#google-ai-edge-gallery)
     + [Agent Skills](#agent-skills)
   * [Inferencing](#inferencing)
+  * [Basic theory](#basic-theory)
 ____
 
 # Large Language Models (LLMs)
@@ -300,3 +301,188 @@ Agent Skills use case
     + memory-bound
   * KV cache
     + buffer between prefill and decode
+
+## Basic theory
+
+Reference: [Language Model Builder](https://languagemodelbuilder.com/)
+
+- ngram
+  * unigram has no context
+    + it only asks which words are common anywhere in the text
+  * bigram uses one previous word, such as `little -> cat`
+  * trigram uses two, such as `the little -> cat`
+- the model only ever has odds
+  * temperature controls how adventurously it picks, with low values
+    concentrating probability around the likeliest word
+  * temperature changes the sampling distribution after those probabilities
+    exist
+    + `adjusted_weight(word) = P(word)^(1/T)`
+- older models either see only a small fixed window or squeeze the past through
+  a sequential running state
+  * the transformer addressed both limitations
+    + attention created direct paths to earlier tokens, and
+    + its training computations could run in parallel across positions
+- attention
+  * each token is first turned into a list of numbers called a vector.
+  * the model then makes three small projections of that vector,
+    + query
+      + what this token is looking for
+    + key
+      + what this other token offers
+    + value
+      + the information this other token can contribute
+  * for every permitted pair of positions, the model compares the query from one
+    token with the key from another
+    + if they line up, the attention score is high
+    + if they do not, the score is low
+    + those scores are turned into weights, and the model uses them to blend
+      together the value vectors from relevant earlier tokens
+    + after attention runs, each token’s vector has been updated with a weighted
+      mixture of information from the context it was allowed to see
+- tokenization
+  * before attention can compare vectors, the raw text has to be chopped into
+    pieces and assigned identifiers, and models don’t chop at word boundaries;
+    their unit of meaning is the token: maybe a whole word, maybe part of one,
+    maybe a punctuation mark or a bit of whitespace
+  * tokenization is the bridge between human text and model math
+  * common words can become one token, while rare words can be split into
+    familiar pieces
+  * byte-pair encoding (BPE) tokenizer works by running merges over enormous
+    amounts of text and it could start with character-level tokens
+    + count adjacent pairs, merge the most frequent one, repeat
+- each token maps to a vector
+- a LLM model embeds vectors
+  * through training, vector of tokens such as "cat" and "dog" will drift closer
+    together and further away from "Paris" or "Rome"
+  * vectors can be used for computation
+    + `king` - `man` + `woman` = `queen` (approximately)
+      + besides `queen` the resultant vector should be close to `daughter` and
+        `princess`
+  * whether two vectors are close or far away can be measured by cosine of the
+    angle between them
+  * besides token embedding, there are also positional embedding to help model
+    to understand the order of tokens in a sequence (or the order of words in a
+    sentence)
+    + in modern LLMs, rotary positional embeddings (RoPE) are used instead of
+      absolute positional embeddings
+      + it rotates the vectors used when tokens compare themselves with one
+        another (such as "three tokens back" instead of "slot 7")
+    + the position (be it asolute or relative) determines the angle of rotation
+      to the token embedding vector
+- transformer
+  * reading vectors and computes predictions for the next token
+  * it is a pipeline
+    + tokenise and embed
+    + run the blocks
+      + a block is one repeating unit of the machine
+        + also known as a transformer block, or a layer
+        + a fixed bundle of arithmetic that takes in the sequence of vectors and
+          hands back the same sequence, slightly improved
+        + it lets the tokens exchange information with each other, then does a
+          bit of processing on each token alone
+    + normalise and score
+      + after the last block, one final normalisation tidies up the numbers, and
+        then a final procjection called the output head gives every token in the
+        vocabulary a score for how likely it is to be the next token
+    + turn scores into odds
+      + squashes the scores into probabilities that sum to 1
+  * attention
+    + each token asks a question (its query), each token advertises what it has
+      to offer (its key), and where a question and an offer line up, information
+      (the value) flows
+    + it all happens as a handful of big matrix multiplications
+    + causal attention
+      + the model is only allowed to look backward
+    + runs as several parallel conversations at once
+      + each conversation is called an attention head
+      + each head gets its own learned slices of the queries, keys, and values,
+        so each is free to detect different relationships
+        + it allows parallelism
+      + after all the heads have done their looking, their results are stitched
+        back together into one vector per token
+    + it is the only place in the entire model where tokens interact with each
+      other
+  * components of neural network
+    + weight matrix
+      + a linear layer mixes a a vector’s entries using a grid of learned
+        numbers
+    + activation function
+      + a non-linear function which is a fixed rule applied to each number
+        between two linear layers
+        + something like "if it’s negative, squash it"
+  * multi-layer perceptron (MLP)
+    + also known as feedforward network
+    + a stack of linear layers and activation functions
+    + while attention moves information (vectors) between positions, MLP
+      transforms information at each position
+    + optimisations to allow multiple layers
+      + residual connections
+        + the model adds the sublayer’s output onto the vector it already had
+      + normalisation
+        + each sublayer gets a small operation right before its input that takes
+          a vector and rescales it to a consistent, well-behaved range
+          + it earns its place because numbers flowing through a deep stack of
+            multiplications like to drift, some exploding and some collapsing
+            toward zero, and once they drift far enough, training falls apart
+    + for each block
+      + normalisation -> attention -> normalisation -> MLP
+  * hyperparameters
+    + number of layers (or blocks) to stack
+      + more blocks means more rounds of refinement and more capacity for
+        complicated patterns
+    + width
+      + how many numbers are in each vector
+    + number of attention heads
+      + how many parallel attention conversations run in each block, splitting
+        the width between them
+    + context length
+      + how many tokens the model can look back over
+    + vocabulary size
+      + how many distinct tokens and it determines the size of the embedding
+        table and output head
+- in the context of mixture of experts (MoE) models, active parameters can be
+  interpreted as how many parameters take part for each token
+- checkpoint
+  * a snapshot of every model parameter
+  * it is written to disk
+  * it also carries the running state of optimizer and a little metadata such as
+    the training step, model shape, tokenizer, and data source
+  * it allows training to be paused and resumed
+- loss
+  * a measure of how well the model is doing
+  * training is about minimising loss
+  * compute using the probability of the correct next token
+  * cross-entropy from Claude Shannon’s information theory
+  * gradient descent is an algorithm to minimise loss
+    + learning rate determines how far it moves downhill in each step
+      + too low it will take forever to reach the bottom
+      + too high it will overshoot and bounce around
+  * the more training completed, the lower the loss in general
+    + when validation loss starts to rise, the model is overfitting
+- behaviour learning
+  * post-training processes
+    + supervised finetuning (SFT)
+      + gives the model example after example
+      + for example, if the model sees that shape often enough, it’ll start
+        treating it as the natural thing to do — so that later, when you prompt
+        it with a `<|user|>` turn, answering as a helpful `<|assistant|>` is
+        simply what it expects to come next
+      + the model is shown the whole exchange instead of just part of a text
+        + loss is only measured on the answer part (not the question part)
+      + suitable for teaching shapes such as formats, styles, and routines
+        + it cannot fill the gaps in board knowledge or reasoning abilities in
+          the base model
+    + direct preference optimization (DPO)
+      + show two answers and human pointing to the better one
+      + it is an alternative to reinforcement learning from human feedback
+        (RLHF)
+      + two models involved
+        + one is a freezed base model
+        + the other is a diverged model (from the freezed base model)
+      + iterate with the following questions to find the loss
+        + How much more likely is the chosen answer now than under the frozen
+          copy?
+        + How much more likely is the rejected answer now than under the frozen
+          copy?
+      + the frozen copy is used to act as an anchor to prevent the diverged
+        model from drifting into some strange text
