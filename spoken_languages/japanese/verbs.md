@@ -50,6 +50,8 @@ ____
 - でございます - polite form of です (usually used in shops to address to
   customers)
 - ちゃう - contraction of てしまう (to do something completely; to end up with)
+- ず - (does) not
+- ぬ - not
 
 # Verb transitivity
 
