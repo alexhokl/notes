@@ -65,8 +65,11 @@ Build the English meaning from the relevant dictionary senses:
   categories to determine or verify the vocabulary section, such as `Noun`,
   `Suru verb`, `Intransitive verb`, `Transitive verb`, or `Expressions (phrases,
   clauses, etc.)`.
-- `jlpt[]` contains JLPT metadata when available. Use it to verify the level,
-  but do not infer a level when Jisho does not provide one.
+- `jlpt[]` contains the JLPT level, such as `jlpt-n3`, which maps to the `N3`
+  section of `vocabulary.md`. Always take the level from this field rather than
+  guessing it. When `jlpt[]` is empty, place the entry under `N0`; do not infer
+  a level. When `jlpt[]` lists several levels, use the easiest one (the
+  highest `N` number). For verb pairs, use the level of the intransitive verb.
 
 Use dictionary senses backed by JMdict. Exclude Wikipedia definitions and other
 non-dictionary senses unless the note explicitly documents that additional
