@@ -3441,3 +3441,4 @@ invite; to ride
 - なんと返事する。 - What to say in response?
 - 何の返事する。 - What is thing to reply to?
 - ほかには?  - anything else?
+- によって - due to; because of; by (means of); depending on; via; aka に因って
