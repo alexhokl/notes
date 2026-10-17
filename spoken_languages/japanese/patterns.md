@@ -3272,25 +3272,44 @@ and intention)
 ### non-sentient subject being affected
 
 - to state public or social matters objectively
-- A + を + V (intransitive verb) -> A + が + Vられる (passive verb)
-- 2024年にパリでオリンピック大会を開きました。
-  * 2024年にパリでオリンピック大会が開かれました。
-- 地方ではいろいろな伝統行事を行っています。
-  * 地方ではいろいろな伝統行事が行われています。
-- 三百年ぐらい前にこの神社を建てました。
-  * 三百年ぐらい前にこの神社が建てられました。
-- 中国の工場で日本の電子機器を組み立てています。
-  * 中国の工場で日本の電子機器が組み立てられています。
-- 日本の若い人たちはその歌を歌っています。
-  * その歌は日本の若い人たちに歌われています。
-- 国民は国の古い文化を大切にしています。
-  * 国の古い文化は国民に大切にされています。
-- 外国人は京都の金閣寺をよく知っています。
-  * 京都の金閣寺は外国人によく知られています。
-- トヨタは新型車を発売しました。
-  * トヨタから新型車が発売されました。
-- 毎年三月に卒業式(そつぎょうしき)を行(おこな)います。
-  * 每年三月に卒業式が行われます。
+- B + は + A + を + V (transitive verb)
+  -> A + が + Vられる (passive verb) when B is unstated, unknown or general
+  * 2024年にパリでオリンピック大会を開きました。
+    + 2024年にパリでオリンピック大会が開かれました。
+  * 地方ではいろいろな伝統行事を行っています。
+    + 地方ではいろいろな伝統(でんとう)行事(ぎょうじ)が行(おこな)われています。
+  * 三百年ぐらい前にこの神社を建てました。
+    + 三百年ぐらい前にこの神社が建てられました。
+  * 中国の工場で日本の電子機器を組み立てています。
+    + 中国の工場で日本の電子機器が組み(くみ)立(た)てられています。
+  * 毎年三月に卒業式(そつぎょうしき)を行(おこな)います。
+    + 毎年三月に卒業式が行われます。
+- B + は + A + を + V (transitive verb)
+  -> A + は + B + に + Vられる (passive verb) when B is a person or a group of
+     people doing an ordinary action
+  * 日本の若い人たちはその歌を歌っています。
+    + その歌は日本の若い人たちに歌われています。
+  * 国民は国の古い文化を大切にしています。
+    + 国の古い文化は国民に大切にされています。
+  * 外国人は京都の金閣寺をよく知っています。
+    + 京都の金閣寺は外国人によく知られています。
+- B + は + A + を + V (transitive verb)
+  -> A + は + B + によって + Vられる (passive verb) when V is a verb of
+     creating, establishing, discovering or introducing
+  * 夏目漱石は「坊ちゃん」を書きました。
+    + 「坊ちゃん」は夏目漱石によって書かれました。
+  * オランダ人は江戸時代に西洋の文化を日本に伝えました。
+    + 江戸時代に西洋の文化がオランダ人によって日本に伝えられました。
+- B + は + A + を + V (transitive verb)
+  -> A + は + B + から + Vられる (passive verb) when B is an organisation or
+     the source of an announcement or notice
+  * トヨタは新型車を発売しました。
+    + トヨタから新型車が発売されました。
+- X + から + Y + を + 作る
+  -> Y + は + X + から + 作られる (X is the raw material which changes form;
+     から is carried over unchanged and does not mark the agent)
+  * 麦からビールを作ります。
+    + ビールは麦から作られます。
 
 ### to convey the content of a command, instruction, or advice
 
@@ -3307,12 +3326,15 @@ and intention)
 - 先生は学生に日本語で話すようにと言いました。
 - 医者は田中さんにたばこを吸い過ぎないようにと言いました。
 - 私は弟に早くうちへ帰るように言いました。
+- ⭕️私は先生にゆっくり話してくれるように(と)頼みました。
+  * ❌私は先生にゆっくり話すように(と)頼みました。 (as it commands the teacher)
 
 ### to express opinion, conclusion, or guess based on objective situations or grounds
 
 - noun / Na / A / Vる + らしい
 - nounた / Naた / Aかった / Vた + らしい
 - らしい is an adjective
+  * similar to そうだ but it is opinionated and not one made that claim yet
 - あのレストランはおいしいらしいよ。いつも客がいっぱいいるから。
 - 道を歩いている人は傘をさしていません。雨はもうやんだらしいです。
 - あの仕事は大変らしいです。みんなやりたくないと言っています。
@@ -3327,7 +3349,7 @@ and intention)
 - 天気予報を見ました。大きい台風が来るらしいです。
 - 北海道はもう寒いらしいです。ストーブを使っていると聞きました。
 - 新聞で読みましたが、この新しい薬は副作用(ふくさよう)が強くてあまりよくないらしいです。
-- あの人はすしを食べません。すしが嫌いらしいです。
+- あの人はすしを食べません。すしが嫌(きら)いらしいです。
 - あの人はマリアさんの恋人らしいです。いつも二人は一緒にいます。
 
 ### a more casual way of saying not exist
