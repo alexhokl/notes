@@ -2018,6 +2018,7 @@ ____
 - テーマ - theme; topic
 - 中身 (なかみ) - contents; interior; inside
 - 虹 (にじ) - rainbow
+- ネタ - material (for a story, article, etc); news item; joke
 - ネックレス - necklace
 - 花火 (はなび) - fireworks
 - バツ - cross
