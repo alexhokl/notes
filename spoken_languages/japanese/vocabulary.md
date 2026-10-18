@@ -2462,6 +2462,7 @@ ____
 - 問う (とう) - to ask; to inquire; to blame (someone) for
 - 舐める (なめる) - to lick; to taste; to experience (hardship)
 - 控える (ひかえる) - to refrain
+- 踏まえる (ふまえる) - to be based on; to take into account; to build upon
 - 見合わせる (みあわせる) - to exchange glances; to postpone; to compare
 - 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
   (e.g. an opportunity)
