@@ -2430,6 +2430,7 @@ ____
 
 ### する verb (transitive)
 
+- カット - cut; cutting; haircut
 - 指摘 (してき) - pointing out; identification
 - 主催 (しゅさい) - sponsorship (i.e. conducting under one's auspices); promotion;
   organizing; organising; hosting; staging
