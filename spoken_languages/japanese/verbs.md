@@ -1661,3 +1661,42 @@ Note that all other conjugations of 買う use hiragana characters on the
     + すごく上達してるじゃん。この曲、ずい分弾き込んだの？
     + この詩集は子供の頃かなり読み込んだので、まだいくつか暗唱できます。
     + 友達がしつこく保険を売り込んでくるんです。
+
+## 合う
+
+- compound verb
+  * mutual action
+    + the action is done to each other
+    + 愛し合う (to love one another)
+    + 助け合う (to help each other; to cooperate)
+    + 抱き合う (to embrace each other)
+    + 殴り合う (to exchange blows; to hit each other)
+    + 言い合う (to quarrel; to exchange comments)
+    + 認め合う (to mutually recognize; to agree)
+    + 分かり合う (to understand each other)
+    + 支え合う (to support each other)
+    + 笑い合う (to laugh together)
+    + 語り合う (to talk together)
+    + 話し合う (to discuss; to talk together)
+    + 触れ合う (to touch each other; to come into contact with)
+    + 見合う (to look at each other; to correspond to)
+    + 向き合う (to face each other; to confront)
+    + 知り合う (to get to know each other)
+    + 付き合う (to go out with; to keep company with)
+  * sharing
+    + 出し合う (to contribute jointly)
+    + 分け合う (to share)
+  * competing
+    + 競い合う (to compete with; to vie for)
+    + 奪い合う (to scramble for; to fight for)
+    + 張り合う (to compete with each other; to rival)
+  * meeting
+    + 出会う (to meet by chance; to come across)
+    + 巡り合う (to meet fortuitously; to meet by chance)
+    + 行き合う (to meet someone by chance)
+    + 落ち合う (to meet up as arranged; to rendezvous)
+    + 立ち会う (to be present at; to be witness to)
+  * matching
+    + 間に合う (to be in time for; to be good enough)
+    + 似合う (to suit; to match)
+    + 釣り合う (to balance; to be a good match)
