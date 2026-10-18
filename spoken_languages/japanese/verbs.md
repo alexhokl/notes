@@ -1651,6 +1651,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 落ち込んでばかりはいられない。 (to feel down)
     + 彼は詐欺師のうまい話をすっかり信じ込んでしまい、大金を払ってしまった。
       (totally believe)
+    + 追い込む (to force someone into doing)
   * repeated action
     + the V1 action is repeated of one's own will until the result is
       satisfactory
