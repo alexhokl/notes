@@ -6,6 +6,7 @@
     + [Specifics](#specifics)
     + [Tools](#tools)
 - [OpenID](#openid)
+    + [Silent refresh](#silent-refresh)
 - [JWT](#jwt)
     + [Abstract](#abstract)
     + [Introduction](#introduction)
@@ -152,6 +153,22 @@ ____
   the authorization request
 - this also avoid OAuth 2.0 to serve user information in the token flow (which
   was used by major authentication providers previously)
+
+### Silent refresh
+
+- previously used in implicit flow to refresh the access token without user
+  interaction as refresh token cannot be issued
+- it can still be used in authorization code flow with PKCE
+- flow
+  * silent refresh triggered via
+    + by event triggered by access token lifetime, or
+    + 401 received from protected resource
+  * open iFrame
+  * issue OpenID Connect authorization request including a `prompt` parameter
+    with a value of `none`
+  * receive response
+    + if tokens received, update session
+    + else, interrupt UX and redirect main window to OpenID Provider
 
 # JWT
 
