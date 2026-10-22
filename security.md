@@ -17,6 +17,9 @@
   * [JWS](#jws)
     + [JWS Compact Serialization](#jws-compact-serialization)
     + [JWS JSON Serialization](#jws-json-serialization)
+- [SAML](#saml)
+  * [Comparing terms with OAuth](#comparing-terms-with-oauth)
+  * [Flow](#flow)
 - [Public Key Infrastructure (PKI)](#public-key-infrastructure-pki)
   * [Links](#links-1)
   * [Certificate](#certificate)
@@ -259,6 +262,56 @@ Combination of the following 3 components
   - `header` - with the value JWS Unprotected Header
   - `payload` - with the value BASE64URL(JWS Payload)
   - `signature` - with the value BASE64URL(JWS Signature)
+
+# SAML
+
+- it covers federation, identity management and single sign-on (SSO)
+
+## Comparing terms with OAuth
+
+| SAML | OAuth |
+| --- | --- |
+| client | client |
+| identity provider (IdP) | authorisation server (AS) |
+| service provider (SP) | resource server (RS) |
+
+## Flow
+
+```
+ Service Provider (SP)        Client (web browser)        Identity Provider (IdP)
+ ---------------------        --------------------        -----------------------
+          |                            |                             |
+ +----------------+                    |                             |
+ | Generate authn |  User accesses a   |                             |
+ | request        |<---- service -----(1)                            |
+ +----------------+                    |                             |
+          |                            |                             |
+         (2)---- HTTP POST to IdP w/ authn Request ------> +-------------------+
+          |                            |                   | Authn request is  |
+          |                            |                   | verified          |
+          |                            |                   +-------------------+
+          |                            |                             |
+          |                            |<-- User is redirected ---- (3)
+          |                            |    to a login page at IdP   |
+          |                            |                             |
+          |                            |---- User logs in ---------->|
+          |                            |                             |
+          |<----- Redirect to service w/ SAML Token --------------- (4)
+          |                            |                             |
+         (5) User is logged in ------->|                             |
+          |  to the service            |                             |
+          |                            |                             |
+```
+
+For step 4, IdP can either
+
+- HTTP redirect the client back to SP
+  * it is not recommended since the length of URL is limited and the SAML token
+    in the URL can be long
+- HTTP POST the SAML token to SP
+  * for web application, it can be done by posting a form
+  * for mobile application, it is almost impossible as POST may not be even
+    possible
 
 # Public Key Infrastructure (PKI)
 
