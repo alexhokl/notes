@@ -31,6 +31,7 @@
     + [BigQuery](#bigquery)
     + [Looker](#looker)
     + [Cloud Spanner](#cloud-spanner)
+    + [Google Calendar](#google-calendar)
   * [APIs](#apis)
     + [Vision API](#vision-api)
   * [Tools](#tools)
@@ -1651,6 +1652,10 @@ ON
     + there is variety of tokenizers (like ElasticSearch)
 - search results can be rank by vector emdeddings
 - it has a PostgreSQL interface
+
+### Google Calendar
+
+- in "Add people" in calendar, emails of GCP service account can be used
 
 ## APIs
 
