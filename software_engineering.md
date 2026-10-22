@@ -22,7 +22,7 @@
   * [System migration](#system-migration)
   * [Function as a service (FaaS)](#function-as-a-service-faas)
   * [Writing a library](#writing-a-library)
-  * [Large Language Models (LLM)](#large-language-models-llm)
+  * [Resilience engineering](#resilience-engineering)
   * [Others](#others)
 ____
 
@@ -797,12 +797,12 @@ Realizations](https://cbloomrants.blogspot.com/2015/09/library-writing-realizati
   * do some amount of error checking and logging so that evaluators can figure
     things out
 
-## Large Language Models (LLM)
+## Resilience engineering
 
-- more custom software in the next couple years due to LLMs and coding agents
-  (as of early 2026)
-- unit tests are important as LLM agents can keep iterating by checking with
-  unit tests
+- robustness
+  * systems that are designed to effectively handle known failure modes
+- resilience
+  * system can handle troubles that were not foreseeable by the designer
 
 ## Others
 
