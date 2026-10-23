@@ -549,7 +549,7 @@ Reference: [Language Model Builder](https://languagemodelbuilder.com/)
 | Upper-Mid (30B – 34B) | 60 layers                | Qwen 32B, CodeLlama 34B      |
 | Large (70B – 72B)     | 80 layers                | Llama 3/3.1 70B, Qwen 72B    |
 
-- matrices in a layer
+- typical matrices in a layer
   * q_proj (attention)
   * k_proj (attention)
   * v_proj (attention)
@@ -639,4 +639,60 @@ lora_parameters:      # the indented lines below belong to this group
   rank: 8             # r: the narrow inner size of A and B
   scale: 20.0         # multiplies B·A directly (mlx-lm has no alpha)
   dropout: 0.0        # randomly ignores some inputs during training; 0 = off
+```
+
+#### Creating Ollama modelfile from LoRA adapters
+
+- general steps
+  * fuse adapter into weights using `mlx_lm.fuse`
+  * convert to GGUF file using converter of `llama.cpp`
+  * create `Modelfile` points to GGUF file
+
+Create a fused model from the LoRA adapters
+
+```sh
+mlx_lm.fuse --model Qwen/Qwen2.5-0.5B-Instruct --adapter-path adapters-masked --save-path fused
+```
+
+Check the fused model
+
+```sh
+mlx_lm.generate --model fused --prompt "Tins arrived dented and two have burst open."
+```
+
+To convert to GGUF
+
+```sh
+git clone --depth 1 https://github.com/ggml-org/llama.cpp.git tools/llama.cpp
+python -m venv .venv-gguf
+.venv-gguf/bin/pip install -r tools/llama.cpp/requirements/requirements-convert_hf_to_gguf.txt
+cp -L ~/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/*/{tokenizer_config.json,tokenizer.json,vocab.json,merges.txt} fused/
+.venv-gguf/bin/python tools/llama.cpp/convert_hf_to_gguf.py fused --outfile complaint-labeller-q8_0.gguf --outtype q8_0
+```
+
+Create a `Modelfile` like the following
+
+```
+FROM ./complaint-labeller-q8_0.gguf
+TEMPLATE """{{- if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+SYSTEM """You are Qwen, created by Alibaba Cloud. You are a helpful assistant."""
+PARAMETER stop <|im_end|>
+PARAMETER temperature 0
+```
+
+To build the model
+
+```sh
+ollama create complaint-labeller -f Modelfile
+```
+
+To run the model
+
+```sh
+ollama run complaint-labeller "Ordered oat milk, received almond milk."
 ```
