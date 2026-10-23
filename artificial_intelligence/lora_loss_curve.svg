@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="Loss curve: train and validation loss by iteration">
+  <style>
+    .grid line { stroke:#d9d6c8; stroke-width:1; }
+    .axis text { fill:#6b6b66; font:11px -apple-system,"Helvetica Neue",Arial,sans-serif; }
+    .lbl { fill:#1d1d1b; font:600 12px -apple-system,"Helvetica Neue",Arial,sans-serif; }
+    .s-train { stroke:#c46a10; }
+    .s-valid { stroke:#2a66c4; }
+    .dot { fill:#2a66c4; stroke:#fbfaf2; }
+    @media (prefers-color-scheme: dark) {
+      .grid line { stroke:#3a3933; }
+      .axis text { fill:#9c9a90; }
+      .lbl { fill:#e8e6dc; }
+      .s-train { stroke:#c97d22; }
+      .s-valid { stroke:#4f8be0; }
+      .dot { fill:#4f8be0; stroke:#201f1c; }
+    }
+  </style>
+  <g class="grid">
+    <line x1="40" x2="570" y1="266" y2="266"/>
+    <line x1="40" x2="570" y1="182" y2="182"/>
+    <line x1="40" x2="570" y1="98" y2="98"/>
+    <line x1="40" x2="570" y1="14" y2="14"/>
+  </g>
+  <g class="axis">
+    <text x="32" y="270" text-anchor="end">0.0</text>
+    <text x="32" y="186" text-anchor="end">1.0</text>
+    <text x="32" y="102" text-anchor="end">2.0</text>
+    <text x="32" y="18" text-anchor="end">3.0</text>
+    <text x="40" y="284" text-anchor="middle">0</text>
+    <text x="106.2" y="284" text-anchor="middle">25</text>
+    <text x="172.5" y="284" text-anchor="middle">50</text>
+    <text x="238.8" y="284" text-anchor="middle">75</text>
+    <text x="305" y="284" text-anchor="middle">100</text>
+    <text x="371.2" y="284" text-anchor="middle">125</text>
+    <text x="437.5" y="284" text-anchor="middle">150</text>
+    <text x="503.8" y="284" text-anchor="middle">175</text>
+    <text x="570" y="284" text-anchor="middle">200</text>
+    <text x="305" y="298" text-anchor="middle">iteration</text>
+  </g>
+  <g class="axis">
+    <line x1="400" x2="418" y1="30" y2="30" class="s-train" stroke-width="2"/>
+    <text x="424" y="34">train loss</text>
+    <line x1="490" x2="508" y1="30" y2="30" class="s-valid" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="514" y="34">validation loss</text>
+  </g>
+  <path d="M66.5 42.1 L93.0 169.7 L119.5 199.4 L146.0 201.6 L172.5 216.8 L199.0 227.2 L225.5 234.2 L252.0 248.2 L278.5 246.4 L305.0 253.6 L331.5 255.3 L358.0 255.7 L384.5 257.6 L411.0 256.7 L437.5 257.0 L464.0 257.8 L490.5 257.2 L517.0 257.9 L543.5 257.9 L570.0 257.9" fill="none" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" class="s-train"/>
+  <path d="M42.6 14.0 L106.2 188.6 L172.5 188.6 L238.8 172.9 L305.0 157.9 L371.2 155.9 L437.5 147.7 L503.8 146.9 L570.0 142.5" fill="none" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" class="s-valid"/>
+  <circle cx="42.6" cy="14" r="4" stroke-width="2" class="dot"/>
+  <circle cx="106.2" cy="188.6" r="4" stroke-width="2" class="dot"/>
+  <circle cx="172.5" cy="188.6" r="4" stroke-width="2" class="dot"/>
+  <circle cx="238.8" cy="172.9" r="4" stroke-width="2" class="dot"/>
+  <circle cx="305" cy="157.9" r="4" stroke-width="2" class="dot"/>
+  <circle cx="371.2" cy="155.9" r="4" stroke-width="2" class="dot"/>
+  <circle cx="437.5" cy="147.7" r="4" stroke-width="2" class="dot"/>
+  <circle cx="503.8" cy="146.9" r="4" stroke-width="2" class="dot"/>
+  <circle cx="570" cy="142.5" r="4" stroke-width="2" class="dot"/>
+  <text class="lbl" x="578" y="261.9">train</text>
+  <text class="lbl" x="578" y="146.5">valid</text>
+</svg>

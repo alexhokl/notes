@@ -18,6 +18,7 @@
     + [Agent Skills](#agent-skills)
   * [Inferencing](#inferencing)
   * [Basic theory](#basic-theory)
+  * [Low-Rank Adaptation (LoRA)](#low-rank-adaptation-lora)
 ____
 
 # Large Language Models (LLMs)
@@ -296,9 +297,15 @@ Agent Skills use case
     + process input prompt in parallel using a fixed set of model weights to
       compute the KV cache for the decoder
     + compute-bound
+    + TTFT (time to first token)
+      + the time taken to generate the first token of the response
+      + an indicator of performance of prefill process
   * decode
     + to build a response using the whole KV cache
     + memory-bound
+    + ITL (Inter-token latency)
+      + the time taken to generate each token of the response
+      + an indicator of performance of decode process
   * KV cache
     + buffer between prefill and decode
 
@@ -486,3 +493,150 @@ Reference: [Language Model Builder](https://languagemodelbuilder.com/)
           copy?
       + the frozen copy is used to act as an anchor to prevent the diverged
         model from drifting into some strange text
+
+## Low-Rank Adaptation (LoRA)
+
+- `h = Wx + α/r * BAx`
+![What LoRA changes](./lora_matrix.svg)
+- LoRA matrices
+  * base model `W`
+    + example
+      + for a typical attention matrix in a 7B-class mode, `d` and `k` are both
+        `4096`, so the weight matrix has `16.7M` parameters
+  * matrix `A` starts with small random values and matrix `B` starts with zeros
+    + this is used for step 1 of the training and thus `BxA` is initially zero and
+      the model behaves like the base model
+    + the product of `BxA` has the same shape as `W` and it is named as
+      "adapter"
+  * `r` is the rank of the LoRA matrices
+    + typically `8` or `16`
+  * `x` is the input vector
+  * `α` is a scaling factor
+  * size of the matrix is `r * (d + k)`
+- typical size of attention layer
+
+| Model Parameter Scale | Dimensions     | Typical layers | Total attention parameters |
+| --- | --- | --- | --- |
+| Small (1B – 3B)       | 4096 x 4096 | 16 | 16*4*4096*4096 = 1.07B |
+| Standard (7B – 8B)    | 5120 x 5120 | 64 | 64*4*5120*5120 = 6.71B |
+| Large (70B – 72B)     | 8192 x 8192 | 80 | 80*4*8192*8192 = 21.5B |
+
+- use of LoRA allows adapting a model to handle a specific task without giving a
+  very specific instruction to the model as system prompt
+- data leakage
+  * validation data includes training data
+  * the model answers by memorising instead of generalising
+- overfitting
+  * the model memorises the training data so closely that it fails to make
+    correct predictions on new data
+- genrealisation
+  * making good predictions on data it has not seen
+- prompt masking
+  * to ask the loss function to ignore the prompt part of the training data and
+    only focus on the answer part of the training data
+  * importance
+    + to avoid wastes capacity updating its LoRA parameters to learn to predict
+      the prompt itself
+    + to avoid overfitting on inputs
+      + `"System: You are an assistant..."`
+- typical number of layers (blocks) by model size
+
+| Model Parameter Scale | Typical Number of Layers | Representative Examples      |
+| --------------------- | ------------------------ | ---------------------------- |
+| Small (1B – 3B)       | 16 to 32 layers          | Llama 3.2 (1B/3B), Qwen 0.6B |
+| Standard (7B – 8B)    | 32 layers                | Llama 3/3.1 8B, Mistral 7B   |
+| Mid-Range (13B – 14B) | 40 layers                | Llama 2 13B, Qwen 14B        |
+| Upper-Mid (30B – 34B) | 60 layers                | Qwen 32B, CodeLlama 34B      |
+| Large (70B – 72B)     | 80 layers                | Llama 3/3.1 70B, Qwen 72B    |
+
+- matrices in a layer
+  * q_proj (attention)
+  * k_proj (attention)
+  * v_proj (attention)
+  * o_proj (attention)
+  * gate_proj (feed-forward)
+  * up_proj (feed-forward)
+  * down_proj (feed-forward)
+
+### MLX specifics
+
+To create a virtual environment for training
+
+Note: The version used here is just an example.
+
+```sh
+pyenv local 3.11.15
+python -m venv .venv
+source .venv/bin/activate
+pip install "mlx-lm[train]"
+```
+
+To test if the virtual environment is set up correctly
+
+```sh
+mlx_lm.generate --model Qwen/Qwen2.5-0.5B-Instruct --prompt "In one sentence, why the sky is blue?"
+```
+
+The training is provided in form of JSONL files. The following is an example
+line.
+
+```json
+{"messages": [{"role": "user", "content": "Ordered a size M, received an XL."}, {"role": "assistant", "content": "{\"label\": \"wrong_item\"}"}]}
+```
+
+Right before training, `mlx-lm` converts each JSONL line to chat template of the
+model. For example,
+
+```
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Ordered a size M, received an XL.<|im_end|>
+<|im_start|>assistant
+{"label": "wrong_item"}<|im_end|>
+```
+
+To start training
+
+```sh
+mlx_lm.lora --model Qwen/Qwen2.5-0.5B-Instruct --train --data data --adapter-path adapters --iters 200 --steps-per-eval 25 --save-every 25
+```
+
+where `data` is the directory containing the JSONL files and `adapters` is
+directory storing the generated LoRA adapters, `iters` is the total number of
+iterations (as the default batch size is `4`, the total number of training
+example used will be `4 * 200 = 800`), `steps-per-eval` is the number of
+iterations before evaluation, and `save-every` is the number of iterations
+before saving the LoRA adapters.
+
+The command outputs training loss and evaluation loss.
+
+![LoRA training loss curve](./lora_loss_curve.svg)
+
+From the above curve, overfitting is observed after iteration `50`.
+
+To test the adapters
+
+```sh
+mlx_lm.generate --model Qwen/Qwen2.5-0.5B-Instruct --adapter-path adapters --prompt "Lid cracked and the tea leaked all over the other items."
+```
+
+To train with prompt masking, use `--mask-prompt`.
+
+```sh
+mlx_lm.lora --model Qwen/Qwen2.5-0.5B-Instruct --train --data data --iters 200 --steps-per-eval 25 --save-every 25 --mask-prompt --adapter-path adapters-masked
+```
+
+![LoRA training loss curve with prompt masking](./lora_loss_curve_mask_prompt.svg)
+
+A YAML file can be specified (`--config`) for passsing configration. The
+following are the default values.
+
+```yaml
+num_layers: 16        # how many layers get an adapter, counted from the top
+
+lora_parameters:      # the indented lines below belong to this group
+  rank: 8             # r: the narrow inner size of A and B
+  scale: 20.0         # multiplies B·A directly (mlx-lm has no alpha)
+  dropout: 0.0        # randomly ignores some inputs during training; 0 = off
+```

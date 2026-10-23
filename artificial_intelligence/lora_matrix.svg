@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" role="img" aria-label="Frozen d by k matrix W plus the product of a tall thin d by r matrix B and a short wide r by k matrix A">
+  <style>
+    svg { --fg:#1d1d1b; --muted:#6b6b66; --frozen:#3d6a9e; --train:#c46a10;
+      --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+      --sans:-apple-system,"Helvetica Neue",Arial,sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      svg { --fg:#e8e6dc; --muted:#9c9a90; --frozen:#7fa8d9; --train:#f0a54a; }
+    }
+  </style>
+  <rect x="10" y="20" width="150" height="150" style="fill:var(--frozen);opacity:.18;stroke:var(--frozen);stroke-width:2"/>
+  <text x="85" y="100" text-anchor="middle" style="fill:var(--frozen);font:600 28px var(--serif)">W</text>
+  <text x="85" y="186" text-anchor="middle" style="fill:var(--muted);font:12px var(--sans)">d × k · frozen</text>
+  <text x="195" y="104" text-anchor="middle" style="fill:var(--fg);font:28px var(--serif)">+</text>
+  <rect x="235" y="20" width="26" height="150" style="fill:var(--train);opacity:.25;stroke:var(--train);stroke-width:2"/>
+  <text x="248" y="100" text-anchor="middle" style="fill:var(--train);font:600 20px var(--serif)">B</text>
+  <text x="248" y="186" text-anchor="middle" style="fill:var(--muted);font:12px var(--sans)">d × r</text>
+  <text x="285" y="104" text-anchor="middle" style="fill:var(--fg);font:22px var(--serif)">×</text>
+  <rect x="310" y="20" width="150" height="26" style="fill:var(--train);opacity:.25;stroke:var(--train);stroke-width:2"/>
+  <text x="385" y="40" text-anchor="middle" style="fill:var(--train);font:600 20px var(--serif)">A</text>
+  <text x="385" y="64" text-anchor="middle" style="fill:var(--muted);font:12px var(--sans)">r × k</text>
+  <text x="385" y="120" text-anchor="middle" style="fill:var(--muted);font:13px var(--sans)">B × A is d × k:</text>
+  <text x="385" y="138" text-anchor="middle" style="fill:var(--muted);font:13px var(--sans)">the same shape as W,</text>
+  <text x="385" y="156" text-anchor="middle" style="fill:var(--muted);font:13px var(--sans)">built from far fewer numbers</text>
+</svg>
