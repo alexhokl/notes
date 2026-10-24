@@ -19,6 +19,8 @@
   * [Inferencing](#inferencing)
   * [Basic theory](#basic-theory)
   * [Low-Rank Adaptation (LoRA)](#low-rank-adaptation-lora)
+    + [MLX specifics](#mlx-specifics)
+  * [Unsloth](#unsloth)
 ____
 
 # Large Language Models (LLMs)
@@ -696,3 +698,33 @@ To run the model
 ```sh
 ollama run complaint-labeller "Ordered oat milk, received almond milk."
 ```
+
+## Unsloth
+
+- an open-source fine-tuning library
+- Nvidia `cuda`
+  * uses PyTorch, PEFT, TRL and Unsloth's Triton kernels
+- Mac
+  * uses FastMLXModel and `mlx-lm`
+- quantization from 16-bit to 4-bit does not drop memory usage in inferencing to
+  one quarter as embedding table stays at 16 bits
+- Unsloth notebook
+  * load
+  * attach an adapter
+  * build a trainer
+  * train
+- comparing `mlx-lm` and `unsloth` parameters
+
+| mlx-lm | Unsloth |
+|---|---|
+| `--model Qwen/…` | `FastLanguageModel.from_pretrained(…, load_in_4bit=False)` |
+| `rank: 8` | `get_peft_model(r=8)` |
+| `scale: 20` | `lora_alpha=160` (Unsloth uses `lora_alpha / r`, so 20 × 8) |
+| `--num-layers 16` (the default) | `finetune_last_n_layers=16` |
+| `--iters 200` | `max_steps=200` |
+| `--batch-size 4` | `per_device_train_batch_size=4`, `gradient_accumulation_steps=1` |
+| `--save-every 25` · `--steps-per-eval` | `save_steps=25` · `eval_steps=25` |
+| `--mask-prompt` | `train_on_responses_only(trainer, …)` |
+
+- effective batch size = `per_device_train_batch_size * gradient_accumulation_steps`
+
