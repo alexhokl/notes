@@ -21,6 +21,7 @@
   * [Low-Rank Adaptation (LoRA)](#low-rank-adaptation-lora)
     + [MLX specifics](#mlx-specifics)
   * [Unsloth](#unsloth)
+    + [Commands (Mac)](#commands-mac)
 ____
 
 # Large Language Models (LLMs)
@@ -727,4 +728,211 @@ ollama run complaint-labeller "Ordered oat milk, received almond milk."
 | `--mask-prompt` | `train_on_responses_only(trainer, …)` |
 
 - effective batch size = `per_device_train_batch_size * gradient_accumulation_steps`
+- 16-bit weight can take any of 64k values, while 4-bit weight can take only 16
+  values
+- MLX works on groups of 64 weights
+  * each group stores a scale (the step between levels) and a bias (where the
+    levels start), 16 bits each
+  * theoretical bits per weight
+    + for 8-bit quantization, `8 + (16+16)/64 = 8.5` (`1.0625` bytes per weight)
+    + for 4-bit quantization, `4 + (16+16)/64 = 4.5` (`0.5625` bytes per weight)
+    + for 3-bit quantization, `3 + (16+16)/64 = 3.5` (`0.4375` bytes per weight)
+    + for 2-bit quantization, `2 + (16+16)/64 = 2.5` (`0.3125` bytes per weight)
+  * memory requirement
+    + (embedding + head) x 2 bytes + (total number of weights - (embedding + head)) x bytes per weight
+      + as embedding and head are not quantized, they are stored in 16 bits (2
+        bytes) per weight
+    + for a `0.5B` model
+      + `(151936 x 896 + 0) x 2 + 358M x 0.5625 = 474MB`
+        + where `151936` is number of rows (vocabulary) in the embedding table,
+          `896` is the number of columns of embedding table, `0` is head size
+          where, in case of `Qwen2.5-0.5B-Instruct`, it is shared with embedding
+          table, `358M` is roughly the total number of weights minus the
+          embedding table and head size
+      + actual bits per weight = `474MB * 8 / 494M = 7.67`
+        + it is reported in the training
+      + the larger the model, the close the actual bits per weight to the
+        theoretical bits per weight
+    + for a `7B` model
+      + `(151936 x 3584 + 151936 x 3584) x 2 + 5.6B x 0.5625 = 5.85GB`
+        + `5.6B` is roughly the total number of weights minus the embedding
+          table and head size
+      + actual bits per weight = `5.85GB * 8 / 7.62B = 6.15`
 
+### Commands (Mac)
+
+##### To create a virtual environment and install Unsloth
+
+```sh
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python "unsloth==2026.10.7"
+source .venv/bin/activate
+```
+
+Note: Pinning the version avoids a long dependency resolution with an unpinned
+`unsloth`.
+
+##### To check the installed packages
+
+```sh
+uv pip list | grep -E "^(unsloth|mlx|mlx-lm|torch|peft|trl) "
+```
+
+##### To download a model into the Hugging Face cache
+
+```sh
+hf download Qwen/Qwen2.5-7B-Instruct
+```
+
+##### To load a model and generate a reply
+
+On a Mac, Unsloth returns an `mlx-lm` model, so `mlx_lm.generate` works on it.
+
+```python
+from unsloth import FastLanguageModel
+from mlx_lm import generate
+
+model, tokenizer = FastLanguageModel.from_pretrained(
+    "Qwen/Qwen2.5-0.5B-Instruct",  # or a directory of adapters
+    max_seq_length=512,
+    load_in_4bit=False,  # default is True (MLX 4-bit, group 64)
+)
+prompt = tokenizer.apply_chat_template(
+    [{"role": "user", "content": "Ordered oat milk, received almond milk."}],
+    tokenize=False, add_generation_prompt=True,
+)
+print(generate(model, tokenizer, prompt=prompt, max_tokens=40))
+```
+
+Passing an adapter directory (such as `adapters-unsloth`) instead of a model
+name loads its base model and attaches the adapter.
+
+##### To train a LoRA adapter (equivalent of `mlx_lm.lora --mask-prompt`)
+
+`unsloth` must be imported before `trl`, as it replaces `SFTTrainer` and
+`SFTConfig` with its MLX versions on import. Importing `trl` first results in
+errors such as `ValueError: adamw is not a valid OptimizerNames`. Add
+`# isort: split` to stop import sorters from reordering them.
+
+```python
+from unsloth import FastLanguageModel, train_on_responses_only
+
+# isort: split
+from datasets import load_dataset
+from trl import SFTConfig, SFTTrainer
+
+model, tokenizer = FastLanguageModel.from_pretrained(
+    "Qwen/Qwen2.5-0.5B-Instruct", max_seq_length=512,
+    load_in_4bit=False,  # True = QLoRA
+)
+model = FastLanguageModel.get_peft_model(
+    model,
+    r=8,
+    lora_alpha=160,  # lora_alpha / r = mlx-lm scale 20
+    finetune_last_n_layers=16,  # Unsloth's default is all layers
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
+                    "gate_proj", "up_proj", "down_proj"],
+    random_state=0,
+)
+
+def to_text(rows):
+    return {"text": [tokenizer.apply_chat_template(m, tokenize=False)
+                     for m in rows["messages"]]}
+
+data = load_dataset(
+    "json", data_files={"train": "data/train.jsonl", "valid": "data/valid.jsonl"}
+).map(to_text, batched=True)
+
+trainer = SFTTrainer(
+    model=model,
+    tokenizer=tokenizer,
+    train_dataset=data["train"],
+    eval_dataset=data["valid"],
+    args=SFTConfig(
+        max_steps=200,
+        per_device_train_batch_size=4,
+        gradient_accumulation_steps=1,  # Unsloth's default on Mac is 4
+        learning_rate=1e-5,
+        lr_scheduler_type="constant",  # Unsloth's default is "linear"
+        warmup_steps=0,  # Unsloth's default is 5
+        optim="adam",  # Unsloth's default is "adamw"
+        weight_decay=0.0,
+        cast_norm_output_to_input_dtype=False,  # default True stops Qwen2.5-7B learning on Mac
+        logging_steps=10,
+        eval_steps=25,
+        save_steps=25,
+        output_dir="adapters-unsloth",
+        seed=0,
+    ),
+)
+trainer = train_on_responses_only(
+    trainer,
+    instruction_part="<|im_start|>user\n",
+    response_part="<|im_start|>assistant\n",
+)
+trainer.train()
+```
+
+- the output directory contains the final adapter and `checkpoint-N`
+  sub-directories, each of which can be loaded with `from_pretrained`
+- a QLoRA adapter always re-quantises its base model to 4 bits when loaded
+  (even with `load_in_4bit=False`)
+- peak memory of training Qwen2.5-7B (16 layers, rank 8): QLoRA `8.4GB`, 16-bit
+  LoRA `32.2GB`
+
+##### To set up llama.cpp for GGUF export without Unsloth installing anything
+
+By default, Unsloth downloads or builds `llama.cpp` into `~/.unsloth` and may
+try to install system packages. Instead, provide a local copy with
+`llama-quantize` from Homebrew.
+
+```sh
+brew install llama.cpp
+git clone --depth 1 https://github.com/ggml-org/llama.cpp.git tools/llama.cpp
+ln -s "$(which llama-quantize)" tools/llama.cpp/llama-quantize
+```
+
+##### To export an adapter to GGUF
+
+Fuse, convert and quantise in a single call. The two environment variables must
+be set before `unsloth` is imported.
+
+```python
+import os
+os.environ["UNSLOTH_LLAMA_CPP_PATH"] = os.path.abspath("tools/llama.cpp")
+os.environ["UNSLOTH_AUTO_INSTALL"] = "0"
+from unsloth import FastLanguageModel
+
+model, tokenizer = FastLanguageModel.from_pretrained(
+    "adapters-unsloth", max_seq_length=512, load_in_4bit=False
+)
+model.save_pretrained_gguf(
+    "exports/complaint-0.5b", tokenizer, quantization_method="q8_0"
+)
+```
+
+- the file is named after the base model and the format, such as
+  `exports/complaint-0.5b/Qwen2.5-0.5B-Instruct.Q8_0.gguf`
+- it briefly needs disk space for the 16-bit intermediate (about `15GB` for a
+  7B model)
+- bits per weight
+  * `q8_0`: blocks of 32 weights with one 16-bit scale,
+    `8 + 16/32 = 8.5`
+  * `q4_k_m`: about `4.9`
+- export a QLoRA adapter at `q8_0`, not `q4_k_m`
+  * the adapter was trained on MLX's 4-bit rounding of the base weights, and
+    `q4_k_m` rounds the merged weights again with a different scheme
+  * Qwen2.5-7B QLoRA adapter scored 29/30 in Python, 21/30 at `q4_k_m` and
+    29/30 at `q8_0`
+  * a 16-bit-trained adapter at `q4_k_m` scored 30/30
+  * always test the exported file, not just the adapter
+
+##### To build and test the model in Ollama
+
+Use the `Modelfile` from [MLX specifics](#mlx-specifics) with `FROM` pointing at
+the exported GGUF file.
+
+```sh
+ollama create complaint-labeller-unsloth -f Modelfile
+ollama run complaint-labeller-unsloth "Ordered oat milk, received almond milk."
+```
