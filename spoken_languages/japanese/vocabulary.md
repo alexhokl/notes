@@ -1464,6 +1464,7 @@ ____
 - 急に (きゅうに) - switfly; suddenly; abruptly
 - こんなに - this much
 - さっぱり - feeling refreshed; (of food) light
+- さらに - furthermore; aka 更に
 - 少々 (しょうしょう) - a little
 - すで - already
 - すでに - already; previously; before; undeniably; aka 既に
@@ -1563,6 +1564,7 @@ ____
 - 男の人 (おとこのひと) - man
 - 歌手 (かしゅ) - singer
 - 格好 (かっこう) - shape; form; appearance; style; state; situation
+- 株 (かぶ) - stock; share
 - 雷 (かみなり) - thunder; lightning
 - 缶 (かん) - can; tin
 - 柄 (がら) - pattern; body build
@@ -2260,6 +2262,7 @@ ____
 - 拭く (ふく) - to wipe; to dry
 - 増やす (ふやす) - to increase; to add to; to augment; aka 殖やす
 - 干す (ほす) - to air; to dry; to hang dry
+- 目指す (めざす) - to aim at; to aim for; to try for; to have an eye on
 
 ### sentient transitive verb
 
@@ -2496,6 +2499,7 @@ ____
 ### する verb (transitive and intransitive)
 
 - コメント - comment
+- 投資 (とうし) - investment
 
 ### verb (transitive)
 
@@ -2697,6 +2701,7 @@ ____
   (usu. February 3 or 4) on which a bean scattering ceremony is held
 - 洗濯物 (せんたくもの) - laundry
 - 専門 (せんもん) - area of expertise; sole interest
+- 戦略 (せんりゃく) - strategy; tactics
 - タメ口 (タメぐち) - casual speech
 - だんボール - cardboard; aka 段ボール
 - 痴漢 (ちかん) - molester; pervert
