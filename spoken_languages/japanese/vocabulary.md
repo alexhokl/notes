@@ -1013,6 +1013,7 @@ ____
 - 丁寧 (ていねい) - polite
 - 特別 (とくべつ) - special; particular
 - 必要 (ひつよう) - necessary
+- 複雑 (ふくざつ) - complex; complicated; intricate; mixed (feelings)
 - 普通 (ふつう) - normal; ordinary
 - 不便 (ふべん) - inconvenience
 - 変 (へん) - strange; odd; change
@@ -1037,6 +1038,7 @@ ____
 
 - 間 (あいだ) - interval; space; between
 - 味 (あじ) - taste; flavour
+- 以外 (いがい) - excluding; except (for); apart from; other than; besides
 - 医学 (いがく) - medical science; medicine
 - 以上 (いじょう) - above; note less than; that is all
 - 一杯 (いっぱい) - one cup; one glass; full
@@ -1063,6 +1065,7 @@ ____
 - 最後 (さいご) - last; final; end
 - 坂 (さか) - slope; hill; incline
 - 品物 (しなもの) - goods; article; thing; item
+- 社会 (しゃかい) - society; public; community; the world
 - 社長 (しゃちょう) - company president; manager; director
 - 習慣 (しゅうかん) - habit
 - 趣味 (しゅみ) - hobby; pastime
@@ -1109,6 +1112,7 @@ ____
 - 答え (こたえ) - answer; reply
 - 数学 (すうがく) - mathematics
 - 文化 (ぶんか) - culture
+- 歴史 (れきし) - history
 
 ### nouns (home)
 
@@ -1222,6 +1226,7 @@ ____
 
 - 受付 (うけつけ) - reception; information desk
 - 思い出す (おもいだす) - to recall; to remember
+- 研究 (けんきゅう) - research; study; investigation
 - ご馳走 (ごちそう) - treat (especially food and drink)
 - 試合 (しあい) - match; game
 - 試験 (しけん) - exam
@@ -1248,6 +1253,7 @@ ____
 - 関係 (かんけい) - relationship; connection
 - 交通 (こうつう) - traffic; transportation
 - 水泳 (すいえい) - swimming
+- 生活 (せいかつ) - life; living
 - 卒業 (そつぎょう) - graduation
 - 退院 (たいいん) - discharge from hospital
 - 入院 (にゅういん) - hospitalization
@@ -1398,6 +1404,7 @@ ____
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
 - 過ぎる (すぎる) - to pass through; to exceed
+- 進む (すすむ) - to advance; to go forward; to move forward
 - 滑る (すべる) - to slip; to slide; to ski
 - 足りる (たりる) - to be sufficient; to be enough
 - 泣く (なく) - to cry (human); to weep
@@ -1467,6 +1474,7 @@ ____
 - 是非 (ぜひ) - certainly
 - 全然 (ぜんぜん) - totally
 - そのまま - as is; without change; just like
+- それぞれ - each; respectively; aka 其々
 - たっぷり - plentifully; a lot; a good (e.g. two weeks, ten kilometres); a full; at least; no less than
 - ちゃんと - diligently; seriously; perfectly; properly
 - つまり - that is to say; in other words
@@ -1505,6 +1513,7 @@ ____
 
 ### adjectives (な)
 
+- 明らか (あきらか) - clear; obvious; evident; plain; definite
 - 健康 (けんこう) - health; also as noun
 - 幸せ (しあわせ) - happiness; good fortune; luck; blessing
 - 順調 (じゅんちょう) - doing well
@@ -1546,6 +1555,7 @@ ____
 - アルバム - album
 - 息 (いき) - breath
 - 以前 (いぜん) - before; ago
+- 一方 (いっぽう) - one (esp. of two); the other; one way; on the other hand
 - 居間 (いま) - living room
 - 嘘 (うそ) - lie
 - 餌 (えさ) - feed (for animals); pet food
@@ -1556,25 +1566,30 @@ ____
 - 雷 (かみなり) - thunder; lightning
 - 缶 (かん) - can; tin
 - 柄 (がら) - pattern; body build
+- 企業 (きぎょう) - enterprise; business; company; corporation
 - 機嫌 (きげん) - mood; temper; spirits; humour
 - 気候 (きこう) - climate
 - 記者 (きしゃ) - reporter; journalist
 - 記事 (きじ) - article; news story; report; account
 - 傷 (きず) - imperfections, flaws, scratches, defects; injury; wound
+- 基本 (きほん) - basics; fundamentals; basis; foundation
 - 旧 (きゅう) - old; former; ex-
 - 給料 (きゅうりょう) - salary; wages
 - 教科書 (きょうかしょ) - textbook
 - 暮らし (くらし) - life; living
 - クラシック - classical music
 - クリスマス - Christmas
+- 敬意 (けいい) - respect; honour
 - ケース - case
 - 煙 (けむり) - smoke
+- 言語 (げんご) - language
 - 恋 (こい) - (romatic) love
 - 恋人 (こいびと) - lover
 - 氷 (こおり) - ice
 - 黒板 (こくばん) - blackboard
 - こと - thing; matter; aka 事
 - ころ - (approximate) time; aka 頃
+- 境 (さかい) - border; boundary
 - 桜 (さくら) - cherry blossom
 - 支払い (しはらい) - payment
 - 集団 (しゅうだん) - group; mass
@@ -1582,6 +1597,7 @@ ____
 - 出身 (しゅっしん) - one's origin (city, country, school, etc.)
 - 種類 (しゅるい) - kind; variety; type; category; class
 - 書類 (しょるい) - documents; papers
+- 心理 (しんり) - state of mind; mentality; psychology
 - 事件 (じけん) - incident; affair; event
 - 自身 (じしん) - oneself; yourself; himself; herself
 - 事実 (じじつ) - fact; truth
@@ -1604,9 +1620,12 @@ ____
 - ただ - free of charge; only (adverb); but (conjunction)
 - 立場 (たちば) - position; situation; point of view
 - 大統領 (だいとうりょう) - president
+- 地位 (ちい) - (social) position; status; standing
 - 知識 (ちしき) - knowledge; information
 - 調子 (ちょうし) - condition; state of health; tune
+- 著者 (ちょしゃ) - author (usu. of a particular book); writer
 - 月 (つき) - moon
+- 伝統 (でんとう) - tradition; convention
 - トランプ - playing cards
 - 度 (ど) - degree; counter for occurrences; strength
 - 同僚 (どうりょう) - colleague; co-worker
@@ -1634,6 +1653,7 @@ ____
 - 丸 (まる) - circle
 - 見舞い (みまい) - visit (to a sick person); inquiry; expression of sympathy
 - 土産 (みやげ) - local specialty; souvenir
+- 魅力 (みりょく) - charm; fascination; glamour; attraction
 - 無料 (むりょう) - free of charge
 - 模様 (もよう) - pattern; design
 - 文句 (もんく) - complaint
@@ -1750,11 +1770,13 @@ ____
 ### する verb (transitive)
 
 - 暗記 (あんき) - memorization
+- 意識 (いしき) - consciousness; awareness
 - 依頼 (いらい) - request; commission; entrusting (with a matter)
 - おしゃべり - chattering; talk; chitchat; gossip; aka お喋り
 - 観光 (かんこう) - sightseeing
 - 我慢 (がまん) - patience
 - 記入 (きにゅう) - entry (in a form, register, diary, etc.); filling in;
+- 強調 (きょうちょう) - emphasis; stress; highlighting
 - 許可 (きょか) - permission; approval
 - 禁止 (きんし) - prohibition; ban
 - 計画 (けいかく) - plan; project; schedule
@@ -1765,10 +1787,14 @@ ____
 - 承認 (しょうにん) - approval; acknowledgment; consent
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
 - 準備 (じゅんび) - preparation; arrangements
+- 選択 (せんたく) - choice; selection; option
 - 相談 (そうだん) - consultation; discussion; asking (someone) for advice
 - 中止 (ちゅうし) - cancellation; suspension; stopping
+- 注目 (ちゅうもく) - notice; attention; observation
+- 調査 (ちょうさ) - investigation; examination; inquiry; survey
 - 販売 (はんばい) - selling
 - パス - passing
+- 分析 (ぶんせき) - analysis
 - 変更 (へんこう) - change; modification
 - 放送 (ほうそう) - broadcasting; broadcast; program; announcement
 - メモ - note
@@ -1789,9 +1815,11 @@ ____
 - いらいら - to get irritated; to get annoyed; to lose patience; aka 苛々
 - 運転 (うんてん) - driving; operating
 - 運動 (うんどう) - exercise
+- 影響 (えいきょう) - influence; effect; impact
 - 関する (かんする) - to concern; to be related
 - 感動 (かんどう) - being deeply moved emotionally
 - 協力 (きょうりょく) - cooperation
+- 緊張 (きんちょう) - tension; strain; nervousness; stress
 - 経営 (けいえい) - running (a business)
 - 怪我 (けが) - injury; mistake
 - 結果 (けっか) - result
@@ -1800,11 +1828,13 @@ ____
 - 参加 (さんか) - participation
 - 出発 (しゅっぱつ) - departure
 - 存在 (そんざい) - existence; being; presence
+- 増加 (ぞうか) - increase; rise; growth
 - 滞在 (たいざい) - stay
 - ダンス - dance
 - 遅刻 (ちこく) - lateness
 - 駐車 (ちゅうしゃ) - parking
 - びっくり - to be surprised; to be amazed
+- 変化 (へんか) - change; variation; alteration; transition
 - 優勝 (ゆうしょう) - championship; victory
 - 留学 (りゅうがく) - studying abroad
 
@@ -1871,6 +1901,7 @@ ____
 - 預ける (あずける) - to leave (in someone's keeping); to put (in someone's
   care); to place (in someone's custody); to entrust (someone) with; to deposit
 - 与える (あたえる) - to give (to someone of lower status); to present; to award
+- 扱う (あつかう) - to deal with; to treat; to handle; to take care of
 - 当てる (あてる) - to hit; to apply; to expose; to call on someone; to guess
 - いただく - to receive; to take (kenjougo form of 貰う); aka 頂く
 - 受け取る (うけとる) - to receive
@@ -1880,9 +1911,12 @@ ____
   resort to (e.g. arms, violence)
 - 描く (えがく) - to draw; to paint
 - 贈る (おくる) - to give; to present; to award
+- 恐れる (おそれる) - to fear; to be afraid of
 - 語る (かたる) - to talk about; to speak of; to tell; to recite; to narrate
 - 断る (ことわる) - to refuse; to decline; to turn down; to inform
+- 避ける (さける) - to avoid
 - しまう - to end up; to close (a business, etc); to put away; to store; aka 仕舞う
+- 占める (しめる) - to account for; to make up; to take up; to occupy
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
 - 進める (すすめる) - to advance; to move forward
@@ -1890,6 +1924,7 @@ ____
   to slap; to tap; to clap (one's hands); to play (the drums); to attack; to
   bash; to criticize; to censure; 肩を叩く could mean shoulder massage
 - 担当 (たんとう) - being in charge; being responsible
+- 詰める (つめる) - to stuff into; to jam; to cram; to pack; to fill
 - 握る (にぎる) - to clasp; to grasp; to grip; to clutch; to hold (the answer); to
   have (e.g. the solution); to be the key; to be the reason; to seize (power);
   to hold (the reins); to dominate; to control; to make (nigirizushi, rice ball,
@@ -1900,6 +1935,7 @@ ____
 - 履く (はく) - to wear (lower body clothing, footwear)
 - 含む (ふくむ) - to include; to embrace
 - 減らす (へらす) - to abate; to decrease; to diminish; to shorten
+- 守る (まもる) - to protect; to guard; to defend; to keep (a promise)
 - 申し込む (もうしこむ) - to apply for
 - 求める (もとめる) - to want; to wish for; to request; to demand ; to look for;
   to pursue (pleasure)
@@ -1924,6 +1960,7 @@ ____
 ### verb (intransitive)
 
 - かまう - to mind; to care about; to look after; aka 構う
+- 対する (たいする) - to face (each other); to be facing; regarding; towards
 - 黙る (だまる) - to be silent; to say nothing
 - 捕まる (つかまる) - to be caught; to be arrested; to hold on to; to grasp; to find
   (e.g. proof); to get (e.g. a taxi); to be detained by
@@ -1931,6 +1968,7 @@ ____
 - 悩む (なやむ) - to be worried; to be troubled
 - 伸びる (のびる) - to stretch; to extend; to lengthen; to grow (of hair, height,
   grass, etc.); to straighten out
+- 離れる (はなれる) - to be separated; to be apart; to be distant
 - 酔う (よう) - to get drunk; to feel sick
 
 ### verb (transitive and intransitive)
@@ -1938,6 +1976,7 @@ ____
 - 繰り返す (くりかえす) - to repeat; to do over again
 - しゃべる - to talk; to chat; to chatter; aka 喋る
 - 閉じる (とじる) - close
+- 増す (ます) - to increase; to grow
 
 ### expressions
 
@@ -2326,6 +2365,7 @@ ____
 - サイズ - size
 - サンタクロース - Santa Claus
 - しわ - wrinkle, crease (aka 皺, シワ)
+- 自己 (じこ) - self; oneself
 - 地獄 (じごく) - hell
 - 地元 (じもと) - home area; home town; local
 - ジャズ - jazz
@@ -2527,6 +2567,7 @@ ____
 - 一日中 (いちにちじゅう) - all day long; all the day
 - いつ頃 (いつごろ) - about when; about what time; how soon
 - 今でも (いまでも) - even now; still
+- 勝手に (かってに) - arbitrarily; of its own accord; without asking
 - ぐったり - limply; exhaustedly; unenergetically
 - そうそう - oh yes; aka 然う然う
 - それだけ - that alone; aka 其れ丈
@@ -2562,6 +2603,7 @@ ____
 - 甘辛い (あまからい) - salty-sweet
 - 後ろめたい (うしろめたい) - guilty (feeling, conscience, look, etc.); (feeling) uneasy
 - 気持ちいい (きもちいい) - feeling good
+- 子供っぽい (こどもっぽい) - childish; childlike; immature
 - したい - want to do
 - 塩っぱい (しょっぱい) - salty
 - 手っ取り早い (てっとりばやい) - quick; prompt; without delay; simple; easy; effortless
@@ -2604,6 +2646,7 @@ ____
 - 演奏会 (えんそうかい) - concert
 - お客様 (おきゃくさま) - customer; guest
 - 推し活 (おしかつ) - activities to support one's favorite celebrity, idol, etc.
+- お手元 (おてもと) - chopsticks (esp. at restaurants); at hand (polite)
 - 男 (おとこ) - man (used as prefix)
 - おばけ - ghost; aka お化け
 - おもてなし - hospitality; reception; entertainment
@@ -2616,6 +2659,7 @@ ____
 - カビ - mould
 - 歌舞伎 (かぶき) - traditional form of drama and music performed by male actors
   wearing makeup mainly in white and red
+- 聞き手 (ききて) - hearer; listener; audience
 - 気に入り (きにいり) - favourite
 - 浄め (きよめ) - purification
 - 区役所 (くやくしょ) - ward office
@@ -2692,6 +2736,7 @@ ____
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
 - 汚れ (よごれ) - dirt, stains, spots
+- 略 (りゃく) - abbreviation; omission
 
 ### nouns (academic)
 
@@ -3128,6 +3173,7 @@ ____
 - ミッドフィルダー - midfielder
 - 野球 (やきゅう) - baseball
 - ライド - ride
+- ラグビー - rugby
 - ラ・リーガ - La Liga
 - リカバリー - recovery
 - ロードバイク - road bike
@@ -3174,6 +3220,7 @@ ____
 - アップル - Apple Inc.
 - アプリ - application
 - 暗号 (あんごう) - encryption; code; cipher
+- アーキテクト - architect
 - ウェブデザイン - web design
 - エディター - editor
 - キーボード - keyboard
@@ -3252,6 +3299,7 @@ ____
 
 ### noun suffixes
 
+- さ - -ness (nominalising adjectives, e.g. 高さ)
 - 証 (しょう) - certificate; proof; card (suffix)
 - 中 (じゅう) - (all) through (e.g. the night); throughout (e.g. the year);
   within (e.g. the week); in the course of (e.g. today); by the end of; all (of
@@ -3267,7 +3315,10 @@ ____
 - 禁断 (きんだん) - prohibition; interdiction; forbidden; prohibited
 - 試着 (しちゃく) - trying on clothes
 - シュート - shoot
+- スキャン - scan
 - チン - heating in a microwave
+- 使い分け (つかいわけ) - proper use; using (different things) for different
+  purposes
 - 満喫 (まんきつ) - to fully enjoy
 - 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
   referring to chicken
@@ -3426,6 +3477,7 @@ invite; to ride
 - における - in; at; on; as for; regarding; aka に於ける
 - について - regarding
 - によると - according to; aka に依ると
+- によれば - according to (someone); aka に拠れば
 - 話しています (はなしています) - chatting
 - 話をしています (はなしをしています) - chatting
 - 平素より (へいそより) - always; usually
