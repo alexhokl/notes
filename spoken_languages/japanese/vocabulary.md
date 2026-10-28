@@ -1099,6 +1099,7 @@ ____
 - 火 (ひ) - fire; flame
 - 引き出し (ひきだし) - drawer
 - 昼休み (ひるやすみ) - lunch break
+- 法律 (ほうりつ) - law; legislation; act
 - 星 (ほし) - star
 - 漫画 (まんが) - manga
 - 指輪 (ゆびわ) - ring
@@ -1474,6 +1475,7 @@ ____
 - ずっと - continuously; the whole time; much (more); far (away); long (ago)
 - 是非 (ぜひ) - certainly
 - 全然 (ぜんぜん) - totally
+- そっくり - all; altogether; entirely; completely
 - そのまま - as is; without change; just like
 - それぞれ - each; respectively; aka 其々
 - たっぷり - plentifully; a lot; a good (e.g. two weeks, ten kilometres); a full; at least; no less than
@@ -2063,6 +2065,7 @@ ____
 - ネックレス - necklace
 - 花火 (はなび) - fireworks
 - バツ - cross
+- パターン - pattern
 - 日陰 (ひかげ) - shade; shadow; sunshine; sunlight
 - 複数 (ふくすう) - plural
 - 蓋 (ふた) - lid; cap; cover
@@ -2555,6 +2558,10 @@ ____
 - なんて - things like; someone like; to think that
 - のみ - only; nothing but
 - ものの - although
+
+### auxiliary
+
+- べき - should; must; ought to; aka 可き
 
 ### conjunctions
 
