@@ -234,7 +234,7 @@
     + [to express opinion, conclusion, or guess based on information or news from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-information-or-news-from-other-people)
     + [a more casual way of saying not exist](#a-more-casual-way-of-saying-not-exist)
   * [Chapter 22](#chapter-22)
-    + [making someone do something](#making-someone-do-something)
+    + [a superior compels a subordinate to do something](#a-superior-compels-a-subordinate-to-do-something)
     + [to be made to do something](#to-be-made-to-do-something)
     + [changing one thing to another](#changing-one-thing-to-another)
     + [doing something for the first time or last time](#doing-something-for-the-first-time-or-last-time)
@@ -3358,44 +3358,124 @@ and intention)
 
 ## Chapter 22
 
-### making someone do something
+### a superior compels a subordinate to do something
 
 - [conjugation](./conjugation.md)
 - A + は + B + を + Vさせる (transitve or intransitive base verbs)
 - A + は + B + に + object + を + Vさせる (transitive base verbs)
+- (先生が宿題を忘れた学生に) 「山田君、廊下(ろうか)に立ちなさい。」
+  * 先生は山田君を廊下に立たせました。
+- (父が弟に)「もう風邪が治ったから遊んでいないで学校へ行きなさい。」
+  * 父は弟を学校へ行かせました。
+- (社長が近藤(こんどう)さんに)「横浜支社(ししゃ)へ行ってください。」
+  * 社長は仕事で近藤さんを横浜支社へ行かせました。
+- (お父さんが子供に) 「世(せい)の中のことを知るために毎日本を読みなさい。」
+  * お父さんは子供に本を読ませています。
+- (先生が学生に)「図書館で江戸時代の歴史を調べてください。」
+  * 先生は学生に図書館で江戸時代の歴史を並べさせました。
+- (田中さんが娘さんに) 「高校を出てから、大学で法律(ほうりつ)の勉強をしなさい。」
+  * 田中さんは娘さんに大学で法律の勉強をさせるつもりだそうです。
+- 先生がいくつか質問して、学生たちに答えさせました。
+- 父は私に弟を待たせました。
 - 先生は私に新聞を読ませました。
 - 父は兄を銀行へ行かせました。
-- 田中さんは面白い話をして、私達を笑(わら)わせました。
-  * 田中さんは面白い話をしました。私達は笑いました。
 
-### to be made to do something
+### a superior grants permission or favors to a subordinate to do something
 
 - [conjugation](./conjugation.md)
-- B + は/が + A + に + Vさせられる
+- A + は + B + を + Vさせる (transitve or intransitive base verbs)
+- A + は + B + に + object + を + Vさせる (transitive base verbs)
+- (店長が私に)「今日は3時に帰ってもいいよ。」
+  * 店長は私を三時に帰らせました。
+- 兄:「香港へ留学したいんだけど、行ってもいい?」 父: 「いいよ。」
+  * 父は兄を香港へ留学させました。
+- 母: もう運動をしてもいいでしょうか。
+  * 医者: しばらくの間お子さんに運動をさせないでください。
+    + 母: はい、わかりました。
+- (母が私たちに)「好きな本を選んでもいいよ。」
+  * 母は私たちに好きな本を選ばせてくれました。
+- ❌私は先生に作文を直させました。
+  * ⭕️私は先生に作文を直してもらいました。
+- 私は犬に公園の中を走らせました。
+- 小さい子供には安全な道を通らせた方がいいですよ。
+- ボーイフレンドは私を待たせました。
+- お母さんは子供の顔がとても汚いので、子供に鏡(かがみ)を見させました。
+  * お母さんは子供に鏡を見せました。
+- 母は妹に私の古い着物を着させました。
+  * 母は妹に私の古い着物を着せました。
+
+### a person's actions or circumstances can trigger emotional responses in others
+
+- [conjugation](./conjugation.md)
+- A + は + B + を + Vさせる (transitve or intransitive base verbs)
+- A + は + B + に + object + を + Vさせる (transitive base verbs)
+- 弟は病気をしました。両親は心配しました。
+  * 弟は病気をして、両親を心配させました。
+- 李君はタバコを吸いました。先生は怒り(おこ)ました。
+  * 李君はタバコを吸って、先生を怒らせてしまいました。
+- 田中さんは面白い話をしました。私達は笑いました。
+  * 田中さんは面白い話をして、私達を笑(わら)わせました。
+
+### to be made to do something by someone (in a negative sense)
+
+- [conjugation](./conjugation.md)
+- B + は/が + A + に + Vさせられる / Vさられる
+  * shorten form of Vされる does not apply to 変格動詞(する and 来る) or 一段動詞
+- 先生は私たちに日本語で手紙を書かせました。
+  * 私たちは先生に日本語で手紙を書かされました。
+- 先生は私に難しい読解文を読ませました。
+  * 私は先生に難しい読解文を読まされました。
+- ガールフレンドはブラウンさんを一時間も待たせました。
+  * ブラウンさんはガールフレンドに一時間も待たされました。
+- 山田教授(きょうじゅ)は私に何度もレポートを直させました。
+  * 私は山田教授に何度もレポートを直させられました。
+- 社長は李さんに会社を辞めさせました。
+  * 李さんは社長に会社を辞めさせられました。
+- 監督(かんとく)はいつも選手たちに厳しい練習をさせます。
+  * 選手たちはいつも監督に厳しい練習をさせられます。
+- 社長は山田さんを日曜日も会社に来(こ)させました。
+  * 山田さんは社長に日曜日も会社に来(こ)させられました。
 - 私は母に嫌いな人参(にんじん)を食べさせられました。
 - 私は先生に立たされました。
 
-### changing one thing to another
+### changing one state to another
 
 - A + を + B + に + Vる / Vて
+  * changes from state A to state B
+- れは日本の小説を英語に訳(やく)したものです。
+- 次の動詞を適当(てきとう)な形(かたち)に変えなさい。
+- この文を受身(うけみ)の文に言い換えなさい。
 - 英文を日本語に訳(やく)してください。
 - 千円札(さつ)を百円玉(だま)に替えてください。
 
 ### doing something for the first time or last time
 
-- Vる + のは + ... + timing + が + 初めてだ。
-- Vる + のは + ... + timing + が + 最後だ。
-- あの大学に合格したのはあなたが初めてです。
+- noun + は + noun (timing) + が + 初めてだ / 最初だ / 最後だ。
+- Vる + のは + noun (timing) + が + 初めてだ / 最初だ / 最後だ。
+- 海外旅行をするのは今度が初めてです。
+- 懐石(かいせき)料理を食べたのは今日が初めてです。
+- あの選手がオリンピックに出るのは今度が最後でしょう。
+- あの大学に合格(ごうかく)したのはあなたが初めてです。
 - 新幹線に乗るのは今日が初めてです。
 
 ### some
 
 - ... + いくつか + ...
 - ... + 何 + counter + か + ...
+- 彼といくつかの約束をしました。
+- 机の上に雑誌が何冊か置いてあります。
+- 風邪が治るまで何日かかかります。
+- ゆうべ8時ごろ会社を出るとき、事務室にまだ何人かいました。
 - 冷蔵庫に卵がいくつかあります。
 - あの大学には毎年何人か合格しています。
 
 ### regarding
 
 - ... + について + ...
+- 夏休みの旅行の行き先(さき)について家族で話し合います。
+- あなたの国について、いろいろ教えてください。
+- 作文(さくぶん)は日本の住宅(じゅうたく)事情(じじょう)について書こうと思っています。
+- NHKは「登校拒否(とうこうきょひ)」について、特集(とくしゅう)を組(く)みました。
+- この件(けん)について、私は何も言うことはありません。
+- この町の歴史(れきし)についてちょっと調(しら)べてみようと思っている。
 - あなたの趣味について書きなさい。
