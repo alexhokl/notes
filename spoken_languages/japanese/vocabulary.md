@@ -3015,7 +3015,7 @@ ____
 - 中古本 (ちゅうこほん) - secondhand book
 - 通販 (つうはん) - online shopping
 - 手数料 (てすうりょう) - handling fee; commission
-- 手作り (てずくり) - handmade
+- 手作り (てづくり) - handmade
 - 徳用 (とくよう) - family size
 - ドル - dollar
 - 早割 (はやわり) - early bird discount
