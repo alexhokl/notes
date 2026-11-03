@@ -2387,7 +2387,7 @@ ____
 
 ### What is that called?
 
-- 何という + noun + ですか。
+- 何という + noun (a kind) + ですか。
   * note that kanji と言う should not be used as this use case is not referring
     to someone said something
 - これは何という花ですか。
@@ -2398,8 +2398,18 @@ ____
 
 ### the thing called ... is ...
 
-- 樋ロー葉という人は明治時代の有名な作家です。
+- name/description + という + noun (of kind) + ...
+- name/description + って + noun (of kind) + です。
+- 樋口一葉という人は明治時代の有名な作家です。
 - 「吾輩(わがはい)は猫である」という小説(しょうせつ)を読んだことがあります。
+- これは、ブルメリアという花です。
+- 山川登美子という歌人を知っていますか。
+- 中野さんという人から電話がありましたよ。
+- 飛行機が次についたのは、エベスという小さい町でした。
+- 「天使の朝」という映画を見たが、友達は誰もその映画の名前を聞いたことがないと言った。
+- これは、ブルメリアって花です。
+- 山川登美子って歌人を知っていますか。
+- 中野さんって人はから電話がありましたよ。
 
 ### the thing called ... what is that?
 
