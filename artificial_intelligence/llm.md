@@ -22,6 +22,8 @@
     + [MLX specifics](#mlx-specifics)
   * [Unsloth](#unsloth)
     + [Commands (Mac)](#commands-mac)
+  * [LiteRT-LM](#litert-lm)
+  * [Kotlin](#kotlin)
 ____
 
 # Large Language Models (LLMs)
@@ -935,4 +937,264 @@ the exported GGUF file.
 ```sh
 ollama create complaint-labeller-unsloth -f Modelfile
 ollama run complaint-labeller-unsloth "Ordered oat milk, received almond milk."
+```
+
+## LiteRT-LM
+
+To set up an environment for LiteRT-LM
+
+```sh
+uv venv -p 3.12 .venv
+source .venv/bin/activate
+uv pip install litert-lm==0.19.0
+```
+
+To download a model from Hugging Face
+
+```sh
+curl -L --http1.1 -C - -o models/gemma-4-E2B-it.litertlm \
+  https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/main/gemma-4-E2B-it.litertlm
+```
+
+To run a model
+
+```sh
+litert-lm run models/gemma-4-E2B-it.litertlm \
+  --prompt "Ordered oat milk, received almond milk. Classify: delayed, damaged, lost, wrong_item or other? One word."
+```
+
+To describe a model
+
+```sh
+litert-lm describe models/gemma-4-E2B-it.litertlm
+```
+
+While a GGUF is basically one big list of weights, a `.litertlm` is a container
+of sections: a tokenizer, a metadata block holding the chat template and stop
+tokens, and several separate TFLite graphs, each with one job. `litert-lm
+unpack` can extract the sections into a directory.
+
+Inferencing using CPU and GPU can lead to slightly different results due to
+floating point rounding.
+
+For training, `.litertlm` models cannot be used as it contains compiled graphs
+for running the model. Pulling from Hugging Face is preferred.
+
+While LiteRT-LM switch off thinking by default, `mlx-lm` switch it on by
+default.
+
+To train with thinking disabled by default (where the model allows thinking)
+
+```py
+import sys
+
+from mlx_lm import lora
+from mlx_lm.tokenizer_utils import TokenizerWrapper
+
+original = TokenizerWrapper.apply_chat_template  # keep the real method
+
+def without_thinking(self, *args, **kwargs):
+    """Same as the real method, but thinking defaults to OFF."""
+    kwargs.setdefault("enable_thinking", False)  # only if the caller didn't choose
+    return original(self, *args, **kwargs)
+
+TokenizerWrapper.apply_chat_template = without_thinking  # every chat template call now uses it
+
+if __name__ == "__main__":
+    sys.argv[0] = "mlx_lm.lora"
+    lora.main()
+```
+
+Suppose the above script is saved as `scripts/train_e2b.py`, to train
+
+```sh
+python scripts/train_e2b.py -c configs/e2b-lora.yaml
+```
+
+where `configs/e2b-lora.yaml` is a config file with the following content
+
+```yaml
+# LoRA settings for Gemma 4 E2B.
+# Use it with:   mlx_lm.lora -c configs/e2b-lora.yaml
+# Anything you also type on the command line wins over this file.
+
+model: google/gemma-4-E2B-it   # the 16-bit Hugging Face original (10.2 GB download)
+train: true
+data: data                     # data/train.jsonl + data/valid.jsonl (chat "messages" format)
+adapter_path: adapters-e2b     # where the adapter and its checkpoints are saved
+mask_prompt: true              # loss on the answer only (--mask-prompt)
+
+iters: 200
+batch_size: 4
+learning_rate: 1.0e-5
+steps_per_eval: 25             # validation loss every 25 iterations
+save_every: 25                 # a checkpoint every 25 iterations
+seed: 0
+
+num_layers: 16                 # adapters on the top 16 of E2B's 35 layers (layers 19–34)
+
+lora_parameters:               # the indented lines below belong to this group; keep the 2 spaces
+  rank: 8
+  scale: 20.0
+  dropout: 0.0
+  # Only the usual 7 matrices. Without this list, mlx-lm would also adapt Gemma's
+  # extra per-layer-embedding projections, and Lesson 3's export is simpler
+  # if the adapter touches only matrices every converter knows.
+  # (Layers 15–34 reuse earlier layers' keys and values, so they have no
+  #  k_proj / v_proj: those two names simply won't match up there.)
+  keys: ["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj",
+         "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"]
+```
+
+To fuse a LoRA adapter into the base model of Gemma 4 E2B
+
+```sh
+uv pip install "litert-lm==0.19.0" "litert-torch-nightly==0.11.0.dev20261102"
+uv pip check
+```
+
+Note that `litert-torch-nightly` is a converter which fuses the LoRA adapter
+into the base model and converts it to a `.litertlm` file.
+
+The converter can be run using python script to a fused HuggingFace model (not a
+`.litermlm` yet) as follows.
+
+```py
+# Fuse your mlx-lm adapter into Google's ORIGINAL Gemma 4 E2B checkpoint, so that
+# Google's converter (litert-torch export_hf) can turn it into a .litertlm file.
+# Run from the workspace folder (course .venv active):
+#     python scripts/fuse_adapter.py
+#
+# Why not `mlx_lm.fuse`? Its output is mlx's version of the model: the vision and
+# audio towers are dropped and some names are different. litert-torch expects the
+# checkpoint exactly as Google published it on Hugging Face. So we start from that
+# checkpoint and change only the 80 matrices your adapter touched.
+#
+# The maths is the same as mlx-lm's fuse:  W_new = W + scale × (lora_b.T @ lora_a.T)
+
+import json  # to read adapter_config.json
+import shutil  # to copy the small config and tokenizer files
+from pathlib import Path  # file paths that work like objects
+
+import torch  # comes with litert-torch; does the matrix maths in bf16/fp32
+from huggingface_hub import snapshot_download  # finds the model in your HF cache
+from safetensors.torch import load_file, save_file  # read/write .safetensors files
+
+BASE_MODEL = "google/gemma-4-E2B-it"  # the checkpoint you trained on (already cached)
+ADAPTER_PATH = Path("adapters-e2b")  # your trained adapter from Lesson 2
+OUTPUT_DIR = Path("models/gemma-4-E2B-shipping-hf")  # fused checkpoint goes here
+
+# 1. Where is the original checkpoint, and how was the adapter trained?
+base_dir = Path(snapshot_download(BASE_MODEL))  # no download: it's in the cache
+scale = json.load(open(ADAPTER_PATH / "adapter_config.json"))["lora_parameters"]["scale"]
+
+# 2. Load everything: ~10 GB of weights (text + vision + audio) and your 25 MB adapter.
+weights = load_file(base_dir / "model.safetensors")
+adapter = load_file(ADAPTER_PATH / "adapters.safetensors")
+
+# 3. Fuse. Each adapted matrix has a lora_a (in × 8) and lora_b (8 × out) pair.
+fused = 0
+for key in sorted(adapter):
+    if not key.endswith(".lora_a"):
+        continue
+    name = key.removesuffix(".lora_a")  # language_model.model.layers.N.self_attn.q_proj
+    # mlx calls it  language_model.model.layers.N...
+    # HF calls it   model.language_model.layers.N...      (same thing, different name)
+    hf_key = name.replace("language_model.model.", "model.language_model.", 1) + ".weight"
+    lora_a = adapter[name + ".lora_a"].float()
+    lora_b = adapter[name + ".lora_b"].float()
+    original = weights[hf_key]  # bf16, shape (out, in)
+    delta = scale * (lora_b.T @ lora_a.T)  # (out, in): the change the adapter learned
+    assert delta.shape == original.shape, (hf_key, delta.shape, original.shape)
+    weights[hf_key] = (original.float() + delta).to(original.dtype)  # add in fp32, store as bf16
+    fused += 1
+print(f"Fused {fused} matrices (scale {scale}) into {len(weights)} tensors")
+
+# 4. Save the fused weights plus the original config, tokenizer and chat template,
+#    so the folder looks exactly like a Hugging Face model to the converter.
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+save_file(weights, OUTPUT_DIR / "model.safetensors", metadata={"format": "pt"})
+for f in base_dir.iterdir():
+    if f.name not in ("model.safetensors", "README.md", ".gitattributes"):
+        shutil.copyfile(f, OUTPUT_DIR / f.name)  # contents only (cache files are read-only)
+print(f"Saved to {OUTPUT_DIR}/")
+```
+
+Note that the inference speed of the fused model is faster than the model with
+LoRA adapter attached.
+
+To convert the fused model to `.litertlm` format
+
+```sh
+litert-torch export_hf \
+  --model=models/gemma-4-E2B-shipping-hf \
+  --output_dir=models/export-int8 \
+  --externalize_embedder \
+  --jinja_chat_template_override=litert-community/gemma-4-E2B-it-litert-lm
+```
+
+where `models/gemma-4-E2B-shipping-hf` contains the fused model,
+`--externalize_embedder`: keep the word tables (including the Per-Layer
+Embeddings) as their own sections so the runtime can memory-map them.
+
+Note that there is no `--quantization_recipe` option specified and it implies
+default of `dynamic_wi8_afp32` 8-bit weights and 32-bit float activations being
+used.
+
+To check the components of the resultant `.litertlm` file
+
+```sh
+litert-lm-peek --litertlm_file=models/export-int8/model.litertlm
+```
+
+Note that, for the case of Gemma 4 E2B, the sections for voice and vision are
+not included.
+
+Also note that, for the section of `prefill_decode`, it becomes larger as in
+contains the fused weights of the LoRA adapter.
+
+To export the model using 4-bit word tables instead of 16-bit word tables (and
+this can reduce the size of the resultant `.litertlm` file).
+
+```sh
+litert-torch export_hf \
+  --model=models/gemma-4-E2B-shipping-hf \
+  --output_dir=models/export-emb4 \
+  --externalize_embedder \
+  --jinja_chat_template_override=litert-community/gemma-4-E2B-it-litert-lm \
+  --quantization_recipe=dynamic_wi8_emb4_afp32
+```
+
+Note that the resultant `.litertlm` file should be verified with tests since the
+smaller file can cost accuracy.
+
+## Kotlin
+
+In loading a model, since the size of the model is large in general, a
+background thread should be used to avoid `app not responding` from Android.
+
+The following should also be added to `AndroidManifest.xml` to allow the use of
+GPU (such that `Backend.GPU()` would work).
+
+```xml
+<uses-native-library android:name="libvndksupport.so" android:required="false" />
+<uses-native-library android:name="libOpenCL.so" android:required="false" />
+```
+
+To copy the model for Kotlin to consume
+
+```sh
+adb push models/export-int8/model.litertlm /data/local/tmp/llm/shipping.litertlm
+adb shell chmod 644 /data/local/tmp/llm/shipping.litertlm
+```
+
+where `chmod` command ensure Kotlin (not just the ADB shell user) can read the
+file.
+
+To build and install the Kotlin app
+
+```sh
+echo "sdk.dir=$HOME/Library/Android/sdk" > local.properties
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+./gradlew installDebug
 ```
