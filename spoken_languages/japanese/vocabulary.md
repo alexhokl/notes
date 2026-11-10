@@ -1401,6 +1401,8 @@ ____
 - 踊る (おどる) - to dance; to be manipulated
 - 驚く (おどろく) - to be surprised; to be taken aback; to be amazed; to be
   astonished; to be shocked; to be frightened; to be startled; to be alarmed
+- 通う (かよう) - to go to and from (a place); to run between (e.g. bus, train,
+  etc.)
 - 込む (こむ) - to be crowded; to go into; to put into; to become (completely);
   included (in case of compound verb); to go deeper into (in case of compound
   verb)
@@ -1448,6 +1450,7 @@ ____
 ### conjunctions
 
 - さて - well; now; then; aka 偖
+- したがって - therefore; consequently; accordingly; aka 従って
 - それとも - or; or else; aka 其れとも
 - だけど - however; but; although
 - だって - after all; because; but
@@ -1457,6 +1460,7 @@ ____
 ### adverbs
 
 - いつか - someday; one day
+- およそ - about; roughly; approximately; aka 凡そ
 - おそらく - probably; I'm afraid; aka 恐らく
 - 思わず (おもわず) - unconsciously; involuntarily; instinctively; reflexively;
   spontaneously; unintentionally; in spite of oneself
@@ -1788,6 +1792,7 @@ ____
 - 建築 (けんちく) - architecture; construction
 - 攻撃 (こうげき) - attack; assault; raid; onslaught; offensive; criticism; censure;
   denunciation; condemnation; cyber attack (e.g. DDoS)
+- 合計 (ごうけい) - total amount
 - 承認 (しょうにん) - approval; acknowledgment; consent
 - 心配 (しんぱい) - worry; concern; anxiety; care; help
 - 準備 (じゅんび) - preparation; arrangements
@@ -1941,6 +1946,7 @@ ____
 - 減らす (へらす) - to abate; to decrease; to diminish; to shorten
 - 守る (まもる) - to protect; to guard; to defend; to keep (a promise)
 - 申し込む (もうしこむ) - to apply for
+- 用いる (もちいる) - to use; to utilise
 - 求める (もとめる) - to want; to wish for; to request; to demand ; to look for;
   to pursue (pleasure)
 - もらう - to receive (appreciatively); aka 貰う
@@ -2008,6 +2014,7 @@ ____
 - めっきり - remarkably; noticeably; visibly; considerably; perceptibly;
   appreciably; very much
 - もしかしたら - perhaps
+- もともと - originally; from the beginning; by nature; aka 元々
 
 ### onomatopoeia
 
@@ -2053,6 +2060,7 @@ ____
 - 水素 (すいそ) - hydrogen
 - 西暦 (せいれき) - Western calendar
 - センチ - centimeter
+- 滝 (たき) - waterfall
 - たんす - chest of drawers; aka 箪笥
 - 大学院 (だいがくいん) - graduate school
 - 知人 (ちじん) - friend; acquaintance
@@ -2321,6 +2329,7 @@ ____
 
 ### conjunctions
 
+- 及び (および) - and; as well as
 - かつ - and; moreover; besides; as well as; aka 且つ
 
 ### adverbs
@@ -2375,6 +2384,7 @@ ____
 - 地獄 (じごく) - hell
 - 地元 (じもと) - home area; home town; local
 - ジャズ - jazz
+- 塾 (じゅく) - cram school; private tutoring school
 - 製 (せい) - -made; -manufactured
 - 丈 (たけ) - height; length (of clothing)
 - チャイム - chime; bell
@@ -2394,6 +2404,7 @@ ____
 - メーカー - manufacturer; maker
 - 幽霊 (ゆうれい) - ghost
 - ルール - rule
+- 枠 (わく) - box; frame; framework
 
 ### nouns (academic)
 
@@ -2516,6 +2527,7 @@ ____
 - 見逃す (みのがす) - to miss; to overlook; to turn a blind eye to; to pass up
   (e.g. an opportunity)
 - 召す (めす) - to eat; to drink; to wear; to buy; to call; to summon; to
+  invite; to ride
 - やる - to do; to send; to put; to move; to give (to someone of equal or
   lower status); aka 遣る
 - 予想 (よそう) - expectation; anticipation; prediction; forecast
@@ -2651,6 +2663,7 @@ ____
 - 相槌 (あいづち) - backchanneling; interjections indicating that one is paying
   attention
 - 県 (あがた) - territory (historical term); countryside
+- 行き先 (いきさき) - destination
 - 稲荷 (いなり) - god of harvest; fox (said to be messengers of Inari)
 - 腕時計 (うでどけい) - wristwatch
 - エーティーエム - ATM
@@ -2670,6 +2683,7 @@ ____
 - カビ - mould
 - 歌舞伎 (かぶき) - traditional form of drama and music performed by male actors
   wearing makeup mainly in white and red
+- 元祖 (がんそ) - originator; pioneer; inventor; founder
 - 聞き手 (ききて) - hearer; listener; audience
 - 気に入り (きにいり) - favourite
 - 浄め (きよめ) - purification
@@ -2729,6 +2743,7 @@ ____
 - 初詣で (はつもうで) - first shrine visit of the New Year
 - 話し手 (はなして) - speaker
 - 歯磨き粉 (はみがきこ) - toothpaste
+- 刃物 (はもの) - cutting instrument; knife
 - ばら - rose; aka 薔薇
 - 日替わり (ひがわり) - changing every day
 - 引きこもり (ひきこもり) - person who has withdrawn from society; stay-at-home
@@ -2748,6 +2763,7 @@ ____
 - 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
 - 洋書 (ようしょ) - book in foreign language
 - 汚れ (よごれ) - dirt, stains, spots
+- 落語 (らくご) - traditional Japanese comic storytelling
 - 略 (りゃく) - abbreviation; omission
 
 ### nouns (academic)
@@ -3094,6 +3110,7 @@ ____
 
 ### nouns (animals)
 
+- アザラシ - earless seal (Phocidae); seal
 - あしか - sea lion; eared seal; aka 海驢
 - いのしし - boar; aka 猪
 - いるか - dolphin; aka 海豚
@@ -3393,7 +3410,8 @@ ____
 - パクる - to cheat; steal (plagiarize)
 - 振り切る (ふりきる) - to shake off; to break away
 - 見上げる (みあげる) - to look up at
-invite; to ride
+- 見通す (みとおす) - to see without obstruction; to get an unobstructed view
+  (of); to see through
 - 気になる - to weigh on one's mind; to be interested (in)
 
 ### sentient transitive verb
@@ -3414,6 +3432,7 @@ invite; to ride
 - こける - to fall down; aka 転ける
 - バズる - to go viral (buzz)
 - 引き続く (ひきつづく) - to continue (for a long time); to occur in succession
+- 冷え込む (ひえこむ) - to get (very) cold; to get (much) colder
 - 含まれる (ふくまれる) - to be included; to be composed of
 - 迷う (まよう) - to loose one's way; to get lost; to be puzzled
 - 安らぐ (やすらぐ) - to feel at ease
@@ -3487,6 +3506,7 @@ invite; to ride
 - 何はともあれ (なにはともあれ) - at any rate; in any case; at the very least; if
   nothing else
 - における - in; at; on; as for; regarding; aka に於ける
+- に従って (にしたがって) - in accordance with; according to; as X, then Y (e.g. as we age we gain wisdom, as wine matures it becomes more valuable, etc.)
 - について - regarding
 - によると - according to; aka に依ると
 - によれば - according to (someone); aka に拠れば
