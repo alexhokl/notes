@@ -2046,6 +2046,7 @@ ____
 
 - 生け花 (いけばな) - Japanese flower arrangement
 - 以降 (いこう) - on and after; since
+- 売れ行き (うれゆき) - sales; demand
 - 女の人 (おんなのひと) - woman
 - 海水浴 (かいすいよく) - sea bathing; swimming in the sea
 - カラー - color
