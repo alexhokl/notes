@@ -40,6 +40,8 @@
   * [てもいい](#%E3%81%A6%E3%82%82%E3%81%84%E3%81%84)
   * [たて](#%E3%81%9F%E3%81%A6)
   * [込む](#%E8%BE%BC%E3%82%80)
+  * [合う](#%E5%90%88%E3%81%86)
+- [verb pairs of different perspective](#verb-pairs-of-different-perspective)
 ____
 
 # Auxiliary verbs (助動詞)
@@ -1701,3 +1703,22 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 間に合う (to be in time for; to be good enough)
     + 似合う (to suit; to match)
     + 釣り合う (to balance; to be a good match)
+
+# verb pairs of different perspective
+
+| giver | receiver |
+| --- | --- |
+| 貸(か)す | 借(か)りる |
+| 預(あず)ける | 預(あず)かる |
+| 教える | 習(なら)う |
+| 教える | 学(まな)ぶ |
+| 授(さず)ける | 授(さず)かる |
+| 渡(わた)す | 受(う)け取る |
+| 見せる | 見る |
+| 乗せる | 乗る |
+| 捕(つか)まえる | 捕(つか)まる |
+| 泊める | 泊まる |
+| 助(たす)ける | 助(たす)かる |
+| 届(とど)ける | 届(とど)く |
+| 育(そだ)てる | 育(そだ)つ |
+| 伝(つた)える | 伝(つた)わる |
