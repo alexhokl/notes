@@ -493,6 +493,7 @@ ____
 - 花 (はな) - flower
 - 話 (はなし) - talk; speech; chat; conversation; topic; subject; discussions;
   negotiation; argument; rumor; tale; story
+- 番号 (ばんごう) - number; series of digits
 - 人 (ひと) - person; someone
 - プール - swimming pool; american pool (cue sport)
 - 他 (ほか) - other; another
@@ -1103,9 +1104,14 @@ ____
 - 星 (ほし) - star
 - 漫画 (まんが) - manga
 - 指輪 (ゆびわ) - ring
+- 夢 (ゆめ) - dream; hope; wish; aspiration; ambition; unrealistic aspiration;
+  daydream; pipe dream; delusion; illusion; fleeting thing; something
+  short-lived
 - 用事 (ようじ) - business; things to do; errand
 - 両方 (りょうほう) - both; both sides
 - 訳 (わけ) - meaning; reason
+- 忘れ物 (わすれもの) - lost article; thing left behind; leaving something behind;
+  forgetting something
 
 ### nouns (academic)
 
@@ -1265,6 +1271,8 @@ ____
 
 ### する verb (transitive and intransitive)
 
+- 意見 (いけん) - opinion; view; comment; scolding; reprimand; rebuke; admonition;
+  cautioning; warning
 - 会議 (かいぎ) - meeting; conference
 
 ### verb pairs (intransitive and transitive)
@@ -1689,6 +1697,7 @@ ____
 ### nouns (body parts)
 
 - 胃 (い) - stomach
+- 肩 (かた) - shoulder
 - 皮 (かわ) - skin
 - 尻 (しり) - buttocks; bottom; rear; behind; hips
 - 背 (せい) - height; stature
@@ -1725,10 +1734,13 @@ ____
 
 ### nouns (family)
 
+- 孫 (まご) - grandchild
+
 ### nouns (home)
 
 - スイッチ - switch
 - ソファ - sofa
+- 毛布 (もうふ) - blanket
 
 ### nouns (sports)
 
@@ -1744,6 +1756,7 @@ ____
 - センター - center; centre
 - 頂上 (ちょうじょう) - top; summit; peak
 - 通り (とおり) - street; road; avenue
+- 都市 (とし) - town; city; municipal; urban
 - 博物館 (はくぶつかん) - museum
 - 畑 (はたけ) - field; farm
 
@@ -1844,6 +1857,7 @@ ____
 - 駐車 (ちゅうしゃ) - parking
 - びっくり - to be surprised; to be amazed
 - 変化 (へんか) - change; variation; alteration; transition
+- 迷惑 (めいわく) - trouble; annoyance
 - 優勝 (ゆうしょう) - championship; victory
 - 留学 (りゅうがく) - studying abroad
 
@@ -1929,6 +1943,7 @@ ____
 - 信じる (しんじる) - to believe
 - 過ごす (すごす) - to spend (time)
 - 進める (すすめる) - to advance; to move forward
+- 確かめる (たしかめる) - to make sure; to check; to ascertain; to confirm; to verify
 - 叩く (たたく) - to strike; to hit; to beat; to knock; to pound; to bang;
   to slap; to tap; to clap (one's hands); to play (the drums); to attack; to
   bash; to criticize; to censure; 肩を叩く could mean shoulder massage
@@ -2058,6 +2073,7 @@ ____
 - 紅葉 (こうよう) - red leaves
 - 国立 (こくりつ) - national
 - 合流 (ごうりゅう) - confluence (of rivers); flowing together; joining
+- サイレン - siren
 - 水素 (すいそ) - hydrogen
 - 西暦 (せいれき) - Western calendar
 - センチ - centimeter
@@ -2130,6 +2146,7 @@ ____
 
 ### nouns (location)
 
+- 温泉 (おんせん) - hot spring; onsen; hot spring resort; hot spring spa
 - 火山 (かざん) - volcano
 - 売店 (ばいてん) - stall; booth; kiosk; store
 - 広場 (ひろば) - square
@@ -2214,6 +2231,7 @@ ____
 - 見学 (けんがく) - field trip; tour; inspection
 - 出張 (しゅっちょう) - business trip
 - 仲良し (なかよし) - close friendship; intimate relations
+- 引っ越し (ひっこし) - moving (dwelling, office, etc.); changing residence
 - 面接 (めんせつ) - interview (job or school)
 
 ### する verb (transitive and intransitive)
@@ -2275,6 +2293,7 @@ ____
 - 増やす (ふやす) - to increase; to add to; to augment; aka 殖やす
 - 干す (ほす) - to air; to dry; to hang dry
 - 目指す (めざす) - to aim at; to aim for; to try for; to have an eye on
+- 訳す (やくす) - to translate; to interpret
 
 ### sentient transitive verb
 
@@ -2437,6 +2456,8 @@ ____
 
 ### nouns (location)
 
+- タワー - tower
+
 ### nouns (shopping)
 
 ### nouns (web)
@@ -2490,6 +2511,7 @@ ____
 
 - カット - cut; cutting; haircut
 - 指摘 (してき) - pointing out; identification
+- 志望 (しぼう) - wish; desire; ambition; choice
 - 主催 (しゅさい) - sponsorship (i.e. conducting under one's auspices); promotion;
   organizing; organising; hosting; staging
 - 手配 (てはい) - arrangements; preparations; search (by police)
@@ -2499,6 +2521,7 @@ ____
 - 取引 (とりひき) - transaction; dealings; business
 - 入手 (にゅうしゅ) - obtaining; acquisition; getting (hold of)
 - 保護 (ほご) - protection; safeguard; conservation; preservation
+- 無駄遣い (むだづかい) - waste (of money, time, etc.); squandering; frittering away
 
 ### sentient transitive する-verbs
 
@@ -2643,7 +2666,6 @@ ____
 
 - お得 (おとく) - bargain; good value
 - カジュアル - casual
-- ご迷惑 (ごめいわく) - trouble; annoyance
 - 久々 (ひさびさ) - (in a) long time; long time (ago); while (ago); long ago; long
   while (ago)
 - まじ - serious; not joking
@@ -3362,6 +3384,7 @@ ____
 - 再入国 (さいにゅうこく) - re-entry (into a country)
 - 散策 (さんさく) - strolling; wandering; roaming
 - 残業 (ざんぎょう) - overtime
+- 自己紹介 (じこしょうかい) - self-introduction
 - シフト - shift or move (from one trend to another)
 - ショートカット - shortcut
 - 土下座 (どげざ) - to kneel down and bow
