@@ -2373,6 +2373,7 @@ ____
 - あからさま - plain; frank; candid; open; direct; straightforward; unabashed;
   blatant; flagrant; aka 明白
 - 大柄 (おおがら) - large build; large pattern
+- 好調 (こうちょう) - favourable; promising; satisfactory; in good shape
 - 小柄 (こがら) - small build; small stature; petite; small pattern
 - 的 (てき) - -ish; -wise; -like
 
@@ -2384,6 +2385,7 @@ ____
 
 ### nouns
 
+- 赤字 (あかじ) - (being in) the red; deficit
 - 圧力 (あつりょく) - pressure
 - アンケート - questionnaire; survey
 - インフォメーション - information
@@ -2394,6 +2396,7 @@ ____
 - 課題 (かだい) - subject; theme; task; homework
 - 願書 (がんしょ) - written application
 - 区 (く) - ward; district
+- 黒字 (くろじ) - (being in) the black; surplus
 - 工学 (こうがく) - engineering
 - 心地 (ここち) - feeling; sensation; mood
 - コンテスト - contest
@@ -3240,6 +3243,7 @@ ____
 - 韓国 (かんこく) - Korea
 - スイス - Switzerland; aka 瑞西
 - スペイン - Spain; aka 西班牙
+- ソウル - Seoul (South Korea)
 - 中国 (ちゅうごく) - China
 - ドイツ - Germany; aka 独逸
 - ブラジル - Brazil; aka 伯剌西爾
@@ -3525,6 +3529,7 @@ ____
 - 手を挙げる (てをあげる) - to raise one's hand
 - での - at; in; with; by; of
 - 電話に出る (でんわにでる) - to answer the phone
+- とされる - ... is considered to ...
 - どういたしまして - you're welcome; don't mention it; not at all
 - どちらも - both
 - 何はともあれ (なにはともあれ) - at any rate; in any case; at the very least; if
