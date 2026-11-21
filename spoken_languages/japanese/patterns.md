@@ -3338,6 +3338,9 @@ and intention)
 - 私は弟に早くうちへ帰るように言いました。
 - ⭕️私は先生にゆっくり話してくれるように(と)頼みました。
   * ❌私は先生にゆっくり話すように(と)頼みました。 (as it commands the teacher)
+- ⭕️先生は春子さんに宿題を忘れないようにと言いました。
+  * ❌先生は春子さんに宿題を忘れてはいけないようにと言いました。 (てはいけない duplicates ようにと)
+  * ⭕️先生は春子さんに宿題を忘れてはいけないと言いました。
 
 ### to express opinion, conclusion, or guess based on objective situations or grounds
 
