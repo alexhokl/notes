@@ -18,7 +18,7 @@
 - [Conditional form ば](#conditional-form-%E3%81%B0)
 - [Command form (imperative) 〜なさい](#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
 - [Causative form させる](#causative-form-%E3%81%95%E3%81%9B%E3%82%8B)
-- [Voliltional form 〜よう](#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
+- [Volitional form 〜よう](#volitional-form-%E3%80%9C%E3%82%88%E3%81%86)
 - [たりする](#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
 - [たい](#%E3%81%9F%E3%81%84)
 - [がる](#%E3%81%8C%E3%82%8B)
@@ -585,7 +585,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 水は生活に欠かせないものだ。
     + Water is essential for life.
 
-# Voliltional form 〜よう
+# Volitional form 〜よう
 
 - to have will or purpose or intention
 - [conjugations](./conjugations.md)

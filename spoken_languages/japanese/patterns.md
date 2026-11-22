@@ -53,7 +53,7 @@
     + [that is unfortunate](#that-is-unfortunate)
   * [Chapter 7](#chapter-7)
     + [move to do something](#move-to-do-something)
-    + [は and が to stress differnent part of a sentence](#%E3%81%AF-and-%E3%81%8C-to-stress-differnent-part-of-a-sentence)
+    + [は and が to stress different part of a sentence](#%E3%81%AF-and-%E3%81%8C-to-stress-different-part-of-a-sentence)
     + [give to (from giver's perspective)](#give-to-from-giver%27s-perspective)
     + [receiving](#receiving)
     + [give to (from receiver's perspective)](#give-to-from-receiver%27s-perspective)
@@ -78,7 +78,7 @@
     + [は plus が](#%E3%81%AF-plus-%E3%81%8C)
     + [like most](#like-most)
     + [movement verbs](#movement-verbs)
-    + [how old](#how-old)
+    + [how old](#how-old-1)
     + [use of の for the same rank](#use-of-%E3%81%AE-for-the-same-rank)
     + [how long](#how-long)
   * [Chapter 10](#chapter-10)
@@ -126,9 +126,9 @@
   * [Chapter 14](#chapter-14)
     + [an ability to do something](#an-ability-to-do-something)
     + [ability to do something](#ability-to-do-something)
-    + [someone gives permission or sitation allows to do something](#someone-gives-permission-or-sitation-allows-to-do-something)
+    + [someone gives permission or situation allows to do something](#someone-gives-permission-or-situation-allows-to-do-something)
     + [ability to do something (potential form)](#ability-to-do-something-potential-form)
-    + [someone gives permission or sitation allows to do something (potential form)](#someone-gives-permission-or-sitation-allows-to-do-something-potential-form)
+    + [someone gives permission or situation allows to do something (potential form)](#someone-gives-permission-or-situation-allows-to-do-something-potential-form)
     + [embedded questions](#embedded-questions)
     + [whether or not](#whether-or-not)
     + [like or dislike of an action](#like-or-dislike-of-an-action)
@@ -137,8 +137,8 @@
     + [gaining an ability or situation/permission allows to do something](#gaining-an-ability-or-situation%2Fpermission-allows-to-do-something)
     + [new habit](#new-habit)
     + [losing an ability or situation/permission allows to do something](#losing-an-ability-or-situation%2Fpermission-allows-to-do-something)
-    + [lossing a habit](#lossing-a-habit)
-    + [non-exhuastive list of actions](#non-exhuastive-list-of-actions)
+    + [losing a habit](#losing-a-habit)
+    + [non-exhaustive list of actions](#non-exhaustive-list-of-actions)
     + [opposite actions](#opposite-actions)
     + [only ... and nothing more](#only-...-and-nothing-more)
     + [something / someone / somewhere](#something-%2F-someone-%2F-somewhere)
@@ -203,14 +203,14 @@
     + [that much](#that-much)
   * [Chapter 19](#chapter-19)
     + [if or when](#if-or-when)
-    + [if (a casual/hypothetical relationship)](#if-a-casual%2Fhypothetical-relationship)
+    + [if (a causal/hypothetical relationship)](#if-a-causal%2Fhypothetical-relationship)
     + [if something is the topic](#if-something-is-the-topic)
     + [given](#given)
     + [positive advice](#positive-advice)
     + [negative advice](#negative-advice)
     + [to change the state of something](#to-change-the-state-of-something)
     + [that one (for shared memories and knowledge)](#that-one-for-shared-memories-and-knowledge)
-    + [that one (for things that either speaker or listener do not know)](#that-one-for-things-that-either-speaker-or-listener-do-not-know)
+    + [that one (for things that either speaker or listener does not know)](#that-one-for-things-that-either-speaker-or-listener-does-not-know)
   * [Chapter 20](#chapter-20)
     + [doing something for someone](#doing-something-for-someone)
     + [someone doing something for the speaker's in-group](#someone-doing-something-for-the-speaker%27s-in-group)
@@ -232,11 +232,13 @@
     + [to convey the content of a command, instruction, or advice](#to-convey-the-content-of-a-command%2C-instruction%2C-or-advice)
     + [to express opinion, conclusion, or guess based on objective situations or grounds](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations-or-grounds)
     + [to express opinion, conclusion, or guess based on information or news from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-information-or-news-from-other-people)
-    + [a more casual way of saying not exist](#a-more-casual-way-of-saying-not-exist)
+    + [a more casual way of saying is not](#a-more-casual-way-of-saying-is-not)
   * [Chapter 22](#chapter-22)
     + [a superior compels a subordinate to do something](#a-superior-compels-a-subordinate-to-do-something)
-    + [to be made to do something](#to-be-made-to-do-something)
-    + [changing one thing to another](#changing-one-thing-to-another)
+    + [a superior grants permission or favors to a subordinate to do something](#a-superior-grants-permission-or-favors-to-a-subordinate-to-do-something)
+    + [a person's actions or circumstances can trigger emotional responses in others](#a-person%27s-actions-or-circumstances-can-trigger-emotional-responses-in-others)
+    + [to be made to do something by someone (in a negative sense)](#to-be-made-to-do-something-by-someone-in-a-negative-sense)
+    + [changing one state to another](#changing-one-state-to-another)
     + [doing something for the first time or last time](#doing-something-for-the-first-time-or-last-time)
     + [some](#some)
     + [regarding](#regarding)
@@ -245,8 +247,6 @@ ____
 ## Chapter 1
 
 ### noun (affirmative and negative)
-
-- [noun conjugations](https://github.com/alexhokl/notes/blob/master/spoken_languages/japanese/nouns.md#conjugations)
 
 - A: noun + は + noun + ですか。
   B: はい、noun + は + noun + です。
@@ -291,10 +291,10 @@ ____
 - noun + は + A + です。
   * 富士山は高いです。
 - noun + は + Na + です。
-  * 大坂はにぎやかです。
+  * 大阪はにぎやかです。
 
 - noun + は + adjective + ですか、 + opposite adjective + ですか。
-  * 大坂はにぎやかですか、静かですか。
+  * 大阪はにぎやかですか、静かですか。
 
 - この/その/あの + noun + は + adjective + です。
   * この辞書は重いです。
@@ -375,13 +375,13 @@ ____
   * A: 部屋の中に誰がいますか。
     B: 田中さんがいます。
 
-- A: location + に + something +  が + ありますか。
+- A: location + に + something + が + ありますか。
   B: はい、あります。
   B: いいえ、 + something + はありません。
   * A: 机の上に本がありますか。
     B: はい、あります。
     B: いいえ、本はありません。
-- A: location + に + something +  が + いますか。
+- A: location + に + something + が + いますか。
   B: はい、います。
   B: いいえ、 + something + はいません。
   * A: 部屋の中に人がいますか。
@@ -440,7 +440,7 @@ ____
 ### How was it?
 
 - どうでしたか。
-- 先月韓国の旅行はどうでしたか。
+- 先月の韓国旅行はどうでしたか。
 
 ### not very
 
@@ -455,7 +455,7 @@ ____
   * たくさん can be used in place of quantity
 
 - location + に + thing + が + quantity + と + another thing + が + quantity + あります。
-  * 机の上に本が三冊と鉛筆が一本ありますか。
+  * 机の上に本が三冊と鉛筆が一本あります。
 
 - location + に + person + が + quantity + います。
   * 教室に学生が三人います。
@@ -470,11 +470,11 @@ ____
     + これは五百円です。
 
 - quantity + price + です。
-  * 本は三つ五百円です。
+  * 本は三冊五百円です。
 
 ### How many
 
-- い＜つ
+- いくつ
   * 玩具はいくつありますか。
     + 五つあります。
 
@@ -486,7 +486,7 @@ ____
 
 ### How old
 
-- い＜つ
+- いくつ
   * あなたのお父さんはおいくつですか。
     + 五十歳です。
 
@@ -502,7 +502,7 @@ ____
     + すみません、このセットを二つください。
     + A: お客様、お飲み物は...
       B: コーヒーを三つください。
-    + ハンパーグを一つと刺身定食を一つください。
+    + ハンバーグを一つと刺身定食を一つください。
 
 ### Like / dislike
 
@@ -532,7 +532,7 @@ ____
   * りんごを買います
   * 本を読みます
   * シャワーを浴びます
-  * 勉強をしますお
+  * 勉強をします
   * 日本語の勉強をします
 
 ### intransitive verbs
@@ -565,16 +565,16 @@ ____
 - 電車に乗る
 - 大学に入学する
 - 病院に入院する
-- パーティーに參加する
+- パーティーに参加する
 - 電車に間に合う
-- スピチーコンテストに出る
+- スピーチコンテストに出る
 
 ### leaving
 
 - location + を + verb
 - うちを出る
 - 教室を出る
-- 電車を降る
+- 電車を降りる
 - 大学を卒業する
 - 病院を退院する
 - 学校を休む
@@ -615,7 +615,7 @@ ____
   * A: あなたは毎朝何を飲みますか。
     B: ~私は毎朝~コーヒーを飲みます。
   * A: あなたは明日どこへ行きますか。
-    B: ~あなたは明日~新宿へ行きます。
+    B: ~私は明日~新宿へ行きます。
   * A: 田中さんは何曜日にここへ来ますか。
     B: ~田中さんは~月曜日に~ここへ~来ます。
   * A: あなたは授業の後で何をしますか。
@@ -655,7 +655,7 @@ ____
   * A: 貴方はお風呂の後で何かしますか。
     B: はい、本を読みます。
     B: いいえ、何もしません。寝ます。
-  * A: あそこにデパードがあります。何か買いますか。
+  * A: あそこにデパートがあります。何か買いますか。
     B: はい、シャツを買います。
     B: いいえ、何も買いません。
   * A: 何か飲みますか。
@@ -718,9 +718,9 @@ ____
 
 - それ / その / そこ
   * 私は昨日姉と109へ行きました。
-    + 109ですか。それはですか。
+    + 109ですか。それは何ですか。
       + ファッションビルです。
-  *  私は今晩ピエールさんと食事をします。
+  * 私は今晩ピエールさんと食事をします。
     + ピエールさんですか。その人はどこの国の人ですか。
       + フランス人です。
   * 私は先週弟と東京ドームへ行きました。そこで、野球の試合を見ました。
@@ -728,9 +728,9 @@ ____
 ### that is good
 
 - それはいいですね。
-  * 私は来月田中さんと一緒に京都行きます。
+  * 私は来月田中さんと一緒に京都へ行きます。
     + それはいいですね。
-  * お陰様で、入学試験の結果は合格しました。
+  * お陰様で、入学試験に合格しました。
     + それはよかったですね。
 
 ### that is unfortunate
@@ -743,20 +743,20 @@ ____
 
 ### move to do something
 
-- location + へ +  R- + に + directional intransitive verb
-  * see [stem form](../verbs.md#stem-form)
+- location + へ + R- + に + directional intransitive verb
+  * see [stem form](./verbs.md#stem-form)
   * に in the above examples marks the aim of action of the movement verb
-  * 私は明日新宿へ靴お買いに行きます。
+  * 私は明日新宿へ靴を買いに行きます。
   * 私は明日新宿へ買い物に行きます。
-  * 私は明日新宿へご飯お食べに行きます。
+  * 私は明日新宿へご飯を食べに行きます。
   * 私は明日新宿へ食事に行きます。
   * 私は日本語講座へ日本語の勉強に来ました。
   * 私は毎朝公園へ犬の散歩に行きます。
   * 私は新宿へ映画を見に行きました。
   * 田中さんは昨日新宿へ何をしに行きましたか。
-  * 看護婦さんが熱を計りに来ました
+  * 看護師さんが熱を計りに来ました。
 
-### は and が to stress differnent part of a sentence
+### は and が to stress different part of a sentence
 
 - stressing someone
   * 誰が + ... + ますか/ましたか。
@@ -766,7 +766,7 @@ ____
 
 - stressing the action
   * someone + は + ... + ます/ました。
-    + 母は昨夜ハンパーグを作りました。
+    + 母は昨夜ハンバーグを作りました。
 
 - stressing the subject
   * subject + が + ...
@@ -783,10 +783,10 @@ ____
 
 ### give to (from giver's perspective)
 
-- A + は + B + に + thing + を + 上げる。 (giving to out-group; not-speaker nor
-  listener nor speaker-related)
-  * 小林さんはアンナさんに花を上げました。
-- it is generaly assumed that receiver is happy about that is being given
+- A + は + B + に + thing + を + あげる。 (giving to out-group; neither the
+  speaker, the listener, nor anyone related to the speaker)
+  * 小林さんはアンナさんに花をあげました。
+- it is generally assumed that receiver is happy about what is being given
   * otherwise
     + 渡す (neutral)
     + 押し付ける (negative)
@@ -798,7 +798,7 @@ ____
   * アンナさんは小林さんから花を貰いました。
 - から should be used when the giver is a non-human (an organisation for
   instance)
-- it is generaly assumed that receiver is happy about that is being given
+- it is generally assumed that receiver is happy about what is being given
   * otherwise
     + 受け取る (neutral)
 - いただく (humble)
@@ -806,10 +806,10 @@ ____
 ### give to (from receiver's perspective)
 
 - A + は + B + に + thing + を + くれる。
-  * 小林さんはアナさんに花を上げました。
-  * 小林さんは私に花をくれました。(上げる cannot be used)
-  * 木村さんは私の妹にケーキをくれました。(上げる cannot be used)
-  * 木村さんはあなたに何をくれましたか。(上げる cannot be used)
+  * 小林さんはアンナさんに花をあげました。
+  * 小林さんは私に花をくれました。(あげる cannot be used)
+  * 木村さんは私の妹にケーキをくれました。(あげる cannot be used)
+  * 木村さんはあなたに何をくれましたか。(あげる cannot be used)
 - it can only be used when receiver is speaker's in-group 内 (うち)
 - くださる (keigo)
   * note that the polite form is くださいます
@@ -838,7 +838,7 @@ ____
 - ... + Vて + 、 + ...
   * multiple actions happening in sequence
     + 私は毎朝7時に起きて、朝ご飯を食べて、学校へ行きます。
-    + 昨夜は友達と食事をして、１１時頃うちへ帰って、シャワーを浴びて、1時に寝ました。
+    + 昨夜は友達と食事をして、11時頃うちへ帰って、シャワーを浴びて、1時に寝ました。
     + 私は毎朝コーヒーを飲んで、パンを食べます。
     + 昨日は会社のパーティーがありました。私は陳さんと同じテーブルで食事をして、色々な話をしました。
   * start and end
@@ -850,7 +850,7 @@ ____
     + 私は昨日スーパーへ行って、買い物をしました。
     + 私は毎晩お風呂に入って、髪を洗います。
     + 昨夜マリアさんがうちへ遊びに来て、一緒にお酒を飲みました。
-    + 私は昨夜ケーキを作って、田中さんに上げました。
+    + 私は昨夜ケーキを作って、田中さんにあげました。
 
 ### linking two unrelated actions which happen one after another
 
@@ -859,24 +859,24 @@ ____
     action completes before starting another
   * examples
     + 私は朝歯を磨いてから、朝ご飯を食べます。
-    + 私は同僚は会社へ来てから、朝ご飯を食べます。でも、私はうちで食べてから、行きます。
+    + 私は同僚が会社へ来てから、朝ご飯を食べます。でも、私はうちで食べてから、行きます。
     + 私は看護師です。今日は夜勤があります。少し寝てから、仕事に行きます。
   * wrong usages
     + 私は中野で電車に乗ってから、新宿で電車を降ります。
-    + 昨日スーパー行ってから、買い物をしました。
+    + 昨日スーパーへ行ってから、買い物をしました。
 
 ### an action before another action
 
 - Vる + 前に + ...
   * 田中さんはいつも寝る前に、歯を磨きます。
   * 田中さんとリサさんは昨夜映画を見る前に食事をしました。
-  * あなたは毎晩寝る前にどんな事しますか。
+  * あなたは毎晩寝る前にどんなことをしますか。
 - subject + は + subordinate subject + が + Vる + 前に、 + ...
   * 私はチャイムが鳴る前に、教室に入りました。
   * 父は毎朝私が起きる前に、うちを出ます。
 - subordinate subject + が + Vる + 前に、 + subject + は + ...
   * 弟がイギリスへ留学に行く前に、私達は一緒に食事をしました。
-  * 雨は降る前に、私は買い物に行きました。
+  * 雨が降る前に、私は買い物に行きました。
 
 ### people, time and action
 
@@ -892,7 +892,7 @@ ____
 - ... + tool/method + で + ...
   * 今の人はみんな携帯電話で写真を撮ります。
   * 中国人や日本人は箸でご飯を食べます。
-  * 私はポールペンで名前を書きました。
+  * 私はボールペンで名前を書きました。
 
 ### transportation
 
@@ -933,9 +933,9 @@ ____
 ### describe a work location
 
 - location + に + 勤めている
-  * 私の母は看護師です。今、大坂の病院に勤めています。
+  * 私の母は看護師です。今、大阪の病院に勤めています。
 - location + で + 働いている
-  * 私の母は看護師です。今、大坂の病院で働いています。
+  * 私の母は看護師です。今、大阪の病院で働いています。
 
 ### describe an occupation
 
@@ -943,7 +943,7 @@ ____
   * 小林さんは公務員をしています。
   * 海子さんのお父さんは寿司屋をしています。
   * 数学の先生をしています。
-  * ソフドウェアエンジニアをしています。
+  * ソフトウェアエンジニアをしています。
 
 ### describe a work type
 
@@ -961,7 +961,7 @@ ____
 - ... + は + ... + が + ...
   * 象は鼻が長いです。
   * うさぎは耳が長いです。
-  * 猿はしっぼが長いです。
+  * 猿はしっぽが長いです。
   * 私の先生は頭がいいです。
   * 日本語は助詞が難しいです。
 
@@ -1067,7 +1067,7 @@ ____
   * 明日は雨が降らないと思います。
   * 陳さんは今日は学校へ来ないと思います。
   * マリアさんは日本人と結婚すると思います。
-  * 田中さんはもうすぐ治ると私は思いました
+  * 田中さんはもうすぐ治ると私は思いました。
   * この本は面白いと思います。
   * 明日は天気がいいと思います。
   * 昨日、東京は天気が良かったと思います。
@@ -1079,20 +1079,20 @@ ____
 
 - someone + は + subordinate clause + と思っている
   * 田中さんは明日雨が降ると思っています。
-  * 家内は私か戻って来ないと思っています。
+  * 家内は私が戻って来ないと思っています。
 
 ### because
 
 - (reason) + から + (consequence)
-  * although using plain form for reason is acceptable, it is better use polite
-    form to avoid situations demands respect (which may be hard to guess as a
-  beginner
+  * although using plain form for reason is acceptable, it is better to use polite
+    form to avoid situations that demand respect (which may be hard to guess as a
+    beginner)
 - 私は学校が休みですから、友達と映画を見に行きます。
 - 私は学校が休みだから、友達と映画を見に行きます。
 - 私は学校が休みだから、友達と映画を見に行く。
 - 映画が始まりますから、ホールに入ってください。
 - 映画が始まるから、ホールに入ってください。
-- どうして日本語勉強しますか。
+- どうして日本語を勉強しますか。
   * よく日本へ来ますから、日本語を勉強したいです。
 - どうしてよく日本へ来ますか。
   * 日本に友達がいますから、よく来ます。
@@ -1114,7 +1114,7 @@ ____
 
 - replace を with は and move the object to the beginning of the sentence
   * このバッグは東京で買いました。この靴は姉から貰いました。
-    + 東京でこのバックを買いました。姉からこの靴を貰いました。
+    + 東京でこのバッグを買いました。姉からこの靴を貰いました。
   * この天ぷらは母が作りました。
     + 母がこの天ぷらを作りました。
   * 中学校は去年卒業しました。
@@ -1130,7 +1130,7 @@ ____
   * アメリカの車は左ハンドルです。日本では右ハンドルです。
 
 - とは/とも
-  * A: こ主人の田中さんはお元気ですか。
+  * A: ご主人の田中さんはお元気ですか。
     + B: 田中さんとは二年前に離婚しました。
 
 ### what happened (and why?)
@@ -1155,7 +1155,7 @@ ____
   * `あそこで本を読んでいる人`は誰ですか。
   * `アンナさんが今聴いている物`はニュースです。
   * 私は昨日`田中さんがいつも行くレストラン`へ行きました。
-    + が is used in the cluase
+    + が is used in the clause
 - noun + の + plain form verb + noun
   * `リサさんの作った料理`はとても美味しいです。
     + が can be used in-place of の
@@ -1177,14 +1177,14 @@ ____
   * 田中さんのお父さんは多分五十歳ぐらいでしょう。
 - to make past tense, change the form of the words that come before でしょう
 - plain of でしょう is だろう
-  - ... + だろうと思います。
-    * 私は多分雨が降るだろうと思います。
+  * ... + だろうと思います。
+    + 私は多分雨が降るだろうと思います。
 
 ### while
 
 - R (sub action) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
-  * 車を運転しながら携帯電話を使っていないでください。
+  * 車を運転しながら携帯電話を使わないでください。
 
 ### ends up / completely done
 
@@ -1193,7 +1193,7 @@ ____
   * 私は昨夜この本を全部読んでしまいました。
   * この古い雑誌を全部捨ててしまってください。
 
-- Vる + ちゃう (casual)
+- Vて + しまう -> Vちゃう (casual; Vで -> じゃう)
   * 私は風邪を引いちゃった。
   * 昨夜この本を全部読んじゃった。
   * この古い雑誌を全部捨てちゃって。
@@ -1264,11 +1264,11 @@ ____
 
 - thing + が + transitive Vて + ある
   * テーブルの上に花が飾ってあります。
-  * うちは猫いるから、いつも窓が開けてある。
+  * うちは猫がいるから、いつも窓が開けてある。
   * 靴下は全部この引き出しに入れてありますよ。
   * 引き出しに全部の靴下が入れてありますよ。
 - note that the agent could be unknown
-- usualy the sentence does not involve a person as the subject
+- usually the sentence does not involve a person as the subject
 
 ### to show kindness by using intransitive verb for a kind act
 
@@ -1306,7 +1306,7 @@ ____
     + あなたはこのニュースを知っていましたか。
       + はい、知っていました。
       + いいえ、知りませんでした。
-- this should not be used for an opinion or something will be happened in the
+- this should not be used for an opinion or something that will happen in the
   future; use 分かる instead
 
 ### do you remember
@@ -1368,9 +1368,9 @@ ____
 - 私は一度も日本語の試験で満点を取ったことがありません。
 - 納豆を食べたことがありますか。
   * はい、一度あります。まずかったです。
-- 年末の紅白合戦を見たことがありますか。
+- 年末の紅白歌合戦を見たことがありますか。
   * はい、何度も見たことがあります。
-- 二時間遅れました、 信号が壊れることがありました。
+- 先月、信号が壊れて二時間遅れたことがありました。
 
 ### explanatory sentence
 
@@ -1445,20 +1445,14 @@ ____
 - 私の上手な外国語は英語で、下手なのは日本語です。
 - 今日来る人は誰ですか。
   * ええと、今日来るのは田中さんです。
-- どんな傘を買いましたか。
-  * 軽くて小さいのを買いました。
 - 何を食べますか。
   * この前食べたのをもう一度食べましょう。
 - 先生が言ったのを全部メモしました。
-- どんな鞄がいいですか。
-  * 丈夫なのがいいです。
-- どのアイスクリがいいですか。
-  * 抹茶のがいいです。
 
 ### a thing for a purpose or a person
 
 - noun (person/purpose) + の + ための + noun
-- ため means for and it can a noun or an adverb
+- ため means for and it can be a noun or an adverb
 - これは外国人のための日本語の辞書です。
 - このレストランには小さい子供のための椅子が用意してあります。
 - この飛行機にはイスラム教の乗客のための特別の料理があります。
@@ -1474,10 +1468,10 @@ ____
 - この洋服は奥さんにあげるプレゼントですか。
   * いいえ、娘のために買ったんです。
 - 母は私たちのために20年間働いています。
-- 大勢のフィリッピン人が家族のために海外で働いています
+- 大勢のフィリピン人が家族のために海外で働いています。
 - 健康のために毎朝ジョギングをしています。
-- デイエットのために毎朝走っています。
-- 会議の準備のために毎朝早く家をでました。
+- ダイエットのために毎朝走っています。
+- 会議の準備のために毎朝早く家を出ました。
 - 日本では、外国人のために駅名はローマ字でも書いてあります。
 
 ### selecting one from many
@@ -1498,7 +1492,7 @@ ____
 - ... + は + ... + V + ませんか。
   * ええ、+ ... + V + ません。
   * いいえ、+ ... + V + ます。
-- the one ask the question expects a negative answer
+- the one who asks the question expects a negative answer
 - このクラスにマレーシアの学生はいませんか。
   * ええ、いません。
   * いいえ、います。海子さんがいます。
@@ -1566,7 +1560,7 @@ ____
   * 私は日本語ができます。
 - Remarkableは書いた文字の認識(にんしき)ができます。
 
-### someone gives permission or sitation allows to do something
+### someone gives permission or situation allows to do something
 
 - Vる + ことができる
 - 朝10時から午後4時の間は学校の前に車を止めることができます。
@@ -1589,9 +1583,9 @@ ____
 - ❌料理ができる人はいますか。 ("Is there anyone here with the trait of being
   able to cook?")
   * ⭕️料理をできる人はいますか。 (It emphasizes the action of cooking itself. It
-    feels more like, "Is there anyone who can perform the act of cooking)
+    feels more like, "Is there anyone who can perform the act of cooking")
 
-### someone gives permission or sitation allows to do something (potential form)
+### someone gives permission or situation allows to do something (potential form)
 
 - [Potential form られる](./verbs.md#potential-form-%E3%82%89%E3%82%8C%E3%82%8B)
 - このカードで新幹線に乗れますか。
@@ -1644,8 +1638,8 @@ ____
 - 私の趣味はコンピューターで日本麻雀をすることです。
 - アリフさんの趣味は何ですか。
   * 私の趣味はいろいろな国の切手を集めることです。
-- 趣味(しゃみ)はサッカーを見ることです。
-- 趣味(しゃみ)はAIを使うことです。
+- 趣味(しゅみ)はサッカーを見ることです。
+- 趣味(しゅみ)はAIを使うことです。
 
 ### contrast between two things
 
@@ -1653,9 +1647,10 @@ ____
 - 私はビールは飲みますが、日本酒は飲みません。
 - 姉からはプレゼントをもらいましたが、兄からは何ももらいませんでした。
 - このことは母には話しましたが、父にはまだ話していません。
-- ハッピーバレーへはトランで行けますが、地下鉄では行けません。
+- ハッピーバレーへはトラムで行けますが、地下鉄では行けません。
 - 私は肉は好きですが、魚は嫌いです。
 - ❌この猫は尻尾は長いですが、手足は短いです。
+  * tail and legs are not exactly related
 
 ### gaining an ability or situation/permission allows to do something
 
@@ -1665,8 +1660,8 @@ ____
   * 分かる
   * 見える
   * 聞こえる
-- 1997年にチェンマ大橋ができました。昔は香港島からランタオ島まで1時間以上
-  かかりましたが、今は30分ぐらいで行けるようになりました。チェンマ大橋が
+- 1997年にチンマー大橋ができました。昔は香港島からランタオ島まで1時間以上
+  かかりましたが、今は30分ぐらいで行けるようになりました。チンマー大橋が
   通れるようになって、とても便利になりました。
 - 早く日本のテレビ番組の内容が分かるようになりたいです。
 - 私は日本に来る前には全然日本語ができませんでしたが、今は少し話せるように
@@ -1694,17 +1689,17 @@ ____
 - 狭い家に引っ越ししましたから、大きい家具が置けなくなりました。
 - お酒を飲めなくなりました。
 
-### lossing a habit
+### losing a habit
 
 - Vなく + なる
 - あの人は遅刻しなくなりました。
 - 大学を卒業してから、あまり運動しなくなりました。
 - お酒を飲まなくなりました。
 
-### non-exhuastive list of actions
+### non-exhaustive list of actions
 
 - [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
-- Vた + たり + Vた + たり + する
+- Vたり + Vたり + する
 - 日曜日には本を読んだり、メールを送ったりします。
 - 会社でどんな仕事をしていますか。
   * お客さんに電話をしたり、メールを書いて送ったりしています。
@@ -1713,8 +1708,8 @@ ____
 ### opposite actions
 
 - [たりする](./verbs.md#%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B)
-- Vた + たり + Vた + たり + する
-- Vた + たり + Vた + たり + している
+- Vたり + Vたり + する
+- Vたり + Vたり + している
 - 勉強に集中できませんから、部屋に入ったり、出たりしないでください。
 - テレビをつけたり、消したりしないでください。壊れてしまいますよ。
 - 雨が降ったりやんだりしています。
@@ -1771,7 +1766,7 @@ ____
 ### someone said something
 
 - [subordinate clauses (従属節)](#subordinate-clauses-%E5%BE%93%E5%B1%9E%E7%AF%80)
-- suboardinate clause + と言っていました
+- subordinate clause + と言っていました
   * compared to と言う, と言っている focuses on the content rather than the
     people involved in the conversation
   * indicates that a statement still holds true at the time of speaking
@@ -1811,7 +1806,7 @@ ____
 - it can be used in
   * describing speaker's intention
   * questions asking listener's intention
-  * ❌ describe listener's or someones' (third person) intention
+  * ❌ describe listener's or someone's (third person) intention
 - 私は大学院でアジア経済を勉強するつもりです。
 - 彼女は25歳までには結婚しないつもりだと言っています。
 - あなたは日本語の先生になるつもりですか。
@@ -1833,7 +1828,7 @@ ____
 ### to express will or intention
 
 - [Conjugations](./conjugations.md)
-- [Voliltional form 〜よう](./verbs.md#voliltional-form-%E3%80%9C%E3%82%88%E3%81%86)
+- [Volitional form 〜よう](./verbs.md#volitional-form-%E3%80%9C%E3%82%88%E3%81%86)
 - 今晩は授業がないから、どこかへ食べに行こうか。
   * いいね。スーパーの隣の店にしようか。
 - 今度の旅行はどこに行こうか。
@@ -1860,8 +1855,8 @@ ____
   * ええ、うちでパーティーをしようと思っています。
 - 私は彼女が好きですが、結婚しようとは思っていません。
 - 私は夏休みに北海道へ行こうと思っています。
-- 母の誕生日におあげるケーキは買わないで、自分で作ろうと思っています。
-  * ❌母の誕生日におあげるケーキは買わないで、自分で作ると思っています。 (it
+- 母の誕生日にあげるケーキは買わないで、自分で作ろうと思っています。
+  * ❌母の誕生日にあげるケーキは買わないで、自分で作ると思っています。 (it
     cannot be a prediction of speaker's own action)
 
 ### to express someone's intention or plan
@@ -1896,7 +1891,7 @@ ____
 - 天気予報によると今夜九州にも雪が降るそうです。
 - 天気予報では今夜九州にも雪が降るそうです。
 - 昨日李さんが見た映画は面白くなかったそうです。
-- 真子さんの妹さんもとてもきれいだそうです。
+- 海子さんの妹さんもとてもきれいだそうです。
 - 昨日のパーティーはとてもにぎやかだったそうです。
 - チンさんは夏休みに国へ帰るそうです。
 - 先生の話によると今度の試験は難しいそうです。
@@ -1904,7 +1899,7 @@ ____
 
 ### may or might
 
-- [かも知れない](./grammar.md/#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
+- [かも知れない](./grammar.md#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
 - noun + かもしれない
 - Na + かもしれない
 - A + かもしれない
@@ -1917,7 +1912,7 @@ ____
 - 海子さんも韓国の映画が好きかもしれません。
 - あそこはまだ地下鉄がないから、交通があまり便利ではないかもしれません。
 - 山口さんも昔警察官だったかもしれません。
-- 海子さんは風邪を引いと言っていたから、今日は学校へ来ないかもしれません。
+- 海子さんは風邪を引いたと言っていたから、今日は学校へ来ないかもしれません。
 - 明日は雨かもしれません。
 
 ### and then
@@ -1940,21 +1935,21 @@ ____
 ### Command form
 
 - [Command form (imperative) 〜なさい](./verbs.md#command-form-imperative-%E3%80%9C%E3%81%AA%E3%81%95%E3%81%84)
-- V + なさい
+- R- + なさい
 - 先生「今日習った語彙は試験に出ますから、ちゃんと覚えなさい。」
-- 母「あやちゃん、学校に遅れちゃうねよ。早く起きなさい。」
+- 母「あやちゃん、学校に遅れちゃうよ。早く起きなさい。」
 - 早くうちへ帰りなさい。
   * ❌早くうちへ帰らなくなさい。
 - 警察「そこの車、止まりなさい。」
 
 ### try (and completed attempt)
 
-* [てみる](./verbs.md#%E3%81%A6%E3%81%BF%E3%82%8B)
-* Vて + みる
+- [てみる](./verbs.md#%E3%81%A6%E3%81%BF%E3%82%8B)
+- Vて + みる
 - 靴を買う前に、必ず履いてみます。
 - 和牛を食べたことがないから、どんな味か一度食べてみたいです。
 - いつかヨーロッパへ行ってみたいです。
-- 私は新しいシャツをきてみました。
+- 私は新しいシャツを着てみました。
 - 部屋にいるかどうか、マリアさんに電話をかけてみます。
 - 美味しいかどうか食べてみます。
 - 日本旅行は楽しかったです。また、行きたいです。
@@ -2002,11 +1997,11 @@ ____
 - Vる + の
 - in most cases, こと can be used in-place of の
 - 友達と話をするのは楽しいです。
-  * ⭕️友達と話をするのは楽しいです。
+  * ⭕️友達と話をすることは楽しいです。
 - 日本語で手紙を書くことは難しいです。
   * ⭕️日本語で手紙を書くのは難しいです。
-- みんなの前でスビーチをするのは恥ずかしいです。
-  * ⭕️みんなの前でスビーチをすることは恥ずかしいです。
+- みんなの前でスピーチをするのは恥ずかしいです。
+  * ⭕️みんなの前でスピーチをすることは恥ずかしいです。
 - 私は星を見るのが好きです。
   * ⭕️私は星を見ることが好きです。
 - 香港人は歩くのが速いです。
@@ -2045,7 +2040,6 @@ ____
 - ... + が + ...
 - ... + んですが + ...
 - the more casual version is けど
-  * see also [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
 - ちょっとすみませんが、この近くに薬屋がありますか。
 - ちょっと相談したいことがあるんですが、今いいでしょうか。
 - 先生、ちょっと聞きたいことがあるんですが…
@@ -2122,30 +2116,30 @@ ____
   * はい、漢字で書かなければいけません。
   * ええ、漢字で書いてください。
   * いいえ、漢字で書かなくてもいいですよ。
-- 毎日仕事で何をしなければないませんか。
+- 毎日仕事で何をしなければなりませんか。
   * コーディングしたり、会議(かいぎ)したり、リサーチしたりしなければなりません。
 - ご飯を作らなければなりませんか。
   * はい、作らなければなりません。
   * いいえ、作らなくてもいいです。
-- ウィンテージじゃなくてもいいです。
+- ヴィンテージじゃなくてもいいです。
 
 ### a must due to legal or social rules
 
-- Vな + ければなくない。
+- Vな + ければならない。
 - ATMでお金を下ろすとき、暗証番号を入れなければなりません。
 - 日本ではゴミは分別して、捨てなければなりません。香港ではどうですか。
   * 香港もだんだんゴミを分別して捨てるようになっています。
 - アメリカに留学する人はこの試験を受けなければなりません。
 - 日本人は家を買うとき、消費税を払わなくてもいいですか。
   * いいえ、払わなければなりません。
-- ３歳の子も入場料を払わなければなりませんか。
+- 3歳の子も入場料を払わなければなりませんか。
   * いいえ、払わなくてもいいです。
 - 弟の結婚式があるから、明日会社を休まなければなりません。
 
 ### action to prepare for another action
 
 - [ておく](./verbs.md#%E3%81%A6%E3%81%8A%E3%81%8F)
-- Vて + おきる
+- Vて + おく
 - 明日海洋公園へ行きますから、早く宿題をしておきなさい。
   * はい、今します。
 - 扇風機を買うんですか。
@@ -2155,13 +2149,13 @@ ____
 - この寿司屋は平日はそんなに込んでいませんが、休日は必ず予約しておいてください。
 - 今晩友達が来るから、部屋を掃除しておきます。
 - 電話しておきます
-  * causal forms
+  * casual forms
   * 電話しておく
   * 電話しとく (〜ておく → 〜とく)
 
 ### return to original state
 
-- Vて + おきる
+- Vて + おく
 - 財布やパスポートは、いつも引き出しにしまっておきます。
 - 教室を出るとき、電気と冷房を消しておかなければなりません。
 - 授業が終わった後で、誰がホワイトボードの字を消しておきますか。
@@ -2170,7 +2164,7 @@ ____
 
 ### to leave the state as it is
 
-- Vて + おきる
+- Vて + おく
 - 窓を開けてもいいですか。
   * 寒いですから、閉めておいてください。
 - コップを洗っておきましょうか。
@@ -2191,14 +2185,13 @@ ____
   * それは白雪姫様です。
 - マリアさんは歌が上手でしょう。
   * いいえ、私は下手です。上手なのはリサさんですよ。
-- 田中さんが住んでいるのはあのアパートです。
 
 ### asking if a state or condition is sufficient
 
 - ... + でいいですか。
 - 答えはこれでいいですか。
   * はい、それでいいです。
-- 次の予約は５月２４日の１０時でいいですか。
+- 次の予約は5月24日の10時でいいですか。
 - これでいいですか。
 
 ### do it oneself
@@ -2229,17 +2222,17 @@ ____
   * 今お腹が一杯なので...
 - すみません。電車が遅れたので、授業に間に合いませんでした。
 - 今日は用事がありますので、お先に失礼します。
-  * polite form can used be used business settings
+  * polite form can be used in business settings
 - 漢字をしらべたいので、この辞書を借りてもいいですか。
-- 日本語があまり上手ではありませんので、英語で話してくでさいませんか。
+- 日本語があまり上手ではありませんので、英語で話してくださいませんか。
 - どうして遅刻したんですか。
   * 疲れていて、寝坊してしまったので、...
   * ❌疲れていて、寝坊してしまったから、...
     + it should not be used to explain doing something wrong
 - 聞こえませんので、少し大きい声で言っていただけますか。
   * ❌聞こえませんから、少し大きい声で言っていただけますか。
-    + it should not be used for a request of help when it is stressing the
-      reason where it sounds like blaming the listener
+    + it should not be used for a request for help, as stressing the reason
+      makes it sound like blaming the listener
 - なぜ、日本語の勉強を始めたんですか。
   * 日本のアニメが好きだからです。
   * ❌日本のアニメが好きだのでです。
@@ -2259,16 +2252,16 @@ ____
 - 雨が降りそうです。
 - このケーキはおいしそうですね。
 - あの人はとても元気そうです。
-- トラックから荷物が落ちそですよ。
+- トラックから荷物が落ちそうですよ。
 - あの荷物は重そうですね。
   * 一緒に運びましょうか。
 - あの子は頭が良さそうですね。
   * ええ、新しい言葉をすぐ覚えます。
 - この鞄は丈夫そうですね。これを買いましょうか。
   * ええ、デザインもいいですね。
-- 資料をたくさん集めてので、いいレポートが書けそうです。
+- 資料をたくさん集めたので、いいレポートが書けそうです。
 - 道が込んでいるので、駅まで二時間ぐらいかかりそうです。
-- 林さんは李さんから花をもらって、嬉しそでした。
+- 林さんは李さんから花をもらって、嬉しそうでした。
 
 ### does not seem like
 
@@ -2283,7 +2276,7 @@ ____
 - このカレーライスはあまり辛くなさそうです。
 - 課長は今日は元気ではなさそうですね。
   * ええ、風邪を引いたかもしれません。
-- あの人はこの学校の学生ではなさそです。
+- あの人はこの学校の学生ではなさそうです。
 
 ### seem (in sub-clauses)
 
@@ -2323,7 +2316,7 @@ ____
 - インドネシアは日本より暑いです。
 - 地下鉄はバスより速いです。
 - 面積(めんせき)は香港とシンガポールとどちらが広いですか。
-  * 面積はシンガボールより香港の方が広いです。
+  * 面積はシンガポールより香港の方が広いです。
 - 日本では牛肉は鳥肉より安いですか。
   * いいえ、鳥肉の方が安いです。
 - 皆さん、漢字の言葉はカタカナの言葉より易しいですか。
@@ -2337,8 +2330,8 @@ ____
 - Vる + ために + ...
 - Vる + ため、 + ...
 - Vる + ためだ。
-  * where is verb has to some action controllable which includes all transitive
-    verbs and some intransitive verbs
+  * where the verb has to be a controllable action, which includes all
+    transitive verbs and some intransitive verbs
     + which does not include
       + 分かる
       + できる
@@ -2358,21 +2351,21 @@ ____
 
 ### also
 
-+ [し](./particles.md#%E3%81%97)
+- [し](./particles.md#%E3%81%97)
 - noun + だし、...
 - Na + だし、...
 - A + し、...
 - V + し、...
 - ... + も + ... + し、... + も + ... + し、... + も + ...
   * where も replaces が or を
-  * the usage of も depends on subject or object needs to be stated
+  * the usage of も depends on whether the subject or object needs to be stated
 - 小林さんは頭もいいし、スポーツもできます。
 - 小林さんはテニスもできるし、サッカーもできます。
   * 小林さんはテニスもサッカーもできます。 (し is skipped as the verb is the
     same)
 - この間(あいだ)の山田教授(きょうじゅ)の講義(こうぎ)で私はメモも取らなかったし、
   録音(ろくおん)もしませんでした。
-- この料理はおいしいし、作り方(かた)も簡単です。 (existance of も is optional)
+- この料理はおいしいし、作り方(かた)も簡単です。 (existence of も is optional)
 - あの二人は趣味も同じだし、考え方も似(に)ています。
 - 祖母(そぼ)は手足(てあし)も不自由(ふじゆう)だし、目も悪いです。
 - 陳さんはピアノも弾けますし、ダンスもできます。
@@ -2402,19 +2395,19 @@ ____
 - name/description + って + noun (of kind) + です。
 - 樋口一葉という人は明治時代の有名な作家です。
 - 「吾輩(わがはい)は猫である」という小説(しょうせつ)を読んだことがあります。
-- これは、ブルメリアという花です。
+- これは、プルメリアという花です。
 - 山川登美子という歌人を知っていますか。
 - 中野さんという人から電話がありましたよ。
-- 飛行機が次についたのは、エベスという小さい町でした。
+- 飛行機が次に着いたのは、エベスという小さい町でした。
 - 「天使の朝」という映画を見たが、友達は誰もその映画の名前を聞いたことがないと言った。
-- これは、ブルメリアって花です。
+- これは、プルメリアって花です。
 - 山川登美子って歌人を知っていますか。
-- 中野さんって人はから電話がありましたよ。
+- 中野さんって人から電話がありましたよ。
 
 ### the thing called ... what is that?
 
 - name + というのは + pronoun + ですか。
-- name + って + noun + ですか。
+- name + って + 何 + ですか。
 - the usage is similar to とは but not the same
   * というのは is also used more in casual conversations
 - 東京ドームというのは何ですか。
@@ -2422,7 +2415,7 @@ ____
 - アプリというのは何ですか。
   * (アプリというのは)スマホのためのソフトです。
 - シルバーシートって何ですか。
-  * (シルバーシートって)お年寄(としより)りのための席(せき)です。
+  * (シルバーシートって)お年寄(としよ)りのための席(せき)です。
 
 ### indicating the period of life
 
@@ -2436,7 +2429,7 @@ ____
 
 ### once (as natural consequence)
 
-- [と (to indicate a strong casual relationship)](./particles.md#%E3%81%A8-to-indicate-a-strong-casual-relationship)
+- [と (to indicate a strong causal relationship)](./particles.md#%E3%81%A8-to-indicate-a-strong-causal-relationship)
 - it does not have to be a fact, it can be an opinion
 - this cannot be used to express speaker's intention such as commands or requests
   * たら should be used instead
@@ -2448,7 +2441,7 @@ ____
 - Aくない + と + ...
 - Vる + と + ...
 - Vない + と + ...
-- past tense cannot be used before と since it requires plain form
+- past tense cannot be used before と since this pattern is describing a natural consequence which always happens
 - どうやってラジオの音(おと)を大きくしますか。
   * このつまみを右へ回(まわ)すと、音が大きくなります。
 - すみません。海岸(かいがん)はどの辺ですか。
@@ -2531,14 +2524,14 @@ ____
   * いいえ、この薬を飲んでも、眠くなりません。
 - あなたは静かでないと、寝られませんか。
   * いいえ、私は静かでなくても、寝られます。
-- if the follow clause is not a fact and expectation, のに cannot be used
-  * 急にでも、間に合わないでしょう。
+- if the following clause is not a fact or expectation, のに cannot be used
+  * 急いでも、間に合わないでしょう。
     + ❌急ぐのに間に合わないでしょう。
   * 家賃が高くても、便利な場所がいいです。
     + ❌家賃が高いのに、便利な場所がいいです。
 - 日本語で話しても大丈夫ですよ。
 - そこへは地下鉄でも行けます。
-- すみません。ちょっと質問てもいいですか。
+- すみません。ちょっと質問してもいいですか。
 - 近いので、歩いても行けますよ。
 - 鈍い人でもできます。
 
@@ -2557,7 +2550,7 @@ ____
 - 私はどんな国(へ)でも行きたいです。
 - この本はどんな本屋ででも売っています。
 - あの人はどんな難しい本でも読めます。
-- この運動はどんな運動神経の(が)
+- この運動はどんな運動神経の人でもできます。
 - あの人はどんな高いものでも買います。
 
 ### describing physical traits
@@ -2573,7 +2566,7 @@ ____
 - みんなうちへ帰りたそうな顔をしています。
 - あの人は長い髪をしています。
 - あの人は綺麗な声(こえ)をしています。
-- ❌あの人髪をしています。
+- ❌あの人は髪をしています。
 
 ### like / as
 
@@ -2679,12 +2672,12 @@ ____
   * asking question for the required condition to be met
   * rhetorical question ends with のか, のだ or のだろう
   * counterfactual condition
-    + the desired situation has not been realized or immpoosible to be realized
+    + the desired situation has not been realized or impossible to be realized
     + usually ends with
       + のに
       + のだが
       + だろう
-      + はずた
+      + はずだ
       + ところだ
       + Vた
       + Vていた
@@ -2693,7 +2686,7 @@ ____
   * introductory utterance
   * suggestion or recommendation
 - slightly more formal than たら
-  * used in more in written form
+  * used more in written form
   * it is less used to express speaker's personal matters
 - although なら can be used with い-adjective and verb, it is only used with
   affirmative (positive) form of な-adjective and noun for now
@@ -2710,7 +2703,7 @@ ____
   * 行けば -> 行きゃ
   * 飲めば -> 飲みゃ
   * なければ -> なけりゃ
-  * Aければ -> A-きゃ
+  * Aければ -> Aけりゃ
 - (もし)雨が降れば、私はハイキングに行きません。
 - (もし)マーク・シックスに当(あ)たれば、私は大きい家(いえ)を買います。
 - (もし)このコンサートのチケットが買えれば、ぜひ行ってみたいです。
@@ -2736,13 +2729,12 @@ ____
 - 日本語が上手でなければ、このアルバイトはできないでしょう。
 - 明日いい天気なら、私は山に登ります。
 - 明日いい天気でなければ、私は山に登りません。
-- 一所懸命練習すれば、上手になります。
 - この薬を飲めば、病気が治ります。
 - 今すぐ送れば、願書(がんしょ)の締め切りに間に合います。
 - この試験で60点取れば、あの大学に入れます。
 - 辞書を使えば、新聞が読めます。
 - 明日暇なら、映画を見に行きませんか。
-  * invitation is acceptable due to 暇 is describing a state
+  * invitation is acceptable because 暇 describes a state
   * ⭕️時間があれば、映画を見に行こう。
   * ⭕️私がそこにいなければ、後で連絡します。
   * ⭕️スケジュールが良ければ、明日会いましょう。
@@ -2760,14 +2752,14 @@ ____
   * condition and consequence share the same subject; the result is natural or
     non-volitional
   * condition and consequence share the same subject; the result is volitional
-    + ❌日本に行けば、お土産を買います
+    + ❌日本に行けば、お土産を買います。
     + ❌日本に行けば、お土産を買おう。
-- 食事を減らせばあなたも痩せるんだろう。 (not-yet-relised result)
-- もし私が彼の立場なら、やっばり同じように考えるだろう。 (not-yet-relised result)
-- もし天気が悪ければ、試合は中止になるかもしれない。 (not-yet-relised result)
-- 手術をすれば助かるでしょう。 (not-yet-relised result)
-- こんなに安ければ、きっとたくさんおれると思う。 (not-yet-relised result)
-- それだけ成績が良ければ、どの大学にでも入学できるはずです。 (not-yet-relised
+- 食事を減らせばあなたも痩せるんだろう。 (not-yet-realised result)
+- もし私が彼の立場なら、やっぱり同じように考えるだろう。 (not-yet-realised result)
+- もし天気が悪ければ、試合は中止になるかもしれない。 (not-yet-realised result)
+- 手術をすれば助かるでしょう。 (not-yet-realised result)
+- こんなに安ければ、きっとたくさん売れると思う。 (not-yet-realised result)
+- それだけ成績が良ければ、どの大学にでも入学できるはずです。 (not-yet-realised
   result)
 - 安ければ買うつもりです。 (state and intention)
 - 今度の日曜日、天気が良ければハイキングに行こうよ。 (state and intention)
@@ -2775,15 +2767,15 @@ ____
   * そうだな、ビールがあれば飲みたいな。 (state and intention)
 - レポートを提出しなければ、合格点はあげません。 (state and intention)
 - 田中さんが行かなければ、私も行かない。 (state and intention)
-- もし、今学期中にこの本を読み終えなければ、次にこの本を読みます。 (non-state
-and intention)
-  * ❌この本を読めば、次にこの本を読みます。 (seqeunce of events
+- もし、今学期中にこの本を読み終えなければ、次にあの本を読みます。 (non-state
+  and intention)
+  * ❌この本を読めば、次にあの本を読みます。 (sequence of events
     cannot be used)
-  * ⭕️この本を読んだら、次にこの本を読みます。
+  * ⭕️この本を読んだら、次にあの本を読みます。
 - やりたくなければやるな。 (command)
-- 宿題を済ませなければ遊びに行っては行けない。 (command)
-- 飲みたくなければ飲まなくれもいい。 (permission)
-- お時間があれば、も少しゆっくりしていってくださいよ。 (command)
+- 宿題を済ませなければ遊びに行ってはいけない。 (command)
+- 飲みたくなければ飲まなくてもいい。 (permission)
+- お時間があれば、もう少しゆっくりしていってくださいよ。 (command)
 - 明日、天気が良ければ海に行きませんか。 (permission)
 - 七時までに仕事が終われば、来てください。 (command)
 - ❌駅に着けば迎えに来てください。 (change of state (or action) condition cannot be used
@@ -2799,14 +2791,14 @@ and intention)
 - いったいどういうふうに説明すれば分かってもらえるのか。 (rhetorical question)
 - 何年勉強すればあんなに上手に英語がしゃべれるようになるのだろう。 (rhetorical question)
 - どれだけ待てば、手紙は来るのか。 (rhetorical question)
-- 宿題がなければ熱休みはもっと楽しいのに。 (counterfactual condition)
-- お金があれば変えたんだが。 (counterfactual condition)
+- 宿題がなければ夏休みはもっと楽しいのに。 (counterfactual condition)
+- お金があれば買えたんだが。 (counterfactual condition)
 - 発見がもう少し遅ければ助からなかったかもしれない。 (counterfactual condition)
-- もう少し若ければ、私が自分でいくところだ。 (counterfactual condition)
+- もう少し若ければ、私が自分で行くところだ。 (counterfactual condition)
 - 安ければ買った。 (counterfactual condition)
 - ボタンを押せば、爆発した。- if I had pressed the button, it would have
   exploded. (counterfactual condition)
-  * ボタンを推したら、爆発した。- when I pressed the button, it exploded. (actual event)
+  * ボタンを押したら、爆発した。- when I pressed the button, it exploded. (actual event)
 - もし、お差し支えなければ、ご住所とお名前をお聞かせください。 (introductory utterance)
 - よろしければ、もう一杯いかがですか。 (introductory utterance)
 - これなんかどうかなあ。
@@ -2816,7 +2808,7 @@ and intention)
 - あ、これ間違ってる。
   * 教えてあげれば。 (suggestion or recommendation)
 
-### if (a casual/hypothetical relationship)
+### if (a causal/hypothetical relationship)
 
 - [たら](./particles.md#%E3%81%9F%E3%82%89)
 - used to describe
@@ -2825,14 +2817,14 @@ and intention)
   * when
     + the condition is realized
     + indicated by a result in past tense
-    + the result has to be a discovery rather an action by the speaker
+    + the result has to be a discovery rather than an action by the speaker
   * a hypothetical condition
   * a determined condition
-    + a condition does not happened yet but it is certain
+    + a condition has not happened yet but it is certain
   * introductory utterance
   * suggestion or recommendation
     + どうか in たらどうか is omitted
-    + although ば can be used, たら is give a more personal nuance
+    + although ば can be used, たら gives a more personal nuance
 - used more in spoken language
 - polite form such as N/Naでしたら, Vましたら can be used
 - (もし)急(いそ)いだら、8時の電車に間に合うでしょう。
@@ -2863,29 +2855,29 @@ and intention)
 - 明日いい天気だったら、散歩に行きませんか。
 - 明日いい天気でなかったら、部屋で音楽を聴きましょう。
 - ❌海外旅行に行ったら、旅行保険に入った方がいいですよ。
-  * the result (buying insurance) has to be happened before the condition
+  * the result (buying insurance) has to happen before the condition
     (travel)
-  * ⭕️海外旅行に行くなら、旅行保険に行った方がいいですよ。
+  * ⭕️海外旅行に行くなら、旅行保険に入った方がいいですよ。
 - 夏休みになったら、国へ帰るつもりです。 (when)
 - ❌結婚すれば仕事を辞めたい。 (change of state (or action) condition cannot be used with intention)
   * ⭕️結婚したら仕事を辞めたい。
 - ❌お風呂に入ればすぐ寝なさい。 (change of state (or action) condition cannot be used with command)
-  * ⭕️お風呂に入ればすぐ寝なさい。
+  * ⭕️お風呂に入ったらすぐ寝なさい。
 - 社長はただ今出かけておりますが。
-  * 何時頃出したらお帰りでしょか。
-- どうのぐらい勉強したら日本語の新聞が読めるようになりますか？
+  * 何時頃電話したらいいでしょうか。
+- どのぐらい勉強したら日本語の新聞が読めるようになりますか？
 - ❌大学を卒業すればどうしますか。
   * ⭕️大学を卒業したらどうしますか。
 - 何度言ったらわかるんだ。
-- 何回繰り返すしたら覚えるのか。
-- あの時彼と結婚していたら、私の人生は幸せだったはずだ。 (counter factual)
-- 点数が10点高かったらこの大学に合格できるんだけど。 (counter factual)
+- 何回繰り返したら覚えるのか。
+- あの時彼と結婚していたら、私の人生は幸せだったはずだ。 (counterfactual)
+- 点数が10点高かったらこの大学に合格できるんだけど。 (counterfactual)
 - 空港に着いたら友達が迎えに来ていた。 (when; a discovery rather than an action by the speaker)
 - お風呂に入っていたら、電話がかかってきた。 (when)
 - 五月に入ったら急に暑くなった。 (when)
 - 薬を飲んだら熱が下がった。 (when)
-- ❌隣の部屋に行ったら、私はわずみを見た。 (it is an action by speaker rather than a discovery)
-  * ⭕️隣の部屋に行ったら、わずみを見た。 (when)
+- ❌隣の部屋に行ったら、私はねずみを見た。 (it is an action by speaker rather than a discovery)
+  * ⭕️隣の部屋に行ったら、ねずみを見た。 (when)
 - ❌男は部屋に入ったら友達に電話した。 (it is not related to a discovery of speaker)
   * ⭕️男は部屋に入ると友達に電話した。
 - もし差し支えなかったら事情を聞かせてください。 (introductory utterance)
@@ -2915,8 +2907,8 @@ and intention)
     + the condition should be either mentioned in the previous sentence or can
       be interpreted from the context
     + giving personal advice or information
-  * counter factual
-    + the usage is is different from たら or ば since the condition is realised
+  * counterfactual
+    + the usage is different from たら or ば since the condition is realised
       but not the result
   * usage is different from ば
 - conjugations
@@ -2933,8 +2925,8 @@ and intention)
 - 来週京都へ行くつもりです。
   * 京都へ行くなら、新幹線が一番便利です。
 - ちょっと寒いよ。
-  * 寒いのなら、ストープをつけてもいいよ。
-- すみません。納豆はあまり･･･
+  * 寒いのなら、ストーブをつけてもいいよ。
+- すみません。納豆はあまり...
   * 嫌いなら、食べなくてもいいんですよ。
 - ちょっとスーパーへ行ってきます。
   * あ、スーパーへ行くんなら、パンを買ってきてください。
@@ -2945,7 +2937,7 @@ and intention)
 - 私のスマホ見なかった？
   * ⭕️スマホなら、キッチンのテーブルの上にあったよ。
   * ❌スマホなら、見なかったよ。
-    + as there is not new knowledge shared
+    + as there is no new knowledge shared
 - ❌春が来るなら花が咲きます。 (general truth cannot be used)
   * ⭕️春が来たら、花が咲きます。
   * ⭕️春が来れば、花が咲くでしょう。
@@ -2955,14 +2947,14 @@ and intention)
   * ⭕️雨が降れば、道がぬかります。
   * ⭕️雨が降ると、道がぬかります。
 - 知っているのなら教えて欲しい。
-- 電話をくれるのなら、もう少し早い時間に電話して欲しかった。 (counter factual)
-- 神戸に来ていたのなら、電話してくれれば良かったのに。 (counter factual)
-- 結婚式に出席するのなら黒いスーツを買うにだが。 (counter factual)
+- 電話をくれるのなら、もう少し早い時間に電話して欲しかった。 (counterfactual)
+- 神戸に来ていたのなら、電話してくれれば良かったのに。 (counterfactual)
+- 結婚式に出席するのなら黒いスーツを買うのだが。 (counterfactual)
 
 ### positive advice
 
-- Vた + 方がいい + だ。
-- it should not be used to give advice to someone requires respect
+- Vた + 方がいい + です。
+- it should not be used to give advice to someone who requires respect
 - 雨が降りそうだから、傘を持っていった方(ほう)がいいでしょう。
 - 昨日から咳(せき)が出るんです。
   * それはいけませんね。早く病院へ行った方がいいですよ。
@@ -2970,8 +2962,8 @@ and intention)
 
 ### negative advice
 
-- Vない + 方がいい + だ。
-- it should not be used to give advice to someone requires respect
+- Vない + 方がいい + です。
+- it should not be used to give advice to someone who requires respect
 - 熱がありますね。お風呂に入らない方がいいです。
 - 日本語の授業(じゅぎょう)の時、母国語(ぼこくご)を話さない方がいいです。
 - この肉はもう古いから食べない方がいいです。
@@ -2991,7 +2983,7 @@ and intention)
 ### that one (for shared memories and knowledge)
 
 - あれ/あの/あそこ
-- 昨日駅前の花屋で花を買ったんだけど････
+- 昨日駅前の花屋で花を買ったんだけど...
   * ああ、あの店ね。あそこは店員さんが親切だね。
 - 去年一緒に熊本へ行ったでしょう。あれは6月でしたよね。
   * いいえ、8月ですよ。あの時はとても暑かったから、よく覚えています。
@@ -3000,7 +2992,7 @@ and intention)
 - 去年の春、一緒に鎌倉へ行きましたね。
   * ええ、あのときは楽しかったですね。
 
-### that one (for things that either speaker or listener do not know)
+### that one (for things that either speaker or listener does not know)
 
 - それ/その/そこ
 - 私の高校のときの友達に佐藤あきらという人がいました。
@@ -3058,14 +3050,14 @@ and intention)
 - [receiving](#receiving)
 - receiver + は + doer + に/から + object + を + Vてもらう
 - receiver + は + doer + に/から + Vてもらう
-- usually at receiver's the request or receiver gains an advantage from the action
+- usually at the receiver's request or the receiver gains an advantage from the action
 - if doer is an organisation, から is used instead of に
 - depending on the verb, sometimes を should be used instead of に
   * for example 迎える, 誘う
 - 姉は田中さんの奥さんにスキヤキの作り方を教えてもらいました。
 - 東京へ行ったとき、友達に東京の町を案内してもらいました。
 - 李さんは野村さんに言葉の意味を説明(せつめい)してもらいました。
-- ~あなたは~誰に日本人の友だちを紹介してもらいましたか。
+- あなたは誰に日本人の友だちを紹介してもらいましたか。
 - 私は友達に勉強会に連れていってもらいました。
 - 私は田中さんに写真を撮ってもらいました。
 - 友達に本を貸してもらいました。
@@ -3073,7 +3065,7 @@ and intention)
 
 ### asking for a service
 
-- Vて + くれませんか。 (asking subbordinate to do something)
+- Vて + くれませんか。 (asking someone who does not require respect to do something)
 - Vて + もらえますか。
 - Vて + いただけますか。 (keigo)
 - 写真を撮ってもらえますか。
@@ -3095,7 +3087,7 @@ and intention)
 - 川の水がひどく汚(よご)れて魚が死にました。
 - 地震で古いビルが倒(たお)れました。
 - 戦争(せんそう)で人が大勢死にました。
-- ❌今日は疲れて早く寝ます。 (intension cannot be used)
+- ❌今日は疲れて早く寝ます。 (intention cannot be used)
 - ❌部屋が暑くて窓を開けましょう。 (command cannot be used)
 - ❌熱が高くて、病院へ行きなさい。 (command cannot be used)
 - 大学に合格(ごうかく)できてとてもうれしいです。
@@ -3126,8 +3118,8 @@ and intention)
 - ❌私の部屋は狭いのに、明るいです。
   * ⭕️私の部屋は狭いが、明るいです。
 - お金を入れても、飲み物が出ませんでした。 (unexpected but no disappointment)
-  * お金を入れのに、飲み物が出ませんでした。 (unexpected and disappointment)
-- ❌大雨が降っているのに、私は出かけます。 (intension cannot be used)
+  * お金を入れたのに、飲み物が出ませんでした。 (unexpected and disappointment)
+- ❌大雨が降っているのに、私は出かけます。 (intention cannot be used)
   * ⭕️大雨が降っていますが、私は出かけます。
   * ⭕️大雨が降っていても、私は出かけます。
 
@@ -3162,12 +3154,12 @@ and intention)
 - 定期券(ていきけん)を落(お)としてしまったのですが、どうしたらいいですか。
 - 定期券を落としてしまったのですが、どうしたらいいでしょうか。
 - 財布を落としてしまったのですが、どうしたらいいですか。
-  * こばんに行ったらいいですよ。
-  * こばんに行ったらいいと思いますよ。
-  * こばんに行ってみてください。
-  * こばんに行くんですよ。
-  * こばんに行ったら、届いているかもしれませんよ。
-- どうしますか。 is asking how would you do (which is not asking for an
+  * 交番に行ったらいいですよ。
+  * 交番に行ったらいいと思いますよ。
+  * 交番に行ってみてください。
+  * 交番に行くんですよ。
+  * 交番に行ったら、届いているかもしれませんよ。
+- どうしますか。 is asking how you would do it (which is not asking for an
   instruction or advice)
 
 ### polite way of asking
@@ -3210,9 +3202,9 @@ and intention)
 - 友達は私を映画に誘(さそ)いました。
   * 私は友達に映画に誘われました。
 - 私は友達を映画に誘いました。
-  * ❌友達は私に映画に誘われました。 (actioner cannot be the speaker)
+  * ❌友達は私に映画に誘われました。 (doer cannot be the speaker)
 - 私は子供をほめました。
-  * ❌子供は私にほめられました。 (actioner cannot be the speaker)
+  * ❌子供は私にほめられました。 (doer cannot be the speaker)
 - 先生は私をほめました。
   * 私は先生にほめられました。
 
@@ -3222,10 +3214,10 @@ and intention)
 - A + は + B + に + object + V (transitive verb) -> B は + A + に + object + Vられる (passive verb)
 - 田中さんは佐藤さんに「仕事を手伝ってください。」と頼(たの)みました。
   * 佐藤さんは田中さんに「仕事を手伝ってください。」と頼まれました。
-- 生はラヒムさんに「字をきれいに書いてください。」と注意しました。
+- 先生はラヒムさんに「字をきれいに書いてください。」と注意しました。
   * ラヒムさんは先生に「字をきれいに書いてください。」と注意されました。
 - 先生は私に難しい質問をしました。
-  * は先生に難しい質問をされました。
+  * 私は先生に難しい質問をされました。
 - 昨日、外国人が私に道を聞きました。
   * 昨日、私は外国人に道を聞かれました。
 - 父は私に「すぐ国へ帰りなさい。」と言いました。
@@ -3272,7 +3264,7 @@ and intention)
   * (私は)隣の人にピアノを弾かれて、うるさくて勉強できません。
 - ゆうべ弟はテレビゲームをしました。(私は寝られませんでした。)
   * (私は)ゆうべ弟にテレビゲームをされて、寝られませんでした。
-- 隣の人がたばこを吸っています。(私は気分が悪くなりました。
+- 隣の人がたばこを吸っています。(私は気分が悪くなりました。)
   * (私は)隣の人にたばこを吸われて、気分が悪くなりました。
 - 兄は私のケーキを食べてしまいました。
   * (私は)兄にケーキを食べられてしまいました。
@@ -3291,7 +3283,7 @@ and intention)
   * 三百年ぐらい前にこの神社を建てました。
     + 三百年ぐらい前にこの神社が建てられました。
   * 中国の工場で日本の電子機器を組み立てています。
-    + 中国の工場で日本の電子機器が組み(くみ)立(た)てられています。
+    + 中国の工場で日本の電子機器が組(く)み立(た)てられています。
   * 毎年三月に卒業式(そつぎょうしき)を行(おこな)います。
     + 毎年三月に卒業式が行われます。
 - B + は + A + を + V (transitive verb)
@@ -3347,7 +3339,8 @@ and intention)
 - noun / Na / A / Vる + らしい
 - nounた / Naた / Aかった / Vた + らしい
 - らしい is an adjective
-  * similar to そうだ but it is opinionated and not one made that claim yet
+  * similar to そうだ but it is the speaker's own inference, not a claim
+    reported from someone else
 - あのレストランはおいしいらしいよ。いつも客がいっぱいいるから。
 - 道を歩いている人は傘をさしていません。雨はもうやんだらしいです。
 - あの仕事は大変らしいです。みんなやりたくないと言っています。
@@ -3365,16 +3358,17 @@ and intention)
 - あの人はすしを食べません。すしが嫌(きら)いらしいです。
 - あの人はマリアさんの恋人らしいです。いつも二人は一緒にいます。
 
-### a more casual way of saying not exist
+### a more casual way of saying is not
 
+- ではありません -> じゃありません
 - 試験は今日じゃありません。明日です。
 
 ## Chapter 22
 
 ### a superior compels a subordinate to do something
 
-- [conjugation](./conjugation.md)
-- A + は + B + を + Vさせる (transitve or intransitive base verbs)
+- [conjugation](./conjugations.md)
+- A + は + B + を + Vさせる (transitive or intransitive base verbs)
 - A + は + B + に + object + を + Vさせる (transitive base verbs)
 - (先生が宿題を忘れた学生に) 「山田君、廊下(ろうか)に立ちなさい。」
   * 先生は山田君を廊下に立たせました。
@@ -3385,7 +3379,7 @@ and intention)
 - (お父さんが子供に) 「世(せい)の中のことを知るために毎日本を読みなさい。」
   * お父さんは子供に本を読ませています。
 - (先生が学生に)「図書館で江戸時代の歴史を調べてください。」
-  * 先生は学生に図書館で江戸時代の歴史を並べさせました。
+  * 先生は学生に図書館で江戸時代の歴史を調べさせました。
 - (田中さんが娘さんに) 「高校を出てから、大学で法律(ほうりつ)の勉強をしなさい。」
   * 田中さんは娘さんに大学で法律の勉強をさせるつもりだそうです。
 - 先生がいくつか質問して、学生たちに答えさせました。
@@ -3395,8 +3389,8 @@ and intention)
 
 ### a superior grants permission or favors to a subordinate to do something
 
-- [conjugation](./conjugation.md)
-- A + は + B + を + Vさせる (transitve or intransitive base verbs)
+- [conjugation](./conjugations.md)
+- A + は + B + を + Vさせる (transitive or intransitive base verbs)
 - A + は + B + に + object + を + Vさせる (transitive base verbs)
 - (店長が私に)「今日は3時に帰ってもいいよ。」
   * 店長は私を三時に帰らせました。
@@ -3419,21 +3413,21 @@ and intention)
 
 ### a person's actions or circumstances can trigger emotional responses in others
 
-- [conjugation](./conjugation.md)
-- A + は + B + を + Vさせる (transitve or intransitive base verbs)
+- [conjugation](./conjugations.md)
+- A + は + B + を + Vさせる (transitive or intransitive base verbs)
 - A + は + B + に + object + を + Vさせる (transitive base verbs)
 - 弟は病気をしました。両親は心配しました。
   * 弟は病気をして、両親を心配させました。
-- 李君はタバコを吸いました。先生は怒り(おこ)ました。
+- 李君はタバコを吸いました。先生は怒(おこ)りました。
   * 李君はタバコを吸って、先生を怒らせてしまいました。
 - 田中さんは面白い話をしました。私達は笑いました。
   * 田中さんは面白い話をして、私達を笑(わら)わせました。
 
 ### to be made to do something by someone (in a negative sense)
 
-- [conjugation](./conjugation.md)
-- B + は/が + A + に + Vさせられる / Vさられる
-  * shorten form of Vされる does not apply to 変格動詞(する and 来る) or 一段動詞
+- [conjugation](./conjugations.md)
+- B + は/が + A + に + Vさせられる / Vされる (shortened form)
+  * shortened form Vされる applies only to 五段動詞 and does not apply to those ending in す, 変格動詞(する and 来る) or 一段動詞
 - 先生は私たちに日本語で手紙を書かせました。
   * 私たちは先生に日本語で手紙を書かされました。
 - 先生は私に難しい読解文を読ませました。
@@ -3459,7 +3453,7 @@ and intention)
 
 - A + を + B + に + Vる / Vて
   * changes from state A to state B
-- れは日本の小説を英語に訳(やく)したものです。
+- これは日本の小説を英語に訳(やく)したものです。
 - 次の動詞を適当(てきとう)な形(かたち)に変えなさい。
 - この文を受身(うけみ)の文に言い換えなさい。
 - 英文を日本語に訳(やく)してください。

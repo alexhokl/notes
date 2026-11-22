@@ -17,7 +17,7 @@
     + [し](#%E3%81%97)
     + [とか](#%E3%81%A8%E3%81%8B)
   * [接続助詞 conjunctive particles](#%E6%8E%A5%E7%B6%9A%E5%8A%A9%E8%A9%9E-conjunctive-particles)
-    + [と (to indicate a strong casual relationship)](#%E3%81%A8-to-indicate-a-strong-casual-relationship)
+    + [と (to indicate a strong causal relationship)](#%E3%81%A8-to-indicate-a-strong-causal-relationship)
     + [たら](#%E3%81%9F%E3%82%89)
     + [ので](#%E3%81%AE%E3%81%A7)
     + [が and けど](#%E3%81%8C-and-%E3%81%91%E3%81%A9)
@@ -1111,7 +1111,7 @@ ____
 
 ## 接続助詞 conjunctive particles
 
-### と (to indicate a strong casual relationship)
+### と (to indicate a strong causal relationship)
 
 - for things that always happen
   * when と is used for things with inevitable results like this, it is commonly
