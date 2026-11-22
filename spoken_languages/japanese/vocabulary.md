@@ -393,7 +393,7 @@ ____
 - 嫌い (きらい) - dislike
 - 綺麗 (きれい) - beautiful; clean
 - 結構 (けっこう) - nice; sufficient; fine; not needing (any more of something);
-  also as adverb) quite
+  (also as adverb) quite
 - 元気 (げんき) - healthy; lively
 - 静か (しずか) - quiet
 - 上手 (じょうず) - skillful; good (at)
@@ -664,7 +664,7 @@ ____
 - 鳥 (とり) - bird
 - 動物 (どうぶつ) - animal
 - 猫 (ねこ) - cat
-- パット - pet
+- ペット - pet
 
 ### nouns (body parts)
 
@@ -928,7 +928,7 @@ ____
 - 歌う (うたう) - to sing
 - する - to do; to wear; aka 為る
 - 引く (ひく) - to pull; to draw (attention); to play (a stringed or keyboard
-  instrument) to catch (a cold); to look up (a word in a dictionary); to
+  instrument); to catch (a cold); to look up (a word in a dictionary); to
   subtract; to move back; to lessen; to resign; to be put off (by someone's
   words or behaviour); aka 退く
 - 待つ (まつ) - to wait
@@ -1029,7 +1029,7 @@ ____
 
 - 彼女 (かのじょ) - she; girlfriend
 - 彼 (かれ) - he; boyfriend
-- 君 (きみ) - you (friendly; musculine; poetic)
+- 君 (きみ) - you (friendly; masculine; poetic)
 
 ### pronouns (location)
 
@@ -1041,7 +1041,7 @@ ____
 - 味 (あじ) - taste; flavour
 - 以外 (いがい) - excluding; except (for); apart from; other than; besides
 - 医学 (いがく) - medical science; medicine
-- 以上 (いじょう) - above; note less than; that is all
+- 以上 (いじょう) - above; not less than; that is all
 - 一杯 (いっぱい) - one cup; one glass; full
 - 田舎 (いなか) - countryside; rural area; hometown
 - エスカレーター - escalator
@@ -1308,7 +1308,7 @@ ____
   * 決める (きめる) - to decide; to carry out successfully (a move in sports, a
     pose in dance, etc.); to dress up
 - 壊れる (こわれる) - to break; to be broken; to be damaged
-  * 壊す (こわす) - to break; to destory
+  * 壊す (こわす) - to break; to destroy
 - 下がる (さがる) - to come down; to go down; to fall; to hang; to move back
   * 下げる (さげる) - to hang; to lower; to reduce; to move back
 - 済む (すむ) - to finish; to be completed; to feel at ease
@@ -1317,13 +1317,12 @@ ____
   be defeated
   * 倒す (たおす) - to throw down; to recline (e.g. a seat); to kill; to defeat;
     to overthrow; to leave unpaid; to do completely
-- 付く (つく) - to be turned on; to be attachedd
-  * つける - to attach; to join; to wear; to put on; to turn on (a; aka 付ける
-    light)
+- 付く (つく) - to be turned on; to be attached
+  * つける - to attach; to join; to wear; to put on; to turn on (a light); aka 付ける
 - 続く (つづく) - to continue
   * 続ける (つづける) - to continue
 - 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
-  road; to take (a route); to go via
+  road); to take (a route); to go via
   * 通す (とおす) - to let pass; to allow through; to transmit (e.g. light,
     sound, etc); to connect (e.g. two places)
 - 泊まる (とまる) - to stay (e.g. hotel)
@@ -1332,21 +1331,21 @@ ____
   be cured; to be restored; to heal
   * 治す (なおす) - to cure; to heal
 - なくなる - to be lost; to be missing; to be used up
-  * なくす- to lose (something); to get rid of
+  * なくす - to lose (something); to get rid of
 - 鳴る (なる) - to sound (from a thing); to ring
   * 鳴らす (ならす) - to ring; to sound; to chime
 - 逃げる (にげる) - to escape
   * 逃がす (にがす) - to set free; to let go; to miss (e.g. a chance); to lose
 - 濡れる (ぬれる) - to get wet
   * 濡らす (ぬらす) - to wet
-- 冷える (ひえる) - to grow cold to get chilly; to cool down
+- 冷える (ひえる) - to grow cold; to get chilly; to cool down
   * 冷やす (ひやす) - to cool; to chill; to refrigerate; to calm down
 - 太る (ふとる) - to gain weight
   * 太らす (ふとらす) - to put on weight
 - 回る (まわる) - to turn; to rotate; to circle; to orbit; aka 廻る
   * 回す (まわす) - to turn; to rotate; to circulate; to turn on (something that
     turns); to start up (e.g. an engine); to put (someone in a position); to
-    surround (something) with to invest (money); to lend; to dial (a telephone
+    surround (something) with; to invest (money); to lend; to dial (a telephone
     number); to operate (e.g. business, shop); aka 廻す
 - 見える (みえる) - to be seen
   * みる - to watch; to see; aka 見る
@@ -1394,7 +1393,7 @@ ____
 - 運ぶ (はこぶ) - to carry; to transport; to move
 - 払う (はらう) - to pay; to wipe away
 - 拾う (ひろう) - to pick up; to pick up (someone; in a car, etc.); to flag down
-  (a taxi);
+  (a taxi)
 - 踏む (ふむ) - to step on
 
 ### sentient transitive verb
@@ -1432,7 +1431,7 @@ ____
 - 痩せる (やせる) - to lose weight
 - 止む (やむ) - to cease; to stop; to be over
 - 揺れる (ゆれる) - to shake
-- 別れる (わかれる) - to part(usually of people); to separate (of a couple); to
+- 別れる (わかれる) - to part (usually of people); to separate (of a couple); to
   break up
 - 笑う (わらう) - to laugh; to smile
 
@@ -1474,7 +1473,7 @@ ____
   spontaneously; unintentionally; in spite of oneself
 - かなり - considerably; quite; fairly; pretty
 - きちんと - properly; precisely
-- 急に (きゅうに) - switfly; suddenly; abruptly
+- 急に (きゅうに) - swiftly; suddenly; abruptly
 - こんなに - this much
 - さっぱり - feeling refreshed; (of food) light
 - さらに - furthermore; aka 更に
@@ -1535,7 +1534,7 @@ ____
 - 新鮮 (しんせん) - fresh
 - 邪魔 (じゃま) - disturbance; obstruction; also as transitive する verb
 - 素敵 (すてき) - lovely; wonderful; nice
-- 退屈 (たいくつ) - boredom; tediousness; dullness; also as するverb
+- 退屈 (たいくつ) - boredom; tediousness; dullness; also as する verb
 - たっぷり - full of; a lot of; plenty of
 - だめ - no good; aka 駄目
 - 苦手 (にがて) - poor at; weak in; not good at
@@ -1550,7 +1549,7 @@ ____
 
 ### pronouns (person)
 
-- お前 (おまえ) - you (musculine; vulgar)
+- お前 (おまえ) - you (masculine; vulgar)
 - 彼ら (かれら) - they (mixed sex group)
 
 ### pronouns (location)
@@ -1599,7 +1598,7 @@ ____
 - ケース - case
 - 煙 (けむり) - smoke
 - 言語 (げんご) - language
-- 恋 (こい) - (romatic) love
+- 恋 (こい) - (romantic) love
 - 恋人 (こいびと) - lover
 - 氷 (こおり) - ice
 - 黒板 (こくばん) - blackboard
@@ -1796,7 +1795,7 @@ ____
 - おしゃべり - chattering; talk; chitchat; gossip; aka お喋り
 - 観光 (かんこう) - sightseeing
 - 我慢 (がまん) - patience
-- 記入 (きにゅう) - entry (in a form, register, diary, etc.); filling in;
+- 記入 (きにゅう) - entry (in a form, register, diary, etc.); filling in
 - 強調 (きょうちょう) - emphasis; stress; highlighting
 - 許可 (きょか) - permission; approval
 - 禁止 (きんし) - prohibition; ban
@@ -1875,7 +1874,7 @@ ____
 - 切れる (きれる) - to break; to be injured; to expire (time limit, etc); to run
   out (of stock, etc); to be short of
   * 切る (きる) - to cut
-- 覚める (さめる) - to wake up; to wear off (of drunkness, anaesthesia, etc.);
+- 覚める (さめる) - to wake up; to wear off (of drunkenness, anaesthesia, etc.);
   to be disillusioned
   * 覚ます (さます) - to waken; to arouse from sleep
 - 沈む (しずむ) - to sink; to go down (e.g. sun); to descend; to feel depressed
@@ -1962,7 +1961,7 @@ ____
 - 守る (まもる) - to protect; to guard; to defend; to keep (a promise)
 - 申し込む (もうしこむ) - to apply for
 - 用いる (もちいる) - to use; to utilise
-- 求める (もとめる) - to want; to wish for; to request; to demand ; to look for;
+- 求める (もとめる) - to want; to wish for; to request; to demand; to look for;
   to pursue (pleasure)
 - もらう - to receive (appreciatively); aka 貰う
 - 破る (やぶる) - to tear; to rip; to break; to destroy
@@ -2005,7 +2004,7 @@ ____
 
 ### expressions
 
-- いただきます - thank you (for the mean just served, not finished)
+- いただきます - thank you (for the meal just served, not finished)
 - いらっしゃい - welcome
 - かもしれない - may; might; aka かも知れない
 - ごめんなさい - I am sorry; my apologies; aka 御免なさい
@@ -2192,7 +2191,7 @@ ____
 
 ### nouns (countries)
 
-- 欧米 (おうべい) - Europe and american
+- 欧米 (おうべい) - Europe and American
 
 ### nouns (weather)
 
@@ -2260,9 +2259,8 @@ ____
 - 整う (ととのう) - to be put in order; to be arranged; to be ready
   * 整える (ととのえる) - to put in order; to arrange; to tidy up; to adjust
 - 外れる (はずれる) - to be disconnected; to get out of place; to miss the mark;
-  to get it wrong (e.g. guess, expectation); to be removed; to be exclueded; to
-  go against
-  get out of (a schedule); to miss (a target)
+  to get it wrong (e.g. guess, expectation); to be removed; to be excluded; to
+  go against; to get out of (a schedule); to miss (a target)
   * 外す (はずす) - to remove; to take off; to undo; to drop (e.g. from a team);
     to remove (from a position); to leave (e.g. one's seat); to dodge (a
     question or blow)
@@ -2309,7 +2307,7 @@ ____
 - 渇く (かわく) - to be thirsty
 - 涼む (すずむ) - to cool oneself
 - ぶつかる - to bump into; to encounter; to meet with; to clash (of opinions,
-  people, or events);
+  people, or events)
 - 恵まれる (めぐまれる) - to be blessed with; to be rich in
 - もたれる - to lean against; to lean on; aka 凭れる
 - よる - to depend on; to be caused by; to be based on; aka 依る
@@ -2421,7 +2419,7 @@ ____
 - 不況 (ふきょう) - (economic) depression; recession; slump
 - 不動産 (ふどうさん) - real estate
 - 保険 (ほけん) - insurance
-- ポインド - point
+- ポイント - point
 - 誠 (まこと) - truth; reality; sincerity; good faith
 - まとめ - summary; recapitulation; aggregation; aka 纏め
 - メーカー - manufacturer; maker
@@ -2446,7 +2444,7 @@ ____
 ### nouns (food)
 
 - ゼリー - jelly
-- 定食 (ていしょ) - set meal
+- 定食 (ていしょく) - set meal
 - デザート - dessert
 - はちみつ - honey; aka 蜂蜜
 - レバー - liver (food)
@@ -2756,12 +2754,12 @@ ____
 - 使い方 (つかいがた) - way of using; way of handling (employees, subordinates,
   etc.); management
 - 月極 (つきぎめ) - monthly contract (aka 月極め)
-- 月見 (つきみ) - moon viewing (esp. during the eight month of the lunar calendar)
+- 月見 (つきみ) - moon viewing (esp. during the eighth month of the lunar calendar)
 - 定番 (ていばん) - standard item; usual thing; (a) classic; go-to choice; staple;
   regular fixture; standard procedure; convention; basic item (with stable
   demand); staple goods
 - 電話帳 (でんわちょう) - telephone directory
-- ドラス - drama; TV drama
+- ドラマ - drama; TV drama
 - 怠け者 (なまけもの) - lazy person
 - 男 (なん) - man (used as suffix)
 - ぬいぐるみ - stuffed toy; aka 縫いぐるみ
@@ -2786,7 +2784,7 @@ ____
 - 防災 (ぼうさい) - disaster preparedness
 - ポート - port; harbour
 - 皆様 (みなさま) - everyone (keigo)
-- 皆様方 (みなさまがた) - everyone; ladies and gentlement (keigo)
+- 皆様方 (みなさまがた) - everyone; ladies and gentlemen (keigo)
 - 洋書 (ようしょ) - book in foreign language
 - 汚れ (よごれ) - dirt, stains, spots
 - 落語 (らくご) - traditional Japanese comic storytelling
@@ -2822,7 +2820,7 @@ ____
 - 芋 (いも) - potato
 - 大盛り (おおもり) - large serving; extra portion
 - お好み焼き (おこのみやき) - savory pancake with various ingredients
-- お通し (おとうし) - appetizers (Japanese)
+- お通し (おとおし) - appetizers (Japanese)
 - カップメン - cup noodles
 - 割烹 (かっぽう) - Japanese-style cooking
 - かぼちゃ - pumpkin; aka 南瓜
@@ -2845,7 +2843,7 @@ ____
 - 砂肝 (すなぎも) - gizzard
 - スナック - snack
 - スパゲティ - spaghetti
-- セセリ - meat aound the neck of a chicken
+- セセリ - meat around the neck of a chicken
 - せんべい - rice cracker; aka 煎餅
 - ソースカツ - breaded cutlet (e.g. tonkatsu) covered in Worcester sauce
 - ソフトクリーム - soft ice cream
@@ -2972,7 +2970,7 @@ ____
 - にんじん - carrot; aka 人参
 - ねぎ - green onion; aka 葱
 - ピーマン - bell pepper
-- 冷奴　(ひややっこ) - chilled tofu
+- 冷奴 (ひややっこ) - chilled tofu
 - ベジタリアン - vegetarian
 - ほうれん草 (ほうれんそう) - spinach
 - ポテト - potato
@@ -3003,7 +3001,7 @@ ____
 - 深煎り (ふかいり) - dark roast (coffee)
 - 抹茶 (まっちゃ) - matcha
 - 無脂肪ミルク (むしぼうミルク) - low fat milk
-- 緑茶ハイ (りょくちゃ) - high ball with green tea
+- 緑茶ハイ (りょくちゃハイ) - high ball with green tea
 
 ### nouns (location)
 
@@ -3018,7 +3016,7 @@ ____
 - 体育館 (たいいくかん) - gymnasium
 - 地下街 (ちかがい) - underground shopping street
 - ディズニーランド - Disneyland
-- 処 (ところ) - (specialist) resturant
+- 処 (ところ) - (specialist) restaurant
 - 入管 (にゅうかん) - immigration bureau (abbrev. of 入国管理局)
 - ファミマ - Family Mart
 - 風呂場 (ふろば) - bathroom
@@ -3071,7 +3069,7 @@ ____
 - 未使用 (みしよう) - unused
 - 未使用品 (みしようひん) - unused item
 - リサイクルショップ - recycle shop (store that sells used goods)
-- リユース - resue
+- リユース - reuse
 
 ### nouns (clothing)
 
@@ -3093,7 +3091,7 @@ ____
 - 裾幅 (すそはば) - hem width
 - 総丈 (そうたけ) - total length
 - 袖丈 (そでたけ) - sleeve length
-- 小さめ (ちさめ) - on the small side
+- 小さめ (ちいさめ) - on the small side
 - テーラードジャケット - tailored jacket
 - デニムジャケット - jean jacket
 - 胴幅 (どうはば) - waist width
@@ -3188,7 +3186,7 @@ ____
 - 魔法瓶 (まほうびん) - thermos bottle; vacuum flask
 - 目覚まし時計 (めざましどけい) - alarm clock
 - 湯船 (ゆぶね) - bathtub
-- リモコン - remote control; aka リモートコントロ
+- リモコン - remote control; aka リモートコントロール
 - 冷凍庫 (れいとうこ) - freezer
 
 ### nouns (sports)
@@ -3210,7 +3208,7 @@ ____
 - トレイルランニング - trail running
 - ドリブル - dribble
 - ハイタッチ - high five
-- ハイライト - highlihts
+- ハイライト - highlights
 - バスケ - basketball (abbreviation)
 - バスケットボール - basketball
 - バレーボール - volleyball
@@ -3376,7 +3374,7 @@ ____
 - 使い分け (つかいわけ) - proper use; using (different things) for different
   purposes
 - 満喫 (まんきつ) - to fully enjoy
-- 唐揚げ - deep-frying food lighty coated in flour or potato starch; usually
+- 唐揚げ - deep-frying food lightly coated in flour or potato starch; usually
   referring to chicken
 
 ### sentient transitive する-verbs
@@ -3402,7 +3400,7 @@ ____
 
 ### する verb (transitive and intransitive)
 
-- 毛繕い (けづくろい) - grooming oneself (espsecially for animals)
+- 毛繕い (けづくろい) - grooming oneself (especially for animals)
 - 更新 (こうしん) - renewal; update
 - プログラミング - programming
 - 返信 (へんしん) - reply
@@ -3426,7 +3424,7 @@ ____
 - 奪い合う (うばいあう) - to scramble for; to struggle for; to contend for; to fight for
 - 押し付ける (おしつける) - to force against
 - 貸し切る (かしきる) - to reserve; to book
-- 狩る (かる) - to hunt; to pick (barries)
+- 狩る (かる) - to hunt; to pick (berries)
 - ぎる - to steal
 - 下す (くだす) - to make a decision; to draw a conclusion
 - ググる - to google
@@ -3455,14 +3453,14 @@ ____
 
 - いただける - to be able to receive/take/accept; aka 頂ける
 - いなくなる - to disappear
-- 頑張る (がんばる) - to presevere; to do one's best
+- 頑張る (がんばる) - to persevere; to do one's best
 - 毛羽立つ (けばたつ) - fuzzing, fraying
 - こける - to fall down; aka 転ける
 - バズる - to go viral (buzz)
 - 引き続く (ひきつづく) - to continue (for a long time); to occur in succession
 - 冷え込む (ひえこむ) - to get (very) cold; to get (much) colder
 - 含まれる (ふくまれる) - to be included; to be composed of
-- 迷う (まよう) - to loose one's way; to get lost; to be puzzled
+- 迷う (まよう) - to lose one's way; to get lost; to be puzzled
 - 安らぐ (やすらぐ) - to feel at ease
 
 ### verb (transitive and intransitive)
@@ -3492,7 +3490,7 @@ ____
 - おかげで - thanks to; owing to; because of; aka お陰で
 - お茶を入れる (おちゃをいれる) - to make tea
 - お疲れ様 (おつかれさま) - thank you (for your hard work); good job; much
-  appreciated; goodbye (when you finshed your day)
+  appreciated; goodbye (when you finished your day)
 - お願いいたします (おねがいいたします) - please
 - おやすみなさい - good night; aka お休みなさい
 - 鍵をかける (かぎをかける) - to lock (a door)
@@ -3542,7 +3540,7 @@ ____
 - 話しています (はなしています) - chatting
 - 話をしています (はなしをしています) - chatting
 - 平素より (へいそより) - always; usually
-- 右肩下がり (みぎかたさがり) - descreasing (graph falling to the right);
+- 右肩下がり (みぎかたさがり) - decreasing (graph falling to the right);
   shrinking; declining
 - 無駄にする (むだにする) - to render futile; to bring to naught; to waste; to
   not make good use of
