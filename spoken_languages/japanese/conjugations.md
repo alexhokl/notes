@@ -6,7 +6,7 @@
 - [一段動詞](#%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
 - [変格動詞](#%E5%A4%89%E6%A0%BC%E5%8B%95%E8%A9%9E)
 - [ながら Although](#%E3%81%AA%E3%81%8C%E3%82%89-although)
-- [なら if](#%E3%81%AA%E3%82%89-if)
+- [なら if/given](#%E3%81%AA%E3%82%89-ifgiven)
 - [かも知れない](#%E3%81%8B%E3%82%82%E7%9F%A5%E3%82%8C%E3%81%AA%E3%81%84)
 - [の](#%E3%81%AE)
 - [さえ](#%E3%81%95%E3%81%88)
@@ -25,7 +25,7 @@ ____
 | probably        | 山だろう    | 山ではないだろう (山じゃないだろう for spoken)     |
 | probably polite | 山でしょう  | 山ではないでしょう (山じゃないでしょう for spoken) |
 | conditional     | 山なら      | 山でなければ (山じゃなければ for spoken)           |
-| conditional     | 山だったら  | 山でなかったら (山じゃなかった for spoken)         |
+| conditional     | 山だったら  | 山でなかったら (山じゃなかったら for spoken)         |
 
 # な-adjective
 
@@ -46,7 +46,7 @@ ____
 |                 | Affirmative    | Negative               |
 | ---             | ---            | ---                    |
 | non-past        | 新しい         | 新しくない             |
-| non-past polite | 新しいです     | 新しくありません　     |
+| non-past polite | 新しいです     | 新しくありません       |
 | past            | 新しかった     | 新しくなかった         |
 | past polite     | 新しかったです | 新しくありませんでした |
 | te-form         | 新しくて       | 新しくなくて           |
@@ -91,6 +91,7 @@ Note: いい derives from よい — non-past affirmative uses いい, but all o
 | conditional                | 聞けば       | 聞かなければ     |
 | conditional                | 聞いたら     | 聞かなかったら   |
 | volitional                 | 聞こう       |                  |
+| volitional polite          | 聞きましょう |                  |
 
 | Form                       | Affirmative  | Negative         |
 | ---                        | ---          | ---              |
@@ -112,6 +113,7 @@ Note: いい derives from よい — non-past affirmative uses いい, but all o
 | conditional                | 買えば       | 買わなければ     |
 | conditional                | 買ったら     | 買わなかったら   |
 | volitional                 | 買おう       |                  |
+| volitional polite          | 買いましょう |                  |
 
 | Form                       | Affirmative  | Negative         |
 | ---                        | ---          | ---              |
@@ -121,12 +123,12 @@ Note: いい derives from よい — non-past affirmative uses いい, but all o
 | past                       | あった       | なかった         |
 | past, polite               | ありました   | ありませんでした |
 | te-form                    | あって       | なくて           |
-| potential                  | あれる       | あれない         |
-| passive                    | あられる     | あられない       |
-| causative                  | あらせる     | あらせない       |
-| causative (casual)         | あらす       | あらさない       |
-| causative passive          | あらせられる | あらせられない   |
-| causative passive (casual) | あらされる   | あらされない     |
+| potential (rare)           | あれる       | あれない         |
+| passive (rare)             | あられる     | あられない       |
+| causative (rare)           | あらせる     | あらせない       |
+| causative (casual, rare)   | あらす       | あらさない       |
+| causative passive (rare)   | あらせられる | あらせられない   |
+| causative passive (casual, rare) | あらされる | あらされない |
 | imperative                 | あれ         | あるな           |
 | probably                   | あるだろう   | ないだろう       |
 | probably polite            | あるでしょう | ないでしょう     |
@@ -164,6 +166,13 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
     + change to いで
   * ends with す
     + change to して
+  * the past (た-form) follows the same pattern, with て/で replaced by た/だ
+    + examples
+      + 聞く => 聞いた
+      + 行く => 行った
+      + 買う => 買った
+      + 読む => 読んだ
+      + 話す => 話した
 
 ## exceptions
 
@@ -172,7 +181,7 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
 | non-past         | ある           | ない             |
 | non-past, polite | あります       | ありません       |
 | past             | あった         | なかった         |
-| past, polite     | ありますました | ありませんでした |
+| past, polite     | ありました     | ありませんでした |
 | te-form          | あって         | なくて           |
 
 # 一段動詞
@@ -259,9 +268,9 @@ only); 来さされる (こさされる) is colloquial or dialectal.
 | noun         | 初心者ながら |
 | な-adjective | きれいながら |
 | い-adjective | 小さいながら |
-| verb         | 言いながら   |
+| verb         | 言いながらも |
 
-# なら given
+# なら if/given
 
 | Form                | Affirmative    | Negative             |
 | ---                 | ---            | ---                  |
@@ -284,6 +293,10 @@ only); 来さされる (こさされる) is colloquial or dialectal.
 | past            | かもしれなかった     |
 | past polite     | かもしれませんでした |
 | past polite     | かもしれなかったです |
+
+Note: the past forms above are rare. "might have" is normally expressed with a
+past verb or predicate before かもしれない (see the table below), e.g.
+行ったかもしれない.
 
 | Form                | Affirmative            |
 | ---                 | ---                    |
