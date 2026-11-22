@@ -71,65 +71,68 @@ Note: いい derives from よい — non-past affirmative uses いい, but all o
 
 # 五段動詞
 
-| Form               | Affirmative  | Negative         |
-| ---                | ---          | ---              |
-| non-past           | 聞く         | 聞かない         |
-| non-past, polite   | 聞きます     | 聞きません       |
-| non-past, formal   |              | 聞かず           |
-| past               | 聞いた       | 聞かなかった     |
-| past, polite       | 聞きました   | 聞きませんでした |
-| te-form            | 聞いて       | 聞かなくて       |
-| potential          | 聞ける       | 聞けない         |
-| passive            | 聞かれる     | 聞かれない       |
-| causative          | 聞かせる     | 聞かせない       |
-| causative (casual) | 聞かす       | 聞かさない       |
-| causative passive  | 聞かせられる | 聞かせられない   |
-| imperative         | 聞け         | 聞くな           |
-| probably           | 聞くだろう   | 聞かないだろう   |
-| probably polite    | 聞くでしょう | 聞かないでしょう |
-| conditional        | 聞けば       | 聞かなければ     |
-| conditional        | 聞いたら     | 聞かなかったら   |
-| volitional         | 聞こう       |                  |
+| Form                       | Affirmative  | Negative         |
+| ---                        | ---          | ---              |
+| non-past                   | 聞く         | 聞かない         |
+| non-past, polite           | 聞きます     | 聞きません       |
+| non-past, formal           |              | 聞かず           |
+| past                       | 聞いた       | 聞かなかった     |
+| past, polite               | 聞きました   | 聞きませんでした |
+| te-form                    | 聞いて       | 聞かなくて       |
+| potential                  | 聞ける       | 聞けない         |
+| passive                    | 聞かれる     | 聞かれない       |
+| causative                  | 聞かせる     | 聞かせない       |
+| causative (casual)         | 聞かす       | 聞かさない       |
+| causative passive          | 聞かせられる | 聞かせられない   |
+| causative passive (casual) | 聞かされる   | 聞かされない     |
+| imperative                 | 聞け         | 聞くな           |
+| probably                   | 聞くだろう   | 聞かないだろう   |
+| probably polite            | 聞くでしょう | 聞かないでしょう |
+| conditional                | 聞けば       | 聞かなければ     |
+| conditional                | 聞いたら     | 聞かなかったら   |
+| volitional                 | 聞こう       |                  |
 
-| Form               | Affirmative  | Negative         |
-| ---                | ---          | ---              |
-| non-past           | 買う         | 買わない         |
-| non-past, polite   | 買います     | 買いません       |
-| non-past, formal   |              | 買わず           |
-| past               | 買った       | 買わなかった     |
-| past, polite       | 買いました   | 買いませんでした |
-| te-form            | 買って       | 買わなくて       |
-| potential          | 買える       | 買えない         |
-| passive            | 買われる     | 買われない       |
-| causative          | 買わせる     | 買わせない       |
-| causative (casual) | 買わす       | 買わさない       |
-| causative passive  | 買わせられる | 買わせられない   |
-| imperative         | 買え         | 買うな           |
-| probably           | 買うだろう   | 買わないだろう   |
-| probably polite    | 買うでしょう | 買わないでしょう |
-| conditional        | 買えば       | 買わなければ     |
-| conditional        | 買ったら     | 買わなかったら   |
-| volitional         | 買おう       |                  |
+| Form                       | Affirmative  | Negative         |
+| ---                        | ---          | ---              |
+| non-past                   | 買う         | 買わない         |
+| non-past, polite           | 買います     | 買いません       |
+| non-past, formal           |              | 買わず           |
+| past                       | 買った       | 買わなかった     |
+| past, polite               | 買いました   | 買いませんでした |
+| te-form                    | 買って       | 買わなくて       |
+| potential                  | 買える       | 買えない         |
+| passive                    | 買われる     | 買われない       |
+| causative                  | 買わせる     | 買わせない       |
+| causative (casual)         | 買わす       | 買わさない       |
+| causative passive          | 買わせられる | 買わせられない   |
+| causative passive (casual) | 買わされる   | 買わされない     |
+| imperative                 | 買え         | 買うな           |
+| probably                   | 買うだろう   | 買わないだろう   |
+| probably polite            | 買うでしょう | 買わないでしょう |
+| conditional                | 買えば       | 買わなければ     |
+| conditional                | 買ったら     | 買わなかったら   |
+| volitional                 | 買おう       |                  |
 
-| Form               | Affirmative  | Negative         |
-| ---                | ---          | ---              |
-| non-past           | ある         | ない             |
-| non-past, polite   | あります     | ありません       |
-| non-past, formal   |              | あらず           |
-| past               | あった       | なかった         |
-| past, polite       | ありました   | ありませんでした |
-| te-form            | あって       | なくて           |
-| potential          | あれる       | あれない         |
-| passive            | あられる     | あられない       |
-| causative          | あらせる     | あらせない       |
-| causative (casual) | あらす       | あらさない       |
-| causative passive  | あらせられる | あらせられない   |
-| imperative         | あれ         | あるな           |
-| probably           | あるだろう   | ないだろう       |
-| probably polite    | あるでしょう | ないでしょう     |
-| conditional        | あれば       | なければ         |
-| conditional        | あったら     | なかったら       |
-| volitional         | あろう       |                  |
+| Form                       | Affirmative  | Negative         |
+| ---                        | ---          | ---              |
+| non-past                   | ある         | ない             |
+| non-past, polite           | あります     | ありません       |
+| non-past, formal           |              | あらず           |
+| past                       | あった       | なかった         |
+| past, polite               | ありました   | ありませんでした |
+| te-form                    | あって       | なくて           |
+| potential                  | あれる       | あれない         |
+| passive                    | あられる     | あられない       |
+| causative                  | あらせる     | あらせない       |
+| causative (casual)         | あらす       | あらさない       |
+| causative passive          | あらせられる | あらせられない   |
+| causative passive (casual) | あらされる   | あらされない     |
+| imperative                 | あれ         | あるな           |
+| probably                   | あるだろう   | ないだろう       |
+| probably polite            | あるでしょう | ないでしょう     |
+| conditional                | あれば       | なければ         |
+| conditional                | あったら     | なかったら       |
+| volitional                 | あろう       |                  |
 
 Note: ある has no regular negative forms — negative conjugates as ない (see
 [exceptions](#exceptions)).
@@ -141,6 +144,13 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
 - exception of ある
   * non-past negative
     + ない
+- causative passive has a shortened (casual) form: 〜せられる => 〜される
+  * examples
+    + 聞かせられる => 聞かされる
+    + 買わせられる => 買わされる
+  * verbs ending in す do not use the shortened form, as it would result in
+    さされる
+    + 話す => 話させられる (not 話さされる)
 - te-form conjugation
   * ends with う, つ, る
     + change to って
@@ -188,6 +198,9 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
 | volitional         | 食べよう       |                  |
 | volitional polite  | 食べましょう   |                  |
 
+Note: there is no standard shortened causative passive for 一段動詞 (食べさせられる
+only); 食べさされる is colloquial or dialectal.
+
 # 変格動詞
 
 | Form               | Affirmative  | Negative       |
@@ -211,6 +224,8 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
 | volitional         | しよう       |                |
 | volitional polite  | しましょう   |                |
 
+Note: there is no standard shortened causative passive for する (させられる only).
+
 | Form               | Affirmative                 | Negative                        |
 | ---                | ---                         | ---                             |
 | non-past           | 来る (くる)                 | 来ない (こない)                 |
@@ -233,6 +248,9 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
 | volitional polite  | 来ましょう (きましょう)     |                                 |
 
 Note the change in sounds between く, き and こ.
+
+Note: there is no standard shortened causative passive for 来る (来させられる
+only); 来さされる (こさされる) is colloquial or dialectal.
 
 # ながら Although
 
