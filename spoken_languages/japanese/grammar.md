@@ -52,7 +52,7 @@ ____
   * きょ
 - to add a sense of respect and politeness
 - commonly attached to something that belongs to the person you are addressing
-- there is not hard-and-fast rule as to which words do and do not use 御; as
+- there is no hard-and-fast rule as to which words do and do not use 御; as
   well as which reading of 御 to use, if it is not written in kana
 - with nouns
   * お箸 (おはし) - chopsticks
@@ -116,7 +116,7 @@ ____
     + exception
       + お船
       + おトイレ
-- it is not uaually used with katakana words
+- it is not usually used with katakana words
 - お + name of someone = sort of nickname
   * usually two syllables after お
     + 花子 (はなこ) - お花さん (おはなさん) / お花ちゃん (おはなちゃん)
@@ -138,7 +138,7 @@ ____
 - きょ
   * shows respect to the emperor and his family
   * examples
-    + 崩御 (ほうきょ) - passing away of the emperor
+    + 崩御 (ほうぎょ) - passing away of the emperor
   * other use cases
     + 御意 (ぎょい) - as you wish (a bit old-fashioned and very formal)
     + 御者 (ぎょしゃ) - coachman / driver
@@ -167,12 +167,12 @@ ____
 
 ### 等 (ら)
 
-- more casual than 達; often associated with friendliness and/or disrepect
+- more casual than 達; often associated with friendliness and/or disrespect
 - usually written in kana
   * to distinguish it from reading of 等 as など
 - examples
   * うちらには関係ない。 - It is none of our business.
-  * 田中容疑者らは逃亡しました。 - The suspect Tanaka and his accociates fled.
+  * 田中容疑者らは逃亡しました。 - The suspect Tanaka and his associates fled.
   * これら - these
   * あれら - those
   * あれら - those over there
@@ -201,7 +201,7 @@ ____
 - examples
   * そのパーティーには弁護士などが来ました。- People like lawyers came to the
     party. (it implies that there are other professionals besides lawyers)
-- in the Kansai area, やら is common used instead
+- in the Kansai area, やら is commonly used instead
 
 # Compounds
 
@@ -271,7 +271,7 @@ ____
   * it is used instead of simple command form when the listener needs an
     explanation to the command
   * 逃げるんだ！
-    + instead of 逃げろ！, it has the naunce of "You need to run away (because
+    + instead of 逃げろ！, it has the nuance of "You need to run away (because
       something dangerous is coming)!"
   * ちゃんと毎日朝ごはん食べるんだよ。
     + in the context of the listener probably does not have the habit of eating
@@ -359,7 +359,7 @@ ____
     + That guy might not show up.
 - for casual conversations
   * replace ない with ん
-  * this is common in Kansei dialect
+  * this is common in Kansai dialect
   * アイツ、まだ寝てんのかもしれん。
     + That guy might still be sleeping.
 
@@ -368,9 +368,9 @@ ____
 ## 自分 (じぶん)
 
 - it has an introspective nuance
-- grammatically not very diffrent from other pronouns and nouns in general
+- grammatically not very different from other pronouns and nouns in general
 - it can be used like English reflexive pronouns (*self) such as myself,
-  himeself, herself, themselves, etc.
+  himself, herself, themselves, etc.
   * 京子は自分を信じている。
     + Kyoko believes in herself.
   * 京子は自分が正しいと思っている。
@@ -417,7 +417,7 @@ ____
   * 自分も、そう思います。
 - used as second-person pronoun
   * in Kansai dialect, 自分 is often used as a first-person pronoun
-  * it carries a "carring" nuance, as if you are approaching someone while
+  * it carries a "caring" nuance, as if you are approaching someone while
     trying to step into their shoes
   * 自分、何してんの？
 - modifying (decorating) 自分
@@ -514,7 +514,7 @@ ____
     + あー、悪いけど、花子の事は、誘わないよ。
       + by adding 〜の事, the reply made a more ambiguous reference to all sorts
         of things related to Hanako. Here, the 〜の事 softens the seemingly
-        harsh comment by making sound a bit more indirect, and adds the nuance
+        harsh comment by making it sound a bit more indirect, and adds the nuance
         "given that,” — whatever "that" unspoken thing is — "I won't invite
         Hanako."
 - to talk about past experiences
@@ -559,7 +559,7 @@ ____
   * space
     + noun + の + 前
     + noun + の + 後ろ
-    + の can be ommitted except when 後ろ is used
+    + の can be omitted except when 後ろ is used
     + 車の前
     + 車の後ろ
     + 駅の前
@@ -640,7 +640,7 @@ ____
     + ⭕️ケーブルカーがありますが歩いて登りました。 (refer to a memory, it does
       not matter ケーブルカー exists at the time of conversation)
 - 時に
-  * に is this usage is optional but adding it helps emphasising the time
+  * に in this usage is optional but adding it helps emphasising the time
   * 好きなときに来て。
     + Come whenever you like.
     + に is needed as the time information requires emphasis

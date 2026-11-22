@@ -5,7 +5,7 @@
   * [拗音 (yōon)](#%E6%8B%97%E9%9F%B3-y%C5%8Don)
   * [促音 (sokuon) - (小さいつ) (small tsu)](#%E4%BF%83%E9%9F%B3-sokuon---%E5%B0%8F%E3%81%95%E3%81%84%E3%81%A4-small-tsu)
   * [長音 (chōon) - long vowel](#%E9%95%B7%E9%9F%B3-ch%C5%8Don---long-vowel)
-  * [鼻濁音 (びだだくおん) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-%E3%81%B3%E3%81%A0%E3%81%A0%E3%81%8F%E3%81%8A%E3%82%93---nasal-sound)
+  * [鼻濁音 (びだくおん) - nasal sound](#%E9%BC%BB%E6%BF%81%E9%9F%B3-%E3%81%B3%E3%81%A0%E3%81%A0%E3%81%8F%E3%81%8A%E3%82%93---nasal-sound)
   * [母音の無声化 - vowel devoicing](#%E6%AF%8D%E9%9F%B3%E3%81%AE%E7%84%A1%E5%A3%B0%E5%8C%96---vowel-devoicing)
   * [音読み and 訓読み](#%E9%9F%B3%E8%AA%AD%E3%81%BF-and-%E8%A8%93%E8%AA%AD%E3%81%BF)
   * [連濁 (Rendaku)](#%E9%80%A3%E6%BF%81-rendaku)
@@ -30,9 +30,9 @@ d (t)   | z (s)
 ## 撥音 (hatsuon) - nasal sound
 
 - ん
-  * pronouced as `m` when it is followed by `m`, `b`, `p`
-  * pronouced as `ng` when it is followed by `k`, `g`
-  * pronouced as `n` when it is at the end of the word
+  * pronounced as `m` when it is followed by `m`, `b`, `p`
+  * pronounced as `ng` when it is followed by `k`, `g`
+  * pronounced as `n` when it is at the end of the word
 
 ## 拗音 (yōon)
 
@@ -91,7 +91,7 @@ d (t)   | z (s)
   + 氷 こおり (kōri) - ice
   + 遠く とおく (tōku) - far
 
-## 鼻濁音 (びだだくおん) - nasal sound
+## 鼻濁音 (びだくおん) - nasal sound
 
 * が (nga)
 * ぎ (ngi)
@@ -246,7 +246,7 @@ d (t)   | z (s)
       + 潮 (しお) Tide
       + 血 (けつ) Blood
       + 下 (した) Below
-- revese rendaku
+- reverse rendaku
   * two voiced consonants do not exist in a row
   * examples
     + 舌 (した) + 鼓 (つづみ) = 舌鼓 (したづつみ)
@@ -267,7 +267,7 @@ d (t)   | z (s)
 
 ## 何
 
-- readinngs
+- readings
   * なん
     + followed by sounds starting with `d`, `t`, or `n`
       + 何ですか。

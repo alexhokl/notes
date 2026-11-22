@@ -57,7 +57,7 @@ ____
     + exception
       + いい -> よさそう
   * negative
-    + replace ＜ない with <なさそう
+    + replace くない with なさそう
     + examples
       + 美味しくなさそう - does not look delicious
       + 美味しそうじゃない。 - It does not look delicious. (a softer version)

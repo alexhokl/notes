@@ -87,7 +87,7 @@ ____
     + [N2 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-3)
     + [N1 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-4)
     + [N0 verb pairs](vocabulary.md#verb-pairs-intransitive-and-transitive-5)
-  * [examples from Meguro Langauge
+  * [examples from Meguro Language
     Center](https://www.mlcjapanese.co.jp/Download/ViVt.pdf)
 - there are no simple patterns to memorise transitive and intransitive pairs
   based on okurigana (送り仮名)
@@ -111,7 +111,7 @@ ____
     + れる is usually intransitive (obvious exception is 入れる)
     + かる is usually an intransitive verb
     + おる is usually an intransitive verb
-    + す is uaually a transitive verb (obvious exception is 差す (さす))
+    + す is usually a transitive verb (obvious exception is 差す (さす))
     + く is not always an intransitive verb
     + む does not have a pattern
     + える does not have a pattern
@@ -130,7 +130,7 @@ ____
         + パーティーをする。 - I will throw a party.
         + 飲む？ - Will you drink it?
           + 飲む！ - I will drink it!
-  * hibits, facts or generalisations
+  * habits, facts or generalisations
     + if the speaker believes it is a fact, whether it is actually true or false
       does not really matter
     + examples
@@ -167,7 +167,7 @@ ____
 # Conjugation
 
 - conjugate
-  * take a varierty of endings
+  * take a variety of endings
   * convey verb in the present or past, positive or negative, and more
 - types
   * 五段動詞 (ごだんどうし)
@@ -304,7 +304,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * continuative stem
   * conjunctive form
   * sentence-joining form
-- the fixed part in a verb conjuation
+- the fixed part in a verb conjugation
 - it can also stand alone as a noun at times or become at least noun-like,
   allowing it to combine with another word to form a compound verb like 飛び込む
   (to jump in)
@@ -496,7 +496,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - 〜なさい is the politer of two ways to form a command in Japanese
   * compared to [ろ](#command-form-imperative-%E3%82%8D)
-- stem form is used for conjugation (similar to なから)
+- stem form is used for conjugation (similar to ながら)
 - avoid using it with anyone who is in a higher social standing
   * use 〜てください or 〜てくれませんか instead
     + 先輩、書類の書き方を教えてくれませんか。
@@ -515,9 +515,9 @@ Note that all other conjugations of 買う use hiragana characters on the
 - someone is forced to do an action or allowed to do an action
 - the subject of the sentence somehow causes someone else to carry out the
   action
-- casual speech or dialets like Kansai-ben (関西弁)
+- casual speech or dialects like Kansai-ben (関西弁)
   * conjugation of 〜さす instead of 〜させる
-  * independent verbs which have some causative or permissive meaning bulit-in
+  * independent verbs which have some causative or permissive meaning built-in
     + 泳がす (transitive)
     + 寝かす (transitive)
     + 沸かす (transitive)
@@ -542,7 +542,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 大学に行かせてあげるつもりだ。
     + いい子にしてないと、パーティに行かせてあげないよ。
     + 宝くじが当たったら、ハワイに行かせてやるよ。
-  * when the speaker is being allowed to to do something, もらう or
+  * when the speaker is being allowed to do something, もらう or
     いただく (more polite) can be used
     + それでは、ちょっと自己紹介させてもらいます。
     + 有り難いことに、まだトーフグで仕事をさせてもらっています。
@@ -615,7 +615,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + I suppose she has many complaints on her side too.
   * it can sound literary
     + あるだろう is more common in spoken language
-  * idomatic usages
+  * idiomatic usages
     + こんなこともあろう(か)と思って、これを持ってきたんだよ。
       + I guessed this might be the case, so I've brought this.
 
@@ -639,7 +639,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * お昼ごはんはサラダだったりおにぎりだったりする。
     + Sometimes, my lunch is salad, and other times it is onigiri (and sometimes
       is something else).
-    + たり lists a few possible scenraios; や lists a few items in a scenario
+    + たり lists a few possible scenarios; や lists a few items in a scenario
   * お昼ごはんはサラダやおにぎりだったりします。
     + Sometimes, my lunch is salad, onigiri, etc.
 
@@ -651,7 +651,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * R- + たい
 - it behaves like an い-adjective
   * it is an auxiliary adjective
-- for expressing spkeaker's desire
+- for expressing speaker's desire
   * トイレに行きたい。
   * トイレに行きたいです。
   * パイロットになりたい。
@@ -737,7 +737,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 今にも雨が降りそうです。
   * あの木、倒れそうだよ！
   * 雨が降りそうな空
-- to talk about things that you thin you ar going to do based on the way you
+- to talk about things that you think you are going to do based on the way you
   feel
   * usually without wanting to do them
   * a sense of picturing yourself feeling a certain feeling or emotion
@@ -807,7 +807,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 食事をする
   * 旅行をする
 - to make
-  * commonly used when preparing something or makeing a public announcement
+  * commonly used when preparing something or making a public announcement
   * 準備をする
   * 予約をする
   * 発表をする
@@ -1125,7 +1125,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - to talk about things you do only on occasion
 - こと has the meaning of "times" or "occasions"
-  * "There are time I do ..."
+  * "There are times I do ..."
 - patterns
   * Vる + ことがある
   * A + ことがある
@@ -1209,7 +1209,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + There was also a time when I was a model in Japan.
   * 日本語を教えたことがある。
   * ❌ 昨日、日本語を教えたことがある。
-    + definite timining cannot be used
+    + definite timing cannot be used
   * ⭕ 昨日、日本語を教えた。
   * 日本語を教えていたことがある。
     + I've taught Japanese for a while before.
@@ -1245,7 +1245,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 ## すぎる
 
 - derived from the verb 過ぎる (to pass)
-- it has a relatively netural tone
+- it has a relatively neutral tone
 - patterns
   * R- + すぎる
   * A- + すぎる
@@ -1260,7 +1260,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * verb/adjective in plain negative form and replace い with さ + すぎる
   * 面白くなさすぎる！
     + It's not funny at all!
-    + it carries a more subjective tone and it more expressive and humorous than
+    + it carries a more subjective tone and is more expressive and humorous than
       全然面白くない！
   * うちの子は 野菜を食べなさすぎる！
     + it does not necessarily mean the kid would not eat vegetables at all;
@@ -1369,7 +1369,7 @@ Note that all other conjugations of 買う use hiragana characters on the
       covered"
   * 悪いんだけど、予約しておいてくれないかな？
     + I'm sorry (to ask you this), but can you make a reservation for us?
-    + it has a naunce of "when you get a chance"
+    + it has a nuance of "when you get a chance"
 - for doing something as a temporary or tentative solution
   * どうしよ？ とりあえず、なんか頼んでおく？
     + What should we do? Should we order something to get started?
@@ -1419,7 +1419,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * てある is object-centered whereas ておく is person-centered
   * 出かける前に、夕飯を作っておくから。
     + I'll make dinner before I go out.
-    + てある cannot be used as the dinner has not been perpared yet
+    + てある cannot be used as the dinner has not been prepared yet
   * ⭕️夕飯、作っておいたからね！
     + The dinner is already made, okay?
   * ⭕️夕飯、作ってあるからね！
@@ -1429,8 +1429,8 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 ## てほしい
 
-- 欲しい (ほしい) means wanting, desiring or whishing for
-- to express the speeker's desire for something
+- 欲しい (ほしい) means wanting, desiring or wishing for
+- to express the speaker's desire for something
   * 掃除機がほしい
 - to express the speaker's desire for someone to do something
   * 掃除機をかけてほしい。
@@ -1546,7 +1546,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 親になってみて、はじめて子育ての大変さを理解した。
   * 大病を患ってみて、やっと健康でいることの有り難さが分かった。
   * it cannot be used when the speaker intentionally try something
-- not event try
+- not even try
   * てもみない
   * 絶対無理だと思ったから、やってもみなかったんだ。
     + I thought it would never work, so I didn't even try.
@@ -1556,7 +1556,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 ## てもいい
 
-- express permission, consession, or approval
+- express permission, concession, or approval
 - patterns
   * verb + てもいい
     + express permission

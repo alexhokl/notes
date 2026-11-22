@@ -76,7 +76,7 @@ ____
 - 10k is normally read as 一万 (いちまん)
 - decimal is read as 点 (てん)
   * 3.14 is read as さんてんいちよん
-  * 0.15 is read as れんてんいちご
+  * 0.15 is read as れいてんいちご
 - 20 years old is read as Wago はたち (or in Kango にじゅっさい)
 - 三十路 (みそじ) is a term for someone who is in their 30s
   * however, it carries a negative nuance that you are getting old
@@ -103,8 +103,8 @@ ____
 
 ## Unspecified quantity
 
-- 少し (すこし) - litte, few
-- 少ない (すくない) - litte, few
+- 少し (すこし) - little, few
+- 少ない (すくない) - little, few
 - たくさん - many, much
 - 多い - many, much
 - 一部 (いちぶ) - partially
@@ -182,7 +182,7 @@ ____
 - it counts for "stick-shaped or long" things; or thin and long
   containers if it contains a liquid or gaseous substance; thin and long
   buildings or structures; thin and long spaces; rolled-up tapes; wind and
-  string instruments; number of connected phone calls; nubmer of runs for
+  string instruments; number of connected phone calls; number of runs for
   a train or bus; in sports, some plays lead to something positive, like a point
   or a better position; things that have a start and end; number of products
   (usually software); number of prizes
@@ -750,7 +750,7 @@ ____
 - 語 (ご) counts words (not characters)
   * 新しい単語を２０語覚えました。
 
-- 校 (こう) counts the number of schools; or nubmer of proofreadings
+- 校 (こう) counts the number of schools; or number of proofreadings
 
 - 皿 (さら) counts number of dishes or plates
   * use wago counting method for number is 2 or below; kango, otherwise
@@ -860,14 +860,14 @@ ____
   * examples
     + １度２人で話をしませんか？
     + 三十六度九分 (さんじゅうろくどきゅうふん)
-    + 熱が３９度ある。(ねつがさんじゅう＜どある) - I have a fever of 39
+    + 熱が３９度ある。(ねつがさんじゅうきゅうどある) - I have a fever of 39
       degrees.
 
 - 杯 (はい) counts liquids in cups or bowls
 
 | Japanese | Reading          |
 | ---      | ---              |
-| 一杯     | `いっばい`       |
+| 一杯     | `いっぱい`       |
 | 二杯     | にはい           |
 | 三杯     | `さんばい`       |
 | 四杯     | よんはい         |

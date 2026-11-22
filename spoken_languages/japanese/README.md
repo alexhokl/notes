@@ -7,7 +7,7 @@
     + [Third person pronouns and its plural form](#third-person-pronouns-and-its-plural-form)
 - [Situation and vocabulary](#situation-and-vocabulary)
   * [Restaurant](#restaurant)
-  * [Convience store](#convience-store)
+  * [Convenience store](#convenience-store)
   * [Shopping](#shopping)
   * [Payment](#payment)
   * [Conversation](#conversation)
@@ -28,7 +28,7 @@
   * [how](#how)
   * [used to](#used-to)
   * [in theory](#in-theory)
-  * [mutiple actions](#mutiple-actions)
+  * [multiple actions](#multiple-actions)
   * [if or when](#if-or-when)
   * [difficult to do](#difficult-to-do)
   * [easy to do](#easy-to-do)
@@ -59,7 +59,7 @@ ____
   City](https://play.google.com/store/apps/details?id=stoicknight.japaneseconjugation) - Android app
 - [jisho.org](https://jisho.org/) - Japanese-English dictionary and it is
   especially useful in checking verb forms
-- [Learn Japanese: A Ridiculous detailed
+- [Learn Japanese: A Ridiculously detailed
   guide](https://www.tofugu.com/learn-japanese/) - contains steps to learn
 - [The Japanese Grammar Index (Tofugu)](https://www.tofugu.com/japanese-grammar/)
 - [NHK World Easy Japanese](https://www.nhk.or.jp/lesson/en/lessons/) - lessons
@@ -97,8 +97,8 @@ ____
 - うち - I (feminine)
 - 貴方 (あなた) - you
 - 貴様 (きさま) - you bastard (vulgar)
-- 君 (きみ) - you (friendly / musculine / poetic)
-- お前 (おまえ) - you (musculine / vulgar)
+- 君 (きみ) - you (friendly / masculine / poetic)
+- お前 (おまえ) - you (masculine / vulgar)
 - 彼 (かれ) - he / boyfriend
 - 彼女 (かのじょ) - she / girlfriend
 - 彼氏 (かれし) - boyfriend
@@ -108,13 +108,13 @@ ____
 - 彼ら (かれら) - they (mixed sex group)
 - 彼女ら (かのじょら) - they (females)
 - it is common to use the name of a person rather than a third person pronoun
-  even if the name has to be repeate
+  even if the name has to be repeated
   * 田中さんもう帰っちゃった。田中さんに聞きたいことがあったんだよね。 - Has
     Tanaka already left? I had something that I wanted to ask him about.
 - 自分 (じぶん) - myself / oneself
-  * while often associated with strict hierarchical systems, such those
+  * while often associated with strict hierarchical systems, such as those
     associated with military and sporting environments, it's more gender-neutral
-    than common first-person vronouns
+    than common first-person pronouns
   * it can be used as second-person pronoun in Kansai dialect
 - second-person pronoun
   * it can be seen as rude and it is common to avoid it in conversations
@@ -128,7 +128,7 @@ ____
 
 ### First person pronouns and its plural form
 
-|               | keigo     | causal  | neutral   | polite (humble) |
+|               | keigo     | casual  | neutral   | polite (humble) |
 | ---           | ---       | ---     | ---       | ---             |
 |               | 方 (がた) | 等 (ら) | 達 (たち) | 供 (ども)       |
 | 私 (わたし)   |           | 私等    | 私達      | 私供            |
@@ -139,7 +139,7 @@ ____
 
 ### Second person pronouns and its plural form
 
-|               | rough     | causal  | neutral   | polite    |
+|               | rough     | casual  | neutral   | polite    |
 | ---           | ---       | ---     | ---       | ---       |
 |               | 供 (ども) | 等 (ら) | 達 (たち) | 方 (がた) |
 | 貴方 (あなた) |           | 貴等    | 貴達      | 貴方      |
@@ -148,7 +148,7 @@ ____
 
 ### Third person pronouns and its plural form
 
-|                 | rough     | causal   | neutral   | polite    |
+|                 | rough     | casual   | neutral   | polite    |
 | ---             | ---       | ---      | ---       | ---       |
 |                 | 供 (ども) | 等 (ら)  | 達 (たち) | 方 (がた) |
 | 彼 (かれ)       |           | 彼等     |           |           |
@@ -175,16 +175,16 @@ ____
 - カードでお願いします - I'll pay by card
 - お水をいただけますか。 (おみずをいただけますか) - may I have some water?
 
-## Convience store
+## Convenience store
 
 - はい、お願いします (はい、おねがいします) - yes, please
-- 大丈夫です (だいじゃうぶです) - it's okay
+- 大丈夫です (だいじょうぶです) - it's okay
 - いえ - no
 - お箸、おつけしますか? (おはし、おつけしますか?) - chopsticks, may I add?
 - おしぼり、おつけしますか？ (おしぼり、おつけしますか?) - wet towel, may I add?
 - ポイントカードはおもちですか? (ポイントカードはおもちですか?) - point card, do
   you have?
-- こちら温めまっすか？ (こちらあたためますか) - This, do you want to warn it
+- こちら温めますか？ (こちらあたためますか) - This, do you want to warm it
   up?
 - 袋、ご利用おですか? (ふくろ、ごりようおですか?) - bag, will you use?
 - レジ袋いりますか？ (レジぶくろいりますか?) - cashier bag, do you need?
@@ -192,7 +192,7 @@ ____
 - レジ袋わいらないです (レジぶくろわいらないです) - cashier bag, I don't need
 - 袋いらない (ふくろいらない) - no bag
 - レジ袋 (れじぶくろ) - plastic bag (literally it is "cashier bag")
-- ビニール袋 (ビにールぶくろ) - plastic bag (literally it is "vinyl bag")
+- ビニール袋 (ビニールぶくろ) - plastic bag (literally it is "vinyl bag")
 
 ## Shopping
 
@@ -221,10 +221,10 @@ ____
 - 保管場所にペットはいません。非喫煙者です。 - There are no pets or smokers
   where this item has been stored.
 - 発送料の負担 (はっそうのふたん) - who will pay the shipping
-- ネットデ借りる (ネットでかりる) - rent online
+- ネットで借りる (ネットでかりる) - rent online
 - まとめて購入 (まとめてこうにゅう) - buy in bulk
 - まとめてレンタル - rent in bulk
-- 宅配レンタリ (たくはいれんたり) - home delivery rental
+- 宅配レンタル (たくはいれんたる) - home delivery rental
 - 海外発送可 (かいがいはっそうか) - international shipping available
 - 平置き実寸 (ひらおきじっすん) - actual measurements when placed flat
 - お売りください (おうりください) - please sell
@@ -251,7 +251,7 @@ ____
 - も一度いいですか？ (もいちどいいですか) - one more time, is it okay?
 - 日本語がわかりません (にほんごがわかりません) - Japanese, I don't
   understand
-- ちょっと日本語がわかます (ちょっとにほんごがわかます) - I understand a little
+- ちょっと日本語がわかります (ちょっとにほんごがわかります) - I understand a little
   Japanese
 - 英語は話せますか？ (えいごははなせますか) - English, can you speak?
 - 始めましょう (はじめましょう) - let's start
@@ -269,7 +269,7 @@ ____
   * softens the tone of the sentence compared to something + です
 - 貴方の部屋は綺麗ですね。 (あなたのへやはきれいですね) - your room is clean,
   isn't it?
-  * とでもありません。 - not really
+  * とんでもありません。 - not really
 - asking for a location
   * 職員室はどこですか。 - where is the staff room?
     + あそこです。 - over there
@@ -280,7 +280,7 @@ ____
 - 分かりました (わかりました) - understood
 - お名前は何ですか。 (おなまえはなんですか) - what is your name?
 - 私は香港から来ました。 - I came from Hong Kong
-- えっど - used before answering a question
+- えっと - used before answering a question
 - 頑張りましょう - let's do our best
 - あ、分かりました - ah, I understood
 - 然らば (さらば) - farewell; goodbye; if so; in that case
@@ -303,12 +303,12 @@ ____
   through to JR
 - お並び列 (おならびれつ) - please line up
 - お待ちのお客様へ (おまちのおきゃくさまへ) - For waiting customers
-- お待ち帰りの方は、並ばずにお入り下さい (おまちかえりのがたは、ならばずに
+- お持ち帰りの方は、並ばずにお入り下さい (おもちかえりのがたは、ならばずに
   おはいりください) - For customers returning, please enter without lining up.
 - お名前はお伺いしておりません (おなまえはおうかがいしておりません) - We do not
   ask for your name.
 - 恐れ入りますがなるべく少人数間隔を空けてお並びいただきお待ち下さいませ。 (
-  おそれはいりますがなるべくしょうにんずうかんかくをあけておならび
+  おそれいりますがなるべくしょうにんずうかんかくをあけておならび
   いただきおまちくださいませ) - We apologize for the inconvenience, but please
   line up with as much space between each person as possible.
 - ご協力の程よろしくお願い致します (ごきょうりょくのほどよろしくおねがいします) -
@@ -326,7 +326,7 @@ ____
 
 - 渋谷までお願いします。
 - 新宿で通るバスは何番ですか？
-- まもなく電車が参ります。黄色い線の内側煮立ってお待ちください
+- まもなく電車が参ります。黄色い線の内側に立ってお待ちください
   (まもなくでんしゃがまいります。きいろいせんのうちがわにたっておまちください) -
   soon train is coming. yellow line inside by standing wait please
 - 急行 (きゅうこう) - Express
@@ -361,7 +361,7 @@ ____
     + a radio program that starts at 1:00 and ends at 2:00 in the morning might
       say it starts at 25:00 and ends at 26:00 on their time table
 - 八時後 (はちじご) - after 8
-- そちらは何時から何時までですか？ What is the opening hours?
+- そちらは何時から何時までですか？ - What is the opening hours?
 
 ### Approximate time
 
@@ -381,7 +381,7 @@ ____
       (of the hour).
     + 四十五分くらいバスに乗るね！ - I'll get on the bus around 45 minutes
       (duration).
-- 頃 can only denotes approximate point in time
+- 頃 can only denote approximate point in time
   * examples
     + 四十五分頃（に）バスに乗るね！- I'll get on the bus around 45 minutes
       (of the hour).
@@ -419,7 +419,7 @@ ____
     + 3ヶ所の場所 for 3箇所の場所
     + 2ヶ月 for 2箇月
   * substitute for the particle が
-    + used in older or more stylzed Japanese
+    + used in older or more stylized Japanese
     + used in location names
 
 ## 近く
@@ -434,7 +434,7 @@ ____
 - replacement of topic marker は
   * 田中さんって、優しいね。
 - replacement of definition marker という
-  * グゴルって何
+  * グーグルって何
 - replacement of quotation marker と
   * 彼は来ないって言ってた。
 - replacement of と言っている
@@ -473,7 +473,7 @@ ____
 
 ## not as good as
 
-- noun B は noun A ほど + A＜ない/Naではない + だ。 (B is not as adjective as A)
+- noun B は noun A ほど + Aくない/Naではない + だ。 (B is not as adjective as A)
   * ChatGPTはClaudeほどよくないです。
 
 ## how
@@ -490,7 +490,7 @@ ____
 - 理論的には...
 - 理論的には、AIは人間の介入なしでコードを書くことができます。
 
-## mutiple actions
+## multiple actions
 
 - Vて + Vて + ... + そして + ... + V
   * 朝、起きて、顔を洗って、朝ご飯を食べて、そして学校へ行きます。
@@ -522,7 +522,7 @@ ____
 - R- + にくい
 - derived from an obsolete adjective 難い
 - にくい is an い-adjective
-- the difficulty it not on the person involved
+- the difficulty is not on the person involved
 - このフォークは使いにくい。
 - 使いにくいフォーク
 - 私の姉は車酔いしにくい。
@@ -551,7 +551,7 @@ ____
   * うわさ - rumor
 - 弟が大学に合格したという知らせを受け取った。
 - 彼女の到着が一日遅れるという連絡が入った。
-- 今度k製薬から出た新製品はよく効くし、それに使いやすいという評判である。
+- 今度K製薬から出た新製品はよく効くし、それに使いやすいという評判である。
 - たばこの煙が体に良くないという事実は誰でも知っている。
 
 ## regarding
@@ -577,7 +577,7 @@ ____
 ## as a
 
 - noun + として + V/A/Na
-- nount + としての + noun
+- noun + としての + noun
 - 研究生としてこの大学で勉強している。
 - 日本軍の行った行為は日本人として恥ずかしく思う。
 - 子供がこんなひどい目にあわされては、親として黙っているわけにはいかない。 - As

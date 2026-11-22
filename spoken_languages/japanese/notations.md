@@ -86,8 +86,8 @@
   * conjectural form of a verb in past tense
   * 書いたろう
   * 読んだろう
-  * 見ただろう
-  * 来ただろう
+  * 見たろう
+  * 来たろう
   * したろう
 - Vない
   * negative form of a verb

@@ -15,7 +15,7 @@ ____
   * <kbd>space</kbd> to select options
   * <kbd>enter</kbd> to confirm
   * `xtsu` to type `っ` (and similar for other 小さい (small) kana)
-  * On Mac, <kbd>shift</kbd> can be configure to type katakana
+  * On Mac, <kbd>shift</kbd> can be configured to type katakana
 - 12 keys on mobile
   * consonants are listed from left to right and from top to bottom
   * on pressing and drag

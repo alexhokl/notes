@@ -34,7 +34,7 @@
     + [さえ](#%E3%81%95%E3%81%88)
     + [すら](#%E3%81%99%E3%82%89)
     + [くらい](#%E3%81%8F%E3%82%89%E3%81%84)
-  * [終助詞 sendence-ending particles](#%E7%B5%82%E5%8A%A9%E8%A9%9E-sendence-ending-particles)
+  * [終助詞 sentence-ending particles](#%E7%B5%82%E5%8A%A9%E8%A9%9E-sentence-ending-particles)
     + [ね](#%E3%81%AD)
     + [わ](#%E3%82%8F)
     + [よ](#%E3%82%88)
@@ -107,7 +107,7 @@ ____
   * turns non-nouns into nouns
   * usages
     + relative clause + の
-      + conjugate in plain form (see [conjugations](./conjugations.md#%E3%81%AE)
+      + conjugate in plain form (see [conjugations](./conjugations.md#%E3%81%AE))
       + 走る`の`は楽しいです。 - Running is fun.
       + 走る`の`は明日だよ。 - (The time for) running is tomorrow.
       + 走る`の`は海子だよ。 - (The person) running is Umiko.
@@ -172,7 +172,7 @@ ____
 - even when the subject is included, it is really common to omit が in informal
   speaking, as well as writing that closely resembles spoken styles, like casual
   text messages
-  * It is also possible to omit が in polite speaking. in this case there is
+  * It is also possible to omit が in polite speaking. In this case there is
     little or no difference in the nuance. It simply comes down to the
     individual preference.
 - が with verb-like adjectives
@@ -189,7 +189,7 @@ ____
       change the verb into the たい form, as in 食べたい (I want to eat)
     * examples
       + 梅干`が`食べたい。 - I want to eat umeboshi.
-        + い is the clue that is form has basically "become" an い adjective
+        + い is the clue that this form has basically "become" an い adjective
         + it is totally possible to say 梅干`を`食べたい
           + if を you are not craving pickled plums, but you are more
             practically thinking about eating some
@@ -220,7 +220,7 @@ ____
       + スイス`は`(物価`が`高い)国だ。 - As for Switzerland, it is a country that
         has high prices.
       + スイス`は`(物価`の`高い国)だ。 - (As for Switzerland, it is a country that
-        has high prices.m
+        has high prices.)
 - が in embedded clauses
   * examples
     + 犬`は`吠えました。 - The dog barked.
@@ -228,12 +228,12 @@ ____
 - two subjects with が
   * examples
     + スイスが物価が高い。 - It is Switzerland that has a high cost of living.
-      + the examples streses Switzerland
+      + the examples stresses Switzerland
 - question identify subject using が should be answered with が to tag the
   subject
-- to tag the subject in a relative cluase, use が but not は
-  * sometimes relative clause can be splitted into two sentences but the
-    prinicple still applies
+- to tag the subject in a relative clause, use が but not は
+  * sometimes relative clause can be split into two sentences but the
+    principle still applies
   * examples
     + 私が起きる前に、父は出かけました。
 
@@ -248,7 +248,7 @@ ____
   * ジェニーが`キャメロンを`責めた。 - Jenny blamed Cameron.
   * ゴキブリ等が`政党を`作りました。 - The cockroaches created a political party.
 - を at the end of a sentence
-  * in this kind of sentence, verb is proposefully missing, and the listener is
+  * in this kind of sentence, verb is purposefully missing, and the listener is
     expected to complete the sentence in their head using world knowledge or
     context clues
   * examples
@@ -325,7 +325,7 @@ ____
     + 東京`で`住んでいます。 - I live in Tokyo.
       + the focus is on 住んでいます
 - に is used with verbs that indicate some kind of attachment or contact, such
-  as 貼はる (affix) or 付ける (attach). Like in 座っている (sitting), these
+  as 貼(は)る (affix) or 付ける (attach). Like in 座っている (sitting), these
   verbs take the 〜ている form to indicate an ongoing state. It may be tempting
   to treat these as activities and choose particle で, but verbs of attachment
   usually take particle に.
@@ -395,7 +395,7 @@ ____
     + 宇宙船を止めて！これから信号が`赤に`変わるよ！ - Stop the spaceship! The
       signal will turn red!
 - に in social interactions
-  * usuaully used with verbs such as あげる (to give) or もらう (to receive)
+  * usually used with verbs such as あげる (to give) or もらう (to receive)
   * examples
     + かなえは`まみに`アメリカのベーコンをあげた。 - Kanae gave American bacon
       to Mami.
@@ -412,7 +412,7 @@ ____
     + if に is included in the passive sentence, it marks the person or thing
       that causes the event to occur
   * examples
-    + キャメロンは`ジェニーに`そのレストランを勧められた。 - That resturant
+    + キャメロンは`ジェニーに`そのレストランを勧められた。 - That restaurant
       was recommended to Cameron by Jenny.
       + 勧められた is passive form of 勧める
 - に in causative sentences
@@ -490,7 +490,7 @@ ____
   - the places that it specifies does not necessarily have to be a physical space
     and it can specify abstract places as well
     * examples
-      + 私は`貧しい家庭で`育らました。 - I grew up in a poor household.
+      + 私は`貧しい家庭で`育ちました。 - I grew up in a poor household.
       + `インスタで`！ - On Instagram!
   - means of an action
     * examples
@@ -505,12 +505,12 @@ ____
         chapters.
       + このテーブルは`木で`できている。 - This table is made of wood.
       + このクッキーは、 `小麦粉と砂糖だけで`作りました。 - I made these cookies
-        made with only flour and sugar.
+        with only flour and sugar.
         + だけ - only
   - to specify a category
     * used as "among"
     * examples
-      + `スポーツで`好きあのはサッカーだよ。 - Among all sports, my favorite is
+      + `スポーツで`好きなのはサッカーだよ。 - Among all sports, my favorite is
       soccer.
       + we could also say スポーツの中で
     + 富士山は`日本の山で`一番高い山だ。 - Mount Fuji is the tallest mountain
@@ -538,7 +538,7 @@ ____
 
 ### へ
 
-- it is always pronunced as え when it is used as a particle
+- it is always pronounced as え when it is used as a particle
 - indicates a destination or the direction that something is heading
   * examples
     + `富士山の頂上へ`登る。 - I will climb to the top of Mount Fuji.
@@ -555,7 +555,7 @@ ____
 - to specify a transition
   * examples
     + 奈良時代から`平安時代へ` - From the Nara period to the Heian period.
-- to indicate the receipent of something
+- to indicate the recipient of something
   * examples
     + `娘へ`荷物を送った。 - I sent a package to my daughter.
     + `花子へ` - To Hanako
@@ -618,7 +618,7 @@ ____
   * examples
     + `１０時までに`帰る。
   * まで is one of the particles that is not usually skipped
-- to marks the end point related to a location
+- to mark the end point related to a location
   * examples
     + 駅から`コンビニまで` - From the station to the convenience store
     + 駅から`コンビニまで` １m/１分/一本道 です。 - From the station to the
@@ -839,7 +839,7 @@ ____
   * examples
     + 歩く`より`仕方がない。 - There is no other choice but to walk.
     + 歩く`より`仕様がない。 - There is no other choice but to walk.
-    + 歩く`より`他にがない。 - There is no other choice but to walk.
+    + 歩く`より`他にない。 - There is no other choice but to walk.
 - to be used as starting point
 - used as a formal version of から
   * usage examples
@@ -870,7 +870,7 @@ ____
       + 映画、『千と千尋の神隠し』`より`、『いつも何度でも』。 - From the film
         Spirited Away, "Always With Me."
       + 心`より`ご成功をお祈り申し上げます。 - I sincerely wish you success.
-      + 田中先生より「パカ」と怒鳴られる。 - Yelled at bya Mr Tanaka for being
+      + 田中先生より「バカ」と怒鳴られる。 - Yelled at by Mr Tanaka for being
         "stupid". (assuming this is written in a report)
   * in casual letters
     + examples
@@ -880,8 +880,8 @@ ____
     + used with 日頃 (ひごろ) or 平素 (へいそ)
     + examples
       + Thank you very much for your continued support.
-        + 日頃`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
-        + 平素`より`格別かくべつのご高配こうはいを賜たまわり厚くお礼申し上げます。
+        + 日頃`より`格別(かくべつ)のご高配(こうはい)を賜(たまわ)り厚くお礼申し上げます。
+        + 平素`より`格別(かくべつ)のご高配(こうはい)を賜(たまわ)り厚くお礼申し上げます。
   * indicating limits
     + noun + より + ... + はない
     + 親(おや)`より`ありがたい存在はない。 (親が一番ありがたい存在だ)
@@ -894,7 +894,7 @@ ____
 
 - a marker of the unknown
 - for asking questions
-  * simple adding it to the end of a sentence
+  * simply adding it to the end of a sentence
 - to mark two or more elements as alternatives
   * examples
     + 誕生日はお母さん`か`お父さん (`か` / `が`) ケーキを作ってくれる。 - On my
@@ -958,11 +958,11 @@ ____
       + と cannot be replaced に in this case
 - for different interpretations
   * examples
-    + 第一次世界対戦では、日本はイギリス`と`戦いました。 - In the First World
+    + 第一次世界大戦では、日本はイギリス`と`戦いました。 - In the First World
       War, Japan and Great Britain fought (together).
-    + 第二次世界対戦では、日本はイギリス`と`戦いました。 - In the Second World
+    + 第二次世界大戦では、日本はイギリス`と`戦いました。 - In the Second World
       War, Japan and Great Britain fought (each other).
-    + 第一次世界対戦では、日本はイギリス`と`一緒に戦いました。 - In the First
+    + 第一次世界大戦では、日本はイギリス`と`一緒に戦いました。 - In the First
       World War, Japan and Great Britain fought together.
       + note the use of 一緒に (together) to clarify the meaning of と
     + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
@@ -971,7 +971,7 @@ ____
 - for marking quotations
   * examples
     + キャメロンが「おはよう」`と`言った。 - Cameron said "good morning."
-      + note that quoatation marks can be omitted in this case
+      + note that quotation marks can be omitted in this case
       + in casual conversation, と can be replaced by って
         + キャメロンがおはよう`って`言った。 - Cameron said "good morning."
     + 難しい質問だ`と`思う。 - I think it is a difficult question.
@@ -1043,7 +1043,7 @@ ____
   * アイツは、お金もないし、才能もない。
 - to mark a reason or cause
   * so
-  * it adds some abiguity by suggesting there are more reasons
+  * it adds some ambiguity by suggesting there are more reasons
     + if it is used in a negative sentence, it has functionality to soften the
       tone as a sign of politeness
   * 天気もいいし、ピクニックに行かない？
@@ -1069,7 +1069,7 @@ ____
   * こっちは、子供も生まれるし、仕事もクビになるしで、ホントやばいよ。
 - to end a sentence with し
   * to give a hint that "the list goes on"
-  * often used ub casyak settings to share the speaker's personal stance and it
+  * often used in casual settings to share the speaker's personal stance and it
     can sound a bit slangy
   * 次の日試験があるし…。
     + I have an exam the next day, so….
@@ -1102,7 +1102,7 @@ ____
   * 旅行、どこにする？
     + 沖縄とかどう？（沖縄は一例）
     + 沖縄はどう？（沖縄を提案している）
-- to present abiguous information
+- to present ambiguous information
   * 彼が留学するとか聞いたけれど、結局どうなったの？
   * 近いうちに大きい地震があるとかないとか、話題になっている。
   * 彼女が仕事を手伝ってほしいとか何とか言ってたけれど、忙しいから断った。
@@ -1164,7 +1164,7 @@ ____
 
 ### たら
 
-- a conjugation to express a casual relationship
+- a conjugation to express a causal relationship
   * A: 勉強しなさい。
     B: ご飯食べたらする。
   * A: 勉強しなさい。
@@ -1174,7 +1174,7 @@ ____
 - patterns
   * convert to past tense + ら
     + both plain and polite forms can be used
-      + exception is for nagative form where only plain form should be used
+      + exception is for negative form where only plain form should be used
   * 食べたら
   * 夏だったら
   * 不安だったら
@@ -1187,7 +1187,7 @@ ____
   * 不安じゃなかったら
   * 難しくなかったら
 - for when or after
-  * to provide the condiition that needs to be fulfilled for other events or
+  * to provide the condition that needs to be fulfilled for other events or
     situations to take place
   * this usage cannot be used to describe something the speaker has control over
     + exception is for future events
@@ -1249,7 +1249,7 @@ ____
 
 ### が and けど
 
-- both are conjective particles
+- both are conjunctive particles
 - both have similar usage to "but"
 - が carries a more formal nuance, while けど feels more colloquial
   * が is overall more suitable for writing, but is still used in conversation,
@@ -1271,7 +1271,7 @@ ____
       + 夜は静かです`けど`昼はうるさいです。
       + 夜は静かだ`けど`昼はうるさい。
       + 夜は静かだ`が`昼はうるさい。
-- for constrast
+- for contrast
   * examples
     + 母さんはコンサートに来た`が`、姉は来なかった。 - My mother came to the
       concert, but my older sister didn't.
@@ -1323,10 +1323,10 @@ ____
 - for complaint and frustration
   * せっかく掃除した`のに`、すぐにまた汚くなった。
     + せっかく or わざわざ is often used with it to emphasize the trouble the
-      speaker has been throguh
+      speaker has been through
   * あんなに勉強した`のに`、不合格だった。
 - used at the end of a sentence
-  * this usage expects the listener can undertand the unexpected things that was
+  * this usage expects the listener can understand the unexpected things that was
     not mentioned explicitly
   * 夜中の三時な`のに`。
   * あんなに勉強した`のに`。
@@ -1379,7 +1379,7 @@ ____
       not
   * ⭕️ 私が行くなら、コウイチも行きたがると思う。
     + If I go there, I think Koichi wants to come with me.
-      + it is correct as action itself is an undertain assumption from the
+      + it is correct as action itself is an uncertain assumption from the
         speaker
   * ❌ 走るなら先生に怒られるよ。
     + it is incorrect as it is used to claim subjective opinions based on the
@@ -1399,7 +1399,7 @@ ____
     counterfactual situation
     + 今日が金曜日ならなあ。
       + I wish today were Friday.
-- to refer to someone or something that is mentinoed in other people's speech
+- to refer to someone or something that is mentioned in other people's speech
   * You: あの、緑の帽子を見ませんでしたか？
     Man: その帽子なら、さっき誰かが持って行きましたよ。
     + You: Excuse me, did you see a green hat?
@@ -1419,10 +1419,10 @@ ____
 ### は
 
 - it is like a spotlight that shines on the topic and leaving other potential
-  topcis in the dark
+  topics in the dark
 - as a topic marker
   * it is the rough equivalent of "as for"
-- for constrasting two topics
+- for contrasting two topics
   * 東京`は`物価が高いけど、田舎`は`物価が安い。
 - with い-adjectives
   * 難しく`は`ないけど、ただ時間がかかる。
@@ -1431,7 +1431,7 @@ ____
 - with nouns and な-adjectives
   * 有名で`は`ないが、人気はある。
   * 先生で`は`ありませんが、説明が上手な人です。
-- questions words may be following by が, を, etc, but almost never は
+- question words may be followed by が, を, etc, but almost never は
 - it cannot be combined with が, を or も
 - either replace に or become には
   * 日本`に`行ったことがある。
@@ -1446,7 +1446,7 @@ ____
     languages/subjects).
   * お肉`は`食べない。 - I don't eat meat (but I eat other things).
   * お肉`は`食べないけど魚は食べるよ。
-  * the feeling of constrast can also be increased with a pause
+  * the feeling of contrast can also be increased with a pause
     + 日本語は、好き。
   * in giving negative answers, は should be used in place of particles such as
     が
@@ -1484,7 +1484,7 @@ ____
   * 私は学生です。 - For me, I'm a student.
 - …(something important) が …
   * 私が学生です。 - I am the one who is a student.
-- 何故、あなたが時計をチラッと見るたび、泣くそうな気分になるの？ - why? when you
+- 何故、あなたが時計をチラッと見るたび、泣きそうな気分になるの？ - why? when you
   glance at your watch, I feel like crying (as assuming 私は)
   * 何故、あなたは時計をチラッと見るたび、泣くそうな気分になるの？ - why? when
     you glance at your watch, you feel like crying
@@ -1514,7 +1514,7 @@ ____
         + 猫は可愛い。
         + 猫は可愛く`も`ある。
 -  combined with other particles
-  * it combines the same was as は
+  * it combines the same way as は
     + にも
     + でも
     + とも
@@ -1526,7 +1526,7 @@ ____
     + Hayashi is a student. Mori and Yamada are also students.
       + 林さんは学生です。森さん`も`山田さん`も`学生です。
       + 林さんは学生です。森さん`と`山田さん`も`学生です。
-    + らヒムさんわ学生です。アリフさん`も`学生です。 - Rahim is a student. Arif
+    + ラヒムさんは学生です。アリフさん`も`学生です。 - Rahim is a student. Arif
       is a student, too.
     + 私はマレーシア人です。貴方`も`マレーシア人ですか。 - I am Malaysian. Are
       you Malaysian, too?
@@ -1536,7 +1536,7 @@ ____
   * examples
     + 林さんは学生じゃありません。森さん`も`山田さん`も`学生じゃありません。
     + 林さんは学生じゃありません。森さん`と`山田さん`も`学生じゃありません。
-    + らヒムさんわ先ではありません。アリフさん`も`先生ではありません。 - Rahim
+    + ラヒムさんは先生ではありません。アリフさん`も`先生ではありません。 - Rahim
       is not a teacher. Arif is not a teacher, either.
 - for emphasis
   * examples
@@ -1550,7 +1550,7 @@ ____
     + ３時間`も`待った。 - I waited for three hours.
 - question word + も
   * examples
-    + `どれも`おいしそう！ - Everthing looks delicious!
+    + `どれも`おいしそう！ - Everything looks delicious!
     + ここのパンは`いつも`おいしい。 - Bread here is always delicious.
     + `何も`食べたくない。 - I don't want to eat anything.
     + どれでも - no matter which one
@@ -1592,7 +1592,7 @@ ____
 - for "not only, but also"
   * ... + だけでなく + ... + も + ...
   * お肉だけでなく野菜も食べましょう。
-  * since でなく or ではなく is a little format, じゃ can be used in more casual
+  * since でなく or ではなく is a little formal, じゃ can be used in more casual
     speech
     + お肉じゃなく野菜も食べましょう。
 - compare to しか
@@ -1654,8 +1654,8 @@ ____
 - for below expectation
   * ⭕️この店には日本語のメニューしかないので、困って。
     + ❌この店には日本語のメニューだけあるので、困って。
-- for counters different from expectation (positiive or negative)
-  * 受験日まで後三日しかありますん。
+- for counters different from expectation (positive or negative)
+  * 受験日まで後三日しかありません。
   * 中村さんには一回しか会ったことがない。
   * 客は二人しか来なかったが、忙しくなくてよかった。
   * 客は二人しか来なかったので、残念だった。
@@ -1699,7 +1699,7 @@ ____
     + 彼は一時間も遅れたのに、謝りさえしない。
     + 彼は一時間も遅れたのに、謝ることさえしない。
     + 明日のデートはどこに行くかさえ決めていない。
-    + この問題は難しいので、子供だけなく、大人でさえ解けないだろう。
+    + この問題は難しいので、子供だけでなく、大人でさえ解けないだろう。
     + 時間通りに田中さんが来た。中村さんもきた。いつも遅刻する山田さんさえ来た。
       + 時間通りに田中さんが来た。中村さんもきた。いつも遅刻する山田さんまで来た。
 - focuses on expectation of speaker where things fall outside the realm of
@@ -1733,7 +1733,7 @@ ____
 - 祖母は自分の名前すら覚えていない。
   * 祖母は孫の名前だけ覚えていない。(all except name of grandchildren)
 - 以前は自分の名前は覚えていたのに、今は自分の名前すら覚えていない。 (the things
-  I can remeber is reduced, things I cannot rember is increased)
+  I can remember is reduced, things I cannot remember is increased)
   * 以前は自分の名前は覚えていたのに、今は自分の名前まで覚えていない。 (the
     range of things I can remember is limited, the range of things I cannot
     remember increased)
@@ -1797,13 +1797,13 @@ ____
     + to talk as a professional baker
   * it is not always interchangeable
     + くらい express an approximate lower bound
-    + ほど express an approximate uppper bound
+    + ほど express an approximate upper bound
     + これくらいなら作れると思う。
       + I think I can make them if it's about this much.
       + ❌ これほどなら作れると思います。
     + これほどの量が作れるんですか！？
 
-## 終助詞 sendence-ending particles
+## 終助詞 sentence-ending particles
 
 ### ね
 
@@ -1822,7 +1822,7 @@ ____
     + 静かね。
     + 犬ね。
     + 犬もね。
-  * with a affirmative and neutral tone
+  * with an affirmative and neutral tone
     + 静かだね。
     + 犬だね。
     + 犬もだね。
@@ -1905,8 +1905,8 @@ ____
     + 静かだわ - It is quiet. (plain form)
     + 静かだったわ - It was quiet. (past tense)
     + 静かじゃないわ - It is not quiet. (negative form)
-- for causally telling someone about your avavilability
-  * an exameple usage is that the speaker confirms after checking their schedule
+- for casually telling someone about your availability
+  * an example usage is that the speaker confirms after checking their schedule
     + similar to "It looks like..." in English
   * examples
     + あ、行けるわ。 - Ah, I can go.
@@ -1927,14 +1927,14 @@ ____
     + えっと、どこだっけな。あ、GAPのだわ。
       + note that "GAPのだわ。" cannot be used if the speaker knew this
         information without checking; "GAPのだよ。" should be used otherwise
-- faminine usages
+- feminine usages
   * examples
     + A: これ、すごく甘いわよ。 (after eating a cake)
       B: 甘いわね。 (after eating a cake)
       C: 甘いわよね。 (without eating a cake but agree)
 - with です or ます
   * to sound polite and friendly
-    + when speaker is has a higher or equal social status to the listener
+    + when speaker has a higher or equal social status to the listener
   * examples
     + いやー、大変ですわ。 - Well, it is tough.
     + でも、まあ、頑張りますわ。 - But, well, I'll do my best.
@@ -1943,7 +1943,7 @@ ____
 
 - a sentence ending particle
 - offering new information or a new perspective to the listener
-- intented for someone else
+- intended for someone else
 - place pressure on the listener to respond
 - it can be overly friendly or conversational in a formal context
 - used directly after a verb
@@ -1955,18 +1955,18 @@ ____
   * examples
     + 暑いよ。
 - used directly after a な-adjective or noun
-  * it is common to add affirmatives だ or politness marker です before よ
+  * it is common to add affirmatives だ or politeness marker です before よ
   * examples
     + 静かだよ。 (affirmative)
     + 静かですよ。 (polite)
-    + 静かよ。 (faminine)
+    + 静かよ。 (feminine)
     + 犬だよ。 (affirmative)
     + 犬ですよ。 (polite)
-    + 犬よ。 (faminine)
+    + 犬よ。 (feminine)
     + 犬もだよ。 (affirmative)
     + 犬もですよ。 (polite)
-    + 犬もよ。 (faminine)
-- for altering
+    + 犬もよ。 (feminine)
+- for alerting
   * examples
     + 携帯落としましたよ。 - You dropped your cell phone.
     + 晩ご飯できたよ！ - Dinner is ready!
@@ -2013,9 +2013,9 @@ ____
 ### よね
 
 - a sentence ending particle
-- used for conformation when the speaker is pretty sure but not certain, that
+- used for confirmation when the speaker is pretty sure but not certain, that
   the listener agrees
-  * generally used when trying to dobul check something with the listener
+  * generally used when trying to double check something with the listener
   * it also leaves more leeway for the listener to say "no" than if only ね was
     used
   * it creates a lively, conversational feel, while also implying modesty and
@@ -2028,19 +2028,19 @@ ____
     + 暑いよね。 - It is hot, isn't it?
     + 静かだよね。 (affirmative)
     + 静かですよね。 (polite)
-    + 静かよね。 (faminine)
+    + 静かよね。 (feminine)
     + 犬だよね。 (affirmative)
     + 犬ですよね。 (polite)
-    + 犬よね。 (faminine)
+    + 犬よね。 (feminine)
     + 犬もだよね。 (affirmative)
     + 犬もですよね。 (polite)
-    + 犬もよね。 (faminine)
+    + 犬もよね。 (feminine)
     + A: やばい、明日試験だっけ？ - Oh no, is the exam tomorrow?
       B: そうだよ。 - That's right.
       A: だよね。ああ、どうしよ。 (or ですよね。ああ、どうしよ。) - Right,
          right. Oh, what should I do...
 - for confirmation
-  * one of the usages is a double-checking is a good devices to begin a small
+  * one of the usages is double-checking is a good device to begin a small
     talk
   * examples
     + トーフグのポッドキャストの最新エピソード、もう聴いたよね？ - You've
@@ -2054,7 +2054,7 @@ ____
       learning Japanese, yet kanji is difficult, huh?
     + 誰にも言わないでよね。 - Don't tell anyone, okay? (soft order)
       + 誰にも言うなよ。- Do not tell anyone else! (strong order)
-- for showing argreement
+- for showing agreement
   * repeat whatever the other said and add よね to the end
   * examples
     + そうだよね。数学は難しいよね。 - I agree. Math is difficult, huh?
