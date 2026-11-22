@@ -72,13 +72,13 @@ ____
     + ご活躍する - to be active
     + お食べになる - to eat
 - お
-  * attaches to nouns which often related to what we use in daily life
+  * attaches to nouns which are often related to what we use in daily life
     + お水
     + お野菜
     + お買い物
     + お勉強
-  * can be used with words refer to a family role and it is generally combined
-  with さん or ちゃん
+  * can be used with words that refer to a family role and is generally combined
+    with さん or ちゃん
     + お父さん
     + お母さん
     + お姉さん
@@ -86,7 +86,7 @@ ____
     + but not to 弟 or 妹
   * it is more likely to be attached to wago
 - ご
-  * generally attached to nouns that consisted of kango words and the nouns are
+  * generally attached to nouns that consist of kango words and the nouns are
     generally abstract which are not related to physical objects
     + ご住所
     + ご注文
@@ -95,7 +95,7 @@ ____
     + ゆっくり (slowly) - ごゆっくり (take your time)
     + もっとも (reasonable) - ごもっとも (you are absolutely right)
   * it is more commonly written in kanji as 御
-    * 御注文 (ごちゅうもん) in order slip in a restaurant
+    + 御注文 (ごちゅうもん) on an order slip in a restaurant
 - integrated words
   * it does not add politeness or respect
   * examples
@@ -110,7 +110,7 @@ ____
   * 社長のごあいさつ
 - to show respect towards someone else in a conversation
   * お客様のお車
-  * but not to something that not owned by anyone
+  * but not to something that is not owned by anyone
     + 飛行機
     + 電車
     + exception
@@ -127,7 +127,7 @@ ____
     + 御校 (おんこう) - your school
     + 御礼 (おんれい) - thank you (the common reading is おれい)
 - み
-  * when the word attached to is referring God, Buddha, the emperor, or the
+  * when the word attached to is referring to God, Buddha, the emperor, or the
     imperial family
   * examples
     + 御国 (みくに) - your country
@@ -267,18 +267,18 @@ ____
   * 風邪ひいちゃったんだ。だから今日は会えない。ごめんね。
     + ordering of the sentences can be switched
 - for commands
-  * this usage not common
+  * this usage is not common
   * it is used instead of simple command form when the listener needs an
     explanation to the command
   * 逃げるんだ！
     + instead of 逃げろ！, it has the nuance of "You need to run away (because
       something dangerous is coming)!"
   * ちゃんと毎日朝ごはん食べるんだよ。
-    + in the context of the listener probably does not have the habit of eating
+    + in the context where the listener probably does not have the habit of eating
       breakfast every day
 - differences between んです and のです
-  * the general usage is that んです is usually ends a sentence where listener
-    expect outcome (another sentence) to follow のです
+  * the general usage is that んです usually ends a sentence where the listener
+    expects an outcome (another sentence) to follow, while のです
   * reason + ので、+ result
   * reason + んです。
     + 電車が遅れたので、テストに間(ま)に合(あ)いませんでした。
@@ -397,7 +397,7 @@ ____
   * 自分のやったことは自分に返ってくる。
     + What you've done comes back to you.
 - without subject
-  * due to subject can be omitted depending on the context
+  * since the subject can be omitted depending on the context
   * 自分に自信がないんです。
     + I lack confidence in myself.
   * 自分のことで精一杯そうだよね。
@@ -538,7 +538,7 @@ ____
   * writing in kana is common in this use case
   * 友達には、意地悪しないこと。
     + Don't be mean to your friends.
-  * this kind of sentences usually can be found in form of a bullet point
+  * these kinds of sentences can usually be found in the form of bullet points
 - to talk about ability
   * 〜事ができる
   * 日本語で歌う事ができます。
@@ -613,20 +613,20 @@ ____
         + I've had my eye on this candy for a while.
     + 後から
       + highlights that something starts or happens later than it is supposed to
-        + it is often some issue appears to have been resolved, but something
-          later that affects it or reverse the outcome
+        + it is often that some issue appears to have been resolved, but something
+          later affects it or reverses the outcome
       + 一回オッケーしたけど、後から気が変わったんだ。
         + I okayed it once, but later changed my mind.
 
 ## 時 (とき)
 
 - it is a noun
-  * rules of noun phrases applies
+  * rules of noun phrases apply
 - tense
   * tense used in とき clause does not have to match the main clause
   * tense used in とき clause depends on speaker's perspective
     + from the viewpoint the speaker is picturing the moment in question
-    + in English, the tense are matching
+    + in English, the tenses are matching
   * ⭕️あれ、家を出たとき、鍵閉めたよね？
     + the perspective of the present moment
   * ⭕️あれ、家を出るとき、鍵閉めたよね？
@@ -635,10 +635,10 @@ ____
   * ❌日本に着くとき、すぐにWi-Fi使えるかな？
     + it does not make sense to ask if WiFi is available when the plane is
       landing
-  * the tense is inline with how past tense is used in general
+  * the tense is in line with how past tense is used in general
     + ❌️ケーブルカーがありましたが歩いて登りました。
     + ⭕️ケーブルカーがありますが歩いて登りました。 (refer to a memory, it does
-      not matter ケーブルカー exists at the time of conversation)
+      not matter whether ケーブルカー exists at the time of conversation)
 - 時に
   * に in this usage is optional but adding it helps emphasising the time
   * 好きなときに来て。
@@ -668,7 +668,7 @@ ____
         recall it
       + the speaker simply referring to the general instances of when a
         different teacher showed up
-        + it is common when the speaker discussing certain recurring events or a
+        + it is common when the speaker is discussing certain recurring events or a
           time period where it is not possible to recall a specific moment
 
 ## 方 (かた)

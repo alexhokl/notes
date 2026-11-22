@@ -93,7 +93,7 @@ ____
 
 ## 人との距離
 
-- use of 敬語 can be used to create a distance between people
+- 敬語 can be used to create a distance between people
   * as in intentionally switching from タメ口 to 敬語
 
 ## 自己紹介をする

@@ -135,7 +135,7 @@ ____
 
 ## Counters
 
-- it comes right after a number and indicate specific quantities of things
+- it comes right after a number and indicates specific quantities of things
 - references
   * [350 Japanese Counters Grouped by How Useful They
     Are](https://www.tofugu.com/japanese/japanese-counters-list/)
@@ -151,14 +151,14 @@ ____
 - the original wago form of counting
 - [Japanese Counter 〜つ: Counting Everything and
   Anything](https://www.tofugu.com/japanese/japanese-counter-tsu/)
-- when ordering from a menu, no matter it is a drink or a dish or whatever
+- when ordering from a menu, no matter whether it is a drink or a dish or whatever
   shape, always use つ to count the number of items
 - ビール４つと水１つ、それから枝豆５つください。
 - まだ６つしかアイディアを思いついていません。
 
 #### 個 (こ)
 
-- it is a kango; to count things that has a boundary to it
+- it is a kango; to count things that have a boundary to it
 - [Japanese Counter 個: Count (Almost)
   Everything](https://www.tofugu.com/japanese/japanese-counter-ko/)
 - りんごが７個あります。
@@ -203,7 +203,7 @@ ____
 - この後、講演の仕事が一本入っているんだ。
 - 今週は何本ぐらい記事を書けそうですか？ (from writer's perspective)
 - 今日は3本プロジェクトがあります。
-- 走り込み十本! ヨーイ、スタート！
+- 走り込み十本！ヨーイ、スタート！
 - ドラえもんとドラゴンボールの二本立ての映画を見に行った。
 - あのYouTuberは、いつも一日で10本分のビデオを撮りだめするそうだ。
 - あのアナウンサーは、一分で三本のニュースを読み上げた。
@@ -213,7 +213,7 @@ ____
   trains, sashes, telephone poles, cylindrical batteries, bottles, tires,
   ribbons, cacti, soda cans, spines, teeth, individual hairs, arms, legs,
   fingers, blood vessels, rivers, waterways, towers, bridges, tunnels, plastic
-  wrap, tinfoil, wax paper, banana
+  wrap, tinfoil, wax paper, bananas
 
 | Japanese | Reading        |
 | ---      | ---            |
@@ -318,7 +318,7 @@ ____
   Books](https://www.tofugu.com/japanese/japanese-counter-satsu/)
 - it uses counting method similar to 本 except 6
 - Counts: books, book collections, albums, notebooks, memo pads, musical
-  scores, catalogs, magazines, dictionaries, publications, documents, booklet
+  scores, catalogs, magazines, dictionaries, publications, documents, booklets
 - 私は毎日７冊本を読みます。
 
 | Japanese | Reading    |
@@ -425,7 +425,7 @@ ____
 - 第 (だい) is kango
 - 目 (め) is wago
   * reading of its numbers is the same as counting days
-- reading of the number depends on 第 is used or not
+- reading of the number depends on whether 第 is used or not
 
 | Japanese | Reading        |
 | ---      | ---            |
@@ -509,7 +509,7 @@ ____
 - [A Guide to the Japanese Counter-ish Word:
   月 (Months)](https://www.tofugu.com/japanese/japanese-counter-tsuki-gatsu-getsu/)
 - 箇 can be written as か, カ, ヵ, ケ or ヶ
-  * regardless the writing, it is always pronounced as か
+  * regardless of the writing, it is always pronounced as か
 - in most cases, when number of months is 3 or more, 箇 is used
 
 ##### counting months
@@ -642,7 +642,7 @@ ____
 | ---      | ---        |
 | 一階     | いっかい   |
 | 二階     | にかい     |
-| 三階     | さんかい   |
+| 三階     | さんがい   |
 | 四階     | よんかい   |
 | 五階     | ごかい     |
 | 六階     | ろっかい   |
@@ -695,11 +695,11 @@ ____
 
 ### optional
 
-- 箇 is not counter by itself but it is used with combination with words as
+- 箇 is not a counter by itself but is used in combination with words as
   a counter; it is often written with the hiragana か or a small ヵ or ヶ; it is
   actually just an archaic version of the counter 個
 
-- 箇月(かげつ) counts the number of months; as in, "for three months" or "in
+- 箇月 (かげつ) counts the number of months; as in, "for three months" or "in
   three months."
 
 - 箇国 (かこく)
@@ -723,7 +723,7 @@ ____
   * Counts: volumes of books, cassette tapes, videotapes, DVDs, etc. that are in
     a series, and scrolls
 
-- 曲 (きょく) counts the number of song
+- 曲 (きょく) counts the number of songs
 
 - 切れ (きれ) counts cut/sliced things
 
@@ -734,9 +734,9 @@ ____
   * ３口しか食べてないのにお腹がいっぱいになってしまった。
 
 - 組 (くみ) counts a set, a group, or a pair of something
-  * use wago counting method for number is 2 or below; kango, otherwise
+  * use wago counting method when the number is 2 or below; kango, otherwise
 
-- 件 (けん) counts those matters and cases
+- 件 (けん) counts matters and cases
   * Counts: proposals, suggestions, legislative bills, agenda items, projects,
     plans, crimes, incidents, scandals, complaints, objections, contracts,
     agreements, emails, financing, loans, troubles, bankruptcies, page views,
@@ -753,17 +753,17 @@ ____
 - 校 (こう) counts the number of schools; or number of proofreadings
 
 - 皿 (さら) counts number of dishes or plates
-  * use wago counting method for number is 2 or below; kango, otherwise
+  * use wago counting method when the number is 2 or below; kango, otherwise
 
 - 試合 (しあい) counts sport games
 
 - 品 (しな/ひん) counts items, products, or dishes of food
-  * use wago counting method for number is 2 or below and it is pronounced as
+  * use wago counting method when the number is 2 or below and it is pronounced as
     しな; kango, otherwise
 
-- 社 (しゃ) count companies or temples
+- 社 (しゃ) counts companies or temples
 
-- 種類(しゅるい) counts kinds, types, or varieties of things
+- 種類 (しゅるい) counts kinds, types, or varieties of things
   * ７種類のスパイスを混ぜました。
   * 人の口臭には約１０種類の臭いがあるらしい。
 
@@ -807,10 +807,10 @@ ____
 | 何足     | `なんぞく`       |
 
 - 束 (たば) counts bunches or bundles of things
-  * use wago counting method for number is 2 or below; kango, otherwise
+  * use wago counting method when the number is 2 or below; kango, otherwise
 
 - 玉 (たま) counts round things
-  * use wago counting method for number is 2 or below; kango, otherwise
+  * use wago counting method when the number is 2 or below; kango, otherwise
   * Counts: peaches, melons, watermelons, tomatoes, and persimmons; onions,
     cabbage, lettuce, Chinese cabbage; balls of noodles such as yakisoba, udon,
     soba, ramen, and konnyaku noodles; balls of yarn, balls of wire, pachinko
@@ -901,8 +901,8 @@ ____
   buses
   * ここから日本へのフライトは１日１便しかない。
 
-- 袋 (ふくろ) counts the number of bag, sack, or pouch
-  * use wago counting method for number is 2 or below; kango, otherwise
+- 袋 (ふくろ) counts the number of bags, sacks, or pouches
+  * use wago counting method when the number is 2 or below; kango, otherwise
 
 - 部屋 (へや) counts rooms
   * use wago counting method for number is 3 or below; kango, otherwise
@@ -924,7 +924,7 @@ ____
   * ドラマを１０話一気にみた。
   * このアニメは３話目から面白くなってくるんだよ。 (third)
 
-- 割 (わり) counts of 10%
+- 割 (わり) counts units of 10%
   * 2割引き is equivalent to 20% off
   * 8割 is equivalent to 80%
   * 8割5分 is equivalent to 85%

@@ -125,7 +125,7 @@ ____
     + if there are no context clues, more often than not the plain present form is
       used to talk about the future
       + examples
-        + 兄は毎日パスタを`食べる`。 - My brother eats pasta everyday.
+        + 兄は毎日パスタを`食べる`。 - My brother eats pasta every day.
         + 兄は明日パスタを`食べる`。 - My brother will eat pasta tomorrow.
         + パーティーをする。 - I will throw a party.
         + 飲む？ - Will you drink it?
@@ -220,13 +220,13 @@ ____
 # する verb
 
 - if a word is made of multiple kanji with onyomi readings, it is likely it can
-be attached to する
+  be attached to する
 
 # Loss of the w sound
 
 - example of pronunciation in the old times
   * 上 pronounced as `wuwe`
-  * 田舎 pronounced as `winawka`
+  * 田舎 pronounced as `winaka`
   * 買う pronounced as `kawu`
 
 | conjugation form | Japanese | remarks            |
@@ -234,7 +234,7 @@ be attached to する
 | negative (plain) | 買わない |                    |
 | polite           | 買います | normal conjugation |
 | plain            | 買う     | normal conjugation |
-| active           | 買おう   | normal conjugation |
+| volitional       | 買おう   | normal conjugation |
 | passive          | 買われる |                    |
 | causative        | 買わせる |                    |
 
@@ -502,7 +502,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 先輩、書類の書き方を教えてくれませんか。
 - basic example
   * ちょっと、静かにしなさい！
-  * 選択肢の中なら、正解を一つ選びなさい。
+  * 選択肢の中から、正解を一つ選びなさい。
 - for showing care
   * やめなさい！
   * おやすみなさい。
@@ -573,7 +573,7 @@ Note that all other conjugations of 買う use hiragana characters on the
       + 両親は私に好きなだけベーコンを食べさせた。
       + 両親は私に無理矢理ベーコンを食べさせた。
 - causative passive 〜させられる
-  * someone were forced against their will to do something by someone else
+  * someone was forced against their will to do something by someone else
   * it does not have the meaning of "to let someone do something"
   * 毎日、母に納豆を食べさせられます。
   * 私は父にスクワットを百回させられた。
@@ -600,13 +600,13 @@ Note that all other conjugations of 買う use hiragana characters on the
     + I think I will make curry.
       + use of と思う softens the tone
 - to express "let's not do something"
-  * plain negative verb + で　+ volitional form of おく (〜おこう)
+  * plain negative verb + で + volitional form of おく (〜おこう)
     + やっぱり動物園には行かないでおこう。
       + Let's actually not go to the zoo.
   * using こと or の with volitional form of やめる (to quit) or よす (to stop)
     + やっぱり動物園に行くのはやめよう。
     + やっぱり動物園に行くのはよそう。
-  * using こと or の with plain negative verb + で　+ volitional form of おく
+  * using こと or の with plain negative verb + で + volitional form of おく
     + やっぱり動物園に行くのはやめておこう。
     + やっぱり動物園に行くのはよしておこう。
 - for guesses or assumptions
@@ -862,12 +862,12 @@ Note that all other conjugations of 買う use hiragana characters on the
   * そろそろランチにする？
     + Want to do lunch soon?
     + it implies that the action in question can be taken at your discretion or
-      the listener's and it kind of suggesting options available
+      the listener's and it kind of suggests options available
 - to indicate how much something costs (especially it is too expensive)
   * げ、一万円する！
   * げ、一万円もする！
     + も helps to emphasize the high price
-- for someone do for a living
+- for what someone does for a living
   * チームリーダーをすることになった。
     + It turns out that I will be the team leader.
   * 兄は警察官をしている。
@@ -967,7 +967,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * it implies that the conclusion or outcome emerged naturally or
     unintentionally
   * it can also be used to describe the current state of a situation that the
-    speaker have confirmed
+    speaker has confirmed
   * ... + こと + に + なる
   * 日本旅行、キャンセルすることになった。
     + We had to cancel the trip to Japan.
@@ -1025,7 +1025,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 寿司を食べに来る
 - ていく and てくる
   * it is commonly written in kana only
-  * position of verb in term comes before いく or くる is not definite
+  * the position of the verb term that comes before いく or くる is not definite
     + 学校に歩いていく
     + 学校に歩いてくる
     + 歩いて学校にいく
@@ -1067,7 +1067,7 @@ Note that all other conjugations of 買う use hiragana characters on the
         physical act of walking without a directional meaning; to complement the
         meaning, an additional word that carries the directional nuance is
         needed; that word can be a particle or preposition, like まで (up to) or
-        向（む）かって (toward), but it can also be a verb, like いく or くる.
+        向(む)かって (toward), but it can also be a verb, like いく or くる.
     + 会社に歩いてきた。
     + 会社に走っていく
     + 会社に泳いでいく
@@ -1151,7 +1151,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - が can be dropped or be replaced with は or も
   * 日本語の文法は、面白いこともある。
     + using が would lose the implication of it also sometimes being challenging
-      as が　does not imply a comparison
+      as が does not imply a comparison
   * 割れていることもあるから、いつも中身をチェックする。
     + Sometimes they're cracked, so I always check inside.
     + the nuance of も is that most of the time the eggs are all fine, but there
@@ -1264,7 +1264,7 @@ Note that all other conjugations of 買う use hiragana characters on the
       全然面白くない！
   * うちの子は 野菜を食べなさすぎる！
     + it does not necessarily mean the kid would not eat vegetables at all;
-      rather, it suggests that the speaker have a sort of baseline for not
+      rather, it suggests that the speaker has a sort of baseline for not
       eating enough vegetables, and the amount of vegetables the child does not
       eat goes beyond that threshold
 - using すぎる as a noun
@@ -1272,7 +1272,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 飲みすぎで頭が痛い。
   * いつも食べすぎだよ。
 - 〜すぎです vs 〜すぎます
-  * 食べすぎ vs  食べすぎる
+  * 食べすぎ vs 食べすぎる
     + 食べすぎ is a noun that refers to a specific state whereas 食べすぎる is a
       verb that refers to what someone does
   * 日本の夏は暑すぎです。
@@ -1400,8 +1400,8 @@ Note that all other conjugations of 買う use hiragana characters on the
     + I called them and apologized. (Your manager said)
     + "getting things done in advance" and "doing something for now"
   * とりあえず、ここに停めておこうかな。
-    + I think I'll just park here for now. (assume that the parking only have
-      one-hour limit and it is not long enough)
+    + I think I'll just park here for now. (assume that the parking only has
+      a one-hour limit and it is not long enough)
     + leaving the car as-is and also doing it as a temporary solution
   * うわっ、三十年前に買っておいた缶詰じゃん。すっかり忘れてた！
     + Wow, that's the canned food I bought and left there thirty years ago. I
@@ -1465,14 +1465,14 @@ Note that all other conjugations of 買う use hiragana characters on the
   * もっと早く教えてほしかったよ。
     + I wish someone had taught me that way earlier.
   * もっと上がってほしかったなぁ。
-    + I wanted it to go up more. (assuming price of a company did not raise
+    + I wanted it to go up more. (assuming price of a company did not rise
       further)
 - for not wanting someone to do something
   * two ways to express
     + そういうことは言ってほしくない。
       + I don't want you to say things like that.
     + そういうことは言わないでほしい。
-    + I want you not to say things like that.
+      + I want you not to say things like that.
       + it has a stronger tone as it has 言わない
 - for do you want me to
   * needs to be done in a raising tone (question tone)
@@ -1545,7 +1545,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * てみて
   * 親になってみて、はじめて子育ての大変さを理解した。
   * 大病を患ってみて、やっと健康でいることの有り難さが分かった。
-  * it cannot be used when the speaker intentionally try something
+  * it cannot be used when the speaker intentionally tries something
 - not even try
   * てもみない
   * 絶対無理だと思ったから、やってもみなかったんだ。
@@ -1592,8 +1592,8 @@ Note that all other conjugations of 買う use hiragana characters on the
   * it is slightly more casual
   * ママのケーキ、食べて(も)いいよ。
 - if 〜てもいい is used to give consent to do something the speaker's self, it
-  adds the nuance that it is not something the speaker want to do but that the
-  speaker is willing to do it for the person speaker is talking to. As a result,
+  adds the nuance that it is not something the speaker wants to do but that the
+  speaker is willing to do it for the person the speaker is talking to. As a result,
   it can generate a patronizing tone. Also note that when 〜てもいい is used
   this way, you cannot drop も.
   * デートしてもいいよ。

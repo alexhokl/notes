@@ -24,8 +24,8 @@ ____
 
 d (t)   | z (s)
 ---     | ---
-じ (ji) | ぢ (ji)
-ず (zu) | づ (zu)
+ぢ (ji) | じ (ji)
+づ (zu) | ず (zu)
 
 ## 撥音 (hatsuon) - nasal sound
 
@@ -98,8 +98,6 @@ d (t)   | z (s)
 * ぐ (ngu)
 * げ (nge)
 * ご (ngo)
-* ぱ (npa)
-* ら (nra)
 
 ## 母音の無声化 - vowel devoicing
 
@@ -116,7 +114,7 @@ d (t)   | z (s)
   * `く`さ (ksa)
   * で`す` (des)
   * おい`し`かった (oishkatta)
-  * まんねん`ひ`つ (mannenstsu)
+  * まんねん`ひ`つ (mannenhtsu)
 - samples
   * [sigure.tw](https://www.sigure.tw/learn-japanese/basic/pronunciation/vowel#聆聽發音)
 
@@ -180,9 +178,9 @@ d (t)   | z (s)
 - aka "sequential voicing"
 - when two or more words join together to form one word, and the initial
   consonant of the second word becomes voiced
-- un-related facts
+- unrelated facts
   * `k`, `s`, `t`, `h` are unvoiced consonants
-  * `g`, `z`, `d`, `b`, `p`, `m`, `r` are voiced consonants
+  * `g`, `z`, `d`, `b`, `m`, `r` are voiced consonants
   * compound word
     + both words exist on their own separately, but when they come together they
       create a new, unique word
@@ -251,7 +249,7 @@ d (t)   | z (s)
   * examples
     + 舌 (した) + 鼓 (つづみ) = 舌鼓 (したづつみ)
     + 腹 (はら) + 鼓 (つづみ) = 腹鼓 (はらづつみ)
-    + 後 (あと) + 退さり (しさり) = 後退さり (あとじさり)
+    + 後 (あと) + 退り (しさり) = 後退り (あとじさり)
 - words with very high chance of rendaku
   * 花 (はな)
   * 風呂 (ふろ)

@@ -313,7 +313,7 @@ ____
 - 多分 (たぶん) - maybe; probably
 - だんだん - gradually; aka 段々
 - ちょうど - exactly; aka 丁度
-- ちょっと - a little; a bit; slightly; just a minute; thanks, but no
+- ちょっと - a little; a bit; slightly; just a minute; thanks, but no;
   somewhat; aka 一寸
 - 時々 (ときどき) - sometimes; occasionally
 - とても - very; aka 迚も
@@ -1096,7 +1096,7 @@ ____
 - 人形 (にんぎょう) - doll
 - 値段 (ねだん) - price; cost
 - 花見 (はなみ) - cherry blossom viewing
-- ハンドバック - handbag
+- ハンドバッグ - handbag
 - 番組 (ばんぐみ) - programme
 - 火 (ひ) - fire; flame
 - 引き出し (ひきだし) - drawer
@@ -1441,7 +1441,7 @@ ____
 - 謝る (あやまる) - to apologise
 - 急ぐ (いそぐ) - to hurry; to rush
 - 怒る (おこる) - to get angry; to scold; to tell (someone) off
-- 開く (ひらく) - open
+- 開く (ひらく) - to open
 - 喜ぶ (よろこぶ) - to be delighted; to be glad; to be pleased; to rejoice; to
   congratulate; to welcome (a proposal, advice)
 
@@ -1999,7 +1999,7 @@ ____
 
 - 繰り返す (くりかえす) - to repeat; to do over again
 - しゃべる - to talk; to chat; to chatter; aka 喋る
-- 閉じる (とじる) - close
+- 閉じる (とじる) - to close
 - 増す (ます) - to increase; to grow
 
 ### expressions
@@ -2400,7 +2400,7 @@ ____
 - コンテスト - contest
 - サイズ - size
 - サンタクロース - Santa Claus
-- しわ - wrinkle, crease (aka 皺, シワ)
+- しわ - wrinkle; crease; aka 皺, シワ
 - 自己 (じこ) - self; oneself
 - 地獄 (じごく) - hell
 - 地元 (じもと) - home area; home town; local
@@ -3083,7 +3083,7 @@ ____
 - グローブ - gloves
 - 毛玉 (けだま) - pilling, fuzz balls
 - 腰幅 (こしはば) - waist width
-- しみ - stain, spot, smudge, discoloration (aka 染み, シミ)
+- しみ - stain; spot; smudge; discoloration; aka 染み, シミ
 - ショーツ - shorts
 - ショートパンツ - shorts
 - ジェンダーレス - genderless
@@ -3374,7 +3374,7 @@ ____
 - 使い分け (つかいわけ) - proper use; using (different things) for different
   purposes
 - 満喫 (まんきつ) - to fully enjoy
-- 唐揚げ - deep-frying food lightly coated in flour or potato starch; usually
+- 唐揚げ (からあげ) - deep-frying food lightly coated in flour or potato starch; usually
   referring to chicken
 
 ### sentient transitive する-verbs
@@ -3518,7 +3518,7 @@ ____
 - ただいま - I'm home
 - だけでなく - not only; not just; as well as
 - だろう - seems
-- だっけ。 - was it?
+- だっけ - was it?
 - ちゃった - finished doing; did completely
 - ちょっと来て - come here for a moment
 - ついて - about; concerning; as to; regarding; aka 就いて
@@ -3552,7 +3552,7 @@ ____
 - 言わないことではない - I told you so
 - 好きなだけ - as much as one wants
 - 塵も積もれば山となる (ちりもつもれば やまとなる) - little things add up
-- なんと返事する。 - What to say in response?
-- 何の返事する。 - What is thing to reply to?
+- なんと返事する - What to say in response?
+- 何の返事する - What is thing to reply to?
 - ほかには？ - anything else?
 - によって - due to; because of; by (means of); depending on; via; aka に因って

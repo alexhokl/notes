@@ -52,7 +52,7 @@ ____
 - as noun modifier
   * to give extra information about a noun
   * noun + の + noun
-    + if the context is clear and the noun comes before の is a person
+    + if the context is clear and the noun that comes before の is a person
       + 山田さん`の`本です can be written as 山田さん`の`
   * particle + の + noun
     + へ
@@ -228,9 +228,9 @@ ____
 - two subjects with が
   * examples
     + スイスが物価が高い。 - It is Switzerland that has a high cost of living.
-      + the examples stresses Switzerland
-- question identify subject using が should be answered with が to tag the
-  subject
+      + the example stresses Switzerland
+- a question that identifies the subject using が should be answered with が to
+  tag the subject
 - to tag the subject in a relative clause, use が but not は
   * sometimes relative clause can be split into two sentences but the
     principle still applies
@@ -240,7 +240,7 @@ ____
 ### を
 
 - marks the direct object of a sentence
-- marks the thing that affected by the verb
+- marks the thing that is affected by the verb
 - noun + を
   * かなえは`ボールを`打った。 - Kanae hits the ball.
   * まちこは`梅酒を`作った。 - Machiko made plum wine.
@@ -264,9 +264,9 @@ ____
 - を with movement verbs
   * を and で
     + examples
-      + ケンイチが`厚板の上を`歩かされた！- Kenichi was made to walk on the
+      + ケンイチが`厚板の上を`歩かされた！ - Kenichi was made to walk on the
         plank! (and he walked all of it, and fell off its end)
-        + ケンイチが`厚板の上で`歩かされた！- Kenichi was made to walk around on
+        + ケンイチが`厚板の上で`歩かされた！ - Kenichi was made to walk around on
           a plank!
       + `公園を`散歩する。 - to stroll (through) the park
         + `公園で`散歩する。 - to stroll in the park
@@ -386,7 +386,7 @@ ____
     + you are metaphorically "attaching" yourself to the bike or train when you
       ride it
 - に for marking the result of a transformation
-- usually used with verbs such as なる (to become) and 変わる (to change)
+  * usually used with verbs such as なる (to become) and 変わる (to change)
   * examples
     + ジェニーは`宇宙飛行士に`なった。 - Jenny became an astronaut.
     + ジェニーは`勇敢に`なった。 - Jenny became brave.
@@ -486,31 +486,31 @@ ____
 
 ### で
 
-  - it specifies where or how an activity or event takes place
-  - the places that it specifies does not necessarily have to be a physical space
-    and it can specify abstract places as well
-    * examples
-      + 私は`貧しい家庭で`育ちました。 - I grew up in a poor household.
-      + `インスタで`！ - On Instagram!
-  - means of an action
-    * examples
-      + `ハサミで`紙を切ります。 - I cut paper with scissors.
-      + `徒歩で`行きます。 - I will go on foot.
-      + `日本語で`話しましょう。 - Let's speak in Japanese.
-      + 人を`見かけで`判断するな。 - Don't judge people by their appearance.
-  - for components
-    * to specify the components of a larger whole
-    * examples
-      + この小説は`五つの章で`構成されている。 - This novel is made up of five
-        chapters.
-      + このテーブルは`木で`できている。 - This table is made of wood.
-      + このクッキーは、 `小麦粉と砂糖だけで`作りました。 - I made these cookies
-        with only flour and sugar.
-        + だけ - only
-  - to specify a category
-    * used as "among"
-    * examples
-      + `スポーツで`好きなのはサッカーだよ。 - Among all sports, my favorite is
+- it specifies where or how an activity or event takes place
+- the places that it specifies does not necessarily have to be a physical space
+  and it can specify abstract places as well
+  * examples
+    + 私は`貧しい家庭で`育ちました。 - I grew up in a poor household.
+    + `インスタで`！ - On Instagram!
+- means of an action
+  * examples
+    + `ハサミで`紙を切ります。 - I cut paper with scissors.
+    + `徒歩で`行きます。 - I will go on foot.
+    + `日本語で`話しましょう。 - Let's speak in Japanese.
+    + 人を`見かけで`判断するな。 - Don't judge people by their appearance.
+- for components
+  * to specify the components of a larger whole
+  * examples
+    + この小説は`五つの章で`構成されている。 - This novel is made up of five
+      chapters.
+    + このテーブルは`木で`できている。 - This table is made of wood.
+    + このクッキーは、`小麦粉と砂糖だけで`作りました。 - I made these cookies
+      with only flour and sugar.
+      + だけ - only
+- to specify a category
+  * used as "among"
+  * examples
+    + `スポーツで`好きなのはサッカーだよ。 - Among all sports, my favorite is
       soccer.
       + we could also say スポーツの中で
     + 富士山は`日本の山で`一番高い山だ。 - Mount Fuji is the tallest mountain
@@ -573,8 +573,8 @@ ____
 - へ and に
   * both mark a destination
   * examples
-    + `日本に`行く。 - I will go to Japan. (direction towards Japan)
-    + `日本へ`行く。 - I will go to Japan. (at Japan)
+    + `日本に`行く。 - I will go to Japan. (at Japan)
+    + `日本へ`行く。 - I will go to Japan. (direction towards Japan)
   * complements に with verbs without directionality
     + examples
       + `コンビニへ`歩いた。 - I walked to the convenience store.
@@ -685,9 +685,9 @@ ____
     + `アメリカから`日本まで - From America to Japan
     + `９時から`１０時まで - From 9 to 10
 - to indicate the source of something
-- examples
-- `ここから`あそこまで - From here to there
-- `ここから`クマが出てきた！ - A bear came out from here!
+  * examples
+    + `ここから`あそこまで - From here to there
+    + `ここから`クマが出てきた！ - A bear came out from here!
 - patterns
   * noun + から
     + `ロサンゼルスから`ニューヨークまで - From Los Angeles to New York
@@ -779,7 +779,7 @@ ____
       that strawberry.
     + このイチゴは、あのイチゴ`より`速く育っている。 - This strawberry is
       growing faster than that strawberry.
-  * note that the adjectives and adverbs come after does not have to change and
+  * note that the adjectives and adverbs that come after do not have to change and
     keep their basic forms
 - patterns
 - ...は...より...
@@ -816,7 +816,7 @@ ____
       + it can imply (私が作る) が (トムが作る) `より`おいしい。 - I make it
         better than Tom does.
     + 方がおいしい。 - It tastes better when I make it.
-      + it makes sense when the person to comparing to is clear from the context
+      + it makes sense when the person being compared to is clear from the context
 - degrees of difference
   * when comparing two entities, to include information to talk about how much
     the entities differ by
@@ -833,7 +833,7 @@ ____
         that strawberry.
 - when it means "from"
   * examples
-  * この線`より`内側に立ってください。- Please stand inside this line.
+  * この線`より`内側に立ってください。 - Please stand inside this line.
   * 六時`より`後なら大丈夫だよ。 - It's okay if it's after six.
 - when it means "no other choice"
   * examples
@@ -940,7 +940,7 @@ ____
     + 妹`と`弟`と`トマトを食べた。 - I ate tomatoes with my younger sister and my
       younger brother.
     + 妹`と`弟`と`お父さん`と`お母さん`と`トマト`と`バナナ`と`ケーキ`と`ラーメン
-      `と`すしを食べた。- I ate tomatoes, bananas, cake, ramen, and sushi with
+      `と`すしを食べた。 - I ate tomatoes, bananas, cake, ramen, and sushi with
       my younger sister, my younger brother, my father, and my mother.
 - for listing options
   * examples
@@ -955,7 +955,7 @@ ____
     + 彼女`と`電話をした。 - I have a call with my girlfriend.
       + 彼女`に`電話をした。 - I called my girlfriend.
     + 彼女`と`結婚をした。 - I married my girlfriend.
-      + と cannot be replaced に in this case
+      + と cannot be replaced by に in this case
 - for different interpretations
   * examples
     + 第一次世界大戦では、日本はイギリス`と`戦いました。 - In the First World
@@ -966,7 +966,7 @@ ____
       World War, Japan and Great Britain fought together.
       + note the use of 一緒に (together) to clarify the meaning of と
     + タケシはマサル`と`ケンカをした。 - Takeshi and Masaru fought each other.
-    + タケシはマサル`と` 一緒にケンカをした。 - Takeshi and Masaru fought
+    + タケシはマサル`と`一緒にケンカをした。 - Takeshi and Masaru fought
       together (against someone else).
 - for marking quotations
   * examples
@@ -1144,7 +1144,7 @@ ____
   * 早く起きない`と`遅刻するよ。
 - for showing a different perspective
   * In Japanese culture, people tend to try not to sound too direct or
-    assertive. They are sensitive of providing information as a universal truth
+    assertive. They are sensitive about providing information as a universal truth
     unless they are 100% certain because they don't want to be "wrong"! So と is
     used to soften the assertiveness by bringing an objective perspective as
     a certain condition.
@@ -1193,7 +1193,7 @@ ____
     + exception is for future events
   * 走ったらストレッチをします。
     + I stretch after running.
-  * for an event happens while another event is progressively happening, rather
+  * for an event that happens while another event is progressively happening, rather
     than completely done
     + 走っていたら友達に会った。
       + I ran into my friend when I was running.
@@ -1299,7 +1299,7 @@ ____
 
 - a conjunctive particle
 - similar to "but" or "though" or "even though"
-  * similar to けれど, けれども, けれ or ものの
+  * similar to けれど, けれども, けど or ものの
 - to show that something has deviated from the expectation
 - it focuses on the unexpectedness of the situation and expresses surprise or
   frustration
@@ -1325,7 +1325,7 @@ ____
       speaker has been through
   * あんなに勉強した`のに`、不合格だった。
 - used at the end of a sentence
-  * this usage expects the listener can understand the unexpected things that was
+  * this usage expects the listener can understand the unexpected things that were
     not mentioned explicitly
   * 夜中の三時な`のに`。
   * あんなに勉強した`のに`。
@@ -1363,8 +1363,8 @@ ____
 
 ### なら
 
-- attach to the end a condition clause
-- [conjugations](./conjugations.md#%E3%81%AA%E3%82%89-if)
+- attach to the end of a condition clause
+- [conjugations](./conjugations.md#%E3%81%AA%E3%82%89-ifgiven)
 - for describing conditions and the possibility that it might not happen
   * 寒いならこれを着てください。
   * あなたが嬉しいなら、私も嬉しいです。
@@ -1417,7 +1417,7 @@ ____
 
 ### は
 
-- it is like a spotlight that shines on the topic and leaving other potential
+- it is like a spotlight that shines on the topic and leaves other potential
   topics in the dark
 - as a topic marker
   * it is the rough equivalent of "as for"
@@ -1464,7 +1464,7 @@ ____
 - for changing scenes
 - used in relative clauses
   * 蜂蜜の瓶を籠に入れていきました。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
-    + The bear put a jar of honey into basket and left. Unaware of all this, the
+    + The bear put a jar of honey into a basket and left. Unaware of all this, the
       donkey kept on his afternoon nap.
   * I was accepted by the school that Jenny failed to get into.
     + ジェニー`の`落ちた学校に私は受かった。
@@ -1498,7 +1498,7 @@ ____
     + 鈴木さんは先生です。鈴木さんはゲーマーで`も`あります。 - Suzuki is
       a teacher. Suzuki is also a gamer.
 - noun + も
-  * it is more like used in place of は
+  * it is more like being used in place of は
 - used at the end of a sentence
   * for noun or な-adjective
     + it is added between て form and ある
@@ -1766,10 +1766,10 @@ ____
   * あのくらいできるようになってください。
 - how much or many
   * いつもどのくらいお酒を飲みますか。
-  * おつまみ、どれくらい買いましょうか。 - How much snacks should we buy?
+  * おつまみ、どれくらい買いましょうか。 - How many snacks should we buy?
   * どのくらいかかりますかね。
   * お会計、いくらくらいかかりますかね。 - I wonder how much the bill will be.
-  * いつぐらいに帰れますかね。- I wonder around what time we can go back home.
+  * いつぐらいに帰れますかね。 - I wonder around what time we can go back home.
   * おつまみ、何個くらい買いましょうか。
   * 何分くらいかかりますかね。
   * お会計、何円くらいかかりますかね。
@@ -1795,8 +1795,8 @@ ____
   * クッキー５０個ほどなら作れると思います。
     + to talk as a professional baker
   * it is not always interchangeable
-    + くらい express an approximate lower bound
-    + ほど express an approximate upper bound
+    + くらい expresses an approximate lower bound
+    + ほど expresses an approximate upper bound
     + これくらいなら作れると思う。
       + I think I can make them if it's about this much.
       + ❌ これほどなら作れると思います。
@@ -1880,7 +1880,7 @@ ____
   experience
   * signals your emotional investment in something
   * its nuance is often altered depending on intonation
-- it usually follows a statement that express your realisation of something,
+- it usually follows a statement that expresses your realisation of something,
   reflecting your view or attitude or event; it indicates that you came to
   a conclusion, felt a certain way, or are making a sudden observation based on
   personal experience
@@ -1911,14 +1911,14 @@ ____
     + あ、行けるわ。 - Ah, I can go.
     + ごめん、行けないわ。 - Sorry, I can't go.
 - for casually telling someone "I'll do it"
-  * よ is the strongest; it is a declaration of intent and inform the listener
+  * よ is the strongest; it is a declaration of intent and informs the listener
     + ね is softer than よ and it signals a confirmation with the listener;
       "I'll do it, alright?"
     + わ is more mild; it signals the speaker is volunteering to help and it is
       self-directed
   * use of falling intonation is important
   * examples
-    + 私、拭くわ。- I'll wipe it up.
+    + 私、拭くわ。 - I'll wipe it up.
 - self-directed sentences
   * find out a new piece of information
   * examples
@@ -1985,7 +1985,7 @@ ____
   * examples
     + いらいらしてる訳じゃないよ。 - It is not that I am annoyed.
 - for agreement
-  * offering an affirmative answer to question asked
+  * offering an affirmative answer to a question asked
   * examples
     + A: これ借りてもいいですか？ - Can I borrow this?
       B: いいですよ。 - Sure.
@@ -2023,7 +2023,7 @@ ____
 - used at the end of sentences
   * examples
     + あ、雨が降ってるよね。 - Oh, it's raining, right?
-    + 食べるよね。 -  You will eat it, right?
+    + 食べるよね。 - You will eat it, right?
     + 暑いよね。 - It is hot, isn't it?
     + 静かだよね。 (affirmative)
     + 静かですよね。 (polite)
@@ -2039,7 +2039,7 @@ ____
       A: だよね。ああ、どうしよ。 (or ですよね。ああ、どうしよ。) - Right,
          right. Oh, what should I do...
 - for confirmation
-  * one of the usages is double-checking is a good device to begin a small
+  * one of the usages is that double-checking is a good device to begin small
     talk
   * examples
     + トーフグのポッドキャストの最新エピソード、もう聴いたよね？ - You've
@@ -2052,7 +2052,7 @@ ____
     + 私も日本語の勉強始めたの。でも、漢字が難しいよね。 - I've also started
       learning Japanese, yet kanji is difficult, huh?
     + 誰にも言わないでよね。 - Don't tell anyone, okay? (soft order)
-      + 誰にも言うなよ。- Do not tell anyone else! (strong order)
+      + 誰にも言うなよ。 - Do not tell anyone else! (strong order)
 - for showing agreement
   * repeat whatever the other said and add よね to the end
   * examples

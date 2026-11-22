@@ -130,10 +130,10 @@ ____
 
 |               | keigo     | casual  | neutral   | polite (humble) |
 | ---           | ---       | ---     | ---       | ---             |
-|               | 方 (がた) | 等 (ら) | 達 (たち) | 供 (ども)       |
-| 私 (わたし)   |           | 私等    | 私達      | 私供            |
+|               | 方 (がた) | 等 (ら) | 達 (たち) | 共 (ども)       |
+| 私 (わたし)   |           | 私等    | 私達      | 私共            |
 | 私 (わたくし) |           |         | 私達      | 私共            |
-| 僕 (ぼく)     |           | 僕等    | 僕達      | 僕供            |
+| 僕 (ぼく)     |           | 僕等    | 僕達      | 僕共            |
 | 俺 (おれ)     |           | 俺等    | 俺達      |                 |
 | うち          |           | うち等  |           |                 |
 
@@ -141,21 +141,21 @@ ____
 
 |               | rough     | casual  | neutral   | polite    |
 | ---           | ---       | ---     | ---       | ---       |
-|               | 供 (ども) | 等 (ら) | 達 (たち) | 方 (がた) |
-| 貴方 (あなた) |           | 貴等    | 貴達      | 貴方      |
+|               | 共 (ども) | 等 (ら) | 達 (たち) | 方 (がた) |
+| 貴方 (あなた) |           | 貴等    | 貴達      | 貴方方    |
 | 君 (きみ)     |           | 君等    | 君達      |           |
-| お前 (おまえ) | お前供    | お前等  | お前達    |           |
+| お前 (おまえ) | お前共    | お前等  | お前達    |           |
 
 ### Third person pronouns and its plural form
 
 |                 | rough     | casual   | neutral   | polite    |
 | ---             | ---       | ---      | ---       | ---       |
-|                 | 供 (ども) | 等 (ら)  | 達 (たち) | 方 (がた) |
+|                 | 共 (ども) | 等 (ら)  | 達 (たち) | 方 (がた) |
 | 彼 (かれ)       |           | 彼等     |           |           |
 | 彼女 (かのじょ) |           | 彼女等   | 彼女達    |           |
-| こいつ          | こいつ供  | こいつ等 | こいつ達  |           |
-| そいつ          | そいつ供  | そいつ等 | そいつ達  |           |
-| あいつ          | あいつ供  | あいつ等 | あいつ達  |           |
+| こいつ          | こいつ共  | こいつ等 | こいつ達  |           |
+| そいつ          | そいつ共  | そいつ等 | そいつ達  |           |
+| あいつ          | あいつ共  | あいつ等 | あいつ達  |           |
 
 # Situation and vocabulary
 
@@ -191,7 +191,7 @@ ____
 - レジ袋お付けしますか？ (レジぶくろおつけしますか?) - cashier bag, may I add?
 - レジ袋はいらないです (レジぶくろはいらないです) - cashier bag, I don't need
 - 袋いらない (ふくろいらない) - no bag
-- レジ袋 (れじぶくろ) - plastic bag (literally it is "cashier bag")
+- レジ袋 (レジぶくろ) - plastic bag (literally it is "cashier bag")
 - ビニール袋 (ビニールぶくろ) - plastic bag (literally it is "vinyl bag")
 
 ## Shopping
@@ -245,9 +245,9 @@ ____
   * こちらこそ - it is me who should say so
 - 初めまして。アレックスといいます。よろしく。- Nice to meet you. My name is
   Alex. Pleased to meet you.
-- ありがとう ございます - thank you
-- どう 致しまして (どう いたしまして) - you're welcome
-- おめでとう ございます - congratulations
+- ありがとうございます - thank you
+- どう致しまして (どう いたしまして) - you're welcome
+- おめでとうございます - congratulations
 - もう一度いいですか？ (もういちどいいですか) - one more time, is it okay?
 - 日本語がわかりません (にほんごがわかりません) - Japanese, I don't
   understand
@@ -299,12 +299,12 @@ ____
 - この階段は堺筋線には連絡していません
   (このかいだんはさかいすじせんにはれんらくしていません) - this stairway does not
   connect to the Sakasuji line
-- JRへ通り抜けできません (JRへとおりぬけはできません) - you cannot pass
+- JRへ通り抜けはできません (JRへとおりぬけはできません) - you cannot pass
   through to JR
 - お並び列 (おならびれつ) - please line up
 - お待ちのお客様へ (おまちのおきゃくさまへ) - For waiting customers
 - お持ち帰りの方は、並ばずにお入り下さい (おもちかえりのかたは、ならばずに
-  おはいりください) - For customers returning, please enter without lining up.
+  おはいりください) - For takeaway customers, please enter without lining up.
 - お名前はお伺いしておりません (おなまえはおうかがいしておりません) - We do not
   ask for your name.
 - 恐れ入りますがなるべく少人数間隔を空けてお並びいただきお待ち下さいませ。 (
@@ -313,12 +313,12 @@ ____
   line up with as much space between each person as possible.
 - ご協力の程よろしくお願い致します (ごきょうりょくのほどよろしくおねがいします) -
   We appreciate your cooperation.
-- 自転車は降りて 通りましょう (じてんしゃはおりて とおりましょう) - Get off from
+- 自転車は降りて 通りましょう (じてんしゃはおりて とおりましょう) - Get off the
   bike before passing through
 - 左手側より　本堂へお参りください (ひだりてがわより　ほんどうへおまいり
   ください) - Please visit the main hall from the left side
-- この先、お支払い方法によってお並び頂くレーンが分かれます。 (このさき、おしは
-  らい ほうほうによっておならびいただくレーンがわかれます) - Beyond this point,
+- この先、お支払い方法によってお並び頂くレーンが分かれます。 (このさき、
+  おしはらい ほうほうによっておならびいただくレーンがわかれます) - Beyond this point,
   the lane to get into will be separated due to payment method.
 - 2 列にお並びください (2 れつにおならびください) - Please line up in 2 lines
 
