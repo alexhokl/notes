@@ -49,7 +49,7 @@ ____
   * ご
   * おん
   * み
-  * きょ
+  * ぎょ
 - to add a sense of respect and politeness
 - commonly attached to something that belongs to the person you are addressing
 - there is no hard-and-fast rule as to which words do and do not use 御; as
@@ -135,7 +135,7 @@ ____
     + 御手 (みて) - your hand
     + 御顔 (みがお) - your face
     + 御霊 (みたま) - your spirit
-- きょ
+- ぎょ
   * shows respect to the emperor and his family
   * examples
     + 崩御 (ほうぎょ) - passing away of the emperor
@@ -174,7 +174,7 @@ ____
   * うちらには関係ない。 - It is none of our business.
   * 田中容疑者らは逃亡しました。 - The suspect Tanaka and his associates fled.
   * これら - these
-  * あれら - those
+  * それら - those
   * あれら - those over there
   * ちょっと鞄ら見といてくれる。 - Could you keep an eye on my bag and other
     stuff?
@@ -199,7 +199,7 @@ ____
 
 - to showcase examples rather than pluralize nouns
 - examples
-  * そのパーティーには弁護士などが来ました。- People like lawyers came to the
+  * そのパーティーには弁護士などが来ました。 - People like lawyers came to the
     party. (it implies that there are other professionals besides lawyers)
 - in the Kansai area, やら is commonly used instead
 
@@ -258,13 +258,13 @@ ____
     + Has something happened?
     + ゴキブリが出たんだ。
       + There is a cockroach.
-  * 何かあったんですか?
+  * 何かあったんですか？
     + Has something happened?
     + ゴキブリが出たんです。
       + There is a cockroach.
 - for introducing a new topic
   * 今日は会えない。風邪ひいちゃったんだ。ごめんね。
-  * 風邪ひいちゃったんだ。 だから今日は会えない。ごめんね。
+  * 風邪ひいちゃったんだ。だから今日は会えない。ごめんね。
     + ordering of the sentences can be switched
 - for commands
   * this usage not common
@@ -353,7 +353,7 @@ ____
   * 金が必要なのかもしれない。
     + They may need money.
 - to sound more archaic or authoritative
-  * replace ない with め
+  * replace ない with ぬ
   * no one would use it this way in real life nowadays
   * アイツは来ないかもしれぬ。
     + That guy might not show up.
@@ -416,7 +416,7 @@ ____
 - used as first-person pronoun
   * 自分も、そう思います。
 - used as second-person pronoun
-  * in Kansai dialect, 自分 is often used as a first-person pronoun
+  * in Kansai dialect, 自分 is often used as a second-person pronoun
   * it carries a "caring" nuance, as if you are approaching someone while
     trying to step into their shoes
   * 自分、何してんの？
@@ -515,7 +515,7 @@ ____
       + by adding 〜の事, the reply made a more ambiguous reference to all sorts
         of things related to Hanako. Here, the 〜の事 softens the seemingly
         harsh comment by making it sound a bit more indirect, and adds the nuance
-        "given that,” — whatever "that" unspoken thing is — "I won't invite
+        "given that," — whatever "that" unspoken thing is — "I won't invite
         Hanako."
 - to talk about past experiences
   * ~た事がある

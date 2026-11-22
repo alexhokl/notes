@@ -55,7 +55,7 @@ ____
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 - [Kana quiz](https://kana-quiz.tofugu.com/)
 - [Conjugation practice](https://baileysnyder.com/jconj/)
-- [Japanese Conjunction
+- [Japanese Conjugation
   City](https://play.google.com/store/apps/details?id=stoicknight.japaneseconjugation) - Android app
 - [jisho.org](https://jisho.org/) - Japanese-English dictionary and it is
   especially useful in checking verb forms
@@ -134,7 +134,7 @@ ____
 | 私 (わたし)   |           | 私等    | 私達      | 私供            |
 | 私 (わたくし) |           |         | 私達      | 私共            |
 | 僕 (ぼく)     |           | 僕等    | 僕達      | 僕供            |
-| 俺 (おれ)     |           | 俺等    | 俺等      |                 |
+| 俺 (おれ)     |           | 俺等    | 俺達      |                 |
 | うち          |           | うち等  |           |                 |
 
 ### Second person pronouns and its plural form
@@ -144,7 +144,7 @@ ____
 |               | 供 (ども) | 等 (ら) | 達 (たち) | 方 (がた) |
 | 貴方 (あなた) |           | 貴等    | 貴達      | 貴方      |
 | 君 (きみ)     |           | 君等    | 君達      |           |
-| お前 (おまえ) | お前供    | お前等  | お前達    | 僕供      |
+| お前 (おまえ) | お前供    | お前等  | お前達    |           |
 
 ### Third person pronouns and its plural form
 
@@ -186,10 +186,10 @@ ____
   you have?
 - こちら温めますか？ (こちらあたためますか) - This, do you want to warm it
   up?
-- 袋、ご利用おですか? (ふくろ、ごりようおですか?) - bag, will you use?
+- 袋、ご利用ですか? (ふくろ、ごりようですか?) - bag, will you use?
 - レジ袋いりますか？ (レジぶくろいりますか?) - cashier bag, do you need?
 - レジ袋お付けしますか？ (レジぶくろおつけしますか?) - cashier bag, may I add?
-- レジ袋わいらないです (レジぶくろわいらないです) - cashier bag, I don't need
+- レジ袋はいらないです (レジぶくろはいらないです) - cashier bag, I don't need
 - 袋いらない (ふくろいらない) - no bag
 - レジ袋 (れじぶくろ) - plastic bag (literally it is "cashier bag")
 - ビニール袋 (ビニールぶくろ) - plastic bag (literally it is "vinyl bag")
@@ -220,7 +220,7 @@ ____
   I folded it up and stored it.
 - 保管場所にペットはいません。非喫煙者です。 - There are no pets or smokers
   where this item has been stored.
-- 発送料の負担 (はっそうのふたん) - who will pay the shipping
+- 発送料の負担 (はっそうりょうのふたん) - who will pay the shipping
 - ネットで借りる (ネットでかりる) - rent online
 - まとめて購入 (まとめてこうにゅう) - buy in bulk
 - まとめてレンタル - rent in bulk
@@ -248,7 +248,7 @@ ____
 - ありがとう ございます - thank you
 - どう 致しまして (どう いたしまして) - you're welcome
 - おめでとう ございます - congratulations
-- も一度いいですか？ (もいちどいいですか) - one more time, is it okay?
+- もう一度いいですか？ (もういちどいいですか) - one more time, is it okay?
 - 日本語がわかりません (にほんごがわかりません) - Japanese, I don't
   understand
 - ちょっと日本語がわかります (ちょっとにほんごがわかります) - I understand a little
@@ -296,14 +296,14 @@ ____
 - お待ちください (おまちください) - please wait
 - おまかせください (おまかせください) - please leave it to me
 - 右に注意 (みぎにちゅうい) - caution, right
-- この階段は坂筋線には連絡していません
-  (このかいだんはさかすじせんにはれんらくしていません) - this stairway does not
+- この階段は堺筋線には連絡していません
+  (このかいだんはさかいすじせんにはれんらくしていません) - this stairway does not
   connect to the Sakasuji line
 - JRへ通り抜けできません (JRへとおりぬけはできません) - you cannot pass
   through to JR
 - お並び列 (おならびれつ) - please line up
 - お待ちのお客様へ (おまちのおきゃくさまへ) - For waiting customers
-- お持ち帰りの方は、並ばずにお入り下さい (おもちかえりのがたは、ならばずに
+- お持ち帰りの方は、並ばずにお入り下さい (おもちかえりのかたは、ならばずに
   おはいりください) - For customers returning, please enter without lining up.
 - お名前はお伺いしておりません (おなまえはおうかがいしておりません) - We do not
   ask for your name.
@@ -319,7 +319,7 @@ ____
   ください) - Please visit the main hall from the left side
 - この先、お支払い方法によってお並び頂くレーンが分かれます。 (このさき、おしは
   らい ほうほうによっておならびいただくレーンがわかれます) - Beyond this point,
-  the lane to be get into will be separated due to payment method.
+  the lane to get into will be separated due to payment method.
 - 2 列にお並びください (2 れつにおならびください) - Please line up in 2 lines
 
 ## Transportation
@@ -352,7 +352,7 @@ ____
 
 ## Time
 
-- 10時五分前 (じゅじごふんまえ) - 9:55
+- 10時五分前 (じゅうじごふんまえ) - 9:55
 - Interestingly, times beyond midnight after the 24-hour mark can also be
   counted continuously sometimes. This often occurs when the activity from
   before midnight extends past midnight, indicating that your day has kept on
@@ -361,7 +361,7 @@ ____
     + a radio program that starts at 1:00 and ends at 2:00 in the morning might
       say it starts at 25:00 and ends at 26:00 on their time table
 - 八時後 (はちじご) - after 8
-- そちらは何時から何時までですか？ - What is the opening hours?
+- そちらは何時から何時までですか？ - What are the opening hours?
 
 ### Approximate time
 
@@ -450,7 +450,7 @@ ____
 ## 気に
 
 - 気になる - (passive or natural) to care about; to be interested in
-  * あの映画が気になる。 - I'm interested about that movie.
+  * あの映画が気になる。 - I'm interested in that movie.
 - 気にする - active or intention to mind (negative nuance); to care about
   * 気にしないでください。 - Please don't worry about it
 - 気に入る(きにいる) - to like; to be pleased with

@@ -72,7 +72,7 @@ ____
   * instead of replacing い with そう, appending そう to the い-adjective means
     you have heard something
   * examples
-    + あのケーキ、美味しいそうです。- I heard that cake is delicious.
+    + あのケーキ、美味しいそうです。 - I heard that cake is delicious.
 
 ## な-adjectives
 

@@ -168,7 +168,7 @@ d (t)   | z (s)
       reading
       + the kana suffixes are called okurigana 送り仮名 (おくがな)
   * exceptions
-    + words that contain kanji that have both on'yomi and kunyomi readings
+    + words that contain kanji that have both onyomi and kunyomi readings
     + kanji that get assigned to katakana words
 - strategy to learn
   * just learn one reading per kanji
@@ -244,14 +244,14 @@ d (t)   | z (s)
       + 煙 (けむり) Smoke
       + 土 (つち) Dirt
       + 潮 (しお) Tide
-      + 血 (けつ) Blood
+      + 血 (ち) Blood
       + 下 (した) Below
 - reverse rendaku
   * two voiced consonants do not exist in a row
   * examples
     + 舌 (した) + 鼓 (つづみ) = 舌鼓 (したづつみ)
     + 腹 (はら) + 鼓 (つづみ) = 腹鼓 (はらづつみ)
-    + 後 (あと) + 退ざり (しざり) = 後退さり (あとじさり)
+    + 後 (あと) + 退さり (しさり) = 後退さり (あとじさり)
 - words with very high chance of rendaku
   * 花 (はな)
   * 風呂 (ふろ)
@@ -261,7 +261,7 @@ d (t)   | z (s)
 
 ## さん
 
-- it depends of the pitch of the sound of the word that comes before it
+- it depends on the pitch of the sound of the word that comes before it
   * if the word before さん ends in a high pitch, さん is pronounced as `san`
   * if the word before さん ends in a low pitch, さん is pronounced as `zan`
 

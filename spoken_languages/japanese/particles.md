@@ -43,7 +43,7 @@ ____
 
 # Particles (助詞)
 
-- almost all particles follows a noun
+- almost all particles follow a noun
 
 ## 格助詞 case-marking particles
 
@@ -370,7 +370,7 @@ ____
       calmly.
 - に for location
   * see [に and で](#%E3%81%AB-and-%E3%81%A7)
-  * common learn mistakes with verbs without a sense of direction
+  * common learner mistakes with verbs without a sense of direction
     + 歩く or 走る
     + examples
       + 今日はNASA`に`歩いて`行った`。
@@ -571,11 +571,11 @@ ____
       + without omission, どうぞ、`こちらへ`お座りください。 - Please, have a
         seat.
 - へ and に
-  * both marks a destination
+  * both mark a destination
   * examples
     + `日本に`行く。 - I will go to Japan. (direction towards Japan)
     + `日本へ`行く。 - I will go to Japan. (at Japan)
-  * compliments に with verbs without directionality
+  * complements に with verbs without directionality
     + examples
       + `コンビニへ`歩いた。 - I walked to the convenience store.
         + コンビニに歩いて行った。 - I walked towards the convenience store.
@@ -735,9 +735,9 @@ ____
   * examples
     + `彼氏から`キスされた。 - I was kissed by my boyfriend.
 - から and より
-  * both indicates the source in "someone is receiving something from someone
+  * both indicate the source in "someone is receiving something from someone
     else"
-  * より is an archaic (old-fashion) version of から and it generally carries
+  * より is an archaic (old-fashioned) version of から and it generally carries
     a formal tone
   * examples
     + `友達から`手紙をもらった。 - I received a letter from my friend.
@@ -981,7 +981,7 @@ ____
 ### や
 
 - to list multiple items
-  * implies that there are more items on the list that the speaker have not
+  * implies that there are more items on the list that the speaker has not
     mentioned
 - it carries a somewhat formal tone and it is more commonly used in writing
   * in speaking, it is often replaced with the colloquial とか
@@ -1232,7 +1232,6 @@ ____
     + お腹が空いた`ので`レストランに行きました。
     + 二十歳な`ので`お酒が飲めます。
     + このシャツはきれいな`ので`洗濯する必要はありません。
-    + このシャツはきれいな`ので`洗濯する必要はありません。
 - it could be just a simple combination of の and で
   * which has nothing to do with ので
   * examples
@@ -1464,7 +1463,7 @@ ____
   * 少し、食べました。
 - for changing scenes
 - used in relative clauses
-  * 蜂蜜の瓶を籠に入れていますした。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
+  * 蜂蜜の瓶を籠に入れていきました。そんなこと`は`知らない驢馬さんはくうくうお昼寝。
     + The bear put a jar of honey into basket and left. Unaware of all this, the
       donkey kept on his afternoon nap.
   * I was accepted by the school that Jenny failed to get into.
@@ -1486,7 +1485,7 @@ ____
   * 私が学生です。 - I am the one who is a student.
 - 何故、あなたが時計をチラッと見るたび、泣きそうな気分になるの？ - why? when you
   glance at your watch, I feel like crying (as assuming 私は)
-  * 何故、あなたは時計をチラッと見るたび、泣くそうな気分になるの？ - why? when
+  * 何故、あなたは時計をチラッと見るたび、泣きそうな気分になるの？ - why? when
     you glance at your watch, you feel like crying
 
 ### も
@@ -1513,7 +1512,7 @@ ____
       + examples
         + 猫は可愛い。
         + 猫は可愛く`も`ある。
--  combined with other particles
+- combined with other particles
   * it combines the same way as は
     + にも
     + でも
@@ -1681,7 +1680,7 @@ ____
     + 君さえいれば、ほかに何もいらない。
       + If only you’re here, I don’t need anything else.
   * even
-    + when it is not used a condition
+    + when it is not used in a condition
     + １２月でさえ暖かった。
       + It was even warm in December.
     + ローマ字さえ読めない。
@@ -1913,11 +1912,11 @@ ____
     + ごめん、行けないわ。 - Sorry, I can't go.
 - for casually telling someone "I'll do it"
   * よ is the strongest; it is a declaration of intent and inform the listener
-    + ね is a softer than よ and it signals a confirmation with the listener;
+    + ね is softer than よ and it signals a confirmation with the listener;
       "I'll do it, alright?"
     + わ is more mild; it signals the speaker is volunteering to help and it is
       self-directed
-  * used of falling intonation is important
+  * use of falling intonation is important
   * examples
     + 私、拭くわ。- I'll wipe it up.
 - self-directed sentences

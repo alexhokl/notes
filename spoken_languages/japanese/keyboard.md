@@ -18,7 +18,7 @@ ____
   * On Mac, <kbd>shift</kbd> can be configured to type katakana
 - 12 keys on mobile
   * consonants are listed from left to right and from top to bottom
-  * on pressing and drag
+  * on pressing and dragging
   * <kbd>space</kbd> to select options
   * <kbd>enter</kbd> to confirm
   * button at bottom left to add ` ゛` (濁点) or ` ゜` (半濁点) or convert to

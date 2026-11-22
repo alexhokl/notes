@@ -5,7 +5,7 @@
 - [五段動詞 and 一段動詞](#%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E-and-%E4%B8%80%E6%AE%B5%E5%8B%95%E8%A9%9E)
   * [verbs ended in う](#verbs-ended-in-%E3%81%86)
 - [する verb](#%E3%81%99%E3%82%8B-verb)
-- [Lost of the w sound](#lost-of-the-w-sound)
+- [Loss of the w sound](#loss-of-the-w-sound)
 - [Sound convenience in conjugations](#sound-convenience-in-conjugations)
   * [double consonant with Small っ](#double-consonant-with-small-%E3%81%A3)
   * [assimilation with ん](#assimilation-with-%E3%82%93)
@@ -219,10 +219,10 @@ ____
 
 # する verb
 
-- if a word is made of multiple kanji with on'yomi readings, it is likely it can
+- if a word is made of multiple kanji with onyomi readings, it is likely it can
 be attached to する
 
-# Lost of the w sound
+# Loss of the w sound
 
 - example of pronunciation in the old times
   * 上 pronounced as `wuwe`
@@ -348,7 +348,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + it indicates that you are repeating the same command, which does a great
       job of expressing your frustration
     + examples
-      + やめろって！ - I said Stop it!
+      + やめろって！ - I said stop it!
       + やめろってば！ - I said stop it!
 - for motivation or encouragement
   * keep in mind, this might not be appropriate if you are speaking face-to-face
@@ -388,7 +388,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - if the doer is not a person, only に can be used
   * animals are not considered a person
 - if it is indirect passive, に should be used
-- if it about something that is made from something, から should be used
+- if it is about something that is made from something, から should be used
   * このお酒は芋から作られている。
 - for formal settings (especially in writing), によって can be used in place of
   に
@@ -473,7 +473,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * いつも, 絶対 and 必ず are often used together with 〜ば when talking about
     habits
 - for future (which we are not sure about)
-  * もし, たろう, でしょう, に違いない, はずだ and かもしれない are often used
+  * もし, だろう, でしょう, に違いない, はずだ and かもしれない are often used
     when talking about future events
   * もし雨が降れば、遠足は中止になる。
   * もし雨が降れば、遠足は中止になるかもしれない。
@@ -621,7 +621,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 # たりする
 
-- links things together to create a list of actions of states of being
+- links things together to create a list of actions or states of being
 - kind of like や
 - it works with verbs, adjectives and nouns
   * や only works with nouns
@@ -791,7 +791,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * スクワットをする
     + to do squats
 - to have
-  * 話しをする
+  * 話をする
   * 議論をする
   * 口論をする
     + to have an argument
@@ -849,7 +849,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * サングラスをする
     + to wear sunglasses
   * コンタクト（レンズ）をする
-  * to wear contact lenses
+    + to wear contact lenses
   * スカーフをする
   * ネクタイをする
 - to select something
@@ -922,7 +922,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * ドライブする
     + to drive
   * the difference between 旅行する and 旅行をする
-    + when を is used, it puts a little more focus is on the specific action
+    + when を is used, it puts a little more focus on the specific action
       (travelling) rather than on the doing itself
 
 ## なる
@@ -1135,7 +1135,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 - basic examples
   * 日本語で話す事がある。
     + There are times I speak in Japanese.
-  * このフレーズを使う事がある
+  * このフレーズを使う事がある。
     + There are times I use this phrase.
   * 出張で日本に行くことがある。
     + I sometimes go to Japan on business.
@@ -1345,7 +1345,7 @@ Note that all other conjugations of 買う use hiragana characters on the
     + 朝起きたら、お母さんが出た。
       + Exactly the moment when I woke up in the morning, my mom was leaving.
 - for casual conversations, ていた is often contracted to てた
-- it is sometime interchangeable with ている if it is used in the middle of a
+- it is sometimes interchangeable with ている if it is used in the middle of a
   sentence
   * ⭕️日本に住んでいる時に、日本語を習った。
   * ⭕️日本に住んでいた時に、日本語を習った。
@@ -1436,7 +1436,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 掃除機をかけてほしい。
     + I want you to vacuum.
     + it sounds pretty strong and possibly rude
-- to express the speaker's for something to happen
+- to express the speaker's desire for something to happen
   * 早く終わってほしい。
     + I want this to end quickly.
 - conjugation
@@ -1535,7 +1535,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * 飲んでみたら、結構美味しかった。
   * そう言われてみたら、そんな気もしてきた。
     + Now that you put it that way, it's starting to seem that way.
-  * てみると as the same meaning but slightly more formal
+  * てみると has the same meaning but slightly more formal
 - what if or why don't you
   * てみたら with raising intonation
   * 行ってみたら?
@@ -1606,7 +1606,7 @@ Note that all other conjugations of 買う use hiragana characters on the
   * indicating a change of state
   * an intentional action
 - freshly done
-  * 焼きたてチースケーキ
+  * 焼きたてチーズケーキ
   * 揚げたての天ぷら
   * 炊きたてのご飯
 - fresh physical sensation

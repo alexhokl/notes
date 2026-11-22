@@ -785,7 +785,7 @@ ____
   * 結果は５戦３勝２敗でした。
   * ４戦目でやっとクッパを倒した。 (fourth)
 
-- 足 (そく) counts pairs of footware
+- 足 (そく) counts pairs of footwear
   * Counts: shoes, socks, stockings, slippers, zōri (Japanese sandals), tabi
     (Japanese socks), geta (wooden Japanese shoes), clogs, roller skates,
     rollerblades, ice skates, flip flops, boots, rain boots, sheets of dried
@@ -885,7 +885,7 @@ ____
 
 - 箱 (はこ) counts boxes
   * exception is small disposable wooden/cardboard boxes filled with sweets,
-    a meal, or bento where it is count with 折 (おり)
+    a meal, or bento where it is counted with 折 (おり)
   * １箱買うと、２箱目が無料になります。 (second)
 
 - 発 (はつ) counts bullets, bullet marks, explosives, fireworks, shots fired
