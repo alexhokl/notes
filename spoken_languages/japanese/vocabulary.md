@@ -225,6 +225,7 @@
     + [expressions](#expressions-4)
   * [N0](#n0)
     + [particles](#particles-5)
+    + [auxiliary](#auxiliary)
     + [conjunctions](#conjunctions-5)
     + [adverbs](#adverbs-5)
     + [rentaishi (連体詞)](#rentaishi-%E9%80%A3%E4%BD%93%E8%A9%9E-3)
@@ -808,7 +809,7 @@ ____
   * 起こす (おこす) - to wake (someone) up
 - 降りる (おりる) - to get off; to descend; to go down; aka 下りる
   * 降ろす (おろす) - to take down; to lower; to drop off (a passenger); to
-    unload (goods), to withdraw (money); aka 下ろす
+    unload (goods); to withdraw (money); aka 下ろす
 - 終わる (おわる) - to end
   * 終える (おえる) - to finish; to get through with; to graduate
 - かかる - to take (time, money); to hang; to be fastened
@@ -1321,7 +1322,7 @@ ____
   * つける - to attach; to join; to wear; to put on; to turn on (a light); aka 付ける
 - 続く (つづく) - to continue
   * 続ける (つづける) - to continue
-- 通る (とおる) - to go by; to go pass; to go along; to travel along; to use (a
+- 通る (とおる) - to go by; to go past; to go along; to travel along; to use (a
   road); to take (a route); to go via
   * 通す (とおす) - to let pass; to allow through; to transmit (e.g. light,
     sound, etc); to connect (e.g. two places)
@@ -1478,7 +1479,6 @@ ____
 - さっぱり - feeling refreshed; (of food) light
 - さらに - furthermore; aka 更に
 - 少々 (しょうしょう) - a little
-- すで - already
 - すでに - already; previously; before; undeniably; aka 既に
 - すべて - entirely; wholly; completely; all; aka 全て
 - ずいぶん - very; extremely; terrible (as な-adjective), remarkable (as
@@ -1743,7 +1743,7 @@ ____
 
 ### nouns (sports)
 
-- ゴール (gōru) - goal
+- ゴール - goal
 - スキー - skiing
 - スケート - skating
 - 大会 (たいかい) - mass meeting; convention; rally; conference; tournament
@@ -1885,7 +1885,7 @@ ____
   * 積む (つむ) - to pile up; to accumulate
 - 解ける (とける) - to be solved; to come undone; to melt away; to be resolved
   (of a dispute); aka 溶ける
-  * 解く (とく) - to solve; to undo; to untie; to undo
+  * 解く (とく) - to solve; to undo; to untie
 - 届く (とどく) - to reach; to be delivered
   * 届ける (とどける) - to deliver; to send; to report
 - 取れる (とれる) - to come off (of a button, handle, lid, etc.); to go away (of
@@ -2191,7 +2191,7 @@ ____
 
 ### nouns (countries)
 
-- 欧米 (おうべい) - Europe and American
+- 欧米 (おうべい) - Europe and America
 
 ### nouns (weather)
 
@@ -2506,7 +2506,7 @@ ____
 ### noun suffixes
 
 - 側 (がわ) - side
-- 過ぎ (すぎ) - past; after; over-;
+- 過ぎ (すぎ) - past; after; over-
 
 ### する verb (transitive)
 
@@ -2697,7 +2697,7 @@ ____
 - お手元 (おてもと) - chopsticks (esp. at restaurants); at hand (polite)
 - 男 (おとこ) - man (used as prefix)
 - おばけ - ghost; aka お化け
-- おもてなし - hospitality; reception; entertainment
+- おもてなし - hospitality; reception; entertainment;
   treatment; service; aka お持て成し
 - オリンピック - Olympics
 - 女 (おんな) - women (used as prefix)
@@ -2885,7 +2885,7 @@ ____
 - ピザ - pizza
 - プリン - pudding
 - ベーコン - bacon
-- ホルモン - offal (內臟)
+- ホルモン - offal (内臓)
 - ぼんじり - chicken tail
 - まんま - food (children's language); aka 飯
 - モモ - chicken thigh
@@ -3551,8 +3551,8 @@ ____
 - ような - like; similar to; feels like; aka 様な
 - 言わないことではない - I told you so
 - 好きなだけ - as much as one wants
-- 塵も積もれば、山なる (ちりもつもれば、やまなる) - little things add up
+- 塵も積もれば山となる (ちりもつもれば やまとなる) - little things add up
 - なんと返事する。 - What to say in response?
 - 何の返事する。 - What is thing to reply to?
-- ほかには?  - anything else?
+- ほかには？ - anything else?
 - によって - due to; because of; by (means of); depending on; via; aka に因って
