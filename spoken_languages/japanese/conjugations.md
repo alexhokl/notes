@@ -115,32 +115,32 @@ Note: いい derives from よい — non-past affirmative uses いい, but all o
 | volitional                 | 買おう       |                  |
 | volitional polite          | 買いましょう |                  |
 
-| Form                       | Affirmative  | Negative         |
-| ---                        | ---          | ---              |
-| non-past                   | ある         | ない             |
-| non-past, polite           | あります     | ありません       |
-| non-past, formal           |              | あらず           |
-| past                       | あった       | なかった         |
-| past, polite               | ありました   | ありませんでした |
-| te-form                    | あって       | なくて           |
-| potential (rare)           | あれる       | あれない         |
-| passive (rare)             | あられる     | あられない       |
-| causative (rare)           | あらせる     | あらせない       |
-| causative (casual, rare)   | あらす       | あらさない       |
-| causative passive (rare)   | あらせられる | あらせられない   |
-| causative passive (casual, rare) | あらされる | あらされない |
-| imperative                 | あれ         | あるな           |
-| probably                   | あるだろう   | ないだろう       |
-| probably polite            | あるでしょう | ないでしょう     |
-| conditional                | あれば       | なければ         |
-| conditional                | あったら     | なかったら       |
-| volitional                 | あろう       |                  |
+| Form                             | Affirmative  | Negative         |
+| ---                              | ---          | ---              |
+| non-past                         | ある         | ない             |
+| non-past, polite                 | あります     | ありません       |
+| non-past, formal                 |              | あらず           |
+| past                             | あった       | なかった         |
+| past, polite                     | ありました   | ありませんでした |
+| te-form                          | あって       | なくて           |
+| potential (none; see note)       | -            | -                |
+| passive (rare)                   | あられる     | あられない       |
+| causative (rare)                 | あらせる     | あらせない       |
+| causative (casual, rare)         | あらす       | あらさない       |
+| causative passive (rare)         | あらせられる | あらせられない   |
+| causative passive (casual, rare) | あらされる   | あらされない     |
+| imperative                       | あれ         | あるな           |
+| probably                         | あるだろう   | ないだろう       |
+| probably polite                  | あるでしょう | ないでしょう     |
+| conditional                      | あれば       | なければ         |
+| conditional                      | あったら     | なかったら       |
+| volitional                       | あろう       |                  |
 
 Note: ある has no regular negative forms — negative conjugates as ない (see
 [exceptions](#exceptions)).
 
-- if last kana in stem form is う, あ is not used in the conjugation but わ
-  instead
+- if the dictionary form ends with う, わ is used instead of あ in the
+  negative, passive and causative conjugations
   * examples
     + 買う => 買わない
 - exception of ある
@@ -156,6 +156,9 @@ Note: ある has no regular negative forms — negative conjugates as ない (se
 - te-form conjugation
   * ends with う, つ, る
     + change to って
+    + exception
+      + 問う -> 問うて (past 問うた)
+      + 請う -> 請うて (past 請うた)
   * ends with ぬ, ぶ, む
     + change to んで
   * ends with く
@@ -313,7 +316,7 @@ past verb or predicate before かもしれない (see the table below), e.g.
 
 | Form                | Affirmative  |
 | ---                 | ---          |
-| noun                | 夏の         |
+| noun                | 夏なの       |
 | な-adjective        | 静かなの     |
 | い-adjective        | 高いの       |
 | verb                | 行くの       |
