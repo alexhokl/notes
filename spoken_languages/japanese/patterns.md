@@ -3006,10 +3006,9 @@ ____
 
 - [give to (from giver's perspective)](#give-to-from-giver%27s-perspective)
 - doer + は + receiver + に + object + を + Vてあげる
-- doer + は + receiver の + object + を + Vてあげる
+- doer + は + receiver + の + object + を + Vてあげる
 - doer + は + receiver + を + Vてあげる
-- depending on the verb, sometimes を should be used instead of に
-  * for example 迎える
+- if the verb is sentient, を should be used instead of に
 - 私は山田さんに中国語を教えてあげます。
 - 私は友達に恋人の写真を見せてあげました。
 - 陳さんは友達にコンサートのチケットを買ってあげました。
@@ -3028,8 +3027,9 @@ ____
 - doer + は + speaker's in-group + に + object + を + Vてくれる
 - doer + は + speaker's in-group の + object + を + Vてくれる
 - doer + は + speaker's in-group + を + Vてくれる
-- depending on the verb, sometimes を should be used instead of に
-  * for example 迎える
+- if the verb is sentient, を should be used instead of に
+- usually doer is willingly or proactively offer the work
+- focuses on kindness and the act of giving from the doer
 - 野村さんは私にパソコンの使い方を教えてくれました。
 - 警官(けいかん)は弟と妹に交通規則(こうつうきそく)を説明(せつめい)してくれました。
 - 陳さん、カメラを貸(か)してくれませんか。
@@ -3050,10 +3050,9 @@ ____
 - [receiving](#receiving)
 - receiver + は + doer + に/から + object + を + Vてもらう
 - receiver + は + doer + に/から + Vてもらう
-- usually at the receiver's request or the receiver gains an advantage from the action
+- usually at the receiver's request
+- focuses on receiver's experience and the benefit received
 - if doer is an organisation, から is used instead of に
-- depending on the verb, sometimes を should be used instead of に
-  * for example 迎える, 誘う
 - 姉は田中さんの奥さんにスキヤキの作り方を教えてもらいました。
 - 東京へ行ったとき、友達に東京の町を案内してもらいました。
 - 李さんは野村さんに言葉の意味を説明(せつめい)してもらいました。
