@@ -624,17 +624,17 @@ ____
 ### negative answers with は
 
 - A: thing + を + verb + か。
-  B: いいえ、thing + は + negative form of verb。
+  B: いいえ、thing + は + R- + ません。
   * A: お茶を飲みますか。
     B: いいえ、お茶は飲みません。コーヒーを飲みます。
 
 - A: location + に + verb + か。
-  B: いいえ、location + には + negative form of verb。
+  B: いいえ、location + には + R- + ません。
   * A: 貴方は毎朝バスに乗りますか。
     B: いいえ、バスには乗りません。電車に乗ります。
 
 - A: location + へ + verb + か。
-  B: いいえ、location + へは + negative form of verb。
+  B: いいえ、location + へは + R- + ません。
   * A: 田中さんは毎晩学校へ行きますか。
     B: いいえ、学校へは行きません。図書館へ行きます。
 
@@ -1151,12 +1151,12 @@ ____
 
 ### relative clause (修飾節)
 
-- phrase ends with plain form verb + noun
+- phrase ending with V + noun
   * `あそこで本を読んでいる人`は誰ですか。
   * `アンナさんが今聴いている物`はニュースです。
   * 私は昨日`田中さんがいつも行くレストラン`へ行きました。
     + が is used in the clause
-- noun + の + plain form verb + noun
+- noun + の + V + noun
   * `リサさんの作った料理`はとても美味しいです。
     + が can be used in-place of の
 
@@ -1164,12 +1164,12 @@ ____
 
 - conjugation
 
-| item | affirmative    | negative              |
-| ---  | ---            | ---                   |
-| noun | N + でしょう   | N + ではないでしょう  |
-| Na   | Na + でしょう  | Na + ではないでしょう |
-| A    | A + でしょう   | Aくない + でしょう    |
-| verb | Vる + でしょう | Vない + でしょう      |
+| item | affirmative      | negative                |
+| ---  | ---              | ---                     |
+| noun | noun + でしょう  | noun + ではないでしょう |
+| Na   | Na + でしょう    | Na + ではないでしょう   |
+| A    | A + でしょう     | Aくない + でしょう      |
+| verb | Vる + でしょう   | Vない + でしょう        |
 
 - examples
   * 私は多分雨が降るでしょう。
@@ -1182,7 +1182,7 @@ ____
 
 ### while
 
-- R (sub action) + ながら + ...(main action)
+- R- (sub action) + ながら + ...(main action)
   * 私はいつもテレビを見ながら朝ご飯を食べます。
   * 車を運転しながら携帯電話を使わないでください。
 
@@ -1280,14 +1280,14 @@ ____
 
 ### an action has not been done and cannot be controlled
 
-- thing + が + intransitive Vない/Vません
+- thing + が + intransitive Vない / R- + ません
   * 犬のハチが一歩も動きません。
   * 瓶の蓋が開きません。
   * エアコンがつきません。
 
 ### already and still
 
-- もう + ... + Vた/Vました
+- もう + ... + Vた / R- + ました
 - まだ + ... + Vて + いない
   * もうご飯を食べましたか。
     + はい、もう食べました。
@@ -2084,14 +2084,14 @@ ____
 
 - ... + Vなく + てもいいですか。
   * はい、... + Vなく + てもいい。
-  * いいえ、... + Vな + ければいけない。
+  * いいえ、... + Vなければ + いけない。
   * いいえ、... + Vない + といけません。
     + slightly less formal
   * いいえ、... + Vない + と
     + very casual
-  * いいえ、... + Vな + ければ
+  * いいえ、... + Vなければ
     + casual
-  * いいえ、... + Vな + きゃ
+  * いいえ、... + Vなければ -> Vなきゃ
     + very casual
 - ... + noun + じゃなく + てもいいですか。
   * はい、... + noun + じゃなく + てもいい。
@@ -2125,7 +2125,7 @@ ____
 
 ### a must due to legal or social rules
 
-- Vな + ければならない。
+- Vなければ + ならない。
 - ATMでお金を下ろすとき、暗証番号を入れなければなりません。
 - 日本ではゴミは分別して、捨てなければなりません。香港ではどうですか。
   * 香港もだんだんゴミを分別して捨てるようになっています。
@@ -2267,7 +2267,7 @@ ____
 
 - noun + ではなさそうだ
 - Na + ではなさそうだ
-- Aくな + さそうだ
+- Aくない (replace い with さ) + そうだ
 - R- + そうもない
 - 雨はやみそうもありません。
 - このケーキはおいしくなさそうです。
@@ -2691,12 +2691,12 @@ ____
 - although なら can be used with い-adjective and verb, it is only used with
   affirmative (positive) form of な-adjective and noun for now
 - [conjugations](./conjugations.md)
-  * N/Na + なら
-    + N/Na + であれば (formal)
-  * N/Na + でなければ
+  * noun/Na + なら
+    + noun/Na + であれば (formal)
+  * noun/Na + でなければ
   * Aければ
   * Aくなければ
-  * Vれば
+  * Vば
   * Vなければ
 - casual form
   * あれば -> ありゃ
@@ -2826,7 +2826,7 @@ ____
     + どうか in たらどうか is omitted
     + although ば can be used, たら gives a more personal nuance
 - used more in spoken language
-- polite form such as N/Naでしたら, Vましたら can be used
+- polite form such as noun/Na + でしたら, R- + ましたら can be used
 - (もし)急(いそ)いだら、8時の電車に間に合うでしょう。
 - (もし)この薬を飲んだら、せきはすぐとまると思います。
 - (もし)そんなにたくさん粽(ちまき)を食べたら、おなかを壊しますよ。
@@ -3072,9 +3072,9 @@ ____
 
 ### expressing reasons
 
-- Vて / Aくて / Naで / Nで + natural emotion expression
-- Vて / Aくて / Naで / Nで + outcome or course of events
-- Vて / Aくて / Naで / Nで + natural consequence
+- Vて / Aくて / Na + で / noun + で + natural emotion expression
+- Vて / Aくて / Na + で / noun + で + outcome or course of events
+- Vて / Aくて / Na + で / noun + で + natural consequence
 - 遅(おそ)くなってすみません。
 - 昨日ビールを飲み過ぎて今日は気分が悪いです。
 - 今朝日本の地震のニュースを見てびっくりしました。
@@ -3336,7 +3336,7 @@ ____
 ### to express opinion, conclusion, or guess based on objective situations or grounds
 
 - noun / Na / A / Vる + らしい
-- nounた / Naた / Aかった / Vた + らしい
+- noun + だった / Na + だった / Aかった / Vた + らしい
 - らしい is an adjective
   * similar to そうだ but it is the speaker's own inference, not a claim
     reported from someone else
@@ -3349,7 +3349,7 @@ ____
 ### to express opinion, conclusion, or guess based on information or news from other people
 
 - noun / Na / A / Vる + らしい
-- nounた / Naた / Aかった / Vた + らしい
+- noun + だった / Na + だった / Aかった / Vた + らしい
 - 母の手紙では、国の家族はみんな元気らしいです。
 - 天気予報を見ました。大きい台風が来るらしいです。
 - 北海道はもう寒いらしいです。ストーブを使っていると聞きました。

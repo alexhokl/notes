@@ -371,7 +371,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 # Passive form られる
 
 - pattern
-  * experiencer + は + doer + に + verb (passive form)
+  * experiencer + は + doer + に + Vられる
 - basic examples
   * （私は）蜂に刺された。
 - direct passive
@@ -600,13 +600,13 @@ Note that all other conjugations of 買う use hiragana characters on the
     + I think I will make curry.
       + use of と思う softens the tone
 - to express "let's not do something"
-  * plain negative verb + で + volitional form of おく (〜おこう)
+  * Vない + で + おこう (volitional form of おく)
     + やっぱり動物園には行かないでおこう。
       + Let's actually not go to the zoo.
   * using こと or の with volitional form of やめる (to quit) or よす (to stop)
     + やっぱり動物園に行くのはやめよう。
     + やっぱり動物園に行くのはよそう。
-  * using こと or の with plain negative verb + で + volitional form of おく
+  * using こと or の with Vない + で + おこう (volitional form of おく)
     + やっぱり動物園に行くのはやめておこう。
     + やっぱり動物園に行くのはよしておこう。
 - for guesses or assumptions
@@ -935,7 +935,8 @@ Note that all other conjugations of 買う use hiragana characters on the
     + と indicates that the thing/state/event has reached its ultimate stage,
       and it sounds formal and literary
   * negative patterns
-    + noun/な-adjective/い-adjective + なく + なる
+    + noun/Na + じゃ + なく + なる
+    + Aくなく + なる
     + 人気じゃなくなる
     + 嬉しくなくなる
 - to become
@@ -1191,7 +1192,7 @@ Note that all other conjugations of 買う use hiragana characters on the
 
 - to talk about type of situation experienced in the past
 - patterns
-  * verb in plain past tense + ことがある
+  * Vた + ことがある
 - が can often be omitted in conversations
 - patterns
   * Vた + ことがある

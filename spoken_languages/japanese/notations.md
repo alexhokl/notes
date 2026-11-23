@@ -56,6 +56,21 @@
   * 暑ければ
   * 面白ければ
   * 楽しければ
+- Aくなければ
+  * negative ば-form of an い-adjective
+  * 暑くなければ
+  * 面白くなければ
+  * 楽しくなければ
+- Aくなく
+  * negative く-form of an い-adjective
+  * 暑くなく
+  * 面白くなく
+  * 楽しくなく
+- Aくても
+  * ても-form of an い-adjective
+  * 暑くても
+  * 面白くても
+  * 楽しくても
 - V
   * plain form of a verb
   * 書く
@@ -82,6 +97,27 @@
   * 見た
   * 来た
   * した
+- Vたら
+  * たら-form (conditional) of a verb
+  * 書いたら
+  * 読んだら
+  * 見たら
+  * 来たら
+  * したら
+- Vたり
+  * たり-form of a verb
+  * 書いたり
+  * 読んだり
+  * 見たり
+  * 来たり
+  * したり
+- Vたい
+  * たい-form (desire) of a verb
+  * 書きたい
+  * 読みたい
+  * 見たい
+  * 来たい
+  * したい
 - Vたろう
   * conjectural form of a verb in past tense
   * 書いたろう
@@ -96,6 +132,20 @@
   * 見ない
   * 来ない
   * しない
+- Vなく
+  * く-form of the negative form of a verb
+  * 書かなく
+  * 読まなく
+  * 見なく
+  * 来なく
+  * しなく
+- Vなければ
+  * negative ば-form of a verb
+  * 書かなければ
+  * 読まなければ
+  * 見なければ
+  * 来なければ
+  * しなければ
 - Vて
   * て-form of a verb
   * 書いて
@@ -103,6 +153,13 @@
   * 見て
   * 来て
   * して
+- Vても
+  * ても-form of a verb
+  * 書いても
+  * 読んでも
+  * 見ても
+  * 来ても
+  * しても
 - Vば
   * ば-form of a verb
   * 書けば
@@ -138,3 +195,16 @@
   * 見させる
   * 来させる
   * させる
+- Vさせられる
+  * causative-passive form of a verb
+  * 書かせられる
+  * 読ませられる
+  * 見させられる
+  * 来させられる
+  * させられる
+- Vされる
+  * shortened causative-passive form of a 五段 verb not ending in す
+  * 書かされる
+  * 読まされる
+  * 待たされる
+  * 飲まされる

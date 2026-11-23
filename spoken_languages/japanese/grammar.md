@@ -574,9 +574,9 @@ ____
     + 朝食前
     + 朝食の後
     + 朝食後
-  * verb in plain non-past tense + 前
+  * Vる + 前
     + 朝ごはんを食べる前に、着替えます。
-  * verb in plain past tense + 後
+  * Vた + 後
     + 朝ごはんを食べた後に、歯を磨いた。
   * space
     + に pinpoints a location

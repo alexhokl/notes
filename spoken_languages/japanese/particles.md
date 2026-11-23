@@ -442,7 +442,7 @@ ____
     + 午後
     + time quantifier + 前
       + 二年前
-    + action (verb in plain form) + 前
+    + Vる (action) + 前
       + 出掛ける前
   * に is optional
     + time reference + 時
@@ -990,7 +990,7 @@ ____
     + 野菜`や`果物`や`肉を買いました。 - I bought vegetables, fruits, meat, etc.
     + 野菜`とか`果物`とか`肉を買いました。 - I bought vegetables, fruits, meat,
       etc.
-- noun phrase + や + noun phrase
+- NP + や + NP
   * examples
     + 私は本を読むこと`や`音楽を聴くことが好きだ。 - I like things like reading
       books and listening to music.
@@ -1638,7 +1638,7 @@ ____
 - focuses on quantity
 - conjugation
   * noun + しか
-  * verb in plain form + しか
+  * V + しか
 - used in both written and spoken Japanese
 - 私はローマ字しか読めない。
   * I can only read romaji.

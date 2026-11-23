@@ -498,7 +498,7 @@ ____
 ## if or when
 
 - A- + ければ
-- Aくな + ければ
+- Aくなければ
 - おいしければ、売れるでしょう。
 - usages
   * general truths
