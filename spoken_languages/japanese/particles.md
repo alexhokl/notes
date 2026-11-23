@@ -1675,10 +1675,11 @@ ____
 ### さえ
 
 - meaning
-  * only
+  * only or as long as
     + when it is used in a condition
     + 君さえいれば、ほかに何もいらない。
       + If only you’re here, I don’t need anything else.
+    + お金さえあれば、なるべく早く辞めたいです。
   * even
     + when it is not used in a condition
     + １２月でさえ暖かった。
