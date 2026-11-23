@@ -88,6 +88,16 @@ When the meaning of the word has an indication of "Usually written using kana al
 the entry should be represented by kana and the kanji should be presented at the
 end of the English meaning as "; aka <kanji>".
 
+## Sentence Structures
+
+When writing sentence structures (for example in `patterns.md`), use the
+placeholders defined in `notations.md`, such as `noun`, `NP`, `Na`, `A`,
+`Aい`, `Aくて`, `R-`, `Vる`, `Vた`, `Vて` and `Vない`, joined with ` + `.
+Pick the most specific placeholder for the required form (for example `Vて`
+rather than `V` when the て-form is required). If a needed form is not
+defined, add it to `notations.md` in the same format (notation, description,
+then examples) rather than inventing an undocumented placeholder.
+
 ## Git commit
 
 For changes in `vocabulary.md`, use the following commit message with any
