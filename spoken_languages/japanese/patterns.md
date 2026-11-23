@@ -3072,9 +3072,11 @@ ____
 
 ### expressing reasons
 
-- Vて / Aくて / Na + で / noun + で + natural emotion expression
-- Vて / Aくて / Na + で / noun + で + outcome or course of events
-- Vて / Aくて / Na + で / noun + で + natural consequence
+- Vて / Aくて / Na + で / noun + で + expression
+  * where expression is either
+    + a natural emotion expression
+    + an outcome or course of events
+    + a natural consequence
 - 遅(おそ)くなってすみません。
 - 昨日ビールを飲み過ぎて今日は気分が悪いです。
 - 今朝日本の地震のニュースを見てびっくりしました。
