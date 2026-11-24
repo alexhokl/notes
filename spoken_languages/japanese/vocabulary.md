@@ -982,7 +982,7 @@ ____
 - 苦い (にがい) - bitter
 - 眠い (ねむい) - sleepy; drowsy (aka 睡い)
 - 恥ずかしい (はずかしい) - embarrassed; ashamed; humiliated
-- ひどい - cruel; harsh; violent; very bad; terrible; excessive
+- ひどい - cruel; harsh; violent; very bad; terrible; excessive; aka 酷い
 - 珍しい (めずらしい) - rare
 - 優しい (やさしい) - gentle; kind
 - 柔らかい (やわらかい) - soft; tender; gentle; aka 軟らかい
