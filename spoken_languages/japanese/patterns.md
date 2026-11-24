@@ -216,7 +216,7 @@
     + [someone doing something for the speaker's in-group](#someone-doing-something-for-the-speaker%27s-in-group)
     + [someone got some service from someone else](#someone-got-some-service-from-someone-else)
     + [asking for a service](#asking-for-a-service)
-    + [expressing reasons](#expressing-reasons)
+    + [cause and its natural result](#cause-and-its-natural-result)
     + [even though](#even-though)
     + [condition and consequences (unexpected and surprise) in the past](#condition-and-consequences-unexpected-and-surprise-in-the-past)
     + [ask for instruction or advice for speaker's action](#ask-for-instruction-or-advice-for-speaker%27s-action)
@@ -3070,7 +3070,7 @@ ____
 - 写真を撮ってもらえますか。
 - 写真を撮っていただけますか。
 
-### expressing reasons
+### cause and its natural result
 
 - Vて / Aくて / Na + で / noun + で + expression
   * where expression is either
