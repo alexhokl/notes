@@ -218,14 +218,14 @@
     + [asking for a service](#asking-for-a-service)
     + [cause and its natural result](#cause-and-its-natural-result)
     + [even though](#even-though)
-    + [condition and consequences (unexpected and surprise) in the past](#condition-and-consequences-unexpected-and-surprise-in-the-past)
+    + [when (for unexpected and surprise in the past)](#when-for-unexpected-and-surprise-in-the-past)
     + [ask for instruction or advice for speaker's action](#ask-for-instruction-or-advice-for-speaker%27s-action)
     + [polite way of asking](#polite-way-of-asking)
     + [expressing hope or wish](#expressing-hope-or-wish)
   * [Chapter 21](#chapter-21)
+    + [simple passive voice (human or animal as subject)](#simple-passive-voice-human-or-animal-as-subject)
+    + [simple passive voice involving a quote](#simple-passive-voice-involving-a-quote)
     + [human or animal subject being affected](#human-or-animal-subject-being-affected)
-    + [human or animal subject being affected by a request or question](#human-or-animal-subject-being-affected-by-a-request-or-question)
-    + [human or animal subject being affected](#human-or-animal-subject-being-affected-1)
     + [victim or affected person/animal as the subject (intransitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-intransitive-verb)
     + [victim or affected person/animal as the subject (transitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-transitive-verb)
     + [non-sentient subject being affected](#non-sentient-subject-being-affected)
@@ -3128,7 +3128,7 @@ ____
   * ⭕️大雨が降っていますが、私は出かけます。
   * ⭕️大雨が降っていても、私は出かけます。
 
-### condition and consequences (unexpected and surprise) in the past
+### when (for unexpected and surprise in the past)
 
 - [たら](./particles.md#%E3%81%9F%E3%82%89)
 - ... + たら、 + ... + た。
@@ -3143,11 +3143,12 @@ ____
 - 友達に手紙を出したら、すぐ返事が来ました。
 - うちへ帰ったら、手紙が来ていました。
 - ⭕️屋上に上がったら、富士山が見えました。
-  * ❌屋上に上がったら、富士山を見ました。
+  * ❌屋上に上がったら、富士山を見ました。 (not something unexpected)
 
 ### ask for instruction or advice for speaker's action
 
 - question word + Vたら + いいですか / いいでしょうか。
+  * ... + Vたら + いいですよ。
 - 入管へ行きたいんですが、どう行ったらいいでしょうか。
   * この道をまっすぐに行ったらいいですよ。
 - この機械(きかい)を使いたいんですが、どうしたらいいでしょうか。
@@ -3157,7 +3158,6 @@ ____
 - 東京タワーへ行きたいんですが、どこで降りたらいいですか。
   * 御成門(おなりもん)駅で降りたらいいですよ。
 - 定期券(ていきけん)を落(お)としてしまったのですが、どうしたらいいですか。
-- 定期券を落としてしまったのですが、どうしたらいいでしょうか。
 - 財布を落としてしまったのですが、どうしたらいいですか。
   * 交番に行ったらいいですよ。
   * 交番に行ったらいいと思いますよ。
@@ -3172,7 +3172,7 @@ ____
 - noun / Na / A / V + でしょうか。
 - 今何時でしょうか。
   * 6時半です。
-- 日本留学試験の願書はいつからもらえるでしょうか。
+- 日本留学試験の願書(がんしょ)はいつからもらえるでしょうか。
   * 明日からもらえますよ。
 - 先に帰ってもいいでしょうか。
   * ええ、いいですよ。
@@ -3191,47 +3191,38 @@ ____
 
 ## Chapter 21
 
-### human or animal subject being affected
+### simple passive voice (human or animal as subject)
 
-- A + は + B + を + V (transitive verb) -> B は + A + に + Vられる (passive verb)
-- その犬は私を追(お)いかけました。
-  * 私はその犬に追いかけられました。
-- 先生は私をしかりました。
-  * 私は先生にしかられました。
-- 警察官はあの容疑者(ようぎしゃ)をいろいろ調べました。
-  * あの容疑者は警察官にいろいろ調べられました。
-- お母さんは毎朝あやちゃんを起こします。
-  * あやちゃんは毎朝お母さんに起こされます。
-- 両親は私をかわいがっています。
-  * 私は両親にかわいがられています。
-- 友達は私を映画に誘(さそ)いました。
-  * 私は友達に映画に誘われました。
-- 私は友達を映画に誘いました。
-  * ❌友達は私に映画に誘われました。 (doer cannot be the speaker)
-- 私は子供をほめました。
-  * ❌子供は私にほめられました。 (doer cannot be the speaker)
-- 先生は私をほめました。
-  * 私は先生にほめられました。
+- B は + A + に + Vられる
+- B は + A + に + object + Vられる
+- from transitive verb
+- 私はその犬に追(お)いかけられました。
+- 私は先生にしかられました。
+- あの容疑者(ようぎしゃ)は警察官(けいさつかん)にいろいろ調べられました。
+- あやちゃんは毎朝お母さんに起こされます。
+- 私は両親にかわいがられています。
+- 私は友達に映画に誘(さそ)われました。
+- ❌友達は私に映画に誘われました。 (doer cannot be the speaker)
+- ❌子供は私にほめられました。 (doer cannot be the speaker)
+- 私は先生にほめられました。
+- 私は先生に難しい質問をされました。
+- 昨日、私は外国人に道を聞かれました。
 
-### human or animal subject being affected by a request or question
+### simple passive voice involving a quote
 
-- A + は + B + に + 「...」 + と + V (transitive verb) -> B は + A + に + 「...」 + と + Vられる (passive verb)
-- A + は + B + に + object + V (transitive verb) -> B は + A + に + object + Vられる (passive verb)
+- A + は + B + に + 「...」 + と + V (transitive verb)
+  * -> B は + A + に + 「...」 + と + Vられる
 - 田中さんは佐藤さんに「仕事を手伝ってください。」と頼(たの)みました。
   * 佐藤さんは田中さんに「仕事を手伝ってください。」と頼まれました。
 - 先生はラヒムさんに「字をきれいに書いてください。」と注意しました。
   * ラヒムさんは先生に「字をきれいに書いてください。」と注意されました。
-- 先生は私に難しい質問をしました。
-  * 私は先生に難しい質問をされました。
-- 昨日、外国人が私に道を聞きました。
-  * 昨日、私は外国人に道を聞かれました。
 - 父は私に「すぐ国へ帰りなさい。」と言いました。
   * 私は父に「すぐ国へ帰りなさい。」と言われました。
 
 ### human or animal subject being affected
 
 - A + は + B + の + all things / part of body of B + を + V (transitive verb)
-  -> B は + A + に + all things / part of body of B + を + Vられる (passive verb)
+  * -> B は + A + に + all things / part of body of B + を + Vられる
 - その犬は郵便屋(ゆうびんや)さんの手をかみました。
   * 郵便屋さんはその犬に手をかまれました。
 - 誰かが私のキャッシュカードを取りました。
