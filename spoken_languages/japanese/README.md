@@ -51,6 +51,7 @@ ____
 - [Vocabulary](./vocabulary.md)
 - [Conjugations](./conjugations.md)
 - [Keyboard](./keyboard.md)
+- [Cuts of meat](./meat_cuts.md)
 - [Hiragana list](https://www.nhk.or.jp/lesson/en/letters/hiragana.html)
 - [Katakana list](https://www.nhk.or.jp/lesson/en/letters/katakana.html)
 - [Kana quiz](https://kana-quiz.tofugu.com/)
