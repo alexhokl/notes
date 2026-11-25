@@ -1906,6 +1906,7 @@ ____
   sympathies); to complain; to sue (a person); to take someone to court; to
   resort to (e.g. arms, violence)
 - 描く (えがく) - to draw; to paint
+- 追う (おう) - to chase; to run after; to pursue; to follow after
 - 贈る (おくる) - to give; to present; to award
 - 恐れる (おそれる) - to fear; to be afraid of
 - 飼う (かう) - to keep (a pet or other animal); to raise; to feed
@@ -1954,6 +1955,7 @@ ____
 
 ### verb (intransitive)
 
+- 当たる (あたる) - to be hit; to strike
 - かまう - to mind; to care about; to look after; aka 構う
 - 対する (たいする) - to face (each other); to be facing; regarding; towards
 - 黙る (だまる) - to be silent; to say nothing
