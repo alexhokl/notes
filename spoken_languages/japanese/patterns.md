@@ -225,10 +225,9 @@
   * [Chapter 21](#chapter-21)
     + [simple passive voice (sentient subject)](#simple-passive-voice-sentient-subject)
     + [simple passive voice involving a quote](#simple-passive-voice-involving-a-quote)
-    + [sentient subject being affected](#sentient-subject-being-affected)
-    + [victim or affected sentient being as the subject (intransitive verb)](#victim-or-affected-sentient-being-as-the-subject-intransitive-verb)
-    + [victim or affected sentient being as the subject (transitive verb)](#victim-or-affected-sentient-being-as-the-subject-transitive-verb)
-    + [non-sentient subject being affected](#non-sentient-subject-being-affected)
+    + [things belong to sentient subject being affected](#things-belong-to-sentient-subject-being-affected)
+    + [sentient subject being adversely affected where the action does not meant to do harm](#sentient-subject-being-adversely-affected-where-the-action-does-not-meant-to-do-harm)
+    + [objective statement with non-sentient subject](#objective-statement-with-non-sentient-subject)
     + [to convey the content of a command, instruction, or advice](#to-convey-the-content-of-a-command%2C-instruction%2C-or-advice)
     + [to express opinion, conclusion, or guess based on objective situations or grounds](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations-or-grounds)
     + [to express opinion, conclusion, or guess based on information or news from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-information-or-news-from-other-people)
@@ -3210,8 +3209,9 @@ ____
 
 ### simple passive voice involving a quote
 
-- A + は + B + に + 「...」 + と + V (transitive verb)
+- A + は + B + に + 「...」 + と + V
   * -> B は + A + に + 「...」 + と + Vられる
+- from transitive verb
 - 田中さんは佐藤さんに「仕事を手伝ってください。」と頼(たの)みました。
   * 佐藤さんは田中さんに「仕事を手伝ってください。」と頼まれました。
 - 先生はラヒムさんに「字をきれいに書いてください。」と注意しました。
@@ -3219,10 +3219,11 @@ ____
 - 父は私に「すぐ国へ帰りなさい。」と言いました。
   * 私は父に「すぐ国へ帰りなさい。」と言われました。
 
-### sentient subject being affected
+### things belong to sentient subject being affected
 
-- A + は + B + の + all things / part of body of B + を + V (transitive verb)
-  * -> B は + A + に + all things / part of body of B + を + Vられる
+- A + は + B + の + things belong to B + を + V
+  * -> B は + A + に + things belong to B + を + Vられる
+- from transitive verb
 - その犬は郵便屋(ゆうびんや)さんの手をかみました。
   * 郵便屋さんはその犬に手をかまれました。
 - 誰かが私のキャッシュカードを取りました。
@@ -3237,51 +3238,35 @@ ____
 - 隣の人がピアノを弾くと、私はうるさくて勉強できません。
   * (私は)隣の人にピアノを弾かれると、うるさくて勉強できません。
 
-### victim or affected sentient being as the subject (intransitive verb)
+### sentient subject being adversely affected where the action does not meant to do harm
 
-- (A + は +) B + に + Vられて、...
-- 今朝は突然(とつぜん)雨が降りました。(私は困りました。)
+- from intransitive verb
+  * (A + は +) B + に + Vられて、...
   * (私は)今朝は突然雨に降られて、困りました。
-- 好きな女の子はほかの人と結婚しました。(私は落ち込んでいます。)
   * (私は)好きな女の子にほかの人と結婚されて、落ち込んでいます。
-- 試験の前の日、友達が来ました。(私は勉強できませんでした。)
   * 試験の前の日、(私は)友達に来(こ)られて、勉強できませんでした。
-- 山田さんの妻(つま)が去年死にました。(山田さんは悲しかったです。)
   * 山田さんは去年妻に死なれて、悲(かな)しかったです。
-- 友達が私の家に一週間もいました。(私は困りました。)
   * (私は)友達に家に一週間もいられて、困りました。
-- 雨が降ったので、私は困りました。
-  * (私は)雨に降られて、困りました。
-
-### victim or affected sentient being as the subject (transitive verb)
-
-- (A + は +) B + に + object + を + Vられて、...
-- 隣の人がピアノを弾いています。(私はうるさくて勉強できません。)
+- from transitive verb
+  * (A + は +) B + に + object + を + Vられて、...
   * (私は)隣の人にピアノを弾かれて、うるさくて勉強できません。
-- ゆうべ弟はテレビゲームをしました。(私は寝られませんでした。)
   * (私は)ゆうべ弟にテレビゲームをされて、寝られませんでした。
-- 隣の人がたばこを吸っています。(私は気分が悪くなりました。)
   * (私は)隣の人にたばこを吸われて、気分が悪くなりました。
-- 兄は私のケーキを食べてしまいました。
   * (私は)兄にケーキを食べられてしまいました。
-- うちの前に(誰かに)高いビルを建てられて、日が当たらなくなりました。
-  * ❌うちの前に高いビルに建てられて、日が当たらなくなりました。
+  * うちの前に(誰かに)高いビルを建てられて、日が当たらなくなりました。
+    + ❌うちの前に高いビルに建てられて、日が当たらなくなりました。 (the tall
+      building does not build itself)
 
-### non-sentient subject being affected
+### objective statement with non-sentient subject
 
 - to state public or social matters objectively
 - B + は + A + を + V (transitive verb)
   -> A + が + Vられる (passive verb) when B is unstated, unknown or general
-  * 2024年にパリでオリンピック大会を開きました。
-    + 2024年にパリでオリンピック大会が開かれました。
-  * 地方ではいろいろな伝統行事を行っています。
-    + 地方ではいろいろな伝統(でんとう)行事(ぎょうじ)が行(おこな)われています。
-  * 三百年ぐらい前にこの神社を建てました。
-    + 三百年ぐらい前にこの神社が建てられました。
-  * 中国の工場で日本の電子機器を組み立てています。
-    + 中国の工場で日本の電子機器が組(く)み立(た)てられています。
-  * 毎年三月に卒業式(そつぎょうしき)を行(おこな)います。
-    + 毎年三月に卒業式が行われます。
+  * 2024年にパリでオリンピック大会が開かれました。
+  * 地方(ちほう)ではいろいろな伝統(でんとう)行事(ぎょうじ)が行(おこな)われています。
+  * 三百年ぐらい前にこの神社が建てられました。
+  * 中国の工場で日本の電子機器が組(く)み立(た)てられています。
+  * 毎年三月に卒業式(そつぎょうしき)が行(おこな)われます。
 - B + は + A + を + V (transitive verb)
   -> A + は + B + に + Vられる (passive verb) when B is a person or a group of
      people doing an ordinary action
@@ -3302,7 +3287,7 @@ ____
   -> A + は + B + から + Vられる (passive verb) when B is an organisation or
      the source of an announcement or notice
   * トヨタは新型車を発売しました。
-    + トヨタから新型車が発売されました。
+    + トヨタから新型車が発売(はつばい)されました。
 - X + から + Y + を + 作る
   -> Y + は + X + から + 作られる (X is the raw material which changes form;
      から is carried over unchanged and does not mark the agent)
