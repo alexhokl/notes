@@ -223,11 +223,11 @@
     + [polite way of asking](#polite-way-of-asking)
     + [expressing hope or wish](#expressing-hope-or-wish)
   * [Chapter 21](#chapter-21)
-    + [simple passive voice (human or animal as subject)](#simple-passive-voice-human-or-animal-as-subject)
+    + [simple passive voice (sentient subject)](#simple-passive-voice-sentient-subject)
     + [simple passive voice involving a quote](#simple-passive-voice-involving-a-quote)
-    + [human or animal subject being affected](#human-or-animal-subject-being-affected)
-    + [victim or affected person/animal as the subject (intransitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-intransitive-verb)
-    + [victim or affected person/animal as the subject (transitive verb)](#victim-or-affected-person%2Fanimal-as-the-subject-transitive-verb)
+    + [sentient subject being affected](#sentient-subject-being-affected)
+    + [victim or affected sentient being as the subject (intransitive verb)](#victim-or-affected-sentient-being-as-the-subject-intransitive-verb)
+    + [victim or affected sentient being as the subject (transitive verb)](#victim-or-affected-sentient-being-as-the-subject-transitive-verb)
     + [non-sentient subject being affected](#non-sentient-subject-being-affected)
     + [to convey the content of a command, instruction, or advice](#to-convey-the-content-of-a-command%2C-instruction%2C-or-advice)
     + [to express opinion, conclusion, or guess based on objective situations or grounds](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations-or-grounds)
@@ -3191,7 +3191,7 @@ ____
 
 ## Chapter 21
 
-### simple passive voice (human or animal as subject)
+### simple passive voice (sentient subject)
 
 - B は + A + に + Vられる
 - B は + A + に + object + Vられる
@@ -3219,7 +3219,7 @@ ____
 - 父は私に「すぐ国へ帰りなさい。」と言いました。
   * 私は父に「すぐ国へ帰りなさい。」と言われました。
 
-### human or animal subject being affected
+### sentient subject being affected
 
 - A + は + B + の + all things / part of body of B + を + V (transitive verb)
   * -> B は + A + に + all things / part of body of B + を + Vられる
@@ -3237,7 +3237,7 @@ ____
 - 隣の人がピアノを弾くと、私はうるさくて勉強できません。
   * (私は)隣の人にピアノを弾かれると、うるさくて勉強できません。
 
-### victim or affected person/animal as the subject (intransitive verb)
+### victim or affected sentient being as the subject (intransitive verb)
 
 - (A + は +) B + に + Vられて、...
 - 今朝は突然(とつぜん)雨が降りました。(私は困りました。)
@@ -3253,7 +3253,7 @@ ____
 - 雨が降ったので、私は困りました。
   * (私は)雨に降られて、困りました。
 
-### victim or affected person/animal as the subject (transitive verb)
+### victim or affected sentient being as the subject (transitive verb)
 
 - (A + は +) B + に + object + を + Vられて、...
 - 隣の人がピアノを弾いています。(私はうるさくて勉強できません。)
