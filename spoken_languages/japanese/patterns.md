@@ -229,8 +229,7 @@
     + [sentient subject being adversely affected where the action does not meant to do harm](#sentient-subject-being-adversely-affected-where-the-action-does-not-meant-to-do-harm)
     + [objective statement with non-sentient subject](#objective-statement-with-non-sentient-subject)
     + [to convey the content of a command, instruction, or advice](#to-convey-the-content-of-a-command%2C-instruction%2C-or-advice)
-    + [to express opinion, conclusion, or guess based on objective situations or grounds](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations-or-grounds)
-    + [to express opinion, conclusion, or guess based on information or news from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-information-or-news-from-other-people)
+    + [to express opinion, conclusion, or guess based on objective situations, grounds, or information from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations%2C-grounds%2C-or-information-from-other-people)
     + [a more casual way of saying is not](#a-more-casual-way-of-saying-is-not)
   * [Chapter 22](#chapter-22)
     + [a superior compels a subordinate to do something](#a-superior-compels-a-subordinate-to-do-something)
@@ -3298,45 +3297,45 @@ ____
 
 - Vる/Vない + ように + (と) + ...
 - 医者に野菜をたくさん食べるようにと言われました。
-- 会社を休むときは、必ず電話で連絡するようにと課長に注意されました。
+- 会社を休むときは、必(かなら)ず電話で連絡するようにと課長(かちょう)に注意されました。
 - 子どもの時、よく先生に字をきれいに書くようにと言われました。
-- 先生は発表の時は大きい声で話すようにと生徒に言いました。
-- 先生は生徒に一週間でひらがなを全部覚えるようにと要求しました。
-- 政府は運転するなら、お酒を飲まないようにと呼びかけています。
+- 先生は発表(はっぴょう)の時は大きい声で話すようにと生徒(せいと)に言いました。
+- 先生は生徒に一週間でひらがなを全部覚えるようにと要求(ようきゅう)しました。
+- 政府は運転(うんてん)するなら、お酒を飲まないようにと呼びかけています。
 - 寝坊をしないようにと何回も注意していたのに、息子は今朝また授業(じゅぎょう)に遅(おく)れました。
 - 初めて1人で外国旅行をする息子にパスポートをなくさないように、何度も注意しました。
 - 先生は学生に日本語で話すようにと言いました。
 - 医者は田中さんにたばこを吸い過ぎないようにと言いました。
 - 私は弟に早くうちへ帰るように言いました。
-- ⭕️私は先生にゆっくり話してくれるように(と)頼みました。
+- ⭕️私は先生にゆっくり話してくれるように(と)頼(たの)みました。
   * ❌私は先生にゆっくり話すように(と)頼みました。 (as it commands the teacher)
 - ⭕️先生は春子さんに宿題を忘れないようにと言いました。
   * ❌先生は春子さんに宿題を忘れてはいけないようにと言いました。 (てはいけない duplicates ようにと)
   * ⭕️先生は春子さんに宿題を忘れてはいけないと言いました。
 
-### to express opinion, conclusion, or guess based on objective situations or grounds
+### to express opinion, conclusion, or guess based on objective situations, grounds, or information from other people
 
 - noun / Na / A / Vる + らしい
 - noun + だった / Na + だった / Aかった / Vた + らしい
 - らしい is an adjective
-  * similar to そうだ but it is the speaker's own inference, not a claim
-    reported from someone else
-- あのレストランはおいしいらしいよ。いつも客がいっぱいいるから。
-- 道を歩いている人は傘をさしていません。雨はもうやんだらしいです。
-- あの仕事は大変らしいです。みんなやりたくないと言っています。
-- 病院は風邪を引いている人で込んでいます。風邪がはやっているらしいです。
-- 道がぬれています。ゆうべ雨が降ったらしいです。
-
-### to express opinion, conclusion, or guess based on information or news from other people
-
-- noun / Na / A / Vる + らしい
-- noun + だった / Na + だった / Aかった / Vた + らしい
-- 母の手紙では、国の家族はみんな元気らしいです。
-- 天気予報を見ました。大きい台風が来るらしいです。
-- 北海道はもう寒いらしいです。ストーブを使っていると聞きました。
-- 新聞で読みましたが、この新しい薬は副作用(ふくさよう)が強くてあまりよくないらしいです。
-- あの人はすしを食べません。すしが嫌(きら)いらしいです。
-- あの人はマリアさんの恋人らしいです。いつも二人は一緒にいます。
+- the basis can be
+  * objective situations or grounds observed by the speaker
+  * information or news from other people
+- unlike そうだ (hearsay), らしい expresses the speaker's own inference or a
+  less direct, less certain report
+- based on objective situations or grounds
+  * あのレストランはおいしいらしいよ。いつも客がいっぱいいるから。
+  * 道を歩いている人は傘をさしていません。雨はもうやんだらしいです。
+  * あの仕事は大変らしいです。みんなやりたくないと言っています。
+  * 病院は風邪を引いている人で込んでいます。風邪がはやっているらしいです。
+  * 道がぬれています。ゆうべ雨が降ったらしいです。
+- based on information or news from other people
+  * 母の手紙では、国の家族はみんな元気らしいです。
+  * 天気予報を見ました。大きい台風が来るらしいです。
+  * 北海道はもう寒いらしいです。ストーブを使っていると聞きました。
+  * 新聞で読みましたが、この新しい薬は副作用(ふくさよう)が強くてあまりよくないらしいです。
+  * あの人はすしを食べません。すしが嫌(きら)いらしいです。
+  * あの人はマリアさんの恋人らしいです。いつも二人は一緒にいます。
 
 ### a more casual way of saying is not
 
