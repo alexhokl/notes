@@ -1583,6 +1583,7 @@ ____
 - ころ - (approximate) time; aka 頃
 - 境 (さかい) - border; boundary
 - 桜 (さくら) - cherry blossom
+- 札 (さつ) - banknote; bill; note; paper money
 - 支払い (しはらい) - payment
 - 集団 (しゅうだん) - group; mass
 - 首相 (しゅしょう) - prime minister; chancellor
@@ -2245,6 +2246,7 @@ ____
 - 映す (うつす) - to project; to reflect; to cast (shadow)
 - 教わる (おそわる) - to be taught; to learn (from someone); to take lessons in
 - 可愛がる (かわいがる) - to be affectionate to; to cherish; to show favoritism to
+- 着せる (きせる) - to put clothes on (someone); to dress; to clothe
 - 蹴る (ける) - to kick; to refuse
 - 探る (さぐる) - to feel around for; to grope for
 - 締め切る (しめきる) - to close up; to shut up (e.g. behind doors); to cut off
