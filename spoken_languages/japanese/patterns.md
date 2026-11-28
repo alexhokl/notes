@@ -230,11 +230,11 @@
     + [objective statement with non-sentient subject](#objective-statement-with-non-sentient-subject)
     + [to convey the content of a command, instruction, or advice](#to-convey-the-content-of-a-command%2C-instruction%2C-or-advice)
     + [to express opinion, conclusion, or guess based on objective situations, grounds, or information from other people](#to-express-opinion%2C-conclusion%2C-or-guess-based-on-objective-situations%2C-grounds%2C-or-information-from-other-people)
-    + [a more casual way of saying is not](#a-more-casual-way-of-saying-is-not)
+    + [a more casual way of saying no](#a-more-casual-way-of-saying-no)
   * [Chapter 22](#chapter-22)
-    + [a superior compels a subordinate to do something](#a-superior-compels-a-subordinate-to-do-something)
-    + [a superior grants permission or favors to a subordinate to do something](#a-superior-grants-permission-or-favors-to-a-subordinate-to-do-something)
-    + [a person's actions or circumstances can trigger emotional responses in others](#a-person%27s-actions-or-circumstances-can-trigger-emotional-responses-in-others)
+    + [someone compels another to do something](#someone-compels-another-to-do-something)
+    + [someone grants permission or favors to another to do something](#someone-grants-permission-or-favors-to-another-to-do-something)
+    + [someone's actions or circumstances can trigger emotional responses in others](#someone%27s-actions-or-circumstances-can-trigger-emotional-responses-in-others)
     + [to be made to do something by someone (in a negative sense)](#to-be-made-to-do-something-by-someone-in-a-negative-sense)
     + [changing one state to another](#changing-one-state-to-another)
     + [doing something for the first time or last time](#doing-something-for-the-first-time-or-last-time)
@@ -3337,96 +3337,72 @@ ____
   * あの人はすしを食べません。すしが嫌(きら)いらしいです。
   * あの人はマリアさんの恋人らしいです。いつも二人は一緒にいます。
 
-### a more casual way of saying is not
+### a more casual way of saying no
 
 - ではありません -> じゃありません
 - 試験は今日じゃありません。明日です。
 
 ## Chapter 22
 
-### a superior compels a subordinate to do something
+### someone compels another to do something
 
 - [conjugation](./conjugations.md)
-- A + は + B + を + Vさせる (transitive or intransitive base verbs)
-- A + は + B + に + object + を + Vさせる (transitive base verbs)
-- (先生が宿題を忘れた学生に) 「山田君、廊下(ろうか)に立ちなさい。」
-  * 先生は山田君を廊下に立たせました。
-- (父が弟に)「もう風邪が治ったから遊んでいないで学校へ行きなさい。」
-  * 父は弟を学校へ行かせました。
-- (社長が近藤(こんどう)さんに)「横浜支社(ししゃ)へ行ってください。」
-  * 社長は仕事で近藤さんを横浜支社へ行かせました。
-- (お父さんが子供に) 「世(よ)の中のことを知るために毎日本を読みなさい。」
-  * お父さんは子供に本を読ませています。
-- (先生が学生に)「図書館で江戸時代の歴史を調べてください。」
-  * 先生は学生に図書館で江戸時代の歴史を調べさせました。
-- (田中さんが娘さんに) 「高校を出てから、大学で法律(ほうりつ)の勉強をしなさい。」
-  * 田中さんは娘さんに大学で法律の勉強をさせるつもりだそうです。
+- A + は + B + を + Vさせる (transitive or intransitive based verbs)
+- A + は + B + に + object + を + Vさせる (transitive based verbs)
+- 先生は山田君を廊下(ろうか)に立たせました。
+- 父は弟を学校へ行かせました。
+- 社長は仕事で近藤さんを横浜支社(ししゃ)へ行かせました。
+- お父さんは子供に本を読ませています。
+- 先生は学生に図書館で江戸時代の歴史(れきし)を調べさせました。
+- 田中さんは娘さんに大学で法律(ほうりつ)の勉強をさせるつもりだそうです。
 - 先生がいくつか質問して、学生たちに答えさせました。
 - 父は私に弟を待たせました。
 - 先生は私に新聞を読ませました。
 - 父は兄を銀行へ行かせました。
+- 小さい子供には安全な道を通(とお)らせた方がいいですよ。
 
-### a superior grants permission or favors to a subordinate to do something
+### someone grants permission or favors to another to do something
 
 - [conjugation](./conjugations.md)
-- A + は + B + を + Vさせる (transitive or intransitive base verbs)
-- A + は + B + に + object + を + Vさせる (transitive base verbs)
-- (店長が私に)「今日は3時に帰ってもいいよ。」
-  * 店長は私を三時に帰らせました。
-- 兄:「香港へ留学したいんだけど、行ってもいい?」 父: 「いいよ。」
-  * 父は兄を香港へ留学させました。
-- 母: もう運動をしてもいいでしょうか。
-  * 医者: しばらくの間お子さんに運動をさせないでください。
-    + 母: はい、わかりました。
-- (母が私たちに)「好きな本を選んでもいいよ。」
-  * 母は私たちに好きな本を選ばせてくれました。
-- ❌私は先生に作文を直させました。
+- A + は + B + を + Vさせる (transitive or intransitive based verbs)
+- A + は + B + に + object + を + Vさせる (transitive based verbs)
+- 店長は私を三時に帰らせました。
+- 父は兄を香港へ留学させました。
+- 医者: しばらくの間お子さんに運動をさせないでください。
+- 母は私たちに好きな本を選ばせてくれました。
+- ❌私は先生に作文を直させました。 (teacher does not need permission nor be commanded)
   * ⭕️私は先生に作文を直してもらいました。
 - 私は犬に公園の中を走らせました。
-- 小さい子供には安全な道を通らせた方がいいですよ。
 - ボーイフレンドは私を待たせました。
 - お母さんは子供の顔がとても汚いので、子供に鏡(かがみ)を見させました。
-  * お母さんは子供に鏡を見せました。
 - 母は妹に私の古い着物を着させました。
-  * 母は妹に私の古い着物を着せました。
 
-### a person's actions or circumstances can trigger emotional responses in others
+### someone's actions or circumstances triggers emotional responses in others
 
 - [conjugation](./conjugations.md)
-- A + は + B + を + Vさせる (transitive or intransitive base verbs)
-- A + は + B + に + object + を + Vさせる (transitive base verbs)
-- 弟は病気をしました。両親は心配しました。
-  * 弟は病気をして、両親を心配させました。
-- 李君はタバコを吸いました。先生は怒(おこ)りました。
-  * 李君はタバコを吸って、先生を怒らせてしまいました。
-- 田中さんは面白い話をしました。私達は笑いました。
-  * 田中さんは面白い話をして、私達を笑(わら)わせました。
+- A + は + B + を + Vさせる (transitive or intransitive based verbs)
+- A + は + B + に + object + を + Vさせる (transitive based verbs)
+- 弟は病気をして、両親を心配させました。
+- 李君はタバコを吸って、先生を怒(おこ)らせてしまいました。
+- 田中さんは面白い話をして、私達を笑(わら)わせました。
 
 ### to be made to do something by someone (in a negative sense)
 
 - [conjugation](./conjugations.md)
 - B + は/が + A + に + Vさせられる / Vされる (shortened form)
-  * shortened form Vされる applies only to 五段動詞 and does not apply to those ending in す, 変格動詞(する and 来る) or 一段動詞
-- 先生は私たちに日本語で手紙を書かせました。
-  * 私たちは先生に日本語で手紙を書かされました。
-- 先生は私に難しい読解文を読ませました。
-  * 私は先生に難しい読解文を読まされました。
-- ガールフレンドはブラウンさんを一時間も待たせました。
-  * ブラウンさんはガールフレンドに一時間も待たされました。
-- 山田教授(きょうじゅ)は私に何度もレポートを直させました。
-  * 私は山田教授に何度もレポートを直させられました。
-- 社長は李さんに会社を辞めさせました。
-  * 李さんは社長に会社を辞めさせられました。
-- 監督(かんとく)はいつも選手たちに厳しい練習をさせます。
-  * 選手たちはいつも監督に厳しい練習をさせられます。
-- 社長は山田さんを日曜日も会社に来(こ)させました。
-  * 山田さんは社長に日曜日も会社に来(こ)させられました。
+  * shortened form Vされる applies only to 五段動詞 and does not apply to those
+    ending in す, 変格動詞(する and 来る) or 一段動詞
+- 私たちは先生に日本語で手紙を書かされました。
+- 私は先生に難しい読解(どっかい)文を読まされました。
+- ブラウンさんはガールフレンドに一時間も待たされました。
+- 私は山田教授(きょうじゅ)に何度もレポートを直させられました。
+- 李さんは社長に会社を辞めさせられました。
+- 選手たちはいつも監督(かんとく)に厳しい練習をさせられます。
+- 山田さんは社長に日曜日も会社に来(こ)させられました。
 - 私は母に嫌いな人参(にんじん)を食べさせられました。
 - 私は先生に立たされました。
-- この子は子供のころ、よく熱を出したので、私たちを心配させました。
-  * この子は子供のころ、よく熱を出したので、私たちは心配させられました。
-- あの人はいつも私たちを困らせています。
-  * 私たちはあの人にはいつも困らされています。
+- この子は子供のころ、よく熱を出したので、私たちは心配させられました。
+- 私たちはあの人にはいつも困らされています。
 
 ### changing one state to another
 
@@ -3440,8 +3416,8 @@ ____
 
 ### doing something for the first time or last time
 
-- noun + は + noun (timing) + が + 初めてだ / 最初だ / 最後だ。
-- Vる + のは + noun (timing) + が + 初めてだ / 最初だ / 最後だ。
+- noun + は + noun + が + 初めて/最初/最後 + だ。
+- Vる + のは + noun + が + 初めて/最初/最後 + だ。
 - 海外旅行をするのは今度が初めてです。
 - 懐石(かいせき)料理を食べたのは今日が初めてです。
 - あの選手がオリンピックに出るのは今度が最後でしょう。
