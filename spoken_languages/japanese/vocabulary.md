@@ -1147,6 +1147,7 @@ ____
   floor
 - 屋上 (おくじょう) - rooftop
 - ガソリンスタンド - gas station
+- 近所 (きんじょ) - neighbourhood; neighborhood; vicinity
 - 空港 (くうこう) - airport
 - 工場 (こうじょう) - factory
 - 市 (し) - city
@@ -2438,6 +2439,7 @@ ____
 
 ### nouns (transportation)
 
+- 運賃 (うんちん) - (passenger) fare
 - オートマチック - automatic transmission
 - 扉 (とびら) - door
 - 徒歩 (とほ) - on foot
@@ -3478,6 +3480,7 @@ ____
 - スイッチを入れる (スイッチをいれる) - to switch on
 - そうだね - sure; yeah; I know (aka そうだよね)
 - ただいま - I'm home
+- 楽しみにしています (たのしみにしています) - I'm looking forward to it
 - だけでなく - not only; not just; as well as
 - だろう - seems
 - だっけ - was it?
