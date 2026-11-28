@@ -323,6 +323,8 @@ sdcpp -m $HOME/.local/share/Stable-diffusion/v2-1_768-nonema-pruned.safetensors
 - references
   - [Guidelines for Respectful Use of
     AI](https://skamille.medium.com/guidelines-for-respectful-use-of-ai-affcc85d7072)
+  - [AI Coding Assistants (Linux
+    kernel)](https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst)
 - basic principles
   * do not ask someone to read or review what you have not read or reviewed
     yourself
@@ -346,3 +348,9 @@ sdcpp -m $HOME/.local/share/Stable-diffusion/v2-1_768-nonema-pruned.safetensors
     + put a summary of the important points up-front in long documents
       - if readers would ask AI to summarise it, do that work before sending
     + if a text exchange keeps getting longer, have a call or meeting instead
+  * AI follows the same process as humans
+    + the same development process, coding style and pull request guidelines
+      apply to AI-assisted work
+  * a human is accountable for every AI contribution
+    + the human submitter reviews all generated code and takes full
+      responsibility for the change
