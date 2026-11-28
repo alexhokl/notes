@@ -127,3 +127,13 @@ ____
 - 驚 - [mojinavi](https://mojinavi.com/d/u9a5a#i-2) | [jisho](https://jisho.org/search/%E9%A9%9A%20%23kanji)
 - 確 - [mojinavi](https://mojinavi.com/d/u78ba#i-2) | [jisho](https://jisho.org/search/%E7%A2%BA%20%23kanji)
 - 夢 - [mojinavi](https://mojinavi.com/d/u5922#i-2) | [jisho](https://jisho.org/search/%E5%A4%A2%20%23kanji)
+
+- 挙
+- 貸
+- 直
+- 越
+- 雪
+- 譲
+- 捜
+- 汚
+- 望
