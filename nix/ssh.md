@@ -5,6 +5,7 @@
   * [File transfer](#file-transfer)
   * [Configuration](#configuration)
   * [Tunneling](#tunneling)
+  * [Escape sequences](#escape-sequences)
   * [Agent forwarding](#agent-forwarding)
     + [SSH agent](#ssh-agent)
     + [GPG agent](#gpg-agent)
@@ -99,6 +100,12 @@ to map port 5601 from a local machine to port 8080 of a remote machine
 ```sh
 ssh -R 8080:127.0.0.1:5601 username@remote-machine
 ```
+
+## Escape sequences
+
+##### To exit a frozen SSH session
+
+Press <kbd>enter</kbd> <kbd>~</kbd> <kbd>.</kbd> in sequence.
 
 ## Agent forwarding
 

@@ -4,6 +4,8 @@
 - [Scripting](#scripting)
   * [command substitution](#command-substitution)
   * [process substitution](#process-substitution)
+  * [glob](#glob)
+  * [redirection](#redirection)
   * [string](#string)
   * [list and range](#list-and-range)
   * [for](#for)
@@ -32,6 +34,8 @@ ____
 - [Bashly](https://bashly.dannyb.co/) - a command line application (written in
   Ruby) to generate feature-rich bash command line tools
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
+- [Terminal cheat sheet](https://wizardzines.com/terminal-cheat-sheet.pdf) - by
+  Julia Evans (Wizard Zines)
 
 ## Terminal
 
@@ -44,16 +48,27 @@ ____
 | <kbd>ctrl</kbd><kbd>u</kbd>             | to cut to the beginning of a line                                         |
 | <kbd>ctrl</kbd><kbd>y</kbd>             | to paste already cut text                                                 |
 | <kbd>alt</kbd><kbd>b</kbd>              | to skip one word backward                                                 |
-| <kbd>alt</kbd><kbd>f</kbd>              | to advance one work forward                                               |
+| <kbd>alt</kbd><kbd>f</kbd>              | to advance one word forward                                               |
+| <kbd>ctrl</kbd><kbd>←</kbd>             | to skip one word backward (in some terminals)                             |
+| <kbd>ctrl</kbd><kbd>→</kbd>             | to advance one word forward (in some terminals)                           |
+| <kbd>ctrl</kbd><kbd>h</kbd>             | to delete a character backward (if <kbd>backspace</kbd> does not work)    |
 | <kbd>alt</kbd><kbd>d</kbd>              | to delete until the end of the current word include the current character |
 | <kbd>ctrl</kbd><kbd>x</kbd><kbd>e</kbd> | to edit the current command in default editor                             |
 | <kbd>alt</kbd><kbd>.</kbd>              | to paste the last argument of the last command                            |
 | <kbd>alt</kbd><kbd>2</kbd>              | to copy the 2nd argument of the last command                              |
 | <kbd>ctrl</kbd><kbd>/</kbd>             | to undo                                                                   |
 | <kbd>ctrl</kbd><kbd>_</kbd>             | to redo                                                                   |
-| `reset`                                 | to reset the current shell                                                |
+| <kbd>ctrl</kbd><kbd>c</kbd>             | to quit the running program (SIGINT)                                      |
+| <kbd>ctrl</kbd><kbd>z</kbd>             | to stop the running program (SIGTSTP); resume with `fg` or `bg`           |
+| <kbd>ctrl</kbd><kbd>d</kbd>             | to send EOF; quits a REPL or the shell                                    |
+| <kbd>ctrl</kbd><kbd>\\</kbd>            | to quit the running program and dump core (SIGQUIT)                       |
+| <kbd>ctrl</kbd><kbd>l</kbd>             | to clear the screen                                                       |
+| <kbd>ctrl</kbd><kbd>s</kbd>             | to freeze the screen                                                      |
+| <kbd>ctrl</kbd><kbd>q</kbd>             | to unfreeze the screen                                                    |
+| `clear`                                 | to clear the screen                                                       |
+| `reset`                                 | to reset the terminal when its output is messed up                        |
 | `fc`                                    | to edit the last command in the default editor                            |
-| <kbd>ctrl</kbd><kbd>r</kbd>             | to search commands in history
+| <kbd>ctrl</kbd><kbd>r</kbd>             | to search commands in history                                             |
 
 ## Shortcuts
 
@@ -73,6 +88,18 @@ echo $$
 
 ```sh
 sudo !!
+```
+
+##### To show command history
+
+```sh
+history
+```
+
+##### To repeat command 33 in history
+
+```sh
+!33
 ```
 
 To repeat the last parameter of the last command (space delimited)
@@ -111,6 +138,68 @@ delta <(cat a.txt) <(cat b.txt)
 
 ```sh
 ${f/\.txt/\.pdf}
+```
+
+### glob
+
+##### To expand file names
+
+```sh
+ls *.png
+```
+
+##### To expand file names in all sub-directories
+
+```sh
+shopt -s globstar
+wc **/*.txt
+```
+
+`globstar` is off by default in bash; zsh and fish support `**` out of the box.
+
+##### To expand file names starting with a dot
+
+```sh
+ls .*
+```
+
+### redirection
+
+##### To redirect stdout to a file
+
+```sh
+cmd > file.txt
+```
+
+##### To append stdout to a file
+
+```sh
+cmd >> file.txt
+```
+
+##### To send a file to stdin
+
+```sh
+cmd < file.txt
+```
+
+##### To redirect stderr to a file
+
+```sh
+cmd 2> file.txt
+```
+
+##### To redirect both stdout and stderr to a file
+
+```sh
+cmd > file.txt 2>&1
+cmd &> file.txt
+```
+
+##### To pipe both stdout and stderr
+
+```sh
+cmd1 2>&1 | cmd2
 ```
 
 ### list and range
@@ -216,6 +305,15 @@ sites=$(eval "echo \$${DEPLOYMENT_TYPE}_sites")
 echo $PATH | tr ':' '\n'
 ```
 
+##### To set a variable for one command only
+
+```sh
+env NAME=value cmd
+NAME=value cmd
+```
+
+`env` behaves the same in every shell (including fish).
+
 ##### to modify PATH
 
 ```sh
@@ -224,6 +322,15 @@ vi t1
 export PATH=$(cat t1)
 ```
 
+##### To add a directory to PATH
+
+```sh
+export PATH=$PATH:/my/dir
+export PATH=/my/dir:$PATH
+```
+
+The first appends it at the end and the second prepends it at the beginning.
+
 ##### To list all possible paths of a program
 
 ```sh
@@ -231,6 +338,12 @@ which -a program
 ```
 
 This also shows the order of the paths.
+
+##### To check if a command is an alias, a function, a builtin or a program
+
+```sh
+type cmd
+```
 
 ## Recipes
 
@@ -413,17 +526,56 @@ fuser -v /path/to/file
 fuser -v -n tcp 3000
 ```
 
+##### To kill a process with SIGKILL (which cannot be ignored)
+
+```sh
+kill -9 PID
+```
+
 ##### To kill all processes by name
 
 ```sh
 killall your-program-name
 ```
 
+##### To kill all processes with a name anywhere in its arguments
+
+```sh
+pkill python3
+```
+
+##### To manage jobs
+
+```sh
+jobs
+fg %2
+bg %2
+```
+
+- `jobs` lists numbered jobs which can be referred to as `%2`
+- `fg` resumes a job in foreground and `bg` resumes it in background
+- <kbd>ctrl</kbd><kbd>z</kbd> pauses the job running in foreground
+
 ##### To keep all processes running after exiting the current terminal
 
 ```sh
 disown -a && exit
 ```
+
+##### To keep a job running after the terminal is closed
+
+```sh
+nohup cmd
+disown %1
+```
+
+##### To force a program not to buffer its output
+
+```sh
+unbuffer cmd
+```
+
+`unbuffer` (from `expect`) makes the output of the program a TTY.
 
 ##### To check available memory
 
