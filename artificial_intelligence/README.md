@@ -36,6 +36,7 @@
     + [To download model files](#to-download-model-files)
     + [Models](#models)
     + [Commands](#commands-3)
+- [Use of AI](#use-of-ai)
 ____
 
 # Links
@@ -317,3 +318,31 @@ sdcpp -m $HOME/.local/share/Stable-diffusion/v2-1_768-nonema-pruned.safetensors
 -p 'a lovely cat' -o a_lovely_cat.png
 ```
 
+# Use of AI
+
+- references
+  - [Guidelines for Respectful Use of
+    AI](https://skamille.medium.com/guidelines-for-respectful-use-of-ai-affcc85d7072)
+- basic principles
+  * do not ask someone to read or review what you have not read or reviewed
+    yourself
+    + to avoid putting a huge validation tax onto teammates
+    + reviewers otherwise have to trust both the prompt and that AI understood
+      the context and problem well enough
+    + a loop of AI generation, AI review and AI fixes is fine, as long as a
+      human reviews it before asking others to review
+    + read generated documents thoroughly before sending
+      - context in your head while prompting may not appear in the document
+      - answers that make sense one at a time may not make a good document
+    + be able to explain and discuss the concepts of what you send
+      - if not, state that it is AI-generated and that you do not understand
+        the space yet
+  * shorter is better
+    + AI output tends to be long-winded (tutorial-like code, 10-20 page
+      documents that should be 3, walls of text in chat or mail)
+    + break big changes into smaller pull requests instead of one-shotting them
+    + test for code: could you debug it at 3am with no AI tools, from the PR
+      context and the change alone
+    + put a summary of the important points up-front in long documents
+      - if readers would ask AI to summarise it, do that work before sending
+    + if a text exchange keeps getting longer, have a call or meeting instead
