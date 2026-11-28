@@ -28,18 +28,24 @@ ____
 - 広 - [mojinavi](https://mojinavi.com/d/u5e83#i-2) | [jisho](https://jisho.org/search/%E5%BA%83%20%23kanji)
 - 高 - [mojinavi](https://mojinavi.com/d/u9ad8#i-2) | [jisho](https://jisho.org/search/%E9%AB%98%20%23kanji)
 - 食 - [mojinavi](https://mojinavi.com/d/u98df#i-2) | [jisho](https://jisho.org/search/%E9%A3%9F%20%23kanji)
+- 察 - [mojinavi](https://mojinavi.com/d/u5bdf#i-2) | [jisho](https://jisho.org/search/%E5%AF%9F%20%23kanji)
+- 実 - [mojinavi](https://mojinavi.com/d/u5b9f#i-2) | [jisho](https://jisho.org/search/%E5%AE%9F%20%23kanji)
 
 ## 糸部
 
 - 緑 - [mojinavi](https://mojinavi.com/d/u7dd1#i-2) | [jisho](https://jisho.org/search/%E7%B7%91%20%23kanji)
+- 孫 - [mojinavi](https://mojinavi.com/d/u5b6b#i-2) | [jisho](https://jisho.org/search/%E5%AD%AB%20%23kanji)
 
 ## 艸部
 
 - 草 - [mojinavi](https://mojinavi.com/d/u8349#i-2) | [jisho](https://jisho.org/search/%E8%8D%89%20%23kanji)
+- 夢 - [mojinavi](https://mojinavi.com/d/u5922#i-2) | [jisho](https://jisho.org/search/%E5%A4%A2%20%23kanji)
+- 驚 - [mojinavi](https://mojinavi.com/d/u9a5a#i-2) | [jisho](https://jisho.org/search/%E9%A9%9A%20%23kanji)
 
 ## 竹部
 
 - 箱 - [mojinavi](https://mojinavi.com/d/u7bb1#i-2) | [jisho](https://jisho.org/search/%E7%AE%B1%20%23kanji)
+- 管 - [mojinavi](https://mojinavi.com/d/u7ba1#i-2) | [jisho](https://jisho.org/search/%E7%AE%A1%20%23kanji)
 
 
 ## top 艸 and stroke all down
@@ -56,6 +62,8 @@ ____
 
 - 学 - [mojinavi](https://mojinavi.com/d/u5b66#i-2) | [jisho](https://jisho.org/search/%E5%AD%A6%20%23kanji)
 - 覚 - [mojinavi](https://mojinavi.com/d/u899a#i-2) | [jisho](https://jisho.org/search/%E8%A6%9A%20%23kanji)
+- 挙 - [mojinavi](https://mojinavi.com/d/u6319#i-2) | [jisho](https://jisho.org/search/%E6%8C%99%20%23kanji)
+- 当 - [mojinavi](https://mojinavi.com/d/u5f53#i-2) | [jisho](https://jisho.org/search/%E5%BD%93%20%23kanji)
 
 ## self
 
@@ -90,6 +98,7 @@ ____
 
 - 雨 - [mojinavi](https://mojinavi.com/d/u96e8#i-2) | [jisho](https://jisho.org/search/%E9%9B%A8%20%23kanji)
 - 電 - [mojinavi](https://mojinavi.com/d/u96fb#i-2) | [jisho](https://jisho.org/search/%E9%9B%BB%20%23kanji)
+- 雪 - [mojinavi](https://mojinavi.com/d/u96ea#i-2) | [jisho](https://jisho.org/search/%E9%9B%AA%20%23kanji)
 
 ## ear
 
@@ -109,31 +118,17 @@ ____
 ## Others
 
 - 肩 - [mojinavi](https://mojinavi.com/d/u80a9#i-2) | [jisho](https://jisho.org/search/%E8%82%A9%20%23kanji)
-- 察 - [mojinavi](https://mojinavi.com/d/u5bdf#i-2) | [jisho](https://jisho.org/search/%E5%AF%9F%20%23kanji)
 - 汚 - [mojinavi](https://mojinavi.com/d/u6c5a#i-2) | [jisho](https://jisho.org/search/%E6%B1%9A%20%23kanji)
 - 捜 - [mojinavi](https://mojinavi.com/d/u635c#i-2) | [jisho](https://jisho.org/search/%E6%8D%9C%20%23kanji)
-- 実 - [mojinavi](https://mojinavi.com/d/u5b9f#i-2) | [jisho](https://jisho.org/search/%E5%AE%9F%20%23kanji)
 - 届 - [mojinavi](https://mojinavi.com/d/u5c4a#i-2) | [jisho](https://jisho.org/search/%E5%B1%8A%20%23kanji)
 - 鳴 - [mojinavi](https://mojinavi.com/d/u9cf4#i-2) | [jisho](https://jisho.org/search/%E9%B3%B4%20%23kanji)
 - 発 - [mojinavi](https://mojinavi.com/d/u767a#i-2) | [jisho](https://jisho.org/search/%E7%99%BA%20%23kanji)
-- 当 - [mojinavi](https://mojinavi.com/d/u5f53#i-2) | [jisho](https://jisho.org/search/%E5%BD%93%20%23kanji)
-- 管 - [mojinavi](https://mojinavi.com/d/u7ba1#i-2) | [jisho](https://jisho.org/search/%E7%AE%A1%20%23kanji)
 - 横 - [mojinavi](https://mojinavi.com/d/u6a2a#i-2) | [jisho](https://jisho.org/search/%E6%A8%AA%20%23kanji)
-- 挙 - [mojinavi](https://mojinavi.com/d/u6319#i-2) | [jisho](https://jisho.org/search/%E6%8C%99%20%23kanji)
 - 譲 - [mojinavi](https://mojinavi.com/d/u8b72#i-2) | [jisho](https://jisho.org/search/%E8%AD%B2%20%23kanji)
 - 探 - [mojinavi](https://mojinavi.com/d/u63a2#i-2) | [jisho](https://jisho.org/search/%E6%8E%A2%20%23kanji)
 - 違 - [mojinavi](https://mojinavi.com/d/u9055#i-2) | [jisho](https://jisho.org/search/%E9%81%95%20%23kanji)
-- 孫 - [mojinavi](https://mojinavi.com/d/u5b6b#i-2) | [jisho](https://jisho.org/search/%E5%AD%AB%20%23kanji)
-- 驚 - [mojinavi](https://mojinavi.com/d/u9a5a#i-2) | [jisho](https://jisho.org/search/%E9%A9%9A%20%23kanji)
 - 確 - [mojinavi](https://mojinavi.com/d/u78ba#i-2) | [jisho](https://jisho.org/search/%E7%A2%BA%20%23kanji)
-- 夢 - [mojinavi](https://mojinavi.com/d/u5922#i-2) | [jisho](https://jisho.org/search/%E5%A4%A2%20%23kanji)
-
-- 挙
-- 貸
-- 直
-- 越
-- 雪
-- 譲
-- 捜
-- 汚
-- 望
+- 貸 - [mojinavi](https://mojinavi.com/d/u8cb8#i-2) | [jisho](https://jisho.org/search/%E8%B2%B8%20%23kanji)
+- 直 - [mojinavi](https://mojinavi.com/d/u76f4#i-2) | [jisho](https://jisho.org/search/%E7%9B%B4%20%23kanji)
+- 越 - [mojinavi](https://mojinavi.com/d/u8d8a#i-2) | [jisho](https://jisho.org/search/%E8%B6%8A%20%23kanji)
+- 望 - [mojinavi](https://mojinavi.com/d/u671b#i-2) | [jisho](https://jisho.org/search/%E6%9C%9B%20%23kanji)
