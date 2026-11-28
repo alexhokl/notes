@@ -1936,6 +1936,7 @@ ____
 - 除く (のぞく) - to remove; to exclude; to kill (opponent)
 - 計る (はかる) - to measure; to weigh; to survey; to time; to infer
 - 履く (はく) - to wear (lower body clothing, footwear)
+- 話し合う (はなしあう) - to discuss; to talk together
 - 含む (ふくむ) - to include; to embrace
 - 減らす (へらす) - to abate; to decrease; to diminish; to shorten
 - 守る (まもる) - to protect; to guard; to defend; to keep (a promise)
